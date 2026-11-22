@@ -1,7 +1,7 @@
 {
   "block": {
     "name": "choice",
-    "text": "<p>void foo(const int* ptr)<br>\n{<br>\n    *ptr = 100;<br>\n}</p>\n\n<p>int main(void)<br>\n{<br>\n    int x = 200;<br>\n    int* ptr = &amp;x;<br>\n    std::cout &lt;&lt; \"Before x = \" &lt;&lt; x &lt;&lt; \";\" &lt;&lt; \"\\t\";<br>\n    foo(ptr);<br>\n    std::cout &lt;&lt; \"After x = \" &lt;&lt; x &lt;&lt; std::endl;<br>\n    return 0;<br>\n}</p>\n\n<p>Что выведет данная программа?</p>",
+    "text": "<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n\nvoid foo(const int* ptr)\n{\n*ptr = 100;\n}\n\nint main(void)\n{\nint x = 200;\nint* ptr = &amp;x;\nstd::cout &lt;&lt; \"Before x = \" &lt;&lt; x &lt;&lt; \";\" &lt;&lt; \"\\t\";\nfoo(ptr);\nstd::cout &lt;&lt; \"After x = \" &lt;&lt; x &lt;&lt; std::endl;\nreturn 0;\n}</code></pre>\n\n<p>Что выведет данная программа?</p>",
     "video": null,
     "options": {
       "is_multiple_choice": false
@@ -23,7 +23,7 @@
         },
         {
           "is_correct": false,
-          "text": "Before call foo() x = 200;      After call foo() x = 200",
+          "text": "Before x = 200;      After x = 200",
           "feedback": ""
         },
         {
@@ -33,7 +33,7 @@
         },
         {
           "is_correct": false,
-          "text": "Before call foo() x = 200;      After call foo() x = 100",
+          "text": "Before x = 200;      After x = 100",
           "feedback": ""
         }
       ]

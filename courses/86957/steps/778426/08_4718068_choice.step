@@ -1,7 +1,7 @@
 {
   "block": {
     "name": "choice",
-    "text": "<p>Определите неправильный вариант.</p>",
+    "text": "<p>Выберите соотношение, которое неверно для типов MSVC x64. Знаки = здесь обозначают математическое равенство размеров.</p>",
     "video": null,
     "options": {
       "is_multiple_choice": false
@@ -18,7 +18,7 @@
       "options": [
         {
           "is_correct": false,
-          "text": "sizeof(N) = sizeof(signed N) = sizeof(unsigned N)",
+          "text": "sizeof(int) = sizeof(signed int) = sizeof(unsigned int)",
           "feedback": ""
         },
         {

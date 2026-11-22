@@ -1,0 +1,444 @@
+[
+  {
+    "source": "core_checks/malloc_array.c",
+    "step_ids": [
+      3213207
+    ],
+    "language": "c",
+    "standard": "c11",
+    "runs": [
+      {
+        "input": "4\n",
+        "returncode": 0
+      },
+      {
+        "input": "0\n",
+        "returncode": 1
+      },
+      {
+        "input": "",
+        "returncode": 1
+      }
+    ],
+    "compile_only": false,
+    "expect_compile": true,
+    "source_sha256": "9da638ecd240de00b75935ddd04f50ad918c386ee1ba3a9bd766752c66bba470",
+    "course_blocks": [
+      {
+        "step_id": 3213207,
+        "index": 0,
+        "sha256": "2ac8ed21c0af9954e7a6775df99598a26ee07fb7ecb74fa6db101547fdd68e7c"
+      }
+    ]
+  },
+  {
+    "source": "core_checks/malloc_rows.c",
+    "step_ids": [
+      3213207
+    ],
+    "language": "c",
+    "standard": "c11",
+    "runs": [
+      {
+        "input": "",
+        "returncode": 0
+      }
+    ],
+    "compile_only": false,
+    "expect_compile": true,
+    "source_sha256": "d4baa9f548eab8bd2061690da81ee78cf2d84f101a5ecd8918daf3dff60afe98",
+    "course_blocks": [
+      {
+        "step_id": 3213207,
+        "index": 1,
+        "sha256": "5c435fa3ad2f5e267a8afadf3d0a0b319d695e1ff5b846cff36c655d1cfcf61a"
+      }
+    ]
+  },
+  {
+    "source": "core_checks/malloc_realloc.c",
+    "step_ids": [
+      3213207
+    ],
+    "language": "c",
+    "standard": "c11",
+    "runs": [
+      {
+        "input": "",
+        "returncode": 0
+      }
+    ],
+    "compile_only": false,
+    "expect_compile": true,
+    "source_sha256": "85b3de989a6f7483ca616ea711d76c5c857f204fef4f241b3e796500c6a96fb1",
+    "course_blocks": []
+  },
+  {
+    "source": "core_checks/word_growth.c",
+    "step_ids": [
+      3213207
+    ],
+    "language": "c",
+    "standard": "c11",
+    "runs": [
+      {
+        "input": "a b c d e f g h i j k end\n",
+        "returncode": 0,
+        "stdout": "a\nb\nc\nd\ne\nf\ng\nh\ni\nj\nk\n"
+      },
+      {
+        "input": "one two",
+        "returncode": 0,
+        "stdout": "one\ntwo\n"
+      },
+      {
+        "input": "",
+        "returncode": 0,
+        "stdout": ""
+      }
+    ],
+    "compile_only": false,
+    "expect_compile": true,
+    "source_sha256": "57144fca014b724904d575a6bc49c460082c0231a15647a0ab2c3ec2d5d46810",
+    "course_blocks": [
+      {
+        "step_id": 3213207,
+        "index": 5,
+        "sha256": "fa7d07da6968ac0d25ef48c68a1f30d3a5efa85acd9e535a0719a0c9c221ebc5"
+      }
+    ]
+  },
+  {
+    "source": "core_checks/sum_call.cpp",
+    "step_ids": [
+      3212949
+    ],
+    "language": "cpp",
+    "standard": "c++17",
+    "runs": [
+      {
+        "input": "",
+        "returncode": 0,
+        "stdout": "The value of j is 108\n"
+      }
+    ],
+    "compile_only": false,
+    "expect_compile": true,
+    "source_sha256": "bbab6fd20ab4284c3325259c265ca08f5c0293aefa43869b4f8ce272df0d53c8",
+    "course_blocks": []
+  },
+  {
+    "source": "core_checks/pointer_chain.cpp",
+    "step_ids": [
+      3212991
+    ],
+    "language": "cpp",
+    "standard": "c++17",
+    "runs": [
+      {
+        "input": "",
+        "returncode": 0,
+        "contains": [
+          "*ptrvar",
+          "**ptr_ptrvar",
+          "***ptr_ptr_ptrvar",
+          "123"
+        ]
+      }
+    ],
+    "compile_only": false,
+    "expect_compile": true,
+    "source_sha256": "f09635a6fa213c0d6267c48e0cb8b932c7ee7372dbc3a202f9d0ae4bc6356809",
+    "course_blocks": [
+      {
+        "step_id": 3212991,
+        "index": 0,
+        "sha256": "950f91a1bf3a3edc48a3bce6175f46435008726e6ada9a27874152f9fc4090cd"
+      }
+    ]
+  },
+  {
+    "source": "core_checks/huge_allocation_compile_only.cpp",
+    "step_ids": [
+      3212946
+    ],
+    "language": "cpp",
+    "standard": "c++17",
+    "runs": [],
+    "compile_only": true,
+    "expect_compile": true,
+    "source_sha256": "cc9d7726d90e67c97606533a75e810454670e3f260e670b4fe8fd81129a01622",
+    "course_blocks": [
+      {
+        "step_id": 3212946,
+        "index": 1,
+        "sha256": "283d845dccd5ab571a8ef0e1c70fc90301587b2e641533f697f43aea7bb6839d"
+      }
+    ]
+  },
+  {
+    "source": "core_checks/string_assign.cpp",
+    "step_ids": [
+      3212948
+    ],
+    "language": "cpp",
+    "standard": "c++17",
+    "runs": [
+      {
+        "input": "",
+        "returncode": 0
+      }
+    ],
+    "compile_only": false,
+    "expect_compile": true,
+    "source_sha256": "c4dba417a47eff41429cbef078aaab9b9b551c82ad518e78aba6283a09e182d6",
+    "course_blocks": []
+  },
+  {
+    "source": "core_checks/string_operations.cpp",
+    "step_ids": [
+      3214902
+    ],
+    "language": "cpp",
+    "standard": "c++17",
+    "runs": [
+      {
+        "input": "",
+        "returncode": 0
+      }
+    ],
+    "compile_only": false,
+    "expect_compile": true,
+    "source_sha256": "f5c6ab79834ab7b436d20e644fc60c457494ee9fa712abb3243855f94fa348ed",
+    "course_blocks": []
+  },
+  {
+    "source": "core_checks/input_and_count.cpp",
+    "step_ids": [
+      3253429
+    ],
+    "language": "cpp",
+    "standard": "c++17",
+    "runs": [
+      {
+        "input": "2\n9\n10\n",
+        "returncode": 0,
+        "answers": [
+          1,
+          1
+        ]
+      },
+      {
+        "input": "",
+        "returncode": 1,
+        "stderr_contains": "Input ended"
+      },
+      {
+        "input": "1\n",
+        "returncode": 1,
+        "stderr_contains": "Input ended"
+      },
+      {
+        "input": "bad\n0\n1\n9\n",
+        "returncode": 0,
+        "answers": [
+          1
+        ]
+      },
+      {
+        "input": "1\n1000000000\n",
+        "returncode": 0,
+        "answers": [
+          100000000
+        ]
+      }
+    ],
+    "compile_only": false,
+    "expect_compile": true,
+    "source_sha256": "0375613d1c14c686d63b1bbd46beff891d3e5062bae61b24f985c88691d12f84",
+    "course_blocks": [
+      {
+        "step_id": 3253429,
+        "index": 2,
+        "sha256": "0d69832d1624cdd2998f8c7f0b1de6f1752f1b2ce875a15796712bc9b941085b"
+      }
+    ]
+  },
+  {
+    "source": "core_checks/recursive_factorial.cpp",
+    "step_ids": [
+      3214978
+    ],
+    "language": "cpp",
+    "standard": "c++17",
+    "runs": [
+      {
+        "input": "",
+        "returncode": 0,
+        "contains": [
+          "120"
+        ]
+      }
+    ],
+    "compile_only": false,
+    "expect_compile": true,
+    "source_sha256": "3e8600c4971a4bae876c2ffc1e99e2109a254373a26a6cb6cfcc78927bda2f8f",
+    "course_blocks": [
+      {
+        "step_id": 3214978,
+        "index": 0,
+        "sha256": "8344e988a2e8a0a0e22cc19d470c10122ca3ba7d225118793c7625f9c09ab7b8"
+      }
+    ]
+  },
+  {
+    "source": "core_checks/negative_index.cpp",
+    "step_ids": [
+      3212995
+    ],
+    "language": "cpp",
+    "standard": "c++17",
+    "runs": [
+      {
+        "input": "",
+        "returncode": 0,
+        "stdout": "10"
+      }
+    ],
+    "compile_only": false,
+    "expect_compile": true,
+    "source_sha256": "601b51d97d02c9f5c28add3912873955b51e4f28d9392a1c9a58632d5e44462a",
+    "course_blocks": []
+  },
+  {
+    "source": "core_checks/range_bounds.cpp",
+    "step_ids": [
+      3215024
+    ],
+    "language": "cpp",
+    "standard": "c++17",
+    "runs": [
+      {
+        "input": "",
+        "returncode": 0,
+        "contains": [
+          "10"
+        ]
+      }
+    ],
+    "compile_only": false,
+    "expect_compile": true,
+    "source_sha256": "9945c902b065043cc123035cc4c3b6e9da7a8a7577d5257f34f08d8d2a281fe6",
+    "course_blocks": [
+      {
+        "step_id": 3215024,
+        "index": 7,
+        "sha256": "7cb01468c31244960f412f756699165359cdd08bacabc149318d1e47f8e1f440"
+      }
+    ]
+  },
+  {
+    "source": "core_checks/const_write_rejected.cpp",
+    "step_ids": [
+      3428581
+    ],
+    "language": "cpp",
+    "standard": "c++17",
+    "runs": [],
+    "compile_only": true,
+    "expect_compile": false,
+    "source_sha256": "104396675a6b01ed7b733a33f72c7f7e3bbec9271247b71c9aa25e4bb8b25121",
+    "course_blocks": [
+      {
+        "step_id": 3428581,
+        "index": 0,
+        "sha256": "9ff93bda9d49b76fbebbbe4223597652cbae5e0740e58600560c7be932e97708"
+      }
+    ]
+  },
+  {
+    "source": "core_checks/vla_rejected.cpp",
+    "step_ids": [
+      3330530
+    ],
+    "language": "cpp",
+    "standard": "c++17",
+    "runs": [],
+    "compile_only": true,
+    "expect_compile": false,
+    "source_sha256": "b697d5883a60b4d6b7e88c2ec78c6f391b1a4be09bdf9cd91f1cf1b25e76ae8e",
+    "course_blocks": []
+  },
+  {
+    "source": "core_checks/cbegin.cpp",
+    "step_ids": [
+      3212920
+    ],
+    "language": "cpp",
+    "standard": "c++14",
+    "runs": [
+      {
+        "input": "",
+        "returncode": 0
+      }
+    ],
+    "compile_only": false,
+    "expect_compile": true,
+    "source_sha256": "dc58a9c915a44c181e793968fc1b177453e5eda7bb267a8390be69dee4b8c008",
+    "course_blocks": []
+  },
+  {
+    "source": "core_checks/cbegin.cpp",
+    "step_ids": [
+      3212920
+    ],
+    "language": "cpp",
+    "standard": "c++11",
+    "runs": [],
+    "compile_only": true,
+    "expect_compile": false,
+    "source_sha256": "dc58a9c915a44c181e793968fc1b177453e5eda7bb267a8390be69dee4b8c008",
+    "course_blocks": []
+  },
+  {
+    "source": "core_checks/string_boundaries.cpp",
+    "step_ids": [
+      3212908,
+      3212945,
+      3214845,
+      3214904,
+      3423457,
+      3437788
+    ],
+    "language": "cpp",
+    "standard": "c++17",
+    "runs": [
+      {
+        "input": "",
+        "returncode": 0
+      }
+    ],
+    "compile_only": false,
+    "expect_compile": true,
+    "source_sha256": "f793cc420a632cc860d29a8890f1de9b56da31befebbd0404dae544f42949a3c",
+    "course_blocks": []
+  },
+  {
+    "source": "core_checks/unique_owner.cpp",
+    "step_ids": [
+      4718115
+    ],
+    "language": "cpp",
+    "standard": "c++17",
+    "runs": [
+      {
+        "input": "",
+        "returncode": 0
+      }
+    ],
+    "compile_only": false,
+    "expect_compile": true,
+    "source_sha256": "f7bbc93ef098ec1b31b462b92e56f22c2d1499906e60bfaa8c299ea81aa28d8a",
+    "course_blocks": []
+  }
+]

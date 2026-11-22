@@ -1,7 +1,7 @@
 {
   "block": {
     "name": "choice",
-    "text": "<p>Выберите правильные утвреждения</p>",
+    "text": "<p>Выберите правильные утверждения. Считайте, что a — инициализированная переменная типа int.</p>",
     "video": null,
     "options": {
       "is_multiple_choice": true
@@ -23,22 +23,22 @@
         },
         {
           "is_correct": false,
-          "text": "1 || 1 && 0 - эквивалетно false",
+          "text": "1 || 1 &amp;&amp; 0 — эквивалентно false",
           "feedback": ""
         },
         {
           "is_correct": false,
-          "text": "0 & a - эквивалетно true при некоторых ненулевых значениях a",
+          "text": "0 &amp; a — эквивалентно true при некоторых ненулевых значениях a",
           "feedback": ""
         },
         {
           "is_correct": true,
-          "text": "значению true эквивалентны все ненулевые числа",
+          "text": "При преобразовании к bool все ненулевые числовые значения дают true",
           "feedback": ""
         },
         {
           "is_correct": true,
-          "text": "false & true - это то же самое, что false && true",
+          "text": "false &amp; true и false &amp;&amp; true оба дают false при преобразовании результата к bool",
           "feedback": ""
         }
       ]

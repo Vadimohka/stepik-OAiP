@@ -1,7 +1,7 @@
 {
   "block": {
     "name": "code",
-    "text": "<p> Циклом for удобно определять вложенные циклы. Например, выведем таблицу умножения:</p>",
+    "text": "<p>Вложенные циклы <code>for</code> позволяют обойти строки и столбцы таблицы. В этом примере они выводят таблицу умножения.</p>\n<p>На вход подаётся целое число <code>k</code>, <code>2 ≤ k ≤ 100</code>. Выведите таблицу из <code>k − 1</code> строк и <code>k − 1</code> столбцов: в строке <code>i</code> и столбце <code>j</code> должно стоять число <code>i · j</code>, где <code>1 ≤ i, j &lt; k</code>.</p>\n<p>Числа в строке разделяйте пробелами или табуляцией, каждую строку таблицы начинайте с новой строки. Запустите предложенный код и проследите, как меняются счётчики обоих циклов.</p>\n",
     "video": null,
     "options": {
       "execution_time_limit": 5,
@@ -33,7 +33,7 @@
     "subtitle_files": [],
     "is_deprecated": false,
     "source": {
-      "code": "# This is a sample Code Challenge\n# Learn more: https://stepik.org/lesson/9173\n# Ask your questions via support@stepik.org\n\ndef generate():\n    return []\n\ndef check(reply, clue):\n    return reply.strip() == clue.strip()\n\n# def solve(dataset):\n#     a, b = dataset.split()\n#     return str(int(a) + int(b))",
+      "code": "def generate():\n    return []\n\ndef check(reply, clue):\n    return reply.split() == clue.split()\n",
       "execution_time_limit": 5,
       "execution_memory_limit": 256,
       "samples_count": 1,
@@ -48,6 +48,14 @@
         [
           "10",
           "1\t2\t3\t4\t5\t6\t7\t8\t9\n2\t4\t6\t8\t10\t12\t14\t16\t18\n3\t6\t9\t12\t15\t18\t21\t24\t27\n4\t8\t12\t16\t20\t24\t28\t32\t36\n5\t10\t15\t20\t25\t30\t35\t40\t45\n6\t12\t18\t24\t30\t36\t42\t48\t54\n7\t14\t21\t28\t35\t42\t49\t56\t63\n8\t16\t24\t32\t40\t48\t56\t64\t72\n9\t18\t27\t36\t45\t54\t63\t72\t81"
+        ],
+        [
+          "2",
+          "1"
+        ],
+        [
+          "4",
+          "1 2 3\n2 4 6\n3 6 9"
         ]
       ]
     },

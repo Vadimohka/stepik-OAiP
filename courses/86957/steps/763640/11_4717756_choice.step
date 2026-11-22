@@ -1,7 +1,7 @@
 {
   "block": {
     "name": "choice",
-    "text": "<p>Что является логическим оператором для логического и ?</p>",
+    "text": "<p>Какой оператор C++ выполняет логическое И?</p>",
     "video": null,
     "options": {
       "is_multiple_choice": false

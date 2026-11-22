@@ -1,7 +1,7 @@
 {
   "block": {
     "name": "choice",
-    "text": "<p>int x = 5;<br>\nint* intPtr = &amp;x; // intPtr = 0x0000001D3E3FF714<br>\nvoid* voidPtr = (void*)intPtr;</p>\n\n<p>std::cout &lt;&lt; *voidPtr &lt;&lt; std::endl;</p>\n\n<p>Что выведет данная программа (<code>sizeof(int) = 4</code>)?</p>",
+    "text": "<pre><code class=\"language-cpp\">int x = 5;\nint* intPtr = &amp;x; // intPtr = 0x0000001D3E3FF714\nvoid* voidPtr = (void*)intPtr;\n\nstd::cout &lt;&lt; *voidPtr &lt;&lt; std::endl;</code></pre>\n\n<p>Что выведет данная программа (<code>sizeof(int) = 4</code>)?</p>",
     "video": null,
     "options": {
       "is_multiple_choice": false

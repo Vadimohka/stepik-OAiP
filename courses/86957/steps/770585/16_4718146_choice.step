@@ -1,7 +1,7 @@
 {
   "block": {
     "name": "choice",
-    "text": "<p>Что используется для разыменования?</p>",
+    "text": "<p>Как записать разыменование указателя p на существующий объект?</p>",
     "video": null,
     "options": {
       "is_multiple_choice": false
@@ -18,22 +18,22 @@
       "options": [
         {
           "is_correct": false,
-          "text": "значение со звездочкой",
+          "text": "&amp;p",
           "feedback": ""
         },
         {
           "is_correct": true,
-          "text": "указатель со звездочкой",
+          "text": "*p",
           "feedback": ""
         },
         {
           "is_correct": false,
-          "text": "указатель без звездочки",
+          "text": "p",
           "feedback": ""
         },
         {
           "is_correct": false,
-          "text": "значение без звездочки",
+          "text": "sizeof(p)",
           "feedback": ""
         }
       ]

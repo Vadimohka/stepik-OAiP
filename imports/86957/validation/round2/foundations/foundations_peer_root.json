@@ -1,0 +1,107 @@
+{
+  "status": "passed",
+  "steps": [
+    {
+      "step_id": 3177655,
+      "stored_tests": 3,
+      "independent_oracle": "passed"
+    },
+    {
+      "step_id": 3262772,
+      "stored_tests": 8,
+      "independent_oracle": "passed"
+    },
+    {
+      "step_id": 3262735,
+      "stored_tests": 7,
+      "independent_oracle": "passed"
+    },
+    {
+      "step_id": 3264578,
+      "stored_tests": 9,
+      "independent_oracle": "passed"
+    },
+    {
+      "step_id": 3269060,
+      "stored_tests": 15,
+      "independent_oracle": "passed"
+    },
+    {
+      "step_id": 3281287,
+      "stored_tests": 22,
+      "independent_oracle": "passed"
+    },
+    {
+      "step_id": 3281279,
+      "stored_tests": 11,
+      "independent_oracle": "passed"
+    },
+    {
+      "step_id": 4643238,
+      "stored_tests": 9,
+      "independent_oracle": "passed"
+    }
+  ],
+  "numeric_negative_checks": [
+    {
+      "step_id": 3262772,
+      "nonfinite_malformed_token_count_and_wrong_numeric_rejection": "passed"
+    },
+    {
+      "step_id": 3262735,
+      "nonfinite_malformed_token_count_and_wrong_numeric_rejection": "passed"
+    }
+  ],
+  "total_stored_tests": 84,
+  "extra_zero_and_dimension_cases": {
+    "3264578": {
+      "0 -2": "YES",
+      "-2 0": "YES",
+      "0 0": "ERROR",
+      "-7 7": "YES",
+      "7 3": "NO"
+    },
+    "3281279": {
+      "1 2 3 2 1": "YES",
+      "1 2 3 1 1": "NO",
+      "1 2 3 0 1": "Incorrect input",
+      "1 2 3 -1 1": "Incorrect input",
+      "2 3 1 1 2": "YES"
+    }
+  },
+  "table_template": {
+    "command": [
+      "g++",
+      "-std=c++17",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "cpp/peer_table_3177655.cpp",
+      "-o",
+      "build-peer-my1eknc_/peer_table_3177655"
+    ],
+    "sizes": [
+      2,
+      4,
+      10,
+      100
+    ],
+    "status": "passed"
+  },
+  "files_unchanged": true,
+  "step_sha256": {
+    "3177655": "c4bfebd11efbaa75f1ff40ad65539474d58ab9dd7a95e5b31f442093ca5dc750",
+    "3262772": "a23b5686549f322f75175ffbf657cd4dda9acd9b977302d1857e6866c75469fb",
+    "3262735": "259c48d239a83382af673a4cdb685b78c3ed4feda5d1cbadee806378a5cc082b",
+    "3264578": "d85489479f7bc250ebbc027c7316cb5e8e4c3a95203e0dacceb0d2260cbc1f4a",
+    "3269060": "21b00c5e515964dcd3a76a90adc6e900ade3377cfcdab7eaa6926533640cf668",
+    "3281287": "9347d8e24ae1b74e7681a77986acaa6709c1014fcb834b935e3236532287e917",
+    "3281279": "f76aa0797f2a33439ded6243b8c1d95ac03d98f3aed982db189d7b5a7e1d69a4",
+    "4643238": "a9b080ea9fd921388bce0cd844e33f7d1f63daabb2944873bf0a0f9957133f77"
+  },
+  "regressions": [],
+  "notes": [
+    "3177655 compares token order and ignores whitespace, including line boundaries; the supplied template formats rows as requested.",
+    "The C-only availability of 4643238 is a step setting retained intentionally; its mathematical identity is exact."
+  ]
+}

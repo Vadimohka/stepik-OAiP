@@ -1,7 +1,7 @@
 {
   "block": {
     "name": "choice",
-    "text": "<p>int** mat = new int[3];<br>\nfor (int i = 1; i &lt;= 3; ++i){<br>\n    mat[i] = new int[i];<br>\n}</p>\n\n<p>Выберите правильное утверждение.</p>",
+    "text": "<pre><code class=\"language-cpp\">int** mat = new int[3];\nfor (int i = 1; i &lt;= 3; ++i){\nmat[i] = new int[i];\n}</code></pre>\n\n<p>Выберите правильное утверждение.</p>",
     "video": null,
     "options": {
       "is_multiple_choice": false
@@ -28,7 +28,7 @@
         },
         {
           "is_correct": false,
-          "text": "создается двумерный динамический массив из одного элемента в первой строке, двух во второй, трех в третьей",
+          "text": "Создаётся таблица из трёх строк: один элемент в первой, два во второй и три в третьей.",
           "feedback": ""
         }
       ]

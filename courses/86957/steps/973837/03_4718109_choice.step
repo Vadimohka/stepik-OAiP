@@ -1,7 +1,7 @@
 {
   "block": {
     "name": "choice",
-    "text": "<p>Какой контейнер в C ++ будет принимать большие объекты?</p>",
+    "text": "<p>Какой из перечисленных контейнеров позволяет хранить последовательность объектов пользовательского типа T, число которых меняется во время выполнения? Считайте, что T удовлетворяет требованиям используемых операций контейнера.</p>",
     "video": null,
     "options": {
       "is_multiple_choice": false
@@ -18,23 +18,23 @@
       "options": [
         {
           "is_correct": false,
-          "text": "string",
-          "feedback": ""
+          "text": "std::string",
+          "feedback": "std::string хранит символы char, а не произвольный пользовательский T."
         },
         {
           "is_correct": true,
-          "text": "vector",
-          "feedback": ""
+          "text": "std::vector&lt;T&gt;",
+          "feedback": "vector — последовательный контейнер с изменяемым количеством элементов типа T."
         },
         {
           "is_correct": false,
-          "text": "class",
-          "feedback": ""
+          "text": "Ключевое слово class",
+          "feedback": "class объявляет тип, но само не является контейнером."
         },
         {
           "is_correct": false,
           "text": "Ничего из перечисленного",
-          "feedback": ""
+          "feedback": "std::vector&lt;T&gt; удовлетворяет условию."
         }
       ]
     },

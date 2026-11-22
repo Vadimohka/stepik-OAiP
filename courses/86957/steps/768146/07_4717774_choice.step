@@ -1,7 +1,7 @@
 {
   "block": {
     "name": "choice",
-    "text": "<p>Как мы отмечаем конец инструкции C++?</p>",
+    "text": "<p>Каким символом завершается инструкция-выражение в C++, например вызов функции <code>f()</code>?</p>",
     "video": null,
     "options": {
       "is_multiple_choice": false

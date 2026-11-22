@@ -1,0 +1,726 @@
+{
+  "status": "passed",
+  "scope": {
+    "modules": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "reviewed_steps": 173,
+    "changed_steps": 106
+  },
+  "baseline_revision": "8bf4639ce2799a13146e22ed13cf103dd1916ad5",
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "checks": [
+    {
+      "name": "complete_review",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "owned_steps_are_non_code",
+      "passed": true,
+      "details": [
+        3173778,
+        3173779,
+        3173780,
+        3173782,
+        3173804,
+        3173810,
+        3173811,
+        3173832,
+        3173835,
+        3173836,
+        3173838,
+        3173871,
+        3173888,
+        3173892,
+        3173923,
+        3173955,
+        3173967,
+        3173973,
+        3177248,
+        3177249,
+        3177250,
+        3177279,
+        3177280,
+        3177282,
+        3177292,
+        3177294,
+        3177474,
+        3177504,
+        3177540,
+        3177541,
+        3177562,
+        3177565,
+        3177651,
+        3177789,
+        3201132,
+        3201141,
+        3201150,
+        3201151,
+        3201153,
+        3201155,
+        3201168,
+        3201179,
+        3201181,
+        3201189,
+        3201190,
+        3201191,
+        3201234,
+        3201235,
+        3201236,
+        3201267,
+        3201303,
+        3214764,
+        3214777,
+        3214778,
+        3214832,
+        3214833,
+        3215075,
+        3215081,
+        3215105,
+        3215247,
+        3215252,
+        3215253,
+        3215254,
+        3215255,
+        3215256,
+        3215257,
+        3215258,
+        3215265,
+        3215266,
+        3215267,
+        3215268,
+        3230371,
+        3231228,
+        3237946,
+        3237955,
+        3237989,
+        3238004,
+        3238005,
+        3238006,
+        3261481,
+        3262706,
+        3262719,
+        3272881,
+        3284747,
+        3286892,
+        3286930,
+        3293643,
+        4717177,
+        4717195,
+        4717676,
+        4717684,
+        4717685,
+        4717733,
+        4717734,
+        4717756,
+        4717774,
+        4717785,
+        4717791,
+        4718307,
+        4718334,
+        8268734,
+        8268743,
+        8268748,
+        8268749,
+        8268755,
+        8268756
+      ]
+    },
+    {
+      "name": "identity_type_time",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "log_matches_owned_diff",
+      "passed": true,
+      "details": {
+        "logged": 106,
+        "actual": 106
+      }
+    },
+    {
+      "name": "media_preserved",
+      "passed": true,
+      "details": {
+        "img": 31,
+        "video": 0,
+        "iframe": 0
+      }
+    },
+    {
+      "name": "html_no_added_structure_errors",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "choice_keys_and_table_keys_preserved",
+      "passed": true,
+      "details": {
+        "choice_steps": 30,
+        "table_steps": 1
+      }
+    },
+    {
+      "name": "exact_hex_fraction",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "exact_octal_fraction",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "reverse_truncated_fractions",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "base_conversion_all_12_keys",
+      "passed": true,
+      "details": [
+        {
+          "representation": "10000001110011000001110010000000010000100111011 (2)",
+          "value": 71356825739579,
+          "correct": true
+        },
+        {
+          "representation": "20811294952556 (11)",
+          "value": 71356825739579,
+          "correct": true
+        },
+        {
+          "representation": "20811294952556 (13)",
+          "value": 620238178323107,
+          "correct": false
+        },
+        {
+          "representation": "411432512340000135 (6)",
+          "value": 71356825739579,
+          "correct": true
+        },
+        {
+          "representation": "3IMN4QHMPT (30)",
+          "value": 71356825739579,
+          "correct": true
+        },
+        {
+          "representation": "13062F51C2B (24)",
+          "value": 71356825739579,
+          "correct": true
+        },
+        {
+          "representation": "20SO74089R (32)",
+          "value": 71356825739579,
+          "correct": true
+        },
+        {
+          "representation": "20SO73VUHB (32)",
+          "value": 71356825729579,
+          "correct": false
+        },
+        {
+          "representation": "40E60E3FFA2B (16)",
+          "value": 71356825729579,
+          "correct": false
+        },
+        {
+          "representation": "33323102234341321304 (5)",
+          "value": 71356825729579,
+          "correct": false
+        },
+        {
+          "representation": "310578385541324 (9)",
+          "value": 71356825729579,
+          "correct": false
+        },
+        {
+          "representation": "20811294945AA7 (11)",
+          "value": 71356825729592,
+          "correct": false
+        }
+      ]
+    },
+    {
+      "name": "decimal_complement",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "input_output_examples_count",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "compile_io_0",
+      "passed": true,
+      "details": {
+        "command": [
+          "g++",
+          "-std=c++17",
+          "-Wall",
+          "-Wextra",
+          "-pedantic",
+          "cpp/io_0.cpp",
+          "-o",
+          "build-ykc5_0tv/io_0"
+        ],
+        "returncode": 0,
+        "stderr": "",
+        "source_sha256": "1cb1ae2138694a16ee4035a3cebb058c315b99f9fdc12c43aa2e9d0789ed5eea"
+      }
+    },
+    {
+      "name": "run_io_0",
+      "passed": true,
+      "details": {
+        "input": "",
+        "returncode": 0,
+        "stdout": "Name: Tom\nAge: 33\nWeight: 81.23\n",
+        "stderr": ""
+      }
+    },
+    {
+      "name": "compile_io_1",
+      "passed": true,
+      "details": {
+        "command": [
+          "g++",
+          "-std=c++17",
+          "-Wall",
+          "-Wextra",
+          "-pedantic",
+          "cpp/io_1.cpp",
+          "-o",
+          "build-ykc5_0tv/io_1"
+        ],
+        "returncode": 0,
+        "stderr": "",
+        "source_sha256": "1fa66a931473d49a7457bf872e375b7a0c59c46748e4afef393f3bcb55211bf1"
+      }
+    },
+    {
+      "name": "run_io_1",
+      "passed": true,
+      "details": {
+        "input": "21 70.5\n",
+        "returncode": 0,
+        "stdout": "Input age: Input weight: Your age: 21\t your weight: 70.5\n",
+        "stderr": ""
+      }
+    },
+    {
+      "name": "run_io_1",
+      "passed": true,
+      "details": {
+        "input": "bad\n",
+        "returncode": 1,
+        "stdout": "Input age: ",
+        "stderr": ""
+      }
+    },
+    {
+      "name": "run_io_1",
+      "passed": true,
+      "details": {
+        "input": "21 bad\n",
+        "returncode": 1,
+        "stdout": "Input age: Input weight: ",
+        "stderr": ""
+      }
+    },
+    {
+      "name": "compile_io_2",
+      "passed": true,
+      "details": {
+        "command": [
+          "g++",
+          "-std=c++17",
+          "-Wall",
+          "-Wextra",
+          "-pedantic",
+          "cpp/io_2.cpp",
+          "-o",
+          "build-ykc5_0tv/io_2"
+        ],
+        "returncode": 0,
+        "stderr": "",
+        "source_sha256": "71d219aa64995e4b1a03d0444e62b0ea46ee76219b8048ade2a405337090009c"
+      }
+    },
+    {
+      "name": "run_io_2",
+      "passed": true,
+      "details": {
+        "input": "21 70.5\n",
+        "returncode": 0,
+        "stdout": "Input age: Your age: 21\t your weight: 70.5\n",
+        "stderr": ""
+      }
+    },
+    {
+      "name": "run_io_2",
+      "passed": true,
+      "details": {
+        "input": "bad\n",
+        "returncode": 1,
+        "stdout": "Input age: ",
+        "stderr": ""
+      }
+    },
+    {
+      "name": "run_io_2",
+      "passed": true,
+      "details": {
+        "input": "21 bad\n",
+        "returncode": 1,
+        "stdout": "Input age: ",
+        "stderr": ""
+      }
+    },
+    {
+      "name": "if_examples_count",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "compile_condition_0",
+      "passed": true,
+      "details": {
+        "command": [
+          "g++",
+          "-std=c++17",
+          "-Wall",
+          "-Wextra",
+          "-pedantic",
+          "cpp/condition_0.cpp",
+          "-o",
+          "build-ykc5_0tv/condition_0"
+        ],
+        "returncode": 0,
+        "stderr": "",
+        "source_sha256": "f29a058a55a6ca659eaa7885746e17da3101c152dabc4e82d73c414382831c32"
+      }
+    },
+    {
+      "name": "run_condition_0",
+      "passed": true,
+      "details": {
+        "input": "",
+        "returncode": 0,
+        "stdout": "x is greater than 50\nEnd of Program\n",
+        "stderr": ""
+      }
+    },
+    {
+      "name": "compile_condition_1",
+      "passed": true,
+      "details": {
+        "command": [
+          "g++",
+          "-std=c++17",
+          "-Wall",
+          "-Wextra",
+          "-pedantic",
+          "cpp/condition_1.cpp",
+          "-o",
+          "build-ykc5_0tv/condition_1"
+        ],
+        "returncode": 0,
+        "stderr": "",
+        "source_sha256": "8299ad0183f2cac266629c5a99867c412b3efc0556395edba4e4af3657dbb51d"
+      }
+    },
+    {
+      "name": "run_condition_1",
+      "passed": true,
+      "details": {
+        "input": "",
+        "returncode": 0,
+        "stdout": "x is less or equal 60 \n",
+        "stderr": ""
+      }
+    },
+    {
+      "name": "compile_condition_2",
+      "passed": true,
+      "details": {
+        "command": [
+          "g++",
+          "-std=c++17",
+          "-Wall",
+          "-Wextra",
+          "-pedantic",
+          "cpp/condition_2.cpp",
+          "-o",
+          "build-ykc5_0tv/condition_2"
+        ],
+        "returncode": 0,
+        "stderr": "",
+        "source_sha256": "18ceb86da98e8afd626cd52faa5051112716cc7d762119ad558aa82e001695e7"
+      }
+    },
+    {
+      "name": "run_condition_2",
+      "passed": true,
+      "details": {
+        "input": "",
+        "returncode": 0,
+        "stdout": "x is equal 60 \n",
+        "stderr": ""
+      }
+    },
+    {
+      "name": "compile_condition_3",
+      "passed": true,
+      "details": {
+        "command": [
+          "g++",
+          "-std=c++17",
+          "-Wall",
+          "-Wextra",
+          "-pedantic",
+          "cpp/condition_3.cpp",
+          "-o",
+          "build-ykc5_0tv/condition_3"
+        ],
+        "returncode": 0,
+        "stderr": "",
+        "source_sha256": "fa2989351060145a2c672ede1bc5828288d74511d539e006690c18a58f2bc758"
+      }
+    },
+    {
+      "name": "run_condition_3",
+      "passed": true,
+      "details": {
+        "input": "+\n",
+        "returncode": 0,
+        "stdout": "Введите знак операции: Результат: 8\n",
+        "stderr": ""
+      }
+    },
+    {
+      "name": "run_condition_3",
+      "passed": true,
+      "details": {
+        "input": "-\n",
+        "returncode": 0,
+        "stdout": "Введите знак операции: Результат: 2\n",
+        "stderr": ""
+      }
+    },
+    {
+      "name": "run_condition_3",
+      "passed": true,
+      "details": {
+        "input": "",
+        "returncode": 1,
+        "stdout": "Введите знак операции: ",
+        "stderr": ""
+      }
+    },
+    {
+      "name": "compile_literal_bit_and_flag_rules",
+      "passed": true,
+      "details": {
+        "command": [
+          "g++",
+          "-std=c++20",
+          "-Wall",
+          "-Wextra",
+          "-pedantic",
+          "cpp/literal_bit_and_flag_rules.cpp",
+          "-o",
+          "build-ykc5_0tv/literal_bit_and_flag_rules"
+        ],
+        "returncode": 0,
+        "stderr": "",
+        "source_sha256": "ac8e194d472e7e63045fa4fd4f02fda3141be22a112f63918639c5c22dd23ed2"
+      }
+    },
+    {
+      "name": "run_literal_bit_and_flag_rules",
+      "passed": true,
+      "details": {
+        "input": "",
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    },
+    {
+      "name": "compile_gcc_constructor",
+      "passed": true,
+      "details": {
+        "command": [
+          "g++",
+          "-std=c++17",
+          "-Wall",
+          "-Wextra",
+          "-pedantic",
+          "cpp/gcc_constructor.cpp",
+          "-o",
+          "build-ykc5_0tv/gcc_constructor"
+        ],
+        "returncode": 0,
+        "stderr": "",
+        "source_sha256": "f999e19d8c8755e9e571f92554ab9b613e7a7bd7f10f798b4f8d67f13adf0b87"
+      }
+    },
+    {
+      "name": "run_gcc_constructor",
+      "passed": true,
+      "details": {
+        "input": "",
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    },
+    {
+      "name": "compile_goto_destruction_and_counter",
+      "passed": true,
+      "details": {
+        "command": [
+          "g++",
+          "-std=c++17",
+          "-Wall",
+          "-Wextra",
+          "-pedantic",
+          "cpp/goto_destruction_and_counter.cpp",
+          "-o",
+          "build-ykc5_0tv/goto_destruction_and_counter"
+        ],
+        "returncode": 0,
+        "stderr": "",
+        "source_sha256": "8039dc428055561616ac0aab78e34b4de4f1f3750924c171c4bea590113d114f"
+      }
+    },
+    {
+      "name": "run_goto_destruction_and_counter",
+      "passed": true,
+      "details": {
+        "input": "",
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    },
+    {
+      "name": "compile_goto_crosses_initializer",
+      "passed": true,
+      "details": {
+        "command": [
+          "g++",
+          "-std=c++17",
+          "-Wall",
+          "-Wextra",
+          "-pedantic",
+          "cpp/goto_crosses_initializer.cpp",
+          "-o",
+          "build-ykc5_0tv/goto_crosses_initializer"
+        ],
+        "returncode": 1,
+        "stderr": "cpp/goto_crosses_initializer.cpp: In function ‘int main()’:\ncpp/goto_crosses_initializer.cpp:1:35: error: jump to label ‘after’\n    1 | int main() { goto after; int n=1; after: return n; }\n      |                                   ^~~~~\ncpp/goto_crosses_initializer.cpp:1:19: note:   from here\n    1 | int main() { goto after; int n=1; after: return n; }\n      |                   ^~~~~\ncpp/goto_crosses_initializer.cpp:1:30: note:   crosses initialization of ‘int n’\n    1 | int main() { goto after; int n=1; after: return n; }\n      |                              ^\n",
+        "source_sha256": "09e413bb05d07f362b44e4d713a0790279276ddfd6e1c0f578cc8390230cadbb"
+      }
+    },
+    {
+      "name": "compile_void_return_expression",
+      "passed": true,
+      "details": {
+        "command": [
+          "g++",
+          "-std=c++17",
+          "-Wall",
+          "-Wextra",
+          "-pedantic",
+          "cpp/void_return_expression.cpp",
+          "-o",
+          "build-ykc5_0tv/void_return_expression"
+        ],
+        "returncode": 0,
+        "stderr": "",
+        "source_sha256": "36b6fb03293b68ef65d1a881b74f36381a02f4baf1eb1be68a635b8754c5f8cb"
+      }
+    },
+    {
+      "name": "run_void_return_expression",
+      "passed": true,
+      "details": {
+        "input": "",
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    },
+    {
+      "name": "compile_syntax_error_8268748",
+      "passed": true,
+      "details": {
+        "command": [
+          "g++",
+          "-std=c++17",
+          "-Wall",
+          "-Wextra",
+          "-pedantic",
+          "cpp/syntax_error_8268748.cpp",
+          "-o",
+          "build-ykc5_0tv/syntax_error_8268748"
+        ],
+        "returncode": 1,
+        "stderr": "cpp/syntax_error_8268748.cpp: In function ‘int main()’:\ncpp/syntax_error_8268748.cpp:1:29: error: expected primary-expression before ‘)’ token\n    1 | int main() { int a=1; if(a +) {} }\n      |                             ^\n",
+        "source_sha256": "2dbe84b1bef8041d3d8de728bb915beeefe25eadb6c9638532dc64f569071187"
+      }
+    },
+    {
+      "name": "compile_literal_error_8268748",
+      "passed": true,
+      "details": {
+        "command": [
+          "g++",
+          "-std=c++17",
+          "-Wall",
+          "-Wextra",
+          "-pedantic",
+          "cpp/literal_error_8268748.cpp",
+          "-o",
+          "build-ykc5_0tv/literal_error_8268748"
+        ],
+        "returncode": 1,
+        "stderr": "cpp/literal_error_8268748.cpp:1:27: error: exponent has no digits\n    1 | int main() { int x=1; x = 1e+; }\n      |                           ^~~\n",
+        "source_sha256": "5855af474a9d567aa0f37cc8913537788bd5a47925d7c465131e4c34cdf3aa5f"
+      }
+    },
+    {
+      "name": "compile_name_error_8268748",
+      "passed": true,
+      "details": {
+        "command": [
+          "g++",
+          "-std=c++17",
+          "-Wall",
+          "-Wextra",
+          "-pedantic",
+          "cpp/name_error_8268748.cpp",
+          "-o",
+          "build-ykc5_0tv/name_error_8268748"
+        ],
+        "returncode": 1,
+        "stderr": "cpp/name_error_8268748.cpp: In function ‘int main()’:\ncpp/name_error_8268748.cpp:1:27: error: ‘b’ was not declared in this scope\n    1 | int main() { int a=1; a = b + 1; }\n      |                           ^\n",
+        "source_sha256": "8d73cfb08f1a7b09414efd4570dbf7fee82ea1822f7e60ef784ce2dce62fa19b"
+      }
+    }
+  ],
+  "limits": [
+    "Video/audio content was not transcribed or re-reviewed.",
+    "Code tasks belong to the root agent and are excluded from these edits.",
+    "The numeric-conversion counterexample explicitly checks the local binary64 assumptions.",
+    "Invalid C++ examples are compiled only; undefined behaviour is not executed."
+  ]
+}

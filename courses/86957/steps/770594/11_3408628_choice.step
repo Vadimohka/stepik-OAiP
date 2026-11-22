@@ -1,7 +1,7 @@
 {
   "block": {
     "name": "choice",
-    "text": "<p>Загадка от Жака Фреско. Сколько? На размышление даётся 30 секунд.</p>\n\n<pre><code class=\"language-cpp\">int factmod (int n, int p) {\n    int res = 1;\n    while (n &gt; 1) {\n        res = (res * ((n / p) % 2 ? p-1 : 1)) % p;\n        for (int i = 2; i &lt;= n % p; ++i) {\n            res = (res * i) % p;\n        }\n        n /= p;\n    }\n    return res % p;\n}</code></pre>",
+    "text": "<p>Оцените показанную функцию подсчётом циклов. Считайте <code>2 ≤ p ≤ min(n, 46340)</code> и <code>n ≤ 2 · 10<sup>9</sup></code>; эти ограничения исключают переполнение произведений int в примере при 32-битном int. Операции над int имеют постоянную стоимость.</p>\n<p>Выберите верное объяснение верхней оценки, получаемой из числа делений n на p и ограничения числа итераций внутреннего цикла.</p><pre><code class=\"language-cpp\">int factmod (int n, int p) {\n    int res = 1;\n    while (n &gt; 1) {\n        res = (res * ((n / p) % 2 ? p-1 : 1)) % p;\n        for (int i = 2; i &lt;= n % p; ++i) {\n            res = (res * i) % p;\n        }\n        n /= p;\n    }\n    return res % p;\n}</code></pre>",
     "video": null,
     "options": {
       "is_multiple_choice": false
@@ -18,42 +18,42 @@
       "options": [
         {
           "is_correct": false,
-          "text": "Time complexity $O(n \\cdot p)$",
+          "text": "Внешний цикл обязательно выполняет n итераций, внутренний — p итераций в каждой из них.",
           "feedback": ""
         },
         {
           "is_correct": true,
-          "text": "Time complexity $O(p \\cdot \\log_{p}{n} )$",
+          "text": "Внешний цикл выполняется O(logₚ n) раз, внутренний — менее p раз за итерацию внешнего. Отсюда верхняя оценка O(p · logₚ n).",
           "feedback": ""
         },
         {
           "is_correct": false,
-          "text": "Time complexity $O(p \\cdot \\log{n} )$",
+          "text": "При переменном p число делений n на p вообще не зависит от p.",
           "feedback": ""
         },
         {
           "is_correct": false,
-          "text": "Time complexity $O(n \\cdot \\log_{p}{n} )$",
+          "text": "На каждой итерации внешнего цикла внутренний обязательно выполняется n раз.",
           "feedback": ""
         },
         {
           "is_correct": false,
-          "text": "Time complexity $O(n \\cdot \\log{n} )$",
+          "text": "Оператор n /= p увеличивает n, поэтому число итераций растёт как n · log n.",
           "feedback": ""
         },
         {
           "is_correct": false,
-          "text": "Time complexity $O(n / p)$",
+          "text": "После первого деления n на p внешний цикл всегда завершается.",
           "feedback": ""
         },
         {
           "is_correct": false,
-          "text": "Time complexity $O(n * (n \\% p))$",
+          "text": "Значение n % p неизменно в течение всей работы функции.",
           "feedback": ""
         },
         {
           "is_correct": false,
-          "text": "Time complexity $O((n / p) * (n \\% p))$",
+          "text": "Вложенные циклы всегда имеют сложность O(1), если внутри нет рекурсивных вызовов.",
           "feedback": ""
         }
       ]

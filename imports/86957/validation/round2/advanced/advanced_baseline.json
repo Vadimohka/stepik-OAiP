@@ -1,0 +1,2788 @@
+{
+  "source_commit": "8bf4639ce2799a13146e22ed13cf103dd1916ad5",
+  "canonical_json": "sort_keys=True, ensure_ascii=False, separators=(comma,colon)",
+  "steps": {
+    "3212955": {
+      "repository_path": "courses/86957/steps/770596/01_3212955_text.step",
+      "original_file_sha256": "615bbcf26c768ae1caf6eed4e4b2bd1e3932c4eca93ed2b1b1fdf3a3cf69c39d",
+      "document_sha256": "c4fc3296919f0b91cef98ccf6d9c2156403d15da9476cf6f9ccbd11ad0fb579c",
+      "envelope": {
+        "id": "3212955",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 6,
+      "html_tags": [
+        "code",
+        "h3",
+        "p",
+        "pre"
+      ],
+      "code_sha256": [
+        "935b3bf83b97222d198348c45fb5ac7f5c51cf40c21038abf40670593369ded8",
+        "f45b733f099835aab5b7524e3b88bdb18e21f00d0e02f423ad092a66c0013679",
+        "9fbcd8db212aecc3f1867240c71cf899433af340da9400787594cba5012130bf",
+        "5e41759c75f1452a18e4993fc27aded5a317bf474a095cdf2da718ba8de148c0",
+        "2778d7430a6fa68d65d2ecd823aa94d88f9a4f8caacb6db341915dca32fefbf3",
+        "a35f215d855d0267ce0691a2aa68b839c2c64a93450626e2ad4e6e6873b69e72"
+      ]
+    },
+    "3212956": {
+      "repository_path": "courses/86957/steps/770597/01_3212956_text.step",
+      "original_file_sha256": "dd4bb9ef3574380702d1408b42a83aeac9891bd3c875341c1000fc37ac6eee79",
+      "document_sha256": "7bc9bcb3c9e28d93f2fc331d238309677e7757449013638d693a16e19d1fdc7d",
+      "envelope": {
+        "id": "3212956",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 1,
+      "html_tags": [
+        "code",
+        "em",
+        "h3",
+        "h4",
+        "li",
+        "p",
+        "pre",
+        "strong",
+        "u",
+        "ul"
+      ],
+      "code_sha256": [
+        "5843a7965034715bad0a057fe5642c00494368f3895d6e374d86f00fce928ee7"
+      ]
+    },
+    "3215112": {
+      "repository_path": "courses/86957/steps/771130/01_3215112_text.step",
+      "original_file_sha256": "e0d46b4890743d01ffe3703472c4a739881041b0f894875d736d553c3a20e1ab",
+      "document_sha256": "ab50bd686dfbeedfc737a4d6f67abca800a05f455c2837c8117c9e73d075fc12",
+      "envelope": {
+        "id": "3215112",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 0,
+      "html_tags": [
+        "h3",
+        "h4",
+        "img",
+        "li",
+        "p",
+        "ul"
+      ],
+      "code_sha256": []
+    },
+    "3215113": {
+      "repository_path": "courses/86957/steps/771131/01_3215113_text.step",
+      "original_file_sha256": "44d8e5f1f99624ace7b5c25af1a6aae4655d93afd9115ce31e498519214cd609",
+      "document_sha256": "a6a7e4caff0d3ce6b1027d0118ce0633e16010d028ab62ef7deffa107d63a95d",
+      "envelope": {
+        "id": "3215113",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 0,
+      "html_tags": [
+        "h3",
+        "li",
+        "p",
+        "ul"
+      ],
+      "code_sha256": []
+    },
+    "3215199": {
+      "repository_path": "courses/86957/steps/771131/03_3215199_text.step",
+      "original_file_sha256": "b27fcacf3763373ee6e423195bee2b86fb25024a7e8a58fe09d22151a3f7dda2",
+      "document_sha256": "abcb89465c4dd378af54f77a6765f33b208764bf655d1c549dffa5450d97a087",
+      "envelope": {
+        "id": "3215199",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 3,
+      "html_tags": [
+        "code",
+        "h3",
+        "li",
+        "ol",
+        "p",
+        "pre",
+        "strong"
+      ],
+      "code_sha256": [
+        "93817912b413f1ff31b8e21dfca42f9546dcff107d5dfcfb1b6ebfa523338d69",
+        "f7df5543bd1b6a78c3015b980a8641349b1e0a3c42e5307abf4319ea56806ce5",
+        "ebb600981f4c92f30a1dccb61b0d38055c82403e1afc2d08e9b8a9643e1dc5cd"
+      ]
+    },
+    "3215200": {
+      "repository_path": "courses/86957/steps/771131/02_3215200_text.step",
+      "original_file_sha256": "64e2afcf8341d934bb74b1c4dc3c28e9cbbc222b96e569eb6a9ccbc2cdf40be1",
+      "document_sha256": "c585dccfe3c023582eb39c681a504ec8f46153f74de90df2d9d69290e8a091fd",
+      "envelope": {
+        "id": "3215200",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 4,
+      "html_tags": [
+        "code",
+        "h3",
+        "li",
+        "p",
+        "pre",
+        "ul"
+      ],
+      "code_sha256": [
+        "3af364c54ecd7e4c10342f8383de5c706f01c213be99c8e595f4bd234f42d7d7",
+        "eceb748d35396864b142bca7a5e65b8c856b3633b515309813861f521461ad02",
+        "f07491283cdd08ff5b5856b55c1894ab48072adfb930e1c4721bdeef9b97d5f7",
+        "940d71f090534c5ea57265615837f82703af7b804b175e8b1b51c1878a81f8fc"
+      ]
+    },
+    "3215203": {
+      "repository_path": "courses/86957/steps/771130/02_3215203_text.step",
+      "original_file_sha256": "c4c9c49c4841cabf451470e11e416ad315d4809415693ed919858e8ecb9d903c",
+      "document_sha256": "436720fa70b29a1589e499e711f0fa6c7d52c587e45cc54ba59347b54b7f0c55",
+      "envelope": {
+        "id": "3215203",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 4,
+      "html_tags": [
+        "code",
+        "em",
+        "h3",
+        "h4",
+        "li",
+        "p",
+        "pre",
+        "strong",
+        "ul"
+      ],
+      "code_sha256": [
+        "9de4c965624a428ebb90419d626c35a133d2b9725d4c918a0afec21385b6c245",
+        "a041002da77faf10f095997c3ec18bafc25999e9fc22e7e691d18ee705b3a656",
+        "7749aa1f530f8a3e922a547e0271519a4c0c6ae4b43f66b0c5c57d6beecff99d",
+        "643830e32f000bd7d56f765a08233ed6dda06c047d1ef4dce83c2a741d6ee187"
+      ]
+    },
+    "3215206": {
+      "repository_path": "courses/86957/steps/771130/03_3215206_text.step",
+      "original_file_sha256": "bbb7d2bb83ae50f1072415ee7ec2dcf19e08ca29f502b2650476799cbc89aef1",
+      "document_sha256": "bc323dc2424ed46671782b200ff297c32160f42c50f7fb51e1b94bd58491d724",
+      "envelope": {
+        "id": "3215206",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 4,
+      "html_tags": [
+        "code",
+        "h3",
+        "h4",
+        "p",
+        "pre",
+        "strong"
+      ],
+      "code_sha256": [
+        "879f72633f182aa2f4de742add042c75095cc0eb453dc6bed354d2f429f914bd",
+        "1fbf51ea85cb4a6df331222c4ca6d66684d9d6f691134e20e5fa6992480a165b",
+        "a061f2413ed4e8185d662cd4e8a6252a5226a77c8dbf63d57e7e164e4f51602d",
+        "cd922e9d656eb289957be0d34f6768675e93811849ffaef549ed70ad61443352"
+      ]
+    },
+    "3215231": {
+      "repository_path": "courses/86957/steps/770596/02_3215231_text.step",
+      "original_file_sha256": "3d3a696135b2f485ebb103f7905239ec704d3226981a7031dca1ebb6b179541e",
+      "document_sha256": "b9812d5f9e53a086c0d8fc01c39d5561865ac6e7539cf1896798ffe1a1420a20",
+      "envelope": {
+        "id": "3215231",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 2,
+      "html_tags": [
+        "code",
+        "h3",
+        "p",
+        "pre"
+      ],
+      "code_sha256": [
+        "407a336eb71e82e39ca8891e51097c6aca92c5e1a358dae8329f10704c4419b0",
+        "c16637105a37390eea70afaf66b92aee4b6c5634c2164704e14ed59744a4daaf"
+      ]
+    },
+    "3215232": {
+      "repository_path": "courses/86957/steps/770596/04_3215232_text.step",
+      "original_file_sha256": "fb7fc517f42246f2aaed0e2065e7d305edd4b1099e592c8b09dec81cfca3c438",
+      "document_sha256": "4d8abf09c48e79bbb6a0681b05a499aa7f46a1d98003ed9d9132c9b885862762",
+      "envelope": {
+        "id": "3215232",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 1,
+      "html_tags": [
+        "code",
+        "h3",
+        "img",
+        "p",
+        "pre"
+      ],
+      "code_sha256": [
+        "d55f3c5782aa8c9f50aff5ac63b02fbebfb8f02e1e562789ed2d8e43fab0eafe"
+      ]
+    },
+    "3215233": {
+      "repository_path": "courses/86957/steps/770596/05_3215233_text.step",
+      "original_file_sha256": "c561ee853be334de3ce956e90f42cd21eceffcb0e2840d2ca443d424b9c2ba8e",
+      "document_sha256": "3ab9699762738ed5ea17f8fe7d7ac424b17d58f90562e2a4b5a5b383a3b7505d",
+      "envelope": {
+        "id": "3215233",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 2,
+      "html_tags": [
+        "code",
+        "h3",
+        "p",
+        "pre",
+        "strong"
+      ],
+      "code_sha256": [
+        "442af1638dba8cd305e57c8061f535ae5e24b215ebf3484fd11c78ea09989258",
+        "4ee0e6fc149d2532d50c74c6fb43033eae8a082b461c4ee015a4ce9a30bd97a2"
+      ]
+    },
+    "3215234": {
+      "repository_path": "courses/86957/steps/770596/03_3215234_text.step",
+      "original_file_sha256": "bc745bc22b3dbb3fb280f62689d8ca1bb414cf0edd4803237cddfa3dd9fa6183",
+      "document_sha256": "dcf267f7526bc6740f4616ac942af9f7ac2d6fb03d0ce32f8a65fa2428c96066",
+      "envelope": {
+        "id": "3215234",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 1,
+      "html_tags": [
+        "br",
+        "code",
+        "h3",
+        "p",
+        "pre"
+      ],
+      "code_sha256": [
+        "255c744776b9d62491218610f62842627d3a738a42369db3a614ab07b2af5426"
+      ]
+    },
+    "3215235": {
+      "repository_path": "courses/86957/steps/770596/06_3215235_text.step",
+      "original_file_sha256": "472e2eadfe9eaa58b493500b6a325adf479f923aa630773b87ef8d33ba86d559",
+      "document_sha256": "1ba1303411e564f259d76ba7b682cbf1eb1310c22c7ed7fdcee40cfb23e7a9c5",
+      "envelope": {
+        "id": "3215235",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 2,
+      "html_tags": [
+        "code",
+        "h3",
+        "p",
+        "pre"
+      ],
+      "code_sha256": [
+        "77c50c03e6e3cb4fbcd99da6166371ed2926b53477804ae763da2e94f7f37fc4",
+        "018289f757d9d1f6238c9fcfa02c625842e1cfffc26870723c16c9070d441e35"
+      ]
+    },
+    "3215236": {
+      "repository_path": "courses/86957/steps/770596/07_3215236_text.step",
+      "original_file_sha256": "f38e8670ba5ad76c743257b114305fe2dedf573e962e2db117c4ed6f37a41099",
+      "document_sha256": "d08935b434e891b98ee610f01f06958fb2f482be29208582427a354a50131028",
+      "envelope": {
+        "id": "3215236",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 1,
+      "html_tags": [
+        "code",
+        "h3",
+        "p",
+        "pre"
+      ],
+      "code_sha256": [
+        "418cfc0f2760f1b6475cc611e93dcaeaccb1f72b7a3c1b5873cbcd665bf6a7cc"
+      ]
+    },
+    "3215242": {
+      "repository_path": "courses/86957/steps/770597/04_3215242_text.step",
+      "original_file_sha256": "8cd0ee88d265b2f97f1459a782e262de6cd8789a6bd50b57677e4c2cab402a4c",
+      "document_sha256": "32d33ca9a748afeb547a7e1f9f3c95f5ad1fc141581aacc102c8dec1996477bd",
+      "envelope": {
+        "id": "3215242",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 5,
+      "html_tags": [
+        "code",
+        "h3",
+        "p",
+        "pre"
+      ],
+      "code_sha256": [
+        "076f6aa6f09395544e54ec5d4a0e0e00c2ad6010db29494591574f4525315823",
+        "55dc49d2dbb1732d44f99aade55e5fd36d83ba34a71177086b564fd3644e7f6f",
+        "e2af19b6f236941d5b40cc536a8624a8aa14d4770362cd492e0603a7da7361ef",
+        "6894611b08e56428d8c729fdb8ba6a6270a8208b20367fe87c0b2374abc430eb",
+        "3510ae4040be1f648f4da8bad06f3ef5647310e97a697f7dcf6ca6726a49aa3d"
+      ]
+    },
+    "3215243": {
+      "repository_path": "courses/86957/steps/770597/02_3215243_text.step",
+      "original_file_sha256": "6ecc5576fddbdcdfaa75e3d57e35a03bef76be3d047ab058cbab1dfe5c3bfab6",
+      "document_sha256": "a82765a0bb8654f854ea25dbbd9230d79f22cff27f295c2637121af2e19a9b31",
+      "envelope": {
+        "id": "3215243",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 3,
+      "html_tags": [
+        "code",
+        "em",
+        "h3",
+        "img",
+        "li",
+        "p",
+        "pre",
+        "strong",
+        "ul"
+      ],
+      "code_sha256": [
+        "03ab538178e2d27877addc666d64a27be02f0f931a823ab02244f5f2aca4335b",
+        "d27aa293a3c523d1ca35fedc55edd4603c40ed5c81a47f1442f3ec745a4d216d",
+        "607093b7da103e4df8f107b93b5bb8facc362e94fb2ebda2cea843db08eebbed"
+      ]
+    },
+    "3215244": {
+      "repository_path": "courses/86957/steps/770597/03_3215244_text.step",
+      "original_file_sha256": "656c45e4738e30d9239b90057b77fc3781f5d83ff54132ce4bf63eb1bebd07e4",
+      "document_sha256": "19bbccfc30ed11167142be3dfd199850e5b17a56f100ffd0915516bc9b7bf9e6",
+      "envelope": {
+        "id": "3215244",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 1,
+      "html_tags": [
+        "code",
+        "h3",
+        "p",
+        "pre"
+      ],
+      "code_sha256": [
+        "3e909441ac7de41d4419131b8f3401bcf81afda7bdff32fb34c2a8583d8c7dc3"
+      ]
+    },
+    "3216509": {
+      "repository_path": "courses/86957/steps/770596/08_3216509_text.step",
+      "original_file_sha256": "f9538246b3f5c937d757fe4036466ca9eb86fbc9e228f32818b9fd759d813689",
+      "document_sha256": "ed7bdbc7a4bdc253bb10565106a9fa0a0de446f2db7347fd0176c9c05640a9ec",
+      "envelope": {
+        "id": "3216509",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 4,
+      "html_tags": [
+        "code",
+        "h3",
+        "img",
+        "p",
+        "pre"
+      ],
+      "code_sha256": [
+        "650c414f3baebf05f3789ca70fb06d61b0956c4fbeb48cb2fa8f2f733a6ca470",
+        "bbc16422c7ec5b72fe285eff2a8632d510df141e9b1b7a8e279e92d3f7dd6118",
+        "7731e927d25c64ae473ae2dcef31a8264c732a6c8abcfd9239f3631353457ec6",
+        "08ba593e09b88f43fd8d392691ecce2afb9159c3f98cfd6d0c6546c4932d3d4c"
+      ]
+    },
+    "3423807": {
+      "repository_path": "courses/86957/steps/771131/05_3423807_choice.step",
+      "original_file_sha256": "6114d9c0e6f4698790e43d23094256ca6e43616c1ac95fbbe54b4e5e6ea3ea28",
+      "document_sha256": "2dd4fdd4d14ffd95c6954d1ec72a807750b841afcfd1b92251c5b9d5bf57587d",
+      "envelope": {
+        "id": "3423807",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "choice",
+      "pre_count": 2,
+      "html_tags": [
+        "code",
+        "p",
+        "pre"
+      ],
+      "code_sha256": [
+        "654ab52b9fa31d8014c977b5fdf9089077c7d39204662bf238a5069b5422a5b4",
+        "eaa4fbfa98db695835d379f46e3435629d1abf04e0680fa8477f1394791c1b36"
+      ],
+      "choice_keys": [
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        true
+      ]
+    },
+    "3424087": {
+      "repository_path": "courses/86957/steps/771130/04_3424087_choice.step",
+      "original_file_sha256": "94f37753b27240a15238ceb8a1a7076b14ea646a5d1d05bbdf2efbe368649c1e",
+      "document_sha256": "cc2631ddb7f9e846c657fe996e9c556d9fd3346152e3f10a61369dbad87e35ec",
+      "envelope": {
+        "id": "3424087",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "choice",
+      "pre_count": 0,
+      "html_tags": [
+        "p"
+      ],
+      "code_sha256": [],
+      "choice_keys": [
+        true,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    "3425979": {
+      "repository_path": "courses/86957/steps/770596/09_3425979_choice.step",
+      "original_file_sha256": "f009fc2746a3dcf65bb4f6657813900e32f56af9cee94a897d69ddcf145dc278",
+      "document_sha256": "3fe29158e64d4fc4912aff46dbc3e8432600c7cf6ee47255e53814d1e93bfec2",
+      "envelope": {
+        "id": "3425979",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "choice",
+      "pre_count": 1,
+      "html_tags": [
+        "code",
+        "p",
+        "pre"
+      ],
+      "code_sha256": [
+        "6bb7f56aae9f48c2e5d5bbf87b7a948ed969edc4ae97a98b5058386cee140bfb"
+      ],
+      "choice_keys": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    "3426003": {
+      "repository_path": "courses/86957/steps/770596/10_3426003_fill-blanks.step",
+      "original_file_sha256": "e9ae517ca9b77d917db3c6735c739bb403781b982447b2ab1bcaa7d5798bdfcd",
+      "document_sha256": "d7bb1b77275793b0bde6c35223d04af6c1c654b2e55466564b32d05374853d4e",
+      "envelope": {
+        "id": "3426003",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "fill-blanks",
+      "pre_count": 2,
+      "html_tags": [
+        "code",
+        "p",
+        "pre"
+      ],
+      "code_sha256": [
+        "9fc36770147ebe4ed08e3724b41a1a37a395b0c195dff410815c9db4877874f8",
+        "16e77bba7c77722742fb021532195c113978dc6fade9c56e69746c353dd446c1"
+      ]
+    },
+    "3426585": {
+      "repository_path": "courses/86957/steps/770597/05_3426585_choice.step",
+      "original_file_sha256": "b0af1025f71e4e21e60b428ef9942118faf38c7a7361dfd3f11e14cfd795a274",
+      "document_sha256": "f0719ef71208d4e734dcc867d57a4619ab3e5c538cf1b3599536c0dd30f38aa2",
+      "envelope": {
+        "id": "3426585",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "choice",
+      "pre_count": 2,
+      "html_tags": [
+        "code",
+        "p",
+        "pre"
+      ],
+      "code_sha256": [
+        "87fbdef2cc3daa2465ed9da53e64957930461cfb9947861423c0a1369bdb27f8",
+        "dc401f4d50536499ebadef96a25cc037c1e5ea186ad57d4ebe2246f3e69d5604"
+      ],
+      "choice_keys": [
+        false,
+        true,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    "3437886": {
+      "repository_path": "courses/86957/steps/771131/06_3437886_choice.step",
+      "original_file_sha256": "6d8de4a0d17fc3379872095978c758d21ec16ec228062abfaeafe4ef96297a63",
+      "document_sha256": "5fdf0601a2cc700ead73f443cb19dd90a82a1a54349e964709e09a6fc86df816",
+      "envelope": {
+        "id": "3437886",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "choice",
+      "pre_count": 0,
+      "html_tags": [
+        "p"
+      ],
+      "code_sha256": [],
+      "choice_keys": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        true,
+        false
+      ]
+    },
+    "3437952": {
+      "repository_path": "courses/86957/steps/771130/05_3437952_choice.step",
+      "original_file_sha256": "2703d05d8c54f2f47a2f4e86a5bc7e6fdeacffd96e78a7f40713c8d92e6777f9",
+      "document_sha256": "e39030b1e92b8819caee1e8ded4dea24676b936ee8aa097604ccbfd1cd926c3e",
+      "envelope": {
+        "id": "3437952",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "choice",
+      "pre_count": 0,
+      "html_tags": [
+        "p"
+      ],
+      "code_sha256": [],
+      "choice_keys": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    "3438077": {
+      "repository_path": "courses/86957/steps/770596/11_3438077_choice.step",
+      "original_file_sha256": "688579652ca8823a62e7958a16f373d1b1281e44a47ca5edb94b8058d1d655eb",
+      "document_sha256": "94758a93621cf7fddbf492ea6887ece3ba1123919b98efdbdc5aa06a55806178",
+      "envelope": {
+        "id": "3438077",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "choice",
+      "pre_count": 0,
+      "html_tags": [
+        "p"
+      ],
+      "code_sha256": [],
+      "choice_keys": [
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        true,
+        false,
+        true
+      ]
+    },
+    "3440026": {
+      "repository_path": "courses/86957/steps/770597/06_3440026_choice.step",
+      "original_file_sha256": "57415c2925510a2813267f2fee6f2033c7f7cd1fa2ef6bbfd3ca1f5f2b494ac0",
+      "document_sha256": "e292009132f0131a351d66a0cc47f0584f1f8c42ef12882e2ae2405f1b99c0ff",
+      "envelope": {
+        "id": "3440026",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "choice",
+      "pre_count": 0,
+      "html_tags": [
+        "div",
+        "p"
+      ],
+      "code_sha256": [],
+      "choice_keys": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false
+      ]
+    },
+    "3569321": {
+      "repository_path": "courses/86957/steps/853532/01_3569321_text.step",
+      "original_file_sha256": "3bc438fd5b422c4db225b163461b113abbe020552ff54d09e576919850b336c1",
+      "document_sha256": "324eeb0e4e575b0315e59f2c53b50286ab7773ca5468447f2ca366b22214e994",
+      "envelope": {
+        "id": "3569321",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 0,
+      "html_tags": [
+        "code",
+        "img",
+        "p",
+        "strong"
+      ],
+      "code_sha256": []
+    },
+    "3569323": {
+      "repository_path": "courses/86957/steps/853534/01_3569323_text.step",
+      "original_file_sha256": "0f47d5055eb6e7f23cab211ac3f3fdc3b7b845f1ecfdf4852de76c35b41e5ce4",
+      "document_sha256": "f8adebd04c9a405202a4c27e5ee0b1922c80b9360f1d6867e98f9b51eecb8d24",
+      "envelope": {
+        "id": "3569323",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 0,
+      "html_tags": [
+        "code",
+        "li",
+        "p",
+        "strong",
+        "ul"
+      ],
+      "code_sha256": []
+    },
+    "3569324": {
+      "repository_path": "courses/86957/steps/853535/01_3569324_text.step",
+      "original_file_sha256": "7f0a21e42b5dd87ee9c833cac6c18407e0bd0b9ca435217bca74cc719972719f",
+      "document_sha256": "e0a27d258b15969db24a84b4911f9889ff78cf497c62deb067b8c6b21f1cfcfd",
+      "envelope": {
+        "id": "3569324",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 0,
+      "html_tags": [
+        "em",
+        "p",
+        "strong"
+      ],
+      "code_sha256": []
+    },
+    "3569325": {
+      "repository_path": "courses/86957/steps/853536/01_3569325_text.step",
+      "original_file_sha256": "9b926e24afbee1a1fa70659c6b6000edf863b1eed39aaf4b2400f944a3cfab5b",
+      "document_sha256": "6782e2674cad0b2d2cc869a16b68f59ea13aaca18728959b561cfff2cc597f9c",
+      "envelope": {
+        "id": "3569325",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 2,
+      "html_tags": [
+        "code",
+        "h3",
+        "li",
+        "p",
+        "pre",
+        "strong",
+        "ul"
+      ],
+      "code_sha256": [
+        "71c84fef5bc6b625b31b5c7f5bb6c3dfd35d8dae678f9d523388a861521aff80",
+        "9434d3ef632b6e03704bb95ecdff98c1d1a1586d6d4515a6227b4cac2bac0b14"
+      ]
+    },
+    "3569327": {
+      "repository_path": "courses/86957/steps/853537/01_3569327_text.step",
+      "original_file_sha256": "75918789500d7f487b73a34857414e61bd02ffc08b8adf90a322c0cc4afce731",
+      "document_sha256": "f5d9f79679d840fb087e0a7e4c7bb7c1290ffa2009b1807b64f3d9e2d5ccdea4",
+      "envelope": {
+        "id": "3569327",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 1,
+      "html_tags": [
+        "code",
+        "h3",
+        "p",
+        "pre",
+        "strong"
+      ],
+      "code_sha256": [
+        "76ffb7bb252778d56d4b9f152325f602e4dc89e9346befefb08241db7a765745"
+      ]
+    },
+    "3569329": {
+      "repository_path": "courses/86957/steps/853539/01_3569329_text.step",
+      "original_file_sha256": "96966359708f70191a91b287ff8fd7cadaed6bcf544b51fd4a327669716fde3d",
+      "document_sha256": "1d399b35e097a3514e7c130992627713fe82cdf0af49b8e1ed4f7b971622576d",
+      "envelope": {
+        "id": "3569329",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 0,
+      "html_tags": [
+        "em",
+        "h2",
+        "h4",
+        "img",
+        "li",
+        "p",
+        "strong",
+        "ul"
+      ],
+      "code_sha256": []
+    },
+    "3569330": {
+      "repository_path": "courses/86957/steps/853540/01_3569330_text.step",
+      "original_file_sha256": "435e92238237a02e8080b977498a5193307871fed7f121fa487f0eaa2ddb6262",
+      "document_sha256": "c16c29c200c3374a05afe0fd006da813d1b2289b8549e78ac9371c6f79de47b6",
+      "envelope": {
+        "id": "3569330",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 0,
+      "html_tags": [
+        "a",
+        "h3",
+        "img",
+        "p",
+        "strong"
+      ],
+      "code_sha256": []
+    },
+    "3569332": {
+      "repository_path": "courses/86957/steps/853541/01_3569332_text.step",
+      "original_file_sha256": "e7951b766617e84b1f1d8b8b6568b9ef61767c3cb5d40a63f83cd1c1e51a8b7a",
+      "document_sha256": "85a093ae7ff82bff33b5e365f7a331e89ece305045fd6b17fc0e78a6a91a80e5",
+      "envelope": {
+        "id": "3569332",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 0,
+      "html_tags": [
+        "em",
+        "h3",
+        "img",
+        "li",
+        "p",
+        "strong",
+        "ul"
+      ],
+      "code_sha256": []
+    },
+    "3569891": {
+      "repository_path": "courses/86957/steps/853532/02_3569891_text.step",
+      "original_file_sha256": "65cffb9653c5fb87014dafb0b75b3b586bff9f739f95804d88b5a5b3cba1b2ed",
+      "document_sha256": "8a856c9dff52d2ddcba5d9b22f7f4339aa539cb7725283910b4ded588a3a6efb",
+      "envelope": {
+        "id": "3569891",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 3,
+      "html_tags": [
+        "code",
+        "em",
+        "p",
+        "pre"
+      ],
+      "code_sha256": [
+        "77e51a815bb592b7e68161cea1bda43b2fc7dc3c11d6d65c68d8972e80e77689",
+        "a75308b3bbc59e08c1b202c7c93caa5ebd7b887e30174ca09080d4d3deb76cc4",
+        "d6594bbd8658131daa9af4dde97128653305e3e9988aad788ca0b047d0270291"
+      ]
+    },
+    "3569896": {
+      "repository_path": "courses/86957/steps/853532/03_3569896_text.step",
+      "original_file_sha256": "e9c2324829b25737c57da2fc8eea74b5c7f0f172872ca4720d3470e3927f465d",
+      "document_sha256": "65cfab76eade322bef943b5bd8483025d2ad2f22efc97f7c91eb300572feff41",
+      "envelope": {
+        "id": "3569896",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 0,
+      "html_tags": [
+        "code",
+        "p",
+        "strong"
+      ],
+      "code_sha256": []
+    },
+    "3569919": {
+      "repository_path": "courses/86957/steps/853534/02_3569919_text.step",
+      "original_file_sha256": "d783b30c827e9424e135313bceb4adbb376eb7c4de73ef5e446219a0b246a365",
+      "document_sha256": "23382d288696a43a25157d012c3ce966fbb9473e5a84273005c28b4e46fc1726",
+      "envelope": {
+        "id": "3569919",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 3,
+      "html_tags": [
+        "code",
+        "em",
+        "li",
+        "p",
+        "pre",
+        "strong",
+        "ul"
+      ],
+      "code_sha256": [
+        "8c41a69b694303ba5335dc29d149922d94102dd96508242f43ffb09231b04a55",
+        "86493e771f6d574dff2e98f56fccf7a06bd1e62b48b8cec16399dbbb0994bc22",
+        "c0b894bd69459a4a72f7db5b41a59d7b40317d7be3f8de33b164429f67d55697"
+      ]
+    },
+    "3569932": {
+      "repository_path": "courses/86957/steps/853535/02_3569932_text.step",
+      "original_file_sha256": "55503e974c832bcaea71392606a0c0a57247904de08c32d92fd7d9b4e7595879",
+      "document_sha256": "dc74ff5bbaaf174248737f07aae6f7b811cd52d5cc41208f2a569da56ba871fb",
+      "envelope": {
+        "id": "3569932",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 0,
+      "html_tags": [
+        "code",
+        "h3",
+        "p",
+        "strong"
+      ],
+      "code_sha256": []
+    },
+    "3569963": {
+      "repository_path": "courses/86957/steps/853536/03_3569963_text.step",
+      "original_file_sha256": "6eb626335e8ab44adbf2b1eb67d6bccbd8d3d8da54dc1e018390ae54e726d1ba",
+      "document_sha256": "d05034bb0e6315e365623cab534389f145a4e7c0a2d3e30a32c5d7d38043cde3",
+      "envelope": {
+        "id": "3569963",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 3,
+      "html_tags": [
+        "code",
+        "em",
+        "h2",
+        "h4",
+        "p",
+        "pre",
+        "strong"
+      ],
+      "code_sha256": [
+        "69d41d01c7acf1e62263395d6c2340e82ea62a07427a354ca35181ccfb6cbe5c",
+        "1b4bf89fb0c571f5bdd0395445368971b1bed1e582c1b85207272cc592da99a9",
+        "c1f3bf7b344ec2f4fdda0c4c2c0d96d7b0d067f5f43fa4dbd351fab081e82aab"
+      ]
+    },
+    "3569964": {
+      "repository_path": "courses/86957/steps/853536/02_3569964_text.step",
+      "original_file_sha256": "f4df901705daa972946a241f084a5dcc954d352844bf5c4d34df43625910f204",
+      "document_sha256": "46acf9b7f796162096819b28b2b2d587a36a9f1558a822054eb79c58bf9ada51",
+      "envelope": {
+        "id": "3569964",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 1,
+      "html_tags": [
+        "code",
+        "em",
+        "h3",
+        "p",
+        "pre",
+        "strong"
+      ],
+      "code_sha256": [
+        "8d393a60d3f1d6c1274fab42d844ab0007d519cc6da3ac66d6c0dde56c9fde18"
+      ]
+    },
+    "3570166": {
+      "repository_path": "courses/86957/steps/853536/04_3570166_text.step",
+      "original_file_sha256": "1edcc4e32c654981ad2569d953c5cc057cc53701f2b18907f6f69b2125168f24",
+      "document_sha256": "6f64c907065f0c2c187f6b29c7e84e21f29758943bf302bd5d60d4500e78df42",
+      "envelope": {
+        "id": "3570166",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 1,
+      "html_tags": [
+        "code",
+        "h3",
+        "pre"
+      ],
+      "code_sha256": [
+        "2165d7f97acf4f5455dfe6aaa864b416a5af5b84616e3bed803df964e85b55fb"
+      ]
+    },
+    "3570213": {
+      "repository_path": "courses/86957/steps/853537/02_3570213_text.step",
+      "original_file_sha256": "c8514360a44d06fdea90f0e47b0489621f0abeed5006c8be9fcdb7f36cc57276",
+      "document_sha256": "3253e2e913183afa1a037479b5235749995bd1188bb9ace8457d3a4c64770ed5",
+      "envelope": {
+        "id": "3570213",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 2,
+      "html_tags": [
+        "code",
+        "h3",
+        "p",
+        "pre",
+        "strong"
+      ],
+      "code_sha256": [
+        "ee56df07056bf324b3aa52b19956fc21da294d0881de8ce15816e5deb4073a33",
+        "d966d96bee7d950e23f652f8cb1948ba10296fdebefc44a6551c74c20dbe0a20"
+      ]
+    },
+    "3570230": {
+      "repository_path": "courses/86957/steps/853539/02_3570230_text.step",
+      "original_file_sha256": "726f6beb1c643de419f77153ec9470943718805ad05b4890939a6eca4a23b178",
+      "document_sha256": "197e7799814b69b8c49ebeb8a82dffc0cadf9a7c370b696a0b0ec938c038b59d",
+      "envelope": {
+        "id": "3570230",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 2,
+      "html_tags": [
+        "code",
+        "h2",
+        "li",
+        "p",
+        "pre",
+        "ul"
+      ],
+      "code_sha256": [
+        "8ef1fbcbf46c41ace39da2cb23bdfe7582aba1e9772419d05bd5409cf5820d77",
+        "0f823c274a99ecdaaff6917f52421606ce92149dc0838d4c8cbc018f5bcf5db8"
+      ]
+    },
+    "3570231": {
+      "repository_path": "courses/86957/steps/853539/03_3570231_text.step",
+      "original_file_sha256": "67847bf2fb821315646cb06e1c303a55766d840e4a83c0aa027bc7ed29bbbf45",
+      "document_sha256": "9422e2c2f260ee749e81e633ad7bc3ba61501080d9484f46989c1f6920494df1",
+      "envelope": {
+        "id": "3570231",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 0,
+      "html_tags": [
+        "br",
+        "h2",
+        "img",
+        "p",
+        "strong",
+        "sub"
+      ],
+      "code_sha256": []
+    },
+    "3570281": {
+      "repository_path": "courses/86957/steps/853540/02_3570281_text.step",
+      "original_file_sha256": "61f1e79f18bd51a84c1c446b415ba189031549aeda62e140169ff8aaf4d30da6",
+      "document_sha256": "d412b1662785b9dbeb10f99cca2f3b238151c6dfac295e292b4439ffe1deb2cd",
+      "envelope": {
+        "id": "3570281",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 1,
+      "html_tags": [
+        "code",
+        "h3",
+        "p",
+        "pre"
+      ],
+      "code_sha256": [
+        "e8836a52b2c81aca11f62743594b6d4f0ccc850f555bc04dcc3b4db1ffd9605b"
+      ]
+    },
+    "3570303": {
+      "repository_path": "courses/86957/steps/853541/02_3570303_text.step",
+      "original_file_sha256": "8a3fc2d9bc353c743ced0bddd8474fe27d85c107c9a98e4f736f55e0599d0732",
+      "document_sha256": "f3821dad6512f316a8a78b98aa3066253425acdd0c8a03b9a5bbccc6444bd965",
+      "envelope": {
+        "id": "3570303",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 2,
+      "html_tags": [
+        "code",
+        "em",
+        "h2",
+        "img",
+        "li",
+        "p",
+        "pre",
+        "ul"
+      ],
+      "code_sha256": [
+        "725a6f8c600a12897722db2308b4a4f7d6e9d43d52baea9c4955056b2ac15980",
+        "53268236a971e06214c669c25b04f762dc8f1204b56611a0791bf5164863c6d0"
+      ]
+    },
+    "3570304": {
+      "repository_path": "courses/86957/steps/853541/03_3570304_text.step",
+      "original_file_sha256": "816070b4cb053df8f6bf12f0db31ec0e7ae80dff8e49f8db188ba1367d955a11",
+      "document_sha256": "055118fa6f5349cc132b75e15405b915624bf682ff841d1d51633d0de5705512",
+      "envelope": {
+        "id": "3570304",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 8,
+      "html_tags": [
+        "code",
+        "em",
+        "h3",
+        "img",
+        "p",
+        "pre",
+        "strong"
+      ],
+      "code_sha256": [
+        "78b1818a455efea6dc64b51e2fb85e28595e1d135f298cfe57de62ee5224ecad",
+        "1b3a1ebe1ed422e57a0e3c61ba818e2ed72dd37cab1fb2b77254e0a8673aac36",
+        "0351bd720d61cf58f08e8e1d19fb583be769490157f273c1c9721f7785aadc5b",
+        "21188c4cde101c4919c42236ab39a684ad86471dac71cee357f55539bcb4afc5",
+        "dbb5e8548dcdf1d18c77d0db2663dd8c8ab7015b699247720e6ca2fa2ad32cbc",
+        "3e9abac7578b17818c3d7cf01a4605c80eebe4b888373874345aac21299a6c21",
+        "2103a88a90809a433051c4175d4b1def434e852d561f704c5fafad364248c665",
+        "da7dd70da2d5b5c46c81d0ba1a43a604435f93c186a694db5376d7a2dedecb4f"
+      ]
+    },
+    "3570332": {
+      "repository_path": "courses/86957/steps/853541/05_3570332_text.step",
+      "original_file_sha256": "1a883af6b66890af8320216f69b8584e1604583e49aca437587d29f66e04f8eb",
+      "document_sha256": "559be002e0a922b3fb2d5877bab95ad087ac3e763e8bd09bc34d225f4a91c498",
+      "envelope": {
+        "id": "3570332",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 4,
+      "html_tags": [
+        "code",
+        "em",
+        "h2",
+        "p",
+        "pre"
+      ],
+      "code_sha256": [
+        "3843d579a2c7fdd35766fecb52b3eb56f449f1b5fab8b6542337361abfd863b7",
+        "4184f0cadb8e85c4e6f3442928b24a4f271454070ffecada3ad572467dcb70e7",
+        "8d681ae8eec41d75a8b7afef695786a8e8237213418ba8ceacdcba748bf04386",
+        "6b307dfe756f6a9f9290d99cf8aeda62a98140ae568cef547351025bca582de5"
+      ]
+    },
+    "3570333": {
+      "repository_path": "courses/86957/steps/853541/04_3570333_text.step",
+      "original_file_sha256": "42bc75785e15b75219a9a278f5319dcb046bd0c1182eca8d1a93ef2ca8be73c2",
+      "document_sha256": "dc5ed25782b8f43bfe10ca9ffcb59563df97666b256eed61327cdbd668c102e9",
+      "envelope": {
+        "id": "3570333",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 8,
+      "html_tags": [
+        "code",
+        "em",
+        "h2",
+        "h3",
+        "img",
+        "li",
+        "p",
+        "pre",
+        "strong",
+        "sub",
+        "ul"
+      ],
+      "code_sha256": [
+        "fdcd54fd56b31e1307b0cc0e29cc100839a4c2d04fdda0c8c1cd69d773d24dbf",
+        "55a3a0bf2996f2bd1153b4dedf98298e7794b76a09eb0531eabe45f3744de78e",
+        "96bc605031b7d362ab81d7dd23eecbde08fa315ba8f4aa50e3b648c48e276875",
+        "f8d61763197668b1eab3764f5fe87c6533d8cf001479ce5f15e12a20dccd47b7",
+        "040f3173349e75a0ff1b8e00bb438575e324ddf684e8a611efc3a45d928540c7",
+        "de740c70c3fa5b81d309502eb1e408a37b1a07e81c58dc4e8ac38d61f9789158",
+        "847cd12e42b3f7b3e834249d72b50329b67fc2d30340b4e5801057721e93003c",
+        "950c9eea9316af0559bc72be87c790145891007dc382c9ce6fff478ad4223cdf"
+      ]
+    },
+    "3580923": {
+      "repository_path": "courses/86957/steps/771131/04_3580923_text.step",
+      "original_file_sha256": "2cc037455444154e69f174a43e58cc4ec31375f7bb60889b8c6efc787325087b",
+      "document_sha256": "4372e4419c4e115d41ea31d7367d6a16636b59d5d838d6912e81f0003122f817",
+      "envelope": {
+        "id": "3580923",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 1,
+      "html_tags": [
+        "a",
+        "br",
+        "code",
+        "li",
+        "p",
+        "pre",
+        "table",
+        "tbody",
+        "td",
+        "th",
+        "thead",
+        "tr",
+        "ul"
+      ],
+      "code_sha256": [
+        "cdcbf4cac17793e633fbea486b5e511c3545cda41a67528ff219a9ef5f1f030f"
+      ]
+    },
+    "3668925": {
+      "repository_path": "courses/86957/steps/877081/01_3668925_text.step",
+      "original_file_sha256": "f5a5790efc866358a5eead83bf901e7b7f3ccb7509dc71ef9a6c0047b8ae1fa4",
+      "document_sha256": "10f1f66dd39786689e4f658cf5076931b8d543a32cf628817827340368f6a38c",
+      "envelope": {
+        "id": "3668925",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 3,
+      "html_tags": [
+        "code",
+        "em",
+        "h2",
+        "p",
+        "pre",
+        "strong"
+      ],
+      "code_sha256": [
+        "a7d346a5ca5f034fedbd51ee21d0493f5ed5983e35940906f4ecdfe168cb1a86",
+        "4304736ab3507de85ee140945c532a6ee1df433da7d4e51c4228648fbaa38c7a",
+        "550546c4161a74d8473c2a1851af5c11a583f4485f449e7de7f9919cd3eeeb31"
+      ]
+    },
+    "3668926": {
+      "repository_path": "courses/86957/steps/877082/01_3668926_text.step",
+      "original_file_sha256": "d5dd8be0730a16864869b7c9016456726d9484b8eac87a4dc3597156759b8063",
+      "document_sha256": "8aec794a5d813aed6c1d37c735d45563226f9837f655e71ef33f557e1a8c806c",
+      "envelope": {
+        "id": "3668926",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 3,
+      "html_tags": [
+        "br",
+        "code",
+        "h2",
+        "li",
+        "ol",
+        "p",
+        "pre"
+      ],
+      "code_sha256": [
+        "2d7be2af4736181680378a8c462b01159d2be494743905c7af935811a6ccdf46",
+        "5474bcd42863860e9df5936b3bb64f7a54e2a81ee548a62c8c210aadf6277316",
+        "66dfae949157d7438ba14cb9717f55e3525c55ecbae109d073fdd2b66888c5e6"
+      ]
+    },
+    "3668927": {
+      "repository_path": "courses/86957/steps/877083/01_3668927_text.step",
+      "original_file_sha256": "849c231d95260a39094e313dd4ebc5a73e5cd8dc52ef9cbc8d0cab50faa9d3f7",
+      "document_sha256": "147f643b3ff2c93cce8c9afa94990166362f3f9b72c986586115de2fbcf63723",
+      "envelope": {
+        "id": "3668927",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 1,
+      "html_tags": [
+        "code",
+        "h2",
+        "img",
+        "li",
+        "p",
+        "pre",
+        "ul"
+      ],
+      "code_sha256": [
+        "71a747b153e8709dc1182f37da7999aeb8b986b81cb508a18baa22d42c0a4cbc"
+      ]
+    },
+    "3668928": {
+      "repository_path": "courses/86957/steps/877084/01_3668928_text.step",
+      "original_file_sha256": "15c1bf488ca12d18ec2fabe9ed1c84976f947ddef3f6bc0c0619caa7723391fc",
+      "document_sha256": "14dca062417a83cdd69a486de74d185eb4ed6977b6ef8ab6ea1c070d3bffb081",
+      "envelope": {
+        "id": "3668928",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 5,
+      "html_tags": [
+        "code",
+        "h1",
+        "img",
+        "p",
+        "pre"
+      ],
+      "code_sha256": [
+        "bfd08d6b67741d4cbdd2e7fb513502717e60b7e23892cae95fb1e878bdfd4202",
+        "72e4ac08d262c8ebda787c690dcb16e4a97d9cd0fc7249835af01c1580f1fd69",
+        "0a3ebb429cdb8e31840896be651a2a434c41fb9193334de93755291a5f4f77b9",
+        "45d4d89be01fd139c5bee84d026ad67c0275b53411551428ce5b09c0f89fd695",
+        "38360bbb53942ea09c13919409beb4b0ed44b0a3a0695312bcc23749ec472fb8"
+      ]
+    },
+    "3668952": {
+      "repository_path": "courses/86957/steps/877082/02_3668952_text.step",
+      "original_file_sha256": "00a01b9df6f80e259545c7bb9639606dbe69d54bec20dba1d80b1d1d3430cad2",
+      "document_sha256": "3bd9dd13cdce77539139979a8161fc949c6024cc104575316bbe84ca038ed6fd",
+      "envelope": {
+        "id": "3668952",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 2,
+      "html_tags": [
+        "code",
+        "em",
+        "h2",
+        "li",
+        "ol",
+        "p",
+        "pre"
+      ],
+      "code_sha256": [
+        "4ac8b5f800c0f305cbac2de3098010305edd1836f5bf3a8a255ab621d133c9e9",
+        "d89a20bb5b73fb7d56d3bde08940416f7ffff5c12839004f720039a0d7418bcb"
+      ]
+    },
+    "3668953": {
+      "repository_path": "courses/86957/steps/877082/03_3668953_text.step",
+      "original_file_sha256": "0d3702ffc61b0d6bde1292d2feb84ea2caebbd7d780a35b1fa4994247a7997df",
+      "document_sha256": "8573b4e657662c98c42030c518eb1a5d2455c9682057d5f9b55fccdb0dddd60b",
+      "envelope": {
+        "id": "3668953",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 0,
+      "html_tags": [
+        "h2",
+        "li",
+        "ol",
+        "p"
+      ],
+      "code_sha256": []
+    },
+    "3668977": {
+      "repository_path": "courses/86957/steps/877082/05_3668977_text.step",
+      "original_file_sha256": "eaac3eb77262fccddf0a6855803568443fcd37c9181d46337e522fe0d9ebe8be",
+      "document_sha256": "5cc410b308f0c4b45cb7df6ab1be60e86e074d4ec5c38f766e3b5c374eb7d22a",
+      "envelope": {
+        "id": "3668977",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 1,
+      "html_tags": [
+        "code",
+        "em",
+        "h2",
+        "li",
+        "p",
+        "pre",
+        "strong",
+        "ul"
+      ],
+      "code_sha256": [
+        "a7659487b56751c7ed50619a517f1bd3c4f82b411bee57841bb2da13d2fa5a94"
+      ]
+    },
+    "3668999": {
+      "repository_path": "courses/86957/steps/877081/03_3668999_text.step",
+      "original_file_sha256": "6477d835d0a61acb706d43f5f64b6c2de3553843b2d5f18394f7b6dfe7f917c1",
+      "document_sha256": "a59ef3f660c5339f5a53ce1178d7ba2f6a9977de38f47efade631fd5633532a0",
+      "envelope": {
+        "id": "3668999",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 3,
+      "html_tags": [
+        "code",
+        "em",
+        "h2",
+        "p",
+        "pre",
+        "strong"
+      ],
+      "code_sha256": [
+        "a60bbe4f2b44ae67a5005d2f9374f21fafe99915114b46e057dfae4bb3e40b02",
+        "c080fc99201dcc0b3d5e9c299e35d56e7ebfb5e151981aba1fdccfd6aff0f2a1",
+        "9f2390c0afded80bd19efbde25f49ee3417f1ca55732d5e2ec6c2f8fd73f72ca"
+      ]
+    },
+    "3669000": {
+      "repository_path": "courses/86957/steps/877081/02_3669000_text.step",
+      "original_file_sha256": "851969c9bfb933081281b800398be5d40760b7c96dd3c9fdf5870ff08ddffd60",
+      "document_sha256": "0c2b229b666dbc3fc9748bf583973aec2361662633d33be5cccc282927a14f87",
+      "envelope": {
+        "id": "3669000",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 1,
+      "html_tags": [
+        "code",
+        "h2",
+        "li",
+        "ol",
+        "p",
+        "pre",
+        "strong"
+      ],
+      "code_sha256": [
+        "85986d1ea3ab0655cd5c436d2b85d74fc60caed378d60212ff77bc5bd8f49702"
+      ]
+    },
+    "3669075": {
+      "repository_path": "courses/86957/steps/877081/04_3669075_text.step",
+      "original_file_sha256": "ace52bf85712f8a202bf545e088ef23c9d2e1c46607bd0ca18812c8b5ba3031e",
+      "document_sha256": "ef57e4c31f8f181c9b3f1b577f08a6af2ba589e297664a790dc803cd2add8a46",
+      "envelope": {
+        "id": "3669075",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 1,
+      "html_tags": [
+        "code",
+        "h2",
+        "p",
+        "pre",
+        "strong"
+      ],
+      "code_sha256": [
+        "bcef53a550258939dfcaf04c71450fa253c42dc926fe901525b661903e0de1e2"
+      ]
+    },
+    "3669089": {
+      "repository_path": "courses/86957/steps/877081/05_3669089_text.step",
+      "original_file_sha256": "f3543d2a4bca500d67f9acc74c907e926ddb7d1ff79cecf6f04eb9bf9a9f5697",
+      "document_sha256": "4a0625d540269c87fa9f59897b993444c7002f1885fded900d7fac1c9258feb1",
+      "envelope": {
+        "id": "3669089",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 1,
+      "html_tags": [
+        "code",
+        "h2",
+        "p",
+        "pre",
+        "strong"
+      ],
+      "code_sha256": [
+        "12326d152f4cdb7576f5037ae5bae1d84300f909935c9fc1c1cfd5767fe1de30"
+      ]
+    },
+    "3669093": {
+      "repository_path": "courses/86957/steps/877081/06_3669093_text.step",
+      "original_file_sha256": "e68e5d549c77089cb229b61c053d42da3fa6a1ff0b13ac8684cadf41b27a17a3",
+      "document_sha256": "3f9355dbe15d7712f0175ff26f6af3050694d41a400af5c4c2c52726abd63ef9",
+      "envelope": {
+        "id": "3669093",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 4,
+      "html_tags": [
+        "code",
+        "h2",
+        "p",
+        "pre",
+        "strong"
+      ],
+      "code_sha256": [
+        "4bd2a6bec921815373a526ec8f10a6b406778f0af427646e0e98f8303aa33980",
+        "12bfdf7f3c97259d45fbd430c4af87661f0664daa4be73649d332532453bf0e6",
+        "7b01e56ff45c45b95daeb0f9e95f61540e71e6051230ea0b02a8e1d3f2af03b6",
+        "ab5518c003c74a99030d5333c9c548b2bb6d295edacedf11e1c4070a9891e27c"
+      ]
+    },
+    "3669114": {
+      "repository_path": "courses/86957/steps/877082/04_3669114_text.step",
+      "original_file_sha256": "50a7792fb5a5b945fdcbd2b75739c0401a689b40fbd6da05a8f9714a74e365ce",
+      "document_sha256": "7cc32ac6ae0a5ed367233fad50b7b54cdff4d56a3b065fa5688a11755db8a094",
+      "envelope": {
+        "id": "3669114",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 0,
+      "html_tags": [
+        "em",
+        "h2",
+        "p",
+        "strong"
+      ],
+      "code_sha256": []
+    },
+    "3669121": {
+      "repository_path": "courses/86957/steps/877082/06_3669121_text.step",
+      "original_file_sha256": "8628e43982855856895f2455ccdc27286d404ced702251909fd499243de016ac",
+      "document_sha256": "309d006d3cfaa9929291dd3efd6aedbf4446c1d40a9d4d1d4922d438848a15c0",
+      "envelope": {
+        "id": "3669121",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 0,
+      "html_tags": [
+        "h2",
+        "img",
+        "p"
+      ],
+      "code_sha256": []
+    },
+    "3669140": {
+      "repository_path": "courses/86957/steps/877083/02_3669140_text.step",
+      "original_file_sha256": "377c9ff7cf35b8da13177792d8a79d4bcb488b82e4eb6bde0c732854341ba01f",
+      "document_sha256": "f55f0098cb0c5c7906ee8e3c9c566468f2d8c77e1b40b851e07c324384acfd1d",
+      "envelope": {
+        "id": "3669140",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 3,
+      "html_tags": [
+        "code",
+        "em",
+        "h1",
+        "h2",
+        "p",
+        "pre"
+      ],
+      "code_sha256": [
+        "337434a7cf3db23d7cd365e68be1cb4d2b52cd02f633d0e45f9d2bf2a9899996",
+        "e39bf94d7e80f0d91d32e2d544270e5941bbe44eff7982663eac7d4ddcd75c1a",
+        "703df6a2be4ed5c68c0e09eefec873eeedf625711ce765b37fb7e8b5988bbdc3"
+      ]
+    },
+    "3669142": {
+      "repository_path": "courses/86957/steps/877083/03_3669142_text.step",
+      "original_file_sha256": "e3ce20a9077e763a5184ad59b26b8969601e3b2cdd2031030eb242469ccca67c",
+      "document_sha256": "2df8f03122bbd5da5ef846683807578ba28c12df34a350c796f9306fad0a1b29",
+      "envelope": {
+        "id": "3669142",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 4,
+      "html_tags": [
+        "code",
+        "h2",
+        "img",
+        "p",
+        "pre"
+      ],
+      "code_sha256": [
+        "f5cd0cbb7d53b55f85b87b6fd659697670c60016357f25c9f7811067bc2b2173",
+        "69a57f62b496e41dc3be2f010976737eaefcbd41dd910bae6cba2739def2e4c4",
+        "76a71b6c325a2bba9cbf7558892e66dfc2d794d787db0cd616429db4bd8bdf5b",
+        "ff84364478d4e8dc110bf4d30ddcd06de30ee1a289a1056b2e49d481095d4020"
+      ]
+    },
+    "3669156": {
+      "repository_path": "courses/86957/steps/877083/04_3669156_text.step",
+      "original_file_sha256": "c472ae366f2c1c1301755d5ecac8b7c4ecead63dda28951fc0a18e2828b1ffe7",
+      "document_sha256": "4e2fec738e60e93f9ee984fe891b7cbe2fc445156508186553430148bb344805",
+      "envelope": {
+        "id": "3669156",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 2,
+      "html_tags": [
+        "code",
+        "h2",
+        "img",
+        "p",
+        "pre"
+      ],
+      "code_sha256": [
+        "1ca34e53518af8d819893b0ddf88c7820b916edcf838862f42464ad70518f668",
+        "3cf8c80f8d947940c85bba5ee24fc790996fe9bb07dfb4d0bdfb1f1658bae1eb"
+      ]
+    },
+    "3669172": {
+      "repository_path": "courses/86957/steps/877083/06_3669172_text.step",
+      "original_file_sha256": "ea92224aab8cfacb663c99e700a68da08e01baf52f0bfccf2c4d70d170833fc0",
+      "document_sha256": "48ce70c2c1bc4bd2a4d4ffb7b42b79b0b901d1541865f7f149e8ea72633676cb",
+      "envelope": {
+        "id": "3669172",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 2,
+      "html_tags": [
+        "code",
+        "h2",
+        "img",
+        "p",
+        "pre"
+      ],
+      "code_sha256": [
+        "8070e1e643670565af410307860b3bcc02411b05727e0e976969550fd8738376",
+        "daec186a6c039ee923fc3026a24159faf5b5218b977094e94bf8376c6904970e"
+      ]
+    },
+    "3669173": {
+      "repository_path": "courses/86957/steps/877083/05_3669173_text.step",
+      "original_file_sha256": "e975cae1e2fa092c2341fe22bd593effa087f07f715480f7f2b4091209f1fe7b",
+      "document_sha256": "ac79754df0e32b9912560277789a006a91f7542dea86dce9f8aa471a46420296",
+      "envelope": {
+        "id": "3669173",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 3,
+      "html_tags": [
+        "code",
+        "h2",
+        "p",
+        "pre"
+      ],
+      "code_sha256": [
+        "7f145d64ae1aa31ca81753d7afb81213771f1dbc8e864f789acf26bf6e5a93fd",
+        "f2f7f8a270a100be81433585df5532694f3da1f021184dd0584efb43de3afbd6",
+        "a335509de5be0e177a993b73d215eae5b02caa563b2f693029bfdd28091f17cb"
+      ]
+    },
+    "3759849": {
+      "repository_path": "courses/86957/steps/877084/02_3759849_text.step",
+      "original_file_sha256": "ca091b69d560dba2120b9acf0bfde512626a20d07af7db0a8bf5b701a140eb40",
+      "document_sha256": "9fece3a379d92a6e6f0549947527d3f816565c93b0caa2d7e2e025bc606df29e",
+      "envelope": {
+        "id": "3759849",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 3,
+      "html_tags": [
+        "code",
+        "h1",
+        "p",
+        "pre"
+      ],
+      "code_sha256": [
+        "f2c437456baa0ff492cbe1a6ccb6563fe73b8ee09fa2121ac94d16c37e4346b8",
+        "f90a0e7440969776e65a147b8b726f620b1a08a6e4636f5591159206a9874b01",
+        "31d3339f0a72fd165f74dfc983e06e55c0b364551daa3c183b2c6523fc16ec39"
+      ]
+    },
+    "3759850": {
+      "repository_path": "courses/86957/steps/877084/03_3759850_text.step",
+      "original_file_sha256": "9dd6039caa1a62f7434ff2e6b692b2697421ed7266897035fc388b59fdc8f782",
+      "document_sha256": "587ec5ac1c639a5ef1cbf82aa90c42f77331cf31a62a4a2e1b66cd391c755e7f",
+      "envelope": {
+        "id": "3759850",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 6,
+      "html_tags": [
+        "code",
+        "h1",
+        "li",
+        "p",
+        "pre",
+        "ul"
+      ],
+      "code_sha256": [
+        "138d525f5e5a0b6be854dff128a60212acb2dfbe589eb6fb6205a7ae883e6a96",
+        "2cb32bdc003c062a9cc67de7c836949042203748bb7dceea65dbaec9b0dfb262",
+        "d9496f3aef34cc0f3bff545e42b5cec4e41903dadf2beb32f3a6b6aef3c68785",
+        "7d5dbefb6deed3161df14db2f76d8d402c1fd86a668fa75b009632d170cc3e05",
+        "631481457fa21351430a10fe207b7529666ebca77d75e4a64112eefe9433e616",
+        "586fb9867281af9359b29b6c81354f5cf6d0cddda0df8c72c8306d3ac0b3bf88"
+      ]
+    },
+    "3759851": {
+      "repository_path": "courses/86957/steps/877084/04_3759851_text.step",
+      "original_file_sha256": "abdaa9daae0f983eb4d702d59267b50c233ea38f67e2153a9b14ef1a5ad345e5",
+      "document_sha256": "19a3a61c97f60986d78558cc98fd7bec3fc8e50d39b5e7ed688f2469b8065bed",
+      "envelope": {
+        "id": "3759851",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 3,
+      "html_tags": [
+        "code",
+        "h1",
+        "li",
+        "p",
+        "pre",
+        "strong",
+        "ul"
+      ],
+      "code_sha256": [
+        "73aaf676074f7a3d97c20325549c0dfcfaba0a11c6bb6b758f561b034d658b7f",
+        "eb843ab1f9de18a2a902ff0784ed777616186198575065f3f353d8f27d43de14",
+        "5a545720e198f3171df8b563d87e266fc0f7a931968655db690f21849cf371eb"
+      ]
+    },
+    "3759914": {
+      "repository_path": "courses/86957/steps/877084/05_3759914_text.step",
+      "original_file_sha256": "67ee3fb2cb43d220bb7d5cf1067f56b1449691be70f50a1213d4e135d23c9dd3",
+      "document_sha256": "5960170d04587770762a0dbf6e5f9cbf0cdac8e82e28821108af63c5b35a2fa3",
+      "envelope": {
+        "id": "3759914",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 2,
+      "html_tags": [
+        "code",
+        "h1",
+        "p",
+        "pre"
+      ],
+      "code_sha256": [
+        "3ee41fd1a90686f4a2d171301af16c8df7dd820d980cc7d65db1a47a8fa99bf5",
+        "3f827b2b8be4cdf3cbc4c09acf3e8eac4ff9e87ec9e1463110b8e9813cd77a40"
+      ]
+    },
+    "3759977": {
+      "repository_path": "courses/86957/steps/897987/01_3759977_text.step",
+      "original_file_sha256": "4fc02cd17b56e58f72b8a75c4ff86b07a09182631205c47793fe1b1de47714f6",
+      "document_sha256": "c9e259b438df9df0af30214fac4aae859ba991c4a0e3970e89cdd518231feb2e",
+      "envelope": {
+        "id": "3759977",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 0,
+      "html_tags": [
+        "code",
+        "h1",
+        "p",
+        "span"
+      ],
+      "code_sha256": []
+    },
+    "3760023": {
+      "repository_path": "courses/86957/steps/897987/03_3760023_text.step",
+      "original_file_sha256": "2424e8b4159d4ba3e9c78edb911cc4db6d2774ec529bded48fc9efd2609184b4",
+      "document_sha256": "e61b7cb456150d85f57e6c02171ba002c0b239ed3229b435a4c86433857f0374",
+      "envelope": {
+        "id": "3760023",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 0,
+      "html_tags": [
+        "code",
+        "h1",
+        "p"
+      ],
+      "code_sha256": []
+    },
+    "3760024": {
+      "repository_path": "courses/86957/steps/897987/04_3760024_text.step",
+      "original_file_sha256": "b7a9fec35e58c93e4a34143c98b2ce33b1c4052ed1a04b29542c1145f6758280",
+      "document_sha256": "7be1e6a80a3b2fe6d70346bed1ba7013e5b75a4540d5622a837742318d98477b",
+      "envelope": {
+        "id": "3760024",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 2,
+      "html_tags": [
+        "code",
+        "h1",
+        "img",
+        "p",
+        "pre"
+      ],
+      "code_sha256": [
+        "12dcf81029f49a4b8540b6b873ecf0f9277c655f51a8eb6604cbbcd25e07c5dd",
+        "9afecd260bc17016f118a49b8be3707dc94a84ef3ebc56d754e19e99c2b0d6dc"
+      ]
+    },
+    "3760025": {
+      "repository_path": "courses/86957/steps/897987/05_3760025_text.step",
+      "original_file_sha256": "25d31a2fb5f2462d708d28492399903cbfa8d7b8f3a0feae477b3dd284e3306b",
+      "document_sha256": "ecc65cc754fcfb7524d6b9f4a7c4c6dcbcf08ad1995f0cd9f21cb7e69d1570c8",
+      "envelope": {
+        "id": "3760025",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 1,
+      "html_tags": [
+        "code",
+        "h1",
+        "p",
+        "pre"
+      ],
+      "code_sha256": [
+        "3076091dd6fb41b2c960efa61241705339ed685d9dbc3c670308ef33201cb599"
+      ]
+    },
+    "3760026": {
+      "repository_path": "courses/86957/steps/897987/06_3760026_text.step",
+      "original_file_sha256": "e7ada07ece069b8d12c85b3bb5580e02d12285a3e0678adc8d1f9f0435599e49",
+      "document_sha256": "3f3a2f664af56551d79946a15c20393138a4fdad1ed5eb29bed78ec352b57757",
+      "envelope": {
+        "id": "3760026",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 2,
+      "html_tags": [
+        "code",
+        "h1",
+        "p",
+        "pre"
+      ],
+      "code_sha256": [
+        "66bd1a2e21818b7f16086fa70536a433e9b6d23648fa8c7172eb81e0713bd607",
+        "a262061bf5552ad61b2f53157d82282acb0f9d9269c38fca0c46a8c7f0f95084"
+      ]
+    },
+    "3760027": {
+      "repository_path": "courses/86957/steps/897987/07_3760027_text.step",
+      "original_file_sha256": "e3d6a9383ad020a31dc53016ecd327ee59d6960c5fbe52c2773bc246fe41a225",
+      "document_sha256": "feb14a974f1e215567278991852fb4e30b0feb146cf926284d73382ad6d04df4",
+      "envelope": {
+        "id": "3760027",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 2,
+      "html_tags": [
+        "code",
+        "h1",
+        "h2",
+        "img",
+        "p",
+        "pre"
+      ],
+      "code_sha256": [
+        "99459409d4499480d6da06267540994ef2334c77afdf687ab5dd11de35cb1f5e",
+        "ce9dab0390076a022393a0f7abdd9e4e3c7dd9a8e86c759670d3d95c7cad08a9"
+      ]
+    },
+    "3760028": {
+      "repository_path": "courses/86957/steps/897987/02_3760028_text.step",
+      "original_file_sha256": "f0d037f2436aa84dc77feb64395a4786af86c1a6ba399c65ee983839bbf73ebc",
+      "document_sha256": "8afc68d24119567a23c9feae5bb76e14ef14e9694b7dfadcada57d1192922ab1",
+      "envelope": {
+        "id": "3760028",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 2,
+      "html_tags": [
+        "code",
+        "h1",
+        "p",
+        "pre"
+      ],
+      "code_sha256": [
+        "42c21ef9f3970558a0c718e36a16edcff344cd5c107b158853f2703fc09fc5ac",
+        "dc7d16dca781312a55aeb2c9bfd3484e85253f27325e29162d190b8fb4b740be"
+      ]
+    },
+    "3760029": {
+      "repository_path": "courses/86957/steps/897987/08_3760029_text.step",
+      "original_file_sha256": "cd95e676c94fc7189e8cd111c0e6e7957a36faefc3fdcb79125c752095bd7735",
+      "document_sha256": "d309ba04a4362d0f6f1edcb6d87640b4185cb3201225a5fa6b55de7d617a5eb2",
+      "envelope": {
+        "id": "3760029",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 3,
+      "html_tags": [
+        "code",
+        "h1",
+        "h2",
+        "p",
+        "pre"
+      ],
+      "code_sha256": [
+        "74612a5448590275e6979aa202e0d36d91f54ecc063da92640f9cc9cd407a447",
+        "9e9bf8c2250bf5dccf83f238154726a70eace16b21b1e96b4212a1bb4df7e6a0",
+        "060b9328ccf1f02b7d2ce5e9b31d7dec8a1b7a9deae4c627fe0d698ef504f740"
+      ]
+    },
+    "3760047": {
+      "repository_path": "courses/86957/steps/897987/10_3760047_text.step",
+      "original_file_sha256": "28c3ff6952d124372ddc56ee4be9da2cb9436d0b2c81ec1e3f2af2a28baf5b52",
+      "document_sha256": "d2f53e4fde4c3a9a0267283543c82d4c8e5c97dc3a33ed62f18776bc5170a6de",
+      "envelope": {
+        "id": "3760047",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 3,
+      "html_tags": [
+        "code",
+        "h1",
+        "h2",
+        "li",
+        "p",
+        "pre",
+        "ul"
+      ],
+      "code_sha256": [
+        "6a57c6af9031b8f9b6bd1db56c2f45be5d2d801ac8288d9756e3ae89ee858198",
+        "cc5c457046809734e52562702f2bca9aa57030fed1a9149c8f763d26846e3b94",
+        "8e8245295139bc5b24c2d88442a6fbea8721dd29c4bfd9130f2d9c01d26a1b7b"
+      ]
+    },
+    "3760048": {
+      "repository_path": "courses/86957/steps/897987/09_3760048_text.step",
+      "original_file_sha256": "b4c8a543c03d51144e4f0823498936b45bb3ad58596b5fc74bf308541e302915",
+      "document_sha256": "015639dee4472bc1dab2ecbf096cb9b11c19cd2c0fb70a48e9234bd535d191c9",
+      "envelope": {
+        "id": "3760048",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 2,
+      "html_tags": [
+        "code",
+        "h1",
+        "h2",
+        "p",
+        "pre"
+      ],
+      "code_sha256": [
+        "a05345b87c5e229fac2418bf12697d59e07d9faa704c5eb8e6d29a34edadc6e5",
+        "c993f1db3761274ea3c75dae0d5aed3211d7542aab2e892cb27d16aa923098b6"
+      ]
+    },
+    "4035311": {
+      "repository_path": "courses/86957/steps/973816/01_4035311_text.step",
+      "original_file_sha256": "e8c48d10585e9986909677e64418fd356d905bcb273bc1c5b48b915cb88e22c0",
+      "document_sha256": "1d90ccb9da6a069c4c80c6a694935d3b4e8f56189526f6edb0879ffc86e9e950",
+      "envelope": {
+        "id": "4035311",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 0,
+      "html_tags": [
+        "img",
+        "li",
+        "p",
+        "strong",
+        "ul"
+      ],
+      "code_sha256": []
+    },
+    "4035416": {
+      "repository_path": "courses/86957/steps/973825/01_4035416_text.step",
+      "original_file_sha256": "22740c5f9d3667640a483e587fae742e6b890e2c892bfc874fceab5668ffe639",
+      "document_sha256": "e95e9db062918bd6c7fd98fecb6472a125b28335fb81e3d99cd2feedcd288a93",
+      "envelope": {
+        "id": "4035416",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 0,
+      "html_tags": [
+        "p",
+        "strong"
+      ],
+      "code_sha256": []
+    },
+    "4035417": {
+      "repository_path": "courses/86957/steps/973826/01_4035417_text.step",
+      "original_file_sha256": "9dbe8a0cbda3294fa8c6ecb0077311fe433aca7f9aa366cc02e2d4fa8ca6eb4b",
+      "document_sha256": "2ad73964d41c7cdcf38711eb287575ca6fe824278ebf0a4229b8f4d5245d73e1",
+      "envelope": {
+        "id": "4035417",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 0,
+      "html_tags": [
+        "h3",
+        "li",
+        "p",
+        "strong",
+        "ul"
+      ],
+      "code_sha256": []
+    },
+    "4035427": {
+      "repository_path": "courses/86957/steps/973825/02_4035427_text.step",
+      "original_file_sha256": "c5257e961e3af6ead1e9aac9f8c58f27bd87c21c9f3d0dd3319c5ceb74f9e9fe",
+      "document_sha256": "d8b0f3f9c07dde5e0806fe330dc0985c2b3d33d49ab5fa259e344b7d90d2e04a",
+      "envelope": {
+        "id": "4035427",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 0,
+      "html_tags": [
+        "code",
+        "p",
+        "strong",
+        "table",
+        "tbody",
+        "td",
+        "th",
+        "thead",
+        "tr"
+      ],
+      "code_sha256": []
+    },
+    "4035430": {
+      "repository_path": "courses/86957/steps/973826/02_4035430_text.step",
+      "original_file_sha256": "85b5f606c389dbd7726d7b818d6242ed8c25ee808113bb5e943b1a7583ba070b",
+      "document_sha256": "61652879af67541a49a68cabaa3396ca57f792e02fe0a3d38bd437cb54bfd40f",
+      "envelope": {
+        "id": "4035430",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 0,
+      "html_tags": [
+        "h3",
+        "p",
+        "table",
+        "tbody",
+        "td",
+        "th",
+        "thead",
+        "tr"
+      ],
+      "code_sha256": []
+    },
+    "4035439": {
+      "repository_path": "courses/86957/steps/973829/01_4035439_text.step",
+      "original_file_sha256": "76b9a12bb2cd871a533de832f00f15c0f02bcdb6bc938dd79911c9e7478fb62f",
+      "document_sha256": "24c8d2a523be635645bb7cd01207297678017d91b5b2c11cda14b6d1385f8f6f",
+      "envelope": {
+        "id": "4035439",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 0,
+      "html_tags": [
+        "p",
+        "strong",
+        "table",
+        "tbody",
+        "td",
+        "th",
+        "thead",
+        "tr"
+      ],
+      "code_sha256": []
+    },
+    "4035443": {
+      "repository_path": "courses/86957/steps/973831/01_4035443_text.step",
+      "original_file_sha256": "04c94bace144dc1f823c8fb42be83acffbcbc132951b11f6b2ef5ea3590c065d",
+      "document_sha256": "08f365e33bf8f609be4bfda6ad17670f2bbba2fb4248d7c273d372fbba7e7ce5",
+      "envelope": {
+        "id": "4035443",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 3,
+      "html_tags": [
+        "code",
+        "li",
+        "p",
+        "pre",
+        "strong",
+        "ul"
+      ],
+      "code_sha256": [
+        "e275644ebcaa00e5ed21b96bdf0fe042f2b6f47c913e94a2826a2c322ca01634",
+        "ef86f981b7949d5fda6d743c530314b39101ce1cf91f1f162337b135da766315",
+        "13c839af02cd9d372944fb8190ff07731f543bc06cec2bf62d4a6dc5e2b0e2f8"
+      ]
+    },
+    "4035460": {
+      "repository_path": "courses/86957/steps/973829/03_4035460_text.step",
+      "original_file_sha256": "2ca428f73516d9cebab1627722b031ab3c224b3a7480beea8d3c2558da8ee8ba",
+      "document_sha256": "70ca7828c2cc9efd0be7a3a9514a5c41306e5f2141d93fdb5247c5d8fe44e9f0",
+      "envelope": {
+        "id": "4035460",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 0,
+      "html_tags": [
+        "img",
+        "li",
+        "p",
+        "strong",
+        "ul"
+      ],
+      "code_sha256": []
+    },
+    "4035461": {
+      "repository_path": "courses/86957/steps/973829/02_4035461_text.step",
+      "original_file_sha256": "a4712b3b8e176d3af1fece6b5551aede8eaee5df7bb6a85052fe13f8adf153f2",
+      "document_sha256": "a5fd6ae4437751d15913b35fdde3669272e9c5ea764065ef468214a7672f0bc6",
+      "envelope": {
+        "id": "4035461",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 0,
+      "html_tags": [
+        "img",
+        "li",
+        "p",
+        "strong",
+        "ul"
+      ],
+      "code_sha256": []
+    },
+    "4035481": {
+      "repository_path": "courses/86957/steps/973831/02_4035481_text.step",
+      "original_file_sha256": "560cc4026a996ea07863bc5f22fd2e1ca29af25dc195a08cccbb2a3e780a671b",
+      "document_sha256": "060bc4c2c2c6fb5e9ef4b0288ec238b373f4ae62d4366e3ddd6c614dcc7c7e10",
+      "envelope": {
+        "id": "4035481",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 3,
+      "html_tags": [
+        "code",
+        "p",
+        "pre",
+        "strong"
+      ],
+      "code_sha256": [
+        "ab97e16873ba573b8d9e7647fdde3f9fa0dc2a27c36d5339ae6af8fdcbc37b17",
+        "a697c4367de5838607851b64aeb894da7683fd7bc6702c48aab8e6a9020b11af",
+        "369a18d0d6b831f908a5739837e9924cd393e49946713dc52f63b44e1b951919"
+      ]
+    },
+    "4035497": {
+      "repository_path": "courses/86957/steps/973837/01_4035497_text.step",
+      "original_file_sha256": "4ea9d1c64eff0b082df25d10d090006582e2bc758c4a913a3a3151a078f4d4bc",
+      "document_sha256": "1b5dda32c8695a84bd3eaa4cc2016a7a61cda1b02cb3415132f961d95c2780ad",
+      "envelope": {
+        "id": "4035497",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 0,
+      "html_tags": [
+        "p",
+        "strong"
+      ],
+      "code_sha256": []
+    },
+    "4035517": {
+      "repository_path": "courses/86957/steps/973837/02_4035517_text.step",
+      "original_file_sha256": "49f4ec686f37f9fa01e52ca051fd9a1e52248f738bdc6ad0b3331c6336f795b7",
+      "document_sha256": "fef7927f6dfa7d40e5c63d8e61a49b499ab46b8f5247bb817cfc44051bdea1ca",
+      "envelope": {
+        "id": "4035517",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 0,
+      "html_tags": [
+        "li",
+        "p",
+        "strong",
+        "ul"
+      ],
+      "code_sha256": []
+    },
+    "4035524": {
+      "repository_path": "courses/86957/steps/973842/01_4035524_text.step",
+      "original_file_sha256": "8b2368f89f1368da9e3802faa892eaba120c483b41cc03a651edf5feb1581a1c",
+      "document_sha256": "c87c057979cf50253df5b2ebe327bba4e8fe97dd1d563d7accd2bbf57374360c",
+      "envelope": {
+        "id": "4035524",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 0,
+      "html_tags": [
+        "p",
+        "strong"
+      ],
+      "code_sha256": []
+    },
+    "4035562": {
+      "repository_path": "courses/86957/steps/973842/02_4035562_text.step",
+      "original_file_sha256": "08f16422135a409711595a21695fbb8f5c73b3c0970e96a5919e5b97a9a84022",
+      "document_sha256": "c52581dafdb50cf27d7e3c1f03c4d7ba5a306b4f6baa85e65723534fa463584f",
+      "envelope": {
+        "id": "4035562",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 0,
+      "html_tags": [
+        "li",
+        "p",
+        "strong",
+        "ul"
+      ],
+      "code_sha256": []
+    },
+    "4035563": {
+      "repository_path": "courses/86957/steps/973842/03_4035563_text.step",
+      "original_file_sha256": "39da123f1c37aaa7a2f18533f616c171682736ce7f8f2af5f03343ca093f0592",
+      "document_sha256": "babe16681dd8ca4785ad4861140d3acc544023e22992d531bde6c43b1d22396d",
+      "envelope": {
+        "id": "4035563",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 0,
+      "html_tags": [
+        "code",
+        "li",
+        "p",
+        "strong",
+        "ul"
+      ],
+      "code_sha256": []
+    },
+    "4036909": {
+      "repository_path": "courses/86957/steps/973842/04_4036909_text.step",
+      "original_file_sha256": "20ef67caf7ad158bdb019c4a550d326e2d7e4acb96fa434fc34bf075bb090947",
+      "document_sha256": "2139f026b5e19042c0fd294210120e0ed714c6d3b6732cc67bc21e65e31c552b",
+      "envelope": {
+        "id": "4036909",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 1,
+      "html_tags": [
+        "code",
+        "img",
+        "li",
+        "p",
+        "pre",
+        "strong",
+        "ul"
+      ],
+      "code_sha256": [
+        "82852e1d26fe5aeb7121181e1ec41fae59d4e373d2f5a58aacc87acc0707ea47"
+      ]
+    },
+    "4040986": {
+      "repository_path": "courses/86957/steps/853535/03_4040986_text.step",
+      "original_file_sha256": "4c3824cbb2f91d8199eac97216b7ca7a1c3eec90ae326af9ffbac53db514e790",
+      "document_sha256": "45948d41c50fd4760f84aed3ac461f987475bf08dfc2be6017935cf10a20b918",
+      "envelope": {
+        "id": "4040986",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 2,
+      "html_tags": [
+        "code",
+        "p",
+        "pre",
+        "strong"
+      ],
+      "code_sha256": [
+        "e0dec64ba7c57177d59ca9edfedbf35cf96f7868be9d330cd43c77e40be120c9",
+        "12f28cf9143d1c5c502433b986544488c7503017a73a72795672449406ec7a02"
+      ]
+    },
+    "4047594": {
+      "repository_path": "courses/86957/steps/977027/01_4047594_text.step",
+      "original_file_sha256": "ba3e507e5661aac375d6db906f13f7394903ebea1855fc70617b449bdec16c17",
+      "document_sha256": "842e5aaba6db0b1613e295ed99726e15efd04bc20056803bd3fc2c8ac09133b1",
+      "envelope": {
+        "id": "4047594",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 1,
+      "html_tags": [
+        "code",
+        "li",
+        "p",
+        "pre",
+        "strong",
+        "ul"
+      ],
+      "code_sha256": [
+        "f112177e635f04b6a43acb6eb0d5155eda099bf04869bf54f3d61b1cb33f2a16"
+      ]
+    },
+    "4047616": {
+      "repository_path": "courses/86957/steps/977027/02_4047616_text.step",
+      "original_file_sha256": "b07c6da1017331c0d1bc76584a8f3c9780b3357e419eca2c694bd3fc724a55d5",
+      "document_sha256": "64f2dbd8639b442f562c514bd0b432afb55dadf1ebc08a29da9d9b3cb2ac0960",
+      "envelope": {
+        "id": "4047616",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 5,
+      "html_tags": [
+        "code",
+        "p",
+        "pre",
+        "strong"
+      ],
+      "code_sha256": [
+        "ca2f86e9df1f7c42300ec78e9498458b56a022f5b6321b7d97e73f6d08077e56",
+        "91dd11d21164f4df5b544256c3ef5c7c27db8c3c04b5c2bc46595a1f4c4dc0ac",
+        "37c544e1f0d7d8ec54589ab80a77970da0de2ced351cdbb80a174c46c9927ffc",
+        "ba46fd85164ceeb019b9f4b15b223f1fc4f69c1cd94137398f01edd68dd64c5d",
+        "d6bc1a771c10d28d448f964f4860d7a9f4e6b5139d6e9757241959c57d6c7e59"
+      ]
+    },
+    "4047627": {
+      "repository_path": "courses/86957/steps/977027/03_4047627_text.step",
+      "original_file_sha256": "6a864e83562e453d3a467fa4f61a6c8a6c276d3190879fd28c3db9308d86f6dc",
+      "document_sha256": "bb9e4064a95f08290194d11634681695c870c287a81837b040aaa26f5d4d6f7c",
+      "envelope": {
+        "id": "4047627",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 3,
+      "html_tags": [
+        "code",
+        "p",
+        "pre",
+        "strong"
+      ],
+      "code_sha256": [
+        "3c71ed452e318afc325136405896597f2d79e90a501f95fa2f3d49eca8aba829",
+        "be3a8ac9be4cb78a8d161384c7e4d3e2929ac715989b95d9dfc586246331ceba",
+        "56c695c81b647838d7668f602675925299722823543dcf48add2aaa779669843"
+      ]
+    },
+    "4047680": {
+      "repository_path": "courses/86957/steps/977027/04_4047680_text.step",
+      "original_file_sha256": "148816e64c9ad2d07f80ab7462e0e1e7d82b9d210a46d410397a564efad75e56",
+      "document_sha256": "37f7e1582331612d05c19a31bb186383a08ebd1b5e172f6730699dba7b089969",
+      "envelope": {
+        "id": "4047680",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 3,
+      "html_tags": [
+        "code",
+        "p",
+        "pre",
+        "strong"
+      ],
+      "code_sha256": [
+        "37c71ade39b064579aa325882238c2e8154a79facde76fb568b9bd9b78510800",
+        "c7a47ae3ad9980b6754d283eb9b799c48fea3c6bc34827ce284884744b6f3c61",
+        "a1e026b9389df4670334dda77e978e32b3da83148965856bc325a752861fa2ff"
+      ]
+    },
+    "4047681": {
+      "repository_path": "courses/86957/steps/977027/05_4047681_text.step",
+      "original_file_sha256": "25fdf7f679a31df71f856cd5b123601069ee61026799bae59a013f0245a3c2af",
+      "document_sha256": "fd869f794b2c8627f8c485e8a628ae9849dbd3c0bebba452e654ee19c969805f",
+      "envelope": {
+        "id": "4047681",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 3,
+      "html_tags": [
+        "code",
+        "p",
+        "pre",
+        "strong"
+      ],
+      "code_sha256": [
+        "370500bc70d68e77e599f22959c5b7355a628287f555d3b13571e049b59c4e8d",
+        "1970da4b547395ef62a843a072557a0fd81315dd2913b4e8cab6719879282f42",
+        "f2fb032824b73f39f000449d0940092596decb77053a1d90cfa5a0044818f912"
+      ]
+    },
+    "4047682": {
+      "repository_path": "courses/86957/steps/977027/06_4047682_text.step",
+      "original_file_sha256": "009ae1be3c51aeb0d7931a1db0eb352c8c18c64cde9d72f3908ce48878228212",
+      "document_sha256": "8c6790ca856cc007902b4336bf8f396d26110dbefd4d372123ed2cc340defe8b",
+      "envelope": {
+        "id": "4047682",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "text",
+      "pre_count": 3,
+      "html_tags": [
+        "code",
+        "p",
+        "pre",
+        "strong"
+      ],
+      "code_sha256": [
+        "954b35dc8739fc8c335cf0db57d836bfe9d18ba30ca720e87ffd99617d7f28fd",
+        "bffa72fc277d974efdd023d88ad4d0af3ec24020568580e568d742d2c1349c5a",
+        "8d2a161f412db21c5fd22793d3c85aa9e0a8f3bc18fe6a85ac11c0a969c02676"
+      ]
+    },
+    "4717766": {
+      "repository_path": "courses/86957/steps/877083/07_4717766_choice.step",
+      "original_file_sha256": "d73a07a3fe81866773d882bffaac9799cab20bbc6f42dcfa677342a0b0d1e67e",
+      "document_sha256": "0b4356224545843e81b2b0cafefb4b9299a67b573512ded668084b44dd70aa5c",
+      "envelope": {
+        "id": "4717766",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "choice",
+      "pre_count": 0,
+      "html_tags": [
+        "p"
+      ],
+      "code_sha256": [],
+      "choice_keys": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    "4717768": {
+      "repository_path": "courses/86957/steps/877084/07_4717768_choice.step",
+      "original_file_sha256": "e9669927c60cd6ce9c741ccf0f54eb48c7624d95a7f61ba368a27e1eb6bdb259",
+      "document_sha256": "336a93d0158aacb06098a4459fe87520e100a35c9b44c3b948368cf42234b4ce",
+      "envelope": {
+        "id": "4717768",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "choice",
+      "pre_count": 0,
+      "html_tags": [
+        "p"
+      ],
+      "code_sha256": [],
+      "choice_keys": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    "4717788": {
+      "repository_path": "courses/86957/steps/771130/06_4717788_choice.step",
+      "original_file_sha256": "c26bd86ac889efb1a360524a96c8a1e5bf77a4918c249d471e97314b30e7e18c",
+      "document_sha256": "5c0c207d0147a93fd7b4e476fbb87316dc03fc558ddface0b69f7d69d225ecad",
+      "envelope": {
+        "id": "4717788",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "choice",
+      "pre_count": 0,
+      "html_tags": [
+        "p"
+      ],
+      "code_sha256": [],
+      "choice_keys": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    "4717789": {
+      "repository_path": "courses/86957/steps/877083/08_4717789_choice.step",
+      "original_file_sha256": "ff324d0cdc025cc59780c2fa45f685a1dc76285c44c191ac5900932562cc43cc",
+      "document_sha256": "e77fe5e5b999d1199e0267b17f2271dc7cbeb77847f34f4a081faae324e12812",
+      "envelope": {
+        "id": "4717789",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "choice",
+      "pre_count": 0,
+      "html_tags": [
+        "p"
+      ],
+      "code_sha256": [],
+      "choice_keys": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    "4718089": {
+      "repository_path": "courses/86957/steps/877084/08_4718089_choice.step",
+      "original_file_sha256": "49090a94e70a10e40e21a7e85a6c9fbf67b5f48ee953b3a643ea539285905d23",
+      "document_sha256": "952043d74595721aae8d4fdf07784de11c701365868815270e47e360b389de99",
+      "envelope": {
+        "id": "4718089",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "choice",
+      "pre_count": 0,
+      "html_tags": [
+        "p"
+      ],
+      "code_sha256": [],
+      "choice_keys": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    "4718091": {
+      "repository_path": "courses/86957/steps/877082/07_4718091_choice.step",
+      "original_file_sha256": "59fba1dbc94d403824429d0c452d1681cd158783a1779d6873201efbf4c4efe9",
+      "document_sha256": "ccf43d16b124f267d84160ada4d86b52cb0d8d2aeee834ac012a08fa3ffa48d9",
+      "envelope": {
+        "id": "4718091",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "choice",
+      "pre_count": 0,
+      "html_tags": [
+        "p"
+      ],
+      "code_sha256": [],
+      "choice_keys": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    "4718092": {
+      "repository_path": "courses/86957/steps/877082/08_4718092_choice.step",
+      "original_file_sha256": "e1d5204eff3d65e9ea3454ff70808bbc39fa6be31c3c8d5aa551bed0af3a2949",
+      "document_sha256": "83e0a931357ede6c9619ed4b15632dd22910c4f3c5712ed2ad75e3269998405a",
+      "envelope": {
+        "id": "4718092",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "choice",
+      "pre_count": 0,
+      "html_tags": [
+        "p"
+      ],
+      "code_sha256": [],
+      "choice_keys": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    "4718109": {
+      "repository_path": "courses/86957/steps/973837/03_4718109_choice.step",
+      "original_file_sha256": "f338b663e5a922bbbf276cf5727f60567a18e2e2a055e26ada6f790c5aff5943",
+      "document_sha256": "327351b1a5d585d1e20fb28d3c24ff65008b67786fdddc4f686048e52577e6fd",
+      "envelope": {
+        "id": "4718109",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "choice",
+      "pre_count": 0,
+      "html_tags": [
+        "p"
+      ],
+      "code_sha256": [],
+      "choice_keys": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    "4718139": {
+      "repository_path": "courses/86957/steps/853532/04_4718139_choice.step",
+      "original_file_sha256": "125ac4ed223fe2789695b1ccbee7648df204a05c8ba41a7a6856441711e206c0",
+      "document_sha256": "609c3d6f976a08e08deb7a201af9f4a67bb5cc67f52a9bf855cb3b1a5d608675",
+      "envelope": {
+        "id": "4718139",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "choice",
+      "pre_count": 0,
+      "html_tags": [
+        "code",
+        "p"
+      ],
+      "code_sha256": [],
+      "choice_keys": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    "4718222": {
+      "repository_path": "courses/86957/steps/853534/03_4718222_choice.step",
+      "original_file_sha256": "6edb99dab5509a634c666b6b75f2b4f3bf98317eab49f8b12acca3e1a2db9a32",
+      "document_sha256": "6306427131950018e55e56ca5fa9e4f5ea53c581d22ca2135fa28b1b0a9fd722",
+      "envelope": {
+        "id": "4718222",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "choice",
+      "pre_count": 0,
+      "html_tags": [
+        "p"
+      ],
+      "code_sha256": [],
+      "choice_keys": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    "4718241": {
+      "repository_path": "courses/86957/steps/853534/04_4718241_choice.step",
+      "original_file_sha256": "143b78e2810cd3b77727a00b8b4e42fcf91975b4a8aa8ecd0d401045302e5860",
+      "document_sha256": "a9ad51def406d100519bb6948516f225dbe243ecd198e28c84ef6d3668b4802e",
+      "envelope": {
+        "id": "4718241",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "choice",
+      "pre_count": 0,
+      "html_tags": [
+        "p"
+      ],
+      "code_sha256": [],
+      "choice_keys": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    "4718246": {
+      "repository_path": "courses/86957/steps/853535/04_4718246_choice.step",
+      "original_file_sha256": "1f4c31b0108c191ae8bc2242bc01e0ddbe2e15b0bbe2c5870b8522f02f315c48",
+      "document_sha256": "57662acb2cc5d1b31d114fa7da10351890747c5b34e0169f82866a6df7283bed",
+      "envelope": {
+        "id": "4718246",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "choice",
+      "pre_count": 0,
+      "html_tags": [
+        "p"
+      ],
+      "code_sha256": [],
+      "choice_keys": [
+        false,
+        false,
+        false,
+        true
+      ]
+    },
+    "4718289": {
+      "repository_path": "courses/86957/steps/973842/05_4718289_choice.step",
+      "original_file_sha256": "e396fa920e77e5fba972bffa711824acd21b6eb8ce45b2babead135aa6ab2026",
+      "document_sha256": "34f56644ab5cc812a50cb9b175e1cd4ea894209bb49ce17f6aae267de2948d8d",
+      "envelope": {
+        "id": "4718289",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "choice",
+      "pre_count": 0,
+      "html_tags": [
+        "p"
+      ],
+      "code_sha256": [],
+      "choice_keys": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    "4718311": {
+      "repository_path": "courses/86957/steps/770597/07_4718311_choice.step",
+      "original_file_sha256": "5cb05dccda5041915eb2dda10f2f98a575a58e14b10010bbe9230c06fc603cf2",
+      "document_sha256": "4a3bb69f2ac4fb4f977d8c43b7e63cfc2eb19edd0a2ff87ee357997c1b5950ac",
+      "envelope": {
+        "id": "4718311",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "choice",
+      "pre_count": 0,
+      "html_tags": [
+        "p"
+      ],
+      "code_sha256": [],
+      "choice_keys": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    "4718314": {
+      "repository_path": "courses/86957/steps/770597/08_4718314_choice.step",
+      "original_file_sha256": "3a7164805a46c228935efbe50efa8d9ba0bb6e325ac5cf132776bfb82117d69f",
+      "document_sha256": "d10f8c9d72a330935bff8e231e32f49576df3258d9d7fd8e31fd2b5595a25b81",
+      "envelope": {
+        "id": "4718314",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "choice",
+      "pre_count": 0,
+      "html_tags": [
+        "p"
+      ],
+      "code_sha256": [],
+      "choice_keys": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    "4718316": {
+      "repository_path": "courses/86957/steps/977027/07_4718316_choice.step",
+      "original_file_sha256": "a0db063aa07a9044de93ce4f6429632c3e4c1ba4d92e6edf2ae287c8423fbd69",
+      "document_sha256": "379c4a2e604059d8a5b31b2d150167a59eb184b1e74a8e0d517c27f208f8325c",
+      "envelope": {
+        "id": "4718316",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "choice",
+      "pre_count": 0,
+      "html_tags": [
+        "p"
+      ],
+      "code_sha256": [],
+      "choice_keys": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    "4718318": {
+      "repository_path": "courses/86957/steps/853534/05_4718318_choice.step",
+      "original_file_sha256": "bac4f933bda176601b2bb3c1b929f2223c55e31df8f5931803f403559fe9e389",
+      "document_sha256": "fb4635f05a13e9c7db660077c1c3c086c6bc3fb7436a42788cfbb7718eac2590",
+      "envelope": {
+        "id": "4718318",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "choice",
+      "pre_count": 0,
+      "html_tags": [
+        "p"
+      ],
+      "code_sha256": [],
+      "choice_keys": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    "4718330": {
+      "repository_path": "courses/86957/steps/853537/03_4718330_choice.step",
+      "original_file_sha256": "bcfafdc12864086ed9c59639bf5fe36a795db568981fa63945e8e0f7161b9a0c",
+      "document_sha256": "69e40620044fe1799935c9c498068d4f693127cf8ebf36ec8af947a7242119ed",
+      "envelope": {
+        "id": "4718330",
+        "time": "2026-11-22T18:35:40Z"
+      },
+      "name": "choice",
+      "pre_count": 1,
+      "html_tags": [
+        "code",
+        "p",
+        "pre"
+      ],
+      "code_sha256": [
+        "06ff20e7d67ce4c4e9118aa5f2a3b79edb74dc0bbece95194e715d70385c3dd3"
+      ],
+      "choice_keys": [
+        true,
+        false,
+        false,
+        false
+      ]
+    }
+  }
+}

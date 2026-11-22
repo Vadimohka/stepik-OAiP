@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Run focused regression checks for the revised import files, locally.
 
-This executes only the selected, reviewed Python grading functions, never the
-C++ programs or student solutions. It also reuses independent reference solvers
-from the baseline audit against the revised test datasets.
+This executes selected, reviewed Python grading functions and independent C++
+reference solutions. It never runs student submissions. It also reuses
+independent solvers from the baseline audit on the revised test datasets.
 """
 from __future__ import annotations
 

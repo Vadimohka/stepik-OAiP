@@ -1,7 +1,7 @@
 {
   "block": {
     "name": "choice",
-    "text": "<p>int arr[5]{ 1, 2, 3, 4, 5 };<br>\nint* ptr1 = arr;<br>\nint* ptr2 = &amp;arr[3];</p>\n\n<p>std::cout &lt;&lt; ptr2 - ptr1 &lt;&lt; std::endl;</p>\n\n<p>Что выведет данная программа (<code>sizeof(int) = 4</code>)?</p>",
+    "text": "<pre><code class=\"language-cpp\">int arr[5]{ 1, 2, 3, 4, 5 };\nint* ptr1 = arr;\nint* ptr2 = &amp;arr[3];\n\nstd::cout &lt;&lt; ptr2 - ptr1 &lt;&lt; std::endl;</code></pre>\n\n<p>Что выведет данная программа (<code>sizeof(int) = 4</code>)?</p>",
     "video": null,
     "options": {
       "is_multiple_choice": false

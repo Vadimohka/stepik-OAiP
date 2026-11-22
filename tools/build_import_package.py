@@ -273,6 +273,12 @@ def main():
         result = {"changed_steps": len(changed), "structural_checks": checks}
     else:
         result = build(root, args.course, args.date)
+        if (root / 'imports' / str(args.course) / 'round2_changes.json').exists():
+            from build_round2_package import augment
+            result['round2'] = augment(root, args.course, result['archive'])
+            archive = root / result['archive']
+            result['archive_bytes'] = archive.stat().st_size
+            result['archive_sha256'] = digest(archive.read_bytes())
     print(dump(result), end="")
 
 

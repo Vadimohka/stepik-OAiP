@@ -1,7 +1,7 @@
 {
   "block": {
     "name": "code",
-    "text": "<p>На вход дано b1 - первый член геометрической прогрессии. Необходимо вычислить сумму всех членов бесконечно убывающей геометрической прогрессии, где знаменатель прогрессии q равен 1/1001.</p>\n\n<p>Используйте библиотеку <code>&lt;iomanip&gt;</code> и функцию <code>setprecision(8)</code>. </p>",
+    "text": "<p>Дан первый член геометрической прогрессии <code>b₁</code>. Знаменатель прогрессии равен <code>q = 1/1001</code>. Найдите сумму всех членов бесконечной прогрессии. Поскольку <code>|q| &lt; 1</code>, эта сумма существует, в том числе при отрицательном или нулевом <code>b₁</code>.</p>\n<h4>Входные данные</h4>\n<p>Одно конечное вещественное число <code>b₁</code>, <code>|b₁| ≤ 10<sup>12</sup></code>.</p>\n<h4>Выходные данные</h4>\n<p>Выведите сумму. Ответ принимается, если <code>|ответ − эталон| ≤ max(10<sup>−7</sup>, 10<sup>−7</sup> · |эталон|)</code>. Для вывода можно использовать манипулятор <code>std::setprecision(8)</code> из заголовка <code>&lt;iomanip&gt;</code> или большую точность. Десятичная и экспоненциальная формы записи равнозначны.</p>\n",
     "video": null,
     "options": {
       "execution_time_limit": 5,
@@ -33,7 +33,7 @@
     "subtitle_files": [],
     "is_deprecated": false,
     "source": {
-      "code": "# This is a sample Code Challenge\n# Learn more: https://stepik.org/lesson/9173\n# Ask your questions via support@stepik.org\n\ndef generate():\n    return []\n\ndef check(reply, clue):\n    return reply.strip() == clue.strip()\n\n# def solve(dataset):\n#     a, b = dataset.split()\n#     return str(int(a) + int(b))",
+      "code": "from decimal import Decimal, DecimalException, localcontext\nimport re\n\ndef generate():\n    return []\n\ndef check(reply, clue):\n    answer = reply.split()\n    expected = clue.split()\n    if len(answer) != 1 or len(expected) != 1:\n        return False\n    number = r\"[+-]?(?:[0-9]+(?:\\.[0-9]*)?|\\.[0-9]+)(?:[eE][+-]?[0-9]+)?\"\n    if any(re.fullmatch(number, token) is None for token in answer):\n        return False\n    try:\n        with localcontext() as ctx:\n            ctx.prec = 60\n            tolerance = Decimal(\"1e-7\")\n            for actual, target in zip(answer, expected):\n                actual, target = Decimal(actual), Decimal(target)\n                if not actual.is_finite() or not target.is_finite():\n                    return False\n                if abs(actual - target) > max(tolerance, tolerance * abs(target)):\n                    return False\n    except (DecimalException, ValueError):\n        return False\n    return True\n",
       "execution_time_limit": 5,
       "execution_memory_limit": 256,
       "samples_count": 1,
@@ -51,11 +51,11 @@
         ],
         [
           "0.99999",
-          "1.00099"
+          "1.00098999"
         ],
         [
           "1241345",
-          "1242586.3"
+          "1242586.345"
         ],
         [
           "-123",
@@ -63,7 +63,19 @@
         ],
         [
           "15358.125125",
-          "15373.483"
+          "15373.483250125"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "-1000000000000",
+          "-1001000000000"
+        ],
+        [
+          "0.00001",
+          "0.00001001"
         ]
       ]
     },

@@ -1,7 +1,7 @@
 {
   "block": {
     "name": "choice",
-    "text": "<p>// .. корретное выделение памяти .. //<br>\n// ..</p>\n\n<p>delete mat;<br>\nfor (int i = 0; i &lt; 2; ++i){<br>\n    delete mat[i];<br>\n}</p>\n\n<p>Выберите правильное утверждение.</p>",
+    "text": "<pre><code class=\"language-cpp\">// mat указывает на массив из двух int*, созданный через new[].\n// Каждая из двух строк mat[i] также создана через new int[3].\n\ndelete mat;\nfor (int i = 0; i &lt; 2; ++i){\ndelete mat[i];\n}</code></pre>\n\n<p>Выберите правильное утверждение.</p>",
     "video": null,
     "options": {
       "is_multiple_choice": false

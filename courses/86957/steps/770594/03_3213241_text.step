@@ -1,7 +1,7 @@
 {
   "block": {
     "name": "text",
-    "text": "<h3><strong>O(1)</strong></h3>\n\n<p>O(1) не увеличивается с изменением размера входных данных. Таким образом, время обработки O(1)  —  <strong>величина постоянная</strong> независимо от того, какие входные данные были переданы.</p>\n\n<p><strong>Пример:</strong></p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\nusing namespace std;\n\nint main() {\n    int a[] {1,2,3,4,5};\n    cout &lt;&lt; size(a);\n    return 0;\n}</code></pre>",
+    "text": "<h3><strong>O(1)</strong></h3>\n\n<p>Оценка O(1) означает, что количество операций ограничено константой, не зависящей от размера входа. Фактическое время отдельных запусков не обязано быть одинаковым. Получение размера встроенного массива не требует обхода его элементов.</p>\n\n<p><strong>Пример:</strong></p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;iterator&gt; // std::size, начиная с C++17\nusing namespace std;\n\nint main() {\n    int a[] {1,2,3,4,5};\n    cout &lt;&lt; size(a);\n    return 0;\n}</code></pre>",
     "video": null,
     "options": {},
     "subtitle_files": [],

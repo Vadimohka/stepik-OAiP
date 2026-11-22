@@ -1,7 +1,7 @@
 {
   "block": {
     "name": "choice",
-    "text": "<p>Как корректно установить значение определенного флага статуса?<br>\nchar status = 0;<br>\nchar online = 1;<br>\nchar offline = 1 &lt;&lt; 1;</p>",
+    "text": "<p>Какой оператор установит флаг online и сохранит остальные флаги при любом исходном значении status? Ниже показана начальная настройка флагов; к моменту установки online значение status уже может измениться.<br>\nchar status = 0;<br>\nchar online = 1;<br>\nchar offline = 1 &lt;&lt; 1;</p>",
     "video": null,
     "options": {
       "is_multiple_choice": false

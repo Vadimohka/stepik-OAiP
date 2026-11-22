@@ -1,7 +1,7 @@
 {
   "block": {
     "name": "text",
-    "text": "<h2>Операторы переходов</h2>\n\n<p>В языке С++ определены четыре оператора перехода: <strong><kbd>return</kbd></strong>, <strong><kbd>goto</kbd></strong>, <strong><kbd>break</kbd></strong> и <strong><kbd>continue</kbd></strong>. Операторы <strong><kbd>return</kbd></strong> и <strong><kbd>goto</kbd> </strong>можно использовать в любом месте внутри функции. Операторы <strong><kbd>break</kbd></strong> и <strong><kbd>continue</kbd></strong> можно использовать в любом из операторов цикла. Как указывалось ранее в этом модуле, <strong><kbd>break</kbd></strong> можно также использовать в операторе <strong><kbd>switch</kbd></strong>.</p>",
+    "text": "<h2>Операторы переходов</h2>\n\n<p>В языке C++ определены четыре обычных оператора перехода: return, goto, break и continue. return завершает текущую функцию, а goto передаёт управление к метке в той же функции; для них действуют ограничения языка, которые рассмотрим далее. break и continue применяются внутри циклов. Как указывалось ранее, break также применяется в switch.</p>",
     "video": null,
     "options": {},
     "subtitle_files": [],

@@ -1,0 +1,104 @@
+{
+  "course_id": 86957,
+  "module": 10,
+  "all_passed": true,
+  "checks": [
+    {
+      "check": "interpolation_formula_and_search_against_linear_membership",
+      "passed": true,
+      "inputs": 3258,
+      "example_index": 7
+    },
+    {
+      "check": "hidden_constant_crossover",
+      "passed": true,
+      "last_before": 1494,
+      "first_after": 1495
+    },
+    {
+      "check": "factmod_loop_bound_and_int_product_bound",
+      "passed": true,
+      "parameter_pairs": 5339
+    },
+    {
+      "check": "cpp_examples_and_harnesses",
+      "passed": true,
+      "builds": 8,
+      "runs": 8,
+      "sanitizer": "undefined",
+      "details": [
+        {
+          "source": "imports/86957/validation/round2/module10/checks/size_3213241.cpp",
+          "standard": "c++17",
+          "run_passed": true
+        },
+        {
+          "source": "imports/86957/validation/round2/module10/checks/size_3213241.cpp",
+          "standard": "c++20",
+          "run_passed": true
+        },
+        {
+          "source": "imports/86957/validation/round2/module10/checks/heap_example_3215179.cpp",
+          "standard": "c++17",
+          "run_passed": true
+        },
+        {
+          "source": "imports/86957/validation/round2/module10/checks/heap_example_3215179.cpp",
+          "standard": "c++20",
+          "run_passed": true
+        },
+        {
+          "source": "imports/86957/validation/round2/module10/checks/heap_harness.cpp",
+          "standard": "c++17",
+          "run_passed": true
+        },
+        {
+          "source": "imports/86957/validation/round2/module10/checks/heap_harness.cpp",
+          "standard": "c++20",
+          "run_passed": true
+        },
+        {
+          "source": "imports/86957/validation/round2/module10/checks/factmod_harness.cpp",
+          "standard": "c++17",
+          "run_passed": true
+        },
+        {
+          "source": "imports/86957/validation/round2/module10/checks/factmod_harness.cpp",
+          "standard": "c++20",
+          "run_passed": true
+        }
+      ]
+    }
+  ],
+  "step_file_sha256": {
+    "courses/86957/steps/770594/02_3213244_text.step": "04ee9082be82abb4ffafdb4d18fb1458bfe014ccd852b162ca784f6aa0450241",
+    "courses/86957/steps/770594/07_3213248_text.step": "fccbdd64328ab508d6ed1ec2f8f97a37162ccf65150548ba88f5f8d1782ac398",
+    "courses/86957/steps/770594/16_4717725_choice.step": "a24927b930a81ac174512734a76392ca02f75443100c2d79ca1b6fbb1d81a5a1",
+    "courses/86957/steps/770594/04_3213243_text.step": "4f82ed619aa6518469bd2f54840d4c5c65aa68967fbfc91f10281d9f4f749f94",
+    "courses/86957/steps/770594/05_3213242_text.step": "07218f2856acb647b13a945e860b2d7bd0fb7673ba165d8bb523b3f08ef4b302",
+    "courses/86957/steps/770594/12_3435221_choice.step": "18e54ef8267b64fa651400e8324e76486a3c2d09b1deab8af93bf8ddff1d59a5",
+    "courses/86957/steps/770594/01_3212953_text.step": "578ba010a546436fce532ea2330de7e6f6d29227cc9e4289808cfba26b28b840",
+    "courses/86957/steps/770594/03_3213241_text.step": "e5b00c792080aa897a30a1d074cee60a70deec16cfbf51f46d6e4f68ff998edc",
+    "courses/86957/steps/770594/10_3408612_choice.step": "aba7ab6b9c4a598510e76993a33275f639b0fd29683509cdba9bd0a9c9ec5c47",
+    "courses/86957/steps/770594/06_3213247_text.step": "13cc478d35485980ae69db24ae17bb7aa393ee74d8c1849f6572266b3d8ea3cf",
+    "courses/86957/steps/770594/09_3213255_text.step": "4267c41f092a92b51a755ff0941d404a324a0a140409de2dea283a7939709ae7",
+    "courses/86957/steps/770594/11_3408628_choice.step": "385cd0172928beaf142bbc47ee9d8fcf17358a0285f68b5bc446a5105d4ba101",
+    "courses/86957/steps/770594/08_3213256_text.step": "3b1d461bb35c67d22d610e7cc9b5895486453f0daf3cef42c0228abde55125b7",
+    "courses/86957/steps/770595/02_3215136_text.step": "13054af1d50c2c827647c1744c32a018905dfd256361dcfa54f7d91e7e1e501f",
+    "courses/86957/steps/770595/06_3215178_text.step": "c502a3e1e29da8e77963329307e8840f7975dafebb93ae11483c9811e3f6af7e",
+    "courses/86957/steps/770595/09_3408767_choice.step": "e4541255eb8aec04b747ea89fd6e66ead51f94c9d9c776ad8ccc6257afd0ba60",
+    "courses/86957/steps/770595/03_3215137_text.step": "5e4a097c0c9e92aed1e1d16fb1f51effee25fa878b296065a8c2e4d548ef96c7",
+    "courses/86957/steps/770595/01_3212954_text.step": "fc7d5bb14ee928ea8aaaf244996296d6e0a5d1b96a31650d32fd3b4d05a91f55",
+    "courses/86957/steps/770595/07_3215177_text.step": "4cad77986f237b6730aec88a4494086ad81e245ef222808e0cd5f12d4f29ac40",
+    "courses/86957/steps/770595/10_3435286_choice.step": "2b7682c7ac056e8134aab5a3929c9db9bfe03887f8ddf5475150e1f27bfe6201",
+    "courses/86957/steps/770595/04_3215176_text.step": "77ed2c0ffab834cd02b5f1c00fdc99f2ed38e69a3373e4346ce07e4a4646eeed",
+    "courses/86957/steps/770595/08_3215179_text.step": "9e0049fff4522fff69a8ff8890de05a655aaf4eb0e2f79925eac9be8beaf908a",
+    "courses/86957/steps/770595/05_3215175_text.step": "83fcaa8498aaa858cbb484b5e1af74e4dba316bbc5dfee51463a04edfbbfa926",
+    "courses/86957/steps/771129/06_3435354_choice.step": "681b4edb340f2b398d7b0f4d6f2e9f42de5ec83fda9daea81aee0cdc3aa2d533",
+    "courses/86957/steps/771129/03_3215192_text.step": "e6b456c3fb718bc8a3e31f6b2c8562744cb552c91827118e925a3650dfa5c7fc",
+    "courses/86957/steps/771129/04_3215191_text.step": "a9e3b781c6c99be2a51a67a594664e4e48a2074c0aff9158f4a212087f8ea863",
+    "courses/86957/steps/771129/05_3408864_choice.step": "f7f043aab4c3cdaf28f43b9ef1cf89f6a979b54300f2564c7528cf7ef927f8fe",
+    "courses/86957/steps/771129/02_3215183_text.step": "7850409176a428aba417b876b747f976eb000b0067da73d969022ee502781e7a",
+    "courses/86957/steps/771129/01_3215109_text.step": "7a76ce8fe8a71ce330a5c4d37e6e707a4973df597279e7e25b72efc0e7c0e5e1"
+  }
+}

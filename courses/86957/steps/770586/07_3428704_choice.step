@@ -1,7 +1,7 @@
 {
   "block": {
     "name": "choice",
-    "text": "<p>int arr[100];<br>\nint* ptr = arr;<br>\nstd::cout &lt;&lt; sizeof(ptr);</p>\n\n<p>Какой вывод вы получите на 64-хбитной системе, где <code>sizeof(int) = 4</code>?</p>",
+    "text": "<pre><code class=\"language-cpp\">int arr[100];\nint* ptr = arr;\nstd::cout &lt;&lt; sizeof(ptr);</code></pre>\n\n<p>Что выведет фрагмент при sizeof(int) == 4 и sizeof(int*) == 8?</p>",
     "video": null,
     "options": {
       "is_multiple_choice": false

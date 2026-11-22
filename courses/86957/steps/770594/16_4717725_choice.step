@@ -1,7 +1,7 @@
 {
   "block": {
     "name": "choice",
-    "text": "<p>Какой заголовочный файл используется для объявления алгоритмов стандартной библиотеки?</p>",
+    "text": "<p>Какой стандартный заголовок объявляет алгоритмы <code>std::sort</code> и <code>std::find</code>?</p>\n",
     "video": null,
     "options": {
       "is_multiple_choice": false

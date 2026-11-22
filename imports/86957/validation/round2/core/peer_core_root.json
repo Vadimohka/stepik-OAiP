@@ -1,0 +1,83 @@
+{
+  "status": "passed",
+  "mode": "read-only; исходный checker и решения не выполнялись, тесты пересчитаны независимыми локальными вычислениями",
+  "reviewed_step_ids": [
+    3381234,
+    3381291,
+    3382745,
+    3383135,
+    3384444,
+    3496771
+  ],
+  "total_stored_cases": 63,
+  "findings": [
+    {
+      "step_id": 3381234,
+      "verdict": "confirmed",
+      "stored_cases_checked": 7,
+      "samples_match_source": true,
+      "limits_match_stored_inputs": true,
+      "regressions": [],
+      "notes": "Прямоугольник префикса определён однозначно; N,M положительны, N·M≤10^5. Все семь матриц, включая отрицательные значения и размеры 1×M/N×1, согласованы."
+    },
+    {
+      "step_id": 3381291,
+      "verdict": "confirmed",
+      "stored_cases_checked": 6,
+      "samples_match_source": true,
+      "limits_match_stored_inputs": true,
+      "regressions": [],
+      "notes": "Длина 1…32767, отсутствие ведущих нулей, 0≤i<L и возрастающий порядок индексов заданы. Все индексы и количество различных цифр сверены, включая 1001-значный ввод."
+    },
+    {
+      "step_id": 3382745,
+      "verdict": "confirmed",
+      "stored_cases_checked": 10,
+      "samples_match_source": true,
+      "limits_match_stored_inputs": true,
+      "regressions": [],
+      "notes": "Первые слева экстремумы, исключение самих границ, EOF без отдельной длины, учёт исходных нулей и строгое условие 2*zeros > length согласованы. Проверены также равные элементы, один элемент и пустой результат."
+    },
+    {
+      "step_id": 3383135,
+      "verdict": "confirmed",
+      "stored_cases_checked": 7,
+      "samples_match_source": true,
+      "limits_match_stored_inputs": true,
+      "regressions": [],
+      "notes": "N=M задано явно; порядок A·B сохранён. Верхняя оценка модуля элемента ответа: 100·10^6·10^6=10^14; long long достаточен. Для произведений, а не только накопления, указан long long."
+    },
+    {
+      "step_id": 3384444,
+      "verdict": "confirmed",
+      "stored_cases_checked": 14,
+      "samples_match_source": true,
+      "limits_match_stored_inputs": true,
+      "regressions": [],
+      "notes": "Нумерация с нуля и unsigned long long согласованы с диапазоном до 10^19. Все 14 ключей сверены через слой k=floor(sqrt(N−1)) и смещение внутри слоя без вещественного sqrt."
+    },
+    {
+      "step_id": 3496771,
+      "verdict": "confirmed",
+      "stored_cases_checked": 19,
+      "samples_match_source": true,
+      "limits_match_stored_inputs": true,
+      "regressions": [],
+      "notes": "Нестандартная запись объявлена явно: D запрещён, таблица сотен включает 400…900, тысячи/сотни/десятки/единицы соединяются в заданном порядке. Все 19 ключей и шесть samples совпадают с таблицей."
+    }
+  ],
+  "regressions": [],
+  "course_files_unchanged": true,
+  "step_sha256": {
+    "3384444": "6e1672aa95578cae267f8853d05ce9f75b345ee84a06251336b0dec640fb7eae",
+    "3381234": "18f097dcb676e9397a66b0122ef8ad7c6d61d9258a5871508dd0f888675edbeb",
+    "3383135": "39d77333aac309b33370f1337eabb2bd7586acb2efa9355668bde30671171e92",
+    "3381291": "9b324d6ce047d16d86e266a1883d3d4754d7e203a6909c94c439b496772a03cb",
+    "3382745": "79265416d3f1d3deac0258b3d96e635a2c32819a47e256f457a3556f1311a462",
+    "3496771": "8b174e7a84abc551393f69806009cb07631bbf482c6167543aca45f6e5de010b"
+  },
+  "limitations": [
+    "Изображение в 3384444 сохранено и не переоценивалось; координаты проверены по текстовому алгоритму, явным примерам нумерации и всем тестам.",
+    "Проверяющие функции прочитаны; выполнение на сервере Stepik не проверялось."
+  ]
+}

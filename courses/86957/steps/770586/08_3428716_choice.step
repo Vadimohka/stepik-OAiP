@@ -1,7 +1,7 @@
 {
   "block": {
     "name": "choice",
-    "text": "<p>void getSize(int arr[])<br>\n{<br>\n    std::cout &lt;&lt; \"Size of the array from getSize(): \" &lt;&lt; sizeof(arr) &lt;&lt; \"\\t\";<br>\n}</p>\n\n<p>int main()<br>\n{<br>\n    int arr[100];<br>\n    std::cout &lt;&lt; \"Size of the array from main(): \" &lt;&lt; sizeof(arr) &lt;&lt; \"\\t\";<br>\n    <br>\n    getSize(arr);<br>\n    return 0;<br>\n}</p>\n\n<p>Что выведет данная программа (<code>sizeof(int) = 4</code>, <code>sizeof(int*) = 8</code>)?</p>",
+    "text": "<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n\nvoid getSize(int arr[])\n{\nstd::cout &lt;&lt; \"Size of the array from getSize(): \" &lt;&lt; sizeof(arr) &lt;&lt; \"\\t\";\n}\n\nint main()\n{\nint arr[100];\nstd::cout &lt;&lt; \"Size of the array from main(): \" &lt;&lt; sizeof(arr) &lt;&lt; \"\\t\";\n\ngetSize(arr);\nreturn 0;\n}</code></pre>\n\n<p>Что выведет данная программа (<code>sizeof(int) = 4</code>, <code>sizeof(int*) = 8</code>)?</p>",
     "video": null,
     "options": {
       "is_multiple_choice": false

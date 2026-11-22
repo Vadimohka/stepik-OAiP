@@ -1,0 +1,319 @@
+{
+  "course_id": 86957,
+  "scope": "Second-pass local grading and reference verification; no live Stepik run.",
+  "all_passed": true,
+  "check_count": 30,
+  "checks": [
+    {
+      "check": "numeric_values_and_negative_controls",
+      "passed": true,
+      "step_id": 3262772,
+      "datasets": 8
+    },
+    {
+      "check": "numeric_values_and_negative_controls",
+      "passed": true,
+      "step_id": 3262735,
+      "datasets": 7
+    },
+    {
+      "check": "independent_reference",
+      "passed": true,
+      "step_id": 3341723,
+      "datasets": 8
+    },
+    {
+      "check": "independent_reference",
+      "passed": true,
+      "step_id": 3381234,
+      "datasets": 7
+    },
+    {
+      "check": "independent_reference",
+      "passed": true,
+      "step_id": 3381291,
+      "datasets": 6
+    },
+    {
+      "check": "independent_reference",
+      "passed": true,
+      "step_id": 3382745,
+      "datasets": 10
+    },
+    {
+      "check": "independent_reference",
+      "passed": true,
+      "step_id": 3383135,
+      "datasets": 7
+    },
+    {
+      "check": "independent_reference",
+      "passed": true,
+      "step_id": 4672519,
+      "datasets": 9
+    },
+    {
+      "check": "independent_reference",
+      "passed": true,
+      "step_id": 4700299,
+      "datasets": 6
+    },
+    {
+      "check": "independent_reference",
+      "passed": true,
+      "step_id": 3428206,
+      "datasets": 4
+    },
+    {
+      "check": "independent_reference",
+      "passed": true,
+      "step_id": 4739135,
+      "datasets": 3
+    },
+    {
+      "check": "independent_reference",
+      "passed": true,
+      "step_id": 3253164,
+      "datasets": 8
+    },
+    {
+      "check": "independent_reference",
+      "passed": true,
+      "step_id": 3446132,
+      "datasets": 5
+    },
+    {
+      "check": "independent_reference",
+      "passed": true,
+      "step_id": 4949336,
+      "datasets": 25
+    },
+    {
+      "check": "independent_reference",
+      "passed": true,
+      "step_id": 3496771,
+      "datasets": 19
+    },
+    {
+      "check": "recursive_sum_reference_crosscheck",
+      "passed": true,
+      "small_values": 500
+    },
+    {
+      "check": "numeric_token_whitespace_and_negative_controls",
+      "passed": true,
+      "step_id": 3177655,
+      "datasets": 3
+    },
+    {
+      "check": "numeric_token_whitespace_and_negative_controls",
+      "passed": true,
+      "step_id": 3384444,
+      "datasets": 14
+    },
+    {
+      "check": "numeric_token_whitespace_and_negative_controls",
+      "passed": true,
+      "step_id": 3381291,
+      "datasets": 6
+    },
+    {
+      "check": "numeric_token_whitespace_and_negative_controls",
+      "passed": true,
+      "step_id": 3382745,
+      "datasets": 10
+    },
+    {
+      "check": "numeric_token_whitespace_and_negative_controls",
+      "passed": true,
+      "step_id": 3383135,
+      "datasets": 7
+    },
+    {
+      "check": "salary_input_limits",
+      "passed": true,
+      "step_id": 5822035,
+      "datasets": 19
+    },
+    {
+      "check": "suffix_automaton_against_exhaustive_substring_count",
+      "passed": true,
+      "strings": 510
+    },
+    {
+      "check": "independent_reference",
+      "passed": true,
+      "step_id": 4734985,
+      "datasets": 4
+    },
+    {
+      "check": "independent_reference",
+      "passed": true,
+      "step_id": 3496826,
+      "datasets": 11
+    },
+    {
+      "check": "bidecimal_sequence_membership",
+      "passed": true,
+      "values": 10000
+    },
+    {
+      "check": "magic_square_custom_checker",
+      "passed": true,
+      "step_id": 4927308,
+      "generated_sizes": 14,
+      "positive_cases": 5,
+      "negative_cases": 6
+    },
+    {
+      "check": "independent_reference",
+      "passed": true,
+      "step_id": 4738986,
+      "datasets": 5
+    },
+    {
+      "check": "route_solver_and_generator",
+      "passed": true,
+      "step_id": 4738986,
+      "small_graph_comparisons": 16,
+      "generated_datasets": 5,
+      "colors": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "check": "compiled_cpp_reference_solutions",
+      "passed": true,
+      "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+      "standard": "c++17",
+      "runs": 121,
+      "results": [
+        {
+          "step_id": 3262772,
+          "datasets": 8,
+          "precisions": [
+            8,
+            17
+          ]
+        },
+        {
+          "step_id": 3262735,
+          "datasets": 7,
+          "precisions": [
+            10,
+            17
+          ]
+        },
+        {
+          "step_id": 3264578,
+          "datasets": 9,
+          "precisions": [
+            17
+          ]
+        },
+        {
+          "step_id": 3269060,
+          "datasets": 15,
+          "precisions": [
+            17
+          ]
+        },
+        {
+          "step_id": 3281279,
+          "datasets": 11,
+          "precisions": [
+            17
+          ]
+        },
+        {
+          "step_id": 3281287,
+          "datasets": 22,
+          "precisions": [
+            17
+          ]
+        },
+        {
+          "step_id": 3177655,
+          "datasets": 3,
+          "precisions": [
+            17
+          ]
+        },
+        {
+          "step_id": 3384444,
+          "datasets": 14,
+          "precisions": [
+            17
+          ]
+        },
+        {
+          "step_id": 3382745,
+          "datasets": 10,
+          "precisions": [
+            17
+          ]
+        },
+        {
+          "step_id": 3383135,
+          "datasets": 7,
+          "precisions": [
+            17
+          ]
+        }
+      ],
+      "learner_template_runs": 3
+    }
+  ],
+  "code_file_sha256": {
+    "courses/86957/steps/1409621/01_5850209_code.step": "b3b67add991e9dbb24ac33be2af9d1a2e334de3addca5507b525cc77a0e4bd61",
+    "courses/86957/steps/763630/09_4643238_code.step": "a9b080ea9fd921388bce0cd844e33f7d1f63daabb2944873bf0a0f9957133f77",
+    "courses/86957/steps/763630/11_3262682_code.step": "77bf246c9ad85fd46cff12417ef0ea37ca70e58413193d6404ba825be497b00d",
+    "courses/86957/steps/763630/12_3262692_code.step": "1507709ec7144125c1582875770aac5533f50b3c3044a00367076bc53cb31d3c",
+    "courses/86957/steps/763639/05_3262772_code.step": "a23b5686549f322f75175ffbf657cd4dda9acd9b977302d1857e6866c75469fb",
+    "courses/86957/steps/763639/06_3262735_code.step": "259c48d239a83382af673a4cdb685b78c3ed4feda5d1cbadee806378a5cc082b",
+    "courses/86957/steps/763639/07_3264578_code.step": "d85489479f7bc250ebbc027c7316cb5e8e4c3a95203e0dacceb0d2260cbc1f4a",
+    "courses/86957/steps/763640/03_3269060_code.step": "21b00c5e515964dcd3a76a90adc6e900ade3377cfcdab7eaa6926533640cf668",
+    "courses/86957/steps/763640/04_3280697_code.step": "d4ff785ffd09891f4c338658a94fdac990b1372bd91fa60ca7dce310f8ebe611",
+    "courses/86957/steps/763640/05_3264622_code.step": "ffaf9ff3d00d2eea87d7f940af2ba54a4386503a93cceaf5bd1b5e59f6028bf3",
+    "courses/86957/steps/763640/06_3280727_code.step": "c2209caeb91121ad172e7d1cfddb4aa689515861f28b66342a992c50bce03985",
+    "courses/86957/steps/763640/07_3281279_code.step": "f76aa0797f2a33439ded6243b8c1d95ac03d98f3aed982db189d7b5a7e1d69a4",
+    "courses/86957/steps/763640/08_3281287_code.step": "9347d8e24ae1b74e7681a77986acaa6709c1014fcb834b935e3236532287e917",
+    "courses/86957/steps/763640/09_3281353_code.step": "8aed642bed7532bcd6a7b773b1c443f6d2040f1f3bc50af2c598b5f553f2b191",
+    "courses/86957/steps/763644/01_3384444_code.step": "6e1672aa95578cae267f8853d05ce9f75b345ee84a06251336b0dec640fb7eae",
+    "courses/86957/steps/763644/10_3383209_code.step": "8b033d862434088880b36e599473404affc6c94ab2f06f47c845ad56fb39c724",
+    "courses/86957/steps/763646/08_3341723_code.step": "ff32627886a841c42484cd2d484beebcf2ce0c508790c564c9c1d3bde48fbcfc",
+    "courses/86957/steps/763646/09_3381234_code.step": "18f097dcb676e9397a66b0122ef8ad7c6d61d9258a5871508dd0f888675edbeb",
+    "courses/86957/steps/763646/10_3381291_code.step": "9b324d6ce047d16d86e266a1883d3d4754d7e203a6909c94c439b496772a03cb",
+    "courses/86957/steps/763646/11_3382745_code.step": "79265416d3f1d3deac0258b3d96e635a2c32819a47e256f457a3556f1311a462",
+    "courses/86957/steps/763646/12_3383135_code.step": "39d77333aac309b33370f1337eabb2bd7586acb2efa9355668bde30671171e92",
+    "courses/86957/steps/763719/03_3177566_code.step": "f860fa7064276739d773f956df919aa348e153620cb42a8e11e3638c68039527",
+    "courses/86957/steps/763719/05_3177655_code.step": "c4bfebd11efbaa75f1ff40ad65539474d58ab9dd7a95e5b31f442093ca5dc750",
+    "courses/86957/steps/763719/08_3299645_code.step": "6e4aff0609047ab4d2702485a989137b9dd0476eaf9782866cd6d5ad29bc9c6a",
+    "courses/86957/steps/770585/12_4672519_code.step": "ecba5229cd5a00a1a3280276740d729142cff6fc15cc9abc530284d592dc0dc8",
+    "courses/86957/steps/770586/12_4700496_code.step": "faf583a634c6d53b9e9c3e9702c2ad1074968aa8fce095822dea8c91cd4f4c4a",
+    "courses/86957/steps/770588/06_3446015_code.step": "f558c00b48e23665ae5325db26ca3018ee007287c2a50344839d9b1f1080efd0",
+    "courses/86957/steps/770589/08_3446002_code.step": "308f34860a298cf76b5e6c316093760cafddb0bd042b72f0dca1bdd087d56030",
+    "courses/86957/steps/770589/09_3446094_code.step": "87a3b11e39a5dab31baade217e68e11d7492eba9f6b9a1c15ffbc79d47772506",
+    "courses/86957/steps/770589/10_3446132_code.step": "0010d27ae8f5ceecf1cda112df80d14777c20436eeb18dce3ea5fae1d6dede7f",
+    "courses/86957/steps/770589/14_4738986_code.step": "bd6d3c4d308e88edd7d2b9ab3e1bc1e8660cbd01e8d5a6b04779c236d132d4ab",
+    "courses/86957/steps/770589/15_4949336_code.step": "3a9ddbc7cbe3afc5d0e074c4c4a4aac117441474ef54d4dcc505ac64b9c3983d",
+    "courses/86957/steps/770590/07_4700299_code.step": "bbae43272ff5a8ee21a48f72dbea25debc7765d12512fe476f399b2a9a958c6d",
+    "courses/86957/steps/770591/10_3428206_code.step": "edceb4d3d497190096ca49171946401c664861a071cf2a2e7d047e4bb48058ce",
+    "courses/86957/steps/770591/11_3428255_code.step": "19fa1569c07bdc0ebef2e49773de868ed11a9f8e57caef56a5f72ffef10ccf50",
+    "courses/86957/steps/770591/12_3384518_code.step": "3b3e8c3ca5a0c214dd24d36cd5dc9c8d935c1046ff96205506671ec461f82a7e",
+    "courses/86957/steps/770591/13_5828883_code.step": "f32a10daa92b5f27e000f3301c01e5f68662f8e4f82ad8e89ef761658d488c02",
+    "courses/86957/steps/770594/13_3496771_code.step": "8b174e7a84abc551393f69806009cb07631bbf482c6167543aca45f6e5de010b",
+    "courses/86957/steps/770594/14_3496704_code.step": "e1dcc97fe787ded8fb727729b95e6de2ce1610392cb97c6768bed3adf2bf9403",
+    "courses/86957/steps/770594/15_3496878_code.step": "132da6c1121b626b397e92bce8bf2538f92b98267b2b73012c192e225637e2b9",
+    "courses/86957/steps/770595/11_4734985_code.step": "d894624a6f694b08b7607d4bd198b1b85400f2bfff8afd543630155293696fb1",
+    "courses/86957/steps/771129/07_3496826_code.step": "24151a48240036ac85efd9262ea398abc4ea2834b62431bd9da9ab49abb7de48",
+    "courses/86957/steps/778425/07_5822035_code.step": "ca292db89b7303d04bce4435b4b88f395c48e9e05e0fa12329503d19dc14932e",
+    "courses/86957/steps/778425/08_4739135_code.step": "1f30084f16bd54b8465a0658dd8401e943c2bb84019c60148a636b7ca777ef14",
+    "courses/86957/steps/778426/03_3253164_code.step": "4cbfb4bcbbbd5a4336225a50086e42342cb5158bf760e79769727c8919f04adb",
+    "courses/86957/steps/778426/10_4927308_code.step": "bd9c7eaeee0f86e8bd2fc7677dd9d7ded5a37c7a4d368a76a08231a730e156f0",
+    "courses/86957/steps/877084/06_3759927_code.step": "5037426b19f2ba27e22258880f54bbd535e8bf8fe2e8476411fceb051df22e3e",
+    "courses/86957/steps/973826/03_5070446_code.step": "ffa6b6cff8ff60c11e02f2d128d30fbe9c993535d87f80d0c656c66336e6200b"
+  }
+}

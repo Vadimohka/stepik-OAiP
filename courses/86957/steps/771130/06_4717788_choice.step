@@ -1,7 +1,7 @@
 {
   "block": {
     "name": "choice",
-    "text": "<p>В C ++ ios::ate используется для установки</p>",
+    "text": "<p>Где режим <code>std::ios::ate</code> устанавливает позицию сразу после успешного открытия непустого файла?</p>",
     "video": null,
     "options": {
       "is_multiple_choice": false
@@ -18,22 +18,22 @@
       "options": [
         {
           "is_correct": false,
-          "text": "последняя позиция в конце файла",
+          "text": "На последнем символе, перед концом файла.",
           "feedback": ""
         },
         {
           "is_correct": true,
-          "text": "начальная позиция в конце файла",
+          "text": "В конце файла.",
           "feedback": ""
         },
         {
           "is_correct": false,
-          "text": "начальная позиция в начале файла",
+          "text": "В начале файла.",
           "feedback": ""
         },
         {
           "is_correct": false,
-          "text": "последняя позиция в начале файла",
+          "text": "В середине файла.",
           "feedback": ""
         }
       ]

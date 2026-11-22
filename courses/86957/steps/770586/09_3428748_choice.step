@@ -1,7 +1,7 @@
 {
   "block": {
     "name": "choice",
-    "text": "<p>const int size = 5;<br>\nint arr[size]{ 1, 2, 3, 4, 5 }; // arr = 0x00000020C43BFA78<br>\nint* ptr = arr;</p>\n\n<p>while (arr != ptr + size)<br>\n{<br>\n    std::cout &lt;&lt; *(arr++) &lt;&lt; \" \";<br>\n}</p>\n\n<p>Что выведет данная программа?</p>",
+    "text": "<pre><code class=\"language-cpp\">const int size = 5;\nint arr[size]{ 1, 2, 3, 4, 5 }; // arr = 0x00000020C43BFA78\nint* ptr = arr;\n\nwhile (arr != ptr + size)\n{\nstd::cout &lt;&lt; *(arr++) &lt;&lt; \" \";\n}</code></pre>\n\n<p>Что выведет данная программа?</p>",
     "video": null,
     "options": {
       "is_multiple_choice": false
