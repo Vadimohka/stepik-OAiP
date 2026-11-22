@@ -1,0 +1,30 @@
+{
+  "examples": [
+    {
+      "path": "modernization/86957/examples/foundations/hello.cpp",
+      "step_id": 3201179,
+      "kind": "complete",
+      "standards": [
+        "c++17",
+        "c++20"
+      ],
+      "cases": [
+        {
+          "input": "",
+          "expected_stdout": "Hello, C++!\n",
+          "exitcode": 0
+        }
+      ]
+    },
+    {
+      "path": "modernization/86957/examples/foundations/missing_namespace.cpp",
+      "step_id": 3201189,
+      "kind": "compile_fail",
+      "standards": [
+        "c++17",
+        "c++20"
+      ],
+      "cases": []
+    }
+  ]
+}

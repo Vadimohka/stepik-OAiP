@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Класс std::string</h3>\n\n<p>std::string — стандартный класс для хранения последовательности элементов char. Он хранит её длину и управляет памятью для символов. В отличие от C-строки, содержимое std::string может включать нулевые символы внутри последовательности. Для совместимости с C API доступен метод c_str().</p>\n\n<p>Подключите заголовок <code>&lt;string&gt;</code> и используйте имя <code>std::string</code>. Это стандартный интерфейс C++, а не особенность Visual Studio.</p>\n\n<p>Объявление переменной типа <code>string</code> осуществляется точно так же как и обычной переменной. Возможный вариант объявления с одновременной инициализацией.</p>\n\n<pre><code class=\"language-cpp\">#include &lt;string&gt;\n\n// тип string\nstd::string s1; // переменная с именем s1 типа string\nstd::string s2 = \"This is a string variable\"; // объявление с инициализацией\n// использование переменной типа string с оператором присваивания\ns1 = s2; // s1 = \"This is a string variable\"\ns2 = \"New text\";</code></pre>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3212948",
+  "time": "2026-11-22T18:35:40Z"
+}

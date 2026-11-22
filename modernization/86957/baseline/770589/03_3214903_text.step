@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Инициализация строки через класс string</h3>\n\n<p>Как и любой класс, класс string имеет ряд конструкторов. Основные из них следующие:</p>\n\n<pre><code class=\"language-cpp\">#include &lt;cstddef&gt;\n#include &lt;string&gt;\n\nstd::string S = \"abcdef\";\nstd::size_t n = 3, start = 1, len = 2;\nchar c = 'x';\n\nstd::string empty;                // пустая строка\nstd::string copy(S);              // \"abcdef\"\nstd::string repeated(n, c);       // \"xxx\"\nstd::string one_character(1, c);  // \"x\"\nstd::string part(S, start, len);  // \"bc\"</code></pre>\n\n<p>Ниже приведены примеры инициализации переменных типа string:</p>\n\n<pre><code class=\"language-cpp\">#include &lt;string&gt;\n\nstd::string s1(\"Hello!\");\nstd::string s2 = \"Hello!\";\nconst char* ps = \"Hello\";\nstd::string s3(ps);\nstd::string s4(s3);\nstd::string s5;\nstd::string s6(1, 'A');</code></pre>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3214903",
+  "time": "2026-11-22T18:35:40Z"
+}

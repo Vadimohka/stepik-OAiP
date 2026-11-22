@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Установка и запуск CMake из консоли</h3>\n\n<p>CMake можно установить с <a href=\"https://cmake.org/download/\" rel=\"noopener noreferrer nofollow\">официального сайта</a> или через пакетный менеджер ОС. Например, в Debian/Ubuntu используется команда <code>sudo apt install cmake</code>. Для сборки также нужен установленный компилятор C++ и инструмент выбранного генератора.</p>\n\n<p>Создайте в одной директории файлы <code>test.cpp</code> и <code>CMakeLists.txt</code>.</p>\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n\nint main() {\n    std::cout &lt;&lt; \"Hello World\\n\";\n}</code></pre>\n\n<pre><code>cmake_minimum_required(VERSION 3.22)\nproject(test LANGUAGES CXX)\nadd_executable(test test.cpp)\nset_target_properties(test PROPERTIES\n    CXX_STANDARD 20\n    CXX_STANDARD_REQUIRED YES\n    CXX_EXTENSIONS NO\n)</code></pre>\n\n<p>Из директории с <code>CMakeLists.txt</code> выполните:</p>\n<pre><code>cmake -S . -B build\ncmake --build build --config Release</code></pre>\n\n<p>Первая команда настраивает проект и создаёт файлы сборки в отдельной директории <code>build</code>. Вторая запускает выбранную систему сборки; <code>--config Release</code> выбирает конфигурацию у многоконфигурационных генераторов, например Visual Studio. Генераторы с одной конфигурацией используют конфигурацию, заданную при настройке.</p>\n\n<p>При генераторе Unix Makefiles или Ninja в Linux полученную программу обычно запускают так:</p>\n<pre><code>./build/test</code></pre>\n<p>Для Visual Studio исполняемый файл обычно находится в <code>build/Release/test.exe</code>. Точное расположение зависит от генератора и настроек проекта. В обоих случаях программа выводит:</p>\n<pre><code>Hello World</code></pre>\n\n<p>Дополнительные параметры описаны в <a href=\"https://cmake.org/cmake/help/latest/manual/cmake.1.html\" rel=\"noopener noreferrer nofollow\">официальной документации cmake</a>.</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3231317",
+  "time": "2026-11-22T18:35:40Z"
+}

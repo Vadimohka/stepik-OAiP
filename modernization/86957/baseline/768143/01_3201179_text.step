@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3> Первый запуск программы</h3>\n\n<p>Помните этот код? Computer Science начинается именно здесь!</p>\n\n<pre><code>#include &lt;iostream&gt;\nint main() {\n    std::cout &lt;&lt; \"Hello world!\";\n}</code></pre>\n\n<p>При обычном запуске программа выводит в стандартный поток вывода строку <code>Hello world!</code>. IDE может показать её во встроенной консоли или отдельном окне. Предлагаю вам самим запустить данный код.</p>\n\n<p>Результат работы на CLion:</p>\n\n<p><img alt=\"\" height=\"51\" name=\"image.png\" src=\"https://ucarecdn.stepik.net/48f7e1fb-932c-462f-b060-9632a543d56a/\" width=\"348\"></p>\n\n<p>Результат работы на Visual Studio:</p>\n\n<p><img alt=\"\" height=\"59\" name=\"image.png\" src=\"https://ucarecdn.stepik.net/d1a08993-5ee6-4b4d-a258-6f4eabfb6766/\" width=\"316\"></p>\n\n<p>В отличие от примера с CLion, на скриншоте Visual Studio использует  ̶к̶о̶м̶а̶н̶д̶н̶у̶ю̶ ̶с̶т̶р̶о̶к̶у̶ стандартные компоненты Windows для вывода результата.</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3201179",
+  "time": "2026-11-22T18:35:40Z"
+}

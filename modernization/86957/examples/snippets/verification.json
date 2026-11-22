@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "dependency": {
+    "name": "GoogleTest",
+    "repository": "https://github.com/google/googletest.git",
+    "tag": "v1.17.0",
+    "commit": "52eb8108c5bdec04579160ae17225d66034bd723",
+    "source_tree_clean": true
+  },
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "cmake": "4.4.5",
+  "platform": "Linux",
+  "scope": "Real GoogleTest dependency, existing interesting.cpp and the unchanged lesson fragment; Windows/MSVC and Stepik not executed.",
+  "source_sha256": {
+    "modernization/86957/examples/snippets/gtest_assertions.cpp": "20f2dbebadda9d161df1cd764d204a71010a6eb5fa84a02bac777b3b7a1d90c3",
+    "modernization/86957/examples/snippets/CMakeLists.txt": "d6845127b3c06f5133560cb8bc844fdf28dd16be98fb8e5b35db180582a696a6",
+    "modernization/86957/examples/tooling/interesting/interesting.cpp": "7c25e756afc134ec4d05203f9adf9d0a85260890279634b864b603d1765d79c2",
+    "modernization/86957/examples/tooling/interesting/interesting.hpp": "1e9bb2d5ab259b8200c16078809f688747753b758472be1bc062d1ab59bd9ca7"
+  },
+  "configuration": "Debug",
+  "extra_flags": [
+    "-Werror"
+  ],
+  "tested_standards": [
+    "c++17",
+    "c++20"
+  ],
+  "test_names": [
+    "InterestingNumbers.HandlesCarryBoundary",
+    "StringComparisons.ComparesContents"
+  ],
+  "results": [
+    {
+      "standard": "c++17",
+      "tests": 2,
+      "failures": 0,
+      "passed": true,
+      "commands": [
+        [
+          "cmake",
+          "-S",
+          "modernization/86957/examples/snippets",
+          "-B",
+          "${DEPENDENCIES}/gtest-lesson-cxx17",
+          "-G",
+          "Unix Makefiles",
+          "-DCMAKE_CXX_STANDARD=17",
+          "-DCMAKE_CXX_COMPILER=g++",
+          "-DCMAKE_BUILD_TYPE=Debug",
+          "-DCMAKE_CXX_FLAGS=-Werror",
+          "-DINTERESTING_SOURCE_DIR=modernization/86957/examples/tooling/interesting",
+          "-DFETCHCONTENT_SOURCE_DIR_GOOGLETEST=${DEPENDENCIES}/googletest-v1.17.0"
+        ],
+        [
+          "cmake",
+          "--build",
+          "${DEPENDENCIES}/gtest-lesson-cxx17",
+          "--parallel",
+          "2"
+        ],
+        [
+          "ctest",
+          "--test-dir",
+          "${DEPENDENCIES}/gtest-lesson-cxx17",
+          "--output-on-failure",
+          "--no-tests=error"
+        ],
+        [
+          "${DEPENDENCIES}/gtest-lesson-cxx17/google_examples",
+          "--gtest_color=no",
+          "--gtest_output=json:${DEPENDENCIES}/gtest-lesson-cxx17/gtest-results.json"
+        ]
+      ]
+    },
+    {
+      "standard": "c++20",
+      "tests": 2,
+      "failures": 0,
+      "passed": true,
+      "commands": [
+        [
+          "cmake",
+          "-S",
+          "modernization/86957/examples/snippets",
+          "-B",
+          "${DEPENDENCIES}/gtest-lesson-cxx20",
+          "-G",
+          "Unix Makefiles",
+          "-DCMAKE_CXX_STANDARD=20",
+          "-DCMAKE_CXX_COMPILER=g++",
+          "-DCMAKE_BUILD_TYPE=Debug",
+          "-DCMAKE_CXX_FLAGS=-Werror",
+          "-DINTERESTING_SOURCE_DIR=modernization/86957/examples/tooling/interesting",
+          "-DFETCHCONTENT_SOURCE_DIR_GOOGLETEST=${DEPENDENCIES}/googletest-v1.17.0"
+        ],
+        [
+          "cmake",
+          "--build",
+          "${DEPENDENCIES}/gtest-lesson-cxx20",
+          "--parallel",
+          "2"
+        ],
+        [
+          "ctest",
+          "--test-dir",
+          "${DEPENDENCIES}/gtest-lesson-cxx20",
+          "--output-on-failure",
+          "--no-tests=error"
+        ],
+        [
+          "${DEPENDENCIES}/gtest-lesson-cxx20/google_examples",
+          "--gtest_color=no",
+          "--gtest_output=json:${DEPENDENCIES}/gtest-lesson-cxx20/gtest-results.json"
+        ]
+      ]
+    }
+  ],
+  "command_path_convention": "Paths are normalized relative to the repository. ${DEPENDENCIES} denotes the external dependency/build directory used for the recorded run."
+}

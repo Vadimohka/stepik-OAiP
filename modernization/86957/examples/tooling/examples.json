@@ -1,0 +1,161 @@
+{
+  "standard": "c++20",
+  "also_checked": "c++17",
+  "embedded_files": [
+    {
+      "path": "hello/main.cpp",
+      "lesson_id": 774618,
+      "step_id": 3231317,
+      "kind": "complete"
+    },
+    {
+      "path": "hello/CMakeLists.txt",
+      "lesson_id": 774618,
+      "step_id": 3231317,
+      "kind": "cmake"
+    },
+    {
+      "path": "interesting/interesting.hpp",
+      "lesson_id": 778426,
+      "step_id": 3253429,
+      "kind": "header"
+    },
+    {
+      "path": "interesting/interesting.cpp",
+      "lesson_id": 778426,
+      "step_id": 3253429,
+      "kind": "translation_unit"
+    },
+    {
+      "path": "interesting/main.cpp",
+      "lesson_id": 778426,
+      "step_id": 3253429,
+      "kind": "multifile_program"
+    },
+    {
+      "path": "interesting/tests.cpp",
+      "lesson_id": 778426,
+      "step_id": 3253503,
+      "kind": "multifile_program"
+    },
+    {
+      "path": "interesting/CMakeLists.txt",
+      "lesson_id": 778426,
+      "step_id": 3253503,
+      "kind": "cmake"
+    }
+  ],
+  "application_cases": [
+    {
+      "stdin": "1\n",
+      "stdout": "0\n",
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "stdin": "8\n",
+      "stdout": "0\n",
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "stdin": "9\n",
+      "stdout": "1\n",
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "stdin": "10\n",
+      "stdout": "1\n",
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "stdin": "19\n",
+      "stdout": "2\n",
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "stdin": "109\n",
+      "stdout": "11\n",
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "stdin": "999999999\n",
+      "stdout": "100000000\n",
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "stdin": "1000000000\n",
+      "stdout": "100000000\n",
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "stdin": "0\n",
+      "stdout": "",
+      "exit_code": 1,
+      "stderr": "Expected an integer from 1 to 1000000000\n"
+    },
+    {
+      "stdin": "-1\n",
+      "stdout": "",
+      "exit_code": 1,
+      "stderr": "Expected an integer from 1 to 1000000000\n"
+    },
+    {
+      "stdin": "1000000001\n",
+      "stdout": "",
+      "exit_code": 1,
+      "stderr": "Expected an integer from 1 to 1000000000\n"
+    },
+    {
+      "stdin": "hello\n",
+      "stdout": "",
+      "exit_code": 1,
+      "stderr": "Expected an integer from 1 to 1000000000\n"
+    },
+    {
+      "stdin": "",
+      "stdout": "",
+      "exit_code": 1,
+      "stderr": "Expected an integer from 1 to 1000000000\n"
+    }
+  ],
+  "executables": [
+    {
+      "path": "hello/main.cpp",
+      "step_id": 3231317,
+      "kind": "complete",
+      "input": "",
+      "expected_stdout": "Hello C++\n",
+      "expected_exit_code": 0
+    },
+    {
+      "path": "interesting/main.cpp",
+      "step_id": 3253429,
+      "kind": "multifile",
+      "sources": [
+        "interesting/main.cpp",
+        "interesting/interesting.cpp"
+      ],
+      "cases": "application_cases"
+    },
+    {
+      "path": "interesting/tests.cpp",
+      "step_id": 3253503,
+      "kind": "multifile",
+      "sources": [
+        "interesting/tests.cpp",
+        "interesting/interesting.cpp"
+      ],
+      "input": "",
+      "expected_stdout": "13 checks passed\n",
+      "expected_exit_code": 0
+    }
+  ],
+  "verification": "python3 modernization/86957/examples/tooling/verify.py --cmake <path-to-cmake>"
+}
