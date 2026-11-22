@@ -1,0 +1,8 @@
+/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3759850_sample_c++17.cpp: In constructor ‘unit_box::unit_box(const char*, int, const char*, int, const char*, char)’:
+/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3759850_sample_c++17.cpp:41:47: warning: base ‘box’ will be initialized after [-Wreorder]
+   41 |              unit(x), box(y), price(vx + vy, v) {
+      |                                               ^
+/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3759850_sample_c++17.cpp:41:47: warning:   base ‘price’ [-Wreorder]
+/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3759850_sample_c++17.cpp:37:5: warning:   when initialized here [-Wreorder]
+   37 |     unit_box(const char *x, int vx, // наименование и цена товара
+      |     ^~~~~~~~

@@ -1,0 +1,319 @@
+{
+  "course_id": 86957,
+  "scope": "Earlier second-pass regressions on the correction overlay; not live Stepik",
+  "all_passed": true,
+  "check_count": 30,
+  "checks": [
+    {
+      "check": "numeric_values_and_negative_controls",
+      "passed": true,
+      "step_id": 3262772,
+      "datasets": 8
+    },
+    {
+      "check": "numeric_values_and_negative_controls",
+      "passed": true,
+      "step_id": 3262735,
+      "datasets": 7
+    },
+    {
+      "check": "independent_reference",
+      "passed": true,
+      "step_id": 3341723,
+      "datasets": 8
+    },
+    {
+      "check": "independent_reference",
+      "passed": true,
+      "step_id": 3381234,
+      "datasets": 7
+    },
+    {
+      "check": "independent_reference",
+      "passed": true,
+      "step_id": 3381291,
+      "datasets": 6
+    },
+    {
+      "check": "independent_reference",
+      "passed": true,
+      "step_id": 3382745,
+      "datasets": 10
+    },
+    {
+      "check": "independent_reference",
+      "passed": true,
+      "step_id": 3383135,
+      "datasets": 7
+    },
+    {
+      "check": "independent_reference",
+      "passed": true,
+      "step_id": 4672519,
+      "datasets": 9
+    },
+    {
+      "check": "independent_reference",
+      "passed": true,
+      "step_id": 4700299,
+      "datasets": 6
+    },
+    {
+      "check": "independent_reference",
+      "passed": true,
+      "step_id": 3428206,
+      "datasets": 4
+    },
+    {
+      "check": "independent_reference",
+      "passed": true,
+      "step_id": 4739135,
+      "datasets": 3
+    },
+    {
+      "check": "independent_reference",
+      "passed": true,
+      "step_id": 3253164,
+      "datasets": 8
+    },
+    {
+      "check": "independent_reference",
+      "passed": true,
+      "step_id": 3446132,
+      "datasets": 5
+    },
+    {
+      "check": "independent_reference",
+      "passed": true,
+      "step_id": 4949336,
+      "datasets": 28
+    },
+    {
+      "check": "independent_reference",
+      "passed": true,
+      "step_id": 3496771,
+      "datasets": 19
+    },
+    {
+      "check": "recursive_sum_reference_crosscheck",
+      "passed": true,
+      "small_values": 500
+    },
+    {
+      "check": "numeric_token_whitespace_and_negative_controls",
+      "passed": true,
+      "step_id": 3177655,
+      "datasets": 3
+    },
+    {
+      "check": "numeric_token_whitespace_and_negative_controls",
+      "passed": true,
+      "step_id": 3384444,
+      "datasets": 14
+    },
+    {
+      "check": "numeric_token_whitespace_and_negative_controls",
+      "passed": true,
+      "step_id": 3381291,
+      "datasets": 6
+    },
+    {
+      "check": "numeric_token_whitespace_and_negative_controls",
+      "passed": true,
+      "step_id": 3382745,
+      "datasets": 10
+    },
+    {
+      "check": "numeric_token_whitespace_and_negative_controls",
+      "passed": true,
+      "step_id": 3383135,
+      "datasets": 7
+    },
+    {
+      "check": "salary_input_limits",
+      "passed": true,
+      "step_id": 5822035,
+      "datasets": 19
+    },
+    {
+      "check": "suffix_automaton_against_exhaustive_substring_count",
+      "passed": true,
+      "strings": 510
+    },
+    {
+      "check": "independent_reference",
+      "passed": true,
+      "step_id": 4734985,
+      "datasets": 4
+    },
+    {
+      "check": "independent_reference",
+      "passed": true,
+      "step_id": 3496826,
+      "datasets": 11
+    },
+    {
+      "check": "bidecimal_sequence_membership",
+      "passed": true,
+      "values": 10000
+    },
+    {
+      "check": "magic_square_custom_checker",
+      "passed": true,
+      "step_id": 4927308,
+      "generated_sizes": 14,
+      "positive_cases": 5,
+      "negative_cases": 6
+    },
+    {
+      "check": "independent_reference",
+      "passed": true,
+      "step_id": 4738986,
+      "datasets": 5
+    },
+    {
+      "check": "route_solver_and_generator",
+      "passed": true,
+      "step_id": 4738986,
+      "small_graph_comparisons": 16,
+      "generated_datasets": 5,
+      "colors": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "check": "compiled_cpp_reference_solutions",
+      "passed": true,
+      "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+      "standard": "c++17",
+      "runs": 121,
+      "results": [
+        {
+          "step_id": 3262772,
+          "datasets": 8,
+          "precisions": [
+            8,
+            17
+          ]
+        },
+        {
+          "step_id": 3262735,
+          "datasets": 7,
+          "precisions": [
+            10,
+            17
+          ]
+        },
+        {
+          "step_id": 3264578,
+          "datasets": 9,
+          "precisions": [
+            17
+          ]
+        },
+        {
+          "step_id": 3269060,
+          "datasets": 15,
+          "precisions": [
+            17
+          ]
+        },
+        {
+          "step_id": 3281279,
+          "datasets": 11,
+          "precisions": [
+            17
+          ]
+        },
+        {
+          "step_id": 3281287,
+          "datasets": 22,
+          "precisions": [
+            17
+          ]
+        },
+        {
+          "step_id": 3177655,
+          "datasets": 3,
+          "precisions": [
+            17
+          ]
+        },
+        {
+          "step_id": 3384444,
+          "datasets": 14,
+          "precisions": [
+            17
+          ]
+        },
+        {
+          "step_id": 3382745,
+          "datasets": 10,
+          "precisions": [
+            17
+          ]
+        },
+        {
+          "step_id": 3383135,
+          "datasets": 7,
+          "precisions": [
+            17
+          ]
+        }
+      ],
+      "learner_template_runs": 3
+    }
+  ],
+  "tested_block_sha256": {
+    "3177566": "6cbbf2a998e80bef975f80ed7738ea0916ab33bf5983e74ac32117eb6678d602",
+    "3177655": "51f39a94f9ffbe5d20c419852b7e752fcb3f8e749effa54564424eceb8829c68",
+    "3253164": "a4735bf9294ad7a6b624a55f4f27476e2d5f340fbbe6bc98d890cd51630c223a",
+    "3262682": "87fbaed7e435bc19a5e686449991d2bb30641e70dcd34d168f2d6b2bf2721033",
+    "3262692": "f6d3cac8b599d0cb3a31617d5ef67d47c7be3b1323ed09b5778205bd414cb220",
+    "3262735": "5ae5b32f590d5b93d00e0a61eb1e81954e78874c27c0c5f7ca267ed029cec375",
+    "3262772": "dbf34ada5fc3d1a869613a87cecf7f887de2ef6dcfb2a43e5057dbc862957eb0",
+    "3264578": "f6acf95043f687e339f89da15854f8212033098232d7916cb109bcedd88c6bbc",
+    "3264622": "46e0347efb9fd9e667c62df6145db362c62e8483bfd45c582056911a19b13b11",
+    "3269060": "54b5becd4ad3d7867db5eab6160925076b477905b556cc9148b73c64e4cf0831",
+    "3280697": "eae57af2290b42cc3301876d3463249843df0480fe7c3e50342440b1406aeeb8",
+    "3280727": "dfde6b70fdaaa6c4deeaeeca2371460107876381501628b5ad822285b3d471c5",
+    "3281279": "800bddf23bd58a76fd7acd1c4980d3c297f1fc851b190f3e006a53d080727c42",
+    "3281287": "fcdd59b2fdbde856a3efd6b53b9f64f467095f767214089031474610fa943e4c",
+    "3281353": "6e4633f4cec394b8dccf55255964bdf152403a0d186545bd1829972704e18aca",
+    "3299645": "818e8aced096f4b058b14f09eee210b2932f65577eba653a7b553aa76461967f",
+    "3341723": "35e6f68ea3588e8899ba6b5f2cde5987a581aa4e2d3616292e4c2ad5afbdd8f0",
+    "3381234": "9bb2b21b9414728e945bf2741407d6dbd0d0e56ffa45a28282ca593a17762909",
+    "3381291": "1c0d44310a8915137f922227a77f0324969894ce385d2b44172abff7e179319f",
+    "3382745": "114dcf3764655d9d1a216c56b08b027cc9aeb5f2a30b1e61d1bce11731b90e57",
+    "3383135": "b1b4fe44aad4499b465cd72d838209a664b087017c50537b5e543f9758aceec1",
+    "3383209": "00b4d765bde1956aaa7b08c9a76daf7ed82ae1c1081382c45cd45a970d969a3c",
+    "3384444": "1aa3d048b0e0558e88113086fe2997c3af84a7e54ee4cbf9b9d7cd2fb01e7871",
+    "3384518": "7bc82acec8a0c2f486f0d9e7a9d5a5f2d25966883a5d95282b078621acb9dc46",
+    "3428206": "9cd392da86cdf3fe6d4a184e01f42306ea48b2d8b07175403d6a118eb910e512",
+    "3428255": "aa1d16cac0feb463f7695fd74b65b298ea225332a6cf57f2439bf93ec117e193",
+    "3446002": "59b089d3b1efe8dc5b3bad66bfb3d842367c9c01a03de9a1bc0a67bc1ff5ba90",
+    "3446015": "d9292b8a79900866a485eace61d888714bf76731decbff4d0246eee806bcc874",
+    "3446094": "ab61f355935c2d6fb6c3cc6b6f7f37405103b0ae8f399501ccda34960e8f0955",
+    "3446132": "d9fa934f05bd177bdd9cd0d7388383091853b23a10fbe404c4786751e0015e3c",
+    "3496704": "920e5fcc6196473a73e37cba68859464e722cd26efe0e681d9296534263f500e",
+    "3496771": "fd90ee9194145a77a1ef352abe36616a5dcde49020a4feacb723f23c0de043d1",
+    "3496826": "c14015a4b0a21d5321685738af86e3a18132e57a63d8c10d054c25e7554bdc56",
+    "3496878": "31b422d7e71fc80f959972785b97bece034d279a08a82924373bae83998eb78c",
+    "3759927": "270a5b259d72853ba85481e7569b41abef8d07a11e4889d0aac1ac2fdbeb64d3",
+    "4643238": "398bf2980165addd88d13eb79db4882f7f3ac355007ebd37ae40361f72eee486",
+    "4672519": "ab1c4571bb22f8727e9c2bd54eff1759b53cf92a7e656cd2a8de9e36de9977f7",
+    "4700299": "f906af5ab58aad30ec5c39dd1226056e494b1861b6dfd52c9a501e9566825d43",
+    "4700496": "5bf285a3013845ee083c72e4de076b0aa1cc8c7782a183bb93cb617a995946b4",
+    "4734985": "1a49a385afe92608670793232a1ebd91bdc97e6ecabcac8baa8b5549db205ab0",
+    "4738986": "01cf946851c9482f979d2aacb96f98a143bc956939651de5684bb5f411e9b612",
+    "4739135": "4bc85b73fd0b7945fb3915056afeb5f9737659fa59549d8843e0b3e8cba4cbfe",
+    "4927308": "dab542ba72c67566e128601f7ee20c648013a3d6d1cf1df21f6320bc2d73192b",
+    "4949336": "15d3d40036d28fea9bc2b2257ffc07441f3b55a95f1e97e184f20681b84e40d1",
+    "5070446": "17a4d5782712927acec7405829cb5c9976eaff8446601363725101ef6c9de239",
+    "5822035": "0d3682eb2588933a0e1a9da849241b3a2bea6a4134e9b75870a93b972088c95c",
+    "5828883": "c28aad340adaf77afcfbdfe4ae12706b24ae5bca04708486b2cd3c4611e1171b",
+    "5850209": "1b3ccfbd7f96105a63aca348abc01b0e4cd477d6f0954e1921a85cc2eef1a573"
+  }
+}

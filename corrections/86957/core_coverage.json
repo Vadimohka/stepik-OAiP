@@ -1,0 +1,1311 @@
+{
+  "snapshot_commit": "d936c0ee8d9f720ba26fec1b109a1153ae3b5930",
+  "scope_modules": [
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "scope_lessons": [
+    770590,
+    770591,
+    770592,
+    770593,
+    778425,
+    778426,
+    770588,
+    770589,
+    770594,
+    770595,
+    771129,
+    771131,
+    771130
+  ],
+  "steps_in_scope": 125,
+  "types": {
+    "text": 65,
+    "choice": 37,
+    "code": 20,
+    "video": 2,
+    "fill-blanks": 1
+  },
+  "review_method": "Current course snapshot only. Read lesson text, code examples, question keys and all code-task checker bodies; independently recomputed all stored code-task answers. Prior audit journals were not treated as unresolved defects.",
+  "fixed_steps": [
+    4949336,
+    3214910,
+    3215206
+  ],
+  "stored_code_test_cases_independently_checked": 167,
+  "cpp_complete_program_blocks_syntax_checked": 48,
+  "cpp_syntax_compilations": 96,
+  "cpp_standards": [
+    "C++17",
+    "C++20"
+  ],
+  "cpp_compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "cpp_execution_for_fixes": "Both revised constexpr power and pasted file-append examples executed under C++17 and C++20; expected compiler failures reproduced for original defects and truly overflowing power result. Full details: fix_verification.json.",
+  "checker_regression": "4949336: all 25 existing answer clues independently reproduced, 3 whitespace regressions added; 84 positive and 11 negative checks. Algorithmic checks for the other tasks are separately reported.",
+  "generated_task_checks": {
+    "4734985": {
+      "stored_cases_checked": 4,
+      "strings_checked": 17,
+      "independent_exhaustive_binary_strings": 1022,
+      "all_equal_boundary_length": 100000,
+      "mismatches": 0
+    },
+    "3496826": {
+      "stored_cases_checked": 11,
+      "sequence_values_constructed_and_suffix_verified": 10000,
+      "mismatches": 0
+    },
+    "4738986": {
+      "stored_cases_bruteforce_checked": 5,
+      "small_random_graphs_checked": 60,
+      "generated_cases_constraints_checked": 5,
+      "maximal_chain_checked": {
+        "n": 100000,
+        "m": 100000,
+        "k": 54321
+      },
+      "not_executed": "Full reference solve was not run on the other four generated maximal graphs.",
+      "mismatches": 0
+    },
+    "4927308": {
+      "positive_checks": 13,
+      "negative_checks": 29,
+      "orders_with_positive_square_fixtures": [
+        1,
+        3,
+        4,
+        6
+      ],
+      "generated_cases_constraints_checked": 14,
+      "not_executed": "Large generated square outputs were not constructed/executed; checker logic and distinct sizes were tested directly.",
+      "mismatches": 0
+    }
+  },
+  "embedded_image_reviewed": {
+    "step_id": 3428255,
+    "image": "courses/86957/assets/fe5b8aab74dcffeb1baa4c681c2be0b87d91d0b51a8d306be9dc1014799ad0af.png",
+    "content": "Recursive f(n,r), summation and k=3 coefficient table; independently checked recurrence for 42 small k,n combinations."
+  },
+  "comments_used_as_leads": [
+    "3428206: performance/second-test complaint; all current expected answers verified.",
+    "3384518: wrong-answer complaint; current input range and all answers verified.",
+    "4739135: complaints about second test and leading zeroes; all 18 powers in 3 datasets recomputed from modular arithmetic and saturating exact magnitude.",
+    "3446002: third/sixth-test complaints; all current clues independently verified by compatible fixed-position constraints.",
+    "3496771: historical complaint about 600 -> CCCCM; current condition explicitly defines that convention, so no new defect recorded."
+  ],
+  "limitations": [
+    "No live Stepik submissions or writes. All checks used the fresh repository snapshot.",
+    "Compiler checks for 48 complete program blocks are syntax-only unless separately named in fix_verification.json; they do not prove absence of undefined behaviour. Intentionally erroneous examples remain marked as such.",
+    "No Windows/MSVC execution, Visual Studio UI verification, or replay of the two video lessons.",
+    "Other embedded illustrations/diagrams were not exhaustively visually inspected. Their surrounding text was read.",
+    "For 4738986, all generated inputs were validated and one maximal chain was compared with a closed-form oracle; the other four maximal generated graphs were not run through the reference solver.",
+    "For 4927308, the checker was tested with positive/negative squares of small orders; full output matrices for the largest generated n were not constructed.",
+    "These checks establish the listed findings and sampled properties; they are not a proof that all existing course content is free of errors."
+  ],
+  "evidence": [
+    "corrections/86957/evidence/core/task_answer_results.json",
+    "corrections/86957/evidence/core/remaining_task_results.json",
+    "corrections/86957/evidence/core/fix_verification.json",
+    "corrections/86957/evidence/core/cpp_snippet_results.json"
+  ],
+  "steps": [
+    {
+      "step_id": 3212949,
+      "lesson_id": 770590,
+      "path": "courses/86957/steps/770590/01_3212949_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false,
+      "cpp_syntax_only_compilations": 2
+    },
+    {
+      "step_id": 3214909,
+      "lesson_id": 770590,
+      "path": "courses/86957/steps/770590/02_3214909_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false
+    },
+    {
+      "step_id": 3214910,
+      "lesson_id": 770590,
+      "path": "courses/86957/steps/770590/03_3214910_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false
+    },
+    {
+      "step_id": 3214911,
+      "lesson_id": 770590,
+      "path": "courses/86957/steps/770590/04_3214911_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false
+    },
+    {
+      "step_id": 3404721,
+      "lesson_id": 770590,
+      "path": "courses/86957/steps/770590/05_3404721_choice.step",
+      "type": "choice",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": true
+    },
+    {
+      "step_id": 3425771,
+      "lesson_id": 770590,
+      "path": "courses/86957/steps/770590/06_3425771_choice.step",
+      "type": "choice",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": true
+    },
+    {
+      "step_id": 4700299,
+      "lesson_id": 770590,
+      "path": "courses/86957/steps/770590/07_4700299_code.step",
+      "type": "code",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false,
+      "grader_read": true,
+      "stored_test_cases_independently_checked": 6
+    },
+    {
+      "step_id": 4717715,
+      "lesson_id": 770590,
+      "path": "courses/86957/steps/770590/08_4717715_choice.step",
+      "type": "choice",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": true
+    },
+    {
+      "step_id": 4717717,
+      "lesson_id": 770590,
+      "path": "courses/86957/steps/770590/09_4717717_choice.step",
+      "type": "choice",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": true
+    },
+    {
+      "step_id": 3212950,
+      "lesson_id": 770591,
+      "path": "courses/86957/steps/770591/01_3212950_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false,
+      "cpp_syntax_only_compilations": 2
+    },
+    {
+      "step_id": 3214973,
+      "lesson_id": 770591,
+      "path": "courses/86957/steps/770591/02_3214973_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false,
+      "cpp_syntax_only_compilations": 4
+    },
+    {
+      "step_id": 3214972,
+      "lesson_id": 770591,
+      "path": "courses/86957/steps/770591/03_3214972_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false,
+      "cpp_syntax_only_compilations": 6
+    },
+    {
+      "step_id": 3214971,
+      "lesson_id": 770591,
+      "path": "courses/86957/steps/770591/04_3214971_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false,
+      "cpp_syntax_only_compilations": 10
+    },
+    {
+      "step_id": 3214974,
+      "lesson_id": 770591,
+      "path": "courses/86957/steps/770591/05_3214974_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false,
+      "cpp_syntax_only_compilations": 4
+    },
+    {
+      "step_id": 3215024,
+      "lesson_id": 770591,
+      "path": "courses/86957/steps/770591/06_3215024_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false,
+      "cpp_syntax_only_compilations": 10
+    },
+    {
+      "step_id": 3214978,
+      "lesson_id": 770591,
+      "path": "courses/86957/steps/770591/07_3214978_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false,
+      "cpp_syntax_only_compilations": 2
+    },
+    {
+      "step_id": 3404829,
+      "lesson_id": 770591,
+      "path": "courses/86957/steps/770591/08_3404829_choice.step",
+      "type": "choice",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": true
+    },
+    {
+      "step_id": 3425890,
+      "lesson_id": 770591,
+      "path": "courses/86957/steps/770591/09_3425890_choice.step",
+      "type": "choice",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": true
+    },
+    {
+      "step_id": 3428206,
+      "lesson_id": 770591,
+      "path": "courses/86957/steps/770591/10_3428206_code.step",
+      "type": "code",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false,
+      "grader_read": true,
+      "stored_test_cases_independently_checked": 4
+    },
+    {
+      "step_id": 3428255,
+      "lesson_id": 770591,
+      "path": "courses/86957/steps/770591/11_3428255_code.step",
+      "type": "code",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false,
+      "grader_read": true,
+      "stored_test_cases_independently_checked": 2
+    },
+    {
+      "step_id": 3384518,
+      "lesson_id": 770591,
+      "path": "courses/86957/steps/770591/12_3384518_code.step",
+      "type": "code",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false,
+      "grader_read": true,
+      "stored_test_cases_independently_checked": 3
+    },
+    {
+      "step_id": 5828883,
+      "lesson_id": 770591,
+      "path": "courses/86957/steps/770591/13_5828883_code.step",
+      "type": "code",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false,
+      "grader_read": true,
+      "stored_test_cases_independently_checked": 10
+    },
+    {
+      "step_id": 3214992,
+      "lesson_id": 770592,
+      "path": "courses/86957/steps/770592/01_3214992_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false,
+      "cpp_syntax_only_compilations": 8
+    },
+    {
+      "step_id": 3212951,
+      "lesson_id": 770592,
+      "path": "courses/86957/steps/770592/02_3212951_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false,
+      "cpp_syntax_only_compilations": 2
+    },
+    {
+      "step_id": 3214991,
+      "lesson_id": 770592,
+      "path": "courses/86957/steps/770592/03_3214991_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false,
+      "cpp_syntax_only_compilations": 2
+    },
+    {
+      "step_id": 3404927,
+      "lesson_id": 770592,
+      "path": "courses/86957/steps/770592/04_3404927_choice.step",
+      "type": "choice",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": true,
+      "cpp_syntax_only_compilations": 2
+    },
+    {
+      "step_id": 3425927,
+      "lesson_id": 770592,
+      "path": "courses/86957/steps/770592/05_3425927_choice.step",
+      "type": "choice",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": true
+    },
+    {
+      "step_id": 4718310,
+      "lesson_id": 770592,
+      "path": "courses/86957/steps/770592/06_4718310_choice.step",
+      "type": "choice",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": true
+    },
+    {
+      "step_id": 3212952,
+      "lesson_id": 770593,
+      "path": "courses/86957/steps/770593/01_3212952_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false
+    },
+    {
+      "step_id": 3215031,
+      "lesson_id": 770593,
+      "path": "courses/86957/steps/770593/02_3215031_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false
+    },
+    {
+      "step_id": 3215032,
+      "lesson_id": 770593,
+      "path": "courses/86957/steps/770593/03_3215032_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false
+    },
+    {
+      "step_id": 3215045,
+      "lesson_id": 770593,
+      "path": "courses/86957/steps/770593/04_3215045_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false
+    },
+    {
+      "step_id": 3215065,
+      "lesson_id": 770593,
+      "path": "courses/86957/steps/770593/05_3215065_video.step",
+      "type": "video",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": false,
+      "question_keys_reviewed": false,
+      "limitation": "Video metadata only; recording not watched."
+    },
+    {
+      "step_id": 4733817,
+      "lesson_id": 770593,
+      "path": "courses/86957/steps/770593/06_4733817_video.step",
+      "type": "video",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": false,
+      "question_keys_reviewed": false,
+      "limitation": "Video metadata only; recording not watched."
+    },
+    {
+      "step_id": 3408471,
+      "lesson_id": 770593,
+      "path": "courses/86957/steps/770593/07_3408471_choice.step",
+      "type": "choice",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": true
+    },
+    {
+      "step_id": 3426151,
+      "lesson_id": 770593,
+      "path": "courses/86957/steps/770593/08_3426151_choice.step",
+      "type": "choice",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": true
+    },
+    {
+      "step_id": 3462446,
+      "lesson_id": 770593,
+      "path": "courses/86957/steps/770593/09_3462446_choice.step",
+      "type": "choice",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": true
+    },
+    {
+      "step_id": 4718095,
+      "lesson_id": 770593,
+      "path": "courses/86957/steps/770593/10_4718095_choice.step",
+      "type": "choice",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": true
+    },
+    {
+      "step_id": 4718299,
+      "lesson_id": 770593,
+      "path": "courses/86957/steps/770593/11_4718299_choice.step",
+      "type": "choice",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": true
+    },
+    {
+      "step_id": 3251321,
+      "lesson_id": 778425,
+      "path": "courses/86957/steps/778425/01_3251321_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false
+    },
+    {
+      "step_id": 3252939,
+      "lesson_id": 778425,
+      "path": "courses/86957/steps/778425/02_3252939_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false
+    },
+    {
+      "step_id": 3252941,
+      "lesson_id": 778425,
+      "path": "courses/86957/steps/778425/03_3252941_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false
+    },
+    {
+      "step_id": 3252940,
+      "lesson_id": 778425,
+      "path": "courses/86957/steps/778425/04_3252940_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false
+    },
+    {
+      "step_id": 4718113,
+      "lesson_id": 778425,
+      "path": "courses/86957/steps/778425/05_4718113_choice.step",
+      "type": "choice",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": true
+    },
+    {
+      "step_id": 4718115,
+      "lesson_id": 778425,
+      "path": "courses/86957/steps/778425/06_4718115_choice.step",
+      "type": "choice",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": true
+    },
+    {
+      "step_id": 5822035,
+      "lesson_id": 778425,
+      "path": "courses/86957/steps/778425/07_5822035_code.step",
+      "type": "code",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false,
+      "grader_read": true,
+      "stored_test_cases_independently_checked": 19
+    },
+    {
+      "step_id": 4739135,
+      "lesson_id": 778425,
+      "path": "courses/86957/steps/778425/08_4739135_code.step",
+      "type": "code",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false,
+      "grader_read": true,
+      "stored_test_cases_independently_checked": 3
+    },
+    {
+      "step_id": 3251322,
+      "lesson_id": 778426,
+      "path": "courses/86957/steps/778426/01_3251322_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false
+    },
+    {
+      "step_id": 3253129,
+      "lesson_id": 778426,
+      "path": "courses/86957/steps/778426/02_3253129_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false
+    },
+    {
+      "step_id": 3253164,
+      "lesson_id": 778426,
+      "path": "courses/86957/steps/778426/03_3253164_code.step",
+      "type": "code",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false,
+      "grader_read": true,
+      "stored_test_cases_independently_checked": 8
+    },
+    {
+      "step_id": 3253429,
+      "lesson_id": 778426,
+      "path": "courses/86957/steps/778426/04_3253429_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false,
+      "cpp_syntax_only_compilations": 2
+    },
+    {
+      "step_id": 3253503,
+      "lesson_id": 778426,
+      "path": "courses/86957/steps/778426/05_3253503_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false,
+      "cpp_syntax_only_compilations": 2
+    },
+    {
+      "step_id": 3253548,
+      "lesson_id": 778426,
+      "path": "courses/86957/steps/778426/06_3253548_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false
+    },
+    {
+      "step_id": 3253553,
+      "lesson_id": 778426,
+      "path": "courses/86957/steps/778426/07_3253553_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false
+    },
+    {
+      "step_id": 4718068,
+      "lesson_id": 778426,
+      "path": "courses/86957/steps/778426/08_4718068_choice.step",
+      "type": "choice",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": true
+    },
+    {
+      "step_id": 3253557,
+      "lesson_id": 778426,
+      "path": "courses/86957/steps/778426/09_3253557_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false
+    },
+    {
+      "step_id": 4927308,
+      "lesson_id": 778426,
+      "path": "courses/86957/steps/778426/10_4927308_code.step",
+      "type": "code",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false,
+      "grader_read": true,
+      "stored_test_cases_independently_checked": 0
+    },
+    {
+      "step_id": 3212947,
+      "lesson_id": 770588,
+      "path": "courses/86957/steps/770588/01_3212947_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false
+    },
+    {
+      "step_id": 3214845,
+      "lesson_id": 770588,
+      "path": "courses/86957/steps/770588/02_3214845_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false
+    },
+    {
+      "step_id": 3214873,
+      "lesson_id": 770588,
+      "path": "courses/86957/steps/770588/03_3214873_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false
+    },
+    {
+      "step_id": 3408968,
+      "lesson_id": 770588,
+      "path": "courses/86957/steps/770588/04_3408968_fill-blanks.step",
+      "type": "fill-blanks",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": true
+    },
+    {
+      "step_id": 3435399,
+      "lesson_id": 770588,
+      "path": "courses/86957/steps/770588/05_3435399_choice.step",
+      "type": "choice",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": true
+    },
+    {
+      "step_id": 3446015,
+      "lesson_id": 770588,
+      "path": "courses/86957/steps/770588/06_3446015_code.step",
+      "type": "code",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false,
+      "grader_read": true,
+      "stored_test_cases_independently_checked": 8
+    },
+    {
+      "step_id": 4718066,
+      "lesson_id": 770588,
+      "path": "courses/86957/steps/770588/07_4718066_choice.step",
+      "type": "choice",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": true
+    },
+    {
+      "step_id": 3212948,
+      "lesson_id": 770589,
+      "path": "courses/86957/steps/770589/01_3212948_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false,
+      "cpp_syntax_only_compilations": 4
+    },
+    {
+      "step_id": 3214901,
+      "lesson_id": 770589,
+      "path": "courses/86957/steps/770589/02_3214901_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false
+    },
+    {
+      "step_id": 3214903,
+      "lesson_id": 770589,
+      "path": "courses/86957/steps/770589/03_3214903_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false,
+      "cpp_syntax_only_compilations": 2
+    },
+    {
+      "step_id": 3214902,
+      "lesson_id": 770589,
+      "path": "courses/86957/steps/770589/04_3214902_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false
+    },
+    {
+      "step_id": 3214904,
+      "lesson_id": 770589,
+      "path": "courses/86957/steps/770589/05_3214904_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false,
+      "cpp_syntax_only_compilations": 2
+    },
+    {
+      "step_id": 3423457,
+      "lesson_id": 770589,
+      "path": "courses/86957/steps/770589/06_3423457_choice.step",
+      "type": "choice",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": true,
+      "cpp_syntax_only_compilations": 6
+    },
+    {
+      "step_id": 3437788,
+      "lesson_id": 770589,
+      "path": "courses/86957/steps/770589/07_3437788_choice.step",
+      "type": "choice",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": true
+    },
+    {
+      "step_id": 3446002,
+      "lesson_id": 770589,
+      "path": "courses/86957/steps/770589/08_3446002_code.step",
+      "type": "code",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false,
+      "grader_read": true,
+      "stored_test_cases_independently_checked": 8
+    },
+    {
+      "step_id": 3446094,
+      "lesson_id": 770589,
+      "path": "courses/86957/steps/770589/09_3446094_code.step",
+      "type": "code",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false,
+      "grader_read": true,
+      "stored_test_cases_independently_checked": 7
+    },
+    {
+      "step_id": 3446132,
+      "lesson_id": 770589,
+      "path": "courses/86957/steps/770589/10_3446132_code.step",
+      "type": "code",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false,
+      "grader_read": true,
+      "stored_test_cases_independently_checked": 5
+    },
+    {
+      "step_id": 4717782,
+      "lesson_id": 770589,
+      "path": "courses/86957/steps/770589/11_4717782_choice.step",
+      "type": "choice",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": true
+    },
+    {
+      "step_id": 4718098,
+      "lesson_id": 770589,
+      "path": "courses/86957/steps/770589/12_4718098_choice.step",
+      "type": "choice",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": true
+    },
+    {
+      "step_id": 4718123,
+      "lesson_id": 770589,
+      "path": "courses/86957/steps/770589/13_4718123_choice.step",
+      "type": "choice",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": true
+    },
+    {
+      "step_id": 4738986,
+      "lesson_id": 770589,
+      "path": "courses/86957/steps/770589/14_4738986_code.step",
+      "type": "code",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false,
+      "grader_read": true,
+      "stored_test_cases_independently_checked": 5
+    },
+    {
+      "step_id": 4949336,
+      "lesson_id": 770589,
+      "path": "courses/86957/steps/770589/15_4949336_code.step",
+      "type": "code",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false,
+      "grader_read": true,
+      "stored_test_cases_independently_checked": 25
+    },
+    {
+      "step_id": 3212953,
+      "lesson_id": 770594,
+      "path": "courses/86957/steps/770594/01_3212953_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false
+    },
+    {
+      "step_id": 3213244,
+      "lesson_id": 770594,
+      "path": "courses/86957/steps/770594/02_3213244_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false
+    },
+    {
+      "step_id": 3213241,
+      "lesson_id": 770594,
+      "path": "courses/86957/steps/770594/03_3213241_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false,
+      "cpp_syntax_only_compilations": 2
+    },
+    {
+      "step_id": 3213243,
+      "lesson_id": 770594,
+      "path": "courses/86957/steps/770594/04_3213243_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false,
+      "cpp_syntax_only_compilations": 2
+    },
+    {
+      "step_id": 3213242,
+      "lesson_id": 770594,
+      "path": "courses/86957/steps/770594/05_3213242_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false,
+      "cpp_syntax_only_compilations": 2
+    },
+    {
+      "step_id": 3213247,
+      "lesson_id": 770594,
+      "path": "courses/86957/steps/770594/06_3213247_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false,
+      "cpp_syntax_only_compilations": 2
+    },
+    {
+      "step_id": 3213248,
+      "lesson_id": 770594,
+      "path": "courses/86957/steps/770594/07_3213248_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false
+    },
+    {
+      "step_id": 3213256,
+      "lesson_id": 770594,
+      "path": "courses/86957/steps/770594/08_3213256_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false
+    },
+    {
+      "step_id": 3213255,
+      "lesson_id": 770594,
+      "path": "courses/86957/steps/770594/09_3213255_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false
+    },
+    {
+      "step_id": 3408612,
+      "lesson_id": 770594,
+      "path": "courses/86957/steps/770594/10_3408612_choice.step",
+      "type": "choice",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": true
+    },
+    {
+      "step_id": 3408628,
+      "lesson_id": 770594,
+      "path": "courses/86957/steps/770594/11_3408628_choice.step",
+      "type": "choice",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": true
+    },
+    {
+      "step_id": 3435221,
+      "lesson_id": 770594,
+      "path": "courses/86957/steps/770594/12_3435221_choice.step",
+      "type": "choice",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": true
+    },
+    {
+      "step_id": 3496771,
+      "lesson_id": 770594,
+      "path": "courses/86957/steps/770594/13_3496771_code.step",
+      "type": "code",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false,
+      "grader_read": true,
+      "stored_test_cases_independently_checked": 19
+    },
+    {
+      "step_id": 3496704,
+      "lesson_id": 770594,
+      "path": "courses/86957/steps/770594/14_3496704_code.step",
+      "type": "code",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false,
+      "grader_read": true,
+      "stored_test_cases_independently_checked": 6
+    },
+    {
+      "step_id": 3496878,
+      "lesson_id": 770594,
+      "path": "courses/86957/steps/770594/15_3496878_code.step",
+      "type": "code",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false,
+      "grader_read": true,
+      "stored_test_cases_independently_checked": 14
+    },
+    {
+      "step_id": 4717725,
+      "lesson_id": 770594,
+      "path": "courses/86957/steps/770594/16_4717725_choice.step",
+      "type": "choice",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": true
+    },
+    {
+      "step_id": 3212954,
+      "lesson_id": 770595,
+      "path": "courses/86957/steps/770595/01_3212954_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false
+    },
+    {
+      "step_id": 3215136,
+      "lesson_id": 770595,
+      "path": "courses/86957/steps/770595/02_3215136_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false
+    },
+    {
+      "step_id": 3215137,
+      "lesson_id": 770595,
+      "path": "courses/86957/steps/770595/03_3215137_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false
+    },
+    {
+      "step_id": 3215176,
+      "lesson_id": 770595,
+      "path": "courses/86957/steps/770595/04_3215176_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false
+    },
+    {
+      "step_id": 3215175,
+      "lesson_id": 770595,
+      "path": "courses/86957/steps/770595/05_3215175_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false
+    },
+    {
+      "step_id": 3215178,
+      "lesson_id": 770595,
+      "path": "courses/86957/steps/770595/06_3215178_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false
+    },
+    {
+      "step_id": 3215177,
+      "lesson_id": 770595,
+      "path": "courses/86957/steps/770595/07_3215177_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false
+    },
+    {
+      "step_id": 3215179,
+      "lesson_id": 770595,
+      "path": "courses/86957/steps/770595/08_3215179_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false,
+      "cpp_syntax_only_compilations": 2
+    },
+    {
+      "step_id": 3408767,
+      "lesson_id": 770595,
+      "path": "courses/86957/steps/770595/09_3408767_choice.step",
+      "type": "choice",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": true
+    },
+    {
+      "step_id": 3435286,
+      "lesson_id": 770595,
+      "path": "courses/86957/steps/770595/10_3435286_choice.step",
+      "type": "choice",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": true
+    },
+    {
+      "step_id": 4734985,
+      "lesson_id": 770595,
+      "path": "courses/86957/steps/770595/11_4734985_code.step",
+      "type": "code",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false,
+      "grader_read": true,
+      "stored_test_cases_independently_checked": 4
+    },
+    {
+      "step_id": 3215109,
+      "lesson_id": 771129,
+      "path": "courses/86957/steps/771129/01_3215109_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false
+    },
+    {
+      "step_id": 3215183,
+      "lesson_id": 771129,
+      "path": "courses/86957/steps/771129/02_3215183_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false
+    },
+    {
+      "step_id": 3215192,
+      "lesson_id": 771129,
+      "path": "courses/86957/steps/771129/03_3215192_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false
+    },
+    {
+      "step_id": 3215191,
+      "lesson_id": 771129,
+      "path": "courses/86957/steps/771129/04_3215191_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false
+    },
+    {
+      "step_id": 3408864,
+      "lesson_id": 771129,
+      "path": "courses/86957/steps/771129/05_3408864_choice.step",
+      "type": "choice",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": true
+    },
+    {
+      "step_id": 3435354,
+      "lesson_id": 771129,
+      "path": "courses/86957/steps/771129/06_3435354_choice.step",
+      "type": "choice",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": true
+    },
+    {
+      "step_id": 3496826,
+      "lesson_id": 771129,
+      "path": "courses/86957/steps/771129/07_3496826_code.step",
+      "type": "code",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false,
+      "grader_read": true,
+      "stored_test_cases_independently_checked": 11
+    },
+    {
+      "step_id": 3215113,
+      "lesson_id": 771131,
+      "path": "courses/86957/steps/771131/01_3215113_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false
+    },
+    {
+      "step_id": 3215200,
+      "lesson_id": 771131,
+      "path": "courses/86957/steps/771131/02_3215200_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false,
+      "cpp_syntax_only_compilations": 2
+    },
+    {
+      "step_id": 3215199,
+      "lesson_id": 771131,
+      "path": "courses/86957/steps/771131/03_3215199_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false,
+      "cpp_syntax_only_compilations": 2
+    },
+    {
+      "step_id": 3580923,
+      "lesson_id": 771131,
+      "path": "courses/86957/steps/771131/04_3580923_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false
+    },
+    {
+      "step_id": 3423807,
+      "lesson_id": 771131,
+      "path": "courses/86957/steps/771131/05_3423807_choice.step",
+      "type": "choice",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": true,
+      "cpp_syntax_only_compilations": 4
+    },
+    {
+      "step_id": 3437886,
+      "lesson_id": 771131,
+      "path": "courses/86957/steps/771131/06_3437886_choice.step",
+      "type": "choice",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": true
+    },
+    {
+      "step_id": 3215112,
+      "lesson_id": 771130,
+      "path": "courses/86957/steps/771130/01_3215112_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false
+    },
+    {
+      "step_id": 3215203,
+      "lesson_id": 771130,
+      "path": "courses/86957/steps/771130/02_3215203_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false
+    },
+    {
+      "step_id": 3215206,
+      "lesson_id": 771130,
+      "path": "courses/86957/steps/771130/03_3215206_text.step",
+      "type": "text",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": false,
+      "cpp_syntax_only_compilations": 6
+    },
+    {
+      "step_id": 3424087,
+      "lesson_id": 771130,
+      "path": "courses/86957/steps/771130/04_3424087_choice.step",
+      "type": "choice",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": true
+    },
+    {
+      "step_id": 3437952,
+      "lesson_id": 771130,
+      "path": "courses/86957/steps/771130/05_3437952_choice.step",
+      "type": "choice",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": true
+    },
+    {
+      "step_id": 4717788,
+      "lesson_id": 771130,
+      "path": "courses/86957/steps/771130/06_4717788_choice.step",
+      "type": "choice",
+      "json_loaded": true,
+      "text_and_cpp_fragments_read": true,
+      "question_keys_reviewed": true
+    }
+  ]
+}

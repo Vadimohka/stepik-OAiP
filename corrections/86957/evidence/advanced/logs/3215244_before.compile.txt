@@ -1,0 +1,13 @@
+/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3215244_before.cpp: In function ‘int main()’:
+/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3215244_before.cpp:3:1: error: ‘Ints’ was not declared in this scope
+    3 | Ints *p;
+      | ^~~~
+/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3215244_before.cpp:3:7: error: ‘p’ was not declared in this scope
+    3 | Ints *p;
+      |       ^
+/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3215244_before.cpp:6:9: error: ‘Ints’ does not name a type
+    6 | p = new Ints;
+      |         ^~~~
+/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3215244_before.cpp:13:1: error: type ‘<type error>’ argument given to ‘delete’, expected pointer
+   13 | delete p;
+      | ^~~~~~~~

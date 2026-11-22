@@ -1,0 +1,4 @@
+/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3215235_after_c++17.cpp: In function ‘void xmlModel(Model*)’:
+/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3215235_after_c++17.cpp:46:22: warning: unused parameter ‘model’ [-Wunused-parameter]
+   46 | void xmlModel(Model *model) {
+      |               ~~~~~~~^~~~~

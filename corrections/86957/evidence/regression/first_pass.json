@@ -1,0 +1,234 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "step_id": 3262682,
+      "check": "references_accepted_and_malformed_responses_rejected",
+      "passed": true,
+      "cases": 7
+    },
+    {
+      "step_id": 3262692,
+      "check": "references_accepted_and_malformed_responses_rejected",
+      "passed": true,
+      "cases": 6
+    },
+    {
+      "step_id": 3280697,
+      "check": "references_accepted_and_malformed_responses_rejected",
+      "passed": true,
+      "cases": 8
+    },
+    {
+      "step_id": 3280727,
+      "check": "references_accepted_and_malformed_responses_rejected",
+      "passed": true,
+      "cases": 13
+    },
+    {
+      "step_id": 3381234,
+      "check": "references_accepted_and_malformed_responses_rejected",
+      "passed": true,
+      "cases": 7
+    },
+    {
+      "step_id": 4738986,
+      "check": "references_accepted_and_malformed_responses_rejected",
+      "passed": true,
+      "cases": 5
+    },
+    {
+      "step_id": 3262682,
+      "check": "specified_precision_and_negative_controls",
+      "passed": true,
+      "accepted": "4.333071682",
+      "rejected": [
+        "4.34",
+        "nan",
+        "inf",
+        "extra token"
+      ]
+    },
+    {
+      "step_id": 3262692,
+      "check": "equivalent_formulas_accepted_wrong_value_rejected",
+      "passed": true
+    },
+    {
+      "step_id": 3280697,
+      "check": "accurate_maximum_accepted_old_rounding_rejected",
+      "passed": true,
+      "correct": "3000000000 0\n2999999996 2 3",
+      "rejected": "3000000000 0\n3e+09 2 3"
+    },
+    {
+      "step_id": 3280727,
+      "check": "unused_division_branch_returns_zero",
+      "passed": true
+    },
+    {
+      "step_id": 3381234,
+      "check": "matrix_whitespace_allowed_wrong_values_and_extra_tokens_rejected",
+      "passed": true
+    },
+    {
+      "step_id": 4738986,
+      "check": "final_lf_and_crlf_allowed_extra_digit_rejected",
+      "passed": true,
+      "scope": "Local grader only; live Stepik not exercised"
+    },
+    {
+      "step_id": 3383209,
+      "check": "extension_cords_independent_formula",
+      "passed": true,
+      "cases": 8
+    },
+    {
+      "step_id": 3281353,
+      "check": "rectangle_corner_order_and_bounds",
+      "passed": true,
+      "cases": 7
+    },
+    {
+      "step_id": 3446094,
+      "check": "test_alphabet_matches_lowercase_constraint",
+      "passed": true,
+      "cases": 7
+    },
+    {
+      "step_id": 5850209,
+      "check": "corrected_yaml_key_in_input_and_reference",
+      "passed": true,
+      "cases": 13
+    },
+    {
+      "step_id": 3446002,
+      "check": "linewise_input_constraints_and_independent_inclusion_exclusion",
+      "passed": true,
+      "datasets": 8,
+      "subcases": 114
+    },
+    {
+      "step_id": null,
+      "check": "independent_reference_solvers_on_revised_datasets",
+      "passed": true,
+      "tasks": 11,
+      "cases": 102,
+      "results": [
+        {
+          "step_id": 3341723,
+          "check": "independent_reference",
+          "cases": 8,
+          "mismatches": [],
+          "comparison": "whitespace-separated tokens"
+        },
+        {
+          "step_id": 4700496,
+          "check": "independent_reference",
+          "cases": 12,
+          "mismatches": [],
+          "comparison": "whitespace-separated tokens"
+        },
+        {
+          "step_id": 3428255,
+          "check": "independent_reference",
+          "cases": 2,
+          "mismatches": [],
+          "comparison": "whitespace-separated tokens"
+        },
+        {
+          "step_id": 3384518,
+          "check": "independent_reference",
+          "cases": 3,
+          "mismatches": [],
+          "comparison": "whitespace-separated tokens"
+        },
+        {
+          "step_id": 5828883,
+          "check": "independent_reference",
+          "cases": 10,
+          "mismatches": [],
+          "comparison": "whitespace-separated tokens"
+        },
+        {
+          "step_id": 5822035,
+          "check": "independent_reference",
+          "cases": 19,
+          "mismatches": [],
+          "comparison": "whitespace-separated tokens"
+        },
+        {
+          "step_id": 3446015,
+          "check": "independent_reference",
+          "cases": 8,
+          "mismatches": [],
+          "comparison": "whitespace-separated tokens"
+        },
+        {
+          "step_id": 3446094,
+          "check": "independent_reference",
+          "cases": 7,
+          "mismatches": [],
+          "comparison": "whitespace-separated tokens"
+        },
+        {
+          "step_id": 3496704,
+          "check": "independent_reference",
+          "cases": 6,
+          "mismatches": [],
+          "comparison": "whitespace-separated tokens"
+        },
+        {
+          "step_id": 3496878,
+          "check": "independent_reference",
+          "cases": 14,
+          "mismatches": [],
+          "comparison": "whitespace-separated tokens"
+        },
+        {
+          "step_id": 5850209,
+          "check": "independent_reference",
+          "cases": 13,
+          "mismatches": [],
+          "comparison": "whitespace-separated tokens"
+        }
+      ]
+    },
+    {
+      "step_id": null,
+      "check": "independent_cpp_numeric_solutions",
+      "passed": true,
+      "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+      "standard": "c++17",
+      "tasks": 6,
+      "cases": 46,
+      "results": [
+        {
+          "step_id": 3262682,
+          "test_cases_passed": 7
+        },
+        {
+          "step_id": 3262692,
+          "test_cases_passed": 6
+        },
+        {
+          "step_id": 3264622,
+          "test_cases_passed": 5
+        },
+        {
+          "step_id": 3280697,
+          "test_cases_passed": 8
+        },
+        {
+          "step_id": 3280727,
+          "test_cases_passed": 13
+        },
+        {
+          "step_id": 3281353,
+          "test_cases_passed": 7
+        }
+      ]
+    }
+  ],
+  "scope": "Earlier regression functions on the correction overlay"
+}

@@ -1,0 +1,1511 @@
+{
+  "scope": "Syntax only; staged corrections take precedence; C examples use C11/C17.",
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "complete_programs": 75,
+  "compilations": 150,
+  "successes": 146,
+  "intentional_errors": 4,
+  "unexpected_results": 0,
+  "results": [
+    {
+      "step_id": 3201305,
+      "path": "courses/86957/steps/768145/04_3201305_text.step",
+      "pre_index": 0,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3201305,
+      "path": "courses/86957/steps/768145/04_3201305_text.step",
+      "pre_index": 0,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3201305,
+      "path": "courses/86957/steps/768145/04_3201305_text.step",
+      "pre_index": 1,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3201305,
+      "path": "courses/86957/steps/768145/04_3201305_text.step",
+      "pre_index": 1,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3173778,
+      "path": "courses/86957/steps/763037/01_3173778_text.step",
+      "pre_index": 0,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3173778,
+      "path": "courses/86957/steps/763037/01_3173778_text.step",
+      "pre_index": 0,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 4717676,
+      "path": "courses/86957/steps/763038/11_4717676_choice.step",
+      "pre_index": 0,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 4717676,
+      "path": "courses/86957/steps/763038/11_4717676_choice.step",
+      "pre_index": 0,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 4717676,
+      "path": "courses/86957/steps/763038/11_4717676_choice.step",
+      "pre_index": 1,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 4717676,
+      "path": "courses/86957/steps/763038/11_4717676_choice.step",
+      "pre_index": 1,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 4717676,
+      "path": "courses/86957/steps/763038/11_4717676_choice.step",
+      "pre_index": 2,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 4717676,
+      "path": "courses/86957/steps/763038/11_4717676_choice.step",
+      "pre_index": 2,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3201236,
+      "path": "courses/86957/steps/768146/02_3201236_text.step",
+      "pre_index": 0,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3201236,
+      "path": "courses/86957/steps/768146/02_3201236_text.step",
+      "pre_index": 0,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3201235,
+      "path": "courses/86957/steps/768146/03_3201235_text.step",
+      "pre_index": 0,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3201235,
+      "path": "courses/86957/steps/768146/03_3201235_text.step",
+      "pre_index": 0,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3201179,
+      "path": "courses/86957/steps/768143/01_3201179_text.step",
+      "pre_index": 0,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3201179,
+      "path": "courses/86957/steps/768143/01_3201179_text.step",
+      "pre_index": 0,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3201189,
+      "path": "courses/86957/steps/768143/02_3201189_text.step",
+      "pre_index": 0,
+      "standard": "c++17",
+      "exit_code": 1,
+      "expected_error": "The namespace lesson intentionally uses unqualified cout.",
+      "passed": true,
+      "diagnostic_excerpt": "<stdin>: In function ‘int main()’:\n<stdin>:4:5: error: ‘cout’ was not declared in this scope; did you mean ‘std::cout’?\nIn file included from <stdin>:1:\n/usr/include/c++/14/iostream:63:18: note: ‘std::cout’ declared here\n   63 |   extern ostream cout;          ///< Linked to standard output\n      |                  ^~~~\n"
+    },
+    {
+      "step_id": 3201189,
+      "path": "courses/86957/steps/768143/02_3201189_text.step",
+      "pre_index": 0,
+      "standard": "c++20",
+      "exit_code": 1,
+      "expected_error": "The namespace lesson intentionally uses unqualified cout.",
+      "passed": true,
+      "diagnostic_excerpt": "<stdin>: In function ‘int main()’:\n<stdin>:4:5: error: ‘cout’ was not declared in this scope; did you mean ‘std::cout’?\nIn file included from <stdin>:1:\n/usr/include/c++/14/iostream:63:18: note: ‘std::cout’ declared here\n   63 |   extern ostream cout;          ///< Linked to standard output\n      |                  ^~~~\n"
+    },
+    {
+      "step_id": 3215075,
+      "path": "courses/86957/steps/768143/03_3215075_text.step",
+      "pre_index": 1,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3215075,
+      "path": "courses/86957/steps/768143/03_3215075_text.step",
+      "pre_index": 1,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3215075,
+      "path": "courses/86957/steps/768143/03_3215075_text.step",
+      "pre_index": 2,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3215075,
+      "path": "courses/86957/steps/768143/03_3215075_text.step",
+      "pre_index": 2,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3215075,
+      "path": "courses/86957/steps/768143/03_3215075_text.step",
+      "pre_index": 3,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3215075,
+      "path": "courses/86957/steps/768143/03_3215075_text.step",
+      "pre_index": 3,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3231317,
+      "path": "courses/86957/steps/774618/03_3231317_text.step",
+      "pre_index": 0,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3231317,
+      "path": "courses/86957/steps/774618/03_3231317_text.step",
+      "pre_index": 0,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3177280,
+      "path": "courses/86957/steps/763630/03_3177280_text.step",
+      "pre_index": 1,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3177280,
+      "path": "courses/86957/steps/763630/03_3177280_text.step",
+      "pre_index": 1,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3177280,
+      "path": "courses/86957/steps/763630/03_3177280_text.step",
+      "pre_index": 2,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3177280,
+      "path": "courses/86957/steps/763630/03_3177280_text.step",
+      "pre_index": 2,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3177280,
+      "path": "courses/86957/steps/763630/03_3177280_text.step",
+      "pre_index": 3,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3177280,
+      "path": "courses/86957/steps/763630/03_3177280_text.step",
+      "pre_index": 3,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3177280,
+      "path": "courses/86957/steps/763630/03_3177280_text.step",
+      "pre_index": 4,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3177280,
+      "path": "courses/86957/steps/763630/03_3177280_text.step",
+      "pre_index": 4,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3177281,
+      "path": "courses/86957/steps/763630/05_3177281_text.step",
+      "pre_index": 1,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3177281,
+      "path": "courses/86957/steps/763630/05_3177281_text.step",
+      "pre_index": 1,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3177281,
+      "path": "courses/86957/steps/763630/05_3177281_text.step",
+      "pre_index": 2,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3177281,
+      "path": "courses/86957/steps/763630/05_3177281_text.step",
+      "pre_index": 2,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3177283,
+      "path": "courses/86957/steps/763630/07_3177283_text.step",
+      "pre_index": 1,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3177283,
+      "path": "courses/86957/steps/763630/07_3177283_text.step",
+      "pre_index": 1,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3177292,
+      "path": "courses/86957/steps/763640/01_3177292_text.step",
+      "pre_index": 1,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3177292,
+      "path": "courses/86957/steps/763640/01_3177292_text.step",
+      "pre_index": 1,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3177292,
+      "path": "courses/86957/steps/763640/01_3177292_text.step",
+      "pre_index": 4,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3177292,
+      "path": "courses/86957/steps/763640/01_3177292_text.step",
+      "pre_index": 4,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3177292,
+      "path": "courses/86957/steps/763640/01_3177292_text.step",
+      "pre_index": 5,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3177292,
+      "path": "courses/86957/steps/763640/01_3177292_text.step",
+      "pre_index": 5,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3177292,
+      "path": "courses/86957/steps/763640/01_3177292_text.step",
+      "pre_index": 8,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3177292,
+      "path": "courses/86957/steps/763640/01_3177292_text.step",
+      "pre_index": 8,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3215105,
+      "path": "corrections/86957/steps/763640/02_3215105_text.step",
+      "pre_index": 1,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3215105,
+      "path": "corrections/86957/steps/763640/02_3215105_text.step",
+      "pre_index": 1,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3215105,
+      "path": "corrections/86957/steps/763640/02_3215105_text.step",
+      "pre_index": 4,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3215105,
+      "path": "corrections/86957/steps/763640/02_3215105_text.step",
+      "pre_index": 4,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3177546,
+      "path": "courses/86957/steps/763642/04_3177546_text.step",
+      "pre_index": 0,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3177546,
+      "path": "courses/86957/steps/763642/04_3177546_text.step",
+      "pre_index": 0,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3177547,
+      "path": "courses/86957/steps/763642/05_3177547_text.step",
+      "pre_index": 0,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3177547,
+      "path": "courses/86957/steps/763642/05_3177547_text.step",
+      "pre_index": 0,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3177565,
+      "path": "corrections/86957/steps/763719/02_3177565_text.step",
+      "pre_index": 1,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3177565,
+      "path": "corrections/86957/steps/763719/02_3177565_text.step",
+      "pre_index": 1,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3177566,
+      "path": "courses/86957/steps/763719/03_3177566_code.step",
+      "pre_index": 0,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3177566,
+      "path": "courses/86957/steps/763719/03_3177566_code.step",
+      "pre_index": 0,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3177651,
+      "path": "corrections/86957/steps/763719/04_3177651_text.step",
+      "pre_index": 1,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3177651,
+      "path": "corrections/86957/steps/763719/04_3177651_text.step",
+      "pre_index": 1,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3177789,
+      "path": "courses/86957/steps/763719/07_3177789_text.step",
+      "pre_index": 0,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3177789,
+      "path": "courses/86957/steps/763719/07_3177789_text.step",
+      "pre_index": 0,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3177296,
+      "path": "courses/86957/steps/763644/02_3177296_text.step",
+      "pre_index": 0,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3177296,
+      "path": "courses/86957/steps/763644/02_3177296_text.step",
+      "pre_index": 0,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3212908,
+      "path": "courses/86957/steps/763644/04_3212908_text.step",
+      "pre_index": 1,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3212908,
+      "path": "courses/86957/steps/763644/04_3212908_text.step",
+      "pre_index": 1,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3212920,
+      "path": "courses/86957/steps/763644/06_3212920_text.step",
+      "pre_index": 0,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3212920,
+      "path": "courses/86957/steps/763644/06_3212920_text.step",
+      "pre_index": 0,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3212939,
+      "path": "courses/86957/steps/763646/03_3212939_text.step",
+      "pre_index": 0,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3212939,
+      "path": "courses/86957/steps/763646/03_3212939_text.step",
+      "pre_index": 0,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3212939,
+      "path": "courses/86957/steps/763646/03_3212939_text.step",
+      "pre_index": 1,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3212939,
+      "path": "courses/86957/steps/763646/03_3212939_text.step",
+      "pre_index": 1,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3212968,
+      "path": "courses/86957/steps/770585/02_3212968_text.step",
+      "pre_index": 3,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3212968,
+      "path": "courses/86957/steps/770585/02_3212968_text.step",
+      "pre_index": 3,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3212968,
+      "path": "courses/86957/steps/770585/02_3212968_text.step",
+      "pre_index": 4,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3212968,
+      "path": "courses/86957/steps/770585/02_3212968_text.step",
+      "pre_index": 4,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3212969,
+      "path": "courses/86957/steps/770585/03_3212969_text.step",
+      "pre_index": 3,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3212969,
+      "path": "courses/86957/steps/770585/03_3212969_text.step",
+      "pre_index": 3,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3212970,
+      "path": "courses/86957/steps/770585/04_3212970_text.step",
+      "pre_index": 1,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3212970,
+      "path": "courses/86957/steps/770585/04_3212970_text.step",
+      "pre_index": 1,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3212970,
+      "path": "courses/86957/steps/770585/04_3212970_text.step",
+      "pre_index": 3,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3212970,
+      "path": "courses/86957/steps/770585/04_3212970_text.step",
+      "pre_index": 3,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3212970,
+      "path": "courses/86957/steps/770585/04_3212970_text.step",
+      "pre_index": 4,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3212970,
+      "path": "courses/86957/steps/770585/04_3212970_text.step",
+      "pre_index": 4,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3212970,
+      "path": "courses/86957/steps/770585/04_3212970_text.step",
+      "pre_index": 6,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3212970,
+      "path": "courses/86957/steps/770585/04_3212970_text.step",
+      "pre_index": 6,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3212970,
+      "path": "courses/86957/steps/770585/04_3212970_text.step",
+      "pre_index": 7,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3212970,
+      "path": "courses/86957/steps/770585/04_3212970_text.step",
+      "pre_index": 7,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3212990,
+      "path": "courses/86957/steps/770585/05_3212990_text.step",
+      "pre_index": 0,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3212990,
+      "path": "courses/86957/steps/770585/05_3212990_text.step",
+      "pre_index": 0,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3212989,
+      "path": "courses/86957/steps/770585/06_3212989_text.step",
+      "pre_index": 0,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3212989,
+      "path": "courses/86957/steps/770585/06_3212989_text.step",
+      "pre_index": 0,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3212989,
+      "path": "courses/86957/steps/770585/06_3212989_text.step",
+      "pre_index": 2,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3212989,
+      "path": "courses/86957/steps/770585/06_3212989_text.step",
+      "pre_index": 2,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3212989,
+      "path": "courses/86957/steps/770585/06_3212989_text.step",
+      "pre_index": 4,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": "<stdin>: In function ‘int main()’:\n<stdin>:10:9: warning: unused variable ‘b’ [-Wunused-variable]\n"
+    },
+    {
+      "step_id": 3212989,
+      "path": "courses/86957/steps/770585/06_3212989_text.step",
+      "pre_index": 4,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": "<stdin>: In function ‘int main()’:\n<stdin>:10:9: warning: unused variable ‘b’ [-Wunused-variable]\n"
+    },
+    {
+      "step_id": 3212991,
+      "path": "courses/86957/steps/770585/07_3212991_text.step",
+      "pre_index": 0,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3212991,
+      "path": "courses/86957/steps/770585/07_3212991_text.step",
+      "pre_index": 0,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3428581,
+      "path": "courses/86957/steps/770585/11_3428581_choice.step",
+      "pre_index": 0,
+      "standard": "c++17",
+      "exit_code": 1,
+      "expected_error": "The question intentionally tries to change a const pointer.",
+      "passed": true,
+      "diagnostic_excerpt": "<stdin>: In function ‘void foo(const int*)’:\n<stdin>:5:6: error: assignment of read-only location ‘* ptr’\n"
+    },
+    {
+      "step_id": 3428581,
+      "path": "courses/86957/steps/770585/11_3428581_choice.step",
+      "pre_index": 0,
+      "standard": "c++20",
+      "exit_code": 1,
+      "expected_error": "The question intentionally tries to change a const pointer.",
+      "passed": true,
+      "diagnostic_excerpt": "<stdin>: In function ‘void foo(const int*)’:\n<stdin>:5:6: error: assignment of read-only location ‘* ptr’\n"
+    },
+    {
+      "step_id": 3212945,
+      "path": "courses/86957/steps/770586/01_3212945_text.step",
+      "pre_index": 0,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3212945,
+      "path": "courses/86957/steps/770586/01_3212945_text.step",
+      "pre_index": 0,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3212995,
+      "path": "courses/86957/steps/770586/02_3212995_text.step",
+      "pre_index": 0,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": "<stdin>: In function ‘int main()’:\n<stdin>:5:11: warning: variable ‘ptr’ set but not used [-Wunused-but-set-variable]\n"
+    },
+    {
+      "step_id": 3212995,
+      "path": "courses/86957/steps/770586/02_3212995_text.step",
+      "pre_index": 0,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": "<stdin>: In function ‘int main()’:\n<stdin>:5:11: warning: variable ‘ptr’ set but not used [-Wunused-but-set-variable]\n"
+    },
+    {
+      "step_id": 3212995,
+      "path": "courses/86957/steps/770586/02_3212995_text.step",
+      "pre_index": 1,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3212995,
+      "path": "courses/86957/steps/770586/02_3212995_text.step",
+      "pre_index": 1,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3212995,
+      "path": "courses/86957/steps/770586/02_3212995_text.step",
+      "pre_index": 2,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3212995,
+      "path": "courses/86957/steps/770586/02_3212995_text.step",
+      "pre_index": 2,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3212995,
+      "path": "courses/86957/steps/770586/02_3212995_text.step",
+      "pre_index": 3,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3212995,
+      "path": "courses/86957/steps/770586/02_3212995_text.step",
+      "pre_index": 3,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3212995,
+      "path": "courses/86957/steps/770586/02_3212995_text.step",
+      "pre_index": 4,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3212995,
+      "path": "courses/86957/steps/770586/02_3212995_text.step",
+      "pre_index": 4,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3213003,
+      "path": "courses/86957/steps/770586/03_3213003_text.step",
+      "pre_index": 3,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3213003,
+      "path": "courses/86957/steps/770586/03_3213003_text.step",
+      "pre_index": 3,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3213003,
+      "path": "courses/86957/steps/770586/03_3213003_text.step",
+      "pre_index": 4,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3213003,
+      "path": "courses/86957/steps/770586/03_3213003_text.step",
+      "pre_index": 4,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3213003,
+      "path": "courses/86957/steps/770586/03_3213003_text.step",
+      "pre_index": 5,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": "<stdin>: In function ‘void printSize(int*)’:\n<stdin>:4:64: warning: ‘sizeof’ on array function parameter ‘array’ will return size of ‘int*’ [-Wsizeof-array-argument]\n<stdin>:3:20: note: declared here\n"
+    },
+    {
+      "step_id": 3213003,
+      "path": "courses/86957/steps/770586/03_3213003_text.step",
+      "pre_index": 5,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": "<stdin>: In function ‘void printSize(int*)’:\n<stdin>:4:64: warning: ‘sizeof’ on array function parameter ‘array’ will return size of ‘int*’ [-Wsizeof-array-argument]\n<stdin>:3:20: note: declared here\n"
+    },
+    {
+      "step_id": 3213003,
+      "path": "courses/86957/steps/770586/03_3213003_text.step",
+      "pre_index": 7,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3213003,
+      "path": "courses/86957/steps/770586/03_3213003_text.step",
+      "pre_index": 7,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3213004,
+      "path": "courses/86957/steps/770586/04_3213004_text.step",
+      "pre_index": 0,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3213004,
+      "path": "courses/86957/steps/770586/04_3213004_text.step",
+      "pre_index": 0,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3213004,
+      "path": "courses/86957/steps/770586/04_3213004_text.step",
+      "pre_index": 1,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3213004,
+      "path": "courses/86957/steps/770586/04_3213004_text.step",
+      "pre_index": 1,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3428716,
+      "path": "courses/86957/steps/770586/08_3428716_choice.step",
+      "pre_index": 0,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": "<stdin>: In function ‘void getSize(int*)’:\n<stdin>:5:61: warning: ‘sizeof’ on array function parameter ‘arr’ will return size of ‘int*’ [-Wsizeof-array-argument]\n<stdin>:3:18: note: declared here\n"
+    },
+    {
+      "step_id": 3428716,
+      "path": "courses/86957/steps/770586/08_3428716_choice.step",
+      "pre_index": 0,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": "<stdin>: In function ‘void getSize(int*)’:\n<stdin>:5:61: warning: ‘sizeof’ on array function parameter ‘arr’ will return size of ‘int*’ [-Wsizeof-array-argument]\n<stdin>:3:18: note: declared here\n"
+    },
+    {
+      "step_id": 3212946,
+      "path": "courses/86957/steps/770587/01_3212946_text.step",
+      "pre_index": 0,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3212946,
+      "path": "courses/86957/steps/770587/01_3212946_text.step",
+      "pre_index": 0,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3213209,
+      "path": "courses/86957/steps/770587/02_3213209_text.step",
+      "pre_index": 0,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3213209,
+      "path": "courses/86957/steps/770587/02_3213209_text.step",
+      "pre_index": 0,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3213208,
+      "path": "courses/86957/steps/770587/03_3213208_text.step",
+      "pre_index": 1,
+      "standard": "c11",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3213208,
+      "path": "courses/86957/steps/770587/03_3213208_text.step",
+      "pre_index": 1,
+      "standard": "c17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3213208,
+      "path": "courses/86957/steps/770587/03_3213208_text.step",
+      "pre_index": 2,
+      "standard": "c11",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3213208,
+      "path": "courses/86957/steps/770587/03_3213208_text.step",
+      "pre_index": 2,
+      "standard": "c17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3213207,
+      "path": "corrections/86957/steps/770587/04_3213207_text.step",
+      "pre_index": 0,
+      "standard": "c11",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3213207,
+      "path": "corrections/86957/steps/770587/04_3213207_text.step",
+      "pre_index": 0,
+      "standard": "c17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3213207,
+      "path": "corrections/86957/steps/770587/04_3213207_text.step",
+      "pre_index": 1,
+      "standard": "c11",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3213207,
+      "path": "corrections/86957/steps/770587/04_3213207_text.step",
+      "pre_index": 1,
+      "standard": "c17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3213207,
+      "path": "corrections/86957/steps/770587/04_3213207_text.step",
+      "pre_index": 5,
+      "standard": "c11",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3213207,
+      "path": "corrections/86957/steps/770587/04_3213207_text.step",
+      "pre_index": 5,
+      "standard": "c17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3213210,
+      "path": "corrections/86957/steps/770587/05_3213210_text.step",
+      "pre_index": 0,
+      "standard": "c11",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3213210,
+      "path": "corrections/86957/steps/770587/05_3213210_text.step",
+      "pre_index": 0,
+      "standard": "c17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3213210,
+      "path": "corrections/86957/steps/770587/05_3213210_text.step",
+      "pre_index": 4,
+      "standard": "c11",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3213210,
+      "path": "corrections/86957/steps/770587/05_3213210_text.step",
+      "pre_index": 4,
+      "standard": "c17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3307684,
+      "path": "courses/86957/steps/770587/06_3307684_text.step",
+      "pre_index": 0,
+      "standard": "c++17",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    },
+    {
+      "step_id": 3307684,
+      "path": "courses/86957/steps/770587/06_3307684_text.step",
+      "pre_index": 0,
+      "standard": "c++20",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true,
+      "diagnostic_excerpt": ""
+    }
+  ]
+}

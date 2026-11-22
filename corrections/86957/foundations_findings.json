@@ -1,0 +1,300 @@
+[
+  {
+    "step_id": 3177504,
+    "lesson_id": 763639,
+    "path": "corrections/86957/steps/763639/03_3177504_text.step",
+    "severity": "medium",
+    "title": "Неразрывные пробелы делали копируемые примеры C++ некомпилируемыми",
+    "before": {
+      "character": "U+00A0",
+      "affected_pre_blocks": [
+        {
+          "pre_index": 0,
+          "nbsp_count": 20
+        },
+        {
+          "pre_index": 1,
+          "nbsp_count": 41
+        }
+      ]
+    },
+    "after": {
+      "character": "U+0020",
+      "replacement_scope": "Только существующие блоки <pre>; текст вне блоков сохранён."
+    },
+    "rationale": "U+00A0 между токенами и перед инструкциями не является пробельным разделителем C++. GCC 14.2 в строгих режимах C++17 и C++20 отвергает исходные примеры. После замены на обычные пробелы проверенные фрагменты компилируются и дают заявленный результат. Это исправление исполняемости копируемого кода.",
+    "changed_fields": [
+      "block.text"
+    ],
+    "evidence": [
+      "corrections/86957/evidence/foundations/verify_fixes.py",
+      "corrections/86957/evidence/foundations/fix_verification.json"
+    ],
+    "stepik_url": "https://stepik.org/lesson/763639/step/3",
+    "source_urls": [
+      "https://stepik.org/lesson/763639/step/3"
+    ]
+  },
+  {
+    "step_id": 3215105,
+    "lesson_id": 763640,
+    "path": "corrections/86957/steps/763640/02_3215105_text.step",
+    "severity": "medium",
+    "title": "Неразрывные пробелы делали копируемые примеры C++ некомпилируемыми",
+    "before": {
+      "character": "U+00A0",
+      "affected_pre_blocks": [
+        {
+          "pre_index": 0,
+          "nbsp_count": 12
+        },
+        {
+          "pre_index": 1,
+          "nbsp_count": 144
+        },
+        {
+          "pre_index": 2,
+          "nbsp_count": 8
+        },
+        {
+          "pre_index": 4,
+          "nbsp_count": 96
+        }
+      ]
+    },
+    "after": {
+      "character": "U+0020",
+      "replacement_scope": "Только существующие блоки <pre>; текст вне блоков сохранён."
+    },
+    "rationale": "U+00A0 между токенами и перед инструкциями не является пробельным разделителем C++. GCC 14.2 в строгих режимах C++17 и C++20 отвергает исходные примеры. После замены на обычные пробелы проверенные фрагменты компилируются и дают заявленный результат. Это исправление исполняемости копируемого кода.",
+    "changed_fields": [
+      "block.text"
+    ],
+    "evidence": [
+      "corrections/86957/evidence/foundations/verify_fixes.py",
+      "corrections/86957/evidence/foundations/fix_verification.json"
+    ],
+    "stepik_url": "https://stepik.org/lesson/763640/step/2",
+    "source_urls": [
+      "https://stepik.org/lesson/763640/step/2"
+    ]
+  },
+  {
+    "step_id": 3177565,
+    "lesson_id": 763719,
+    "path": "corrections/86957/steps/763719/02_3177565_text.step",
+    "severity": "medium",
+    "title": "Неразрывные пробелы делали копируемые примеры C++ некомпилируемыми",
+    "before": {
+      "character": "U+00A0",
+      "affected_pre_blocks": [
+        {
+          "pre_index": 0,
+          "nbsp_count": 4
+        },
+        {
+          "pre_index": 1,
+          "nbsp_count": 34
+        }
+      ]
+    },
+    "after": {
+      "character": "U+0020",
+      "replacement_scope": "Только существующие блоки <pre>; текст вне блоков сохранён."
+    },
+    "rationale": "U+00A0 между токенами и перед инструкциями не является пробельным разделителем C++. GCC 14.2 в строгих режимах C++17 и C++20 отвергает исходные примеры. После замены на обычные пробелы проверенные фрагменты компилируются и дают заявленный результат. Это исправление исполняемости копируемого кода.",
+    "changed_fields": [
+      "block.text"
+    ],
+    "evidence": [
+      "corrections/86957/evidence/foundations/verify_fixes.py",
+      "corrections/86957/evidence/foundations/fix_verification.json"
+    ],
+    "stepik_url": "https://stepik.org/lesson/763719/step/2",
+    "source_urls": [
+      "https://stepik.org/lesson/763719/step/2"
+    ]
+  },
+  {
+    "step_id": 3177651,
+    "lesson_id": 763719,
+    "path": "corrections/86957/steps/763719/04_3177651_text.step",
+    "severity": "medium",
+    "title": "Неразрывные пробелы делали копируемые примеры C++ некомпилируемыми",
+    "before": {
+      "character": "U+00A0",
+      "affected_pre_blocks": [
+        {
+          "pre_index": 0,
+          "nbsp_count": 4
+        },
+        {
+          "pre_index": 1,
+          "nbsp_count": 22
+        },
+        {
+          "pre_index": 2,
+          "nbsp_count": 8
+        }
+      ]
+    },
+    "after": {
+      "character": "U+0020",
+      "replacement_scope": "Только существующие блоки <pre>; текст вне блоков сохранён."
+    },
+    "rationale": "U+00A0 между токенами и перед инструкциями не является пробельным разделителем C++. GCC 14.2 в строгих режимах C++17 и C++20 отвергает исходные примеры. После замены на обычные пробелы проверенные фрагменты компилируются и дают заявленный результат. Это исправление исполняемости копируемого кода.",
+    "changed_fields": [
+      "block.text"
+    ],
+    "evidence": [
+      "corrections/86957/evidence/foundations/verify_fixes.py",
+      "corrections/86957/evidence/foundations/fix_verification.json"
+    ],
+    "stepik_url": "https://stepik.org/lesson/763719/step/4",
+    "source_urls": [
+      "https://stepik.org/lesson/763719/step/4"
+    ]
+  },
+  {
+    "step_id": 3213207,
+    "lesson_id": 770587,
+    "path": "corrections/86957/steps/770587/04_3213207_text.step",
+    "severity": "medium",
+    "title": "Чтение слов дробило длинный ввод и могло принять его хвост за end",
+    "before": {
+      "loop": "while (scanf(\"%127s\", buffer) == 1 &amp;&amp; strcmp(buffer, \"end\") != 0) {",
+      "error_message": "fputs(\"Cannot allocate memory\\n\", stderr);",
+      "counterexample": "Одно слово из 128 букв a печаталось как два слова длины 127 и 1; слово a×127 + end ошибочно завершало чтение."
+    },
+    "after": {
+      "loop": "while (scanf(\"%127s\", buffer) == 1) {\n        int next = getchar();\n        if (next != EOF &amp;&amp; !isspace((unsigned char)next)) {\n            failed = 2;\n            break;\n        }\n        if (strcmp(buffer, \"end\") == 0) {\n            break;\n        }",
+      "error_message": "fputs(failed == 2 ? \"Word is too long\\n\" : \"Cannot allocate memory\\n\", stderr);",
+      "input_contract": "<p>В этом примере длина одного слова ограничена 127 байтами без завершающего нулевого символа. Ограничение <code>%127s</code> защищает буфер, но оставляет продолжение слишком длинного слова во входном потоке. Поэтому после чтения проверяем следующий байт: это должен быть пробельный символ или конец ввода. Более длинное слово вызывает сообщение об ошибке и освобождение уже выделенной памяти; его части не становятся отдельными словами или командой <code>end</code>.</p>\n\n"
+    },
+    "rationale": "Ширина %127s ограничивает только очередное чтение, а не длину слова во входе. Добавлена проверка границы слова до проверки команды end и сохранения строки. Слова до 127 байт, окончание ввода и расширение таблицы сохраняют прежнее поведение; слишком длинный ввод явно отвергается после освобождения ранее выделенных блоков.",
+    "changed_fields": [
+      "block.text"
+    ],
+    "evidence": [
+      "corrections/86957/evidence/foundations/verify_fixes.py",
+      "corrections/86957/evidence/foundations/fix_verification.json",
+      "corrections/86957/evidence/foundations/word_reader_cases.json"
+    ],
+    "stepik_url": "https://stepik.org/lesson/770587/step/4",
+    "source_urls": [
+      "https://stepik.org/lesson/770587/step/4",
+      "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf"
+    ]
+  },
+  {
+    "step_id": 3213210,
+    "lesson_id": 770587,
+    "path": "corrections/86957/steps/770587/05_3213210_text.step",
+    "severity": "medium",
+    "title": "Чтение слов дробило длинный ввод и могло принять его хвост за end",
+    "before": {
+      "loop": "while (scanf(\"%127s\", buffer) == 1 &amp;&amp; strcmp(buffer, \"end\") != 0) {",
+      "error_message": "fputs(\"Cannot allocate memory\\n\", stderr);",
+      "counterexample": "Одно слово из 128 букв a печаталось как два слова длины 127 и 1; слово a×127 + end ошибочно завершало чтение."
+    },
+    "after": {
+      "loop": "while (scanf(\"%127s\", buffer) == 1) {\n        int next = getchar();\n        if (next != EOF &amp;&amp; !isspace((unsigned char)next)) {\n            failed = 2;\n            break;\n        }\n        if (strcmp(buffer, \"end\") == 0) {\n            break;\n        }",
+      "error_message": "fputs(failed == 2 ? \"Word is too long\\n\" : \"Cannot allocate memory\\n\", stderr);",
+      "input_contract": "<p>В этом примере длина одного слова ограничена 127 байтами без завершающего нулевого символа. Ограничение <code>%127s</code> защищает буфер, но оставляет продолжение слишком длинного слова во входном потоке. Поэтому после чтения проверяем следующий байт: это должен быть пробельный символ или конец ввода. Более длинное слово вызывает сообщение об ошибке и освобождение уже выделенной памяти; его части не становятся отдельными словами или командой <code>end</code>.</p>\n\n"
+    },
+    "rationale": "Ширина %127s ограничивает только очередное чтение, а не длину слова во входе. Добавлена проверка границы слова до проверки команды end и сохранения строки. Слова до 127 байт, окончание ввода и расширение таблицы сохраняют прежнее поведение; слишком длинный ввод явно отвергается после освобождения ранее выделенных блоков.",
+    "changed_fields": [
+      "block.text"
+    ],
+    "evidence": [
+      "corrections/86957/evidence/foundations/verify_fixes.py",
+      "corrections/86957/evidence/foundations/fix_verification.json",
+      "corrections/86957/evidence/foundations/word_reader_cases.json"
+    ],
+    "stepik_url": "https://stepik.org/lesson/770587/step/5",
+    "source_urls": [
+      "https://stepik.org/lesson/770587/step/5",
+      "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf"
+    ]
+  },
+  {
+    "step_id": 4700496,
+    "lesson_id": 770586,
+    "path": "corrections/86957/steps/770586/12_4700496_code.step",
+    "severity": "medium",
+    "title": "В гарантии сравнения произведений использовались неопределённые x и y",
+    "before": {
+      "html": "<p>Гарантируется, что ​​​​​​​<img alt=\"\" height=\"37\" name=\"image.png\" src=\"https://ucarecdn.stepik.net/9b533a7d-1f9f-402f-b3fb-a4bec4dde1a3/\" width=\"251\"></p>",
+      "formula_from_image": "∀ x < y, y/x > 1 + 10^−7"
+    },
+    "after": "<p>Обозначим произведения <code>P = a<sub>1</sub> · ... · a<sub>n</sub></code> и <code>Q = b<sub>1</sub> · ... · b<sub>n</sub></code>. Гарантируется, что либо <code>P = Q</code>, либо <code>max(P, Q) / min(P, Q) &gt; 1 + 10<sup>−7</sup></code>. Эта гарантия относится к двум произведениям, а не к каждой паре входных элементов.</p>",
+    "rationale": "Имена x и y в задаче не определены, а универсальная формула буквально неверна. Гарантия теперь явно относится к двум положительным произведениям и отдельно допускает равенство. Точная целочисленная проверка подтвердила эту гарантию и эталонные знаки для всех 31 подзадач в 12 сохранённых тестах. Проверяющий код и тесты не изменены.",
+    "changed_fields": [
+      "block.text"
+    ],
+    "evidence": [
+      "corrections/86957/evidence/foundations/verify_fixes.py",
+      "corrections/86957/evidence/foundations/fix_verification.json",
+      "corrections/86957/evidence/foundations/check_task_references.py",
+      "corrections/86957/evidence/foundations/task_reference_results.json"
+    ],
+    "stepik_url": "https://stepik.org/lesson/770586/step/12",
+    "source_urls": [
+      "https://stepik.org/lesson/770586/step/12"
+    ]
+  },
+  {
+    "step_id": 3438841,
+    "lesson_id": 770586,
+    "path": "corrections/86957/steps/770586/06_3438841_text.step",
+    "severity": "medium",
+    "title": "Указатель вершины стека ошибочно объявлялся указателем на свободное место",
+    "before": "<p>В ячейках под соответствующими адресами лежат значения переменных <code>x</code>, <code>y</code> и <code>z</code>. Также стоит упомянуть, что в стеке всегда поддерживается указатель (<strong>SP - Stack Pointer</strong>), который указывает на вершину стека, то есть то место, в которое можно дальше записывать данные. Однако нам существование этого указателя погоды не делает, т.к. компилятор работает с ним самостоятельно.</p>",
+    "after": "<p>В ячейках под соответствующими адресами лежат значения переменных <code>x</code>, <code>y</code> и <code>z</code>. В типичной реализации процессор хранит указатель стека (<strong>SP — Stack Pointer</strong>; на x86-64 — <code>RSP</code>). Его точный смысл зависит от архитектуры. Например, на x86 инструкция <code>PUSH</code> сначала уменьшает указатель, а затем записывает значение по новому адресу. Поэтому текущую вершину нельзя считать свободной ячейкой для следующей записи. При выполнении обычного кода C++ необходимые операции со стеком формирует компилятор.</p>",
+    "rationale": "На x86 PUSH сначала уменьшает SP/ESP/RSP и только затем записывает новый элемент. Текущая вершина может содержать уже размещённые данные, поэтому определение SP как места следующей свободной записи неверно даже для распространённой модели стека. Указана зависимость от архитектуры, без обещания устройства, обязательного для C++.",
+    "changed_fields": [
+      "block.text"
+    ],
+    "evidence": [
+      "corrections/86957/evidence/foundations/verify_fixes.py",
+      "corrections/86957/evidence/foundations/fix_verification.json"
+    ],
+    "stepik_url": "https://stepik.org/lesson/770586/step/6",
+    "source_urls": [
+      "https://stepik.org/lesson/770586/step/6",
+      "https://cdrdv2-public.intel.com/843827/253665-sdm-vol-1-dec-24.pdf"
+    ]
+  },
+  {
+    "step_id": 3267786,
+    "lesson_id": 768143,
+    "path": "corrections/86957/steps/768143/07_3267786_string.step",
+    "severity": "medium",
+    "title": "Проверка точного вывода программы принимала неверный регистр",
+    "before": {
+      "block.source.case_sensitive": false,
+      "accepted_wrong_variants": [
+        "hello, World!\n7d3.6234e+01",
+        "HELLO, World!\n7d3.6234e+01",
+        "Hello, World!\n7D3.6234E+01"
+      ]
+    },
+    "after": {
+      "block.source.case_sensitive": true,
+      "unchanged_pattern": "Hello, World!\n7d3.6234e+01"
+    },
+    "rationale": "Вопрос просит вывод конкретной программы. На изображении литерал Hello, World!, а поток без uppercase печатает d и e в нижнем регистре. Изменён только флаг учёта регистра; шаблон, правила перевода строк, regex и пользовательский код не менялись. Вывод воспроизведён компиляцией программы с необходимыми заголовками в C++17 и C++20; проверка вариантов локальная, не отправка ответов на Stepik.",
+    "changed_fields": [
+      "block.source.case_sensitive"
+    ],
+    "evidence": [
+      "corrections/86957/evidence/foundations/verify_fixes.py",
+      "corrections/86957/evidence/foundations/fix_verification.json"
+    ],
+    "stepik_url": "https://stepik.org/lesson/768143/step/7",
+    "source_urls": [
+      "https://stepik.org/lesson/768143/step/7",
+      "https://help.stepik.org/article/54796"
+    ]
+  }
+]

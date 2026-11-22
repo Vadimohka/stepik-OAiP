@@ -1,0 +1,4539 @@
+{
+  "course_id": 86957,
+  "base_commit": "d936c0ee8d9f720ba26fec1b109a1153ae3b5930",
+  "module_range": [
+    1,
+    6
+  ],
+  "reviewed_steps": [
+    3173782,
+    3173923,
+    3173935,
+    3173955,
+    3173967,
+    3173969,
+    3173783,
+    3173970,
+    3173973,
+    3201190,
+    3201304,
+    3201303,
+    3201305,
+    3201341,
+    4717177,
+    3215247,
+    3215253,
+    3215254,
+    3215252,
+    4717195,
+    4717684,
+    3173778,
+    3173804,
+    3173810,
+    3173811,
+    3173832,
+    3173835,
+    3173836,
+    3173838,
+    3173839,
+    3173779,
+    4717683,
+    3173870,
+    3173871,
+    3177248,
+    3177249,
+    3177250,
+    3173876,
+    4717659,
+    4717661,
+    4717676,
+    4717678,
+    3173780,
+    3173888,
+    8268734,
+    8268743,
+    8268747,
+    8268748,
+    8268749,
+    8268751,
+    8268752,
+    8268755,
+    8268756,
+    3173892,
+    3215255,
+    3215258,
+    3215257,
+    3261481,
+    3215256,
+    3215268,
+    3215267,
+    3215266,
+    3215265,
+    4717221,
+    3201132,
+    3201141,
+    3201150,
+    3201151,
+    3201153,
+    3201181,
+    3201155,
+    3201168,
+    3201191,
+    3201236,
+    3201235,
+    3201234,
+    3201267,
+    3261530,
+    4717774,
+    4718334,
+    3201179,
+    3201189,
+    3215075,
+    3215081,
+    3215092,
+    3267783,
+    3267786,
+    4717685,
+    4717686,
+    4717693,
+    3237946,
+    3237955,
+    3237989,
+    3238005,
+    3238004,
+    3238006,
+    3272881,
+    4717785,
+    3214764,
+    3214777,
+    3214778,
+    3214832,
+    3214833,
+    3230371,
+    3231227,
+    3231317,
+    3231228,
+    3231226,
+    3273099,
+    4718307,
+    3177242,
+    3262706,
+    3177280,
+    3177282,
+    3177281,
+    3262711,
+    3177283,
+    3177279,
+    4643238,
+    3262719,
+    3262682,
+    3262692,
+    3284747,
+    3284769,
+    4717733,
+    4717745,
+    3177291,
+    3177474,
+    3177504,
+    3177499,
+    3262772,
+    3262735,
+    3264578,
+    3286892,
+    3286908,
+    3286915,
+    3286930,
+    3296822,
+    3296857,
+    3296975,
+    4717734,
+    3177292,
+    3215105,
+    3269060,
+    3280697,
+    3264622,
+    3280727,
+    3281279,
+    3281287,
+    3281353,
+    3293643,
+    4717756,
+    4717791,
+    4718304,
+    3177294,
+    3177541,
+    3177540,
+    3177546,
+    3177547,
+    3394590,
+    3394601,
+    3394620,
+    3177562,
+    3177565,
+    3177566,
+    3177651,
+    3177655,
+    3177786,
+    3177789,
+    3299645,
+    4718155,
+    4718172,
+    4718178,
+    3384444,
+    3177296,
+    3212907,
+    3212908,
+    3212935,
+    3212920,
+    3212926,
+    3323781,
+    3330530,
+    3383209,
+    4718151,
+    3212924,
+    3177298,
+    3212939,
+    3212928,
+    3212937,
+    3324082,
+    3330670,
+    3341723,
+    3381234,
+    3381291,
+    3382745,
+    3383135,
+    3212944,
+    3212968,
+    3212969,
+    3212970,
+    3212990,
+    3212989,
+    3212991,
+    3428470,
+    3428480,
+    3428540,
+    3428581,
+    4672519,
+    4717787,
+    4718101,
+    4718144,
+    4718146,
+    3212945,
+    3212995,
+    3213003,
+    3213004,
+    3438842,
+    3438841,
+    3428704,
+    3428716,
+    3428748,
+    3428774,
+    3428845,
+    4700496,
+    4717730,
+    4717764,
+    4718105,
+    4718192,
+    3212946,
+    3213209,
+    3213208,
+    3213207,
+    3213210,
+    3307684,
+    3213206,
+    3324316,
+    3324363,
+    3330738,
+    3332379,
+    3333765,
+    3333774,
+    3333775,
+    3333793,
+    3333794
+  ],
+  "reviewed_count": 244,
+  "reviewed_count_definition": "244 текущих block.text и относящиеся к вопросам source/options прочитаны. Это число не означает доказанную полную корректность 244 шагов.",
+  "counts": {
+    "step_types": {
+      "text": 127,
+      "choice": 90,
+      "string": 1,
+      "table": 1,
+      "code": 25
+    },
+    "corrected_steps": 9,
+    "code_tasks_with_all_stored_cases_checked": 25,
+    "stored_cases_checked": 218,
+    "complete_program_examples": 75,
+    "image_occurrences_checked": 14,
+    "image_occurrences_uncertain": 39
+  },
+  "methods": [
+    "Вычитка текущих .step из courses, включая текст, ключи choice/string/table и код проверок заданий.",
+    "Строгая компиляция 75 полных программ: C++17/C++20, а для явно C-примеров C11/C17. Фрагменты компилировались выборочно при воспроизведении исправляемых дефектов.",
+    "Независимый пересчёт 218 эталонов в 25 задачах: точные целые числа либо Decimal с точностью 1000 знаков.",
+    "Контрпримеры до исправления и поведенческие проверки после него; границы 126/127/128 байт, ложное окончание end, расширение динамического массива.",
+    "Сверка9 изменённых шагов с базовым снимком; поля вне точечных исправлений должны совпадать."
+  ],
+  "limitations": [
+    "Проверены сохранённые тесты, но это не доказательство полноты набора тестов или корректности на всех допустимых входах.",
+    "39 вхождений изображений остаются uncertain; проверены 14, включая все изображения в заданиях string/choice/code и схемы floating point шага3215266.",
+    "Переходы по всем внешним ссылкам, просмотр видео и работоспособность всех показанных IDE не проверялись.",
+    "Синтаксическая компиляция полных примеров сама по себе не обнаруживает всё UB и не подтверждает все варианты исполнения.",
+    "GCC14.2 является проверенной реализацией; другие компиляторы и запуск в Stepik не проверялись.",
+    "Выполнения по ветвям отказа malloc/realloc с внедрением отказов нет; проверено освобождение ранее добавленных слов при слишком длинном вводе по структуре кода и поведению.",
+    "Равенство регистрозависимого ответа3267786 проверено локально; онлайн-заявка на оценивание не отправлялась."
+  ],
+  "evidence": [
+    "corrections/86957/evidence/foundations/verify_fixes.py",
+    "corrections/86957/evidence/foundations/fix_verification.json",
+    "corrections/86957/evidence/foundations/check_task_references.py",
+    "corrections/86957/evidence/foundations/task_reference_results.json",
+    "corrections/86957/evidence/foundations/compile_full_examples.py",
+    "corrections/86957/evidence/foundations/full_examples_results.json"
+  ],
+  "steps": [
+    {
+      "module": 1,
+      "lesson_id": 763040,
+      "step_id": 3173782,
+      "type": "text",
+      "path": "courses/86957/steps/763040/01_3173782_text.step",
+      "source_sha256": "2b1c5bda0cb55cb3d493fc01e6f8cb813b4b4a882ad6d65e794084efc735615b",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 1,
+      "lesson_id": 763040,
+      "step_id": 3173923,
+      "type": "text",
+      "path": "courses/86957/steps/763040/02_3173923_text.step",
+      "source_sha256": "b1fbdf33c4949bd0e8aa0298085ff951128418f6f32e9d3d0ceb2dc5ad4e3134",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 1,
+      "lesson_id": 763040,
+      "step_id": 3173935,
+      "type": "text",
+      "path": "courses/86957/steps/763040/03_3173935_text.step",
+      "source_sha256": "bc5ec70c20ae623ba5c9e965dc7e3b7854a65bb9c8d2778f3a8e9cf7ebf627a0",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 1,
+      "lesson_id": 763040,
+      "step_id": 3173955,
+      "type": "text",
+      "path": "courses/86957/steps/763040/04_3173955_text.step",
+      "source_sha256": "53e4c92fbbd0232c19f28005fc7f42e6cfab4233044ffb37ac2d60329fc45359",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 1,
+      "lesson_id": 763040,
+      "step_id": 3173967,
+      "type": "choice",
+      "path": "courses/86957/steps/763040/05_3173967_choice.step",
+      "source_sha256": "6d547d5d55982505ab64ef4ed5d78fdeb77e513b9007711d9798868614b0a634",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 1,
+      "lesson_id": 763041,
+      "step_id": 3173969,
+      "type": "text",
+      "path": "courses/86957/steps/763041/01_3173969_text.step",
+      "source_sha256": "b746315e07fc9db4f3ff8fffc561c1426f0942fe1e0771b4835ffb8c668d1958",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": [
+        {
+          "path": "courses/86957/assets/f0059d122296fd52dd5223b5479f78a2118c355519c0cabaaca68a517c76471b.png",
+          "status": "uncertain",
+          "reason": "Отдельная содержательная проверка этого изображения не завершена; чтение окружающего HTML не заменяет её."
+        }
+      ]
+    },
+    {
+      "module": 1,
+      "lesson_id": 763041,
+      "step_id": 3173783,
+      "type": "text",
+      "path": "courses/86957/steps/763041/02_3173783_text.step",
+      "source_sha256": "baba24f58e70926e47e6c312b38d3adb221083194b0b5a533e529421328f8072",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": [
+        {
+          "path": "courses/86957/assets/01ba76c7b683615c8280fcb4cdcc3da835e382749c6bd36b14319d518c25f187.png",
+          "status": "uncertain",
+          "reason": "Изображение просмотрено; полное соответствие условных обозначений ГОСТ отдельно не проверено."
+        },
+        {
+          "path": "courses/86957/assets/b9f4577513c56aaa9976b1251e849b9621a290b9c0031e225b1ca66f7f066345.png",
+          "status": "uncertain",
+          "reason": "Отдельная содержательная проверка этого изображения не завершена; чтение окружающего HTML не заменяет её."
+        }
+      ]
+    },
+    {
+      "module": 1,
+      "lesson_id": 763041,
+      "step_id": 3173970,
+      "type": "text",
+      "path": "courses/86957/steps/763041/03_3173970_text.step",
+      "source_sha256": "f531e9cd4889e7dd3f2ee480c7f2baf1c600c4edd4f4a0e37d73f9efaea6e244",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": [
+        {
+          "path": "courses/86957/assets/99726cd86f4e265a1c6cefe6e848bb82f28b23e8633343f789624179410c9189.png",
+          "status": "uncertain",
+          "reason": "Отдельная содержательная проверка этого изображения не завершена; чтение окружающего HTML не заменяет её."
+        },
+        {
+          "path": "courses/86957/assets/2ee4f2abcd3616c1927ace5e6afea70bee15a93447398a003872a0b99bcd9754.png",
+          "status": "uncertain",
+          "reason": "Отдельная содержательная проверка этого изображения не завершена; чтение окружающего HTML не заменяет её."
+        },
+        {
+          "path": "courses/86957/assets/8e8e2755217275ac9884398bc5446f1e6ff12887373024a7cb68577cf0252cee.png",
+          "status": "uncertain",
+          "reason": "Отдельная содержательная проверка этого изображения не завершена; чтение окружающего HTML не заменяет её."
+        },
+        {
+          "path": "courses/86957/assets/5ff3d5ce37adb6da4e4beba27e9863c81498beabfafd839be2698c7f95130975.png",
+          "status": "uncertain",
+          "reason": "Отдельная содержательная проверка этого изображения не завершена; чтение окружающего HTML не заменяет её."
+        }
+      ]
+    },
+    {
+      "module": 1,
+      "lesson_id": 763041,
+      "step_id": 3173973,
+      "type": "choice",
+      "path": "courses/86957/steps/763041/04_3173973_choice.step",
+      "source_sha256": "a5dd5f76a44e4e7ff75374dbda05266282b729b5b0b798e4a40c66a45575b4c9",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": [
+        {
+          "path": "courses/86957/assets/b0ca56f56bf81333d389b509af7d004bb0dab3a16864e573107968f7621a8bfc.png",
+          "status": "checked",
+          "scope": "Содержание сопоставлено с пояснением, вопросом или математическим эталоном."
+        }
+      ]
+    },
+    {
+      "module": 1,
+      "lesson_id": 768145,
+      "step_id": 3201190,
+      "type": "text",
+      "path": "courses/86957/steps/768145/01_3201190_text.step",
+      "source_sha256": "6e6129f5047066c87d1241e8080929c2941725a74babccd1eef6106eff9f9dd8",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 1,
+      "lesson_id": 768145,
+      "step_id": 3201304,
+      "type": "text",
+      "path": "courses/86957/steps/768145/02_3201304_text.step",
+      "source_sha256": "e611a8833b485958d7fb2dece84805a6b6d02fe9ded233fd61611105e93b03eb",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 1,
+      "lesson_id": 768145,
+      "step_id": 3201303,
+      "type": "text",
+      "path": "courses/86957/steps/768145/03_3201303_text.step",
+      "source_sha256": "a46a2b3e1d55680bdec083ed77196e8a2935d5554635b6e8a7e9267369f6c9bd",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 1,
+      "lesson_id": 768145,
+      "step_id": 3201305,
+      "type": "text",
+      "path": "courses/86957/steps/768145/04_3201305_text.step",
+      "source_sha256": "87d2556cc6585e7df1b4288fd495475f510f1085e548e5604bdb7bc4cbdd0b44",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [
+        {
+          "pre_index": 0,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 0,
+          "standard": "c++20"
+        },
+        {
+          "pre_index": 1,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 1,
+          "standard": "c++20"
+        }
+      ],
+      "images": []
+    },
+    {
+      "module": 1,
+      "lesson_id": 768145,
+      "step_id": 3201341,
+      "type": "text",
+      "path": "courses/86957/steps/768145/05_3201341_text.step",
+      "source_sha256": "8f26d5cb4b0ae52adfcbe7b404839835bed5b2d6493729ed8780c4cd268b4acb",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": [
+        {
+          "path": "courses/86957/assets/b35ce3b147d1eb40b205bf44cd999ccabb9e479208af27b633762f8a8aa814d4.png",
+          "status": "uncertain",
+          "reason": "Отдельная содержательная проверка этого изображения не завершена; чтение окружающего HTML не заменяет её."
+        }
+      ]
+    },
+    {
+      "module": 1,
+      "lesson_id": 768145,
+      "step_id": 4717177,
+      "type": "choice",
+      "path": "courses/86957/steps/768145/06_4717177_choice.step",
+      "source_sha256": "c0210c4233e50e1abfe8e7b185d30a3e4c35ca85c057d57b8343915c33ee3606",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 2,
+      "lesson_id": 771154,
+      "step_id": 3215247,
+      "type": "text",
+      "path": "courses/86957/steps/771154/01_3215247_text.step",
+      "source_sha256": "d52d7fb7d6b24db4d4fbffd7ef0eed31733316e9d11c7f79aa765f20f77fd95d",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 2,
+      "lesson_id": 771154,
+      "step_id": 3215253,
+      "type": "text",
+      "path": "courses/86957/steps/771154/02_3215253_text.step",
+      "source_sha256": "bc85cd587c1f611efd1fd9f9cadd27dbab9a514f02883111bed0ac3af49c0ce2",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 2,
+      "lesson_id": 771154,
+      "step_id": 3215254,
+      "type": "text",
+      "path": "courses/86957/steps/771154/03_3215254_text.step",
+      "source_sha256": "3590189f9d937a14b46c36b411ebbadb57b5824bce7aec0b6a767287a9060c6a",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": [
+        {
+          "path": "courses/86957/assets/ce58777c05c6a7ded1774c6357e4895c3380894ae6c6491104008773f128dbcf.png",
+          "status": "uncertain",
+          "reason": "Отдельная содержательная проверка этого изображения не завершена; чтение окружающего HTML не заменяет её."
+        }
+      ]
+    },
+    {
+      "module": 2,
+      "lesson_id": 771154,
+      "step_id": 3215252,
+      "type": "text",
+      "path": "courses/86957/steps/771154/04_3215252_text.step",
+      "source_sha256": "840c38e314606823c19e88c5cddb1382fe5cdbbe7c6c8d1ff87b5383ac7e686c",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": [
+        {
+          "path": "courses/86957/assets/b7fcf1b163b1df32cedd94f4cc9576b9fe4badfaed440bf74eeb5c929c41377b.jpg",
+          "status": "uncertain",
+          "reason": "Отдельная содержательная проверка этого изображения не завершена; чтение окружающего HTML не заменяет её."
+        }
+      ]
+    },
+    {
+      "module": 2,
+      "lesson_id": 771154,
+      "step_id": 4717195,
+      "type": "choice",
+      "path": "courses/86957/steps/771154/05_4717195_choice.step",
+      "source_sha256": "dbf82c3d0e8a5ded8bf8b2f89d8c12c947b20a1de9192a589151f81e9d452b26",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 2,
+      "lesson_id": 771154,
+      "step_id": 4717684,
+      "type": "choice",
+      "path": "courses/86957/steps/771154/06_4717684_choice.step",
+      "source_sha256": "5ee555a8a12a194c233b4a62be5c98adbc59a5efde17d34520fddea63fd4026a",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 2,
+      "lesson_id": 763037,
+      "step_id": 3173778,
+      "type": "text",
+      "path": "courses/86957/steps/763037/01_3173778_text.step",
+      "source_sha256": "ab66f1fdac781b06ac751af84582c5acb3946e39c35502fd10712f82c624611b",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [
+        {
+          "pre_index": 0,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 0,
+          "standard": "c++20"
+        }
+      ],
+      "images": []
+    },
+    {
+      "module": 2,
+      "lesson_id": 763037,
+      "step_id": 3173804,
+      "type": "text",
+      "path": "courses/86957/steps/763037/02_3173804_text.step",
+      "source_sha256": "50a75c9cffc5a1af67775600ff6b5766e447040d8c1c21f933a142932db50b73",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 2,
+      "lesson_id": 763037,
+      "step_id": 3173810,
+      "type": "text",
+      "path": "courses/86957/steps/763037/03_3173810_text.step",
+      "source_sha256": "2e6e06930035a166b4c87afc83ba46b7dfbca863a174ef8758a739f29a399f8e",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 2,
+      "lesson_id": 763037,
+      "step_id": 3173811,
+      "type": "choice",
+      "path": "courses/86957/steps/763037/04_3173811_choice.step",
+      "source_sha256": "66814fb9c0fb5bbe279e766dac59c73a97a3a1b49324855b3d978fdf2048db8b",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 2,
+      "lesson_id": 763037,
+      "step_id": 3173832,
+      "type": "text",
+      "path": "courses/86957/steps/763037/05_3173832_text.step",
+      "source_sha256": "36ff2c816588f964fda4f5052eafaa354954afba6e7e7c24e2e9cc5f13a864f6",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 2,
+      "lesson_id": 763037,
+      "step_id": 3173835,
+      "type": "choice",
+      "path": "courses/86957/steps/763037/06_3173835_choice.step",
+      "source_sha256": "f9503689214d2511bd24c45ba996ad62514feca643e6dc18cd0f8bbb57cffa7c",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 2,
+      "lesson_id": 763037,
+      "step_id": 3173836,
+      "type": "text",
+      "path": "courses/86957/steps/763037/07_3173836_text.step",
+      "source_sha256": "91e71b24840bcfb87e5aaf01899eafee8e14c6362b33645074654d4dc855a8c1",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 2,
+      "lesson_id": 763037,
+      "step_id": 3173838,
+      "type": "text",
+      "path": "courses/86957/steps/763037/08_3173838_text.step",
+      "source_sha256": "69c1319462a16c908e5ba7840caa783e63cc2872d8a1aeb4a331412f948c4c6e",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 2,
+      "lesson_id": 763037,
+      "step_id": 3173839,
+      "type": "choice",
+      "path": "courses/86957/steps/763037/09_3173839_choice.step",
+      "source_sha256": "17fa62c7dd8015ce8670b31b4ebd18f34a647e2bcd92ca2c09457c7c7ae9758a",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 2,
+      "lesson_id": 763038,
+      "step_id": 3173779,
+      "type": "text",
+      "path": "courses/86957/steps/763038/01_3173779_text.step",
+      "source_sha256": "32805e488311b141b0da3520298f35cfa8ca5f8f62c54ea7a0d96267c4d449f0",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 2,
+      "lesson_id": 763038,
+      "step_id": 4717683,
+      "type": "choice",
+      "path": "courses/86957/steps/763038/02_4717683_choice.step",
+      "source_sha256": "fd64b10f02b039d223fdda84be5c1c65bf2067a7202557e7e6ea499aa93fd10e",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 2,
+      "lesson_id": 763038,
+      "step_id": 3173870,
+      "type": "text",
+      "path": "courses/86957/steps/763038/03_3173870_text.step",
+      "source_sha256": "294b8b693bb5fcf28a57f62c5c2445c8ed15706e8c47e1f36c75cc5d8fb7cc0c",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 2,
+      "lesson_id": 763038,
+      "step_id": 3173871,
+      "type": "text",
+      "path": "courses/86957/steps/763038/04_3173871_text.step",
+      "source_sha256": "bda846800c0ecf5405db793948488b80d72a7139dcce4fa0c88c270de0dac0eb",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": [
+        {
+          "path": "courses/86957/assets/11326a96b1f5a0b27922b46ba5163e10e47564229bba9025756f4c7dcae09762.png",
+          "status": "uncertain",
+          "reason": "Отдельная содержательная проверка этого изображения не завершена; чтение окружающего HTML не заменяет её."
+        }
+      ]
+    },
+    {
+      "module": 2,
+      "lesson_id": 763038,
+      "step_id": 3177248,
+      "type": "text",
+      "path": "courses/86957/steps/763038/05_3177248_text.step",
+      "source_sha256": "665af5b795b17b9423c8b785c335cb2994da59b15f72e9b289de1c000dbab58b",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 2,
+      "lesson_id": 763038,
+      "step_id": 3177249,
+      "type": "text",
+      "path": "courses/86957/steps/763038/06_3177249_text.step",
+      "source_sha256": "12776964a99ec45941e040e76d9e08368fe7f8d0d9843cffd7ad99c5bd9f5b47",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 2,
+      "lesson_id": 763038,
+      "step_id": 3177250,
+      "type": "text",
+      "path": "courses/86957/steps/763038/07_3177250_text.step",
+      "source_sha256": "daead13f7b7ba6640ff4f953bedcd7fb2e3465c4374040751193c10bf9c0ba4d",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 2,
+      "lesson_id": 763038,
+      "step_id": 3173876,
+      "type": "choice",
+      "path": "courses/86957/steps/763038/08_3173876_choice.step",
+      "source_sha256": "5b9b47de6d49d7aab8ef1311544e93f01e10a2a488bca03bdba45995bfaa782f",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 2,
+      "lesson_id": 763038,
+      "step_id": 4717659,
+      "type": "choice",
+      "path": "courses/86957/steps/763038/09_4717659_choice.step",
+      "source_sha256": "802a8e40a77e7d067864fccababc6ba80f890b37f51fe7b072af3f4a5cdc2920",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 2,
+      "lesson_id": 763038,
+      "step_id": 4717661,
+      "type": "choice",
+      "path": "courses/86957/steps/763038/10_4717661_choice.step",
+      "source_sha256": "2713824543cd455604080fdde020de8334409a6ef75680aa2571b87bcb15a5ad",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 2,
+      "lesson_id": 763038,
+      "step_id": 4717676,
+      "type": "choice",
+      "path": "courses/86957/steps/763038/11_4717676_choice.step",
+      "source_sha256": "f5d098a2388edd77271941a2436f405c00894c5d274f9a2a704344388a16ce53",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [
+        {
+          "pre_index": 0,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 0,
+          "standard": "c++20"
+        },
+        {
+          "pre_index": 1,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 1,
+          "standard": "c++20"
+        },
+        {
+          "pre_index": 2,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 2,
+          "standard": "c++20"
+        }
+      ],
+      "images": []
+    },
+    {
+      "module": 2,
+      "lesson_id": 763038,
+      "step_id": 4717678,
+      "type": "choice",
+      "path": "courses/86957/steps/763038/12_4717678_choice.step",
+      "source_sha256": "5c46d98879c2debae710f297b986ba1cb0a900edfef1f6597a3acaf2043da140",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 2,
+      "lesson_id": 763039,
+      "step_id": 3173780,
+      "type": "text",
+      "path": "courses/86957/steps/763039/01_3173780_text.step",
+      "source_sha256": "0103148cf72532ddecfa0bbbece317176ef3ef02088cf5d0987d649da8584fc7",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 2,
+      "lesson_id": 763039,
+      "step_id": 3173888,
+      "type": "choice",
+      "path": "courses/86957/steps/763039/02_3173888_choice.step",
+      "source_sha256": "de1bf2ddc5acbe5365a93f0f97b987c7c71792f29b5c4bf5e933fb0cf4d1199a",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 2,
+      "lesson_id": 763039,
+      "step_id": 8268734,
+      "type": "choice",
+      "path": "courses/86957/steps/763039/03_8268734_choice.step",
+      "source_sha256": "f6dd35f1483993038307f24da89f88a8c17c161eecfdef307825b29abc5a1563",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 2,
+      "lesson_id": 763039,
+      "step_id": 8268743,
+      "type": "choice",
+      "path": "courses/86957/steps/763039/04_8268743_choice.step",
+      "source_sha256": "a332d6f7ca1f2cf7624d08671467ad91e657670ea7afdafc2ae5f5e591e97161",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 2,
+      "lesson_id": 763039,
+      "step_id": 8268747,
+      "type": "choice",
+      "path": "courses/86957/steps/763039/05_8268747_choice.step",
+      "source_sha256": "006a82b2eca007d28219c5d0a9229a06cf23385904f051316d3958c300cee42d",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 2,
+      "lesson_id": 763039,
+      "step_id": 8268748,
+      "type": "choice",
+      "path": "courses/86957/steps/763039/06_8268748_choice.step",
+      "source_sha256": "336af3330b7543e4075e5fd73c8a175896abe345d4686b291aa6e5408ba9bf01",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 2,
+      "lesson_id": 763039,
+      "step_id": 8268749,
+      "type": "choice",
+      "path": "courses/86957/steps/763039/07_8268749_choice.step",
+      "source_sha256": "b0d94e50e70b9f7f850c0f5124383b620c17156c36be6a56fcff75e72fa8be5b",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 2,
+      "lesson_id": 763039,
+      "step_id": 8268751,
+      "type": "choice",
+      "path": "courses/86957/steps/763039/08_8268751_choice.step",
+      "source_sha256": "16344795d109a829809a6bdd6a9544159402ae46082ac09f1600826bd4568942",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 2,
+      "lesson_id": 763039,
+      "step_id": 8268752,
+      "type": "choice",
+      "path": "courses/86957/steps/763039/09_8268752_choice.step",
+      "source_sha256": "45f9fab587df59b7844b003a2db0185adfd9407cefcaa40369d684229a39ecc7",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 2,
+      "lesson_id": 763039,
+      "step_id": 8268755,
+      "type": "choice",
+      "path": "courses/86957/steps/763039/10_8268755_choice.step",
+      "source_sha256": "dd6c9240b73692b83e4152c0caccaf4786539cb3a7752071b8f5e9ab1a90e88a",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 2,
+      "lesson_id": 763039,
+      "step_id": 8268756,
+      "type": "choice",
+      "path": "courses/86957/steps/763039/11_8268756_choice.step",
+      "source_sha256": "541cb7bfdd4e1591b5289e0d5717b399d7d6054399238da23393acd55a841dbd",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 2,
+      "lesson_id": 763039,
+      "step_id": 3173892,
+      "type": "text",
+      "path": "courses/86957/steps/763039/12_3173892_text.step",
+      "source_sha256": "289a1dc872dbc1c9f101aa54f2dd7fa70d434f4a8600b5ce4269af8aef9669c0",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 2,
+      "lesson_id": 771155,
+      "step_id": 3215255,
+      "type": "text",
+      "path": "courses/86957/steps/771155/01_3215255_text.step",
+      "source_sha256": "5590621931ac35995e95037841f3bf6e97e6e1da3c97ad9966b64aa39efce527",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 2,
+      "lesson_id": 771155,
+      "step_id": 3215258,
+      "type": "text",
+      "path": "courses/86957/steps/771155/02_3215258_text.step",
+      "source_sha256": "7bfb8cd9ded525439c4d24e9f4afed6199c03a20c9061baa42f237704aa4925a",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 2,
+      "lesson_id": 771155,
+      "step_id": 3215257,
+      "type": "text",
+      "path": "courses/86957/steps/771155/03_3215257_text.step",
+      "source_sha256": "5d25d5d0e1c9ad45e1bb4c9a945cad543966d120c47f7cfd22df74b7fa74f78a",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 2,
+      "lesson_id": 771155,
+      "step_id": 3261481,
+      "type": "choice",
+      "path": "courses/86957/steps/771155/04_3261481_choice.step",
+      "source_sha256": "45f823f764bc80a027351fbc5315746c890718d24963e6a622a958cb12836fae",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 2,
+      "lesson_id": 771156,
+      "step_id": 3215256,
+      "type": "text",
+      "path": "courses/86957/steps/771156/01_3215256_text.step",
+      "source_sha256": "369686303231ae9785fcf874cb812cacec1524fbf4c3b00914388f937582572c",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": [
+        {
+          "path": "courses/86957/assets/f3e617455b8f3b280925afcaf87e54dbea0ae9b4e3770e24e32777998ed2d0c9.png",
+          "status": "uncertain",
+          "reason": "Отдельная содержательная проверка этого изображения не завершена; чтение окружающего HTML не заменяет её."
+        }
+      ]
+    },
+    {
+      "module": 2,
+      "lesson_id": 771156,
+      "step_id": 3215268,
+      "type": "text",
+      "path": "courses/86957/steps/771156/02_3215268_text.step",
+      "source_sha256": "37fc461ed247dd6b55c5e6325423c667c28ef328972cafedbaca49375eb9d8a7",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": [
+        {
+          "path": "courses/86957/assets/52e4ab910418f8f09d4224af8b9efab73da3eb2cfda4a8e4abeb1d2510b4e6be.png",
+          "status": "uncertain",
+          "reason": "Отдельная содержательная проверка этого изображения не завершена; чтение окружающего HTML не заменяет её."
+        }
+      ]
+    },
+    {
+      "module": 2,
+      "lesson_id": 771156,
+      "step_id": 3215267,
+      "type": "text",
+      "path": "courses/86957/steps/771156/03_3215267_text.step",
+      "source_sha256": "219ed4c2fc71bd3664148cc97bd66d5ff3f9866895dd34343fe9848f56afc80b",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 2,
+      "lesson_id": 771156,
+      "step_id": 3215266,
+      "type": "text",
+      "path": "courses/86957/steps/771156/04_3215266_text.step",
+      "source_sha256": "d4d9b5d885236b705c4c5f6366d671cb8bcbc0b46a9d18a00d5b24797a6cf5a7",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": [
+        {
+          "path": "courses/86957/assets/419b7fb4f0f71a271369f2e7424d21e9da49e095b93d8a33bf36164c0ba74274.png",
+          "status": "checked",
+          "scope": "Содержание сопоставлено с пояснением, вопросом или математическим эталоном."
+        },
+        {
+          "path": "courses/86957/assets/093c7f7bb7411455beb53db00ec12fdaa4b1ef0a219164ad968263ddbd96f053.png",
+          "status": "checked",
+          "scope": "Содержание сопоставлено с пояснением, вопросом или математическим эталоном."
+        },
+        {
+          "path": "courses/86957/assets/d5cb832885239fde9e842b0db6840c23cbd8c82ca4dd261336e582bc8bfc99e3.png",
+          "status": "checked",
+          "scope": "Содержание сопоставлено с пояснением, вопросом или математическим эталоном."
+        },
+        {
+          "path": "courses/86957/assets/823e32370f5a71c65bfd22195fc01005d4baf3ef3deaaa5ecc812c087454cbd0.png",
+          "status": "checked",
+          "scope": "Содержание сопоставлено с пояснением, вопросом или математическим эталоном."
+        },
+        {
+          "path": "courses/86957/assets/804a728224b88b927310b25d9d1479b27fd19b3ba141a4bbd09efc4dce081c97.png",
+          "status": "checked",
+          "scope": "Содержание сопоставлено с пояснением, вопросом или математическим эталоном."
+        },
+        {
+          "path": "courses/86957/assets/4c585f3b9faa4a86c0f3c915a05e356f401fce0e2877e52c92091e4e48242881.png",
+          "status": "checked",
+          "scope": "Содержание сопоставлено с пояснением, вопросом или математическим эталоном."
+        },
+        {
+          "path": "courses/86957/assets/e2e13e92ef554c9496fa8e045623eae3d6dff9b58644ca17c15a041dd693e654.png",
+          "status": "checked",
+          "scope": "Содержание сопоставлено с пояснением, вопросом или математическим эталоном."
+        },
+        {
+          "path": "courses/86957/assets/53361805c7512682e1aaef60f8a11ff3646c8bbe6254ffc07995fa988857b72b.png",
+          "status": "checked",
+          "scope": "Содержание сопоставлено с пояснением, вопросом или математическим эталоном."
+        },
+        {
+          "path": "courses/86957/assets/75b0501c617fefb4b57c157ff705a549a1057431179757815fc48a35abbf1d59.png",
+          "status": "checked",
+          "scope": "Содержание сопоставлено с пояснением, вопросом или математическим эталоном."
+        }
+      ]
+    },
+    {
+      "module": 2,
+      "lesson_id": 771156,
+      "step_id": 3215265,
+      "type": "text",
+      "path": "courses/86957/steps/771156/05_3215265_text.step",
+      "source_sha256": "23a37d9db936e73875802687c30df47fc32425bf6ccb90c2633fc307026593d9",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 2,
+      "lesson_id": 771156,
+      "step_id": 4717221,
+      "type": "choice",
+      "path": "courses/86957/steps/771156/06_4717221_choice.step",
+      "source_sha256": "a1cecb29a4b02e8cc5b476b4b6b6cfcf088734a565e92b4f0863402435076d42",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 3,
+      "lesson_id": 768140,
+      "step_id": 3201132,
+      "type": "text",
+      "path": "courses/86957/steps/768140/01_3201132_text.step",
+      "source_sha256": "1aa97b61243494b5cd1150fa9e88ce46ae08422bf88715ede290dada0186e126",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 3,
+      "lesson_id": 768140,
+      "step_id": 3201141,
+      "type": "text",
+      "path": "courses/86957/steps/768140/02_3201141_text.step",
+      "source_sha256": "95d3cfa8561a4c3fa1c904abed13281f7cade21646d89a401f91ea5abbb30935",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 3,
+      "lesson_id": 768140,
+      "step_id": 3201150,
+      "type": "text",
+      "path": "courses/86957/steps/768140/03_3201150_text.step",
+      "source_sha256": "9279cfcf527212aa573da9137cb5615b006c253f7a0845aca42eb076bc3a41dc",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": [
+        {
+          "path": "courses/86957/assets/5bd0184b57a69d05cb331f7e9eb8ae1783a599ad7872a313bd049a2e5f2b5e99.jpg",
+          "status": "uncertain",
+          "reason": "Отдельная содержательная проверка этого изображения не завершена; чтение окружающего HTML не заменяет её."
+        }
+      ]
+    },
+    {
+      "module": 3,
+      "lesson_id": 768140,
+      "step_id": 3201151,
+      "type": "text",
+      "path": "courses/86957/steps/768140/04_3201151_text.step",
+      "source_sha256": "100f5a5765b3e128c486ae74ebff518e0b3b294615a257abd25b373243df2702",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": [
+        {
+          "path": "courses/86957/assets/f51781f9db346add7b800b8b36181e3297ef4309a4ef18390d9936cd334b6cbf.jpg",
+          "status": "uncertain",
+          "reason": "Отдельная содержательная проверка этого изображения не завершена; чтение окружающего HTML не заменяет её."
+        }
+      ]
+    },
+    {
+      "module": 3,
+      "lesson_id": 768140,
+      "step_id": 3201153,
+      "type": "text",
+      "path": "courses/86957/steps/768140/05_3201153_text.step",
+      "source_sha256": "5a70168d004a5bdb9eb7c3ae5b7318b45872e0cce101d73b13e7162161189ff9",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": [
+        {
+          "path": "courses/86957/assets/31e886a24a9b16d9086af5b071a3ae4513add007aa94be843fd30b3925fb4d17.jpg",
+          "status": "uncertain",
+          "reason": "Отдельная содержательная проверка этого изображения не завершена; чтение окружающего HTML не заменяет её."
+        }
+      ]
+    },
+    {
+      "module": 3,
+      "lesson_id": 768140,
+      "step_id": 3201181,
+      "type": "text",
+      "path": "courses/86957/steps/768140/06_3201181_text.step",
+      "source_sha256": "6c86066760b6266f9af4375265d3729846bbeb9332636b35d5105a83a6113390",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": [
+        {
+          "path": "courses/86957/assets/2ee56b3fe4989683fff1c52fbb36b73cc1729b3d32e8d3475214d5e300e50c83.png",
+          "status": "uncertain",
+          "reason": "Отдельная содержательная проверка этого изображения не завершена; чтение окружающего HTML не заменяет её."
+        }
+      ]
+    },
+    {
+      "module": 3,
+      "lesson_id": 768140,
+      "step_id": 3201155,
+      "type": "text",
+      "path": "courses/86957/steps/768140/07_3201155_text.step",
+      "source_sha256": "86e4ab0428fe06f4f3e4f1de81c8e7bacad6bab7da19f52268acb8c99ee690ed",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": [
+        {
+          "path": "courses/86957/assets/aa3ba5d56cace9fa96035d12c3558feda280fb3d63a79f15d39025aa2b8572b8.jpg",
+          "status": "uncertain",
+          "reason": "Отдельная содержательная проверка этого изображения не завершена; чтение окружающего HTML не заменяет её."
+        }
+      ]
+    },
+    {
+      "module": 3,
+      "lesson_id": 768140,
+      "step_id": 3201168,
+      "type": "text",
+      "path": "courses/86957/steps/768140/08_3201168_text.step",
+      "source_sha256": "22ce5e364e2a8e50d5b0e6d34d0a63c9b9807baf82958656f878cc47d9292833",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 3,
+      "lesson_id": 768146,
+      "step_id": 3201191,
+      "type": "text",
+      "path": "courses/86957/steps/768146/01_3201191_text.step",
+      "source_sha256": "2217ee87ef47fb9cca6abe416570e23f4eb1f7222ffb0021ee93b4b8ea78f24a",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 3,
+      "lesson_id": 768146,
+      "step_id": 3201236,
+      "type": "text",
+      "path": "courses/86957/steps/768146/02_3201236_text.step",
+      "source_sha256": "47897e12c89d2215aa7c5ad04f0b742cdab99fc6166b47e120c44858e3b018fe",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [
+        {
+          "pre_index": 0,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 0,
+          "standard": "c++20"
+        }
+      ],
+      "images": []
+    },
+    {
+      "module": 3,
+      "lesson_id": 768146,
+      "step_id": 3201235,
+      "type": "text",
+      "path": "courses/86957/steps/768146/03_3201235_text.step",
+      "source_sha256": "4cbc8558def055ec522583e68ee3edef9fb90588e13d68e9617fc75bfa601e04",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [
+        {
+          "pre_index": 0,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 0,
+          "standard": "c++20"
+        }
+      ],
+      "images": []
+    },
+    {
+      "module": 3,
+      "lesson_id": 768146,
+      "step_id": 3201234,
+      "type": "text",
+      "path": "courses/86957/steps/768146/04_3201234_text.step",
+      "source_sha256": "1663fd753c951d42628e9fdb2afa2e16af4a811efacded59b379e7d13ea159bc",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 3,
+      "lesson_id": 768146,
+      "step_id": 3201267,
+      "type": "text",
+      "path": "courses/86957/steps/768146/05_3201267_text.step",
+      "source_sha256": "08dfe470044bf0813664a4778060d8026745f7e8e691230e245672a94950b5bd",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 3,
+      "lesson_id": 768146,
+      "step_id": 3261530,
+      "type": "choice",
+      "path": "courses/86957/steps/768146/06_3261530_choice.step",
+      "source_sha256": "ddf60a4848f84d101b2631efc66d1ceab99752dc2dede419da1b4e22dcd61a0e",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 3,
+      "lesson_id": 768146,
+      "step_id": 4717774,
+      "type": "choice",
+      "path": "courses/86957/steps/768146/07_4717774_choice.step",
+      "source_sha256": "1478bc171adddc985854e984091387ab2df8722c2f82cb5c0cb4bfd4d7b6cdb0",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 3,
+      "lesson_id": 768146,
+      "step_id": 4718334,
+      "type": "choice",
+      "path": "courses/86957/steps/768146/08_4718334_choice.step",
+      "source_sha256": "52f17b34359a131c4491c5ca6da7a11ac01b979c50af8d7bdfa0c37df1bcea59",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 3,
+      "lesson_id": 768143,
+      "step_id": 3201179,
+      "type": "text",
+      "path": "courses/86957/steps/768143/01_3201179_text.step",
+      "source_sha256": "8cba5dc01eeb42bf1bb144a9f58e49752c184bfa5f6e85be86544019e2e43565",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [
+        {
+          "pre_index": 0,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 0,
+          "standard": "c++20"
+        }
+      ],
+      "images": []
+    },
+    {
+      "module": 3,
+      "lesson_id": 768143,
+      "step_id": 3201189,
+      "type": "text",
+      "path": "courses/86957/steps/768143/02_3201189_text.step",
+      "source_sha256": "d04851e1827e56d1541d58d54f425b85f68c555ab8e5b34b2ceb83d8ebc34f77",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [
+        {
+          "pre_index": 0,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 0,
+          "standard": "c++20"
+        }
+      ],
+      "images": []
+    },
+    {
+      "module": 3,
+      "lesson_id": 768143,
+      "step_id": 3215075,
+      "type": "text",
+      "path": "courses/86957/steps/768143/03_3215075_text.step",
+      "source_sha256": "31f7909923c4106f96388ba200a7470df6267bb5873937f2327d450492aaaa62",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [
+        {
+          "pre_index": 1,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 1,
+          "standard": "c++20"
+        },
+        {
+          "pre_index": 2,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 2,
+          "standard": "c++20"
+        },
+        {
+          "pre_index": 3,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 3,
+          "standard": "c++20"
+        }
+      ],
+      "images": []
+    },
+    {
+      "module": 3,
+      "lesson_id": 768143,
+      "step_id": 3215081,
+      "type": "text",
+      "path": "courses/86957/steps/768143/04_3215081_text.step",
+      "source_sha256": "c3b9adf33e698f423d7f580e76aaae118e3e8fe7dde5cb2659ae7358e1f2eb4b",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 3,
+      "lesson_id": 768143,
+      "step_id": 3215092,
+      "type": "text",
+      "path": "courses/86957/steps/768143/05_3215092_text.step",
+      "source_sha256": "b99fd750340594f612407aae38317090cac622c34af92a1cba67f57ffe46ba3d",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 3,
+      "lesson_id": 768143,
+      "step_id": 3267783,
+      "type": "choice",
+      "path": "courses/86957/steps/768143/06_3267783_choice.step",
+      "source_sha256": "bf3c805cc92e1b6d71a7a7d167752fdbef49488642f5c0ea1b4ac79c4e864720",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 3,
+      "lesson_id": 768143,
+      "step_id": 3267786,
+      "type": "string",
+      "path": "courses/86957/steps/768143/07_3267786_string.step",
+      "source_sha256": "09a0b252aec37cd2dd6da7d917a99aa81cc9a4a0b86a1f877128f43b6c648ea0",
+      "text_review": "checked_current_block_text",
+      "result": "confirmed_defect_corrected",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": [
+        {
+          "path": "courses/86957/assets/514bec33fc4f0a163ab8e3b44d1c1d2b0062ab6bd836fb445c0f8994ac65c846.png",
+          "status": "checked",
+          "scope": "Содержание сопоставлено с пояснением, вопросом или математическим эталоном."
+        }
+      ],
+      "correction_path": "corrections/86957/steps/768143/07_3267786_string.step"
+    },
+    {
+      "module": 3,
+      "lesson_id": 768143,
+      "step_id": 4717685,
+      "type": "choice",
+      "path": "courses/86957/steps/768143/08_4717685_choice.step",
+      "source_sha256": "ff32b9399a5ee5d8161b9a259c7489140685e449bfc39f84d3f7216b4d83d6af",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 3,
+      "lesson_id": 768143,
+      "step_id": 4717686,
+      "type": "choice",
+      "path": "courses/86957/steps/768143/09_4717686_choice.step",
+      "source_sha256": "cb8db01be5909c78bf1d6b1ad2b46eb0caf31af7505d3f2a2c490c188fc2e58a",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 3,
+      "lesson_id": 768143,
+      "step_id": 4717693,
+      "type": "choice",
+      "path": "courses/86957/steps/768143/10_4717693_choice.step",
+      "source_sha256": "368a95f968104fff1d0bda16c9c640ae3f759c6d3fe499c070d92a7fcef2d6ae",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 3,
+      "lesson_id": 776128,
+      "step_id": 3237946,
+      "type": "text",
+      "path": "courses/86957/steps/776128/01_3237946_text.step",
+      "source_sha256": "f73eb6c6b49ca200726204458967c12119a54329614abcc5140b6baca5ae71ec",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 3,
+      "lesson_id": 776128,
+      "step_id": 3237955,
+      "type": "text",
+      "path": "courses/86957/steps/776128/02_3237955_text.step",
+      "source_sha256": "8e3e5f4c9178c147a93f25c62d6eb6759a3a2c004bbb4853b5e9c41a061154b5",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 3,
+      "lesson_id": 776128,
+      "step_id": 3237989,
+      "type": "text",
+      "path": "courses/86957/steps/776128/03_3237989_text.step",
+      "source_sha256": "5f75adc7235d54acb3560d9fe12bcbb4059788b2bad09df81428368fac6fd6e8",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 3,
+      "lesson_id": 776128,
+      "step_id": 3238005,
+      "type": "text",
+      "path": "courses/86957/steps/776128/04_3238005_text.step",
+      "source_sha256": "32e8c0098b630c02fb74b96e7d93ffb56b9381fc9f7e379c4c2ed5b3c9983306",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 3,
+      "lesson_id": 776128,
+      "step_id": 3238004,
+      "type": "text",
+      "path": "courses/86957/steps/776128/05_3238004_text.step",
+      "source_sha256": "b3073a9b042585b9cf1a183210a718d07b5f86e19b2212cba0e78b0f5736d32e",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 3,
+      "lesson_id": 776128,
+      "step_id": 3238006,
+      "type": "text",
+      "path": "courses/86957/steps/776128/06_3238006_text.step",
+      "source_sha256": "02c767041734ea193845b76f09c69011f64631729c07b4a69ae6b65413536e97",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 3,
+      "lesson_id": 776128,
+      "step_id": 3272881,
+      "type": "table",
+      "path": "courses/86957/steps/776128/07_3272881_table.step",
+      "source_sha256": "7890bdbc09d5074f1f4f5b4973266040277fe93fe1c07c90e5217c62b06e0562",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 3,
+      "lesson_id": 776128,
+      "step_id": 4717785,
+      "type": "choice",
+      "path": "courses/86957/steps/776128/08_4717785_choice.step",
+      "source_sha256": "ae1e747cbc1be8c477c8dc4cf87a844513f2efe6db471873b5da14f15d16b4d4",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 3,
+      "lesson_id": 771009,
+      "step_id": 3214764,
+      "type": "text",
+      "path": "courses/86957/steps/771009/01_3214764_text.step",
+      "source_sha256": "6096a710c6f75ee9c3dc73a491640b09330504afe0f670fbb78b1c42808a7b8e",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 3,
+      "lesson_id": 771009,
+      "step_id": 3214777,
+      "type": "text",
+      "path": "courses/86957/steps/771009/02_3214777_text.step",
+      "source_sha256": "6c93de1fecfd505de9ab82e17058de661f4890df5632b0f2818831fec3073ff4",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 3,
+      "lesson_id": 771009,
+      "step_id": 3214778,
+      "type": "text",
+      "path": "courses/86957/steps/771009/03_3214778_text.step",
+      "source_sha256": "d078f740d3d4683e800daff88d12d4cbab199ca97ed5d12020d5f1de30eaaff4",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 3,
+      "lesson_id": 771009,
+      "step_id": 3214832,
+      "type": "text",
+      "path": "courses/86957/steps/771009/04_3214832_text.step",
+      "source_sha256": "c60b237c8fe561c2033e14eefda823588ac25cf9cd2981f6434fdddb586caf53",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": [
+        {
+          "path": "courses/86957/assets/2c1c606ec790750f78d001dc57fd793ea24f0ca05a7b664586c92bb8b336e42f.png",
+          "status": "uncertain",
+          "reason": "Отдельная содержательная проверка этого изображения не завершена; чтение окружающего HTML не заменяет её."
+        },
+        {
+          "path": "courses/86957/assets/de79e2d0c57c8923247bbdbd76dac4bf32f7fc6d9bf5845c0756ae46f58a35a6.png",
+          "status": "uncertain",
+          "reason": "Отдельная содержательная проверка этого изображения не завершена; чтение окружающего HTML не заменяет её."
+        },
+        {
+          "path": "courses/86957/assets/eb22e1281ab6e39615e90342884f6119c42b3b5d91279c5022d7b4018a57b27c.png",
+          "status": "uncertain",
+          "reason": "Отдельная содержательная проверка этого изображения не завершена; чтение окружающего HTML не заменяет её."
+        },
+        {
+          "path": "courses/86957/assets/578a5eaabc53f8a685611499f5376a43fadc0dd0ba1f790cfdbf0a3e83bfebac.png",
+          "status": "uncertain",
+          "reason": "Отдельная содержательная проверка этого изображения не завершена; чтение окружающего HTML не заменяет её."
+        }
+      ]
+    },
+    {
+      "module": 3,
+      "lesson_id": 771009,
+      "step_id": 3214833,
+      "type": "text",
+      "path": "courses/86957/steps/771009/05_3214833_text.step",
+      "source_sha256": "65952b0f856632129c53540de34a57057dafea9b45e9efa7aae11e48b3b364e2",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 3,
+      "lesson_id": 774618,
+      "step_id": 3230371,
+      "type": "text",
+      "path": "courses/86957/steps/774618/01_3230371_text.step",
+      "source_sha256": "f2f4a144d783de83bab52f228dd64a5245851326b4c0cc0167bb3e5635696954",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": [
+        {
+          "path": "courses/86957/assets/11326a96b1f5a0b27922b46ba5163e10e47564229bba9025756f4c7dcae09762.png",
+          "status": "uncertain",
+          "reason": "Отдельная содержательная проверка этого изображения не завершена; чтение окружающего HTML не заменяет её."
+        }
+      ]
+    },
+    {
+      "module": 3,
+      "lesson_id": 774618,
+      "step_id": 3231227,
+      "type": "text",
+      "path": "courses/86957/steps/774618/02_3231227_text.step",
+      "source_sha256": "4332be647f710388dcc94b6eea1bf1e49351ea0420018701c47d7bf5f9358a28",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 3,
+      "lesson_id": 774618,
+      "step_id": 3231317,
+      "type": "text",
+      "path": "courses/86957/steps/774618/03_3231317_text.step",
+      "source_sha256": "dd09ad0b781e72dc2a203a693a5b4599c0f8aa435c656b95de99fe33b12b1980",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [
+        {
+          "pre_index": 0,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 0,
+          "standard": "c++20"
+        }
+      ],
+      "images": []
+    },
+    {
+      "module": 3,
+      "lesson_id": 774618,
+      "step_id": 3231228,
+      "type": "text",
+      "path": "courses/86957/steps/774618/04_3231228_text.step",
+      "source_sha256": "ea3d223ea1a1af4127a4f0091a50132e5ef794fcdf4a63de95892ad05e17a87e",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 3,
+      "lesson_id": 774618,
+      "step_id": 3231226,
+      "type": "text",
+      "path": "courses/86957/steps/774618/05_3231226_text.step",
+      "source_sha256": "bf8716dc3022a37d368af92297bcaad3c2b5fdd268c4bc2a8e42c9036bd0b247",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 3,
+      "lesson_id": 774618,
+      "step_id": 3273099,
+      "type": "choice",
+      "path": "courses/86957/steps/774618/06_3273099_choice.step",
+      "source_sha256": "2a1757c365fc85393dea9358a4498533f43a05285ae2ff2265979719932181ca",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 3,
+      "lesson_id": 774618,
+      "step_id": 4718307,
+      "type": "choice",
+      "path": "courses/86957/steps/774618/07_4718307_choice.step",
+      "source_sha256": "9995fc8a3270cb114cf0f9fa2f3a4721a022442aa6f5fefe53b4067c07e572a4",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763630,
+      "step_id": 3177242,
+      "type": "text",
+      "path": "courses/86957/steps/763630/01_3177242_text.step",
+      "source_sha256": "597a69ece82e2fb9fcec12fa2c722c8b449cfa3dd881632caa5b73c7aab0c1b3",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763630,
+      "step_id": 3262706,
+      "type": "text",
+      "path": "courses/86957/steps/763630/02_3262706_text.step",
+      "source_sha256": "53117a5008a658622464c61993f0aff6d3b9e14f57dd39679d35cac0ab68d4b1",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763630,
+      "step_id": 3177280,
+      "type": "text",
+      "path": "courses/86957/steps/763630/03_3177280_text.step",
+      "source_sha256": "37adb0af0523d4109248dacb5bf40903af7b8c999171218843c4ec84d62d423d",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [
+        {
+          "pre_index": 1,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 1,
+          "standard": "c++20"
+        },
+        {
+          "pre_index": 2,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 2,
+          "standard": "c++20"
+        },
+        {
+          "pre_index": 3,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 3,
+          "standard": "c++20"
+        },
+        {
+          "pre_index": 4,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 4,
+          "standard": "c++20"
+        }
+      ],
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763630,
+      "step_id": 3177282,
+      "type": "text",
+      "path": "courses/86957/steps/763630/04_3177282_text.step",
+      "source_sha256": "62fca5d38ea5aa300895d3ed59f76cc5193c65b9c1412534b3e8d0a02891baa0",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763630,
+      "step_id": 3177281,
+      "type": "text",
+      "path": "courses/86957/steps/763630/05_3177281_text.step",
+      "source_sha256": "1a2cfb63a564b3b3eb3940a06fbf791d97c9a5390e6e3fde3de634d06ca6ed61",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [
+        {
+          "pre_index": 1,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 1,
+          "standard": "c++20"
+        },
+        {
+          "pre_index": 2,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 2,
+          "standard": "c++20"
+        }
+      ],
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763630,
+      "step_id": 3262711,
+      "type": "text",
+      "path": "courses/86957/steps/763630/06_3262711_text.step",
+      "source_sha256": "914a70ed3b157ad8bdfa1ec1b47fbb3a7743fc3a70effa8af8455b0d74b1d13d",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763630,
+      "step_id": 3177283,
+      "type": "text",
+      "path": "courses/86957/steps/763630/07_3177283_text.step",
+      "source_sha256": "b882e15d50c4b700721b3cf38e57b73c8609c82e127b20a63064480b5e8920cd",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [
+        {
+          "pre_index": 1,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 1,
+          "standard": "c++20"
+        }
+      ],
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763630,
+      "step_id": 3177279,
+      "type": "text",
+      "path": "courses/86957/steps/763630/08_3177279_text.step",
+      "source_sha256": "3414650b51345fc353875dfcfa538a948564affed5eb5f6c0978790cb9e0114a",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763630,
+      "step_id": 4643238,
+      "type": "code",
+      "path": "courses/86957/steps/763630/09_4643238_code.step",
+      "source_sha256": "a9b080ea9fd921388bce0cd844e33f7d1f63daabb2944873bf0a0f9957133f77",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "stored_tests": {
+        "status": "checked_independent_reference",
+        "count": 9,
+        "checker_path": "courses/86957/steps/763630/09_4643238_code.step"
+      },
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763630,
+      "step_id": 3262719,
+      "type": "choice",
+      "path": "courses/86957/steps/763630/10_3262719_choice.step",
+      "source_sha256": "314b126cce470509883544441c4014b48f824f61bdef72bd761f6192e0be6b78",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763630,
+      "step_id": 3262682,
+      "type": "code",
+      "path": "courses/86957/steps/763630/11_3262682_code.step",
+      "source_sha256": "77bf246c9ad85fd46cff12417ef0ea37ca70e58413193d6404ba825be497b00d",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "stored_tests": {
+        "status": "checked_independent_reference",
+        "count": 7,
+        "checker_path": "courses/86957/steps/763630/11_3262682_code.step"
+      },
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763630,
+      "step_id": 3262692,
+      "type": "code",
+      "path": "courses/86957/steps/763630/12_3262692_code.step",
+      "source_sha256": "1507709ec7144125c1582875770aac5533f50b3c3044a00367076bc53cb31d3c",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "stored_tests": {
+        "status": "checked_independent_reference",
+        "count": 6,
+        "checker_path": "courses/86957/steps/763630/12_3262692_code.step"
+      },
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763630,
+      "step_id": 3284747,
+      "type": "choice",
+      "path": "courses/86957/steps/763630/13_3284747_choice.step",
+      "source_sha256": "d642e17edf7c6c1c20cfa1aa4336e4c53091a9a1f0bd6fb09061a938c76793bf",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763630,
+      "step_id": 3284769,
+      "type": "choice",
+      "path": "courses/86957/steps/763630/14_3284769_choice.step",
+      "source_sha256": "3bba29e9dbedb9fa4b4d487fb6bfe1ab9d166c0456be34f2023e0cd9c33770d3",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763630,
+      "step_id": 4717733,
+      "type": "choice",
+      "path": "courses/86957/steps/763630/15_4717733_choice.step",
+      "source_sha256": "64ac288e3c9d0a68a1a24b2130f4577a69dd0af9e46f5744d4cec074baee03ce",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763630,
+      "step_id": 4717745,
+      "type": "choice",
+      "path": "courses/86957/steps/763630/16_4717745_choice.step",
+      "source_sha256": "3bcc8c9c58be704fede21380fd1bfa317c1562bda422d3e4a5f9bec74b1da0fc",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763639,
+      "step_id": 3177291,
+      "type": "text",
+      "path": "courses/86957/steps/763639/01_3177291_text.step",
+      "source_sha256": "26406cab1a4ecb7327db03b7456a10532199fb0adc8ce2062b19c430d81fbcdd",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763639,
+      "step_id": 3177474,
+      "type": "text",
+      "path": "courses/86957/steps/763639/02_3177474_text.step",
+      "source_sha256": "828448c6e8fc57fc6095c4fa11eae1aefff7a26fbbef18cf0763e73e6c408a0d",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763639,
+      "step_id": 3177504,
+      "type": "text",
+      "path": "courses/86957/steps/763639/03_3177504_text.step",
+      "source_sha256": "5ba206de2cca73cf44959ff968a0f3d594529b914876f04de41874aadc86e062",
+      "text_review": "checked_current_block_text",
+      "result": "confirmed_defect_corrected",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": [],
+      "correction_path": "corrections/86957/steps/763639/03_3177504_text.step"
+    },
+    {
+      "module": 4,
+      "lesson_id": 763639,
+      "step_id": 3177499,
+      "type": "text",
+      "path": "courses/86957/steps/763639/04_3177499_text.step",
+      "source_sha256": "6b26b65d75ec67f09b180a4407b589c69fbdf9fbde58dace32302202d431c687",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763639,
+      "step_id": 3262772,
+      "type": "code",
+      "path": "courses/86957/steps/763639/05_3262772_code.step",
+      "source_sha256": "a23b5686549f322f75175ffbf657cd4dda9acd9b977302d1857e6866c75469fb",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "stored_tests": {
+        "status": "checked_independent_reference",
+        "count": 8,
+        "checker_path": "courses/86957/steps/763639/05_3262772_code.step"
+      },
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763639,
+      "step_id": 3262735,
+      "type": "code",
+      "path": "courses/86957/steps/763639/06_3262735_code.step",
+      "source_sha256": "259c48d239a83382af673a4cdb685b78c3ed4feda5d1cbadee806378a5cc082b",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "stored_tests": {
+        "status": "checked_independent_reference",
+        "count": 7,
+        "checker_path": "courses/86957/steps/763639/06_3262735_code.step"
+      },
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763639,
+      "step_id": 3264578,
+      "type": "code",
+      "path": "courses/86957/steps/763639/07_3264578_code.step",
+      "source_sha256": "d85489479f7bc250ebbc027c7316cb5e8e4c3a95203e0dacceb0d2260cbc1f4a",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "stored_tests": {
+        "status": "checked_independent_reference",
+        "count": 9,
+        "checker_path": "courses/86957/steps/763639/07_3264578_code.step"
+      },
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763639,
+      "step_id": 3286892,
+      "type": "choice",
+      "path": "courses/86957/steps/763639/08_3286892_choice.step",
+      "source_sha256": "c385f21f05365f6dbc2a2ed8a49009e088b515515d78d45f899a998d994b8eec",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763639,
+      "step_id": 3286908,
+      "type": "choice",
+      "path": "courses/86957/steps/763639/09_3286908_choice.step",
+      "source_sha256": "144dd77977a1c0906f5a1fb18bfd2266deb3ffc27fc756e708ace8a3a52f9127",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763639,
+      "step_id": 3286915,
+      "type": "choice",
+      "path": "courses/86957/steps/763639/10_3286915_choice.step",
+      "source_sha256": "f590d9f9d1e445a673f0855a82eb03540aa466b95c5154766ae08f0b353edf60",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763639,
+      "step_id": 3286930,
+      "type": "choice",
+      "path": "courses/86957/steps/763639/11_3286930_choice.step",
+      "source_sha256": "52c267d342f2661fe8d431a12ca2621150b06525211ac951dd716fe605b35bf7",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763639,
+      "step_id": 3296822,
+      "type": "choice",
+      "path": "courses/86957/steps/763639/12_3296822_choice.step",
+      "source_sha256": "afc026887d77e65d45075329ff513a156c4d761c3282a179318b18a8be371657",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763639,
+      "step_id": 3296857,
+      "type": "choice",
+      "path": "courses/86957/steps/763639/13_3296857_choice.step",
+      "source_sha256": "0a5b3d1b3856da39782756c30f91e9866ca60205bbbebb764db68118a6928e20",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763639,
+      "step_id": 3296975,
+      "type": "choice",
+      "path": "courses/86957/steps/763639/14_3296975_choice.step",
+      "source_sha256": "b2d853fcfca26b265411c99249881c808b052b75bd1089c357077779000b265b",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763639,
+      "step_id": 4717734,
+      "type": "choice",
+      "path": "courses/86957/steps/763639/15_4717734_choice.step",
+      "source_sha256": "bd70a0630dd8f31bbfeaa99e41135a0fde83ae171e9bf7817bb593d8b85e24c5",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763640,
+      "step_id": 3177292,
+      "type": "text",
+      "path": "courses/86957/steps/763640/01_3177292_text.step",
+      "source_sha256": "833829e54551a769c2496c47a4f22d21a63befc6131bdbf760cdd142fed6ff12",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [
+        {
+          "pre_index": 1,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 1,
+          "standard": "c++20"
+        },
+        {
+          "pre_index": 4,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 4,
+          "standard": "c++20"
+        },
+        {
+          "pre_index": 5,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 5,
+          "standard": "c++20"
+        },
+        {
+          "pre_index": 8,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 8,
+          "standard": "c++20"
+        }
+      ],
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763640,
+      "step_id": 3215105,
+      "type": "text",
+      "path": "courses/86957/steps/763640/02_3215105_text.step",
+      "source_sha256": "8425ed4a29ff826c12fd5eb7650151855578333e30914fee66b4ee1468b414bc",
+      "text_review": "checked_current_block_text",
+      "result": "confirmed_defect_corrected",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [
+        {
+          "pre_index": 1,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 1,
+          "standard": "c++20"
+        },
+        {
+          "pre_index": 4,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 4,
+          "standard": "c++20"
+        }
+      ],
+      "images": [],
+      "correction_path": "corrections/86957/steps/763640/02_3215105_text.step"
+    },
+    {
+      "module": 4,
+      "lesson_id": 763640,
+      "step_id": 3269060,
+      "type": "code",
+      "path": "courses/86957/steps/763640/03_3269060_code.step",
+      "source_sha256": "21b00c5e515964dcd3a76a90adc6e900ade3377cfcdab7eaa6926533640cf668",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "stored_tests": {
+        "status": "checked_independent_reference",
+        "count": 15,
+        "checker_path": "courses/86957/steps/763640/03_3269060_code.step"
+      },
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763640,
+      "step_id": 3280697,
+      "type": "code",
+      "path": "courses/86957/steps/763640/04_3280697_code.step",
+      "source_sha256": "d4ff785ffd09891f4c338658a94fdac990b1372bd91fa60ca7dce310f8ebe611",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "stored_tests": {
+        "status": "checked_independent_reference",
+        "count": 8,
+        "checker_path": "courses/86957/steps/763640/04_3280697_code.step"
+      },
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763640,
+      "step_id": 3264622,
+      "type": "code",
+      "path": "courses/86957/steps/763640/05_3264622_code.step",
+      "source_sha256": "ffaf9ff3d00d2eea87d7f940af2ba54a4386503a93cceaf5bd1b5e59f6028bf3",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "stored_tests": {
+        "status": "checked_independent_reference",
+        "count": 5,
+        "checker_path": "courses/86957/steps/763640/05_3264622_code.step"
+      },
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763640,
+      "step_id": 3280727,
+      "type": "code",
+      "path": "courses/86957/steps/763640/06_3280727_code.step",
+      "source_sha256": "c2209caeb91121ad172e7d1cfddb4aa689515861f28b66342a992c50bce03985",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "stored_tests": {
+        "status": "checked_independent_reference",
+        "count": 13,
+        "checker_path": "courses/86957/steps/763640/06_3280727_code.step"
+      },
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763640,
+      "step_id": 3281279,
+      "type": "code",
+      "path": "courses/86957/steps/763640/07_3281279_code.step",
+      "source_sha256": "f76aa0797f2a33439ded6243b8c1d95ac03d98f3aed982db189d7b5a7e1d69a4",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "stored_tests": {
+        "status": "checked_independent_reference",
+        "count": 11,
+        "checker_path": "courses/86957/steps/763640/07_3281279_code.step"
+      },
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763640,
+      "step_id": 3281287,
+      "type": "code",
+      "path": "courses/86957/steps/763640/08_3281287_code.step",
+      "source_sha256": "9347d8e24ae1b74e7681a77986acaa6709c1014fcb834b935e3236532287e917",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "stored_tests": {
+        "status": "checked_independent_reference",
+        "count": 22,
+        "checker_path": "courses/86957/steps/763640/08_3281287_code.step"
+      },
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763640,
+      "step_id": 3281353,
+      "type": "code",
+      "path": "courses/86957/steps/763640/09_3281353_code.step",
+      "source_sha256": "8aed642bed7532bcd6a7b773b1c443f6d2040f1f3bc50af2c598b5f553f2b191",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "stored_tests": {
+        "status": "checked_independent_reference",
+        "count": 7,
+        "checker_path": "courses/86957/steps/763640/09_3281353_code.step"
+      },
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763640,
+      "step_id": 3293643,
+      "type": "choice",
+      "path": "courses/86957/steps/763640/10_3293643_choice.step",
+      "source_sha256": "e835566ec08de083cda914845e49d1152c4574b3bdc51f641ad6e39bd76d1a20",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763640,
+      "step_id": 4717756,
+      "type": "choice",
+      "path": "courses/86957/steps/763640/11_4717756_choice.step",
+      "source_sha256": "5fad85500525c653f6b689c306349886e1574171d307d61011586a571793f9e5",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763640,
+      "step_id": 4717791,
+      "type": "choice",
+      "path": "courses/86957/steps/763640/12_4717791_choice.step",
+      "source_sha256": "becb0e4a840d36f57fd8eebf55d3e25b1d8cfd41d34ca09946ac461fc51ce0fa",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763640,
+      "step_id": 4718304,
+      "type": "choice",
+      "path": "courses/86957/steps/763640/13_4718304_choice.step",
+      "source_sha256": "48afaf5b4b8f80ad8cdfdac686cd9e5caa29180a05bd36fb2fb7c672bce664ce",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763642,
+      "step_id": 3177294,
+      "type": "text",
+      "path": "courses/86957/steps/763642/01_3177294_text.step",
+      "source_sha256": "c447e2cc4a21da5fde3897926c070aa20ff4abf92f88b0b20311936e10dd5b5e",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763642,
+      "step_id": 3177541,
+      "type": "text",
+      "path": "courses/86957/steps/763642/02_3177541_text.step",
+      "source_sha256": "145d4870511b322bbf66f016d5dbf21d45435c568eac9f3209ea4195e67847eb",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763642,
+      "step_id": 3177540,
+      "type": "text",
+      "path": "courses/86957/steps/763642/03_3177540_text.step",
+      "source_sha256": "5e3a9fcd4b389e5b3645fff5d81ebac02ccbb0957063ccf04bc45f0936106b8e",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": [
+        {
+          "path": "courses/86957/assets/0ed74eacebee40f410415e4a6d18223845b50b779d6a4b2d9511ad05113a91fe.jpg",
+          "status": "uncertain",
+          "reason": "Отдельная содержательная проверка этого изображения не завершена; чтение окружающего HTML не заменяет её."
+        },
+        {
+          "path": "courses/86957/assets/4804b7dad42dadcc385648740c7f98bf02b6294cc334ae8322661c0b503d95d2.jpg",
+          "status": "uncertain",
+          "reason": "Отдельная содержательная проверка этого изображения не завершена; чтение окружающего HTML не заменяет её."
+        }
+      ]
+    },
+    {
+      "module": 4,
+      "lesson_id": 763642,
+      "step_id": 3177546,
+      "type": "text",
+      "path": "courses/86957/steps/763642/04_3177546_text.step",
+      "source_sha256": "cf3729bf44796fce9dc76c912d99ecdeddf130ac1521585c54fea11c84e156ca",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [
+        {
+          "pre_index": 0,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 0,
+          "standard": "c++20"
+        }
+      ],
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763642,
+      "step_id": 3177547,
+      "type": "text",
+      "path": "courses/86957/steps/763642/05_3177547_text.step",
+      "source_sha256": "2f4241b72ddf98f18f114221125abc620a9df31908d022303b58589682cfc118",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [
+        {
+          "pre_index": 0,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 0,
+          "standard": "c++20"
+        }
+      ],
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763642,
+      "step_id": 3394590,
+      "type": "choice",
+      "path": "courses/86957/steps/763642/06_3394590_choice.step",
+      "source_sha256": "90c7d48fade515d38ac50ef01ed2705cb2c119e999fe791ece647ea500df9023",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763642,
+      "step_id": 3394601,
+      "type": "choice",
+      "path": "courses/86957/steps/763642/07_3394601_choice.step",
+      "source_sha256": "a87591e63e124fd7c62c1a820894da72a6726bbb93774f311917d9e404ee26b1",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763642,
+      "step_id": 3394620,
+      "type": "choice",
+      "path": "courses/86957/steps/763642/08_3394620_choice.step",
+      "source_sha256": "3c2182bf33a7f1ffe44bbd7faa376c6695d0ac4f6daa474b5f98810855c0d22c",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763719,
+      "step_id": 3177562,
+      "type": "text",
+      "path": "courses/86957/steps/763719/01_3177562_text.step",
+      "source_sha256": "531db5fbb8098cfffbadca838d41d71329db5b8287195785f355638b3228826d",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763719,
+      "step_id": 3177565,
+      "type": "text",
+      "path": "courses/86957/steps/763719/02_3177565_text.step",
+      "source_sha256": "a0370f3df1564883661c9c0705dd4cd03c2dba0c1abf08958bbf37a27933b6fa",
+      "text_review": "checked_current_block_text",
+      "result": "confirmed_defect_corrected",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [
+        {
+          "pre_index": 1,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 1,
+          "standard": "c++20"
+        }
+      ],
+      "images": [],
+      "correction_path": "corrections/86957/steps/763719/02_3177565_text.step"
+    },
+    {
+      "module": 4,
+      "lesson_id": 763719,
+      "step_id": 3177566,
+      "type": "code",
+      "path": "courses/86957/steps/763719/03_3177566_code.step",
+      "source_sha256": "f860fa7064276739d773f956df919aa348e153620cb42a8e11e3638c68039527",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [
+        {
+          "pre_index": 0,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 0,
+          "standard": "c++20"
+        }
+      ],
+      "stored_tests": {
+        "status": "checked_independent_reference",
+        "count": 3,
+        "checker_path": "courses/86957/steps/763719/03_3177566_code.step"
+      },
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763719,
+      "step_id": 3177651,
+      "type": "text",
+      "path": "courses/86957/steps/763719/04_3177651_text.step",
+      "source_sha256": "3ad099e7d607b8abb732b4cc604b7ee3292e53c5eb9bf7e89dbd3c39ec3f6a70",
+      "text_review": "checked_current_block_text",
+      "result": "confirmed_defect_corrected",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [
+        {
+          "pre_index": 1,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 1,
+          "standard": "c++20"
+        }
+      ],
+      "images": [],
+      "correction_path": "corrections/86957/steps/763719/04_3177651_text.step"
+    },
+    {
+      "module": 4,
+      "lesson_id": 763719,
+      "step_id": 3177655,
+      "type": "code",
+      "path": "courses/86957/steps/763719/05_3177655_code.step",
+      "source_sha256": "c4bfebd11efbaa75f1ff40ad65539474d58ab9dd7a95e5b31f442093ca5dc750",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "stored_tests": {
+        "status": "checked_independent_reference",
+        "count": 3,
+        "checker_path": "courses/86957/steps/763719/05_3177655_code.step"
+      },
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763719,
+      "step_id": 3177786,
+      "type": "text",
+      "path": "courses/86957/steps/763719/06_3177786_text.step",
+      "source_sha256": "faee2ef2c91637337f8d560297af4426bed30ba20e37fbdadaf583bce486ecbe",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763719,
+      "step_id": 3177789,
+      "type": "text",
+      "path": "courses/86957/steps/763719/07_3177789_text.step",
+      "source_sha256": "91354e3b6679583987ae503354ac84260df1427d36ee97e8102966374dc55b8a",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [
+        {
+          "pre_index": 0,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 0,
+          "standard": "c++20"
+        }
+      ],
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763719,
+      "step_id": 3299645,
+      "type": "code",
+      "path": "courses/86957/steps/763719/08_3299645_code.step",
+      "source_sha256": "6e4aff0609047ab4d2702485a989137b9dd0476eaf9782866cd6d5ad29bc9c6a",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "stored_tests": {
+        "status": "checked_independent_reference",
+        "count": 4,
+        "checker_path": "courses/86957/steps/763719/08_3299645_code.step"
+      },
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763719,
+      "step_id": 4718155,
+      "type": "choice",
+      "path": "courses/86957/steps/763719/09_4718155_choice.step",
+      "source_sha256": "933ddde6a01a359159357aa8db2933507e6bb243cc33c5f35f727f1b13da3995",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763719,
+      "step_id": 4718172,
+      "type": "choice",
+      "path": "courses/86957/steps/763719/10_4718172_choice.step",
+      "source_sha256": "b3197e44bcc5cc08921c4d155d8c1d57f4e1a0f231253e936cd9dcc5edf3f6f8",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 4,
+      "lesson_id": 763719,
+      "step_id": 4718178,
+      "type": "choice",
+      "path": "courses/86957/steps/763719/11_4718178_choice.step",
+      "source_sha256": "09bbd1c55a7edd7a713b0c47dac3a63e254d13b1477ce285eaba2ba5b864776c",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 5,
+      "lesson_id": 763644,
+      "step_id": 3384444,
+      "type": "code",
+      "path": "courses/86957/steps/763644/01_3384444_code.step",
+      "source_sha256": "6e1672aa95578cae267f8853d05ce9f75b345ee84a06251336b0dec640fb7eae",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "stored_tests": {
+        "status": "checked_independent_reference",
+        "count": 14,
+        "checker_path": "courses/86957/steps/763644/01_3384444_code.step"
+      },
+      "images": [
+        {
+          "path": "courses/86957/assets/8256b1ce5f0dfe572868743da7cd9e9d70c52c4112782a0ef16c37060d622d73.png",
+          "status": "checked",
+          "scope": "Содержание сопоставлено с пояснением, вопросом или математическим эталоном."
+        }
+      ]
+    },
+    {
+      "module": 5,
+      "lesson_id": 763644,
+      "step_id": 3177296,
+      "type": "text",
+      "path": "courses/86957/steps/763644/02_3177296_text.step",
+      "source_sha256": "d8901bde89c3825cd464f1e8ecb6e9f359891f4a27d9d3592a7e0107cb1973d7",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [
+        {
+          "pre_index": 0,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 0,
+          "standard": "c++20"
+        }
+      ],
+      "images": []
+    },
+    {
+      "module": 5,
+      "lesson_id": 763644,
+      "step_id": 3212907,
+      "type": "text",
+      "path": "courses/86957/steps/763644/03_3212907_text.step",
+      "source_sha256": "e0bdefc7f423270a09471e121433e6e7ff55b0ce7ef182c471aff02e99610ca8",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 5,
+      "lesson_id": 763644,
+      "step_id": 3212908,
+      "type": "text",
+      "path": "courses/86957/steps/763644/04_3212908_text.step",
+      "source_sha256": "0ddd0284ec581851e0472c4c276be063d629e4516b1a93de7ce5aee936c780e2",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [
+        {
+          "pre_index": 1,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 1,
+          "standard": "c++20"
+        }
+      ],
+      "images": []
+    },
+    {
+      "module": 5,
+      "lesson_id": 763644,
+      "step_id": 3212935,
+      "type": "text",
+      "path": "courses/86957/steps/763644/05_3212935_text.step",
+      "source_sha256": "305a3922f76a67b10aac05d2609b38ff7b0137f906e455148fb9fe7230ef7560",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 5,
+      "lesson_id": 763644,
+      "step_id": 3212920,
+      "type": "text",
+      "path": "courses/86957/steps/763644/06_3212920_text.step",
+      "source_sha256": "7b44df2535f00a9a2644852fb71d2818de4593abecd75e17bac11e7ca8f028a4",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [
+        {
+          "pre_index": 0,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 0,
+          "standard": "c++20"
+        }
+      ],
+      "images": []
+    },
+    {
+      "module": 5,
+      "lesson_id": 763644,
+      "step_id": 3212926,
+      "type": "text",
+      "path": "courses/86957/steps/763644/07_3212926_text.step",
+      "source_sha256": "cfb3a1caa933293c1c4af911b3cc9c371acd7f3f622536d86e4724254125f4d1",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 5,
+      "lesson_id": 763644,
+      "step_id": 3323781,
+      "type": "choice",
+      "path": "courses/86957/steps/763644/08_3323781_choice.step",
+      "source_sha256": "58e5d334bfd6167ed1719bc3f9f7b5cd9965c976ccd430f568df7869d1d1fadf",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 5,
+      "lesson_id": 763644,
+      "step_id": 3330530,
+      "type": "choice",
+      "path": "courses/86957/steps/763644/09_3330530_choice.step",
+      "source_sha256": "84d6865a98be42d9554f81619ca9690a0fce75ebfcb1eecba49de3bbb48e9c28",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 5,
+      "lesson_id": 763644,
+      "step_id": 3383209,
+      "type": "code",
+      "path": "courses/86957/steps/763644/10_3383209_code.step",
+      "source_sha256": "8b033d862434088880b36e599473404affc6c94ab2f06f47c845ad56fb39c724",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "stored_tests": {
+        "status": "checked_independent_reference",
+        "count": 8,
+        "checker_path": "courses/86957/steps/763644/10_3383209_code.step"
+      },
+      "images": []
+    },
+    {
+      "module": 5,
+      "lesson_id": 763644,
+      "step_id": 4718151,
+      "type": "choice",
+      "path": "courses/86957/steps/763644/11_4718151_choice.step",
+      "source_sha256": "43d8f9199b3b481a955aaa78305d34cf6ea2f2d6e0f4f9e5a99bb249f51e4ac1",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 5,
+      "lesson_id": 763646,
+      "step_id": 3212924,
+      "type": "text",
+      "path": "courses/86957/steps/763646/01_3212924_text.step",
+      "source_sha256": "4cd7e18852ac3d6ec7e19512f4e8240d3fe2622e7eee96e31e4dc20fe0989d6d",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": [
+        {
+          "path": "courses/86957/assets/38da9c975fe0cc235b89f990a590a9459b6a46326cd1247368a28fa5b63db396.png",
+          "status": "uncertain",
+          "reason": "Отдельная содержательная проверка этого изображения не завершена; чтение окружающего HTML не заменяет её."
+        }
+      ]
+    },
+    {
+      "module": 5,
+      "lesson_id": 763646,
+      "step_id": 3177298,
+      "type": "text",
+      "path": "courses/86957/steps/763646/02_3177298_text.step",
+      "source_sha256": "2f20683530db12b29ee0eecb979773d0633c237de89988fcb121ecc08260a517",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 5,
+      "lesson_id": 763646,
+      "step_id": 3212939,
+      "type": "text",
+      "path": "courses/86957/steps/763646/03_3212939_text.step",
+      "source_sha256": "dcdf0de814af5f985c9c70c4d5b52f48bdc720f9475e5951b210f3a060069cd2",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [
+        {
+          "pre_index": 0,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 0,
+          "standard": "c++20"
+        },
+        {
+          "pre_index": 1,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 1,
+          "standard": "c++20"
+        }
+      ],
+      "images": []
+    },
+    {
+      "module": 5,
+      "lesson_id": 763646,
+      "step_id": 3212928,
+      "type": "text",
+      "path": "courses/86957/steps/763646/04_3212928_text.step",
+      "source_sha256": "5c2d7b8e75e8e27f00b46bf601aa839adcaa6e2aa90ddf945fef3695f40d10f2",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 5,
+      "lesson_id": 763646,
+      "step_id": 3212937,
+      "type": "text",
+      "path": "courses/86957/steps/763646/05_3212937_text.step",
+      "source_sha256": "275f0db870b6852cd1429bd3aeb8ed09da97f8470ba054ee632dd0defcfa172a",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 5,
+      "lesson_id": 763646,
+      "step_id": 3324082,
+      "type": "choice",
+      "path": "courses/86957/steps/763646/06_3324082_choice.step",
+      "source_sha256": "2e0cac1f7d4d5236a774c9039a4ed41f15d4008bdcbd363e51144928a0fefa9c",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 5,
+      "lesson_id": 763646,
+      "step_id": 3330670,
+      "type": "choice",
+      "path": "courses/86957/steps/763646/07_3330670_choice.step",
+      "source_sha256": "c9dc7823b456db230178dd4cb86d57a7e44985afdbc409b3e21f5680ea0a32d9",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 5,
+      "lesson_id": 763646,
+      "step_id": 3341723,
+      "type": "code",
+      "path": "courses/86957/steps/763646/08_3341723_code.step",
+      "source_sha256": "ff32627886a841c42484cd2d484beebcf2ce0c508790c564c9c1d3bde48fbcfc",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "stored_tests": {
+        "status": "checked_independent_reference",
+        "count": 8,
+        "checker_path": "courses/86957/steps/763646/08_3341723_code.step"
+      },
+      "images": []
+    },
+    {
+      "module": 5,
+      "lesson_id": 763646,
+      "step_id": 3381234,
+      "type": "code",
+      "path": "courses/86957/steps/763646/09_3381234_code.step",
+      "source_sha256": "18f097dcb676e9397a66b0122ef8ad7c6d61d9258a5871508dd0f888675edbeb",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "stored_tests": {
+        "status": "checked_independent_reference",
+        "count": 7,
+        "checker_path": "courses/86957/steps/763646/09_3381234_code.step"
+      },
+      "images": []
+    },
+    {
+      "module": 5,
+      "lesson_id": 763646,
+      "step_id": 3381291,
+      "type": "code",
+      "path": "courses/86957/steps/763646/10_3381291_code.step",
+      "source_sha256": "9b324d6ce047d16d86e266a1883d3d4754d7e203a6909c94c439b496772a03cb",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "stored_tests": {
+        "status": "checked_independent_reference",
+        "count": 6,
+        "checker_path": "courses/86957/steps/763646/10_3381291_code.step"
+      },
+      "images": []
+    },
+    {
+      "module": 5,
+      "lesson_id": 763646,
+      "step_id": 3382745,
+      "type": "code",
+      "path": "courses/86957/steps/763646/11_3382745_code.step",
+      "source_sha256": "79265416d3f1d3deac0258b3d96e635a2c32819a47e256f457a3556f1311a462",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "stored_tests": {
+        "status": "checked_independent_reference",
+        "count": 10,
+        "checker_path": "courses/86957/steps/763646/11_3382745_code.step"
+      },
+      "images": []
+    },
+    {
+      "module": 5,
+      "lesson_id": 763646,
+      "step_id": 3383135,
+      "type": "code",
+      "path": "courses/86957/steps/763646/12_3383135_code.step",
+      "source_sha256": "39d77333aac309b33370f1337eabb2bd7586acb2efa9355668bde30671171e92",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "stored_tests": {
+        "status": "checked_independent_reference",
+        "count": 7,
+        "checker_path": "courses/86957/steps/763646/12_3383135_code.step"
+      },
+      "images": []
+    },
+    {
+      "module": 6,
+      "lesson_id": 770585,
+      "step_id": 3212944,
+      "type": "text",
+      "path": "courses/86957/steps/770585/01_3212944_text.step",
+      "source_sha256": "40ce5fada1de48056fb6c83e141fb91e450da182d6aa38eaab0977cb6916ed72",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 6,
+      "lesson_id": 770585,
+      "step_id": 3212968,
+      "type": "text",
+      "path": "courses/86957/steps/770585/02_3212968_text.step",
+      "source_sha256": "a0f03a96b4dc04861fc935fa2c0fa6c837cc1c830a4660bf5306501748c15abf",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [
+        {
+          "pre_index": 3,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 3,
+          "standard": "c++20"
+        },
+        {
+          "pre_index": 4,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 4,
+          "standard": "c++20"
+        }
+      ],
+      "images": [
+        {
+          "path": "courses/86957/assets/a8ea8a86dbe60534c9fd7e3ffc226912e084cf0e0e2b8bec9b00deca1c92248d.png",
+          "status": "uncertain",
+          "reason": "Отдельная содержательная проверка этого изображения не завершена; чтение окружающего HTML не заменяет её."
+        },
+        {
+          "path": "courses/86957/assets/a36b40f1c96c8b98b201a2e6908349a8f99d474ee126fab2e46d0eab7cb6fe8a.jpg",
+          "status": "uncertain",
+          "reason": "Отдельная содержательная проверка этого изображения не завершена; чтение окружающего HTML не заменяет её."
+        }
+      ]
+    },
+    {
+      "module": 6,
+      "lesson_id": 770585,
+      "step_id": 3212969,
+      "type": "text",
+      "path": "courses/86957/steps/770585/03_3212969_text.step",
+      "source_sha256": "db736331ea679372f1724644ca88c3fc7e0342538429d37680756fedff1e77f9",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [
+        {
+          "pre_index": 3,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 3,
+          "standard": "c++20"
+        }
+      ],
+      "images": []
+    },
+    {
+      "module": 6,
+      "lesson_id": 770585,
+      "step_id": 3212970,
+      "type": "text",
+      "path": "courses/86957/steps/770585/04_3212970_text.step",
+      "source_sha256": "280c5a6bbdce7226d1adbfd209b197fc6fbdb749da24cbd7f75e9ec29aa79d94",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [
+        {
+          "pre_index": 1,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 1,
+          "standard": "c++20"
+        },
+        {
+          "pre_index": 3,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 3,
+          "standard": "c++20"
+        },
+        {
+          "pre_index": 4,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 4,
+          "standard": "c++20"
+        },
+        {
+          "pre_index": 6,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 6,
+          "standard": "c++20"
+        },
+        {
+          "pre_index": 7,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 7,
+          "standard": "c++20"
+        }
+      ],
+      "images": []
+    },
+    {
+      "module": 6,
+      "lesson_id": 770585,
+      "step_id": 3212990,
+      "type": "text",
+      "path": "courses/86957/steps/770585/05_3212990_text.step",
+      "source_sha256": "37bf6ba467280ca7ebae231b13ac9dd5091040c037c5eafe341572649450eece",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [
+        {
+          "pre_index": 0,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 0,
+          "standard": "c++20"
+        }
+      ],
+      "images": []
+    },
+    {
+      "module": 6,
+      "lesson_id": 770585,
+      "step_id": 3212989,
+      "type": "text",
+      "path": "courses/86957/steps/770585/06_3212989_text.step",
+      "source_sha256": "3dc4cdca3b367b34d2b682be42489e99777b08ca4c8a11b6bbdd206b3741537f",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [
+        {
+          "pre_index": 0,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 0,
+          "standard": "c++20"
+        },
+        {
+          "pre_index": 2,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 2,
+          "standard": "c++20"
+        },
+        {
+          "pre_index": 4,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 4,
+          "standard": "c++20"
+        }
+      ],
+      "images": []
+    },
+    {
+      "module": 6,
+      "lesson_id": 770585,
+      "step_id": 3212991,
+      "type": "text",
+      "path": "courses/86957/steps/770585/07_3212991_text.step",
+      "source_sha256": "5342bd24c303e7c0e63b76fb0dd17b7a76b530fb2dd784ddf04a1b1c721a3225",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [
+        {
+          "pre_index": 0,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 0,
+          "standard": "c++20"
+        }
+      ],
+      "images": []
+    },
+    {
+      "module": 6,
+      "lesson_id": 770585,
+      "step_id": 3428470,
+      "type": "choice",
+      "path": "courses/86957/steps/770585/08_3428470_choice.step",
+      "source_sha256": "20ad0e8594ca2145bbb640e9e58290fffb4d1b71dc51254404ce085ac031b9a8",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 6,
+      "lesson_id": 770585,
+      "step_id": 3428480,
+      "type": "choice",
+      "path": "courses/86957/steps/770585/09_3428480_choice.step",
+      "source_sha256": "930f88582ac56638b1c26c9f4e3fbf4188d318a90f1f5f404527dd58023fccf0",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 6,
+      "lesson_id": 770585,
+      "step_id": 3428540,
+      "type": "choice",
+      "path": "courses/86957/steps/770585/10_3428540_choice.step",
+      "source_sha256": "a0e55357931a26e13ceae85571c827acd1af3ce1bb3bd7cc252a10dcf4c55514",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 6,
+      "lesson_id": 770585,
+      "step_id": 3428581,
+      "type": "choice",
+      "path": "courses/86957/steps/770585/11_3428581_choice.step",
+      "source_sha256": "794161bcc7698bf25bbb27f0603b16ee330597918026e55517cb98490b5d7ca8",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [
+        {
+          "pre_index": 0,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 0,
+          "standard": "c++20"
+        }
+      ],
+      "images": []
+    },
+    {
+      "module": 6,
+      "lesson_id": 770585,
+      "step_id": 4672519,
+      "type": "code",
+      "path": "courses/86957/steps/770585/12_4672519_code.step",
+      "source_sha256": "ecba5229cd5a00a1a3280276740d729142cff6fc15cc9abc530284d592dc0dc8",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "stored_tests": {
+        "status": "checked_independent_reference",
+        "count": 9,
+        "checker_path": "courses/86957/steps/770585/12_4672519_code.step"
+      },
+      "images": []
+    },
+    {
+      "module": 6,
+      "lesson_id": 770585,
+      "step_id": 4717787,
+      "type": "choice",
+      "path": "courses/86957/steps/770585/13_4717787_choice.step",
+      "source_sha256": "808aea213e2f59aaee7807e79d30151f932fe6b6dafd9fc68901410dbcb65920",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 6,
+      "lesson_id": 770585,
+      "step_id": 4718101,
+      "type": "choice",
+      "path": "courses/86957/steps/770585/14_4718101_choice.step",
+      "source_sha256": "4d119ffc949659b33e8eba08cd401dae7364aeb7170b9d3263ed83df8401a0f9",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 6,
+      "lesson_id": 770585,
+      "step_id": 4718144,
+      "type": "choice",
+      "path": "courses/86957/steps/770585/15_4718144_choice.step",
+      "source_sha256": "13ca6833926ae58ddd6a2b56d763800649c0db4273e3894036aac3a3730644ba",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 6,
+      "lesson_id": 770585,
+      "step_id": 4718146,
+      "type": "choice",
+      "path": "courses/86957/steps/770585/16_4718146_choice.step",
+      "source_sha256": "c2f644c263a110205f28bd1223803437b93bd1e57793cda622169102d68c7d5a",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 6,
+      "lesson_id": 770586,
+      "step_id": 3212945,
+      "type": "text",
+      "path": "courses/86957/steps/770586/01_3212945_text.step",
+      "source_sha256": "b48ac21196b071289904171596fff0a1bfcaf9ee03c40fe51ca7eae60daeb69a",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [
+        {
+          "pre_index": 0,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 0,
+          "standard": "c++20"
+        }
+      ],
+      "images": []
+    },
+    {
+      "module": 6,
+      "lesson_id": 770586,
+      "step_id": 3212995,
+      "type": "text",
+      "path": "courses/86957/steps/770586/02_3212995_text.step",
+      "source_sha256": "512949218bf2f4bd41a97424b71038e63f995bfe17c5e5ba93ff440204a8c460",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [
+        {
+          "pre_index": 0,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 0,
+          "standard": "c++20"
+        },
+        {
+          "pre_index": 1,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 1,
+          "standard": "c++20"
+        },
+        {
+          "pre_index": 2,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 2,
+          "standard": "c++20"
+        },
+        {
+          "pre_index": 3,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 3,
+          "standard": "c++20"
+        },
+        {
+          "pre_index": 4,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 4,
+          "standard": "c++20"
+        }
+      ],
+      "images": []
+    },
+    {
+      "module": 6,
+      "lesson_id": 770586,
+      "step_id": 3213003,
+      "type": "text",
+      "path": "courses/86957/steps/770586/03_3213003_text.step",
+      "source_sha256": "c70748c3cc53bd206189bbb0361c4d6c50e1b43663e20eb750c437d84926fd51",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [
+        {
+          "pre_index": 3,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 3,
+          "standard": "c++20"
+        },
+        {
+          "pre_index": 4,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 4,
+          "standard": "c++20"
+        },
+        {
+          "pre_index": 5,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 5,
+          "standard": "c++20"
+        },
+        {
+          "pre_index": 7,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 7,
+          "standard": "c++20"
+        }
+      ],
+      "images": []
+    },
+    {
+      "module": 6,
+      "lesson_id": 770586,
+      "step_id": 3213004,
+      "type": "text",
+      "path": "courses/86957/steps/770586/04_3213004_text.step",
+      "source_sha256": "299ba09f36003712cbc128b7b128cc2d3efb9b9121ae5f3e5efda7144a6b50ce",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [
+        {
+          "pre_index": 0,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 0,
+          "standard": "c++20"
+        },
+        {
+          "pre_index": 1,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 1,
+          "standard": "c++20"
+        }
+      ],
+      "images": []
+    },
+    {
+      "module": 6,
+      "lesson_id": 770586,
+      "step_id": 3438842,
+      "type": "text",
+      "path": "courses/86957/steps/770586/05_3438842_text.step",
+      "source_sha256": "0fad3bfe8115334ebc56e23bbcbb610ba3bf8b76cd874921b2f183cac16f1949",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": [
+        {
+          "path": "courses/86957/assets/b9f2642ca47b688eb6813a4f0dca4f80761a471c11b07b085e33445ccf9b2ef9.png",
+          "status": "uncertain",
+          "reason": "Отдельная содержательная проверка этого изображения не завершена; чтение окружающего HTML не заменяет её."
+        },
+        {
+          "path": "courses/86957/assets/2789c50ceffa746b9ac85e9049d43b3ed6c3a9eb7af86b8c450410110c6ced55.png",
+          "status": "uncertain",
+          "reason": "Отдельная содержательная проверка этого изображения не завершена; чтение окружающего HTML не заменяет её."
+        },
+        {
+          "path": "courses/86957/assets/16348a3bef187ef30eced6fd3223d633c2eed91c2e06b044a93dfe9f7ea889ae.png",
+          "status": "uncertain",
+          "reason": "Отдельная содержательная проверка этого изображения не завершена; чтение окружающего HTML не заменяет её."
+        },
+        {
+          "path": "courses/86957/assets/2789c50ceffa746b9ac85e9049d43b3ed6c3a9eb7af86b8c450410110c6ced55.png",
+          "status": "uncertain",
+          "reason": "Отдельная содержательная проверка этого изображения не завершена; чтение окружающего HTML не заменяет её."
+        }
+      ]
+    },
+    {
+      "module": 6,
+      "lesson_id": 770586,
+      "step_id": 3438841,
+      "type": "text",
+      "path": "courses/86957/steps/770586/06_3438841_text.step",
+      "source_sha256": "519a9311f0b244b4b155cea25ae30714064c6151e65470b66f68e7a2cd436456",
+      "text_review": "checked_current_block_text",
+      "result": "confirmed_defect_corrected",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": [
+        {
+          "path": "courses/86957/assets/76ac0d0207de302a27e8a60e8cdacb562b382e71e9c789672069ee50172615ce.png",
+          "status": "uncertain",
+          "reason": "Отдельная содержательная проверка этого изображения не завершена; чтение окружающего HTML не заменяет её."
+        },
+        {
+          "path": "courses/86957/assets/6e32b79db225c3241e539bf4c284fce227ac4e8382055f4a4b65dfa9077135b0.png",
+          "status": "uncertain",
+          "reason": "Отдельная содержательная проверка этого изображения не завершена; чтение окружающего HTML не заменяет её."
+        }
+      ],
+      "correction_path": "corrections/86957/steps/770586/06_3438841_text.step"
+    },
+    {
+      "module": 6,
+      "lesson_id": 770586,
+      "step_id": 3428704,
+      "type": "choice",
+      "path": "courses/86957/steps/770586/07_3428704_choice.step",
+      "source_sha256": "14008eecd76c89e2839f7e9b36a676b65af7fff9a53c43334c48b8c21aeeed79",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 6,
+      "lesson_id": 770586,
+      "step_id": 3428716,
+      "type": "choice",
+      "path": "courses/86957/steps/770586/08_3428716_choice.step",
+      "source_sha256": "732590474555f1d6dbe9fe01f1cb198f7183dae08bb888686c21e9c79c70d05b",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [
+        {
+          "pre_index": 0,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 0,
+          "standard": "c++20"
+        }
+      ],
+      "images": []
+    },
+    {
+      "module": 6,
+      "lesson_id": 770586,
+      "step_id": 3428748,
+      "type": "choice",
+      "path": "courses/86957/steps/770586/09_3428748_choice.step",
+      "source_sha256": "24818ba68a66b273ef5b40930c7fa90e68fe2e6d8771790301021dab115b1c94",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 6,
+      "lesson_id": 770586,
+      "step_id": 3428774,
+      "type": "choice",
+      "path": "courses/86957/steps/770586/10_3428774_choice.step",
+      "source_sha256": "877fdd6921cfcb88ae3249f1a37f9a7c26aaeb043b78debca85eab1b5e4c1090",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 6,
+      "lesson_id": 770586,
+      "step_id": 3428845,
+      "type": "choice",
+      "path": "courses/86957/steps/770586/11_3428845_choice.step",
+      "source_sha256": "afd3c312b722bb8394f8b72a42bfbec931921e81b80d04e42d4ca033fc7a7941",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 6,
+      "lesson_id": 770586,
+      "step_id": 4700496,
+      "type": "code",
+      "path": "courses/86957/steps/770586/12_4700496_code.step",
+      "source_sha256": "faf583a634c6d53b9e9c3e9702c2ad1074968aa8fce095822dea8c91cd4f4c4a",
+      "text_review": "checked_current_block_text",
+      "result": "confirmed_defect_corrected",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "stored_tests": {
+        "status": "checked_independent_reference",
+        "count": 12,
+        "checker_path": "corrections/86957/steps/770586/12_4700496_code.step"
+      },
+      "images": [
+        {
+          "path": "courses/86957/assets/b5d53387103a5beeca3932cd4ba99f874162a0aa3adc75d1d2f85609657bff36.png",
+          "status": "checked",
+          "scope": "Содержание сопоставлено с пояснением, вопросом или математическим эталоном."
+        },
+        {
+          "path": "courses/86957/assets/211de3ba9778d7693c041e63e6d9236e54c07f3724898c5c57c60cb921ca556b.png",
+          "status": "checked",
+          "scope": "Содержание сопоставлено с пояснением, вопросом или математическим эталоном."
+        }
+      ],
+      "correction_path": "corrections/86957/steps/770586/12_4700496_code.step"
+    },
+    {
+      "module": 6,
+      "lesson_id": 770586,
+      "step_id": 4717730,
+      "type": "choice",
+      "path": "courses/86957/steps/770586/13_4717730_choice.step",
+      "source_sha256": "ab99216d3f1a288fd3a3e01d1d6e7d40f1e24bbfbb62061f73ecee4020c9da9d",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 6,
+      "lesson_id": 770586,
+      "step_id": 4717764,
+      "type": "choice",
+      "path": "courses/86957/steps/770586/14_4717764_choice.step",
+      "source_sha256": "b037fb66e910fca519ee854a11858a51a767ef65ebe3e2b70c8be1b728b05edc",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 6,
+      "lesson_id": 770586,
+      "step_id": 4718105,
+      "type": "choice",
+      "path": "courses/86957/steps/770586/15_4718105_choice.step",
+      "source_sha256": "3f0c2aa235bafd354a597066db09e9b3db8f6b22be7cbef40e48890033820bff",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 6,
+      "lesson_id": 770586,
+      "step_id": 4718192,
+      "type": "choice",
+      "path": "courses/86957/steps/770586/16_4718192_choice.step",
+      "source_sha256": "5e099f93ef869f47b6cacaa9d104c88781f6374ad251543756698ef589b76ade",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 6,
+      "lesson_id": 770587,
+      "step_id": 3212946,
+      "type": "text",
+      "path": "courses/86957/steps/770587/01_3212946_text.step",
+      "source_sha256": "1b31c9db98465fd3dbc5b6fa5137169c9c95b11201e2d80e094d5564348d2436",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [
+        {
+          "pre_index": 0,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 0,
+          "standard": "c++20"
+        }
+      ],
+      "images": []
+    },
+    {
+      "module": 6,
+      "lesson_id": 770587,
+      "step_id": 3213209,
+      "type": "text",
+      "path": "courses/86957/steps/770587/02_3213209_text.step",
+      "source_sha256": "f8e55d7827b597d78363bac7ea4e563985552405339957fa23d539624c6ef56b",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [
+        {
+          "pre_index": 0,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 0,
+          "standard": "c++20"
+        }
+      ],
+      "images": [
+        {
+          "path": "courses/86957/assets/78eb26062acaba18c389b9581444137d2b1a6ea04946a16e6347eedf69652717.png",
+          "status": "uncertain",
+          "reason": "Отдельная содержательная проверка этого изображения не завершена; чтение окружающего HTML не заменяет её."
+        }
+      ]
+    },
+    {
+      "module": 6,
+      "lesson_id": 770587,
+      "step_id": 3213208,
+      "type": "text",
+      "path": "courses/86957/steps/770587/03_3213208_text.step",
+      "source_sha256": "bc2938e0f6320417df9f01c7474bf812aa3b464ccdd149dd293e4a2fa69b2ad8",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [
+        {
+          "pre_index": 1,
+          "standard": "c11"
+        },
+        {
+          "pre_index": 1,
+          "standard": "c17"
+        },
+        {
+          "pre_index": 2,
+          "standard": "c11"
+        },
+        {
+          "pre_index": 2,
+          "standard": "c17"
+        }
+      ],
+      "images": [
+        {
+          "path": "courses/86957/assets/d693787fb44b8accfe244a9f6711143f9e6c93a4ef3859687eccb29dfa8c8307.png",
+          "status": "uncertain",
+          "reason": "Отдельная содержательная проверка этого изображения не завершена; чтение окружающего HTML не заменяет её."
+        }
+      ]
+    },
+    {
+      "module": 6,
+      "lesson_id": 770587,
+      "step_id": 3213207,
+      "type": "text",
+      "path": "courses/86957/steps/770587/04_3213207_text.step",
+      "source_sha256": "de5a1dabe55e8b1157a3839c9d27d9dc8ed3e2321a2c723c3579b3a2a72d1c2b",
+      "text_review": "checked_current_block_text",
+      "result": "confirmed_defect_corrected",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [
+        {
+          "pre_index": 0,
+          "standard": "c11"
+        },
+        {
+          "pre_index": 0,
+          "standard": "c17"
+        },
+        {
+          "pre_index": 1,
+          "standard": "c11"
+        },
+        {
+          "pre_index": 1,
+          "standard": "c17"
+        },
+        {
+          "pre_index": 5,
+          "standard": "c11"
+        },
+        {
+          "pre_index": 5,
+          "standard": "c17"
+        }
+      ],
+      "images": [],
+      "correction_path": "corrections/86957/steps/770587/04_3213207_text.step"
+    },
+    {
+      "module": 6,
+      "lesson_id": 770587,
+      "step_id": 3213210,
+      "type": "text",
+      "path": "courses/86957/steps/770587/05_3213210_text.step",
+      "source_sha256": "b3d1c4316dde5c51c0bcf986fe994cf41fbb8e00d937cb44afd6b7e60c29db86",
+      "text_review": "checked_current_block_text",
+      "result": "confirmed_defect_corrected",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [
+        {
+          "pre_index": 0,
+          "standard": "c11"
+        },
+        {
+          "pre_index": 0,
+          "standard": "c17"
+        },
+        {
+          "pre_index": 4,
+          "standard": "c11"
+        },
+        {
+          "pre_index": 4,
+          "standard": "c17"
+        }
+      ],
+      "images": [],
+      "correction_path": "corrections/86957/steps/770587/05_3213210_text.step"
+    },
+    {
+      "module": 6,
+      "lesson_id": 770587,
+      "step_id": 3307684,
+      "type": "text",
+      "path": "courses/86957/steps/770587/06_3307684_text.step",
+      "source_sha256": "f9b671f51aa40ce3cd6864a9e02cdd454c8b1d2d3247b11c8019af626e6b55b8",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [
+        {
+          "pre_index": 0,
+          "standard": "c++17"
+        },
+        {
+          "pre_index": 0,
+          "standard": "c++20"
+        }
+      ],
+      "images": []
+    },
+    {
+      "module": 6,
+      "lesson_id": 770587,
+      "step_id": 3213206,
+      "type": "text",
+      "path": "courses/86957/steps/770587/07_3213206_text.step",
+      "source_sha256": "8731a14b783e9bf85d86c5b4f5b6bdce3a5265dc546dd58a7b747c8b6d559234",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "not_applicable",
+      "full_example_compilation": [],
+      "images": [
+        {
+          "path": "courses/86957/assets/8bacf6c8310188e7ab541d427ddf60847e54822716c35cf4a8b539c1296aa262.png",
+          "status": "uncertain",
+          "reason": "Отдельная содержательная проверка этого изображения не завершена; чтение окружающего HTML не заменяет её."
+        },
+        {
+          "path": "courses/86957/assets/bc45b76fcc2c917bb0a292b0347b31b1fc100c862a3a4f7aeb64bde09c0c8f99.png",
+          "status": "uncertain",
+          "reason": "Отдельная содержательная проверка этого изображения не завершена; чтение окружающего HTML не заменяет её."
+        },
+        {
+          "path": "courses/86957/assets/8d21b3e796004f9593548e6bf33c5afc89955f1993a7773f5b0358c8f0f19da1.png",
+          "status": "uncertain",
+          "reason": "Отдельная содержательная проверка этого изображения не завершена; чтение окружающего HTML не заменяет её."
+        }
+      ]
+    },
+    {
+      "module": 6,
+      "lesson_id": 770587,
+      "step_id": 3324316,
+      "type": "choice",
+      "path": "courses/86957/steps/770587/08_3324316_choice.step",
+      "source_sha256": "ed4add90c8bc3eb68e4183ba1cecb9a01044c5c612a30e09ce4b05019594240c",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 6,
+      "lesson_id": 770587,
+      "step_id": 3324363,
+      "type": "choice",
+      "path": "courses/86957/steps/770587/09_3324363_choice.step",
+      "source_sha256": "612277c06952456bd7bb707f17d1922be4f1544fa44ec26123dc09ce6b71d812",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 6,
+      "lesson_id": 770587,
+      "step_id": 3330738,
+      "type": "choice",
+      "path": "courses/86957/steps/770587/10_3330738_choice.step",
+      "source_sha256": "e190217705c8dc16f2464b03d966db5b7f95fade8e104ebcffb34466574c6b2b",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 6,
+      "lesson_id": 770587,
+      "step_id": 3332379,
+      "type": "choice",
+      "path": "courses/86957/steps/770587/11_3332379_choice.step",
+      "source_sha256": "aab3179c7c9dd4fb48eccac8d02f971f715d52cd87f4996dd35282cf3251f6ec",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 6,
+      "lesson_id": 770587,
+      "step_id": 3333765,
+      "type": "choice",
+      "path": "courses/86957/steps/770587/12_3333765_choice.step",
+      "source_sha256": "33743d9e9b9373938cc1688546d6f0789e0c996e3f6dfc53e9146572708c56b5",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 6,
+      "lesson_id": 770587,
+      "step_id": 3333774,
+      "type": "choice",
+      "path": "courses/86957/steps/770587/13_3333774_choice.step",
+      "source_sha256": "cf37e8e87441ac75ae5404a6435416e06ceb6ca402a10731585ffcfa82ce953e",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 6,
+      "lesson_id": 770587,
+      "step_id": 3333775,
+      "type": "choice",
+      "path": "courses/86957/steps/770587/14_3333775_choice.step",
+      "source_sha256": "7e4f9ee28231d1274a86d9bd4c1a11f1dd93311705e3843f0510c75ba56ae70c",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 6,
+      "lesson_id": 770587,
+      "step_id": 3333793,
+      "type": "choice",
+      "path": "courses/86957/steps/770587/15_3333793_choice.step",
+      "source_sha256": "d30968d69a98ac70defc51763f5bbf906ad086af7372adac031a6692b0bdcb05",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    },
+    {
+      "module": 6,
+      "lesson_id": 770587,
+      "step_id": 3333794,
+      "type": "choice",
+      "path": "courses/86957/steps/770587/16_3333794_choice.step",
+      "source_sha256": "ae63fc449da6ebf7e63a3cf63be0300b3c4f14014900df0e03b0a118e5784164",
+      "text_review": "checked_current_block_text",
+      "result": "no_additional_defect_confirmed_in_checked_scope",
+      "answer_key_review": "checked_against_question",
+      "full_example_compilation": [],
+      "images": []
+    }
+  ]
+}

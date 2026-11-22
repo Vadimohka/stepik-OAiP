@@ -1,0 +1,31 @@
+/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3669142_negative_after.cpp:16:60: error: invalid use of incomplete type ‘class Display’
+   16 |     friend void Display::displayItem(const Storage& storage);
+      |                                                            ^
+/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3669142_negative_after.cpp:2:7: note: forward declaration of ‘class Display’
+    2 | class Display; // Предварительное объявление для класса Display
+      |       ^~~~~~~
+/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3669142_negative_after.cpp: In member function ‘void Display::displayItem(const Storage&)’:
+/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3669142_negative_after.cpp:31:34: error: ‘int Storage::m_nValue’ is private within this context
+   31 |             std::cout << storage.m_nValue << ' ' << storage.m_dValue << '\n';
+      |                                  ^~~~~~~~
+/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3669142_negative_after.cpp:6:9: note: declared private here
+    6 |     int m_nValue;
+      |         ^~~~~~~~
+/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3669142_negative_after.cpp:31:61: error: ‘double Storage::m_dValue’ is private within this context
+   31 |             std::cout << storage.m_nValue << ' ' << storage.m_dValue << '\n';
+      |                                                             ^~~~~~~~
+/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3669142_negative_after.cpp:7:12: note: declared private here
+    7 |     double m_dValue;
+      |            ^~~~~~~~
+/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3669142_negative_after.cpp:33:34: error: ‘double Storage::m_dValue’ is private within this context
+   33 |             std::cout << storage.m_dValue << ' ' << storage.m_nValue << '\n';
+      |                                  ^~~~~~~~
+/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3669142_negative_after.cpp:7:12: note: declared private here
+    7 |     double m_dValue;
+      |            ^~~~~~~~
+/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3669142_negative_after.cpp:33:61: error: ‘int Storage::m_nValue’ is private within this context
+   33 |             std::cout << storage.m_dValue << ' ' << storage.m_nValue << '\n';
+      |                                                             ^~~~~~~~
+/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3669142_negative_after.cpp:6:9: note: declared private here
+    6 |     int m_nValue;
+      |         ^~~~~~~~

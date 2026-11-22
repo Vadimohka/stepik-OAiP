@@ -1,0 +1,10 @@
+/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3570303_copy_after.cpp: In function ‘int main()’:
+/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3570303_copy_after.cpp:452:22: error: use of deleted function ‘RBT<T, T1>::RBT(const RBT<T, T1>&) [with T = int; T1 = int]’
+  452 |     RBT<int,int> b = a; b.add(3,30);
+      |                      ^
+/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3570303_copy_after.cpp:13:5: note: declared here
+   13 |     RBT(const RBT&) = delete;
+      |     ^~~
+/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3570303_copy_after.cpp:452:22: note: use ‘-fdiagnostics-all-candidates’ to display considered candidates
+  452 |     RBT<int,int> b = a; b.add(3,30);
+      |                      ^

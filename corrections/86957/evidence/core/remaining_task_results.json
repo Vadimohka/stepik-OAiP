@@ -1,0 +1,39 @@
+{
+  "4734985": {
+    "stored_cases_checked": 4,
+    "strings_checked": 17,
+    "independent_exhaustive_binary_strings": 1022,
+    "all_equal_boundary_length": 100000,
+    "mismatches": 0
+  },
+  "3496826": {
+    "stored_cases_checked": 11,
+    "sequence_values_constructed_and_suffix_verified": 10000,
+    "mismatches": 0
+  },
+  "4738986": {
+    "stored_cases_bruteforce_checked": 5,
+    "small_random_graphs_checked": 60,
+    "generated_cases_constraints_checked": 5,
+    "maximal_chain_checked": {
+      "n": 100000,
+      "m": 100000,
+      "k": 54321
+    },
+    "not_executed": "Full reference solve was not run on the other four generated maximal graphs.",
+    "mismatches": 0
+  },
+  "4927308": {
+    "positive_checks": 13,
+    "negative_checks": 29,
+    "orders_with_positive_square_fixtures": [
+      1,
+      3,
+      4,
+      6
+    ],
+    "generated_cases_constraints_checked": 14,
+    "not_executed": "Large generated square outputs were not constructed/executed; checker logic and distinct sizes were tested directly.",
+    "mismatches": 0
+  }
+}

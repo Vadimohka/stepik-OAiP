@@ -1,0 +1,31 @@
+{
+  "step_id": 5850209,
+  "reviewer": "core_errors",
+  "status": "passed",
+  "read_files": [
+    "corrections/86957/evidence/final_task/verify_yaml_ini.py",
+    "corrections/86957/steps/1409621/01_5850209_code.step"
+  ],
+  "independent_fixture": {
+    "dataset": "2\n9\nrootfirst: one\na:\n    k: two\n    b:\n        c: three\n    tail: four\nrootlast: five\nz:\n    v: six\n1\nlast: seven\n",
+    "expected": "rootfirst = one\n\n[a]\nk = two\n\n[a.b]\nc = three\n\n[a]\ntail = four\n\nrootlast = five\n\n[z]\nv = six\n\nlast = seven\n\n",
+    "dimensions": {
+      "files": 2,
+      "pairs": 7,
+      "max_depth": 2
+    }
+  },
+  "positive_cases": 4,
+  "negative_cases": 7,
+  "checked_properties": [
+    "Repeated parent path after nested section",
+    "Return to root after child dictionary",
+    "Preserved pair order",
+    "Boundary between two INI documents",
+    "LF/CRLF and omitted final newline",
+    "Leading/trailing spaces, internal blank lines and lone CR remain significant"
+  ],
+  "limitations": [
+    "Did not execute the full Stepik judge; local checker and parser review only."
+  ]
+}

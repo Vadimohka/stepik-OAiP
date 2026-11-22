@@ -1,0 +1,15 @@
+/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3215234_before.cpp:60:21: runtime error: member access within null pointer of type 'struct User'
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==878==ERROR: AddressSanitizer: SEGV on unknown address 0x000000000010 (pc 0x00000040191a bp 0x7fff94a24220 sp 0x7fff94a240b0 T0)
+==878==The signal is caused by a WRITE memory access.
+==878==Hint: address points to the zero page.
+    #0 0x40191a in course_main() /workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3215234_before.cpp:60
+    #1 0x401db1 in main /workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3215234_before.cpp:80
+    #2 0x7f22bd169ca7  (/lib/x86_64-linux-gnu/libc.so.6+0x29ca7) (BuildId: 5e5b51f4c39af9ac589408c1dc432ba390a273cc)
+    #3 0x7f22bd169d64 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x29d64) (BuildId: 5e5b51f4c39af9ac589408c1dc432ba390a273cc)
+    #4 0x4011c0 in _start (/workspace/scratch/5cac751e885e/_work/advanced_build/3215234_before+0x4011c0) (BuildId: 2a40f259c882b580cf9a2930d7ea4b0268dc7889)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3215234_before.cpp:60 in course_main()
+==878==ABORTING

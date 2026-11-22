@@ -1,0 +1,87 @@
+[
+  {
+    "step_id": 4949336,
+    "lesson_id": 770589,
+    "path": "corrections/86957/steps/770589/15_4949336_code.step",
+    "severity": "high",
+    "title": "Проверка теряла значимые крайние пробелы преобразуемого текста",
+    "before": {
+      "block.source.code": "return reply.strip() == clue.strip()",
+      "block.source.test_cases.count": 25
+    },
+    "after": {
+      "block.source.code": "return reply.rstrip(\"\\r\\n\") == clue.rstrip(\"\\r\\n\")",
+      "block.source.test_cases.count": 28,
+      "added_cases": [
+        [
+          " x ",
+          " ks "
+        ],
+        [
+          "   ",
+          "   "
+        ],
+        [
+          " QW ",
+          "  "
+        ]
+      ]
+    },
+    "rationale": "Условие требует сохранять пробелы. Для входа « x » точный ответ « ks », но strip() принимал неверный «ks». Для строки из трёх пробелов прежняя проверка принимала даже пустой ответ. Разрешены завершающие переводы строки, но пробелы остаются частью ответа.",
+    "changed_fields": [
+      "block.source.code",
+      "block.source.test_cases"
+    ],
+    "evidence": [
+      "corrections/86957/evidence/core/fix_verification.json",
+      "corrections/86957/evidence/core/check_task_answers.py",
+      "corrections/86957/evidence/core/task_answer_results.json"
+    ],
+    "source_urls": [
+      "https://stepik.org/lesson/770589/step/15"
+    ]
+  },
+  {
+    "step_id": 3214910,
+    "lesson_id": 770590,
+    "path": "corrections/86957/steps/770590/03_3214910_text.step",
+    "severity": "medium",
+    "title": "Возведение в степень вычисляло лишнее x*x при n=1 и срывало constexpr",
+    "before": "После проверки n==0 функция сразу вычисляла exp(x*x, (n-1)/2)*x для нечётного n, включая n=1.",
+    "after": "Добавлен базовый случай n==1: return x; до умножения x*x.",
+    "rationale": "exp(FLT_MAX,1) и exp(2.0f,127) имеют представимый результат, но прежняя функция вычисляет промежуточное переполняющееся x*x. GCC 14.2.0 в C++17 и C++20 отвергает такие константные выражения. Исправленный базовый случай убирает лишнюю операцию, сохраняя прежний алгоритм.",
+    "changed_fields": [
+      "block.text"
+    ],
+    "evidence": [
+      "corrections/86957/evidence/core/fix_verification.json",
+      "corrections/86957/evidence/core/constexpr_power_before.cpp",
+      "corrections/86957/evidence/core/constexpr_power_after.cpp",
+      "corrections/86957/evidence/core/constexpr_power_invalid_result.cpp"
+    ],
+    "source_urls": [
+      "https://stepik.org/lesson/770590/step/3"
+    ]
+  },
+  {
+    "step_id": 3215206,
+    "lesson_id": 771130,
+    "path": "corrections/86957/steps/771130/03_3215206_text.step",
+    "severity": "medium",
+    "title": "Фрагмент дозаписи в файл не компилировался после копирования из-за U+00A0",
+    "before": "Во втором <pre> 4 неразрывных пробела перед out << и 7 после out.close(); вне строк и комментариев.",
+    "after": "Ровно эти 11 U+00A0 заменены обычными пробелами в том же блоке кода.",
+    "rationale": "Копирование отображаемого кода сохраняет U+00A0. GCC 14.2.0 сообщает extended character is not valid in an identifier в режимах C++17 и C++20. После замены фрагмент компилируется и дописывает Welcome to CPP, сохраняя ранее записанную строку.",
+    "changed_fields": [
+      "block.text"
+    ],
+    "evidence": [
+      "corrections/86957/evidence/core/fix_verification.json",
+      "corrections/86957/evidence/core/file_append_before.cpp",
+      "corrections/86957/evidence/core/file_append_after.cpp"
+    ],
+    "source_urls": [
+      "https://stepik.org/lesson/771130/step/3"
+    ]
+  }
+]

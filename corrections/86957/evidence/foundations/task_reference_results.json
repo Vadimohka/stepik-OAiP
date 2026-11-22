@@ -1,0 +1,157 @@
+{
+  "method": "Independent exact integer / 1000-digit Decimal mathematical references checked against every stored testcase",
+  "task_count": 25,
+  "testcase_count": 218,
+  "results": [
+    {
+      "step_id": 4643238,
+      "case_count": 9,
+      "failures": [],
+      "checked_path": "courses/86957/steps/763630/09_4643238_code.step"
+    },
+    {
+      "step_id": 3262682,
+      "case_count": 7,
+      "failures": [],
+      "checked_path": "courses/86957/steps/763630/11_3262682_code.step"
+    },
+    {
+      "step_id": 3262692,
+      "case_count": 6,
+      "failures": [],
+      "checked_path": "courses/86957/steps/763630/12_3262692_code.step"
+    },
+    {
+      "step_id": 3262772,
+      "case_count": 8,
+      "failures": [],
+      "checked_path": "courses/86957/steps/763639/05_3262772_code.step"
+    },
+    {
+      "step_id": 3262735,
+      "case_count": 7,
+      "failures": [],
+      "checked_path": "courses/86957/steps/763639/06_3262735_code.step"
+    },
+    {
+      "step_id": 3264578,
+      "case_count": 9,
+      "failures": [],
+      "checked_path": "courses/86957/steps/763639/07_3264578_code.step"
+    },
+    {
+      "step_id": 3269060,
+      "case_count": 15,
+      "failures": [],
+      "checked_path": "courses/86957/steps/763640/03_3269060_code.step"
+    },
+    {
+      "step_id": 3280697,
+      "case_count": 8,
+      "failures": [],
+      "checked_path": "courses/86957/steps/763640/04_3280697_code.step"
+    },
+    {
+      "step_id": 3264622,
+      "case_count": 5,
+      "failures": [],
+      "checked_path": "courses/86957/steps/763640/05_3264622_code.step"
+    },
+    {
+      "step_id": 3280727,
+      "case_count": 13,
+      "failures": [],
+      "checked_path": "courses/86957/steps/763640/06_3280727_code.step"
+    },
+    {
+      "step_id": 3281279,
+      "case_count": 11,
+      "failures": [],
+      "checked_path": "courses/86957/steps/763640/07_3281279_code.step"
+    },
+    {
+      "step_id": 3281287,
+      "case_count": 22,
+      "failures": [],
+      "checked_path": "courses/86957/steps/763640/08_3281287_code.step"
+    },
+    {
+      "step_id": 3281353,
+      "case_count": 7,
+      "failures": [],
+      "checked_path": "courses/86957/steps/763640/09_3281353_code.step"
+    },
+    {
+      "step_id": 3384444,
+      "case_count": 14,
+      "failures": [],
+      "checked_path": "courses/86957/steps/763644/01_3384444_code.step"
+    },
+    {
+      "step_id": 3383209,
+      "case_count": 8,
+      "failures": [],
+      "checked_path": "courses/86957/steps/763644/10_3383209_code.step"
+    },
+    {
+      "step_id": 3341723,
+      "case_count": 8,
+      "failures": [],
+      "checked_path": "courses/86957/steps/763646/08_3341723_code.step"
+    },
+    {
+      "step_id": 3381234,
+      "case_count": 7,
+      "failures": [],
+      "checked_path": "courses/86957/steps/763646/09_3381234_code.step"
+    },
+    {
+      "step_id": 3381291,
+      "case_count": 6,
+      "failures": [],
+      "checked_path": "courses/86957/steps/763646/10_3381291_code.step"
+    },
+    {
+      "step_id": 3382745,
+      "case_count": 10,
+      "failures": [],
+      "checked_path": "courses/86957/steps/763646/11_3382745_code.step"
+    },
+    {
+      "step_id": 3383135,
+      "case_count": 7,
+      "failures": [],
+      "checked_path": "courses/86957/steps/763646/12_3383135_code.step"
+    },
+    {
+      "step_id": 3177566,
+      "case_count": 3,
+      "failures": [],
+      "checked_path": "courses/86957/steps/763719/03_3177566_code.step"
+    },
+    {
+      "step_id": 3177655,
+      "case_count": 3,
+      "failures": [],
+      "checked_path": "courses/86957/steps/763719/05_3177655_code.step"
+    },
+    {
+      "step_id": 3299645,
+      "case_count": 4,
+      "failures": [],
+      "checked_path": "courses/86957/steps/763719/08_3299645_code.step"
+    },
+    {
+      "step_id": 4672519,
+      "case_count": 9,
+      "failures": [],
+      "checked_path": "courses/86957/steps/770585/12_4672519_code.step"
+    },
+    {
+      "step_id": 4700496,
+      "case_count": 12,
+      "failures": [],
+      "checked_path": "corrections/86957/steps/770586/12_4700496_code.step"
+    }
+  ]
+}

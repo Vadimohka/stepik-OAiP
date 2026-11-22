@@ -1,0 +1,17 @@
+/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3215235_before.cpp:37:11: runtime error: null pointer passed as argument 1, which is declared to never be null
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==911==ERROR: AddressSanitizer: SEGV on unknown address 0x000000000000 (pc 0x7f6d9f25f604 bp 0x7ffd06d28020 sp 0x7ffd06d27ff8 T0)
+==911==The signal is caused by a WRITE memory access.
+==911==Hint: address points to the zero page.
+    #0 0x7f6d9f25f604  (/lib/x86_64-linux-gnu/libc.so.6+0x175604) (BuildId: 5e5b51f4c39af9ac589408c1dc432ba390a273cc)
+    #1 0x401312 in mallocByString(char const*) /workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3215235_before.cpp:37
+    #2 0x4015c3 in course_main() /workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3215235_before.cpp:55
+    #3 0x4016b9 in main /workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3215235_before.cpp:67
+    #4 0x7f6d9f113ca7  (/lib/x86_64-linux-gnu/libc.so.6+0x29ca7) (BuildId: 5e5b51f4c39af9ac589408c1dc432ba390a273cc)
+    #5 0x7f6d9f113d64 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x29d64) (BuildId: 5e5b51f4c39af9ac589408c1dc432ba390a273cc)
+    #6 0x4011b0 in _start (/workspace/scratch/5cac751e885e/_work/advanced_build/3215235_before+0x4011b0) (BuildId: 62c95ff053e13c336419c86f4cf1b2a32bd79f2d)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV (/lib/x86_64-linux-gnu/libc.so.6+0x175604) (BuildId: 5e5b51f4c39af9ac589408c1dc432ba390a273cc) 
+==911==ABORTING

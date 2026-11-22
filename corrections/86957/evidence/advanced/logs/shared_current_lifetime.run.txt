@@ -1,0 +1,1 @@
+teaching shared_ptr/weak_ptr: lifetime, self-weak, copy, nested move and expired lock passed

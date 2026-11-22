@@ -1,0 +1,98 @@
+[
+  {
+    "name": "empty",
+    "input": "",
+    "stdout": "",
+    "exit_code": 0
+  },
+  {
+    "name": "whitespace_only",
+    "input": " \t\n\r\u000b\f",
+    "stdout": "",
+    "exit_code": 0
+  },
+  {
+    "name": "immediate_end",
+    "input": "end ignored",
+    "stdout": "",
+    "exit_code": 0
+  },
+  {
+    "name": "ordinary",
+    "input": "alpha beta end ignored",
+    "stdout": "alpha\nbeta\n",
+    "exit_code": 0
+  },
+  {
+    "name": "eof_after_word",
+    "input": "alpha beta",
+    "stdout": "alpha\nbeta\n",
+    "exit_code": 0
+  },
+  {
+    "name": "all_whitespace_separators",
+    "input": "a\tb\nc\rd\u000be\ff end",
+    "stdout": "a\nb\nc\nd\ne\nf\n",
+    "exit_code": 0
+  },
+  {
+    "name": "two_reallocations",
+    "input": "word0 word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12 word13 word14 word15 word16 word17 word18 word19 word20 word21 word22 word23 word24 end",
+    "stdout": "word0\nword1\nword2\nword3\nword4\nword5\nword6\nword7\nword8\nword9\nword10\nword11\nword12\nword13\nword14\nword15\nword16\nword17\nword18\nword19\nword20\nword21\nword22\nword23\nword24\n",
+    "exit_code": 0
+  },
+  {
+    "name": "126_bytes",
+    "input": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa end",
+    "stdout": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n",
+    "exit_code": 0
+  },
+  {
+    "name": "127_bytes_then_delimiter",
+    "input": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa end",
+    "stdout": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n",
+    "exit_code": 0
+  },
+  {
+    "name": "127_bytes_then_eof",
+    "input": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "stdout": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n",
+    "exit_code": 0
+  },
+  {
+    "name": "128_bytes",
+    "input": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa end",
+    "stdout": "",
+    "exit_code": 1
+  },
+  {
+    "name": "false_end_suffix",
+    "input": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaend tail end",
+    "stdout": "",
+    "exit_code": 1
+  },
+  {
+    "name": "free_prior_words_on_rejection",
+    "input": "keep aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa end",
+    "stdout": "keep\n",
+    "exit_code": 1
+  },
+  {
+    "name": "end_prefix_is_word",
+    "input": "endless end",
+    "stdout": "endless\n",
+    "exit_code": 0
+  },
+  {
+    "name": "utf8_126_bytes",
+    "input": "яяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяя end",
+    "stdout": "яяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяя\n",
+    "exit_code": 0
+  },
+  {
+    "name": "utf8_128_bytes",
+    "input": "яяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяя end",
+    "stdout": "",
+    "exit_code": 1
+  }
+]

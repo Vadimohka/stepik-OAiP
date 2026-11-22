@@ -1,0 +1,1742 @@
+{
+  "base_commit": "d936c0ee8d9f720ba26fec1b109a1153ae3b5930",
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "c_compiler": "gcc (Debian 14.2.0-19) 14.2.0",
+  "preservation": [
+    {
+      "step_id": 3177504,
+      "changed_fields": [
+        "block.text"
+      ],
+      "source_sha256": "5ba206de2cca73cf44959ff968a0f3d594529b914876f04de41874aadc86e062",
+      "source_unchanged_from_base": true,
+      "staged_path": "corrections/86957/steps/763639/03_3177504_text.step"
+    },
+    {
+      "step_id": 3177565,
+      "changed_fields": [
+        "block.text"
+      ],
+      "source_sha256": "a0370f3df1564883661c9c0705dd4cd03c2dba0c1abf08958bbf37a27933b6fa",
+      "source_unchanged_from_base": true,
+      "staged_path": "corrections/86957/steps/763719/02_3177565_text.step"
+    },
+    {
+      "step_id": 3177651,
+      "changed_fields": [
+        "block.text"
+      ],
+      "source_sha256": "3ad099e7d607b8abb732b4cc604b7ee3292e53c5eb9bf7e89dbd3c39ec3f6a70",
+      "source_unchanged_from_base": true,
+      "staged_path": "corrections/86957/steps/763719/04_3177651_text.step"
+    },
+    {
+      "step_id": 3213207,
+      "changed_fields": [
+        "block.text"
+      ],
+      "source_sha256": "de5a1dabe55e8b1157a3839c9d27d9dc8ed3e2321a2c723c3579b3a2a72d1c2b",
+      "source_unchanged_from_base": true,
+      "staged_path": "corrections/86957/steps/770587/04_3213207_text.step"
+    },
+    {
+      "step_id": 3213210,
+      "changed_fields": [
+        "block.text"
+      ],
+      "source_sha256": "b3d1c4316dde5c51c0bcf986fe994cf41fbb8e00d937cb44afd6b7e60c29db86",
+      "source_unchanged_from_base": true,
+      "staged_path": "corrections/86957/steps/770587/05_3213210_text.step"
+    },
+    {
+      "step_id": 3215105,
+      "changed_fields": [
+        "block.text"
+      ],
+      "source_sha256": "8425ed4a29ff826c12fd5eb7650151855578333e30914fee66b4ee1468b414bc",
+      "source_unchanged_from_base": true,
+      "staged_path": "corrections/86957/steps/763640/02_3215105_text.step"
+    },
+    {
+      "step_id": 3267786,
+      "changed_fields": [
+        "block.source.case_sensitive"
+      ],
+      "source_sha256": "09a0b252aec37cd2dd6da7d917a99aa81cc9a4a0b86a1f877128f43b6c648ea0",
+      "source_unchanged_from_base": true,
+      "staged_path": "corrections/86957/steps/768143/07_3267786_string.step"
+    },
+    {
+      "step_id": 3438841,
+      "changed_fields": [
+        "block.text"
+      ],
+      "source_sha256": "519a9311f0b244b4b155cea25ae30714064c6151e65470b66f68e7a2cd436456",
+      "source_unchanged_from_base": true,
+      "staged_path": "corrections/86957/steps/770586/06_3438841_text.step"
+    },
+    {
+      "step_id": 4700496,
+      "changed_fields": [
+        "block.text"
+      ],
+      "source_sha256": "faf583a634c6d53b9e9c3e9702c2ad1074968aa8fce095822dea8c91cd4f4c4a",
+      "source_unchanged_from_base": true,
+      "staged_path": "corrections/86957/steps/770586/12_4700496_code.step"
+    }
+  ],
+  "nbsp_examples": [
+    {
+      "step_id": 3177504,
+      "pre_index": 0,
+      "standard": "c++17",
+      "before": {
+        "standard": "c++17",
+        "exit_code": 1,
+        "compiler_flags": [
+          "-std=c++17",
+          "-Wall",
+          "-Wextra",
+          "-Wpedantic",
+          "-pedantic-errors"
+        ],
+        "diagnostic_excerpt": "<tmp>/nbsp_3177504_0_c++17_before.cpp:2:16: error: extended character   is not valid in an identifier\n    2 | int a = 2 << 2;           // 10  на два разряда влево = 1000 - 8\n      |                ^\n<tmp>/nbsp_3177504_0_c++17_before.cpp:2:16: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177504_0_c++17_before.cpp:2:16: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177504_0_c++17_before.cpp:2:16: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177504_0_c++17_before.cpp:2:16: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177504_0_c++17_before.cpp:2:16: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177504_0_c++17_before.cpp:2:16: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177504_0_c++17_before.cpp:2:16: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177504_0_c++17_before.cpp:2:16: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177504_0_c++17_before.cpp:2:16: error: extended character   is not valid"
+      },
+      "after": {
+        "standard": "c++17",
+        "exit_code": 0,
+        "compiler_flags": [
+          "-std=c++17",
+          "-Wall",
+          "-Wextra",
+          "-Wpedantic",
+          "-pedantic-errors"
+        ],
+        "diagnostic_excerpt": "",
+        "run": {
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      }
+    },
+    {
+      "step_id": 3177504,
+      "pre_index": 0,
+      "standard": "c++20",
+      "before": {
+        "standard": "c++20",
+        "exit_code": 1,
+        "compiler_flags": [
+          "-std=c++20",
+          "-Wall",
+          "-Wextra",
+          "-Wpedantic",
+          "-pedantic-errors"
+        ],
+        "diagnostic_excerpt": "<tmp>/nbsp_3177504_0_c++20_before.cpp:2:16: error: extended character   is not valid in an identifier\n    2 | int a = 2 << 2;           // 10  на два разряда влево = 1000 - 8\n      |                ^\n<tmp>/nbsp_3177504_0_c++20_before.cpp:2:16: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177504_0_c++20_before.cpp:2:16: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177504_0_c++20_before.cpp:2:16: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177504_0_c++20_before.cpp:2:16: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177504_0_c++20_before.cpp:2:16: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177504_0_c++20_before.cpp:2:16: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177504_0_c++20_before.cpp:2:16: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177504_0_c++20_before.cpp:2:16: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177504_0_c++20_before.cpp:2:16: error: extended character   is not valid"
+      },
+      "after": {
+        "standard": "c++20",
+        "exit_code": 0,
+        "compiler_flags": [
+          "-std=c++20",
+          "-Wall",
+          "-Wextra",
+          "-Wpedantic",
+          "-pedantic-errors"
+        ],
+        "diagnostic_excerpt": "",
+        "run": {
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      }
+    },
+    {
+      "step_id": 3177504,
+      "pre_index": 1,
+      "standard": "c++17",
+      "before": {
+        "standard": "c++17",
+        "exit_code": 1,
+        "compiler_flags": [
+          "-std=c++17",
+          "-Wall",
+          "-Wextra",
+          "-Wpedantic",
+          "-pedantic-errors"
+        ],
+        "diagnostic_excerpt": "<tmp>/nbsp_3177504_1_c++17_before.cpp:2:15: error: extended character   is not valid in an identifier\n    2 | int a = 5 | 2;          // 101 | 010 = 111  - 7\n      |               ^\n<tmp>/nbsp_3177504_1_c++17_before.cpp:2:15: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177504_1_c++17_before.cpp:2:15: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177504_1_c++17_before.cpp:2:15: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177504_1_c++17_before.cpp:2:15: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177504_1_c++17_before.cpp:2:15: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177504_1_c++17_before.cpp:2:15: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177504_1_c++17_before.cpp:2:15: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177504_1_c++17_before.cpp:2:15: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177504_1_c++17_before.cpp:4:15: error: extended character   is not valid in an identifier\n"
+      },
+      "after": {
+        "standard": "c++17",
+        "exit_code": 0,
+        "compiler_flags": [
+          "-std=c++17",
+          "-Wall",
+          "-Wextra",
+          "-Wpedantic",
+          "-pedantic-errors"
+        ],
+        "diagnostic_excerpt": "",
+        "run": {
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      }
+    },
+    {
+      "step_id": 3177504,
+      "pre_index": 1,
+      "standard": "c++20",
+      "before": {
+        "standard": "c++20",
+        "exit_code": 1,
+        "compiler_flags": [
+          "-std=c++20",
+          "-Wall",
+          "-Wextra",
+          "-Wpedantic",
+          "-pedantic-errors"
+        ],
+        "diagnostic_excerpt": "<tmp>/nbsp_3177504_1_c++20_before.cpp:2:15: error: extended character   is not valid in an identifier\n    2 | int a = 5 | 2;          // 101 | 010 = 111  - 7\n      |               ^\n<tmp>/nbsp_3177504_1_c++20_before.cpp:2:15: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177504_1_c++20_before.cpp:2:15: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177504_1_c++20_before.cpp:2:15: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177504_1_c++20_before.cpp:2:15: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177504_1_c++20_before.cpp:2:15: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177504_1_c++20_before.cpp:2:15: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177504_1_c++20_before.cpp:2:15: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177504_1_c++20_before.cpp:2:15: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177504_1_c++20_before.cpp:4:15: error: extended character   is not valid in an identifier\n"
+      },
+      "after": {
+        "standard": "c++20",
+        "exit_code": 0,
+        "compiler_flags": [
+          "-std=c++20",
+          "-Wall",
+          "-Wextra",
+          "-Wpedantic",
+          "-pedantic-errors"
+        ],
+        "diagnostic_excerpt": "",
+        "run": {
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      }
+    },
+    {
+      "step_id": 3215105,
+      "pre_index": 1,
+      "standard": "c++17",
+      "before": {
+        "standard": "c++17",
+        "exit_code": 1,
+        "compiler_flags": [
+          "-std=c++17",
+          "-Wall",
+          "-Wextra",
+          "-Wpedantic",
+          "-pedantic-errors"
+        ],
+        "diagnostic_excerpt": "<tmp>/nbsp_3215105_1_c++17_before.cpp:4:1: error: extended character   is not valid in an identifier\n    4 |     int x = 2;\n      | ^\n<tmp>/nbsp_3215105_1_c++17_before.cpp:4:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3215105_1_c++17_before.cpp:4:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3215105_1_c++17_before.cpp:4:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3215105_1_c++17_before.cpp:5:1: error: extended character   is not valid in an identifier\n    5 |     switch(x) {\n      | ^\n<tmp>/nbsp_3215105_1_c++17_before.cpp:5:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3215105_1_c++17_before.cpp:5:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3215105_1_c++17_before.cpp:5:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3215105_1_c++17_before.cpp:6:1: error: extended character   is not valid in an identifier\n    6 |         case 1:\n      | ^\n<tmp>/nbsp_3215105_1_c++17_before.cpp:6:1: error: extended character   is not valid in an "
+      },
+      "after": {
+        "standard": "c++17",
+        "exit_code": 0,
+        "compiler_flags": [
+          "-std=c++17",
+          "-Wall",
+          "-Wextra",
+          "-Wpedantic",
+          "-pedantic-errors"
+        ],
+        "diagnostic_excerpt": "",
+        "run": {
+          "exit_code": 0,
+          "stdout": "x = 2\n",
+          "stderr": ""
+        }
+      }
+    },
+    {
+      "step_id": 3215105,
+      "pre_index": 1,
+      "standard": "c++20",
+      "before": {
+        "standard": "c++20",
+        "exit_code": 1,
+        "compiler_flags": [
+          "-std=c++20",
+          "-Wall",
+          "-Wextra",
+          "-Wpedantic",
+          "-pedantic-errors"
+        ],
+        "diagnostic_excerpt": "<tmp>/nbsp_3215105_1_c++20_before.cpp:4:1: error: extended character   is not valid in an identifier\n    4 |     int x = 2;\n      | ^\n<tmp>/nbsp_3215105_1_c++20_before.cpp:4:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3215105_1_c++20_before.cpp:4:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3215105_1_c++20_before.cpp:4:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3215105_1_c++20_before.cpp:5:1: error: extended character   is not valid in an identifier\n    5 |     switch(x) {\n      | ^\n<tmp>/nbsp_3215105_1_c++20_before.cpp:5:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3215105_1_c++20_before.cpp:5:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3215105_1_c++20_before.cpp:5:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3215105_1_c++20_before.cpp:6:1: error: extended character   is not valid in an identifier\n    6 |         case 1:\n      | ^\n<tmp>/nbsp_3215105_1_c++20_before.cpp:6:1: error: extended character   is not valid in an "
+      },
+      "after": {
+        "standard": "c++20",
+        "exit_code": 0,
+        "compiler_flags": [
+          "-std=c++20",
+          "-Wall",
+          "-Wextra",
+          "-Wpedantic",
+          "-pedantic-errors"
+        ],
+        "diagnostic_excerpt": "",
+        "run": {
+          "exit_code": 0,
+          "stdout": "x = 2\n",
+          "stderr": ""
+        }
+      }
+    },
+    {
+      "step_id": 3215105,
+      "pre_index": 2,
+      "standard": "c++17",
+      "before": {
+        "standard": "c++17",
+        "exit_code": 1,
+        "compiler_flags": [
+          "-std=c++17",
+          "-Wall",
+          "-Wextra",
+          "-Wpedantic",
+          "-pedantic-errors"
+        ],
+        "diagnostic_excerpt": "<tmp>/nbsp_3215105_2_c++17_before.cpp:4:1: error: extended character   is not valid in an identifier\n    4 |     std::cout << \"x = 2\" << \"\\n\";\n      | ^\n<tmp>/nbsp_3215105_2_c++17_before.cpp:4:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3215105_2_c++17_before.cpp:4:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3215105_2_c++17_before.cpp:4:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3215105_2_c++17_before.cpp:5:1: error: extended character   is not valid in an identifier\n    5 |     break;\n      | ^\n<tmp>/nbsp_3215105_2_c++17_before.cpp:5:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3215105_2_c++17_before.cpp:5:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3215105_2_c++17_before.cpp:5:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3215105_2_c++17_before.cpp: In function ‘int main()’:\n<tmp>/nbsp_3215105_2_c++17_before.cpp:4:1: error: ‘    std’ has not been declared\n    4 |     std::cout << \"x = 2\" << \"\\n\";\n      | ^~~~~~~\n<tmp>/"
+      },
+      "after": {
+        "standard": "c++17",
+        "exit_code": 0,
+        "compiler_flags": [
+          "-std=c++17",
+          "-Wall",
+          "-Wextra",
+          "-Wpedantic",
+          "-pedantic-errors"
+        ],
+        "diagnostic_excerpt": "",
+        "run": {
+          "exit_code": 0,
+          "stdout": "x = 2\n",
+          "stderr": ""
+        }
+      }
+    },
+    {
+      "step_id": 3215105,
+      "pre_index": 2,
+      "standard": "c++20",
+      "before": {
+        "standard": "c++20",
+        "exit_code": 1,
+        "compiler_flags": [
+          "-std=c++20",
+          "-Wall",
+          "-Wextra",
+          "-Wpedantic",
+          "-pedantic-errors"
+        ],
+        "diagnostic_excerpt": "<tmp>/nbsp_3215105_2_c++20_before.cpp:4:1: error: extended character   is not valid in an identifier\n    4 |     std::cout << \"x = 2\" << \"\\n\";\n      | ^\n<tmp>/nbsp_3215105_2_c++20_before.cpp:4:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3215105_2_c++20_before.cpp:4:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3215105_2_c++20_before.cpp:4:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3215105_2_c++20_before.cpp:5:1: error: extended character   is not valid in an identifier\n    5 |     break;\n      | ^\n<tmp>/nbsp_3215105_2_c++20_before.cpp:5:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3215105_2_c++20_before.cpp:5:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3215105_2_c++20_before.cpp:5:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3215105_2_c++20_before.cpp: In function ‘int main()’:\n<tmp>/nbsp_3215105_2_c++20_before.cpp:4:1: error: ‘    std’ has not been declared\n    4 |     std::cout << \"x = 2\" << \"\\n\";\n      | ^~~~~~~\n<tmp>/"
+      },
+      "after": {
+        "standard": "c++20",
+        "exit_code": 0,
+        "compiler_flags": [
+          "-std=c++20",
+          "-Wall",
+          "-Wextra",
+          "-Wpedantic",
+          "-pedantic-errors"
+        ],
+        "diagnostic_excerpt": "",
+        "run": {
+          "exit_code": 0,
+          "stdout": "x = 2\n",
+          "stderr": ""
+        }
+      }
+    },
+    {
+      "step_id": 3215105,
+      "pre_index": 4,
+      "standard": "c++17",
+      "before": {
+        "standard": "c++17",
+        "exit_code": 1,
+        "compiler_flags": [
+          "-std=c++17",
+          "-Wall",
+          "-Wextra",
+          "-Wpedantic",
+          "-pedantic-errors"
+        ],
+        "diagnostic_excerpt": "<tmp>/nbsp_3215105_4_c++17_before.cpp:4:1: error: extended character   is not valid in an identifier\n    4 |     int x = 2;\n      | ^\n<tmp>/nbsp_3215105_4_c++17_before.cpp:4:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3215105_4_c++17_before.cpp:4:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3215105_4_c++17_before.cpp:4:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3215105_4_c++17_before.cpp:5:1: error: extended character   is not valid in an identifier\n    5 |     switch(x) {\n      | ^\n<tmp>/nbsp_3215105_4_c++17_before.cpp:5:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3215105_4_c++17_before.cpp:5:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3215105_4_c++17_before.cpp:5:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3215105_4_c++17_before.cpp:6:1: error: extended character   is not valid in an identifier\n    6 |         case 1:\n      | ^\n<tmp>/nbsp_3215105_4_c++17_before.cpp:6:1: error: extended character   is not valid in an "
+      },
+      "after": {
+        "standard": "c++17",
+        "exit_code": 0,
+        "compiler_flags": [
+          "-std=c++17",
+          "-Wall",
+          "-Wextra",
+          "-Wpedantic",
+          "-pedantic-errors"
+        ],
+        "diagnostic_excerpt": "<tmp>/nbsp_3215105_4_c++17_after.cpp: In function ‘int main()’:\n<tmp>/nbsp_3215105_4_c++17_after.cpp:7:37: warning: this statement may fall through [-Wimplicit-fallthrough=]\n    7 |             std::cout << \"x = 1\" << \"\\n\";\n      |                                     ^~~~\n<tmp>/nbsp_3215105_4_c++17_after.cpp:8:9: note: here\n    8 |         case 2:\n      |         ^~~~\n<tmp>/nbsp_3215105_4_c++17_after.cpp:9:37: warning: this statement may fall through [-Wimplicit-fallthrough=]\n    9 |             std::cout << \"x = 2\" << \"\\n\";\n      |                                     ^~~~\n<tmp>/nbsp_3215105_4_c++17_after.cpp:10:9: note: here\n   10 |         case 3:\n      |         ^~~~\n<tmp>/nbsp_3215105_4_c++17_after.cpp:11:37: warning: this statement may fall through [-Wimplicit-fallthrough=]\n   11 |             std::cout << \"x = 3\" << \"\\n\";\n      |                                     ^~~~\n<tmp>/nbsp_3215105_4_c++17_after.cpp:12:9: note: here\n   12 |         default:\n      |         ^~~~~~~\n",
+        "run": {
+          "exit_code": 0,
+          "stdout": "x = 2\nx = 3\nx is undefined\n",
+          "stderr": ""
+        }
+      }
+    },
+    {
+      "step_id": 3215105,
+      "pre_index": 4,
+      "standard": "c++20",
+      "before": {
+        "standard": "c++20",
+        "exit_code": 1,
+        "compiler_flags": [
+          "-std=c++20",
+          "-Wall",
+          "-Wextra",
+          "-Wpedantic",
+          "-pedantic-errors"
+        ],
+        "diagnostic_excerpt": "<tmp>/nbsp_3215105_4_c++20_before.cpp:4:1: error: extended character   is not valid in an identifier\n    4 |     int x = 2;\n      | ^\n<tmp>/nbsp_3215105_4_c++20_before.cpp:4:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3215105_4_c++20_before.cpp:4:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3215105_4_c++20_before.cpp:4:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3215105_4_c++20_before.cpp:5:1: error: extended character   is not valid in an identifier\n    5 |     switch(x) {\n      | ^\n<tmp>/nbsp_3215105_4_c++20_before.cpp:5:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3215105_4_c++20_before.cpp:5:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3215105_4_c++20_before.cpp:5:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3215105_4_c++20_before.cpp:6:1: error: extended character   is not valid in an identifier\n    6 |         case 1:\n      | ^\n<tmp>/nbsp_3215105_4_c++20_before.cpp:6:1: error: extended character   is not valid in an "
+      },
+      "after": {
+        "standard": "c++20",
+        "exit_code": 0,
+        "compiler_flags": [
+          "-std=c++20",
+          "-Wall",
+          "-Wextra",
+          "-Wpedantic",
+          "-pedantic-errors"
+        ],
+        "diagnostic_excerpt": "<tmp>/nbsp_3215105_4_c++20_after.cpp: In function ‘int main()’:\n<tmp>/nbsp_3215105_4_c++20_after.cpp:7:37: warning: this statement may fall through [-Wimplicit-fallthrough=]\n    7 |             std::cout << \"x = 1\" << \"\\n\";\n      |                                     ^~~~\n<tmp>/nbsp_3215105_4_c++20_after.cpp:8:9: note: here\n    8 |         case 2:\n      |         ^~~~\n<tmp>/nbsp_3215105_4_c++20_after.cpp:9:37: warning: this statement may fall through [-Wimplicit-fallthrough=]\n    9 |             std::cout << \"x = 2\" << \"\\n\";\n      |                                     ^~~~\n<tmp>/nbsp_3215105_4_c++20_after.cpp:10:9: note: here\n   10 |         case 3:\n      |         ^~~~\n<tmp>/nbsp_3215105_4_c++20_after.cpp:11:37: warning: this statement may fall through [-Wimplicit-fallthrough=]\n   11 |             std::cout << \"x = 3\" << \"\\n\";\n      |                                     ^~~~\n<tmp>/nbsp_3215105_4_c++20_after.cpp:12:9: note: here\n   12 |         default:\n      |         ^~~~~~~\n",
+        "run": {
+          "exit_code": 0,
+          "stdout": "x = 2\nx = 3\nx is undefined\n",
+          "stderr": ""
+        }
+      }
+    },
+    {
+      "step_id": 3177565,
+      "pre_index": 1,
+      "standard": "c++17",
+      "before": {
+        "standard": "c++17",
+        "exit_code": 1,
+        "compiler_flags": [
+          "-std=c++17",
+          "-Wall",
+          "-Wextra",
+          "-Wpedantic",
+          "-pedantic-errors"
+        ],
+        "diagnostic_excerpt": "<tmp>/nbsp_3177565_1_c++17_before.cpp:3:13: error: extended character   is not valid in an identifier\n    3 | int main() {  \n      |             ^\n<tmp>/nbsp_3177565_1_c++17_before.cpp:3:13: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177565_1_c++17_before.cpp:4:1: error: extended character   is not valid in an identifier\n    4 |     int i = 1;\n      | ^\n<tmp>/nbsp_3177565_1_c++17_before.cpp:4:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177565_1_c++17_before.cpp:4:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177565_1_c++17_before.cpp:4:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177565_1_c++17_before.cpp:5:1: error: extended character   is not valid in an identifier\n    5 |     while (i < 10) {\n      | ^\n<tmp>/nbsp_3177565_1_c++17_before.cpp:5:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177565_1_c++17_before.cpp:5:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177565_1_c++17_before.cpp:5:1: error: extended character   i"
+      },
+      "after": {
+        "standard": "c++17",
+        "exit_code": 0,
+        "compiler_flags": [
+          "-std=c++17",
+          "-Wall",
+          "-Wextra",
+          "-Wpedantic",
+          "-pedantic-errors"
+        ],
+        "diagnostic_excerpt": "",
+        "run": {
+          "exit_code": 0,
+          "stdout": "1 * 1 = 1\n2 * 2 = 4\n3 * 3 = 9\n4 * 4 = 16\n5 * 5 = 25\n6 * 6 = 36\n7 * 7 = 49\n8 * 8 = 64\n9 * 9 = 81\n",
+          "stderr": ""
+        }
+      }
+    },
+    {
+      "step_id": 3177565,
+      "pre_index": 1,
+      "standard": "c++20",
+      "before": {
+        "standard": "c++20",
+        "exit_code": 1,
+        "compiler_flags": [
+          "-std=c++20",
+          "-Wall",
+          "-Wextra",
+          "-Wpedantic",
+          "-pedantic-errors"
+        ],
+        "diagnostic_excerpt": "<tmp>/nbsp_3177565_1_c++20_before.cpp:3:13: error: extended character   is not valid in an identifier\n    3 | int main() {  \n      |             ^\n<tmp>/nbsp_3177565_1_c++20_before.cpp:3:13: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177565_1_c++20_before.cpp:4:1: error: extended character   is not valid in an identifier\n    4 |     int i = 1;\n      | ^\n<tmp>/nbsp_3177565_1_c++20_before.cpp:4:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177565_1_c++20_before.cpp:4:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177565_1_c++20_before.cpp:4:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177565_1_c++20_before.cpp:5:1: error: extended character   is not valid in an identifier\n    5 |     while (i < 10) {\n      | ^\n<tmp>/nbsp_3177565_1_c++20_before.cpp:5:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177565_1_c++20_before.cpp:5:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177565_1_c++20_before.cpp:5:1: error: extended character   i"
+      },
+      "after": {
+        "standard": "c++20",
+        "exit_code": 0,
+        "compiler_flags": [
+          "-std=c++20",
+          "-Wall",
+          "-Wextra",
+          "-Wpedantic",
+          "-pedantic-errors"
+        ],
+        "diagnostic_excerpt": "",
+        "run": {
+          "exit_code": 0,
+          "stdout": "1 * 1 = 1\n2 * 2 = 4\n3 * 3 = 9\n4 * 4 = 16\n5 * 5 = 25\n6 * 6 = 36\n7 * 7 = 49\n8 * 8 = 64\n9 * 9 = 81\n",
+          "stderr": ""
+        }
+      }
+    },
+    {
+      "step_id": 3177651,
+      "pre_index": 1,
+      "standard": "c++17",
+      "before": {
+        "standard": "c++17",
+        "exit_code": 1,
+        "compiler_flags": [
+          "-std=c++17",
+          "-Wall",
+          "-Wextra",
+          "-Wpedantic",
+          "-pedantic-errors"
+        ],
+        "diagnostic_excerpt": "<tmp>/nbsp_3177651_1_c++17_before.cpp:3:13: error: extended character   is not valid in an identifier\n    3 | int main() {  \n      |             ^\n<tmp>/nbsp_3177651_1_c++17_before.cpp:3:13: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177651_1_c++17_before.cpp:4:1: error: extended character   is not valid in an identifier\n    4 |     for (int i = 1; i < 10; i++) {\n      | ^\n<tmp>/nbsp_3177651_1_c++17_before.cpp:4:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177651_1_c++17_before.cpp:4:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177651_1_c++17_before.cpp:4:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177651_1_c++17_before.cpp:5:1: error: extended character   is not valid in an identifier\n    5 |         std::cout << i << \" * \" << i << \" = \" << i * i << std::endl;\n      | ^\n<tmp>/nbsp_3177651_1_c++17_before.cpp:5:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177651_1_c++17_before.cpp:5:1: error: extended character   is not valid in an identifier\n<tmp"
+      },
+      "after": {
+        "standard": "c++17",
+        "exit_code": 0,
+        "compiler_flags": [
+          "-std=c++17",
+          "-Wall",
+          "-Wextra",
+          "-Wpedantic",
+          "-pedantic-errors"
+        ],
+        "diagnostic_excerpt": "",
+        "run": {
+          "exit_code": 0,
+          "stdout": "1 * 1 = 1\n2 * 2 = 4\n3 * 3 = 9\n4 * 4 = 16\n5 * 5 = 25\n6 * 6 = 36\n7 * 7 = 49\n8 * 8 = 64\n9 * 9 = 81\n",
+          "stderr": ""
+        }
+      }
+    },
+    {
+      "step_id": 3177651,
+      "pre_index": 1,
+      "standard": "c++20",
+      "before": {
+        "standard": "c++20",
+        "exit_code": 1,
+        "compiler_flags": [
+          "-std=c++20",
+          "-Wall",
+          "-Wextra",
+          "-Wpedantic",
+          "-pedantic-errors"
+        ],
+        "diagnostic_excerpt": "<tmp>/nbsp_3177651_1_c++20_before.cpp:3:13: error: extended character   is not valid in an identifier\n    3 | int main() {  \n      |             ^\n<tmp>/nbsp_3177651_1_c++20_before.cpp:3:13: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177651_1_c++20_before.cpp:4:1: error: extended character   is not valid in an identifier\n    4 |     for (int i = 1; i < 10; i++) {\n      | ^\n<tmp>/nbsp_3177651_1_c++20_before.cpp:4:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177651_1_c++20_before.cpp:4:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177651_1_c++20_before.cpp:4:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177651_1_c++20_before.cpp:5:1: error: extended character   is not valid in an identifier\n    5 |         std::cout << i << \" * \" << i << \" = \" << i * i << std::endl;\n      | ^\n<tmp>/nbsp_3177651_1_c++20_before.cpp:5:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177651_1_c++20_before.cpp:5:1: error: extended character   is not valid in an identifier\n<tmp"
+      },
+      "after": {
+        "standard": "c++20",
+        "exit_code": 0,
+        "compiler_flags": [
+          "-std=c++20",
+          "-Wall",
+          "-Wextra",
+          "-Wpedantic",
+          "-pedantic-errors"
+        ],
+        "diagnostic_excerpt": "",
+        "run": {
+          "exit_code": 0,
+          "stdout": "1 * 1 = 1\n2 * 2 = 4\n3 * 3 = 9\n4 * 4 = 16\n5 * 5 = 25\n6 * 6 = 36\n7 * 7 = 49\n8 * 8 = 64\n9 * 9 = 81\n",
+          "stderr": ""
+        }
+      }
+    },
+    {
+      "step_id": 3177651,
+      "pre_index": 2,
+      "standard": "c++17",
+      "before": {
+        "standard": "c++17",
+        "exit_code": 1,
+        "compiler_flags": [
+          "-std=c++17",
+          "-Wall",
+          "-Wextra",
+          "-Wpedantic",
+          "-pedantic-errors"
+        ],
+        "diagnostic_excerpt": "<tmp>/nbsp_3177651_2_c++17_before.cpp:5:1: error: extended character   is not valid in an identifier\n    5 |     std::cout << i << \" * \" << i << \" = \" << i * i << std::endl;\n      | ^\n<tmp>/nbsp_3177651_2_c++17_before.cpp:5:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177651_2_c++17_before.cpp:5:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177651_2_c++17_before.cpp:5:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177651_2_c++17_before.cpp:6:1: error: extended character   is not valid in an identifier\n    6 |     i++;\n      | ^\n<tmp>/nbsp_3177651_2_c++17_before.cpp:6:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177651_2_c++17_before.cpp:6:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177651_2_c++17_before.cpp:6:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177651_2_c++17_before.cpp: In function ‘int main()’:\n<tmp>/nbsp_3177651_2_c++17_before.cpp:5:1: error: ‘    std’ has not been declared\n    5 |     std::cout << i << \" * \""
+      },
+      "after": {
+        "standard": "c++17",
+        "exit_code": 0,
+        "compiler_flags": [
+          "-std=c++17",
+          "-Wall",
+          "-Wextra",
+          "-Wpedantic",
+          "-pedantic-errors"
+        ],
+        "diagnostic_excerpt": "",
+        "run": {
+          "exit_code": 0,
+          "stdout": "1 * 1 = 1\n2 * 2 = 4\n3 * 3 = 9\n4 * 4 = 16\n5 * 5 = 25\n6 * 6 = 36\n7 * 7 = 49\n8 * 8 = 64\n9 * 9 = 81\n",
+          "stderr": ""
+        }
+      }
+    },
+    {
+      "step_id": 3177651,
+      "pre_index": 2,
+      "standard": "c++20",
+      "before": {
+        "standard": "c++20",
+        "exit_code": 1,
+        "compiler_flags": [
+          "-std=c++20",
+          "-Wall",
+          "-Wextra",
+          "-Wpedantic",
+          "-pedantic-errors"
+        ],
+        "diagnostic_excerpt": "<tmp>/nbsp_3177651_2_c++20_before.cpp:5:1: error: extended character   is not valid in an identifier\n    5 |     std::cout << i << \" * \" << i << \" = \" << i * i << std::endl;\n      | ^\n<tmp>/nbsp_3177651_2_c++20_before.cpp:5:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177651_2_c++20_before.cpp:5:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177651_2_c++20_before.cpp:5:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177651_2_c++20_before.cpp:6:1: error: extended character   is not valid in an identifier\n    6 |     i++;\n      | ^\n<tmp>/nbsp_3177651_2_c++20_before.cpp:6:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177651_2_c++20_before.cpp:6:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177651_2_c++20_before.cpp:6:1: error: extended character   is not valid in an identifier\n<tmp>/nbsp_3177651_2_c++20_before.cpp: In function ‘int main()’:\n<tmp>/nbsp_3177651_2_c++20_before.cpp:5:1: error: ‘    std’ has not been declared\n    5 |     std::cout << i << \" * \""
+      },
+      "after": {
+        "standard": "c++20",
+        "exit_code": 0,
+        "compiler_flags": [
+          "-std=c++20",
+          "-Wall",
+          "-Wextra",
+          "-Wpedantic",
+          "-pedantic-errors"
+        ],
+        "diagnostic_excerpt": "",
+        "run": {
+          "exit_code": 0,
+          "stdout": "1 * 1 = 1\n2 * 2 = 4\n3 * 3 = 9\n4 * 4 = 16\n5 * 5 = 25\n6 * 6 = 36\n7 * 7 = 49\n8 * 8 = 64\n9 * 9 = 81\n",
+          "stderr": ""
+        }
+      }
+    }
+  ],
+  "word_readers": [
+    {
+      "step_id": 3213207,
+      "standard": "c11",
+      "cases": [
+        {
+          "name": "empty",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "whitespace_only",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "immediate_end",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "ordinary",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "alpha\nbeta\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "alpha\nbeta\n",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "eof_after_word",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "alpha\nbeta\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "alpha\nbeta\n",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "all_whitespace_separators",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "a\nb\nc\nd\ne\nf\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "a\nb\nc\nd\ne\nf\n",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "two_reallocations",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "word0\nword1\nword2\nword3\nword4\nword5\nword6\nword7\nword8\nword9\nword10\nword11\nword12\nword13\nword14\nword15\nword16\nword17\nword18\nword19\nword20\nword21\nword22\nword23\nword24\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "word0\nword1\nword2\nword3\nword4\nword5\nword6\nword7\nword8\nword9\nword10\nword11\nword12\nword13\nword14\nword15\nword16\nword17\nword18\nword19\nword20\nword21\nword22\nword23\nword24\n",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "126_bytes",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "127_bytes_then_delimiter",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "127_bytes_then_eof",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "128_bytes",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\na\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 1,
+            "stdout": "",
+            "stderr": "Word is too long\n"
+          }
+        },
+        {
+          "name": "false_end_suffix",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 1,
+            "stdout": "",
+            "stderr": "Word is too long\n"
+          }
+        },
+        {
+          "name": "free_prior_words_on_rejection",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "keep\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\na\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 1,
+            "stdout": "keep\n",
+            "stderr": "Word is too long\n"
+          }
+        },
+        {
+          "name": "end_prefix_is_word",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "endless\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "endless\n",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "utf8_126_bytes",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "яяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяя\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "яяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяя\n",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "utf8_128_bytes",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "яяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяя\\xd1\n\\x8f\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 1,
+            "stdout": "",
+            "stderr": "Word is too long\n"
+          }
+        }
+      ],
+      "before_compilation": {
+        "standard": "c11",
+        "exit_code": 0,
+        "compiler_flags": [
+          "-std=c11",
+          "-Wall",
+          "-Wextra",
+          "-Wpedantic",
+          "-pedantic-errors"
+        ],
+        "diagnostic_excerpt": ""
+      },
+      "after_compilation": {
+        "standard": "c11",
+        "exit_code": 0,
+        "compiler_flags": [
+          "-std=c11",
+          "-Wall",
+          "-Wextra",
+          "-Wpedantic",
+          "-pedantic-errors"
+        ],
+        "diagnostic_excerpt": ""
+      }
+    },
+    {
+      "step_id": 3213207,
+      "standard": "c17",
+      "cases": [
+        {
+          "name": "empty",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "whitespace_only",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "immediate_end",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "ordinary",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "alpha\nbeta\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "alpha\nbeta\n",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "eof_after_word",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "alpha\nbeta\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "alpha\nbeta\n",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "all_whitespace_separators",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "a\nb\nc\nd\ne\nf\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "a\nb\nc\nd\ne\nf\n",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "two_reallocations",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "word0\nword1\nword2\nword3\nword4\nword5\nword6\nword7\nword8\nword9\nword10\nword11\nword12\nword13\nword14\nword15\nword16\nword17\nword18\nword19\nword20\nword21\nword22\nword23\nword24\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "word0\nword1\nword2\nword3\nword4\nword5\nword6\nword7\nword8\nword9\nword10\nword11\nword12\nword13\nword14\nword15\nword16\nword17\nword18\nword19\nword20\nword21\nword22\nword23\nword24\n",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "126_bytes",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "127_bytes_then_delimiter",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "127_bytes_then_eof",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "128_bytes",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\na\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 1,
+            "stdout": "",
+            "stderr": "Word is too long\n"
+          }
+        },
+        {
+          "name": "false_end_suffix",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 1,
+            "stdout": "",
+            "stderr": "Word is too long\n"
+          }
+        },
+        {
+          "name": "free_prior_words_on_rejection",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "keep\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\na\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 1,
+            "stdout": "keep\n",
+            "stderr": "Word is too long\n"
+          }
+        },
+        {
+          "name": "end_prefix_is_word",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "endless\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "endless\n",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "utf8_126_bytes",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "яяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяя\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "яяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяя\n",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "utf8_128_bytes",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "яяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяя\\xd1\n\\x8f\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 1,
+            "stdout": "",
+            "stderr": "Word is too long\n"
+          }
+        }
+      ],
+      "before_compilation": {
+        "standard": "c17",
+        "exit_code": 0,
+        "compiler_flags": [
+          "-std=c17",
+          "-Wall",
+          "-Wextra",
+          "-Wpedantic",
+          "-pedantic-errors"
+        ],
+        "diagnostic_excerpt": ""
+      },
+      "after_compilation": {
+        "standard": "c17",
+        "exit_code": 0,
+        "compiler_flags": [
+          "-std=c17",
+          "-Wall",
+          "-Wextra",
+          "-Wpedantic",
+          "-pedantic-errors"
+        ],
+        "diagnostic_excerpt": ""
+      }
+    },
+    {
+      "step_id": 3213210,
+      "standard": "c11",
+      "cases": [
+        {
+          "name": "empty",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "whitespace_only",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "immediate_end",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "ordinary",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "alpha\nbeta\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "alpha\nbeta\n",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "eof_after_word",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "alpha\nbeta\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "alpha\nbeta\n",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "all_whitespace_separators",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "a\nb\nc\nd\ne\nf\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "a\nb\nc\nd\ne\nf\n",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "two_reallocations",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "word0\nword1\nword2\nword3\nword4\nword5\nword6\nword7\nword8\nword9\nword10\nword11\nword12\nword13\nword14\nword15\nword16\nword17\nword18\nword19\nword20\nword21\nword22\nword23\nword24\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "word0\nword1\nword2\nword3\nword4\nword5\nword6\nword7\nword8\nword9\nword10\nword11\nword12\nword13\nword14\nword15\nword16\nword17\nword18\nword19\nword20\nword21\nword22\nword23\nword24\n",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "126_bytes",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "127_bytes_then_delimiter",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "127_bytes_then_eof",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "128_bytes",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\na\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 1,
+            "stdout": "",
+            "stderr": "Word is too long\n"
+          }
+        },
+        {
+          "name": "false_end_suffix",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 1,
+            "stdout": "",
+            "stderr": "Word is too long\n"
+          }
+        },
+        {
+          "name": "free_prior_words_on_rejection",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "keep\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\na\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 1,
+            "stdout": "keep\n",
+            "stderr": "Word is too long\n"
+          }
+        },
+        {
+          "name": "end_prefix_is_word",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "endless\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "endless\n",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "utf8_126_bytes",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "яяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяя\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "яяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяя\n",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "utf8_128_bytes",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "яяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяя\\xd1\n\\x8f\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 1,
+            "stdout": "",
+            "stderr": "Word is too long\n"
+          }
+        }
+      ],
+      "before_compilation": {
+        "standard": "c11",
+        "exit_code": 0,
+        "compiler_flags": [
+          "-std=c11",
+          "-Wall",
+          "-Wextra",
+          "-Wpedantic",
+          "-pedantic-errors"
+        ],
+        "diagnostic_excerpt": ""
+      },
+      "after_compilation": {
+        "standard": "c11",
+        "exit_code": 0,
+        "compiler_flags": [
+          "-std=c11",
+          "-Wall",
+          "-Wextra",
+          "-Wpedantic",
+          "-pedantic-errors"
+        ],
+        "diagnostic_excerpt": ""
+      }
+    },
+    {
+      "step_id": 3213210,
+      "standard": "c17",
+      "cases": [
+        {
+          "name": "empty",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "whitespace_only",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "immediate_end",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "ordinary",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "alpha\nbeta\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "alpha\nbeta\n",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "eof_after_word",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "alpha\nbeta\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "alpha\nbeta\n",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "all_whitespace_separators",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "a\nb\nc\nd\ne\nf\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "a\nb\nc\nd\ne\nf\n",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "two_reallocations",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "word0\nword1\nword2\nword3\nword4\nword5\nword6\nword7\nword8\nword9\nword10\nword11\nword12\nword13\nword14\nword15\nword16\nword17\nword18\nword19\nword20\nword21\nword22\nword23\nword24\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "word0\nword1\nword2\nword3\nword4\nword5\nword6\nword7\nword8\nword9\nword10\nword11\nword12\nword13\nword14\nword15\nword16\nword17\nword18\nword19\nword20\nword21\nword22\nword23\nword24\n",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "126_bytes",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "127_bytes_then_delimiter",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "127_bytes_then_eof",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "128_bytes",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\na\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 1,
+            "stdout": "",
+            "stderr": "Word is too long\n"
+          }
+        },
+        {
+          "name": "false_end_suffix",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 1,
+            "stdout": "",
+            "stderr": "Word is too long\n"
+          }
+        },
+        {
+          "name": "free_prior_words_on_rejection",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "keep\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\na\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 1,
+            "stdout": "keep\n",
+            "stderr": "Word is too long\n"
+          }
+        },
+        {
+          "name": "end_prefix_is_word",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "endless\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "endless\n",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "utf8_126_bytes",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "яяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяя\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 0,
+            "stdout": "яяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяя\n",
+            "stderr": ""
+          }
+        },
+        {
+          "name": "utf8_128_bytes",
+          "passed": true,
+          "before": {
+            "exit_code": 0,
+            "stdout": "яяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяя\\xd1\n\\x8f\n",
+            "stderr": ""
+          },
+          "after": {
+            "exit_code": 1,
+            "stdout": "",
+            "stderr": "Word is too long\n"
+          }
+        }
+      ],
+      "before_compilation": {
+        "standard": "c17",
+        "exit_code": 0,
+        "compiler_flags": [
+          "-std=c17",
+          "-Wall",
+          "-Wextra",
+          "-Wpedantic",
+          "-pedantic-errors"
+        ],
+        "diagnostic_excerpt": ""
+      },
+      "after_compilation": {
+        "standard": "c17",
+        "exit_code": 0,
+        "compiler_flags": [
+          "-std=c17",
+          "-Wall",
+          "-Wextra",
+          "-Wpedantic",
+          "-pedantic-errors"
+        ],
+        "diagnostic_excerpt": ""
+      }
+    }
+  ],
+  "output_quiz": {
+    "program": "#include <iostream>\n#include <iomanip>\nint main() {\n    std::cout << \"Hello, World!\" << '\\n';\n    std::cout << std::setbase(16) << std::scientific << std::setprecision(4);\n    std::cout << 125;\n    std::cout << 36.23415;\n    return 0;\n}\n",
+    "compilations": [
+      {
+        "standard": "c++17",
+        "compilation": {
+          "standard": "c++17",
+          "exit_code": 0,
+          "compiler_flags": [
+            "-std=c++17",
+            "-Wall",
+            "-Wextra",
+            "-Wpedantic",
+            "-pedantic-errors"
+          ],
+          "diagnostic_excerpt": ""
+        },
+        "run": {
+          "exit_code": 0,
+          "stdout": "Hello, World!\n7d3.6234e+01",
+          "stderr": ""
+        }
+      },
+      {
+        "standard": "c++20",
+        "compilation": {
+          "standard": "c++20",
+          "exit_code": 0,
+          "compiler_flags": [
+            "-std=c++20",
+            "-Wall",
+            "-Wextra",
+            "-Wpedantic",
+            "-pedantic-errors"
+          ],
+          "diagnostic_excerpt": ""
+        },
+        "run": {
+          "exit_code": 0,
+          "stdout": "Hello, World!\n7d3.6234e+01",
+          "stderr": ""
+        }
+      }
+    ],
+    "case_checks": [
+      {
+        "reply": "Hello, World!\n7d3.6234e+01",
+        "case_insensitive_equal": true,
+        "case_sensitive_equal": true
+      },
+      {
+        "reply": "hello, World!\n7d3.6234e+01",
+        "case_insensitive_equal": true,
+        "case_sensitive_equal": false
+      },
+      {
+        "reply": "HELLO, World!\n7d3.6234e+01",
+        "case_insensitive_equal": true,
+        "case_sensitive_equal": false
+      },
+      {
+        "reply": "Hello, World!\n7D3.6234E+01",
+        "case_insensitive_equal": true,
+        "case_sensitive_equal": false
+      }
+    ],
+    "scope": "Local ASCII comparison and source-flag verification; no Stepik submission and no newline-policy changes."
+  },
+  "documentation_checks": [
+    {
+      "step_id": 3438841,
+      "source": "https://cdrdv2-public.intel.com/843827/253665-sdm-vol-1-dec-24.pdf",
+      "section": "6.2 Stacks; 6.2.5 Stack Behavior in 64-Bit Mode",
+      "verified_claim": "PUSH decreases the stack pointer before storing the newly pushed value."
+    },
+    {
+      "step_ids": [
+        3213207,
+        3213210
+      ],
+      "source": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf",
+      "section": "7.21.6.2 paragraph 9; 7.21.6.4; 7.4 paragraph 1",
+      "verified_claim": "A scanf field width leaves a token suffix unread; isspace is called only with EOF or an unsigned-char value."
+    }
+  ],
+  "limitations": [
+    "GCC only; this does not claim portability testing on every compiler.",
+    "malloc/realloc allocation-failure injection and live Stepik grading were not executed.",
+    "Product-task answers and its relative-gap promise are checked separately by check_task_references.py."
+  ]
+}

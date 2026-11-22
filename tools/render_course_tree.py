@@ -16,6 +16,7 @@ PACKAGES = [
     ('Первый и второй проходы', 'imports/86957/manifest.json', 'deployment_status'),
     ('Второй проход', 'imports/86957/round2_manifest.json', 'deployment_status'),
     ('Современный C++', 'modernization/86957/manifest.json', 'publication.status'),
+    ('Исправление существующих шагов', 'corrections/86957/manifest.json', 'publication.status'),
 ]
 
 

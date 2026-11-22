@@ -1,0 +1,389 @@
+[
+  {
+    "finding_id": "advanced-001",
+    "step_id": "3215234",
+    "lesson_id": "770596",
+    "severity": "high",
+    "title": "Не проверяются ввод строк и выделение памяти для массива пользователей",
+    "before": "После EOF при чтении пароля программа использует старый buffer: ввод 1\\nalice\\n создаёт пароль alice. При отказе malloc используются нулевые указатели.",
+    "after": "Проверены все scanf и malloc, указатели всех строк заранее получают NULL, общий путь очистки освобождает частично заполненный массив. При ошибке программа возвращает 1.",
+    "changed_fields": [
+      "block.text"
+    ],
+    "changed_locations": [
+      "Первый и единственный кодовый блок: инициализация указателей, проверки ввода/выделения, ранняя очистка; пояснение после кода."
+    ],
+    "evidence": [
+      "corrections/86957/evidence/advanced/validate_advanced.py",
+      "corrections/86957/evidence/advanced/logs/3215234_stale_password_before.run.txt",
+      "corrections/86957/evidence/advanced/logs/3215234_allocation_failure_before.run.txt",
+      "corrections/86957/evidence/advanced/validation_results.json"
+    ],
+    "sources": [
+      {
+        "title": "WG14 N1570, 7.21.6.2/4: scanf returns assignments or EOF",
+        "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf",
+        "ref": "turn132443602view1"
+      },
+      {
+        "title": "WG14 N1570, 7.22.3.3–4: free and malloc",
+        "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf",
+        "ref": "turn739526059view2"
+      }
+    ],
+    "source_file": "courses/86957/steps/770596/03_3215234_text.step",
+    "corrected_file": "corrections/86957/steps/770596/03_3215234_text.step",
+    "base_commit": "d936c0ee8d9f720ba26fec1b109a1153ae3b5930"
+  },
+  {
+    "finding_id": "advanced-002",
+    "step_id": "3215235",
+    "lesson_id": "770596",
+    "severity": "high",
+    "title": "mallocByString передаёт NULL в strcpy при отказе malloc",
+    "before": "mallocByString безусловно вызывает strcpy после malloc; код main не проверяет получение обеих строк.",
+    "after": "strcpy вызывается только после успешного выделения. main проверяет обе строки и вызывает существующую freeModel на пути ошибки, сохраняя нормальный пример.",
+    "changed_fields": [
+      "block.text"
+    ],
+    "changed_locations": [
+      "Кодовый блок 0: mallocByString и проверка двух строк в main; пояснение пути отказа."
+    ],
+    "evidence": [
+      "corrections/86957/evidence/advanced/validate_advanced.py",
+      "corrections/86957/evidence/advanced/logs/3215235_allocation_failure_before.run.txt",
+      "corrections/86957/evidence/advanced/validation_results.json"
+    ],
+    "sources": [
+      {
+        "title": "WG14 N1570, 7.22.3.3–4: free and malloc",
+        "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf",
+        "ref": "turn739526059view2"
+      },
+      {
+        "title": "WG14 N1570, 7.24.2.3: strcpy copies through the terminating zero",
+        "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf",
+        "ref": "turn132443602view2"
+      }
+    ],
+    "source_file": "courses/86957/steps/770596/06_3215235_text.step",
+    "corrected_file": "corrections/86957/steps/770596/06_3215235_text.step",
+    "base_commit": "d936c0ee8d9f720ba26fec1b109a1153ae3b5930"
+  },
+  {
+    "finding_id": "advanced-003",
+    "step_id": "3215236",
+    "lesson_id": "770596",
+    "severity": "high",
+    "title": "mallocByString передаёт NULL в strcpy при отказе malloc",
+    "before": "mallocByString безусловно вызывает strcpy после malloc; код main не проверяет получение обеих строк.",
+    "after": "strcpy вызывается только после успешного выделения. main проверяет обе строки и вызывает существующую freeModel на пути ошибки, сохраняя нормальный пример.",
+    "changed_fields": [
+      "block.text"
+    ],
+    "changed_locations": [
+      "Кодовый блок 0: mallocByString и проверка двух строк в main; пояснение пути отказа."
+    ],
+    "evidence": [
+      "corrections/86957/evidence/advanced/validate_advanced.py",
+      "corrections/86957/evidence/advanced/logs/3215236_allocation_failure_before.run.txt",
+      "corrections/86957/evidence/advanced/validation_results.json"
+    ],
+    "sources": [
+      {
+        "title": "WG14 N1570, 7.22.3.3–4: free and malloc",
+        "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf",
+        "ref": "turn739526059view2"
+      },
+      {
+        "title": "WG14 N1570, 7.24.2.3: strcpy copies through the terminating zero",
+        "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf",
+        "ref": "turn132443602view2"
+      }
+    ],
+    "source_file": "courses/86957/steps/770596/07_3215236_text.step",
+    "corrected_file": "corrections/86957/steps/770596/07_3215236_text.step",
+    "base_commit": "d936c0ee8d9f720ba26fec1b109a1153ae3b5930"
+  },
+  {
+    "finding_id": "advanced-004",
+    "step_id": "3215244",
+    "lesson_id": "770597",
+    "severity": "medium",
+    "title": "Пример указателя использует ещё не объявленный Ints",
+    "before": "В данном шаге и предыдущих шагах урока определён Floats, но Ints впервые определён только в следующем шаге. Показанный фрагмент не собирается в main: Ints was not declared.",
+    "after": "Перед использованием добавлено то же определение Ints с тремя целочисленными членами, которое используется далее в уроке.",
+    "changed_fields": [
+      "block.text"
+    ],
+    "changed_locations": [
+      "В начало кодового блока добавлено определение используемого union."
+    ],
+    "evidence": [
+      "corrections/86957/evidence/advanced/validate_advanced.py",
+      "corrections/86957/evidence/advanced/logs/3215244_before.compile.txt",
+      "corrections/86957/evidence/advanced/logs/3215244_after_c++20.compile.txt"
+    ],
+    "sources": [
+      {
+        "title": "C++ draft [basic.lookup]: a declaration is required",
+        "url": "https://eel.is/c++draft/basic.lookup",
+        "ref": "turn201531919view2"
+      }
+    ],
+    "source_file": "courses/86957/steps/770597/03_3215244_text.step",
+    "corrected_file": "corrections/86957/steps/770597/03_3215244_text.step",
+    "base_commit": "d936c0ee8d9f720ba26fec1b109a1153ae3b5930"
+  },
+  {
+    "finding_id": "advanced-005",
+    "step_id": "3212956",
+    "lesson_id": "770597",
+    "severity": "medium",
+    "title": "Смена активного члена union ошибочно обещана для любой записи",
+    "before": "Фраза «запись в другой член меняет активный член» не ограничена типами/операциями. Присваивание неактивному std::string не начинает время жизни строки.",
+    "after": "Правило ограничено допустимыми встроенными/тривиальными операциями; пояснено, что нетривиальный член требует конструирования и уничтожения, прежний деструктор автоматически не вызывается.",
+    "changed_fields": [
+      "block.text"
+    ],
+    "changed_locations": [
+      "Последний абзац о размере и активном члене."
+    ],
+    "evidence": [
+      "corrections/86957/evidence/advanced/validate_advanced.py",
+      "corrections/86957/evidence/advanced/generated/3212956_explicit_lifetime.cpp",
+      "corrections/86957/evidence/advanced/logs/3212956_explicit_lifetime.run.txt"
+    ],
+    "sources": [
+      {
+        "title": "C++20 draft N4861 [class.union]: active member and lifetime-start rules",
+        "url": "https://timsong-cpp.github.io/cppwp/n4861/class.union",
+        "ref": "turn739526059view1"
+      }
+    ],
+    "source_file": "courses/86957/steps/770597/01_3212956_text.step",
+    "corrected_file": "corrections/86957/steps/770597/01_3212956_text.step",
+    "base_commit": "d936c0ee8d9f720ba26fec1b109a1153ae3b5930"
+  },
+  {
+    "finding_id": "advanced-006",
+    "step_id": "3669142",
+    "lesson_id": "877083",
+    "severity": "medium",
+    "title": "В отрицательном friend-примере пропущены конец Storage и начало Display",
+    "before": "Намеренно неверное обращение к Display::displayItem дополнительно повреждено: конструктор Display и displayItem оказались внутри Storage, отсутствует m_displayIntFirst.",
+    "after": "Восстановлены границы двух классов и поле Display. Пример намеренно остаётся некомпилируемым из-за неполного Display в friend-объявлении и связанного отсутствия доступа к private; посторонние синтаксические ошибки устранены.",
+    "changed_fields": [
+      "block.text"
+    ],
+    "changed_locations": [
+      "Кодовый блок 1 — только восстановление структуры намеренно ошибочного примера."
+    ],
+    "evidence": [
+      "corrections/86957/evidence/advanced/validate_advanced.py",
+      "corrections/86957/evidence/advanced/logs/3669142_negative_before.compile.txt",
+      "corrections/86957/evidence/advanced/logs/3669142_negative_after.compile.txt",
+      "corrections/86957/evidence/advanced/logs/3669142_positive.run.txt"
+    ],
+    "sources": [
+      {
+        "title": "C++ draft [class.friend]: friendship to a member function",
+        "url": "https://eel.is/c++draft/class.friend",
+        "ref": "turn928146024view2"
+      },
+      {
+        "title": "C++ draft [basic.lookup]: a declaration is required",
+        "url": "https://eel.is/c++draft/basic.lookup",
+        "ref": "turn201531919view2"
+      }
+    ],
+    "source_file": "courses/86957/steps/877083/03_3669142_text.step",
+    "corrected_file": "corrections/86957/steps/877083/03_3669142_text.step",
+    "base_commit": "d936c0ee8d9f720ba26fec1b109a1153ae3b5930"
+  },
+  {
+    "finding_id": "advanced-007",
+    "step_id": "3669172",
+    "lesson_id": "877083",
+    "severity": "high",
+    "title": "Карточная игра читает неинициализированную chosen при неверном выборе",
+    "before": "card() оставляет number/suit без значений. При позиции 0, 4 или ошибке ввода switch не присваивает chosen, а isEqual затем читает эти поля.",
+    "after": "Конструктор по умолчанию создаёт двойку треф. main отклоняет нечисловой/отсутствующий ввод и позиции вне 1–3 до сравнения. Все три допустимых выбора сохраняют поведение игры.",
+    "changed_fields": [
+      "block.text"
+    ],
+    "changed_locations": [
+      "Кодовый блок 0: <clocale>, конструктор card и проверка позиции; соответствующее пояснение; return логического выражения больше не называется условной операцией."
+    ],
+    "evidence": [
+      "corrections/86957/evidence/advanced/validate_advanced.py",
+      "corrections/86957/evidence/advanced/logs/3669172_before.compile.txt",
+      "corrections/86957/evidence/advanced/validation_results.json"
+    ],
+    "sources": [
+      {
+        "title": "C++20 draft N4861 [basic.indet]: use of indeterminate int/enum values",
+        "url": "https://timsong-cpp.github.io/cppwp/n4861/basic.indet",
+        "ref": "turn201531919view0"
+      }
+    ],
+    "source_file": "courses/86957/steps/877083/06_3669172_text.step",
+    "corrected_file": "corrections/86957/steps/877083/06_3669172_text.step",
+    "base_commit": "d936c0ee8d9f720ba26fec1b109a1153ae3b5930"
+  },
+  {
+    "finding_id": "advanced-008",
+    "step_id": "3759850",
+    "lesson_id": "877084",
+    "severity": "high",
+    "title": "Неограниченный strcpy переполняет поля имён в примере виртуальной базы",
+    "before": "unit/box принимают const char* без ограничения длины и копируют его в name[20], unit_box — в name[40]. Допустимая строка из 200 символов вызывает stack-buffer-overflow.",
+    "after": "Три поля имён хранят std::string; присваивание сохраняет строку целиком, для printf используется c_str(). Иерархия, виртуальная база и обычный вывод сохранены.",
+    "changed_fields": [
+      "block.text"
+    ],
+    "changed_locations": [
+      "Кодовый блок 4: только хранение/копирование/вывод имён и нужный заголовок; пояснение об аргументах-строках."
+    ],
+    "evidence": [
+      "corrections/86957/evidence/advanced/validate_advanced.py",
+      "corrections/86957/evidence/advanced/logs/3759850_long_before.run.txt",
+      "corrections/86957/evidence/advanced/logs/3759850_long_after.run.txt",
+      "corrections/86957/evidence/advanced/logs/3759850_sample_c++20.run.txt"
+    ],
+    "sources": [
+      {
+        "title": "WG14 N1570, 7.24.2.3: strcpy copies through the terminating zero",
+        "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf",
+        "ref": "turn132443602view2"
+      }
+    ],
+    "source_file": "courses/86957/steps/877084/03_3759850_text.step",
+    "corrected_file": "corrections/86957/steps/877084/03_3759850_text.step",
+    "base_commit": "d936c0ee8d9f720ba26fec1b109a1153ae3b5930"
+  },
+  {
+    "finding_id": "advanced-009",
+    "step_id": "3759914",
+    "lesson_id": "877084",
+    "severity": "medium",
+    "title": "Абстрактной базе ошибочно оставлено только наследование невиртуальных членов",
+    "before": "Текст говорит, что абстрактная база используется «для наследования невиртуальных элементов». Виртуальные функции также наследуются, включая конкретные реализации базы.",
+    "after": "Уточнено существование базового подобъекта и наследование обычных и виртуальных членов; для конкретного производного класса чистые виртуальные функции требуют конкретного окончательного переопределения.",
+    "changed_fields": [
+      "block.text"
+    ],
+    "changed_locations": [
+      "Одно предложение в объяснении абстрактных классов заменено точным описанием."
+    ],
+    "evidence": [
+      "corrections/86957/evidence/advanced/validate_advanced.py",
+      "corrections/86957/evidence/advanced/generated/3759914_inherited_virtual.cpp",
+      "corrections/86957/evidence/advanced/logs/3759914_inherited_virtual.run.txt"
+    ],
+    "sources": [
+      {
+        "title": "C++ draft [class.abstract]: abstract bases and inherited virtual functions",
+        "url": "https://eel.is/c++draft/class.abstract",
+        "ref": "turn928146024view3"
+      }
+    ],
+    "source_file": "courses/86957/steps/877084/05_3759914_text.step",
+    "corrected_file": "corrections/86957/steps/877084/05_3759914_text.step",
+    "base_commit": "d936c0ee8d9f720ba26fec1b109a1153ae3b5930"
+  },
+  {
+    "finding_id": "advanced-010",
+    "step_id": "3570303",
+    "lesson_id": "853541",
+    "severity": "high",
+    "title": "Неявное копирование RBT оставляет разные root у общего изменяемого дерева",
+    "before": "После a.add(1), a.add(2), b=a, b.add(3) поворот изменяет общие узлы, но не a.root. В a исчезает ключ 2: contains(2) возвращает false. Неявное перемещение также отсутствует из-за объявленного деструктора и могло подменяться копированием.",
+    "after": "Конструктор копирования и копирующее присваивание явно удалены. Учебная реализация объявлена некопируемой и неперемещаемой; глубокое копирование не добавлялось. Основные операции дерева сохранены.",
+    "changed_fields": [
+      "block.text"
+    ],
+    "changed_locations": [
+      "Полный каркас RBT: две декларации = delete; пояснение владения после каркаса."
+    ],
+    "evidence": [
+      "corrections/86957/evidence/advanced/validate_advanced.py",
+      "corrections/86957/evidence/advanced/logs/3570303_copy_before.run.txt",
+      "corrections/86957/evidence/advanced/logs/3570303_copy_after.compile.txt",
+      "corrections/86957/evidence/advanced/validate_invariants.py",
+      "corrections/86957/evidence/advanced/invariant_results.json"
+    ],
+    "sources": [
+      {
+        "title": "C++ draft [class.copy.ctor]: implicit public copy and suppression of move",
+        "url": "https://eel.is/c++draft/class.copy.ctor",
+        "ref": "turn928146024view0"
+      }
+    ],
+    "source_file": "courses/86957/steps/853541/02_3570303_text.step",
+    "corrected_file": "corrections/86957/steps/853541/02_3570303_text.step",
+    "base_commit": "d936c0ee8d9f720ba26fec1b109a1153ae3b5930"
+  },
+  {
+    "finding_id": "advanced-011",
+    "step_id": "4035481",
+    "lesson_id": "973831",
+    "severity": "high",
+    "title": "Конструктор HashTable теряет выделения при неудачном создании списка",
+    "before": "При отказе третьего new PasswordList остаются выделенными массив указателей и два списка. Деструктор HashTable не вызывается, потому что объект не достроен.",
+    "after": "Элементы массива указателей заранее равны nullptr; catch освобождает все уже созданные списки и сам массив и повторно выбрасывает исключение.",
+    "changed_fields": [
+      "block.text"
+    ],
+    "changed_locations": [
+      "Кодовый блок 0: нулевая инициализация массива указателей и очистка в обработчике."
+    ],
+    "evidence": [
+      "corrections/86957/evidence/advanced/validate_hash.py",
+      "corrections/86957/evidence/advanced/logs/4035481_ctor_before_c++20.run.txt",
+      "corrections/86957/evidence/advanced/logs/4035481_ctor_after_c++20.run.txt",
+      "corrections/86957/evidence/advanced/hash_results.json"
+    ],
+    "sources": [
+      {
+        "title": "C++ draft [except.ctor]: unwinding a failed constructor",
+        "url": "https://eel.is/c++draft/except.ctor",
+        "ref": "turn402292240view0"
+      }
+    ],
+    "source_file": "courses/86957/steps/973831/02_4035481_text.step",
+    "corrected_file": "corrections/86957/steps/973831/02_4035481_text.step",
+    "base_commit": "d936c0ee8d9f720ba26fec1b109a1153ae3b5930"
+  },
+  {
+    "finding_id": "advanced-012",
+    "step_id": "4035481",
+    "lesson_id": "973831",
+    "severity": "medium",
+    "title": "HashTable увеличивает tableCount до успешной вставки",
+    "before": "При исключении из создания Password пустая цепочка остаётся пустой, но tableCount уже увеличен: воспроизведение даёт buckets=1 при entries=0.",
+    "after": "Признак пустой цепочки сохраняется заранее; tableCount увеличивается только после успешного AddElement. Отказ при создании Password оставляет оба счётчика равными нулю.",
+    "changed_fields": [
+      "block.text"
+    ],
+    "changed_locations": [
+      "Кодовый блок 2: перенос инкремента после добавления; пояснение пути исключения."
+    ],
+    "evidence": [
+      "corrections/86957/evidence/advanced/validate_hash.py",
+      "corrections/86957/evidence/advanced/logs/4035481_insert_before.run.txt",
+      "corrections/86957/evidence/advanced/logs/4035481_insert_after.run.txt",
+      "corrections/86957/evidence/advanced/hash_results.json"
+    ],
+    "sources": [
+      {
+        "title": "C++ draft [except.ctor]: unwinding a failed constructor",
+        "url": "https://eel.is/c++draft/except.ctor",
+        "ref": "turn402292240view0"
+      }
+    ],
+    "source_file": "courses/86957/steps/973831/02_4035481_text.step",
+    "corrected_file": "corrections/86957/steps/973831/02_4035481_text.step",
+    "base_commit": "d936c0ee8d9f720ba26fec1b109a1153ae3b5930"
+  }
+]

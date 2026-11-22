@@ -1,0 +1,2 @@
+after failed insert: buckets=0, entries=0
+successful inserts, collision and duplicate update passed

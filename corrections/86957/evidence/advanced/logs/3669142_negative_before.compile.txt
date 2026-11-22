@@ -1,0 +1,17 @@
+/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3669142_negative_before.cpp:16:60: error: invalid use of incomplete type ‘class Display’
+   16 |     friend void Display::displayItem(const Storage& storage);
+      |                                                            ^
+/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3669142_negative_before.cpp:2:7: note: forward declaration of ‘class Display’
+    2 | class Display; // Предварительное объявление для класса Display
+      |       ^~~~~~~
+/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3669142_negative_before.cpp:20:13: error: expected unqualified-id before ‘bool’
+   20 |     Display(bool displayIntFirst) {
+      |             ^~~~
+/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3669142_negative_before.cpp:20:13: error: expected ‘)’ before ‘bool’
+   20 |     Display(bool displayIntFirst) {
+      |            ~^~~~
+      |             )
+/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3669142_negative_before.cpp: In member function ‘void Storage::displayItem(const Storage&)’:
+/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3669142_negative_before.cpp:25:13: error: ‘m_displayIntFirst’ was not declared in this scope
+   25 |         if (m_displayIntFirst)
+      |             ^~~~~~~~~~~~~~~~~

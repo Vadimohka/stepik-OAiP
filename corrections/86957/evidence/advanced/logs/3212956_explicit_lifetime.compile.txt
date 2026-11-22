@@ -1,0 +1,7 @@
+/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3212956_explicit_lifetime.cpp: In function ‘int main()’:
+/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3212956_explicit_lifetime.cpp:6:5: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+    6 |     if(u.s != "ok") return 1; u.s.~basic_string(); u.i = 7;
+      |     ^~
+/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3212956_explicit_lifetime.cpp:6:31: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+    6 |     if(u.s != "ok") return 1; u.s.~basic_string(); u.i = 7;
+      |                               ^

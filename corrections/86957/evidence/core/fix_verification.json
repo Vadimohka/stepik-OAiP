@@ -1,0 +1,157 @@
+{
+  "snapshot": "d936c0ee8d9f720ba26fec1b109a1153ae3b5930",
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "reform": {
+    "stored_cases_independently_checked": 25,
+    "regression_cases_added": 3,
+    "positive_checks_with_line_ending_variants": 84,
+    "negative_whitespace_checks": 11,
+    "counterexamples": [
+      {
+        "input": " x ",
+        "expected": " ks ",
+        "reply": "  ks ",
+        "old_accepts": true,
+        "fixed_accepts": false
+      },
+      {
+        "input": " x ",
+        "expected": " ks ",
+        "reply": " ks",
+        "old_accepts": true,
+        "fixed_accepts": false
+      },
+      {
+        "input": " x ",
+        "expected": " ks ",
+        "reply": " ks  ",
+        "old_accepts": true,
+        "fixed_accepts": false
+      },
+      {
+        "input": " x ",
+        "expected": " ks ",
+        "reply": "ks",
+        "old_accepts": true,
+        "fixed_accepts": false
+      },
+      {
+        "input": " x ",
+        "expected": " ks ",
+        "reply": "ks ",
+        "old_accepts": true,
+        "fixed_accepts": false
+      },
+      {
+        "input": "   ",
+        "expected": "   ",
+        "reply": "",
+        "old_accepts": true,
+        "fixed_accepts": false
+      },
+      {
+        "input": "   ",
+        "expected": "   ",
+        "reply": "    ",
+        "old_accepts": true,
+        "fixed_accepts": false
+      },
+      {
+        "input": " QW ",
+        "expected": "  ",
+        "reply": "",
+        "old_accepts": true,
+        "fixed_accepts": false
+      },
+      {
+        "input": " QW ",
+        "expected": "  ",
+        "reply": "   ",
+        "old_accepts": true,
+        "fixed_accepts": false
+      }
+    ]
+  },
+  "constexpr_power": [
+    {
+      "name": "constexpr_power_before",
+      "standard": "c++17",
+      "expected_compile_success": false,
+      "compile_returncode": 1,
+      "diagnostics": "/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/constexpr_power_before.cpp:10:31: error: non-constant condition for static assertion\n   10 | static_assert(exp(maximum, 1) == maximum);\n      |               ~~~~~~~~~~~~~~~~^~~~~~~~~~\n/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/constexpr_power_before.cpp:10:18:   in ‘constexpr’ expansion of ‘exp(((float)maximum), 1)’\n/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/constexpr_power_before.cpp:7:18: error: ‘(3.40282347e+38f * 3.40282347e+38f)’ is not a constant expression\n    7 |     return exp(x * x, (n - 1) / 2) * x;\n      |                ~~^~~\n"
+    },
+    {
+      "name": "constexpr_power_after",
+      "standard": "c++17",
+      "expected_compile_success": true,
+      "compile_returncode": 0,
+      "diagnostics": "",
+      "run_returncode": 0,
+      "stdout": ""
+    },
+    {
+      "name": "constexpr_power_invalid_result",
+      "standard": "c++17",
+      "expected_compile_success": false,
+      "compile_returncode": 1,
+      "diagnostics": "/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/constexpr_power_invalid_result.cpp:11:31:   in ‘constexpr’ expansion of ‘exp(std::numeric_limits<float>::max(), 2)’\n/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/constexpr_power_invalid_result.cpp:8:22: error: ‘(3.40282347e+38f * 3.40282347e+38f)’ is not a constant expression\n    8 |         return exp(x * x, n / 2);\n      |                    ~~^~~\n"
+    },
+    {
+      "name": "constexpr_power_before",
+      "standard": "c++20",
+      "expected_compile_success": false,
+      "compile_returncode": 1,
+      "diagnostics": "/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/constexpr_power_before.cpp:10:31: error: non-constant condition for static assertion\n   10 | static_assert(exp(maximum, 1) == maximum);\n      |               ~~~~~~~~~~~~~~~~^~~~~~~~~~\n/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/constexpr_power_before.cpp:10:18:   in ‘constexpr’ expansion of ‘exp(((float)maximum), 1)’\n/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/constexpr_power_before.cpp:7:18: error: ‘(3.40282347e+38f * 3.40282347e+38f)’ is not a constant expression\n    7 |     return exp(x * x, (n - 1) / 2) * x;\n      |                ~~^~~\n"
+    },
+    {
+      "name": "constexpr_power_after",
+      "standard": "c++20",
+      "expected_compile_success": true,
+      "compile_returncode": 0,
+      "diagnostics": "",
+      "run_returncode": 0,
+      "stdout": ""
+    },
+    {
+      "name": "constexpr_power_invalid_result",
+      "standard": "c++20",
+      "expected_compile_success": false,
+      "compile_returncode": 1,
+      "diagnostics": "/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/constexpr_power_invalid_result.cpp:11:31:   in ‘constexpr’ expansion of ‘exp(std::numeric_limits<float>::max(), 2)’\n/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/constexpr_power_invalid_result.cpp:8:22: error: ‘(3.40282347e+38f * 3.40282347e+38f)’ is not a constant expression\n    8 |         return exp(x * x, n / 2);\n      |                    ~~^~~\n"
+    }
+  ],
+  "file_append": [
+    {
+      "name": "file_append_before",
+      "standard": "c++17",
+      "expected_compile_success": false,
+      "compile_returncode": 1,
+      "diagnostics": "/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/file_append_before.cpp:9:1: error: extended character   is not valid in an identifier\n    9 |     out << \"Welcome to CPP\" << std::endl;\n      | ^\n/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/file_append_before.cpp:9:1: error: extended character   is not valid in an identifier\n/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/file_append_before.cpp:9:1: error: extended character   is not valid in an identifier\n/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/file_append_before.cpp:9:1: error: extended character   is not valid in an identifier\n/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/file_append_before.cpp:11:13: error: extended character   is not valid in an identifier\n   11 | out.close();       \n      |             ^\n/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/file_append_before.cpp:11:13: error: extended character   is not valid in an identifier\n/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/file_append_before.cpp:11:13: error: extended character   is not valid in an identifier\n/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/file_append_before.cpp:11:13: error: extended character   is not valid in an identifier\n/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/file_append_before.cpp:11:13: error: extended character   is not valid in an identifier\n/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/file_append_before.cpp:11:13: error: extended character   is not valid in an identifier\n/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/file_append_before.cpp:11:13: error: extended character   is not valid in an identifier\n/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/file_append_before.cpp: In function ‘int main()’:\n/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/file_append_before.cpp:9:1: error: ‘    out’ was not declared in this scope\n    9 |     out << \"Welcome to CPP\" << std::endl;\n      | ^~~~~~~\n/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/file_append_before.cpp:11:13: error: ‘       ’ was not declared in this scope\n   11 | out.close();       \n      |             ^~~~~~~\n/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/file_append_before.cpp:14:62: error: ‘check’ was not declared in this scope\n   14 |     const std::string actual((std::istreambuf_iterator<char>(check)), {});\n      |                                                              ^~~~~\n"
+    },
+    {
+      "name": "file_append_after",
+      "standard": "c++17",
+      "expected_compile_success": true,
+      "compile_returncode": 0,
+      "diagnostics": "",
+      "run_returncode": 0,
+      "stdout": ""
+    },
+    {
+      "name": "file_append_before",
+      "standard": "c++20",
+      "expected_compile_success": false,
+      "compile_returncode": 1,
+      "diagnostics": "/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/file_append_before.cpp:9:1: error: extended character   is not valid in an identifier\n    9 |     out << \"Welcome to CPP\" << std::endl;\n      | ^\n/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/file_append_before.cpp:9:1: error: extended character   is not valid in an identifier\n/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/file_append_before.cpp:9:1: error: extended character   is not valid in an identifier\n/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/file_append_before.cpp:9:1: error: extended character   is not valid in an identifier\n/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/file_append_before.cpp:11:13: error: extended character   is not valid in an identifier\n   11 | out.close();       \n      |             ^\n/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/file_append_before.cpp:11:13: error: extended character   is not valid in an identifier\n/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/file_append_before.cpp:11:13: error: extended character   is not valid in an identifier\n/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/file_append_before.cpp:11:13: error: extended character   is not valid in an identifier\n/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/file_append_before.cpp:11:13: error: extended character   is not valid in an identifier\n/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/file_append_before.cpp:11:13: error: extended character   is not valid in an identifier\n/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/file_append_before.cpp:11:13: error: extended character   is not valid in an identifier\n/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/file_append_before.cpp: In function ‘int main()’:\n/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/file_append_before.cpp:9:1: error: ‘    out’ was not declared in this scope\n    9 |     out << \"Welcome to CPP\" << std::endl;\n      | ^~~~~~~\n/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/file_append_before.cpp:11:13: error: ‘       ’ was not declared in this scope\n   11 | out.close();       \n      |             ^~~~~~~\n/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/file_append_before.cpp:14:62: error: ‘check’ was not declared in this scope\n   14 |     const std::string actual((std::istreambuf_iterator<char>(check)), {});\n      |                                                              ^~~~~\n"
+    },
+    {
+      "name": "file_append_after",
+      "standard": "c++20",
+      "expected_compile_success": true,
+      "compile_returncode": 0,
+      "diagnostics": "",
+      "run_returncode": 0,
+      "stdout": ""
+    }
+  ]
+}

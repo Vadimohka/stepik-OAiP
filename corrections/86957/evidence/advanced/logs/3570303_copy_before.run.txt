@@ -1,0 +1,2 @@
+a.contains(2)=0
+b.contains(2)=1

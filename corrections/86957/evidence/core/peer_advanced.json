@@ -1,0 +1,186 @@
+{
+  "reviewer": "core_errors",
+  "status": "approved",
+  "steps_reviewed": 10,
+  "findings": [
+    {
+      "step_id": 3215234,
+      "status": "approved",
+      "changed_fields": [
+        "block.text"
+      ],
+      "corrected_path": "corrections/86957/steps/770596/03_3215234_text.step",
+      "reviewed_sha256": "dbb298751b198a6a6e9b448f8b843d3a53ff2e971813c0e0bfde4f5fa0089426",
+      "assessment": "All string pointers are initialized before any failure path; each malloc/scanf failure either owns nothing or calls the common cleanup. size=0 still permits malloc(0) returning NULL. Valid input behavior is preserved."
+    },
+    {
+      "step_id": 3215235,
+      "status": "approved",
+      "changed_fields": [
+        "block.text"
+      ],
+      "corrected_path": "corrections/86957/steps/770596/06_3215235_text.step",
+      "reviewed_sha256": "18aec793f52eab7e5599ff18fa84d21635ee8b7241bc5e82329dede45b8b3147",
+      "assessment": "Both string pointers receive malloc results before the joint test; freeModel may safely free either NULL and releases the surviving allocation. The helper no longer calls strcpy on NULL."
+    },
+    {
+      "step_id": 3215236,
+      "status": "approved",
+      "changed_fields": [
+        "block.text"
+      ],
+      "corrected_path": "corrections/86957/steps/770596/07_3215236_text.step",
+      "reviewed_sha256": "03f33f718a39bf3749bd38538ad9026b4cf4ab3ce809c5059bf119c73a67fd4f",
+      "assessment": "Same allocation-failure correction as the previous independent example; it preserves pointers to make and id and runs them only after successful allocation."
+    },
+    {
+      "step_id": 3212956,
+      "status": "approved",
+      "changed_fields": [
+        "block.text"
+      ],
+      "corrected_path": "corrections/86957/steps/770597/01_3212956_text.step",
+      "reviewed_sha256": "15ac209f600191d137b12d89d53cbe5d68c1372d49109aa94e25a9a2ad7fab6d",
+      "assessment": "The revised union explanation distinguishes permitted scalar lifetime start from assignment to an inactive std::string and notes that the old member is not automatically destroyed. It corrects a materially false general rule."
+    },
+    {
+      "step_id": 3215244,
+      "status": "approved",
+      "changed_fields": [
+        "block.text"
+      ],
+      "corrected_path": "corrections/86957/steps/770597/03_3215244_text.step",
+      "reviewed_sha256": "f7efacaa8d4110683df5fffe6363aa3d6a5875caa5e280553ec788e9d1da9eeb",
+      "assessment": "Ints was first defined only in the following step, whereas the preceding step defines Floats. Adding the existing intended definition makes this fragment usable at its actual position; field types match the subsequent example."
+    },
+    {
+      "step_id": 3570303,
+      "status": "approved",
+      "changed_fields": [
+        "block.text"
+      ],
+      "corrected_path": "corrections/86957/steps/853541/02_3570303_text.step",
+      "reviewed_sha256": "6761db73c11d2888bac4ddad9452626453f453197e8064946e575accf549117f",
+      "assessment": "A copy of the shared_ptr root shares mutable nodes while keeping two separate root handles. Rotations through the copied owner can make original keys unreachable. Deleting copy construction/assignment is a minimal ownership policy; implicit move is unavailable too. No current course usage requires copying this tree."
+    },
+    {
+      "step_id": 3669142,
+      "status": "approved",
+      "changed_fields": [
+        "block.text"
+      ],
+      "corrected_path": "corrections/86957/steps/877083/03_3669142_text.step",
+      "reviewed_sha256": "6423ca08e19011a15827eae2d20df05fbe6858615c7c8c925ad0d42b6becee9c",
+      "assessment": "The example is intentionally invalid because Display is incomplete at the friend member declaration. The old missing class boundary introduced a second unrelated syntax error; the patch restores Display while preserving the intended failure."
+    },
+    {
+      "step_id": 3669172,
+      "status": "approved",
+      "changed_fields": [
+        "block.text"
+      ],
+      "corrected_path": "corrections/86957/steps/877083/06_3669172_text.step",
+      "reviewed_sha256": "e5693231e2b364cd5631fcd8785bd4518c0ead1542a5c448ec785b5d65461740",
+      "assessment": "Default card construction now initializes both fields. Invalid or failed position input exits before selected-card comparison. Valid positions 1--3 retain behavior. Added clocale supplies the declared setlocale dependency."
+    },
+    {
+      "step_id": 3759850,
+      "status": "approved",
+      "changed_fields": [
+        "block.text"
+      ],
+      "corrected_path": "corrections/86957/steps/877084/03_3759850_text.step",
+      "reviewed_sha256": "86eee1dd395d745ff2cf2f23f1fde1d280e00119a746a4523b3ebf9baa385f53",
+      "assessment": "Unbounded strcpy into char[20]/char[40] had no documented length precondition. std::string preserves complete names; every affected printf %s receives c_str(). The virtual price base and price calculation are unchanged."
+    },
+    {
+      "step_id": 3759914,
+      "status": "approved",
+      "changed_fields": [
+        "block.text"
+      ],
+      "corrected_path": "corrections/86957/steps/877084/05_3759914_text.step",
+      "reviewed_sha256": "af8e376d3c136b197ac0470df14459fef8e9ab31214f2c12a0246e705fbea437",
+      "assessment": "An abstract base may contain virtual implementations inherited by a concrete derived class. The prior assertion that only nonvirtual elements are inherited was false. The replacement preserves the abstract-instantiation restriction."
+    }
+  ],
+  "independent_executions": [
+    {
+      "name": "peer_rbt_assignment_before",
+      "standard": "c++17",
+      "expected_compile_success": true,
+      "compile_returncode": 0,
+      "diagnostics": "",
+      "expected_run_returncode": 42,
+      "run_returncode": 42
+    },
+    {
+      "name": "peer_rbt_assignment_after",
+      "standard": "c++17",
+      "expected_compile_success": false,
+      "compile_returncode": 1,
+      "diagnostics": "/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/peer_rbt_assignment_after.cpp: In function ‘int main()’:\n/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/peer_rbt_assignment_after.cpp:453:13: error: use of deleted function ‘RBT<T, T1>& RBT<T, T1>::operator=(const RBT<T, T1>&) [with T = int; T1 = int]’\n  453 |     other = original;\n      |             ^~~~~~~~\n/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/peer_rbt_assignment_after.cpp:14:10: note: declared here\n   14 |     RBT& operator=(const RBT&) = delete;\n      |          ^~~~~~~~\n"
+    },
+    {
+      "name": "peer_rbt_ownership_after",
+      "standard": "c++17",
+      "expected_compile_success": true,
+      "compile_returncode": 0,
+      "diagnostics": "",
+      "expected_run_returncode": 0,
+      "run_returncode": 0
+    },
+    {
+      "name": "peer_inheritance_names_after",
+      "standard": "c++17",
+      "expected_compile_success": true,
+      "compile_returncode": 0,
+      "diagnostics": "/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/peer_inheritance_names_after.cpp: In constructor ‘unit_box::unit_box(const char*, int, const char*, int, const char*, char)’:\n/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/peer_inheritance_names_after.cpp:41:47: warning: base ‘box’ will be initialized after [-Wreorder]\n   41 |              unit(x), box(y), price(vx + vy, v) {\n      |                                               ^\n/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/peer_inheritance_names_after.cpp:41:47: warning:   base ‘price’ [-Wreorder]\n/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/peer_inheritance_names_after.cpp:37:5: warning:   when initialized here [-Wreorder]\n   37 |     unit_box(const char *x, int vx, // наименование и цена товара\n      |     ^~~~~~~~\n",
+      "expected_run_returncode": 0,
+      "run_returncode": 0
+    },
+    {
+      "name": "peer_rbt_assignment_before",
+      "standard": "c++20",
+      "expected_compile_success": true,
+      "compile_returncode": 0,
+      "diagnostics": "",
+      "expected_run_returncode": 42,
+      "run_returncode": 42
+    },
+    {
+      "name": "peer_rbt_assignment_after",
+      "standard": "c++20",
+      "expected_compile_success": false,
+      "compile_returncode": 1,
+      "diagnostics": "/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/peer_rbt_assignment_after.cpp: In function ‘int main()’:\n/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/peer_rbt_assignment_after.cpp:453:13: error: use of deleted function ‘RBT<T, T1>& RBT<T, T1>::operator=(const RBT<T, T1>&) [with T = int; T1 = int]’\n  453 |     other = original;\n      |             ^~~~~~~~\n/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/peer_rbt_assignment_after.cpp:14:10: note: declared here\n   14 |     RBT& operator=(const RBT&) = delete;\n      |          ^~~~~~~~\n"
+    },
+    {
+      "name": "peer_rbt_ownership_after",
+      "standard": "c++20",
+      "expected_compile_success": true,
+      "compile_returncode": 0,
+      "diagnostics": "",
+      "expected_run_returncode": 0,
+      "run_returncode": 0
+    },
+    {
+      "name": "peer_inheritance_names_after",
+      "standard": "c++20",
+      "expected_compile_success": true,
+      "compile_returncode": 0,
+      "diagnostics": "/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/peer_inheritance_names_after.cpp: In constructor ‘unit_box::unit_box(const char*, int, const char*, int, const char*, char)’:\n/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/peer_inheritance_names_after.cpp:41:47: warning: base ‘box’ will be initialized after [-Wreorder]\n   41 |              unit(x), box(y), price(vx + vy, v) {\n      |                                               ^\n/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/peer_inheritance_names_after.cpp:41:47: warning:   base ‘price’ [-Wreorder]\n/workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/core/peer_inheritance_names_after.cpp:37:5: warning:   when initialized here [-Wreorder]\n   37 |     unit_box(const char *x, int vx, // наименование и цена товара\n      |     ^~~~~~~~\n",
+      "expected_run_returncode": 0,
+      "run_returncode": 0
+    }
+  ],
+  "independent_evidence": [
+    "Copy-assignment counterexample causes original key 10 to disappear after a rotation in the assigned tree; corrected copy assignment is rejected at compile time.",
+    "The corrected tree retains insertion, lookup, deletion and clear behavior for 21 keys; noncopyable/nonmovable traits hold.",
+    "All three name fields preserve strings at lengths 0,19,20,39,40,200 (and corresponding combined lengths); the price base stays shared and copy of strings stays independent."
+  ],
+  "limitations": [
+    "Read all ten diffs and associated advanced validation harnesses; independently executed the two highest-risk changed code examples under GCC C++17/C++20.",
+    "Did not rerun the entire advanced sanitizer suite or Windows/MSVC."
+  ]
+}

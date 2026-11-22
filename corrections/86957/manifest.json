@@ -1,0 +1,1319 @@
+{
+  "schema_version": 1,
+  "course_id": 86957,
+  "date": "2026-11-23",
+  "base_commit": "d936c0ee8d9f720ba26fec1b109a1153ae3b5930",
+  "status": "prepared",
+  "changed_steps": 24,
+  "confirmed_findings": 25,
+  "changed_lessons": 16,
+  "changed_fields": [
+    "block.source.case_sensitive",
+    "block.source.code",
+    "block.source.test_cases",
+    "block.text"
+  ],
+  "publication": {
+    "status": "not_applied",
+    "applied": false,
+    "note": "Package prepared and checked locally; no Stepik mutation or live grading verification."
+  },
+  "steps": [
+    {
+      "step_id": 5850209,
+      "lesson_id": 1409621,
+      "position": 1,
+      "block_type": "code",
+      "priority": "P2",
+      "source_path": "courses/86957/steps/1409621/01_5850209_code.step",
+      "target_path": "corrections/86957/steps/1409621/01_5850209_code.step",
+      "baseline_path": "corrections/86957/baseline/1409621/01_5850209_code.step",
+      "step_url": "https://stepik.org/lesson/1409621/step/1",
+      "changed_fields": [
+        "block.source.code",
+        "block.text"
+      ],
+      "before_file_sha256": "b3b67add991e9dbb24ac33be2af9d1a2e334de3addca5507b525cc77a0e4bd61",
+      "after_file_sha256": "071b2ce8e6e6601c8ae44f9ad4a27204ee87942c274b04acbfbfe2adacdffbf0",
+      "before_block_sha256": "93a6200eb98a44e4342abb33548e1b5c48ae7968f5b185ebac1f331282f9a80b",
+      "after_block_sha256": "1b3ccfbd7f96105a63aca348abc01b0e4cd477d6f0954e1921a85cc2eef1a573",
+      "summary": "Проверка YAML → INI игнорировала значимые пробелы и начало ответа",
+      "findings": [
+        {
+          "step_id": 5850209,
+          "lesson_id": 1409621,
+          "position": 1,
+          "path": "courses/86957/steps/1409621/01_5850209_code.step",
+          "severity": "P2",
+          "issue": "Проверка strip() принимала лишние пробелы в начале/конце ответа и пустую строку в начале при требовании точного формата INI. Условие также обещало обязательную последнюю пустую строку, которой нет в сохранённых эталонах.",
+          "fix": "Сравнение сохраняет все пробелы и внутренние переводы строк; нормализует CRLF и игнорирует только завершающие переводы строк. В условии явно описан этот допуск. Все 13 исходных наборов сохранены.",
+          "evidence": [
+            "corrections/86957/evidence/final_task/verify_yaml_ini.py",
+            "corrections/86957/evidence/final_task/results.json"
+          ],
+          "sources": [],
+          "reproduction": "Для любого существующего clue исходный check(\" \" + clue, clue) возвращает True; новый — False. Независимый конвертер подтвердил 13 эталонов, включая глубину 499.",
+          "title": "Проверка YAML → INI игнорировала значимые пробелы и начало ответа",
+          "changed_fields": [
+            "block.source.code",
+            "block.text"
+          ]
+        }
+      ]
+    },
+    {
+      "step_id": 3177504,
+      "lesson_id": 763639,
+      "position": 3,
+      "block_type": "text",
+      "priority": "P2",
+      "source_path": "courses/86957/steps/763639/03_3177504_text.step",
+      "target_path": "corrections/86957/steps/763639/03_3177504_text.step",
+      "baseline_path": "corrections/86957/baseline/763639/03_3177504_text.step",
+      "step_url": "https://stepik.org/lesson/763639/step/3",
+      "changed_fields": [
+        "block.text"
+      ],
+      "before_file_sha256": "5ba206de2cca73cf44959ff968a0f3d594529b914876f04de41874aadc86e062",
+      "after_file_sha256": "0cdae19766542c7347a738be406cad264234026bce5ebd458c06bfa694546c9e",
+      "before_block_sha256": "65a3780680dfdaab35d379ee6077434ad814533b019c373603e410fc5de2fc4b",
+      "after_block_sha256": "c5827fcdbbccdef9d4a7683dd5786118bfdfaf98659a97d2d57beaf592cb0a65",
+      "summary": "Неразрывные пробелы делали копируемые примеры C++ некомпилируемыми",
+      "findings": [
+        {
+          "step_id": 3177504,
+          "lesson_id": 763639,
+          "path": "corrections/86957/steps/763639/03_3177504_text.step",
+          "severity": "medium",
+          "title": "Неразрывные пробелы делали копируемые примеры C++ некомпилируемыми",
+          "before": {
+            "character": "U+00A0",
+            "affected_pre_blocks": [
+              {
+                "pre_index": 0,
+                "nbsp_count": 20
+              },
+              {
+                "pre_index": 1,
+                "nbsp_count": 41
+              }
+            ]
+          },
+          "after": {
+            "character": "U+0020",
+            "replacement_scope": "Только существующие блоки <pre>; текст вне блоков сохранён."
+          },
+          "rationale": "U+00A0 между токенами и перед инструкциями не является пробельным разделителем C++. GCC 14.2 в строгих режимах C++17 и C++20 отвергает исходные примеры. После замены на обычные пробелы проверенные фрагменты компилируются и дают заявленный результат. Это исправление исполняемости копируемого кода.",
+          "changed_fields": [
+            "block.text"
+          ],
+          "evidence": [
+            "corrections/86957/evidence/foundations/verify_fixes.py",
+            "corrections/86957/evidence/foundations/fix_verification.json"
+          ],
+          "stepik_url": "https://stepik.org/lesson/763639/step/3",
+          "source_urls": [
+            "https://stepik.org/lesson/763639/step/3"
+          ]
+        }
+      ]
+    },
+    {
+      "step_id": 3215105,
+      "lesson_id": 763640,
+      "position": 2,
+      "block_type": "text",
+      "priority": "P2",
+      "source_path": "courses/86957/steps/763640/02_3215105_text.step",
+      "target_path": "corrections/86957/steps/763640/02_3215105_text.step",
+      "baseline_path": "corrections/86957/baseline/763640/02_3215105_text.step",
+      "step_url": "https://stepik.org/lesson/763640/step/2",
+      "changed_fields": [
+        "block.text"
+      ],
+      "before_file_sha256": "8425ed4a29ff826c12fd5eb7650151855578333e30914fee66b4ee1468b414bc",
+      "after_file_sha256": "93dc726116f86df46f4045dc6449e7b1297f03c2cb0bf1ac497d973c583ec41d",
+      "before_block_sha256": "d13ea79c509c360d617329aa2417fd955f1ce4ba87fe541d653878a127a4e0bc",
+      "after_block_sha256": "a90332854447c5639b4068b8194093fcbed82778203c61b1a2d2ddf15a659d08",
+      "summary": "Неразрывные пробелы делали копируемые примеры C++ некомпилируемыми",
+      "findings": [
+        {
+          "step_id": 3215105,
+          "lesson_id": 763640,
+          "path": "corrections/86957/steps/763640/02_3215105_text.step",
+          "severity": "medium",
+          "title": "Неразрывные пробелы делали копируемые примеры C++ некомпилируемыми",
+          "before": {
+            "character": "U+00A0",
+            "affected_pre_blocks": [
+              {
+                "pre_index": 0,
+                "nbsp_count": 12
+              },
+              {
+                "pre_index": 1,
+                "nbsp_count": 144
+              },
+              {
+                "pre_index": 2,
+                "nbsp_count": 8
+              },
+              {
+                "pre_index": 4,
+                "nbsp_count": 96
+              }
+            ]
+          },
+          "after": {
+            "character": "U+0020",
+            "replacement_scope": "Только существующие блоки <pre>; текст вне блоков сохранён."
+          },
+          "rationale": "U+00A0 между токенами и перед инструкциями не является пробельным разделителем C++. GCC 14.2 в строгих режимах C++17 и C++20 отвергает исходные примеры. После замены на обычные пробелы проверенные фрагменты компилируются и дают заявленный результат. Это исправление исполняемости копируемого кода.",
+          "changed_fields": [
+            "block.text"
+          ],
+          "evidence": [
+            "corrections/86957/evidence/foundations/verify_fixes.py",
+            "corrections/86957/evidence/foundations/fix_verification.json"
+          ],
+          "stepik_url": "https://stepik.org/lesson/763640/step/2",
+          "source_urls": [
+            "https://stepik.org/lesson/763640/step/2"
+          ]
+        }
+      ]
+    },
+    {
+      "step_id": 3177565,
+      "lesson_id": 763719,
+      "position": 2,
+      "block_type": "text",
+      "priority": "P2",
+      "source_path": "courses/86957/steps/763719/02_3177565_text.step",
+      "target_path": "corrections/86957/steps/763719/02_3177565_text.step",
+      "baseline_path": "corrections/86957/baseline/763719/02_3177565_text.step",
+      "step_url": "https://stepik.org/lesson/763719/step/2",
+      "changed_fields": [
+        "block.text"
+      ],
+      "before_file_sha256": "a0370f3df1564883661c9c0705dd4cd03c2dba0c1abf08958bbf37a27933b6fa",
+      "after_file_sha256": "7ba5d9e15b9b62f3d42c98bdadc112f60b5e46530beb60bb0b5ecf8fe64a6bac",
+      "before_block_sha256": "b4019e2fb8a443353043d9e31d8abc07fc8993188026ced98931764654c30b07",
+      "after_block_sha256": "6971007fccf80ea415ba5d3b09cd695310e8dd338c2bce3825c17822a59595cc",
+      "summary": "Неразрывные пробелы делали копируемые примеры C++ некомпилируемыми",
+      "findings": [
+        {
+          "step_id": 3177565,
+          "lesson_id": 763719,
+          "path": "corrections/86957/steps/763719/02_3177565_text.step",
+          "severity": "medium",
+          "title": "Неразрывные пробелы делали копируемые примеры C++ некомпилируемыми",
+          "before": {
+            "character": "U+00A0",
+            "affected_pre_blocks": [
+              {
+                "pre_index": 0,
+                "nbsp_count": 4
+              },
+              {
+                "pre_index": 1,
+                "nbsp_count": 34
+              }
+            ]
+          },
+          "after": {
+            "character": "U+0020",
+            "replacement_scope": "Только существующие блоки <pre>; текст вне блоков сохранён."
+          },
+          "rationale": "U+00A0 между токенами и перед инструкциями не является пробельным разделителем C++. GCC 14.2 в строгих режимах C++17 и C++20 отвергает исходные примеры. После замены на обычные пробелы проверенные фрагменты компилируются и дают заявленный результат. Это исправление исполняемости копируемого кода.",
+          "changed_fields": [
+            "block.text"
+          ],
+          "evidence": [
+            "corrections/86957/evidence/foundations/verify_fixes.py",
+            "corrections/86957/evidence/foundations/fix_verification.json"
+          ],
+          "stepik_url": "https://stepik.org/lesson/763719/step/2",
+          "source_urls": [
+            "https://stepik.org/lesson/763719/step/2"
+          ]
+        }
+      ]
+    },
+    {
+      "step_id": 3177651,
+      "lesson_id": 763719,
+      "position": 4,
+      "block_type": "text",
+      "priority": "P2",
+      "source_path": "courses/86957/steps/763719/04_3177651_text.step",
+      "target_path": "corrections/86957/steps/763719/04_3177651_text.step",
+      "baseline_path": "corrections/86957/baseline/763719/04_3177651_text.step",
+      "step_url": "https://stepik.org/lesson/763719/step/4",
+      "changed_fields": [
+        "block.text"
+      ],
+      "before_file_sha256": "3ad099e7d607b8abb732b4cc604b7ee3292e53c5eb9bf7e89dbd3c39ec3f6a70",
+      "after_file_sha256": "41751b2602b2fdf1e2c705afc992792ff8fe8f28a4a078a83d6664ad4a8dd320",
+      "before_block_sha256": "82de2cf89c2ff5467090cba5125930ea1b6b7b2ffb0aa12737036685f44b0d50",
+      "after_block_sha256": "f5df8fd866674db0368d8698d6e3097d928b96153bc31574708ac6125a47c6f7",
+      "summary": "Неразрывные пробелы делали копируемые примеры C++ некомпилируемыми",
+      "findings": [
+        {
+          "step_id": 3177651,
+          "lesson_id": 763719,
+          "path": "corrections/86957/steps/763719/04_3177651_text.step",
+          "severity": "medium",
+          "title": "Неразрывные пробелы делали копируемые примеры C++ некомпилируемыми",
+          "before": {
+            "character": "U+00A0",
+            "affected_pre_blocks": [
+              {
+                "pre_index": 0,
+                "nbsp_count": 4
+              },
+              {
+                "pre_index": 1,
+                "nbsp_count": 22
+              },
+              {
+                "pre_index": 2,
+                "nbsp_count": 8
+              }
+            ]
+          },
+          "after": {
+            "character": "U+0020",
+            "replacement_scope": "Только существующие блоки <pre>; текст вне блоков сохранён."
+          },
+          "rationale": "U+00A0 между токенами и перед инструкциями не является пробельным разделителем C++. GCC 14.2 в строгих режимах C++17 и C++20 отвергает исходные примеры. После замены на обычные пробелы проверенные фрагменты компилируются и дают заявленный результат. Это исправление исполняемости копируемого кода.",
+          "changed_fields": [
+            "block.text"
+          ],
+          "evidence": [
+            "corrections/86957/evidence/foundations/verify_fixes.py",
+            "corrections/86957/evidence/foundations/fix_verification.json"
+          ],
+          "stepik_url": "https://stepik.org/lesson/763719/step/4",
+          "source_urls": [
+            "https://stepik.org/lesson/763719/step/4"
+          ]
+        }
+      ]
+    },
+    {
+      "step_id": 3267786,
+      "lesson_id": 768143,
+      "position": 7,
+      "block_type": "string",
+      "priority": "P2",
+      "source_path": "courses/86957/steps/768143/07_3267786_string.step",
+      "target_path": "corrections/86957/steps/768143/07_3267786_string.step",
+      "baseline_path": "corrections/86957/baseline/768143/07_3267786_string.step",
+      "step_url": "https://stepik.org/lesson/768143/step/7",
+      "changed_fields": [
+        "block.source.case_sensitive"
+      ],
+      "before_file_sha256": "09a0b252aec37cd2dd6da7d917a99aa81cc9a4a0b86a1f877128f43b6c648ea0",
+      "after_file_sha256": "7d68a726f476b1d578c965b7d47aa480ed27a4480b0b3ff32f9f19262b5b1555",
+      "before_block_sha256": "8d67d4e91cb7d37b748347acfaa7dc8eb5886b2f387a1a3c2023b4d73144c2d9",
+      "after_block_sha256": "d9eb798b8a369e5f03a7dc9f0658507c7a78260809154c109141334f8f0f7cf6",
+      "summary": "Проверка точного вывода программы принимала неверный регистр",
+      "findings": [
+        {
+          "step_id": 3267786,
+          "lesson_id": 768143,
+          "path": "corrections/86957/steps/768143/07_3267786_string.step",
+          "severity": "medium",
+          "title": "Проверка точного вывода программы принимала неверный регистр",
+          "before": {
+            "block.source.case_sensitive": false,
+            "accepted_wrong_variants": [
+              "hello, World!\n7d3.6234e+01",
+              "HELLO, World!\n7d3.6234e+01",
+              "Hello, World!\n7D3.6234E+01"
+            ]
+          },
+          "after": {
+            "block.source.case_sensitive": true,
+            "unchanged_pattern": "Hello, World!\n7d3.6234e+01"
+          },
+          "rationale": "Вопрос просит вывод конкретной программы. На изображении литерал Hello, World!, а поток без uppercase печатает d и e в нижнем регистре. Изменён только флаг учёта регистра; шаблон, правила перевода строк, regex и пользовательский код не менялись. Вывод воспроизведён компиляцией программы с необходимыми заголовками в C++17 и C++20; проверка вариантов локальная, не отправка ответов на Stepik.",
+          "changed_fields": [
+            "block.source.case_sensitive"
+          ],
+          "evidence": [
+            "corrections/86957/evidence/foundations/verify_fixes.py",
+            "corrections/86957/evidence/foundations/fix_verification.json"
+          ],
+          "stepik_url": "https://stepik.org/lesson/768143/step/7",
+          "source_urls": [
+            "https://stepik.org/lesson/768143/step/7",
+            "https://help.stepik.org/article/54796"
+          ]
+        }
+      ]
+    },
+    {
+      "step_id": 3438841,
+      "lesson_id": 770586,
+      "position": 6,
+      "block_type": "text",
+      "priority": "P2",
+      "source_path": "courses/86957/steps/770586/06_3438841_text.step",
+      "target_path": "corrections/86957/steps/770586/06_3438841_text.step",
+      "baseline_path": "corrections/86957/baseline/770586/06_3438841_text.step",
+      "step_url": "https://stepik.org/lesson/770586/step/6",
+      "changed_fields": [
+        "block.text"
+      ],
+      "before_file_sha256": "519a9311f0b244b4b155cea25ae30714064c6151e65470b66f68e7a2cd436456",
+      "after_file_sha256": "4d3571a89566e8c13c2074cb845c4b4e2a2096c1b5a44e2011c584687735e3c3",
+      "before_block_sha256": "3fc310fbf91bf9e023e9fe2f35d44ea0d9050337dd18b291d7d125aa57f719f8",
+      "after_block_sha256": "58209a09c67381c6ab1648e54aaf13ca45a545f4d0857a048d8f52ad15f92592",
+      "summary": "Указатель вершины стека ошибочно объявлялся указателем на свободное место",
+      "findings": [
+        {
+          "step_id": 3438841,
+          "lesson_id": 770586,
+          "path": "corrections/86957/steps/770586/06_3438841_text.step",
+          "severity": "medium",
+          "title": "Указатель вершины стека ошибочно объявлялся указателем на свободное место",
+          "before": "<p>В ячейках под соответствующими адресами лежат значения переменных <code>x</code>, <code>y</code> и <code>z</code>. Также стоит упомянуть, что в стеке всегда поддерживается указатель (<strong>SP - Stack Pointer</strong>), который указывает на вершину стека, то есть то место, в которое можно дальше записывать данные. Однако нам существование этого указателя погоды не делает, т.к. компилятор работает с ним самостоятельно.</p>",
+          "after": "<p>В ячейках под соответствующими адресами лежат значения переменных <code>x</code>, <code>y</code> и <code>z</code>. В типичной реализации процессор хранит указатель стека (<strong>SP — Stack Pointer</strong>; на x86-64 — <code>RSP</code>). Его точный смысл зависит от архитектуры. Например, на x86 инструкция <code>PUSH</code> сначала уменьшает указатель, а затем записывает значение по новому адресу. Поэтому текущую вершину нельзя считать свободной ячейкой для следующей записи. При выполнении обычного кода C++ необходимые операции со стеком формирует компилятор.</p>",
+          "rationale": "На x86 PUSH сначала уменьшает SP/ESP/RSP и только затем записывает новый элемент. Текущая вершина может содержать уже размещённые данные, поэтому определение SP как места следующей свободной записи неверно даже для распространённой модели стека. Указана зависимость от архитектуры, без обещания устройства, обязательного для C++.",
+          "changed_fields": [
+            "block.text"
+          ],
+          "evidence": [
+            "corrections/86957/evidence/foundations/verify_fixes.py",
+            "corrections/86957/evidence/foundations/fix_verification.json"
+          ],
+          "stepik_url": "https://stepik.org/lesson/770586/step/6",
+          "source_urls": [
+            "https://stepik.org/lesson/770586/step/6",
+            "https://cdrdv2-public.intel.com/843827/253665-sdm-vol-1-dec-24.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "step_id": 4700496,
+      "lesson_id": 770586,
+      "position": 12,
+      "block_type": "code",
+      "priority": "P2",
+      "source_path": "courses/86957/steps/770586/12_4700496_code.step",
+      "target_path": "corrections/86957/steps/770586/12_4700496_code.step",
+      "baseline_path": "corrections/86957/baseline/770586/12_4700496_code.step",
+      "step_url": "https://stepik.org/lesson/770586/step/12",
+      "changed_fields": [
+        "block.text"
+      ],
+      "before_file_sha256": "faf583a634c6d53b9e9c3e9702c2ad1074968aa8fce095822dea8c91cd4f4c4a",
+      "after_file_sha256": "9e5541c166955fa8da350f0adfda21b49049a28e4556a413ee9950d67b8e2385",
+      "before_block_sha256": "57c1fd83fe1256782e80f3b4c52f761b58ae589931a28d5c88f809722bd8fb63",
+      "after_block_sha256": "5bf285a3013845ee083c72e4de076b0aa1cc8c7782a183bb93cb617a995946b4",
+      "summary": "В гарантии сравнения произведений использовались неопределённые x и y",
+      "findings": [
+        {
+          "step_id": 4700496,
+          "lesson_id": 770586,
+          "path": "corrections/86957/steps/770586/12_4700496_code.step",
+          "severity": "medium",
+          "title": "В гарантии сравнения произведений использовались неопределённые x и y",
+          "before": {
+            "html": "<p>Гарантируется, что ​​​​​​​<img alt=\"\" height=\"37\" name=\"image.png\" src=\"https://ucarecdn.stepik.net/9b533a7d-1f9f-402f-b3fb-a4bec4dde1a3/\" width=\"251\"></p>",
+            "formula_from_image": "∀ x < y, y/x > 1 + 10^−7"
+          },
+          "after": "<p>Обозначим произведения <code>P = a<sub>1</sub> · ... · a<sub>n</sub></code> и <code>Q = b<sub>1</sub> · ... · b<sub>n</sub></code>. Гарантируется, что либо <code>P = Q</code>, либо <code>max(P, Q) / min(P, Q) &gt; 1 + 10<sup>−7</sup></code>. Эта гарантия относится к двум произведениям, а не к каждой паре входных элементов.</p>",
+          "rationale": "Имена x и y в задаче не определены, а универсальная формула буквально неверна. Гарантия теперь явно относится к двум положительным произведениям и отдельно допускает равенство. Точная целочисленная проверка подтвердила эту гарантию и эталонные знаки для всех 31 подзадач в 12 сохранённых тестах. Проверяющий код и тесты не изменены.",
+          "changed_fields": [
+            "block.text"
+          ],
+          "evidence": [
+            "corrections/86957/evidence/foundations/verify_fixes.py",
+            "corrections/86957/evidence/foundations/fix_verification.json",
+            "corrections/86957/evidence/foundations/check_task_references.py",
+            "corrections/86957/evidence/foundations/task_reference_results.json"
+          ],
+          "stepik_url": "https://stepik.org/lesson/770586/step/12",
+          "source_urls": [
+            "https://stepik.org/lesson/770586/step/12"
+          ]
+        }
+      ]
+    },
+    {
+      "step_id": 3213207,
+      "lesson_id": 770587,
+      "position": 4,
+      "block_type": "text",
+      "priority": "P2",
+      "source_path": "courses/86957/steps/770587/04_3213207_text.step",
+      "target_path": "corrections/86957/steps/770587/04_3213207_text.step",
+      "baseline_path": "corrections/86957/baseline/770587/04_3213207_text.step",
+      "step_url": "https://stepik.org/lesson/770587/step/4",
+      "changed_fields": [
+        "block.text"
+      ],
+      "before_file_sha256": "de5a1dabe55e8b1157a3839c9d27d9dc8ed3e2321a2c723c3579b3a2a72d1c2b",
+      "after_file_sha256": "ce2b4daa986eaab6331a9782c56289de7a293cd82925f05c71d5f96fcda545c0",
+      "before_block_sha256": "f6a8e57038ef26764f439e6437e107e031b2d41ea44a0113675cc895f9c7598b",
+      "after_block_sha256": "fb04f89f497e9d1f102a184ee49b0fece54179926cbaca9f2c606d617480df2f",
+      "summary": "Чтение слов дробило длинный ввод и могло принять его хвост за end",
+      "findings": [
+        {
+          "step_id": 3213207,
+          "lesson_id": 770587,
+          "path": "corrections/86957/steps/770587/04_3213207_text.step",
+          "severity": "medium",
+          "title": "Чтение слов дробило длинный ввод и могло принять его хвост за end",
+          "before": {
+            "loop": "while (scanf(\"%127s\", buffer) == 1 &amp;&amp; strcmp(buffer, \"end\") != 0) {",
+            "error_message": "fputs(\"Cannot allocate memory\\n\", stderr);",
+            "counterexample": "Одно слово из 128 букв a печаталось как два слова длины 127 и 1; слово a×127 + end ошибочно завершало чтение."
+          },
+          "after": {
+            "loop": "while (scanf(\"%127s\", buffer) == 1) {\n        int next = getchar();\n        if (next != EOF &amp;&amp; !isspace((unsigned char)next)) {\n            failed = 2;\n            break;\n        }\n        if (strcmp(buffer, \"end\") == 0) {\n            break;\n        }",
+            "error_message": "fputs(failed == 2 ? \"Word is too long\\n\" : \"Cannot allocate memory\\n\", stderr);",
+            "input_contract": "<p>В этом примере длина одного слова ограничена 127 байтами без завершающего нулевого символа. Ограничение <code>%127s</code> защищает буфер, но оставляет продолжение слишком длинного слова во входном потоке. Поэтому после чтения проверяем следующий байт: это должен быть пробельный символ или конец ввода. Более длинное слово вызывает сообщение об ошибке и освобождение уже выделенной памяти; его части не становятся отдельными словами или командой <code>end</code>.</p>\n\n"
+          },
+          "rationale": "Ширина %127s ограничивает только очередное чтение, а не длину слова во входе. Добавлена проверка границы слова до проверки команды end и сохранения строки. Слова до 127 байт, окончание ввода и расширение таблицы сохраняют прежнее поведение; слишком длинный ввод явно отвергается после освобождения ранее выделенных блоков.",
+          "changed_fields": [
+            "block.text"
+          ],
+          "evidence": [
+            "corrections/86957/evidence/foundations/verify_fixes.py",
+            "corrections/86957/evidence/foundations/fix_verification.json",
+            "corrections/86957/evidence/foundations/word_reader_cases.json"
+          ],
+          "stepik_url": "https://stepik.org/lesson/770587/step/4",
+          "source_urls": [
+            "https://stepik.org/lesson/770587/step/4",
+            "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "step_id": 3213210,
+      "lesson_id": 770587,
+      "position": 5,
+      "block_type": "text",
+      "priority": "P2",
+      "source_path": "courses/86957/steps/770587/05_3213210_text.step",
+      "target_path": "corrections/86957/steps/770587/05_3213210_text.step",
+      "baseline_path": "corrections/86957/baseline/770587/05_3213210_text.step",
+      "step_url": "https://stepik.org/lesson/770587/step/5",
+      "changed_fields": [
+        "block.text"
+      ],
+      "before_file_sha256": "b3d1c4316dde5c51c0bcf986fe994cf41fbb8e00d937cb44afd6b7e60c29db86",
+      "after_file_sha256": "1ec551a979bcecbf4c074a9fe914a9e3e1ca4d847128bb2600a272ba2fe19776",
+      "before_block_sha256": "b9221f7d4df350faa920d2c6fbbb16aa8c519a31a2fbea314f25e9d0994862cd",
+      "after_block_sha256": "d1b87b160f6d1374654c875377a424c1c3648f3ed3e484f4faa3ba3d87a133f9",
+      "summary": "Чтение слов дробило длинный ввод и могло принять его хвост за end",
+      "findings": [
+        {
+          "step_id": 3213210,
+          "lesson_id": 770587,
+          "path": "corrections/86957/steps/770587/05_3213210_text.step",
+          "severity": "medium",
+          "title": "Чтение слов дробило длинный ввод и могло принять его хвост за end",
+          "before": {
+            "loop": "while (scanf(\"%127s\", buffer) == 1 &amp;&amp; strcmp(buffer, \"end\") != 0) {",
+            "error_message": "fputs(\"Cannot allocate memory\\n\", stderr);",
+            "counterexample": "Одно слово из 128 букв a печаталось как два слова длины 127 и 1; слово a×127 + end ошибочно завершало чтение."
+          },
+          "after": {
+            "loop": "while (scanf(\"%127s\", buffer) == 1) {\n        int next = getchar();\n        if (next != EOF &amp;&amp; !isspace((unsigned char)next)) {\n            failed = 2;\n            break;\n        }\n        if (strcmp(buffer, \"end\") == 0) {\n            break;\n        }",
+            "error_message": "fputs(failed == 2 ? \"Word is too long\\n\" : \"Cannot allocate memory\\n\", stderr);",
+            "input_contract": "<p>В этом примере длина одного слова ограничена 127 байтами без завершающего нулевого символа. Ограничение <code>%127s</code> защищает буфер, но оставляет продолжение слишком длинного слова во входном потоке. Поэтому после чтения проверяем следующий байт: это должен быть пробельный символ или конец ввода. Более длинное слово вызывает сообщение об ошибке и освобождение уже выделенной памяти; его части не становятся отдельными словами или командой <code>end</code>.</p>\n\n"
+          },
+          "rationale": "Ширина %127s ограничивает только очередное чтение, а не длину слова во входе. Добавлена проверка границы слова до проверки команды end и сохранения строки. Слова до 127 байт, окончание ввода и расширение таблицы сохраняют прежнее поведение; слишком длинный ввод явно отвергается после освобождения ранее выделенных блоков.",
+          "changed_fields": [
+            "block.text"
+          ],
+          "evidence": [
+            "corrections/86957/evidence/foundations/verify_fixes.py",
+            "corrections/86957/evidence/foundations/fix_verification.json",
+            "corrections/86957/evidence/foundations/word_reader_cases.json"
+          ],
+          "stepik_url": "https://stepik.org/lesson/770587/step/5",
+          "source_urls": [
+            "https://stepik.org/lesson/770587/step/5",
+            "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "step_id": 4949336,
+      "lesson_id": 770589,
+      "position": 15,
+      "block_type": "code",
+      "priority": "P1",
+      "source_path": "courses/86957/steps/770589/15_4949336_code.step",
+      "target_path": "corrections/86957/steps/770589/15_4949336_code.step",
+      "baseline_path": "corrections/86957/baseline/770589/15_4949336_code.step",
+      "step_url": "https://stepik.org/lesson/770589/step/15",
+      "changed_fields": [
+        "block.source.code",
+        "block.source.test_cases"
+      ],
+      "before_file_sha256": "3a9ddbc7cbe3afc5d0e074c4c4a4aac117441474ef54d4dcc505ac64b9c3983d",
+      "after_file_sha256": "8032bd3e1a095d0858f8cf17fbdb21c6acdeed620a47a87ca5e175a2b34e7aaf",
+      "before_block_sha256": "cbc5d737e21a7f0f944a2b1f0f4aaf6280f57e04ae8567a97f169c016cb46be7",
+      "after_block_sha256": "15d3d40036d28fea9bc2b2257ffc07441f3b55a95f1e97e184f20681b84e40d1",
+      "summary": "Проверка теряла значимые крайние пробелы преобразуемого текста",
+      "findings": [
+        {
+          "step_id": 4949336,
+          "lesson_id": 770589,
+          "path": "corrections/86957/steps/770589/15_4949336_code.step",
+          "severity": "high",
+          "title": "Проверка теряла значимые крайние пробелы преобразуемого текста",
+          "before": {
+            "block.source.code": "return reply.strip() == clue.strip()",
+            "block.source.test_cases.count": 25
+          },
+          "after": {
+            "block.source.code": "return reply.rstrip(\"\\r\\n\") == clue.rstrip(\"\\r\\n\")",
+            "block.source.test_cases.count": 28,
+            "added_cases": [
+              [
+                " x ",
+                " ks "
+              ],
+              [
+                "   ",
+                "   "
+              ],
+              [
+                " QW ",
+                "  "
+              ]
+            ]
+          },
+          "rationale": "Условие требует сохранять пробелы. Для входа « x » точный ответ « ks », но strip() принимал неверный «ks». Для строки из трёх пробелов прежняя проверка принимала даже пустой ответ. Разрешены завершающие переводы строки, но пробелы остаются частью ответа.",
+          "changed_fields": [
+            "block.source.code",
+            "block.source.test_cases"
+          ],
+          "evidence": [
+            "corrections/86957/evidence/core/fix_verification.json",
+            "corrections/86957/evidence/core/check_task_answers.py",
+            "corrections/86957/evidence/core/task_answer_results.json"
+          ],
+          "source_urls": [
+            "https://stepik.org/lesson/770589/step/15"
+          ]
+        }
+      ]
+    },
+    {
+      "step_id": 3214910,
+      "lesson_id": 770590,
+      "position": 3,
+      "block_type": "text",
+      "priority": "P2",
+      "source_path": "courses/86957/steps/770590/03_3214910_text.step",
+      "target_path": "corrections/86957/steps/770590/03_3214910_text.step",
+      "baseline_path": "corrections/86957/baseline/770590/03_3214910_text.step",
+      "step_url": "https://stepik.org/lesson/770590/step/3",
+      "changed_fields": [
+        "block.text"
+      ],
+      "before_file_sha256": "ddc2ed81e2891a0d67659876d87cfece6c689ccfb0a4bedb8db6e4ac568cad82",
+      "after_file_sha256": "8c703b59d407f67756e6fe8d3c5d7a37514dcd070db870fb0a8753de5eb5cee1",
+      "before_block_sha256": "c64bfa473d33db8f37f5f1221dded468100a2020f8f4c8f26aecaea2b1079047",
+      "after_block_sha256": "cbc05fddf036f84e0fe51737ac05f0f5e341a2962898ca6396ea312dfae6e1fd",
+      "summary": "Возведение в степень вычисляло лишнее x*x при n=1 и срывало constexpr",
+      "findings": [
+        {
+          "step_id": 3214910,
+          "lesson_id": 770590,
+          "path": "corrections/86957/steps/770590/03_3214910_text.step",
+          "severity": "medium",
+          "title": "Возведение в степень вычисляло лишнее x*x при n=1 и срывало constexpr",
+          "before": "После проверки n==0 функция сразу вычисляла exp(x*x, (n-1)/2)*x для нечётного n, включая n=1.",
+          "after": "Добавлен базовый случай n==1: return x; до умножения x*x.",
+          "rationale": "exp(FLT_MAX,1) и exp(2.0f,127) имеют представимый результат, но прежняя функция вычисляет промежуточное переполняющееся x*x. GCC 14.2.0 в C++17 и C++20 отвергает такие константные выражения. Исправленный базовый случай убирает лишнюю операцию, сохраняя прежний алгоритм.",
+          "changed_fields": [
+            "block.text"
+          ],
+          "evidence": [
+            "corrections/86957/evidence/core/fix_verification.json",
+            "corrections/86957/evidence/core/constexpr_power_before.cpp",
+            "corrections/86957/evidence/core/constexpr_power_after.cpp",
+            "corrections/86957/evidence/core/constexpr_power_invalid_result.cpp"
+          ],
+          "source_urls": [
+            "https://stepik.org/lesson/770590/step/3"
+          ]
+        }
+      ]
+    },
+    {
+      "step_id": 3215234,
+      "lesson_id": 770596,
+      "position": 3,
+      "block_type": "text",
+      "priority": "P1",
+      "source_path": "courses/86957/steps/770596/03_3215234_text.step",
+      "target_path": "corrections/86957/steps/770596/03_3215234_text.step",
+      "baseline_path": "corrections/86957/baseline/770596/03_3215234_text.step",
+      "step_url": "https://stepik.org/lesson/770596/step/3",
+      "changed_fields": [
+        "block.text"
+      ],
+      "before_file_sha256": "9c2898c225ffbb01d998f5aaacfa54b62643617ac542830dc70c5ba835b5909d",
+      "after_file_sha256": "dbb298751b198a6a6e9b448f8b843d3a53ff2e971813c0e0bfde4f5fa0089426",
+      "before_block_sha256": "9b40b44e10b6036cc8ad07aa0bf30157acc55fc84673905dc2ba3353102c2909",
+      "after_block_sha256": "202a07e86ce5d803766791fe99debaec871c804c1b6ce721da1827740d204593",
+      "summary": "Не проверяются ввод строк и выделение памяти для массива пользователей",
+      "findings": [
+        {
+          "finding_id": "advanced-001",
+          "step_id": "3215234",
+          "lesson_id": "770596",
+          "severity": "high",
+          "title": "Не проверяются ввод строк и выделение памяти для массива пользователей",
+          "before": "После EOF при чтении пароля программа использует старый buffer: ввод 1\\nalice\\n создаёт пароль alice. При отказе malloc используются нулевые указатели.",
+          "after": "Проверены все scanf и malloc, указатели всех строк заранее получают NULL, общий путь очистки освобождает частично заполненный массив. При ошибке программа возвращает 1.",
+          "changed_fields": [
+            "block.text"
+          ],
+          "changed_locations": [
+            "Первый и единственный кодовый блок: инициализация указателей, проверки ввода/выделения, ранняя очистка; пояснение после кода."
+          ],
+          "evidence": [
+            "corrections/86957/evidence/advanced/validate_advanced.py",
+            "corrections/86957/evidence/advanced/logs/3215234_stale_password_before.run.txt",
+            "corrections/86957/evidence/advanced/logs/3215234_allocation_failure_before.run.txt",
+            "corrections/86957/evidence/advanced/validation_results.json"
+          ],
+          "sources": [
+            {
+              "title": "WG14 N1570, 7.21.6.2/4: scanf returns assignments or EOF",
+              "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf",
+              "ref": "turn132443602view1"
+            },
+            {
+              "title": "WG14 N1570, 7.22.3.3–4: free and malloc",
+              "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf",
+              "ref": "turn739526059view2"
+            }
+          ],
+          "source_file": "courses/86957/steps/770596/03_3215234_text.step",
+          "corrected_file": "corrections/86957/steps/770596/03_3215234_text.step",
+          "base_commit": "d936c0ee8d9f720ba26fec1b109a1153ae3b5930"
+        }
+      ]
+    },
+    {
+      "step_id": 3215235,
+      "lesson_id": 770596,
+      "position": 6,
+      "block_type": "text",
+      "priority": "P1",
+      "source_path": "courses/86957/steps/770596/06_3215235_text.step",
+      "target_path": "corrections/86957/steps/770596/06_3215235_text.step",
+      "baseline_path": "corrections/86957/baseline/770596/06_3215235_text.step",
+      "step_url": "https://stepik.org/lesson/770596/step/6",
+      "changed_fields": [
+        "block.text"
+      ],
+      "before_file_sha256": "472e2eadfe9eaa58b493500b6a325adf479f923aa630773b87ef8d33ba86d559",
+      "after_file_sha256": "18aec793f52eab7e5599ff18fa84d21635ee8b7241bc5e82329dede45b8b3147",
+      "before_block_sha256": "19b081a6e3e6d8da1f9317ef335eee19641197ecc2a339e988ca7610b79e67c3",
+      "after_block_sha256": "5042c1e2dcb0d698d9d44ca1b0938f56710bd0e0fbb4925003e49787ef05bd4f",
+      "summary": "mallocByString передаёт NULL в strcpy при отказе malloc",
+      "findings": [
+        {
+          "finding_id": "advanced-002",
+          "step_id": "3215235",
+          "lesson_id": "770596",
+          "severity": "high",
+          "title": "mallocByString передаёт NULL в strcpy при отказе malloc",
+          "before": "mallocByString безусловно вызывает strcpy после malloc; код main не проверяет получение обеих строк.",
+          "after": "strcpy вызывается только после успешного выделения. main проверяет обе строки и вызывает существующую freeModel на пути ошибки, сохраняя нормальный пример.",
+          "changed_fields": [
+            "block.text"
+          ],
+          "changed_locations": [
+            "Кодовый блок 0: mallocByString и проверка двух строк в main; пояснение пути отказа."
+          ],
+          "evidence": [
+            "corrections/86957/evidence/advanced/validate_advanced.py",
+            "corrections/86957/evidence/advanced/logs/3215235_allocation_failure_before.run.txt",
+            "corrections/86957/evidence/advanced/validation_results.json"
+          ],
+          "sources": [
+            {
+              "title": "WG14 N1570, 7.22.3.3–4: free and malloc",
+              "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf",
+              "ref": "turn739526059view2"
+            },
+            {
+              "title": "WG14 N1570, 7.24.2.3: strcpy copies through the terminating zero",
+              "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf",
+              "ref": "turn132443602view2"
+            }
+          ],
+          "source_file": "courses/86957/steps/770596/06_3215235_text.step",
+          "corrected_file": "corrections/86957/steps/770596/06_3215235_text.step",
+          "base_commit": "d936c0ee8d9f720ba26fec1b109a1153ae3b5930"
+        }
+      ]
+    },
+    {
+      "step_id": 3215236,
+      "lesson_id": 770596,
+      "position": 7,
+      "block_type": "text",
+      "priority": "P1",
+      "source_path": "courses/86957/steps/770596/07_3215236_text.step",
+      "target_path": "corrections/86957/steps/770596/07_3215236_text.step",
+      "baseline_path": "corrections/86957/baseline/770596/07_3215236_text.step",
+      "step_url": "https://stepik.org/lesson/770596/step/7",
+      "changed_fields": [
+        "block.text"
+      ],
+      "before_file_sha256": "5762c2b7b03c41e176ac9340123383d40f6486182c9e924085afc01d6f02640b",
+      "after_file_sha256": "03f33f718a39bf3749bd38538ad9026b4cf4ab3ce809c5059bf119c73a67fd4f",
+      "before_block_sha256": "88f886139528c680ab16916a76e542fab45e70df589c4a650b9a0e15d738a22c",
+      "after_block_sha256": "cb017d056df408d5b755c4704bd27d4285170166d73d14280ad603723a043a4e",
+      "summary": "mallocByString передаёт NULL в strcpy при отказе malloc",
+      "findings": [
+        {
+          "finding_id": "advanced-003",
+          "step_id": "3215236",
+          "lesson_id": "770596",
+          "severity": "high",
+          "title": "mallocByString передаёт NULL в strcpy при отказе malloc",
+          "before": "mallocByString безусловно вызывает strcpy после malloc; код main не проверяет получение обеих строк.",
+          "after": "strcpy вызывается только после успешного выделения. main проверяет обе строки и вызывает существующую freeModel на пути ошибки, сохраняя нормальный пример.",
+          "changed_fields": [
+            "block.text"
+          ],
+          "changed_locations": [
+            "Кодовый блок 0: mallocByString и проверка двух строк в main; пояснение пути отказа."
+          ],
+          "evidence": [
+            "corrections/86957/evidence/advanced/validate_advanced.py",
+            "corrections/86957/evidence/advanced/logs/3215236_allocation_failure_before.run.txt",
+            "corrections/86957/evidence/advanced/validation_results.json"
+          ],
+          "sources": [
+            {
+              "title": "WG14 N1570, 7.22.3.3–4: free and malloc",
+              "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf",
+              "ref": "turn739526059view2"
+            },
+            {
+              "title": "WG14 N1570, 7.24.2.3: strcpy copies through the terminating zero",
+              "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf",
+              "ref": "turn132443602view2"
+            }
+          ],
+          "source_file": "courses/86957/steps/770596/07_3215236_text.step",
+          "corrected_file": "corrections/86957/steps/770596/07_3215236_text.step",
+          "base_commit": "d936c0ee8d9f720ba26fec1b109a1153ae3b5930"
+        }
+      ]
+    },
+    {
+      "step_id": 3212956,
+      "lesson_id": 770597,
+      "position": 1,
+      "block_type": "text",
+      "priority": "P2",
+      "source_path": "courses/86957/steps/770597/01_3212956_text.step",
+      "target_path": "corrections/86957/steps/770597/01_3212956_text.step",
+      "baseline_path": "corrections/86957/baseline/770597/01_3212956_text.step",
+      "step_url": "https://stepik.org/lesson/770597/step/1",
+      "changed_fields": [
+        "block.text"
+      ],
+      "before_file_sha256": "eb1f4801efd693375d01b60c8719a4933aed2999b25bdef9eb07d99aed20ba35",
+      "after_file_sha256": "15ac209f600191d137b12d89d53cbe5d68c1372d49109aa94e25a9a2ad7fab6d",
+      "before_block_sha256": "f13348ba7b3f569bf69fe7f361ec0a6d8066523c3599e816a20146cff2da6de2",
+      "after_block_sha256": "8a5a02b6590e69b3b4edd7a18253a3223177475e71ab5e2b0ab9b1db6624c4d5",
+      "summary": "Смена активного члена union ошибочно обещана для любой записи",
+      "findings": [
+        {
+          "finding_id": "advanced-005",
+          "step_id": "3212956",
+          "lesson_id": "770597",
+          "severity": "medium",
+          "title": "Смена активного члена union ошибочно обещана для любой записи",
+          "before": "Фраза «запись в другой член меняет активный член» не ограничена типами/операциями. Присваивание неактивному std::string не начинает время жизни строки.",
+          "after": "Правило ограничено допустимыми встроенными/тривиальными операциями; пояснено, что нетривиальный член требует конструирования и уничтожения, прежний деструктор автоматически не вызывается.",
+          "changed_fields": [
+            "block.text"
+          ],
+          "changed_locations": [
+            "Последний абзац о размере и активном члене."
+          ],
+          "evidence": [
+            "corrections/86957/evidence/advanced/validate_advanced.py",
+            "corrections/86957/evidence/advanced/generated/3212956_explicit_lifetime.cpp",
+            "corrections/86957/evidence/advanced/logs/3212956_explicit_lifetime.run.txt"
+          ],
+          "sources": [
+            {
+              "title": "C++20 draft N4861 [class.union]: active member and lifetime-start rules",
+              "url": "https://timsong-cpp.github.io/cppwp/n4861/class.union",
+              "ref": "turn739526059view1"
+            }
+          ],
+          "source_file": "courses/86957/steps/770597/01_3212956_text.step",
+          "corrected_file": "corrections/86957/steps/770597/01_3212956_text.step",
+          "base_commit": "d936c0ee8d9f720ba26fec1b109a1153ae3b5930"
+        }
+      ]
+    },
+    {
+      "step_id": 3215244,
+      "lesson_id": 770597,
+      "position": 3,
+      "block_type": "text",
+      "priority": "P2",
+      "source_path": "courses/86957/steps/770597/03_3215244_text.step",
+      "target_path": "corrections/86957/steps/770597/03_3215244_text.step",
+      "baseline_path": "corrections/86957/baseline/770597/03_3215244_text.step",
+      "step_url": "https://stepik.org/lesson/770597/step/3",
+      "changed_fields": [
+        "block.text"
+      ],
+      "before_file_sha256": "656c45e4738e30d9239b90057b77fc3781f5d83ff54132ce4bf63eb1bebd07e4",
+      "after_file_sha256": "f7efacaa8d4110683df5fffe6363aa3d6a5875caa5e280553ec788e9d1da9eeb",
+      "before_block_sha256": "4dce83d7174c1dc4d0c4ffc96effa868ec5f2ebd186998ea8377c6e65be8c1a3",
+      "after_block_sha256": "b2791450b745ccac23f800e71d76350d69c936cb0258c826a542909b7a288fb6",
+      "summary": "Пример указателя использует ещё не объявленный Ints",
+      "findings": [
+        {
+          "finding_id": "advanced-004",
+          "step_id": "3215244",
+          "lesson_id": "770597",
+          "severity": "medium",
+          "title": "Пример указателя использует ещё не объявленный Ints",
+          "before": "В данном шаге и предыдущих шагах урока определён Floats, но Ints впервые определён только в следующем шаге. Показанный фрагмент не собирается в main: Ints was not declared.",
+          "after": "Перед использованием добавлено то же определение Ints с тремя целочисленными членами, которое используется далее в уроке.",
+          "changed_fields": [
+            "block.text"
+          ],
+          "changed_locations": [
+            "В начало кодового блока добавлено определение используемого union."
+          ],
+          "evidence": [
+            "corrections/86957/evidence/advanced/validate_advanced.py",
+            "corrections/86957/evidence/advanced/logs/3215244_before.compile.txt",
+            "corrections/86957/evidence/advanced/logs/3215244_after_c++20.compile.txt"
+          ],
+          "sources": [
+            {
+              "title": "C++ draft [basic.lookup]: a declaration is required",
+              "url": "https://eel.is/c++draft/basic.lookup",
+              "ref": "turn201531919view2"
+            }
+          ],
+          "source_file": "courses/86957/steps/770597/03_3215244_text.step",
+          "corrected_file": "corrections/86957/steps/770597/03_3215244_text.step",
+          "base_commit": "d936c0ee8d9f720ba26fec1b109a1153ae3b5930"
+        }
+      ]
+    },
+    {
+      "step_id": 3215206,
+      "lesson_id": 771130,
+      "position": 3,
+      "block_type": "text",
+      "priority": "P2",
+      "source_path": "courses/86957/steps/771130/03_3215206_text.step",
+      "target_path": "corrections/86957/steps/771130/03_3215206_text.step",
+      "baseline_path": "corrections/86957/baseline/771130/03_3215206_text.step",
+      "step_url": "https://stepik.org/lesson/771130/step/3",
+      "changed_fields": [
+        "block.text"
+      ],
+      "before_file_sha256": "7cfe32e4cb41aa4a88690c9b03483d8fbdc6d9bbc0c46cb54f332f928a34bbd8",
+      "after_file_sha256": "ac452dc4cf49e4a84be9fa4baba094bb3eb3fd759d986ba3bd189786f50828b6",
+      "before_block_sha256": "5a4d8b388962bc3a4b266fef54cfc6b6dc5146e99830dca61d1821021fcd45da",
+      "after_block_sha256": "15dea9e0295e720f685c8f98080e239d92127d1084b381b79c7dd765e66f51df",
+      "summary": "Фрагмент дозаписи в файл не компилировался после копирования из-за U+00A0",
+      "findings": [
+        {
+          "step_id": 3215206,
+          "lesson_id": 771130,
+          "path": "corrections/86957/steps/771130/03_3215206_text.step",
+          "severity": "medium",
+          "title": "Фрагмент дозаписи в файл не компилировался после копирования из-за U+00A0",
+          "before": "Во втором <pre> 4 неразрывных пробела перед out << и 7 после out.close(); вне строк и комментариев.",
+          "after": "Ровно эти 11 U+00A0 заменены обычными пробелами в том же блоке кода.",
+          "rationale": "Копирование отображаемого кода сохраняет U+00A0. GCC 14.2.0 сообщает extended character is not valid in an identifier в режимах C++17 и C++20. После замены фрагмент компилируется и дописывает Welcome to CPP, сохраняя ранее записанную строку.",
+          "changed_fields": [
+            "block.text"
+          ],
+          "evidence": [
+            "corrections/86957/evidence/core/fix_verification.json",
+            "corrections/86957/evidence/core/file_append_before.cpp",
+            "corrections/86957/evidence/core/file_append_after.cpp"
+          ],
+          "source_urls": [
+            "https://stepik.org/lesson/771130/step/3"
+          ]
+        }
+      ]
+    },
+    {
+      "step_id": 3570303,
+      "lesson_id": 853541,
+      "position": 2,
+      "block_type": "text",
+      "priority": "P1",
+      "source_path": "courses/86957/steps/853541/02_3570303_text.step",
+      "target_path": "corrections/86957/steps/853541/02_3570303_text.step",
+      "baseline_path": "corrections/86957/baseline/853541/02_3570303_text.step",
+      "step_url": "https://stepik.org/lesson/853541/step/2",
+      "changed_fields": [
+        "block.text"
+      ],
+      "before_file_sha256": "7d0054a4cdd2da8e184902e550a44a79f7bb6f0dee0937b5011fb43c88402e35",
+      "after_file_sha256": "6761db73c11d2888bac4ddad9452626453f453197e8064946e575accf549117f",
+      "before_block_sha256": "3f258ea11b1918f904784f3e3941488137d48f8ea416e6c9933973d2ef4992cf",
+      "after_block_sha256": "9d6562411274be795e2fe0836a44e28a8fde67ede3f81a73612651979faf1dc8",
+      "summary": "Неявное копирование RBT оставляет разные root у общего изменяемого дерева",
+      "findings": [
+        {
+          "finding_id": "advanced-010",
+          "step_id": "3570303",
+          "lesson_id": "853541",
+          "severity": "high",
+          "title": "Неявное копирование RBT оставляет разные root у общего изменяемого дерева",
+          "before": "После a.add(1), a.add(2), b=a, b.add(3) поворот изменяет общие узлы, но не a.root. В a исчезает ключ 2: contains(2) возвращает false. Неявное перемещение также отсутствует из-за объявленного деструктора и могло подменяться копированием.",
+          "after": "Конструктор копирования и копирующее присваивание явно удалены. Учебная реализация объявлена некопируемой и неперемещаемой; глубокое копирование не добавлялось. Основные операции дерева сохранены.",
+          "changed_fields": [
+            "block.text"
+          ],
+          "changed_locations": [
+            "Полный каркас RBT: две декларации = delete; пояснение владения после каркаса."
+          ],
+          "evidence": [
+            "corrections/86957/evidence/advanced/validate_advanced.py",
+            "corrections/86957/evidence/advanced/logs/3570303_copy_before.run.txt",
+            "corrections/86957/evidence/advanced/logs/3570303_copy_after.compile.txt",
+            "corrections/86957/evidence/advanced/validate_invariants.py",
+            "corrections/86957/evidence/advanced/invariant_results.json"
+          ],
+          "sources": [
+            {
+              "title": "C++ draft [class.copy.ctor]: implicit public copy and suppression of move",
+              "url": "https://eel.is/c++draft/class.copy.ctor",
+              "ref": "turn928146024view0"
+            }
+          ],
+          "source_file": "courses/86957/steps/853541/02_3570303_text.step",
+          "corrected_file": "corrections/86957/steps/853541/02_3570303_text.step",
+          "base_commit": "d936c0ee8d9f720ba26fec1b109a1153ae3b5930"
+        }
+      ]
+    },
+    {
+      "step_id": 3669142,
+      "lesson_id": 877083,
+      "position": 3,
+      "block_type": "text",
+      "priority": "P2",
+      "source_path": "courses/86957/steps/877083/03_3669142_text.step",
+      "target_path": "corrections/86957/steps/877083/03_3669142_text.step",
+      "baseline_path": "corrections/86957/baseline/877083/03_3669142_text.step",
+      "step_url": "https://stepik.org/lesson/877083/step/3",
+      "changed_fields": [
+        "block.text"
+      ],
+      "before_file_sha256": "bfc279e5632f405029b4f83899f67bb534e83e3548f68e27a1458f4791350e32",
+      "after_file_sha256": "6423ca08e19011a15827eae2d20df05fbe6858615c7c8c925ad0d42b6becee9c",
+      "before_block_sha256": "349b94958ea60bdbfc38e6a63bf2d22802356244493f818a6758195c7d21ccbb",
+      "after_block_sha256": "545aa3d0c4bc940c222fb06ae6c935b0630c9aceb9c1d8736458e5c6784a1f0d",
+      "summary": "В отрицательном friend-примере пропущены конец Storage и начало Display",
+      "findings": [
+        {
+          "finding_id": "advanced-006",
+          "step_id": "3669142",
+          "lesson_id": "877083",
+          "severity": "medium",
+          "title": "В отрицательном friend-примере пропущены конец Storage и начало Display",
+          "before": "Намеренно неверное обращение к Display::displayItem дополнительно повреждено: конструктор Display и displayItem оказались внутри Storage, отсутствует m_displayIntFirst.",
+          "after": "Восстановлены границы двух классов и поле Display. Пример намеренно остаётся некомпилируемым из-за неполного Display в friend-объявлении и связанного отсутствия доступа к private; посторонние синтаксические ошибки устранены.",
+          "changed_fields": [
+            "block.text"
+          ],
+          "changed_locations": [
+            "Кодовый блок 1 — только восстановление структуры намеренно ошибочного примера."
+          ],
+          "evidence": [
+            "corrections/86957/evidence/advanced/validate_advanced.py",
+            "corrections/86957/evidence/advanced/logs/3669142_negative_before.compile.txt",
+            "corrections/86957/evidence/advanced/logs/3669142_negative_after.compile.txt",
+            "corrections/86957/evidence/advanced/logs/3669142_positive.run.txt"
+          ],
+          "sources": [
+            {
+              "title": "C++ draft [class.friend]: friendship to a member function",
+              "url": "https://eel.is/c++draft/class.friend",
+              "ref": "turn928146024view2"
+            },
+            {
+              "title": "C++ draft [basic.lookup]: a declaration is required",
+              "url": "https://eel.is/c++draft/basic.lookup",
+              "ref": "turn201531919view2"
+            }
+          ],
+          "source_file": "courses/86957/steps/877083/03_3669142_text.step",
+          "corrected_file": "corrections/86957/steps/877083/03_3669142_text.step",
+          "base_commit": "d936c0ee8d9f720ba26fec1b109a1153ae3b5930"
+        }
+      ]
+    },
+    {
+      "step_id": 3669172,
+      "lesson_id": 877083,
+      "position": 6,
+      "block_type": "text",
+      "priority": "P1",
+      "source_path": "courses/86957/steps/877083/06_3669172_text.step",
+      "target_path": "corrections/86957/steps/877083/06_3669172_text.step",
+      "baseline_path": "corrections/86957/baseline/877083/06_3669172_text.step",
+      "step_url": "https://stepik.org/lesson/877083/step/6",
+      "changed_fields": [
+        "block.text"
+      ],
+      "before_file_sha256": "94958ac6e73cf22cefb6321aef5474ff0f5bb4ec5644e83cef391636209616fa",
+      "after_file_sha256": "e5693231e2b364cd5631fcd8785bd4518c0ead1542a5c448ec785b5d65461740",
+      "before_block_sha256": "cb897cf740b6048416a57e74ffe458f4550f5c4b530dc2b4634edfc97f56c03c",
+      "after_block_sha256": "bf3f28d549658fb46d46a739c42eefdea35d9712f569068b9948bbd79c60f92a",
+      "summary": "Карточная игра читает неинициализированную chosen при неверном выборе",
+      "findings": [
+        {
+          "finding_id": "advanced-007",
+          "step_id": "3669172",
+          "lesson_id": "877083",
+          "severity": "high",
+          "title": "Карточная игра читает неинициализированную chosen при неверном выборе",
+          "before": "card() оставляет number/suit без значений. При позиции 0, 4 или ошибке ввода switch не присваивает chosen, а isEqual затем читает эти поля.",
+          "after": "Конструктор по умолчанию создаёт двойку треф. main отклоняет нечисловой/отсутствующий ввод и позиции вне 1–3 до сравнения. Все три допустимых выбора сохраняют поведение игры.",
+          "changed_fields": [
+            "block.text"
+          ],
+          "changed_locations": [
+            "Кодовый блок 0: <clocale>, конструктор card и проверка позиции; соответствующее пояснение; return логического выражения больше не называется условной операцией."
+          ],
+          "evidence": [
+            "corrections/86957/evidence/advanced/validate_advanced.py",
+            "corrections/86957/evidence/advanced/logs/3669172_before.compile.txt",
+            "corrections/86957/evidence/advanced/validation_results.json"
+          ],
+          "sources": [
+            {
+              "title": "C++20 draft N4861 [basic.indet]: use of indeterminate int/enum values",
+              "url": "https://timsong-cpp.github.io/cppwp/n4861/basic.indet",
+              "ref": "turn201531919view0"
+            }
+          ],
+          "source_file": "courses/86957/steps/877083/06_3669172_text.step",
+          "corrected_file": "corrections/86957/steps/877083/06_3669172_text.step",
+          "base_commit": "d936c0ee8d9f720ba26fec1b109a1153ae3b5930"
+        }
+      ]
+    },
+    {
+      "step_id": 3759850,
+      "lesson_id": 877084,
+      "position": 3,
+      "block_type": "text",
+      "priority": "P1",
+      "source_path": "courses/86957/steps/877084/03_3759850_text.step",
+      "target_path": "corrections/86957/steps/877084/03_3759850_text.step",
+      "baseline_path": "corrections/86957/baseline/877084/03_3759850_text.step",
+      "step_url": "https://stepik.org/lesson/877084/step/3",
+      "changed_fields": [
+        "block.text"
+      ],
+      "before_file_sha256": "9dd6039caa1a62f7434ff2e6b692b2697421ed7266897035fc388b59fdc8f782",
+      "after_file_sha256": "86eee1dd395d745ff2cf2f23f1fde1d280e00119a746a4523b3ebf9baa385f53",
+      "before_block_sha256": "fa890d9a654cda973afafaf22f7fbe3325a346178a4c20d4ebdc50cedc27d075",
+      "after_block_sha256": "9655214abfdbe12a5f9bab3895235c8a61dd02e30bef8bca37de3b6c383ed73e",
+      "summary": "Неограниченный strcpy переполняет поля имён в примере виртуальной базы",
+      "findings": [
+        {
+          "finding_id": "advanced-008",
+          "step_id": "3759850",
+          "lesson_id": "877084",
+          "severity": "high",
+          "title": "Неограниченный strcpy переполняет поля имён в примере виртуальной базы",
+          "before": "unit/box принимают const char* без ограничения длины и копируют его в name[20], unit_box — в name[40]. Допустимая строка из 200 символов вызывает stack-buffer-overflow.",
+          "after": "Три поля имён хранят std::string; присваивание сохраняет строку целиком, для printf используется c_str(). Иерархия, виртуальная база и обычный вывод сохранены.",
+          "changed_fields": [
+            "block.text"
+          ],
+          "changed_locations": [
+            "Кодовый блок 4: только хранение/копирование/вывод имён и нужный заголовок; пояснение об аргументах-строках."
+          ],
+          "evidence": [
+            "corrections/86957/evidence/advanced/validate_advanced.py",
+            "corrections/86957/evidence/advanced/logs/3759850_long_before.run.txt",
+            "corrections/86957/evidence/advanced/logs/3759850_long_after.run.txt",
+            "corrections/86957/evidence/advanced/logs/3759850_sample_c++20.run.txt"
+          ],
+          "sources": [
+            {
+              "title": "WG14 N1570, 7.24.2.3: strcpy copies through the terminating zero",
+              "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf",
+              "ref": "turn132443602view2"
+            }
+          ],
+          "source_file": "courses/86957/steps/877084/03_3759850_text.step",
+          "corrected_file": "corrections/86957/steps/877084/03_3759850_text.step",
+          "base_commit": "d936c0ee8d9f720ba26fec1b109a1153ae3b5930"
+        }
+      ]
+    },
+    {
+      "step_id": 3759914,
+      "lesson_id": 877084,
+      "position": 5,
+      "block_type": "text",
+      "priority": "P2",
+      "source_path": "courses/86957/steps/877084/05_3759914_text.step",
+      "target_path": "corrections/86957/steps/877084/05_3759914_text.step",
+      "baseline_path": "corrections/86957/baseline/877084/05_3759914_text.step",
+      "step_url": "https://stepik.org/lesson/877084/step/5",
+      "changed_fields": [
+        "block.text"
+      ],
+      "before_file_sha256": "ee0493465cde2eea78a111dd486d9790564c5cf441e157f3810302252d60e498",
+      "after_file_sha256": "af8e376d3c136b197ac0470df14459fef8e9ab31214f2c12a0246e705fbea437",
+      "before_block_sha256": "0fadd3ec6782995254c2aeef96e83c30ec02cd64aa34c745f9e821f478185bb6",
+      "after_block_sha256": "bed810985f8f04235a6b0f5d68c9a2ef46d7eb642daf15a286eeb5513ef714b0",
+      "summary": "Абстрактной базе ошибочно оставлено только наследование невиртуальных членов",
+      "findings": [
+        {
+          "finding_id": "advanced-009",
+          "step_id": "3759914",
+          "lesson_id": "877084",
+          "severity": "medium",
+          "title": "Абстрактной базе ошибочно оставлено только наследование невиртуальных членов",
+          "before": "Текст говорит, что абстрактная база используется «для наследования невиртуальных элементов». Виртуальные функции также наследуются, включая конкретные реализации базы.",
+          "after": "Уточнено существование базового подобъекта и наследование обычных и виртуальных членов; для конкретного производного класса чистые виртуальные функции требуют конкретного окончательного переопределения.",
+          "changed_fields": [
+            "block.text"
+          ],
+          "changed_locations": [
+            "Одно предложение в объяснении абстрактных классов заменено точным описанием."
+          ],
+          "evidence": [
+            "corrections/86957/evidence/advanced/validate_advanced.py",
+            "corrections/86957/evidence/advanced/generated/3759914_inherited_virtual.cpp",
+            "corrections/86957/evidence/advanced/logs/3759914_inherited_virtual.run.txt"
+          ],
+          "sources": [
+            {
+              "title": "C++ draft [class.abstract]: abstract bases and inherited virtual functions",
+              "url": "https://eel.is/c++draft/class.abstract",
+              "ref": "turn928146024view3"
+            }
+          ],
+          "source_file": "courses/86957/steps/877084/05_3759914_text.step",
+          "corrected_file": "corrections/86957/steps/877084/05_3759914_text.step",
+          "base_commit": "d936c0ee8d9f720ba26fec1b109a1153ae3b5930"
+        }
+      ]
+    },
+    {
+      "step_id": 4035481,
+      "lesson_id": 973831,
+      "position": 2,
+      "block_type": "text",
+      "priority": "P1",
+      "source_path": "courses/86957/steps/973831/02_4035481_text.step",
+      "target_path": "corrections/86957/steps/973831/02_4035481_text.step",
+      "baseline_path": "corrections/86957/baseline/973831/02_4035481_text.step",
+      "step_url": "https://stepik.org/lesson/973831/step/2",
+      "changed_fields": [
+        "block.text"
+      ],
+      "before_file_sha256": "9d74397259395d392b18aa8427e38aa544f9748359698f4e20ddc2588d9608df",
+      "after_file_sha256": "d1b4b71d9fbdc5b1c018301885823f131ce43ac03b0edf9e97020abc9c8b1d89",
+      "before_block_sha256": "1a284754465cda59a998d7c662f007c6253f48f7b1e9593497f3170264fdeb7a",
+      "after_block_sha256": "fcb5883a6a39a7f0ac581f6fca69c7c87f2ecd029efbafda5d5e699c326f6758",
+      "summary": "Конструктор HashTable теряет выделения при неудачном создании списка; HashTable увеличивает tableCount до успешной вставки",
+      "findings": [
+        {
+          "finding_id": "advanced-011",
+          "step_id": "4035481",
+          "lesson_id": "973831",
+          "severity": "high",
+          "title": "Конструктор HashTable теряет выделения при неудачном создании списка",
+          "before": "При отказе третьего new PasswordList остаются выделенными массив указателей и два списка. Деструктор HashTable не вызывается, потому что объект не достроен.",
+          "after": "Элементы массива указателей заранее равны nullptr; catch освобождает все уже созданные списки и сам массив и повторно выбрасывает исключение.",
+          "changed_fields": [
+            "block.text"
+          ],
+          "changed_locations": [
+            "Кодовый блок 0: нулевая инициализация массива указателей и очистка в обработчике."
+          ],
+          "evidence": [
+            "corrections/86957/evidence/advanced/validate_hash.py",
+            "corrections/86957/evidence/advanced/logs/4035481_ctor_before_c++20.run.txt",
+            "corrections/86957/evidence/advanced/logs/4035481_ctor_after_c++20.run.txt",
+            "corrections/86957/evidence/advanced/hash_results.json"
+          ],
+          "sources": [
+            {
+              "title": "C++ draft [except.ctor]: unwinding a failed constructor",
+              "url": "https://eel.is/c++draft/except.ctor",
+              "ref": "turn402292240view0"
+            }
+          ],
+          "source_file": "courses/86957/steps/973831/02_4035481_text.step",
+          "corrected_file": "corrections/86957/steps/973831/02_4035481_text.step",
+          "base_commit": "d936c0ee8d9f720ba26fec1b109a1153ae3b5930"
+        },
+        {
+          "finding_id": "advanced-012",
+          "step_id": "4035481",
+          "lesson_id": "973831",
+          "severity": "medium",
+          "title": "HashTable увеличивает tableCount до успешной вставки",
+          "before": "При исключении из создания Password пустая цепочка остаётся пустой, но tableCount уже увеличен: воспроизведение даёт buckets=1 при entries=0.",
+          "after": "Признак пустой цепочки сохраняется заранее; tableCount увеличивается только после успешного AddElement. Отказ при создании Password оставляет оба счётчика равными нулю.",
+          "changed_fields": [
+            "block.text"
+          ],
+          "changed_locations": [
+            "Кодовый блок 2: перенос инкремента после добавления; пояснение пути исключения."
+          ],
+          "evidence": [
+            "corrections/86957/evidence/advanced/validate_hash.py",
+            "corrections/86957/evidence/advanced/logs/4035481_insert_before.run.txt",
+            "corrections/86957/evidence/advanced/logs/4035481_insert_after.run.txt",
+            "corrections/86957/evidence/advanced/hash_results.json"
+          ],
+          "sources": [
+            {
+              "title": "C++ draft [except.ctor]: unwinding a failed constructor",
+              "url": "https://eel.is/c++draft/except.ctor",
+              "ref": "turn402292240view0"
+            }
+          ],
+          "source_file": "courses/86957/steps/973831/02_4035481_text.step",
+          "corrected_file": "corrections/86957/steps/973831/02_4035481_text.step",
+          "base_commit": "d936c0ee8d9f720ba26fec1b109a1153ae3b5930"
+        }
+      ]
+    }
+  ]
+}

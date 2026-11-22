@@ -1,0 +1,51 @@
+=================================================================
+==1020==ERROR: AddressSanitizer: stack-buffer-overflow on address 0x7f1a649000a0 at pc 0x7f1a675b8681 bp 0x7ffc66167900 sp 0x7ffc661670c0
+WRITE of size 201 at 0x7f1a649000a0 thread T0
+    #0 0x7f1a675b8680 in strcpy ../../../../src/libsanitizer/asan/asan_interceptors.cpp:563
+    #1 0x402067 in unit::unit(char const*, int, char) /workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3759850_long_before.cpp:15
+    #2 0x402067 in unit_box::unit_box(char const*, int, char const*, int, char const*, char) /workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3759850_long_before.cpp:41
+    #3 0x40174d in main /workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3759850_long_before.cpp:60
+    #4 0x7f1a669b3ca7  (/lib/x86_64-linux-gnu/libc.so.6+0x29ca7) (BuildId: 5e5b51f4c39af9ac589408c1dc432ba390a273cc)
+    #5 0x7f1a669b3d64 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x29d64) (BuildId: 5e5b51f4c39af9ac589408c1dc432ba390a273cc)
+    #6 0x4011b0 in _start (/workspace/scratch/5cac751e885e/_work/advanced_build/3759850_long_before+0x4011b0) (BuildId: 35fa3140768e37e1330aedf070f1849b7bb23499)
+
+Address 0x7f1a649000a0 is located in stack of thread T0 at offset 160 in frame
+    #0 0x4016c1 in main /workspace/scratch/5cac751e885e/stepik-corrections/corrections/86957/evidence/advanced/generated/3759850_long_before.cpp:60
+
+  This frame has 1 object(s):
+    [48, 160) 'box' (line 60) <== Memory access at offset 160 overflows this variable
+HINT: this may be a false positive if your program uses some custom stack unwind mechanism, swapcontext or vfork
+      (longjmp and C++ exceptions *are* supported)
+SUMMARY: AddressSanitizer: stack-buffer-overflow ../../../../src/libsanitizer/asan/asan_interceptors.cpp:563 in strcpy
+Shadow bytes around the buggy address:
+  0x7f1a648ffe00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x7f1a648ffe80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x7f1a648fff00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x7f1a648fff80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x7f1a64900000: f1 f1 f1 f1 f1 f1 00 00 00 00 00 00 00 00 00 00
+=>0x7f1a64900080: 00 00 00 00[f3]f3 f3 f3 00 00 00 00 00 00 00 00
+  0x7f1a64900100: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x7f1a64900180: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x7f1a64900200: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x7f1a64900280: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x7f1a64900300: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+==1020==ABORTING

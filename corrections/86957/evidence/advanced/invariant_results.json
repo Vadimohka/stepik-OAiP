@@ -1,0 +1,53 @@
+[
+  {
+    "case": "rbt_current_invariants",
+    "phase": "compile",
+    "standard": "c++20",
+    "sanitizers": true,
+    "returncode": 0,
+    "expected_success": true
+  },
+  {
+    "case": "rbt_current_invariants",
+    "phase": "run",
+    "returncode": 0,
+    "expected": 0,
+    "input": "",
+    "stdout": "RBT: 20000 deterministic mixed operations, values, parent links and color invariants passed\n",
+    "stderr_log": "logs/rbt_current_invariants.run.txt"
+  },
+  {
+    "case": "avl_current_invariants",
+    "phase": "compile",
+    "standard": "c++20",
+    "sanitizers": true,
+    "returncode": 0,
+    "expected_success": true
+  },
+  {
+    "case": "avl_current_invariants",
+    "phase": "run",
+    "returncode": 0,
+    "expected": 0,
+    "input": "",
+    "stdout": "AVL: 20000 deterministic mixed operations, values, heights and balance passed\n",
+    "stderr_log": "logs/avl_current_invariants.run.txt"
+  },
+  {
+    "case": "shared_current_lifetime",
+    "phase": "compile",
+    "standard": "c++20",
+    "sanitizers": true,
+    "returncode": 0,
+    "expected_success": true
+  },
+  {
+    "case": "shared_current_lifetime",
+    "phase": "run",
+    "returncode": 0,
+    "expected": 0,
+    "input": "",
+    "stdout": "teaching shared_ptr/weak_ptr: lifetime, self-weak, copy, nested move and expired lock passed\n",
+    "stderr_log": "logs/shared_current_lifetime.run.txt"
+  }
+]
