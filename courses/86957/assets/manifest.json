@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "course_id": 86957,
+  "generated_at": "2026-11-22T18:11:02Z",
+  "status": "skipped",
+  "maximum_file_size": 99614720,
+  "selection": "Highest-quality video variant; all original variants remain in raw JSON.",
+  "summary": {
+    "skipped": 1
+  },
+  "assets": [
+    {
+      "url": "https://cdn.stepik.net/media/cache/images/courses/86957/cover_L55IBf0/91cdc266333ed7b62f66bcf028cb76e3.png",
+      "url_sha256": "7ec141723163c16d0c14399d3371148bb30d76643d4bfccebc21d9d807900474",
+      "original_urls": [
+        "https://cdn.stepik.net/media/cache/images/courses/86957/cover_L55IBf0/91cdc266333ed7b62f66bcf028cb76e3.png"
+      ],
+      "kinds": [
+        "cover"
+      ],
+      "origins": [
+        {
+          "resource": "courses",
+          "id": 86957,
+          "raw_path": "raw/courses/86957.json",
+          "field": "cover"
+        }
+      ],
+      "selected": true,
+      "status": "skipped",
+      "local_path": null,
+      "sha256": null,
+      "size": null,
+      "mime": null,
+      "reason": "skip_assets_requested"
+    }
+  ]
+}

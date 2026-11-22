@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "course_id": 86957,
+  "status": "partial",
+  "mode": "public",
+  "content_status": "partial",
+  "author_sources_unavailable": true,
+  "author_sources_status": "unavailable",
+  "assets_status": "skipped",
+  "started_at": "2026-11-22T18:10:55Z",
+  "finished_at": "2026-11-22T18:11:02Z",
+  "source": {
+    "course_url": "https://stepik.org/course/86957",
+    "api_base": "https://stepik.org/api/",
+    "course_api_url": "https://stepik.org/api/courses/86957",
+    "hierarchy": [
+      "course.sections",
+      "sections.units",
+      "units.lesson",
+      "lessons.steps"
+    ],
+    "author_sources": "step-sources",
+    "public_step_fallback": false
+  },
+  "options": {
+    "fresh": false,
+    "skip_assets": true,
+    "public": true,
+    "batch_size": 30
+  },
+  "counts": {
+    "courses": 1,
+    "sections": 0,
+    "units": 0,
+    "lessons": 0,
+    "steps": 0,
+    "step_sources": 0
+  },
+  "expected_counts": {
+    "courses": 1,
+    "sections": 20,
+    "units": null,
+    "lessons": null,
+    "steps": null,
+    "step_sources": null
+  },
+  "missing_ids": {
+    "courses": [],
+    "sections": [
+      256603,
+      256602,
+      258099,
+      256715,
+      256718,
+      258100,
+      258835,
+      260779,
+      258834,
+      258836,
+      259009,
+      258837,
+      290662,
+      283811,
+      283812,
+      317141,
+      283813,
+      317139,
+      317132,
+      441369
+    ],
+    "units": [],
+    "lessons": [],
+    "steps": [],
+    "step-sources": []
+  },
+  "errors": [
+    {
+      "stage": "api",
+      "resource": "sections",
+      "ids": [
+        256603,
+        256602,
+        258099,
+        256715,
+        256718,
+        258100,
+        258835,
+        260779,
+        258834,
+        258836,
+        259009,
+        258837,
+        290662,
+        283811,
+        283812,
+        317141,
+        283813,
+        317139,
+        317132,
+        441369
+      ],
+      "message": "HTTP 403 (access denied).",
+      "http_status": 403
+    }
+  ],
+  "cache_hits": {},
+  "network_objects": {
+    "courses": 1
+  },
+  "step_files": {
+    "expected": 0,
+    "written": 0,
+    "bindings": []
+  },
+  "assets_manifest": "assets/manifest.json",
+  "asset_counts": {
+    "skipped": 1
+  },
+  "notes": [
+    "The archive preserves raw API fields without rewriting original content or media URLs.",
+    "No users, submissions, statistics, comments, or learner progress endpoints are requested.",
+    "External players and embedded web pages are recorded as external references.",
+    "Files larger than 95 MiB are recorded with their URLs and are not saved as Git blobs.",
+    "Cached objects are reused unless --fresh is supplied; only objects named in this snapshot are current.",
+    "Null expected_counts means that a missing parent prevented discovery of the total; observed_expected_counts is only the known lower bound."
+  ],
+  "observed_expected_counts": {
+    "courses": 1,
+    "sections": 20,
+    "units": 0,
+    "lessons": 0,
+    "steps": 0,
+    "step_sources": 0
+  },
+  "unknown_expected_counts": [
+    "lessons",
+    "step_sources",
+    "steps",
+    "units"
+  ],
+  "declared_counts": {
+    "sections": 20,
+    "lessons": 62,
+    "steps": null
+  }
+}

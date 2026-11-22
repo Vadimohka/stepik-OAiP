@@ -1,0 +1,253 @@
+{
+  "course": {
+    "id": 86957,
+    "summary": "Курс лабораторных работ по дисциплине ОАиП для студентов первого курса Факультета компьютерных систем и сетей специальности Информатика и технологии программирования.\nБеларусь, Минск",
+    "workload": "3-4 часа в неделю",
+    "cover": "https://cdn.stepik.net/media/cache/images/courses/86957/cover_L55IBf0/91cdc266333ed7b62f66bcf028cb76e3.png",
+    "intro": "",
+    "course_format": "",
+    "target_audience": "Данный курс предназначен в первую очередь для студентов и очень похож на формат обучения который дают в университете, однако любой желающий может попробовать свои силы в освоении С++",
+    "certificate_footer": null,
+    "certificate_cover_org": "https://cdn.stepik.net/media/courses/86957/certificate_cover_org_p45NYz5.png",
+    "is_certificate_issued": true,
+    "is_certificate_auto_issued": true,
+    "certificate_regular_threshold": 150,
+    "certificate_distinction_threshold": 192,
+    "instructors": [
+      296085237
+    ],
+    "certificate": "Stepik",
+    "requirements": "<p>Если вы смогли найти этот курс, то вы можете начать учиться :)</p>",
+    "description": "<ul>\n\t<li>Цель данного курса - ознакомить с базовыми принципами работы языка программирования С++ и написать программный комплекс для хранения и обработки данных в прикладной предметной области;</li>\n\t<li>Данный курс предназначен в первую очередь для студентов 1-го специальностей технико-программного профиля, однако он также будет полезен любому энтузиасту который хочет изучить программирование начав с языка С++;</li>\n\t<li>За время прохождения курса учащиеся приобретут практические навыки не только в написании программ на языке С++, но также изучат базовые принципы работы Операционных систем и компиляторов;</li>\n\t<li>У курса есть дедлайны рассчитанные на то, что учащийся будет каждый день уделять программированию минимум 1 час. Это необходимо для закрепления навыков написания кода;</li>\n\t<li>В течение курса вы ознакомитесь с базовыми темами модульно, не тратя лишние силы на поиск дополнительной информации в интернете;</li>\n\t<li>Формат работы - задачи уровня лабораторных работ в университете</li>\n</ul>",
+    "sections": [
+      256603,
+      256602,
+      258099,
+      256715,
+      256718,
+      258100,
+      258835,
+      260779,
+      258834,
+      258836,
+      259009,
+      258837,
+      290662,
+      283811,
+      283812,
+      317141,
+      283813,
+      317139,
+      317132,
+      441369
+    ],
+    "total_units": 62,
+    "enrollment": null,
+    "is_favorite": false,
+    "actions": {
+      "view_reports": {
+        "enabled": false,
+        "needs_permission": "teach"
+      },
+      "edit_reports": {
+        "enabled": false,
+        "needs_permission": "teach"
+      },
+      "view_grade_book_page": {
+        "enabled": false,
+        "needs_permission": "assist"
+      },
+      "view_grade_book": {
+        "enabled": false,
+        "needs_permission": "assist"
+      },
+      "edit_lti": {
+        "enabled": false,
+        "needs_permission": "admin"
+      },
+      "edit_advanced_settings": {
+        "enabled": false,
+        "needs_permission": "teach"
+      },
+      "manage_permissions": {
+        "enabled": false,
+        "needs_permission": "admin"
+      },
+      "view_revenue": {
+        "enabled": false
+      },
+      "can_be_enrolled": {
+        "enabled": true
+      },
+      "can_be_bought": {
+        "enabled": false
+      },
+      "can_be_price_changed": {
+        "enabled": true
+      },
+      "can_be_deleted": {
+        "enabled": false
+      },
+      "edit_tags": {
+        "enabled": false
+      },
+      "can_edit_variants": {
+        "enabled": false
+      }
+    },
+    "progress": null,
+    "first_lesson": 763040,
+    "first_unit": 765200,
+    "certificate_link": null,
+    "certificate_regular_link": null,
+    "certificate_distinction_link": null,
+    "user_certificate": null,
+    "referral_link": null,
+    "schedule_link": null,
+    "schedule_long_link": null,
+    "first_deadline": null,
+    "last_deadline": null,
+    "subscriptions": [
+      "31-78-86957",
+      "30-78-86957"
+    ],
+    "announcements": [],
+    "is_contest": false,
+    "is_self_paced": true,
+    "is_adaptive": false,
+    "is_idea_compatible": false,
+    "is_in_wishlist": false,
+    "last_step": "78-86957",
+    "intro_video": null,
+    "social_providers": [],
+    "authors": [
+      296085237
+    ],
+    "tags": [
+      1,
+      2,
+      5,
+      42,
+      52,
+      98,
+      112
+    ],
+    "is_enabled": true,
+    "is_proctored": false,
+    "proctor_url": null,
+    "review_summary": 86498,
+    "schedule_type": "self_paced",
+    "product_kind": "plain",
+    "is_variant": false,
+    "variant_title": "",
+    "variant_description": "",
+    "is_variant_active": true,
+    "certificates_count": 453,
+    "learners_count": 4855,
+    "wish_lists_count": null,
+    "lessons_count": 62,
+    "quizzes_count": 152,
+    "challenges_count": 48,
+    "peer_reviews_count": 0,
+    "instructor_reviews_count": 0,
+    "videos_duration": 810,
+    "time_to_complete": 64200,
+    "is_popular": true,
+    "is_processed_with_paddle": false,
+    "is_unsuitable": false,
+    "is_paid": false,
+    "price": null,
+    "currency_code": null,
+    "display_price": "-",
+    "default_promo_code_name": null,
+    "default_promo_code_price": null,
+    "default_promo_code_discount": null,
+    "default_promo_code_is_percent_discount": null,
+    "default_promo_code_expire_date": null,
+    "continue_url": "/course/86957/continue",
+    "readiness": 1.0,
+    "is_archived": false,
+    "options": {},
+    "price_tier": null,
+    "position": 1,
+    "is_censored": false,
+    "difficulty": "easy",
+    "acquired_skills": [
+      "Узнаете историю и базовые концепции языков С/С++",
+      "Изучите основные типа данных и инструкции управления",
+      "Ознакомитесь с стандартными библиотеками языка С++",
+      "Научитесь работать с массивами, строками и указателями",
+      "Изучите принципы функционального программирования",
+      "Научитесь проектировать Структуры и Объединения",
+      "Спроектируете собственные библиотеки",
+      "Освоите базовые навыки тестирования ПО",
+      "Получите практические навыки решения алгоритмических задач разной сложности"
+    ],
+    "acquired_assets": [
+      "Вы получите навыки и знания востребованные работодателем",
+      "Возможность отработать теорию на практике",
+      "Поддержку комьюнити",
+      "Проекты в личное портфолио начинающего программиста"
+    ],
+    "learning_format": "<p>В курс входит теоретическая информация в формате текста или видео и техническое задание в виде задания уровня и формата лабораторных работ, где учащийся обязан будет написать программу.</p>",
+    "content_details": [],
+    "issue": null,
+    "course_type": "basic",
+    "possible_type": null,
+    "is_certificate_with_score": true,
+    "preview_lesson": null,
+    "preview_unit": null,
+    "possible_currencies": [],
+    "commission_basic": null,
+    "commission_promo": null,
+    "with_certificate": true,
+    "child_courses": [],
+    "child_courses_count": 0,
+    "parent_courses": [],
+    "variants": [],
+    "became_published_at": "2022-08-18T22:04:23Z",
+    "became_paid_at": null,
+    "title_en": "Computer Science with basic С++",
+    "last_update_price_date": null,
+    "learners_limit": null,
+    "enrollment_begin_date": null,
+    "enrollment_end_date": null,
+    "owner": 296085237,
+    "language": "ru",
+    "is_featured": false,
+    "is_public": true,
+    "canonical_url": "https://stepik.org/course/86957/",
+    "title": "Основы Алгоритмизации и Программирования на языке С++",
+    "slug": "Основы-Алгоритмизации-и-Программирования-на-языке-С++-86957",
+    "begin_date": "2022-08-18T22:00:00Z",
+    "end_date": null,
+    "soft_deadline": null,
+    "hard_deadline": null,
+    "grading_policy": "no_deadlines",
+    "begin_date_source": "2022-08-18T22:00:00Z",
+    "end_date_source": null,
+    "soft_deadline_source": null,
+    "hard_deadline_source": null,
+    "grading_policy_source": "no_deadlines",
+    "is_active": true,
+    "create_date": "2020-11-09T17:02:36Z",
+    "update_date": "2026-01-30T17:56:48Z",
+    "learners_group": null,
+    "testers_group": null,
+    "moderators_group": null,
+    "assistants_group": null,
+    "teachers_group": null,
+    "admins_group": null,
+    "discussions_count": 0,
+    "discussion_proxy": null,
+    "discussion_threads": [],
+    "lti_consumer_key": "",
+    "lti_secret_key": "",
+    "lti_private_profile": false
+  },
+  "sections": [],
+  "units": [],
+  "lessons": [],
+  "steps": [],
+  "step_sources": []
+}
