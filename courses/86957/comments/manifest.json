@@ -1,0 +1,31 @@
+{
+  "course": 86957,
+  "scope": "public default discussions for known lessons and steps",
+  "known_lessons": 62,
+  "known_steps": 485,
+  "targets_checked": 229,
+  "targets_with_comments": 180,
+  "lesson_targets": 2,
+  "step_targets": 178,
+  "comments": 478,
+  "replies": 268,
+  "with_text": 746,
+  "missing_related_ids": [
+    1654763,
+    2413650,
+    2801148,
+    2803958,
+    3013575,
+    3188597,
+    3237523,
+    3795015,
+    5218903,
+    7371300,
+    8759594,
+    9484472,
+    10489101,
+    10516806,
+    11087372
+  ],
+  "request_errors": {}
+}
