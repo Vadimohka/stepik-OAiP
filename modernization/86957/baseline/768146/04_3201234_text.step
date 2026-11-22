@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Какие базовые компоненты включает стандартная библиотека C++?</h3>\n\n<p>Ниже перечислены некоторые стандартные заголовки и группы средств C++17/C++20. Большинство объявляемых ими имён находится в пространстве имён std.</p>\n\n<p>Ввод-вывод:</p>\n\n<ul>\n\t<li>fstream</li>\n\t<li>iomanip</li>\n\t<li>ios</li>\n\t<li>iosfwd</li>\n\t<li>iostream (ostream, istream)</li>\n\t<li>sstream</li>\n\t<li>streambuf</li>\n</ul>\n\n<p>Многопоточность:</p>\n\n<ul>\n\t<li>atomic (C++11)</li>\n\t<li>condition_variable (C++11)</li>\n\t<li>future (C++11)</li>\n\t<li>mutex (C++11)</li>\n\t<li>shared_mutex (C++14)</li>\n\t<li>thread (C++11)</li>\n</ul>\n\n<p>Прочие:</p>\n\n<ul>\n\t<li>algorithm</li>\n\t<li>bitset</li>\n\t<li>chrono (C++11)</li>\n\t<li>codecvt (C++11)</li>\n\t<li>complex</li>\n\t<li>exception</li>\n\t<li>functional</li>\n\t<li>initializer_list (C++11)</li>\n\t<li>iterator</li>\n\t<li>limits</li>\n\t<li>locale</li>\n\t<li>memory</li>\n\t<li>new</li>\n\t<li>numeric</li>\n\t<li>random (C++11)</li>\n\t<li>ratio (C++11)</li>\n\t<li>regex (C++11)</li>\n\t<li>stdexcept</li>\n\t<li>string</li>\n\t<li>system_error (C++11)</li>\n\t<li>tuple (C++11)</li>\n\t<li>typeindex (C++11)</li>\n\t<li>typeinfo</li>\n\t<li>type_traits (C++11)</li>\n\t<li>utility</li>\n\t<li>valarray</li>\n</ul>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3201234",
+  "time": "2026-11-22T18:35:40Z"
+}

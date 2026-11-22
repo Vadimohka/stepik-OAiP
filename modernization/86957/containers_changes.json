@@ -1,0 +1,646 @@
+{
+  "scope": "containers-and-strings",
+  "base_commit": "16a2f9d2b42c33a4f8b50cfa25e1e424fc96fc9d",
+  "changes": [
+    {
+      "step_id": 3177296,
+      "lesson_id": 763644,
+      "source_path": "courses/86957/steps/763644/02_3177296_text.step",
+      "revised_path": "modernization/86957/steps/763644/02_3177296_text.step",
+      "summary": "Введён std::array как практический вариант фиксированной коллекции, сохранена модель встроенного массива и добавлена задача на различение размера и значения.",
+      "sources": [
+        "https://eel.is/c++draft/array.overview",
+        "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rsl-arrays"
+      ]
+    },
+    {
+      "step_id": 3212907,
+      "lesson_id": 763644,
+      "source_path": "courses/86957/steps/763644/03_3212907_text.step",
+      "revised_path": "modernization/86957/steps/763644/03_3212907_text.step",
+      "summary": "Уточнено, что преобразование в указатель и тип T[N] относятся к встроенному массиву, а не к std::array.",
+      "sources": [
+        "https://eel.is/c++draft/array.overview",
+        "https://eel.is/c++draft/conv.array"
+      ]
+    },
+    {
+      "step_id": 3212908,
+      "lesson_id": 763644,
+      "source_path": "courses/86957/steps/763644/04_3212908_text.step",
+      "revised_path": "modernization/86957/steps/763644/04_3212908_text.step",
+      "summary": "Добавлены переносимые правила размера, инициализации и копирования; VLA отделены от стандартного C++.",
+      "sources": [
+        "https://eel.is/c++draft/array.overview",
+        "https://eel.is/c++draft/dcl.array",
+        "https://eel.is/c++draft/dcl.init.aggr"
+      ]
+    },
+    {
+      "step_id": 3212920,
+      "lesson_id": 763644,
+      "source_path": "courses/86957/steps/763644/06_3212920_text.step",
+      "revised_path": "modernization/86957/steps/763644/06_3212920_text.step",
+      "summary": "Добавлена проверка индексов до доступа, различены [] и at; сохранены begin/end и обход диапазона.",
+      "sources": [
+        "https://eel.is/c++draft/array.overview",
+        "https://eel.is/c++draft/array.elem",
+        "https://eel.is/c++draft/stmt.ranged"
+      ]
+    },
+    {
+      "step_id": 3212946,
+      "lesson_id": 770587,
+      "source_path": "courses/86957/steps/770587/01_3212946_text.step",
+      "revised_path": "modernization/86957/steps/770587/01_3212946_text.step",
+      "summary": "Вектор стал первым практическим решением динамического размера; новый пример проверяет ввод, пустую последовательность и диапазон суммы. Сохранены new[]/delete[] и инициализация.",
+      "sources": [
+        "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rsl-vector",
+        "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rr-newdelete",
+        "https://eel.is/c++draft/expr.new"
+      ]
+    },
+    {
+      "step_id": 3213209,
+      "lesson_id": 770587,
+      "source_path": "courses/86957/steps/770587/02_3213209_text.step",
+      "revised_path": "modernization/86957/steps/770587/02_3213209_text.step",
+      "summary": "Перед массивом указателей добавлена таблица на vector<vector<int>>, разъяснена непрерывность строк и ограничение сырой схемы при исключении.",
+      "sources": [
+        "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rsl-vector",
+        "https://eel.is/c++draft/vector.overview",
+        "https://eel.is/c++draft/vector.cons"
+      ]
+    },
+    {
+      "step_id": 3307684,
+      "lesson_id": 770587,
+      "source_path": "courses/86957/steps/770587/06_3307684_text.step",
+      "revised_path": "modernization/86957/steps/770587/06_3307684_text.step",
+      "summary": "Заменена отвлечённая таблица аллокаторов на выбор контейнеров, RAII, size/capacity/reserve/resize, копирование и инвалидирование.",
+      "sources": [
+        "https://eel.is/c++draft/vector.capacity",
+        "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rr-raii",
+        "https://eel.is/c++draft/vector.modifiers"
+      ]
+    },
+    {
+      "step_id": 3212948,
+      "lesson_id": 770589,
+      "source_path": "courses/86957/steps/770589/01_3212948_text.step",
+      "revised_path": "modernization/86957/steps/770589/01_3212948_text.step",
+      "summary": "Добавлены два полных примера getline, различие со вводом слова и корректное переключение с числового ввода с сохранением пустых строк.",
+      "sources": [
+        "https://eel.is/c++draft/string.io",
+        "https://eel.is/c++draft/istream.unformatted",
+        "https://eel.is/c++draft/istream.manip"
+      ]
+    },
+    {
+      "step_id": 3214903,
+      "lesson_id": 770589,
+      "source_path": "courses/86957/steps/770589/03_3214903_text.step",
+      "revised_path": "modernization/86957/steps/770589/03_3214903_text.step",
+      "summary": "Инициализация строк оформлена исполняемой программой, разъяснены независимость копии, повторение и отличие круглых/фигурных скобок.",
+      "sources": [
+        "https://eel.is/c++draft/string.cons"
+      ]
+    },
+    {
+      "step_id": 3214904,
+      "lesson_id": 770589,
+      "source_path": "courses/86957/steps/770589/05_3214904_text.step",
+      "revised_path": "modernization/86957/steps/770589/05_3214904_text.step",
+      "summary": "Добавлен разбор key:value с npos и граничными случаями, уточнены границы []/at и байтовая модель UTF-8; справочник сокращён до таблицы с явными типами, правилами pos/count и отдельными перегрузками C-указателей.",
+      "sources": [
+        "https://eel.is/c++draft/string.find",
+        "https://eel.is/c++draft/string.access",
+        "https://eel.is/c++draft/string.substr",
+        "https://eel.is/c++draft/string.append",
+        "https://eel.is/c++draft/string.capacity",
+        "https://eel.is/c++draft/string.accessors"
+      ],
+      "reference_review": {
+        "assessment_step_ids": [
+          3423457,
+          3437788
+        ],
+        "only_block_text_changed": true,
+        "html_balanced": true,
+        "cpp_code_blocks_unchanged": true,
+        "existing_80_run_validation_unchanged": true,
+        "step_file_sha256": "86027969657691eaac45d557f4b866b789470be4aeb066cf74761f4ca09f5200",
+        "final_html_chars": 7209
+      }
+    }
+  ],
+  "examples": [
+    {
+      "path": "modernization/86957/examples/containers/array_sum.cpp",
+      "step_id": 3177296,
+      "kind": "complete",
+      "minimum_standard": "c++17",
+      "cases": [
+        {
+          "input": "",
+          "expected_stdout": "4 50\n",
+          "expected_returncode": 0
+        }
+      ]
+    },
+    {
+      "path": "modernization/86957/examples/containers/array_initialization.cpp",
+      "step_id": 3212908,
+      "kind": "complete",
+      "minimum_standard": "c++17",
+      "cases": [
+        {
+          "input": "",
+          "expected_stdout": "1 0\n9 0\n",
+          "expected_returncode": 0
+        }
+      ]
+    },
+    {
+      "path": "modernization/86957/examples/containers/array_index.cpp",
+      "step_id": 3212920,
+      "kind": "complete",
+      "minimum_standard": "c++17",
+      "cases": [
+        {
+          "input": "0\n",
+          "expected_stdout": "10\n",
+          "expected_returncode": 0
+        },
+        {
+          "input": "3\n",
+          "expected_stdout": "40\n",
+          "expected_returncode": 0
+        },
+        {
+          "input": "-1\n",
+          "expected_stdout": "INVALID\n",
+          "expected_returncode": 0
+        },
+        {
+          "input": "4\n",
+          "expected_stdout": "INVALID\n",
+          "expected_returncode": 0
+        },
+        {
+          "input": "abc\n",
+          "expected_stdout": "INVALID\n",
+          "expected_returncode": 0
+        },
+        {
+          "input": "",
+          "expected_stdout": "INVALID\n",
+          "expected_returncode": 0
+        }
+      ]
+    },
+    {
+      "path": "modernization/86957/examples/containers/vector_sum.cpp",
+      "step_id": 3212946,
+      "kind": "complete",
+      "minimum_standard": "c++17",
+      "cases": [
+        {
+          "input": "4\n10 -5 20 3\n",
+          "expected_stdout": "4 28\n",
+          "expected_returncode": 0
+        },
+        {
+          "input": "0\n",
+          "expected_stdout": "0 0\n",
+          "expected_returncode": 0
+        },
+        {
+          "input": "1\n-1000000000\n",
+          "expected_stdout": "1 -1000000000\n",
+          "expected_returncode": 0
+        },
+        {
+          "input": "1000\n1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 \n",
+          "expected_stdout": "1000 1000000000000\n",
+          "expected_returncode": 0
+        },
+        {
+          "input": "-1\n",
+          "expected_stdout": "INVALID\n",
+          "expected_returncode": 1
+        },
+        {
+          "input": "1001\n",
+          "expected_stdout": "INVALID\n",
+          "expected_returncode": 1
+        },
+        {
+          "input": "2\n1\n",
+          "expected_stdout": "INVALID\n",
+          "expected_returncode": 1
+        },
+        {
+          "input": "1\n1000000001\n",
+          "expected_stdout": "INVALID\n",
+          "expected_returncode": 1
+        },
+        {
+          "input": "",
+          "expected_stdout": "INVALID\n",
+          "expected_returncode": 1
+        }
+      ]
+    },
+    {
+      "path": "modernization/86957/examples/containers/matrix_rows.cpp",
+      "step_id": 3213209,
+      "kind": "complete",
+      "minimum_standard": "c++17",
+      "cases": [
+        {
+          "input": "",
+          "expected_stdout": "0 7 0\n0 0 0\n",
+          "expected_returncode": 0
+        }
+      ]
+    },
+    {
+      "path": "modernization/86957/examples/containers/vector_capacity.cpp",
+      "step_id": 3307684,
+      "kind": "complete",
+      "minimum_standard": "c++17",
+      "cases": [
+        {
+          "input": "",
+          "expected_stdout": "0 1\n3 7\n0 1\n",
+          "expected_returncode": 0
+        }
+      ]
+    },
+    {
+      "path": "modernization/86957/examples/containers/string_getline.cpp",
+      "step_id": 3212948,
+      "kind": "complete",
+      "minimum_standard": "c++17",
+      "cases": [
+        {
+          "input": "Ada Lovelace\n",
+          "expected_stdout": "12\nAda Lovelace\n",
+          "expected_returncode": 0
+        },
+        {
+          "input": "\n",
+          "expected_stdout": "0\n\n",
+          "expected_returncode": 0
+        },
+        {
+          "input": "  C++  \n",
+          "expected_stdout": "7\n  C++  \n",
+          "expected_returncode": 0
+        },
+        {
+          "input": "abc",
+          "expected_stdout": "3\nabc\n",
+          "expected_returncode": 0
+        },
+        {
+          "input": "",
+          "expected_stdout": "",
+          "expected_returncode": 1
+        },
+        {
+          "input": "Привет\n",
+          "expected_stdout": "12\nПривет\n",
+          "expected_returncode": 0
+        }
+      ]
+    },
+    {
+      "path": "modernization/86957/examples/containers/string_after_number.cpp",
+      "step_id": 3212948,
+      "kind": "complete",
+      "minimum_standard": "c++17",
+      "cases": [
+        {
+          "input": "7\nAda Lovelace\n",
+          "expected_stdout": "7\nAda Lovelace\n",
+          "expected_returncode": 0
+        },
+        {
+          "input": "7\n\n",
+          "expected_stdout": "7\n\n",
+          "expected_returncode": 0
+        },
+        {
+          "input": "7\n  Ada\n",
+          "expected_stdout": "7\n  Ada\n",
+          "expected_returncode": 0
+        },
+        {
+          "input": "7\n",
+          "expected_stdout": "",
+          "expected_returncode": 1
+        },
+        {
+          "input": "x\nAda\n",
+          "expected_stdout": "",
+          "expected_returncode": 1
+        }
+      ]
+    },
+    {
+      "path": "modernization/86957/examples/containers/string_initialization.cpp",
+      "step_id": 3214903,
+      "kind": "complete",
+      "minimum_standard": "c++17",
+      "cases": [
+        {
+          "input": "",
+          "expected_stdout": "1\nabcdef\nAbcdef\nxxx\nx\nbc\n",
+          "expected_returncode": 0
+        }
+      ]
+    },
+    {
+      "path": "modernization/86957/examples/containers/string_split.cpp",
+      "step_id": 3214904,
+      "kind": "complete",
+      "minimum_standard": "c++17",
+      "cases": [
+        {
+          "input": "name:Ada Lovelace\n",
+          "expected_stdout": "name\nAda Lovelace\n",
+          "expected_returncode": 0
+        },
+        {
+          "input": ":value\n",
+          "expected_stdout": "\nvalue\n",
+          "expected_returncode": 0
+        },
+        {
+          "input": "key:\n",
+          "expected_stdout": "key\n\n",
+          "expected_returncode": 0
+        },
+        {
+          "input": ":\n",
+          "expected_stdout": "\n\n",
+          "expected_returncode": 0
+        },
+        {
+          "input": "name\n",
+          "expected_stdout": "NO_SEPARATOR\n",
+          "expected_returncode": 0
+        },
+        {
+          "input": "\n",
+          "expected_stdout": "NO_SEPARATOR\n",
+          "expected_returncode": 0
+        },
+        {
+          "input": "a:b:c\n",
+          "expected_stdout": "a\nb:c\n",
+          "expected_returncode": 0
+        },
+        {
+          "input": "",
+          "expected_stdout": "",
+          "expected_returncode": 1
+        },
+        {
+          "input": "имя:Анна\n",
+          "expected_stdout": "имя\nАнна\n",
+          "expected_returncode": 0
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "passed": true,
+    "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+    "flags": [
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Werror"
+    ],
+    "checks": [
+      {
+        "check": "only_block_text_changed",
+        "step_id": 3177296,
+        "passed": true
+      },
+      {
+        "check": "only_block_text_changed",
+        "step_id": 3212907,
+        "passed": true
+      },
+      {
+        "check": "only_block_text_changed",
+        "step_id": 3212908,
+        "passed": true
+      },
+      {
+        "check": "only_block_text_changed",
+        "step_id": 3212920,
+        "passed": true
+      },
+      {
+        "check": "only_block_text_changed",
+        "step_id": 3212946,
+        "passed": true
+      },
+      {
+        "check": "only_block_text_changed",
+        "step_id": 3213209,
+        "passed": true
+      },
+      {
+        "check": "only_block_text_changed",
+        "step_id": 3307684,
+        "passed": true
+      },
+      {
+        "check": "only_block_text_changed",
+        "step_id": 3212948,
+        "passed": true
+      },
+      {
+        "check": "only_block_text_changed",
+        "step_id": 3214903,
+        "passed": true
+      },
+      {
+        "check": "only_block_text_changed",
+        "step_id": 3214904,
+        "passed": true
+      },
+      {
+        "check": "compile_and_run",
+        "path": "modernization/86957/examples/containers/array_sum.cpp",
+        "standard": "c++17",
+        "cases": 1,
+        "passed": true,
+        "sha256": "74835940761a56e877aeb6db62baede0b82e7fec80a76cae682600c9f660e3f2"
+      },
+      {
+        "check": "compile_and_run",
+        "path": "modernization/86957/examples/containers/array_initialization.cpp",
+        "standard": "c++17",
+        "cases": 1,
+        "passed": true,
+        "sha256": "2969020d04f1f6be503dcd71547e1827da51cbe71228194cfa547f8736b851bb"
+      },
+      {
+        "check": "compile_and_run",
+        "path": "modernization/86957/examples/containers/array_index.cpp",
+        "standard": "c++17",
+        "cases": 6,
+        "passed": true,
+        "sha256": "8e4a96a543c40106b05b833dd527888e54d2f711d377627126bdb67ad8c356d5"
+      },
+      {
+        "check": "compile_and_run",
+        "path": "modernization/86957/examples/containers/vector_sum.cpp",
+        "standard": "c++17",
+        "cases": 9,
+        "passed": true,
+        "sha256": "103fbea7fcf39aad9cd0778e1d6e25f723961d9ca17ee43da42b857bc564dac3"
+      },
+      {
+        "check": "compile_and_run",
+        "path": "modernization/86957/examples/containers/matrix_rows.cpp",
+        "standard": "c++17",
+        "cases": 1,
+        "passed": true,
+        "sha256": "98b4a8a7c4c1b5a50fe595e07900e26e6aba8e270a66faa3bc9fdf76af9b7220"
+      },
+      {
+        "check": "compile_and_run",
+        "path": "modernization/86957/examples/containers/vector_capacity.cpp",
+        "standard": "c++17",
+        "cases": 1,
+        "passed": true,
+        "sha256": "1413117f4f8ca60ab7b2b7c663051418c462f0556712b1dc07e69ee390bab4fd"
+      },
+      {
+        "check": "compile_and_run",
+        "path": "modernization/86957/examples/containers/string_getline.cpp",
+        "standard": "c++17",
+        "cases": 6,
+        "passed": true,
+        "sha256": "b9f6033604eeddc5e18cfdfcd5e55bdf97d39062d3844151acb9a4bf2cc8f505",
+        "includes_utf8_case": true
+      },
+      {
+        "check": "compile_and_run",
+        "path": "modernization/86957/examples/containers/string_after_number.cpp",
+        "standard": "c++17",
+        "cases": 5,
+        "passed": true,
+        "sha256": "43f4e4c6e59bd41965ad3a765bfcbc08f1c209f24691956f7d2a464c3f7b5e61"
+      },
+      {
+        "check": "compile_and_run",
+        "path": "modernization/86957/examples/containers/string_initialization.cpp",
+        "standard": "c++17",
+        "cases": 1,
+        "passed": true,
+        "sha256": "e2a5861de05253a3bb68cb47a5c5f3b9d7fd1a8e761d4d3083c56e3017fffa26"
+      },
+      {
+        "check": "compile_and_run",
+        "path": "modernization/86957/examples/containers/string_split.cpp",
+        "standard": "c++17",
+        "cases": 9,
+        "passed": true,
+        "sha256": "ee46d8f7f069af5c4743cecdba462c8ac7ef361b13e034df7d9cee1b2124d78c",
+        "includes_utf8_case": true
+      },
+      {
+        "check": "compile_and_run",
+        "path": "modernization/86957/examples/containers/array_sum.cpp",
+        "standard": "c++20",
+        "cases": 1,
+        "passed": true,
+        "sha256": "74835940761a56e877aeb6db62baede0b82e7fec80a76cae682600c9f660e3f2"
+      },
+      {
+        "check": "compile_and_run",
+        "path": "modernization/86957/examples/containers/array_initialization.cpp",
+        "standard": "c++20",
+        "cases": 1,
+        "passed": true,
+        "sha256": "2969020d04f1f6be503dcd71547e1827da51cbe71228194cfa547f8736b851bb"
+      },
+      {
+        "check": "compile_and_run",
+        "path": "modernization/86957/examples/containers/array_index.cpp",
+        "standard": "c++20",
+        "cases": 6,
+        "passed": true,
+        "sha256": "8e4a96a543c40106b05b833dd527888e54d2f711d377627126bdb67ad8c356d5"
+      },
+      {
+        "check": "compile_and_run",
+        "path": "modernization/86957/examples/containers/vector_sum.cpp",
+        "standard": "c++20",
+        "cases": 9,
+        "passed": true,
+        "sha256": "103fbea7fcf39aad9cd0778e1d6e25f723961d9ca17ee43da42b857bc564dac3"
+      },
+      {
+        "check": "compile_and_run",
+        "path": "modernization/86957/examples/containers/matrix_rows.cpp",
+        "standard": "c++20",
+        "cases": 1,
+        "passed": true,
+        "sha256": "98b4a8a7c4c1b5a50fe595e07900e26e6aba8e270a66faa3bc9fdf76af9b7220"
+      },
+      {
+        "check": "compile_and_run",
+        "path": "modernization/86957/examples/containers/vector_capacity.cpp",
+        "standard": "c++20",
+        "cases": 1,
+        "passed": true,
+        "sha256": "1413117f4f8ca60ab7b2b7c663051418c462f0556712b1dc07e69ee390bab4fd"
+      },
+      {
+        "check": "compile_and_run",
+        "path": "modernization/86957/examples/containers/string_getline.cpp",
+        "standard": "c++20",
+        "cases": 6,
+        "passed": true,
+        "sha256": "b9f6033604eeddc5e18cfdfcd5e55bdf97d39062d3844151acb9a4bf2cc8f505",
+        "includes_utf8_case": true
+      },
+      {
+        "check": "compile_and_run",
+        "path": "modernization/86957/examples/containers/string_after_number.cpp",
+        "standard": "c++20",
+        "cases": 5,
+        "passed": true,
+        "sha256": "43f4e4c6e59bd41965ad3a765bfcbc08f1c209f24691956f7d2a464c3f7b5e61"
+      },
+      {
+        "check": "compile_and_run",
+        "path": "modernization/86957/examples/containers/string_initialization.cpp",
+        "standard": "c++20",
+        "cases": 1,
+        "passed": true,
+        "sha256": "e2a5861de05253a3bb68cb47a5c5f3b9d7fd1a8e761d4d3083c56e3017fffa26"
+      },
+      {
+        "check": "compile_and_run",
+        "path": "modernization/86957/examples/containers/string_split.cpp",
+        "standard": "c++20",
+        "cases": 9,
+        "passed": true,
+        "sha256": "ee46d8f7f069af5c4743cecdba462c8ac7ef361b13e034df7d9cee1b2124d78c",
+        "includes_utf8_case": true
+      }
+    ],
+    "total_program_runs": 80
+  }
+}

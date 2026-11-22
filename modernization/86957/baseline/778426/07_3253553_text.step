@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<p><strong>Фичи</strong></p>\n\n<p>ASSERT_EQ подходит не только для int, но и для других типов, допускающих соответствующее сравнение. Для C-строк ASSERT_EQ сравнивает указатели; для сравнения содержимого используют ASSERT_STREQ. Для отдельных проверок доступны и другие макросы:</p>\n\n<p style=\"text-align: center;\"><img alt=\"\" height=\"556\" name=\"image.png\" src=\"https://ucarecdn.stepik.net/9ec46997-58f7-4d88-84ad-f0335f993d83/\" width=\"772\"></p>\n\n<p>Соответственно, три нижеописанные конструкции проверяют одно и то же</p>\n\n<pre><code>TEST(InterestingNumbers, test_of_assert_eq)\n{\n    ASSERT_EQ(CountInterestingInInterval(1), 0);\n}\nTEST(InterestingNumbers, test_of_assert_true)\n{\n    ASSERT_TRUE(CountInterestingInInterval(1) == 0);\n}\nTEST(InterestingNumbers, test_of_fail)\n{\n    if (CountInterestingInInterval(1) != 0)\n        FAIL();\n}</code></pre>\n\n<p>Нужно упомянуть о <strong>EXPECT</strong>.<br>\nПри тестировании может быть три исхода:</p>\n\n<ol>\n\t<li>success — проверка успешна, выполнение продолжается</li>\n\t<li>non-fatal failure — проверка EXPECT не прошла, но текущая функция продолжает выполняться</li>\n\t<li>fatal failure — проверка ASSERT не прошла и завершила текущую функцию. Если это тело теста, оставшаяся часть его тела не выполняется</li>\n</ol>\n\n<p>Для EXPECT доступны те же окончания, что и для ASSERT: EQ, GT, TRUE и т.д.</p>\n\n<p>Можно добавить свой собственный <strong>комментарий</strong> к ASSERT, EXPECT: </p>\n\n<pre><code class=\"language-cpp\">ASSERT_EQ(some_variable, 0) &lt;&lt; \"The comment you would like to see in the terminal if the assertion failed\";</code></pre>\n\n<p>Для общей подготовки и освобождения ресурсов нескольких тестов можно использовать тестовую фикстуру (test fixture). Это помогает избежать повторения кода инициализации и очистки. Фикстуры Google Test основаны на классах; этот дополнительный материал можно изучить после знакомства с ними.</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3253553",
+  "time": "2026-11-22T18:35:40Z"
+}

@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<p style=\"text-align: center;\"><img alt=\"\" height=\"232\" name=\"изображение.png\" src=\"https://ucarecdn.stepik.net/4559f38b-cb8d-4005-803b-97bd729f3708/\" width=\"410\"></p>\n\n<h3 style=\"text-align: center;\"><strong>Дополнительные материалы:</strong></h3>\n\n<p><em>CMake projects in Visual Studio:</em> <a href=\"https://docs.microsoft.com/en-us/cpp/build/cmake-projects-in-visual-studio?view=msvc-170\" rel=\"noopener noreferrer nofollow\">https://docs.microsoft.com/en-us/cpp/build/cmake-projects-in-visual-studio?view=msvc-170</a></p>\n\n<p><em>CMake support:</em> <a href=\"https://www.jetbrains.com/ru-ru/clion/features/cmake-support.html\" rel=\"noopener noreferrer nofollow\">https://www.jetbrains.com/ru-ru/clion/features/cmake-support.html</a></p>\n\n<p><em>C/C++ projects and build systems in Visual Studio:</em> <a href=\"https://docs.microsoft.com/en-us/cpp/build/projects-and-build-systems-cpp?view=msvc-170\" rel=\"noopener noreferrer nofollow\">https://docs.microsoft.com/en-us/cpp/build/projects-and-build-systems-cpp?view=msvc-170</a></p>\n\n<p><em>Что такое сборщик продукта:</em> <a href=\"https://habr.com/ru/post/595375/\" rel=\"noopener noreferrer nofollow\">https://habr.com/ru/post/595375/</a></p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3231226",
+  "time": "2026-11-22T18:35:40Z"
+}

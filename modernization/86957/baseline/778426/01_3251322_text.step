@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<p><strong>Unit тесты в С++</strong></p>\n\n<p>Как было сказано ранее, тестирование - это очень важная часть написания программ. Поэтому для упрощения этого процесса программистами было придумано множество инструментов. Один из таких инструментов — Google Test; в этом уроке он используется в Visual Studio.</p>\n\n<p>В данном уроке мы <span style=\"font-size: inherit; font-weight: inherit;\">рассмотрим работу с ними </span><span style=\"font-size: inherit; font-weight: inherit;\"> на примере одного задания прошлогодней лабораторной работы.</span></p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3251322",
+  "time": "2026-11-22T18:35:40Z"
+}

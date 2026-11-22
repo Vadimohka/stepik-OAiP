@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Первые ошибки</h3>\n\n<p>Рассмотрим аналогичный код, но только с небольшим изменением</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\nint main(){\n    cout &lt;&lt; \"Hello world!\";\n}</code></pre>\n\n<p>Если вы попробуете скомпилировать этот код, то получите диагностическое сообщение:</p>\n\n<p><em>error: 'cout' was not declared in this scope (CLion)</em></p>\n\n<p>или</p>\n\n<p><em>error C2065: cout: необъявленный идентификатор (Visual Studio)</em></p>\n\n<p>Почему так и почему разные ошибки?</p>\n\n<p>Имя <code>cout</code> объявлено в пространстве имён <code>std</code>. В этом примере неквалифицированное имя <code>cout</code> не найдено при компиляции. Запись <code>std::cout</code> использует оператор разрешения области видимости <code>::</code> и явно указывает, где искать имя объекта потока. Это поиск имени при компиляции, а не действие компоновщика. Текст диагностического сообщения зависит от компилятора, выбранного в IDE.</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3201189",
+  "time": "2026-11-22T18:35:40Z"
+}

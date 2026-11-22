@@ -1,0 +1,96 @@
+{
+  "changes": [
+    {
+      "step_id": 3201132,
+      "lesson_id": 768140,
+      "source_path": "courses/86957/steps/768140/01_3201132_text.step",
+      "target_path": "modernization/86957/steps/768140/01_3201132_text.step",
+      "title": "Различать редактор, компилятор, компоновщик, отладчик и IDE",
+      "goal": "Различать редактор, компилятор, компоновщик, отладчик и IDE",
+      "sources": [
+        "https://code.visualstudio.com/docs/languages/cpp"
+      ]
+    },
+    {
+      "step_id": 3201141,
+      "lesson_id": 768140,
+      "source_path": "courses/86957/steps/768140/02_3201141_text.step",
+      "target_path": "modernization/86957/steps/768140/02_3201141_text.step",
+      "title": "Выбрать проверяемый набор инструментов и явно указать стандарт",
+      "goal": "Выбрать проверяемый набор инструментов и явно указать стандарт",
+      "sources": [
+        "https://gcc.gnu.org/projects/cxx-status.html",
+        "https://learn.microsoft.com/en-us/cpp/build/reference/std-specify-language-standard-version"
+      ]
+    },
+    {
+      "step_id": 3201168,
+      "lesson_id": 768140,
+      "source_path": "courses/86957/steps/768140/08_3201168_text.step",
+      "target_path": "modernization/86957/steps/768140/08_3201168_text.step",
+      "title": "Организовать короткий цикл разработки и самопроверки",
+      "goal": "Организовать короткий цикл разработки и самопроверки",
+      "sources": [
+        "https://cs128.org/2026b/syllabus-1801"
+      ]
+    },
+    {
+      "step_id": 3201234,
+      "lesson_id": 768146,
+      "source_path": "courses/86957/steps/768146/04_3201234_text.step",
+      "target_path": "modernization/86957/steps/768146/04_3201234_text.step",
+      "title": "Выбирать стандартный заголовок по задаче",
+      "goal": "Выбирать стандартный заголовок по задаче",
+      "sources": [
+        "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines"
+      ]
+    },
+    {
+      "step_id": 3201179,
+      "lesson_id": 768143,
+      "source_path": "courses/86957/steps/768143/01_3201179_text.step",
+      "target_path": "modernization/86957/steps/768143/01_3201179_text.step",
+      "title": "Собрать и запустить первую программу вне зависимости от IDE",
+      "goal": "Собрать и запустить первую программу вне зависимости от IDE",
+      "sources": [
+        "https://clang.llvm.org/docs/UsersManual.html",
+        "https://learn.microsoft.com/en-us/cpp/build/reference/std-specify-language-standard-version"
+      ]
+    },
+    {
+      "step_id": 3201189,
+      "lesson_id": 768143,
+      "source_path": "courses/86957/steps/768143/02_3201189_text.step",
+      "target_path": "modernization/86957/steps/768143/02_3201189_text.step",
+      "title": "Различать ошибки компиляции, компоновки и выполнения",
+      "goal": "Различать ошибки компиляции, компоновки и выполнения",
+      "sources": [
+        "https://clang.llvm.org/docs/UsersManual.html"
+      ]
+    },
+    {
+      "step_id": 3214764,
+      "lesson_id": 771009,
+      "source_path": "courses/86957/steps/771009/01_3214764_text.step",
+      "target_path": "modernization/86957/steps/771009/01_3214764_text.step",
+      "title": "Понять рабочее дерево, индекс и коммит Git",
+      "goal": "Понять рабочее дерево, индекс и коммит Git",
+      "sources": [
+        "https://git-scm.com/docs/gittutorial"
+      ]
+    },
+    {
+      "step_id": 3214833,
+      "lesson_id": 771009,
+      "source_path": "courses/86957/steps/771009/05_3214833_text.step",
+      "target_path": "modernization/86957/steps/771009/05_3214833_text.step",
+      "title": "Сделать два проверенных локальных коммита и сравнить их",
+      "goal": "Сделать два проверенных локальных коммита и сравнить их",
+      "sources": [
+        "https://git-scm.com/docs/gittutorial",
+        "https://git-scm.com/docs/gitignore",
+        "https://git-scm.com/docs/git-switch"
+      ]
+    }
+  ]
+}

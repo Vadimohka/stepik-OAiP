@@ -1,0 +1,29 @@
+{
+  "examples": [
+    {
+      "path": "modernization/86957/examples/snippets/gtest_assertions.cpp",
+      "step_id": "3253553",
+      "lesson_id": "778426",
+      "kind": "fragment",
+      "dependency": "GoogleTest",
+      "code_html_index": 0,
+      "validation_status": "passed_with_real_dependency",
+      "reason": "Dependent test translation unit verified with pinned GoogleTest; see the separate reproducible CMake integration.",
+      "verified_dependency": {
+        "name": "GoogleTest",
+        "repository": "https://github.com/google/googletest.git",
+        "tag": "v1.17.0",
+        "commit": "52eb8108c5bdec04579160ae17225d66034bd723",
+        "source_tree_clean": true
+      },
+      "verification_report": "modernization/86957/examples/snippets/verification.json",
+      "source_sha256": "20f2dbebadda9d161df1cd764d204a71010a6eb5fa84a02bac777b3b7a1d90c3",
+      "standards": [
+        "c++17",
+        "c++20"
+      ]
+    }
+  ],
+  "integration_cmake": "modernization/86957/examples/snippets/CMakeLists.txt",
+  "reproduction_instructions": "modernization/86957/examples/snippets/README.md"
+}

@@ -1,0 +1,93 @@
+{
+  "changes": [
+    {
+      "step_id": "4040986",
+      "lesson_id": "853535",
+      "source_path": "courses/86957/steps/853535/03_4040986_text.step",
+      "target_path": "modernization/86957/steps/853535/03_4040986_text.step",
+      "changed_fields": [
+        "block.text"
+      ],
+      "goal": "отличать разрешение на перемещение от самого переноса ресурса, не угадывать состояние перемещённого объекта и использовать готовые типы для управления ресурсами.",
+      "examples": [
+        "modernization/86957/examples/ownership/move_and_zero.cpp",
+        "modernization/86957/examples/ownership/forwarding.cpp"
+      ]
+    },
+    {
+      "step_id": "3569325",
+      "lesson_id": "853536",
+      "source_path": "courses/86957/steps/853536/01_3569325_text.step",
+      "target_path": "modernization/86957/steps/853536/01_3569325_text.step",
+      "changed_fields": [
+        "block.text"
+      ],
+      "goal": "различать сам объект-владелец и управляемую им память, выбирать обычное локальное значение, когда динамическое владение не требуется.",
+      "examples": [
+        "modernization/86957/examples/ownership/storage_owner.cpp"
+      ]
+    },
+    {
+      "step_id": "3569964",
+      "lesson_id": "853536",
+      "source_path": "courses/86957/steps/853536/02_3569964_text.step",
+      "target_path": "modernization/86957/steps/853536/02_3569964_text.step",
+      "changed_fields": [
+        "block.text"
+      ],
+      "goal": "объяснять освобождение ресурсов при обычном выходе, раннем <code>return</code> и обработке исключения; выбирать между локальным объектом и динамическим владением.",
+      "examples": [
+        "modernization/86957/examples/ownership/raii_exits.cpp"
+      ]
+    },
+    {
+      "step_id": "3569963",
+      "lesson_id": "853536",
+      "source_path": "courses/86957/steps/853536/03_3569963_text.step",
+      "target_path": "modernization/86957/steps/853536/03_3569963_text.step",
+      "changed_fields": [
+        "block.text"
+      ],
+      "goal": "создавать динамический объект через <code>std::make_unique</code>, передавать владение и отличать эту передачу от временного доступа к живому объекту.",
+      "examples": [
+        "modernization/86957/examples/ownership/unique_owner.cpp"
+      ]
+    },
+    {
+      "step_id": "3570166",
+      "lesson_id": "853536",
+      "source_path": "courses/86957/steps/853536/04_3570166_text.step",
+      "target_path": "modernization/86957/steps/853536/04_3570166_text.step",
+      "changed_fields": [
+        "block.text"
+      ],
+      "goal": "проследить, как деструктор и операции перемещения сохраняют правило «у динамического объекта один владелец», и объяснить запрет копирования.",
+      "examples": [
+        "modernization/86957/examples/ownership/learning_owner.cpp"
+      ]
+    }
+  ],
+  "assessment_changes": false,
+  "publication_status": "prepared_locally_not_published",
+  "validation": {
+    "status": "passed",
+    "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+    "standards": [
+      "c++17",
+      "c++20"
+    ],
+    "flags": [
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Werror"
+    ],
+    "complete_examples": 6,
+    "cases_per_standard": 10,
+    "executions": 20,
+    "exact_html_matches": 6,
+    "only_block_text_changed": true,
+    "nested_owner_regression": true,
+    "nrvo_wording_reviewed": true
+  }
+}

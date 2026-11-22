@@ -1,0 +1,106 @@
+{
+  "standards": [
+    "c++17",
+    "c++20"
+  ],
+  "examples": [
+    {
+      "path": "modernization/86957/examples/ownership/move_and_zero.cpp",
+      "step_id": "4040986",
+      "kind": "complete",
+      "code_html_index": 0,
+      "cases": [
+        {
+          "input": "",
+          "expected_stdout": "1 4\nA 2\nB 3\n",
+          "exitcode": 0
+        }
+      ]
+    },
+    {
+      "path": "modernization/86957/examples/ownership/forwarding.cpp",
+      "step_id": "4040986",
+      "kind": "complete",
+      "code_html_index": 1,
+      "cases": [
+        {
+          "input": "",
+          "expected_stdout": "const lvalue reference: 3\nrvalue reference: 2\nrvalue reference: 3\nstill present: 3\n",
+          "exitcode": 0
+        }
+      ]
+    },
+    {
+      "path": "modernization/86957/examples/ownership/storage_owner.cpp",
+      "step_id": "3569325",
+      "kind": "complete",
+      "code_html_index": 0,
+      "cases": [
+        {
+          "input": "",
+          "expected_stdout": "3 20\n",
+          "exitcode": 0
+        }
+      ]
+    },
+    {
+      "path": "modernization/86957/examples/ownership/raii_exits.cpp",
+      "step_id": "3569964",
+      "kind": "complete",
+      "code_html_index": 1,
+      "cases": [
+        {
+          "input": "normal\n",
+          "expected_stdout": "create local\ncreate dynamic\nnormal end\ndestroy dynamic\ndestroy local\ndone\n",
+          "exitcode": 0
+        },
+        {
+          "input": "early\n",
+          "expected_stdout": "create local\ncreate dynamic\nearly return\ndestroy dynamic\ndestroy local\ndone\n",
+          "exitcode": 0
+        },
+        {
+          "input": "throw\n",
+          "expected_stdout": "create local\ncreate dynamic\ndestroy dynamic\ndestroy local\ncaught stop\ndone\n",
+          "exitcode": 0
+        },
+        {
+          "input": "unknown\n",
+          "expected_stdout": "",
+          "exitcode": 1
+        },
+        {
+          "input": "",
+          "expected_stdout": "",
+          "exitcode": 1
+        }
+      ]
+    },
+    {
+      "path": "modernization/86957/examples/ownership/unique_owner.cpp",
+      "step_id": "3569963",
+      "kind": "complete",
+      "code_html_index": 0,
+      "cases": [
+        {
+          "input": "",
+          "expected_stdout": "10\n42\nfalse true\n42\nfalse\n",
+          "exitcode": 0
+        }
+      ]
+    },
+    {
+      "path": "modernization/86957/examples/ownership/learning_owner.cpp",
+      "step_id": "3570166",
+      "kind": "complete",
+      "code_html_index": 0,
+      "cases": [
+        {
+          "input": "",
+          "expected_stdout": "42\n0\n2\n0\n",
+          "exitcode": 0
+        }
+      ]
+    }
+  ]
+}

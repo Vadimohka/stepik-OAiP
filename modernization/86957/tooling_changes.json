@@ -1,0 +1,97 @@
+{
+  "scope": "CMake and unit testing",
+  "base_commit": "16a2f9d2b42c33a4f8b50cfa25e1e424fc96fc9d",
+  "changed_steps": 8,
+  "changes": [
+    {
+      "step_id": 3231317,
+      "lesson_id": 774618,
+      "path": "modernization/86957/steps/774618/03_3231317_text.step",
+      "source_path": "courses/86957/steps/774618/03_3231317_text.step",
+      "rationale": "Полный воспроизводимый проект с явным C++20, свойствами цели, предупреждениями и корректным различием single-/multi-config генераторов.",
+      "sources": [
+        "https://cmake.org/cmake/help/latest/manual/cmake.1.html",
+        "https://cmake.org/cmake/help/latest/prop_tgt/CXX_STANDARD.html",
+        "https://cmake.org/cmake/help/latest/prop_tgt/CXX_EXTENSIONS.html"
+      ]
+    },
+    {
+      "step_id": 3231228,
+      "lesson_id": 774618,
+      "path": "modernization/86957/steps/774618/04_3231228_text.step",
+      "source_path": "courses/86957/steps/774618/04_3231228_text.step",
+      "rationale": "Практическая диагностика и переносимый процесс вместо устаревающих снимков интерфейса IDE.",
+      "sources": [
+        "https://cmake.org/cmake/help/latest/manual/cmake.1.html",
+        "https://cmake.org/cmake/help/latest/variable/CMAKE_BUILD_TYPE.html"
+      ]
+    },
+    {
+      "step_id": 3231226,
+      "lesson_id": 774618,
+      "path": "modernization/86957/steps/774618/05_3231226_text.step",
+      "source_path": "courses/86957/steps/774618/05_3231226_text.step",
+      "rationale": "Проверяемый итог урока, упражнение на воспроизводимость и первичные материалы.",
+      "sources": [
+        "https://cmake.org/cmake/help/latest/manual/cmake.1.html",
+        "https://cmake.org/cmake/help/latest/manual/ctest.1.html"
+      ]
+    },
+    {
+      "step_id": 3251322,
+      "lesson_id": 778426,
+      "path": "modernization/86957/steps/778426/01_3251322_text.step",
+      "source_path": "courses/86957/steps/778426/01_3251322_text.step",
+      "rationale": "Переносимый вход в unit testing с контрактом, единой реализацией и осмысленными проверками.",
+      "sources": [
+        "https://google.github.io/googletest/primer.html",
+        "https://cmake.org/cmake/help/latest/command/add_test.html"
+      ]
+    },
+    {
+      "step_id": 3253429,
+      "lesson_id": 778426,
+      "path": "modernization/86957/steps/778426/04_3253429_text.step",
+      "source_path": "courses/86957/steps/778426/04_3253429_text.step",
+      "rationale": "Доказательство формулы, безопасный диапазон и одна вынесенная реализация для приложения и тестов вместо громоздкой интерактивной оболочки.",
+      "sources": []
+    },
+    {
+      "step_id": 3253503,
+      "lesson_id": 778426,
+      "path": "modernization/86957/steps/778426/05_3253503_text.step",
+      "source_path": "courses/86957/steps/778426/05_3253503_text.step",
+      "rationale": "Исполняемый проверочный набор без внешних зависимостей, границы, явные ожидания и CTest с той же реализацией библиотеки.",
+      "sources": [
+        "https://cmake.org/cmake/help/latest/command/add_test.html",
+        "https://cmake.org/cmake/help/latest/manual/ctest.1.html",
+        "https://cmake.org/cmake/help/latest/module/CTest.html"
+      ]
+    },
+    {
+      "step_id": 3253548,
+      "lesson_id": 778426,
+      "path": "modernization/86957/steps/778426/06_3253548_text.step",
+      "source_path": "courses/86957/steps/778426/06_3253548_text.step",
+      "rationale": "Осмысленный отрицательный контроль и переход к GoogleTest без привязки к конкретной версии IDE.",
+      "sources": [
+        "https://cmake.org/cmake/help/latest/manual/ctest.1.html",
+        "https://google.github.io/googletest/primer.html",
+        "https://google.github.io/googletest/quickstart-cmake.html"
+      ]
+    },
+    {
+      "step_id": 3253557,
+      "lesson_id": 778426,
+      "path": "modernization/86957/steps/778426/09_3253557_text.step",
+      "source_path": "courses/86957/steps/778426/09_3253557_text.step",
+      "rationale": "Практическое закрепление контракта, границ, Release-проверки и переноса тестирования на следующую задачу.",
+      "sources": [
+        "https://cmake.org/cmake/help/latest/manual/ctest.1.html"
+      ]
+    }
+  ],
+  "examples_manifest": "modernization/86957/examples/tooling/examples.json",
+  "validation": "modernization/86957/examples/tooling/validation.json",
+  "verification_command": "python3 modernization/86957/examples/tooling/verify.py --cmake /path/to/cmake"
+}

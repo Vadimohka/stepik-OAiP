@@ -1,0 +1,586 @@
+{
+  "schema_version": 1,
+  "course_id": 86957,
+  "date": "2026-11-23",
+  "base_commit": "16a2f9d2b42c33a4f8b50cfa25e1e424fc96fc9d",
+  "status": "prepared",
+  "changed_fields": [
+    "block.text"
+  ],
+  "changed_steps": 32,
+  "changed_lessons": 11,
+  "publication": {
+    "status": "blocked_http_403",
+    "applied": false,
+    "note": "An authenticated access attempt returned HTTP 403. No course content mutation was sent."
+  },
+  "steps": [
+    {
+      "step_id": 3177296,
+      "lesson_id": 763644,
+      "position": 2,
+      "source_path": "courses/86957/steps/763644/02_3177296_text.step",
+      "target_path": "modernization/86957/steps/763644/02_3177296_text.step",
+      "baseline_path": "modernization/86957/baseline/763644/02_3177296_text.step",
+      "before_block_sha256": "edf1eed06e41377d75c9b0136cb8070d6cc912b96a06addb239e4dfdda252ce0",
+      "after_block_sha256": "5b46d7a664aead0ecae3fb5745cf8c234c5227f1bb95b16d8d130441abf199c4",
+      "before_file_sha256": "a11b8fece5520a0cd6e0612a2691eba23559461a75844db8b4e7f34c4f244a82",
+      "after_file_sha256": "a7a8858894129569d8a707b483753f931c2ebf05567b4cb03ef9d561c67476b1",
+      "step_url": "https://stepik.org/lesson/763644/step/2",
+      "summary": "Введён std::array как практический вариант фиксированной коллекции, сохранена модель встроенного массива и добавлена задача на различение размера и значения.",
+      "sources": [
+        "https://eel.is/c++draft/array.overview",
+        "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rsl-arrays"
+      ]
+    },
+    {
+      "step_id": 3212907,
+      "lesson_id": 763644,
+      "position": 3,
+      "source_path": "courses/86957/steps/763644/03_3212907_text.step",
+      "target_path": "modernization/86957/steps/763644/03_3212907_text.step",
+      "baseline_path": "modernization/86957/baseline/763644/03_3212907_text.step",
+      "before_block_sha256": "24ef14840207f68dfc95a0fd3450202e113b6cb42b1c5d5bcf0aaacd045bd41a",
+      "after_block_sha256": "205eadd3d5ff5791ad819e5d763c93d9575bf1eb435fb08887109b0b71b19c12",
+      "before_file_sha256": "1b9305aa99b86e23bfd15f1e4ae158b9e32b939dd2dccaf8c94048ce10776297",
+      "after_file_sha256": "a3abe8f3fb9a7b047fe7e6f29a3b2b6c9ad735be261eeff9b034447d3b38cefc",
+      "step_url": "https://stepik.org/lesson/763644/step/3",
+      "summary": "Уточнено, что преобразование в указатель и тип T[N] относятся к встроенному массиву, а не к std::array.",
+      "sources": [
+        "https://eel.is/c++draft/array.overview",
+        "https://eel.is/c++draft/conv.array"
+      ]
+    },
+    {
+      "step_id": 3212908,
+      "lesson_id": 763644,
+      "position": 4,
+      "source_path": "courses/86957/steps/763644/04_3212908_text.step",
+      "target_path": "modernization/86957/steps/763644/04_3212908_text.step",
+      "baseline_path": "modernization/86957/baseline/763644/04_3212908_text.step",
+      "before_block_sha256": "c2f955ee4cd712c93413672bf659232c56c0ec2f3f499aab5821f1f8460f004d",
+      "after_block_sha256": "12f1497c9a15ffc7310b98e6da6494c8a78df6d1bb90b6409639d919b61b5d70",
+      "before_file_sha256": "6724520f0177c0c4a0c6806e1eed282799371c75d89960ef15f613aa5eb6bfbe",
+      "after_file_sha256": "56c4a096cabbfeea99c7c6024a06dcae06acbbd90aae141799c4a042b0e6149c",
+      "step_url": "https://stepik.org/lesson/763644/step/4",
+      "summary": "Добавлены переносимые правила размера, инициализации и копирования; VLA отделены от стандартного C++.",
+      "sources": [
+        "https://eel.is/c++draft/array.overview",
+        "https://eel.is/c++draft/dcl.array",
+        "https://eel.is/c++draft/dcl.init.aggr"
+      ]
+    },
+    {
+      "step_id": 3212920,
+      "lesson_id": 763644,
+      "position": 6,
+      "source_path": "courses/86957/steps/763644/06_3212920_text.step",
+      "target_path": "modernization/86957/steps/763644/06_3212920_text.step",
+      "baseline_path": "modernization/86957/baseline/763644/06_3212920_text.step",
+      "before_block_sha256": "5f2b72f92536ffb499530c776beaee420849cdabfb069694b9e637af65c21d72",
+      "after_block_sha256": "84e65f7730b55e01d03d84014cf8aeeae0a1d6f47e5e27d347ca13de59156afb",
+      "before_file_sha256": "a630784b29fabbae7431caeca99ed8b0d86d307824f3f42854b0a9a8b32559e5",
+      "after_file_sha256": "be3beb1a339b427c39cc308176f08cf3370b881feab9aeb4ed2bbd4ea8568a2d",
+      "step_url": "https://stepik.org/lesson/763644/step/6",
+      "summary": "Добавлена проверка индексов до доступа, различены [] и at; сохранены begin/end и обход диапазона.",
+      "sources": [
+        "https://eel.is/c++draft/array.overview",
+        "https://eel.is/c++draft/array.elem",
+        "https://eel.is/c++draft/stmt.ranged"
+      ]
+    },
+    {
+      "step_id": 3201132,
+      "lesson_id": 768140,
+      "position": 1,
+      "source_path": "courses/86957/steps/768140/01_3201132_text.step",
+      "target_path": "modernization/86957/steps/768140/01_3201132_text.step",
+      "baseline_path": "modernization/86957/baseline/768140/01_3201132_text.step",
+      "before_block_sha256": "6c1c27e56eb5f7a9a791ac9922362d1b42284857329cbd55d4a82129767289e2",
+      "after_block_sha256": "b69cb15ba03fbfe68c694054508aa15127c4c5fbd9576d7256c8769ccb1585a0",
+      "before_file_sha256": "d9a9030297f018c8fed8998fcd366de1868f4f276269b3c1fcbbbca84627c730",
+      "after_file_sha256": "4e011e4fbf321f7df2cd61a99baaa200acdb8a42c0e10ffba39222b3aaa55fff",
+      "step_url": "https://stepik.org/lesson/768140/step/1",
+      "summary": "Различать редактор, компилятор, компоновщик, отладчик и IDE",
+      "sources": [
+        "https://code.visualstudio.com/docs/languages/cpp"
+      ]
+    },
+    {
+      "step_id": 3201141,
+      "lesson_id": 768140,
+      "position": 2,
+      "source_path": "courses/86957/steps/768140/02_3201141_text.step",
+      "target_path": "modernization/86957/steps/768140/02_3201141_text.step",
+      "baseline_path": "modernization/86957/baseline/768140/02_3201141_text.step",
+      "before_block_sha256": "b6759b772b41df1ed174c29cb2798ad921a379382e5caf11fe4a619de4e55c4b",
+      "after_block_sha256": "421c05f9edb15451239c937bcdb70378be19c1abf1b7be243c122d3c3e703cae",
+      "before_file_sha256": "cc4af4b771d2c698ce000b11b2747bb23c9be1758e8daf32ee0026317cfff679",
+      "after_file_sha256": "e99465bebf0574a56479b7ff7a538fda858937da55222b4955a81ee77c01fa34",
+      "step_url": "https://stepik.org/lesson/768140/step/2",
+      "summary": "Выбрать проверяемый набор инструментов и явно указать стандарт",
+      "sources": [
+        "https://gcc.gnu.org/projects/cxx-status.html",
+        "https://learn.microsoft.com/en-us/cpp/build/reference/std-specify-language-standard-version"
+      ]
+    },
+    {
+      "step_id": 3201168,
+      "lesson_id": 768140,
+      "position": 8,
+      "source_path": "courses/86957/steps/768140/08_3201168_text.step",
+      "target_path": "modernization/86957/steps/768140/08_3201168_text.step",
+      "baseline_path": "modernization/86957/baseline/768140/08_3201168_text.step",
+      "before_block_sha256": "e7764158613a7e4fcf5404bee2bf893a993ef04cdab9e8c118ca02d77849c6f4",
+      "after_block_sha256": "a00dfc3a6b55614159b7ca0d44823c17f26e8e2693e8100be0cd48b4054360c9",
+      "before_file_sha256": "ac4749927e86a1f734503cab2c6ab367a1bc9ca05c39bf0f43df0426aba4bca6",
+      "after_file_sha256": "926996d543c79e0e3f3c17d773da2ffa726e3522e650ceca003cde5a15cd0c8f",
+      "step_url": "https://stepik.org/lesson/768140/step/8",
+      "summary": "Организовать короткий цикл разработки и самопроверки",
+      "sources": [
+        "https://cs128.org/2026b/syllabus-1801"
+      ]
+    },
+    {
+      "step_id": 3201179,
+      "lesson_id": 768143,
+      "position": 1,
+      "source_path": "courses/86957/steps/768143/01_3201179_text.step",
+      "target_path": "modernization/86957/steps/768143/01_3201179_text.step",
+      "baseline_path": "modernization/86957/baseline/768143/01_3201179_text.step",
+      "before_block_sha256": "f98cbaf105de33592120109ba68e2ecaa97806e8d2fefb8d00a1cb2640916e7b",
+      "after_block_sha256": "77e695646bdc936fbf748e35eabc0dffada58ba55bc0208ce06f4b1a98574dc9",
+      "before_file_sha256": "d36580149d54e443dd04b876d917207aa00044188a5baa8b4b4fa23501301306",
+      "after_file_sha256": "8811f1a8372e7a661b02569c1afbbbb08896d9746fc6f92d4075037709d9f095",
+      "step_url": "https://stepik.org/lesson/768143/step/1",
+      "summary": "Собрать и запустить первую программу вне зависимости от IDE",
+      "sources": [
+        "https://clang.llvm.org/docs/UsersManual.html",
+        "https://learn.microsoft.com/en-us/cpp/build/reference/std-specify-language-standard-version"
+      ]
+    },
+    {
+      "step_id": 3201189,
+      "lesson_id": 768143,
+      "position": 2,
+      "source_path": "courses/86957/steps/768143/02_3201189_text.step",
+      "target_path": "modernization/86957/steps/768143/02_3201189_text.step",
+      "baseline_path": "modernization/86957/baseline/768143/02_3201189_text.step",
+      "before_block_sha256": "5964ff91619d4ea68a446201f46d41619aeaaaec2c112d5827c1e574dd9aedd4",
+      "after_block_sha256": "6f722e3686a3292b57f494066104289c4b4e2ad3d9760b48ebe1c4f7f86289ce",
+      "before_file_sha256": "8b0873593aa2753e7bd228fba2e379f97244b399e2a624b35c3c721b519877c8",
+      "after_file_sha256": "b72f03fdfa230f2e63a0d325273ac37c4a7016a6e6b5ea29aa9233b340eae7c2",
+      "step_url": "https://stepik.org/lesson/768143/step/2",
+      "summary": "Различать ошибки компиляции, компоновки и выполнения",
+      "sources": [
+        "https://clang.llvm.org/docs/UsersManual.html"
+      ]
+    },
+    {
+      "step_id": 3201234,
+      "lesson_id": 768146,
+      "position": 4,
+      "source_path": "courses/86957/steps/768146/04_3201234_text.step",
+      "target_path": "modernization/86957/steps/768146/04_3201234_text.step",
+      "baseline_path": "modernization/86957/baseline/768146/04_3201234_text.step",
+      "before_block_sha256": "55f0bd9937c0f364bc90ffc6f5c4d493f9deb117e0bbdd57e1ccfffa010a926f",
+      "after_block_sha256": "b1857cc1748d745a950b10b3a2e0de94cd46fa6b723dd6c5c9bb266b57110fde",
+      "before_file_sha256": "8f8b498b1032f949574bf8152a7b7d0b0f712e039503c1dd7b5484b9143f32d1",
+      "after_file_sha256": "905bcc75f958cb9c6df4e8548da35bb5169fd6ce789e1aa5ee8cd219577b5f5d",
+      "step_url": "https://stepik.org/lesson/768146/step/4",
+      "summary": "Выбирать стандартный заголовок по задаче",
+      "sources": [
+        "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines"
+      ]
+    },
+    {
+      "step_id": 3212946,
+      "lesson_id": 770587,
+      "position": 1,
+      "source_path": "courses/86957/steps/770587/01_3212946_text.step",
+      "target_path": "modernization/86957/steps/770587/01_3212946_text.step",
+      "baseline_path": "modernization/86957/baseline/770587/01_3212946_text.step",
+      "before_block_sha256": "487bb55d8d0c7e692c3ce29f5dd72fd37e3a242c16b718ca64d9b033601d56cd",
+      "after_block_sha256": "55087658fb30f6a49745d8f0342361d40b6686c89f25229ba1c02380a493d807",
+      "before_file_sha256": "9f6e74f6b7361e43cce05f551c64fe0e35cb42611f2f08b5afbc7b860f251db4",
+      "after_file_sha256": "160379e6aa0e8a5c14b1281e992ed0578f3aa0e4deb9a80ac6786281db6e9a7f",
+      "step_url": "https://stepik.org/lesson/770587/step/1",
+      "summary": "Вектор стал первым практическим решением динамического размера; новый пример проверяет ввод, пустую последовательность и диапазон суммы. Сохранены new[]/delete[] и инициализация.",
+      "sources": [
+        "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rsl-vector",
+        "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rr-newdelete",
+        "https://eel.is/c++draft/expr.new"
+      ]
+    },
+    {
+      "step_id": 3213209,
+      "lesson_id": 770587,
+      "position": 2,
+      "source_path": "courses/86957/steps/770587/02_3213209_text.step",
+      "target_path": "modernization/86957/steps/770587/02_3213209_text.step",
+      "baseline_path": "modernization/86957/baseline/770587/02_3213209_text.step",
+      "before_block_sha256": "17da9f402c8f5e01751a4f6e6bf9741ccae71295349b69eab5cc4d972df38da0",
+      "after_block_sha256": "ce1dc27be5fbeefb8d657354006bc450d65c590f863c972dd50c202a72798576",
+      "before_file_sha256": "abcc00f5174d23d608374565898fab1bbb533df5461d5ba967d8878a849b30aa",
+      "after_file_sha256": "dea4f09737d4b213416779cffa6d76e735e7b4ed6472638dd54e509fed52254b",
+      "step_url": "https://stepik.org/lesson/770587/step/2",
+      "summary": "Перед массивом указателей добавлена таблица на vector<vector<int>>, разъяснена непрерывность строк и ограничение сырой схемы при исключении.",
+      "sources": [
+        "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rsl-vector",
+        "https://eel.is/c++draft/vector.overview",
+        "https://eel.is/c++draft/vector.cons"
+      ]
+    },
+    {
+      "step_id": 3307684,
+      "lesson_id": 770587,
+      "position": 6,
+      "source_path": "courses/86957/steps/770587/06_3307684_text.step",
+      "target_path": "modernization/86957/steps/770587/06_3307684_text.step",
+      "baseline_path": "modernization/86957/baseline/770587/06_3307684_text.step",
+      "before_block_sha256": "dbdc72bbe915a9c561679683997f14317b9fe070c0d557790c0bc76a0fbfd818",
+      "after_block_sha256": "fa5381d5426cb5e84f43039ea9c4aafff12bb8c991a8684d4a3c8a1c5432ba56",
+      "before_file_sha256": "a75165ed0a19b4f6f663dfc9a5f206989838c3414ed8f85d5e110e0015ffa84b",
+      "after_file_sha256": "c1c424a8374f3823cf775c7e8aa87675cfb4f855d1bb23740f6dfd637d3d42bd",
+      "step_url": "https://stepik.org/lesson/770587/step/6",
+      "summary": "Заменена отвлечённая таблица аллокаторов на выбор контейнеров, RAII, size/capacity/reserve/resize, копирование и инвалидирование.",
+      "sources": [
+        "https://eel.is/c++draft/vector.capacity",
+        "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rr-raii",
+        "https://eel.is/c++draft/vector.modifiers"
+      ]
+    },
+    {
+      "step_id": 3212948,
+      "lesson_id": 770589,
+      "position": 1,
+      "source_path": "courses/86957/steps/770589/01_3212948_text.step",
+      "target_path": "modernization/86957/steps/770589/01_3212948_text.step",
+      "baseline_path": "modernization/86957/baseline/770589/01_3212948_text.step",
+      "before_block_sha256": "11ee750328742f0e0cd9aaf8817133bf5721d5d11146b1c9965855b19c401c45",
+      "after_block_sha256": "7c17da4405daa41c23537edcd00ff467de42faa31694d3f887dc2b915e446fd1",
+      "before_file_sha256": "02517b8c819e2d2943e8c3dd1d4ee7ac5ec923657831a51616feff299d68f6cc",
+      "after_file_sha256": "1c29e0a25fdcafcb343153aba6e85e16d5313b9830869e3c876b19a7bbc99edf",
+      "step_url": "https://stepik.org/lesson/770589/step/1",
+      "summary": "Добавлены два полных примера getline, различие со вводом слова и корректное переключение с числового ввода с сохранением пустых строк.",
+      "sources": [
+        "https://eel.is/c++draft/string.io",
+        "https://eel.is/c++draft/istream.unformatted",
+        "https://eel.is/c++draft/istream.manip"
+      ]
+    },
+    {
+      "step_id": 3214903,
+      "lesson_id": 770589,
+      "position": 3,
+      "source_path": "courses/86957/steps/770589/03_3214903_text.step",
+      "target_path": "modernization/86957/steps/770589/03_3214903_text.step",
+      "baseline_path": "modernization/86957/baseline/770589/03_3214903_text.step",
+      "before_block_sha256": "65201081d3a65fb00eea511ef9feb2d272a32439ff9f5fd548dd0f1fcc616589",
+      "after_block_sha256": "d6d0b56f7ab0df59988f7542d07ecf1d5f8933cf31d4d3066fa64c0fd3aa8361",
+      "before_file_sha256": "b758e38f9d375e381caafe713877c4460d253398af2afeae85c1c5e7e538bbec",
+      "after_file_sha256": "6dc92495568123b5d504b5a7d9042b9808a8e4799033d1dd5082ce4969fcffdf",
+      "step_url": "https://stepik.org/lesson/770589/step/3",
+      "summary": "Инициализация строк оформлена исполняемой программой, разъяснены независимость копии, повторение и отличие круглых/фигурных скобок.",
+      "sources": [
+        "https://eel.is/c++draft/string.cons"
+      ]
+    },
+    {
+      "step_id": 3214904,
+      "lesson_id": 770589,
+      "position": 5,
+      "source_path": "courses/86957/steps/770589/05_3214904_text.step",
+      "target_path": "modernization/86957/steps/770589/05_3214904_text.step",
+      "baseline_path": "modernization/86957/baseline/770589/05_3214904_text.step",
+      "before_block_sha256": "c1192634155c79ae6c71bfea77fb429316ace14f705a605fafe599afb648ae17",
+      "after_block_sha256": "778f130bb6675f5579c20c9c90bc7fb494db1027f551fd4d3a488dbdc8bfd9b5",
+      "before_file_sha256": "fc45b46c66917e5a55edbd65ffff863ddffc8958ff3f2bd61816935bdb7dd51f",
+      "after_file_sha256": "86027969657691eaac45d557f4b866b789470be4aeb066cf74761f4ca09f5200",
+      "step_url": "https://stepik.org/lesson/770589/step/5",
+      "summary": "Добавлен разбор key:value с npos и граничными случаями, уточнены границы []/at и байтовая модель UTF-8; справочник сокращён до таблицы с явными типами, правилами pos/count и отдельными перегрузками C-указателей.",
+      "sources": [
+        "https://eel.is/c++draft/string.find",
+        "https://eel.is/c++draft/string.access",
+        "https://eel.is/c++draft/string.substr",
+        "https://eel.is/c++draft/string.append",
+        "https://eel.is/c++draft/string.capacity",
+        "https://eel.is/c++draft/string.accessors"
+      ]
+    },
+    {
+      "step_id": 3214764,
+      "lesson_id": 771009,
+      "position": 1,
+      "source_path": "courses/86957/steps/771009/01_3214764_text.step",
+      "target_path": "modernization/86957/steps/771009/01_3214764_text.step",
+      "baseline_path": "modernization/86957/baseline/771009/01_3214764_text.step",
+      "before_block_sha256": "f59d8f3b843f9e22753b41ada2ec3227c898781e4450906e2ae19ed80664d58f",
+      "after_block_sha256": "65087815dc111811a08c3d6b17b2233dcc6de7a03baf9ce56e66876a0b765b16",
+      "before_file_sha256": "2e2f44e82995d5d444c2c8afd91ac70668d0226c82407a49b6a680b516670ce3",
+      "after_file_sha256": "548be62073e46c327e284200822ef39cbe36be6d74f04bd0a9d183681ecbc03e",
+      "step_url": "https://stepik.org/lesson/771009/step/1",
+      "summary": "Понять рабочее дерево, индекс и коммит Git",
+      "sources": [
+        "https://git-scm.com/docs/gittutorial"
+      ]
+    },
+    {
+      "step_id": 3214833,
+      "lesson_id": 771009,
+      "position": 5,
+      "source_path": "courses/86957/steps/771009/05_3214833_text.step",
+      "target_path": "modernization/86957/steps/771009/05_3214833_text.step",
+      "baseline_path": "modernization/86957/baseline/771009/05_3214833_text.step",
+      "before_block_sha256": "3e0fdb0c0242211c8f01735262e9076db2dd9f82a3ebf32c50e77e88b8a845b2",
+      "after_block_sha256": "13cc1caa60cf75d0bef1e0d3cd664a6b98d22f6d25751c40ae129ccb325f01db",
+      "before_file_sha256": "2c00229ccd6fc25f226197398350b6ec89803968d41011eb1b289f91cae2c475",
+      "after_file_sha256": "09c3291d976b74c4727a1688b6a695575216f7c62f6b2990dda2cce4a70304c5",
+      "step_url": "https://stepik.org/lesson/771009/step/5",
+      "summary": "Сделать два проверенных локальных коммита и сравнить их",
+      "sources": [
+        "https://git-scm.com/docs/gittutorial",
+        "https://git-scm.com/docs/gitignore",
+        "https://git-scm.com/docs/git-switch"
+      ]
+    },
+    {
+      "step_id": 3231317,
+      "lesson_id": 774618,
+      "position": 3,
+      "source_path": "courses/86957/steps/774618/03_3231317_text.step",
+      "target_path": "modernization/86957/steps/774618/03_3231317_text.step",
+      "baseline_path": "modernization/86957/baseline/774618/03_3231317_text.step",
+      "before_block_sha256": "77dcc2a866730769fd6abd7dc3f0f682328af9444c23a59c6062d30d83e322a3",
+      "after_block_sha256": "0bf4658e8167d87ffb9a33a04e2a6adf6199ecdc4dea971fcbfdbe01f530fd64",
+      "before_file_sha256": "d0e1972bfa2f005e5f0681c47c6f57d31d47209e123269d1f030ee659e7fd3c9",
+      "after_file_sha256": "f5b7fe1e373d4ce206e9c1455ca1c8d1775c2f5f3b6d4e507cb5b78d0a8daa32",
+      "step_url": "https://stepik.org/lesson/774618/step/3",
+      "summary": "Полный воспроизводимый проект с явным C++20, свойствами цели, предупреждениями и корректным различием single-/multi-config генераторов.",
+      "sources": [
+        "https://cmake.org/cmake/help/latest/manual/cmake.1.html",
+        "https://cmake.org/cmake/help/latest/prop_tgt/CXX_STANDARD.html",
+        "https://cmake.org/cmake/help/latest/prop_tgt/CXX_EXTENSIONS.html"
+      ]
+    },
+    {
+      "step_id": 3231228,
+      "lesson_id": 774618,
+      "position": 4,
+      "source_path": "courses/86957/steps/774618/04_3231228_text.step",
+      "target_path": "modernization/86957/steps/774618/04_3231228_text.step",
+      "baseline_path": "modernization/86957/baseline/774618/04_3231228_text.step",
+      "before_block_sha256": "917bef82a7a5154d6eb1f71432a5cb0f56a7762448f29f97b1de7413f308ba9b",
+      "after_block_sha256": "c3685dd8a3ce57a156d065e698203c2c71e1212adc60c51780a0fe61afb4b63c",
+      "before_file_sha256": "c867ba1cbbfebec49075a60c7d12ddbf00d2ae9fe2a5536e4a24c11b20b83106",
+      "after_file_sha256": "80192bdefdbfd19ce0ee49b0dbcd4431132cab89f581081fbff02e2c4ff2ca59",
+      "step_url": "https://stepik.org/lesson/774618/step/4",
+      "summary": "Практическая диагностика и переносимый процесс вместо устаревающих снимков интерфейса IDE.",
+      "sources": [
+        "https://cmake.org/cmake/help/latest/manual/cmake.1.html",
+        "https://cmake.org/cmake/help/latest/variable/CMAKE_BUILD_TYPE.html"
+      ]
+    },
+    {
+      "step_id": 3231226,
+      "lesson_id": 774618,
+      "position": 5,
+      "source_path": "courses/86957/steps/774618/05_3231226_text.step",
+      "target_path": "modernization/86957/steps/774618/05_3231226_text.step",
+      "baseline_path": "modernization/86957/baseline/774618/05_3231226_text.step",
+      "before_block_sha256": "d7ce46c7a716c1730662b57ae4b0e70099b011d84e4feddc1d98a0aec365e0fa",
+      "after_block_sha256": "e250aaaa054d9881ced14e5c522fc1e80f0733b70e30cdbcd75a614700a0edfa",
+      "before_file_sha256": "8f9e73e4979abba4f9dd773a6246220befa417a43bd4e3585763f71ae01572a0",
+      "after_file_sha256": "7d883da8a5885f86e65faa185ba25130df4f3fda9090184dfe33090a93412576",
+      "step_url": "https://stepik.org/lesson/774618/step/5",
+      "summary": "Проверяемый итог урока, упражнение на воспроизводимость и первичные материалы.",
+      "sources": [
+        "https://cmake.org/cmake/help/latest/manual/cmake.1.html",
+        "https://cmake.org/cmake/help/latest/manual/ctest.1.html"
+      ]
+    },
+    {
+      "step_id": 3251322,
+      "lesson_id": 778426,
+      "position": 1,
+      "source_path": "courses/86957/steps/778426/01_3251322_text.step",
+      "target_path": "modernization/86957/steps/778426/01_3251322_text.step",
+      "baseline_path": "modernization/86957/baseline/778426/01_3251322_text.step",
+      "before_block_sha256": "7bb7a77264f639c2bce9c07d678865d7e9c3aef2f16f856394a7f6dd9fe04408",
+      "after_block_sha256": "783f95ff5c993b7fbb8de7f911c5cc3f96ea00667182a3f60d129a6145a4150d",
+      "before_file_sha256": "bab81ddb4e72615debef62508c7588591e392395960458390c14783896c5222a",
+      "after_file_sha256": "442842629f31b8f37e0bd005f476c6b6f0d16afbc51a020ca60db8fc59e9e911",
+      "step_url": "https://stepik.org/lesson/778426/step/1",
+      "summary": "Переносимый вход в unit testing с контрактом, единой реализацией и осмысленными проверками.",
+      "sources": [
+        "https://google.github.io/googletest/primer.html",
+        "https://cmake.org/cmake/help/latest/command/add_test.html"
+      ]
+    },
+    {
+      "step_id": 3253429,
+      "lesson_id": 778426,
+      "position": 4,
+      "source_path": "courses/86957/steps/778426/04_3253429_text.step",
+      "target_path": "modernization/86957/steps/778426/04_3253429_text.step",
+      "baseline_path": "modernization/86957/baseline/778426/04_3253429_text.step",
+      "before_block_sha256": "231ce39502e7fbf14b3c3c3d7a4283b3430185ff4634c4ee79958e060104490b",
+      "after_block_sha256": "6c2053dde944205f2f9f005efa7d3ff3d689dac9e62ab0ef29927a60614a31f3",
+      "before_file_sha256": "7574016de971fb679d732b2ca1e68644aa4e6455b8f11f1c37329a46e5e168ce",
+      "after_file_sha256": "266ca189bfbc58437f5680d08351b1326816f5915c5a30517110b42442a84cd9",
+      "step_url": "https://stepik.org/lesson/778426/step/4",
+      "summary": "Доказательство формулы, безопасный диапазон и одна вынесенная реализация для приложения и тестов вместо громоздкой интерактивной оболочки.",
+      "sources": []
+    },
+    {
+      "step_id": 3253503,
+      "lesson_id": 778426,
+      "position": 5,
+      "source_path": "courses/86957/steps/778426/05_3253503_text.step",
+      "target_path": "modernization/86957/steps/778426/05_3253503_text.step",
+      "baseline_path": "modernization/86957/baseline/778426/05_3253503_text.step",
+      "before_block_sha256": "b159a0ec9f24272805009fb80e66e97faf84192c21081b075fe35fbf426de8fe",
+      "after_block_sha256": "9301b12a167dda6389f8986d36c8640aa5ccf297500a8fda25874d24f277f762",
+      "before_file_sha256": "5d76a524047391f675c5a51022b227b7006aa102f05d6754b291cec038053edf",
+      "after_file_sha256": "6bedeee3338a351e0af430440d774216c304f8445494de9d5f6a92dec31f0fd0",
+      "step_url": "https://stepik.org/lesson/778426/step/5",
+      "summary": "Исполняемый проверочный набор без внешних зависимостей, границы, явные ожидания и CTest с той же реализацией библиотеки.",
+      "sources": [
+        "https://cmake.org/cmake/help/latest/command/add_test.html",
+        "https://cmake.org/cmake/help/latest/manual/ctest.1.html",
+        "https://cmake.org/cmake/help/latest/module/CTest.html"
+      ]
+    },
+    {
+      "step_id": 3253548,
+      "lesson_id": 778426,
+      "position": 6,
+      "source_path": "courses/86957/steps/778426/06_3253548_text.step",
+      "target_path": "modernization/86957/steps/778426/06_3253548_text.step",
+      "baseline_path": "modernization/86957/baseline/778426/06_3253548_text.step",
+      "before_block_sha256": "9db3f3ed88e04d4fb9dba3961a3c86a1a6145717d72e5c3a635c26f410536cf4",
+      "after_block_sha256": "430dddc7f2c37e3551208eec94d4317e8b1208f2922b7de1a4682f9eea417dfe",
+      "before_file_sha256": "d8ec842490dcd47d1ce507950e5e53192d039d3f9b08ff067abde309a179b1e2",
+      "after_file_sha256": "153b182d22abc1399e11917b2574c97d828fa9e9130d32f80818b87bf5d88eaa",
+      "step_url": "https://stepik.org/lesson/778426/step/6",
+      "summary": "Осмысленный отрицательный контроль и переход к GoogleTest без привязки к конкретной версии IDE.",
+      "sources": [
+        "https://cmake.org/cmake/help/latest/manual/ctest.1.html",
+        "https://google.github.io/googletest/primer.html",
+        "https://google.github.io/googletest/quickstart-cmake.html"
+      ]
+    },
+    {
+      "step_id": 3253553,
+      "lesson_id": 778426,
+      "position": 7,
+      "source_path": "courses/86957/steps/778426/07_3253553_text.step",
+      "target_path": "modernization/86957/steps/778426/07_3253553_text.step",
+      "baseline_path": "modernization/86957/baseline/778426/07_3253553_text.step",
+      "before_block_sha256": "aa287ca9d136bac87aac8e75344b80755d14743f20cc2eff2dfb6e4d50bda0f3",
+      "after_block_sha256": "fbcfd9b6a42ee521b7a480d713a06acc7f4ab926eeaedbeee31c374f0d4cbcb0",
+      "before_file_sha256": "f43489097c191f4cfdbeb2b97e1986dda93b8d8b1634393c85b1315303823ba8",
+      "after_file_sha256": "582ee96852c3bcdc73f821dff7f51eb845db922a7c1366e8a6d3703c1787d021",
+      "step_url": "https://stepik.org/lesson/778426/step/7",
+      "summary": "Согласовать optional GoogleTest с практикумом CTest: ASSERT/EXPECT, сравнение строк, зависимость и отдельная цель сборки, имена без подчёркиваний.",
+      "sources": [
+        "https://google.github.io/googletest/primer.html",
+        "https://google.github.io/googletest/reference/assertions.html",
+        "https://google.github.io/googletest/quickstart-cmake.html",
+        "https://github.com/google/googletest/tree/52eb8108c5bdec04579160ae17225d66034bd723"
+      ]
+    },
+    {
+      "step_id": 3253557,
+      "lesson_id": 778426,
+      "position": 9,
+      "source_path": "courses/86957/steps/778426/09_3253557_text.step",
+      "target_path": "modernization/86957/steps/778426/09_3253557_text.step",
+      "baseline_path": "modernization/86957/baseline/778426/09_3253557_text.step",
+      "before_block_sha256": "2d015971f17ebb80fedc76e281ac28148cb51ac3cac936d17a968e07e8c14b1a",
+      "after_block_sha256": "371c03016de1c36e212816ec0e92b54bba234e5128722bd9837801683b3d7cf2",
+      "before_file_sha256": "0293100849df084c8842f2ba1f29d5488040dc229642589204710166456c497b",
+      "after_file_sha256": "2e50ec78a81bac16ccf84965be923586eac020fbc78bd8ae259ae06ee37578b4",
+      "step_url": "https://stepik.org/lesson/778426/step/9",
+      "summary": "Практическое закрепление контракта, границ, Release-проверки и переноса тестирования на следующую задачу.",
+      "sources": [
+        "https://cmake.org/cmake/help/latest/manual/ctest.1.html"
+      ]
+    },
+    {
+      "step_id": 4040986,
+      "lesson_id": 853535,
+      "position": 3,
+      "source_path": "courses/86957/steps/853535/03_4040986_text.step",
+      "target_path": "modernization/86957/steps/853535/03_4040986_text.step",
+      "baseline_path": "modernization/86957/baseline/853535/03_4040986_text.step",
+      "before_block_sha256": "09b517ce44d43d4a629b73e579ce7d682e40d73b2cb507469f26464df4e549e4",
+      "after_block_sha256": "e73b1d2b3d0c910b5201511fd90afc0f15571f1c2e15985517619f5368a67fb0",
+      "before_file_sha256": "74923b89f1734038f27662bd5f5169fb695d41655922ea16eb70d5fcde933766",
+      "after_file_sha256": "eba3d094e536f54fdf82478acb80a62b90a37114b2c85892a2a7d61b70d05bd1",
+      "step_url": "https://stepik.org/lesson/853535/step/3",
+      "summary": "отличать разрешение на перемещение от самого переноса ресурса, не угадывать состояние перемещённого объекта и использовать готовые типы для управления ресурсами.",
+      "sources": []
+    },
+    {
+      "step_id": 3569325,
+      "lesson_id": 853536,
+      "position": 1,
+      "source_path": "courses/86957/steps/853536/01_3569325_text.step",
+      "target_path": "modernization/86957/steps/853536/01_3569325_text.step",
+      "baseline_path": "modernization/86957/baseline/853536/01_3569325_text.step",
+      "before_block_sha256": "cdcc5d55f94817fb3d2468a08046bd529dfaccce0f367800aeca851cc5a12667",
+      "after_block_sha256": "af3dc8465d9adf51255c2f0ff0a45d9c0c51944af0d73910cce1183e5a991f77",
+      "before_file_sha256": "2d5d3ffb103cb196f2249785b05a921b11eaa3abc595f4293814844c61e84315",
+      "after_file_sha256": "da7d9b182178d5974cd64d62eb2e7087139cea369f5af6454ee54a70a10e94df",
+      "step_url": "https://stepik.org/lesson/853536/step/1",
+      "summary": "различать сам объект-владелец и управляемую им память, выбирать обычное локальное значение, когда динамическое владение не требуется.",
+      "sources": []
+    },
+    {
+      "step_id": 3569964,
+      "lesson_id": 853536,
+      "position": 2,
+      "source_path": "courses/86957/steps/853536/02_3569964_text.step",
+      "target_path": "modernization/86957/steps/853536/02_3569964_text.step",
+      "baseline_path": "modernization/86957/baseline/853536/02_3569964_text.step",
+      "before_block_sha256": "2261ac5bb20ccae2fbb21784b457c0d622716543cb71743063517c17dc48133b",
+      "after_block_sha256": "e79c35ded89d2f9b68de41e32fc5f8d0c064b66e2c77f74e438ffbcfdd46b863",
+      "before_file_sha256": "912af22868566bb1f567645c02e44090a542274f7d695e3f965cff695e9e5065",
+      "after_file_sha256": "0fb8ebf1ee1b5e0221bd89b35c7596646e0ec6c778e68da042a666b0c878fdcb",
+      "step_url": "https://stepik.org/lesson/853536/step/2",
+      "summary": "объяснять освобождение ресурсов при обычном выходе, раннем <code>return</code> и обработке исключения; выбирать между локальным объектом и динамическим владением.",
+      "sources": []
+    },
+    {
+      "step_id": 3569963,
+      "lesson_id": 853536,
+      "position": 3,
+      "source_path": "courses/86957/steps/853536/03_3569963_text.step",
+      "target_path": "modernization/86957/steps/853536/03_3569963_text.step",
+      "baseline_path": "modernization/86957/baseline/853536/03_3569963_text.step",
+      "before_block_sha256": "d4274f770883cadb853421e4d3f01276e6a85bc9cb82808cc717535f1ce35c92",
+      "after_block_sha256": "d66d33a1f13ce2ab5efce5fb0fce895c40a9b446c681317b51571f86b4b0d27f",
+      "before_file_sha256": "de5440433bec6a0b46bfd2f3e5c77c5c78fc6c72987632a0ef47508e0bc7a320",
+      "after_file_sha256": "4f575f329f9bd89f88aa13db9db52f0855580067e0c5e7908f88481cfa6a242d",
+      "step_url": "https://stepik.org/lesson/853536/step/3",
+      "summary": "создавать динамический объект через <code>std::make_unique</code>, передавать владение и отличать эту передачу от временного доступа к живому объекту.",
+      "sources": []
+    },
+    {
+      "step_id": 3570166,
+      "lesson_id": 853536,
+      "position": 4,
+      "source_path": "courses/86957/steps/853536/04_3570166_text.step",
+      "target_path": "modernization/86957/steps/853536/04_3570166_text.step",
+      "baseline_path": "modernization/86957/baseline/853536/04_3570166_text.step",
+      "before_block_sha256": "21737d8fc2b9eb085ac14155044e3d9ec4a5426da7be1eae10f48325a7f8ac29",
+      "after_block_sha256": "f3357bb6feab45556cf82d1ac9e79dea11d752a8fd050710f91b8e4f43f65f4f",
+      "before_file_sha256": "1edcc4e32c654981ad2569d953c5cc057cc53701f2b18907f6f69b2125168f24",
+      "after_file_sha256": "6e0ba32fb87ae15c3429389c0753eb5a65082c53b28b1c5c8a7f7134ba7550f0",
+      "step_url": "https://stepik.org/lesson/853536/step/4",
+      "summary": "проследить, как деструктор и операции перемещения сохраняют правило «у динамического объекта один владелец», и объяснить запрет копирования.",
+      "sources": []
+    }
+  ]
+}

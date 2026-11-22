@@ -1,0 +1,33 @@
+{
+  "scope": "GoogleTest transition review fix",
+  "changes": [
+    {
+      "step_id": 3253553,
+      "lesson_id": 778426,
+      "source_path": "courses/86957/steps/778426/07_3253553_text.step",
+      "path": "modernization/86957/steps/778426/07_3253553_text.step",
+      "rationale": "Согласовать optional GoogleTest с практикумом CTest: ASSERT/EXPECT, сравнение строк, зависимость и отдельная цель сборки, имена без подчёркиваний.",
+      "sources": [
+        "https://google.github.io/googletest/primer.html",
+        "https://google.github.io/googletest/reference/assertions.html",
+        "https://google.github.io/googletest/quickstart-cmake.html",
+        "https://github.com/google/googletest/tree/52eb8108c5bdec04579160ae17225d66034bd723"
+      ]
+    }
+  ],
+  "examples_manifest": "modernization/86957/examples/snippets/manifest.json",
+  "validation": {
+    "only_block_text_changed": true,
+    "exact_html_match": true,
+    "compiled": true,
+    "standards": [
+      "c++17",
+      "c++20"
+    ],
+    "dependency_tag": "v1.17.0",
+    "dependency_commit": "52eb8108c5bdec04579160ae17225d66034bd723",
+    "tests_per_standard": 2,
+    "all_passed": true,
+    "verification_report": "modernization/86957/examples/snippets/verification.json"
+  }
+}

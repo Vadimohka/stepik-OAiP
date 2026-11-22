@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Доступ к элементам массива</h3>\n\n<p>Доступ к элементам массива осуществляется через индексатор, значения индекса от <code>0</code> до <code>N-1</code>. Вот пример:</p>\n\n<pre><code class=\"language-cpp\">int a[4]{};\na[0] = 42;\nint t = a[3]; // 0: остальные элементы были инициализированы нулями</code></pre>\n\n<p>Выход за границы массива <strong>не контролируется</strong>, ошибка может привести к неопределенному поведению.</p>\n\n<p>В C++11 в стандартной библиотеке появились свободные (<em>не члены</em>) шаблоны функций <code>std::begin()</code> и <code>std::end()</code>. Вызванная для массива <code>std::begin()</code> возвращает указатель на первый элемент массива, <code>std::end()</code> указывает за последний элемент. Такой указатель нельзя разыменовывать. (Начиная с C++14 есть также константные версии: <code>std::cbegin()</code>, <code>std::cend()</code>.) Это позволяет использовать массивы в диапазонном <code>for</code>.</p>\n\n<pre><code class=\"language-cpp\">int a[4]{ 4, 3, 2, 1 };\n\nfor (auto t : a) {\n    std::cout &lt;&lt; t &lt;&lt; ' ';\n}</code></pre>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3212920",
+  "time": "2026-11-22T18:35:40Z"
+}
