@@ -1,7 +1,7 @@
 {
   "block": {
     "name": "choice",
-    "text": "<p>Выберите верные утверждения. </p>",
+    "text": "<p>Выберите верные утверждения. </p><p>В вопросе с <code>sizeof(arr)</code> считайте, что <code>sizeof(int*) = 8</code>.</p>",
     "video": null,
     "options": {
       "is_multiple_choice": true

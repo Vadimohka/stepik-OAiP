@@ -1,7 +1,7 @@
 {
   "block": {
     "name": "code",
-    "text": "<p>Определить расстояние, пройденное физическим телом за время t, если тело движется с постоянным ускорением а и имеет в начальный момент времени скорость V0.</p>\n\n<p>Формат ввода:</p>\n\n<p>Сначала вводится ускорение а, потом время t и начальную скорость V0.</p>\n\n<p>Используйте библиотеку <code>&lt;iomanip&gt;</code> и функцию <code>setprecision(20)</code>.</p>",
+    "text": "<p>Определите <strong>перемещение тела вдоль прямой</strong> за время <em>t</em>, если тело движется с постоянным ускорением <em>a</em> и начальной скоростью <em>v₀</em>. Перемещение вычисляется по формуле <strong>s = v₀t + at²/2</strong> и может быть отрицательным. Оно не равно пройденному пути, если тело меняло направление.</p>\n<h3>Входные данные</h3>\n<p>Вводятся три вещественных числа в порядке <em>a, t, v₀</em>, разделённые пробельными символами. Ограничения: |a| ≤ 10<sup>9</sup>, |v₀| ≤ 10<sup>9</sup>, 0 ≤ t ≤ 10<sup>9</sup>. Все входные числа конечны.</p>\n<h3>Выходные данные</h3>\n<p>Выведите перемещение <em>s</em>. Допустимая погрешность: |ответ − эталон| ≤ max(10<sup>−18</sup>, 10<sup>−12</sup> · |эталон|).</p>\n<p>Для вычислений используйте вещественный тип, например <code>long double</code>. Вывод с <code>std::setprecision(20)</code> сохраняет достаточно значащих цифр; точное совпадение всех напечатанных цифр не требуется.</p>",
     "video": null,
     "options": {
       "execution_time_limit": 1,
@@ -29,7 +29,7 @@
         ],
         [
           "0.125135\n0.3152525325\n135235",
-          "42633.182450855883729"
+          "42633.1824508558837281895556719"
         ]
       ],
       "is_run_user_code_allowed": true
@@ -37,7 +37,7 @@
     "subtitle_files": [],
     "is_deprecated": false,
     "source": {
-      "code": "# This is a sample Code Challenge\n# Learn more: https://stepik.org/lesson/9173\n# Ask your questions via support@stepik.org\n\ndef generate():\n    return []\n\ndef check(reply, clue):\n    return reply.strip() == clue.strip()\n\n# def solve(dataset):\n#     a, b = dataset.split()\n#     return str(int(a) + int(b))",
+      "code": "from decimal import Decimal, DecimalException, localcontext\n\ndef generate():\n    return []\n\ndef check(reply, clue):\n    actual = reply.split()\n    expected = str(clue).split()\n    if len(actual) != 1 or len(expected) != 1:\n        return False\n    try:\n        with localcontext() as context:\n            context.prec = 60\n            value, reference = Decimal(actual[0]), Decimal(expected[0])\n            if not value.is_finite() or not reference.is_finite():\n                return False\n            tolerance = max(Decimal(\"1e-18\"), Decimal(\"1e-12\") * abs(reference))\n            return abs(value - reference) <= tolerance\n    except (DecimalException, ValueError, TypeError):\n        return False\n",
       "execution_time_limit": 1,
       "execution_memory_limit": 32,
       "samples_count": 2,
@@ -55,18 +55,22 @@
         ],
         [
           "0.125135\n0.3152525325\n135235",
-          "42633.182450855883729"
+          "42633.1824508558837281895556719"
         ],
         [
           "0.12415\n0.51251351\n0.51515251525",
-          "0.28032787010526721269"
+          "0.2803278701052672127075"
         ],
         [
           "0.0000000000000000124\n0.000000000000124124\n0.01241012424214",
-          "1.5403942614313853601e-15"
+          "1.54039426143138536000000000010e-15"
         ],
         [
-          "-1.2e308 2 1.2e308",
+          "-12 2 12",
+          "0"
+        ],
+        [
+          "5 0 -3",
           "0"
         ]
       ]

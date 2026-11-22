@@ -1,7 +1,7 @@
 {
   "block": {
     "name": "choice",
-    "text": "<p>Какое расширение имени файла программы на языке C++?</p>",
+    "text": "<p>Какие расширения GCC по умолчанию распознаёт как исходные файлы C++? Здесь речь о файлах реализации, а не заголовках; ключ <code>-x</code>, принудительно задающий язык, не используется.</p>",
     "video": null,
     "options": {
       "is_multiple_choice": true
@@ -14,10 +14,10 @@
       "sample_size": 7,
       "preserve_order": false,
       "is_html_enabled": true,
-      "is_options_feedback": false,
+      "is_options_feedback": true,
       "options": [
         {
-          "is_correct": false,
+          "is_correct": true,
           "text": ".cc",
           "feedback": ""
         },
@@ -27,9 +27,9 @@
           "feedback": ""
         },
         {
-          "is_correct": true,
+          "is_correct": false,
           "text": ".h",
-          "feedback": ""
+          "feedback": "Это расширение заголовка; заголовки C++ могут также иметь .h."
         },
         {
           "is_correct": false,
@@ -47,7 +47,7 @@
           "feedback": ""
         },
         {
-          "is_correct": false,
+          "is_correct": true,
           "text": ".cp",
           "feedback": ""
         }

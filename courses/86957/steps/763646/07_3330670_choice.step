@@ -17,14 +17,14 @@
       "is_options_feedback": false,
       "options": [
         {
-          "is_correct": false,
+          "is_correct": true,
           "text": "int mat[2][2] = {1, 2, 3, 4}; // обращение к mat[0][3] даст UB",
-          "feedback": ""
+          "feedback": "Выход за границы внутреннего массива int[2] имеет неопределённое поведение."
         },
         {
-          "is_correct": true,
+          "is_correct": false,
           "text": "int mat[2][2] = {1, 2, 3, 4}; // обращение к mat[0][3] даст 4",
-          "feedback": ""
+          "feedback": "Непрерывное размещение строк не делает выход за границы строки допустимым."
         },
         {
           "is_correct": false,
@@ -32,9 +32,9 @@
           "feedback": ""
         },
         {
-          "is_correct": false,
+          "is_correct": true,
           "text": "int mat[][2] = {1, 2, 3}; // корректная запись",
-          "feedback": ""
+          "feedback": "Получается int[2][2]: строки {1,2} и {3,0}."
         },
         {
           "is_correct": false,

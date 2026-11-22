@@ -1,7 +1,7 @@
 {
   "block": {
     "name": "code",
-    "text": "<p>Пусть <strong>f(n)</strong> - наибольший нечетный делитель натурального числа <strong>n</strong>. По заданному натуральному <strong>n</strong> необходимо вычислить значение суммы <strong>f.(1)</strong> + <strong>f(2)</strong> + ... + <strong>f(n)</strong>.</p>\n\n<h4>Входные данные</h4>\n\n<p>Первым подаётся число <strong>k</strong> - количество тестов.</p>\n\n<p>Следующие <strong>k</strong> строк содержат одно натуральное число <strong>n</strong> (<strong>n</strong> ≤ <code>10<sup>9</sup></code>).</p>\n\n<h4>Выходные данные</h4>\n\n<p>Для каждого значения <strong>n</strong> в отдельной строке вывести значение суммы <strong>f(1)</strong> + <strong>f(2)</strong> + ... + <strong>f(n)</strong>.</p>",
+    "text": "<p>Пусть <strong>f(n)</strong> - наибольший нечетный делитель натурального числа <strong>n</strong>. По заданному натуральному <strong>n</strong> необходимо вычислить значение суммы <strong>f(1)</strong> + <strong>f(2)</strong> + ... + <strong>f(n)</strong>.</p>\n\n<h4>Входные данные</h4>\n\n<p>Первым подаётся целое число <code>k</code>, <code>1 ≤ k ≤ 1000</code>, — количество наборов.</p>\n\n<p>Следующие <code>k</code> строк содержат по одному натуральному числу <code>n</code>, <code>1 ≤ n ≤ 2<sup>31</sup> − 1 = 2147483647</code>. Для вычисления суммы и промежуточных произведений используйте <code>long long</code>.</p>\n\n<h4>Выходные данные</h4>\n\n<p>Для каждого значения <strong>n</strong> в отдельной строке вывести значение суммы <strong>f(1)</strong> + <strong>f(2)</strong> + ... + <strong>f(n)</strong>.</p>",
     "video": null,
     "options": {
       "execution_time_limit": 1,

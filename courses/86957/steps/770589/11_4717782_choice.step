@@ -1,7 +1,7 @@
 {
   "block": {
     "name": "choice",
-    "text": "<p>Отличается ли размер символьных литералов в C и C ++?</p>",
+    "text": "<p>Какие типы имеет обычный символьный литерал <code>'a'</code> в C17 и C++20?</p>",
     "video": null,
     "options": {
       "is_multiple_choice": false
@@ -18,22 +18,22 @@
       "options": [
         {
           "is_correct": false,
-          "text": "Implementation defined",
+          "text": "В обоих языках int",
           "feedback": ""
         },
         {
           "is_correct": true,
-          "text": "Да, они разные",
+          "text": "В C17 — int, в C++20 — char",
           "feedback": ""
         },
         {
           "is_correct": false,
-          "text": "Нет, они одинаковые",
+          "text": "В обоих языках char",
           "feedback": ""
         },
         {
           "is_correct": false,
-          "text": "Нет достоверной информации в документации",
+          "text": "В C17 — char, в C++20 — int",
           "feedback": ""
         }
       ]

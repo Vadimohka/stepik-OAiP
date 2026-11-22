@@ -1,0 +1,598 @@
+{
+  "structural": {
+    "changed_steps": 57,
+    "findings": 41,
+    "id_time_type_preserved": true,
+    "choice_settings_consistent": true
+  },
+  "compile": [
+    {
+      "step_id": 3201305,
+      "block_index": 0,
+      "source": "imports/86957/validation/foundations_checks/3201305_0.cpp",
+      "command": [
+        "g++",
+        "-std=c++20",
+        "-Wall",
+        "-Wextra",
+        "-pedantic-errors",
+        "imports/86957/validation/foundations_checks/3201305_0.cpp",
+        "-o",
+        "imports/86957/validation/foundations_checks/3201305_0"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "step_id": 3201305,
+      "block_index": 1,
+      "source": "imports/86957/validation/foundations_checks/3201305_1.cpp",
+      "command": [
+        "g++",
+        "-std=c++20",
+        "-Wall",
+        "-Wextra",
+        "-pedantic-errors",
+        "imports/86957/validation/foundations_checks/3201305_1.cpp",
+        "-o",
+        "imports/86957/validation/foundations_checks/3201305_1"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "step_id": 3201236,
+      "block_index": 0,
+      "source": "imports/86957/validation/foundations_checks/3201236_0.cpp",
+      "command": [
+        "g++",
+        "-std=c++20",
+        "-Wall",
+        "-Wextra",
+        "-pedantic-errors",
+        "imports/86957/validation/foundations_checks/3201236_0.cpp",
+        "-o",
+        "imports/86957/validation/foundations_checks/3201236_0"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "step_id": 3201235,
+      "block_index": 0,
+      "source": "imports/86957/validation/foundations_checks/3201235_0.cpp",
+      "command": [
+        "g++",
+        "-std=c++20",
+        "-Wall",
+        "-Wextra",
+        "-pedantic-errors",
+        "imports/86957/validation/foundations_checks/3201235_0.cpp",
+        "-o",
+        "imports/86957/validation/foundations_checks/3201235_0"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "step_id": 3215075,
+      "block_index": 1,
+      "source": "imports/86957/validation/foundations_checks/3215075_1.cpp",
+      "command": [
+        "g++",
+        "-std=c++20",
+        "-Wall",
+        "-Wextra",
+        "-pedantic-errors",
+        "imports/86957/validation/foundations_checks/3215075_1.cpp",
+        "-o",
+        "imports/86957/validation/foundations_checks/3215075_1"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "step_id": 3215075,
+      "block_index": 2,
+      "source": "imports/86957/validation/foundations_checks/3215075_2.cpp",
+      "command": [
+        "g++",
+        "-std=c++20",
+        "-Wall",
+        "-Wextra",
+        "-pedantic-errors",
+        "imports/86957/validation/foundations_checks/3215075_2.cpp",
+        "-o",
+        "imports/86957/validation/foundations_checks/3215075_2"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "step_id": 3215075,
+      "block_index": 3,
+      "source": "imports/86957/validation/foundations_checks/3215075_3.cpp",
+      "command": [
+        "g++",
+        "-std=c++20",
+        "-Wall",
+        "-Wextra",
+        "-pedantic-errors",
+        "imports/86957/validation/foundations_checks/3215075_3.cpp",
+        "-o",
+        "imports/86957/validation/foundations_checks/3215075_3"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "step_id": 3231317,
+      "block_index": 0,
+      "source": "imports/86957/validation/foundations_checks/3231317_0.cpp",
+      "command": [
+        "g++",
+        "-std=c++20",
+        "-Wall",
+        "-Wextra",
+        "-pedantic-errors",
+        "imports/86957/validation/foundations_checks/3231317_0.cpp",
+        "-o",
+        "imports/86957/validation/foundations_checks/3231317_0"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "step_id": 3177280,
+      "block_index": 1,
+      "source": "imports/86957/validation/foundations_checks/3177280_1.cpp",
+      "command": [
+        "g++",
+        "-std=c++20",
+        "-Wall",
+        "-Wextra",
+        "-pedantic-errors",
+        "imports/86957/validation/foundations_checks/3177280_1.cpp",
+        "-o",
+        "imports/86957/validation/foundations_checks/3177280_1"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "step_id": 3177280,
+      "block_index": 2,
+      "source": "imports/86957/validation/foundations_checks/3177280_2.cpp",
+      "command": [
+        "g++",
+        "-std=c++20",
+        "-Wall",
+        "-Wextra",
+        "-pedantic-errors",
+        "imports/86957/validation/foundations_checks/3177280_2.cpp",
+        "-o",
+        "imports/86957/validation/foundations_checks/3177280_2"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "step_id": 3177280,
+      "block_index": 3,
+      "source": "imports/86957/validation/foundations_checks/3177280_3.cpp",
+      "command": [
+        "g++",
+        "-std=c++20",
+        "-Wall",
+        "-Wextra",
+        "-pedantic-errors",
+        "imports/86957/validation/foundations_checks/3177280_3.cpp",
+        "-o",
+        "imports/86957/validation/foundations_checks/3177280_3"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "step_id": 3177280,
+      "block_index": 4,
+      "source": "imports/86957/validation/foundations_checks/3177280_4.cpp",
+      "command": [
+        "g++",
+        "-std=c++20",
+        "-Wall",
+        "-Wextra",
+        "-pedantic-errors",
+        "imports/86957/validation/foundations_checks/3177280_4.cpp",
+        "-o",
+        "imports/86957/validation/foundations_checks/3177280_4"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "step_id": 3177281,
+      "block_index": 1,
+      "source": "imports/86957/validation/foundations_checks/3177281_1.cpp",
+      "command": [
+        "g++",
+        "-std=c++20",
+        "-Wall",
+        "-Wextra",
+        "-pedantic-errors",
+        "imports/86957/validation/foundations_checks/3177281_1.cpp",
+        "-o",
+        "imports/86957/validation/foundations_checks/3177281_1"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "step_id": 3177281,
+      "block_index": 2,
+      "source": "imports/86957/validation/foundations_checks/3177281_2.cpp",
+      "command": [
+        "g++",
+        "-std=c++20",
+        "-Wall",
+        "-Wextra",
+        "-pedantic-errors",
+        "imports/86957/validation/foundations_checks/3177281_2.cpp",
+        "-o",
+        "imports/86957/validation/foundations_checks/3177281_2"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "step_id": 3177283,
+      "block_index": 1,
+      "source": "imports/86957/validation/foundations_checks/3177283_1.cpp",
+      "command": [
+        "g++",
+        "-std=c++20",
+        "-Wall",
+        "-Wextra",
+        "-pedantic-errors",
+        "imports/86957/validation/foundations_checks/3177283_1.cpp",
+        "-o",
+        "imports/86957/validation/foundations_checks/3177283_1"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "step_id": 3177292,
+      "block_index": 1,
+      "source": "imports/86957/validation/foundations_checks/3177292_1.cpp",
+      "command": [
+        "g++",
+        "-std=c++20",
+        "-Wall",
+        "-Wextra",
+        "-pedantic-errors",
+        "imports/86957/validation/foundations_checks/3177292_1.cpp",
+        "-o",
+        "imports/86957/validation/foundations_checks/3177292_1"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "step_id": 3177292,
+      "block_index": 3,
+      "source": "imports/86957/validation/foundations_checks/3177292_3.cpp",
+      "command": [
+        "g++",
+        "-std=c++20",
+        "-Wall",
+        "-Wextra",
+        "-pedantic-errors",
+        "imports/86957/validation/foundations_checks/3177292_3.cpp",
+        "-o",
+        "imports/86957/validation/foundations_checks/3177292_3"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "step_id": 3177292,
+      "block_index": 4,
+      "source": "imports/86957/validation/foundations_checks/3177292_4.cpp",
+      "command": [
+        "g++",
+        "-std=c++20",
+        "-Wall",
+        "-Wextra",
+        "-pedantic-errors",
+        "imports/86957/validation/foundations_checks/3177292_4.cpp",
+        "-o",
+        "imports/86957/validation/foundations_checks/3177292_4"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "step_id": 3177292,
+      "block_index": 7,
+      "source": "imports/86957/validation/foundations_checks/3177292_7.cpp",
+      "command": [
+        "g++",
+        "-std=c++20",
+        "-Wall",
+        "-Wextra",
+        "-pedantic-errors",
+        "imports/86957/validation/foundations_checks/3177292_7.cpp",
+        "-o",
+        "imports/86957/validation/foundations_checks/3177292_7"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "step_id": 3177789,
+      "block_index": 0,
+      "source": "imports/86957/validation/foundations_checks/3177789_0.cpp",
+      "command": [
+        "g++",
+        "-std=c++20",
+        "-Wall",
+        "-Wextra",
+        "-pedantic-errors",
+        "imports/86957/validation/foundations_checks/3177789_0.cpp",
+        "-o",
+        "imports/86957/validation/foundations_checks/3177789_0"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "step_id": 3177547,
+      "block_index": 0,
+      "source": "imports/86957/validation/foundations_checks/3177547_0.cpp",
+      "command": [
+        "g++",
+        "-std=c++20",
+        "-Wall",
+        "-Wextra",
+        "-pedantic-errors",
+        "imports/86957/validation/foundations_checks/3177547_0.cpp",
+        "-o",
+        "imports/86957/validation/foundations_checks/3177547_0"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "step_id": 3177546,
+      "block_index": 0,
+      "source": "imports/86957/validation/foundations_checks/3177546_0.cpp",
+      "command": [
+        "g++",
+        "-std=c++20",
+        "-Wall",
+        "-Wextra",
+        "-pedantic-errors",
+        "imports/86957/validation/foundations_checks/3177546_0.cpp",
+        "-o",
+        "imports/86957/validation/foundations_checks/3177546_0"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "step_id": 3177566,
+      "block_index": 0,
+      "source": "imports/86957/validation/foundations_checks/3177566_0.cpp",
+      "command": [
+        "g++",
+        "-std=c++20",
+        "-Wall",
+        "-Wextra",
+        "-pedantic-errors",
+        "imports/86957/validation/foundations_checks/3177566_0.cpp",
+        "-o",
+        "imports/86957/validation/foundations_checks/3177566_0"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "executions": [
+    {
+      "step_id": 3177292,
+      "block_index": 1,
+      "input": "",
+      "expected": "x is greater than 50\nEnd of Program\n",
+      "stdout": "x is greater than 50\nEnd of Program\n",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "step_id": 3177789,
+      "block_index": 0,
+      "input": "",
+      "expected": "1\n2\n3\n",
+      "stdout": "1\n2\n3\n",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "step_id": 3177547,
+      "block_index": 0,
+      "input": "a b  c\n",
+      "expected": "Введите строку: 3 пробелов\n",
+      "stdout": "Введите строку: 3 пробелов\n",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "step_id": 3177547,
+      "block_index": 0,
+      "input": "\n",
+      "expected": "Введите строку: 0 пробелов\n",
+      "stdout": "Введите строку: 0 пробелов\n",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "step_id": 3177281,
+      "block_index": 1,
+      "input": "",
+      "expected": "He\n",
+      "stdout": "He\n",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "step_id": 3177281,
+      "block_index": 2,
+      "input": "",
+      "expected": "Helo\n",
+      "stdout": "Helo\n",
+      "exit_code": 0,
+      "passed": true
+    }
+  ],
+  "choices": {
+    "compile": {
+      "step_id": 0,
+      "block_index": 0,
+      "source": "imports/86957/validation/foundations_checks/choice_semantics.cpp",
+      "command": [
+        "g++",
+        "-std=c++20",
+        "-Wall",
+        "-Wextra",
+        "-pedantic-errors",
+        "imports/86957/validation/foundations_checks/choice_semantics.cpp",
+        "-o",
+        "imports/86957/validation/foundations_checks/choice_semantics"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "exit_code": 0,
+    "covered_findings": [
+      "OAIP-031",
+      "OAIP-033",
+      "OAIP-034",
+      "OAIP-042",
+      "OAIP-047"
+    ]
+  },
+  "version_sensitive_checks": [
+    {
+      "name": "wide_output_cpp17",
+      "standard": "c++17",
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-pedantic-errors",
+        "-fsyntax-only",
+        "imports/86957/validation/foundations_checks/wide_output_cpp17.cpp"
+      ],
+      "expected_success": true,
+      "exit_code": 0,
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "name": "wide_output_cpp20",
+      "standard": "c++20",
+      "command": [
+        "g++",
+        "-std=c++20",
+        "-pedantic-errors",
+        "-fsyntax-only",
+        "imports/86957/validation/foundations_checks/wide_output_cpp20.cpp"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "stderr": "imports/86957/validation/foundations_checks/wide_output_cpp20.cpp: In function ‘int main()’:\nimports/86957/validation/foundations_checks/wide_output_cpp20.cpp:2:37: error: use of deleted function ‘std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, wchar_t) [with _Traits = char_traits<char>]’\n    2 | int main(){ std::cout << wchar_t(119); }\n      |                                     ^\nIn file included from /usr/include/c++/14/iostream:41,\n                 from imports/86957/validation/foundations_checks/wide_output_cpp20.cpp:1:\n/usr/include/c++/14/ostream:604:5: note: declared here\n  604 |     operator<<(basic_ostream<char, _Traits>&, wchar_t) = delete;\n      |     ^~~~~~~~\nimports/86957/validation/foundations_checks/wide_output_cpp20.cpp:2:37: note: use ‘-fdiagnostics-all-candidates’ to display considered candidates\n    2 | int main(){ std::cout << wchar_t(119); }\n      |                                     ^\n",
+      "passed": true
+    },
+    {
+      "name": "wide_explicit_numeric",
+      "standard": "c++20",
+      "command": [
+        "g++",
+        "-std=c++20",
+        "-pedantic-errors",
+        "-fsyntax-only",
+        "imports/86957/validation/foundations_checks/wide_explicit_numeric.cpp"
+      ],
+      "expected_success": true,
+      "exit_code": 0,
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "name": "long_float_invalid",
+      "standard": "c++20",
+      "command": [
+        "g++",
+        "-std=c++20",
+        "-pedantic-errors",
+        "-fsyntax-only",
+        "imports/86957/validation/foundations_checks/long_float_invalid.cpp"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "stderr": "imports/86957/validation/foundations_checks/long_float_invalid.cpp: In function ‘int main()’:\nimports/86957/validation/foundations_checks/long_float_invalid.cpp:1:12: error: ‘long’ specified with ‘float’\n    1 | int main(){long float value=1;}\n      |            ^~~~\n",
+      "passed": true
+    }
+  ],
+  "graders": {
+    "3177566": {
+      "datasets": 3,
+      "valid_and_whitespace_variants_pass": true,
+      "wrong_content_extra_tokens_and_constant_output_fail": true,
+      "templates_and_samples_synchronised": true
+    }
+  },
+  "armstrong": {
+    "datasets": 4,
+    "complete_reference_by_digit_multisets": true
+  },
+  "input_resolution": {
+    "mode": "portable_fallback",
+    "baseline": "courses/86957/course.json",
+    "changes": "imports/86957/changes.json",
+    "repo_root": "found from current directory parents",
+    "wrapper_time": "2026-11-22T18:35:40Z"
+  },
+  "peer_review": {
+    "reviewer": "audit_cpp_core",
+    "step_ids": [
+      3177281,
+      3177283,
+      3296857
+    ],
+    "result": "No technical contradictions found"
+  }
+}

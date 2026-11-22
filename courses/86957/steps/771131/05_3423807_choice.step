@@ -28,7 +28,7 @@
         },
         {
           "is_correct": true,
-          "text": "fread/fwrite возвращают количество успешно прочитанных/записанных байт",
+          "text": "fread/fwrite возвращают количество полностью прочитанных/записанных элементов размером size байт каждый.",
           "feedback": "обратите внимание на API fread/fwrite"
         },
         {
@@ -47,13 +47,13 @@
           "feedback": "посмотрите, как использовать сразу несколько флагов"
         },
         {
-          "is_correct": true,
+          "is_correct": false,
           "text": "Программа 1 успешно создаст text.txt и запишет туда \"ABOBA\"",
           "feedback": "почитайте про флаги по умолчанию в fstream"
         },
         {
-          "is_correct": false,
-          "text": "Программа 1 не создаст text.txt. Нужен флаг std::fstream::out.",
+          "is_correct": true,
+          "text": "Программа 1 не создаст text.txt. Для создания можно открыть fstream с режимом std::ios::out либо std::ios::in | std::ios::out | std::ios::trunc.",
           "feedback": "почитайте про флаги по умолчанию в fstream"
         },
         {

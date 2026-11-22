@@ -1,7 +1,7 @@
 {
   "block": {
     "name": "choice",
-    "text": "<p>int arr[]{ 1, 2, 3, 4, 5, 6 };<br>\nint a = 3[arr - 1] - arr[3] + (arr - 1)[5];<br>\nstd::cout &lt;&lt; \"a: \" &lt;&lt; a &lt;&lt; std::endl;</p>\n\n<p>Что выведет данная программа?</p>",
+    "text": "<p>int arr[]{ 1, 2, 3, 4, 5, 6 };<br>\nint a = 2[arr] - arr[3] + arr[4];<br>\nstd::cout &lt;&lt; \"a: \" &lt;&lt; a &lt;&lt; std::endl;</p>\n\n<p>Что выведет данная программа?</p>",
     "video": null,
     "options": {
       "is_multiple_choice": false

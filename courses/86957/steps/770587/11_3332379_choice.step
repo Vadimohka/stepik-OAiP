@@ -33,13 +33,13 @@
         },
         {
           "is_correct": true,
-          "text": "Операции с памятью, после выполнения delete непредсказуемы",
+          "text": "После delete разыменование указателя на удалённый объект имеет неопределённое поведение; самому указателю можно присвоить nullptr.",
           "feedback": ""
         },
         {
-          "is_correct": true,
+          "is_correct": false,
           "text": "int* a = new int; char* b=(char*)a; delete b; //корректно",
-          "feedback": ""
+          "feedback": "Объект имеет тип int, поэтому удалять его через char* нельзя; требуется delete a."
         }
       ]
     },

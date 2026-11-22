@@ -1,7 +1,7 @@
 {
   "block": {
     "name": "choice",
-    "text": "<p>Что из перечисленного не может быть унаследовано от базового класса?</p>",
+    "text": "<p>Какое утверждение о наследовании в C++17/20 верно?</p>",
     "video": null,
     "options": {
       "is_multiple_choice": false
@@ -17,23 +17,23 @@
       "is_options_feedback": false,
       "options": [
         {
-          "is_correct": false,
-          "text": "Friend",
-          "feedback": ""
-        },
-        {
+          "text": "Дружба базового класса не распространяется автоматически на производный класс.",
           "is_correct": true,
-          "text": "Both A and B cannot be inherited",
           "feedback": ""
         },
         {
+          "text": "Конструкторы базового класса невозможно унаследовать даже с помощью using Base::Base.",
           "is_correct": false,
-          "text": "Constructor",
           "feedback": ""
         },
         {
+          "text": "Порядок конструирования непосредственных баз задаётся порядком записей в списке инициализации конструктора.",
           "is_correct": false,
-          "text": "Both A and B can be inherited",
+          "feedback": ""
+        },
+        {
+          "text": "Конструктор производного класса всегда обязан явно указывать вызов каждого конструктора базового класса, даже если доступен конструктор по умолчанию.",
+          "is_correct": false,
           "feedback": ""
         }
       ]

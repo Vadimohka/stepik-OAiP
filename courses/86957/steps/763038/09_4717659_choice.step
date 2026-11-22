@@ -1,7 +1,7 @@
 {
   "block": {
     "name": "choice",
-    "text": "<p>C ++ - это __________ язык программирования.</p>",
+    "text": "<p>Выберите правильные утверждения о языке C++.</p>",
     "video": null,
     "options": {
       "is_multiple_choice": true
@@ -14,27 +14,27 @@
       "sample_size": 4,
       "preserve_order": false,
       "is_html_enabled": true,
-      "is_options_feedback": false,
+      "is_options_feedback": true,
       "options": [
         {
-          "is_correct": false,
-          "text": "общего назначения",
+          "is_correct": true,
+          "text": "C++ — язык программирования общего назначения.",
           "feedback": ""
         },
         {
           "is_correct": true,
-          "text": "Все перечисленное",
+          "text": "C++ поддерживает процедурное программирование.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "C++ поддерживает объектно-ориентированное и обобщённое программирование.",
           "feedback": ""
         },
         {
           "is_correct": false,
-          "text": "процедурный и функциональный",
-          "feedback": ""
-        },
-        {
-          "is_correct": false,
-          "text": "объектно-ориентированный, универсальный и модульный",
-          "feedback": ""
+          "text": "C++ допускает только один стиль программирования.",
+          "feedback": "C++ поддерживает несколько парадигм."
         }
       ]
     },

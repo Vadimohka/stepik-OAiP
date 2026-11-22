@@ -1,7 +1,7 @@
 {
   "block": {
     "name": "choice",
-    "text": "<p>Выберите правильные утверждения.</p>",
+    "text": "<p>Выберите правильные утверждения. Считайте, что необходимые заголовки подключены, а переменные имеют указанные типы.</p>",
     "video": null,
     "options": {
       "is_multiple_choice": true
@@ -14,37 +14,37 @@
       "sample_size": 6,
       "preserve_order": false,
       "is_html_enabled": true,
-      "is_options_feedback": false,
+      "is_options_feedback": true,
       "options": [
         {
-          "is_correct": false,
-          "text": "stdio.h - библиотека для ввода/вывода на языке с++.",
-          "feedback": "stdio.h - библиотека для ввода/вывода на языке с."
+          "is_correct": true,
+          "text": "&lt;cstdio&gt; предоставляет средства ввода-вывода C в C++; &lt;stdio.h&gt; — допустимый совместимый заголовок.",
+          "feedback": ""
         },
         {
           "is_correct": true,
-          "text": "std::cout << \"aaa\" << \"bbb\"; - корректная запись.",
+          "text": "std::cout &lt;&lt; \"aaa\" &lt;&lt; \"bbb\"; — корректная запись.",
           "feedback": ""
         },
         {
           "is_correct": false,
-          "text": "'\\n' и std::endl идентичны.",
-          "feedback": "std::endl сбрасывает буфер потока, а '\\n' нет"
+          "text": "'\\n' и std::endl всегда выполняют одинаковые действия.",
+          "feedback": "std::endl также сбрасывает буфер потока."
         },
         {
           "is_correct": false,
-          "text": "scanf(\"%d %d, a, b); - корректная запись. (хотим получить значения в a и b - переменные типа int).",
-          "feedback": "scanf принимает адреса, в большинстве случаев нужно использовать & (амперсанд) - scanf(\"%d %d\", &a, &b); "
+          "text": "Для int a, b вызов std::scanf(\"%d %d\", a, b) корректно записывает введённые значения в эти переменные.",
+          "feedback": "Нужно передать адреса: std::scanf(\"%d %d\", &amp;a, &amp;b)."
         },
         {
           "is_correct": true,
-          "text": "scanf - функция незащищённого ввода.",
+          "text": "При чтении строки через scanf нужно ограничивать ширину по размеру буфера и проверять результат чтения.",
           "feedback": ""
         },
         {
           "is_correct": false,
-          "text": "использование сin.tie(NULL) ускоряет ввод/вывод, т.к. мы отключаем синхронизацию iostream и stdio.",
-          "feedback": "использование сin.tie(NULL) ускоряет ввод/вывод, т.к. не сбрасывается буфер cout при использовании cin."
+          "text": "std::cin.tie(nullptr) отключает синхронизацию потоков C++ с stdio.",
+          "feedback": "Эта операция снимает привязку cin к другому потоку, обычно cout; sync_with_stdio управляет другой настройкой."
         }
       ]
     },

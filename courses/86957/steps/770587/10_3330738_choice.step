@@ -27,9 +27,9 @@
           "feedback": ""
         },
         {
-          "is_correct": true,
+          "is_correct": false,
           "text": "int* ptr = new int[2]{1, 2} - 1; // ptr[1] вернет 1",
-          "feedback": ""
+          "feedback": "Уже формирование указателя до начала массива имеет неопределённое поведение."
         },
         {
           "is_correct": true,
@@ -37,9 +37,9 @@
           "feedback": ""
         },
         {
-          "is_correct": false,
+          "is_correct": true,
           "text": "int* a = new int[2]; delete a; // UB",
-          "feedback": ""
+          "feedback": "Для памяти от new[] необходимо delete[]."
         },
         {
           "is_correct": true,
@@ -47,9 +47,9 @@
           "feedback": ""
         },
         {
-          "is_correct": false,
+          "is_correct": true,
           "text": "char* str = new char[]{\"Hello\"}; // корректно",
-          "feedback": ""
+          "feedback": "Допустимо начиная с C++11; выделено 6 символов с нулевым терминатором. Освобождать через delete[]."
         },
         {
           "is_correct": false,

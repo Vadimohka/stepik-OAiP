@@ -1,0 +1,4502 @@
+{
+  "schema_version": 1,
+  "course_id": 86957,
+  "date": "2026-11-22",
+  "format": "Stepik .step: block, id, time",
+  "deployment_status": "pending_user_import",
+  "baseline_content_commit": "6ecd4375ed2c4730feacd54f3be5b36670eb3ffe",
+  "baseline_bundle_sha256": "b78c06f34d19d3b7bd817348233ceecc15f34e45571270b5732441baf08c41b0",
+  "archive": "stepik-86957-corrections-2026-11-22.zip",
+  "changed_steps": 198,
+  "changed_lessons": 57,
+  "finding_status_counts": {
+    "fixed": 174
+  },
+  "structural_checks": {
+    "step_files_valid": 485,
+    "changed_checker_syntax_valid": 17,
+    "changed_code_samples_synchronized": 17,
+    "changed_choice_keys_structurally_valid": 50
+  },
+  "steps": [
+    {
+      "step_id": 3173935,
+      "lesson_id": 763040,
+      "module": 1,
+      "module_title": "Что такое Алгоритм?",
+      "lesson_number": 1,
+      "lesson_title": "Что такое алгоритмизация?",
+      "position": 3,
+      "type": "text",
+      "repository_path": "courses/86957/steps/763040/03_3173935_text.step",
+      "archive_path": "01/01_lesson_763040/03_3173935_text.step",
+      "step_url": "https://stepik.org/lesson/763040/step/3",
+      "file_sha256": "bc5ec70c20ae623ba5c9e965dc7e3b7854a65bb9c8d2778f3a8e9cf7ebf627a0",
+      "original_block_sha256": "b072edd5de97926fd7fddf4a2f8999c06ba1531a6beafc225f38608fed19417d",
+      "revised_block_sha256": "2c4fe304b041e6bd6b4ecd04af4a831f85665ec5c8862a194e4097c1c74d1ac6",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-001"
+      ]
+    },
+    {
+      "step_id": 3201305,
+      "lesson_id": 768145,
+      "module": 1,
+      "module_title": "Что такое Алгоритм?",
+      "lesson_number": 3,
+      "lesson_title": "Функция как элемент алгоритма программы",
+      "position": 4,
+      "type": "text",
+      "repository_path": "courses/86957/steps/768145/04_3201305_text.step",
+      "archive_path": "01/03_lesson_768145/04_3201305_text.step",
+      "step_url": "https://stepik.org/lesson/768145/step/4",
+      "file_sha256": "87d2556cc6585e7df1b4288fd495475f510f1085e548e5604bdb7bc4cbdd0b44",
+      "original_block_sha256": "5aedcf7c7ffa0240a483b8087ed760fe11e701d693114e0b1ec99e068011a0d1",
+      "revised_block_sha256": "c186fe7d318c2bc33ba56bf4e128124a3a0bf575d282f3e4147dd8a964806935",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-002",
+        "OAIP-003"
+      ]
+    },
+    {
+      "step_id": 3215253,
+      "lesson_id": 771154,
+      "module": 2,
+      "module_title": "Основы программирования",
+      "lesson_number": 1,
+      "lesson_title": "Понятие программы",
+      "position": 2,
+      "type": "text",
+      "repository_path": "courses/86957/steps/771154/02_3215253_text.step",
+      "archive_path": "02/01_lesson_771154/02_3215253_text.step",
+      "step_url": "https://stepik.org/lesson/771154/step/2",
+      "file_sha256": "efafb9468ab5af0171484c6560e3e554935da11e33a08c6a06368f873185f694",
+      "original_block_sha256": "455ed1ef21ae9b5f76814a74d9ef8f2d4ce33f3ae3af082c2170151b6055c83b",
+      "revised_block_sha256": "0da4a978b646ff35f6a8280c3f339d4482f142022717e4477bfbeb818779a2a1",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-004",
+        "OAIP-006"
+      ]
+    },
+    {
+      "step_id": 3215254,
+      "lesson_id": 771154,
+      "module": 2,
+      "module_title": "Основы программирования",
+      "lesson_number": 1,
+      "lesson_title": "Понятие программы",
+      "position": 3,
+      "type": "text",
+      "repository_path": "courses/86957/steps/771154/03_3215254_text.step",
+      "archive_path": "02/01_lesson_771154/03_3215254_text.step",
+      "step_url": "https://stepik.org/lesson/771154/step/3",
+      "file_sha256": "d1080de9436c520c1d361560034a43f6865c5b485837d3f09d319410995ffcc9",
+      "original_block_sha256": "8cb95ef2d02e4c9683dd2f2b5a360b2e43fcaf498884f4cee79de7540f9941bb",
+      "revised_block_sha256": "ee0301af01fc3c7048f77c5a62958a132b1bd73746f9cc547ed176fd27240108",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-005"
+      ]
+    },
+    {
+      "step_id": 3173778,
+      "lesson_id": 763037,
+      "module": 2,
+      "module_title": "Основы программирования",
+      "lesson_number": 2,
+      "lesson_title": "Что такое язык программирования?",
+      "position": 1,
+      "type": "text",
+      "repository_path": "courses/86957/steps/763037/01_3173778_text.step",
+      "archive_path": "02/02_lesson_763037/01_3173778_text.step",
+      "step_url": "https://stepik.org/lesson/763037/step/1",
+      "file_sha256": "ca6225619ea5760a9e70f12d06b476b7d72e0cfb7034f7d9396c31e914baec24",
+      "original_block_sha256": "0bf41e3582a812be5fe8a1d0351ab01ed85f9e2131fa71d2a054b6b703610101",
+      "revised_block_sha256": "90e196b539799cb7acb1be189c3f34b79e972d65fcb24953105801fa57ce34bf",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-002"
+      ]
+    },
+    {
+      "step_id": 3173838,
+      "lesson_id": 763037,
+      "module": 2,
+      "module_title": "Основы программирования",
+      "lesson_number": 2,
+      "lesson_title": "Что такое язык программирования?",
+      "position": 8,
+      "type": "text",
+      "repository_path": "courses/86957/steps/763037/08_3173838_text.step",
+      "archive_path": "02/02_lesson_763037/08_3173838_text.step",
+      "step_url": "https://stepik.org/lesson/763037/step/8",
+      "file_sha256": "bacd2721d5f82d0bdfe293a7e358b573d6e5748e517f4f6958a8214984b3d5d3",
+      "original_block_sha256": "720fbe5856933055aef24e5ea096d74e10795de0e9c7004897be7e7da16639f7",
+      "revised_block_sha256": "592131d5437f1f15db9eb991d32b5adc9a6477cb2809caeed1c44d025b73b9de",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-006"
+      ]
+    },
+    {
+      "step_id": 3173839,
+      "lesson_id": 763037,
+      "module": 2,
+      "module_title": "Основы программирования",
+      "lesson_number": 2,
+      "lesson_title": "Что такое язык программирования?",
+      "position": 9,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/763037/09_3173839_choice.step",
+      "archive_path": "02/02_lesson_763037/09_3173839_choice.step",
+      "step_url": "https://stepik.org/lesson/763037/step/9",
+      "file_sha256": "17fa62c7dd8015ce8670b31b4ebd18f34a647e2bcd92ca2c09457c7c7ae9758a",
+      "original_block_sha256": "cb2fe102cc1a0b07ee241fd7a76242e3d30e76a6fd8e330044fc09c8da440799",
+      "revised_block_sha256": "e26a94070324a9d6c67fbba725e967565391c393573735167ebb1d4790ea5e3b",
+      "changed_fields": [
+        "block.source.is_options_feedback",
+        "block.source.options",
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-006"
+      ]
+    },
+    {
+      "step_id": 3173870,
+      "lesson_id": 763038,
+      "module": 2,
+      "module_title": "Основы программирования",
+      "lesson_number": 3,
+      "lesson_title": "Процесс компиляции языка С++",
+      "position": 3,
+      "type": "text",
+      "repository_path": "courses/86957/steps/763038/03_3173870_text.step",
+      "archive_path": "02/03_lesson_763038/03_3173870_text.step",
+      "step_url": "https://stepik.org/lesson/763038/step/3",
+      "file_sha256": "294b8b693bb5fcf28a57f62c5c2445c8ed15706e8c47e1f36c75cc5d8fb7cc0c",
+      "original_block_sha256": "406602455cbf50577411c1f01ec01cc0c3c7adc752eb69778fbfd9a5c9ae4aea",
+      "revised_block_sha256": "2330c5aded11ee50f4f26ab76b9cfcf365e11121a19e1d460a6ec993d4cdb9b3",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-007"
+      ]
+    },
+    {
+      "step_id": 3177249,
+      "lesson_id": 763038,
+      "module": 2,
+      "module_title": "Основы программирования",
+      "lesson_number": 3,
+      "lesson_title": "Процесс компиляции языка С++",
+      "position": 6,
+      "type": "text",
+      "repository_path": "courses/86957/steps/763038/06_3177249_text.step",
+      "archive_path": "02/03_lesson_763038/06_3177249_text.step",
+      "step_url": "https://stepik.org/lesson/763038/step/6",
+      "file_sha256": "8db8214d5be926d80ab040fcabe4787a02348ccfd94995cd185e88f7b02cb6ad",
+      "original_block_sha256": "9ad253368d2270cd2439e527a99d017741bbf906b08479603a3fe59493f25806",
+      "revised_block_sha256": "598f6217eb0bfe0b00649f6a2b1baa880d56fb870fc33d28ec26424a49d0a31a",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-010"
+      ]
+    },
+    {
+      "step_id": 3173876,
+      "lesson_id": 763038,
+      "module": 2,
+      "module_title": "Основы программирования",
+      "lesson_number": 3,
+      "lesson_title": "Процесс компиляции языка С++",
+      "position": 8,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/763038/08_3173876_choice.step",
+      "archive_path": "02/03_lesson_763038/08_3173876_choice.step",
+      "step_url": "https://stepik.org/lesson/763038/step/8",
+      "file_sha256": "5b9b47de6d49d7aab8ef1311544e93f01e10a2a488bca03bdba45995bfaa782f",
+      "original_block_sha256": "ed0a40f1feeb329dea4d08ab5aff514f6e745ffc943c2c6937e871b7ff74cab1",
+      "revised_block_sha256": "c1265a02309abfe5d93e5103e30787ec445fd549a4fa49fb23a1b1d1462e808a",
+      "changed_fields": [
+        "block.source.is_options_feedback",
+        "block.source.options",
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-007"
+      ]
+    },
+    {
+      "step_id": 4717659,
+      "lesson_id": 763038,
+      "module": 2,
+      "module_title": "Основы программирования",
+      "lesson_number": 3,
+      "lesson_title": "Процесс компиляции языка С++",
+      "position": 9,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/763038/09_4717659_choice.step",
+      "archive_path": "02/03_lesson_763038/09_4717659_choice.step",
+      "step_url": "https://stepik.org/lesson/763038/step/9",
+      "file_sha256": "802a8e40a77e7d067864fccababc6ba80f890b37f51fe7b072af3f4a5cdc2920",
+      "original_block_sha256": "a67cf8f065fff5015fb0253b95810a7557b512c17e13b535f7cf5a92de46503d",
+      "revised_block_sha256": "d694ec0166dd726206578f3460a44ae948f6c8425b8196994ebebd1c2db7fc87",
+      "changed_fields": [
+        "block.source.is_options_feedback",
+        "block.source.options",
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-008"
+      ]
+    },
+    {
+      "step_id": 4717661,
+      "lesson_id": 763038,
+      "module": 2,
+      "module_title": "Основы программирования",
+      "lesson_number": 3,
+      "lesson_title": "Процесс компиляции языка С++",
+      "position": 10,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/763038/10_4717661_choice.step",
+      "archive_path": "02/03_lesson_763038/10_4717661_choice.step",
+      "step_url": "https://stepik.org/lesson/763038/step/10",
+      "file_sha256": "2713824543cd455604080fdde020de8334409a6ef75680aa2571b87bcb15a5ad",
+      "original_block_sha256": "5be3e3e9057abf215ed23f58e38888fe704f2b801170cf5045bdf7abfb322b6a",
+      "revised_block_sha256": "8904c2b87bfb72c0e5bdcb1b6067b321696aa688cf3b8841516685d76acd3fa9",
+      "changed_fields": [
+        "block.source.is_options_feedback",
+        "block.source.options",
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-009"
+      ]
+    },
+    {
+      "step_id": 4717678,
+      "lesson_id": 763038,
+      "module": 2,
+      "module_title": "Основы программирования",
+      "lesson_number": 3,
+      "lesson_title": "Процесс компиляции языка С++",
+      "position": 12,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/763038/12_4717678_choice.step",
+      "archive_path": "02/03_lesson_763038/12_4717678_choice.step",
+      "step_url": "https://stepik.org/lesson/763038/step/12",
+      "file_sha256": "5c46d98879c2debae710f297b986ba1cb0a900edfef1f6597a3acaf2043da140",
+      "original_block_sha256": "2cfe85e93695e24398302b8aa71837d1f9f07f010e8aaaba157c1e7d3636b222",
+      "revised_block_sha256": "93def872b6b791f27b5505294e3f875bd401f3612e03ddd4ed1959180e531ff9",
+      "changed_fields": [
+        "block.source.is_options_feedback",
+        "block.source.options",
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-010"
+      ]
+    },
+    {
+      "step_id": 3173780,
+      "lesson_id": 763039,
+      "module": 2,
+      "module_title": "Основы программирования",
+      "lesson_number": 4,
+      "lesson_title": "Ещё немного об интерпретации",
+      "position": 1,
+      "type": "text",
+      "repository_path": "courses/86957/steps/763039/01_3173780_text.step",
+      "archive_path": "02/04_lesson_763039/01_3173780_text.step",
+      "step_url": "https://stepik.org/lesson/763039/step/1",
+      "file_sha256": "c009295a3118194f1e5321af1a9dfa25ba9d1e1a84e833d4f9754de461415d9a",
+      "original_block_sha256": "b05aacbd5f9dc817e8f53e7bf307721e43e6c8efd1b998cfda81acc0dc1c0f4b",
+      "revised_block_sha256": "54da5610eb9f9d72f8d32fbee9a670a598ce65bfeef1f0a5f93ea9c3ee8871b4",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-006"
+      ]
+    },
+    {
+      "step_id": 3215255,
+      "lesson_id": 771155,
+      "module": 2,
+      "module_title": "Основы программирования",
+      "lesson_number": 5,
+      "lesson_title": "Системы счисления",
+      "position": 1,
+      "type": "text",
+      "repository_path": "courses/86957/steps/771155/01_3215255_text.step",
+      "archive_path": "02/05_lesson_771155/01_3215255_text.step",
+      "step_url": "https://stepik.org/lesson/771155/step/1",
+      "file_sha256": "1836f61a23f2ac93b42d8384983f099cb40f2d8086c1a62646bf833bd10f699f",
+      "original_block_sha256": "eda69a40c2c4a2860c1075786b5e0029cb66edc71f2aa1fa43905b1879e7e1de",
+      "revised_block_sha256": "bef5efcac852ea09290f77a678884fefff1ed18154e23ad2999ed8a443875abc",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-011"
+      ]
+    },
+    {
+      "step_id": 3215268,
+      "lesson_id": 771156,
+      "module": 2,
+      "module_title": "Основы программирования",
+      "lesson_number": 6,
+      "lesson_title": "Бит, байт, машинное слово",
+      "position": 2,
+      "type": "text",
+      "repository_path": "courses/86957/steps/771156/02_3215268_text.step",
+      "archive_path": "02/06_lesson_771156/02_3215268_text.step",
+      "step_url": "https://stepik.org/lesson/771156/step/2",
+      "file_sha256": "36a41fbc50ae2622e58b95a008879f82db81b4cb950bc26ebbda9859b0a0398c",
+      "original_block_sha256": "9e240a40a068094abce86abcb95cae0d35710f371d448755ce0ec96949fd9c88",
+      "revised_block_sha256": "e44eee6b92e6b342068f046dcf230e26f003ac68f74a47f545190c06aeb0781d",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-011",
+        "OAIP-012"
+      ]
+    },
+    {
+      "step_id": 3215267,
+      "lesson_id": 771156,
+      "module": 2,
+      "module_title": "Основы программирования",
+      "lesson_number": 6,
+      "lesson_title": "Бит, байт, машинное слово",
+      "position": 3,
+      "type": "text",
+      "repository_path": "courses/86957/steps/771156/03_3215267_text.step",
+      "archive_path": "02/06_lesson_771156/03_3215267_text.step",
+      "step_url": "https://stepik.org/lesson/771156/step/3",
+      "file_sha256": "e9b96e7dff6a8588e03890b1106c2d30c7c0bb7e9c423cc0d058fae8efb7597b",
+      "original_block_sha256": "ce7a5641b7871b98b31762dc7e4ff389ad4f389f5dbf16b6b5b799817fee0631",
+      "revised_block_sha256": "d8319ee3d5dc527a755b9ede6cb4a23d8507fca94fbe599280ada98e494e02e4",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-013",
+        "OAIP-014"
+      ]
+    },
+    {
+      "step_id": 3215265,
+      "lesson_id": 771156,
+      "module": 2,
+      "module_title": "Основы программирования",
+      "lesson_number": 6,
+      "lesson_title": "Бит, байт, машинное слово",
+      "position": 5,
+      "type": "text",
+      "repository_path": "courses/86957/steps/771156/05_3215265_text.step",
+      "archive_path": "02/06_lesson_771156/05_3215265_text.step",
+      "step_url": "https://stepik.org/lesson/771156/step/5",
+      "file_sha256": "505af91ff1b59c4b0e71a4f652d7c58cf6a6891cd31e07314573864a270692d4",
+      "original_block_sha256": "1476833f49636c704652e4eaf3df7288af7b2353c00eaa70c6b3cfc08657d8b8",
+      "revised_block_sha256": "75104286dec1f01b336aae1584ff3979683d6e70de73bdf14757ccca205f0790",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-027"
+      ]
+    },
+    {
+      "step_id": 4717221,
+      "lesson_id": 771156,
+      "module": 2,
+      "module_title": "Основы программирования",
+      "lesson_number": 6,
+      "lesson_title": "Бит, байт, машинное слово",
+      "position": 6,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/771156/06_4717221_choice.step",
+      "archive_path": "02/06_lesson_771156/06_4717221_choice.step",
+      "step_url": "https://stepik.org/lesson/771156/step/6",
+      "file_sha256": "a1cecb29a4b02e8cc5b476b4b6b6cfcf088734a565e92b4f0863402435076d42",
+      "original_block_sha256": "e17538ecd653a94b9f1623078cade4cf447406845125f4d5492befdad9d50fdc",
+      "revised_block_sha256": "85766be940dd52722be67699f7f979630afdd0489062ef62a80378e6c78378db",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-015"
+      ]
+    },
+    {
+      "step_id": 3201151,
+      "lesson_id": 768140,
+      "module": 3,
+      "module_title": "Первые шаги в программировании",
+      "lesson_number": 1,
+      "lesson_title": "Что такое IDE?",
+      "position": 4,
+      "type": "text",
+      "repository_path": "courses/86957/steps/768140/04_3201151_text.step",
+      "archive_path": "03/01_lesson_768140/04_3201151_text.step",
+      "step_url": "https://stepik.org/lesson/768140/step/4",
+      "file_sha256": "ba4c16cf73136e7af518561b3a4b49f0bae5ad6be6dee15b43cd05e116321e80",
+      "original_block_sha256": "85877f04c890174ddd9bd427c45c380d951f593c30be291592316f047bbec6e2",
+      "revised_block_sha256": "85ee4cfeaa1a833b309f44022dcacc88cc50ecc6df368e9ad8f283c300a40d1d",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-016"
+      ]
+    },
+    {
+      "step_id": 3201153,
+      "lesson_id": 768140,
+      "module": 3,
+      "module_title": "Первые шаги в программировании",
+      "lesson_number": 1,
+      "lesson_title": "Что такое IDE?",
+      "position": 5,
+      "type": "text",
+      "repository_path": "courses/86957/steps/768140/05_3201153_text.step",
+      "archive_path": "03/01_lesson_768140/05_3201153_text.step",
+      "step_url": "https://stepik.org/lesson/768140/step/5",
+      "file_sha256": "572681b51b40b1fb952a002c04e76bb46a04d67117ebcd9bc95f8c8a38836cc6",
+      "original_block_sha256": "77eb63da19f2b58f635aa7a09840d9cb6de85875c0f717b990a2bb328f2681e9",
+      "revised_block_sha256": "1305553c67f7c8d63523b88c367dbaf875510b53dfbbc1db2205e5ce6f382d62",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-016"
+      ]
+    },
+    {
+      "step_id": 3201236,
+      "lesson_id": 768146,
+      "module": 3,
+      "module_title": "Первые шаги в программировании",
+      "lesson_number": 2,
+      "lesson_title": "Стандартная библиотека языка С++. Пространство имён std.",
+      "position": 2,
+      "type": "text",
+      "repository_path": "courses/86957/steps/768146/02_3201236_text.step",
+      "archive_path": "03/02_lesson_768146/02_3201236_text.step",
+      "step_url": "https://stepik.org/lesson/768146/step/2",
+      "file_sha256": "de5114f02dd906419213ee08e743ecc6cddd4016169eb6ba5274ee246e0ba6f0",
+      "original_block_sha256": "7f511a1ffa4654f8817c2ecc7c0eeedcaad04a92243db8df2864144eb5f94fe0",
+      "revised_block_sha256": "cbafa3f7ace0c4e5bab0e7adf73e7cd205797b342fba8b95f307b42892602c2f",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-017"
+      ]
+    },
+    {
+      "step_id": 3201235,
+      "lesson_id": 768146,
+      "module": 3,
+      "module_title": "Первые шаги в программировании",
+      "lesson_number": 2,
+      "lesson_title": "Стандартная библиотека языка С++. Пространство имён std.",
+      "position": 3,
+      "type": "text",
+      "repository_path": "courses/86957/steps/768146/03_3201235_text.step",
+      "archive_path": "03/02_lesson_768146/03_3201235_text.step",
+      "step_url": "https://stepik.org/lesson/768146/step/3",
+      "file_sha256": "d36eaddc9546796e3c964c016a7d987351d961ab8f7217f2d0930f8f6ec62e1a",
+      "original_block_sha256": "0b79db3aeb3cffb7fae8575e5df8a14f821d9f0f04426defce75adc2d105e4ae",
+      "revised_block_sha256": "f9637f814ac5eb44d75f6aa5e30311ab7ad3c1e3ef171d0cba33978a1e8aa701",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-018"
+      ]
+    },
+    {
+      "step_id": 3201267,
+      "lesson_id": 768146,
+      "module": 3,
+      "module_title": "Первые шаги в программировании",
+      "lesson_number": 2,
+      "lesson_title": "Стандартная библиотека языка С++. Пространство имён std.",
+      "position": 5,
+      "type": "text",
+      "repository_path": "courses/86957/steps/768146/05_3201267_text.step",
+      "archive_path": "03/02_lesson_768146/05_3201267_text.step",
+      "step_url": "https://stepik.org/lesson/768146/step/5",
+      "file_sha256": "f14f801b383a6d3e614bf4375bcf22af4e4d0d947640a0318620ea05428751ba",
+      "original_block_sha256": "85997d8fd8bd044c52208ddc221932028a36fb2f85ebe7100bc39edfa59b343e",
+      "revised_block_sha256": "0b95a8d307e6ba0004d59da7d2b9259d4d1ca20359efbc3f7ff0bc67e2d84057",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-017"
+      ]
+    },
+    {
+      "step_id": 3261530,
+      "lesson_id": 768146,
+      "module": 3,
+      "module_title": "Первые шаги в программировании",
+      "lesson_number": 2,
+      "lesson_title": "Стандартная библиотека языка С++. Пространство имён std.",
+      "position": 6,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/768146/06_3261530_choice.step",
+      "archive_path": "03/02_lesson_768146/06_3261530_choice.step",
+      "step_url": "https://stepik.org/lesson/768146/step/6",
+      "file_sha256": "ddf60a4848f84d101b2631efc66d1ceab99752dc2dede419da1b4e22dcd61a0e",
+      "original_block_sha256": "e6b81924c08965b5a42d6afc5c2ef5e3629ebad9b2e6ab131512d4f626cb3fec",
+      "revised_block_sha256": "22e089ac95eb170fcf1af12b4a1d603e4e660c1a094fe26b8855162349f407a0",
+      "changed_fields": [
+        "block.source.is_options_feedback",
+        "block.source.options",
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-018"
+      ]
+    },
+    {
+      "step_id": 3201189,
+      "lesson_id": 768143,
+      "module": 3,
+      "module_title": "Первые шаги в программировании",
+      "lesson_number": 3,
+      "lesson_title": "Первый запуск программы",
+      "position": 2,
+      "type": "text",
+      "repository_path": "courses/86957/steps/768143/02_3201189_text.step",
+      "archive_path": "03/03_lesson_768143/02_3201189_text.step",
+      "step_url": "https://stepik.org/lesson/768143/step/2",
+      "file_sha256": "84d4fa57993cc9906b4c0006a657a1e861e5e38b0054b744c541a9d50de5e6a9",
+      "original_block_sha256": "18c4bc0f11592dcffa4ab47fbefb8156e71b8e49a89eca1f0f9bffecc76c53c2",
+      "revised_block_sha256": "0ac00659b216f81dad3bf48926f0c6fb713d982bff81ba7e1e53b6f8d5f3cd5f",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-002"
+      ]
+    },
+    {
+      "step_id": 3215075,
+      "lesson_id": 768143,
+      "module": 3,
+      "module_title": "Первые шаги в программировании",
+      "lesson_number": 3,
+      "lesson_title": "Первый запуск программы",
+      "position": 3,
+      "type": "text",
+      "repository_path": "courses/86957/steps/768143/03_3215075_text.step",
+      "archive_path": "03/03_lesson_768143/03_3215075_text.step",
+      "step_url": "https://stepik.org/lesson/768143/step/3",
+      "file_sha256": "0dbec23631c1a0a38553de418943902d28169a87384206d2dcd1d69e5e3358c5",
+      "original_block_sha256": "f37d1ccd9bf52f66a60e7dcae07d55a15a0b7294a9809e930303a3011c425d03",
+      "revised_block_sha256": "5c133a5df76934353171ddc5bab5fc306b9622ed5ccbd2af5726d82dda604395",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-019"
+      ]
+    },
+    {
+      "step_id": 3215092,
+      "lesson_id": 768143,
+      "module": 3,
+      "module_title": "Первые шаги в программировании",
+      "lesson_number": 3,
+      "lesson_title": "Первый запуск программы",
+      "position": 5,
+      "type": "text",
+      "repository_path": "courses/86957/steps/768143/05_3215092_text.step",
+      "archive_path": "03/03_lesson_768143/05_3215092_text.step",
+      "step_url": "https://stepik.org/lesson/768143/step/5",
+      "file_sha256": "b99fd750340594f612407aae38317090cac622c34af92a1cba67f57ffe46ba3d",
+      "original_block_sha256": "06f5537d17b6a3c5d38d4dd7c98dd387a042d42cef08f26c72045f0b1bb3a416",
+      "revised_block_sha256": "47576d34afc46996ebe0c2316ef7e54c64ffdc72c2da4ea119862f5370780eef",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-020",
+        "OAIP-021"
+      ]
+    },
+    {
+      "step_id": 3267783,
+      "lesson_id": 768143,
+      "module": 3,
+      "module_title": "Первые шаги в программировании",
+      "lesson_number": 3,
+      "lesson_title": "Первый запуск программы",
+      "position": 6,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/768143/06_3267783_choice.step",
+      "archive_path": "03/03_lesson_768143/06_3267783_choice.step",
+      "step_url": "https://stepik.org/lesson/768143/step/6",
+      "file_sha256": "bf3c805cc92e1b6d71a7a7d167752fdbef49488642f5c0ea1b4ac79c4e864720",
+      "original_block_sha256": "b7c3e695ead5738d26f075c045700069c1e036822e283db10f63b2aea4bf20d0",
+      "revised_block_sha256": "2f7f5ecba6f4914091753f545856c08e865840badbeb97715922acecbbdf2b30",
+      "changed_fields": [
+        "block.source.is_options_feedback",
+        "block.source.options",
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-022"
+      ]
+    },
+    {
+      "step_id": 3231227,
+      "lesson_id": 774618,
+      "module": 3,
+      "module_title": "Первые шаги в программировании",
+      "lesson_number": 6,
+      "lesson_title": "Системы сборки С++ проектов. Cmake",
+      "position": 2,
+      "type": "text",
+      "repository_path": "courses/86957/steps/774618/02_3231227_text.step",
+      "archive_path": "03/06_lesson_774618/02_3231227_text.step",
+      "step_url": "https://stepik.org/lesson/774618/step/2",
+      "file_sha256": "4332be647f710388dcc94b6eea1bf1e49351ea0420018701c47d7bf5f9358a28",
+      "original_block_sha256": "9fa2fcf2fb3d92743a2ff3f95993ae0587dfb6cb39b9b6a7d031ef15be0a05a0",
+      "revised_block_sha256": "3b0dc8d6e8004c374e271e7921a2bd6fe9b3bd7a9d6ee735e022f80be473e717",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-023"
+      ]
+    },
+    {
+      "step_id": 3231317,
+      "lesson_id": 774618,
+      "module": 3,
+      "module_title": "Первые шаги в программировании",
+      "lesson_number": 6,
+      "lesson_title": "Системы сборки С++ проектов. Cmake",
+      "position": 3,
+      "type": "text",
+      "repository_path": "courses/86957/steps/774618/03_3231317_text.step",
+      "archive_path": "03/06_lesson_774618/03_3231317_text.step",
+      "step_url": "https://stepik.org/lesson/774618/step/3",
+      "file_sha256": "d0e1972bfa2f005e5f0681c47c6f57d31d47209e123269d1f030ee659e7fd3c9",
+      "original_block_sha256": "6281dc396753da84383f22d15ae528087075b838c58b85ba0250aa4f43644577",
+      "revised_block_sha256": "77dcc2a866730769fd6abd7dc3f0f682328af9444c23a59c6062d30d83e322a3",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-023"
+      ]
+    },
+    {
+      "step_id": 3231228,
+      "lesson_id": 774618,
+      "module": 3,
+      "module_title": "Первые шаги в программировании",
+      "lesson_number": 6,
+      "lesson_title": "Системы сборки С++ проектов. Cmake",
+      "position": 4,
+      "type": "text",
+      "repository_path": "courses/86957/steps/774618/04_3231228_text.step",
+      "archive_path": "03/06_lesson_774618/04_3231228_text.step",
+      "step_url": "https://stepik.org/lesson/774618/step/4",
+      "file_sha256": "f5e4e5770c4f9307b0d5a2006a6a3a6a23c8bee1f00e206f69cc635564c443d3",
+      "original_block_sha256": "658949070cb675c8dde979c3ca5f6c7ed1ca77ce323ec93934aa8470d046512c",
+      "revised_block_sha256": "cecbe5863c6feb78029baae7e4b009373d9ef338792943d4ec1388f900f4552f",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-023"
+      ]
+    },
+    {
+      "step_id": 3273099,
+      "lesson_id": 774618,
+      "module": 3,
+      "module_title": "Первые шаги в программировании",
+      "lesson_number": 6,
+      "lesson_title": "Системы сборки С++ проектов. Cmake",
+      "position": 6,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/774618/06_3273099_choice.step",
+      "archive_path": "03/06_lesson_774618/06_3273099_choice.step",
+      "step_url": "https://stepik.org/lesson/774618/step/6",
+      "file_sha256": "2a1757c365fc85393dea9358a4498533f43a05285ae2ff2265979719932181ca",
+      "original_block_sha256": "7a42d88b3e89b74d4347364109ed2970eacb339f2261dd67b2a35fe907d46eb9",
+      "revised_block_sha256": "316ce686f00c82dbcf98d54034fa4936caf4f8d46ea1f49f106be617665a0c09",
+      "changed_fields": [
+        "block.source.is_options_feedback",
+        "block.source.options",
+        "block.source.sample_size",
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-023"
+      ]
+    },
+    {
+      "step_id": 3177242,
+      "lesson_id": 763630,
+      "module": 4,
+      "module_title": "Основные приёмы программирования на языке С++",
+      "lesson_number": 1,
+      "lesson_title": "Базовые элементы языка С++",
+      "position": 1,
+      "type": "text",
+      "repository_path": "courses/86957/steps/763630/01_3177242_text.step",
+      "archive_path": "04/01_lesson_763630/01_3177242_text.step",
+      "step_url": "https://stepik.org/lesson/763630/step/1",
+      "file_sha256": "4cc3f9113536c5a6f5d59b42208a47228611b75990748d5107187cd3214a5dba",
+      "original_block_sha256": "430a35e4f9dfad120e98cca9b9d305124d945c72ffe38d908120ff5e3bbd9dc7",
+      "revised_block_sha256": "4fcf6be2c7e0650a258f095f62ce2b8f4dc82f84607b0f240d55c2debcbdd92a",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-024"
+      ]
+    },
+    {
+      "step_id": 3177280,
+      "lesson_id": 763630,
+      "module": 4,
+      "module_title": "Основные приёмы программирования на языке С++",
+      "lesson_number": 1,
+      "lesson_title": "Базовые элементы языка С++",
+      "position": 3,
+      "type": "text",
+      "repository_path": "courses/86957/steps/763630/03_3177280_text.step",
+      "archive_path": "04/01_lesson_763630/03_3177280_text.step",
+      "step_url": "https://stepik.org/lesson/763630/step/3",
+      "file_sha256": "1fd6aecfcb38039db4c730b5b09c8ef95e361a0b9c8ba9f563a11591292984b8",
+      "original_block_sha256": "4a00818d56550e01ca2b04703544ab06c0494ac9e1f2f46f0b17cdde626ab856",
+      "revised_block_sha256": "8b19bec120ed9f88e038c2c279094cdffa758c8d89e6d402370eda2995ed8dbf",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-025"
+      ]
+    },
+    {
+      "step_id": 3177281,
+      "lesson_id": 763630,
+      "module": 4,
+      "module_title": "Основные приёмы программирования на языке С++",
+      "lesson_number": 1,
+      "lesson_title": "Базовые элементы языка С++",
+      "position": 5,
+      "type": "text",
+      "repository_path": "courses/86957/steps/763630/05_3177281_text.step",
+      "archive_path": "04/01_lesson_763630/05_3177281_text.step",
+      "step_url": "https://stepik.org/lesson/763630/step/5",
+      "file_sha256": "b979237f76ec66c0cf52cb49d682f15d8968520bd3bd7e94dedd9a7c97cf9177",
+      "original_block_sha256": "efe5941f031ec84545e487bccb5129990b660ac175375f7b2c34f623dbadd83d",
+      "revised_block_sha256": "66f0a5fe55e9840ede7210fd3dc66eda5266ff72138ac417301422b428385f4b",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-026"
+      ]
+    },
+    {
+      "step_id": 3262711,
+      "lesson_id": 763630,
+      "module": 4,
+      "module_title": "Основные приёмы программирования на языке С++",
+      "lesson_number": 1,
+      "lesson_title": "Базовые элементы языка С++",
+      "position": 6,
+      "type": "text",
+      "repository_path": "courses/86957/steps/763630/06_3262711_text.step",
+      "archive_path": "04/01_lesson_763630/06_3262711_text.step",
+      "step_url": "https://stepik.org/lesson/763630/step/6",
+      "file_sha256": "914a70ed3b157ad8bdfa1ec1b47fbb3a7743fc3a70effa8af8455b0d74b1d13d",
+      "original_block_sha256": "3fee694814ab33a4132e91561504208112b62c356e83fdf56820d23ad3bb0a22",
+      "revised_block_sha256": "cf951a394ee9d40e6ea609f2c892c0f1a6d9666c7ce8064dc9bd5925cfa598f4",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-027"
+      ]
+    },
+    {
+      "step_id": 3177283,
+      "lesson_id": 763630,
+      "module": 4,
+      "module_title": "Основные приёмы программирования на языке С++",
+      "lesson_number": 1,
+      "lesson_title": "Базовые элементы языка С++",
+      "position": 7,
+      "type": "text",
+      "repository_path": "courses/86957/steps/763630/07_3177283_text.step",
+      "archive_path": "04/01_lesson_763630/07_3177283_text.step",
+      "step_url": "https://stepik.org/lesson/763630/step/7",
+      "file_sha256": "b882e15d50c4b700721b3cf38e57b73c8609c82e127b20a63064480b5e8920cd",
+      "original_block_sha256": "ef2fa85431a2d0e61c339e691a412667d7307affe9adf216d09538adb42de543",
+      "revised_block_sha256": "ac04968f51502dc5ca22b73bff2526a5bc821b90120a9e3fb465ae81ea83f72c",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-027"
+      ]
+    },
+    {
+      "step_id": 3262682,
+      "lesson_id": 763630,
+      "module": 4,
+      "module_title": "Основные приёмы программирования на языке С++",
+      "lesson_number": 1,
+      "lesson_title": "Базовые элементы языка С++",
+      "position": 11,
+      "type": "code",
+      "repository_path": "courses/86957/steps/763630/11_3262682_code.step",
+      "archive_path": "04/01_lesson_763630/11_3262682_code.step",
+      "step_url": "https://stepik.org/lesson/763630/step/11",
+      "file_sha256": "77bf246c9ad85fd46cff12417ef0ea37ca70e58413193d6404ba825be497b00d",
+      "original_block_sha256": "e131cd1d9ed65e8dd081aa33b7ac23e1d15d1eb3ab3219248365d135d662b7b3",
+      "revised_block_sha256": "87fbaed7e435bc19a5e686449991d2bb30641e70dcd34d168f2d6b2bf2721033",
+      "changed_fields": [
+        "block.options.samples",
+        "block.source.code",
+        "block.source.test_cases",
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-028"
+      ]
+    },
+    {
+      "step_id": 3262692,
+      "lesson_id": 763630,
+      "module": 4,
+      "module_title": "Основные приёмы программирования на языке С++",
+      "lesson_number": 1,
+      "lesson_title": "Базовые элементы языка С++",
+      "position": 12,
+      "type": "code",
+      "repository_path": "courses/86957/steps/763630/12_3262692_code.step",
+      "archive_path": "04/01_lesson_763630/12_3262692_code.step",
+      "step_url": "https://stepik.org/lesson/763630/step/12",
+      "file_sha256": "1507709ec7144125c1582875770aac5533f50b3c3044a00367076bc53cb31d3c",
+      "original_block_sha256": "e3ac3e7751a253c0237e79b01343455abe6ea2fffd02d3403f4c28bae7cb51b3",
+      "revised_block_sha256": "f6d3cac8b599d0cb3a31617d5ef67d47c7be3b1323ed09b5778205bd414cb220",
+      "changed_fields": [
+        "block.options.samples",
+        "block.source.code",
+        "block.source.test_cases",
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-029",
+        "OAIP-030"
+      ]
+    },
+    {
+      "step_id": 3284769,
+      "lesson_id": 763630,
+      "module": 4,
+      "module_title": "Основные приёмы программирования на языке С++",
+      "lesson_number": 1,
+      "lesson_title": "Базовые элементы языка С++",
+      "position": 14,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/763630/14_3284769_choice.step",
+      "archive_path": "04/01_lesson_763630/14_3284769_choice.step",
+      "step_url": "https://stepik.org/lesson/763630/step/14",
+      "file_sha256": "3bba29e9dbedb9fa4b4d487fb6bfe1ab9d166c0456be34f2023e0cd9c33770d3",
+      "original_block_sha256": "04a47b535ade3fca1ffa3b515758f5c1e404c32f29ec53c7acdbd04e7e32bb7d",
+      "revised_block_sha256": "575a1b2a3af419e0b97893f4c7923818606df76ced687eb697b41d4205a977ba",
+      "changed_fields": [
+        "block.source.is_options_feedback",
+        "block.source.options",
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-026",
+        "OAIP-034"
+      ]
+    },
+    {
+      "step_id": 4717745,
+      "lesson_id": 763630,
+      "module": 4,
+      "module_title": "Основные приёмы программирования на языке С++",
+      "lesson_number": 1,
+      "lesson_title": "Базовые элементы языка С++",
+      "position": 16,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/763630/16_4717745_choice.step",
+      "archive_path": "04/01_lesson_763630/16_4717745_choice.step",
+      "step_url": "https://stepik.org/lesson/763630/step/16",
+      "file_sha256": "3bcc8c9c58be704fede21380fd1bfa317c1562bda422d3e4a5f9bec74b1da0fc",
+      "original_block_sha256": "96d37c10b7700407f2492e2a960840e85f5c3fdb28393472410869e09a14f5d8",
+      "revised_block_sha256": "839d8d63ab78d28b93a595c31c61a7455b76c13a946d95cf60fc49f10c8012f9",
+      "changed_fields": [
+        "block.source.is_options_feedback",
+        "block.source.options",
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-031"
+      ]
+    },
+    {
+      "step_id": 3177499,
+      "lesson_id": 763639,
+      "module": 4,
+      "module_title": "Основные приёмы программирования на языке С++",
+      "lesson_number": 2,
+      "lesson_title": "Операции языка С++",
+      "position": 4,
+      "type": "text",
+      "repository_path": "courses/86957/steps/763639/04_3177499_text.step",
+      "archive_path": "04/02_lesson_763639/04_3177499_text.step",
+      "step_url": "https://stepik.org/lesson/763639/step/4",
+      "file_sha256": "6b26b65d75ec67f09b180a4407b589c69fbdf9fbde58dace32302202d431c687",
+      "original_block_sha256": "e228c3ca65c06b9aeb746a54b74807c904635dd4252dad8f45e1cacdf35136cd",
+      "revised_block_sha256": "07dc324e7e4c3cd8d47a195020e0744c324fa7ae187cfae3806b9e67f1ffe13e",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-032"
+      ]
+    },
+    {
+      "step_id": 3286915,
+      "lesson_id": 763639,
+      "module": 4,
+      "module_title": "Основные приёмы программирования на языке С++",
+      "lesson_number": 2,
+      "lesson_title": "Операции языка С++",
+      "position": 10,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/763639/10_3286915_choice.step",
+      "archive_path": "04/02_lesson_763639/10_3286915_choice.step",
+      "step_url": "https://stepik.org/lesson/763639/step/10",
+      "file_sha256": "f590d9f9d1e445a673f0855a82eb03540aa466b95c5154766ae08f0b353edf60",
+      "original_block_sha256": "4ed8079e66abf4710227d6e7cff7287de9baf5e2a375eb6ee2d132432fab62d3",
+      "revised_block_sha256": "59a04f441f40029526817c38408031088125e0bfd09bf9ffdae183c0c614476e",
+      "changed_fields": [
+        "block.source.is_options_feedback",
+        "block.source.options",
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-034"
+      ]
+    },
+    {
+      "step_id": 3296822,
+      "lesson_id": 763639,
+      "module": 4,
+      "module_title": "Основные приёмы программирования на языке С++",
+      "lesson_number": 2,
+      "lesson_title": "Операции языка С++",
+      "position": 12,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/763639/12_3296822_choice.step",
+      "archive_path": "04/02_lesson_763639/12_3296822_choice.step",
+      "step_url": "https://stepik.org/lesson/763639/step/12",
+      "file_sha256": "afc026887d77e65d45075329ff513a156c4d761c3282a179318b18a8be371657",
+      "original_block_sha256": "634612dcf455504d888585b5de1c529735022ff57e72bf7ecc90ee414cd2639c",
+      "revised_block_sha256": "016adc4117366756fb4a6c5d217f7c61c41c48cea56a9373329483fe14d50fe1",
+      "changed_fields": [
+        "block.source.is_options_feedback",
+        "block.source.options",
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-033"
+      ]
+    },
+    {
+      "step_id": 3296857,
+      "lesson_id": 763639,
+      "module": 4,
+      "module_title": "Основные приёмы программирования на языке С++",
+      "lesson_number": 2,
+      "lesson_title": "Операции языка С++",
+      "position": 13,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/763639/13_3296857_choice.step",
+      "archive_path": "04/02_lesson_763639/13_3296857_choice.step",
+      "step_url": "https://stepik.org/lesson/763639/step/13",
+      "file_sha256": "0a5b3d1b3856da39782756c30f91e9866ca60205bbbebb764db68118a6928e20",
+      "original_block_sha256": "b38696d7517e21c192957707d36f3e6ecabc26382da121957a10c3078869bbc1",
+      "revised_block_sha256": "a30a0cbe45017b4a547f15575cb4755a42b1983dfae60b5120c7a2040f750ede",
+      "changed_fields": [
+        "block.source.is_options_feedback",
+        "block.source.options",
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-034"
+      ]
+    },
+    {
+      "step_id": 3296975,
+      "lesson_id": 763639,
+      "module": 4,
+      "module_title": "Основные приёмы программирования на языке С++",
+      "lesson_number": 2,
+      "lesson_title": "Операции языка С++",
+      "position": 14,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/763639/14_3296975_choice.step",
+      "archive_path": "04/02_lesson_763639/14_3296975_choice.step",
+      "step_url": "https://stepik.org/lesson/763639/step/14",
+      "file_sha256": "b2d853fcfca26b265411c99249881c808b052b75bd1089c357077779000b265b",
+      "original_block_sha256": "a423bfae6cd0df055444baa44845a73dc275d4b7fc5b5bf906531bc17758181e",
+      "revised_block_sha256": "e5c82e9cfcbe68c0e7bb95e2b3aaa7939a52a2429aabc330a14ed52453ff72b1",
+      "changed_fields": [
+        "block.source.is_options_feedback",
+        "block.source.options",
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-034"
+      ]
+    },
+    {
+      "step_id": 3177292,
+      "lesson_id": 763640,
+      "module": 4,
+      "module_title": "Основные приёмы программирования на языке С++",
+      "lesson_number": 3,
+      "lesson_title": "Условные операторы",
+      "position": 1,
+      "type": "text",
+      "repository_path": "courses/86957/steps/763640/01_3177292_text.step",
+      "archive_path": "04/03_lesson_763640/01_3177292_text.step",
+      "step_url": "https://stepik.org/lesson/763640/step/1",
+      "file_sha256": "c5240243c408ec25e146d21384effcc667987c1141d47416438339be71a5da0f",
+      "original_block_sha256": "bf80762ad7fa2718d65888429c56670cc869a0d8a7f4297f081239ae493f0459",
+      "revised_block_sha256": "322db097fa884ab4c0d37f844ed1c1f7fa90e4ece6a1d8721ac81079a59c0abc",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-035"
+      ]
+    },
+    {
+      "step_id": 3280697,
+      "lesson_id": 763640,
+      "module": 4,
+      "module_title": "Основные приёмы программирования на языке С++",
+      "lesson_number": 3,
+      "lesson_title": "Условные операторы",
+      "position": 4,
+      "type": "code",
+      "repository_path": "courses/86957/steps/763640/04_3280697_code.step",
+      "archive_path": "04/03_lesson_763640/04_3280697_code.step",
+      "step_url": "https://stepik.org/lesson/763640/step/4",
+      "file_sha256": "d4ff785ffd09891f4c338658a94fdac990b1372bd91fa60ca7dce310f8ebe611",
+      "original_block_sha256": "1f4832d32cac01afbf7126ece5e65f78bdfeacb5cd6403ca5a09b63c44635908",
+      "revised_block_sha256": "eae57af2290b42cc3301876d3463249843df0480fe7c3e50342440b1406aeeb8",
+      "changed_fields": [
+        "block.source.code",
+        "block.source.test_cases",
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-036"
+      ]
+    },
+    {
+      "step_id": 3264622,
+      "lesson_id": 763640,
+      "module": 4,
+      "module_title": "Основные приёмы программирования на языке С++",
+      "lesson_number": 3,
+      "lesson_title": "Условные операторы",
+      "position": 5,
+      "type": "code",
+      "repository_path": "courses/86957/steps/763640/05_3264622_code.step",
+      "archive_path": "04/03_lesson_763640/05_3264622_code.step",
+      "step_url": "https://stepik.org/lesson/763640/step/5",
+      "file_sha256": "ffaf9ff3d00d2eea87d7f940af2ba54a4386503a93cceaf5bd1b5e59f6028bf3",
+      "original_block_sha256": "cb21d3772aff8da624502bdca4b1b7104d6d804c7ec088d82f771eb9d14afba7",
+      "revised_block_sha256": "46e0347efb9fd9e667c62df6145db362c62e8483bfd45c582056911a19b13b11",
+      "changed_fields": [
+        "block.source.code",
+        "block.source.test_cases",
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-029"
+      ]
+    },
+    {
+      "step_id": 3280727,
+      "lesson_id": 763640,
+      "module": 4,
+      "module_title": "Основные приёмы программирования на языке С++",
+      "lesson_number": 3,
+      "lesson_title": "Условные операторы",
+      "position": 6,
+      "type": "code",
+      "repository_path": "courses/86957/steps/763640/06_3280727_code.step",
+      "archive_path": "04/03_lesson_763640/06_3280727_code.step",
+      "step_url": "https://stepik.org/lesson/763640/step/6",
+      "file_sha256": "c2209caeb91121ad172e7d1cfddb4aa689515861f28b66342a992c50bce03985",
+      "original_block_sha256": "85f269e39c3636ed787e67141e47d82239eb512faa46d9458d8507965e5efc44",
+      "revised_block_sha256": "dfde6b70fdaaa6c4deeaeeca2371460107876381501628b5ad822285b3d471c5",
+      "changed_fields": [
+        "block.source.code",
+        "block.source.test_cases",
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-037"
+      ]
+    },
+    {
+      "step_id": 3281353,
+      "lesson_id": 763640,
+      "module": 4,
+      "module_title": "Основные приёмы программирования на языке С++",
+      "lesson_number": 3,
+      "lesson_title": "Условные операторы",
+      "position": 9,
+      "type": "code",
+      "repository_path": "courses/86957/steps/763640/09_3281353_code.step",
+      "archive_path": "04/03_lesson_763640/09_3281353_code.step",
+      "step_url": "https://stepik.org/lesson/763640/step/9",
+      "file_sha256": "8aed642bed7532bcd6a7b773b1c443f6d2040f1f3bc50af2c598b5f553f2b191",
+      "original_block_sha256": "e3479c2b04b7d07f6348466a5acfc7fafc0e90df1e00cb35ed3b3ecfb7fcd3d9",
+      "revised_block_sha256": "6e4633f4cec394b8dccf55255964bdf152403a0d186545bd1829972704e18aca",
+      "changed_fields": [
+        "block.options.samples",
+        "block.source.test_cases",
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-038"
+      ]
+    },
+    {
+      "step_id": 3177541,
+      "lesson_id": 763642,
+      "module": 4,
+      "module_title": "Основные приёмы программирования на языке С++",
+      "lesson_number": 4,
+      "lesson_title": "Операторы переходов",
+      "position": 2,
+      "type": "text",
+      "repository_path": "courses/86957/steps/763642/02_3177541_text.step",
+      "archive_path": "04/04_lesson_763642/02_3177541_text.step",
+      "step_url": "https://stepik.org/lesson/763642/step/2",
+      "file_sha256": "8aab7060e59c5f9451bfa6be33eb8eb94b41a5a92bd0701f849255369b3ae622",
+      "original_block_sha256": "e33cf771c10c1658f2fad82896df82337a13b1a7657d7281769e1e2e23be4707",
+      "revised_block_sha256": "98e61d96253923dc767eafc1f1528a3bc093fb9faaae0224f999ae24e55470f9",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-039"
+      ]
+    },
+    {
+      "step_id": 3177546,
+      "lesson_id": 763642,
+      "module": 4,
+      "module_title": "Основные приёмы программирования на языке С++",
+      "lesson_number": 4,
+      "lesson_title": "Операторы переходов",
+      "position": 4,
+      "type": "text",
+      "repository_path": "courses/86957/steps/763642/04_3177546_text.step",
+      "archive_path": "04/04_lesson_763642/04_3177546_text.step",
+      "step_url": "https://stepik.org/lesson/763642/step/4",
+      "file_sha256": "cf3729bf44796fce9dc76c912d99ecdeddf130ac1521585c54fea11c84e156ca",
+      "original_block_sha256": "868970f4b1df54e465b8f11944058af6d0aa29194adccfafb4662960895aad4f",
+      "revised_block_sha256": "508376eb91dc448e8fb9442019f075386f2786c26fe44c48fd43b1765b38acd5",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-043"
+      ]
+    },
+    {
+      "step_id": 3177547,
+      "lesson_id": 763642,
+      "module": 4,
+      "module_title": "Основные приёмы программирования на языке С++",
+      "lesson_number": 4,
+      "lesson_title": "Операторы переходов",
+      "position": 5,
+      "type": "text",
+      "repository_path": "courses/86957/steps/763642/05_3177547_text.step",
+      "archive_path": "04/04_lesson_763642/05_3177547_text.step",
+      "step_url": "https://stepik.org/lesson/763642/step/5",
+      "file_sha256": "2f4241b72ddf98f18f114221125abc620a9df31908d022303b58589682cfc118",
+      "original_block_sha256": "bb8a215654cf04140111d46f53db193c92dd3ace2a49358aa4df232838befe93",
+      "revised_block_sha256": "b1728b3206271baf810d7cbb7769c91e5d187d4db368915d1a21be8afe351e0e",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-040"
+      ]
+    },
+    {
+      "step_id": 3394590,
+      "lesson_id": 763642,
+      "module": 4,
+      "module_title": "Основные приёмы программирования на языке С++",
+      "lesson_number": 4,
+      "lesson_title": "Операторы переходов",
+      "position": 6,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/763642/06_3394590_choice.step",
+      "archive_path": "04/04_lesson_763642/06_3394590_choice.step",
+      "step_url": "https://stepik.org/lesson/763642/step/6",
+      "file_sha256": "90c7d48fade515d38ac50ef01ed2705cb2c119e999fe791ece647ea500df9023",
+      "original_block_sha256": "8b6b51c8b184d56152f2f4283510072a6635eb6e6f71265828b09ab64ebee476",
+      "revised_block_sha256": "eae4cb79dd67f8c9efa5d258b499d926c8306efa9ed9fbfddc6df7392f7e8ef2",
+      "changed_fields": [
+        "block.source.is_options_feedback",
+        "block.source.options",
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-041"
+      ]
+    },
+    {
+      "step_id": 3394601,
+      "lesson_id": 763642,
+      "module": 4,
+      "module_title": "Основные приёмы программирования на языке С++",
+      "lesson_number": 4,
+      "lesson_title": "Операторы переходов",
+      "position": 7,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/763642/07_3394601_choice.step",
+      "archive_path": "04/04_lesson_763642/07_3394601_choice.step",
+      "step_url": "https://stepik.org/lesson/763642/step/7",
+      "file_sha256": "a87591e63e124fd7c62c1a820894da72a6726bbb93774f311917d9e404ee26b1",
+      "original_block_sha256": "13551531241dc16f29b4f3f3cb2ac05ef30a6e81414b547645efffee9b7def3f",
+      "revised_block_sha256": "b8387a3bb30b00b42db27456b23c140fb2615fbe968f49d890f49f4ab1ea018e",
+      "changed_fields": [
+        "block.source.is_options_feedback",
+        "block.source.options",
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-042"
+      ]
+    },
+    {
+      "step_id": 3394620,
+      "lesson_id": 763642,
+      "module": 4,
+      "module_title": "Основные приёмы программирования на языке С++",
+      "lesson_number": 4,
+      "lesson_title": "Операторы переходов",
+      "position": 8,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/763642/08_3394620_choice.step",
+      "archive_path": "04/04_lesson_763642/08_3394620_choice.step",
+      "step_url": "https://stepik.org/lesson/763642/step/8",
+      "file_sha256": "3c2182bf33a7f1ffe44bbd7faa376c6695d0ac4f6daa474b5f98810855c0d22c",
+      "original_block_sha256": "3f220553d542ed95bb48c7c446db210b992387d79ece0f762934bb07babd1a08",
+      "revised_block_sha256": "2a28773d3e62b09e2e870bf3773de1215c029143aa4565fef5d5434357170522",
+      "changed_fields": [
+        "block.source.is_options_feedback",
+        "block.source.options"
+      ],
+      "finding_ids": [
+        "OAIP-043"
+      ]
+    },
+    {
+      "step_id": 3177566,
+      "lesson_id": 763719,
+      "module": 4,
+      "module_title": "Основные приёмы программирования на языке С++",
+      "lesson_number": 5,
+      "lesson_title": "Операторы циклов",
+      "position": 3,
+      "type": "code",
+      "repository_path": "courses/86957/steps/763719/03_3177566_code.step",
+      "archive_path": "04/05_lesson_763719/03_3177566_code.step",
+      "step_url": "https://stepik.org/lesson/763719/step/3",
+      "file_sha256": "f860fa7064276739d773f956df919aa348e153620cb42a8e11e3638c68039527",
+      "original_block_sha256": "f9ba5cd41232fa67f7564e054131c4ccf1cf944291d33aebba1811b55924edd5",
+      "revised_block_sha256": "6cbbf2a998e80bef975f80ed7738ea0916ab33bf5983e74ac32117eb6678d602",
+      "changed_fields": [
+        "block.options.code_templates.c++",
+        "block.source.code",
+        "block.source.templates_data",
+        "block.source.test_cases",
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-044"
+      ]
+    },
+    {
+      "step_id": 3177789,
+      "lesson_id": 763719,
+      "module": 4,
+      "module_title": "Основные приёмы программирования на языке С++",
+      "lesson_number": 5,
+      "lesson_title": "Операторы циклов",
+      "position": 7,
+      "type": "text",
+      "repository_path": "courses/86957/steps/763719/07_3177789_text.step",
+      "archive_path": "04/05_lesson_763719/07_3177789_text.step",
+      "step_url": "https://stepik.org/lesson/763719/step/7",
+      "file_sha256": "dcff7ded6ed4991a37a91c014c7a34e2b7a423f12ddab256b2fae18af3e556f0",
+      "original_block_sha256": "92548690772cd4399c292c284d167ac7af299a2749e81d27c7f1ac5239aa0ff0",
+      "revised_block_sha256": "1ccaa143f0d35cc928279e9e2d05e038ca5b2ee5031d7e449c9e8a8a0d0085ac",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-035"
+      ]
+    },
+    {
+      "step_id": 3299645,
+      "lesson_id": 763719,
+      "module": 4,
+      "module_title": "Основные приёмы программирования на языке С++",
+      "lesson_number": 5,
+      "lesson_title": "Операторы циклов",
+      "position": 8,
+      "type": "code",
+      "repository_path": "courses/86957/steps/763719/08_3299645_code.step",
+      "archive_path": "04/05_lesson_763719/08_3299645_code.step",
+      "step_url": "https://stepik.org/lesson/763719/step/8",
+      "file_sha256": "6e4aff0609047ab4d2702485a989137b9dd0476eaf9782866cd6d5ad29bc9c6a",
+      "original_block_sha256": "cc4a4b19c1c08252f99a0364f80d945aad79dda4cb3304b4779896d084d2a3ac",
+      "revised_block_sha256": "818e8aced096f4b058b14f09eee210b2932f65577eba653a7b553aa76461967f",
+      "changed_fields": [
+        "block.source.test_cases",
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-045"
+      ]
+    },
+    {
+      "step_id": 4718172,
+      "lesson_id": 763719,
+      "module": 4,
+      "module_title": "Основные приёмы программирования на языке С++",
+      "lesson_number": 5,
+      "lesson_title": "Операторы циклов",
+      "position": 10,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/763719/10_4718172_choice.step",
+      "archive_path": "04/05_lesson_763719/10_4718172_choice.step",
+      "step_url": "https://stepik.org/lesson/763719/step/10",
+      "file_sha256": "b3197e44bcc5cc08921c4d155d8c1d57f4e1a0f231253e936cd9dcc5edf3f6f8",
+      "original_block_sha256": "343a8d15a0529f997f25cf04b97e431df698c4552c4700d1ba466ac2fe27166e",
+      "revised_block_sha256": "b8727b9eed6bef866bd8819c182aca55b26175b5f8e1546a0c5d825bb9abeade",
+      "changed_fields": [
+        "block.source.is_options_feedback",
+        "block.source.options",
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-046"
+      ]
+    },
+    {
+      "step_id": 4718178,
+      "lesson_id": 763719,
+      "module": 4,
+      "module_title": "Основные приёмы программирования на языке С++",
+      "lesson_number": 5,
+      "lesson_title": "Операторы циклов",
+      "position": 11,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/763719/11_4718178_choice.step",
+      "archive_path": "04/05_lesson_763719/11_4718178_choice.step",
+      "step_url": "https://stepik.org/lesson/763719/step/11",
+      "file_sha256": "09bbd1c55a7edd7a713b0c47dac3a63e254d13b1477ce285eaba2ba5b864776c",
+      "original_block_sha256": "ef0e54e7813ac50745a2bef917f258cbbae6e02406acd8e30ed48ecdbbf7f072",
+      "revised_block_sha256": "a84fec13da6f216578a533655740d9bd42899ca37de55d129ce7822bf4c0e1e9",
+      "changed_fields": [
+        "block.source.is_options_feedback",
+        "block.source.options",
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-047"
+      ]
+    },
+    {
+      "step_id": 3212907,
+      "lesson_id": 763644,
+      "module": 5,
+      "module_title": "Статические массивы в языке С++",
+      "lesson_number": 1,
+      "lesson_title": "Одномерные массивы",
+      "position": 3,
+      "type": "text",
+      "repository_path": "courses/86957/steps/763644/03_3212907_text.step",
+      "archive_path": "05/01_lesson_763644/03_3212907_text.step",
+      "step_url": "https://stepik.org/lesson/763644/step/3",
+      "file_sha256": "ce3f9273bc6e4cf8e367431de07e5b15979080cf945a2e02feeb96143ea61611",
+      "original_block_sha256": "8ed0ef7bd183470fcbe98a04d1ad9831e3a3dbefeea5ebeec67ef197fc5bccf4",
+      "revised_block_sha256": "18cb9774a22b5d74be98f3fee3b4dd5e3f4990dd4a26ecdbcb1173a056a67d56",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-048"
+      ]
+    },
+    {
+      "step_id": 3212935,
+      "lesson_id": 763644,
+      "module": 5,
+      "module_title": "Статические массивы в языке С++",
+      "lesson_number": 1,
+      "lesson_title": "Одномерные массивы",
+      "position": 5,
+      "type": "text",
+      "repository_path": "courses/86957/steps/763644/05_3212935_text.step",
+      "archive_path": "05/01_lesson_763644/05_3212935_text.step",
+      "step_url": "https://stepik.org/lesson/763644/step/5",
+      "file_sha256": "4f8c968dfa9eda6d15e7bb3c892c8f630cb7752244a8752b2e37cef09ab5e1f2",
+      "original_block_sha256": "572b9a28dbc673238d55175049769b588af1d52f87166282af4cff819913be08",
+      "revised_block_sha256": "eced89be6d29236b0f9bb9bf96f035bf25b747c583996de076d54a2f842578ec",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-049"
+      ]
+    },
+    {
+      "step_id": 3212920,
+      "lesson_id": 763644,
+      "module": 5,
+      "module_title": "Статические массивы в языке С++",
+      "lesson_number": 1,
+      "lesson_title": "Одномерные массивы",
+      "position": 6,
+      "type": "text",
+      "repository_path": "courses/86957/steps/763644/06_3212920_text.step",
+      "archive_path": "05/01_lesson_763644/06_3212920_text.step",
+      "step_url": "https://stepik.org/lesson/763644/step/6",
+      "file_sha256": "47f6bccb41048cc0a2cdff6df3357dcee3932cd35be2eed1c6c4d7d04c7dba54",
+      "original_block_sha256": "9a0d5950f8ae7783662a90240dd1adf5a191577d0eed4b18ae649a100e94fd3c",
+      "revised_block_sha256": "0c1bf3effb15f73fd0379e16ff8eada9fa665dbd0fe56dbe16bca3741fd359b7",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-050"
+      ]
+    },
+    {
+      "step_id": 3383209,
+      "lesson_id": 763644,
+      "module": 5,
+      "module_title": "Статические массивы в языке С++",
+      "lesson_number": 1,
+      "lesson_title": "Одномерные массивы",
+      "position": 10,
+      "type": "code",
+      "repository_path": "courses/86957/steps/763644/10_3383209_code.step",
+      "archive_path": "05/01_lesson_763644/10_3383209_code.step",
+      "step_url": "https://stepik.org/lesson/763644/step/10",
+      "file_sha256": "8b033d862434088880b36e599473404affc6c94ab2f06f47c845ad56fb39c724",
+      "original_block_sha256": "0f2642390ada4b4dc893d0e7a23cd970a93b026cf4a45c167046bb9a1e05b2f1",
+      "revised_block_sha256": "00b4d765bde1956aaa7b08c9a76daf7ed82ae1c1081382c45cd45a970d969a3c",
+      "changed_fields": [
+        "block.source.test_cases",
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-051"
+      ]
+    },
+    {
+      "step_id": 3177298,
+      "lesson_id": 763646,
+      "module": 5,
+      "module_title": "Статические массивы в языке С++",
+      "lesson_number": 2,
+      "lesson_title": "Многомерные массивы",
+      "position": 2,
+      "type": "text",
+      "repository_path": "courses/86957/steps/763646/02_3177298_text.step",
+      "archive_path": "05/02_lesson_763646/02_3177298_text.step",
+      "step_url": "https://stepik.org/lesson/763646/step/2",
+      "file_sha256": "7b9c8d0e958e5d9825fe5026d9ee3aa231b1e933b84db9610c4da8b67d958a24",
+      "original_block_sha256": "04fcf51368e4b26753bd98c88b10bb17730d3dbd90a3dcb9e9fd39026d0770a1",
+      "revised_block_sha256": "7742eec5a32173ad3a4ce13db0c41c58ceb60339232b5b8d5a7853ef9d7d2298",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-052"
+      ]
+    },
+    {
+      "step_id": 3212928,
+      "lesson_id": 763646,
+      "module": 5,
+      "module_title": "Статические массивы в языке С++",
+      "lesson_number": 2,
+      "lesson_title": "Многомерные массивы",
+      "position": 4,
+      "type": "text",
+      "repository_path": "courses/86957/steps/763646/04_3212928_text.step",
+      "archive_path": "05/02_lesson_763646/04_3212928_text.step",
+      "step_url": "https://stepik.org/lesson/763646/step/4",
+      "file_sha256": "bf80116524cd50d1d1821a92375ac91051a6fe47ab445029fdd5a2824d4fd0ae",
+      "original_block_sha256": "2465b02fd21a0b3ae873cd5e216a3bc5d353111461f438731477e379ee2322d5",
+      "revised_block_sha256": "39c3591573f3cfb60dae7f63088b17034e8d4c3fba762b14b0008a3f9ff1d5a0",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-053"
+      ]
+    },
+    {
+      "step_id": 3212937,
+      "lesson_id": 763646,
+      "module": 5,
+      "module_title": "Статические массивы в языке С++",
+      "lesson_number": 2,
+      "lesson_title": "Многомерные массивы",
+      "position": 5,
+      "type": "text",
+      "repository_path": "courses/86957/steps/763646/05_3212937_text.step",
+      "archive_path": "05/02_lesson_763646/05_3212937_text.step",
+      "step_url": "https://stepik.org/lesson/763646/step/5",
+      "file_sha256": "275f0db870b6852cd1429bd3aeb8ed09da97f8470ba054ee632dd0defcfa172a",
+      "original_block_sha256": "0bff01f950660cc6dc290d183e0ffeab03c5a50a489263bdb013e078846063e4",
+      "revised_block_sha256": "e0ccdcddc35d9dceadec36c96082a90348a7c8abe55559562a40b935ad107580",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-054"
+      ]
+    },
+    {
+      "step_id": 3324082,
+      "lesson_id": 763646,
+      "module": 5,
+      "module_title": "Статические массивы в языке С++",
+      "lesson_number": 2,
+      "lesson_title": "Многомерные массивы",
+      "position": 6,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/763646/06_3324082_choice.step",
+      "archive_path": "05/02_lesson_763646/06_3324082_choice.step",
+      "step_url": "https://stepik.org/lesson/763646/step/6",
+      "file_sha256": "954ff206e96c524f7c21411176cdc0c405396b0491963d85d8b15ed43c070a6d",
+      "original_block_sha256": "735769a79d6626b34e3307769d9f619654334c52845f348511434d20c1f60227",
+      "revised_block_sha256": "2d2c8a8b0b34179fbd946dfcef1e23b27a4ec06a954e5d5843d51ed5142d05ce",
+      "changed_fields": [
+        "block.source.options"
+      ],
+      "finding_ids": [
+        "OAIP-049",
+        "OAIP-052",
+        "OAIP-054"
+      ]
+    },
+    {
+      "step_id": 3330670,
+      "lesson_id": 763646,
+      "module": 5,
+      "module_title": "Статические массивы в языке С++",
+      "lesson_number": 2,
+      "lesson_title": "Многомерные массивы",
+      "position": 7,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/763646/07_3330670_choice.step",
+      "archive_path": "05/02_lesson_763646/07_3330670_choice.step",
+      "step_url": "https://stepik.org/lesson/763646/step/7",
+      "file_sha256": "bb698f33868b84ea86f061dbfb116af68b19acff57df4cc6985333f95470b3fa",
+      "original_block_sha256": "80d2ec2ea1f84d55936018088a07f3be523618cc19f6a05226fe8b0a4b67f1ea",
+      "revised_block_sha256": "345af7e0e603f88b308fd645728974b1d80744b90486ede9c5f0df024152c461",
+      "changed_fields": [
+        "block.source.options"
+      ],
+      "finding_ids": [
+        "OAIP-055",
+        "OAIP-066"
+      ]
+    },
+    {
+      "step_id": 3381234,
+      "lesson_id": 763646,
+      "module": 5,
+      "module_title": "Статические массивы в языке С++",
+      "lesson_number": 2,
+      "lesson_title": "Многомерные массивы",
+      "position": 9,
+      "type": "code",
+      "repository_path": "courses/86957/steps/763646/09_3381234_code.step",
+      "archive_path": "05/02_lesson_763646/09_3381234_code.step",
+      "step_url": "https://stepik.org/lesson/763646/step/9",
+      "file_sha256": "3be40cbbb491f4c44fc4c4dc548c3492f7add2cf36b491d5f0cd8e0bd03665d5",
+      "original_block_sha256": "c789a853a3342aeff2f8e7f49cb611c1538f26197caa31122f875c2891f7bcf2",
+      "revised_block_sha256": "0b6a369887645774d149fb6289be7d35bc3bfed51c8f13efb88ca442a7c4ab96",
+      "changed_fields": [
+        "block.options.samples",
+        "block.source.code",
+        "block.source.test_cases",
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-056"
+      ]
+    },
+    {
+      "step_id": 3212968,
+      "lesson_id": 770585,
+      "module": 6,
+      "module_title": "Указатели в языке С++",
+      "lesson_number": 1,
+      "lesson_title": "Понятие указатель в С++",
+      "position": 2,
+      "type": "text",
+      "repository_path": "courses/86957/steps/770585/02_3212968_text.step",
+      "archive_path": "06/01_lesson_770585/02_3212968_text.step",
+      "step_url": "https://stepik.org/lesson/770585/step/2",
+      "file_sha256": "2b0daa4a561347ba3f92444594a3e5ab0125ca1897234b2b4de4c7c648f30edb",
+      "original_block_sha256": "97c944691918804167a4e4654fa4771bfa1d5694d9fceceff8f7749e49fd17bf",
+      "revised_block_sha256": "e68333c08167ccdcc347d5f6d5b41572dcf590df065be08b42e65272da70e779",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-057"
+      ]
+    },
+    {
+      "step_id": 3212969,
+      "lesson_id": 770585,
+      "module": 6,
+      "module_title": "Указатели в языке С++",
+      "lesson_number": 1,
+      "lesson_title": "Понятие указатель в С++",
+      "position": 3,
+      "type": "text",
+      "repository_path": "courses/86957/steps/770585/03_3212969_text.step",
+      "archive_path": "06/01_lesson_770585/03_3212969_text.step",
+      "step_url": "https://stepik.org/lesson/770585/step/3",
+      "file_sha256": "aaca0885ee4da1f85ef2fcddd82cbe1f05ad65111d67ca574289bdcf56fad1ff",
+      "original_block_sha256": "b6915c4dea17639daef75b9d8a0c001cf144f2e554d83aee14683491a5e7f5f6",
+      "revised_block_sha256": "57ff93d4670b50d79d0d9035da0b59d70cce743a61aef1dfa44546000b27d600",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-058"
+      ]
+    },
+    {
+      "step_id": 3212970,
+      "lesson_id": 770585,
+      "module": 6,
+      "module_title": "Указатели в языке С++",
+      "lesson_number": 1,
+      "lesson_title": "Понятие указатель в С++",
+      "position": 4,
+      "type": "text",
+      "repository_path": "courses/86957/steps/770585/04_3212970_text.step",
+      "archive_path": "06/01_lesson_770585/04_3212970_text.step",
+      "step_url": "https://stepik.org/lesson/770585/step/4",
+      "file_sha256": "a3c5d33ac5350fddab302351291d3c19eb809d066e2f7f4f3f3d62fe0005e12d",
+      "original_block_sha256": "b836a9770d20382bdbe2b5057a68e6b5d39aeb62155b3f5c616ddbf4197de01e",
+      "revised_block_sha256": "96ec7146ea14f4156d7dd27418bab5f82081e6b67be2c1a9d21eed05fc4f4cdc",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-057",
+        "OAIP-059",
+        "OAIP-060"
+      ]
+    },
+    {
+      "step_id": 3212990,
+      "lesson_id": 770585,
+      "module": 6,
+      "module_title": "Указатели в языке С++",
+      "lesson_number": 1,
+      "lesson_title": "Понятие указатель в С++",
+      "position": 5,
+      "type": "text",
+      "repository_path": "courses/86957/steps/770585/05_3212990_text.step",
+      "archive_path": "06/01_lesson_770585/05_3212990_text.step",
+      "step_url": "https://stepik.org/lesson/770585/step/5",
+      "file_sha256": "37bf6ba467280ca7ebae231b13ac9dd5091040c037c5eafe341572649450eece",
+      "original_block_sha256": "d7bfe964e10e1eaddf36e9945a2a8a833a82f70ce0f41566c8123c7a23c2d60c",
+      "revised_block_sha256": "1a6a6ef3298905e1b34a86cced027b51493be6fc6b7cd853761dcfe68db99289",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-061",
+        "OAIP-062",
+        "OAIP-064"
+      ]
+    },
+    {
+      "step_id": 3212991,
+      "lesson_id": 770585,
+      "module": 6,
+      "module_title": "Указатели в языке С++",
+      "lesson_number": 1,
+      "lesson_title": "Понятие указатель в С++",
+      "position": 7,
+      "type": "text",
+      "repository_path": "courses/86957/steps/770585/07_3212991_text.step",
+      "archive_path": "06/01_lesson_770585/07_3212991_text.step",
+      "step_url": "https://stepik.org/lesson/770585/step/7",
+      "file_sha256": "b62cba17a3ac506e1674e0cb812738fc83e85f4fcc2ebe7e76eb7961e7342fa3",
+      "original_block_sha256": "c7504477f9b07f0db5daee03e645866b3232c6a7485fc45378db526e18c9965e",
+      "revised_block_sha256": "c0e8ff21e255207c5aa0da5d9ab0f96944f448b604e6f2e6c36b57d94b7df397",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-063"
+      ]
+    },
+    {
+      "step_id": 3428470,
+      "lesson_id": 770585,
+      "module": 6,
+      "module_title": "Указатели в языке С++",
+      "lesson_number": 1,
+      "lesson_title": "Понятие указатель в С++",
+      "position": 8,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/770585/08_3428470_choice.step",
+      "archive_path": "06/01_lesson_770585/08_3428470_choice.step",
+      "step_url": "https://stepik.org/lesson/770585/step/8",
+      "file_sha256": "20ad0e8594ca2145bbb640e9e58290fffb4d1b71dc51254404ce085ac031b9a8",
+      "original_block_sha256": "428bb850b582ad8fcc308d73e00201c635171dc23c16298ccb66365d02588211",
+      "revised_block_sha256": "c056e8bba1b2b566a307830ab2484abe10f99c16b41c2ff7dc2650b95421b636",
+      "changed_fields": [
+        "block.source.options",
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-061",
+        "OAIP-064"
+      ]
+    },
+    {
+      "step_id": 4717787,
+      "lesson_id": 770585,
+      "module": 6,
+      "module_title": "Указатели в языке С++",
+      "lesson_number": 1,
+      "lesson_title": "Понятие указатель в С++",
+      "position": 13,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/770585/13_4717787_choice.step",
+      "archive_path": "06/01_lesson_770585/13_4717787_choice.step",
+      "step_url": "https://stepik.org/lesson/770585/step/13",
+      "file_sha256": "808aea213e2f59aaee7807e79d30151f932fe6b6dafd9fc68901410dbcb65920",
+      "original_block_sha256": "04b8253ea4e72af5c921f24f9299095d8f9cef897079cd91e49790a8bc94c240",
+      "revised_block_sha256": "ee8a4014d8bdd9d426f3ea7f37febf92340d1339c921905e1bce633a4e664275",
+      "changed_fields": [
+        "block.source.options",
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-065"
+      ]
+    },
+    {
+      "step_id": 3213003,
+      "lesson_id": 770586,
+      "module": 6,
+      "module_title": "Указатели в языке С++",
+      "lesson_number": 2,
+      "lesson_title": "Взаимодействие указателей и массивов",
+      "position": 3,
+      "type": "text",
+      "repository_path": "courses/86957/steps/770586/03_3213003_text.step",
+      "archive_path": "06/02_lesson_770586/03_3213003_text.step",
+      "step_url": "https://stepik.org/lesson/770586/step/3",
+      "file_sha256": "4b27d67ff97dd95e60e34391fbb762202dc74d088c1bbce1758622755081301f",
+      "original_block_sha256": "bb5781f768fdd36f6648db0fd16ba53164a9445d01bb5f7a9ab64f02c04323a2",
+      "revised_block_sha256": "528c9014548d29f9d4f2acdf24a1344473c75d12e8b4678b37c831dded194e1c",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-048",
+        "OAIP-066",
+        "OAIP-067"
+      ]
+    },
+    {
+      "step_id": 3428716,
+      "lesson_id": 770586,
+      "module": 6,
+      "module_title": "Указатели в языке С++",
+      "lesson_number": 2,
+      "lesson_title": "Взаимодействие указателей и массивов",
+      "position": 8,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/770586/08_3428716_choice.step",
+      "archive_path": "06/02_lesson_770586/08_3428716_choice.step",
+      "step_url": "https://stepik.org/lesson/770586/step/8",
+      "file_sha256": "4c46f06e26e4e553f8c17da1e94106d6225d0caf3078922d43914fa6b9667c34",
+      "original_block_sha256": "8e0db7424fc68e817943d3ef6b176ab73f5cf66847e94151aa8f9bdfa6ecd927",
+      "revised_block_sha256": "f4ef51fab94553bd6e3d5f32dccac43548e27e341e151c96bd3c259009675ed9",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-068"
+      ]
+    },
+    {
+      "step_id": 3428845,
+      "lesson_id": 770586,
+      "module": 6,
+      "module_title": "Указатели в языке С++",
+      "lesson_number": 2,
+      "lesson_title": "Взаимодействие указателей и массивов",
+      "position": 11,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/770586/11_3428845_choice.step",
+      "archive_path": "06/02_lesson_770586/11_3428845_choice.step",
+      "step_url": "https://stepik.org/lesson/770586/step/11",
+      "file_sha256": "a813cfacd9e5820bc6018080d6edec952f38ded304e3db27ef9e84f32ef70c99",
+      "original_block_sha256": "6251c4fc7bbc0c8582a8a5b0962168e541b835bb7a458d252152a0c83753f4c8",
+      "revised_block_sha256": "736fb0300f13eaf72ee47b469c8cd43d5dfa2873783b324bed080a7f80113131",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-061",
+        "OAIP-069"
+      ]
+    },
+    {
+      "step_id": 3213208,
+      "lesson_id": 770587,
+      "module": 6,
+      "module_title": "Указатели в языке С++",
+      "lesson_number": 3,
+      "lesson_title": "Динамические массивы в С++",
+      "position": 3,
+      "type": "text",
+      "repository_path": "courses/86957/steps/770587/03_3213208_text.step",
+      "archive_path": "06/03_lesson_770587/03_3213208_text.step",
+      "step_url": "https://stepik.org/lesson/770587/step/3",
+      "file_sha256": "d87482dbc9a0892d96133e53352a99e29e91fc442f3ce57443e334b9e720faac",
+      "original_block_sha256": "45815abe58465188c2dc36ed773b7e10c927c0ec6fc446b8015b632cbf7b31ec",
+      "revised_block_sha256": "dfeae3341569c6e5a857c8b6edfd5dc9c3037e0995579e3872bdbf73ad7182a5",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-070"
+      ]
+    },
+    {
+      "step_id": 3213210,
+      "lesson_id": 770587,
+      "module": 6,
+      "module_title": "Указатели в языке С++",
+      "lesson_number": 3,
+      "lesson_title": "Динамические массивы в С++",
+      "position": 5,
+      "type": "text",
+      "repository_path": "courses/86957/steps/770587/05_3213210_text.step",
+      "archive_path": "06/03_lesson_770587/05_3213210_text.step",
+      "step_url": "https://stepik.org/lesson/770587/step/5",
+      "file_sha256": "b3d1c4316dde5c51c0bcf986fe994cf41fbb8e00d937cb44afd6b7e60c29db86",
+      "original_block_sha256": "f557176a61f062c045700507f0d406d67618f00223a998272a72a34598b63668",
+      "revised_block_sha256": "b9221f7d4df350faa920d2c6fbbb16aa8c519a31a2fbea314f25e9d0994862cd",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-059",
+        "OAIP-071",
+        "OAIP-072",
+        "OAIP-073"
+      ]
+    },
+    {
+      "step_id": 3324316,
+      "lesson_id": 770587,
+      "module": 6,
+      "module_title": "Указатели в языке С++",
+      "lesson_number": 3,
+      "lesson_title": "Динамические массивы в С++",
+      "position": 8,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/770587/08_3324316_choice.step",
+      "archive_path": "06/03_lesson_770587/08_3324316_choice.step",
+      "step_url": "https://stepik.org/lesson/770587/step/8",
+      "file_sha256": "34a3635b15c7d62440cd8c498d2c5beb064cd34bd615349277c1ee02e6cbd9d3",
+      "original_block_sha256": "01d9383d3bd45136bbb3893bd97921007eabd732137ae3e6d3ebcdc676d11b9a",
+      "revised_block_sha256": "5c81f9b2e54b22aaabd6ff37f144e74f51ea79cc4bce6bb838e571392398b5f5",
+      "changed_fields": [
+        "block.source.options",
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-049",
+        "OAIP-073"
+      ]
+    },
+    {
+      "step_id": 3330738,
+      "lesson_id": 770587,
+      "module": 6,
+      "module_title": "Указатели в языке С++",
+      "lesson_number": 3,
+      "lesson_title": "Динамические массивы в С++",
+      "position": 10,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/770587/10_3330738_choice.step",
+      "archive_path": "06/03_lesson_770587/10_3330738_choice.step",
+      "step_url": "https://stepik.org/lesson/770587/step/10",
+      "file_sha256": "679051a2d58d11e071ee1644f63415c764ba5bf5f5e845c5282211dc45bab1b8",
+      "original_block_sha256": "a6567ba70f146f167c8938e3a7d33bcb499e781211ff0542c2d88451436202df",
+      "revised_block_sha256": "ac4d1c0f0af1660e0c8640e62c14acb8cc7a56404e2fccbed5aff6b25b6b9c00",
+      "changed_fields": [
+        "block.source.options"
+      ],
+      "finding_ids": [
+        "OAIP-061",
+        "OAIP-074"
+      ]
+    },
+    {
+      "step_id": 3332379,
+      "lesson_id": 770587,
+      "module": 6,
+      "module_title": "Указатели в языке С++",
+      "lesson_number": 3,
+      "lesson_title": "Динамические массивы в С++",
+      "position": 11,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/770587/11_3332379_choice.step",
+      "archive_path": "06/03_lesson_770587/11_3332379_choice.step",
+      "step_url": "https://stepik.org/lesson/770587/step/11",
+      "file_sha256": "31496de32f320d7ab1e1b45836087588c8cf101e979607cb55c5fbe1e473887d",
+      "original_block_sha256": "9457fd512bc1bc489fdd10ecb22c14fc2b5905d7139fc12d11ce2566ff6afe3d",
+      "revised_block_sha256": "05455dd8a12da2d0a8eebbf2012bb94b2fc14d0987279b56060bcc99a6581f79",
+      "changed_fields": [
+        "block.source.options"
+      ],
+      "finding_ids": [
+        "OAIP-075"
+      ]
+    },
+    {
+      "step_id": 3333775,
+      "lesson_id": 770587,
+      "module": 6,
+      "module_title": "Указатели в языке С++",
+      "lesson_number": 3,
+      "lesson_title": "Динамические массивы в С++",
+      "position": 14,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/770587/14_3333775_choice.step",
+      "archive_path": "06/03_lesson_770587/14_3333775_choice.step",
+      "step_url": "https://stepik.org/lesson/770587/step/14",
+      "file_sha256": "7e4f9ee28231d1274a86d9bd4c1a11f1dd93311705e3843f0510c75ba56ae70c",
+      "original_block_sha256": "b51cf545a7d8ad748d32913928a3dd0f7a56b962a36850a9de97af9c7fb0b849",
+      "revised_block_sha256": "b02fca74aa01d7c7bd571d9f666dcbf1c2a5b396b07e68fb94cb13a6c495147c",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-076"
+      ]
+    },
+    {
+      "step_id": 3214909,
+      "lesson_id": 770590,
+      "module": 7,
+      "module_title": "Использование собственных функций в С++ проектах",
+      "lesson_number": 1,
+      "lesson_title": "Понятие функции в программировании",
+      "position": 2,
+      "type": "text",
+      "repository_path": "courses/86957/steps/770590/02_3214909_text.step",
+      "archive_path": "07/01_lesson_770590/02_3214909_text.step",
+      "step_url": "https://stepik.org/lesson/770590/step/2",
+      "file_sha256": "57f19b31227a59ad49af2a74d8d397e36293b2736794e603b11c32f58de6fdfd",
+      "original_block_sha256": "892441e6c8284f2fbf3b18430e3c9f1944cb061aa78941fedd9b95fab8dd31cc",
+      "revised_block_sha256": "a462dbf343f13d05166a18df8a141f5af1b2516f2aa87a153f5c13efaba3ef2f",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-077",
+        "OAIP-078"
+      ]
+    },
+    {
+      "step_id": 3214910,
+      "lesson_id": 770590,
+      "module": 7,
+      "module_title": "Использование собственных функций в С++ проектах",
+      "lesson_number": 1,
+      "lesson_title": "Понятие функции в программировании",
+      "position": 3,
+      "type": "text",
+      "repository_path": "courses/86957/steps/770590/03_3214910_text.step",
+      "archive_path": "07/01_lesson_770590/03_3214910_text.step",
+      "step_url": "https://stepik.org/lesson/770590/step/3",
+      "file_sha256": "14c3c51abae77623d83133ee0e91ad7d383f2d57bfc33da32702b019a97a9107",
+      "original_block_sha256": "cb2f2f7f3a7be9af62fab8d391d3d2ade1509d27dc334b934bd904fcad674d9f",
+      "revised_block_sha256": "e7cf95de551a0f1683329ac62ceb8af4ec5e217c38f3cabb341482e72a17a3ac",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-078",
+        "OAIP-079",
+        "OAIP-081"
+      ]
+    },
+    {
+      "step_id": 3214911,
+      "lesson_id": 770590,
+      "module": 7,
+      "module_title": "Использование собственных функций в С++ проектах",
+      "lesson_number": 1,
+      "lesson_title": "Понятие функции в программировании",
+      "position": 4,
+      "type": "text",
+      "repository_path": "courses/86957/steps/770590/04_3214911_text.step",
+      "archive_path": "07/01_lesson_770590/04_3214911_text.step",
+      "step_url": "https://stepik.org/lesson/770590/step/4",
+      "file_sha256": "627b86f9ee46677c1815a64f5a06bd0c375bd51ced7d1f2172c2e429f2c3ed11",
+      "original_block_sha256": "fb96583eb63f234b36771b1048099dbcbad851751503193d42fbceb8046182c9",
+      "revised_block_sha256": "8124ac7f33cd0894180163f315a279f4e48ac76b4458b76aef53ec9d142c2a27",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-080"
+      ]
+    },
+    {
+      "step_id": 3404721,
+      "lesson_id": 770590,
+      "module": 7,
+      "module_title": "Использование собственных функций в С++ проектах",
+      "lesson_number": 1,
+      "lesson_title": "Понятие функции в программировании",
+      "position": 5,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/770590/05_3404721_choice.step",
+      "archive_path": "07/01_lesson_770590/05_3404721_choice.step",
+      "step_url": "https://stepik.org/lesson/770590/step/5",
+      "file_sha256": "cc76bafdbef8c45cda2a381c6f56101050a46754ccda5d9f40ed30894bb6504d",
+      "original_block_sha256": "891c199cf2909ae331096a40b28d515a61ad4f3e45cb07beaa75656ced135f0b",
+      "revised_block_sha256": "239709a27b02b7a8cd788f9982ee2b9bdc5f1ed47082747a7b2547e10d6706c2",
+      "changed_fields": [
+        "block.source.options"
+      ],
+      "finding_ids": [
+        "OAIP-077",
+        "OAIP-078",
+        "OAIP-081"
+      ]
+    },
+    {
+      "step_id": 4700299,
+      "lesson_id": 770590,
+      "module": 7,
+      "module_title": "Использование собственных функций в С++ проектах",
+      "lesson_number": 1,
+      "lesson_title": "Понятие функции в программировании",
+      "position": 7,
+      "type": "code",
+      "repository_path": "courses/86957/steps/770590/07_4700299_code.step",
+      "archive_path": "07/01_lesson_770590/07_4700299_code.step",
+      "step_url": "https://stepik.org/lesson/770590/step/7",
+      "file_sha256": "e4c58883efdba6be6d7dd061ee8bee4b5d47a25bb7aeae2fba874f8db2e1c0b0",
+      "original_block_sha256": "59d9a82a6df61120a5c44101d2315ee5e996e1dcb8f48c8489ca5672c95fece3",
+      "revised_block_sha256": "7a96a06f93152808260416465714141008c842d4016ffa7eb58bfed99ff92f4a",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-082"
+      ]
+    },
+    {
+      "step_id": 3212950,
+      "lesson_id": 770591,
+      "module": 7,
+      "module_title": "Использование собственных функций в С++ проектах",
+      "lesson_number": 2,
+      "lesson_title": "Создание функций в С++",
+      "position": 1,
+      "type": "text",
+      "repository_path": "courses/86957/steps/770591/01_3212950_text.step",
+      "archive_path": "07/02_lesson_770591/01_3212950_text.step",
+      "step_url": "https://stepik.org/lesson/770591/step/1",
+      "file_sha256": "821841f847c45761a65f350b992e4a57cb1ec079b52e49187aff4d84be55baef",
+      "original_block_sha256": "7a0001c9c3691145f3d8a0050f87deace57e7d38d61121c68e27df0da8327b37",
+      "revised_block_sha256": "aa40201d85adf0be2b0d4b3af6358490feb8ebb8e06238fa58f405d37ebb54ce",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-083"
+      ]
+    },
+    {
+      "step_id": 3214972,
+      "lesson_id": 770591,
+      "module": 7,
+      "module_title": "Использование собственных функций в С++ проектах",
+      "lesson_number": 2,
+      "lesson_title": "Создание функций в С++",
+      "position": 3,
+      "type": "text",
+      "repository_path": "courses/86957/steps/770591/03_3214972_text.step",
+      "archive_path": "07/02_lesson_770591/03_3214972_text.step",
+      "step_url": "https://stepik.org/lesson/770591/step/3",
+      "file_sha256": "3b090c6c2823d5bdbebf7fcc3ee2925a9729bb77f6e9785b1a05ea9bc9912bf4",
+      "original_block_sha256": "21795f274616f89fc2329c71afa1525ac991714bfea506c02172327adc00fa80",
+      "revised_block_sha256": "85366c49b4f0e7e20c10ed1147436f8042b4c93d850ea84f3b1d1483ccc0e415",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-084"
+      ]
+    },
+    {
+      "step_id": 3215024,
+      "lesson_id": 770591,
+      "module": 7,
+      "module_title": "Использование собственных функций в С++ проектах",
+      "lesson_number": 2,
+      "lesson_title": "Создание функций в С++",
+      "position": 6,
+      "type": "text",
+      "repository_path": "courses/86957/steps/770591/06_3215024_text.step",
+      "archive_path": "07/02_lesson_770591/06_3215024_text.step",
+      "step_url": "https://stepik.org/lesson/770591/step/6",
+      "file_sha256": "55f74cd83988aa3f293af2c311ae541d8b0b58b397f157635021461a169160fd",
+      "original_block_sha256": "a071f88d160c36dcdde3c69bd8804d683526229c1449a226ac44478101f6f388",
+      "revised_block_sha256": "dcec02944fdb7d969ce2db0186c4da1b6805613ac1fc24843221ce62184babd9",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-085"
+      ]
+    },
+    {
+      "step_id": 3404829,
+      "lesson_id": 770591,
+      "module": 7,
+      "module_title": "Использование собственных функций в С++ проектах",
+      "lesson_number": 2,
+      "lesson_title": "Создание функций в С++",
+      "position": 8,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/770591/08_3404829_choice.step",
+      "archive_path": "07/02_lesson_770591/08_3404829_choice.step",
+      "step_url": "https://stepik.org/lesson/770591/step/8",
+      "file_sha256": "d109fa6144e6a990398b4b7f51750911a1cdb490d2275f3d30e6b1fe132fc4a6",
+      "original_block_sha256": "80cb90a3587cd8065dfc38381e3a0d224e73dcef44a4895893d243ac4f6783de",
+      "revised_block_sha256": "b1db5f706d527245cca33f4784bf9654122c9d26ed251af2fe3de5f39af97ebb",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-068"
+      ]
+    },
+    {
+      "step_id": 3384518,
+      "lesson_id": 770591,
+      "module": 7,
+      "module_title": "Использование собственных функций в С++ проектах",
+      "lesson_number": 2,
+      "lesson_title": "Создание функций в С++",
+      "position": 12,
+      "type": "code",
+      "repository_path": "courses/86957/steps/770591/12_3384518_code.step",
+      "archive_path": "07/02_lesson_770591/12_3384518_code.step",
+      "step_url": "https://stepik.org/lesson/770591/step/12",
+      "file_sha256": "3b3e8c3ca5a0c214dd24d36cd5dc9c8d935c1046ff96205506671ec461f82a7e",
+      "original_block_sha256": "2528fe4ecb6ff057640b3d386be1505e3c3209dd5b1a37ac554955db40f91c6f",
+      "revised_block_sha256": "7bc82acec8a0c2f486f0d9e7a9d5a5f2d25966883a5d95282b078621acb9dc46",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-086"
+      ]
+    },
+    {
+      "step_id": 3212951,
+      "lesson_id": 770592,
+      "module": 7,
+      "module_title": "Использование собственных функций в С++ проектах",
+      "lesson_number": 3,
+      "lesson_title": "Структура С++ проекта",
+      "position": 2,
+      "type": "text",
+      "repository_path": "courses/86957/steps/770592/02_3212951_text.step",
+      "archive_path": "07/03_lesson_770592/02_3212951_text.step",
+      "step_url": "https://stepik.org/lesson/770592/step/2",
+      "file_sha256": "6d508d5430a5e126a05c3fcaecc00e2f7eb38d11e2f26d20bac412def441d0ee",
+      "original_block_sha256": "1557553480c0205d1306c7a67355dcd4f1835a5f325c6e6cccb6f2eeaa974790",
+      "revised_block_sha256": "56676998aa48147390b6ddb67eae063559d6b1c4c30050ee3b99520f80200b12",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-087"
+      ]
+    },
+    {
+      "step_id": 3404927,
+      "lesson_id": 770592,
+      "module": 7,
+      "module_title": "Использование собственных функций в С++ проектах",
+      "lesson_number": 3,
+      "lesson_title": "Структура С++ проекта",
+      "position": 4,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/770592/04_3404927_choice.step",
+      "archive_path": "07/03_lesson_770592/04_3404927_choice.step",
+      "step_url": "https://stepik.org/lesson/770592/step/4",
+      "file_sha256": "f6bb38551a554253757addb0e48df1aa9a74a0d430d62142eef648cfd4082e60",
+      "original_block_sha256": "f8450bfa7db6396920b2480201f45047e8c042f3b3ce3ff0122018a21097fa2a",
+      "revised_block_sha256": "25feb54de133b9555a227abb61e4ccad0fc7e808cdf02fb789cee09b95fd5165",
+      "changed_fields": [
+        "block.source.options"
+      ],
+      "finding_ids": [
+        "OAIP-088"
+      ]
+    },
+    {
+      "step_id": 3408471,
+      "lesson_id": 770593,
+      "module": 7,
+      "module_title": "Использование собственных функций в С++ проектах",
+      "lesson_number": 4,
+      "lesson_title": "Программирование библиотек",
+      "position": 7,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/770593/07_3408471_choice.step",
+      "archive_path": "07/04_lesson_770593/07_3408471_choice.step",
+      "step_url": "https://stepik.org/lesson/770593/step/7",
+      "file_sha256": "eaea24d95f687530efb6857a45265979aa386dc6de84b2595322f1784fb5f32c",
+      "original_block_sha256": "aec4b94e5984934a7bf954e3b42b7ae329be9284243546f92c72338a1c76a941",
+      "revised_block_sha256": "2f0060e689b2b8149a6b22e14747b30aabe5ca8e062670744582395762437c3b",
+      "changed_fields": [
+        "block.source.options"
+      ],
+      "finding_ids": [
+        "OAIP-089"
+      ]
+    },
+    {
+      "step_id": 3426151,
+      "lesson_id": 770593,
+      "module": 7,
+      "module_title": "Использование собственных функций в С++ проектах",
+      "lesson_number": 4,
+      "lesson_title": "Программирование библиотек",
+      "position": 8,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/770593/08_3426151_choice.step",
+      "archive_path": "07/04_lesson_770593/08_3426151_choice.step",
+      "step_url": "https://stepik.org/lesson/770593/step/8",
+      "file_sha256": "d24185086c2eedac1b8b9c147e794ac0184a31549be9e71738d16353e8f56e67",
+      "original_block_sha256": "40ac6b049c4d94dd2b2ce207549b1a82a5524184b0bf09f773229410d5527f07",
+      "revised_block_sha256": "3c57d1fe25959e4bd1032bbc32e39201a097609930a36dc939dc99ae28bf6489",
+      "changed_fields": [
+        "block.source.options"
+      ],
+      "finding_ids": [
+        "OAIP-089"
+      ]
+    },
+    {
+      "step_id": 4718299,
+      "lesson_id": 770593,
+      "module": 7,
+      "module_title": "Использование собственных функций в С++ проектах",
+      "lesson_number": 4,
+      "lesson_title": "Программирование библиотек",
+      "position": 11,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/770593/11_4718299_choice.step",
+      "archive_path": "07/04_lesson_770593/11_4718299_choice.step",
+      "step_url": "https://stepik.org/lesson/770593/step/11",
+      "file_sha256": "e6d9ca694bb3a687bd41c2cebb53e6d583cdcbda4290a9eae25540b4c1f4bf5e",
+      "original_block_sha256": "528a96f2ee01738abe2c64feea74c7e4f54dbbc6c6709b74c8c9504597ce4d19",
+      "revised_block_sha256": "28678651af9c682325dacc22be7d8ceb6befd1244c06fd1932bc9926046950c3",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-090"
+      ]
+    },
+    {
+      "step_id": 3252940,
+      "lesson_id": 778425,
+      "module": 8,
+      "module_title": "Тестирование программного обеспечения",
+      "lesson_number": 1,
+      "lesson_title": "Что такое тестирование ПО?",
+      "position": 4,
+      "type": "text",
+      "repository_path": "courses/86957/steps/778425/04_3252940_text.step",
+      "archive_path": "08/01_lesson_778425/04_3252940_text.step",
+      "step_url": "https://stepik.org/lesson/778425/step/4",
+      "file_sha256": "68b3194571f6a286f348d1f6a242b82c5cf795b6f2276473487c550bb48a07a6",
+      "original_block_sha256": "1f1fbe533f541d782184e98036f06dccebf975cea826dd2f6b0c838618bd0391",
+      "revised_block_sha256": "5e2eb56ce8443a40115315bc99ea648ba3f8c9d1cfe1baea40e1695cd752be31",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-091"
+      ]
+    },
+    {
+      "step_id": 4739135,
+      "lesson_id": 778425,
+      "module": 8,
+      "module_title": "Тестирование программного обеспечения",
+      "lesson_number": 1,
+      "lesson_title": "Что такое тестирование ПО?",
+      "position": 8,
+      "type": "code",
+      "repository_path": "courses/86957/steps/778425/08_4739135_code.step",
+      "archive_path": "08/01_lesson_778425/08_4739135_code.step",
+      "step_url": "https://stepik.org/lesson/778425/step/8",
+      "file_sha256": "95eec99e373a696ffd6e68f7c85927eacfe2063b0ce5987d609f6a7a9700a20e",
+      "original_block_sha256": "9f5fa71a90273bea7921bd9f1a532991b7cbfb20f8fa945479f91994419653f8",
+      "revised_block_sha256": "de5144da0dbddc6a0b50045f4846ef5dcb31acf9c6a6749ff15780ce2f1434c2",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-082"
+      ]
+    },
+    {
+      "step_id": 3253129,
+      "lesson_id": 778426,
+      "module": 8,
+      "module_title": "Тестирование программного обеспечения",
+      "lesson_number": 2,
+      "lesson_title": "Unit тесты в С++",
+      "position": 2,
+      "type": "text",
+      "repository_path": "courses/86957/steps/778426/02_3253129_text.step",
+      "archive_path": "08/02_lesson_778426/02_3253129_text.step",
+      "step_url": "https://stepik.org/lesson/778426/step/2",
+      "file_sha256": "e1a72f26c51e11ef1011ec40f175bf891eb9268e621777916fe7340c59b571b1",
+      "original_block_sha256": "d9d888912954861bcd03eff569c54886aa4bd5e1c5d9025189e22b648de13149",
+      "revised_block_sha256": "2fb4d634781be6423a0c95079d662b9563254dac5dac446a01819aa0254fada7",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-092"
+      ]
+    },
+    {
+      "step_id": 3253503,
+      "lesson_id": 778426,
+      "module": 8,
+      "module_title": "Тестирование программного обеспечения",
+      "lesson_number": 2,
+      "lesson_title": "Unit тесты в С++",
+      "position": 5,
+      "type": "text",
+      "repository_path": "courses/86957/steps/778426/05_3253503_text.step",
+      "archive_path": "08/02_lesson_778426/05_3253503_text.step",
+      "step_url": "https://stepik.org/lesson/778426/step/5",
+      "file_sha256": "77264b54c0a2435a41079e4567a950306d8e55c32956b6f45d074b056cd33cf0",
+      "original_block_sha256": "a61431508edd6c5b3f433ba68e61f458995c63cc85207d1d6ebcf919beb0f2aa",
+      "revised_block_sha256": "f698b8376519d580517f29a5a3414c79b2fe31df4969f6981043713c58b382f4",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-093"
+      ]
+    },
+    {
+      "step_id": 3253553,
+      "lesson_id": 778426,
+      "module": 8,
+      "module_title": "Тестирование программного обеспечения",
+      "lesson_number": 2,
+      "lesson_title": "Unit тесты в С++",
+      "position": 7,
+      "type": "text",
+      "repository_path": "courses/86957/steps/778426/07_3253553_text.step",
+      "archive_path": "08/02_lesson_778426/07_3253553_text.step",
+      "step_url": "https://stepik.org/lesson/778426/step/7",
+      "file_sha256": "b1bb2337f63cd1790f0170bffbff295442881b4ec6bb139f5bd69cd8c9ffa654",
+      "original_block_sha256": "6e768ac4621ac627ba33b9054c469c1dfed8646d23bcaaf0c7a6d03e2aa223f6",
+      "revised_block_sha256": "7b26ecc8a0efae508b8cb1beb101a26d98daf31e8c60a646e56022fd744d9757",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-093"
+      ]
+    },
+    {
+      "step_id": 3212947,
+      "lesson_id": 770588,
+      "module": 9,
+      "module_title": "Строки в языке С++",
+      "lesson_number": 1,
+      "lesson_title": "Массив символов как строка",
+      "position": 1,
+      "type": "text",
+      "repository_path": "courses/86957/steps/770588/01_3212947_text.step",
+      "archive_path": "09/01_lesson_770588/01_3212947_text.step",
+      "step_url": "https://stepik.org/lesson/770588/step/1",
+      "file_sha256": "8642a5b5d71c3bdeef75d5c32d423001f15980b915c065b20dc7207b8737c911",
+      "original_block_sha256": "fbbdf1bb75223173b7aa29d92020b7d15c3f2b121a09fc9ba55cbf60dbce1799",
+      "revised_block_sha256": "b8476a8ff0d1a3130c9b8b6b7f8c4128abe6e7f8a02e91c58c67ab7f04db7b85",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-094"
+      ]
+    },
+    {
+      "step_id": 3214845,
+      "lesson_id": 770588,
+      "module": 9,
+      "module_title": "Строки в языке С++",
+      "lesson_number": 1,
+      "lesson_title": "Массив символов как строка",
+      "position": 2,
+      "type": "text",
+      "repository_path": "courses/86957/steps/770588/02_3214845_text.step",
+      "archive_path": "09/01_lesson_770588/02_3214845_text.step",
+      "step_url": "https://stepik.org/lesson/770588/step/2",
+      "file_sha256": "d8c698fc8b584243caf4327acd7b26558fea652a78d2a9a3c189dd06f84320d0",
+      "original_block_sha256": "9937d0b1529446f3b8a734cf9f0fd4dcc03959d7d12fda2719e018d77d9fea57",
+      "revised_block_sha256": "c78e35dee3da717e2e47a15c80a157d7aae4cb4d554a05cd349e44529f8416e5",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-095",
+        "OAIP-096",
+        "OAIP-097"
+      ]
+    },
+    {
+      "step_id": 3408968,
+      "lesson_id": 770588,
+      "module": 9,
+      "module_title": "Строки в языке С++",
+      "lesson_number": 1,
+      "lesson_title": "Массив символов как строка",
+      "position": 4,
+      "type": "fill-blanks",
+      "repository_path": "courses/86957/steps/770588/04_3408968_fill-blanks.step",
+      "archive_path": "09/01_lesson_770588/04_3408968_fill-blanks.step",
+      "step_url": "https://stepik.org/lesson/770588/step/4",
+      "file_sha256": "251cf982ec471b720f7822621a4e2089270f8b09785f91d74d2faaa801596ea7",
+      "original_block_sha256": "488316d963b70e5d0f3e6b7516cceb7a8fb37b7be2a740251e0bd9364dc9765f",
+      "revised_block_sha256": "98bec2098756a2c6ec3eb837ae5b088c057158edb6ad0d029e924cd7543e3619",
+      "changed_fields": [
+        "block.source.components"
+      ],
+      "finding_ids": [
+        "OAIP-097"
+      ]
+    },
+    {
+      "step_id": 3435399,
+      "lesson_id": 770588,
+      "module": 9,
+      "module_title": "Строки в языке С++",
+      "lesson_number": 1,
+      "lesson_title": "Массив символов как строка",
+      "position": 5,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/770588/05_3435399_choice.step",
+      "archive_path": "09/01_lesson_770588/05_3435399_choice.step",
+      "step_url": "https://stepik.org/lesson/770588/step/5",
+      "file_sha256": "543c18d9af7f0da4c16340ed3f37ae5be9284e82c88319d718ed43bb5410cde2",
+      "original_block_sha256": "53fa124897fb58e91594b12b3fcc5e17657c4349d9cc567d3a8b4e3c6f92bab6",
+      "revised_block_sha256": "29a3c2550cd3e126f3ead8b822c136083e059b69c9b8b46e885ef3c22e909e6c",
+      "changed_fields": [
+        "block.source.options"
+      ],
+      "finding_ids": [
+        "OAIP-098"
+      ]
+    },
+    {
+      "step_id": 3214901,
+      "lesson_id": 770589,
+      "module": 9,
+      "module_title": "Строки в языке С++",
+      "lesson_number": 2,
+      "lesson_title": "std::string",
+      "position": 2,
+      "type": "text",
+      "repository_path": "courses/86957/steps/770589/02_3214901_text.step",
+      "archive_path": "09/02_lesson_770589/02_3214901_text.step",
+      "step_url": "https://stepik.org/lesson/770589/step/2",
+      "file_sha256": "eb0aa6bcbaaa5b8eae597988eb15e6053d6a82d5214f33f6575a078c164fb964",
+      "original_block_sha256": "3bd4145f5d5652ec764e9d074492f56696acdcb1c174bf7fa675e058de7d9178",
+      "revised_block_sha256": "0782ba75316a77218fa99206dda6a3ad15108349340c9c0700f247bfa2c45917",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": []
+    },
+    {
+      "step_id": 3214903,
+      "lesson_id": 770589,
+      "module": 9,
+      "module_title": "Строки в языке С++",
+      "lesson_number": 2,
+      "lesson_title": "std::string",
+      "position": 3,
+      "type": "text",
+      "repository_path": "courses/86957/steps/770589/03_3214903_text.step",
+      "archive_path": "09/02_lesson_770589/03_3214903_text.step",
+      "step_url": "https://stepik.org/lesson/770589/step/3",
+      "file_sha256": "b758e38f9d375e381caafe713877c4460d253398af2afeae85c1c5e7e538bbec",
+      "original_block_sha256": "7c4df0c00d17e3967d204cf2c115e0bc6d382df0873b1df9880b5cf7a55e903d",
+      "revised_block_sha256": "65201081d3a65fb00eea511ef9feb2d272a32439ff9f5fd548dd0f1fcc616589",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-099"
+      ]
+    },
+    {
+      "step_id": 3214904,
+      "lesson_id": 770589,
+      "module": 9,
+      "module_title": "Строки в языке С++",
+      "lesson_number": 2,
+      "lesson_title": "std::string",
+      "position": 5,
+      "type": "text",
+      "repository_path": "courses/86957/steps/770589/05_3214904_text.step",
+      "archive_path": "09/02_lesson_770589/05_3214904_text.step",
+      "step_url": "https://stepik.org/lesson/770589/step/5",
+      "file_sha256": "adad52d3524c5572a330c4094592dd81f4e5a825403dbd89e1b9087d28e50ca3",
+      "original_block_sha256": "0f5a82759d88a300a2304850522fc1fe79d884e9d8d712f667d049e03dfbc3ad",
+      "revised_block_sha256": "9efc7ed903d1bb62d0fdb4bba8f25f595d8b6c2be35bdf054e41274bb68930e4",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-100",
+        "OAIP-101"
+      ]
+    },
+    {
+      "step_id": 3437788,
+      "lesson_id": 770589,
+      "module": 9,
+      "module_title": "Строки в языке С++",
+      "lesson_number": 2,
+      "lesson_title": "std::string",
+      "position": 7,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/770589/07_3437788_choice.step",
+      "archive_path": "09/02_lesson_770589/07_3437788_choice.step",
+      "step_url": "https://stepik.org/lesson/770589/step/7",
+      "file_sha256": "9a51f8107a9218949fb5d4817b104cdace811c222b701fb8156614e3b0fa8525",
+      "original_block_sha256": "9744af55817f7f60c78be31e53b57faaceb2e297be7724d825c77995fc5c80d8",
+      "revised_block_sha256": "416f21885bcbe739b4909c9d98b088dadfaa0def51287c0985ae999f9e560d15",
+      "changed_fields": [
+        "block.source.options"
+      ],
+      "finding_ids": [
+        "OAIP-101"
+      ]
+    },
+    {
+      "step_id": 3446002,
+      "lesson_id": 770589,
+      "module": 9,
+      "module_title": "Строки в языке С++",
+      "lesson_number": 2,
+      "lesson_title": "std::string",
+      "position": 8,
+      "type": "code",
+      "repository_path": "courses/86957/steps/770589/08_3446002_code.step",
+      "archive_path": "09/02_lesson_770589/08_3446002_code.step",
+      "step_url": "https://stepik.org/lesson/770589/step/8",
+      "file_sha256": "308f34860a298cf76b5e6c316093760cafddb0bd042b72f0dca1bdd087d56030",
+      "original_block_sha256": "c033e5d87d02c278beedb00c53c644f1e0f3a6fa036bc1c775435c150e4f15f8",
+      "revised_block_sha256": "59b089d3b1efe8dc5b3bad66bfb3d842367c9c01a03de9a1bc0a67bc1ff5ba90",
+      "changed_fields": [
+        "block.source.test_cases"
+      ],
+      "finding_ids": [
+        "OAIP-102",
+        "OAIP-103"
+      ]
+    },
+    {
+      "step_id": 3446094,
+      "lesson_id": 770589,
+      "module": 9,
+      "module_title": "Строки в языке С++",
+      "lesson_number": 2,
+      "lesson_title": "std::string",
+      "position": 9,
+      "type": "code",
+      "repository_path": "courses/86957/steps/770589/09_3446094_code.step",
+      "archive_path": "09/02_lesson_770589/09_3446094_code.step",
+      "step_url": "https://stepik.org/lesson/770589/step/9",
+      "file_sha256": "eb345a641a31457f3474678047ce8584a3acae11fdacaeed5b5b9a68d94690f9",
+      "original_block_sha256": "0188dea27d859e239a70f5921519f05d02de971f5d28259e0c73e4b8af9b5c75",
+      "revised_block_sha256": "c655a2899350aa8ad622d2f5fac5d93aba246a474abe637a8186bb2bdd57bd18",
+      "changed_fields": [
+        "block.source.test_cases"
+      ],
+      "finding_ids": [
+        "OAIP-104"
+      ]
+    },
+    {
+      "step_id": 4717782,
+      "lesson_id": 770589,
+      "module": 9,
+      "module_title": "Строки в языке С++",
+      "lesson_number": 2,
+      "lesson_title": "std::string",
+      "position": 11,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/770589/11_4717782_choice.step",
+      "archive_path": "09/02_lesson_770589/11_4717782_choice.step",
+      "step_url": "https://stepik.org/lesson/770589/step/11",
+      "file_sha256": "8df61a472f173a1df707255b35913e59cbec8bf03f9abd9ee3708d32aa37e894",
+      "original_block_sha256": "f5a63638d9df74db50dbe5546b7e9079817dd9d7f37bb9c50bdcc3d15003bd3a",
+      "revised_block_sha256": "ef775e80d2bc6326172b14b5f9d209319e98275d6116cf0272eca083de581013",
+      "changed_fields": [
+        "block.source.options",
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-094"
+      ]
+    },
+    {
+      "step_id": 4738986,
+      "lesson_id": 770589,
+      "module": 9,
+      "module_title": "Строки в языке С++",
+      "lesson_number": 2,
+      "lesson_title": "std::string",
+      "position": 14,
+      "type": "code",
+      "repository_path": "courses/86957/steps/770589/14_4738986_code.step",
+      "archive_path": "09/02_lesson_770589/14_4738986_code.step",
+      "step_url": "https://stepik.org/lesson/770589/step/14",
+      "file_sha256": "99515199c4a4a2acd379aae18ed7c05276963c0db1d52a4febeb90676532f400",
+      "original_block_sha256": "600d73e44f0fedcd5dba1caad2227a812e90d053c3a2794667faa6b218feaaf4",
+      "revised_block_sha256": "96d785d94ff8e2320d53467de6335f95c36f55ae5dd789e315e17dbd6211f089",
+      "changed_fields": [
+        "block.source.code",
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-105"
+      ]
+    },
+    {
+      "step_id": 3213242,
+      "lesson_id": 770594,
+      "module": 10,
+      "module_title": "Исследование алгоритмов",
+      "lesson_number": 1,
+      "lesson_title": "Big O Notation",
+      "position": 5,
+      "type": "text",
+      "repository_path": "courses/86957/steps/770594/05_3213242_text.step",
+      "archive_path": "10/01_lesson_770594/05_3213242_text.step",
+      "step_url": "https://stepik.org/lesson/770594/step/5",
+      "file_sha256": "07218f2856acb647b13a945e860b2d7bd0fb7673ba165d8bb523b3f08ef4b302",
+      "original_block_sha256": "e133067f8d3a08a554b3a37805d59bc00143ab49945310ec8d45edaae49f4041",
+      "revised_block_sha256": "2e2f6fbd579f07406b5af812f36ec717c79abb56e740f61f3a3a79e4b549a3f7",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-106"
+      ]
+    },
+    {
+      "step_id": 3213247,
+      "lesson_id": 770594,
+      "module": 10,
+      "module_title": "Исследование алгоритмов",
+      "lesson_number": 1,
+      "lesson_title": "Big O Notation",
+      "position": 6,
+      "type": "text",
+      "repository_path": "courses/86957/steps/770594/06_3213247_text.step",
+      "archive_path": "10/01_lesson_770594/06_3213247_text.step",
+      "step_url": "https://stepik.org/lesson/770594/step/6",
+      "file_sha256": "20223687aa07843d57b8c0db48f4d5aeeea6be2ba694c81afc8971a4a4ed131c",
+      "original_block_sha256": "d74cf627cc0a832beb52e5766a6090784cabec3563afae759cf82163b30a3263",
+      "revised_block_sha256": "73de769d8114808ac14cb3d5a4da3ad718f233430bdeceae2f6309462e37d873",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-107"
+      ]
+    },
+    {
+      "step_id": 3213256,
+      "lesson_id": 770594,
+      "module": 10,
+      "module_title": "Исследование алгоритмов",
+      "lesson_number": 1,
+      "lesson_title": "Big O Notation",
+      "position": 8,
+      "type": "text",
+      "repository_path": "courses/86957/steps/770594/08_3213256_text.step",
+      "archive_path": "10/01_lesson_770594/08_3213256_text.step",
+      "step_url": "https://stepik.org/lesson/770594/step/8",
+      "file_sha256": "5b7b9953102b24312b59f2cbefbfc85589bab4d4c4387ed5e2949a47a730b791",
+      "original_block_sha256": "cd068f1f64a789743f639f4a215bbc8d61ed05304a74a4ee24c9de94f9d2aac1",
+      "revised_block_sha256": "c1af2f5fab2359453e4d042411dd92af64943fc6f8c5df4259e7bbbac8199e16",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-108"
+      ]
+    },
+    {
+      "step_id": 3215177,
+      "lesson_id": 770595,
+      "module": 10,
+      "module_title": "Исследование алгоритмов",
+      "lesson_number": 2,
+      "lesson_title": "Сортировки",
+      "position": 7,
+      "type": "text",
+      "repository_path": "courses/86957/steps/770595/07_3215177_text.step",
+      "archive_path": "10/02_lesson_770595/07_3215177_text.step",
+      "step_url": "https://stepik.org/lesson/770595/step/7",
+      "file_sha256": "4cad77986f237b6730aec88a4494086ad81e245ef222808e0cd5f12d4f29ac40",
+      "original_block_sha256": "a4f3e7590eff483d97a914760713a574e9981ca1d4d4e6e30651d5eb038b4e35",
+      "revised_block_sha256": "2bc0082dc4d8044ced7d22a9b47425e1ca493ed862c6d8b60982c7dc2b2db227",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-109"
+      ]
+    },
+    {
+      "step_id": 3215179,
+      "lesson_id": 770595,
+      "module": 10,
+      "module_title": "Исследование алгоритмов",
+      "lesson_number": 2,
+      "lesson_title": "Сортировки",
+      "position": 8,
+      "type": "text",
+      "repository_path": "courses/86957/steps/770595/08_3215179_text.step",
+      "archive_path": "10/02_lesson_770595/08_3215179_text.step",
+      "step_url": "https://stepik.org/lesson/770595/step/8",
+      "file_sha256": "9e3e36fe6dc1d711be31a75bc94e4c7699b45708b7af226fd5af2358b6792111",
+      "original_block_sha256": "97459b1187deb77ebc65c3b27dc885b3b1dd45e15f23379fe7187b3e74f91663",
+      "revised_block_sha256": "3b8cf6785f40b5c284972e9d2d000b33a69b5b8028dd0b12d9679dbe2d092f06",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-110"
+      ]
+    },
+    {
+      "step_id": 3408767,
+      "lesson_id": 770595,
+      "module": 10,
+      "module_title": "Исследование алгоритмов",
+      "lesson_number": 2,
+      "lesson_title": "Сортировки",
+      "position": 9,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/770595/09_3408767_choice.step",
+      "archive_path": "10/02_lesson_770595/09_3408767_choice.step",
+      "step_url": "https://stepik.org/lesson/770595/step/9",
+      "file_sha256": "2af6abf7990d84bb15d0d05790fbfcf3288610f23aa11eb65bd765058641f689",
+      "original_block_sha256": "82c51245bfbfe9f9f4f83b9a5aaeee5a1084fe4fb8aa7cd4ca56e026a9eb985a",
+      "revised_block_sha256": "0b2d69d98799b77e4682d3d8082e45073076696f92f029aa06fb366166fc1ee0",
+      "changed_fields": [
+        "block.source.options",
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-111"
+      ]
+    },
+    {
+      "step_id": 3215192,
+      "lesson_id": 771129,
+      "module": 10,
+      "module_title": "Исследование алгоритмов",
+      "lesson_number": 3,
+      "lesson_title": "Поиск элемента в массиве",
+      "position": 3,
+      "type": "text",
+      "repository_path": "courses/86957/steps/771129/03_3215192_text.step",
+      "archive_path": "10/03_lesson_771129/03_3215192_text.step",
+      "step_url": "https://stepik.org/lesson/771129/step/3",
+      "file_sha256": "c57d53ab0f05f102bebe060fb7896dc36617e86055d36d4b20ea9fd47deac045",
+      "original_block_sha256": "ca31bc0a9c22a233151bb3006424f63574da724a348183ccaa8b3614adc23aa7",
+      "revised_block_sha256": "83f9a3309d80b96beb4aa27089e2a7e14860e98f691a6268e0de7ecbc3ec026c",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-112"
+      ]
+    },
+    {
+      "step_id": 3408864,
+      "lesson_id": 771129,
+      "module": 10,
+      "module_title": "Исследование алгоритмов",
+      "lesson_number": 3,
+      "lesson_title": "Поиск элемента в массиве",
+      "position": 5,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/771129/05_3408864_choice.step",
+      "archive_path": "10/03_lesson_771129/05_3408864_choice.step",
+      "step_url": "https://stepik.org/lesson/771129/step/5",
+      "file_sha256": "f4313651de25a997c57a48cb306b8f2b86118584a3e09ad38da5eae0f80fe5cf",
+      "original_block_sha256": "7c6628df9b6733cc27baa5501780fde8d0fd3a47bd06dd0ead636a9f19029e3f",
+      "revised_block_sha256": "cac4824f8ce72bfbfa81a939b1ef74b41aa5f047317bad62f192d99871afbab6",
+      "changed_fields": [
+        "block.source.options"
+      ],
+      "finding_ids": [
+        "OAIP-113"
+      ]
+    },
+    {
+      "step_id": 3215200,
+      "lesson_id": 771131,
+      "module": 11,
+      "module_title": "Работа с файлами в языке С++",
+      "lesson_number": 1,
+      "lesson_title": "Потоки для работы с файлами",
+      "position": 2,
+      "type": "text",
+      "repository_path": "courses/86957/steps/771131/02_3215200_text.step",
+      "archive_path": "11/01_lesson_771131/02_3215200_text.step",
+      "step_url": "https://stepik.org/lesson/771131/step/2",
+      "file_sha256": "64e2afcf8341d934bb74b1c4dc3c28e9cbbc222b96e569eb6a9ccbc2cdf40be1",
+      "original_block_sha256": "1efa400002b86bdbf8ab46521c0e2cac87a2085ed54c05f30d894cd4eda95981",
+      "revised_block_sha256": "d65c6d4284400fddf5c7ecbfff2fa54844643a8e300d5e9b554617dd88698fb0",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-114",
+        "OAIP-115",
+        "OAIP-116"
+      ]
+    },
+    {
+      "step_id": 3215199,
+      "lesson_id": 771131,
+      "module": 11,
+      "module_title": "Работа с файлами в языке С++",
+      "lesson_number": 1,
+      "lesson_title": "Потоки для работы с файлами",
+      "position": 3,
+      "type": "text",
+      "repository_path": "courses/86957/steps/771131/03_3215199_text.step",
+      "archive_path": "11/01_lesson_771131/03_3215199_text.step",
+      "step_url": "https://stepik.org/lesson/771131/step/3",
+      "file_sha256": "b27fcacf3763373ee6e423195bee2b86fb25024a7e8a58fe09d22151a3f7dda2",
+      "original_block_sha256": "794e458ce998adfe77c4ed91729bf20d9319b7646326c4b242fa453beb45af5b",
+      "revised_block_sha256": "e444bfbab01c98f3d07ddf0b37def9221c7e339dabc49cc128a4dc5126befde7",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-117"
+      ]
+    },
+    {
+      "step_id": 3423807,
+      "lesson_id": 771131,
+      "module": 11,
+      "module_title": "Работа с файлами в языке С++",
+      "lesson_number": 1,
+      "lesson_title": "Потоки для работы с файлами",
+      "position": 5,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/771131/05_3423807_choice.step",
+      "archive_path": "11/01_lesson_771131/05_3423807_choice.step",
+      "step_url": "https://stepik.org/lesson/771131/step/5",
+      "file_sha256": "6114d9c0e6f4698790e43d23094256ca6e43616c1ac95fbbe54b4e5e6ea3ea28",
+      "original_block_sha256": "fcfe1878d226ce2b74802e991190e60b58eec8ae28f10b958f6abc9e8c671826",
+      "revised_block_sha256": "758e91d65bd473aadb2a86d4533b6981f52bd3f44431d7ea9672d922ce897f57",
+      "changed_fields": [
+        "block.source.options"
+      ],
+      "finding_ids": [
+        "OAIP-118",
+        "OAIP-119"
+      ]
+    },
+    {
+      "step_id": 3437886,
+      "lesson_id": 771131,
+      "module": 11,
+      "module_title": "Работа с файлами в языке С++",
+      "lesson_number": 1,
+      "lesson_title": "Потоки для работы с файлами",
+      "position": 6,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/771131/06_3437886_choice.step",
+      "archive_path": "11/01_lesson_771131/06_3437886_choice.step",
+      "step_url": "https://stepik.org/lesson/771131/step/6",
+      "file_sha256": "6d8de4a0d17fc3379872095978c758d21ec16ec228062abfaeafe4ef96297a63",
+      "original_block_sha256": "b20c48444a00296803eadf19eb0e93cc28ac18f4770857e9ba14c842a5d7befe",
+      "revised_block_sha256": "eda3db0743f4ddc929779a8a2ce3c2b1c468e12d764920f2accef3a59361e9a4",
+      "changed_fields": [
+        "block.source.options"
+      ],
+      "finding_ids": [
+        "OAIP-120"
+      ]
+    },
+    {
+      "step_id": 3215203,
+      "lesson_id": 771130,
+      "module": 11,
+      "module_title": "Работа с файлами в языке С++",
+      "lesson_number": 2,
+      "lesson_title": "Хранения данных в файлах",
+      "position": 2,
+      "type": "text",
+      "repository_path": "courses/86957/steps/771130/02_3215203_text.step",
+      "archive_path": "11/02_lesson_771130/02_3215203_text.step",
+      "step_url": "https://stepik.org/lesson/771130/step/2",
+      "file_sha256": "c4c9c49c4841cabf451470e11e416ad315d4809415693ed919858e8ecb9d903c",
+      "original_block_sha256": "27673c765baa57aa317443729a4a452f121f8fa88eb0f6d7d1fcfc50f73ff55e",
+      "revised_block_sha256": "2c335c68610920bfedf4681885bc9c281ef14e965bcad13639fa6afb5b6c84cb",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-121",
+        "OAIP-122"
+      ]
+    },
+    {
+      "step_id": 3212955,
+      "lesson_id": 770596,
+      "module": 12,
+      "module_title": "Типы данных: Структура и Объединение",
+      "lesson_number": 1,
+      "lesson_title": "Тип данных struct",
+      "position": 1,
+      "type": "text",
+      "repository_path": "courses/86957/steps/770596/01_3212955_text.step",
+      "archive_path": "12/01_lesson_770596/01_3212955_text.step",
+      "step_url": "https://stepik.org/lesson/770596/step/1",
+      "file_sha256": "615bbcf26c768ae1caf6eed4e4b2bd1e3932c4eca93ed2b1b1fdf3a3cf69c39d",
+      "original_block_sha256": "0dc691e14b468dd18dcb3335773f089375c58db7e6acbdaa179ebc987b316ce8",
+      "revised_block_sha256": "e64519b008d292c9a7e97d80db07dc3f2dcd80859c9e298283e35449ac84f4b0",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-123"
+      ]
+    },
+    {
+      "step_id": 3215231,
+      "lesson_id": 770596,
+      "module": 12,
+      "module_title": "Типы данных: Структура и Объединение",
+      "lesson_number": 1,
+      "lesson_title": "Тип данных struct",
+      "position": 2,
+      "type": "text",
+      "repository_path": "courses/86957/steps/770596/02_3215231_text.step",
+      "archive_path": "12/01_lesson_770596/02_3215231_text.step",
+      "step_url": "https://stepik.org/lesson/770596/step/2",
+      "file_sha256": "3d3a696135b2f485ebb103f7905239ec704d3226981a7031dca1ebb6b179541e",
+      "original_block_sha256": "934e27ae34c2f9c9abee3c5dd29fa0a3a671e9e3183f06c186d6babb2c98ac1d",
+      "revised_block_sha256": "06a79236c72f6f5eed9f790a53597030d8bb754ce7036503fefc5f1047ae8933",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-123",
+        "OAIP-124"
+      ]
+    },
+    {
+      "step_id": 3215234,
+      "lesson_id": 770596,
+      "module": 12,
+      "module_title": "Типы данных: Структура и Объединение",
+      "lesson_number": 1,
+      "lesson_title": "Тип данных struct",
+      "position": 3,
+      "type": "text",
+      "repository_path": "courses/86957/steps/770596/03_3215234_text.step",
+      "archive_path": "12/01_lesson_770596/03_3215234_text.step",
+      "step_url": "https://stepik.org/lesson/770596/step/3",
+      "file_sha256": "bc745bc22b3dbb3fb280f62689d8ca1bb414cf0edd4803237cddfa3dd9fa6183",
+      "original_block_sha256": "b1857141e3111a8b6e0921c7b9257ba69d10c5f9a4ce7938d3e264696f1d779d",
+      "revised_block_sha256": "f808775bb990b5ed5f21af0ce0b4dfcb8f8842fce865c9fa356089b16302dc6d",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-124"
+      ]
+    },
+    {
+      "step_id": 3215232,
+      "lesson_id": 770596,
+      "module": 12,
+      "module_title": "Типы данных: Структура и Объединение",
+      "lesson_number": 1,
+      "lesson_title": "Тип данных struct",
+      "position": 4,
+      "type": "text",
+      "repository_path": "courses/86957/steps/770596/04_3215232_text.step",
+      "archive_path": "12/01_lesson_770596/04_3215232_text.step",
+      "step_url": "https://stepik.org/lesson/770596/step/4",
+      "file_sha256": "fb7fc517f42246f2aaed0e2065e7d305edd4b1099e592c8b09dec81cfca3c438",
+      "original_block_sha256": "1481a9e37609b394e15bd916fb4156efb8258ec4ee408ab0cb595c24fb5be8ca",
+      "revised_block_sha256": "e99690159917c32e702340272fd4994e2720cd4bff96235591eb45b0b5c24c57",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-124",
+        "OAIP-143"
+      ]
+    },
+    {
+      "step_id": 3215233,
+      "lesson_id": 770596,
+      "module": 12,
+      "module_title": "Типы данных: Структура и Объединение",
+      "lesson_number": 1,
+      "lesson_title": "Тип данных struct",
+      "position": 5,
+      "type": "text",
+      "repository_path": "courses/86957/steps/770596/05_3215233_text.step",
+      "archive_path": "12/01_lesson_770596/05_3215233_text.step",
+      "step_url": "https://stepik.org/lesson/770596/step/5",
+      "file_sha256": "c561ee853be334de3ce956e90f42cd21eceffcb0e2840d2ca443d424b9c2ba8e",
+      "original_block_sha256": "1d285aa4b4b5fdb2e0906a633f7f4847f1ff7a6db32051ab9d8de57d243093ad",
+      "revised_block_sha256": "d4bc65998a98ca44620632d5139410d9386f571fb47ce81fbbc5784c69f95e52",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-124"
+      ]
+    },
+    {
+      "step_id": 3215235,
+      "lesson_id": 770596,
+      "module": 12,
+      "module_title": "Типы данных: Структура и Объединение",
+      "lesson_number": 1,
+      "lesson_title": "Тип данных struct",
+      "position": 6,
+      "type": "text",
+      "repository_path": "courses/86957/steps/770596/06_3215235_text.step",
+      "archive_path": "12/01_lesson_770596/06_3215235_text.step",
+      "step_url": "https://stepik.org/lesson/770596/step/6",
+      "file_sha256": "472e2eadfe9eaa58b493500b6a325adf479f923aa630773b87ef8d33ba86d559",
+      "original_block_sha256": "1672bd4e020726b3315eebc220b5453efe1a909ecdbcbd5f06519c925be45f3e",
+      "revised_block_sha256": "19b081a6e3e6d8da1f9317ef335eee19641197ecc2a339e988ca7610b79e67c3",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-124"
+      ]
+    },
+    {
+      "step_id": 3215236,
+      "lesson_id": 770596,
+      "module": 12,
+      "module_title": "Типы данных: Структура и Объединение",
+      "lesson_number": 1,
+      "lesson_title": "Тип данных struct",
+      "position": 7,
+      "type": "text",
+      "repository_path": "courses/86957/steps/770596/07_3215236_text.step",
+      "archive_path": "12/01_lesson_770596/07_3215236_text.step",
+      "step_url": "https://stepik.org/lesson/770596/step/7",
+      "file_sha256": "f38e8670ba5ad76c743257b114305fe2dedf573e962e2db117c4ed6f37a41099",
+      "original_block_sha256": "3c8d19b103a4d2dbd0ba9529f9f2dc8d58f2aad67de1d1f0b7a9f45833cee101",
+      "revised_block_sha256": "0ec785456c8311932b6b5773b790dc00950cbe92b12bb12fddb0dc29ea562083",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-124"
+      ]
+    },
+    {
+      "step_id": 3216509,
+      "lesson_id": 770596,
+      "module": 12,
+      "module_title": "Типы данных: Структура и Объединение",
+      "lesson_number": 1,
+      "lesson_title": "Тип данных struct",
+      "position": 8,
+      "type": "text",
+      "repository_path": "courses/86957/steps/770596/08_3216509_text.step",
+      "archive_path": "12/01_lesson_770596/08_3216509_text.step",
+      "step_url": "https://stepik.org/lesson/770596/step/8",
+      "file_sha256": "f9538246b3f5c937d757fe4036466ca9eb86fbc9e228f32818b9fd759d813689",
+      "original_block_sha256": "140fddd234ac08ae6a869ec1c976fbed61128cc46cf62f17806fa43dc5a3b3ea",
+      "revised_block_sha256": "b7ecf2e4b0b850ac92a62fe21f6f42fa33bfae9109908c7c538260e055d3fd4f",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-125",
+        "OAIP-129"
+      ]
+    },
+    {
+      "step_id": 3426003,
+      "lesson_id": 770596,
+      "module": 12,
+      "module_title": "Типы данных: Структура и Объединение",
+      "lesson_number": 1,
+      "lesson_title": "Тип данных struct",
+      "position": 10,
+      "type": "fill-blanks",
+      "repository_path": "courses/86957/steps/770596/10_3426003_fill-blanks.step",
+      "archive_path": "12/01_lesson_770596/10_3426003_fill-blanks.step",
+      "step_url": "https://stepik.org/lesson/770596/step/10",
+      "file_sha256": "e9ae517ca9b77d917db3c6735c739bb403781b982447b2ab1bcaa7d5798bdfcd",
+      "original_block_sha256": "6c247034d06e63480dc1c0c10e558ab1d7a588af3683a2beb1c51180a192a4f1",
+      "revised_block_sha256": "8f18d07e448160b6cbb464e80e16ba8efd6563aed94f79b393f9403d6d8b9c4e",
+      "changed_fields": [
+        "block.source.components",
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-126"
+      ]
+    },
+    {
+      "step_id": 3212956,
+      "lesson_id": 770597,
+      "module": 12,
+      "module_title": "Типы данных: Структура и Объединение",
+      "lesson_number": 2,
+      "lesson_title": "Тип данных union",
+      "position": 1,
+      "type": "text",
+      "repository_path": "courses/86957/steps/770597/01_3212956_text.step",
+      "archive_path": "12/02_lesson_770597/01_3212956_text.step",
+      "step_url": "https://stepik.org/lesson/770597/step/1",
+      "file_sha256": "dd4bb9ef3574380702d1408b42a83aeac9891bd3c875341c1000fc37ac6eee79",
+      "original_block_sha256": "152b47966458c6d359c866434ef8505835784bdb5a8587e4c7f4f98046c7bf89",
+      "revised_block_sha256": "49348e1fc0070ff77a763cea59b5ad2850fc9a6052fa2c30ba1a567531d852f0",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-128"
+      ]
+    },
+    {
+      "step_id": 3215243,
+      "lesson_id": 770597,
+      "module": 12,
+      "module_title": "Типы данных: Структура и Объединение",
+      "lesson_number": 2,
+      "lesson_title": "Тип данных union",
+      "position": 2,
+      "type": "text",
+      "repository_path": "courses/86957/steps/770597/02_3215243_text.step",
+      "archive_path": "12/02_lesson_770597/02_3215243_text.step",
+      "step_url": "https://stepik.org/lesson/770597/step/2",
+      "file_sha256": "6ecc5576fddbdcdfaa75e3d57e35a03bef76be3d047ab058cbab1dfe5c3bfab6",
+      "original_block_sha256": "c322b6bd4958e398aedd7496727cd1d7cb877806bb53b186ef8c436e5d4e3849",
+      "revised_block_sha256": "4531e530738969d6e08d62e7ad021251590b0284fb02db4275c59ebe840eba30",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-128"
+      ]
+    },
+    {
+      "step_id": 3215244,
+      "lesson_id": 770597,
+      "module": 12,
+      "module_title": "Типы данных: Структура и Объединение",
+      "lesson_number": 2,
+      "lesson_title": "Тип данных union",
+      "position": 3,
+      "type": "text",
+      "repository_path": "courses/86957/steps/770597/03_3215244_text.step",
+      "archive_path": "12/02_lesson_770597/03_3215244_text.step",
+      "step_url": "https://stepik.org/lesson/770597/step/3",
+      "file_sha256": "656c45e4738e30d9239b90057b77fc3781f5d83ff54132ce4bf63eb1bebd07e4",
+      "original_block_sha256": "73420e4f85658c26f13b1b47d162e232be622451a220d259ffaee3ebdc6506b1",
+      "revised_block_sha256": "4dce83d7174c1dc4d0c4ffc96effa868ec5f2ebd186998ea8377c6e65be8c1a3",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-127"
+      ]
+    },
+    {
+      "step_id": 3426585,
+      "lesson_id": 770597,
+      "module": 12,
+      "module_title": "Типы данных: Структура и Объединение",
+      "lesson_number": 2,
+      "lesson_title": "Тип данных union",
+      "position": 5,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/770597/05_3426585_choice.step",
+      "archive_path": "12/02_lesson_770597/05_3426585_choice.step",
+      "step_url": "https://stepik.org/lesson/770597/step/5",
+      "file_sha256": "b0af1025f71e4e21e60b428ef9942118faf38c7a7361dfd3f11e14cfd795a274",
+      "original_block_sha256": "14d8e1467e39d7b534741791548cff454247e50a6b136355cdf89ced8bab654b",
+      "revised_block_sha256": "0301aaebc0fe9ed5f313dbdb546c20995e62cab9bb799ddceca8c98edc61e76e",
+      "changed_fields": [
+        "block.source.options",
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-128",
+        "OAIP-129"
+      ]
+    },
+    {
+      "step_id": 4718314,
+      "lesson_id": 770597,
+      "module": 12,
+      "module_title": "Типы данных: Структура и Объединение",
+      "lesson_number": 2,
+      "lesson_title": "Тип данных union",
+      "position": 8,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/770597/08_4718314_choice.step",
+      "archive_path": "12/02_lesson_770597/08_4718314_choice.step",
+      "step_url": "https://stepik.org/lesson/770597/step/8",
+      "file_sha256": "3a7164805a46c228935efbe50efa8d9ba0bb6e325ac5cf132776bfb82117d69f",
+      "original_block_sha256": "4e6115e6e19a4966a9551652ad41e49a99f3879c4944fd9647fb18e3683bf6f1",
+      "revised_block_sha256": "c1e66ed153e2e113a76d02366bbafffafe60954fbfbe18581af6c3ccec34f916",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-130"
+      ]
+    },
+    {
+      "step_id": 3668926,
+      "lesson_id": 877082,
+      "module": 13,
+      "module_title": "Классы в языке С++",
+      "lesson_number": 1,
+      "lesson_title": "Понятие класса в языке С++",
+      "position": 1,
+      "type": "text",
+      "repository_path": "courses/86957/steps/877082/01_3668926_text.step",
+      "archive_path": "13/01_lesson_877082/01_3668926_text.step",
+      "step_url": "https://stepik.org/lesson/877082/step/1",
+      "file_sha256": "d5dd8be0730a16864869b7c9016456726d9484b8eac87a4dc3597156759b8063",
+      "original_block_sha256": "4dc7e093f1f5864019ecb122eee47db16a957986ba4f41ecb3e8cb2b24668506",
+      "revised_block_sha256": "02f81dad62a853b924f6de1d2b44710bfb9afdc50ab194b6f37a47308df1872e",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-131"
+      ]
+    },
+    {
+      "step_id": 3668952,
+      "lesson_id": 877082,
+      "module": 13,
+      "module_title": "Классы в языке С++",
+      "lesson_number": 1,
+      "lesson_title": "Понятие класса в языке С++",
+      "position": 2,
+      "type": "text",
+      "repository_path": "courses/86957/steps/877082/02_3668952_text.step",
+      "archive_path": "13/01_lesson_877082/02_3668952_text.step",
+      "step_url": "https://stepik.org/lesson/877082/step/2",
+      "file_sha256": "00a01b9df6f80e259545c7bb9639606dbe69d54bec20dba1d80b1d1d3430cad2",
+      "original_block_sha256": "7b4ad44e0f6e646046b29f79b7f043ab526161fc1b7cbc8bdafb9541572b9165",
+      "revised_block_sha256": "70ab05dba166f59e657e722bf0116bbec7567c6cb6af03f5db2a2a0188481927",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-132",
+        "OAIP-133"
+      ]
+    },
+    {
+      "step_id": 3668953,
+      "lesson_id": 877082,
+      "module": 13,
+      "module_title": "Классы в языке С++",
+      "lesson_number": 1,
+      "lesson_title": "Понятие класса в языке С++",
+      "position": 3,
+      "type": "text",
+      "repository_path": "courses/86957/steps/877082/03_3668953_text.step",
+      "archive_path": "13/01_lesson_877082/03_3668953_text.step",
+      "step_url": "https://stepik.org/lesson/877082/step/3",
+      "file_sha256": "0d3702ffc61b0d6bde1292d2feb84ea2caebbd7d780a35b1fa4994247a7997df",
+      "original_block_sha256": "b8578a8e87679e0d2c4932e3deb1341802a7553257f54d10b7521da29d35a540",
+      "revised_block_sha256": "d8fb3fd5242aa022995a2ce4904601cef7a796e074dea9dfe7d344b52c69ac3c",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-134"
+      ]
+    },
+    {
+      "step_id": 4718091,
+      "lesson_id": 877082,
+      "module": 13,
+      "module_title": "Классы в языке С++",
+      "lesson_number": 1,
+      "lesson_title": "Понятие класса в языке С++",
+      "position": 7,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/877082/07_4718091_choice.step",
+      "archive_path": "13/01_lesson_877082/07_4718091_choice.step",
+      "step_url": "https://stepik.org/lesson/877082/step/7",
+      "file_sha256": "59fba1dbc94d403824429d0c452d1681cd158783a1779d6873201efbf4c4efe9",
+      "original_block_sha256": "ec87694ed772db5a4a075f0a7655839b441191fdb701fc25d4c95578d0be8c95",
+      "revised_block_sha256": "16f4069e98b4dc132e95cc981c3b23d66d5295f73cc66a7c610d237eeb65d207",
+      "changed_fields": [
+        "block.source.options"
+      ],
+      "finding_ids": [
+        "OAIP-135"
+      ]
+    },
+    {
+      "step_id": 3668999,
+      "lesson_id": 877081,
+      "module": 13,
+      "module_title": "Классы в языке С++",
+      "lesson_number": 2,
+      "lesson_title": "Работа с методами в языке С++",
+      "position": 3,
+      "type": "text",
+      "repository_path": "courses/86957/steps/877081/03_3668999_text.step",
+      "archive_path": "13/02_lesson_877081/03_3668999_text.step",
+      "step_url": "https://stepik.org/lesson/877081/step/3",
+      "file_sha256": "6477d835d0a61acb706d43f5f64b6c2de3553843b2d5f18394f7b6dfe7f917c1",
+      "original_block_sha256": "b31d9936c6223ae3f10cc857a34ad4ac9d0dbda3fd049379d65421a98d3f1756",
+      "revised_block_sha256": "631cdec57fcdb47a25a7a94fb3468c5c7277f9d411e098b45f467103c1222197",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-136",
+        "OAIP-137"
+      ]
+    },
+    {
+      "step_id": 3668927,
+      "lesson_id": 877083,
+      "module": 13,
+      "module_title": "Классы в языке С++",
+      "lesson_number": 3,
+      "lesson_title": "Работа с полями класса в языке С++",
+      "position": 1,
+      "type": "text",
+      "repository_path": "courses/86957/steps/877083/01_3668927_text.step",
+      "archive_path": "13/03_lesson_877083/01_3668927_text.step",
+      "step_url": "https://stepik.org/lesson/877083/step/1",
+      "file_sha256": "849c231d95260a39094e313dd4ebc5a73e5cd8dc52ef9cbc8d0cab50faa9d3f7",
+      "original_block_sha256": "d31743bbc47165827c87d86e0ac8ed222c1cd992fcf523fa50848abe1128753c",
+      "revised_block_sha256": "10ab1161286b5ce35ec3a331299c884adc4d2d8e40ad4f1bfefe7825a5da97f2",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-138"
+      ]
+    },
+    {
+      "step_id": 3669140,
+      "lesson_id": 877083,
+      "module": 13,
+      "module_title": "Классы в языке С++",
+      "lesson_number": 3,
+      "lesson_title": "Работа с полями класса в языке С++",
+      "position": 2,
+      "type": "text",
+      "repository_path": "courses/86957/steps/877083/02_3669140_text.step",
+      "archive_path": "13/03_lesson_877083/02_3669140_text.step",
+      "step_url": "https://stepik.org/lesson/877083/step/2",
+      "file_sha256": "377c9ff7cf35b8da13177792d8a79d4bcb488b82e4eb6bde0c732854341ba01f",
+      "original_block_sha256": "c8a4e0090e17fa3ba43e8acbe8e7ee27f923b8248adbd1dc2ebccd088dd1b6fd",
+      "revised_block_sha256": "14fe726ab0e080c0d9acd31470f77e05242b76222007d42a90c2c0c918d434fd",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-139"
+      ]
+    },
+    {
+      "step_id": 3760025,
+      "lesson_id": 897987,
+      "module": 13,
+      "module_title": "Классы в языке С++",
+      "lesson_number": 4,
+      "lesson_title": "Перегрузка операций",
+      "position": 5,
+      "type": "text",
+      "repository_path": "courses/86957/steps/897987/05_3760025_text.step",
+      "archive_path": "13/04_lesson_897987/05_3760025_text.step",
+      "step_url": "https://stepik.org/lesson/897987/step/5",
+      "file_sha256": "25d31a2fb5f2462d708d28492399903cbfa8d7b8f3a0feae477b3dd284e3306b",
+      "original_block_sha256": "9818d982fae3d7a2c2161afdb6e5d010374975ac55aab0fa244188ac534a9b2b",
+      "revised_block_sha256": "11942c95aa0a562c2ccb15bc4bf722fa4eb7f5f2a3c51d04201c5f5c4823bf61",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-140"
+      ]
+    },
+    {
+      "step_id": 3760047,
+      "lesson_id": 897987,
+      "module": 13,
+      "module_title": "Классы в языке С++",
+      "lesson_number": 4,
+      "lesson_title": "Перегрузка операций",
+      "position": 10,
+      "type": "text",
+      "repository_path": "courses/86957/steps/897987/10_3760047_text.step",
+      "archive_path": "13/04_lesson_897987/10_3760047_text.step",
+      "step_url": "https://stepik.org/lesson/897987/step/10",
+      "file_sha256": "28c3ff6952d124372ddc56ee4be9da2cb9436d0b2c81ec1e3f2af2a28baf5b52",
+      "original_block_sha256": "f3573d148ec09f360e61a6f30cb4f57520a5dfc4a264e5f9fd1575b5a155d43d",
+      "revised_block_sha256": "56ee17d7dca882c93727f4ea1967b97d744a29835e06f0faf63aa30a1721c06f",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-141"
+      ]
+    },
+    {
+      "step_id": 3759850,
+      "lesson_id": 877084,
+      "module": 13,
+      "module_title": "Классы в языке С++",
+      "lesson_number": 5,
+      "lesson_title": "Наследование классов в языке С++",
+      "position": 3,
+      "type": "text",
+      "repository_path": "courses/86957/steps/877084/03_3759850_text.step",
+      "archive_path": "13/05_lesson_877084/03_3759850_text.step",
+      "step_url": "https://stepik.org/lesson/877084/step/3",
+      "file_sha256": "9dd6039caa1a62f7434ff2e6b692b2697421ed7266897035fc388b59fdc8f782",
+      "original_block_sha256": "17e7159bb0ae11449f0689949c459a7e260f84b5bc4b7c886a30b861407029f6",
+      "revised_block_sha256": "fa890d9a654cda973afafaf22f7fbe3325a346178a4c20d4ebdc50cedc27d075",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-124",
+        "OAIP-142"
+      ]
+    },
+    {
+      "step_id": 3759851,
+      "lesson_id": 877084,
+      "module": 13,
+      "module_title": "Классы в языке С++",
+      "lesson_number": 5,
+      "lesson_title": "Наследование классов в языке С++",
+      "position": 4,
+      "type": "text",
+      "repository_path": "courses/86957/steps/877084/04_3759851_text.step",
+      "archive_path": "13/05_lesson_877084/04_3759851_text.step",
+      "step_url": "https://stepik.org/lesson/877084/step/4",
+      "file_sha256": "abdaa9daae0f983eb4d702d59267b50c233ea38f67e2153a9b14ef1a5ad345e5",
+      "original_block_sha256": "21e0bb499ff3fc6d21fdd6e7b00446160b5ae40501a415417da0896fe08342e8",
+      "revised_block_sha256": "5c655c51070f653b262e9d2dc2e5a2ec4cf39d058705a82bf39b2acc6e8ae8cc",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-143"
+      ]
+    },
+    {
+      "step_id": 3759914,
+      "lesson_id": 877084,
+      "module": 13,
+      "module_title": "Классы в языке С++",
+      "lesson_number": 5,
+      "lesson_title": "Наследование классов в языке С++",
+      "position": 5,
+      "type": "text",
+      "repository_path": "courses/86957/steps/877084/05_3759914_text.step",
+      "archive_path": "13/05_lesson_877084/05_3759914_text.step",
+      "step_url": "https://stepik.org/lesson/877084/step/5",
+      "file_sha256": "67ee3fb2cb43d220bb7d5cf1067f56b1449691be70f50a1213d4e135d23c9dd3",
+      "original_block_sha256": "43c89a97e7dfc411e2d87e4231c0b7cab6db07e6947cd010092df2a837cbb584",
+      "revised_block_sha256": "5f45f266bd513c6007bebd042045418c3fd94895bba129f66baeb4201c885247",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-144"
+      ]
+    },
+    {
+      "step_id": 4717768,
+      "lesson_id": 877084,
+      "module": 13,
+      "module_title": "Классы в языке С++",
+      "lesson_number": 5,
+      "lesson_title": "Наследование классов в языке С++",
+      "position": 7,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/877084/07_4717768_choice.step",
+      "archive_path": "13/05_lesson_877084/07_4717768_choice.step",
+      "step_url": "https://stepik.org/lesson/877084/step/7",
+      "file_sha256": "e9669927c60cd6ce9c741ccf0f54eb48c7624d95a7f61ba368a27e1eb6bdb259",
+      "original_block_sha256": "e3e96b39f4f6efb2909ecaf41d1f99046ccecc108de5312ff4b4cbd8eb541de5",
+      "revised_block_sha256": "f532b4a411d02e548b1bd456a6b646e04e486937d7c2fcd9a4605733f057e6fa",
+      "changed_fields": [
+        "block.source.options",
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-145"
+      ]
+    },
+    {
+      "step_id": 3569321,
+      "lesson_id": 853532,
+      "module": 14,
+      "module_title": "Продвинутая работа с указателями в С++",
+      "lesson_number": 1,
+      "lesson_title": "Категории : l-value и r-value",
+      "position": 1,
+      "type": "text",
+      "repository_path": "courses/86957/steps/853532/01_3569321_text.step",
+      "archive_path": "14/01_lesson_853532/01_3569321_text.step",
+      "step_url": "https://stepik.org/lesson/853532/step/1",
+      "file_sha256": "3bc438fd5b422c4db225b163461b113abbe020552ff54d09e576919850b336c1",
+      "original_block_sha256": "20b242ffbfd182ad0738550b0e18571562c984246d81837ea889ec7c19cb4bf8",
+      "revised_block_sha256": "3f8425181f8bc4a5e8730ed45cc41c61cefc57f35e0b503d05ad9b106e0a3520",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-146"
+      ]
+    },
+    {
+      "step_id": 3569891,
+      "lesson_id": 853532,
+      "module": 14,
+      "module_title": "Продвинутая работа с указателями в С++",
+      "lesson_number": 1,
+      "lesson_title": "Категории : l-value и r-value",
+      "position": 2,
+      "type": "text",
+      "repository_path": "courses/86957/steps/853532/02_3569891_text.step",
+      "archive_path": "14/01_lesson_853532/02_3569891_text.step",
+      "step_url": "https://stepik.org/lesson/853532/step/2",
+      "file_sha256": "65cffb9653c5fb87014dafb0b75b3b586bff9f739f95804d88b5a5b3cba1b2ed",
+      "original_block_sha256": "834c77ec3c0d91798a05dc476446aba985d48dbac8250f6ca65a87adf209006f",
+      "revised_block_sha256": "c0238cccc8d738b7280bf207932e74f8abe844b572f309c27ff2d244efbb6ee3",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-146"
+      ]
+    },
+    {
+      "step_id": 3569896,
+      "lesson_id": 853532,
+      "module": 14,
+      "module_title": "Продвинутая работа с указателями в С++",
+      "lesson_number": 1,
+      "lesson_title": "Категории : l-value и r-value",
+      "position": 3,
+      "type": "text",
+      "repository_path": "courses/86957/steps/853532/03_3569896_text.step",
+      "archive_path": "14/01_lesson_853532/03_3569896_text.step",
+      "step_url": "https://stepik.org/lesson/853532/step/3",
+      "file_sha256": "e9c2324829b25737c57da2fc8eea74b5c7f0f172872ca4720d3470e3927f465d",
+      "original_block_sha256": "6d533d94557076c5b4cd74b9bacd18bf6e19a83c176fb810a4cc2221af80b208",
+      "revised_block_sha256": "4751263a203e3b6a507c61d4ace5c3f0792b36c478717fcb7f62edd11d819516",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-146"
+      ]
+    },
+    {
+      "step_id": 4718139,
+      "lesson_id": 853532,
+      "module": 14,
+      "module_title": "Продвинутая работа с указателями в С++",
+      "lesson_number": 1,
+      "lesson_title": "Категории : l-value и r-value",
+      "position": 4,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/853532/04_4718139_choice.step",
+      "archive_path": "14/01_lesson_853532/04_4718139_choice.step",
+      "step_url": "https://stepik.org/lesson/853532/step/4",
+      "file_sha256": "125ac4ed223fe2789695b1ccbee7648df204a05c8ba41a7a6856441711e206c0",
+      "original_block_sha256": "4f2d138d32cd2ccce0fc835e72101bcd00b14f76b0b46df737dc53511466b3c7",
+      "revised_block_sha256": "6b4aa4df79d0c14a3212ca7fa91938969c329478287663a6603b2d4c59aad8ed",
+      "changed_fields": [
+        "block.source.options",
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-147"
+      ]
+    },
+    {
+      "step_id": 3569323,
+      "lesson_id": 853534,
+      "module": 14,
+      "module_title": "Продвинутая работа с указателями в С++",
+      "lesson_number": 2,
+      "lesson_title": "Категория : ссылка r-value",
+      "position": 1,
+      "type": "text",
+      "repository_path": "courses/86957/steps/853534/01_3569323_text.step",
+      "archive_path": "14/02_lesson_853534/01_3569323_text.step",
+      "step_url": "https://stepik.org/lesson/853534/step/1",
+      "file_sha256": "0f47d5055eb6e7f23cab211ac3f3fdc3b7b845f1ecfdf4852de76c35b41e5ce4",
+      "original_block_sha256": "6655b6a6c027a66a8faad1dba0819e36012bfe844e90f4426ff0dbe8e750a169",
+      "revised_block_sha256": "13f16da5715205bead0db3726a5217b483ab5d30e4bbbc78667d1437643a05f0",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-146",
+        "OAIP-148"
+      ]
+    },
+    {
+      "step_id": 3569919,
+      "lesson_id": 853534,
+      "module": 14,
+      "module_title": "Продвинутая работа с указателями в С++",
+      "lesson_number": 2,
+      "lesson_title": "Категория : ссылка r-value",
+      "position": 2,
+      "type": "text",
+      "repository_path": "courses/86957/steps/853534/02_3569919_text.step",
+      "archive_path": "14/02_lesson_853534/02_3569919_text.step",
+      "step_url": "https://stepik.org/lesson/853534/step/2",
+      "file_sha256": "d783b30c827e9424e135313bceb4adbb376eb7c4de73ef5e446219a0b246a365",
+      "original_block_sha256": "3cf0ca6a5e9b4ced250dbbce64e03059c624f1b31962709035c64f3e17761684",
+      "revised_block_sha256": "858696284a6c1e95ed61bb5619bc0ced8f571b9e2513334e94124fbe1ba2390a",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-149",
+        "OAIP-150"
+      ]
+    },
+    {
+      "step_id": 3569932,
+      "lesson_id": 853535,
+      "module": 14,
+      "module_title": "Продвинутая работа с указателями в С++",
+      "lesson_number": 3,
+      "lesson_title": "Семантика копирования и перемещения",
+      "position": 2,
+      "type": "text",
+      "repository_path": "courses/86957/steps/853535/02_3569932_text.step",
+      "archive_path": "14/03_lesson_853535/02_3569932_text.step",
+      "step_url": "https://stepik.org/lesson/853535/step/2",
+      "file_sha256": "55503e974c832bcaea71392606a0c0a57247904de08c32d92fd7d9b4e7595879",
+      "original_block_sha256": "441d6aff61f26a6d02803f369526866c0d48b59afea499240e2a4705cd7d6a17",
+      "revised_block_sha256": "5f4e1d6554201b6d29680a4bfc13235e0c0cbd49b5fcf853709588b891676096",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-151"
+      ]
+    },
+    {
+      "step_id": 4040986,
+      "lesson_id": 853535,
+      "module": 14,
+      "module_title": "Продвинутая работа с указателями в С++",
+      "lesson_number": 3,
+      "lesson_title": "Семантика копирования и перемещения",
+      "position": 3,
+      "type": "text",
+      "repository_path": "courses/86957/steps/853535/03_4040986_text.step",
+      "archive_path": "14/03_lesson_853535/03_4040986_text.step",
+      "step_url": "https://stepik.org/lesson/853535/step/3",
+      "file_sha256": "4c3824cbb2f91d8199eac97216b7ca7a1c3eec90ae326af9ffbac53db514e790",
+      "original_block_sha256": "99685d8d248d5b2d0b9c06e8e5653a7b22082a397698ff9379f335173ad473d6",
+      "revised_block_sha256": "51919026d1fb6b588ba03f7c295592809317431210ca643e8509632ea9f80dcf",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-152"
+      ]
+    },
+    {
+      "step_id": 3569325,
+      "lesson_id": 853536,
+      "module": 15,
+      "module_title": "Умные указатели",
+      "lesson_number": 1,
+      "lesson_title": "Unique_ptr",
+      "position": 1,
+      "type": "text",
+      "repository_path": "courses/86957/steps/853536/01_3569325_text.step",
+      "archive_path": "15/01_lesson_853536/01_3569325_text.step",
+      "step_url": "https://stepik.org/lesson/853536/step/1",
+      "file_sha256": "9b926e24afbee1a1fa70659c6b6000edf863b1eed39aaf4b2400f944a3cfab5b",
+      "original_block_sha256": "4d7fdca101c116ebf0e0bd60e80fdd4a0897bd2b67a0f426ac794974c35aca3e",
+      "revised_block_sha256": "3335187ca0402c2f4e5455bde8351f08b837fbb50e7ec61623885721dbd6a38d",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-153"
+      ]
+    },
+    {
+      "step_id": 3569963,
+      "lesson_id": 853536,
+      "module": 15,
+      "module_title": "Умные указатели",
+      "lesson_number": 1,
+      "lesson_title": "Unique_ptr",
+      "position": 3,
+      "type": "text",
+      "repository_path": "courses/86957/steps/853536/03_3569963_text.step",
+      "archive_path": "15/01_lesson_853536/03_3569963_text.step",
+      "step_url": "https://stepik.org/lesson/853536/step/3",
+      "file_sha256": "6eb626335e8ab44adbf2b1eb67d6bccbd8d3d8da54dc1e018390ae54e726d1ba",
+      "original_block_sha256": "e5163406ffc622e7758bd71341ceee7f9db362065e58845148d209eca3e472bd",
+      "revised_block_sha256": "92374dbc74cf5d3b19093b31f149e6e2c5ca2270af4be74110afa139b3ac27e9",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-154"
+      ]
+    },
+    {
+      "step_id": 3570166,
+      "lesson_id": 853536,
+      "module": 15,
+      "module_title": "Умные указатели",
+      "lesson_number": 1,
+      "lesson_title": "Unique_ptr",
+      "position": 4,
+      "type": "text",
+      "repository_path": "courses/86957/steps/853536/04_3570166_text.step",
+      "archive_path": "15/01_lesson_853536/04_3570166_text.step",
+      "step_url": "https://stepik.org/lesson/853536/step/4",
+      "file_sha256": "1edcc4e32c654981ad2569d953c5cc057cc53701f2b18907f6f69b2125168f24",
+      "original_block_sha256": "4e3eb996992bc7399d08f0205ff5633449d4c4f30f32e5b736378940de006cfb",
+      "revised_block_sha256": "21737d8fc2b9eb085ac14155044e3d9ec4a5426da7be1eae10f48325a7f8ac29",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-154"
+      ]
+    },
+    {
+      "step_id": 3569327,
+      "lesson_id": 853537,
+      "module": 15,
+      "module_title": "Умные указатели",
+      "lesson_number": 2,
+      "lesson_title": "Shared_ptr и Weak_ptr",
+      "position": 1,
+      "type": "text",
+      "repository_path": "courses/86957/steps/853537/01_3569327_text.step",
+      "archive_path": "15/02_lesson_853537/01_3569327_text.step",
+      "step_url": "https://stepik.org/lesson/853537/step/1",
+      "file_sha256": "75918789500d7f487b73a34857414e61bd02ffc08b8adf90a322c0cc4afce731",
+      "original_block_sha256": "dc70896da084cf53a37112eea3c669f8a1ae1542404193b53a6f1e08ff642233",
+      "revised_block_sha256": "5338d035e2a5562f3f3034e5b389138bb5c1d5e125f19a43996e1f61f604ec46",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-155"
+      ]
+    },
+    {
+      "step_id": 3570213,
+      "lesson_id": 853537,
+      "module": 15,
+      "module_title": "Умные указатели",
+      "lesson_number": 2,
+      "lesson_title": "Shared_ptr и Weak_ptr",
+      "position": 2,
+      "type": "text",
+      "repository_path": "courses/86957/steps/853537/02_3570213_text.step",
+      "archive_path": "15/02_lesson_853537/02_3570213_text.step",
+      "step_url": "https://stepik.org/lesson/853537/step/2",
+      "file_sha256": "c8514360a44d06fdea90f0e47b0489621f0abeed5006c8be9fcdb7f36cc57276",
+      "original_block_sha256": "e361e91c3d5cc22fa79ea049e1ea95745900cf24a6baf80a8646440cd6ab8be5",
+      "revised_block_sha256": "3691d2c050bd289ddcd32c546a81aa990153a8414842457128253c7695d0d16a",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-155"
+      ]
+    },
+    {
+      "step_id": 4718330,
+      "lesson_id": 853537,
+      "module": 15,
+      "module_title": "Умные указатели",
+      "lesson_number": 2,
+      "lesson_title": "Shared_ptr и Weak_ptr",
+      "position": 3,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/853537/03_4718330_choice.step",
+      "archive_path": "15/02_lesson_853537/03_4718330_choice.step",
+      "step_url": "https://stepik.org/lesson/853537/step/3",
+      "file_sha256": "bcfafdc12864086ed9c59639bf5fe36a795db568981fa63945e8e0f7161b9a0c",
+      "original_block_sha256": "b6c0ad02b44f39b74f51976a421dc99342c8ea07086eba14115411021ea70f5b",
+      "revised_block_sha256": "0a255b98e4a8f1ff87c675187358dec9386c4a462373e5121f8c5bcda604233f",
+      "changed_fields": [
+        "block.source.options",
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-156"
+      ]
+    },
+    {
+      "step_id": 4035524,
+      "lesson_id": 973842,
+      "module": 16,
+      "module_title": "Структуры данных и очереди",
+      "lesson_number": 2,
+      "lesson_title": "Очереди",
+      "position": 1,
+      "type": "text",
+      "repository_path": "courses/86957/steps/973842/01_4035524_text.step",
+      "archive_path": "16/02_lesson_973842/01_4035524_text.step",
+      "step_url": "https://stepik.org/lesson/973842/step/1",
+      "file_sha256": "8b2368f89f1368da9e3802faa892eaba120c483b41cc03a651edf5feb1581a1c",
+      "original_block_sha256": "8fde4f592a149e5e5d050035b9392a26b5b577a1a8ec6f4f6f47926cad734d08",
+      "revised_block_sha256": "f09ca0299e5ba8e51208c719708696e4c40b1b5fa1658b2e8f29e4a33bf62cce",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-157"
+      ]
+    },
+    {
+      "step_id": 4035563,
+      "lesson_id": 973842,
+      "module": 16,
+      "module_title": "Структуры данных и очереди",
+      "lesson_number": 2,
+      "lesson_title": "Очереди",
+      "position": 3,
+      "type": "text",
+      "repository_path": "courses/86957/steps/973842/03_4035563_text.step",
+      "archive_path": "16/02_lesson_973842/03_4035563_text.step",
+      "step_url": "https://stepik.org/lesson/973842/step/3",
+      "file_sha256": "39da123f1c37aaa7a2f18533f616c171682736ce7f8f2af5f03343ca093f0592",
+      "original_block_sha256": "afa7d4e513aaadff9071f564aaa6f5b8cc757f2c2ceb00ac3dc4983b599a9743",
+      "revised_block_sha256": "cb158e4921f5d8fe064edc64a745793dd84c1799402b200b715577036585a37e",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-158"
+      ]
+    },
+    {
+      "step_id": 4036909,
+      "lesson_id": 973842,
+      "module": 16,
+      "module_title": "Структуры данных и очереди",
+      "lesson_number": 2,
+      "lesson_title": "Очереди",
+      "position": 4,
+      "type": "text",
+      "repository_path": "courses/86957/steps/973842/04_4036909_text.step",
+      "archive_path": "16/02_lesson_973842/04_4036909_text.step",
+      "step_url": "https://stepik.org/lesson/973842/step/4",
+      "file_sha256": "20ef67caf7ad158bdb019c4a550d326e2d7e4acb96fa434fc34bf075bb090947",
+      "original_block_sha256": "de6f82f2d9dd5b287e312a72d8ce431b8fca2e4c46ec849eae427935dfde7e8c",
+      "revised_block_sha256": "3802877bdebeb0c822968eded1a00662de33b22603af39edff94687acfc741d1",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-159"
+      ]
+    },
+    {
+      "step_id": 4718289,
+      "lesson_id": 973842,
+      "module": 16,
+      "module_title": "Структуры данных и очереди",
+      "lesson_number": 2,
+      "lesson_title": "Очереди",
+      "position": 5,
+      "type": "choice",
+      "repository_path": "courses/86957/steps/973842/05_4718289_choice.step",
+      "archive_path": "16/02_lesson_973842/05_4718289_choice.step",
+      "step_url": "https://stepik.org/lesson/973842/step/5",
+      "file_sha256": "e396fa920e77e5fba972bffa711824acd21b6eb8ce45b2babead135aa6ab2026",
+      "original_block_sha256": "f45c688cdc5c66d9cd2a371098ce84d0c7356e63ef829976c027bf28860fd398",
+      "revised_block_sha256": "2a49c63b2aaeca2842b88e9b9595af77d21ca23cb357149f805b32239b98c687",
+      "changed_fields": [
+        "block.source.options"
+      ],
+      "finding_ids": [
+        "OAIP-160"
+      ]
+    },
+    {
+      "step_id": 4047616,
+      "lesson_id": 977027,
+      "module": 16,
+      "module_title": "Структуры данных и очереди",
+      "lesson_number": 3,
+      "lesson_title": "Приведение типов",
+      "position": 2,
+      "type": "text",
+      "repository_path": "courses/86957/steps/977027/02_4047616_text.step",
+      "archive_path": "16/03_lesson_977027/02_4047616_text.step",
+      "step_url": "https://stepik.org/lesson/977027/step/2",
+      "file_sha256": "b07c6da1017331c0d1bc76584a8f3c9780b3357e419eca2c694bd3fc724a55d5",
+      "original_block_sha256": "60f1b986f718447befd113737ebf1e74ce3cae77818baee8f5e05c22ed19be0a",
+      "revised_block_sha256": "f6e287c9db43b727ac477acd6291dfc0440ce816747962e29281294e523762f6",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-161"
+      ]
+    },
+    {
+      "step_id": 4047627,
+      "lesson_id": 977027,
+      "module": 16,
+      "module_title": "Структуры данных и очереди",
+      "lesson_number": 3,
+      "lesson_title": "Приведение типов",
+      "position": 3,
+      "type": "text",
+      "repository_path": "courses/86957/steps/977027/03_4047627_text.step",
+      "archive_path": "16/03_lesson_977027/03_4047627_text.step",
+      "step_url": "https://stepik.org/lesson/977027/step/3",
+      "file_sha256": "6a864e83562e453d3a467fa4f61a6c8a6c276d3190879fd28c3db9308d86f6dc",
+      "original_block_sha256": "6175c2448879cc070a43aab41bacf4830a8e8e62cfe79e87f39f2c0d72e17216",
+      "revised_block_sha256": "85a402c80ca3ce906e6c3886a2eafe6ba122921ecace5fbbeff250a8c4d7fde1",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-162"
+      ]
+    },
+    {
+      "step_id": 4047681,
+      "lesson_id": 977027,
+      "module": 16,
+      "module_title": "Структуры данных и очереди",
+      "lesson_number": 3,
+      "lesson_title": "Приведение типов",
+      "position": 5,
+      "type": "text",
+      "repository_path": "courses/86957/steps/977027/05_4047681_text.step",
+      "archive_path": "16/03_lesson_977027/05_4047681_text.step",
+      "step_url": "https://stepik.org/lesson/977027/step/5",
+      "file_sha256": "25fdf7f679a31df71f856cd5b123601069ee61026799bae59a013f0245a3c2af",
+      "original_block_sha256": "fcb919902bb38f0c6e2cbd06c33aee07e5a56cb8da57df0428919913a6302256",
+      "revised_block_sha256": "e17e8d8ca4691dee59950ca485606c6f5f6ed85ce9e8ccc1be61336daaed8715",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-163"
+      ]
+    },
+    {
+      "step_id": 3570230,
+      "lesson_id": 853539,
+      "module": 17,
+      "module_title": "Сбалансированные деревья поиска",
+      "lesson_number": 1,
+      "lesson_title": "Двоичное дерево поиска",
+      "position": 2,
+      "type": "text",
+      "repository_path": "courses/86957/steps/853539/02_3570230_text.step",
+      "archive_path": "17/01_lesson_853539/02_3570230_text.step",
+      "step_url": "https://stepik.org/lesson/853539/step/2",
+      "file_sha256": "726f6beb1c643de419f77153ec9470943718805ad05b4890939a6eca4a23b178",
+      "original_block_sha256": "54eb30d4321a9b29722a289beed046af66ae647d3c6e5a2bb1f865705ed1c27a",
+      "revised_block_sha256": "07c7485529d9a675b1c56b15935a68f8d8fab1a7cc18e79edcf424a4272155b2",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-164"
+      ]
+    },
+    {
+      "step_id": 3570281,
+      "lesson_id": 853540,
+      "module": 17,
+      "module_title": "Сбалансированные деревья поиска",
+      "lesson_number": 2,
+      "lesson_title": "АВЛ-дерево",
+      "position": 2,
+      "type": "text",
+      "repository_path": "courses/86957/steps/853540/02_3570281_text.step",
+      "archive_path": "17/02_lesson_853540/02_3570281_text.step",
+      "step_url": "https://stepik.org/lesson/853540/step/2",
+      "file_sha256": "61f1e79f18bd51a84c1c446b415ba189031549aeda62e140169ff8aaf4d30da6",
+      "original_block_sha256": "0faaf9e3a439566f1a16cbb0bbabc2f60f02c89716be26c4ffc9c4dcaa003052",
+      "revised_block_sha256": "4a6328abcb4fc27838c7f7d9dcc08de534cf30400cf6e99707e64efe0f45b191",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-164",
+        "OAIP-165"
+      ]
+    },
+    {
+      "step_id": 3570303,
+      "lesson_id": 853541,
+      "module": 17,
+      "module_title": "Сбалансированные деревья поиска",
+      "lesson_number": 3,
+      "lesson_title": "Красно-черное дерево",
+      "position": 2,
+      "type": "text",
+      "repository_path": "courses/86957/steps/853541/02_3570303_text.step",
+      "archive_path": "17/03_lesson_853541/02_3570303_text.step",
+      "step_url": "https://stepik.org/lesson/853541/step/2",
+      "file_sha256": "8a3fc2d9bc353c743ced0bddd8474fe27d85c107c9a98e4f736f55e0599d0732",
+      "original_block_sha256": "0d8426a719f45a97da3500bee44b2c2d7299f418cd542526cabb26e56290a427",
+      "revised_block_sha256": "3ca3f0fd4f8b5ad81dea49569a73ef280609514f534d0527b6274269c7250621",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-166"
+      ]
+    },
+    {
+      "step_id": 3570304,
+      "lesson_id": 853541,
+      "module": 17,
+      "module_title": "Сбалансированные деревья поиска",
+      "lesson_number": 3,
+      "lesson_title": "Красно-черное дерево",
+      "position": 3,
+      "type": "text",
+      "repository_path": "courses/86957/steps/853541/03_3570304_text.step",
+      "archive_path": "17/03_lesson_853541/03_3570304_text.step",
+      "step_url": "https://stepik.org/lesson/853541/step/3",
+      "file_sha256": "816070b4cb053df8f6bf12f0db31ec0e7ae80dff8e49f8db188ba1367d955a11",
+      "original_block_sha256": "23a8da3bc682eb64371c4d02b82461aad8da5dd48565a7ad13f0bac3b469339e",
+      "revised_block_sha256": "ead950134fbc34124072e21059a528adc2384422beda8c03a4d9e8b7a19ed202",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-166"
+      ]
+    },
+    {
+      "step_id": 3570333,
+      "lesson_id": 853541,
+      "module": 17,
+      "module_title": "Сбалансированные деревья поиска",
+      "lesson_number": 3,
+      "lesson_title": "Красно-черное дерево",
+      "position": 4,
+      "type": "text",
+      "repository_path": "courses/86957/steps/853541/04_3570333_text.step",
+      "archive_path": "17/03_lesson_853541/04_3570333_text.step",
+      "step_url": "https://stepik.org/lesson/853541/step/4",
+      "file_sha256": "42bc75785e15b75219a9a278f5319dcb046bd0c1182eca8d1a93ef2ca8be73c2",
+      "original_block_sha256": "cabfb9db6e78008f2da74b14bc3a43dbdb8653d24e4fd50eca9fbacc44cd43b3",
+      "revised_block_sha256": "9bcad1e48270a76edfb8b5665a17c5592dca465b0033a4ee36edf2bf0a780fe1",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-166",
+        "OAIP-167"
+      ]
+    },
+    {
+      "step_id": 3570332,
+      "lesson_id": 853541,
+      "module": 17,
+      "module_title": "Сбалансированные деревья поиска",
+      "lesson_number": 3,
+      "lesson_title": "Красно-черное дерево",
+      "position": 5,
+      "type": "text",
+      "repository_path": "courses/86957/steps/853541/05_3570332_text.step",
+      "archive_path": "17/03_lesson_853541/05_3570332_text.step",
+      "step_url": "https://stepik.org/lesson/853541/step/5",
+      "file_sha256": "1a883af6b66890af8320216f69b8584e1604583e49aca437587d29f66e04f8eb",
+      "original_block_sha256": "426ec2badc57bf68a92c0b62b7be47d1774a5db28ed44f4ae4e05da06e76b45a",
+      "revised_block_sha256": "14983299cfc48756de696327626f7bdd590abd7a9d3dcc84b303e6e96eb28686",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-166",
+        "OAIP-168"
+      ]
+    },
+    {
+      "step_id": 4035439,
+      "lesson_id": 973829,
+      "module": 18,
+      "module_title": "Хеш-таблицы",
+      "lesson_number": 1,
+      "lesson_title": "Хеш-таблица, хеш-функция и  коллизии",
+      "position": 1,
+      "type": "text",
+      "repository_path": "courses/86957/steps/973829/01_4035439_text.step",
+      "archive_path": "18/01_lesson_973829/01_4035439_text.step",
+      "step_url": "https://stepik.org/lesson/973829/step/1",
+      "file_sha256": "76b9a12bb2cd871a533de832f00f15c0f02bcdb6bc938dd79911c9e7478fb62f",
+      "original_block_sha256": "c7668d337577c99b301546c4bdbca03dc182c6d38334a2fc93f37a1f74db40a8",
+      "revised_block_sha256": "3cb3173c9d3252bae2403497b92fd004079694a130ba7ab8119f4ac3f920b247",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-082",
+        "OAIP-173"
+      ]
+    },
+    {
+      "step_id": 4035461,
+      "lesson_id": 973829,
+      "module": 18,
+      "module_title": "Хеш-таблицы",
+      "lesson_number": 1,
+      "lesson_title": "Хеш-таблица, хеш-функция и  коллизии",
+      "position": 2,
+      "type": "text",
+      "repository_path": "courses/86957/steps/973829/02_4035461_text.step",
+      "archive_path": "18/01_lesson_973829/02_4035461_text.step",
+      "step_url": "https://stepik.org/lesson/973829/step/2",
+      "file_sha256": "a4712b3b8e176d3af1fece6b5551aede8eaee5df7bb6a85052fe13f8adf153f2",
+      "original_block_sha256": "19e76a7da5959257b0f7bada6c6b481350bad0f8259dc44e746b42dc16029c15",
+      "revised_block_sha256": "277cabdb4ba1edad58b61af043d5bc21c837529a2a99044816f7e8896ee3b14a",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-169"
+      ]
+    },
+    {
+      "step_id": 4035460,
+      "lesson_id": 973829,
+      "module": 18,
+      "module_title": "Хеш-таблицы",
+      "lesson_number": 1,
+      "lesson_title": "Хеш-таблица, хеш-функция и  коллизии",
+      "position": 3,
+      "type": "text",
+      "repository_path": "courses/86957/steps/973829/03_4035460_text.step",
+      "archive_path": "18/01_lesson_973829/03_4035460_text.step",
+      "step_url": "https://stepik.org/lesson/973829/step/3",
+      "file_sha256": "2ca428f73516d9cebab1627722b031ab3c224b3a7480beea8d3c2558da8ee8ba",
+      "original_block_sha256": "c3a81ecac959baf47ffffee6ec40a5cfb7ca8a4da07e1b9132a889b493b19950",
+      "revised_block_sha256": "7541e3c5aaf0113c88f83da2e9f98b818d5e8744765d72d372027179ca597e0a",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-082"
+      ]
+    },
+    {
+      "step_id": 4035443,
+      "lesson_id": 973831,
+      "module": 18,
+      "module_title": "Хеш-таблицы",
+      "lesson_number": 2,
+      "lesson_title": "Реализация хеш-таблиц",
+      "position": 1,
+      "type": "text",
+      "repository_path": "courses/86957/steps/973831/01_4035443_text.step",
+      "archive_path": "18/02_lesson_973831/01_4035443_text.step",
+      "step_url": "https://stepik.org/lesson/973831/step/1",
+      "file_sha256": "04c94bace144dc1f823c8fb42be83acffbcbc132951b11f6b2ef5ea3590c065d",
+      "original_block_sha256": "662c45961b8cbe9d48f2ed0e8a525e78dd211dc6fc97dfe34ac5c90c0a5c1538",
+      "revised_block_sha256": "112b9bab2cb8f2f5a65c99345b845fed90f192aabe6c719b56e4f6ad5e3168d6",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-170"
+      ]
+    },
+    {
+      "step_id": 4035481,
+      "lesson_id": 973831,
+      "module": 18,
+      "module_title": "Хеш-таблицы",
+      "lesson_number": 2,
+      "lesson_title": "Реализация хеш-таблиц",
+      "position": 2,
+      "type": "text",
+      "repository_path": "courses/86957/steps/973831/02_4035481_text.step",
+      "archive_path": "18/02_lesson_973831/02_4035481_text.step",
+      "step_url": "https://stepik.org/lesson/973831/step/2",
+      "file_sha256": "560cc4026a996ea07863bc5f22fd2e1ca29af25dc195a08cccbb2a3e780a671b",
+      "original_block_sha256": "9e5aadb52fa72c8abd458a7c557b157a0a78070efd4e3928d2319e0de7785935",
+      "revised_block_sha256": "71bf3512244c5accc95b41f6158205410bfabf586e7799e99342e7e0af991213",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-170"
+      ]
+    },
+    {
+      "step_id": 4035416,
+      "lesson_id": 973825,
+      "module": 19,
+      "module_title": "std::set и std::map",
+      "lesson_number": 2,
+      "lesson_title": "map и set",
+      "position": 1,
+      "type": "text",
+      "repository_path": "courses/86957/steps/973825/01_4035416_text.step",
+      "archive_path": "19/02_lesson_973825/01_4035416_text.step",
+      "step_url": "https://stepik.org/lesson/973825/step/1",
+      "file_sha256": "22740c5f9d3667640a483e587fae742e6b890e2c892bfc874fceab5668ffe639",
+      "original_block_sha256": "103890cda437e6282fad94203769d3759a5b0352f222460e8acd43fe6f09686b",
+      "revised_block_sha256": "93359275a37977b1bad5f30e246264e7ca3ce4d513c02adabf037efa5cffbfee",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-173"
+      ]
+    },
+    {
+      "step_id": 4035427,
+      "lesson_id": 973825,
+      "module": 19,
+      "module_title": "std::set и std::map",
+      "lesson_number": 2,
+      "lesson_title": "map и set",
+      "position": 2,
+      "type": "text",
+      "repository_path": "courses/86957/steps/973825/02_4035427_text.step",
+      "archive_path": "19/02_lesson_973825/02_4035427_text.step",
+      "step_url": "https://stepik.org/lesson/973825/step/2",
+      "file_sha256": "c5257e961e3af6ead1e9aac9f8c58f27bd87c21c9f3d0dd3319c5ceb74f9e9fe",
+      "original_block_sha256": "bb207c50f057f7fa34e7cb01fa6d1dfd7a47558b64bfedba6e34fefdb9b63d51",
+      "revised_block_sha256": "f2a9851a2d5c46a1fb250c1739536b3d89b8b238df9d565b8d49e7141a0e7a75",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-171",
+        "OAIP-173"
+      ]
+    },
+    {
+      "step_id": 4035417,
+      "lesson_id": 973826,
+      "module": 19,
+      "module_title": "std::set и std::map",
+      "lesson_number": 3,
+      "lesson_title": "Алгоритмическая сложность",
+      "position": 1,
+      "type": "text",
+      "repository_path": "courses/86957/steps/973826/01_4035417_text.step",
+      "archive_path": "19/03_lesson_973826/01_4035417_text.step",
+      "step_url": "https://stepik.org/lesson/973826/step/1",
+      "file_sha256": "9dbe8a0cbda3294fa8c6ecb0077311fe433aca7f9aa366cc02e2d4fa8ca6eb4b",
+      "original_block_sha256": "7244e264f01a96623c767fab6419c2b0f77572a121ba517682419362099425da",
+      "revised_block_sha256": "dbda155808373025c2ad353afeb01e8d71cb23d0bb7eda84ab18af0038b74d6f",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-172",
+        "OAIP-173"
+      ]
+    },
+    {
+      "step_id": 4035430,
+      "lesson_id": 973826,
+      "module": 19,
+      "module_title": "std::set и std::map",
+      "lesson_number": 3,
+      "lesson_title": "Алгоритмическая сложность",
+      "position": 2,
+      "type": "text",
+      "repository_path": "courses/86957/steps/973826/02_4035430_text.step",
+      "archive_path": "19/03_lesson_973826/02_4035430_text.step",
+      "step_url": "https://stepik.org/lesson/973826/step/2",
+      "file_sha256": "85b5f606c389dbd7726d7b818d6242ed8c25ee808113bb5e943b1a7583ba070b",
+      "original_block_sha256": "a35f47ecf82a937182407ccaf1cb24c032fd952f4dd99367aa2cb8a7388efe96",
+      "revised_block_sha256": "add80b6c4f32cf1e118dd11a9de8adff14e22a26a6896f1cba79c791878007a7",
+      "changed_fields": [
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-173"
+      ]
+    },
+    {
+      "step_id": 5850209,
+      "lesson_id": 1409621,
+      "module": 20,
+      "module_title": "Задачник",
+      "lesson_number": 1,
+      "lesson_title": "Первый уровень",
+      "position": 1,
+      "type": "code",
+      "repository_path": "courses/86957/steps/1409621/01_5850209_code.step",
+      "archive_path": "20/01_lesson_1409621/01_5850209_code.step",
+      "step_url": "https://stepik.org/lesson/1409621/step/1",
+      "file_sha256": "06797211e779565b354c81947efd69f35342f1685f4ce860d5ffc08d8ab782d4",
+      "original_block_sha256": "6eb04cd6efb635e8a6bf5c3b854c6a2749b375f62310263d6e7af11ef28d2940",
+      "revised_block_sha256": "e551d9a502ec58dddb5d3eef96a00f8eab959e9ffe4bc2d2f55899128d557b31",
+      "changed_fields": [
+        "block.options.samples",
+        "block.source.test_cases",
+        "block.text"
+      ],
+      "finding_ids": [
+        "OAIP-174"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,792 @@
+{
+  "source_bundle": "courses/86957/course.json",
+  "source_bundle_sha256": "b78c06f34d19d3b7bd817348233ceecc15f34e45571270b5732441baf08c41b0",
+  "baseline_export_time": "2026-11-22T18:35:40Z",
+  "audit_source_commit": "6ecd4375ed2c4730feacd54f3be5b36670eb3ffe",
+  "mode": "structural_only",
+  "finding_count": 61,
+  "changed_step_count": 69,
+  "compiled_case_count": 0,
+  "passed": 155,
+  "failed": 0,
+  "results": [
+    {
+      "name": "finding_coverage",
+      "status": "passed",
+      "detail": "61/61; extra=['OAIP-082']"
+    },
+    {
+      "name": "metadata_3212955",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3212955",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3212956",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3212956",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3215199",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3215199",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3215200",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3215200",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3215203",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3215203",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3215231",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3215231",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3215232",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3215232",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3215233",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3215233",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3215234",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3215234",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3215235",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3215235",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3215236",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3215236",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3215243",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3215243",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3215244",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3215244",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3216509",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3216509",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3423807",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3423807",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "choice_shape_3423807",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3426003",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3426003",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3426585",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3426585",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "choice_shape_3426585",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3437886",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3437886",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "choice_shape_3437886",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3569321",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3569321",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3569323",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3569323",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3569325",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3569325",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3569327",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3569327",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3569891",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3569891",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3569896",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3569896",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3569919",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3569919",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3569932",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3569932",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3569963",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3569963",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3570166",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3570166",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3570213",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3570213",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3570230",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3570230",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3570281",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3570281",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3570303",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3570303",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3570304",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3570304",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3570332",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3570332",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3570333",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3570333",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3668926",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3668926",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3668927",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3668927",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3668952",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3668952",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3668953",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3668953",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3668999",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3668999",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3669140",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3669140",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3759850",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3759850",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3759851",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3759851",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3759914",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3759914",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3760025",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3760025",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3760047",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3760047",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_4035416",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_4035416",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_4035417",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_4035417",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_4035427",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_4035427",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_4035430",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_4035430",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_4035439",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_4035439",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_4035443",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_4035443",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_4035460",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_4035460",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_4035461",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_4035461",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_4035481",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_4035481",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_4035524",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_4035524",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_4035563",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_4035563",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_4036909",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_4036909",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_4040986",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_4040986",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_4047616",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_4047616",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_4047627",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_4047627",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_4047681",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_4047681",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_4717768",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_4717768",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "choice_shape_4717768",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_4718091",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_4718091",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "choice_shape_4718091",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_4718139",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_4718139",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "choice_shape_4718139",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_4718289",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_4718289",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "choice_shape_4718289",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_4718314",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_4718314",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "choice_shape_4718314",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_4718330",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_4718330",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "choice_shape_4718330",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_5850209",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_5850209",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "size_answers_3426003",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "operator_index_key",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "weak_question_key",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "control_U0002_removed",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "wrong_images_replaced",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "yaml_cases_only_lowercase_key_changed",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "yaml_no_uppercase_iitp",
+      "status": "passed",
+      "detail": ""
+    }
+  ],
+  "limits": [
+    "Only baseline loading, metadata, edited blocks, choice keys and data synchronization were checked. No C++ compiler or executable was launched."
+  ]
+}

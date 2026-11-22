@@ -1,7 +1,7 @@
 {
   "block": {
     "name": "choice",
-    "text": "<p>Выберите правильные утверждения</p>",
+    "text": "<p>Выберите правильные утверждения для <strong>C++20 и ASCII-совместимой кодировки исполнения</strong>. Необходимые заголовки подключены. Каждая запись рассматривается отдельно.</p>",
     "video": null,
     "options": {
       "is_multiple_choice": true
@@ -14,57 +14,57 @@
       "sample_size": 10,
       "preserve_order": false,
       "is_html_enabled": true,
-      "is_options_feedback": false,
+      "is_options_feedback": true,
       "options": [
         {
           "is_correct": true,
-          "text": "double x, y = 5, z; - корректная запись.",
+          "text": "double x, y = 5, z; — корректное объявление.",
+          "feedback": "Явно инициализирована только y; начальные значения x и z зависят от времени хранения."
+        },
+        {
+          "is_correct": true,
+          "text": "std::cout &lt;&lt; char(119); выводит символ w.",
+          "feedback": "Код 119 соответствует w в заданной ASCII-совместимой кодировке."
+        },
+        {
+          "is_correct": false,
+          "text": "int 1one = 1; — корректное объявление.",
+          "feedback": "Идентификатор не может начинаться с цифры."
+        },
+        {
+          "is_correct": false,
+          "text": "Локальная автоматическая переменная int x; без инициализатора гарантированно равна нулю.",
+          "feedback": "Перед чтением ей нужно задать значение."
+        },
+        {
+          "is_correct": false,
+          "text": "C++ не различает регистр букв в идентификаторах.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "void x = 46; — корректное определение переменной.",
           "feedback": ""
         },
         {
           "is_correct": true,
-          "text": "std::cout << char(119); - выведет w;",
+          "text": "char d = 119; — корректная инициализация.",
           "feedback": ""
         },
         {
           "is_correct": false,
-          "text": "int 1one = 1; - корректная запись.",
-          "feedback": "Имена переменных не могут начинаться с цифры."
-        },
-        {
-          "is_correct": false,
-          "text": "Переменная типа int по умолчанию равна 0.",
-          "feedback": "Переменная типа int по умолчанию может быть не равна 0 (локальные переменные)."
-        },
-        {
-          "is_correct": false,
-          "text": "С++ регистронезависмый.",
-          "feedback": "С++ регистрозависимый."
-        },
-        {
-          "is_correct": false,
-          "text": "void x = 46; - корректная запись.",
-          "feedback": "переменную типа void нельзя определить."
+          "text": "std::cout &lt;&lt; wchar_t(119); корректно выводит символ w в C++20.",
+          "feedback": "В C++20 соответствующая перегрузка cout удалена. Используйте wcout для широкого символа или явное числовое преобразование для вывода кода."
         },
         {
           "is_correct": true,
-          "text": "char d = 119; - корректная запись.",
-          "feedback": "char можно задавать числом."
+          "text": "Глобальная переменная double x; без явного инициализатора имеет значение 0.0.",
+          "feedback": ""
         },
         {
           "is_correct": false,
-          "text": "std::cout << wchar_t(119); - выведет w.",
-          "feedback": "cout выведет на консоль число, а не букву при использовании wchar_t."
-        },
-        {
-          "is_correct": true,
-          "text": "double x; Пусть x определено в глобально. Значение x - false. ",
-          "feedback": "Значение double по умолчанию - false (переменная не локальная)."
-        },
-        {
-          "is_correct": false,
-          "text": "unsigned double g = -3.14; - корректная запись.",
-          "feedback": "Нет unsigned double."
+          "text": "unsigned double g = -3.14; — корректная запись.",
+          "feedback": "Типа unsigned double нет."
         }
       ]
     },

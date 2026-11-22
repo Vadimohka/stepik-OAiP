@@ -1,0 +1,651 @@
+[
+  {
+    "finding_id": "OAIP-082",
+    "changed_step_ids": [
+      4035439,
+      4035460
+    ],
+    "summary": "Удалён управляющий U+0002 из текста о хеш-функции и коллизиях.",
+    "validation": "После замены U+0002 отсутствует в обоих block.text; основной пункт закрывается совместно с агентом core.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-114",
+    "changed_step_ids": [
+      3215200
+    ],
+    "summary": "Третий файл открывает out3.",
+    "validation": "Проверено имя потока и отсутствие повторного open уже открытого out2.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-115",
+    "changed_step_ids": [
+      3215200
+    ],
+    "summary": "Уточнены in/out/app и режимы, автоматически добавляемые ifstream/ofstream.",
+    "validation": "Сверено с таблицей basic_filebuf::open; связанный шаг3580923 уже описывает in|out и trunc правильно и не требует изменения.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-116",
+    "changed_step_ids": [
+      3215200
+    ],
+    "summary": "Убрано обязательное -static; приведена обычная команда C++20.",
+    "validation": "Файловые проверки аудита собраны без -static.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-117",
+    "changed_step_ids": [
+      3215199
+    ],
+    "summary": "Открытие FILE* заменено рабочим fopen, проверкой записи и fclose.",
+    "validation": "GCC14.2/C++17: полный пример3215199 собран и выполнен, запись и fclose успешны.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-118",
+    "changed_step_ids": [
+      3423807
+    ],
+    "summary": "Исправлены два противоположных ключа и уточнён режим создания файла.",
+    "validation": "fstream без режима использует in|out и не создаёт отсутствующий файл; подтверждено безопасным repro аудита.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-119",
+    "changed_step_ids": [
+      3423807
+    ],
+    "summary": "Единица результата fread/fwrite исправлена на элементы.",
+    "validation": "Связанный шаг3215199 уже правильно описывает результат как число элементов; ключ true сохранён.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-120",
+    "changed_step_ids": [
+      3437886
+    ],
+    "summary": "Вариант ответа точно описывает возвращаемую ostream& при вставке int.",
+    "validation": "Ключ true согласован с decltype(ofstream& << 42).",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-121",
+    "changed_step_ids": [
+      3215203
+    ],
+    "summary": "Обновление счётчика читает значение, проверяет ошибки и переполнение, позиционируется и записывает обратно.",
+    "validation": "GCC14.2/C++17 и C++20: file_counter читает5, записывает6, отвергает INT_MAX и nullptr; все проверки успешны.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-122",
+    "changed_step_ids": [
+      3215203
+    ],
+    "summary": "Убраны числовые определения SEEK_*, уточнён ненулевой код ошибки fseek и исправлено имя fl.",
+    "validation": "Проверены константы, ftell(fl), обработка ошибок позиционирования.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-123",
+    "changed_step_ids": [
+      3212955,
+      3215231
+    ],
+    "summary": "Разделены правила C и C++; typedef описан как псевдоним, public для struct — как доступ по умолчанию.",
+    "validation": "GCC14.2/C++17: полный пример point_t/Point успешно собран и выполнен; Node используется в скомпилированном BST/AVL-коде.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-124",
+    "changed_step_ids": [
+      3215231,
+      3215232,
+      3215233,
+      3215234,
+      3215235,
+      3215236,
+      3759850
+    ],
+    "summary": "Убраны conio/getch и void main; литеральные строки имеют const char*. Пример C явно подписан; параметры наследования исправляются в пакете модуля13.",
+    "validation": "GCC14.2/C++17: исправленные полные примеры структур и3759850 собраны и выполнены. Намеренный aliasing-пример не запускался.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-125",
+    "changed_step_ids": [
+      3216509
+    ],
+    "summary": "Исправлены допустимые типы/ширины битовых полей, размер объекта и безопасное изучение представления.",
+    "validation": "GCC14.2/C++17: безопасный memcpy-пример битовых полей собран и выполнен; чтение неактивного union удалено.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-126",
+    "changed_step_ids": [
+      3426003
+    ],
+    "summary": "Указаны ABI, размеры и выравнивания; ключи исправлены на8,8,22,22; pack заключён в push/pop.",
+    "validation": "abi_sizes: static_assert прошли в C++17 и C++20 для8/8/22/22, размеров и выравниваний ABI.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-127",
+    "changed_step_ids": [
+      3215244
+    ],
+    "summary": "pI исправлено на p, добавлено освобождение объекта.",
+    "validation": "Оба присваивания используют объявленный указатель p.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-128",
+    "changed_step_ids": [
+      3212956,
+      3215243,
+      3426585
+    ],
+    "summary": "Размер union описан с учётом выравнивания; исправлен ключ и пример заполнения в связанном уроке.",
+    "validation": "abi_sizes: sizeof(alignas(16) ArrayOfChars)==32; union с int и char[5] имеет размер больше5. C++17/20 успешно.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-129",
+    "changed_step_ids": [
+      3216509,
+      3426585
+    ],
+    "summary": "Для неактивного члена выбран ответ об UB; второй пример вопроса явно инициализирует первый символ массива. Union-punning заменён memcpy.",
+    "validation": "Программа с UB не выполняется; ключи проверены по правилам class.union.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-130",
+    "changed_step_ids": [
+      4718314
+    ],
+    "summary": "Вопрос теперь однозначно спрашивает ключевое слово для псевдонима типа.",
+    "validation": "Единственный правильный вариант typedef; union остаётся неправильным ответом на уточнённый вопрос.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-131",
+    "changed_step_ids": [
+      3668926
+    ],
+    "summary": "calloc получает количество1 и размер одного subject.",
+    "validation": "Сигнатура содержит оба обязательных аргумента.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-132",
+    "changed_step_ids": [
+      3668952
+    ],
+    "summary": "Ограничение public отделено для анонимного union; именованному union разрешены секции доступа.",
+    "validation": "Сверено с class.union.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-133",
+    "changed_step_ids": [
+      3668952
+    ],
+    "summary": "Удалён лишний знак = в объявлении enum.",
+    "validation": "Декларация date_month компилируется в составе класса date.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-134",
+    "changed_step_ids": [
+      3668953
+    ],
+    "summary": "Разрешены namespace, вложенные и локальные классы; названа граница локального класса.",
+    "validation": "Проверено по class.local; утверждение о глобальности удалено.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-135",
+    "changed_step_ids": [
+      4718091
+    ],
+    "summary": "Правильный вариант содержит определение класса как пользовательского типа.",
+    "validation": "Остальные три варианта неверны; единственный правильный ответ сохранён.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-136",
+    "changed_step_ids": [
+      3668999
+    ],
+    "summary": "Буквы O заменены нулями в обеих формах конструктора, inline-пример не поглощает тело комментарием.",
+    "validation": "Конструкторы feet(0), inches(0.0f) синтаксически корректны.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-137",
+    "changed_step_ids": [
+      3668999
+    ],
+    "summary": "Убрана фиктивная модель конструктора int; описаны хранение, инициализация и sizeof.",
+    "validation": "Нет гарантии4байт для int; встроенный тип не наделён конструктором класса.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-138",
+    "changed_step_ids": [
+      3668927
+    ],
+    "summary": "Для отдельного счётчика задан int count=0 и удаление внешнего статического определения.",
+    "validation": "Переход 0→1 определён; исходный вариант без инициализации не выполняется.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-139",
+    "changed_step_ids": [
+      3669140
+    ],
+    "summary": "showdist сделан const в первом Distance; второй класс закрыт перед main; добавлен clocale.",
+    "validation": "Оба положительных полных Distance-листинга3669140 собраны и выполнены GCC14.2/C++17; отрицательный const-пример намеренно не исполнялся.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-140",
+    "changed_step_ids": [
+      3760025
+    ],
+    "summary": "В списке инициализации используется латинская c.",
+    "validation": "Кириллический идентификатор в этом фрагменте отсутствует.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-141",
+    "changed_step_ids": [
+      3760047
+    ],
+    "summary": "Исправлены safearray и область видимости j; process.h заменён стандартным cstdlib.",
+    "validation": "Все3полных листинга3760047 собраны и выполнены GCC14.2/C++17 с корректными индексами.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-142",
+    "changed_step_ids": [
+      3759850
+    ],
+    "summary": "Описан установленный языком порядок виртуальных/обычных баз и полей; исправлено имя схематичного D_12.",
+    "validation": "Порядок примера base_1/base_2/e согласован с опубликованным выводом.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-143",
+    "changed_step_ids": [
+      3215232,
+      3759851
+    ],
+    "summary": "sizeof выводится через %zu, указатели через %p и void*; исторический ABI-зависимый вывод заменён объяснением измерения.",
+    "validation": "Примеры3759851 и3215232 собраны с -Wformat=2 и выполнены. Форматы sizeof и указателей корректны.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-144",
+    "changed_step_ids": [
+      3759914
+    ],
+    "summary": "Закрыто определение derive12 перед main.",
+    "validation": "GCC14.2/C++17: полный3759914 собран и выполнен; получены строки derive_1, derive_2, derive12.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-145",
+    "changed_step_ids": [
+      4717768
+    ],
+    "summary": "Вопрос учитывает using Base::Base, проверяет дружбу и не ссылается на перемешиваемые A/B.",
+    "validation": "Единственный верный ответ о ненаследовании дружбы; три отвлекающих варианта противоречат правилам конструкторов.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-146",
+    "changed_step_ids": [
+      3569321,
+      3569323,
+      3569891,
+      3569896
+    ],
+    "summary": "Категории определены как свойства выражений; исправлены роль адреса, сторона присваивания, строковые литералы и xvalue.",
+    "validation": "value_categories_and_distractors: decltype и static_assert подтверждают категории в C++17/20; forward-пример даёт правильные перегрузки.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-147",
+    "changed_step_ids": [
+      4718139
+    ],
+    "summary": "Вместо неясного вопроса об указателе введён вопрос о возвращаемом T& при T=int.",
+    "validation": "value_categories_and_distractors: std::is_assignable проверяет все4варианта для T=int; присваивание через T& меняет элемент. C++17/20 успешно.",
+    "status": "fixed",
+    "decision": "Выбран проверяемый вопрос об operator[] и записи в существующий элемент; T зафиксирован как int, чтобы исключить особые operator= у класса.",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-148",
+    "changed_step_ids": [
+      3569323
+    ],
+    "summary": "Добавлена корректная привязка const T& к const-lvalue и временному объекту.",
+    "validation": "Прямое локальное связывание const int& b=2 продлевает жизнь временного int.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-149",
+    "changed_step_ids": [
+      3569919
+    ],
+    "summary": "Продление жизни ограничено соответствующей прямой привязкой; указаны исключения параметров и std::move.",
+    "validation": "В тексте не обещается продление жизни возвращённой/сохранённой ссылкой.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-150",
+    "changed_step_ids": [
+      3569919
+    ],
+    "summary": "Добавлены void, iostream и согласованный регистр вывода первой fun.",
+    "validation": "Полный3569919 собран и выполнен GCC14.2/C++17; две перегрузки вызываются согласно категории аргумента.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-151",
+    "changed_step_ids": [
+      3569932
+    ],
+    "summary": "Уточнены условия неявных move-операций, поэлементное перемещение, выбор перегрузки и состояние источника.",
+    "validation": "value_categories_and_distractors: класс с полем unique_ptr неявно перемещается, ресурс переходит в цель. C++17/20 успешно.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-152",
+    "changed_step_ids": [
+      4040986
+    ],
+    "summary": "Обе bar объявлены до foo; добавлены заголовки; T назван аргументом шаблона; исправлена гарантия состояния v1.",
+    "validation": "Оба4040986 примера собраны и выполнены GCC14.2/C++17; foo вызывает l-value reference и r-value reference.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-153",
+    "changed_step_ids": [
+      3569325
+    ],
+    "summary": "Добавлен = перед nullptr, new x заменено на new X.",
+    "validation": "Проверены объявленный тип X, инициализация ptr=nullptr, создание new X() и парный delete ptr. Этот изолированный фрагмент не включался в набор запускаемых программ.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-154",
+    "changed_step_ids": [
+      3569963,
+      3570166
+    ],
+    "summary": "Описан explicit/contextual bool; учебный unique_ptr получил explicit bool и исправленную копирующую декларацию.",
+    "validation": "teaching_unique и стандартный unique_ptr: explicit bool проверен static_assert; копирование запрещено, перемещение и самоперемещение проверены.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-155",
+    "changed_step_ids": [
+      3569327,
+      3570213
+    ],
+    "summary": "Согласована модель strong/weak со служебной слабой ссылкой, удерживающей контрольный блок до завершения деструктора T; опубликована однопоточная реализация copy/move/reset/lock.",
+    "validation": "teaching_shared_regression прошёл в C++17/C++20 и с AddressSanitizer+UndefinedBehaviorSanitizer. Проверены self-weak (в том числе reset в деструкторе), copy/move/self-assignment, expired/lock и однократное уничтожение. LeakSanitizer недоступен под ptrace и отключён; проверка утечек им не заявляется.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-156",
+    "changed_step_ids": [
+      4718330
+    ],
+    "summary": "Неопределённое понятие пяти последовательностей заменено вопросом о weak_ptr после исчезновения последнего владельца.",
+    "validation": "value_categories_and_distractors: после reset последнего владельца q пуст, expired=true, use_count=0. Сохранённый w существует, lock не бросает исключение. C++17/20 успешно.",
+    "status": "fixed",
+    "decision": "Выбран вопрос по текущему разделу shared_ptr/weak_ptr с явным отсутствием иных сильных владельцев.",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-157",
+    "changed_step_ids": [
+      4035524
+    ],
+    "summary": "Удаление из очереди не требует физического сдвига; описаны голова списка и индекс кольцевого буфера.",
+    "validation": "Абстрактная FIFO-семантика отделена от реализации; политика полного буфера названа отдельно.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-158",
+    "changed_step_ids": [
+      4035563
+    ],
+    "summary": "Убраны queue(n) и удаление с конца; исправлены back/empty и указана основа deque.",
+    "validation": "casts_and_queue: очередь из deque(3) имеет size3, front/back0; pop уменьшает размер. C++17/20 успешно.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-159",
+    "changed_step_ids": [
+      4036909
+    ],
+    "summary": "Убрана непрерывность deque и передача &d[0] как массива; схема карты согласована с пояснением.",
+    "validation": "Каркас deque собран GCC14.2/C++17; текст и карта согласованы с отсутствием гарантии непрерывности.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-160",
+    "changed_step_ids": [
+      4718289
+    ],
+    "summary": "Устранён второй ложный вариант: enum — тип, enumerator — константа; уточнено начальное значение.",
+    "validation": "В single-choice остался один неверный тезис — отождествление с макросами.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-161",
+    "changed_step_ids": [
+      4047616
+    ],
+    "summary": "int→double& заменено допустимым приведением ссылки Base→Derived с явным объектом Derived; полный пример исправлен для сборки.",
+    "validation": "Полный static_cast-пример4047616 собран и выполнен; casts_and_queue проверяет приведение Base& к реальному Derived. C++17/20 успешно.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-162",
+    "changed_step_ids": [
+      4047627
+    ],
+    "summary": "Разделены nullptr для указателя и bad_cast для ссылки; уточнена полиморфность и доступная база.",
+    "validation": "Оба dynamic_cast-примера4047627 собраны и выполнены. casts_and_queue подтверждает nullptr, bad_cast и неполиморфный upcast в C++17/20.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-163",
+    "changed_step_ids": [
+      4047681
+    ],
+    "summary": "Числовое преобразование заменено static_cast; побитовое копирование описано отдельно для C++17/20.",
+    "validation": "casts_and_queue: static_cast<unsigned long long>(3.14159)==3 в C++17/20; недопустимое reinterpret_cast сохранено лишь комментарием.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-164",
+    "changed_step_ids": [
+      3570230,
+      3570281
+    ],
+    "summary": "Node получил определения конструктора, height и свободной newNode; убран неопределённый str, указаны заголовки и std::shared_ptr. AVL опубликован самостоятельным блоком.",
+    "validation": "Полный AVL-блок успешно собран и выполнен в C++17/20; definitions Node/newNode/std::string/height согласованы.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-165",
+    "changed_step_ids": [
+      3570281
+    ],
+    "summary": "При замене удаляемого узла преемником копируются key и value.",
+    "validation": "avl_key_value_and_balance: регрессия удаления2 сохраняет3:three;500воспроизводимых смешанных операций и очистка проверяют пары, порядок, высоты и баланс. C++17/20 успешно.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-166",
+    "changed_step_ids": [
+      3570303,
+      3570304,
+      3570332,
+      3570333
+    ],
+    "summary": "righ исправлено на right, закрыта ветка root=child. Фрагменты согласованы со стандартными shared_ptr/weak_ptr через lock и ==; определён каркас RBT/Node.",
+    "validation": "red_black_invariants: собран фактический код Node/RBT, вставки и удаления. После500воспроизводимых смешанных операций проверены пары, родительские связи, корень, красные узлы и равные чёрные высоты; C++17/20 успешно.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-167",
+    "changed_step_ids": [
+      3570333
+    ],
+    "summary": "Для рекурсивного кода указана память O(log n), для явно итеративного — O(1); снята гарантия tail-call elimination.",
+    "validation": "Оценка учитывает локальные shared_ptr и проход к предкам.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-168",
+    "changed_step_ids": [
+      3570332
+    ],
+    "summary": "Полный обход исправлен на O(n); отдельный переход до O(log n), список даёт O(1) на каждый переход.",
+    "validation": "Проанализированы переходы по каждому ребру при полном inorder-обходе.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-169",
+    "changed_step_ids": [
+      4035461
+    ],
+    "summary": "Убрана обязательная криптографическая необратимость; детерминированность отделена от подлинности.",
+    "validation": "Свойства отвечают требованиям обычного хеширования для таблицы.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-170",
+    "changed_step_ids": [
+      4035443,
+      4035481
+    ],
+    "summary": "Удалён отказ при tableCount==tableSize; tableCount описывает непустые цепочки, а не лимит элементов.",
+    "validation": "hash_full_buckets: при tableSize1 сохранены оба коллидирующих элемента и обновлён прежний ID; при3бакетах вставлены20элементов и все обновлены. C++17/20 успешно. Для пропущенных в уроке вспомогательных методов добавлен тестовый каркас, алгоритм хеш-таблицы извлечён без изменений.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-171",
+    "changed_step_ids": [
+      4035427
+    ],
+    "summary": "Ошибочная картинка заменена HTML-таблицей; ключи и значения map/multimap разграничены, pair/компаратор описаны точно.",
+    "validation": "value_categories_and_distractors: map допускает {{1,7},{2,7}}, multimap — два одинаковых ключа. C++17/20 успешно; неверная картинка отсутствует.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-172",
+    "changed_step_ids": [
+      4035417
+    ],
+    "summary": "Определены O/Ω/Θ для выбранной функции времени; лучший, средний и худший случаи выделены независимо.",
+    "validation": "Формальные неравенства и пример линейного поиска проверены.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-173",
+    "changed_step_ids": [
+      4035416,
+      4035417,
+      4035427,
+      4035430,
+      4035439
+    ],
+    "summary": "Собственные реализации отделены от std::set/std::map; две неверные картинки сложности заменены точными HTML-таблицами с условиями.",
+    "validation": "BST указан через высоту h, сбалансированное дерево — log n; хеш — средняя/худшая оценка; стандартные гарантии отдельно.",
+    "status": "fixed",
+    "decision": "Выбран явный охват обоих уровней: собственные множества/словари и стандартные контейнеры. Сравнение реализаций сохранено с точными условиями.",
+    "validation_report": "advanced_validation.json"
+  },
+  {
+    "finding_id": "OAIP-174",
+    "changed_step_ids": [
+      5850209
+    ],
+    "summary": "IiTP заменено iitp одновременно во входе и эталоне; отступы определены как4пробела без табуляции; устранён дубль t в ограничении.",
+    "validation": "Проверено точное равенство новых test_cases исходным после единственной замены IiTP→iitp. Во всём block не осталось IiTP; остальные тестовые данные/эталоны не изменены.",
+    "status": "fixed",
+    "validation_report": "advanced_validation.json"
+  }
+]

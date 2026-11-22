@@ -1,7 +1,7 @@
 {
   "block": {
     "name": "choice",
-    "text": "<p>double sizeFileA = 0;<br>\ndouble sizeFileB = 0;<br>\n// ...some code with setting sizes up...<br>\nint diff = sizeFileA - sizeFileB;</p>\n\n<p>Означает ли положительное значение diff то, что размер файла А больше, чем размер файла B.</p>",
+    "text": "<p>Даны конечные значения <code>double sizeFileA</code> и <code>double sizeFileB</code>. Их вычисленная разность конечна, а её целая часть после усечения к нулю представима типом int.</p>\n\n<pre><code class=\"language-cpp\">int diff = sizeFileA - sizeFileB;</code></pre><p>Если <code>diff &gt; 0</code>, следует ли из этого <code>sizeFileA &gt; sizeFileB</code>?</p>",
     "video": null,
     "options": {
       "is_multiple_choice": false
@@ -14,12 +14,12 @@
       "sample_size": 3,
       "preserve_order": false,
       "is_html_enabled": true,
-      "is_options_feedback": false,
+      "is_options_feedback": true,
       "options": [
         {
-          "is_correct": false,
+          "is_correct": true,
           "text": "Да",
-          "feedback": ""
+          "feedback": "Усечение к нулю не может превратить неположительную разность в положительное целое число. Условие представимости исключает недопустимое преобразование."
         },
         {
           "is_correct": false,
@@ -27,9 +27,9 @@
           "feedback": ""
         },
         {
-          "is_correct": true,
+          "is_correct": false,
           "text": "Не всегда",
-          "feedback": ""
+          "feedback": "Потеря дробной части может дать ноль при разных размерах, но не положительное diff при sizeFileA ≤ sizeFileB."
         }
       ]
     },

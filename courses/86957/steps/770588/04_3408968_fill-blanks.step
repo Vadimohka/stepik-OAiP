@@ -33,7 +33,7 @@
           "text": "",
           "options": [
             {
-              "text": "strprbk",
+              "text": "strpbrk",
               "is_correct": true
             }
           ]

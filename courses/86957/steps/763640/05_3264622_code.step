@@ -1,7 +1,7 @@
 {
   "block": {
     "name": "code",
-    "text": "<p>Дан квадрат с вершинами в точках (0, 0), (0, k), (k, k), (k, 0). Вычислите наименьшее из расстояний от точки с координатами (x, y), лежащей внутри или снаружи квадрата, до сторон данного квадрата. Координаты вещественные.</p>\n\n<p>Формат ввода:</p>\n\n<p>Переменные вводятся в порядке K, X, Y.</p>\n\n<p>Используйте библиотеку <code>&lt;iomanip&gt;</code> и функцию <code>setprecision(22)</code>. </p>",
+    "text": "<p>Дан квадрат с вершинами (0, 0), (0, k), (k, k), (k, 0). Найдите наименьшее расстояние от точки (x, y) до <strong>отрезков, образующих стороны квадрата</strong>. Точка может находиться внутри квадрата, на его границе или снаружи.</p>\n<p>Число k может быть отрицательным; длина стороны равна |k|. Расстояние до стороны означает расстояние до отрезка, а не до всей прямой, на которой он лежит.</p>\n<h3>Входные данные</h3>\n<p>Три вещественных числа в порядке <em>k, x, y</em>, разделённые пробельными символами. Ограничения: 0 &lt; |k| ≤ 10<sup>9</sup>, |x| ≤ 10<sup>9</sup>, |y| ≤ 10<sup>9</sup>.</p>\n<h3>Выходные данные</h3>\n<p>Выведите расстояние. Допустимая абсолютная или относительная погрешность — 10<sup>−9</sup>: |ответ − эталон| ≤ max(10<sup>−9</sup>, 10<sup>−9</sup> · |эталон|).</p>\n<p>Используйте вещественные вычисления и выводите достаточно значащих цифр, например с <code>std::setprecision(17)</code>. Совпадение строки из 22 цифр не требуется.</p>",
     "video": null,
     "options": {
       "execution_time_limit": 5,
@@ -33,7 +33,7 @@
     "subtitle_files": [],
     "is_deprecated": false,
     "source": {
-      "code": "# This is a sample Code Challenge\n# Learn more: https://stepik.org/lesson/9173\n# Ask your questions via support@stepik.org\n\ndef generate():\n    return []\n\ndef check(reply, clue):\n    return reply.strip() == clue.strip()\n\n# def solve(dataset):\n#     a, b = dataset.split()\n#     return str(int(a) + int(b))",
+      "code": "from decimal import Decimal, DecimalException, localcontext\n\ndef generate():\n    return []\n\ndef check(reply, clue):\n    actual = reply.split()\n    expected = str(clue).split()\n    if len(actual) != 1 or len(expected) != 1:\n        return False\n    try:\n        with localcontext() as context:\n            context.prec = 60\n            value, reference = Decimal(actual[0]), Decimal(expected[0])\n            if not value.is_finite() or not reference.is_finite():\n                return False\n            tolerance = max(Decimal(\"1e-9\"), Decimal(\"1e-9\") * abs(reference))\n            return abs(value - reference) <= tolerance\n    except (DecimalException, ValueError, TypeError):\n        return False\n",
       "execution_time_limit": 5,
       "execution_memory_limit": 256,
       "samples_count": 1,
@@ -51,15 +51,15 @@
         ],
         [
           "-36.9215863403500000092\n-18.4607931701750000046\n51.1519829254375000115",
-          "51.1519829254375000098"
+          "51.1519829254375000115"
         ],
         [
           "-5\n-6\n1",
-          "1.414213562373095048764"
+          "1.41421356237309504880168872421"
         ],
         [
           "-5\n-7\n1",
-          "2.236067977499789696414"
+          "2.23606797749978969640917366873"
         ],
         [
           "-5\n-3\n0",

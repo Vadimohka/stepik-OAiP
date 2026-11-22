@@ -1,7 +1,7 @@
 {
   "block": {
     "name": "choice",
-    "text": "<p>В каком типе перечислители хранятся компилятором?</p>",
+    "text": "<p>Какой базовый тип имеет перечисление <code>enum class E { a, b };</code>, если базовый тип не указан явно?</p>",
     "video": null,
     "options": {
       "is_multiple_choice": false

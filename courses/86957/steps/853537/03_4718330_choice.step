@@ -1,7 +1,7 @@
 {
   "block": {
     "name": "choice",
-    "text": "<p>Сколько последовательностей операторов присутствует в C ++?</p>",
+    "text": "<p>Что верно после выполнения этого кода C++17/20?</p>\n<pre><code class=\"language-cpp\">auto p = std::make_shared&lt;int&gt;(42);\nstd::weak_ptr&lt;int&gt; w = p;\np.reset();\nauto q = w.lock();</code></pre>\n<p>Других shared_ptr, владеющих этим объектом, нет.</p>",
     "video": null,
     "options": {
       "is_multiple_choice": false
@@ -17,24 +17,24 @@
       "is_options_feedback": false,
       "options": [
         {
-          "is_correct": false,
-          "text": "3",
-          "feedback": ""
-        },
-        {
+          "text": "q пуст, а w.expired() возвращает true.",
           "is_correct": true,
-          "text": "5",
-          "feedback": ""
+          "feedback": "После исчезновения последнего сильного владельца int уничтожен; lock возвращает пустой shared_ptr."
         },
         {
+          "text": "q снова владеет прежним объектом со значением 42.",
           "is_correct": false,
-          "text": "4",
-          "feedback": ""
+          "feedback": "Слабая ссылка не продлевает жизнь объекта и не позволяет его воскресить."
         },
         {
+          "text": "Вызов p.reset() уничтожает сам объект w.",
           "is_correct": false,
-          "text": "6",
-          "feedback": ""
+          "feedback": "w продолжает существовать и удерживает блок управления, чтобы безопасно обнаруживать истечение."
+        },
+        {
+          "text": "Вызов w.lock() обязательно выбрасывает std::bad_weak_ptr.",
+          "is_correct": false,
+          "feedback": "lock не выбрасывает bad_weak_ptr: при истёкшей ссылке он возвращает пустой shared_ptr."
         }
       ]
     },

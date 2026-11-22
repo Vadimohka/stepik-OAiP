@@ -1,7 +1,7 @@
 {
   "block": {
     "name": "code",
-    "text": "<p>Составить программу используя условный оператор <strong>if:</strong></p>\n\n<p><img alt=\"\" height=\"80\" name=\"st.png\" src=\"https://ucarecdn.stepik.net/207f1574-d689-45a0-9ec4-5bc4e2180453/\" width=\"274\"></p>\n\n<p>При математических ошибках выводите \"ERROR\".</p>\n\n<p>Для вывода используйте библиотеку <code>&lt;iomanip&gt;</code> и <code>setprecision(20)</code></p>",
+    "text": "<p>Используя условный оператор <code>if</code>, вычислите значение функции:</p>\n<table><thead><tr><th>Условие</th><th>Значение</th></tr></thead><tbody>\n<tr><td>c ≥ d и a &lt; d</td><td>a + b / c</td></tr>\n<tr><td>c &lt; d и a ≥ d</td><td>a − b / c</td></tr>\n<tr><td>Все остальные случаи</td><td>0</td></tr></tbody></table>\n<h3>Входные данные</h3>\n<p>Четыре конечных вещественных числа в порядке a, b, c, d. Их модули не превышают 10<sup>6</sup>; c равно нулю либо |c| ≥ 10<sup>−12</sup>.</p>\n<h3>Выходные данные</h3>\n<p>Сначала выберите ветвь функции. Если в выбранной ветви требуется делить на c = 0, выведите <code>ERROR</code>. В ветви «все остальные случаи» результат равен 0, даже если c = 0: деление в этой ветви не выполняется.</p>\n<p>Для числового результата допустима погрешность |ответ − эталон| ≤ max(10<sup>−9</sup>, 10<sup>−12</sup> · |эталон|). Для вывода можно использовать <code>&lt;iomanip&gt;</code> и <code>std::setprecision(20)</code>; проверка сравнивает числа, а не буквальное написание ответа.</p>",
     "video": null,
     "options": {
       "execution_time_limit": 5,
@@ -33,7 +33,7 @@
     "subtitle_files": [],
     "is_deprecated": false,
     "source": {
-      "code": "# This is a sample Code Challenge\n# Learn more: https://stepik.org/lesson/9173\n# Ask your questions via support@stepik.org\n\ndef generate():\n    return []\n\ndef check(reply, clue):\n    return reply.strip() == clue.strip()\n\n# def solve(dataset):\n#     a, b = dataset.split()\n#     return str(int(a) + int(b))",
+      "code": "from decimal import Decimal, DecimalException, localcontext\n\ndef generate():\n    return []\n\ndef check(reply, clue):\n    actual = reply.split()\n    expected = str(clue).split()\n    if expected == [\"ERROR\"]:\n        return actual == [\"ERROR\"]\n    if len(actual) != 1 or len(expected) != 1:\n        return False\n    try:\n        with localcontext() as context:\n            context.prec = 60\n            value, reference = Decimal(actual[0]), Decimal(expected[0])\n            if not value.is_finite() or not reference.is_finite():\n                return False\n            tolerance = max(Decimal(\"1e-9\"), Decimal(\"1e-12\") * abs(reference))\n            return abs(value - reference) <= tolerance\n    except (DecimalException, ValueError, TypeError):\n        return False\n",
       "execution_time_limit": 5,
       "execution_memory_limit": 256,
       "samples_count": 1,
@@ -51,7 +51,7 @@
         ],
         [
           "0 0 0 0",
-          "ERROR"
+          "0"
         ],
         [
           "0 0 1 0",
@@ -79,7 +79,7 @@
         ],
         [
           "0.000000000001 32767 0.00000000001 0.00000000001",
-          "3276700000000000"
+          "3276700000000000.000000000001"
         ],
         [
           "-32766 -32767 -0.000000001 -32765",
@@ -87,7 +87,15 @@
         ],
         [
           "-0.0000000000001 -32767 -0.000000000001 -0.0000000000001",
-          "-32767000000000000"
+          "-32767000000000000.0000000000001"
+        ],
+        [
+          "-1 7 0 0",
+          "ERROR"
+        ],
+        [
+          "2 7 0 1",
+          "ERROR"
         ]
       ]
     },

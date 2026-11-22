@@ -1,0 +1,1388 @@
+{
+  "source_head": "0ef6c46bc67632df7d6908b28b7b3e66ab4488de",
+  "finding_count": 61,
+  "changed_step_count": 69,
+  "compiled_case_count": 49,
+  "passed": 204,
+  "failed": 0,
+  "results": [
+    {
+      "name": "finding_coverage",
+      "status": "passed",
+      "detail": "61/61; extra=['OAIP-082']"
+    },
+    {
+      "name": "metadata_3212955",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3212955",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3212956",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3212956",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3215199",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3215199",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3215200",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3215200",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3215203",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3215203",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3215231",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3215231",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3215232",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3215232",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3215233",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3215233",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3215234",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3215234",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3215235",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3215235",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3215236",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3215236",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3215243",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3215243",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3215244",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3215244",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3216509",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3216509",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3423807",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3423807",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "choice_shape_3423807",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3426003",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3426003",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3426585",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3426585",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "choice_shape_3426585",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3437886",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3437886",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "choice_shape_3437886",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3569321",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3569321",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3569323",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3569323",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3569325",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3569325",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3569327",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3569327",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3569891",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3569891",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3569896",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3569896",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3569919",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3569919",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3569932",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3569932",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3569963",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3569963",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3570166",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3570166",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3570213",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3570213",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3570230",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3570230",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3570281",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3570281",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3570303",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3570303",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3570304",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3570304",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3570332",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3570332",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3570333",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3570333",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3668926",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3668926",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3668927",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3668927",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3668952",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3668952",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3668953",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3668953",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3668999",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3668999",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3669140",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3669140",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3759850",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3759850",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3759851",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3759851",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3759914",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3759914",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3760025",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3760025",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_3760047",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_3760047",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_4035416",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_4035416",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_4035417",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_4035417",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_4035427",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_4035427",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_4035430",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_4035430",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_4035439",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_4035439",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_4035443",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_4035443",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_4035460",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_4035460",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_4035461",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_4035461",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_4035481",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_4035481",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_4035524",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_4035524",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_4035563",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_4035563",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_4036909",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_4036909",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_4040986",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_4040986",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_4047616",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_4047616",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_4047627",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_4047627",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_4047681",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_4047681",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_4717768",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_4717768",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "choice_shape_4717768",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_4718091",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_4718091",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "choice_shape_4718091",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_4718139",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_4718139",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "choice_shape_4718139",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_4718289",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_4718289",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "choice_shape_4718289",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_4718314",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_4718314",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "choice_shape_4718314",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_4718330",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_4718330",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "choice_shape_4718330",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "metadata_5850209",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "changed_5850209",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "size_answers_3426003",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "operator_index_key",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "weak_question_key",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "control_U0002_removed",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "wrong_images_replaced",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "yaml_cases_only_lowercase_key_changed",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "yaml_no_uppercase_iitp",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "lesson_3215199_1_cpp17",
+      "source": "imports/86957/validation/advanced_checks/lesson_3215199_1_cpp17.cpp",
+      "standard": "c++17",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "lesson_3215231_0_cpp17",
+      "source": "imports/86957/validation/advanced_checks/lesson_3215231_0_cpp17.cpp",
+      "standard": "c++17",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "lesson_3215232_0_cpp17",
+      "source": "imports/86957/validation/advanced_checks/lesson_3215232_0_cpp17.cpp",
+      "standard": "c++17",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "sizeof(A) = 8\nsizeof(B) = 8\nsizeof(C) = 8\n",
+      "stderr": ""
+    },
+    {
+      "name": "lesson_3215233_0_cpp17",
+      "source": "imports/86957/validation/advanced_checks/lesson_3215233_0_cpp17.cpp",
+      "standard": "c++17",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "a = 10, b = 20",
+      "stderr": ""
+    },
+    {
+      "name": "lesson_3215234_0_cpp17",
+      "source": "imports/86957/validation/advanced_checks/lesson_3215234_0_cpp17.cpp",
+      "standard": "c++17",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "Enter number of users: user #0\nname: password: user #1\nname: password: {id: 0, login: \"alice\", password: \"one\"}\n{id: 1, login: \"bob\", password: \"two\"}\n",
+      "stderr": ""
+    },
+    {
+      "name": "lesson_3215235_0_cpp17",
+      "source": "imports/86957/validation/advanced_checks/lesson_3215235_0_cpp17.cpp",
+      "standard": "c++17",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "Some info",
+      "stderr": ""
+    },
+    {
+      "name": "lesson_3215235_1_cpp17",
+      "source": "imports/86957/validation/advanced_checks/lesson_3215235_1_cpp17.cpp",
+      "standard": "c++17",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "Model name = CL\nMake name = Acura\n",
+      "stderr": ""
+    },
+    {
+      "name": "lesson_3215236_0_cpp17",
+      "source": "imports/86957/validation/advanced_checks/lesson_3215236_0_cpp17.cpp",
+      "standard": "c++17",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "make.name = Acura\nmake.id = 1\nmodel.id = 2\n",
+      "stderr": ""
+    },
+    {
+      "name": "lesson_3216509_3_cpp17",
+      "source": "imports/86957/validation/advanced_checks/lesson_3216509_3_cpp17.cpp",
+      "standard": "c++17",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "1 0 1 0 0 0 1 0 \nsizeof(point) = 4\n",
+      "stderr": ""
+    },
+    {
+      "name": "lesson_3668927_0_cpp17",
+      "source": "imports/86957/validation/advanced_checks/lesson_3668927_0_cpp17.cpp",
+      "standard": "c++17",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "Число объектов: 3\nЧисло объектов: 3\nЧисло объектов: 3\n",
+      "stderr": ""
+    },
+    {
+      "name": "lesson_3669140_1_cpp17",
+      "source": "imports/86957/validation/advanced_checks/lesson_3669140_1_cpp17.cpp",
+      "standard": "c++17",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "Введите число футов: Введите число дюймов: \ndist1 = 1 футов 2 дюймов\ndist2 = 11 футов 6.25 дюймов\ndist3 = 12 футов 8.25 дюймов\n",
+      "stderr": ""
+    },
+    {
+      "name": "lesson_3669140_2_cpp17",
+      "source": "imports/86957/validation/advanced_checks/lesson_3669140_2_cpp17.cpp",
+      "standard": "c++17",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "Длина поля равна 300 футов 0 дюймов\n",
+      "stderr": ""
+    },
+    {
+      "name": "lesson_3760025_0_cpp17",
+      "source": "imports/86957/validation/advanced_checks/lesson_3760025_0_cpp17.cpp",
+      "standard": "c++17",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "\nc1 = 0\nc2 = 0\nc1 = 2\nc2 = 2\n",
+      "stderr": ""
+    },
+    {
+      "name": "lesson_3759850_1_cpp17",
+      "source": "imports/86957/validation/advanced_checks/lesson_3759850_1_cpp17.cpp",
+      "standard": "c++17",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "\nbase_1: 12\nbase_2: 3\nbase_1: 23\nderive: 1 2 3\nbase_1: a=1 b=2 !\nbase_2: c=3 !\nbase_1: a=2 b=3 ! - derive: d=1 !\n~derive (1)\n~base_1 (2,3)\n~base_2 (3)\n~base_1 (1,2)",
+      "stderr": ""
+    },
+    {
+      "name": "lesson_3759850_4_cpp17",
+      "source": "imports/86957/validation/advanced_checks/lesson_3759850_4_cpp17.cpp",
+      "standard": "c++17",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "\nUNIT_BOX телевизор в упаковке,\nBOX упаковка,\nUNIT телевизор,\nPRICE 1010 1010 1010 p\nBox b-111 111 $\nUnit u-222 222 Y",
+      "stderr": ""
+    },
+    {
+      "name": "lesson_3759851_2_cpp17",
+      "source": "imports/86957/validation/advanced_checks/lesson_3759851_2_cpp17.cpp",
+      "standard": "c++17",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "\nРазмеры объектов базовых и производного класса\n\n|base_1|=8\n|base_2|=24\n|base_3|=16\n|derive|=64\n\nВыделение объектов базовых классов\n\np_d: 0x7ffe5974ba40, 0x7ffe5974ba80\npb1: 0x7ffe5974ba40, 0x7ffe5974ba48\npb2: 0x7ffe5974ba48, 0x7ffe5974ba60\npb3: 0x7ffe5974ba60, 0x7ffe5974ba70\n\nПолучение адреса производного класса\n\np_d и pb1: 0x7ffe5974ba40 – 0x7ffe5974ba40\np_d и pb2: 0x7ffe5974ba40 – 0x7ffe5974ba48\np_d и pb3: 0x7ffe5974ba40 – 0x7ffe5974ba60",
+      "stderr": ""
+    },
+    {
+      "name": "lesson_3759914_0_cpp17",
+      "source": "imports/86957/validation/advanced_checks/lesson_3759914_0_cpp17.cpp",
+      "standard": "c++17",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "\nderive_1\nderive_2\nderive12",
+      "stderr": ""
+    },
+    {
+      "name": "lesson_3569919_1_cpp17",
+      "source": "imports/86957/validation/advanced_checks/lesson_3569919_1_cpp17.cpp",
+      "standard": "c++17",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "l-value reference to const\nr-value reference\n",
+      "stderr": ""
+    },
+    {
+      "name": "lesson_4040986_0_cpp17",
+      "source": "imports/86957/validation/advanced_checks/lesson_4040986_0_cpp17.cpp",
+      "standard": "c++17",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "0\n3\n",
+      "stderr": ""
+    },
+    {
+      "name": "lesson_4040986_1_cpp17",
+      "source": "imports/86957/validation/advanced_checks/lesson_4040986_1_cpp17.cpp",
+      "standard": "c++17",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "l-value reference\nr-value reference\n",
+      "stderr": ""
+    },
+    {
+      "name": "lesson_3569327_0_cpp17",
+      "source": "imports/86957/validation/advanced_checks/lesson_3569327_0_cpp17.cpp",
+      "standard": "c++17",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "2\n1\n",
+      "stderr": ""
+    },
+    {
+      "name": "lesson_4047616_4_cpp17",
+      "source": "imports/86957/validation/advanced_checks/lesson_4047616_4_cpp17.cpp",
+      "standard": "c++17",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "Derived::foo()\n",
+      "stderr": ""
+    },
+    {
+      "name": "lesson_4047627_1_cpp17",
+      "source": "imports/86957/validation/advanced_checks/lesson_4047627_1_cpp17.cpp",
+      "standard": "c++17",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "Derived::foo()\n",
+      "stderr": ""
+    },
+    {
+      "name": "lesson_4047627_2_cpp17",
+      "source": "imports/86957/validation/advanced_checks/lesson_4047627_2_cpp17.cpp",
+      "standard": "c++17",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "Invalid cast\n",
+      "stderr": ""
+    },
+    {
+      "name": "lesson_3760047_0_cpp17",
+      "source": "imports/86957/validation/advanced_checks/lesson_3760047_0_cpp17.cpp",
+      "standard": "c++17",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "ент 4 равен 40\nЭлемент 5 равен 50\nЭлемент 6 равен 60\nЭлемент 7 равен 70\nЭлемент 8 равен 80\nЭлемент 9 равен 90\nЭлемент 10 равен 100\nЭлемент 11 равен 110\nЭлемент 12 равен 120\nЭлемент 13 равен 130\nЭлемент 14 равен 140\nЭлемент 15 равен 150\nЭлемент 16 равен 160\nЭлемент 17 равен 170\nЭлемент 18 равен 180\nЭлемент 19 равен 190\nЭлемент 20 равен 200\nЭлемент 21 равен 210\nЭлемент 22 равен 220\nЭлемент 23 равен 230\nЭлемент 24 равен 240\nЭлемент 25 равен 250\nЭлемент 26 равен 260\nЭлемент 27 равен 270\nЭлемент 28 равен 280\nЭлемент 29 равен 290\nЭлемент 30 равен 300\nЭлемент 31 равен 310\nЭлемент 32 равен 320\nЭлемент 33 равен 330\nЭлемент 34 равен 340\nЭлемент 35 равен 350\nЭлемент 36 равен 360\nЭлемент 37 равен 370\nЭлемент 38 равен 380\nЭлемент 39 равен 390\nЭлемент 40 равен 400\nЭлемент 41 равен 410\nЭлемент 42 равен 420\nЭлемент 43 равен 430\nЭлемент 44 равен 440\nЭлемент 45 равен 450\nЭлемент 46 равен 460\nЭлемент 47 равен 470\nЭлемент 48 равен 480\nЭлемент 49 равен 490\nЭлемент 50 равен 500\nЭлемент 51 равен 510\nЭлемент 52 равен 520\nЭлемент 53 равен 530\nЭлемент 54 равен 540\nЭлемент 55 равен 550\nЭлемент 56 равен 560\nЭлемент 57 равен 570\nЭлемент 58 равен 580\nЭлемент 59 равен 590\nЭлемент 60 равен 600\nЭлемент 61 равен 610\nЭлемент 62 равен 620\nЭлемент 63 равен 630\nЭлемент 64 равен 640\nЭлемент 65 равен 650\nЭлемент 66 равен 660\nЭлемент 67 равен 670\nЭлемент 68 равен 680\nЭлемент 69 равен 690\nЭлемент 70 равен 700\nЭлемент 71 равен 710\nЭлемент 72 равен 720\nЭлемент 73 равен 730\nЭлемент 74 равен 740\nЭлемент 75 равен 750\nЭлемент 76 равен 760\nЭлемент 77 равен 770\nЭлемент 78 равен 780\nЭлемент 79 равен 790\nЭлемент 80 равен 800\nЭлемент 81 равен 810\nЭлемент 82 равен 820\nЭлемент 83 равен 830\nЭлемент 84 равен 840\nЭлемент 85 равен 850\nЭлемент 86 равен 860\nЭлемент 87 равен 870\nЭлемент 88 равен 880\nЭлемент 89 равен 890\nЭлемент 90 равен 900\nЭлемент 91 равен 910\nЭлемент 92 равен 920\nЭлемент 93 равен 930\nЭлемент 94 равен 940\nЭлемент 95 равен 950\nЭлемент 96 равен 960\nЭлемент 97 равен 970\nЭлемент 98 равен 980\nЭлемент 99 равен 990\n",
+      "stderr": ""
+    },
+    {
+      "name": "lesson_3760047_1_cpp17",
+      "source": "imports/86957/validation/advanced_checks/lesson_3760047_1_cpp17.cpp",
+      "standard": "c++17",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "ент 4 равен 40\nЭлемент 5 равен 50\nЭлемент 6 равен 60\nЭлемент 7 равен 70\nЭлемент 8 равен 80\nЭлемент 9 равен 90\nЭлемент 10 равен 100\nЭлемент 11 равен 110\nЭлемент 12 равен 120\nЭлемент 13 равен 130\nЭлемент 14 равен 140\nЭлемент 15 равен 150\nЭлемент 16 равен 160\nЭлемент 17 равен 170\nЭлемент 18 равен 180\nЭлемент 19 равен 190\nЭлемент 20 равен 200\nЭлемент 21 равен 210\nЭлемент 22 равен 220\nЭлемент 23 равен 230\nЭлемент 24 равен 240\nЭлемент 25 равен 250\nЭлемент 26 равен 260\nЭлемент 27 равен 270\nЭлемент 28 равен 280\nЭлемент 29 равен 290\nЭлемент 30 равен 300\nЭлемент 31 равен 310\nЭлемент 32 равен 320\nЭлемент 33 равен 330\nЭлемент 34 равен 340\nЭлемент 35 равен 350\nЭлемент 36 равен 360\nЭлемент 37 равен 370\nЭлемент 38 равен 380\nЭлемент 39 равен 390\nЭлемент 40 равен 400\nЭлемент 41 равен 410\nЭлемент 42 равен 420\nЭлемент 43 равен 430\nЭлемент 44 равен 440\nЭлемент 45 равен 450\nЭлемент 46 равен 460\nЭлемент 47 равен 470\nЭлемент 48 равен 480\nЭлемент 49 равен 490\nЭлемент 50 равен 500\nЭлемент 51 равен 510\nЭлемент 52 равен 520\nЭлемент 53 равен 530\nЭлемент 54 равен 540\nЭлемент 55 равен 550\nЭлемент 56 равен 560\nЭлемент 57 равен 570\nЭлемент 58 равен 580\nЭлемент 59 равен 590\nЭлемент 60 равен 600\nЭлемент 61 равен 610\nЭлемент 62 равен 620\nЭлемент 63 равен 630\nЭлемент 64 равен 640\nЭлемент 65 равен 650\nЭлемент 66 равен 660\nЭлемент 67 равен 670\nЭлемент 68 равен 680\nЭлемент 69 равен 690\nЭлемент 70 равен 700\nЭлемент 71 равен 710\nЭлемент 72 равен 720\nЭлемент 73 равен 730\nЭлемент 74 равен 740\nЭлемент 75 равен 750\nЭлемент 76 равен 760\nЭлемент 77 равен 770\nЭлемент 78 равен 780\nЭлемент 79 равен 790\nЭлемент 80 равен 800\nЭлемент 81 равен 810\nЭлемент 82 равен 820\nЭлемент 83 равен 830\nЭлемент 84 равен 840\nЭлемент 85 равен 850\nЭлемент 86 равен 860\nЭлемент 87 равен 870\nЭлемент 88 равен 880\nЭлемент 89 равен 890\nЭлемент 90 равен 900\nЭлемент 91 равен 910\nЭлемент 92 равен 920\nЭлемент 93 равен 930\nЭлемент 94 равен 940\nЭлемент 95 равен 950\nЭлемент 96 равен 960\nЭлемент 97 равен 970\nЭлемент 98 равен 980\nЭлемент 99 равен 990\n",
+      "stderr": ""
+    },
+    {
+      "name": "lesson_3760047_2_cpp17",
+      "source": "imports/86957/validation/advanced_checks/lesson_3760047_2_cpp17.cpp",
+      "standard": "c++17",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "ент 4 равен 40\nЭлемент 5 равен 50\nЭлемент 6 равен 60\nЭлемент 7 равен 70\nЭлемент 8 равен 80\nЭлемент 9 равен 90\nЭлемент 10 равен 100\nЭлемент 11 равен 110\nЭлемент 12 равен 120\nЭлемент 13 равен 130\nЭлемент 14 равен 140\nЭлемент 15 равен 150\nЭлемент 16 равен 160\nЭлемент 17 равен 170\nЭлемент 18 равен 180\nЭлемент 19 равен 190\nЭлемент 20 равен 200\nЭлемент 21 равен 210\nЭлемент 22 равен 220\nЭлемент 23 равен 230\nЭлемент 24 равен 240\nЭлемент 25 равен 250\nЭлемент 26 равен 260\nЭлемент 27 равен 270\nЭлемент 28 равен 280\nЭлемент 29 равен 290\nЭлемент 30 равен 300\nЭлемент 31 равен 310\nЭлемент 32 равен 320\nЭлемент 33 равен 330\nЭлемент 34 равен 340\nЭлемент 35 равен 350\nЭлемент 36 равен 360\nЭлемент 37 равен 370\nЭлемент 38 равен 380\nЭлемент 39 равен 390\nЭлемент 40 равен 400\nЭлемент 41 равен 410\nЭлемент 42 равен 420\nЭлемент 43 равен 430\nЭлемент 44 равен 440\nЭлемент 45 равен 450\nЭлемент 46 равен 460\nЭлемент 47 равен 470\nЭлемент 48 равен 480\nЭлемент 49 равен 490\nЭлемент 50 равен 500\nЭлемент 51 равен 510\nЭлемент 52 равен 520\nЭлемент 53 равен 530\nЭлемент 54 равен 540\nЭлемент 55 равен 550\nЭлемент 56 равен 560\nЭлемент 57 равен 570\nЭлемент 58 равен 580\nЭлемент 59 равен 590\nЭлемент 60 равен 600\nЭлемент 61 равен 610\nЭлемент 62 равен 620\nЭлемент 63 равен 630\nЭлемент 64 равен 640\nЭлемент 65 равен 650\nЭлемент 66 равен 660\nЭлемент 67 равен 670\nЭлемент 68 равен 680\nЭлемент 69 равен 690\nЭлемент 70 равен 700\nЭлемент 71 равен 710\nЭлемент 72 равен 720\nЭлемент 73 равен 730\nЭлемент 74 равен 740\nЭлемент 75 равен 750\nЭлемент 76 равен 760\nЭлемент 77 равен 770\nЭлемент 78 равен 780\nЭлемент 79 равен 790\nЭлемент 80 равен 800\nЭлемент 81 равен 810\nЭлемент 82 равен 820\nЭлемент 83 равен 830\nЭлемент 84 равен 840\nЭлемент 85 равен 850\nЭлемент 86 равен 860\nЭлемент 87 равен 870\nЭлемент 88 равен 880\nЭлемент 89 равен 890\nЭлемент 90 равен 900\nЭлемент 91 равен 910\nЭлемент 92 равен 920\nЭлемент 93 равен 930\nЭлемент 94 равен 940\nЭлемент 95 равен 950\nЭлемент 96 равен 960\nЭлемент 97 равен 970\nЭлемент 98 равен 980\nЭлемент 99 равен 990\n",
+      "stderr": ""
+    },
+    {
+      "name": "lesson_3668999_distance_cpp17",
+      "source": "imports/86957/validation/advanced_checks/lesson_3668999_distance_cpp17.cpp",
+      "standard": "c++17",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "Введите число футов: Введите число дюймов: \ndist1 = 1 футов 2 дюймов\ndist2 = 11 футов 6.25 дюймов\n",
+      "stderr": ""
+    },
+    {
+      "name": "lesson_3668952_enum_cpp17",
+      "source": "imports/86957/validation/advanced_checks/lesson_3668952_enum_cpp17.cpp",
+      "standard": "c++17",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "compile"
+    },
+    {
+      "name": "lesson_4036909_skeleton_cpp17",
+      "source": "imports/86957/validation/advanced_checks/lesson_4036909_skeleton_cpp17.cpp",
+      "standard": "c++17",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "compile"
+    },
+    {
+      "name": "file_counter_cpp17",
+      "source": "imports/86957/validation/advanced_checks/file_counter_cpp17.cpp",
+      "standard": "c++17",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "file_counter_cpp20",
+      "source": "imports/86957/validation/advanced_checks/file_counter_cpp20.cpp",
+      "standard": "c++20",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "abi_sizes_cpp17",
+      "source": "imports/86957/validation/advanced_checks/abi_sizes_cpp17.cpp",
+      "standard": "c++17",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "abi_sizes_cpp20",
+      "source": "imports/86957/validation/advanced_checks/abi_sizes_cpp20.cpp",
+      "standard": "c++20",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "value_categories_and_distractors_cpp17",
+      "source": "imports/86957/validation/advanced_checks/value_categories_and_distractors_cpp17.cpp",
+      "standard": "c++17",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "value_categories_and_distractors_cpp20",
+      "source": "imports/86957/validation/advanced_checks/value_categories_and_distractors_cpp20.cpp",
+      "standard": "c++20",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "teaching_unique_cpp17",
+      "source": "imports/86957/validation/advanced_checks/teaching_unique_cpp17.cpp",
+      "standard": "c++17",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "teaching_shared_demo_cpp17",
+      "source": "imports/86957/validation/advanced_checks/teaching_shared_demo_cpp17.cpp",
+      "standard": "c++17",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "2\ntrue\nfalse\n",
+      "stderr": ""
+    },
+    {
+      "name": "teaching_shared_regression_cpp17",
+      "source": "imports/86957/validation/advanced_checks/teaching_shared_regression_cpp17.cpp",
+      "standard": "c++17",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "shared lifetime and self-weak checks passed\n",
+      "stderr": ""
+    },
+    {
+      "name": "teaching_shared_regression_cpp20",
+      "source": "imports/86957/validation/advanced_checks/teaching_shared_regression_cpp20.cpp",
+      "standard": "c++20",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "shared lifetime and self-weak checks passed\n",
+      "stderr": ""
+    },
+    {
+      "name": "teaching_shared_regression_cpp17_san",
+      "source": "imports/86957/validation/advanced_checks/teaching_shared_regression_cpp17_san.cpp",
+      "standard": "c++17",
+      "sanitizers": true,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "shared lifetime and self-weak checks passed\n",
+      "stderr": "",
+      "attempts": [
+        {
+          "status": "environment_blocked",
+          "run_exit": -6,
+          "stderr": "==337==LeakSanitizer has encountered a fatal error.\n==337==HINT: For debugging, try setting environment variable LSAN_OPTIONS=verbosity=1:log_threads=1\n==337==HINT: LeakSanitizer does not work under ptrace (strace, gdb, etc)\n",
+          "reason": "LeakSanitizer unsupported under ptrace"
+        },
+        {
+          "status": "passed",
+          "run_exit": 0,
+          "ASAN_OPTIONS": "detect_leaks=0:abort_on_error=1"
+        }
+      ],
+      "leak_detection": false
+    },
+    {
+      "name": "casts_and_queue_cpp17",
+      "source": "imports/86957/validation/advanced_checks/casts_and_queue_cpp17.cpp",
+      "standard": "c++17",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "casts_and_queue_cpp20",
+      "source": "imports/86957/validation/advanced_checks/casts_and_queue_cpp20.cpp",
+      "standard": "c++20",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "avl_key_value_and_balance_cpp17",
+      "source": "imports/86957/validation/advanced_checks/avl_key_value_and_balance_cpp17.cpp",
+      "standard": "c++17",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "avl_key_value_and_balance_cpp20",
+      "source": "imports/86957/validation/advanced_checks/avl_key_value_and_balance_cpp20.cpp",
+      "standard": "c++20",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "red_black_invariants_cpp17",
+      "source": "imports/86957/validation/advanced_checks/red_black_invariants_cpp17.cpp",
+      "standard": "c++17",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "red_black_invariants_cpp20",
+      "source": "imports/86957/validation/advanced_checks/red_black_invariants_cpp20.cpp",
+      "standard": "c++20",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "hash_full_buckets_cpp17",
+      "source": "imports/86957/validation/advanced_checks/hash_full_buckets_cpp17.cpp",
+      "standard": "c++17",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "hash_full_buckets_cpp20",
+      "source": "imports/86957/validation/advanced_checks/hash_full_buckets_cpp20.cpp",
+      "standard": "c++20",
+      "sanitizers": false,
+      "compile_exit": 0,
+      "status": "passed",
+      "stage": "run",
+      "run_exit": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "limits": [
+    "Deliberate negative/undefined-behavior examples were not executed.",
+    "Hash test supplies omitted Password/PasswordList method bodies and a read-only friend probe; hash constructor/hash/insert are extracted unchanged from edited steps.",
+    "Red-black core is assembled from the edited Node/class, insertion and deletion blocks. Iterator extension is inspected separately.",
+    "Binary file tests use only files created inside advanced_checks run directories.",
+    "AddressSanitizer and UndefinedBehaviorSanitizer passed for shared-pointer lifetime and self-weak regression. LeakSanitizer is disabled because this environment runs under ptrace; leak detection was not validated. Only the affected sanitizer execution was repeated; the other48 compilations were not repeated."
+  ]
+}

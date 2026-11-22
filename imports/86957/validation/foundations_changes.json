@@ -1,0 +1,442 @@
+[
+  {
+    "finding_id": "OAIP-001",
+    "status": "fixed",
+    "changed_step_ids": [
+      3173935
+    ],
+    "summary": "В условии алгоритма деления явно исключена нулевая дробь-делитель; исправлена опечатка.",
+    "validation": "Проверено: для (a/b)/(c/d) оговорены b≠0, d≠0, c≠0; формула ad/(bc) определена.",
+    "validation_artifact": "foundations_validation.json"
+  },
+  {
+    "finding_id": "OAIP-002",
+    "status": "fixed",
+    "changed_step_ids": [
+      3201305,
+      3173778,
+      3201189
+    ],
+    "summary": "cout последовательно назван объектом потока; << — оператором вставки; объяснение ошибки перенесено с линковки на поиск имён.",
+    "validation": "Сверены три связанных объяснения и сохранён пример с намеренно отсутствующим std:: как пример ошибки.",
+    "validation_artifact": "foundations_validation.json"
+  },
+  {
+    "finding_id": "OAIP-003",
+    "status": "fixed",
+    "changed_step_ids": [
+      3201305
+    ],
+    "summary": "В обеих функциях перевода футов исправлен коэффициент на 0.3048.",
+    "validation": "Проверено взаимно обратное преобразование: 1 фут → 0.3048 м → 1 фут.",
+    "validation_artifact": "foundations_validation.json"
+  },
+  {
+    "finding_id": "OAIP-004",
+    "status": "fixed",
+    "changed_step_ids": [
+      3215253
+    ],
+    "summary": "Убраны ложные гарантии отсутствия проверок и исключительности C для системного программирования.",
+    "validation": "Новая формулировка допускает инструментирование компилятора и не выдаёт свойства одной реализации за требования языка.",
+    "validation_artifact": "foundations_validation.json"
+  },
+  {
+    "finding_id": "OAIP-005",
+    "status": "fixed",
+    "changed_step_ids": [
+      3215254
+    ],
+    "summary": "Ошибочная схема адресации заменена HTML-таблицей и точным примером адресов и байтов.",
+    "validation": "Проверены равенства 0x2FF45=196421, 0xB23E=45630, 0xB23F=45631; исходное противоречащее изображение удалено.",
+    "validation_artifact": "foundations_validation.json"
+  },
+  {
+    "finding_id": "OAIP-006",
+    "status": "fixed",
+    "changed_step_ids": [
+      3215253,
+      3173839,
+      3173838,
+      3173780
+    ],
+    "summary": "Определения и тест согласованы: интерпретация работает с программой или её промежуточным представлением, а не обязательно со строками.",
+    "validation": "Проверены связанные определения, убраны противоречащие абсолютные утверждения; все пять ключей теста согласованы с новым объяснением.",
+    "validation_artifact": "foundations_validation.json"
+  },
+  {
+    "finding_id": "OAIP-007",
+    "status": "fixed",
+    "changed_step_ids": [
+      3173876,
+      3173870
+    ],
+    "summary": "Переписано объяснение этапов сборки и согласованы десять вариантов теста; объектный файл больше не назван исходником.",
+    "validation": "Проверены разделение компиляции/компоновки и ключи по каждому варианту; не закрепляются платформенные расширения как универсальные.",
+    "validation_artifact": "foundations_validation.json"
+  },
+  {
+    "finding_id": "OAIP-008",
+    "status": "fixed",
+    "changed_step_ids": [
+      4717659
+    ],
+    "summary": "Обобщающий вариант «всё перечисленное» удалён; отдельные верные свойства получили правильные ключи.",
+    "validation": "Сохранён множественный выбор, sample_size=4; три верных независимых утверждения и один однозначный дистрактор.",
+    "validation_artifact": "foundations_validation.json"
+  },
+  {
+    "finding_id": "OAIP-009",
+    "status": "fixed",
+    "changed_step_ids": [
+      4717661
+    ],
+    "summary": "Исторический вопрос сделан однозначным: язык-основа C, влияние Simula упомянуто в пояснении.",
+    "validation": "Сохранён single-choice; единственный верный вариант C согласован с описанием создателя C++.",
+    "validation_artifact": "foundations_validation.json"
+  },
+  {
+    "finding_id": "OAIP-010",
+    "status": "fixed",
+    "changed_step_ids": [
+      4717678,
+      3177249
+    ],
+    "summary": "Тест расширений привязан к GCC и файлам реализации; .cc/.cp приняты, заголовок .h корректно отделён.",
+    "validation": "Сверены допустимые расширения GCC и связанное объяснение единицы трансляции.",
+    "validation_artifact": "foundations_validation.json"
+  },
+  {
+    "finding_id": "OAIP-011",
+    "status": "fixed",
+    "changed_step_ids": [
+      3215268,
+      3215255
+    ],
+    "summary": "Исправлены примеры endianness и убрано утверждение, что все компьютеры хранят младшие байты первыми.",
+    "validation": "Сверены последовательности байтов 0x01A8CC3D и соответствия x86=little-endian, сетевой порядок=big-endian.",
+    "validation_artifact": "foundations_validation.json"
+  },
+  {
+    "finding_id": "OAIP-012",
+    "status": "fixed",
+    "changed_step_ids": [
+      3215268
+    ],
+    "summary": "Пересчитаны степень двойки и десятичный адрес; оценка отделена от точного значения.",
+    "validation": "Проверены int(двоичная строка,2)=27839549 и 2**25=33554432.",
+    "validation_artifact": "foundations_validation.json"
+  },
+  {
+    "finding_id": "OAIP-013",
+    "status": "fixed",
+    "changed_step_ids": [
+      3215267
+    ],
+    "summary": "0x80000000 правильно описан как минимальное 32-битное значение в дополнительном коде; устранено противоречие диапазонов.",
+    "validation": "Проверены границы −2^31…2^31−1; сохранён отдельный пример минус нуля именно в прямом коде.",
+    "validation_artifact": "foundations_validation.json"
+  },
+  {
+    "finding_id": "OAIP-014",
+    "status": "fixed",
+    "changed_step_ids": [
+      3215267
+    ],
+    "summary": "В формуле дополнительного кода исправлен индекс знакового разряда.",
+    "validation": "Формула согласована с нумерацией 0…n−1 в шаге 3215256; при единственной старшей единице получается −2^(n−1).",
+    "validation_artifact": "foundations_validation.json"
+  },
+  {
+    "finding_id": "OAIP-015",
+    "status": "fixed",
+    "changed_step_ids": [
+      4717221
+    ],
+    "summary": "В тесте указаны целочисленные коды и их разрядность; ошибочная ссылка на IEEE 754 удалена.",
+    "validation": "Пересчитаны: 900=0b1110000100; 11-битные обратный/дополнительный коды −900 и 9-битная запись 127 соответствуют сохранённым ключам.",
+    "validation_artifact": "foundations_validation.json"
+  },
+  {
+    "finding_id": "OAIP-016",
+    "status": "fixed",
+    "changed_step_ids": [
+      3201153,
+      3201151
+    ],
+    "summary": "Сведения о лицензиях CLion и Qt Creator исправлены и привязаны к дате; добавлены официальные страницы условий.",
+    "validation": "Согласовано с проверенными при аудите официальными условиями: CLion non-commercial, Qt Creator GPL/коммерческая поставка.",
+    "validation_artifact": "foundations_validation.json"
+  },
+  {
+    "finding_id": "OAIP-017",
+    "status": "fixed",
+    "changed_step_ids": [
+      3201236,
+      3201267
+    ],
+    "summary": "using-директива описана через поиск имён; объяснение и пример больше не переносят объявления в std или глобальное пространство.",
+    "validation": "Пример стал самодостаточным; проверены согласованность пространства main и смысл конфликта двух Bee.",
+    "validation_artifact": "foundations_validation.json"
+  },
+  {
+    "finding_id": "OAIP-018",
+    "status": "fixed",
+    "changed_step_ids": [
+      3261530,
+      3201235
+    ],
+    "summary": "Вымышленный приоритет библиотек заменён правилами поиска имён; пример std::clock и тест согласованы, вводящие в заблуждение скриншоты удалены.",
+    "validation": "Проверено, что для std::clock требуется <ctime>; новый самодостаточный пример не зависит от неявного объявления clock в глобальном пространстве.",
+    "validation_artifact": "foundations_validation.json"
+  },
+  {
+    "finding_id": "OAIP-019",
+    "status": "fixed",
+    "changed_step_ids": [
+      3215075
+    ],
+    "summary": "В примере ввода восстановлен #include; отключение привязки записано как std::cin.tie(nullptr).",
+    "validation": "Исправлен ровно один отсутствующий #; оба фрагмента используют стандартные квалифицированные имена.",
+    "validation_artifact": "foundations_validation.json"
+  },
+  {
+    "finding_id": "OAIP-020",
+    "status": "fixed",
+    "changed_step_ids": [
+      3215092
+    ],
+    "summary": "Совет scanf_s ограничен Microsoft CRT; описаны дополнительные размеры буферов, ограничение ширины и переносимые альтернативы.",
+    "validation": "Сверены контракты scanf/scanf_s и расположение макроса до заголовков; опасная рекомендация заменять только имя удалена.",
+    "validation_artifact": "foundations_validation.json"
+  },
+  {
+    "finding_id": "OAIP-021",
+    "status": "fixed",
+    "changed_step_ids": [
+      3215092
+    ],
+    "summary": "Ввод и вывод получили отдельные точные таблицы форматов; исправлены unsigned-форматы и продвижение float в printf.",
+    "validation": "Для printf и scanf явно различены double и double*; учтены %Lf, %% и дополнительные аргументы ширины/точности.",
+    "validation_artifact": "foundations_validation.json"
+  },
+  {
+    "finding_id": "OAIP-022",
+    "status": "fixed",
+    "changed_step_ids": [
+      3267783
+    ],
+    "summary": "Тест различает заголовки и интерфейсы C/C++; допустимость stdio.h объяснена без противопоставления языков.",
+    "validation": "Проверены шесть ключей, отредактированы неточные формулировки scanf и cin.tie; C++-символы HTML-экранированы.",
+    "validation_artifact": "foundations_validation.json"
+  },
+  {
+    "finding_id": "OAIP-023",
+    "status": "fixed",
+    "changed_step_ids": [
+      3231227,
+      3231317,
+      3231228,
+      3273099
+    ],
+    "summary": "Теория, схема, команды и тест CMake согласованы с разными генераторами; добавлена отдельная директория сборки.",
+    "validation": "Команды сверены с официальным интерфейсом cmake -S/-B/--build; пример задаёт C++20 локально для своей цели, без расширений.",
+    "decision": "В учебном примере CMake явно задан C++20; Make и Ninja представлены как варианты генератора, а не единственная система.",
+    "validation_artifact": "foundations_validation.json"
+  },
+  {
+    "finding_id": "OAIP-024",
+    "status": "fixed",
+    "changed_step_ids": [
+      3177242
+    ],
+    "summary": "Перечень разделяет операторы, разделители, литералы, директивы и комментарии; устранены ложные определения #, _, ; и кавычек.",
+    "validation": "В HTML сохранены буквальные <, > и & через сущности; комментарии заданы как // и /* */.",
+    "validation_artifact": "foundations_validation.json"
+  },
+  {
+    "finding_id": "OAIP-025",
+    "status": "fixed",
+    "changed_step_ids": [
+      3177280
+    ],
+    "summary": "Опасный пример чтения неинициализированного int заменён безопасной инициализацией {}; поведение объяснено для C++17/20.",
+    "validation": "В демонстрационном коде y имеет значение 0 до вывода; текст больше не обещает произвольное допустимое число.",
+    "validation_artifact": "foundations_validation.json"
+  },
+  {
+    "finding_id": "OAIP-026",
+    "status": "fixed",
+    "changed_step_ids": [
+      3177281,
+      3284769
+    ],
+    "summary": "Вывод wchar_t разделён для C++17 и C++20; показаны wcout и явный числовой cast, простые Unicode-cast ограничены базовой латиницей.",
+    "validation": "Связанный тест 3284769 согласуется в OAIP-034; здесь прямой вывод wchar_t в cout не предлагается как код C++20.",
+    "decision": "Для пояснения явно сопоставлены C++17 и C++20; в переносимых примерах применяется wcout либо явное преобразование для числового вывода.",
+    "validation_artifact": "foundations_validation.json",
+    "peer_review": "Независимая проверка audit_cpp_core: технических противоречий в шагах 3177281, 3177283 и 3296857 не выявлено."
+  },
+  {
+    "finding_id": "OAIP-027",
+    "status": "fixed",
+    "changed_step_ids": [
+      3177283,
+      3262711,
+      3215265
+    ],
+    "summary": "Таблица-изображение заменена HTML; требования стандарта отделены от примера MSVC x64, исправлены long double, wchar_t и байтовое представление текста.",
+    "validation": "Диапазоны описаны формулами для заданной ширины; пример sizeof/numeric_limits показывает реальные свойства реализации. Некорректная картинка удалена.",
+    "decision": "Для конкретной таблицы явно выбрана MSVC x64 с 8-битным байтом; общие гарантии C++ даны отдельно.",
+    "validation_artifact": "foundations_validation.json",
+    "peer_review": "Независимая проверка audit_cpp_core: технических противоречий в шагах 3177281, 3177283 и 3296857 не выявлено."
+  },
+  {
+    "finding_id": "OAIP-031",
+    "status": "fixed",
+    "changed_step_ids": [
+      4717745
+    ],
+    "summary": "long float включён в неправильные типы; вопрос уточнён, чтобы исключить пользовательские псевдонимы и неполные спецификаторы.",
+    "validation": "Ключ содержит long float, const и typedef как неполные/недопустимые имена встроенного типа; float/int/double исключены.",
+    "validation_artifact": "foundations_validation.json"
+  },
+  {
+    "finding_id": "OAIP-032",
+    "status": "fixed",
+    "changed_step_ids": [
+      3177499
+    ],
+    "summary": "Таблица приоритетов заменена точной HTML-таблицей C++20; исправлены typeid, <<= и общий уровень условного выражения/присваивания/throw.",
+    "validation": "Проверены все группы и ассоциативность; добавлено различие приоритета и порядка вычислений, C++20-оператор <=> расположен между сдвигами и отношениями.",
+    "decision": "Таблица явно описывает C++20.",
+    "validation_artifact": "foundations_validation.json"
+  },
+  {
+    "finding_id": "OAIP-033",
+    "status": "fixed",
+    "changed_step_ids": [
+      3296822
+    ],
+    "summary": "Добавлены конечность и представимость результата; положительная усечённая разность теперь правильно означает A>B.",
+    "validation": "Проверена логика усечения к нулю; отдельно пояснено, почему diff==0 не доказывает равенство исходных размеров.",
+    "validation_artifact": "foundations_validation.json"
+  },
+  {
+    "finding_id": "OAIP-034",
+    "status": "fixed",
+    "changed_step_ids": [
+      3296857,
+      3286915,
+      3284769,
+      3296975
+    ],
+    "summary": "Тесты char получили явные ширину, знаковость, стандарт и кодировку; исправлены wchar_t в C++20 и нулевая инициализация double.",
+    "validation": "Все варианты описывают определённые преобразования без зависимости от неоговорённой знаковости char; сохранены исходные режимы single/multiple choice.",
+    "decision": "Для знаковых преобразований: C++20, CHAR_BIT=8, явно signed char. Для переполнения байта: unsigned char и 8 бит. Для кодов символов: ASCII-совместимая кодировка.",
+    "validation_artifact": "foundations_validation.json",
+    "peer_review": "Независимая проверка audit_cpp_core: технических противоречий в шагах 3177281, 3177283 и 3296857 не выявлено."
+  },
+  {
+    "finding_id": "OAIP-035",
+    "status": "fixed",
+    "changed_step_ids": [
+      3177292,
+      3177789
+    ],
+    "summary": "Вывод первого if-примера приведён полностью; пример break стал самодостаточным и согласован с диапазоном 1…3.",
+    "validation": "Ручная трассировка: при x=60 выполняются первая строка и End of Program; цикл прекращается до печати 4.",
+    "validation_artifact": "foundations_validation.json"
+  },
+  {
+    "finding_id": "OAIP-039",
+    "status": "fixed",
+    "changed_step_ids": [
+      3177541
+    ],
+    "summary": "Правила достижения конца функции исправлены с исключениями для void/main; в Print используется объявленный параметр a.",
+    "validation": "Обе версии IMin возвращают значение на всех путях; Print не обращается к несуществующей x.",
+    "validation_artifact": "foundations_validation.json"
+  },
+  {
+    "finding_id": "OAIP-040",
+    "status": "fixed",
+    "changed_step_ids": [
+      3177547
+    ],
+    "summary": "gets и фиксированный буфер заменены getline/string; исправлен вывод числа пробелов и обработка EOF во втором примере continue.",
+    "validation": "Ввод не может переполнить массив; код считает только обычные пробелы, корректно обрабатывает пустую строку и конец ввода.",
+    "validation_artifact": "foundations_validation.json"
+  },
+  {
+    "finding_id": "OAIP-041",
+    "status": "fixed",
+    "changed_step_ids": [
+      3394590
+    ],
+    "summary": "Критерий количества строк заменён правилом составной инструкции; удалён двусмысленный вариант !Всегда.",
+    "validation": "Два правильных независимых утверждения; демонстрация if(x) a=1; b=2; объясняется новым правилом.",
+    "validation_artifact": "foundations_validation.json"
+  },
+  {
+    "finding_id": "OAIP-042",
+    "status": "fixed",
+    "changed_step_ids": [
+      3394601
+    ],
+    "summary": "Предпосылка о необходимости скобок и двух case устранена; single-choice проверяет допустимое отсутствие case/default.",
+    "validation": "Новый ключ согласован с ранее скомпилированными switch(x) case 1: ++x; и switch(x);.",
+    "validation_artifact": "foundations_validation.json"
+  },
+  {
+    "finding_id": "OAIP-043",
+    "status": "fixed",
+    "changed_step_ids": [
+      3394620,
+      3177546
+    ],
+    "summary": "break и continue определены через ближайший цикл/switch; исправлено объяснение выхода из switch и условного примера kbhit.",
+    "validation": "Тест и теория согласованы; выход из функции не приписан break, непривязанный к платформе kbhit не выдан за стандарт.",
+    "validation_artifact": "foundations_validation.json"
+  },
+  {
+    "finding_id": "OAIP-044",
+    "status": "fixed",
+    "changed_step_ids": [
+      3177566
+    ],
+    "summary": "Условие задаёт N−1…1, стартовый код согласован с N, обновлены оба шаблона и добавлены два небольших теста другого размера.",
+    "validation": "Эталоны для N=10,2,4 рассчитаны целочисленно; sample совпадает с первым тестом; checker допускает лишние пробельные разделители, но сохраняет порядок и токены.",
+    "validation_artifact": "foundations_validation.json"
+  },
+  {
+    "finding_id": "OAIP-045",
+    "status": "fixed",
+    "changed_step_ids": [
+      3299645
+    ],
+    "summary": "153 названо наименьшим трёхзначным числом Армстронга; явно задан поиск положительных чисел, порядок вывода и пустой случай.",
+    "validation": "Сохранены исходные три числовых эталона; добавлен граничный N=1 с пустым ответом, sample синхронизирован.",
+    "validation_artifact": "foundations_validation.json"
+  },
+  {
+    "finding_id": "OAIP-046",
+    "status": "fixed",
+    "changed_step_ids": [
+      4718172
+    ],
+    "summary": "Вместо универсального превосходства преинкремента правильный ответ указывает зависимость от типа, контекста и оптимизации.",
+    "validation": "Сохранён single-choice; ни одному оператору не приписано требование стандарта о скорости.",
+    "validation_artifact": "foundations_validation.json"
+  },
+  {
+    "finding_id": "OAIP-047",
+    "status": "fixed",
+    "changed_step_ids": [
+      4718178
+    ],
+    "summary": "Вопрос о «вызове по ссылке» заменён сравнением значений и эффектов встроенных ++x и x++.",
+    "validation": "Исходное состояние явно сбрасывается для каждого выражения; ключ не смешивает результат выражения и конечное значение x.",
+    "validation_artifact": "foundations_validation.json"
+  }
+]

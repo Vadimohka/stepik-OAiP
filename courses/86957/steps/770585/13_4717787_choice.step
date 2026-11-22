@@ -1,7 +1,7 @@
 {
   "block": {
     "name": "choice",
-    "text": "<p>Оператор разыменования также вызывается как</p>",
+    "text": "<p>Как ещё называют оператор разыменования <code>*</code>?</p>",
     "video": null,
     "options": {
       "is_multiple_choice": false
@@ -23,7 +23,7 @@
         },
         {
           "is_correct": true,
-          "text": "оператор смещения",
+          "text": "оператор косвенного обращения (indirection)",
           "feedback": ""
         },
         {

@@ -1,0 +1,674 @@
+{
+  "scope": "Corrected .step files in modules 5–10",
+  "checks": [
+    {
+      "name": "import_envelopes_preserved",
+      "passed": true,
+      "changed_step_count": 66,
+      "step_ids": [
+        3177298,
+        3212907,
+        3212920,
+        3212928,
+        3212935,
+        3212937,
+        3212947,
+        3212950,
+        3212951,
+        3212968,
+        3212969,
+        3212970,
+        3212990,
+        3212991,
+        3213003,
+        3213208,
+        3213210,
+        3213242,
+        3213247,
+        3213256,
+        3214845,
+        3214901,
+        3214903,
+        3214904,
+        3214909,
+        3214910,
+        3214911,
+        3214972,
+        3215024,
+        3215177,
+        3215179,
+        3215192,
+        3252940,
+        3253129,
+        3253503,
+        3253553,
+        3324082,
+        3324316,
+        3330670,
+        3330738,
+        3332379,
+        3333775,
+        3381234,
+        3383209,
+        3384518,
+        3404721,
+        3404829,
+        3404927,
+        3408471,
+        3408767,
+        3408864,
+        3408968,
+        3426151,
+        3428470,
+        3428716,
+        3428845,
+        3435399,
+        3437788,
+        3446002,
+        3446094,
+        4700299,
+        4717782,
+        4717787,
+        4718299,
+        4738986,
+        4739135
+      ]
+    },
+    {
+      "name": "choice_and_code_schema",
+      "passed": true,
+      "choice_count": 21
+    },
+    {
+      "name": "targeted_grading_keys",
+      "passed": true,
+      "steps": [
+        3330670,
+        3330738,
+        3332379,
+        3428470,
+        4717787,
+        3435399,
+        3408767,
+        3408864,
+        3408968
+      ]
+    },
+    {
+      "name": "matrix_checker_regression",
+      "passed": true,
+      "positive": 30,
+      "negative": 20,
+      "test_cases": 5
+    },
+    {
+      "name": "final_crlf_checker_regression",
+      "passed": true,
+      "positive": 8,
+      "negative": 10,
+      "scope": "Extracted check only; live Stepik not exercised"
+    },
+    {
+      "name": "extension_cord_test_domain",
+      "passed": true,
+      "test_cases": 8,
+      "maximum_n": 1000000000
+    },
+    {
+      "name": "largest_odd_divisor_sum",
+      "passed": true,
+      "individual_inputs": 1013
+    },
+    {
+      "name": "prefix_suffix_test_domain_and_reference",
+      "passed": true,
+      "individual_inputs": 114,
+      "small_exhaustive_cases": 7
+    },
+    {
+      "name": "non_palindrome_test_alphabet",
+      "passed": true,
+      "test_cases": 7
+    }
+  ],
+  "compilations": [
+    {
+      "name": "array_initialization",
+      "standard": "c++20",
+      "source": "array_initialization.cpp",
+      "compile_returncode": 0,
+      "diagnostic": "",
+      "runs": [
+        {
+          "input": "",
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "pointer_indirection",
+      "standard": "c++20",
+      "source": "pointer_indirection.cpp",
+      "compile_returncode": 0,
+      "diagnostic": "",
+      "runs": [
+        {
+          "input": "",
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "char_pointer_output",
+      "standard": "c++20",
+      "source": "char_pointer_output.cpp",
+      "compile_returncode": 0,
+      "diagnostic": "",
+      "runs": [
+        {
+          "input": "",
+          "returncode": 0,
+          "stdout": "address=0x7ffd97f8dee7\ncharacter=N\nstring=N\n",
+          "stderr": ""
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "pointer_increment",
+      "standard": "c++20",
+      "source": "pointer_increment.cpp",
+      "compile_returncode": 0,
+      "diagnostic": "",
+      "runs": [
+        {
+          "input": "",
+          "returncode": 0,
+          "stdout": "10\n20\n10\n",
+          "stderr": ""
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "pointer_offsets",
+      "standard": "c++20",
+      "source": "pointer_offsets.cpp",
+      "compile_returncode": 0,
+      "diagnostic": "",
+      "runs": [
+        {
+          "input": "",
+          "returncode": 0,
+          "stdout": "30.6A",
+          "stderr": ""
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "pointer_difference",
+      "standard": "c++20",
+      "source": "pointer_difference.cpp",
+      "compile_returncode": 0,
+      "diagnostic": "",
+      "runs": [
+        {
+          "input": "",
+          "returncode": 0,
+          "stdout": "2",
+          "stderr": ""
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "pointer_precedence",
+      "standard": "c++20",
+      "source": "pointer_precedence.cpp",
+      "compile_returncode": 0,
+      "diagnostic": "",
+      "runs": [
+        {
+          "input": "",
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "array_complete_loop",
+      "standard": "c++20",
+      "source": "array_complete_loop.cpp",
+      "compile_returncode": 0,
+      "diagnostic": "",
+      "runs": [
+        {
+          "input": "",
+          "returncode": 0,
+          "stdout": "address=0x7fff8f5571b0\tvalue=1\naddress=0x7fff8f5571b4\tvalue=2\naddress=0x7fff8f5571b8\tvalue=3\naddress=0x7fff8f5571bc\tvalue=4\naddress=0x7fff8f5571c0\tvalue=5\n",
+          "stderr": ""
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "matrix_nested_iteration",
+      "standard": "c++20",
+      "source": "matrix_nested_iteration.cpp",
+      "compile_returncode": 0,
+      "diagnostic": "",
+      "runs": [
+        {
+          "input": "",
+          "returncode": 0,
+          "stdout": "1\t2\t3\t4\t\n5\t6\t7\t8\t\n9\t10\t11\t12\t\n",
+          "stderr": ""
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "valid_commuted_subscript",
+      "standard": "c++20",
+      "source": "valid_commuted_subscript.cpp",
+      "compile_returncode": 0,
+      "diagnostic": "",
+      "runs": [
+        {
+          "input": "",
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "string_array_new",
+      "standard": "c++11",
+      "source": "string_array_new.cpp",
+      "compile_returncode": 0,
+      "diagnostic": "",
+      "runs": [
+        {
+          "input": "",
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "matrix_delete_arrays",
+      "standard": "c++20",
+      "source": "matrix_delete_arrays.cpp",
+      "compile_returncode": 0,
+      "diagnostic": "",
+      "runs": [
+        {
+          "input": "",
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "malloc_basic_c",
+      "standard": "c17",
+      "source": "malloc_basic_c.c",
+      "compile_returncode": 0,
+      "diagnostic": "",
+      "runs": [
+        {
+          "input": "",
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "malloc_scanf_c",
+      "standard": "c17",
+      "source": "malloc_scanf_c.c",
+      "compile_returncode": 0,
+      "diagnostic": "",
+      "runs": [
+        {
+          "input": "0\n",
+          "returncode": 0,
+          "stdout": "Enter number from 0 to 100: ",
+          "stderr": ""
+        },
+        {
+          "input": "5\n",
+          "returncode": 0,
+          "stdout": "Enter number from 0 to 100: 0 1 4 9 16 \n",
+          "stderr": ""
+        },
+        {
+          "input": "100\n",
+          "returncode": 0,
+          "stdout": "Enter number from 0 to 100: 0 1 4 9 16 25 36 49 64 81 100 121 144 169 196 225 256 289 324 361 400 441 484 529 576 625 676 729 784 841 900 961 1024 1089 1156 1225 1296 1369 1444 1521 1600 1681 1764 1849 1936 2025 2116 2209 2304 2401 2500 2601 2704 2809 2916 3025 3136 3249 3364 3481 3600 3721 3844 3969 4096 4225 4356 4489 4624 4761 4900 5041 5184 5329 5476 5625 5776 5929 6084 6241 6400 6561 6724 6889 7056 7225 7396 7569 7744 7921 8100 8281 8464 8649 8836 9025 9216 9409 9604 9801 \n",
+          "stderr": ""
+        },
+        {
+          "input": "bad\n",
+          "returncode": 1,
+          "stdout": "Enter number from 0 to 100: ",
+          "stderr": ""
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "realloc_words_c",
+      "standard": "c17",
+      "source": "realloc_words_c.c",
+      "compile_returncode": 0,
+      "diagnostic": "",
+      "runs": [
+        {
+          "input": "hello world end\n",
+          "returncode": 0,
+          "stdout": "hello\nworld\n",
+          "stderr": ""
+        },
+        {
+          "input": "a b c d e f g h i j k l end\n",
+          "returncode": 0,
+          "stdout": "a\nb\nc\nd\ne\nf\ng\nh\ni\nj\nk\nl\n",
+          "stderr": ""
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "realloc_aliases_c",
+      "standard": "c17",
+      "source": "realloc_aliases_c.c",
+      "compile_returncode": 0,
+      "diagnostic": "",
+      "runs": [
+        {
+          "input": "",
+          "returncode": 0,
+          "stdout": "0 1 2 3 4 5 6 7 8 9 ",
+          "stderr": ""
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "noexcept_copy",
+      "standard": "c++20",
+      "source": "noexcept_copy.cpp",
+      "compile_returncode": 0,
+      "diagnostic": "",
+      "runs": [
+        {
+          "input": "",
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "string_compare_and_accessor",
+      "standard": "c++20",
+      "source": "string_compare_and_accessor.cpp",
+      "compile_returncode": 0,
+      "diagnostic": "",
+      "runs": [
+        {
+          "input": "",
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "setw_matrix",
+      "standard": "c++20",
+      "source": "setw_matrix.cpp",
+      "compile_returncode": 0,
+      "diagnostic": "core-validation/setw_matrix.cpp: In function ‘int** array_generator(unsigned int, unsigned int)’:\ncore-validation/setw_matrix.cpp:9:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘unsigned int’ [-Wsign-compare]\n    9 |     for (int i = 0; i < dim1; i++) {\n      |                     ~~^~~~~~\ncore-validation/setw_matrix.cpp: In function ‘void array_destroyer(int**, unsigned int)’:\ncore-validation/setw_matrix.cpp:16:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘unsigned int’ [-Wsign-compare]\n   16 |     for (int i = 0; i < dim1; i++) {\n      |                     ~~^~~~~~\ncore-validation/setw_matrix.cpp: In function ‘int main()’:\ncore-validation/setw_matrix.cpp:30:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘const unsigned int’ [-Wsign-compare]\n   30 |     for (int i = 0; i < DIM1; i++) {\n      |                     ~~^~~~~~\ncore-validation/setw_matrix.cpp:31:27: warning: comparison of integer expressions of different signedness: ‘int’ and ‘const unsigned int’ [-Wsign-compare]\n   31 |         for (int j = 0; j < DIM2; j++) {\n      |                         ~~^~~~~~\n",
+      "runs": [
+        {
+          "input": "",
+          "returncode": 0,
+          "stdout": "  11  12  13  14  15  21  22  23  24  25  31  32  33  34  35",
+          "stderr": ""
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "char_promotion",
+      "standard": "c++20",
+      "source": "char_promotion.cpp",
+      "compile_returncode": 0,
+      "diagnostic": "",
+      "runs": [
+        {
+          "input": "",
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "sum_digits",
+      "standard": "c++20",
+      "source": "sum_digits.cpp",
+      "compile_returncode": 0,
+      "diagnostic": "",
+      "runs": [
+        {
+          "input": "",
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "google_test_two_arguments",
+      "standard": "c++20",
+      "source": "google_test_two_arguments.cpp",
+      "compile_returncode": 0,
+      "diagnostic": "",
+      "runs": [
+        {
+          "input": "",
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "string_constructors",
+      "standard": "c++20",
+      "source": "string_constructors.cpp",
+      "compile_returncode": 0,
+      "diagnostic": "",
+      "runs": [
+        {
+          "input": "",
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "string_literal_const",
+      "standard": "c++20",
+      "source": "string_literal_const.cpp",
+      "compile_returncode": 0,
+      "diagnostic": "",
+      "runs": [
+        {
+          "input": "",
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "quadratic_example",
+      "standard": "c++20",
+      "source": "quadratic_example.cpp",
+      "compile_returncode": 0,
+      "diagnostic": "",
+      "runs": [
+        {
+          "input": "",
+          "returncode": 0,
+          "stdout": "1\n2\n3\n4\n5\n6\n7\n8\n9\n",
+          "stderr": ""
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "binary_search_with_sort",
+      "standard": "c++20",
+      "source": "binary_search_with_sort.cpp",
+      "compile_returncode": 0,
+      "diagnostic": "",
+      "runs": [
+        {
+          "input": "9 8 7 6 5 4 3 2 1 0\n3\n",
+          "returncode": 0,
+          "stdout": "Введите 10 чисел для заполнения массива: \n\nВведите ключ: Индекс элемента 3 в массиве равен: 3",
+          "stderr": ""
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "binary_search_bounds",
+      "standard": "c++20",
+      "source": "binary_search_bounds.cpp",
+      "compile_returncode": 0,
+      "diagnostic": "",
+      "runs": [
+        {
+          "input": "",
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "limitations": [
+    "No live Stepik submissions or server-side preprocessing were exercised.",
+    "The Google Test syntax probe uses a minimal two-argument macro, not an installed Google Test runner.",
+    "Only explicitly selected safe fragments are executed; no course generator or full exported checker module is executed.",
+    "Examples with signed-char narrowing assume C++20 and the checked 8-bit-char environment.",
+    "The missing image in step 3214901 was removed without reconstructing unknown original content."
+  ],
+  "summary": {
+    "checks_passed": 9,
+    "compilations_passed": 27,
+    "runs_passed": 31,
+    "assigned_findings": 66,
+    "changed_steps": 66
+  },
+  "source_sha256": {
+    "courses/86957/steps/763646/02_3177298_text.step": "7b9c8d0e958e5d9825fe5026d9ee3aa231b1e933b84db9610c4da8b67d958a24",
+    "courses/86957/steps/763644/03_3212907_text.step": "ce3f9273bc6e4cf8e367431de07e5b15979080cf945a2e02feeb96143ea61611",
+    "courses/86957/steps/763644/06_3212920_text.step": "47f6bccb41048cc0a2cdff6df3357dcee3932cd35be2eed1c6c4d7d04c7dba54",
+    "courses/86957/steps/763646/04_3212928_text.step": "bf80116524cd50d1d1821a92375ac91051a6fe47ab445029fdd5a2824d4fd0ae",
+    "courses/86957/steps/763644/05_3212935_text.step": "4f8c968dfa9eda6d15e7bb3c892c8f630cb7752244a8752b2e37cef09ab5e1f2",
+    "courses/86957/steps/763646/05_3212937_text.step": "275f0db870b6852cd1429bd3aeb8ed09da97f8470ba054ee632dd0defcfa172a",
+    "courses/86957/steps/770588/01_3212947_text.step": "8642a5b5d71c3bdeef75d5c32d423001f15980b915c065b20dc7207b8737c911",
+    "courses/86957/steps/770591/01_3212950_text.step": "821841f847c45761a65f350b992e4a57cb1ec079b52e49187aff4d84be55baef",
+    "courses/86957/steps/770592/02_3212951_text.step": "6d508d5430a5e126a05c3fcaecc00e2f7eb38d11e2f26d20bac412def441d0ee",
+    "courses/86957/steps/770585/02_3212968_text.step": "2b0daa4a561347ba3f92444594a3e5ab0125ca1897234b2b4de4c7c648f30edb",
+    "courses/86957/steps/770585/03_3212969_text.step": "aaca0885ee4da1f85ef2fcddd82cbe1f05ad65111d67ca574289bdcf56fad1ff",
+    "courses/86957/steps/770585/04_3212970_text.step": "a3c5d33ac5350fddab302351291d3c19eb809d066e2f7f4f3f3d62fe0005e12d",
+    "courses/86957/steps/770585/05_3212990_text.step": "37bf6ba467280ca7ebae231b13ac9dd5091040c037c5eafe341572649450eece",
+    "courses/86957/steps/770585/07_3212991_text.step": "b62cba17a3ac506e1674e0cb812738fc83e85f4fcc2ebe7e76eb7961e7342fa3",
+    "courses/86957/steps/770586/03_3213003_text.step": "4b27d67ff97dd95e60e34391fbb762202dc74d088c1bbce1758622755081301f",
+    "courses/86957/steps/770587/03_3213208_text.step": "d87482dbc9a0892d96133e53352a99e29e91fc442f3ce57443e334b9e720faac",
+    "courses/86957/steps/770587/05_3213210_text.step": "b3d1c4316dde5c51c0bcf986fe994cf41fbb8e00d937cb44afd6b7e60c29db86",
+    "courses/86957/steps/770594/05_3213242_text.step": "07218f2856acb647b13a945e860b2d7bd0fb7673ba165d8bb523b3f08ef4b302",
+    "courses/86957/steps/770594/06_3213247_text.step": "20223687aa07843d57b8c0db48f4d5aeeea6be2ba694c81afc8971a4a4ed131c",
+    "courses/86957/steps/770594/08_3213256_text.step": "5b7b9953102b24312b59f2cbefbfc85589bab4d4c4387ed5e2949a47a730b791",
+    "courses/86957/steps/770588/02_3214845_text.step": "d8c698fc8b584243caf4327acd7b26558fea652a78d2a9a3c189dd06f84320d0",
+    "courses/86957/steps/770589/02_3214901_text.step": "eb0aa6bcbaaa5b8eae597988eb15e6053d6a82d5214f33f6575a078c164fb964",
+    "courses/86957/steps/770589/03_3214903_text.step": "b758e38f9d375e381caafe713877c4460d253398af2afeae85c1c5e7e538bbec",
+    "courses/86957/steps/770589/05_3214904_text.step": "adad52d3524c5572a330c4094592dd81f4e5a825403dbd89e1b9087d28e50ca3",
+    "courses/86957/steps/770590/02_3214909_text.step": "57f19b31227a59ad49af2a74d8d397e36293b2736794e603b11c32f58de6fdfd",
+    "courses/86957/steps/770590/03_3214910_text.step": "14c3c51abae77623d83133ee0e91ad7d383f2d57bfc33da32702b019a97a9107",
+    "courses/86957/steps/770590/04_3214911_text.step": "627b86f9ee46677c1815a64f5a06bd0c375bd51ced7d1f2172c2e429f2c3ed11",
+    "courses/86957/steps/770591/03_3214972_text.step": "3b090c6c2823d5bdbebf7fcc3ee2925a9729bb77f6e9785b1a05ea9bc9912bf4",
+    "courses/86957/steps/770591/06_3215024_text.step": "55f74cd83988aa3f293af2c311ae541d8b0b58b397f157635021461a169160fd",
+    "courses/86957/steps/770595/07_3215177_text.step": "4cad77986f237b6730aec88a4494086ad81e245ef222808e0cd5f12d4f29ac40",
+    "courses/86957/steps/770595/08_3215179_text.step": "9e3e36fe6dc1d711be31a75bc94e4c7699b45708b7af226fd5af2358b6792111",
+    "courses/86957/steps/771129/03_3215192_text.step": "c57d53ab0f05f102bebe060fb7896dc36617e86055d36d4b20ea9fd47deac045",
+    "courses/86957/steps/778425/04_3252940_text.step": "68b3194571f6a286f348d1f6a242b82c5cf795b6f2276473487c550bb48a07a6",
+    "courses/86957/steps/778426/02_3253129_text.step": "e1a72f26c51e11ef1011ec40f175bf891eb9268e621777916fe7340c59b571b1",
+    "courses/86957/steps/778426/05_3253503_text.step": "77264b54c0a2435a41079e4567a950306d8e55c32956b6f45d074b056cd33cf0",
+    "courses/86957/steps/778426/07_3253553_text.step": "b1bb2337f63cd1790f0170bffbff295442881b4ec6bb139f5bd69cd8c9ffa654",
+    "courses/86957/steps/763646/06_3324082_choice.step": "954ff206e96c524f7c21411176cdc0c405396b0491963d85d8b15ed43c070a6d",
+    "courses/86957/steps/770587/08_3324316_choice.step": "34a3635b15c7d62440cd8c498d2c5beb064cd34bd615349277c1ee02e6cbd9d3",
+    "courses/86957/steps/763646/07_3330670_choice.step": "bb698f33868b84ea86f061dbfb116af68b19acff57df4cc6985333f95470b3fa",
+    "courses/86957/steps/770587/10_3330738_choice.step": "679051a2d58d11e071ee1644f63415c764ba5bf5f5e845c5282211dc45bab1b8",
+    "courses/86957/steps/770587/11_3332379_choice.step": "31496de32f320d7ab1e1b45836087588c8cf101e979607cb55c5fbe1e473887d",
+    "courses/86957/steps/770587/14_3333775_choice.step": "7e4f9ee28231d1274a86d9bd4c1a11f1dd93311705e3843f0510c75ba56ae70c",
+    "courses/86957/steps/763646/09_3381234_code.step": "3be40cbbb491f4c44fc4c4dc548c3492f7add2cf36b491d5f0cd8e0bd03665d5",
+    "courses/86957/steps/763644/10_3383209_code.step": "8b033d862434088880b36e599473404affc6c94ab2f06f47c845ad56fb39c724",
+    "courses/86957/steps/770591/12_3384518_code.step": "3b3e8c3ca5a0c214dd24d36cd5dc9c8d935c1046ff96205506671ec461f82a7e",
+    "courses/86957/steps/770590/05_3404721_choice.step": "cc76bafdbef8c45cda2a381c6f56101050a46754ccda5d9f40ed30894bb6504d",
+    "courses/86957/steps/770591/08_3404829_choice.step": "d109fa6144e6a990398b4b7f51750911a1cdb490d2275f3d30e6b1fe132fc4a6",
+    "courses/86957/steps/770592/04_3404927_choice.step": "f6bb38551a554253757addb0e48df1aa9a74a0d430d62142eef648cfd4082e60",
+    "courses/86957/steps/770593/07_3408471_choice.step": "eaea24d95f687530efb6857a45265979aa386dc6de84b2595322f1784fb5f32c",
+    "courses/86957/steps/770595/09_3408767_choice.step": "2af6abf7990d84bb15d0d05790fbfcf3288610f23aa11eb65bd765058641f689",
+    "courses/86957/steps/771129/05_3408864_choice.step": "f4313651de25a997c57a48cb306b8f2b86118584a3e09ad38da5eae0f80fe5cf",
+    "courses/86957/steps/770588/04_3408968_fill-blanks.step": "251cf982ec471b720f7822621a4e2089270f8b09785f91d74d2faaa801596ea7",
+    "courses/86957/steps/770593/08_3426151_choice.step": "d24185086c2eedac1b8b9c147e794ac0184a31549be9e71738d16353e8f56e67",
+    "courses/86957/steps/770585/08_3428470_choice.step": "20ad0e8594ca2145bbb640e9e58290fffb4d1b71dc51254404ce085ac031b9a8",
+    "courses/86957/steps/770586/08_3428716_choice.step": "4c46f06e26e4e553f8c17da1e94106d6225d0caf3078922d43914fa6b9667c34",
+    "courses/86957/steps/770586/11_3428845_choice.step": "a813cfacd9e5820bc6018080d6edec952f38ded304e3db27ef9e84f32ef70c99",
+    "courses/86957/steps/770588/05_3435399_choice.step": "543c18d9af7f0da4c16340ed3f37ae5be9284e82c88319d718ed43bb5410cde2",
+    "courses/86957/steps/770589/07_3437788_choice.step": "9a51f8107a9218949fb5d4817b104cdace811c222b701fb8156614e3b0fa8525",
+    "courses/86957/steps/770589/08_3446002_code.step": "308f34860a298cf76b5e6c316093760cafddb0bd042b72f0dca1bdd087d56030",
+    "courses/86957/steps/770589/09_3446094_code.step": "eb345a641a31457f3474678047ce8584a3acae11fdacaeed5b5b9a68d94690f9",
+    "courses/86957/steps/770590/07_4700299_code.step": "e4c58883efdba6be6d7dd061ee8bee4b5d47a25bb7aeae2fba874f8db2e1c0b0",
+    "courses/86957/steps/770589/11_4717782_choice.step": "8df61a472f173a1df707255b35913e59cbec8bf03f9abd9ee3708d32aa37e894",
+    "courses/86957/steps/770585/13_4717787_choice.step": "808aea213e2f59aaee7807e79d30151f932fe6b6dafd9fc68901410dbcb65920",
+    "courses/86957/steps/770593/11_4718299_choice.step": "e6d9ca694bb3a687bd41c2cebb53e6d583cdcbda4290a9eae25540b4c1f4bf5e",
+    "courses/86957/steps/770589/14_4738986_code.step": "99515199c4a4a2acd379aae18ed7c05276963c0db1d52a4febeb90676532f400",
+    "courses/86957/steps/778425/08_4739135_code.step": "95eec99e373a696ffd6e68f7c85927eacfe2063b0ce5987d609f6a7a9700a20e"
+  }
+}

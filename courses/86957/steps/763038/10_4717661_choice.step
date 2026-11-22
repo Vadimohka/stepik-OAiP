@@ -1,7 +1,7 @@
 {
   "block": {
     "name": "choice",
-    "text": "<p>C ++ появился под влиянием</p>",
+    "text": "<p>На основе какого языка был разработан C++?</p>",
     "video": null,
     "options": {
       "is_multiple_choice": false
@@ -14,26 +14,26 @@
       "sample_size": 4,
       "preserve_order": false,
       "is_html_enabled": true,
-      "is_options_feedback": false,
+      "is_options_feedback": true,
       "options": [
         {
-          "is_correct": false,
-          "text": "C",
-          "feedback": ""
-        },
-        {
           "is_correct": true,
-          "text": "C ++ был разработан как замена всем перечисленным языкам",
+          "text": "C",
+          "feedback": "C++ развивался из C; на классы и объектную модель также повлиял Simula67."
+        },
+        {
+          "is_correct": false,
+          "text": "Pascal",
           "feedback": ""
         },
         {
           "is_correct": false,
-          "text": "Ада и АЛГОЛ",
+          "text": "Fortran",
           "feedback": ""
         },
         {
           "is_correct": false,
-          "text": "Modula-2 и Simula",
+          "text": "Lisp",
           "feedback": ""
         }
       ]

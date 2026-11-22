@@ -58,7 +58,7 @@
         },
         {
           "is_correct": true,
-          "text": "Оператор << объекта ofstream возвращает количество записанных байт.",
+          "text": "Выражение <code>out &lt;&lt; 42</code>, где out имеет тип std::ofstream, возвращает ссылку <code>std::ostream&amp;</code> на тот же поток.",
           "feedback": ""
         },
         {

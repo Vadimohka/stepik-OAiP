@@ -1,0 +1,694 @@
+[
+  {
+    "finding_id": "OAIP-048",
+    "status": "fixed",
+    "changed_step_ids": [
+      3212907,
+      3213003
+    ],
+    "summary": "Разведены тип массива и неявное преобразование в указатель.",
+    "validation": "Проверка текстов и адресные static_assert для T[N] и T*.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-049",
+    "status": "fixed",
+    "changed_step_ids": [
+      3212935,
+      3324082,
+      3324316
+    ],
+    "summary": "Убраны несуществующие конструкторы int из теории и двух тестов; описана нулевая инициализация.",
+    "validation": "Ключи сверены с инициализацией массивов; безопасные компиляционные проверки.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-050",
+    "status": "fixed",
+    "changed_step_ids": [
+      3212920
+    ],
+    "summary": "Массив инициализирован нулями до чтения a[3].",
+    "validation": "Проверка изменённого фрагмента с ожидаемым t==0.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-051",
+    "status": "fixed",
+    "changed_step_ids": [
+      3383209
+    ],
+    "summary": "Уточнены i розеток на удлинитель, подключение и диапазон N; слишком большой тест заменён границей 10^9.",
+    "validation": "Все тесты независимо пересчитываются по N*(N-1)/2+1; samples синхронизированы.",
+    "decision": "Выбран диапазон 0…10^9, чтобы задача базового модуля решалась стандартным long long без арифметики произвольной точности.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-052",
+    "status": "fixed",
+    "changed_step_ids": [
+      3177298,
+      3324082
+    ],
+    "summary": "Разрешены неполные списки строк; неверная схема индексов заменена HTML-таблицей.",
+    "validation": "Сверены пример {{1,2},{4}} и ключ с результатом {{1,2,0},{4,0,0}}.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-053",
+    "status": "fixed",
+    "changed_step_ids": [
+      3212928
+    ],
+    "summary": "Обе схемы заменены точными таблицами; трёхмерный пример соответствует [2][2][4].",
+    "validation": "Перечислены все 16 допустимых трёхмерных индексов и порядок элементов.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-054",
+    "status": "fixed",
+    "changed_step_ids": [
+      3324082,
+      3212937
+    ],
+    "summary": "Разведены static и автоматическое хранение в уроке и ключах.",
+    "validation": "Варианты проверены относительно явных объявлений с static и без него.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-055",
+    "status": "fixed",
+    "changed_step_ids": [
+      3330670
+    ],
+    "summary": "Исправлены три неверных is_correct; добавлены объяснения к вариантам.",
+    "validation": "Проверяются ключи 0/1/3, допустимость int[][2] и правило границ внутреннего массива.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-056",
+    "status": "fixed",
+    "changed_step_ids": [
+      3381234
+    ],
+    "summary": "Checker сравнивает числовые токены, невидимые конечные пробелы убраны из эталонов/образца.",
+    "validation": "Новый check проверяется на всех 5 эталонах, нормальном форматировании и неверных/недостающих/лишних числах.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-057",
+    "status": "fixed",
+    "changed_step_ids": [
+      3212968,
+      3212970
+    ],
+    "summary": "Тип объекта int отделён от типа указателя int*.",
+    "validation": "Проверка определений, соответствия объявлений и текста.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-058",
+    "status": "fixed",
+    "changed_step_ids": [
+      3212969
+    ],
+    "summary": "Неверное изображение заменено кодом с отдельным pptr и объяснением двух разыменований.",
+    "validation": "Безопасная компиляция и проверка var==30.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-059",
+    "status": "fixed",
+    "changed_step_ids": [
+      3212970,
+      3213210
+    ],
+    "summary": "Уточнены std::nullptr_t и определяемый реализацией NULL; убрана трактовка nullptr как доступного адреса.",
+    "validation": "Проверка согласованности обоих уроков и терминов.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-060",
+    "status": "fixed",
+    "changed_step_ids": [
+      3212970
+    ],
+    "summary": "Один char выводится через *pc, адрес через const void*, строка имеет собственный терминатор.",
+    "validation": "Изменённый полный пример компилируется; чтения за границами одиночного char нет.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-061",
+    "status": "fixed",
+    "changed_step_ids": [
+      3212990,
+      3428470,
+      3428845,
+      3330738
+    ],
+    "summary": "Все демонстрации арифметики переписаны для реальных массивов; тесты больше не обещают число при UB.",
+    "validation": "Сверка границ каждого указателя; безопасные фрагменты и ключи проверяются адресно.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-062",
+    "status": "fixed",
+    "changed_step_ids": [
+      3212990
+    ],
+    "summary": "Исправлены группировка и приоритет postfix/prefix инкремента и разыменования.",
+    "validation": "Для массива {10,20,30} проверяются результаты 10,21,30 и положение указателя.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-063",
+    "status": "fixed",
+    "changed_step_ids": [
+      3212991
+    ],
+    "summary": "Неверная схема цепочки заменена таблицей адресов и значения var=123.",
+    "validation": "Таблица совпадает с сохранённым снимком запуска; адреса отмечены как пример, не гарантия.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-064",
+    "status": "fixed",
+    "changed_step_ids": [
+      3428470,
+      3212990
+    ],
+    "summary": "В тесте правильным стало UB; произвольный адрес и числовая модель удалены.",
+    "validation": "Ровно один правильный вариант; границы одиночного объекта объяснены.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-065",
+    "status": "fixed",
+    "changed_step_ids": [
+      4717787
+    ],
+    "summary": "Правильный термин заменён на «оператор косвенного обращения».",
+    "validation": "Сверка текста и единственного правильного ответа.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-066",
+    "status": "fixed",
+    "changed_step_ids": [
+      3213003,
+      3330670
+    ],
+    "summary": "Обход двумерного массива заменён на вложенные range-for; связанный ключ исправлен.",
+    "validation": "Полный пример компилируется; вывод содержит все 12 элементов по строкам.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-067",
+    "status": "fixed",
+    "changed_step_ids": [
+      3213003
+    ],
+    "summary": "Условие обхода одномерного массива использует one-past a+5.",
+    "validation": "Проверка вывода всех пяти значений без разыменования a+5.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-068",
+    "status": "fixed",
+    "changed_step_ids": [
+      3428716,
+      3404829
+    ],
+    "summary": "В обоих тестах явно зафиксирован sizeof(int*)=8.",
+    "validation": "Размеры в условиях соответствуют сохранённым ключам 400 и 8.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-069",
+    "status": "fixed",
+    "changed_step_ids": [
+      3428845
+    ],
+    "summary": "Формирование arr−1 устранено; допустимое выражение сохраняет ответ a: 4.",
+    "validation": "Безопасная проверка 2[arr]-arr[3]+arr[4]==4.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-070",
+    "status": "fixed",
+    "changed_step_ids": [
+      3213208
+    ],
+    "summary": "Исправлены %u и проверка scanf; примеры C приведены к int main, проверяют malloc и размер 0.",
+    "validation": "Безопасные C17-примеры проверяются с вводами 0,5,100 и неверным вводом; формат соответствует unsigned*.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-071",
+    "status": "fixed",
+    "changed_step_ids": [
+      3213210
+    ],
+    "summary": "Нулевой указатель больше не обещает исключение; ошибочные доступы показаны только комментариями, действия безопасны.",
+    "validation": "Проверка текста и исправленных C-примеров; UB не выполняется.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-072",
+    "status": "fixed",
+    "changed_step_ids": [
+      3213210
+    ],
+    "summary": "Показаны временный результат realloc, проверка неудачи, обновление всех алиасов и освобождение.",
+    "validation": "Успешный пример сохраняет первые 10 значений и завершает владение один раз; branch неудачи не теряет блок.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-073",
+    "status": "fixed",
+    "changed_step_ids": [
+      3213210,
+      3324316
+    ],
+    "summary": "Для zero-size явно выбраны C11/C17; тест согласован, UB отделено от implementation-defined результата.",
+    "validation": "Проверка версии в условии и эквивалентности realloc(NULL,0)/malloc(0) в C17.",
+    "decision": "Учебный тест про функции C ограничен C17; нулевой realloc не используется в исполняемых примерах.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-074",
+    "status": "fixed",
+    "changed_step_ids": [
+      3330738
+    ],
+    "summary": "Исправлены три флажка про указатель до массива, delete/new[] и new char[]{\"Hello\"}.",
+    "validation": "Адресная проверка is_correct; корректная строковая инициализация компилируется, UB не запускается.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-075",
+    "status": "fixed",
+    "changed_step_ids": [
+      3332379
+    ],
+    "summary": "Удаление int через char* отмечено неверным; дано объяснение delete a.",
+    "validation": "Сверка ключа и требования совпадения типа удаляемого объекта.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-076",
+    "status": "fixed",
+    "changed_step_ids": [
+      3333775
+    ],
+    "summary": "Вопрос получил явную схему new[] и исправленное delete[] на обоих уровнях.",
+    "validation": "Полный исправленный фрагмент проверяется на корректное выделение/освобождение; единственный ключ — две строки.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-077",
+    "status": "fixed",
+    "changed_step_ids": [
+      3214909,
+      3404721
+    ],
+    "summary": "Вывод auto по return отнесён к C++14; показан отдельный синтаксис C++11.",
+    "validation": "Проверка C++11 с trailing-return и C++14 с выводимым результатом; ключ и feedback согласованы.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-078",
+    "status": "fixed",
+    "changed_step_ids": [
+      3214910,
+      3214909,
+      3404721
+    ],
+    "summary": "inline описан через ODR и необязательную оптимизацию; связанные абсолютные утверждения об определениях уточнены.",
+    "validation": "Согласованность объяснения и теста; гарантия встраивания отсутствует.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-079",
+    "status": "fixed",
+    "changed_step_ids": [
+      3214910
+    ],
+    "summary": "noexcept получает is_nothrow_copy_constructible<T>::value, показано настоящее тело copy_object.",
+    "validation": "Компиляция корректного шаблона и static_assert для int и потенциально бросающего копирования.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-080",
+    "status": "fixed",
+    "changed_step_ids": [
+      3214911
+    ],
+    "summary": "strcmp(std::string,...) заменён на сравнение строки с литералом.",
+    "validation": "Проверка s != \"default\" для равной и отличной строки.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-081",
+    "status": "fixed",
+    "changed_step_ids": [
+      3404721,
+      3214910
+    ],
+    "summary": "Тест и исходная теория constexpr согласованы: разрешение константных выражений без обещания для обычного вызова.",
+    "validation": "Проверка корректного ключа и контекста constexpr-переменной.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-082",
+    "status": "fixed",
+    "changed_step_ids": [
+      4700299,
+      4739135
+    ],
+    "summary": "Удалены U+0002 в текстах двух шагов своей зоны.",
+    "validation": "В двух изменённых текстах отсутствуют управляющие символы, кроме обычных пробельных.",
+    "decision": "Связанные шаги 4035439 и 4035460 модулей вне 5–10 исправляет advanced.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-083",
+    "status": "fixed",
+    "changed_step_ids": [
+      3212950
+    ],
+    "summary": "Завершение main объяснено как return 0 без автоматической диагностики логических ошибок.",
+    "validation": "Проверка точной формулировки и отсутствия прежнего обещания.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-084",
+    "status": "fixed",
+    "changed_step_ids": [
+      3214972
+    ],
+    "summary": "Передача по значению описана для встроенных типов и классов; ссылки и общие косвенные данные отделены.",
+    "validation": "Сверка терминов T/T& и копирования объекта.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-085",
+    "status": "fixed",
+    "changed_step_ids": [
+      3215024
+    ],
+    "summary": "Манипулятор setw квалифицирован пространством std.",
+    "validation": "Компиляция полного изменённого примера с <iomanip>.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-086",
+    "status": "fixed",
+    "changed_step_ids": [
+      3384518
+    ],
+    "summary": "Объявленный диапазон расширен до 2147483647, задан k≤1000 и long long для суммы.",
+    "validation": "Проверяются все сохранённые входы и независимая рекуррентная сумма f(1)+…+f(n).",
+    "decision": "Сохранены содержательные граничные тесты; исправлено условие, результат на верхней границе помещается в long long.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-087",
+    "status": "fixed",
+    "changed_step_ids": [
+      3212951
+    ],
+    "summary": "Команда сборки использует реально созданный main.cpp.",
+    "validation": "Сопоставлены имена двух файлов в тексте и командной строке.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-088",
+    "status": "fixed",
+    "changed_step_ids": [
+      3404927
+    ],
+    "summary": "Исправлена #pragma once; ложный вариант теперь явно относится к выполнению во время запуска.",
+    "validation": "Правильный синтаксис и роль препроцессора; снята двусмысленность двух близких вариантов.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-089",
+    "status": "fixed",
+    "changed_step_ids": [
+      3408471,
+      3426151
+    ],
+    "summary": "Экспорт DLL отделён от extern; явная LoadLibrary-загрузка — от загрузки ОС.",
+    "validation": "Ключи двух тестов согласованы с обоими способами связывания MSVC.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-090",
+    "status": "fixed",
+    "changed_step_ids": [
+      4718299
+    ],
+    "summary": "Вопрос ограничен enum class без явной базы; int теперь однозначно верен.",
+    "validation": "Проверка единственного ключа и объявления enum class E {a,b}.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-091",
+    "status": "fixed",
+    "changed_step_ids": [
+      3252940
+    ],
+    "summary": "Сложение char отделено от сужения; ошибочная картинка заменена точной таблицей и кодом для 8-битного C++20.",
+    "validation": "static_assert типа суммы и проверка значений 135/−121 в явно указанной модели.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-092",
+    "status": "fixed",
+    "changed_step_ids": [
+      3253129
+    ],
+    "summary": "SumOfDigits использует целочисленный do/while, корректный для 0 и степеней 10.",
+    "validation": "Проверки 0,1,10,100,999; исходное сравнение интересных чисел проверяется на небольшом интервале.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-093",
+    "status": "fixed",
+    "changed_step_ids": [
+      3253503,
+      3253553
+    ],
+    "summary": "Все TEST получают имя набора и имя теста; интерфейс объяснён явно.",
+    "validation": "Проверка двух аргументов во всех вызовах TEST; compile-only проверка синтаксиса через минимальный совместимый макрос.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-094",
+    "status": "fixed",
+    "changed_step_ids": [
+      3212947,
+      4717782
+    ],
+    "summary": "Обычный литерал C++ имеет char; связанный тест спрашивает типы C17/C++20, а не платформенные размеры.",
+    "validation": "Правильный единственный вариант C:int/C++:char; static_assert для C++.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-095",
+    "status": "fixed",
+    "changed_step_ids": [
+      3214845
+    ],
+    "summary": "Исправлены знаки strcmp/strncmp и сравнения без регистра; расширения помечены отдельно.",
+    "validation": "Проверка отрицательного, нулевого и положительного результатов strcmp без требования ровно ±1.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-096",
+    "status": "fixed",
+    "changed_step_ids": [
+      3214845
+    ],
+    "summary": "Исправлены заголовки и getchar(); gets заменена описанием fgets/getline.",
+    "validation": "Проверка сигнатур и объяснения EOF, размера буфера и терминатора.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-097",
+    "status": "fixed",
+    "changed_step_ids": [
+      3408968,
+      3214845
+    ],
+    "summary": "Исправлена strpbrk в ключе и исходной теории.",
+    "validation": "Точное сопоставление поля fill-blanks: strpbrk принимается, strprbk не принимается.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-098",
+    "status": "fixed",
+    "changed_step_ids": [
+      3435399
+    ],
+    "summary": "Уточнены допустимость memcpy и различие размера массива/момента выделения памяти.",
+    "validation": "Оба исправленных утверждения имеют is_correct=true; условия размера/неперекрытия/терминатора указаны.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-099",
+    "status": "fixed",
+    "changed_step_ids": [
+      3214903
+    ],
+    "summary": "Фиктивный конструктор size_t заменён на std::string(1,c), литерал хранится через const char*.",
+    "validation": "Компиляция примеров конструирования, включая строку из одного символа.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-100",
+    "status": "fixed",
+    "changed_step_ids": [
+      3214904
+    ],
+    "summary": "У c_str указан const char*, время жизни и отличие data().",
+    "validation": "static_assert возвращаемого типа и сверка текста.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-101",
+    "status": "fixed",
+    "changed_step_ids": [
+      3437788,
+      3214904
+    ],
+    "summary": "substr описан как создание фрагмента, оценка относится к его длине k.",
+    "validation": "Тест и теория больше не называют substr поиском.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-102",
+    "status": "fixed",
+    "changed_step_ids": [
+      3446002
+    ],
+    "summary": "В тесте 8 модуль 10^9 заменён допустимым 10000; соответствующий ответ пересчитан с 913276 на 3276.",
+    "validation": "Независимая формула объединения двух префиксно-суффиксных ограничений сверила все 114 наборов.",
+    "decision": "Сохранено объявленное ограничение m≤10^4; исправлен выходящий за него тест.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-103",
+    "status": "fixed",
+    "changed_step_ids": [
+      3446002
+    ],
+    "summary": "Все наборы приведены к формату: строка L m, затем отдельные строки S1 и S2.",
+    "validation": "Проверяется ровно 1+3*t строк и равенство токенов исходным данным кроме намеренно изменённого m.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-104",
+    "status": "fixed",
+    "changed_step_ids": [
+      3446094
+    ],
+    "summary": "Единственный заглавный вход V заменён строчным v; ожидаемый ответ −1 сохранён.",
+    "validation": "Проверены алфавит, длины всех 7 входов и независимый ответ на каждом.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-105",
+    "status": "fixed",
+    "changed_step_ids": [
+      4738986
+    ],
+    "summary": "Checker нормализует только завершающие CR/LF; условие допускает конечный перевод строки.",
+    "validation": "Изолированный check принимает эталоны с LF/CRLF и отвергает неверные цифры, пробелы и дополнительные токены.",
+    "decision": "Безопасная нормализация окончания строки; поведение предобработки вывода живым сервером Stepik не объявляется воспроизведённым.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-106",
+    "status": "fixed",
+    "changed_step_ids": [
+      3213242
+    ],
+    "summary": "Квадратичный рост объяснён через n², размер входа определён; пример стал квадратным n×n.",
+    "validation": "Подсчёт n*n итераций и компиляция примера 3×3.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-107",
+    "status": "fixed",
+    "changed_step_ids": [
+      3213247
+    ],
+    "summary": "Разделены O(log n) поиска и O(n log n) предварительной сортировки; std::sort не назван quicksort.",
+    "validation": "Сверка последовательности sort/search и исходного стандарта сложности сортировки.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-108",
+    "status": "fixed",
+    "changed_step_ids": [
+      3213256
+    ],
+    "summary": "Вложенные циклы объяснены точным произведением/суммой; слово «экспоненциально» устранено.",
+    "validation": "Проверено n*n для явно названных границ циклов.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-109",
+    "status": "fixed",
+    "changed_step_ids": [
+      3215177
+    ],
+    "summary": "Неверная средняя оценка удалена; шаги N/2 согласованы с таблицей 14→7→3→1, пределы указаны для этого варианта.",
+    "validation": "Первичный источник Sedgewick (1986) повторно прочитан; сохранена верхняя O(n²), новая точная средняя оценка не вводится.",
+    "decision": "Изменение опирается на зависимость анализа от последовательности шагов; спорная средняя граница заменена явным отсутствием безусловной гарантии.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-110",
+    "status": "fixed",
+    "changed_step_ids": [
+      3215179
+    ],
+    "summary": "Свойство max-heap допускает равные ключи.",
+    "validation": "Контрпример {5,5} удовлетворяет нестрогому отношению; алгоритм использует сравнение дочернего с текущим максимумом.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-111",
+    "status": "fixed",
+    "changed_step_ids": [
+      3408767
+    ],
+    "summary": "Ключ допускает существование in-place O(n log n); ложное обязательное ухудшение переформулировано через Ω.",
+    "validation": "Первичная публикация Geffert/Katajainen/Pasanen (2000) подтверждает линейное слияние на месте; нижний обход уровней даёт O(n log n) и O(1) памяти.",
+    "decision": "Речь явно о теоретическом существовании и O(1) дополнительной памяти; не заявлены такие свойства любой простой реализации.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-112",
+    "status": "fixed",
+    "changed_step_ids": [
+      3215192
+    ],
+    "summary": "Трассировка согласована с mid−1 и двумя итерациями; цикл также корректно обрабатывает пустой диапазон.",
+    "validation": "Проверки поиска первого/среднего/последнего/отсутствующего значения и пустого диапазона; для ключа 2 возвращается индекс 1.",
+    "validation_report": "core_validation.json"
+  },
+  {
+    "finding_id": "OAIP-113",
+    "status": "fixed",
+    "changed_step_ids": [
+      3408864
+    ],
+    "summary": "Средняя оценка интерполяционного поиска ограничена независимыми равномерными ключами.",
+    "validation": "Сверка единственного исправленного варианта и предпосылки первичного анализа Perl/Itai/Avni.",
+    "validation_report": "core_validation.json"
+  }
+]
