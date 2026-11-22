@@ -1,0 +1,843 @@
+# Дерево курса 86957
+
+[Основы Алгоритмизации и Программирования на языке С++](https://stepik.org/course/86957/syllabus) · [Вычитка](review/index.md)
+
+Модулей 20 · уроков 62 · шагов 485.
+
+Номер задаёт место в уроке. ID закреплён за шагом и служит для сверки при обновлении.
+Отметки о правках ведут к манифестам опубликованных пакетов.
+
+## 1. Что такое Алгоритм?
+
+### 1.1. Что такое алгоритмизация?
+
+[Урок 763040](https://stepik.org/lesson/763040?unit=765200) · [Текст для вычитки](review/lessons/763040.md)
+
+- [1. text](https://stepik.org/lesson/763040/step/1?unit=765200) · [3173782](steps/763040/01_3173782_text.step) — Понятие алгоритма и алгоритмизации · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. text](https://stepik.org/lesson/763040/step/2?unit=765200) · [3173923](steps/763040/02_3173923_text.step) — Свойства алгоритмов · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [3. text](https://stepik.org/lesson/763040/step/3?unit=765200) · [3173935](steps/763040/03_3173935_text.step) — Способы описания алгоритмов · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [4. text](https://stepik.org/lesson/763040/step/4?unit=765200) · [3173955](steps/763040/04_3173955_text.step) — Алгоритмические языки · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [5. choice](https://stepik.org/lesson/763040/step/5?unit=765200) · [3173967](steps/763040/05_3173967_choice.step) — Выберите правильные утверждения · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+
+### 1.2. Блок-схема ГОСТ 19.701-90
+
+[Урок 763041](https://stepik.org/lesson/763041?unit=765201) · [Текст для вычитки](review/lessons/763041.md)
+
+- [1. text](https://stepik.org/lesson/763041/step/1?unit=765201) · [3173969](steps/763041/01_3173969_text.step) — Что такое Блок-схема и зачем она нужна?
+- [2. text](https://stepik.org/lesson/763041/step/2?unit=765201) · [3173783](steps/763041/02_3173783_text.step) — Основные элементы блок–схемы алгоритма:
+- [3. text](https://stepik.org/lesson/763041/step/3?unit=765201) · [3173970](steps/763041/03_3173970_text.step) — Виды блок-схем:
+- [4. choice](https://stepik.org/lesson/763041/step/4?unit=765201) · [3173973](steps/763041/04_3173973_choice.step) — Назовите вид блок-схемы с картинки. · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+
+### 1.3. Функция как элемент алгоритма программы
+
+[Урок 768145](https://stepik.org/lesson/768145?unit=770499) · [Текст для вычитки](review/lessons/768145.md)
+
+- [1. text](https://stepik.org/lesson/768145/step/1?unit=770499) · [3201190](steps/768145/01_3201190_text.step) — Функция · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. text](https://stepik.org/lesson/768145/step/2?unit=770499) · [3201304](steps/768145/02_3201304_text.step) — Зачем нужны функции?
+- [3. text](https://stepik.org/lesson/768145/step/3?unit=770499) · [3201303](steps/768145/03_3201303_text.step) — Прикладное применение функций · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [4. text](https://stepik.org/lesson/768145/step/4?unit=770499) · [3201305](steps/768145/04_3201305_text.step) — Примеры кода с использованием функций · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [5. text](https://stepik.org/lesson/768145/step/5?unit=770499) · [3201341](steps/768145/05_3201341_text.step) — Пример отображения функций в блок-схеме
+- [6. choice](https://stepik.org/lesson/768145/step/6?unit=770499) · [4717177](steps/768145/06_4717177_choice.step) — Выберите правильные утверждения: · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+
+## 2. Основы программирования
+
+### 2.1. Понятие программы
+
+[Урок 771154](https://stepik.org/lesson/771154?unit=773599) · [Текст для вычитки](review/lessons/771154.md)
+
+- [1. text](https://stepik.org/lesson/771154/step/1?unit=773599) · [3215247](steps/771154/01_3215247_text.step) — Что такое программа? · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. text](https://stepik.org/lesson/771154/step/2?unit=773599) · [3215253](steps/771154/02_3215253_text.step) — Внутреннее представление программы · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [3. text](https://stepik.org/lesson/771154/step/3?unit=773599) · [3215254](steps/771154/03_3215254_text.step) — Организация памяти компьютера · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [4. text](https://stepik.org/lesson/771154/step/4?unit=773599) · [3215252](steps/771154/04_3215252_text.step) — Внутреннее представление программы · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [5. choice](https://stepik.org/lesson/771154/step/5?unit=773599) · [4717195](steps/771154/05_4717195_choice.step) — Выберите правильные утверждения: · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [6. choice](https://stepik.org/lesson/771154/step/6?unit=773599) · [4717684](steps/771154/06_4717684_choice.step) — \_\_\_\_\_ — это имена переменных, функций, массивов, классов и других сущностей программы. · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+
+### 2.2. Что такое язык программирования?
+
+[Урок 763037](https://stepik.org/lesson/763037?unit=765197) · [Текст для вычитки](review/lessons/763037.md)
+
+- [1. text](https://stepik.org/lesson/763037/step/1?unit=765197) · [3173778](steps/763037/01_3173778_text.step) — Что такое язык программирования · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. text](https://stepik.org/lesson/763037/step/2?unit=765197) · [3173804](steps/763037/02_3173804_text.step) — Чем языки программирования отличаются от алгоритмов? · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [3. text](https://stepik.org/lesson/763037/step/3?unit=765197) · [3173810](steps/763037/03_3173810_text.step) — Спецификация языков · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [4. choice](https://stepik.org/lesson/763037/step/4?unit=765197) · [3173811](steps/763037/04_3173811_choice.step) — Какое описание ASCII верно? · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [5. text](https://stepik.org/lesson/763037/step/5?unit=765197) · [3173832](steps/763037/05_3173832_text.step) — Языки низкого и высокого уровня · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [6. choice](https://stepik.org/lesson/763037/step/6?unit=765197) · [3173835](steps/763037/06_3173835_choice.step) — Выберите правильные утверждения · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [7. text](https://stepik.org/lesson/763037/step/7?unit=765197) · [3173836](steps/763037/07_3173836_text.step) — Безопасные и небезопасные языки · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [8. text](https://stepik.org/lesson/763037/step/8?unit=765197) · [3173838](steps/763037/08_3173838_text.step) — Компилируемые и интерпретируемые языки · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [9. choice](https://stepik.org/lesson/763037/step/9?unit=765197) · [3173839](steps/763037/09_3173839_choice.step) — Выберите правильные утверждения о компиляции и интерпретации. · [Первый и второй проходы](../../imports/86957/manifest.json)
+
+### 2.3. Процесс компиляции языка С++
+
+[Урок 763038](https://stepik.org/lesson/763038?unit=765198) · [Текст для вычитки](review/lessons/763038.md)
+
+- [1. text](https://stepik.org/lesson/763038/step/1?unit=765198) · [3173779](steps/763038/01_3173779_text.step) — Немного о создании программ · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. choice](https://stepik.org/lesson/763038/step/2?unit=765198) · [4717683](steps/763038/02_4717683_choice.step) — C++ носил имя \_\_\_\_\_ до того, как оно было изменено на C++.
+- [3. text](https://stepik.org/lesson/763038/step/3?unit=765198) · [3173870](steps/763038/03_3173870_text.step) — Процесс компиляции и сборки · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [4. text](https://stepik.org/lesson/763038/step/4?unit=765198) · [3173871](steps/763038/04_3173871_text.step) — Схема получения исполняемого модуля программы в интегрированной среде · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [5. text](https://stepik.org/lesson/763038/step/5?unit=765198) · [3177248](steps/763038/05_3177248_text.step) — Этап препроцессорной обработки · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [6. text](https://stepik.org/lesson/763038/step/6?unit=765198) · [3177249](steps/763038/06_3177249_text.step) — Этап компиляции · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [7. text](https://stepik.org/lesson/763038/step/7?unit=765198) · [3177250](steps/763038/07_3177250_text.step) — Этап компоновки (линковки) · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [8. choice](https://stepik.org/lesson/763038/step/8?unit=765198) · [3173876](steps/763038/08_3173876_choice.step) — Выберите правильные утверждения об обычной сборке программы на C++. · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [9. choice](https://stepik.org/lesson/763038/step/9?unit=765198) · [4717659](steps/763038/09_4717659_choice.step) — Выберите правильные утверждения о языке C++. · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [10. choice](https://stepik.org/lesson/763038/step/10?unit=765198) · [4717661](steps/763038/10_4717661_choice.step) — На основе какого языка был разработан C++? · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [11. choice](https://stepik.org/lesson/763038/step/11?unit=765198) · [4717676](steps/763038/11_4717676_choice.step) — Какой вариант ответа перечисляет все программы ниже, которые выводят в консоль строку "Hello… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [12. choice](https://stepik.org/lesson/763038/step/12?unit=765198) · [4717678](steps/763038/12_4717678_choice.step) — Какие расширения GCC по умолчанию распознаёт как исходные файлы C++? Здесь речь о файлах… · [Первый и второй проходы](../../imports/86957/manifest.json)
+
+### 2.4. Ещё немного об интерпретации
+
+[Урок 763039](https://stepik.org/lesson/763039?unit=765199) · [Текст для вычитки](review/lessons/763039.md)
+
+- [1. text](https://stepik.org/lesson/763039/step/1?unit=765199) · [3173780](steps/763039/01_3173780_text.step) — Процесс интерпретации · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. choice](https://stepik.org/lesson/763039/step/2?unit=765199) · [3173888](steps/763039/02_3173888_choice.step) — Что принципиально отличает интерпретатор от компилятора? · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [3. choice](https://stepik.org/lesson/763039/step/3?unit=765199) · [8268734](steps/763039/03_8268734_choice.step) — Укажите порядок основных этапов в рассматриваемой схеме обработки кода: сначала анализ, затем… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [4. choice](https://stepik.org/lesson/763039/step/4?unit=765199) · [8268743](steps/763039/04_8268743_choice.step) — В этом вопросе «чистой» называем интерпретацию без отдельной компиляции в байт-код, а… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [5. choice](https://stepik.org/lesson/763039/step/5?unit=765199) · [8268747](steps/763039/05_8268747_choice.step) — Что корректно описывает виртуальную машину в этом контексте?
+- [6. choice](https://stepik.org/lesson/763039/step/6?unit=765199) · [8268748](steps/763039/06_8268748_choice.step) — Какой фрагмент C++ содержит синтаксическую ошибку в структуре выражения? Здесь отдельно… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [7. choice](https://stepik.org/lesson/763039/step/7?unit=765199) · [8268749](steps/763039/07_8268749_choice.step) — Что верно про байткод и переносимость? · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [8. choice](https://stepik.org/lesson/763039/step/8?unit=765199) · [8268751](steps/763039/08_8268751_choice.step) — Почему интерпретатор часто медленнее AOT-компиляции?
+- [9. choice](https://stepik.org/lesson/763039/step/9?unit=765199) · [8268752](steps/763039/09_8268752_choice.step) — Про интерактивность (REPL)
+- [10. choice](https://stepik.org/lesson/763039/step/10?unit=765199) · [8268755](steps/763039/10_8268755_choice.step) — Выберите реализации, где используется схема «исходник → байткод → ВМ» · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [11. choice](https://stepik.org/lesson/763039/step/11?unit=765199) · [8268756](steps/763039/11_8268756_choice.step) — Для плагинной веб-системы выбрана такая схема: плагины распространяются в одном формате… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [12. text](https://stepik.org/lesson/763039/step/12?unit=765199) · [3173892](steps/763039/12_3173892_text.step) — Зачем нужны новые языки, если есть много старых? · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+
+### 2.5. Системы счисления
+
+[Урок 771155](https://stepik.org/lesson/771155?unit=773600) · [Текст для вычитки](review/lessons/771155.md)
+
+- [1. text](https://stepik.org/lesson/771155/step/1?unit=773600) · [3215255](steps/771155/01_3215255_text.step) — Понятие числа · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. text](https://stepik.org/lesson/771155/step/2?unit=773600) · [3215258](steps/771155/02_3215258_text.step) — Преобразование чисел из одной системы счисления в другую · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [3. text](https://stepik.org/lesson/771155/step/3?unit=773600) · [3215257](steps/771155/03_3215257_text.step) — Преобразование дробной части из десятичной системы счисления в систему с основанием P. · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [4. choice](https://stepik.org/lesson/771155/step/4?unit=773600) · [3261481](steps/771155/04_3261481_choice.step) — Выберите варианты, в которых десятичное число 71356825739579 правильно записано в другой… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+
+### 2.6. Бит, байт, машинное слово
+
+[Урок 771156](https://stepik.org/lesson/771156?unit=773601) · [Текст для вычитки](review/lessons/771156.md)
+
+- [1. text](https://stepik.org/lesson/771156/step/1?unit=773601) · [3215256](steps/771156/01_3215256_text.step) — Почему компьютеры используют двоичную систему счисления? · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. text](https://stepik.org/lesson/771156/step/2?unit=773601) · [3215268](steps/771156/02_3215268_text.step) — Эквиваленты двоичной системы · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [3. text](https://stepik.org/lesson/771156/step/3?unit=773601) · [3215267](steps/771156/03_3215267_text.step) — Форматы базовых типов данных · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [4. text](https://stepik.org/lesson/771156/step/4?unit=773601) · [3215266](steps/771156/04_3215266_text.step) — Вещественные числа · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [5. text](https://stepik.org/lesson/771156/step/5?unit=773601) · [3215265](steps/771156/05_3215265_text.step) — Представление символьных данных · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [6. choice](https://stepik.org/lesson/771156/step/6?unit=773601) · [4717221](steps/771156/06_4717221_choice.step) — Выберите правильные записи целых чисел −900 и 127 в прямом, обратном и дополнительном кодах.… · [Первый и второй проходы](../../imports/86957/manifest.json)
+
+## 3. Первые шаги в программировании
+
+### 3.1. Что такое IDE?
+
+[Урок 768140](https://stepik.org/lesson/768140?unit=770494) · [Текст для вычитки](review/lessons/768140.md)
+
+- [1. text](https://stepik.org/lesson/768140/step/1?unit=770494) · [3201132](steps/768140/01_3201132_text.step) — Из каких инструментов состоит рабочее место C++ · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json), [Современный C++](../../modernization/86957/manifest.json)
+- [2. text](https://stepik.org/lesson/768140/step/2?unit=770494) · [3201141](steps/768140/02_3201141_text.step) — Как выбрать среду и стандарт C++ · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json), [Современный C++](../../modernization/86957/manifest.json)
+- [3. text](https://stepik.org/lesson/768140/step/3?unit=770494) · [3201150](steps/768140/03_3201150_text.step) — Microsoft Visual Studio · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [4. text](https://stepik.org/lesson/768140/step/4?unit=770494) · [3201151](steps/768140/04_3201151_text.step) — Qt Creator · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [5. text](https://stepik.org/lesson/768140/step/5?unit=770494) · [3201153](steps/768140/05_3201153_text.step) — CLion · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [6. text](https://stepik.org/lesson/768140/step/6?unit=770494) · [3201181](steps/768140/06_3201181_text.step) — Xcode · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [7. text](https://stepik.org/lesson/768140/step/7?unit=770494) · [3201155](steps/768140/07_3201155_text.step) — Code::Blocks · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [8. text](https://stepik.org/lesson/768140/step/8?unit=770494) · [3201168](steps/768140/08_3201168_text.step) — Рабочий цикл: написать, собрать, проверить · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json), [Современный C++](../../modernization/86957/manifest.json)
+
+### 3.2. Стандартная библиотека языка С++. Пространство имён std.
+
+[Урок 768146](https://stepik.org/lesson/768146?unit=770500) · [Текст для вычитки](review/lessons/768146.md)
+
+- [1. text](https://stepik.org/lesson/768146/step/1?unit=770500) · [3201191](steps/768146/01_3201191_text.step) — Стандартная библиотека языка C++ · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. text](https://stepik.org/lesson/768146/step/2?unit=770500) · [3201236](steps/768146/02_3201236_text.step) — Пространства имён · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [3. text](https://stepik.org/lesson/768146/step/3?unit=770500) · [3201235](steps/768146/03_3201235_text.step) — Средства стандартной библиотеки C в C++ · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [4. text](https://stepik.org/lesson/768146/step/4?unit=770500) · [3201234](steps/768146/04_3201234_text.step) — Стандартная библиотека: короткая карта для первых задач · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json), [Современный C++](../../modernization/86957/manifest.json)
+- [5. text](https://stepik.org/lesson/768146/step/5?unit=770500) · [3201267](steps/768146/05_3201267_text.step) — Почему 'using namespace std;' - плохая практика в программировании на С++? · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [6. choice](https://stepik.org/lesson/768146/step/6?unit=770500) · [3261530](steps/768146/06_3261530_choice.step) — Выберите правильные утверждения о стандартной библиотеке и пространствах имён. · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [7. choice](https://stepik.org/lesson/768146/step/7?unit=770500) · [4717774](steps/768146/07_4717774_choice.step) — Каким символом завершается инструкция-выражение в C++, например вызов функции f()? · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [8. choice](https://stepik.org/lesson/768146/step/8?unit=770500) · [4718334](steps/768146/08_4718334_choice.step) — Какую из перечисленных директив препроцессора обязательно использовать в каждой обычной… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+
+### 3.3. Первый запуск программы
+
+[Урок 768143](https://stepik.org/lesson/768143?unit=770498) · [Текст для вычитки](review/lessons/768143.md)
+
+- [1. text](https://stepik.org/lesson/768143/step/1?unit=770498) · [3201179](steps/768143/01_3201179_text.step) — Первый запуск: от исходного файла до результата · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json), [Современный C++](../../modernization/86957/manifest.json)
+- [2. text](https://stepik.org/lesson/768143/step/2?unit=770498) · [3201189](steps/768143/02_3201189_text.step) — Как читать первые ошибки · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json), [Современный C++](../../modernization/86957/manifest.json)
+- [3. text](https://stepik.org/lesson/768143/step/3?unit=770498) · [3215075](steps/768143/03_3215075_text.step) — Основы организации ввода-вывода · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [4. text](https://stepik.org/lesson/768143/step/4?unit=770498) · [3215081](steps/768143/04_3215081_text.step) — Манипуляторы потока · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [5. text](https://stepik.org/lesson/768143/step/5?unit=770498) · [3215092](steps/768143/05_3215092_text.step) — Ввод-вывод с помощью функций языка С · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [6. choice](https://stepik.org/lesson/768143/step/6?unit=770498) · [3267783](steps/768143/06_3267783_choice.step) — Выберите правильные утверждения. Считайте, что необходимые заголовки подключены, а переменные… · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [7. string](https://stepik.org/lesson/768143/step/7?unit=770498) · [3267786](steps/768143/07_3267786_string.step) — Что выведет следующая программа?
+- [8. choice](https://stepik.org/lesson/768143/step/8?unit=770498) · [4717685](steps/768143/08_4717685_choice.step) — Какая из перечисленных числовых констант гарантированно обозначает успешное завершение при… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [9. choice](https://stepik.org/lesson/768143/step/9?unit=770498) · [4717686](steps/768143/09_4717686_choice.step) — Какой из приведенных ниже комментариев является правильным?
+- [10. choice](https://stepik.org/lesson/768143/step/10?unit=770498) · [4717693](steps/768143/10_4717693_choice.step) — Если m и n являются переменными типа int, каким будет результат выражения: m%n, где m = 5 и n…
+
+### 3.4. Процесс запуска программы
+
+[Урок 776128](https://stepik.org/lesson/776128?unit=778574) · [Текст для вычитки](review/lessons/776128.md)
+
+- [1. text](https://stepik.org/lesson/776128/step/1?unit=778574) · [3237946](steps/776128/01_3237946_text.step) — Статья повышенной сложности · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. text](https://stepik.org/lesson/776128/step/2?unit=778574) · [3237955](steps/776128/02_3237955_text.step) — Функция \_start · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [3. text](https://stepik.org/lesson/776128/step/3?unit=778574) · [3237989](steps/776128/03_3237989_text.step) — Настройка среды выполнения · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [4. text](https://stepik.org/lesson/776128/step/4?unit=778574) · [3238005](steps/776128/04_3238005_text.step) — Scaffolding · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [5. text](https://stepik.org/lesson/776128/step/5?unit=778574) · [3238004](steps/776128/05_3238004_text.step) — Переход к main() · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [6. text](https://stepik.org/lesson/776128/step/6?unit=778574) · [3238006](steps/776128/06_3238006_text.step) — Как добраться до \_start? · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [7. table](https://stepik.org/lesson/776128/step/7?unit=778574) · [3272881](steps/776128/07_3272881_table.step) — Сопоставьте действия с наиболее конкретной частью упрощённой схемы этого урока. Здесь \_start… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [8. choice](https://stepik.org/lesson/776128/step/8?unit=778574) · [4717785](steps/776128/08_4717785_choice.step) — Какое из следующих утверждений неверно в отношении директив препроцессора? · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+
+### 3.5. Система контроля версий
+
+[Урок 771009](https://stepik.org/lesson/771009?unit=773461) · [Текст для вычитки](review/lessons/771009.md)
+
+- [1. text](https://stepik.org/lesson/771009/step/1?unit=773461) · [3214764](steps/771009/01_3214764_text.step) — Git: сохраняем объяснимую историю программы · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json), [Современный C++](../../modernization/86957/manifest.json)
+- [2. text](https://stepik.org/lesson/771009/step/2?unit=773461) · [3214777](steps/771009/02_3214777_text.step) — Производительность, Безопасность и Гибкость Git · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [3. text](https://stepik.org/lesson/771009/step/3?unit=773461) · [3214778](steps/771009/03_3214778_text.step) — Git — признанный стандарт · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [4. text](https://stepik.org/lesson/771009/step/4?unit=773461) · [3214832](steps/771009/04_3214832_text.step) — Git в разработке ПО · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [5. text](https://stepik.org/lesson/771009/step/5?unit=773461) · [3214833](steps/771009/05_3214833_text.step) — Практикум Git: первая рабочая версия · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json), [Современный C++](../../modernization/86957/manifest.json)
+
+### 3.6. Системы сборки С++ проектов. Cmake
+
+[Урок 774618](https://stepik.org/lesson/774618?unit=777065) · [Текст для вычитки](review/lessons/774618.md)
+
+- [1. text](https://stepik.org/lesson/774618/step/1?unit=777065) · [3230371](steps/774618/01_3230371_text.step) — Вступление · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. text](https://stepik.org/lesson/774618/step/2?unit=777065) · [3231227](steps/774618/02_3231227_text.step) — Что такое CMake? · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [3. text](https://stepik.org/lesson/774618/step/3?unit=777065) · [3231317](steps/774618/03_3231317_text.step) — Собираем первую программу с CMake · [Первый и второй проходы](../../imports/86957/manifest.json), [Современный C++](../../modernization/86957/manifest.json)
+- [4. text](https://stepik.org/lesson/774618/step/4?unit=777065) · [3231228](steps/774618/04_3231228_text.step) — Один проект в терминале и в IDE · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json), [Современный C++](../../modernization/86957/manifest.json)
+- [5. text](https://stepik.org/lesson/774618/step/5?unit=777065) · [3231226](steps/774618/05_3231226_text.step) — Что освоено и где искать детали · [Современный C++](../../modernization/86957/manifest.json)
+- [6. choice](https://stepik.org/lesson/774618/step/6?unit=777065) · [3273099](steps/774618/06_3273099_choice.step) — Выберите правильные утверждения о CMake и сборке проекта. · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [7. choice](https://stepik.org/lesson/774618/step/7?unit=777065) · [4718307](steps/774618/07_4718307_choice.step) — Как называется основная функция обычной программы C++, в которую передаётся управление после… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+
+## 4. Основные приёмы программирования на языке С++
+
+### 4.1. Базовые элементы языка С++
+
+[Урок 763630](https://stepik.org/lesson/763630?unit=765797) · [Текст для вычитки](review/lessons/763630.md)
+
+- [1. text](https://stepik.org/lesson/763630/step/1?unit=765797) · [3177242](steps/763630/01_3177242_text.step) — Операторы, знаки пунктуации и комментарии в C++ · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [2. text](https://stepik.org/lesson/763630/step/2?unit=765797) · [3262706](steps/763630/02_3262706_text.step) — Литералы языка С++ · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [3. text](https://stepik.org/lesson/763630/step/3?unit=765797) · [3177280](steps/763630/03_3177280_text.step) — Введение в переменные · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [4. text](https://stepik.org/lesson/763630/step/4?unit=765797) · [3177282](steps/763630/04_3177282_text.step) — Целочисленные типы · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [5. text](https://stepik.org/lesson/763630/step/5?unit=765797) · [3177281](steps/763630/05_3177281_text.step) — Символьные типы · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [6. text](https://stepik.org/lesson/763630/step/6?unit=765797) · [3262711](steps/763630/06_3262711_text.step) — Основные типы данных C++ · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [7. text](https://stepik.org/lesson/763630/step/7?unit=765797) · [3177283](steps/763630/07_3177283_text.step) — Размеры и диапазоны типов данных · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [8. text](https://stepik.org/lesson/763630/step/8?unit=765797) · [3177279](steps/763630/08_3177279_text.step) — Спецификатор auto · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [9. code](https://stepik.org/lesson/763630/step/9?unit=765797) · [4643238](steps/763630/09_4643238_code.step) — Чтобы получить дип, надо очень постараться. Антоша знает об этом, и поэтому он готовился к… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [10. choice](https://stepik.org/lesson/763630/step/10?unit=765797) · [3262719](steps/763630/10_3262719_choice.step) — Выберите правильные утверждения · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [11. code](https://stepik.org/lesson/763630/step/11?unit=765797) · [3262682](steps/763630/11_3262682_code.step) — Камень начинает свободно падать без начальной скорости с высоты h. Определите время падения… · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [12. code](https://stepik.org/lesson/763630/step/12?unit=765797) · [3262692](steps/763630/12_3262692_code.step) — Определите перемещение тела вдоль прямой за время t, если тело движется с постоянным… · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [13. choice](https://stepik.org/lesson/763630/step/13?unit=765797) · [3284747](steps/763630/13_3284747_choice.step) — Выберите правильные утверждения · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [14. choice](https://stepik.org/lesson/763630/step/14?unit=765797) · [3284769](steps/763630/14_3284769_choice.step) — Выберите правильные утверждения для C++20 и ASCII-совместимой кодировки исполнения.… · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [15. choice](https://stepik.org/lesson/763630/step/15?unit=765797) · [4717733](steps/763630/15_4717733_choice.step) — Какой вариант охватывает все перечисленные ниже категории литералов C++? · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [16. choice](https://stepik.org/lesson/763630/step/16?unit=765797) · [4717745](steps/763630/16_4717745_choice.step) — Какие записи не являются полными именами встроенных типов C++? Пользовательские типы и… · [Первый и второй проходы](../../imports/86957/manifest.json)
+
+### 4.2. Операции языка С++
+
+[Урок 763639](https://stepik.org/lesson/763639?unit=765806) · [Текст для вычитки](review/lessons/763639.md)
+
+- [1. text](https://stepik.org/lesson/763639/step/1?unit=765806) · [3177291](steps/763639/01_3177291_text.step) — В языке С++ существуют следующие операции
+- [2. text](https://stepik.org/lesson/763639/step/2?unit=765806) · [3177474](steps/763639/02_3177474_text.step) — Операции преобразования типов: · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [3. text](https://stepik.org/lesson/763639/step/3?unit=765806) · [3177504](steps/763639/03_3177504_text.step) — Побитовые операции в языке С++ · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [4. text](https://stepik.org/lesson/763639/step/4?unit=765806) · [3177499](steps/763639/04_3177499_text.step) — Приоритеты операций C++20 · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [5. code](https://stepik.org/lesson/763639/step/5?unit=765806) · [3262772](steps/763639/05_3262772_code.step) — Дан первый член геометрической прогрессии b₁. Знаменатель прогрессии равен q = 1/1001.… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [6. code](https://stepik.org/lesson/763639/step/6?unit=765806) · [3262735](steps/763639/06_3262735_code.step) — Даны первый и сотый члены арифметической прогрессии a₁ и a₁₀₀. Найдите разность прогрессии и… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [7. code](https://stepik.org/lesson/763639/step/7?unit=765806) · [3264578](steps/763639/07_3264578_code.step) — Даны два целых числа X и Y, каждое по модулю не больше 109. Определите, делится ли хотя бы… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [8. choice](https://stepik.org/lesson/763639/step/8?unit=765806) · [3286892](steps/763639/08_3286892_choice.step) — Выберите правильные утверждения. Считайте, что a — инициализированная переменная типа int. · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [9. choice](https://stepik.org/lesson/763639/step/9?unit=765806) · [3286908](steps/763639/09_3286908_choice.step) — Что делает этот код? int a = 1, b = 2; a = a ^ b; b = a ^ b; a = a ^ b;
+- [10. choice](https://stepik.org/lesson/763639/step/10?unit=765806) · [3286915](steps/763639/10_3286915_choice.step) — Пусть CHAR\_BIT == 8. Чему равно числовое значение a после выполнения кода? · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [11. choice](https://stepik.org/lesson/763639/step/11?unit=765806) · [3286930](steps/763639/11_3286930_choice.step) — Какой оператор установит флаг online и сохранит остальные флаги при любом исходном значении… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [12. choice](https://stepik.org/lesson/763639/step/12?unit=765806) · [3296822](steps/763639/12_3296822_choice.step) — Даны конечные значения double sizeFileA и double sizeFileB. Их вычисленная разность конечна,… · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [13. choice](https://stepik.org/lesson/763639/step/13?unit=765806) · [3296857](steps/763639/13_3296857_choice.step) — Выберите правильные утверждения для C++20 при CHAR\_BIT = 8. В преобразованиях ниже… · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [14. choice](https://stepik.org/lesson/763639/step/14?unit=765806) · [3296975](steps/763639/14_3296975_choice.step) — Выберите правильные утверждения. Предполагается ASCII-совместимая кодировка исполнения. В… · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [15. choice](https://stepik.org/lesson/763639/step/15?unit=765806) · [4717734](steps/763639/15_4717734_choice.step) — Какие из перечисленных средств позволяют задать именованное постоянное значение: макрос с… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+
+### 4.3. Условные операторы
+
+[Урок 763640](https://stepik.org/lesson/763640?unit=765807) · [Текст для вычитки](review/lessons/763640.md)
+
+- [1. text](https://stepik.org/lesson/763640/step/1?unit=765807) · [3177292](steps/763640/01_3177292_text.step) — Типы условных операторов · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. text](https://stepik.org/lesson/763640/step/2?unit=765807) · [3215105](steps/763640/02_3215105_text.step) — Конструкция switch · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [3. code](https://stepik.org/lesson/763640/step/3?unit=765807) · [3269060](steps/763640/03_3269060_code.step) — Даны конечные положительные вещественные числа x, y, z, не превышающие 1.79 · 10308.… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [4. code](https://stepik.org/lesson/763640/step/4?unit=765807) · [3280697](steps/763640/04_3280697_code.step) — Даны целые числа X и Y и вещественные числа A, B, C и K. Меньшее из X и Y замените нулём;… · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [5. code](https://stepik.org/lesson/763640/step/5?unit=765807) · [3264622](steps/763640/05_3264622_code.step) — Дан квадрат с вершинами (0, 0), (0, k), (k, k), (k, 0). Найдите наименьшее расстояние от… · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [6. code](https://stepik.org/lesson/763640/step/6?unit=765807) · [3280727](steps/763640/06_3280727_code.step) — Используя условный оператор if, вычислите значение функции: · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [7. code](https://stepik.org/lesson/763640/step/7?unit=765807) · [3281279](steps/763640/07_3281279_code.step) — Даны пять конечных вещественных чисел a, b, c, x, y, по модулю не превышающих 1012. Первые… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [8. code](https://stepik.org/lesson/763640/step/8?unit=765807) · [3281287](steps/763640/08_3281287_code.step) — Для целого числа K, 0 ≤ K ≤ 1018, выведите фразу Мы нашли K грибов в лесу, подставив число и… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [9. code](https://stepik.org/lesson/763640/step/9?unit=765807) · [3281353](steps/763640/09_3281353_code.step) — В прямоугольной комнате W на H стоит прямоугольный стол, стороны которого параллельны… · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [10. choice](https://stepik.org/lesson/763640/step/10?unit=765807) · [3293643](steps/763640/10_3293643_choice.step) — Выберите верные утверждения. · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [11. choice](https://stepik.org/lesson/763640/step/11?unit=765807) · [4717756](steps/763640/11_4717756_choice.step) — Какой оператор C++ выполняет логическое И? · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [12. choice](https://stepik.org/lesson/763640/step/12?unit=765807) · [4717791](steps/763640/12_4717791_choice.step) — Как обычно называют переменные, объявленные на уровне пространства имён, вне функций и… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [13. choice](https://stepik.org/lesson/763640/step/13?unit=765807) · [4718304](steps/763640/13_4718304_choice.step) — Какой оператор используется для сравнения значений, чтобы найти min и max?
+
+### 4.4. Операторы переходов
+
+[Урок 763642](https://stepik.org/lesson/763642?unit=765809) · [Текст для вычитки](review/lessons/763642.md)
+
+- [1. text](https://stepik.org/lesson/763642/step/1?unit=765809) · [3177294](steps/763642/01_3177294_text.step) — Операторы переходов · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. text](https://stepik.org/lesson/763642/step/2?unit=765809) · [3177541](steps/763642/02_3177541_text.step) — Оператор return · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [3. text](https://stepik.org/lesson/763642/step/3?unit=765809) · [3177540](steps/763642/03_3177540_text.step) — Оператор goto · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [4. text](https://stepik.org/lesson/763642/step/4?unit=765809) · [3177546](steps/763642/04_3177546_text.step) — Оператор break · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [5. text](https://stepik.org/lesson/763642/step/5?unit=765809) · [3177547](steps/763642/05_3177547_text.step) — Оператор continue · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [6. choice](https://stepik.org/lesson/763642/step/6?unit=765809) · [3394590](steps/763642/06_3394590_choice.step) — Какие утверждения о фигурных скобках в if верны? · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [7. choice](https://stepik.org/lesson/763642/step/7?unit=765809) · [3394601](steps/763642/07_3394601_choice.step) — Какое утверждение о switch верно? · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [8. choice](https://stepik.org/lesson/763642/step/8?unit=765809) · [3394620](steps/763642/08_3394620_choice.step) — Чем break отличается от continue? · [Первый и второй проходы](../../imports/86957/manifest.json)
+
+### 4.5. Операторы циклов
+
+[Урок 763719](https://stepik.org/lesson/763719?unit=765887) · [Текст для вычитки](review/lessons/763719.md)
+
+- [1. text](https://stepik.org/lesson/763719/step/1?unit=765887) · [3177562](steps/763719/01_3177562_text.step) — Циклы в языке С++ · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. text](https://stepik.org/lesson/763719/step/2?unit=765887) · [3177565](steps/763719/02_3177565_text.step) — Цикл while · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [3. code](https://stepik.org/lesson/763719/step/3?unit=765887) · [3177566](steps/763719/03_3177566_code.step) — На вход подаётся целое число N, 2 ≤ N ≤ 1000. Выведите квадраты чисел от N−1 до 1… · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [4. text](https://stepik.org/lesson/763719/step/4?unit=765887) · [3177651](steps/763719/04_3177651_text.step) — Цикл for · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [5. code](https://stepik.org/lesson/763719/step/5?unit=765887) · [3177655](steps/763719/05_3177655_code.step) — Вложенные циклы for позволяют обойти строки и столбцы таблицы. В этом примере они выводят… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [6. text](https://stepik.org/lesson/763719/step/6?unit=765887) · [3177786](steps/763719/06_3177786_text.step) — Цикл do-while
+- [7. text](https://stepik.org/lesson/763719/step/7?unit=765887) · [3177789](steps/763719/07_3177789_text.step) — Ещё немного про break в циклах · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [8. code](https://stepik.org/lesson/763719/step/8?unit=765887) · [3299645](steps/763719/08_3299645_code.step) — Число Армстронга — неотрицательное целое число, равное сумме своих десятичных цифр,… · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [9. choice](https://stepik.org/lesson/763719/step/9?unit=765887) · [4718155](steps/763719/09_4718155_choice.step) — Выберите правильное утверждение
+- [10. choice](https://stepik.org/lesson/763719/step/10?unit=765887) · [4718172](steps/763719/10_4718172_choice.step) — Какое утверждение о скорости префиксного и постфиксного инкремента верно? · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [11. choice](https://stepik.org/lesson/763719/step/11?unit=765887) · [4718178](steps/763719/11_4718178_choice.step) — Рассмотрите выражения ++x и x++ по отдельности, каждый раз начиная с int x = 3;. Какое… · [Первый и второй проходы](../../imports/86957/manifest.json)
+
+## 5. Статические массивы в языке С++
+
+### 5.1. Одномерные массивы
+
+[Урок 763644](https://stepik.org/lesson/763644?unit=765811) · [Текст для вычитки](review/lessons/763644.md)
+
+- [1. code](https://stepik.org/lesson/763644/step/1?unit=765811) · [3384444](steps/763644/01_3384444_code.step) — Таблица заполняется по следующему алгоритму: · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. text](https://stepik.org/lesson/763644/step/2?unit=765811) · [3177296](steps/763644/02_3177296_text.step) — Массив: несколько значений одного типа · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json), [Современный C++](../../modernization/86957/manifest.json)
+- [3. text](https://stepik.org/lesson/763644/step/3?unit=765811) · [3212907](steps/763644/03_3212907_text.step) — Массивы в программировании · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json), [Современный C++](../../modernization/86957/manifest.json)
+- [4. text](https://stepik.org/lesson/763644/step/4?unit=765811) · [3212908](steps/763644/04_3212908_text.step) — Создание одномерного массива · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json), [Современный C++](../../modernization/86957/manifest.json)
+- [5. text](https://stepik.org/lesson/763644/step/5?unit=765811) · [3212935](steps/763644/05_3212935_text.step) — Ещё немного про инициализацию массива\* · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [6. text](https://stepik.org/lesson/763644/step/6?unit=765811) · [3212920](steps/763644/06_3212920_text.step) — Границы и обход массива · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json), [Современный C++](../../modernization/86957/manifest.json)
+- [7. text](https://stepik.org/lesson/763644/step/7?unit=765811) · [3212926](steps/763644/07_3212926_text.step) — Ограничения
+- [8. choice](https://stepik.org/lesson/763644/step/8?unit=765811) · [3323781](steps/763644/08_3323781_choice.step) — Выберите правильные утверждения для стандартного C++17. Все фрагменты расположены внутри… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [9. choice](https://stepik.org/lesson/763644/step/9?unit=765811) · [3330530](steps/763644/09_3330530_choice.step) — Выберите правильные утверждения для стандартного C++17. Каждый фрагмент рассматривается… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [10. code](https://stepik.org/lesson/763644/step/10?unit=765811) · [3383209](steps/763644/10_3383209_code.step) — У Миши в общежитии одна розетка. Он купил N удлинителей: удлинитель с номером i имеет ровно i… · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [11. choice](https://stepik.org/lesson/763644/step/11?unit=765811) · [4718151](steps/763644/11_4718151_choice.step) — Сколько форм записи есть у каждого из операторов инкремента и декремента? · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+
+### 5.2. Многомерные массивы
+
+[Урок 763646](https://stepik.org/lesson/763646?unit=765813) · [Текст для вычитки](review/lessons/763646.md)
+
+- [1. text](https://stepik.org/lesson/763646/step/1?unit=765813) · [3212924](steps/763646/01_3212924_text.step) — Базовое представление многомерного массива на примере двумерного · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. text](https://stepik.org/lesson/763646/step/2?unit=765813) · [3177298](steps/763646/02_3177298_text.step) — Двумерные массивы в С++ · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [3. text](https://stepik.org/lesson/763646/step/3?unit=765813) · [3212939](steps/763646/03_3212939_text.step) — Перебор двумерного массива · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [4. text](https://stepik.org/lesson/763646/step/4?unit=765813) · [3212928](steps/763646/04_3212928_text.step) — Хранение многомерных массивов · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [5. text](https://stepik.org/lesson/763646/step/5?unit=765813) · [3212937](steps/763646/05_3212937_text.step) — Где хранятся массивы · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [6. choice](https://stepik.org/lesson/763646/step/6?unit=765813) · [3324082](steps/763646/06_3324082_choice.step) — Выберите правильные утверждения. · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [7. choice](https://stepik.org/lesson/763646/step/7?unit=765813) · [3330670](steps/763646/07_3330670_choice.step) — Выберите правильные утверждения. Считайте, что sizeof(int) == 4; каждый фрагмент… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [8. code](https://stepik.org/lesson/763646/step/8?unit=765813) · [3341723](steps/763646/08_3341723_code.step) — Элемент матрицы называется локальным минимумом, если он строго меньше каждого из своих… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [9. code](https://stepik.org/lesson/763646/step/9?unit=765813) · [3381234](steps/763646/09_3381234_code.step) — Для целочисленной матрицы A размера N × M постройте матрицу B того же размера. Элемент… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [10. code](https://stepik.org/lesson/763646/step/10?unit=765813) · [3381291](steps/763646/10_3381291_code.step) — Дано натуральное число N. Требуется подсчитать K - количество всех различных цифр в числе и… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [11. code](https://stepik.org/lesson/763646/step/11?unit=765813) · [3382745](steps/763646/11_3382745_code.step) — Дан непустой массив целых чисел. Найдите первое слева вхождение минимального и первое слева… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [12. code](https://stepik.org/lesson/763646/step/12?unit=765813) · [3383135](steps/763646/12_3383135_code.step) — Даны две квадратные целочисленные матрицы A и B. Найдите их произведение A · B именно в этом… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+
+## 6. Указатели в языке С++
+
+### 6.1. Понятие указатель в С++
+
+[Урок 770585](https://stepik.org/lesson/770585?unit=773026) · [Текст для вычитки](review/lessons/770585.md)
+
+- [1. text](https://stepik.org/lesson/770585/step/1?unit=773026) · [3212944](steps/770585/01_3212944_text.step) — Предисловие · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. text](https://stepik.org/lesson/770585/step/2?unit=773026) · [3212968](steps/770585/02_3212968_text.step) — Указатель в С++ · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [3. text](https://stepik.org/lesson/770585/step/3?unit=773026) · [3212969](steps/770585/03_3212969_text.step) — Возможности работы с указателями · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [4. text](https://stepik.org/lesson/770585/step/4?unit=773026) · [3212970](steps/770585/04_3212970_text.step) — Подробнее об операциях с указателями · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [5. text](https://stepik.org/lesson/770585/step/5?unit=773026) · [3212990](steps/770585/05_3212990_text.step) — Арифметика указателей · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [6. text](https://stepik.org/lesson/770585/step/6?unit=773026) · [3212989](steps/770585/06_3212989_text.step) — Указатели на константы · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [7. text](https://stepik.org/lesson/770585/step/7?unit=773026) · [3212991](steps/770585/07_3212991_text.step) — Указатели на указатели · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [8. choice](https://stepik.org/lesson/770585/step/8?unit=773026) · [3428470](steps/770585/08_3428470_choice.step) — Что можно утверждать о следующем фрагменте стандартного C++? · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [9. choice](https://stepik.org/lesson/770585/step/9?unit=773026) · [3428480](steps/770585/09_3428480_choice.step) — int arr\[5\]\{ 1, 2, 3, 4, 5 \}; int\* ptr1 = arr; int\* ptr2 = &arr\[3\]; std::cout \<\< ptr2 - ptr1… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [10. choice](https://stepik.org/lesson/770585/step/10?unit=773026) · [3428540](steps/770585/10_3428540_choice.step) — int x = 5; int\* intPtr = &x; // intPtr = 0x0000001D3E3FF714 void\* voidPtr = (void\*)intPtr;… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [11. choice](https://stepik.org/lesson/770585/step/11?unit=773026) · [3428581](steps/770585/11_3428581_choice.step) — \#include \<iostream\> void foo(const int\* ptr) \{ \*ptr = 100; \} int main(void) \{ int x = 200;… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [12. code](https://stepik.org/lesson/770585/step/12?unit=773026) · [4672519](steps/770585/12_4672519_code.step) — Даны два массива конечных вещественных чисел длины m и n, где 2 ≤ m, n ≤ 105. Модуль каждого… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [13. choice](https://stepik.org/lesson/770585/step/13?unit=773026) · [4717787](steps/770585/13_4717787_choice.step) — Как ещё называют оператор разыменования \*? · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [14. choice](https://stepik.org/lesson/770585/step/14?unit=773026) · [4718101](steps/770585/14_4718101_choice.step) — Как обычно называют область памяти, из которой реализация C++ выделяет динамические объекты… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [15. choice](https://stepik.org/lesson/770585/step/15?unit=773026) · [4718144](steps/770585/15_4718144_choice.step) — Какая операция позволяет обратиться к объекту, на который указывает действительный указатель? · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [16. choice](https://stepik.org/lesson/770585/step/16?unit=773026) · [4718146](steps/770585/16_4718146_choice.step) — Как записать разыменование указателя p на существующий объект? · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+
+### 6.2. Взаимодействие указателей и массивов
+
+[Урок 770586](https://stepik.org/lesson/770586?unit=773027) · [Текст для вычитки](review/lessons/770586.md)
+
+- [1. text](https://stepik.org/lesson/770586/step/1?unit=773027) · [3212945](steps/770586/01_3212945_text.step) — Важный момент, который стоит помнить · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. text](https://stepik.org/lesson/770586/step/2?unit=773027) · [3212995](steps/770586/02_3212995_text.step) — Указатели и массивы · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [3. text](https://stepik.org/lesson/770586/step/3?unit=773027) · [3213003](steps/770586/03_3213003_text.step) — Указатели на массивы · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [4. text](https://stepik.org/lesson/770586/step/4?unit=773027) · [3213004](steps/770586/04_3213004_text.step) — Указатель на символы строки · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [5. text](https://stepik.org/lesson/770586/step/5?unit=773027) · [3438842](steps/770586/05_3438842_text.step) — Адресное пространство процесса: упрощённая модель · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [6. text](https://stepik.org/lesson/770586/step/6?unit=773027) · [3438841](steps/770586/06_3438841_text.step) — Стек и динамическая память в C++ · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [7. choice](https://stepik.org/lesson/770586/step/7?unit=773027) · [3428704](steps/770586/07_3428704_choice.step) — int arr\[100\]; int\* ptr = arr; std::cout \<\< sizeof(ptr); · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [8. choice](https://stepik.org/lesson/770586/step/8?unit=773027) · [3428716](steps/770586/08_3428716_choice.step) — \#include \<iostream\> void getSize(int arr\[\]) \{ std::cout \<\< "Size of the array from getSize():… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [9. choice](https://stepik.org/lesson/770586/step/9?unit=773027) · [3428748](steps/770586/09_3428748_choice.step) — const int size = 5; int arr\[size\]\{ 1, 2, 3, 4, 5 \}; // arr = 0x00000020C43BFA78 int\* ptr =… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [10. choice](https://stepik.org/lesson/770586/step/10?unit=773027) · [3428774](steps/770586/10_3428774_choice.step) — char arr\[\]\{ "Hello!" \}; const char\* ptr = arr; // ptr = 0x0000005A068FFBF4 while (\*ptr) \{… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [11. choice](https://stepik.org/lesson/770586/step/11?unit=773027) · [3428845](steps/770586/11_3428845_choice.step) — int arr\[\]\{ 1, 2, 3, 4, 5, 6 \}; int a = 2\[arr\] - arr\[3\] + arr\[4\]; std::cout \<\< "a: " \<\< a \<\<… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [12. code](https://stepik.org/lesson/770586/step/12?unit=773027) · [4700496](steps/770586/12_4700496_code.step) — Даны два массива целых чисел размера n: a1, ..., an, b1, ..., bn · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [13. choice](https://stepik.org/lesson/770586/step/13?unit=773027) · [4717730](steps/770586/13_4717730_choice.step) — Какие два средства в C++ поддерживают последовательный обход элементов: одно — по адресам… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [14. choice](https://stepik.org/lesson/770586/step/14?unit=773027) · [4717764](steps/770586/14_4717764_choice.step) — Какое утверждение верно для размера встроенного массива? · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [15. choice](https://stepik.org/lesson/770586/step/15?unit=773027) · [4718105](steps/770586/15_4718105_choice.step) — Как избежать утечки памяти для объекта, которым программа управляет вручную после успешного… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [16. choice](https://stepik.org/lesson/770586/step/16?unit=773027) · [4718192](steps/770586/16_4718192_choice.step) — Пусть объявлено int x = 5; int& ref = x;. Выберите правильное утверждение об обычной ссылке… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+
+### 6.3. Динамические массивы в С++
+
+[Урок 770587](https://stepik.org/lesson/770587?unit=773028) · [Текст для вычитки](review/lessons/770587.md)
+
+- [1. text](https://stepik.org/lesson/770587/step/1?unit=773028) · [3212946](steps/770587/01_3212946_text.step) — Размер во время выполнения: std::vector и динамический массив · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json), [Современный C++](../../modernization/86957/manifest.json)
+- [2. text](https://stepik.org/lesson/770587/step/2?unit=773028) · [3213209](steps/770587/02_3213209_text.step) — Таблица: контейнер строк и массив указателей · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json), [Современный C++](../../modernization/86957/manifest.json)
+- [3. text](https://stepik.org/lesson/770587/step/3?unit=773028) · [3213208](steps/770587/03_3213208_text.step) — Работа с динамической памятью в языке С · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [4. text](https://stepik.org/lesson/770587/step/4?unit=773028) · [3213207](steps/770587/04_3213207_text.step) — Работа с массивами в языке С · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [5. text](https://stepik.org/lesson/770587/step/5?unit=773028) · [3213210](steps/770587/05_3213210_text.step) — Ошибки при выделении памяти · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [6. text](https://stepik.org/lesson/770587/step/6?unit=773028) · [3307684](steps/770587/06_3307684_text.step) — Выбор хранения и три важных свойства vector · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json), [Современный C++](../../modernization/86957/manifest.json)
+- [7. text](https://stepik.org/lesson/770587/step/7?unit=773028) · [3213206](steps/770587/07_3213206_text.step) — Поздравляю! · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [8. choice](https://stepik.org/lesson/770587/step/8?unit=773028) · [3324316](steps/770587/08_3324316_choice.step) — Выберите верные утверждения. Для malloc и realloc применяйте правила C17; для new\[\] — C++20. · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [9. choice](https://stepik.org/lesson/770587/step/9?unit=773028) · [3324363](steps/770587/09_3324363_choice.step) — Выберите правильные утверждения. Здесь new означает обычное выражение new T без std::nothrow… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [10. choice](https://stepik.org/lesson/770587/step/10?unit=773028) · [3330738](steps/770587/10_3330738_choice.step) — Выберите правильные утверждения. В первых двух вариантах a — указатель на первый элемент… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [11. choice](https://stepik.org/lesson/770587/step/11?unit=773028) · [3332379](steps/770587/11_3332379_choice.step) — Выберите правильные утверждения. · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [12. choice](https://stepik.org/lesson/770587/step/12?unit=773028) · [3333765](steps/770587/12_3333765_choice.step) — int\*\* mat = new int\[3\]; for (int i = 1; i \<= 3; ++i)\{ mat\[i\] = new int\[i\]; \} · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [13. choice](https://stepik.org/lesson/770587/step/13?unit=773028) · [3333774](steps/770587/13_3333774_choice.step) — // mat указывает на массив из двух int\*, созданный через new\[\]. // Каждая из двух строк… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [14. choice](https://stepik.org/lesson/770587/step/14?unit=773028) · [3333775](steps/770587/14_3333775_choice.step) — Память выделена для двумерного массива из двух строк следующими операторами: · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [15. choice](https://stepik.org/lesson/770587/step/15?unit=773028) · [3333793](steps/770587/15_3333793_choice.step) — // mat указывает на массив из двух int\*, созданный через new\[\]. // Каждая из двух строк… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [16. choice](https://stepik.org/lesson/770587/step/16?unit=773028) · [3333794](steps/770587/16_3333794_choice.step) — int\*\* mat = new int\*\[3\]; for (int i = 0; i \<= 2; ++i)\{ mat\[i\] = new int\[i+1\]; \} · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+
+## 7. Использование собственных функций в С++ проектах
+
+### 7.1. Понятие функции в программировании
+
+[Урок 770590](https://stepik.org/lesson/770590?unit=773031) · [Текст для вычитки](review/lessons/770590.md)
+
+- [1. text](https://stepik.org/lesson/770590/step/1?unit=773031) · [3212949](steps/770590/01_3212949_text.step) — Функции в С++ · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. text](https://stepik.org/lesson/770590/step/2?unit=773031) · [3214909](steps/770590/02_3214909_text.step) — Объявление функции · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [3. text](https://stepik.org/lesson/770590/step/3?unit=773031) · [3214910](steps/770590/03_3214910_text.step) — Необязательные элементы объявления функции · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [4. text](https://stepik.org/lesson/770590/step/4?unit=773031) · [3214911](steps/770590/04_3214911_text.step) — Определение функции · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [5. choice](https://stepik.org/lesson/770590/step/5?unit=773031) · [3404721](steps/770590/05_3404721_choice.step) — Выберите правильные утверждения. · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [6. choice](https://stepik.org/lesson/770590/step/6?unit=773031) · [3425771](steps/770590/06_3425771_choice.step) — Выберите правильные утверждения. · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [7. code](https://stepik.org/lesson/770590/step/7?unit=773031) · [4700299](steps/770590/07_4700299_code.step) — Влад любит математику и хочет очень точно посчитать значение выражения: · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [8. choice](https://stepik.org/lesson/770590/step/8?unit=773031) · [4717715](steps/770590/08_4717715_choice.step) — Что из перечисленного само по себе является исходным файлом, а не значением аргумента при… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [9. choice](https://stepik.org/lesson/770590/step/9?unit=773031) · [4717717](steps/770590/09_4717717_choice.step) — Сколько типов комментариев существует в C ++?
+
+### 7.2. Создание функций в С++
+
+[Урок 770591](https://stepik.org/lesson/770591?unit=773032) · [Текст для вычитки](review/lessons/770591.md)
+
+- [1. text](https://stepik.org/lesson/770591/step/1?unit=773032) · [3212950](steps/770591/01_3212950_text.step) — Создание функций внутри одного файла · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. text](https://stepik.org/lesson/770591/step/2?unit=773032) · [3214973](steps/770591/02_3214973_text.step) — Области видимости переменных в функциях · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [3. text](https://stepik.org/lesson/770591/step/3?unit=773032) · [3214972](steps/770591/03_3214972_text.step) — Аргументы функции в С++ · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [4. text](https://stepik.org/lesson/770591/step/4?unit=773032) · [3214971](steps/770591/04_3214971_text.step) — Передача аргументов по значению · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [5. text](https://stepik.org/lesson/770591/step/5?unit=773032) · [3214974](steps/770591/05_3214974_text.step) — Константные параметры · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [6. text](https://stepik.org/lesson/770591/step/6?unit=773032) · [3215024](steps/770591/06_3215024_text.step) — Массивы в параметрах функции · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [7. text](https://stepik.org/lesson/770591/step/7?unit=773032) · [3214978](steps/770591/07_3214978_text.step) — Рекурсивный вызов функций · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [8. choice](https://stepik.org/lesson/770591/step/8?unit=773032) · [3404829](steps/770591/08_3404829_choice.step) — Выберите верные утверждения. Здесь b — переменная int, d — константа const int d = 5, а m —… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [9. choice](https://stepik.org/lesson/770591/step/9?unit=773032) · [3425890](steps/770591/09_3425890_choice.step) — Выберите верные утверждения. · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [10. code](https://stepik.org/lesson/770591/step/10?unit=773032) · [3428206](steps/770591/10_3428206_code.step) — Для неотрицательного целого n определим функцию F(n): · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [11. code](https://stepik.org/lesson/770591/step/11?unit=773032) · [3428255](steps/770591/11_3428255_code.step) — Входные данные · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [12. code](https://stepik.org/lesson/770591/step/12?unit=773032) · [3384518](steps/770591/12_3384518_code.step) — Пусть f(n) - наибольший нечетный делитель натурального числа n. По заданному натуральному n… · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [13. code](https://stepik.org/lesson/770591/step/13?unit=773032) · [5828883](steps/770591/13_5828883_code.step) — Степан учит Егора делить массивы одинаковой длины 𝑛 друг на друга следующим образом: если 𝑎𝑖… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+
+### 7.3. Структура С++ проекта
+
+[Урок 770592](https://stepik.org/lesson/770592?unit=773033) · [Текст для вычитки](review/lessons/770592.md)
+
+- [1. text](https://stepik.org/lesson/770592/step/1?unit=773033) · [3214992](steps/770592/01_3214992_text.step) — Область видимости объектов · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. text](https://stepik.org/lesson/770592/step/2?unit=773033) · [3212951](steps/770592/02_3212951_text.step) — Разделение программы на файлы · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [3. text](https://stepik.org/lesson/770592/step/3?unit=773033) · [3214991](steps/770592/03_3214991_text.step) — Внешние объекты · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [4. choice](https://stepik.org/lesson/770592/step/4?unit=773033) · [3404927](steps/770592/04_3404927_choice.step) — Выберите верные утверждения. · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [5. choice](https://stepik.org/lesson/770592/step/5?unit=773033) · [3425927](steps/770592/05_3425927_choice.step) — Выберите верные утверждения. · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [6. choice](https://stepik.org/lesson/770592/step/6?unit=773033) · [4718310](steps/770592/06_4718310_choice.step) — Какие части обязательно записывают в обычном объявлении свободной функции, например int f();?… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+
+### 7.4. Программирование библиотек
+
+[Урок 770593](https://stepik.org/lesson/770593?unit=773034) · [Текст для вычитки](review/lessons/770593.md)
+
+- [1. text](https://stepik.org/lesson/770593/step/1?unit=773034) · [3212952](steps/770593/01_3212952_text.step) — Что такое библиотека и зачем она нужна? · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. text](https://stepik.org/lesson/770593/step/2?unit=773034) · [3215031](steps/770593/02_3215031_text.step) — Библиотека в С++ · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [3. text](https://stepik.org/lesson/770593/step/3?unit=773034) · [3215032](steps/770593/03_3215032_text.step) — Статическая С++ библиотека · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [4. text](https://stepik.org/lesson/770593/step/4?unit=773034) · [3215045](steps/770593/04_3215045_text.step) — Разработка динамических библиотек · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [5. video](https://stepik.org/lesson/770593/step/5?unit=773034) · [3215065](steps/770593/05_3215065_video.step)
+- [6. video](https://stepik.org/lesson/770593/step/6?unit=773034) · [4733817](steps/770593/06_4733817_video.step)
+- [7. choice](https://stepik.org/lesson/770593/step/7?unit=773034) · [3408471](steps/770593/07_3408471_choice.step) — Выберите верные утверждения. · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [8. choice](https://stepik.org/lesson/770593/step/8?unit=773034) · [3426151](steps/770593/08_3426151_choice.step) — Выберите верные утверждения. · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [9. choice](https://stepik.org/lesson/770593/step/9?unit=773034) · [3462446](steps/770593/09_3462446_choice.step) — Выберите верные утверждения. · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [10. choice](https://stepik.org/lesson/770593/step/10?unit=773034) · [4718095](steps/770593/10_4718095_choice.step) — Определите правильное утверждение · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [11. choice](https://stepik.org/lesson/770593/step/11?unit=773034) · [4718299](steps/770593/11_4718299_choice.step) — Какой базовый тип имеет перечисление enum class E \{ a, b \};, если базовый тип не указан явно? · [Первый и второй проходы](../../imports/86957/manifest.json)
+
+## 8. Тестирование программного обеспечения
+
+### 8.1. Что такое тестирование ПО?
+
+[Урок 778425](https://stepik.org/lesson/778425?unit=780909) · [Текст для вычитки](review/lessons/778425.md)
+
+- [1. text](https://stepik.org/lesson/778425/step/1?unit=780909) · [3251321](steps/778425/01_3251321_text.step) — Введение в тестирование · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. text](https://stepik.org/lesson/778425/step/2?unit=780909) · [3252939](steps/778425/02_3252939_text.step) — Что такое тестирование программ и каким оно бывает? · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [3. text](https://stepik.org/lesson/778425/step/3?unit=780909) · [3252941](steps/778425/03_3252941_text.step) — Основные виды ошибок, возникающих при написании программ: · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [4. text](https://stepik.org/lesson/778425/step/4?unit=780909) · [3252940](steps/778425/04_3252940_text.step) — Пограничные случаи · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [5. choice](https://stepik.org/lesson/778425/step/5?unit=780909) · [4718113](steps/778425/05_4718113_choice.step) — Данные не требуется хранить целиком после обработки. Какой приём непосредственно уменьшает… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [6. choice](https://stepik.org/lesson/778425/step/6?unit=780909) · [4718115](steps/778425/06_4718115_choice.step) — Как обычно организуют единоличное владение динамическим объектом, чтобы он автоматически… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [7. code](https://stepik.org/lesson/778425/step/7?unit=780909) · [5822035](steps/778425/07_5822035_code.step) — На этом шаге предлагается решить простую задачу, тесты к которой необходимо сгенерировать… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [8. code](https://stepik.org/lesson/778425/step/8?unit=780909) · [4739135](steps/778425/08_4739135_code.step) — Пора студентам ботать! · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+
+### 8.2. Unit тесты в С++
+
+[Урок 778426](https://stepik.org/lesson/778426?unit=780910) · [Текст для вычитки](review/lessons/778426.md)
+
+- [1. text](https://stepik.org/lesson/778426/step/1?unit=780910) · [3251322](steps/778426/01_3251322_text.step) — Модульные тесты: проверяем поведение функции · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json), [Современный C++](../../modernization/86957/manifest.json)
+- [2. text](https://stepik.org/lesson/778426/step/2?unit=780910) · [3253129](steps/778426/02_3253129_text.step) — Правильный выбор алгоритма · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [3. code](https://stepik.org/lesson/778426/step/3?unit=780910) · [3253164](steps/778426/03_3253164_code.step) — Попробуйте самостоятельно решить задачу с предыдущего шага более эффективным алгоритмом. Один… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [4. text](https://stepik.org/lesson/778426/step/4?unit=780910) · [3253429](steps/778426/04_3253429_text.step) — От перебора к формуле и отдельной функции · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json), [Современный C++](../../modernization/86957/manifest.json)
+- [5. text](https://stepik.org/lesson/778426/step/5?unit=780910) · [3253503](steps/778426/05_3253503_text.step) — Первые автоматические тесты и CTest · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json), [Современный C++](../../modernization/86957/manifest.json)
+- [6. text](https://stepik.org/lesson/778426/step/6?unit=780910) · [3253548](steps/778426/06_3253548_text.step) — Проверяем, что тест умеет обнаруживать ошибку · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json), [Современный C++](../../modernization/86957/manifest.json)
+- [7. text](https://stepik.org/lesson/778426/step/7?unit=780910) · [3253553](steps/778426/07_3253553_text.step) — GoogleTest: выбираем подходящую проверку · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json), [Современный C++](../../modernization/86957/manifest.json)
+- [8. choice](https://stepik.org/lesson/778426/step/8?unit=780910) · [4718068](steps/778426/08_4718068_choice.step) — Выберите соотношение, которое неверно для типов MSVC x64. Знаки = здесь обозначают… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [9. text](https://stepik.org/lesson/778426/step/9?unit=780910) · [3253557](steps/778426/09_3253557_text.step) — Самостоятельная проверка · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json), [Современный C++](../../modernization/86957/manifest.json)
+- [10. code](https://stepik.org/lesson/778426/step/10?unit=780910) · [4927308](steps/778426/10_4927308_code.step) — Магический квадрат порядка n — квадратная матрица размера n × n из попарно различных целых… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+
+## 9. Строки в языке С++
+
+### 9.1. Массив символов как строка
+
+[Урок 770588](https://stepik.org/lesson/770588?unit=773029) · [Текст для вычитки](review/lessons/770588.md)
+
+- [1. text](https://stepik.org/lesson/770588/step/1?unit=773029) · [3212947](steps/770588/01_3212947_text.step) — Понятие символьной строки в С++ · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. text](https://stepik.org/lesson/770588/step/2?unit=773029) · [3214845](steps/770588/02_3214845_text.step) — Функции для работы со строками и символами · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [3. text](https://stepik.org/lesson/770588/step/3?unit=773029) · [3214873](steps/770588/03_3214873_text.step) — Указатель на символы строки: char\* и const char\* · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [4. fill-blanks](https://stepik.org/lesson/770588/step/4?unit=773029) · [3408968](steps/770588/04_3408968_fill-blanks.step) — В пунктах о функциях вводите имя рассмотренной функции стандартной библиотеки C без префикса… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [5. choice](https://stepik.org/lesson/770588/step/5?unit=773029) · [3435399](steps/770588/05_3435399_choice.step) — Выберите верные утверждения. · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [6. code](https://stepik.org/lesson/770588/step/6?unit=773029) · [3446015](steps/770588/06_3446015_code.step) — Анаграммой слова называется любая перестановка всех букв слова. Например, из слова SOLO можно… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [7. choice](https://stepik.org/lesson/770588/step/7?unit=773029) · [4718066](steps/770588/07_4718066_choice.step) — Размеры объектов C++ измеряются в байтах, то есть в единицах размера типа \_\_\_\_\_. Результат… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+
+### 9.2. std::string
+
+[Урок 770589](https://stepik.org/lesson/770589?unit=773030) · [Текст для вычитки](review/lessons/770589.md)
+
+- [1. text](https://stepik.org/lesson/770589/step/1?unit=773030) · [3212948](steps/770589/01_3212948_text.step) — std::string: владение строкой и чтение текста · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json), [Современный C++](../../modernization/86957/manifest.json)
+- [2. text](https://stepik.org/lesson/770589/step/2?unit=773030) · [3214901](steps/770589/02_3214901_text.step) — Преимущества и недостатки класса string в сравнении с C-строками · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [3. text](https://stepik.org/lesson/770589/step/3?unit=773030) · [3214903](steps/770589/03_3214903_text.step) — Создание строки: значение, копия и повторение · [Первый и второй проходы](../../imports/86957/manifest.json), [Современный C++](../../modernization/86957/manifest.json)
+- [4. text](https://stepik.org/lesson/770589/step/4?unit=773030) · [3214902](steps/770589/04_3214902_text.step) — Список операторов, которые можно использовать с объектами класса string · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [5. text](https://stepik.org/lesson/770589/step/5?unit=773030) · [3214904](steps/770589/05_3214904_text.step) — Работа со строкой: поиск, границы и длина · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json), [Современный C++](../../modernization/86957/manifest.json)
+- [6. choice](https://stepik.org/lesson/770589/step/6?unit=773030) · [3423457](steps/770589/06_3423457_choice.step) — Выберите верные утверждения для C++17. Ошибочные программы приведены для анализа, выполнять… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [7. choice](https://stepik.org/lesson/770589/step/7?unit=773030) · [3437788](steps/770589/07_3437788_choice.step) — Выберите верные утверждения. · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [8. code](https://stepik.org/lesson/770589/step/8?unit=773030) · [3446002](steps/770589/08_3446002_code.step) — Во многих прикладных задачах, таких как поиск в сети или расшифровка генома, требуется… · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [9. code](https://stepik.org/lesson/770589/step/9?unit=773030) · [3446094](steps/770589/09_3446094_code.step) — В заданной строке S найти максимальную по длине подстроку, которая не является палиндромом. · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [10. code](https://stepik.org/lesson/770589/step/10?unit=773030) · [3446132](steps/770589/10_3446132_code.step) — У вас есть строка s и фишка, которую вы можете поставить на любой символ этой строки. · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [11. choice](https://stepik.org/lesson/770589/step/11?unit=773030) · [4717782](steps/770589/11_4717782_choice.step) — Какие типы имеет обычный символьный литерал 'a' в C17 и C++20? · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [12. choice](https://stepik.org/lesson/770589/step/12?unit=773030) · [4718098](steps/770589/12_4718098_choice.step) — В выражении a\[2\], где a объявлен как int a\[5\]\{\}, к чему даёт доступ оператор индексирования… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [13. choice](https://stepik.org/lesson/770589/step/13?unit=773030) · [4718123](steps/770589/13_4718123_choice.step) — Выберите правильное утверждение · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [14. code](https://stepik.org/lesson/770589/step/14?unit=773030) · [4738986](steps/770589/14_4738986_code.step) — Антоша и сдача сессии на миллион · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [15. code](https://stepik.org/lesson/770589/step/15?unit=773030) · [4949336](steps/770589/15_4949336_code.step) — Представим, что в этой шуточной задаче проводится реформа английского языка, позволяющая… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+
+## 10. Исследование алгоритмов
+
+### 10.1. Big O Notation
+
+[Урок 770594](https://stepik.org/lesson/770594?unit=773035) · [Текст для вычитки](review/lessons/770594.md)
+
+- [1. text](https://stepik.org/lesson/770594/step/1?unit=773035) · [3212953](steps/770594/01_3212953_text.step) — Что такое сложность алгоритма? · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. text](https://stepik.org/lesson/770594/step/2?unit=773035) · [3213244](steps/770594/02_3213244_text.step) — Что такое «O большое»? · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [3. text](https://stepik.org/lesson/770594/step/3?unit=773035) · [3213241](steps/770594/03_3213241_text.step) — O(1) · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [4. text](https://stepik.org/lesson/770594/step/4?unit=773035) · [3213243](steps/770594/04_3213243_text.step) — ЛИНЕЙНАЯ \| O(N) · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [5. text](https://stepik.org/lesson/770594/step/5?unit=773035) · [3213242](steps/770594/05_3213242_text.step) — КВАДРАТИЧНАЯ \| O(N²) · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [6. text](https://stepik.org/lesson/770594/step/6?unit=773035) · [3213247](steps/770594/06_3213247_text.step) — ЛОГАРИФМИЧЕСКАЯ \| O(LOG N) · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [7. text](https://stepik.org/lesson/770594/step/7?unit=773035) · [3213248](steps/770594/07_3213248_text.step) — Как упростить асимптотическую оценку? · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [8. text](https://stepik.org/lesson/770594/step/8?unit=773035) · [3213256](steps/770594/08_3213256_text.step) — Как определить сложность алгоритма? · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [9. text](https://stepik.org/lesson/770594/step/9?unit=773035) · [3213255](steps/770594/09_3213255_text.step) — Скрытые константы · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [10. choice](https://stepik.org/lesson/770594/step/10?unit=773035) · [3408612](steps/770594/10_3408612_choice.step) — Выберите верные утверждения. Используем модель с постоянной стоимостью базовых операций над… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [11. choice](https://stepik.org/lesson/770594/step/11?unit=773035) · [3408628](steps/770594/11_3408628_choice.step) — Оцените показанную функцию подсчётом циклов. Считайте 2 ≤ p ≤ min(n, 46340) и n ≤ 2 · 109;… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [12. choice](https://stepik.org/lesson/770594/step/12?unit=773035) · [3435221](steps/770594/12_3435221_choice.step) — Выберите верные утверждения. · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [13. code](https://stepik.org/lesson/770594/step/13?unit=773035) · [3496771](steps/770594/13_3496771_code.step) — Переведите целое число 1 ≤ n ≤ 3999 в условную «римскую» запись этой задачи. В ней… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [14. code](https://stepik.org/lesson/770594/step/14?unit=773035) · [3496704](steps/770594/14_3496704_code.step) — Пусть S(x) — это сумма цифр числа x, записанного в десятичной системе счисления. Например,… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [15. code](https://stepik.org/lesson/770594/step/15?unit=773035) · [3496878](steps/770594/15_3496878_code.step) — Вчера на уроке математики Саша узнал о том, что иногда полезно использовать вместо десятичной… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [16. choice](https://stepik.org/lesson/770594/step/16?unit=773035) · [4717725](steps/770594/16_4717725_choice.step) — Какой стандартный заголовок объявляет алгоритмы std::sort и std::find? · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+
+### 10.2. Сортировки
+
+[Урок 770595](https://stepik.org/lesson/770595?unit=773036) · [Текст для вычитки](review/lessons/770595.md)
+
+- [1. text](https://stepik.org/lesson/770595/step/1?unit=773036) · [3212954](steps/770595/01_3212954_text.step) — Что такое сортировка? · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. text](https://stepik.org/lesson/770595/step/2?unit=773036) · [3215136](steps/770595/02_3215136_text.step) — Пузырьковая сортировка · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [3. text](https://stepik.org/lesson/770595/step/3?unit=773036) · [3215137](steps/770595/03_3215137_text.step) — Сортировка выбором · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [4. text](https://stepik.org/lesson/770595/step/4?unit=773036) · [3215176](steps/770595/04_3215176_text.step) — Сортировка вставками · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [5. text](https://stepik.org/lesson/770595/step/5?unit=773036) · [3215175](steps/770595/05_3215175_text.step) — Быстрая сортировка · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [6. text](https://stepik.org/lesson/770595/step/6?unit=773036) · [3215178](steps/770595/06_3215178_text.step) — Сортировка слиянием · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [7. text](https://stepik.org/lesson/770595/step/7?unit=773036) · [3215177](steps/770595/07_3215177_text.step) — Сортировка Шелла · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [8. text](https://stepik.org/lesson/770595/step/8?unit=773036) · [3215179](steps/770595/08_3215179_text.step) — Сортировка кучей · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [9. choice](https://stepik.org/lesson/770595/step/9?unit=773036) · [3408767](steps/770595/09_3408767_choice.step) — Выберите верные утверждения. · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [10. choice](https://stepik.org/lesson/770595/step/10?unit=773036) · [3435286](steps/770595/10_3435286_choice.step) — Выберите верные утверждения. · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [11. code](https://stepik.org/lesson/770595/step/11?unit=773036) · [4734985](steps/770595/11_4734985_code.step) — Дана непустая строка S. Найдите количество пар одинаковых непустых подстрок, начинающихся в… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+
+### 10.3. Поиск элемента в массиве
+
+[Урок 771129](https://stepik.org/lesson/771129?unit=773574) · [Текст для вычитки](review/lessons/771129.md)
+
+- [1. text](https://stepik.org/lesson/771129/step/1?unit=773574) · [3215109](steps/771129/01_3215109_text.step) — Почему поиск элемента в массиве - это важно? · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. text](https://stepik.org/lesson/771129/step/2?unit=773574) · [3215183](steps/771129/02_3215183_text.step) — Линейный поиск · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [3. text](https://stepik.org/lesson/771129/step/3?unit=773574) · [3215192](steps/771129/03_3215192_text.step) — Двоичный (бинарный) поиск элемента в массиве · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [4. text](https://stepik.org/lesson/771129/step/4?unit=773574) · [3215191](steps/771129/04_3215191_text.step) — Интерполяционный поиск · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [5. choice](https://stepik.org/lesson/771129/step/5?unit=773574) · [3408864](steps/771129/05_3408864_choice.step) — Выберите верные утверждения. a — отсортированный по неубыванию массив, x — искомое значение,… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [6. choice](https://stepik.org/lesson/771129/step/6?unit=773574) · [3435354](steps/771129/06_3435354_choice.step) — Выберите верные утверждения. · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [7. code](https://stepik.org/lesson/771129/step/7?unit=773574) · [3496826](steps/771129/07_3496826_code.step) — Задача ICPC, которая каждый год попадает в лабораторные работы :) · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+
+## 11. Работа с файлами в языке С++
+
+### 11.1. Потоки для работы с файлами
+
+[Урок 771131](https://stepik.org/lesson/771131?unit=773576) · [Текст для вычитки](review/lessons/771131.md)
+
+- [1. text](https://stepik.org/lesson/771131/step/1?unit=773576) · [3215113](steps/771131/01_3215113_text.step) — Файловые потоки · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. text](https://stepik.org/lesson/771131/step/2?unit=773576) · [3215200](steps/771131/02_3215200_text.step) — Открытие файла · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [3. text](https://stepik.org/lesson/771131/step/3?unit=773576) · [3215199](steps/771131/03_3215199_text.step) — Работа с файлами в языке С · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [4. text](https://stepik.org/lesson/771131/step/4?unit=773576) · [3580923](steps/771131/04_3580923_text.step) — Тип Описание r Чтение. Файл должен существовать. w Запись нового файла. Если файл с таким… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [5. choice](https://stepik.org/lesson/771131/step/5?unit=773576) · [3423807](steps/771131/05_3423807_choice.step) — Выберите верные утверждения. · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [6. choice](https://stepik.org/lesson/771131/step/6?unit=773576) · [3437886](steps/771131/06_3437886_choice.step) — Выберите верные утверждения. · [Первый и второй проходы](../../imports/86957/manifest.json)
+
+### 11.2. Хранения данных в файлах
+
+[Урок 771130](https://stepik.org/lesson/771130?unit=773575) · [Текст для вычитки](review/lessons/771130.md)
+
+- [1. text](https://stepik.org/lesson/771130/step/1?unit=773575) · [3215112](steps/771130/01_3215112_text.step) — Типы файлов · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. text](https://stepik.org/lesson/771130/step/2?unit=773575) · [3215203](steps/771130/02_3215203_text.step) — Модель двоичного файла и правила работы с ним · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [3. text](https://stepik.org/lesson/771130/step/3?unit=773575) · [3215206](steps/771130/03_3215206_text.step) — Работа с текстовыми файлами в языке С++ · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [4. choice](https://stepik.org/lesson/771130/step/4?unit=773575) · [3424087](steps/771130/04_3424087_choice.step) — Выберите верные утверждения. · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [5. choice](https://stepik.org/lesson/771130/step/5?unit=773575) · [3437952](steps/771130/05_3437952_choice.step) — Выберите верные утверждения. · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [6. choice](https://stepik.org/lesson/771130/step/6?unit=773575) · [4717788](steps/771130/06_4717788_choice.step) — Где режим std::ios::ate устанавливает позицию сразу после успешного открытия непустого файла? · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+
+## 12. Типы данных: Структура и Объединение
+
+### 12.1. Тип данных struct
+
+[Урок 770596](https://stepik.org/lesson/770596?unit=773037) · [Текст для вычитки](review/lessons/770596.md)
+
+- [1. text](https://stepik.org/lesson/770596/step/1?unit=773037) · [3212955](steps/770596/01_3212955_text.step) — Структуры · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. text](https://stepik.org/lesson/770596/step/2?unit=773037) · [3215231](steps/770596/02_3215231_text.step) — Определение нового типа · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [3. text](https://stepik.org/lesson/770596/step/3?unit=773037) · [3215234](steps/770596/03_3215234_text.step) — Указатели на структуру · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [4. text](https://stepik.org/lesson/770596/step/4?unit=773037) · [3215232](steps/770596/04_3215232_text.step) — Устройство структуры в памяти · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [5. text](https://stepik.org/lesson/770596/step/5?unit=773037) · [3215233](steps/770596/05_3215233_text.step) — Приведение типов · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [6. text](https://stepik.org/lesson/770596/step/6?unit=773037) · [3215235](steps/770596/06_3215235_text.step) — Вложенные структуры · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [7. text](https://stepik.org/lesson/770596/step/7?unit=773037) · [3215236](steps/770596/07_3215236_text.step) — Указатели на поля структуры и на вложенные структуры · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [8. text](https://stepik.org/lesson/770596/step/8?unit=773037) · [3216509](steps/770596/08_3216509_text.step) — Битовые поля · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [9. choice](https://stepik.org/lesson/770596/step/9?unit=773037) · [3425979](steps/770596/09_3425979_choice.step) — Выберите верные утверждения об отдельных фрагментах программы. Если найденная ошибка мешает… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [10. fill-blanks](https://stepik.org/lesson/770596/step/10?unit=773037) · [3426003](steps/770596/10_3426003_fill-blanks.step) — Вводите размеры в байтах, только число. Используем обычное размещение MSVC x64 или GCC x86-64… · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [11. choice](https://stepik.org/lesson/770596/step/11?unit=773037) · [3438077](steps/770596/11_3438077_choice.step) — Выберите верные утверждения. В пунктах об инициализации, копировании и присваивании… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+
+### 12.2. Тип данных union
+
+[Урок 770597](https://stepik.org/lesson/770597?unit=773038) · [Текст для вычитки](review/lessons/770597.md)
+
+- [1. text](https://stepik.org/lesson/770597/step/1?unit=773038) · [3212956](steps/770597/01_3212956_text.step) — Что такое объединение в языке C++? · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. text](https://stepik.org/lesson/770597/step/2?unit=773038) · [3215243](steps/770597/02_3215243_text.step) — Устройство union · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [3. text](https://stepik.org/lesson/770597/step/3?unit=773038) · [3215244](steps/770597/03_3215244_text.step) — Указатели и union · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [4. text](https://stepik.org/lesson/770597/step/4?unit=773038) · [3215242](steps/770597/04_3215242_text.step) — Объявление вложенных объединений в шаблоне объединения · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [5. choice](https://stepik.org/lesson/770597/step/5?unit=773038) · [3426585](steps/770597/05_3426585_choice.step) — Выберите верные утверждения по правилам ISO C++17/20. Предположим, что типы std::int8\_t и… · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [6. choice](https://stepik.org/lesson/770597/step/6?unit=773038) · [3440026](steps/770597/06_3440026_choice.step) — Выберите верные утверждения. · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [7. choice](https://stepik.org/lesson/770597/step/7?unit=773038) · [4718311](steps/770597/07_4718311_choice.step) — Какой символ следует поставить после закрывающей фигурной скобки в определении struct S \{ int… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [8. choice](https://stepik.org/lesson/770597/step/8?unit=773038) · [4718314](steps/770597/08_4718314_choice.step) — Какое ключевое слово объявляет псевдоним уже существующего типа, не создавая новый… · [Первый и второй проходы](../../imports/86957/manifest.json)
+
+## 13. Классы в языке С++
+
+### 13.1. Понятие класса в языке С++
+
+[Урок 877082](https://stepik.org/lesson/877082?unit=881547) · [Текст для вычитки](review/lessons/877082.md)
+
+- [1. text](https://stepik.org/lesson/877082/step/1?unit=881547) · [3668926](steps/877082/01_3668926_text.step) — Что такое Класс в языках программирования? · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. text](https://stepik.org/lesson/877082/step/2?unit=881547) · [3668952](steps/877082/02_3668952_text.step) — Класс в языке С++ · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [3. text](https://stepik.org/lesson/877082/step/3?unit=881547) · [3668953](steps/877082/03_3668953_text.step) — Свойства классов в языке С++ · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [4. text](https://stepik.org/lesson/877082/step/4?unit=881547) · [3669114](steps/877082/04_3669114_text.step) — Зачем нужны классы? · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [5. text](https://stepik.org/lesson/877082/step/5?unit=881547) · [3668977](steps/877082/05_3668977_text.step) — Определение объектов · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [6. text](https://stepik.org/lesson/877082/step/6?unit=881547) · [3669121](steps/877082/06_3669121_text.step) — Классы, объекты и память · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [7. choice](https://stepik.org/lesson/877082/step/7?unit=881547) · [4718091](steps/877082/07_4718091_choice.step) — Что такое класс в C++? · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [8. choice](https://stepik.org/lesson/877082/step/8?unit=881547) · [4718092](steps/877082/08_4718092_choice.step) — Какой встроенный механизм, как и ссылка, позволяет косвенно обращаться к другому объекту, но… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+
+### 13.2. Работа с методами в языке С++
+
+[Урок 877081](https://stepik.org/lesson/877081?unit=881546) · [Текст для вычитки](review/lessons/877081.md)
+
+- [1. text](https://stepik.org/lesson/877081/step/1?unit=881546) · [3668925](steps/877081/01_3668925_text.step) — Определим простейший класс · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. text](https://stepik.org/lesson/877081/step/2?unit=881546) · [3669000](steps/877081/02_3669000_text.step) — Класс как тип данных
+- [3. text](https://stepik.org/lesson/877081/step/3?unit=881546) · [3668999](steps/877081/03_3668999_text.step) — Понятие конструктора класса в языке С++ · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [4. text](https://stepik.org/lesson/877081/step/4?unit=881546) · [3669075](steps/877081/04_3669075_text.step) — Деструкторы · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [5. text](https://stepik.org/lesson/877081/step/5?unit=881546) · [3669089](steps/877081/05_3669089_text.step) — Определение методов класса вне класса · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [6. text](https://stepik.org/lesson/877081/step/6?unit=881546) · [3669093](steps/877081/06_3669093_text.step) — Дружественная функция в языке С++ · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+
+### 13.3. Работа с полями класса в языке С++
+
+[Урок 877083](https://stepik.org/lesson/877083?unit=881548) · [Текст для вычитки](review/lessons/877083.md)
+
+- [1. text](https://stepik.org/lesson/877083/step/1?unit=881548) · [3668927](steps/877083/01_3668927_text.step) — Статические данные класса · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. text](https://stepik.org/lesson/877083/step/2?unit=881548) · [3669140](steps/877083/02_3669140_text.step) — Ключевое слово const и классы · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [3. text](https://stepik.org/lesson/877083/step/3?unit=881548) · [3669142](steps/877083/03_3669142_text.step) — Модификаторы доступа в языке С++ · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [4. text](https://stepik.org/lesson/877083/step/4?unit=881548) · [3669156](steps/877083/04_3669156_text.step) — Конструктор копирования по умолчанию · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [5. text](https://stepik.org/lesson/877083/step/5?unit=881548) · [3669173](steps/877083/05_3669173_text.step) — Структуры и классы · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [6. text](https://stepik.org/lesson/877083/step/6?unit=881548) · [3669172](steps/877083/06_3669172_text.step) — Почти вся информация была адаптирована из книги "Объектно-ориентированное программирование в… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [7. choice](https://stepik.org/lesson/877083/step/7?unit=881548) · [4717766](steps/877083/07_4717766_choice.step) — В C++ выражение x.y представляет собой
+- [8. choice](https://stepik.org/lesson/877083/step/8?unit=881548) · [4717789](steps/877083/08_4717789_choice.step) — Какое ключевое слово объявляет общее поле класса, существующее в единственном экземпляре для… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+
+### 13.4. Перегрузка операций
+
+[Урок 897987](https://stepik.org/lesson/897987?unit=903054) · [Текст для вычитки](review/lessons/897987.md)
+
+- [1. text](https://stepik.org/lesson/897987/step/1?unit=903054) · [3759977](steps/897987/01_3759977_text.step) — Перегрузка операций · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. text](https://stepik.org/lesson/897987/step/2?unit=903054) · [3760028](steps/897987/02_3760028_text.step) — Перегрузка унарных операций · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [3. text](https://stepik.org/lesson/897987/step/3?unit=903054) · [3760023](steps/897987/03_3760023_text.step) — Ключевое слово operator
+- [4. text](https://stepik.org/lesson/897987/step/4?unit=903054) · [3760024](steps/897987/04_3760024_text.step) — Аргументы операции и значения, возвращаемые операцией · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [5. text](https://stepik.org/lesson/897987/step/5?unit=903054) · [3760025](steps/897987/05_3760025_text.step) — Временные безымянные объекты · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [6. text](https://stepik.org/lesson/897987/step/6?unit=903054) · [3760026](steps/897987/06_3760026_text.step) — Постфиксные операции · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [7. text](https://stepik.org/lesson/897987/step/7?unit=903054) · [3760027](steps/897987/07_3760027_text.step) — Перегрузка бинарных операций · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [8. text](https://stepik.org/lesson/897987/step/8?unit=903054) · [3760029](steps/897987/08_3760029_text.step) — Перегрузка бинарных операций
+- [9. text](https://stepik.org/lesson/897987/step/9?unit=903054) · [3760048](steps/897987/09_3760048_text.step) — Перегрузка бинарных операций · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [10. text](https://stepik.org/lesson/897987/step/10?unit=903054) · [3760047](steps/897987/10_3760047_text.step) — Операция индексации массива (\[\]) · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+
+### 13.5. Наследование классов в языке С++
+
+[Урок 877084](https://stepik.org/lesson/877084?unit=881549) · [Текст для вычитки](review/lessons/877084.md)
+
+- [1. text](https://stepik.org/lesson/877084/step/1?unit=881549) · [3668928](steps/877084/01_3668928_text.step) — Понятие производного класса · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. text](https://stepik.org/lesson/877084/step/2?unit=881549) · [3759849](steps/877084/02_3759849_text.step) — Виртуальные базовые классы · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [3. text](https://stepik.org/lesson/877084/step/3?unit=881549) · [3759850](steps/877084/03_3759850_text.step) — Конструкторы и деструкторы производных классов · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [4. text](https://stepik.org/lesson/877084/step/4?unit=881549) · [3759851](steps/877084/04_3759851_text.step) — Взаимосвязь компонент производного и базовых классов · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [5. text](https://stepik.org/lesson/877084/step/5?unit=881549) · [3759914](steps/877084/05_3759914_text.step) — Абстрактные классы · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [6. code](https://stepik.org/lesson/877084/step/6?unit=881549) · [3759927](steps/877084/06_3759927_code.step) — Перепишите приведённую программу на корректном современном C++, сохранив использование… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [7. choice](https://stepik.org/lesson/877084/step/7?unit=881549) · [4717768](steps/877084/07_4717768_choice.step) — Какое утверждение о наследовании в C++17/20 верно? · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [8. choice](https://stepik.org/lesson/877084/step/8?unit=881549) · [4718089](steps/877084/08_4718089_choice.step) — В чем значение базового класса в C++? · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+
+## 14. Продвинутая работа с указателями в С++
+
+### 14.1. Категории : l-value и r-value
+
+[Урок 853532](https://stepik.org/lesson/853532?unit=857451) · [Текст для вычитки](review/lessons/853532.md)
+
+- [1. text](https://stepik.org/lesson/853532/step/1?unit=857451) · [3569321](steps/853532/01_3569321_text.step) — l-value и r-value · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [2. text](https://stepik.org/lesson/853532/step/2?unit=857451) · [3569891](steps/853532/02_3569891_text.step) — Рассмотрим выражения разных категорий в операциях присваивания: · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [3. text](https://stepik.org/lesson/853532/step/3?unit=857451) · [3569896](steps/853532/03_3569896_text.step) — Категория значения принадлежит выражению, а не типу переменной. Она влияет на привязку… · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [4. choice](https://stepik.org/lesson/853532/step/4?unit=857451) · [4718139](steps/853532/04_4718139_choice.step) — Класс Array хранит элементы типа T, где using T = int;. Какой тип должен возвращать… · [Первый и второй проходы](../../imports/86957/manifest.json)
+
+### 14.2. Категория : ссылка r-value
+
+[Урок 853534](https://stepik.org/lesson/853534?unit=857453) · [Текст для вычитки](review/lessons/853534.md)
+
+- [1. text](https://stepik.org/lesson/853534/step/1?unit=857453) · [3569323](steps/853534/01_3569323_text.step) — Для поддержки семантики перемещения в C++11 ввели 3 новые категории значений: · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [2. text](https://stepik.org/lesson/853534/step/2?unit=857453) · [3569919](steps/853534/02_3569919_text.step) — Ссылки r-value · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [3. choice](https://stepik.org/lesson/853534/step/3?unit=857453) · [4718222](steps/853534/03_4718222_choice.step) — Дан int\* p, который указывает на существующий объект int. Что представляет собой выражение \*p… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [4. choice](https://stepik.org/lesson/853534/step/4?unit=857453) · [4718241](steps/853534/04_4718241_choice.step) — Что называют разыменованием нулевого указателя? · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [5. choice](https://stepik.org/lesson/853534/step/5?unit=857453) · [4718318](steps/853534/05_4718318_choice.step) — Каково значение sizeof(char) ?
+
+### 14.3. Семантика копирования и перемещения
+
+[Урок 853535](https://stepik.org/lesson/853535?unit=857454) · [Текст для вычитки](review/lessons/853535.md)
+
+- [1. text](https://stepik.org/lesson/853535/step/1?unit=857454) · [3569324](steps/853535/01_3569324_text.step) — Конструктор копирования · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. text](https://stepik.org/lesson/853535/step/2?unit=857454) · [3569932](steps/853535/02_3569932_text.step) — Семантика перемещения · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [3. text](https://stepik.org/lesson/853535/step/3?unit=857454) · [4040986](steps/853535/03_4040986_text.step) — std::move, std::forward и правило нуля · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json), [Современный C++](../../modernization/86957/manifest.json)
+- [4. choice](https://stepik.org/lesson/853535/step/4?unit=857454) · [4718246](steps/853535/04_4718246_choice.step) — Какой оператор работает только с целочисленными переменными?
+
+## 15. Умные указатели
+
+### 15.1. Unique\_ptr
+
+[Урок 853536](https://stepik.org/lesson/853536?unit=857455) · [Текст для вычитки](review/lessons/853536.md)
+
+- [1. text](https://stepik.org/lesson/853536/step/1?unit=857455) · [3569325](steps/853536/01_3569325_text.step) — Продолжительность хранения и время жизни объекта · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json), [Современный C++](../../modernization/86957/manifest.json)
+- [2. text](https://stepik.org/lesson/853536/step/2?unit=857455) · [3569964](steps/853536/02_3569964_text.step) — RAII: ресурс освобождает его владелец · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json), [Современный C++](../../modernization/86957/manifest.json)
+- [3. text](https://stepik.org/lesson/853536/step/3?unit=857455) · [3569963](steps/853536/03_3569963_text.step) — std::unique\_ptr: один владелец, несколько способов доступа · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json), [Современный C++](../../modernization/86957/manifest.json)
+- [4. text](https://stepik.org/lesson/853536/step/4?unit=857455) · [3570166](steps/853536/04_3570166_text.step) — Учебная реализация исключительного владения · [Первый и второй проходы](../../imports/86957/manifest.json), [Современный C++](../../modernization/86957/manifest.json)
+
+### 15.2. Shared\_ptr и Weak\_ptr
+
+[Урок 853537](https://stepik.org/lesson/853537?unit=857456) · [Текст для вычитки](review/lessons/853537.md)
+
+- [1. text](https://stepik.org/lesson/853537/step/1?unit=857456) · [3569327](steps/853537/01_3569327_text.step) — Shared\_ptr и weak\_ptr · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [2. text](https://stepik.org/lesson/853537/step/2?unit=857456) · [3570213](steps/853537/02_3570213_text.step) — Учебная реализация общего и слабого владения · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [3. choice](https://stepik.org/lesson/853537/step/3?unit=857456) · [4718330](steps/853537/03_4718330_choice.step) — Что верно после выполнения этого кода C++17/20? · [Первый и второй проходы](../../imports/86957/manifest.json)
+
+## 16. Структуры данных и очереди
+
+### 16.1. Структуры данных
+
+[Урок 973837](https://stepik.org/lesson/973837?unit=980698) · [Текст для вычитки](review/lessons/973837.md)
+
+- [1. text](https://stepik.org/lesson/973837/step/1?unit=980698) · [4035497](steps/973837/01_4035497_text.step) — Структуры данных
+- [2. text](https://stepik.org/lesson/973837/step/2?unit=980698) · [4035517](steps/973837/02_4035517_text.step) — В C++ существует множество структур данных, которые могут быть использованы для решения…
+- [3. choice](https://stepik.org/lesson/973837/step/3?unit=980698) · [4718109](steps/973837/03_4718109_choice.step) — Какой из перечисленных контейнеров позволяет хранить последовательность объектов… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+
+### 16.2. Очереди
+
+[Урок 973842](https://stepik.org/lesson/973842?unit=980703) · [Текст для вычитки](review/lessons/973842.md)
+
+- [1. text](https://stepik.org/lesson/973842/step/1?unit=980703) · [4035524](steps/973842/01_4035524_text.step) — Очереди · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. text](https://stepik.org/lesson/973842/step/2?unit=980703) · [4035562](steps/973842/02_4035562_text.step) — Типы очередей · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [3. text](https://stepik.org/lesson/973842/step/3?unit=980703) · [4035563](steps/973842/03_4035563_text.step) — Queue · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [4. text](https://stepik.org/lesson/973842/step/4?unit=980703) · [4036909](steps/973842/04_4036909_text.step) — Deque · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [5. choice](https://stepik.org/lesson/973842/step/5?unit=980703) · [4718289](steps/973842/05_4718289_choice.step) — Определите неправильное утверждение · [Первый и второй проходы](../../imports/86957/manifest.json)
+
+### 16.3. Приведение типов
+
+[Урок 977027](https://stepik.org/lesson/977027?unit=984060) · [Текст для вычитки](review/lessons/977027.md)
+
+- [1. text](https://stepik.org/lesson/977027/step/1?unit=984060) · [4047594](steps/977027/01_4047594_text.step) — Приведение типов в C++ · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. text](https://stepik.org/lesson/977027/step/2?unit=984060) · [4047616](steps/977027/02_4047616_text.step) — static\_cast · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [3. text](https://stepik.org/lesson/977027/step/3?unit=984060) · [4047627](steps/977027/03_4047627_text.step) — dynamic\_cast · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [4. text](https://stepik.org/lesson/977027/step/4?unit=984060) · [4047680](steps/977027/04_4047680_text.step) — const\_cast · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [5. text](https://stepik.org/lesson/977027/step/5?unit=984060) · [4047681](steps/977027/05_4047681_text.step) — reinterpret\_cast · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [6. text](https://stepik.org/lesson/977027/step/6?unit=984060) · [4047682](steps/977027/06_4047682_text.step) — C-style cast · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [7. choice](https://stepik.org/lesson/977027/step/7?unit=984060) · [4718316](steps/977027/07_4718316_choice.step) — Чем можно задать значение перечислителя в обычном enum (не enum class), если результат… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+
+## 17. Сбалансированные деревья поиска
+
+### 17.1. Двоичное дерево поиска
+
+[Урок 853539](https://stepik.org/lesson/853539?unit=857458) · [Текст для вычитки](review/lessons/853539.md)
+
+- [1. text](https://stepik.org/lesson/853539/step/1?unit=857458) · [3569329](steps/853539/01_3569329_text.step) — Что такое дерево? · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. text](https://stepik.org/lesson/853539/step/2?unit=857458) · [3570230](steps/853539/02_3570230_text.step) — Бинарное дерево поиска · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [3. text](https://stepik.org/lesson/853539/step/3?unit=857458) · [3570231](steps/853539/03_3570231_text.step) — Вырожденное дерево · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+
+### 17.2. АВЛ-дерево
+
+[Урок 853540](https://stepik.org/lesson/853540?unit=857459) · [Текст для вычитки](review/lessons/853540.md)
+
+- [1. text](https://stepik.org/lesson/853540/step/1?unit=857459) · [3569330](steps/853540/01_3569330_text.step) — АВЛ-дерево · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. text](https://stepik.org/lesson/853540/step/2?unit=857459) · [3570281](steps/853540/02_3570281_text.step) — Реализация · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+
+### 17.3. Красно-черное дерево
+
+[Урок 853541](https://stepik.org/lesson/853541?unit=857460) · [Текст для вычитки](review/lessons/853541.md)
+
+- [1. text](https://stepik.org/lesson/853541/step/1?unit=857460) · [3569332](steps/853541/01_3569332_text.step) — Два-три дерево · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. text](https://stepik.org/lesson/853541/step/2?unit=857460) · [3570303](steps/853541/02_3570303_text.step) — Определение красно-черного дерева · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [3. text](https://stepik.org/lesson/853541/step/3?unit=857460) · [3570304](steps/853541/03_3570304_text.step) — Реализация вставки · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [4. text](https://stepik.org/lesson/853541/step/4?unit=857460) · [3570333](steps/853541/04_3570333_text.step) — Реализация удаления · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [5. text](https://stepik.org/lesson/853541/step/5?unit=857460) · [3570332](steps/853541/05_3570332_text.step) — Итерирование по Красно-черному дереву · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+
+## 18. Хеш-таблицы
+
+### 18.1. Хеш-таблица, хеш-функция и коллизии
+
+[Урок 973829](https://stepik.org/lesson/973829?unit=980690) · [Текст для вычитки](review/lessons/973829.md)
+
+- [1. text](https://stepik.org/lesson/973829/step/1?unit=980690) · [4035439](steps/973829/01_4035439_text.step) — Что это и зачем · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. text](https://stepik.org/lesson/973829/step/2?unit=980690) · [4035461](steps/973829/02_4035461_text.step) — Хеш-функция · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [3. text](https://stepik.org/lesson/973829/step/3?unit=980690) · [4035460](steps/973829/03_4035460_text.step) — Коллизии · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+
+### 18.2. Реализация хеш-таблиц
+
+[Урок 973831](https://stepik.org/lesson/973831?unit=980692) · [Текст для вычитки](review/lessons/973831.md)
+
+- [1. text](https://stepik.org/lesson/973831/step/1?unit=980692) · [4035443](steps/973831/01_4035443_text.step) — В этом разделе будут приведены примеры кода для реализации вышеописанной теории. Будет… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. text](https://stepik.org/lesson/973831/step/2?unit=980692) · [4035481](steps/973831/02_4035481_text.step) — Реализация некоторых функций хеш-таблицы · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+
+## 19. std::set и std::map
+
+### 19.1. Работа с данными в C++ в контексте STL
+
+[Урок 973816](https://stepik.org/lesson/973816?unit=980675) · [Текст для вычитки](review/lessons/973816.md)
+
+- [1. text](https://stepik.org/lesson/973816/step/1?unit=980675) · [4035311](steps/973816/01_4035311_text.step) — Немного информации о STL · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+
+### 19.2. map и set
+
+[Урок 973825](https://stepik.org/lesson/973825?unit=980684) · [Текст для вычитки](review/lessons/973825.md)
+
+- [1. text](https://stepik.org/lesson/973825/step/1?unit=980684) · [4035416](steps/973825/01_4035416_text.step) — Контейнеры · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+- [2. text](https://stepik.org/lesson/973825/step/2?unit=980684) · [4035427](steps/973825/02_4035427_text.step) — Set и Map · [Первый и второй проходы](../../imports/86957/manifest.json)
+
+### 19.3. Алгоритмическая сложность
+
+[Урок 973826](https://stepik.org/lesson/973826?unit=980685) · [Текст для вычитки](review/lessons/973826.md)
+
+- [1. text](https://stepik.org/lesson/973826/step/1?unit=980685) · [4035417](steps/973826/01_4035417_text.step) — Алгоритмическая сложность · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [2. text](https://stepik.org/lesson/973826/step/2?unit=980685) · [4035430](steps/973826/02_4035430_text.step) — Собственные множества и словари · [Первый и второй проходы](../../imports/86957/manifest.json)
+- [3. code](https://stepik.org/lesson/973826/step/3?unit=980685) · [5070446](steps/973826/03_5070446_code.step) — Иногда для успешного решения задачи нужно всего лишь прочитать условие, а затем написать… · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
+
+## 20. Задачник
+
+### 20.1. Первый уровень
+
+[Урок 1409621](https://stepik.org/lesson/1409621?unit=1427118) · [Текст для вычитки](review/lessons/1409621.md)
+
+- [1. code](https://stepik.org/lesson/1409621/step/1?unit=1427118) · [5850209](steps/1409621/01_5850209_code.step) — Реализуйте конвертер из формата YAML в формат INI. · [Первый и второй проходы](../../imports/86957/manifest.json), [Второй проход](../../imports/86957/round2_manifest.json)
