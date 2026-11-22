@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "results": [
+    {
+      "step_id": 3262682,
+      "check": "nine_decimal_places_rejected",
+      "test": 1,
+      "correct_fixed_9": "4.333071682",
+      "stored_answer": "4.33307168",
+      "accepted_by_exported_comparison": false
+    },
+    {
+      "step_id": 3280697,
+      "check": "rounded_reference_changes_value",
+      "test": 5,
+      "accurate_answer": "3000000000 0\n2999999996 2 3",
+      "stored_answer": "3000000000 0\n3e+09 2 3"
+    },
+    {
+      "step_id": 3280727,
+      "check": "unused_division_branch",
+      "test": 2,
+      "formula_result": "0",
+      "stored_answer": "ERROR"
+    },
+    {
+      "step_id": 3281353,
+      "check": "invalid_corner_order",
+      "test": 1,
+      "lower_left": [
+        6,
+        5
+      ],
+      "upper_right": [
+        4,
+        3
+      ],
+      "stored_answer": "0"
+    },
+    {
+      "step_id": 3381234,
+      "check": "matrix_rejected_without_trailing_spaces",
+      "test": 1,
+      "same_numeric_tokens": true,
+      "accepted_by_exported_comparison": false
+    },
+    {
+      "step_id": 3384518,
+      "check": "inputs_exceed_n_limit",
+      "promised_max": 1000000000,
+      "invalid_tests": [
+        {
+          "test": 2,
+          "max_n": 2147483647
+        },
+        {
+          "test": 3,
+          "max_n": 2147483647
+        }
+      ]
+    },
+    {
+      "step_id": 3446002,
+      "check": "modulus_exceeds_limit",
+      "promised_max": 10000,
+      "invalid_cases": [
+        {
+          "test": 8,
+          "case": 1,
+          "m": 1000000000
+        }
+      ]
+    },
+    {
+      "step_id": 3446002,
+      "check": "two_strings_not_on_separate_lines",
+      "invalid_tests": [
+        3,
+        4,
+        5,
+        7
+      ]
+    },
+    {
+      "step_id": 3446094,
+      "check": "uppercase_input_despite_lowercase_constraint",
+      "invalid_tests": [
+        {
+          "test": 7,
+          "input": "V"
+        }
+      ]
+    },
+    {
+      "step_id": 4738986,
+      "check": "literal_checker_rejects_final_newline",
+      "test": 1,
+      "accepted_without_newline": true,
+      "accepted_with_newline": false,
+      "scope": "Local comparison only; live Stepik preprocessing was not exercised."
+    },
+    {
+      "step_id": 5850209,
+      "check": "uppercase_key_despite_lowercase_constraint",
+      "test": 1,
+      "key": "IiTP"
+    },
+    {
+      "step_id": 3341723,
+      "check": "independent_reference",
+      "cases": 6,
+      "mismatches": [],
+      "comparison": "whitespace-separated tokens"
+    },
+    {
+      "step_id": 4700496,
+      "check": "independent_reference",
+      "cases": 12,
+      "mismatches": [],
+      "comparison": "whitespace-separated tokens"
+    },
+    {
+      "step_id": 3428255,
+      "check": "independent_reference",
+      "cases": 2,
+      "mismatches": [],
+      "comparison": "whitespace-separated tokens"
+    },
+    {
+      "step_id": 3384518,
+      "check": "independent_reference",
+      "cases": 3,
+      "mismatches": [],
+      "comparison": "whitespace-separated tokens"
+    },
+    {
+      "step_id": 5828883,
+      "check": "independent_reference",
+      "cases": 10,
+      "mismatches": [],
+      "comparison": "whitespace-separated tokens"
+    },
+    {
+      "step_id": 5822035,
+      "check": "independent_reference",
+      "cases": 19,
+      "mismatches": [],
+      "comparison": "whitespace-separated tokens"
+    },
+    {
+      "step_id": 3446015,
+      "check": "independent_reference",
+      "cases": 7,
+      "mismatches": [],
+      "comparison": "whitespace-separated tokens"
+    },
+    {
+      "step_id": 3446094,
+      "check": "independent_reference",
+      "cases": 7,
+      "mismatches": [],
+      "comparison": "whitespace-separated tokens"
+    },
+    {
+      "step_id": 3496704,
+      "check": "independent_reference",
+      "cases": 6,
+      "mismatches": [],
+      "comparison": "whitespace-separated tokens"
+    },
+    {
+      "step_id": 3496878,
+      "check": "independent_reference",
+      "cases": 14,
+      "mismatches": [],
+      "comparison": "whitespace-separated tokens"
+    },
+    {
+      "step_id": 5850209,
+      "check": "independent_reference",
+      "cases": 13,
+      "mismatches": [],
+      "comparison": "whitespace-separated tokens"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+#pragme once
+int main(){}

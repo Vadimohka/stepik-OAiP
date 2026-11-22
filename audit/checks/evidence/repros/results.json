@@ -1,0 +1,106 @@
+[
+  {
+    "name": "array_partial",
+    "std": "c++11",
+    "compile_rc": 0,
+    "diagnostic": "",
+    "run_rc": 0,
+    "stdout": "4 3 0"
+  },
+  {
+    "name": "new_char_braces",
+    "std": "c++11",
+    "compile_rc": 0,
+    "diagnostic": "",
+    "run_rc": 0,
+    "stdout": "Hello"
+  },
+  {
+    "name": "new_char_braces20",
+    "std": "c++20",
+    "compile_rc": 0,
+    "diagnostic": "",
+    "run_rc": 0,
+    "stdout": "Hello"
+  },
+  {
+    "name": "strcmp_string",
+    "std": "c++17",
+    "compile_rc": 1,
+    "diagnostic": "audit/checks/evidence/repros/strcmp_string.cpp: In function ‘int main()’:\naudit/checks/evidence/repros/strcmp_string.cpp:3:49: error: cannot convert ‘std::string’ {aka ‘std::__cxx11::basic_string<char>’} to ‘const char*’\n    3 | int main(){std::string s=\"x\";return std::strcmp(s,\"default\");}\n      |                                                 ^\n      |                                                 |\n      |                                                 std::string {aka std::__cxx11::basic_string<char>}\nIn file included from /usr/include/c++/14/cstring:43,\n                 from audit/checks/evidence/repros/strcmp_string.cpp:2:\n/usr/include/string.h:156:32: note:   initializing argument 1 of ‘int strcmp(const char*, const char*)’\n  156 | extern int strcmp (const char *__s1, const char *__s2)\n      |                    ~~~~~~~~~~~~^~~~\n"
+  },
+  {
+    "name": "noexcept_trait",
+    "std": "c++17",
+    "compile_rc": 1,
+    "diagnostic": "audit/checks/evidence/repros/noexcept_trait.cpp:2:63: error: expected primary-expression before ‘)’ token\n    2 | template<class T>T copy_object(T& obj) noexcept(std::is_pod<T>){return obj;}\n      |                                                               ^\n"
+  },
+  {
+    "name": "setw_scope",
+    "std": "c++17",
+    "compile_rc": 1,
+    "diagnostic": "audit/checks/evidence/repros/setw_scope.cpp: In function ‘int main()’:\naudit/checks/evidence/repros/setw_scope.cpp:3:25: error: ‘setw’ was not declared in this scope; did you mean ‘std::setw’?\n    3 | int main(){std::cout << setw(4)<<1;}\n      |                         ^~~~\n      |                         std::setw\nIn file included from audit/checks/evidence/repros/setw_scope.cpp:2:\n/usr/include/c++/14/iomanip:232:3: note: ‘std::setw’ declared here\n  232 |   setw(int __n)\n      |   ^~~~\n"
+  },
+  {
+    "name": "auto_return11",
+    "std": "c++11",
+    "compile_rc": 1,
+    "diagnostic": "audit/checks/evidence/repros/auto_return11.cpp:1:1: error: ‘f’ function uses ‘auto’ type specifier without trailing return type\n    1 | auto f(){return 1;}\n      | ^~~~\naudit/checks/evidence/repros/auto_return11.cpp:1:1: note: deduced return type only available with ‘-std=c++14’ or ‘-std=gnu++14’\n"
+  },
+  {
+    "name": "auto_return14",
+    "std": "c++14",
+    "compile_rc": 0,
+    "diagnostic": ""
+  },
+  {
+    "name": "string_size_ctor",
+    "std": "c++17",
+    "compile_rc": 1,
+    "diagnostic": "audit/checks/evidence/repros/string_size_ctor.cpp: In function ‘int main()’:\naudit/checks/evidence/repros/string_size_ctor.cpp:2:41: error: no matching function for call to ‘std::__cxx11::basic_string<char>::basic_string(std::size_t)’\n    2 | int main(){std::string s(std::size_t(65));}\n      |                                         ^\nIn file included from /usr/include/c++/14/string:54,\n                 from audit/checks/evidence/repros/string_size_ctor.cpp:1:\n/usr/include/c++/14/bits/basic_string.h:800:9: note: candidate: ‘template<class _Tp, class> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _Tp&, const _Alloc&) [with <template-parameter-2-2> = _Tp; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]’\n  800 |         basic_string(const _Tp& __t, const _Alloc& __a = _Alloc())\n      |         ^~~~~~~~~~~~\n/usr/include/c++/14/bits/basic_string.h:800:9: note:   template argument deduction/substitution failed:\nIn file included from /usr/include/c++/14/bits/char_traits.h:50,\n                 from /usr/include/c++/14/string:42:\n/usr/include/c++/14/type_traits: In substitution of ‘template<bool _Cond, class _Tp> using std::enable_if_t = typename std::enable_if::type [with bool _Cond = false; _Tp = void]’:\n/usr/include/c++/14/bits/basic_string.h:149:8:   required by substitution of ‘template<class _CharT, class _Traits, class _Alloc> template<class _Tp, class _Res> using std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::_If_sv = std::enable_if_t<((bool)std::__and_<std::is_convertible<const _Tp&, std::basic_string_view<_CharT, _Traits> >, std::__not_<std::is_convertible<const _Tp*, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>*> >, std::__not_<std::is_convertible<const _Tp&, const _CharT*> > >::value), _Res> [with _Tp = long unsigned int; _Res = void; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]’\n  149 |         using _If_sv = enable_if_t<\n      |               ^~~~~~\n/usr/include/c++/14/bits/basic_string.h:797:30:   required from here\n  797 |       template<typename _Tp, typename = _If_sv<_Tp, void>>\n      |                              ^~~~~~~~\n/usr/include/c++/14/type_traits:2711:11: error: no type named ‘type’ in ‘struct std::enable_if<false, void>’\n 2711 |     using enable_i"
+  },
+  {
+    "name": "traits_and_compare",
+    "std": "c++17",
+    "compile_rc": 0,
+    "diagnostic": "",
+    "run_rc": 0,
+    "stdout": "1 0"
+  },
+  {
+    "name": "incomplete_loop",
+    "std": "c++17",
+    "compile_rc": 0,
+    "diagnostic": "",
+    "run_rc": 0,
+    "stdout": "1 2 3 4 "
+  },
+  {
+    "name": "sum_digits",
+    "std": "c++17",
+    "compile_rc": 0,
+    "diagnostic": "",
+    "run_rc": 0,
+    "stdout": "0 0 0"
+  },
+  {
+    "name": "scanf_type",
+    "std": "c++17",
+    "compile_rc": 0,
+    "diagnostic": "audit/checks/evidence/repros/scanf_type.cpp: In function ‘int main()’:\naudit/checks/evidence/repros/scanf_type.cpp:2:41: warning: format ‘%d’ expects argument of type ‘int*’, but argument 2 has type ‘unsigned int*’ [-Wformat=]\n    2 | int main(){unsigned size=0;std::scanf(\"%d\",&size);}\n      |                                        ~^  ~~~~~\n      |                                         |  |\n      |                                         |  unsigned int*\n      |                                         int*\n      |                                        %d\n"
+  },
+  {
+    "name": "pragme",
+    "std": "c++17",
+    "compile_rc": 1,
+    "diagnostic": "audit/checks/evidence/repros/pragme.cpp:1:2: error: invalid preprocessing directive #pragme; did you mean #pragma?\n    1 | #pragme once\n      |  ^~~~~~\n      |  pragma\n"
+  },
+  {
+    "name": "promoted_char",
+    "std": "c++20",
+    "compile_rc": 0,
+    "diagnostic": "",
+    "run_rc": 0,
+    "stdout": "135 -121"
+  }
+]

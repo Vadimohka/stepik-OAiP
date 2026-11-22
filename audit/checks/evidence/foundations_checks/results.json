@@ -1,0 +1,39 @@
+[
+  {
+    "name": "long_float",
+    "std": "c++20",
+    "returncode": 1,
+    "diagnostic": "audit/checks/evidence/foundations_checks/long_float.cpp: In function ‘int main()’:\naudit/checks/evidence/foundations_checks/long_float.cpp:1:13: error: ‘long’ specified with ‘float’\n    1 | int main(){ long float x = 1; return 0; }\n      |             ^~~~\n"
+  },
+  {
+    "name": "switch_without_braces",
+    "std": "c++20",
+    "returncode": 0,
+    "diagnostic": ""
+  },
+  {
+    "name": "gets",
+    "std": "c++20",
+    "returncode": 1,
+    "diagnostic": "audit/checks/evidence/foundations_checks/gets.cpp: In function ‘int main()’:\naudit/checks/evidence/foundations_checks/gets.cpp:2:23: error: ‘gets’ was not declared in this scope; did you mean ‘getw’?\n    2 | int main(){char s[80];gets(s);}\n      |                       ^~~~\n      |                       getw\n"
+  },
+  {
+    "name": "wchar",
+    "std": "c++17",
+    "returncode": 0,
+    "diagnostic": ""
+  },
+  {
+    "name": "wchar",
+    "std": "c++20",
+    "returncode": 1,
+    "diagnostic": "audit/checks/evidence/foundations_checks/wchar.cpp: In function ‘int main()’:\naudit/checks/evidence/foundations_checks/wchar.cpp:2:36: error: use of deleted function ‘std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, wchar_t) [with _Traits = char_traits<char>]’\n    2 | int main(){std::cout << wchar_t(119);}\n      |                                    ^\nIn file included from /usr/include/c++/14/iostream:41,\n                 from audit/checks/evidence/foundations_checks/wchar.cpp:1:\n/usr/include/c++/14/ostream:604:5: note: declared here\n  604 |     operator<<(basic_ostream<char, _Traits>&, wchar_t) = delete;\n      |     ^~~~~~~~\naudit/checks/evidence/foundations_checks/wchar.cpp:2:36: note: use ‘-fdiagnostics-all-candidates’ to display considered candidates\n    2 | int main(){std::cout << wchar_t(119);}\n      |                                    ^\n"
+  },
+  {
+    "name": "format_output",
+    "std": "c++20",
+    "returncode": 0,
+    "diagnostic": "",
+    "stdout": "Hello, World!\n7d3.6234e+01"
+  }
+]

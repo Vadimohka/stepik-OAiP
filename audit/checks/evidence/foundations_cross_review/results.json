@@ -1,0 +1,78 @@
+[
+  {
+    "name": "avl",
+    "compile_command": [
+      "g++",
+      "-std=c++20",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "audit/checks/evidence/advanced_repro/avl.cpp",
+      "-o",
+      "audit/checks/evidence/foundations_cross_review/avl"
+    ],
+    "compile_exit_code": 0,
+    "compile_stdout": "",
+    "compile_stderr": "",
+    "run_exit_code": 0,
+    "stdout": "3:two\n",
+    "stderr": ""
+  },
+  {
+    "name": "avl_fixed",
+    "compile_command": [
+      "g++",
+      "-std=c++20",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "audit/checks/evidence/advanced_repro/avl_fixed.cpp",
+      "-o",
+      "audit/checks/evidence/foundations_cross_review/avl_fixed"
+    ],
+    "compile_exit_code": 0,
+    "compile_stdout": "",
+    "compile_stderr": "",
+    "run_exit_code": 0,
+    "stdout": "3:three\n",
+    "stderr": ""
+  },
+  {
+    "name": "hash",
+    "compile_command": [
+      "g++",
+      "-std=c++20",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "audit/checks/evidence/advanced_repro/hash.cpp",
+      "-o",
+      "audit/checks/evidence/foundations_cross_review/hash"
+    ],
+    "compile_exit_code": 0,
+    "compile_stdout": "",
+    "compile_stderr": "",
+    "run_exit_code": 0,
+    "stdout": "1:first\n",
+    "stderr": ""
+  },
+  {
+    "name": "hash_fixed",
+    "compile_command": [
+      "g++",
+      "-std=c++20",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "audit/checks/evidence/advanced_repro/hash_fixed.cpp",
+      "-o",
+      "audit/checks/evidence/foundations_cross_review/hash_fixed"
+    ],
+    "compile_exit_code": 0,
+    "compile_stdout": "",
+    "compile_stderr": "",
+    "run_exit_code": 0,
+    "stdout": "2:updated\n",
+    "stderr": ""
+  }
+]
