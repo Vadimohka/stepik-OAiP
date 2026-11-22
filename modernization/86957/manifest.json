@@ -3,16 +3,19 @@
   "course_id": 86957,
   "date": "2026-11-23",
   "base_commit": "16a2f9d2b42c33a4f8b50cfa25e1e424fc96fc9d",
-  "status": "prepared",
+  "status": "published",
   "changed_fields": [
     "block.text"
   ],
   "changed_steps": 32,
   "changed_lessons": 11,
   "publication": {
-    "status": "blocked_http_403",
-    "applied": false,
-    "note": "An authenticated access attempt returned HTTP 403. No course content mutation was sent."
+    "status": "verified_on_stepik",
+    "applied": true,
+    "verified_at": "2026-11-22T21:48:56Z",
+    "verified_changed_steps": 32,
+    "verified_course_steps": 485,
+    "source_commit": "2d40c1ec511004e33a75301019e6bece90b64806"
   },
   "steps": [
     {

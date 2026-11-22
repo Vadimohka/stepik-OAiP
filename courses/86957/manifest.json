@@ -7,8 +7,8 @@
   "author_sources_unavailable": false,
   "author_sources_status": "complete",
   "assets_status": "complete",
-  "started_at": "2026-11-22T21:11:35Z",
-  "finished_at": "2026-11-22T21:11:51Z",
+  "started_at": "2026-11-22T21:48:56Z",
+  "finished_at": "2026-11-22T21:49:14Z",
   "source": {
     "course_url": "https://stepik.org/course/86957",
     "api_base": "https://stepik.org/api/",
@@ -9299,12 +9299,12 @@
   },
   "assets_manifest": "assets/manifest.json",
   "asset_counts": {
-    "downloaded": 168,
+    "downloaded": 155,
     "variant_omitted": 6
   },
   "notes": [
     "The archive preserves raw API fields without rewriting original content or media URLs.",
-    "No users, submissions, statistics, comments, or learner progress endpoints are requested. Step and lesson progress metadata returned by the API is preserved in raw objects.",
+    "No users, submissions, statistics, comments, or learner progress endpoints are requested.",
     "External players and embedded web pages are recorded as external references.",
     "Files larger than 95 MiB are recorded with their URLs and are not saved as Git blobs.",
     "Cached objects are reused unless --fresh is supplied; only objects named in this snapshot are current.",
