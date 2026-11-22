@@ -1,0 +1,106 @@
+{
+  "id": 3173967,
+  "lesson": 763040,
+  "position": 5,
+  "status": "ready",
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите правильные утверждения</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 5,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "Конечность - это когда есть конец алгоритма, но нет начала",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Способы описания алгоритмов нужны для лучшей коммуникации разработчиков на проектах",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Псевдокод - способ описания основанный на языке программирования (чаще на том, на котором пишется программа), но с заменой сложных лексических конструкций на более простые понятные человеку",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Свойств алгоритмов огромное множество, но основных 4",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Циклические алгоритмы невозможно описать",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3173967",
+  "subscriptions": [
+    "31-77-3173967",
+    "30-77-3173967"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 2795,
+  "passed_by": 1842,
+  "correct_ratio": 0.2920999534378395,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    3
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3153059,
+  "create_date": "2022-07-31T20:32:23Z",
+  "update_date": "2022-07-31T20:32:23Z",
+  "discussions_count": 6,
+  "discussion_proxy": "77-3173967-1",
+  "discussion_threads": [
+    "77-3173967-1",
+    "77-3173967-2"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 1
+}

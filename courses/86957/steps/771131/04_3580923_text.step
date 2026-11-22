@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th>Тип</th>\n\t\t\t<th>Описание</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>r   </td>\n\t\t\t<td>Чтение. Файл должен существовать.</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>w</td>\n\t\t\t<td>Запись нового файла. Если файл с таким именем уже существует, то его содержимое будет потеряно.</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>a</td>\n\t\t\t<td>Запись в конец файла. Операции позиционирования (fseek, fsetpos, frewind) игнорируются. Файл создаётся, если не существовал.</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>r+</td>\n\t\t\t<td>Чтение и обновление. Можно как читать, так и писать. Файл должен существовать.</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>w+    </td>\n\t\t\t<td>Запись и обновление. Создаётся новый файл. Если файл с таким именем уже существует, то его содержимое будет потеряно. Можно как писать, так и читать.</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>a+</td>\n\t\t\t<td>Запись в конец и обновление. Операции позиционирования работают только для чтения, для записи игнорируются. Если файл не существовал, то будет создан новый.</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>И пояснительная бригада из <a href=\"https://stackoverflow.com/questions/18040810/what-is-the-purpose-of-using-stdios-basetrunc-flag-with-stdios-baseout\" rel=\"noopener noreferrer nofollow\">stackoverflow</a>:</p>\n\n<p><br>\nYes, <code>std::ios_base::out</code> is equivalent to <code>\"w\"</code> in <code>fopen</code>.</p>\n\n<p>The point of <code>std::ios_base::trunc</code> is when <code>std::ios_base::in</code> and <code>std::ios_base::out</code> are used the same time.</p>\n\n<ul>\n\t<li><code>in | out</code> is equivalent to <code>\"r+\"</code></li>\n\t<li><code>in | out | trunc</code> is equivalent to <code>\"w+\"</code></li>\n\t<li><code>binary | in | out</code> is equivalent to <code>\"rb+\"</code></li>\n\t<li><code>binary | in | out | trunc</code> is equivalent to <code>\"wb+\"</code></li>\n</ul>\n\n<p>Maybe a table would be more obvious:</p>\n\n<pre><code>binary  in  out  trunc | stdio equivalent\n-----------------------+-----------------\n         +   +         |      \"r+\"\n         +   +     +   |      \"w+\"\n  +      +   +         |      \"r+b\"\n  +      +   +     +   |      \"w+b\"</code></pre>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3580923",
+  "time": "2026-11-22T18:35:40Z"
+}

@@ -1,0 +1,54 @@
+{
+  "id": 3215232,
+  "lesson": 770596,
+  "position": 4,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<h3>Устройство структуры в памяти</h3>\n\n<p>Поля структуры расположены в памяти друг за другом. Тип поля определяет сдвиг относительно предыдущего поля. Имя поля - это сдвиг относительно адреса экземпляра. На самом деле размер структуры не всегда равен сумме размеров её полей: это связано с тем, что компилятор оптимизирует расположение структуры в памяти и может поля небольшого размера подгонять до чётных адресов.</p>\n\n<p><img alt=\"\" height=\"2118\" name=\"Frame 32.png\" src=\"https://ucarecdn.stepik.net/a48b3771-7662-413a-ad6a-9c0bcbb62bae/-/crop/5114x2118/0,188/-/preview/\" width=\"5114\"></p>\n\n<p>Проверяем у себя в IDE:</p>\n\n<pre><code class=\"language-cpp\">#include &lt;conio.h&gt;\n#include &lt;stdio.h&gt;\n \nstruct Test1 {\n    char a;\n    char b;\n    int c;\n} A;\n \nstruct Test2 {\n    int x;\n    int y;\n} B;\n \nstruct Test3 {\n    char a;\n    char b;\n    char c;\n    int d;\n} C;\n \nvoid main() {\n    printf(\"sizeof(A) = %d\\n\", sizeof(A));\n    printf(\"sizeof(B) = %d\\n\", sizeof(B));\n    printf(\"sizeof(C) = %d\\n\", sizeof(C));\n \n    getch();\n}</code></pre>\n\n<p>Первая структура должна иметь размер 6 байт, вторая 8 байт, третья 7 байт, однако на 32-разрядной машине компилятор VC сделает их все три равными 8 байт. Стандарт гарантирует, что поля расположены друг за другом, но не гарантирует, что непрерывно.</p>\n\n<p>Есть возможность изменить упаковку структур в памяти. Можно явно указать компилятору каким образом производить упаковку полей структуры, объединений или полей класса. Каким образом это делать, зависит от компилятора. Один из самых распространённых способов <code>#pragma pack(n)</code>.</p>\n\n<p>У неё есть несколько разновидностей, рассмотрим только одну. pragma pack(n) указывает значение в байтах, используемое для упаковки. Если параметр компилятора не заданы для модуля значения по умолчанию n 8. Допустимыми значениями являются 1, 2, 4, 8 и 16. Выравнивание поля происходит по адресу, кратному n или сумме нескольких полей объекта, в зависимости от того, какая из этих величин меньше.</p>\n\n<p>Использование #pragma pack не приветствуется: логика работы программы не должна зависеть от внутреннего представления структуры (если, конечно, вы не занимаетесь системным программированием или ломаете чужие программы и сети).</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3215232",
+  "subscriptions": [
+    "31-77-3215232",
+    "30-77-3215232"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 670,
+  "passed_by": 670,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3194325,
+  "create_date": "2022-08-18T21:05:31Z",
+  "update_date": "2023-05-15T20:29:35Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3215232-1",
+  "discussion_threads": [
+    "77-3215232-1"
+  ]
+}

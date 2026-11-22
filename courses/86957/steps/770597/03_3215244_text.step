@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Указатели и union</h3>\n\n<p>Работа объединений с указателями точно такая же, как и работа структур с указателями.</p>\n\n<p>В нижеследующем примере объявляется неуправляемый указатель на объединение типа Ints:</p>\n\n<pre><code class=\"language-cpp\">// указатель на объединение\nInts *p;\n\n// выделить память для объединения\np = new Ints;\n\n// доступ к полям с помощью указателя\npI-&gt;a = 200;\npI-&gt;b = 3400;</code></pre>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3215244",
+  "time": "2026-11-22T18:35:40Z"
+}

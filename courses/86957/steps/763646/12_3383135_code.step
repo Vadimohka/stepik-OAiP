@@ -1,0 +1,77 @@
+{
+  "block": {
+    "name": "code",
+    "text": "<p>В качестве входных данных поступают две целочисленные матрицы A и B, которые имеют размер N и соответственно M. Требуется найти произведение матриц A*B.</p>\n\n<p>В первой строке вводится размер матрицы А. В следующих N строках вводятся элементы матрицы. Затем вводится размер матрицы В. В следующих M строках вводятся элементы матрицы В.</p>",
+    "video": null,
+    "options": {
+      "execution_time_limit": 5,
+      "execution_memory_limit": 256,
+      "limits": {
+        "c++": {
+          "time": 5,
+          "memory": 256
+        }
+      },
+      "code_templates": {
+        "c++": "#include <iostream>\n\nint main() {\n    // put your code here\n    return 0;\n}"
+      },
+      "code_templates_header_lines_count": {
+        "c++": 0
+      },
+      "code_templates_footer_lines_count": {
+        "c++": 0
+      },
+      "code_templates_options": {},
+      "samples": [
+        [
+          "2\n1 2\n-2 0\n2\n-3 2\n-2 -4",
+          "-7 -6\n6 -4"
+        ]
+      ],
+      "is_run_user_code_allowed": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "code": "# This is a sample Code Challenge\n# Learn more: https://stepik.org/lesson/9173\n# Ask your questions via support@stepik.org\n\ndef generate():\n    return []\n\ndef check(reply, clue):\n    return reply.strip() == clue.strip()\n\n# def solve(dataset):\n#     a, b = dataset.split()\n#     return str(int(a) + int(b))",
+      "execution_time_limit": 5,
+      "execution_memory_limit": 256,
+      "samples_count": 1,
+      "templates_data": "::c++",
+      "is_time_limit_scaled": true,
+      "is_memory_limit_scaled": true,
+      "is_run_user_code_allowed": true,
+      "manual_time_limits": [],
+      "manual_memory_limits": [],
+      "test_archive": [],
+      "test_cases": [
+        [
+          "2\n1 2\n-2 0\n2\n-3 2\n-2 -4",
+          "-7 -6\n6 -4"
+        ],
+        [
+          "2\n5 6\n7 8\n2\n1 2\n3 4",
+          "23 34\n31 46"
+        ],
+        [
+          "2\n1 2\n3 4\n2\n5 6\n7 8",
+          "19 22\n43 50"
+        ],
+        [
+          "2\n1 2\n3 4\n2\n1 2\n5 3",
+          "11 8\n23 18"
+        ],
+        [
+          "3\n1 0 1\n-1 0 0\n0 0 1\n3\n-1 0 0\n0 1 0\n0 0 1",
+          "-1 0 1\n1 0 0\n0 0 1"
+        ]
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": "/api/step-sources/3383135/tests",
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3383135",
+  "time": "2026-11-22T18:35:40Z"
+}

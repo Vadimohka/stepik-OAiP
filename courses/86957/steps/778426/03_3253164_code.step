@@ -1,0 +1,101 @@
+{
+  "block": {
+    "name": "code",
+    "text": "<p>Если хотите, можете попробовать решить эту задачу самостоятельно с помощью более удачного алгоритма. Одно из удачных решений будет на следующем шаге.</p>",
+    "video": null,
+    "options": {
+      "execution_time_limit": 5,
+      "execution_memory_limit": 256,
+      "limits": {
+        "c++": {
+          "time": 5,
+          "memory": 256
+        }
+      },
+      "code_templates": {
+        "c++": "#include <iostream>\n\nint CountInterestingInInterval(int interval_end)\n{\n    //write your own implementation of this function\n}\n\nint main()\n{\n    int n;\n    std::cin >> n;\n\n    std::cout << CountInterestingInInterval(n);\n}"
+      },
+      "code_templates_header_lines_count": {
+        "c++": 0
+      },
+      "code_templates_footer_lines_count": {
+        "c++": 0
+      },
+      "code_templates_options": {},
+      "samples": [
+        [
+          "1\n",
+          "0\n"
+        ],
+        [
+          "9",
+          "1"
+        ],
+        [
+          "10",
+          "1"
+        ],
+        [
+          "34",
+          "3"
+        ]
+      ],
+      "is_run_user_code_allowed": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "code": "# This is a sample Code Challenge\n# Learn more: https://stepik.org/lesson/9173\n# Ask your questions via support@stepik.org\n\ndef generate():\n    return []\n\ndef check(reply, clue):\n    return reply.strip() == clue.strip()\n\n# def solve(dataset):\n#     a, b = dataset.split()\n#     return str(int(a) + int(b))",
+      "execution_time_limit": 5,
+      "execution_memory_limit": 256,
+      "samples_count": 4,
+      "templates_data": "::c++\n#include <iostream>\n        \nint CountInterestingInInterval(int interval_end)\n{\n    //write your own implementation of this function\n}\n\nint main()\n{\n    int n;\n    std::cin >> n;\n    \n    std::cout << CountInterestingInInterval(n);\n}\n\n\n",
+      "is_time_limit_scaled": true,
+      "is_memory_limit_scaled": true,
+      "is_run_user_code_allowed": true,
+      "manual_time_limits": [],
+      "manual_memory_limits": [],
+      "test_archive": [],
+      "test_cases": [
+        [
+          "1\n",
+          "0\n"
+        ],
+        [
+          "9",
+          "1"
+        ],
+        [
+          "10",
+          "1"
+        ],
+        [
+          "34",
+          "3"
+        ],
+        [
+          "880055535",
+          "88005553"
+        ],
+        [
+          "1000000000",
+          "100000000"
+        ],
+        [
+          "999999999",
+          "100000000"
+        ],
+        [
+          "999",
+          "100"
+        ]
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": "/api/step-sources/3253164/tests",
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3253164",
+  "time": "2026-11-22T18:35:40Z"
+}

@@ -1,0 +1,101 @@
+{
+  "id": 4717717,
+  "lesson": 770590,
+  "position": 9,
+  "status": "ready",
+  "block": {
+    "name": "choice",
+    "text": "<p>Сколько типов комментариев существует в C ++?</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": false
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": false,
+      "is_always_correct": false,
+      "sample_size": 4,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "1",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "2",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "3",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Ничего из вышеперечисленного",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-4717717",
+  "subscriptions": [
+    "31-77-4717717",
+    "30-77-4717717"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 491,
+  "passed_by": 444,
+  "correct_ratio": 0.7887323943661971,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 4696814,
+  "create_date": "2023-11-13T16:44:10Z",
+  "update_date": "2023-11-13T16:44:10Z",
+  "discussions_count": 1,
+  "discussion_proxy": "77-4717717-1",
+  "discussion_threads": [
+    "77-4717717-1",
+    "77-4717717-2"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 1
+}

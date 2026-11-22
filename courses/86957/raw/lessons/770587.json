@@ -1,0 +1,80 @@
+{
+  "id": 770587,
+  "steps": [
+    3212946,
+    3213209,
+    3213208,
+    3213207,
+    3213210,
+    3307684,
+    3213206,
+    3324316,
+    3324363,
+    3330738,
+    3332379,
+    3333765,
+    3333774,
+    3333775,
+    3333793,
+    3333794
+  ],
+  "actions": {
+    "learn_lesson": "#",
+    "assist_lesson": "#",
+    "view_all_submissions": "#",
+    "edit_lesson": "#",
+    "view_statistics": "#",
+    "attachments": "/lesson/770587/attachments/",
+    "clone_lesson": "/lesson/770587/clone/",
+    "admin_lesson": "#",
+    "edit_permissions": "/lesson/770587/permissions/",
+    "delete_lesson": "#"
+  },
+  "progress": "76-770587",
+  "subscriptions": [
+    "31-76-770587",
+    "30-76-770587"
+  ],
+  "viewed_by": 1337,
+  "passed_by": 441,
+  "time_to_complete": 660,
+  "cover_url": "https://ucarecdn.stepik.net/876def6b-7b57-4e52-a9aa-89acdfa029c4/-/scale_crop/180x180/center/",
+  "is_comments_enabled": true,
+  "is_exam_without_progress": false,
+  "is_blank": false,
+  "is_draft": false,
+  "is_orphaned": false,
+  "courses": [
+    86957
+  ],
+  "units": [
+    773028
+  ],
+  "owner": 296085237,
+  "language": "ru",
+  "is_featured": false,
+  "is_public": true,
+  "canonical_url": "https://stepik.org/lesson/770587/",
+  "title": "Динамические массивы в С++",
+  "slug": "Динамические-массивы-в-С++-770587",
+  "create_date": "2022-08-17T16:25:10Z",
+  "update_date": "2025-12-22T18:05:51Z",
+  "learners_group": 5116709,
+  "testers_group": 5116710,
+  "moderators_group": 5116711,
+  "assistants_group": 5116712,
+  "teachers_group": 5116707,
+  "admins_group": 5116708,
+  "discussions_count": 17,
+  "discussion_proxy": "76-770587-1",
+  "discussion_threads": [
+    "76-770587-1"
+  ],
+  "epic_count": 47,
+  "abuse_count": 7,
+  "vote_delta": 40,
+  "vote": null,
+  "lti_consumer_key": "",
+  "lti_secret_key": "",
+  "lti_private_profile": false
+}

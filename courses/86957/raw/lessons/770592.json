@@ -1,0 +1,70 @@
+{
+  "id": 770592,
+  "steps": [
+    3214992,
+    3212951,
+    3214991,
+    3404927,
+    3425927,
+    4718310
+  ],
+  "actions": {
+    "learn_lesson": "#",
+    "assist_lesson": "#",
+    "view_all_submissions": "#",
+    "edit_lesson": "#",
+    "view_statistics": "#",
+    "attachments": "/lesson/770592/attachments/",
+    "clone_lesson": "/lesson/770592/clone/",
+    "admin_lesson": "#",
+    "edit_permissions": "/lesson/770592/permissions/",
+    "delete_lesson": "#"
+  },
+  "progress": "76-770592",
+  "subscriptions": [
+    "31-76-770592",
+    "30-76-770592"
+  ],
+  "viewed_by": 856,
+  "passed_by": 432,
+  "time_to_complete": 453,
+  "cover_url": null,
+  "is_comments_enabled": true,
+  "is_exam_without_progress": false,
+  "is_blank": false,
+  "is_draft": false,
+  "is_orphaned": false,
+  "courses": [
+    86957
+  ],
+  "units": [
+    773033
+  ],
+  "owner": 296085237,
+  "language": "ru",
+  "is_featured": false,
+  "is_public": true,
+  "canonical_url": "https://stepik.org/lesson/770592/",
+  "title": "Структура С++ проекта",
+  "slug": "Структура-С++-проекта-770592",
+  "create_date": "2022-08-17T16:25:31Z",
+  "update_date": "2024-01-02T18:42:04Z",
+  "learners_group": 5116739,
+  "testers_group": 5116740,
+  "moderators_group": 5116741,
+  "assistants_group": 5116742,
+  "teachers_group": 5116737,
+  "admins_group": 5116738,
+  "discussions_count": 2,
+  "discussion_proxy": "76-770592-1",
+  "discussion_threads": [
+    "76-770592-1"
+  ],
+  "epic_count": 7,
+  "abuse_count": 3,
+  "vote_delta": 4,
+  "vote": null,
+  "lti_consumer_key": "",
+  "lti_secret_key": "",
+  "lti_private_profile": false
+}

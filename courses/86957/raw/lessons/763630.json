@@ -1,0 +1,80 @@
+{
+  "id": 763630,
+  "steps": [
+    3177242,
+    3262706,
+    3177280,
+    3177282,
+    3177281,
+    3262711,
+    3177283,
+    3177279,
+    4643238,
+    3262719,
+    3262682,
+    3262692,
+    3284747,
+    3284769,
+    4717733,
+    4717745
+  ],
+  "actions": {
+    "learn_lesson": "#",
+    "assist_lesson": "#",
+    "view_all_submissions": "#",
+    "edit_lesson": "#",
+    "view_statistics": "#",
+    "attachments": "/lesson/763630/attachments/",
+    "clone_lesson": "/lesson/763630/clone/",
+    "admin_lesson": "#",
+    "edit_permissions": "/lesson/763630/permissions/",
+    "delete_lesson": "#"
+  },
+  "progress": "76-763630",
+  "subscriptions": [
+    "31-76-763630",
+    "30-76-763630"
+  ],
+  "viewed_by": 1996,
+  "passed_by": 444,
+  "time_to_complete": 3308,
+  "cover_url": "https://ucarecdn.stepik.net/596b2214-c8ce-451e-9c44-a89ce9e38534/-/scale_crop/180x180/center/",
+  "is_comments_enabled": true,
+  "is_exam_without_progress": false,
+  "is_blank": false,
+  "is_draft": false,
+  "is_orphaned": false,
+  "courses": [
+    86957
+  ],
+  "units": [
+    765797
+  ],
+  "owner": 296085237,
+  "language": "ru",
+  "is_featured": false,
+  "is_public": true,
+  "canonical_url": "https://stepik.org/lesson/763630/",
+  "title": "Базовые элементы языка С++",
+  "slug": "Базовые-элементы-языка-С++-763630",
+  "create_date": "2022-08-01T14:51:55Z",
+  "update_date": "2024-12-27T12:23:59Z",
+  "learners_group": 5070814,
+  "testers_group": 5070815,
+  "moderators_group": 5070816,
+  "assistants_group": 5070817,
+  "teachers_group": 5070812,
+  "admins_group": 5070813,
+  "discussions_count": 30,
+  "discussion_proxy": "76-763630-1",
+  "discussion_threads": [
+    "76-763630-1"
+  ],
+  "epic_count": 41,
+  "abuse_count": 51,
+  "vote_delta": -10,
+  "vote": null,
+  "lti_consumer_key": "",
+  "lti_secret_key": "",
+  "lti_private_profile": false
+}

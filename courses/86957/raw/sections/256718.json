@@ -1,0 +1,42 @@
+{
+  "id": 256718,
+  "course": 86957,
+  "units": [
+    765811,
+    765813
+  ],
+  "position": 5,
+  "discounting_policy": "no_discount",
+  "progress": "79-256718",
+  "actions": {
+    "test_section": "#"
+  },
+  "required_section": null,
+  "required_percent": 100,
+  "is_requirement_satisfied": true,
+  "is_exam": false,
+  "is_exam_without_progress": false,
+  "is_random_exam": false,
+  "exam_duration_minutes": 120,
+  "random_exam_problems_course": null,
+  "random_exam_problems_count": 20,
+  "exam_session": null,
+  "proctor_session": null,
+  "description": "В данном модуле вы изучите работу со статическими массивами и сделаете первые шаги в понимании концепции статической памяти ЭВМ",
+  "is_proctoring_can_be_scheduled": false,
+  "title": "Статические массивы в языке С++",
+  "slug": "Статические-массивы-в-языке-С++-256718",
+  "begin_date": "2022-09-26T09:00:00Z",
+  "end_date": null,
+  "soft_deadline": null,
+  "hard_deadline": null,
+  "grading_policy": "no_deadlines",
+  "begin_date_source": "2022-09-26T09:00:00Z",
+  "end_date_source": null,
+  "soft_deadline_source": null,
+  "hard_deadline_source": null,
+  "grading_policy_source": null,
+  "is_active": true,
+  "create_date": "2022-08-01T15:17:14Z",
+  "update_date": "2024-01-03T18:54:30Z"
+}

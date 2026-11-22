@@ -1,0 +1,83 @@
+{
+  "block": {
+    "name": "fill-blanks",
+    "text": "<p>Вводите размеры в байтах, только число.</p>\n\n<p>Структура 1.</p>\n\n<pre><code class=\"language-cpp\">typedef struct inner {\n    bool x;\n    char z;\n    int y;\n} inner;</code></pre>\n\n<p>Структура 2.</p>\n\n<pre><code class=\"language-cpp\">#pragma pack(2)\nstruct T {\n    int i;\n    short j;\n    double k;\n    inner in;\n};</code></pre>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "components": [
+        {
+          "type": "text",
+          "text": "Размер структуры 1: ",
+          "options": []
+        },
+        {
+          "type": "input",
+          "text": "",
+          "options": [
+            {
+              "text": "12",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<br>Наименьший возможный размер структуры 1 (можно только переставлять поля): ",
+          "options": []
+        },
+        {
+          "type": "input",
+          "text": "",
+          "options": [
+            {
+              "text": "8",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<br> Размер структуры 2: ",
+          "options": []
+        },
+        {
+          "type": "input",
+          "text": "",
+          "options": [
+            {
+              "text": "26",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<br>Наименьший возможный размер структуры 2 (можно только переставлять поля в обеих структурах): ",
+          "options": []
+        },
+        {
+          "type": "input",
+          "text": "",
+          "options": [
+            {
+              "text": "22",
+              "is_correct": true
+            }
+          ]
+        }
+      ],
+      "is_case_sensitive": false,
+      "is_detailed_feedback": true,
+      "is_partially_correct": false
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3426003",
+  "time": "2026-11-22T18:35:40Z"
+}

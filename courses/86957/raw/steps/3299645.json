@@ -1,0 +1,83 @@
+{
+  "id": 3299645,
+  "lesson": 763719,
+  "position": 8,
+  "status": "ready",
+  "block": {
+    "name": "code",
+    "text": "<p>Числа Армстронга (названные в честь Майкла Ф. Армстронга (Michael F. Armstrong)), их также называют самовлюбленными числами и совершенными цифровыми инвариантами, – это числа, равные сумме своих цифр, возведенных в степень, равную количеству цифр. Например, наименьшее число Армстронга – 153, которое равно 1^3 + 5^3 + 3^3 . Напишите программу, которая выводит все числа Армстронга, меньше введённого пользователем числа.</p>\n\n<p>Введённое число не превышает 10^8.</p>",
+    "video": null,
+    "options": {
+      "execution_time_limit": 30,
+      "execution_memory_limit": 256,
+      "limits": {
+        "c++": {
+          "time": 30,
+          "memory": 256
+        }
+      },
+      "code_templates": {
+        "c++": "#include <iostream>\n\nint main() {\n    // put your code here\n    return 0;\n}"
+      },
+      "code_templates_header_lines_count": {
+        "c++": 0
+      },
+      "code_templates_footer_lines_count": {
+        "c++": 0
+      },
+      "code_templates_options": {},
+      "samples": [
+        [
+          "10",
+          "1\n2\n3\n4\n5\n6\n7\n8\n9"
+        ]
+      ],
+      "is_run_user_code_allowed": false
+    },
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3299645",
+  "subscriptions": [
+    "31-77-3299645",
+    "30-77-3299645"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 855,
+  "passed_by": 591,
+  "correct_ratio": 0.25446082234290146,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3278737,
+  "create_date": "2022-09-19T19:02:37Z",
+  "update_date": "2022-09-20T07:52:14Z",
+  "discussions_count": 3,
+  "discussion_proxy": "77-3299645-1",
+  "discussion_threads": [
+    "77-3299645-1",
+    "77-3299645-2"
+  ]
+}

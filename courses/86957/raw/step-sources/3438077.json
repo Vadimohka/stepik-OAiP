@@ -1,0 +1,131 @@
+{
+  "id": 3438077,
+  "lesson": 770596,
+  "position": 11,
+  "status": "ready",
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите верные утверждения.</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 10,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "Структуры не могут иметь три уровня вложенности.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Структуры можно передавать в функции.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Большие структуры желательно передавать по значению.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Большие структуры желательно передавать по ссылке.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Поля структуры по умолчанию инициализируются нулем. ",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "MyStruct mystr{0}; // инициализирует нулем только первое поле.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Объекты структур можно присваивать друг другу.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Объекты структур можно инициализировать другими объектами этой же структуры.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "При присваивании одного объекта другому, при наличии поля указателя, будет выделена память и скопировано содержимое по этому указателю.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Для доступа к полю структуры используеются оператор ->",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3438077",
+  "subscriptions": [
+    "31-77-3438077",
+    "30-77-3438077"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 563,
+  "passed_by": 368,
+  "correct_ratio": 0.14897052886556317,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3417169,
+  "create_date": "2022-11-09T19:35:47Z",
+  "update_date": "2022-11-09T19:35:48Z",
+  "discussions_count": 2,
+  "discussion_proxy": "77-3438077-1",
+  "discussion_threads": [
+    "77-3438077-1",
+    "77-3438077-2"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 1
+}

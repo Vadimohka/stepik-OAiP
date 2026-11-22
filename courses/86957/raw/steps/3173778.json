@@ -1,0 +1,54 @@
+{
+  "id": 3173778,
+  "lesson": 763037,
+  "position": 1,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<h3><strong>Что такое язык программирования</strong></h3>\n\n<p>Язык программирования — это набор формальных правил, по которым пишут программы. Обычный язык нужен для общения людей, а язык программирования — для общения с компьютером. Как и в любом естественном языке, тут есть лексика — слова, функции и операторы, из которых по правилам синтаксиса составляются выражения. Они имеют чёткий, вполне определённый смысл, понятный компьютеру, — семантику.</p>\n\n<p>Вот, например, программа на языке <em>С++</em>:</p>\n\n<pre><code>#include &lt;iostream&gt;\nint main() {\n    std::cout &lt;&lt; \"Hello world!\";\n}</code></pre>\n\n<p>Здесь std::cout — лексика, один из принятых в языке методов вывода текста в консоль. Текст в двойных кавычках, скобки &lt;&lt;, точка с запятой — правила синтаксиса. А то, что нужно сделать в итоге, — семантика. Получив эти инструкции, компьютер выведет в консоль сообщение: <em>«Hello world!».</em></p>\n\n<p><em>Кстати, </em>традиция использования фразы «Hello, world!» в качестве тестового сообщения была введена в книге «<a href=\"https://ru.wikipedia.org/wiki/%D0%AF%D0%B7%D1%8B%D0%BA_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_%D0%A1%D0%B8_(%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0)\" rel=\"noopener noreferrer nofollow\" title=\"Язык программирования Си (книга)\">Язык программирования Си</a>» <a href=\"https://ru.wikipedia.org/wiki/%D0%9A%D0%B5%D1%80%D0%BD%D0%B8%D0%B3%D0%B0%D0%BD,_%D0%91%D1%80%D0%B0%D0%B9%D0%B0%D0%BD\" rel=\"noopener noreferrer nofollow\" title=\"Керниган, Брайан\">Брайана Кернигана</a> и <a href=\"https://ru.wikipedia.org/wiki/%D0%A0%D0%B8%D1%82%D1%87%D0%B8,_%D0%94%D0%B5%D0%BD%D0%BD%D0%B8%D1%81\" rel=\"noopener noreferrer nofollow\" title=\"Ритчи, Деннис\">Денниса Ритчи</a>, опубликованной в 1978 году. </p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3173778",
+  "subscriptions": [
+    "31-77-3173778",
+    "30-77-3173778"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 1969,
+  "passed_by": 1969,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3152870,
+  "create_date": "2022-07-31T18:52:35Z",
+  "update_date": "2023-04-20T19:09:41Z",
+  "discussions_count": 1,
+  "discussion_proxy": "77-3173778-1",
+  "discussion_threads": [
+    "77-3173778-1"
+  ]
+}

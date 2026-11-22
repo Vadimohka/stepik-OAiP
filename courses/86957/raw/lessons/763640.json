@@ -1,0 +1,77 @@
+{
+  "id": 763640,
+  "steps": [
+    3177292,
+    3215105,
+    3269060,
+    3280697,
+    3264622,
+    3280727,
+    3281279,
+    3281287,
+    3281353,
+    3293643,
+    4717756,
+    4717791,
+    4718304
+  ],
+  "actions": {
+    "learn_lesson": "#",
+    "assist_lesson": "#",
+    "view_all_submissions": "#",
+    "edit_lesson": "#",
+    "view_statistics": "#",
+    "attachments": "/lesson/763640/attachments/",
+    "clone_lesson": "/lesson/763640/clone/",
+    "admin_lesson": "#",
+    "edit_permissions": "/lesson/763640/permissions/",
+    "delete_lesson": "#"
+  },
+  "progress": "76-763640",
+  "subscriptions": [
+    "31-76-763640",
+    "30-76-763640"
+  ],
+  "viewed_by": 1174,
+  "passed_by": 467,
+  "time_to_complete": 6206,
+  "cover_url": "https://ucarecdn.stepik.net/207f1574-d689-45a0-9ec4-5bc4e2180453/-/scale_crop/180x180/center/",
+  "is_comments_enabled": true,
+  "is_exam_without_progress": false,
+  "is_blank": false,
+  "is_draft": false,
+  "is_orphaned": false,
+  "courses": [
+    86957
+  ],
+  "units": [
+    765807
+  ],
+  "owner": 296085237,
+  "language": "ru",
+  "is_featured": false,
+  "is_public": true,
+  "canonical_url": "https://stepik.org/lesson/763640/",
+  "title": "Условные операторы",
+  "slug": "Условные-операторы-763640",
+  "create_date": "2022-08-01T15:17:07Z",
+  "update_date": "2024-01-02T18:40:54Z",
+  "learners_group": 5070880,
+  "testers_group": 5070881,
+  "moderators_group": 5070882,
+  "assistants_group": 5070883,
+  "teachers_group": 5070878,
+  "admins_group": 5070879,
+  "discussions_count": 39,
+  "discussion_proxy": "76-763640-1",
+  "discussion_threads": [
+    "76-763640-1"
+  ],
+  "epic_count": 47,
+  "abuse_count": 55,
+  "vote_delta": -8,
+  "vote": null,
+  "lti_consumer_key": "",
+  "lti_secret_key": "",
+  "lti_private_profile": false
+}

@@ -1,0 +1,101 @@
+{
+  "id": 4717764,
+  "lesson": 770586,
+  "position": 14,
+  "status": "ready",
+  "block": {
+    "name": "choice",
+    "text": "<p>Разница между статическим и динамическим распределением памяти заключается в ?</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": false
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": false,
+      "is_always_correct": false,
+      "sample_size": 4,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "При динамическом выделении памяти память должна быть выделена заранее известным образом",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "При выделении статической памяти память должна быть выделена заранее известным образом",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "В этом нет никакой разницы",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Ни один из перечисленных",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-4717764",
+  "subscriptions": [
+    "31-77-4717764",
+    "30-77-4717764"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 480,
+  "passed_by": 451,
+  "correct_ratio": 0.7089201877934272,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 4696861,
+  "create_date": "2023-11-13T16:55:23Z",
+  "update_date": "2023-11-13T16:55:23Z",
+  "discussions_count": 1,
+  "discussion_proxy": "77-4717764-1",
+  "discussion_threads": [
+    "77-4717764-1",
+    "77-4717764-2"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 1
+}

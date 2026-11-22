@@ -1,0 +1,59 @@
+{
+  "id": 3423457,
+  "lesson": 770589,
+  "position": 6,
+  "status": "ready",
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите верные утверждения.</p>\n\n<p>Программа 1.</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;string&gt;\n\nconst char* printer() {\n    std::string s1 = \"aboba\";\n\n    std::cout &lt;&lt; s1 &lt;&lt; '\\n';\n\n    return s1.c_str();\n}\n\nint main() {\n    const char* s1 = printer();\n    std::cout &lt;&lt; s1 &lt;&lt; '\\n';\n\n    return 0;\n}\n\n</code></pre>\n\n<p>Программа 2.</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;string&gt;\n\nvoid stringIntPrinter(const std::string&amp; s) {\n    for (int i = 0; i &lt; s.length() - 1; i++) {\n        std::cout &lt;&lt; static_cast&lt;int&gt;(s[i]) &lt;&lt; ' ';\n    }\n    std::cout &lt;&lt; '\\n';\n}\n\nint main() {\n    std::string s0, s1 = \"Hello\";\n    stringIntPrinter(s1);\n    stringIntPrinter(s0);\n\n    return 0;\n}\n\n</code></pre>\n\n<p>Программа 3.</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;string&gt;\n\nint main() {\n    std::string s0 = \"a\", s1 = \"boba\";\n    s0 = s0 + s1;\n    std::cout &lt;&lt; s0;\n\n    return 0;\n}\n\n</code></pre>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3423457",
+  "subscriptions": [
+    "31-77-3423457",
+    "30-77-3423457"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 636,
+  "passed_by": 446,
+  "correct_ratio": 0.31851851851851853,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3402549,
+  "create_date": "2022-11-05T14:32:52Z",
+  "update_date": "2022-11-05T14:34:30Z",
+  "discussions_count": 1,
+  "discussion_proxy": "77-3423457-1",
+  "discussion_threads": [
+    "77-3423457-1",
+    "77-3423457-2"
+  ]
+}

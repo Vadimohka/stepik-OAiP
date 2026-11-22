@@ -1,0 +1,67 @@
+{
+  "id": 3215175,
+  "lesson": 770595,
+  "position": 5,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<h3>Быстрая сортировка</h3>\n\n<p>В основе быстрой сортировки лежит стратегия «разделяй и властвуй». Задача разделяется на более мелкие подзадачи. Подзадачи решаются отдельно, а потом решения объединяют. Точно так же, массив разделяется на подмассивы, которые сортируются и затем сливаются в один.</p>\n\n<p>В первую очередь выбираем опорный элемент. Отметим его синим. Все значения больше опорного элемента ставятся после него, остальные — перед.</p>\n\n<p><img alt=\"\" height=\"3452\" name=\"Frame 26.png\" src=\"https://ucarecdn.stepik.net/35104a07-6ee7-4e81-864f-7888d3b80c33/-/crop/5918x3452/0,156/-/preview/\" width=\"5918\"></p>\n\n<p> </p>\n\n<p>Сложность в лучшем случае: <strong>O(n*logn);</strong></p>\n\n<p>Сложность в худшем случае:<strong> O(n<sup>2</sup>)</strong>.</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3215175",
+  "subscriptions": [
+    "31-77-3215175",
+    "30-77-3215175"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 667,
+  "passed_by": 667,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3194267,
+  "create_date": "2022-08-18T19:20:15Z",
+  "update_date": "2023-05-15T20:20:20Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3215175-1",
+  "discussion_threads": [
+    "77-3215175-1"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 0
+}

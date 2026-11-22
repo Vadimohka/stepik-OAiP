@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Внешние объекты</h3>\n\n<p>Кроме функций внешние файлы могут содержать различные объекты - переменные и константы. Для подключения внешних объектов в файл кода применяется ключевое слово extern.</p>\n\n<p>Для объявления объектов определим файл objects.h со следующим содержимым:</p>\n\n<pre><code class=\"language-cpp\">extern const int x;\nextern double y;</code></pre>\n\n<p>Здесь объявляются константа x и переменная y. Так как эти объекты будут внешними по отношению к исходному коду, который будет их использовать, то они определяются с ключевым словом extern.</p>\n\n<p>Для определения этих объектов добавим новый файл objects.cpp:</p>\n\n<pre><code class=\"language-cpp\">#include \"objects.h\"\n \nconst int x = 5;\ndouble y = 3.4;</code></pre>\n\n<p>Используем эти объекты в файле main.cpp:</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include \"objects.h\"\n \nint main() {\n    std::cout &lt;&lt; \"x = \" &lt;&lt; x &lt;&lt; std::endl;\n    std::cout &lt;&lt; \"y = \" &lt;&lt; y &lt;&lt; std::endl;\n \n    return 0;\n}</code></pre>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3214991",
+  "time": "2026-11-22T18:35:40Z"
+}

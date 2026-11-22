@@ -1,0 +1,67 @@
+{
+  "id": 3213244,
+  "lesson": 770594,
+  "position": 2,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<h3>Что такое нотация “О” большое?</h3>\n\n<p>Этот термин используется в программировании для описания вычислительной сложности алгоритма. В частности, он позволяет оценить, сколько времени требуется для запуска программы.</p>\n\n<p>Проще говоря, термином “О” большое определяется, <em>как время выполнения растет по мере увеличения входных данных.</em></p>\n\n<ul>\n\t<li><strong>Увеличение времени выполнения. </strong>Поскольку время, необходимое для выполнения программы, зависит от процессора компьютера, используется “О” большое, чтобы показать, как меняется время выполнения.</li>\n\t<li><strong>Ввод данных. </strong>Поскольку проверяется не только время, которое требуется для выполнения программы, но и ввод, в нотации “О” большое есть “n”, которое определяет количество элементов обрабатываемых входных данных. Поскольку время выполнения растет с увеличением размера входных данных, эту величину можно представить в виде O(n).</li>\n\t<li><strong>По мере увеличения входных данных. </strong>По мере увеличения входных данных программам иногда требуется больше времени для выполнения, что приводит к проблемам с производительностью. Поэтому разрабатываемую программу нужно проверять по мере увеличения входных данных.</li>\n</ul>\n\n<p style=\"text-align: center;\"><img alt=\"\" height=\"509\" name=\"image.png\" src=\"https://ucarecdn.stepik.net/e0ec2c57-8c43-4e10-b7d6-67d9538b203c/\" width=\"670\"></p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3213244",
+  "subscriptions": [
+    "31-77-3213244",
+    "30-77-3213244"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 705,
+  "passed_by": 705,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3192336,
+  "create_date": "2022-08-17T18:37:40Z",
+  "update_date": "2022-08-17T18:46:06Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3213244-1",
+  "discussion_threads": [
+    "77-3213244-1"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 0
+}

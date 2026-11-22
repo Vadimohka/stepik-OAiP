@@ -1,0 +1,67 @@
+{
+  "id": 3215081,
+  "lesson": 768143,
+  "position": 4,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<h3>Манипуляторы потока</h3>\n\n<p>В поток можно помещать управляющие символы которые будут форматировать вывод текста, вот список:</p>\n\n<ul>\n\t<li><strong><em>\\ </em></strong><strong><em>a </em></strong>-кратковременная подача звукового сигнала;</li>\n\t<li><strong><em>\\</em></strong><strong><em>b </em></strong>- перевод курсора влево на одну позицию;</li>\n\t<li><strong><em>\\</em></strong><strong><em>n </em></strong>- переход на новую строку;</li>\n\t<li><strong><em>\\</em></strong><strong><em>r </em></strong>- перевод курсора в начало текущей строки;</li>\n\t<li><strong><em>\\</em></strong><strong><em>t </em></strong>- горизонтальная табуляция;</li>\n\t<li><strong><em>\\</em></strong><strong><em>v </em></strong>- вертикальная табуляция.</li>\n</ul>\n\n<p>Размер управляющего символа равен стандартному размеру char в таблице ASCII, т.е. 1 байт. Управляющие символы не выводятся на экран.</p>\n\n<p>Также существуют функции манипуляторы. Функцию - манипулятор потока также как и управляющие символы можно включать в операции помещения в поток и извлечения из потока (&lt;&lt;, &gt;&gt;). Чтобы подключить некоторые функции необходимо использовать библиотеку <code>&lt;iomanip&gt;</code>.</p>\n\n<p><br>\nВ С++ имеется ряд манипуляторов. Рассмотрим основные:</p>\n\n<ul>\n\t<li>endl - Помещение в выходной поток символа конца строки '\\n'</li>\n\t<li>dec - Установка основания 10-ой системы счисления</li>\n\t<li>oct - Установка основания 8-ой системы счисления</li>\n\t<li>hex - Установка основания 16-ой системы счисления</li>\n\t<li>setbase - Вывод базовой системы счисления</li>\n\t<li>width - Устанавливает ширину поля вывода</li>\n\t<li>fill - Заполняет пустые знакоместа значением символа</li>\n\t<li>precision - Устанавливает количество значащих цифр в числе (или после запятой) в зависимости от использования fixed</li>\n\t<li>fixed - Показывает, что установленная точность относится к количеству знаков после запятой</li>\n\t<li>showpos - Показывает знак + для положительных чисел</li>\n\t<li>scientific - Выводит число в экспоненциальной форме</li>\n\t<li>get() - Ожидает ввода символа</li>\n\t<li>getline - Ожидает ввода строки символов. Максимальное количество символов ограничено полем количество</li>\n</ul>\n\n<p>Ещё на производительность iostream негативно влияет частое использование <code>endl</code>, поскольку <code>endl</code> не только выводит символ новой строки, но и сбрасывает буфер потока. Вместо <code>endl</code> можно просто выводить <code>'\\n'</code> или <code>\"\\n\"</code>в качестве окончания строки .</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3215081",
+  "subscriptions": [
+    "31-77-3215081",
+    "30-77-3215081"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 1209,
+  "passed_by": 1209,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    2
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3194173,
+  "create_date": "2022-08-18T18:42:53Z",
+  "update_date": "2023-06-08T21:20:45Z",
+  "discussions_count": 1,
+  "discussion_proxy": "77-3215081-1",
+  "discussion_threads": [
+    "77-3215081-1"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 0
+}

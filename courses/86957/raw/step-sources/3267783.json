@@ -1,0 +1,111 @@
+{
+  "id": 3267783,
+  "lesson": 768143,
+  "position": 6,
+  "status": "ready",
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите правильные утверждения.</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 6,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "stdio.h - библиотека для ввода/вывода на языке с++.",
+          "feedback": "stdio.h - библиотека для ввода/вывода на языке с."
+        },
+        {
+          "is_correct": true,
+          "text": "std::cout << \"aaa\" << \"bbb\"; - корректная запись.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "'\\n' и std::endl идентичны.",
+          "feedback": "std::endl сбрасывает буфер потока, а '\\n' нет"
+        },
+        {
+          "is_correct": false,
+          "text": "scanf(\"%d %d, a, b); - корректная запись. (хотим получить значения в a и b - переменные типа int).",
+          "feedback": "scanf принимает адреса, в большинстве случаев нужно использовать & (амперсанд) - scanf(\"%d %d\", &a, &b); "
+        },
+        {
+          "is_correct": true,
+          "text": "scanf - функция незащищённого ввода.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "использование сin.tie(NULL) ускоряет ввод/вывод, т.к. мы отключаем синхронизацию iostream и stdio.",
+          "feedback": "использование сin.tie(NULL) ускоряет ввод/вывод, т.к. не сбрасывается буфер cout при использовании cin."
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3267783",
+  "subscriptions": [
+    "31-77-3267783",
+    "30-77-3267783"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 1187,
+  "passed_by": 900,
+  "correct_ratio": 0.27871825876662637,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    1,
+    0,
+    0,
+    0,
+    1
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3246875,
+  "create_date": "2022-09-06T21:12:20Z",
+  "update_date": "2022-09-09T08:31:12Z",
+  "discussions_count": 2,
+  "discussion_proxy": "77-3267783-1",
+  "discussion_threads": [
+    "77-3267783-1",
+    "77-3267783-2"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 1
+}

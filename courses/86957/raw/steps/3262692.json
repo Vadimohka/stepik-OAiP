@@ -1,0 +1,87 @@
+{
+  "id": 3262692,
+  "lesson": 763630,
+  "position": 12,
+  "status": "ready",
+  "block": {
+    "name": "code",
+    "text": "<p>Определить расстояние, пройденное физическим телом за время t, если тело движется с постоянным ускорением а и имеет в начальный момент времени скорость V0.</p>\n\n<p>Формат ввода:</p>\n\n<p>Сначала вводится ускорение а, потом время t и начальную скорость V0.</p>\n\n<p>Используйте библиотеку <code>&lt;iomanip&gt;</code> и функцию <code>setprecision(20)</code>.</p>",
+    "video": null,
+    "options": {
+      "execution_time_limit": 1,
+      "execution_memory_limit": 32,
+      "limits": {
+        "c++": {
+          "time": 1,
+          "memory": 32
+        }
+      },
+      "code_templates": {
+        "c++": "#include <iostream>\n\nint main() {\n    // put your code here\n    return 0;\n}"
+      },
+      "code_templates_header_lines_count": {
+        "c++": 0
+      },
+      "code_templates_footer_lines_count": {
+        "c++": 0
+      },
+      "code_templates_options": {},
+      "samples": [
+        [
+          "43\n235215125\n23",
+          "1189512338528408812.5"
+        ],
+        [
+          "0.125135\n0.3152525325\n135235",
+          "42633.182450855883729"
+        ]
+      ],
+      "is_run_user_code_allowed": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3262692",
+  "subscriptions": [
+    "31-77-3262692",
+    "30-77-3262692"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 1089,
+  "passed_by": 627,
+  "correct_ratio": 0.2465034965034965,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    1,
+    0,
+    0,
+    0,
+    1
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3241784,
+  "create_date": "2022-09-05T18:32:29Z",
+  "update_date": "2023-10-26T20:31:46Z",
+  "discussions_count": 3,
+  "discussion_proxy": "77-3262692-1",
+  "discussion_threads": [
+    "77-3262692-1",
+    "77-3262692-2"
+  ]
+}

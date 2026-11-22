@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Объявление вложенных объединений в шаблоне объединения</h3>\n\n<p>Шаблон объединения может включать поля, что есть структурами, объединениями и классами.</p>\n\n<p>В примере ниже объявляется шаблон объединения с именем Types, содержащий два вложенных объединения Floats и Ints, структуру ArrayOfChars и класс MyPoint.</p>\n\n<p>Объявление структур и объединений имеет следующий вид:</p>\n\n<pre><code class=\"language-cpp\">// объединение целочисленных типов\nunion Ints {\n    unsigned short int a;\n    unsigned int b;\n    unsigned long int c;\n};\n\n// структура, содержащая 2 строки\nstruct ArrayOfChars {\n    char A[10];\n    char B[8];\n};\n\n// объявление типа \"объединение Floats\"\nunion Floats {\n    float f; // рассматривается 4 байта\n    double d; // рассматривается 8 байт\n};</code></pre>\n\n<pre><code class=\"language-cpp\">class MyPoint {\n    public:\n        int x;\n        int y;\n\n        // методы класса\n        int GetX(void) { return x; }\n        int GetY(void) { return y; }\n        void SetXY(int nx, int ny) { x = nx; y = ny; }\n};</code></pre>\n\n<pre><code class=\"language-cpp\">union Types {\n    Floats Fl; // объединение\n    Ints I;   // объединение\n    ArrayOfChars A; // структура\n    MyPoint MP;   // класс\n};</code></pre>\n\n<p>Использование объединения Types в некотором программном коде:</p>\n\n<pre><code>// объявить переменную типа \"объединение Types\"\nTypes T;\n\n// изменить значения полей переменной T\nT.Fl.f = (float)20.35; // объединение Floats\nT.I.b = 230; // объединение Ints\nT.A.A[2] = 'A'; // структура ArrayOfChars\nT.MP.SetXY(3,8); // класс MyPoint\nint d;\nd = T.MP.GetX(); // d = 3</code></pre>\n\n<p>Пример объявления и использования массива объединений: </p>\n\n<pre><code class=\"language-cpp\">Floats F[5]; // объявляется массив из 5 объединений типа Floats\n\n// заполнение значений полей\nfor (int i = 0; i &lt; 5; i++) {\n    F[i].d = i * 0.2 + i * i;\n}</code></pre>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3215242",
+  "time": "2026-11-22T18:35:40Z"
+}

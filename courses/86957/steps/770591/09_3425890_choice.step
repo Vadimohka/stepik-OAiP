@@ -1,0 +1,78 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите верные утверждения.</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 10,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": true,
+          "text": "Глобальные константы определенные внутри файла доступны внутри любой функции этого файла.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Глобальные константы (не помеченные как extern) доступны внутри функций любого файла.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Функцию можно определить внутри другой функции.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Аргументы по умолчанию должны быть указаны либо в объявлении, либо в определении функции.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Аргументы по умолчанию могут быть указаны до обычных аргументов.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "При передачи массива в функцию внутри функции создается локальная копия массива.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Функцию (указатель на функцию) можно передать в другую функцию.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "{if (n == 1) return 1; else return n + sum (n – 1);} - если это тело функции sum(int n), то эта функция считает сумму чисел от 1 до n.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Функции с одним именем и разным количеством аргументов могут существовать.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Можно вызвать объявленную, но не определённую функцию.",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3425890",
+  "time": "2026-11-22T18:35:40Z"
+}

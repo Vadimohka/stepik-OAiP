@@ -1,0 +1,111 @@
+{
+  "id": 3173835,
+  "lesson": 763037,
+  "position": 6,
+  "status": "ready",
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите правильные утверждения</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 6,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": true,
+          "text": "Языки программирования необходимы для представления алгоритмов \"Компьютеру\"",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Языки программирования делятся на высокоуровневые и низкоуровневые",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Концепции языков программирования сложны для понимания человеку",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Языки программирования - вынужденная необходимость человечества для понимания Искусственного интеллекта",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Первый язык программирования был написан компьютером",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Логика - необходимый элемент при написании любой программы",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3173835",
+  "subscriptions": [
+    "31-77-3173835",
+    "30-77-3173835"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 1632,
+  "passed_by": 1359,
+  "correct_ratio": 0.3787795492028587,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    2
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3152927,
+  "create_date": "2022-07-31T19:22:02Z",
+  "update_date": "2022-08-18T21:36:22Z",
+  "discussions_count": 1,
+  "discussion_proxy": "77-3173835-1",
+  "discussion_threads": [
+    "77-3173835-1",
+    "77-3173835-2"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 1
+}

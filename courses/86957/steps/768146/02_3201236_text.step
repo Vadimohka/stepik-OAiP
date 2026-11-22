@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Пространства имён</h3>\n\n<p>Пространство имен — это декларативная область, в рамках которой определяются различные идентификаторы (имена типов, функций, переменных, и т. д.). Пространства имен используются для организации кода в виде логических групп и с целью избежания конфликтов имен, которые могут возникнуть, особенно в таких случаях, когда база кода включает несколько библиотек. Все идентификаторы в пределах пространства имен доступны друг другу без уточнения. Идентификаторы за пределами пространства имен могут получить доступ к членам с помощью полного имени для каждого идентификатора, например <code>std::vector&lt;std::string&gt; vec;</code>, с помощью <a href=\"https://docs.microsoft.com/ru-ru/cpp/cpp/using-declaration?view=msvc-160\" rel=\"noopener noreferrer nofollow\">объявления</a> для одного идентификатора (<code>using std::string</code>) или <a href=\"https://docs.microsoft.com/ru-ru/cpp/cpp/namespaces-cpp?view=msvc-160#using_directives\" rel=\"noopener noreferrer nofollow\">директивы using</a> для всех идентификаторов в пространстве имен (<code>using namespace std;</code>). Код в файлах заголовков всегда должен содержать полное имя в пространстве имен.</p>\n\n<p>Пример кода в котором перед функцией main было объявление, что весь код находится в пространстве имён <em>std</em>.</p>\n\n<pre><code class=\"language-cpp\">....\nusing namespace std;\n....\nint main()\n{\n....\nvector&lt;string&gt; vec;\n....\n}</code></pre>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3201236",
+  "time": "2026-11-22T18:35:40Z"
+}

@@ -1,0 +1,61 @@
+{
+  "block": {
+    "name": "code",
+    "text": "<p>Модифицируйте программу на современные стандарты С++ таким образом, чтобы результат программы при работе с наследованием был как в примере.</p>\n\n<pre><code class=\"language-cpp\">#include &lt;stdio.h&gt;\n\nclass base {\nprotected:\n    int width;\npublic:\n    base(int n = 0) : width(n) {}\n\n    virtual void print() = 0;\n};\n\nclass line {\n    int i;\npublic:\n    line(int j = 0) : i(j) {}\n\n    void operator=(int j) { i = j; }\n\n    void operator&lt;&lt;(base &amp;x) {\n        printf(\"\\n%d) \", ++i);\n        x.print();\n    }\n};\n\nclass dw1 : public base {\n    int value;\npublic:\n    virtual void print() { printf(\"%*d\", width, value); }\n\n    dw1(int x, int w = 0) : base(w), value(x) {}\n};\n\nclass dw2 : public base {\n    int value;\npublic:\n    virtual void print();\n\n    dw2(int x, int w = 0) : base(w), value(x) {}\n};\n\nvoid dw2::print() {\n    printf(\"%d \", value);\n    for (int i = 0; i &lt; width; i++) printf(\"?\");\n}\n\nvoid main() {\n    line out;\n    for (int i = 0; i &lt; 5; i++) { out &lt;&lt; dw1(i, i); }\n    out = 0;\n    for (i = 0; i &lt; 5; i++) { out &lt;&lt; dw2(i, i + 1); }\n}\n</code></pre>",
+    "video": null,
+    "options": {
+      "execution_time_limit": 5,
+      "execution_memory_limit": 256,
+      "limits": {
+        "c++": {
+          "time": 5,
+          "memory": 256
+        }
+      },
+      "code_templates": {
+        "c++": ""
+      },
+      "code_templates_header_lines_count": {
+        "c++": 0
+      },
+      "code_templates_footer_lines_count": {
+        "c++": 0
+      },
+      "code_templates_options": {},
+      "samples": [
+        [
+          "",
+          "1) 0\n2) 1\n3) 2\n4) 3\n5) 4\n1) 0 ?\n2) 1 ??\n3) 2 ???\n4) 3 ????\n5) 4 ?????"
+        ]
+      ],
+      "is_run_user_code_allowed": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "code": "# This is a sample Code Challenge\n# Learn more: https://stepik.org/lesson/9172\n# Ask your questions via support@stepik.org\n\ndef generate():\n    return []\n\ndef check(reply, clue):\n    return reply.strip() == clue.strip()\n\n# def solve(dataset):\n#     a, b = dataset.split()\n#     return str(int(a) + int(b))",
+      "execution_time_limit": 5,
+      "execution_memory_limit": 256,
+      "samples_count": 1,
+      "templates_data": "::c++\n\n\n\n",
+      "is_time_limit_scaled": true,
+      "is_memory_limit_scaled": true,
+      "is_run_user_code_allowed": true,
+      "manual_time_limits": [],
+      "manual_memory_limits": [],
+      "test_archive": [],
+      "test_cases": [
+        [
+          "",
+          "1) 0\n2) 1\n3) 2\n4) 3\n5) 4\n1) 0 ?\n2) 1 ??\n3) 2 ???\n4) 3 ????\n5) 4 ?????"
+        ]
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": "/api/step-sources/3759927/tests",
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3759927",
+  "time": "2026-11-22T18:35:40Z"
+}

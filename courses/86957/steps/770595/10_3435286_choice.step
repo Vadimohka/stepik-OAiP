@@ -1,0 +1,73 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите верные утверждения.</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 9,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "Алгоритм Quick sort на любом наборе входных данных имеет сложность $O(n \\cdot \\log{n})$",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Insertion sort работает быстрее quick sort на уже отсортированном массиве.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Идеальной вычислительной сложностью для алгоритма сортировки является O(n).",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Selection sort может быть неустойчив",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Сложность Merge sort $O(n \\cdot \\log{n})$ на любом наборе входных данных.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Сложность обменной поразрядной сортировки является линейной.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Сортировку вставками можно осуществлять по мере поступления новых элементов. ",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Из неупорядоченного массива можно создать кучу за $O(n \\cdot \\log{n})$",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Сложность пирамидальной сортировки составляет $O(n^2)$",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3435286",
+  "time": "2026-11-22T18:35:40Z"
+}

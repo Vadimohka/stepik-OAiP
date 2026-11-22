@@ -1,0 +1,54 @@
+{
+  "id": 3214902,
+  "lesson": 770589,
+  "position": 4,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<h3>Список операторов которые можно использовать с объектами класса string</h3>\n\n<p>Класс string есть удобен тем, что позволяет удобно манипулировать строками, используя стандартные (перегруженные) операторы.</p>\n\n<p>С объектами класса string можно использовать нижеследующие операторы</p>\n\n<ul>\n\t<li><strong>=</strong> – присваивание</li>\n\t<li><strong>+</strong> – конкатенация (объединение строк)</li>\n\t<li><strong>+=</strong> – присваивание с конкатенацией</li>\n\t<li><strong>== </strong>– равенство</li>\n\t<li><strong>!=</strong> – неравенство</li>\n\t<li><strong>&lt;</strong> – меньше</li>\n\t<li><strong>&lt;=</strong> – меньше или равно</li>\n\t<li><strong>&gt;</strong> – больше</li>\n\t<li><strong>&gt;=</strong> – больше или равно</li>\n\t<li><strong>[ ]</strong> – индексация</li>\n</ul>\n\n<pre><code class=\"language-cpp\">// тип string, операции над строками\nstring s1 = \"s-1\";\nstring s2 = \"s-2\";\nstring s3;\nbool b;\n\n// операция '=' (присваивание строк)\ns3 = s1; // s3 = \"s-1\"\n\n// операция '+' - конкатенация строк\ns3 = s3 + s2; // s3 = \"s-1s-2\"\n\n// операция '+=' - присваивание с конкатенацией\ns3 = \"s-3\";\ns3 += \"abc\"; // s3 = \"s-3abc\"\n\n// операция '==' - сравнение строк\nb = s2==s1; // b = false\nb = s2==\"s-2\"; // b = true\n\n// операция '!=' - сравнение строк (не равно)\ns1 = \"s1\";\ns2 = \"s2\";\nb = s1 != s2; // b = true\n\n// операции '&lt;' и '&gt;' - сравнение строк\ns1 = \"abcd\";\ns2 = \"de\";\nb = s1 &gt; s2; // b = false\nb = s1 &lt; s2; // b = true\n\n// операции '&lt;=' и '&gt;=' - сравнение строк (меньше или равно, больше или равно)\ns1 = \"abcd\";\ns2 = \"ab\";\nb = s1 &gt;= s2; // b = true\nb = s1 &lt;= s2; // b = false\nb = s2 &gt;= \"ab\"; // b = true\n\n// операция [] - индексация\nchar c;\ns1 = \"abcd\";\nc = s1[2]; // c = 'c'\nc = s1[0]; // c = 'a'</code></pre>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3214902",
+  "subscriptions": [
+    "31-77-3214902",
+    "30-77-3214902"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 669,
+  "passed_by": 669,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3193994,
+  "create_date": "2022-08-18T16:00:09Z",
+  "update_date": "2022-08-18T16:00:10Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3214902-1",
+  "discussion_threads": [
+    "77-3214902-1"
+  ]
+}

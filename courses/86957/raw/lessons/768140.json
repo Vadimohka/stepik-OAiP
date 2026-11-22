@@ -1,0 +1,72 @@
+{
+  "id": 768140,
+  "steps": [
+    3201132,
+    3201141,
+    3201150,
+    3201151,
+    3201153,
+    3201181,
+    3201155,
+    3201168
+  ],
+  "actions": {
+    "learn_lesson": "#",
+    "assist_lesson": "#",
+    "view_all_submissions": "#",
+    "edit_lesson": "#",
+    "view_statistics": "#",
+    "attachments": "/lesson/768140/attachments/",
+    "clone_lesson": "/lesson/768140/clone/",
+    "admin_lesson": "#",
+    "edit_permissions": "/lesson/768140/permissions/",
+    "delete_lesson": "#"
+  },
+  "progress": "76-768140",
+  "subscriptions": [
+    "31-76-768140",
+    "30-76-768140"
+  ],
+  "viewed_by": 2082,
+  "passed_by": 1440,
+  "time_to_complete": 132,
+  "cover_url": null,
+  "is_comments_enabled": true,
+  "is_exam_without_progress": false,
+  "is_blank": false,
+  "is_draft": false,
+  "is_orphaned": false,
+  "courses": [
+    86957
+  ],
+  "units": [
+    770494
+  ],
+  "owner": 296085237,
+  "language": "ru",
+  "is_featured": false,
+  "is_public": true,
+  "canonical_url": "https://stepik.org/lesson/768140/",
+  "title": "Что такое IDE?",
+  "slug": "Что-такое-IDE-768140",
+  "create_date": "2022-08-11T17:52:25Z",
+  "update_date": "2023-11-13T18:40:56Z",
+  "learners_group": 5100736,
+  "testers_group": 5100737,
+  "moderators_group": 5100738,
+  "assistants_group": 5100739,
+  "teachers_group": 5100734,
+  "admins_group": 5100735,
+  "discussions_count": 7,
+  "discussion_proxy": "76-768140-1",
+  "discussion_threads": [
+    "76-768140-1"
+  ],
+  "epic_count": 21,
+  "abuse_count": 2,
+  "vote_delta": 19,
+  "vote": null,
+  "lti_consumer_key": "",
+  "lti_secret_key": "",
+  "lti_private_profile": false
+}

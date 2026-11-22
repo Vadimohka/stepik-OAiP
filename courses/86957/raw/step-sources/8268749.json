@@ -1,0 +1,101 @@
+{
+  "id": 8268749,
+  "lesson": 763039,
+  "position": 7,
+  "status": "ready",
+  "block": {
+    "name": "choice",
+    "text": "<p>Что верно про байткод и переносимость?</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 4,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": true,
+          "text": "Байткод обычно платформенно независим, но зависит от версии ВМ/интерпретатора",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Для запуска байткода требуется соответствующая ВМ",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Кэш байткода ускоряет старт (пропускается парсинг)",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Перекомпиляция байткода обязательна при любом переносе на другую ОС",
+          "feedback": "Пересборка нужна при несовместимых версиях ВМ, а не из-за ОС."
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-8268749",
+  "subscriptions": [
+    "31-77-8268749",
+    "30-77-8268749"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 133,
+  "passed_by": 101,
+  "correct_ratio": 0.2292134831460674,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 8247840,
+  "create_date": "2025-09-29T09:42:40Z",
+  "update_date": "2025-09-29T09:46:18Z",
+  "discussions_count": 1,
+  "discussion_proxy": "77-8268749-1",
+  "discussion_threads": [
+    "77-8268749-1",
+    "77-8268749-2"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 1
+}

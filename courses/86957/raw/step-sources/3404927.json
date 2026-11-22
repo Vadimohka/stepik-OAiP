@@ -1,0 +1,131 @@
+{
+  "id": 3404927,
+  "lesson": 770592,
+  "position": 4,
+  "status": "ready",
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите верные утверждения.</p>\n\n<p>Программа:</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n\nint var = 1;\nvoid printer();\n\nint main() {\n    std::cout &lt;&lt; var &lt;&lt; ' '; // 1\n\n    int var = 2;\n\n    std::cout &lt;&lt; var &lt;&lt; ' '; // 2\n\n    {\n        var = 4;\n        std::cout &lt;&lt; var &lt;&lt; ' '; // 3\n    }\n\n    std::cout &lt;&lt; var &lt;&lt; ' '; // 4\n\n    {\n        int var = 0;\n        std::cout &lt;&lt; var &lt;&lt; ' '; // 5\n    }\n\n    printer(); // 6\n    printer(); // 7\n    printer(); // 8\n\n    return 0;\n}\n\nvoid printer() {\n    static int var = 1;\n    std::cout &lt;&lt; var &lt;&lt; ' ';\n    var += 100;\n}\n\n</code></pre>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 10,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "Автоматические объекты - это локальные объекты, автоматически созданные компилятором",
+          "feedback": "про автоматические объекты почитайте"
+        },
+        {
+          "is_correct": true,
+          "text": "Автоматические объекты - это локальные объекты с автоматической продолжительностью хранения: существуют только во время выполнения того блока, в котором определены",
+          "feedback": "про автоматические объекты почитайте"
+        },
+        {
+          "is_correct": true,
+          "text": ".h файлы в основном используют для объявлений, а .cpp для определений",
+          "feedback": "почитайте, зачем нужно разделение на .h и .cpp файлы"
+        },
+        {
+          "is_correct": false,
+          "text": ".h файлы в основном используют для определений, а .cpp для объявлений",
+          "feedback": "почитайте, зачем нужно разделение на .h и .cpp файлы"
+        },
+        {
+          "is_correct": true,
+          "text": "#pragme once - препроцессорная директива для контроля, что исходный файл подключается лишь раз",
+          "feedback": "повторите, что такое препроцессорная директива"
+        },
+        {
+          "is_correct": false,
+          "text": "#pragme once -  указание компилятору, что исходный файл подключается лишь раз",
+          "feedback": "повторите, что такое препроцессорная директива"
+        },
+        {
+          "is_correct": true,
+          "text": "Программа выведет эти числа: 1 2 4 4 0 1 101 201",
+          "feedback": "Повторите область видимости и статические переменные"
+        },
+        {
+          "is_correct": false,
+          "text": "Программа выведет эти числа:1 2 4 4 0 1 1 1",
+          "feedback": "Почитайте про статические переменные"
+        },
+        {
+          "is_correct": false,
+          "text": "Программа выведет эти числа: 1 1 4 4 0 1 101 201",
+          "feedback": "Почитайте про глобальные переменные"
+        },
+        {
+          "is_correct": false,
+          "text": "Программа выведет эти числа: 1 2 4 4 4 1 101 201",
+          "feedback": "Почитайте про локальные переменные"
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3404927",
+  "subscriptions": [
+    "31-77-3404927",
+    "30-77-3404927"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 665,
+  "passed_by": 504,
+  "correct_ratio": 0.43296327924850553,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3384019,
+  "create_date": "2022-10-31T20:41:22Z",
+  "update_date": "2022-10-31T20:41:22Z",
+  "discussions_count": 1,
+  "discussion_proxy": "77-3404927-1",
+  "discussion_threads": [
+    "77-3404927-1",
+    "77-3404927-2"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 1
+}

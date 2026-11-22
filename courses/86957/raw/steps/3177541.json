@@ -1,0 +1,54 @@
+{
+  "id": 3177541,
+  "lesson": 763642,
+  "position": 2,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<h2>Оператор return</h2>\n\n<p>Оператор <kbd>return</kbd> используется для выхода из функции. Отнесение его к категории операторов перехода обусловлено тем, что он заставляет программу перейти в точку вызова функции. Оператор <kbd>return</kbd> может иметь ассоциированное с ним значение, тогда при выполнении данного оператора это значение возвращается в качестве значения функции. В функциях типа <kbd>void</kbd> используется оператор <kbd>return</kbd> без значения.</p>\n\n<p>Со стандарта языков С99 и C++, если тип функции отличен от <kbd>void</kbd>, то ее оператор <kbd>return</kbd> обязательно должен иметь значение. Общая форма оператора <kbd>return</kbd> следующая:</p>\n\n<pre>return <em>выражение</em>;</pre>\n\n<p><em>Выражение</em> присутствует только в том случае, если функция возвращает значение. Это значение <em>выражения</em> становится возвращаемым значением функции.</p>\n\n<p>Внутри функции может присутствовать произвольное количество операторов <kbd>return</kbd>. Выход из функции происходит тогда, когда встречается один из них. Закрывающаяся фигурная скобка <kbd>}</kbd> также вызывает выход из функции. Выход программы на нее эквивалентен оператору <kbd>return</kbd> без значения. В этом случае функция, тип которой отличен от <kbd>void</kbd>, возвращает неопределенное значение.</p>\n\n<pre><code class=\"language-cpp\">int IMin(int a, int b) {\n   if (a &lt; b) return(a);\n   else return (b);\n}\n</code></pre>\n\n<pre><code class=\"language-cpp\">int IMin(int a, int b) {\n   return ((a &lt; b) ? a : b);\n}\n</code></pre>\n\n<p>Функция, определенная со спецификатором <kbd>void</kbd>, не может содержать <kbd>return</kbd> со значением. Так как эта функция не возвращает значения, в ней не может быть оператора <kbd>return</kbd>, возвращающего значение.</p>\n\n<pre><code class=\"language-cpp\">void Print(char a) {\n   if (x == 0) {\n      std::cout &lt;&lt; \"Это плохой аргумент \\n\"; \n      return;\n   }\n   std::cout &lt;&lt; \"Введен аргумент\" &lt;&lt; a;\n}\n</code></pre>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3177541",
+  "subscriptions": [
+    "31-77-3177541",
+    "30-77-3177541"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 871,
+  "passed_by": 871,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3156633,
+  "create_date": "2022-08-01T17:45:56Z",
+  "update_date": "2023-04-20T19:23:54Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3177541-1",
+  "discussion_threads": [
+    "77-3177541-1"
+  ]
+}

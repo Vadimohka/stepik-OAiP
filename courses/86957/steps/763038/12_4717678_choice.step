@@ -1,0 +1,63 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>Какое расширение имени файла программы на языке C++?</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 7,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": ".cc",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": ".cpp",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": ".h",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": ".hxxc",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": ".cpt",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": ".cpr",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": ".cp",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "4717678",
+  "time": "2026-11-22T18:35:40Z"
+}

@@ -1,0 +1,131 @@
+{
+  "id": 3435399,
+  "lesson": 770588,
+  "position": 5,
+  "status": "ready",
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите верные утверждения.</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 10,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "const char str* = \"Hello\"; после использования строки мы должы освободить память, вызывав delete str;",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "char str[] = \"Hello\"; Обращение к str[5] может вызвать ошибку.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "strcpy проверяет границы/размеры строк.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Строки можно копировать при помощи функции memcpy",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "strcpy и strncpy небезопасные функции.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "int strSize(const char str[]) {return sizeof(str);} возвращает размер переданной строки.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "char str[] = \"Hello\"; память под строку выделяется на этапе компиляции.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "const char* str = \"Hello\"; sizeof(str); вернет размер указателя.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "std::cout выводит строку до тех пор, пока не встретит нулевой символ",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "char kek[3] = {'k', 'e', 'k'}; std::cout << kek; корректно выведет строку",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3435399",
+  "subscriptions": [
+    "31-77-3435399",
+    "30-77-3435399"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 659,
+  "passed_by": 373,
+  "correct_ratio": 0.16918967052537845,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3414491,
+  "create_date": "2022-11-08T20:00:28Z",
+  "update_date": "2022-11-08T20:00:28Z",
+  "discussions_count": 1,
+  "discussion_proxy": "77-3435399-1",
+  "discussion_threads": [
+    "77-3435399-1",
+    "77-3435399-2"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 1
+}

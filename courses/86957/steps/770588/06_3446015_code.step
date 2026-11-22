@@ -1,0 +1,87 @@
+{
+  "block": {
+    "name": "code",
+    "text": "<p>Анаграммой слова называется любая перестановка всех букв слова. Например, из слова <strong>SOLO</strong> можно получить <strong>12</strong> анаграмм: <strong>SOLO</strong>, <strong>LOSO</strong>, <strong>OSLO</strong>, <strong>OLSO</strong>, <strong>OSOL</strong>, <strong>OLOS</strong>, <strong>SLOO</strong>, <strong>LSOO</strong>, <strong>OOLS</strong>, <strong>OOSL</strong>, <strong>LOOS</strong>, <strong>SOOL</strong>.</p>\n\n<p>Напишите программу, которая выводит количество различных анаграмм, которые могут получиться из этого слова.</p>\n\n<h4>Входные данные</h4>\n\n<p>Слово, количество букв в котором не превышает <strong>14</strong>.</p>\n\n<h4>Выходные данные</h4>\n\n<p>Количество различных анаграмм.</p>",
+    "video": null,
+    "options": {
+      "execution_time_limit": 1,
+      "execution_memory_limit": 32,
+      "limits": {
+        "c++": {
+          "time": 1,
+          "memory": 32
+        }
+      },
+      "code_templates": {
+        "c++": "#include <iostream>\n\nint main() {\n    // put your code here\n    return 0;\n}"
+      },
+      "code_templates_header_lines_count": {
+        "c++": 0
+      },
+      "code_templates_footer_lines_count": {
+        "c++": 0
+      },
+      "code_templates_options": {},
+      "samples": [
+        [
+          "SOLO",
+          "12"
+        ]
+      ],
+      "is_run_user_code_allowed": false
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "code": "# This is a sample Code Challenge\n# Learn more: https://stepik.org/lesson/9173\n# Ask your questions via support@stepik.org\n\ndef generate():\n    return []\n\ndef check(reply, clue):\n    return reply.strip() == clue.strip()\n\n# def solve(dataset):\n#     a, b = dataset.split()\n#     return str(int(a) + int(b))",
+      "execution_time_limit": 1,
+      "execution_memory_limit": 32,
+      "samples_count": 1,
+      "templates_data": "::c++",
+      "is_time_limit_scaled": false,
+      "is_memory_limit_scaled": false,
+      "is_run_user_code_allowed": false,
+      "manual_time_limits": [],
+      "manual_memory_limits": [],
+      "test_archive": [],
+      "test_cases": [
+        [
+          "SOLO",
+          "12"
+        ],
+        [
+          "AAAAA",
+          "1"
+        ],
+        [
+          "AABBBCCC",
+          "560"
+        ],
+        [
+          "ANAGRAM",
+          "840"
+        ],
+        [
+          "PERMUTATION",
+          "19958400"
+        ],
+        [
+          "claustrophobic",
+          "21794572800"
+        ],
+        [
+          "abcdefghijklmn",
+          "87178291200"
+        ]
+      ],
+      "are_all_tests_run": false,
+      "are_all_tests_scored": false
+    },
+    "subtitles": {},
+    "tests_archive": "/api/step-sources/3446015/tests",
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3446015",
+  "time": "2026-11-22T18:35:40Z"
+}

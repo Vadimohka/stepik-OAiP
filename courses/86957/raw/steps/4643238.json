@@ -1,0 +1,87 @@
+{
+  "id": 4643238,
+  "lesson": 763630,
+  "position": 9,
+  "status": "ready",
+  "block": {
+    "name": "code",
+    "text": "<p>Чтобы получить дип, надо очень постараться. Антоша знает об этом, и поэтому он готовился к олимпиаде очень долго. Однако злые охранники не дают Антоше пройти в здание, где проводится олимпиада и требуют для прохода в здание решить много примеров вида $$A + B - B - A$$ Антоша в недоумении при виде такого примера, так что помогите попасть ему на олимпиаду!</p>\n\n<p>На ввод подаются два числа - A и B.</p>\n\n<p>Выведите ответ на пример.</p>\n\n<p>Заметьте, что задача то реально сложная и решается только на языке <strong>С</strong>.</p>\n\n<p>В тесте 1 легко можно заметить, что ответ на выражение будет ноль.</p>",
+    "video": null,
+    "options": {
+      "execution_time_limit": 1,
+      "execution_memory_limit": 32,
+      "limits": {
+        "c": {
+          "time": 1,
+          "memory": 32
+        }
+      },
+      "code_templates": {
+        "c": "#include <stdio.h>\n\nint main() {\n    // put your code here\n    return 0;\n}"
+      },
+      "code_templates_header_lines_count": {
+        "c": 0
+      },
+      "code_templates_footer_lines_count": {
+        "c": 0
+      },
+      "code_templates_options": {},
+      "samples": [
+        [
+          "14e60 1",
+          "0"
+        ],
+        [
+          "1.7e308 1.7e308",
+          "0"
+        ]
+      ],
+      "is_run_user_code_allowed": false
+    },
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-4643238",
+  "subscriptions": [
+    "31-77-4643238",
+    "30-77-4643238"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 1010,
+  "passed_by": 508,
+  "correct_ratio": 0.18037781840341255,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    1,
+    0,
+    0,
+    0,
+    1
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 4622335,
+  "create_date": "2023-10-26T20:29:25Z",
+  "update_date": "2023-11-02T17:49:11Z",
+  "discussions_count": 6,
+  "discussion_proxy": "77-4643238-1",
+  "discussion_threads": [
+    "77-4643238-1",
+    "77-4643238-2"
+  ]
+}

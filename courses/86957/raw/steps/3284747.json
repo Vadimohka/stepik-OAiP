@@ -1,0 +1,59 @@
+{
+  "id": 3284747,
+  "lesson": 763630,
+  "position": 13,
+  "status": "ready",
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите правильные утвреждения</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3284747",
+  "subscriptions": [
+    "31-77-3284747",
+    "30-77-3284747"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 1037,
+  "passed_by": 621,
+  "correct_ratio": 0.16110969712395012,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3263839,
+  "create_date": "2022-09-12T22:17:51Z",
+  "update_date": "2023-10-26T20:31:46Z",
+  "discussions_count": 4,
+  "discussion_proxy": "77-3284747-1",
+  "discussion_threads": [
+    "77-3284747-1",
+    "77-3284747-2"
+  ]
+}

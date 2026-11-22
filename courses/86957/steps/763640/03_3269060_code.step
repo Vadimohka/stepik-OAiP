@@ -1,0 +1,109 @@
+{
+  "block": {
+    "name": "code",
+    "text": "<p>Даны действительные положительные числа x, y, z. Выяснить, существует ли треугольник с длинами сторон x, y, z.</p>\n\n<p>Формат ввода:</p>\n\n<p>По очереди вводятся X, Y, Z.</p>\n\n<p>Формат вывода:</p>\n\n<p>Если треугольник существует выведите \"YES\", иначе выведите \"NO\".</p>",
+    "video": null,
+    "options": {
+      "execution_time_limit": 1,
+      "execution_memory_limit": 32,
+      "limits": {
+        "c++": {
+          "time": 1,
+          "memory": 32
+        }
+      },
+      "code_templates": {
+        "c++": "#include <iostream>\n\nint main() {\n    // put your code here\n    return 0;\n}"
+      },
+      "code_templates_header_lines_count": {
+        "c++": 0
+      },
+      "code_templates_footer_lines_count": {
+        "c++": 0
+      },
+      "code_templates_options": {},
+      "samples": [
+        [
+          "3 4 5",
+          "YES"
+        ]
+      ],
+      "is_run_user_code_allowed": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "code": "# This is a sample Code Challenge\n# Learn more: https://stepik.org/lesson/9173\n# Ask your questions via support@stepik.org\n\ndef generate():\n    return []\n\ndef check(reply, clue):\n    return reply.strip() == clue.strip()\n\n# def solve(dataset):\n#     a, b = dataset.split()\n#     return str(int(a) + int(b))",
+      "execution_time_limit": 1,
+      "execution_memory_limit": 32,
+      "samples_count": 1,
+      "templates_data": "::c++",
+      "is_time_limit_scaled": true,
+      "is_memory_limit_scaled": true,
+      "is_run_user_code_allowed": true,
+      "manual_time_limits": [],
+      "manual_memory_limits": [],
+      "test_archive": [],
+      "test_cases": [
+        [
+          "3 4 5",
+          "YES"
+        ],
+        [
+          "3426357\n1246\n2146217",
+          "NO"
+        ],
+        [
+          "2 2 4",
+          "NO"
+        ],
+        [
+          "99\n24\n152",
+          "NO"
+        ],
+        [
+          "3 5 7",
+          "YES"
+        ],
+        [
+          "3 3 3",
+          "YES"
+        ],
+        [
+          "6442450935\n6442450935\n6442450935",
+          "YES"
+        ],
+        [
+          "432687326487\n15325\n261642426",
+          "NO"
+        ],
+        [
+          "1359315\n2439692\n3000000",
+          "YES"
+        ],
+        [
+          "1.43816e308 1.43816e308 1.43816e308",
+          "YES"
+        ],
+        [
+          "1.7e308 1.7e308 1.7e308",
+          "YES"
+        ],
+        [
+          "1.7e308 8e307 8e307",
+          "NO"
+        ],
+        [
+          "1.79e308 8.69e307 8.69e307",
+          "NO"
+        ]
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": "/api/step-sources/3269060/tests",
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3269060",
+  "time": "2026-11-22T18:35:40Z"
+}

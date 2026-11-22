@@ -1,0 +1,83 @@
+{
+  "id": 3496704,
+  "lesson": 770594,
+  "position": 14,
+  "status": "ready",
+  "block": {
+    "name": "code",
+    "text": "<p>Пусть S(x) — это сумма цифр числа x, записанного в десятичной системе счисления. Например, S(5)=5, S(10)=1, S(322)=7.</p>\n\n<p>Мы будем называть число xx интересным, если S(x+1)&lt;S(x). В каждом тесте вам будет дано одно число nn. Ваша задача — посчитать количество чисел xx таких, что 1≤x≤n и x — интересное.</p>\n\n<p>Входные данные</p>\n\n<p>Первая строка содержит одно целое число t (1≤t≤1000) — количество наборов входных данных.</p>\n\n<p>Далее следуют t строк, i-я строка содержит одно целое число n (1≤n≤10^9) для i-го набора входных данных.</p>\n\n<p>Выходные данные</p>\n\n<p>Выведите t целых чисел, i-е число должно быть ответом на i-й набор входных данных.</p>",
+    "video": null,
+    "options": {
+      "execution_time_limit": 1,
+      "execution_memory_limit": 32,
+      "limits": {
+        "c++": {
+          "time": 1,
+          "memory": 32
+        }
+      },
+      "code_templates": {
+        "c++": "#include <iostream>\n\nint main() {\n    // put your code here\n    return 0;\n}"
+      },
+      "code_templates_header_lines_count": {
+        "c++": 0
+      },
+      "code_templates_footer_lines_count": {
+        "c++": 0
+      },
+      "code_templates_options": {},
+      "samples": [
+        [
+          "5\n1\n9\n10\n34\n880055535",
+          "0\n1\n1\n3\n88005553"
+        ]
+      ],
+      "is_run_user_code_allowed": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3496704",
+  "subscriptions": [
+    "31-77-3496704",
+    "30-77-3496704"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 544,
+  "passed_by": 311,
+  "correct_ratio": 0.47240915208613726,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3475796,
+  "create_date": "2022-11-29T07:59:43Z",
+  "update_date": "2022-11-29T08:12:52Z",
+  "discussions_count": 2,
+  "discussion_proxy": "77-3496704-1",
+  "discussion_threads": [
+    "77-3496704-1",
+    "77-3496704-2"
+  ]
+}

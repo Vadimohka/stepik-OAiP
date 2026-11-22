@@ -1,0 +1,78 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите верные утверждения.</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 10,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": true,
+          "text": "Содержимое файла может быть некорректно прочитано, если записывался текст используя char а читается - используя wchar.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Содержимое исполняемого файла (.exe), полученного после компиляции может быть прочитано.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Операционная система читает заголовки файла и по ним определяет, что нужно делать с файлом.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "SEEK_SET определяет абсолютную адресацию данных в файле от его начала",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "fopen выводит сообщение в случае ошибки открытия файла",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "fseek устанавливает указатель положения в файле",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Для комбинации флагов в функции fopen можно использовать конструкцию: \"w\" | \"r\"",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Для комбинации флагов в функции fopen можно использовать конструкцию: \"w\" & \"r\"",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Любой разработчик может придумать свой собственный формат файла.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "SEEK_CUR определяет абсолютную адресацию данных в файле от его середины",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3437952",
+  "time": "2026-11-22T18:35:40Z"
+}

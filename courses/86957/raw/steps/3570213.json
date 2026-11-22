@@ -1,0 +1,54 @@
+{
+  "id": 3570213,
+  "lesson": 853537,
+  "position": 2,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<h3>Реализация</h3>\n\n<p>Для реализации аналога <code>weak_ptr</code>, за основу можно взять класс <code>shared_ptr</code>.</p>\n\n<p>1.     Необходимо добавить блок управления, а именно счетчик ссылок на выделенную память. К примеру: int* m_references_count; Этот указатель далее можно передавать при копировании, инкрементируя его.</p>\n\n<p>2.     Можно снова разрешить конструкторы копирования, которые будут выполнять поверхностное копирование, а после инкрементировать счетчик.</p>\n\n<p>3.     При вызове деструктора, или при копировании поверх уже имеющихся данных, вызывается функция удаления, которая декрементирует счетчик, и удаляет значения и сам счетчик, если количество ссылок нулевое.</p>\n\n<p>4.     Теперь надо реализовать класс weak_ptr и подружить наши классы. Для этого надо перед определением классов, добавить определение другого без реализации.</p>\n\n<pre><code class=\"language-cpp\">template&lt;class T&gt;\nclass shared_ptr;\n\ntemplate&lt;class T&gt;\nclass weak_ptr {\n    T* m_ptr;\n    int* m_references_count;\n\n    friend class shared_ptr&lt;T&gt;;\n...</code></pre>\n\n<pre><code class=\"language-cpp\">template&lt;class T&gt;\nclass weak_ptr;\n\ntemplate&lt;class T&gt;\nclass shared_ptr {\n    T* mptr;\n    int* m_ references_count;\n\n    friend class weak_ptr&lt;T&gt;;\n...</code></pre>\n\n<p>5.     Класс <code>weak_ptr </code>не имеет переопределенных операторов разыменовывания, а так же в нем не вызывается функция удаления, т.к он является не владеющим.</p>\n\n<p>6.     В обоих классах необходимо реализовать конструкторы копирования, и операторы присваивания копированием, принимающими в качестве аргумента своего друга.</p>\n\n<pre><code class=\"language-cpp\">shared_ptr(weak_ptr&lt;T&gt;&amp; x);\n\nshared_ptr&amp; operator=(weak_ptr&lt;T&gt;&amp; x)\n\nweak_ptr(shared_ptr&lt;T&gt;&amp; x)\n\nweak_ptr&amp; operator=(shared_ptr&lt;T&gt;&amp; x)</code></pre>\n\n<p>7.     Осталось реализовать метод <code>lock()</code> для <code>weak_ptr</code>, который будет возвращать <code>shared_ptr</code>, из которого уже можно обращаться к данным.</p>\n\n<pre><code class=\"language-cpp\">shared_ptr&lt;T&gt; lock() {\n    return shared_ptr&lt;T&gt;(*this);\n}</code></pre>\n\n<p>8.     Для удобства можно сделать метод сравнивающий два объекта, к примеру:</p>\n\n<pre><code class=\"language-cpp\">bool equals(weak_ptr ptr) {\n    return m_ptr == ptr.m_ptr;\n}</code></pre>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3570213",
+  "subscriptions": [
+    "31-77-3570213",
+    "30-77-3570213"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 388,
+  "passed_by": 388,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3549305,
+  "create_date": "2022-12-16T20:57:04Z",
+  "update_date": "2023-05-02T20:58:16Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3570213-1",
+  "discussion_threads": [
+    "77-3570213-1"
+  ]
+}

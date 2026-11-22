@@ -1,0 +1,67 @@
+{
+  "id": 3214973,
+  "lesson": 770591,
+  "position": 2,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<h3>Области видимости переменных в функциях</h3>\n\n<p>Всё, что происходит в функции, в ней же и остаётся. То есть функции могут работать только с теми значениями, которые в них передали:</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n\nvoid printHello() {\n    //Переменная name объявлена в другой функции, поэтому у printHello() нет к ней доступа\n    //Запуск такого кода приведёт к ошибке\n    std::cout &lt;&lt; \"Hello, \" &lt;&lt; name &lt;&lt; \"!\\n\";\n}\n\nint main() {\n    std::string name = \"Igor\";\n    printHello(); \n    return 0;\n}</code></pre>\n\n<p>Если переменная создаётся внутри какого-либо блока {}, то она будет доступна только в этом и во всех вложенных блоках; такие переменные называются <strong>локальными.</strong></p>\n\n<p>Если вы хотите, чтобы какая-нибудь переменная была доступна везде, то её нужно объявить за пределами каких-либо блоков; такие переменные называются <strong>глобальными:</strong></p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n\n//Глобальные переменные создаются вне функций\nstd::string name;\n\nvoid printHello() {\n    std::cout &lt;&lt; \"Hello, \" &lt;&lt; name &lt;&lt; \"!\\n\";\n}\n\nint main() {\n    name = \"Igor\";\n    printHello(); \n    return 0;\n}</code></pre>\n\n<p>Однако использовать глобальные переменные не рекомендуется, потому что вам будет сложно отслеживать изменения и влиять на результат работы программы. Единственное исключение — это константы, которые нужно делать глобальными, потому что они не меняются.</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3214973",
+  "subscriptions": [
+    "31-77-3214973",
+    "30-77-3214973"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 694,
+  "passed_by": 694,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3194065,
+  "create_date": "2022-08-18T17:16:09Z",
+  "update_date": "2023-05-02T20:24:01Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3214973-1",
+  "discussion_threads": [
+    "77-3214973-1"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 0
+}

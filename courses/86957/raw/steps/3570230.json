@@ -1,0 +1,54 @@
+{
+  "id": 3570230,
+  "lesson": 853539,
+  "position": 2,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<h2>Бинарное дерево поиска</h2>\n\n<p>Бинарное дерево поиска - это особый тип бинарного дерева, в котором каждый узел имеет не более двух потомков, и выполняются дополнительные условия:</p>\n\n<ul>\n\t<li>оба поддерева, как левое, так и правое, также являются бинарными деревьями поиска;</li>\n\t<li>значения ключей данных всех узлов в левом поддереве произвольного узла X меньше, чем значение ключа данных самого узла X;</li>\n\t<li>значения ключей данных всех узлов в правом поддереве произвольного узла X не меньше, чем значение ключа данных самого узла X.</li>\n</ul>\n\n<p>Для каждого узла в дереве должны быть определены ключи данных, по которым возможно выполнение операции сравнения меньше.</p>\n\n<p>Определение узла(ноды):</p>\n\n<pre><code class=\"language-cpp\">struct Node {\n\n    Node(int nKey, std::string nValue);\n\n    Node();\n\n    shared_ptr&lt;Node&gt; newNode(int nKey, std::string nValue);\n\n    shared_ptr&lt;Node&gt; left, right;\n\n    int key;\n\n    std::string value;\n};</code></pre>\n\n<p>Добавление узла(ноды):</p>\n\n<pre><code class=\"language-cpp\">shared_ptr&lt;::Node&gt; insert(shared_ptr&lt;Node&gt; node, int key, str value) {\n    if (!node)\n        return(newNode(key, value));\n\n    if (key &lt; node-&gt;key) {\n        node-&gt;left = insert(node-&gt;left, key, value);\n        return node;\n    }\n    else if (key &gt; node-&gt;key) {\n        node-&gt;right = insert(node-&gt;right, key, value);\n        return node;\n    }\n    else { // Одинаковые ключи не допускаются\n        return node;\n    }\n}</code></pre>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3570230",
+  "subscriptions": [
+    "31-77-3570230",
+    "30-77-3570230"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 496,
+  "passed_by": 496,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3549322,
+  "create_date": "2022-12-16T21:06:49Z",
+  "update_date": "2023-05-07T10:20:16Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3570230-1",
+  "discussion_threads": [
+    "77-3570230-1"
+  ]
+}

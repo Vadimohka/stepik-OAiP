@@ -1,0 +1,80 @@
+{
+  "id": 770586,
+  "steps": [
+    3212945,
+    3212995,
+    3213003,
+    3213004,
+    3438842,
+    3438841,
+    3428704,
+    3428716,
+    3428748,
+    3428774,
+    3428845,
+    4700496,
+    4717730,
+    4717764,
+    4718105,
+    4718192
+  ],
+  "actions": {
+    "learn_lesson": "#",
+    "assist_lesson": "#",
+    "view_all_submissions": "#",
+    "edit_lesson": "#",
+    "view_statistics": "#",
+    "attachments": "/lesson/770586/attachments/",
+    "clone_lesson": "/lesson/770586/clone/",
+    "admin_lesson": "#",
+    "edit_permissions": "/lesson/770586/permissions/",
+    "delete_lesson": "#"
+  },
+  "progress": "76-770586",
+  "subscriptions": [
+    "31-76-770586",
+    "30-76-770586"
+  ],
+  "viewed_by": 918,
+  "passed_by": 214,
+  "time_to_complete": 1013,
+  "cover_url": "https://ucarecdn.stepik.net/d5023f9d-7860-4bd4-95f4-62d68520dfc7/-/scale_crop/180x180/center/",
+  "is_comments_enabled": true,
+  "is_exam_without_progress": false,
+  "is_blank": false,
+  "is_draft": false,
+  "is_orphaned": false,
+  "courses": [
+    86957
+  ],
+  "units": [
+    773027
+  ],
+  "owner": 296085237,
+  "language": "ru",
+  "is_featured": false,
+  "is_public": true,
+  "canonical_url": "https://stepik.org/lesson/770586/",
+  "title": "Взаимодействие указателей и массивов",
+  "slug": "Взаимодействие-указателей-и-массивов-770586",
+  "create_date": "2022-08-17T16:25:05Z",
+  "update_date": "2024-01-02T18:41:34Z",
+  "learners_group": 5116703,
+  "testers_group": 5116704,
+  "moderators_group": 5116705,
+  "assistants_group": 5116706,
+  "teachers_group": 5116701,
+  "admins_group": 5116702,
+  "discussions_count": 15,
+  "discussion_proxy": "76-770586-1",
+  "discussion_threads": [
+    "76-770586-1"
+  ],
+  "epic_count": 15,
+  "abuse_count": 7,
+  "vote_delta": 8,
+  "vote": null,
+  "lti_consumer_key": "",
+  "lti_secret_key": "",
+  "lti_private_profile": false
+}

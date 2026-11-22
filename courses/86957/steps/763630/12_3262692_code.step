@@ -1,0 +1,81 @@
+{
+  "block": {
+    "name": "code",
+    "text": "<p>Определить расстояние, пройденное физическим телом за время t, если тело движется с постоянным ускорением а и имеет в начальный момент времени скорость V0.</p>\n\n<p>Формат ввода:</p>\n\n<p>Сначала вводится ускорение а, потом время t и начальную скорость V0.</p>\n\n<p>Используйте библиотеку <code>&lt;iomanip&gt;</code> и функцию <code>setprecision(20)</code>.</p>",
+    "video": null,
+    "options": {
+      "execution_time_limit": 1,
+      "execution_memory_limit": 32,
+      "limits": {
+        "c++": {
+          "time": 1,
+          "memory": 32
+        }
+      },
+      "code_templates": {
+        "c++": "#include <iostream>\n\nint main() {\n    // put your code here\n    return 0;\n}"
+      },
+      "code_templates_header_lines_count": {
+        "c++": 0
+      },
+      "code_templates_footer_lines_count": {
+        "c++": 0
+      },
+      "code_templates_options": {},
+      "samples": [
+        [
+          "43\n235215125\n23",
+          "1189512338528408812.5"
+        ],
+        [
+          "0.125135\n0.3152525325\n135235",
+          "42633.182450855883729"
+        ]
+      ],
+      "is_run_user_code_allowed": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "code": "# This is a sample Code Challenge\n# Learn more: https://stepik.org/lesson/9173\n# Ask your questions via support@stepik.org\n\ndef generate():\n    return []\n\ndef check(reply, clue):\n    return reply.strip() == clue.strip()\n\n# def solve(dataset):\n#     a, b = dataset.split()\n#     return str(int(a) + int(b))",
+      "execution_time_limit": 1,
+      "execution_memory_limit": 32,
+      "samples_count": 2,
+      "templates_data": "::c++",
+      "is_time_limit_scaled": true,
+      "is_memory_limit_scaled": true,
+      "is_run_user_code_allowed": true,
+      "manual_time_limits": [],
+      "manual_memory_limits": [],
+      "test_archive": [],
+      "test_cases": [
+        [
+          "43\n235215125\n23",
+          "1189512338528408812.5"
+        ],
+        [
+          "0.125135\n0.3152525325\n135235",
+          "42633.182450855883729"
+        ],
+        [
+          "0.12415\n0.51251351\n0.51515251525",
+          "0.28032787010526721269"
+        ],
+        [
+          "0.0000000000000000124\n0.000000000000124124\n0.01241012424214",
+          "1.5403942614313853601e-15"
+        ],
+        [
+          "-1.2e308 2 1.2e308",
+          "0"
+        ]
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": "/api/step-sources/3262692/tests",
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3262692",
+  "time": "2026-11-22T18:35:40Z"
+}

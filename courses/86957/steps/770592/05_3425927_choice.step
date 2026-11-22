@@ -1,0 +1,78 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите верные утверждения.</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 10,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": true,
+          "text": "Память под локальные переменные функции выделяется при начале выполнения этой функции.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Память под глобальные переменные выделяется при первом обращении к этой переменной.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Статические локальные переменные инициализируются при первом обращении к функции в которой они определены.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Память под глобальные переменные выделяется до начала выполнения функции main.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Статические локальные переменные инициализируются каждый раз при вызове функции в которой они определены.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Глобальные переменные инициализируются в порядке их определения.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Использовать глобальные переменные в инициализации других глобальных переменных - нормальная практика.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Указание глобальной переменной как const влечет за собой так же extern. ",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Указание глобальной переменной как extern влечет за собой так же const.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Параметры функции инициализируются своими аргументами в порядке указанном в прототипе функции.",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3425927",
+  "time": "2026-11-22T18:35:40Z"
+}

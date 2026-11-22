@@ -1,0 +1,83 @@
+{
+  "id": 3281287,
+  "lesson": 763640,
+  "position": 8,
+  "status": "ready",
+  "block": {
+    "name": "code",
+    "text": "<p>Для целочисленного числа К напечатать фразу \"Мы нашли К грибов в лесу\", согласовав окончание слова \"гриб\" с числом К.</p>",
+    "video": null,
+    "options": {
+      "execution_time_limit": 5,
+      "execution_memory_limit": 256,
+      "limits": {
+        "c++": {
+          "time": 5,
+          "memory": 256
+        }
+      },
+      "code_templates": {
+        "c++": "#include <iostream>\n\nint main() {\n    // put your code here\n    return 0;\n}"
+      },
+      "code_templates_header_lines_count": {
+        "c++": 0
+      },
+      "code_templates_footer_lines_count": {
+        "c++": 0
+      },
+      "code_templates_options": {},
+      "samples": [
+        [
+          "15",
+          "Мы нашли 15 грибов в лесу"
+        ]
+      ],
+      "is_run_user_code_allowed": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3281287",
+  "subscriptions": [
+    "31-77-3281287",
+    "30-77-3281287"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 760,
+  "passed_by": 538,
+  "correct_ratio": 0.14314606741573033,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3260379,
+  "create_date": "2022-09-11T18:11:57Z",
+  "update_date": "2022-09-14T20:36:04Z",
+  "discussions_count": 5,
+  "discussion_proxy": "77-3281287-1",
+  "discussion_threads": [
+    "77-3281287-1",
+    "77-3281287-2"
+  ]
+}

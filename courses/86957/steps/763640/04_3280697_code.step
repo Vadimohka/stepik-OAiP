@@ -1,0 +1,81 @@
+{
+  "block": {
+    "name": "code",
+    "text": "<p>Меньшее из двух значений переменных целого типа Х и Y заменить нулём, а в случае их равенства - заменить нулями оба; наибольшее из трёх различных значений переменных вещественного типа А, В и С уменьшите на K. K вводится с клавиатуры.</p>\n\n<p>Входные данные не более чем размер long long int в языке С++.</p>\n\n<p>Выведите X, Y, A, B, C.</p>",
+    "video": null,
+    "options": {
+      "execution_time_limit": 5,
+      "execution_memory_limit": 256,
+      "limits": {
+        "c++": {
+          "time": 5,
+          "memory": 256
+        }
+      },
+      "code_templates": {
+        "c++": ""
+      },
+      "code_templates_header_lines_count": {
+        "c++": 0
+      },
+      "code_templates_footer_lines_count": {
+        "c++": 0
+      },
+      "code_templates_options": {},
+      "samples": [
+        [
+          "0 0\n1 2 3 4",
+          "0 0\n1 2 -1"
+        ]
+      ],
+      "is_run_user_code_allowed": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "code": "# This is a sample Code Challenge\n# Learn more: https://stepik.org/lesson/9173\n# Ask your questions via support@stepik.org\n\ndef generate():\n    return []\n\ndef check(reply, clue):\n    return reply.strip() == clue.strip()\n\n# def solve(dataset):\n#     a, b = dataset.split()\n#     return str(int(a) + int(b))",
+      "execution_time_limit": 5,
+      "execution_memory_limit": 256,
+      "samples_count": 1,
+      "templates_data": "::c++\n        \n\n\n\n",
+      "is_time_limit_scaled": true,
+      "is_memory_limit_scaled": true,
+      "is_run_user_code_allowed": true,
+      "manual_time_limits": [],
+      "manual_memory_limits": [],
+      "test_archive": [],
+      "test_cases": [
+        [
+          "0 0\n1 2 3 4",
+          "0 0\n1 2 -1"
+        ],
+        [
+          "-10 10\n0 0 0 0",
+          "0 10\n0 0 0"
+        ],
+        [
+          "50 0\n-10 4 2 50",
+          "50 0\n-10 -46 2"
+        ],
+        [
+          "-40 40\n4 9 2 0",
+          "0 40\n4 9 2"
+        ],
+        [
+          "3000000000 -3\n3000000000 2 3 4",
+          "3000000000 0\n3e+09 2 3"
+        ],
+        [
+          "0 -0\n-3000000000 -3000000001 -3000000002 -3000000000",
+          "0 0\n0 -3e+09 -3e+09"
+        ]
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": "/api/step-sources/3280697/tests",
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3280697",
+  "time": "2026-11-22T18:35:40Z"
+}

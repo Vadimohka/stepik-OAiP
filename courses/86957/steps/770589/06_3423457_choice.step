@@ -1,0 +1,78 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите верные утверждения.</p>\n\n<p>Программа 1.</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;string&gt;\n\nconst char* printer() {\n    std::string s1 = \"aboba\";\n\n    std::cout &lt;&lt; s1 &lt;&lt; '\\n';\n\n    return s1.c_str();\n}\n\nint main() {\n    const char* s1 = printer();\n    std::cout &lt;&lt; s1 &lt;&lt; '\\n';\n\n    return 0;\n}\n\n</code></pre>\n\n<p>Программа 2.</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;string&gt;\n\nvoid stringIntPrinter(const std::string&amp; s) {\n    for (int i = 0; i &lt; s.length() - 1; i++) {\n        std::cout &lt;&lt; static_cast&lt;int&gt;(s[i]) &lt;&lt; ' ';\n    }\n    std::cout &lt;&lt; '\\n';\n}\n\nint main() {\n    std::string s0, s1 = \"Hello\";\n    stringIntPrinter(s1);\n    stringIntPrinter(s0);\n\n    return 0;\n}\n\n</code></pre>\n\n<p>Программа 3.</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;string&gt;\n\nint main() {\n    std::string s0 = \"a\", s1 = \"boba\";\n    s0 = s0 + s1;\n    std::cout &lt;&lt; s0;\n\n    return 0;\n}\n\n</code></pre>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 10,
+      "preserve_order": true,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "Программа 1 корректна.",
+          "feedback": "подробнее ознакомьтесь, что возвращает c_str"
+        },
+        {
+          "is_correct": true,
+          "text": "Программа 1 некорректна. UB - вернули указатель на освобожденную память.",
+          "feedback": "подробнее ознакомьтесь, что возвращает c_str"
+        },
+        {
+          "is_correct": false,
+          "text": "Программа 1 некорректна. Забыли про нуль-символ '\\0'.",
+          "feedback": "подробнее ознакомьтесь, что возвращает c_str"
+        },
+        {
+          "is_correct": false,
+          "text": "Программа 2 корректна. Два раза будет выведено численное представление \"Hello\".",
+          "feedback": "почитайте про инициализацию string"
+        },
+        {
+          "is_correct": false,
+          "text": "Программа 2 корректна. Будет выведено численное представление \"Hello\" и 0.",
+          "feedback": "почитайте про перегрузку [] в string"
+        },
+        {
+          "is_correct": false,
+          "text": "Программа 2 некорректна. Оператор [] выбросит исключение, index out of range.",
+          "feedback": "почитайте про перегрузку [] в string"
+        },
+        {
+          "is_correct": true,
+          "text": "Программа 2 некорректна. UB из-за доступа к не выделенной памяти (SIGSEGV, например).",
+          "feedback": "почитайте про перегрузку [] в string"
+        },
+        {
+          "is_correct": true,
+          "text": "Программа 3 корректна. Выведет \"aboba\".",
+          "feedback": "перегрузки операторов для string, ознакомьтесь"
+        },
+        {
+          "is_correct": false,
+          "text": "Программа 3 некорректна. У строк нет перегрузки +, нужно использовать strcat.",
+          "feedback": "перегрузки операторов для string, ознакомьтесь"
+        },
+        {
+          "is_correct": true,
+          "text": "size и length идентичны (synonyms)",
+          "feedback": "почитайте про size и length"
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3423457",
+  "time": "2026-11-22T18:35:40Z"
+}

@@ -1,0 +1,59 @@
+{
+  "id": 4717685,
+  "lesson": 768143,
+  "position": 8,
+  "status": "ready",
+  "block": {
+    "name": "choice",
+    "text": "<p>Какое правильное значение должно быть возвращено операционной системе после успешного завершения программы?</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-4717685",
+  "subscriptions": [
+    "31-77-4717685",
+    "30-77-4717685"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 786,
+  "passed_by": 688,
+  "correct_ratio": 0.717391304347826,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    1,
+    0,
+    2
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 4696782,
+  "create_date": "2023-11-13T16:33:38Z",
+  "update_date": "2023-11-13T16:33:38Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-4717685-1",
+  "discussion_threads": [
+    "77-4717685-1",
+    "77-4717685-2"
+  ]
+}

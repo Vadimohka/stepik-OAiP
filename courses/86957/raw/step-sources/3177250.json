@@ -1,0 +1,67 @@
+{
+  "id": 3177250,
+  "lesson": 763038,
+  "position": 7,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<h3><strong>Этап компоновки (линковки)</strong></h3>\n\n<ul>\n\t<li>На этом этапе все объектные файлы объединяются в один исполняемый (или библиотечный) файл</li>\n\t<li>При этом происходит подстановка адресов функций в места их вызова</li>\n\t<li>По каждому объектному файлу строится таблица всех функций, которые в нём определены</li>\n\t<li>На этапе компоновки важно, что каждая функция имеет уникальное имя</li>\n\t<li>В C++ может быть две функции с одним именем, но разными параметрами</li>\n\t<li>Имена функций искажаются таким образом, что в их имени кодируются их параметры</li>\n\t<li>Аналогично функциям в линковке нуждаются глобальные переменные</li>\n\t<li>Точка входа — функция, вызываемая при запуске программы. По умолчанию — это функция main:</li>\n</ul>\n\n<pre><code>int main () {\n   return 0;\n}\n</code></pre>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3177250",
+  "subscriptions": [
+    "31-77-3177250",
+    "30-77-3177250"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 1479,
+  "passed_by": 1479,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    1,
+    0,
+    0,
+    0,
+    1
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3156342,
+  "create_date": "2022-08-01T14:58:02Z",
+  "update_date": "2023-11-13T16:29:39Z",
+  "discussions_count": 1,
+  "discussion_proxy": "77-3177250-1",
+  "discussion_threads": [
+    "77-3177250-1"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 0
+}

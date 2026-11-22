@@ -1,0 +1,48 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите правильные утвреждения</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 4,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "Литерал является переменной",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Значение литерала может хранится в переменной",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Константные переменные статичны",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Ключевое слово static делает переменную константной",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3262719",
+  "time": "2026-11-22T18:35:40Z"
+}

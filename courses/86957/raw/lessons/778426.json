@@ -1,0 +1,74 @@
+{
+  "id": 778426,
+  "steps": [
+    3251322,
+    3253129,
+    3253164,
+    3253429,
+    3253503,
+    3253548,
+    3253553,
+    4718068,
+    3253557,
+    4927308
+  ],
+  "actions": {
+    "learn_lesson": "#",
+    "assist_lesson": "#",
+    "view_all_submissions": "#",
+    "edit_lesson": "#",
+    "view_statistics": "#",
+    "attachments": "/lesson/778426/attachments/",
+    "clone_lesson": "/lesson/778426/clone/",
+    "admin_lesson": "#",
+    "edit_permissions": "/lesson/778426/permissions/",
+    "delete_lesson": "#"
+  },
+  "progress": "76-778426",
+  "subscriptions": [
+    "31-76-778426",
+    "30-76-778426"
+  ],
+  "viewed_by": 959,
+  "passed_by": 192,
+  "time_to_complete": 1129,
+  "cover_url": "https://ucarecdn.stepik.net/b0050dc8-9d54-4459-bf90-338fd42179bc/-/scale_crop/180x180/center/",
+  "is_comments_enabled": true,
+  "is_exam_without_progress": false,
+  "is_blank": false,
+  "is_draft": false,
+  "is_orphaned": false,
+  "courses": [
+    86957
+  ],
+  "units": [
+    780910
+  ],
+  "owner": 296085237,
+  "language": "ru",
+  "is_featured": false,
+  "is_public": true,
+  "canonical_url": "https://stepik.org/lesson/778426/",
+  "title": "Unit тесты в С++",
+  "slug": "Unit-тесты-в-С++-778426",
+  "create_date": "2022-08-31T17:06:17Z",
+  "update_date": "2024-01-02T14:51:02Z",
+  "learners_group": 5166306,
+  "testers_group": 5166307,
+  "moderators_group": 5166308,
+  "assistants_group": 5166309,
+  "teachers_group": 5166304,
+  "admins_group": 5166305,
+  "discussions_count": 8,
+  "discussion_proxy": "76-778426-1",
+  "discussion_threads": [
+    "76-778426-1"
+  ],
+  "epic_count": 13,
+  "abuse_count": 6,
+  "vote_delta": 7,
+  "vote": null,
+  "lti_consumer_key": "",
+  "lti_secret_key": "",
+  "lti_private_profile": false
+}

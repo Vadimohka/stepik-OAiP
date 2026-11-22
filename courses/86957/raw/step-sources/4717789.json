@@ -1,0 +1,101 @@
+{
+  "id": 4717789,
+  "lesson": 877083,
+  "position": 8,
+  "status": "ready",
+  "block": {
+    "name": "choice",
+    "text": "<p>Какой класс имеет только одно уникальное значение для всех объектов класса?</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": false
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": false,
+      "is_always_correct": false,
+      "sample_size": 4,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "this",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "static",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "friend",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Ничего из перечисленного",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-4717789",
+  "subscriptions": [
+    "31-77-4717789",
+    "30-77-4717789"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 303,
+  "passed_by": 275,
+  "correct_ratio": 0.6146993318485523,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 4696886,
+  "create_date": "2023-11-13T17:05:42Z",
+  "update_date": "2023-11-13T17:05:42Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-4717789-1",
+  "discussion_threads": [
+    "77-4717789-1",
+    "77-4717789-2"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 1
+}

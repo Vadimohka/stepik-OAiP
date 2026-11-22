@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Пример отображения функций в блок-схеме</h3>\n\n<p>В данном примере функция вызывает функцию, что усложняет программу, однако не усложняет её \"читаемость\" для программистов благодаря отсутствию самокопирования кода.</p>\n\n<p><img alt=\"\" height=\"476\" name=\"image.png\" src=\"https://ucarecdn.stepik.net/405d52c9-d34c-4d9a-a50d-255ac2dfa46c/\" width=\"654\"></p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3201341",
+  "time": "2026-11-22T18:35:40Z"
+}

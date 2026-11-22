@@ -1,0 +1,73 @@
+{
+  "block": {
+    "name": "code",
+    "text": "<p>На вход даны а1 и a100, первый и сотый член арифметической прогрессии. Необходимо вычислить:</p>\n\n<ol>\n\t<li>Разность арифметической прогрессии.</li>\n\t<li>Сумму первых 70 членов арифметической прогрессии.</li>\n</ol>\n\n<p>Формат ввода:</p>\n\n<p>В первых двух строках вводятся первый и сотый член арифметической прогрессии.</p>\n\n<p>Формат вывода:</p>\n\n<p>В первой строку выведите разность арифметической прогрессии, во второй строке сумму первых 70 членов арифметической прогрессии.</p>\n\n<p>Используйте библиотеку <code>&lt;iomanip&gt;</code> и функцию <code>setprecision(10)</code>. </p>",
+    "video": null,
+    "options": {
+      "execution_time_limit": 5,
+      "execution_memory_limit": 256,
+      "limits": {
+        "c++": {
+          "time": 5,
+          "memory": 256
+        }
+      },
+      "code_templates": {
+        "c++": "#include <iostream>\n\nint main() {\n    // put your code here\n    return 0;\n}"
+      },
+      "code_templates_header_lines_count": {
+        "c++": 0
+      },
+      "code_templates_footer_lines_count": {
+        "c++": 0
+      },
+      "code_templates_options": {},
+      "samples": [
+        [
+          "1\n100",
+          "1\n2485"
+        ]
+      ],
+      "is_run_user_code_allowed": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "code": "# This is a sample Code Challenge\n# Learn more: https://stepik.org/lesson/9173\n# Ask your questions via support@stepik.org\n\ndef generate():\n    return []\n\ndef check(reply, clue):\n    return reply.strip() == clue.strip()\n\n# def solve(dataset):\n#     a, b = dataset.split()\n#     return str(int(a) + int(b))",
+      "execution_time_limit": 5,
+      "execution_memory_limit": 256,
+      "samples_count": 1,
+      "templates_data": "::c++",
+      "is_time_limit_scaled": true,
+      "is_memory_limit_scaled": true,
+      "is_run_user_code_allowed": true,
+      "manual_time_limits": [],
+      "manual_memory_limits": [],
+      "test_archive": [],
+      "test_cases": [
+        [
+          "1\n100",
+          "1\n2485"
+        ],
+        [
+          "12513535\n135312513551",
+          "1366666667\n3.301375948e+12"
+        ],
+        [
+          "-12515\n-2151351325",
+          "-21730695.05\n-5.24805046e+10"
+        ],
+        [
+          "1\n34",
+          "0.3333333333\n875"
+        ]
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": "/api/step-sources/3262735/tests",
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3262735",
+  "time": "2026-11-22T18:35:40Z"
+}

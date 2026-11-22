@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<p style=\"text-align: center;\"><strong>Реализация некоторых функций хеш-таблицы</strong></p>\n\n<pre><code>HashTable::HashTable(int tableSize) {\n    this-&gt;tableSize = tableSize;\n    this-&gt;tableCount = 0;\n\n    items = new PasswordList*[tableSize];\n\n    for (int i = 0; i &lt; tableSize; i++) {\n        items[i] = new PasswordList;\n    }\n}</code></pre>\n\n<p>В конструктор приходит tableSize, в зависимости от его значения создается то или иное количество списков.</p>\n\n<pre><code>int HashTable::CalculateHash(int ID) {\n    return ID % tableSize;\n}</code></pre>\n\n<p>Функция calculateHash содержит в себе хеш-функцию, которая берет остаток от деления входного параметра, в нашем случае табельный номер пароля, на размер таблицы.</p>\n\n<pre><code>void HashTable::InsertElement(int IDToAdd, std::string descriptionToAdd, std::string passwordToAdd) {\n    if (tableCount == tableSize) {\n        return;\n    }\n\n    int indexToInsert = CalculateHash(IDToAdd);\n\n    PasswordList* passwordList = items[indexToInsert];\n    \n    std::shared_ptr&lt;Password&gt; existingPassword(passwordList-&gt;SearchElementByID(IDToAdd));\n    if (existingPassword) {\n        existingPassword-&gt;SetDescription(descriptionToAdd);\n        existingPassword-&gt;SetPassword(passwordToAdd);\n    } else {\n        if (passwordList-&gt;GetCount() == 0) {\n            this-&gt;tableCount++;\n        }\n        std::shared_ptr&lt;Password&gt; newPassword(new Password(IDToAdd, descriptionToAdd, passwordToAdd));\n        passwordList-&gt;AddElement(newPassword);\n    }\n}</code></pre>\n\n<p> </p>\n\n<p>Функция insertElement получает хеш входящего элемента определяет список, в который подойдет этот элемент, проверяет, нет ли уже точно такого же элемента, если вдруг находит, то изменяет ему значения полей, если же дубликата не нашлось, элемент добавляется в список.</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "4035481",
+  "time": "2026-11-22T18:35:40Z"
+}

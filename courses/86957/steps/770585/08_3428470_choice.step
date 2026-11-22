@@ -1,0 +1,53 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>Дан указатель <code>int* ptr</code>, который хранит в себе адрес  <code>ptr = 0x00001F42</code>.<br>\nВ таком случае, какой вывод будет у следующей программы (<code>sizeof(int) = 4</code>):</p>\n\n<p>int x = 5;<br>\nint* ptr = &amp;x;<br>\nstd::cout &lt;&lt; ptr + 3 &lt;&lt; std::endl;</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": false
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": false,
+      "is_always_correct": false,
+      "sample_size": 5,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "Ничего, произойдёт ошибка времени компиляции",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "00001F45",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "00001F4E",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "8",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Ничего, произойдёт ошибка времени выполнения",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3428470",
+  "time": "2026-11-22T18:35:40Z"
+}

@@ -1,0 +1,124 @@
+{
+  "id": 4738986,
+  "lesson": 770589,
+  "position": 14,
+  "status": "ready",
+  "block": {
+    "name": "code",
+    "text": "<h3>Антоша и сдача сессии на миллион</h3>\n\n<p><br>\nСтудент Антоша собирается сдавать сессию. Учится он в БГУИР - Берляндском государственном унивеситете истории и рисования, а как мы все знаем, система сдачи сессии там немного странная.<br>\nНачнём с того, что в БГУИР есть $n$ преподавателей, каждый из которых принимает зачёт по предмету и перенаправляет к определённому преподавателю для сдачи следующего зачёта. Чтобы сдать сессию в БГУИР, надо посетить ровно $m$(не обязательно разных) преподавателей.<br>\nАнтоша очень боится за своё психическое здоровье, поэтому он придумал коэффициент стресса - целое число от 1 до 3 - которое показывает уровень стресса Антоши. Антоша заранее знает свой уровень стресса после сдачи зачёта у $i$-того преподавателя. По ходу сдачи сессии уровень стресса у Антоши меняется, и в целях сбора информации Антоша записывает свой уровень стресса в блокнотик. В конце сдачи сессии у него в блокнотике будет строка, состоящая из чисел от 1 до 3, $i$-тое из которых будет обозначать уровень стресса Антоши после сдачи зачёта $i$-тому преподавателю.<br>\nЗаметим, что в зависимости от выбора преподавателя, с которого Антоша начнёт сдавать сессию, в блокнотике могут получится совсем разные строки.<br>\nАнтоша за день до сдачи сессии сходил к гадалке(так, на всякий) и она ему сказала, что если из всех возможных строк, которые могут получиться в конце сессии, у него получится строка, стоящая в лексикографически сортированном списке всех этих $n$ возможных строк на позиции $k$, то он станет миллионером. Помогите Антоше узнать строку, которая сделает его миллионером!</p>\n\n<h4>Формат входных данных</h4>\n\n<p>Первая строка входного файла содержит три целых числа $n, m, k (1 \\le k \\le n \\le 100 000, 1 \\le m \\le 100 000)$ -- количество преподавателей, количество преподавателей, которых надо посетить для сдачи сессии, и номер строки в списке. Числа в строке разделены пробелом.<br>\nКаждая из $n$ последующих строк содержит числа $Qp$ и $Cp (1 \\le Qp \\le n, 1 \\le Cp \\le 3)$. Число $Qp$ в $i$-той строке значит, что $i$-тый преподаватель направит студента к преподавателю $Qp$, а число Сp  в $i$-той строке значит, что после $i$-того преподавателя у Антоши будет уровень стресса $Cp$.</p>\n\n<h4>Формат выходных данных</h4>\n\n<p>Выведите строку на миллион!</p>",
+    "video": null,
+    "options": {
+      "execution_time_limit": 1,
+      "execution_memory_limit": 256,
+      "limits": {
+        "c++": {
+          "time": 1,
+          "memory": 256
+        }
+      },
+      "code_templates": {
+        "c++": ""
+      },
+      "code_templates_header_lines_count": {
+        "c++": 0
+      },
+      "code_templates_footer_lines_count": {
+        "c++": 0
+      },
+      "code_templates_options": {},
+      "samples": [
+        [
+          "5 7 3\n2 1\n3 2\n4 1\n1 3\n3 1",
+          "1312131"
+        ],
+        [
+          "3 4 2\n1 3\n2 2\n3 1",
+          "2222"
+        ]
+      ],
+      "is_run_user_code_allowed": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "code": "import random\n\ndef generate():\n    num_tests_rand = 3\n    tests = []\n    for test in range(num_tests_rand):\n        n = 100000\n        m = 100000\n        k = 50000\n        test_case = \"{} {} {}\\n\".format(n, m, k)\n        for prof in range(n):\n            to = random.randrange(1, 100000)\n            color = random.randrange(1, 3)\n            test_case += \"{} {}\\n\".format(to, color)\n        tests.append(test_case)\n    \n    n = 100000\n    m = 100000\n    k = 54321\n    test_case = \"{} {} {}\\n\".format(n, m, k)\n    for prof in range(n - 1):\n        to = prof + 2\n        color = 1\n        test_case += \"{} {}\\n\".format(to, color)\n    to = n\n    color = 2\n    test_case += \"{} {}\\n\".format(to, color)\n    tests.append(test_case)\n    \n    n = 100000\n    m = 100000\n    k = 54321\n    test_case = \"{} {} {}\\n\".format(n, m, k)\n    for prof in range(n - 1):\n        to = prof + 2\n        color = 3\n        test_case += \"{} {}\\n\".format(to, color)\n    to = n\n    color = 1\n    test_case += \"{} {}\\n\".format(to, color)\n    tests.append(test_case)\n   \n    return tests\n\ndef solve(dataset):\n    test = list(map(int, dataset.split()))\n\n    n = test[0]\n    m = test[1]\n    k = test[2]\n\n    up = [[0]*20 for _ in range(100005)]\n    color = [0]*100005\n    place = [0]*100005\n    q = []\n\n    for i in range(n):\n        up[i][0] = i\n        up[i][1], color[i] = test[2 * (i + 1) + 1], test[2 * (i + 1) + 2]\n        up[i][1] -= 1\n        q.append((color[i], i))\n\n    q.sort()\n\n    for i in range(1, 19):\n        for j in range(n):\n            if j == 0:\n                place[q[j][1]] = 1\n            elif q[j][0] == q[j-1][0]:\n                place[q[j][1]] = place[q[j-1][1]]\n            else:\n                place[q[j][1]] = place[q[j-1][1]] + 1\n\n            next = up[j][i]\n            up[j][i+1] = up[next][i]\n\n        q.clear()\n        mln = 10000000\n        for j in range(n):\n            q.append((mln*place[j] + place[up[j][i]], j))\n\n        q.sort()\n\n    curr = q[k-1][1]\n    s = \"\"\n    for i in range(m):\n        s += str(color[curr])\n        curr = up[curr][1]\n        \n    return s\n\ndef check(reply, clue):\n    reply, clue = str(reply), str(clue)\n    if reply == clue:\n        return True\n    feedback = \"Incorrect output\"\n    return False, feedback\n",
+      "execution_time_limit": 1,
+      "execution_memory_limit": 256,
+      "samples_count": 2,
+      "templates_data": "::c++\n\n\n\n\n",
+      "is_time_limit_scaled": true,
+      "is_memory_limit_scaled": true,
+      "is_run_user_code_allowed": true,
+      "manual_time_limits": [],
+      "manual_memory_limits": [],
+      "test_archive": [],
+      "test_cases": [
+        [
+          "5 7 3\n2 1\n3 2\n4 1\n1 3\n3 1",
+          "1312131"
+        ],
+        [
+          "3 4 2\n1 3\n2 2\n3 1",
+          "2222"
+        ]
+      ],
+      "are_all_tests_run": false,
+      "are_all_tests_scored": false
+    },
+    "subtitles": {},
+    "tests_archive": "/api/step-sources/4738986/tests",
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-4738986",
+  "subscriptions": [
+    "31-77-4738986",
+    "30-77-4738986"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 439,
+  "passed_by": 36,
+  "correct_ratio": 0.05047619047619047,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 4718083,
+  "create_date": "2023-11-17T18:08:09Z",
+  "update_date": "2023-11-21T18:08:21Z",
+  "discussions_count": 3,
+  "discussion_proxy": "77-4738986-1",
+  "discussion_threads": [
+    "77-4738986-1",
+    "77-4738986-2"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 1
+}

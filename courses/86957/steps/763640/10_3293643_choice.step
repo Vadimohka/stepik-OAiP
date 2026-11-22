@@ -1,0 +1,63 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите верные утверждения.</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 7,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": true,
+          "text": "If без фигурных скобок - корректная конструкция, не рекомендуется использовать.",
+          "feedback": "Фигурные скобки - это хорошо."
+        },
+        {
+          "is_correct": false,
+          "text": "If без фигурных скобок - корректная конструкция, нет причин не использовать.",
+          "feedback": "Фигурные скобки - это хорошо."
+        },
+        {
+          "is_correct": false,
+          "text": "If без фигурных скобок - некорректная конструкция.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "default - обязательная часть switch case.",
+          "feedback": "Лучше лишний раз перестраховаться при использовании switch case."
+        },
+        {
+          "is_correct": true,
+          "text": "default - необязательная часть swith case.",
+          "feedback": "Лучше лишний раз перестраховаться при использовании switch case."
+        },
+        {
+          "is_correct": true,
+          "text": "количество блоков case может быть ограничено.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "количество блоков case не может быть ограничено.",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3293643",
+  "time": "2026-11-22T18:35:40Z"
+}

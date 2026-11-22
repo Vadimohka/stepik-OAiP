@@ -1,0 +1,43 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>// .. корретное выделение памяти .. //<br>\n// ..<br>\nfor (int i = 0; i &lt; 2; ++i){<br>\n    delete mat[i]; <br>\n    mat[i] = nullptr;<br>\n}<br>\ndelete mat;<br>\nmat = nullptr;</p>\n\n<p>Выберите правильное утверждение.</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": false
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": false,
+      "is_always_correct": false,
+      "sample_size": 3,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "Корректное удаление двумерного массива, при условии, что в нем 3 строки",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Корректное удаление двумерного массива, при условии, что в нем 2 строки",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Неверное удаление двумерного массива",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3333775",
+  "time": "2026-11-22T18:35:40Z"
+}

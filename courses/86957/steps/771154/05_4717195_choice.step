@@ -1,0 +1,53 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите правильные утверждения:</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 5,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": true,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "Все программисты должны уметь писать код на язык ассемблер",
+          "feedback": "Нет. Язык ассемблера точно нужно уметь читать опытному программисту и этого почти всегда достаточно."
+        },
+        {
+          "is_correct": false,
+          "text": "Все языки программирования транслируются в ассемблерный код",
+          "feedback": "С++ - да, остальные имеют свой \"байт-код\". К примеру C# проходит через CLR, а Java имеет объектный файл .dex."
+        },
+        {
+          "is_correct": false,
+          "text": "Python - не язык программирования",
+          "feedback": "Это современный язык программирования, который долгие годы идёт к быстродействию и высокоэффективности."
+        },
+        {
+          "is_correct": false,
+          "text": "В языке С++ все компиляторы работают одинаково",
+          "feedback": "К сожалению нет. Почитайте про GNU C++ и MSVC (от майкрофсофт)"
+        },
+        {
+          "is_correct": true,
+          "text": "Язык С++ является одним из самых быстрых языков программирования в мире",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "4717195",
+  "time": "2026-11-22T18:35:40Z"
+}

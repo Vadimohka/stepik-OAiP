@@ -1,0 +1,72 @@
+{
+  "id": 877083,
+  "steps": [
+    3668927,
+    3669140,
+    3669142,
+    3669156,
+    3669173,
+    3669172,
+    4717766,
+    4717789
+  ],
+  "actions": {
+    "learn_lesson": "#",
+    "assist_lesson": "#",
+    "view_all_submissions": "#",
+    "edit_lesson": "#",
+    "view_statistics": "#",
+    "attachments": "/lesson/877083/attachments/",
+    "clone_lesson": "/lesson/877083/clone/",
+    "admin_lesson": "#",
+    "edit_permissions": "/lesson/877083/permissions/",
+    "delete_lesson": "#"
+  },
+  "progress": "76-877083",
+  "subscriptions": [
+    "31-76-877083",
+    "30-76-877083"
+  ],
+  "viewed_by": 575,
+  "passed_by": 275,
+  "time_to_complete": 72,
+  "cover_url": "https://ucarecdn.stepik.net/0b4b696f-1e4b-4407-ab43-400299016ca8/-/scale_crop/180x180/center/",
+  "is_comments_enabled": true,
+  "is_exam_without_progress": false,
+  "is_blank": false,
+  "is_draft": false,
+  "is_orphaned": false,
+  "courses": [
+    86957
+  ],
+  "units": [
+    881548
+  ],
+  "owner": 296085237,
+  "language": "ru",
+  "is_featured": false,
+  "is_public": true,
+  "canonical_url": "https://stepik.org/lesson/877083/",
+  "title": "Работа с полями класса в языке С++",
+  "slug": "Работа-с-полями-класса-в-языке-С++-877083",
+  "create_date": "2023-01-15T20:03:48Z",
+  "update_date": "2024-01-02T18:43:31Z",
+  "learners_group": 5814921,
+  "testers_group": 5814922,
+  "moderators_group": 5814923,
+  "assistants_group": 5814924,
+  "teachers_group": 5814919,
+  "admins_group": 5814920,
+  "discussions_count": 0,
+  "discussion_proxy": "76-877083-1",
+  "discussion_threads": [
+    "76-877083-1"
+  ],
+  "epic_count": 2,
+  "abuse_count": 2,
+  "vote_delta": 0,
+  "vote": null,
+  "lti_consumer_key": "",
+  "lti_secret_key": "",
+  "lti_private_profile": false
+}

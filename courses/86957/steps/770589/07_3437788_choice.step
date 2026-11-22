@@ -1,0 +1,73 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите верные утверждения.</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 9,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "std::string::find(char) функции возвращает количество вхождений данного символа в строку",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "при использовании функции std::string::c_str нужно следить за временем жизни объекта сроки",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "std::string::at не создает UB",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "std::string::reserve может уменьшить время последующих конкатенаций",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "char& chRef = str[4]; str += \"blabla\"; // chRef может стать невалидным после выполнения конкатенация",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Передавать строки в функцию лучше по значению.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "В своей внутренней реализации память под строку чаще всего выделяется в куче.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Работа с std::string чаще всего безопаснее, чем с C-style строками.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Поиск подстроки в строке при помощи функции std::string::substr имеет сложность O(n).",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3437788",
+  "time": "2026-11-22T18:35:40Z"
+}

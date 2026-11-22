@@ -1,0 +1,73 @@
+{
+  "block": {
+    "name": "code",
+    "text": "<p>Заменить нулями все элементы, которые находятся в ячейках между минимальным и максимальным элементами (не включая их). Если после данного действия большая часть массива будет содержать нули, то удалить все нулевые элементы из массива (c сохранением порядка следования остальных элементов).</p>",
+    "video": null,
+    "options": {
+      "execution_time_limit": 5,
+      "execution_memory_limit": 256,
+      "limits": {
+        "c++": {
+          "time": 5,
+          "memory": 256
+        }
+      },
+      "code_templates": {
+        "c++": ""
+      },
+      "code_templates_header_lines_count": {
+        "c++": 0
+      },
+      "code_templates_footer_lines_count": {
+        "c++": 0
+      },
+      "code_templates_options": {},
+      "samples": [
+        [
+          "9 0 0 0 0 0 0 98 7 -1 2",
+          "9 98 -1 2 "
+        ]
+      ],
+      "is_run_user_code_allowed": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "code": "# This is a sample Code Challenge\n# Learn more: https://stepik.org/lesson/9173\n# Ask your questions via support@stepik.org\n\ndef generate():\n    return []\n\ndef check(reply, clue):\n    return reply.strip() == clue.strip()\n\n# def solve(dataset):\n#     a, b = dataset.split()\n#     return str(int(a) + int(b))",
+      "execution_time_limit": 5,
+      "execution_memory_limit": 256,
+      "samples_count": 1,
+      "templates_data": "::c++\n\n\n\n\n",
+      "is_time_limit_scaled": true,
+      "is_memory_limit_scaled": true,
+      "is_run_user_code_allowed": true,
+      "manual_time_limits": [],
+      "manual_memory_limits": [],
+      "test_archive": [],
+      "test_cases": [
+        [
+          "9 0 0 0 0 0 0 98 7 -1 2",
+          "9 98 -1 2 "
+        ],
+        [
+          "9 0 0 9 8 9 98 7 -1 2",
+          "9 0 0 9 8 9 98 0 -1 2 "
+        ],
+        [
+          "0 0 0 0 0 1",
+          "1 "
+        ],
+        [
+          "1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0",
+          "1"
+        ]
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": "/api/step-sources/3382745/tests",
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3382745",
+  "time": "2026-11-22T18:35:40Z"
+}

@@ -1,0 +1,48 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>Что верно про байткод и переносимость?</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 4,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": true,
+          "text": "Байткод обычно платформенно независим, но зависит от версии ВМ/интерпретатора",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Для запуска байткода требуется соответствующая ВМ",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Кэш байткода ускоряет старт (пропускается парсинг)",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Перекомпиляция байткода обязательна при любом переносе на другую ОС",
+          "feedback": "Пересборка нужна при несовместимых версиях ВМ, а не из-за ОС."
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "8268749",
+  "time": "2026-11-22T18:35:40Z"
+}

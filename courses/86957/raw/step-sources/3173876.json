@@ -1,0 +1,131 @@
+{
+  "id": 3173876,
+  "lesson": 763038,
+  "position": 8,
+  "status": "ready",
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите правильные утверждения</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 10,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": true,
+          "text": "Компиляция создаёт новую программу на основе исходного кода ЯП",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Исходный код языка С++ хранится в формате .cpp",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Объектный файл рекомендуется писать самому",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Объектный файл - исходный код новой программы созданной компилятором на этапе компиляции основанный на .cpp",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Включение файлов выполняется на этапе препроцессорной обработки",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Результатом трансляции являются .lib или .exe файлы",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Результатом трансляции являются .obj или .lib файлы",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "На этапе компоновки используются .obj и .lib файлы",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Компоновка выполняется на этапе препроцессорной обработки",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Результатом успешной компиляции всегда является .exe файл",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3173876",
+  "subscriptions": [
+    "31-77-3173876",
+    "30-77-3173876"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 1560,
+  "passed_by": 700,
+  "correct_ratio": 0.07551083912457214,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    1,
+    0,
+    0,
+    0,
+    1
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3152968,
+  "create_date": "2022-07-31T19:46:56Z",
+  "update_date": "2023-11-13T16:29:39Z",
+  "discussions_count": 10,
+  "discussion_proxy": "77-3173876-1",
+  "discussion_threads": [
+    "77-3173876-1",
+    "77-3173876-2"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 1
+}

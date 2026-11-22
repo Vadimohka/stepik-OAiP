@@ -1,0 +1,141 @@
+{
+  "id": 3261481,
+  "lesson": 771155,
+  "position": 4,
+  "status": "ready",
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите ответы с правильным переводом числа 71356825739579 в десятичной системе счисления в другую.</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 12,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": true,
+          "text": "10000001110011000001110010000000010000100111011 (2)",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "20811294952556 (11)",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "20811294952556 (13)",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "411432512340000135 (6)",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "3IMN4QHMPT (30)",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "13062F51C2B (24)",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "20SO74089R (32)",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "20SO73VUHB (32)",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "40E60E3FFA2B (16)",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "33323102234341321304 (5)",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "310578385541324 (9)",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "20811294945AA7 (11)",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3261481",
+  "subscriptions": [
+    "31-77-3261481",
+    "30-77-3261481"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 1302,
+  "passed_by": 711,
+  "correct_ratio": 0.2604431529240828,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    1,
+    0,
+    3
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3240573,
+  "create_date": "2022-09-05T09:58:09Z",
+  "update_date": "2022-09-05T09:58:10Z",
+  "discussions_count": 13,
+  "discussion_proxy": "77-3261481-1",
+  "discussion_threads": [
+    "77-3261481-1",
+    "77-3261481-2"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 1
+}

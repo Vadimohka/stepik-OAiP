@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3><strong>Элементами языка С++ являются следующие символы:</strong></h3>\n\n<ul>\n\t<li>Оператор сложения +</li>\n\t<li>Оператор вычитания −</li>\n\t<li>Оператор умножения  *</li>\n\t<li>Оператор деления  /</li>\n\t<li>Оператор сравнения &lt;  &gt;</li>\n\t<li>Оператор присваивания =</li>\n\t<li>Оператор ИЛИ <strong>|</strong></li>\n\t<li>Оператор И <strong>&amp;</strong></li>\n\t<li>Оператор НЕ <strong>!</strong></li>\n\t<li>Оператор инверсии <strong>~</strong></li>\n\t<li>Оператор одинарная кавычка <strong>'</strong></li>\n\t<li>Оператор комментария <strong>#</strong></li>\n\t<li>Оператор взятия остатка от деления <strong>%</strong></li>\n\t<li>Оператор побитовое исключающее ИЛИ <strong>^</strong></li>\n\t<li>Тернарный оператор <strong>?</strong></li>\n\t<li>Служебный оператор <strong>_</strong></li>\n\t<li>Служебный оператор  <strong>:</strong></li>\n\t<li>Оператор окончания строки <strong>;</strong></li>\n\t<li>Оператор перечисления <strong>,</strong></li>\n\t<li>Оператор выбора элемента по ссылке <strong>.</strong></li>\n\t<li>Операторы скобки <strong>( )  [  ]   {  }</strong></li>\n\t<li>Оператор двойных кавычек <strong>\"</strong></li>\n\t<li>Оператор табуляции <strong>'<em>\\t' </em></strong></li>\n\t<li>Оператор перехода на новую строку <strong>'<em>\\n</em>'</strong></li>\n\t<li>Оператор однострочный комментарий <strong>//</strong></li>\n\t<li>Оператор многострочный комментарий <strong>/*</strong> <em>комментарий </em><strong>*/</strong></li>\n</ul>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3177242",
+  "time": "2026-11-22T18:35:40Z"
+}

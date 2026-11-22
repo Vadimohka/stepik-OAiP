@@ -1,0 +1,58 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите правильные утверждения</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 6,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": true,
+          "text": "Языки программирования необходимы для представления алгоритмов \"Компьютеру\"",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Языки программирования делятся на высокоуровневые и низкоуровневые",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Концепции языков программирования сложны для понимания человеку",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Языки программирования - вынужденная необходимость человечества для понимания Искусственного интеллекта",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Первый язык программирования был написан компьютером",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Логика - необходимый элемент при написании любой программы",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3173835",
+  "time": "2026-11-22T18:35:40Z"
+}

@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Литералы языка С++</h3>\n\n<p>Целочисленные:</p>\n\n<ol>\n\t<li><em>’a’</em> — код буквы ’a’, тип char,</li>\n\t<li><em>42</em> — все целые числа по умолчанию типа int,</li>\n\t<li><em>1234567890L</em> — суффикс ’L’ соответствует типу long,</li>\n\t<li><em>1703U</em> — суффикс ’U’ соответствует типу unsigned int,</li>\n\t<li><em>2128506UL</em> — соответствует типу unsigned long.</li>\n</ol>\n\n<p>Числа с плавающей точкой:</p>\n\n<ol>\n\t<li><em>3.14</em> — все числа с точкой по умолчанию типа double</li>\n\t<li><em>2.71F</em> — суффикс ’F’ соответствует типу float</li>\n\t<li><em>3.0E8</em> — соответствует 3.0 * 10^8</li>\n</ol>\n\n<p><em>true</em> и <em>false</em> — значения типа bool.</p>\n\n<p>Строки задаются в двойных кавычках: \"<em>Text string</em>\".</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3262706",
+  "time": "2026-11-22T18:35:40Z"
+}

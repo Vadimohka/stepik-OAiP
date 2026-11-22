@@ -1,0 +1,48 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>Какую концепцию использует преинкремент?</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": false
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": false,
+      "is_always_correct": false,
+      "sample_size": 4,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "Вызов по значению",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Вызов по ссылке",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Принцип очереди",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Ничего из перечисленного",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "4718178",
+  "time": "2026-11-22T18:35:40Z"
+}

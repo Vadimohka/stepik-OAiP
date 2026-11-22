@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3><strong>O(1)</strong></h3>\n\n<p>O(1) не увеличивается с изменением размера входных данных. Таким образом, время обработки O(1)  —  <strong>величина постоянная</strong> независимо от того, какие входные данные были переданы.</p>\n\n<p><strong>Пример:</strong></p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\nusing namespace std;\n\nint main() {\n    int a[] {1,2,3,4,5};\n    cout &lt;&lt; size(a);\n    return 0;\n}</code></pre>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3213241",
+  "time": "2026-11-22T18:35:40Z"
+}

@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<p style=\"text-align: center;\"><strong>dynamic_cast</strong></p>\n\n<p><strong>dynamic_cast</strong> - это оператор приведения типов в C++, который позволяет выполнить преобразование между типами во время выполнения программы. Он используется для преобразования указателей и ссылок на базовые классы в указатели и ссылки на их производные классы.</p>\n\n<p>Синтаксис dynamic_cast:</p>\n\n<pre><code>dynamic_cast&lt;new_type&gt;(expression)</code></pre>\n\n<p>new_type - новый тип данных, в который нужно преобразовать выражение.</p>\n\n<p>expression - выражение, которое нужно преобразовать.</p>\n\n<p>Примеры:</p>\n\n<p>     1. Преобразование указателя на базовый класс в указатель на производный класс:</p>\n\n<pre><code>class Base {\npublic:\n    virtual ~Base() {}\n};\n\nclass Derived : public Base {\npublic:\n    void foo() {\n    cout &lt;&lt; \"Derived::foo()\" &lt;&lt; endl; \n    }\n};\n\nint main() {\n    Base* p = new Derived();\n    Derived* q = dynamic_cast&lt;Derived*&gt;(p); // преобразование указателя на базовый класс в указатель на производный класс\n    if (q != nullptr) {\n        q-&gt;foo(); // вызов функции foo() из класса Derived\n    } else {\n        cout &lt;&lt; \"Invalid cast\" &lt;&lt; endl;\n    }\n}\n</code></pre>\n\n<p>     2. Проверка корректности преобразования:</p>\n\n<pre><code>class Base {\npublic:\n    virtual ~Base() {}\n};\n\nclass Derived : public Base {\npublic:\n    void foo() {\n    cout &lt;&lt; \"Derived::foo()\" &lt;&lt; endl;\n    }\n};\n\nint main() {\n    Base* p = new Base();\n    Derived* q = dynamic_cast&lt;Derived*&gt;(p); // попытка преобразования указателя на базовый класс в указатель на производный класс\n    if (q != nullptr) {\n        q-&gt;foo(); // вызов функции foo() из класса Derived\n    } else {\n        cout &lt;&lt; \"Invalid cast\" &lt;&lt; endl; // вывод сообщения об ошибке преобразования\n    }\n}\n</code></pre>\n\n<p>Важно отметить, что <strong>dynamic_cast выполняет проверку корректности преобразования во время выполнения программы</strong> и возвращает нулевой указатель (nullptr), если преобразование некорректно. Поэтому при использовании<strong> dynamic_cast</strong> необходимо быть осторожным и проверять корректность преобразования перед его использованием. Кроме того, для использования <strong>dynamic_cast</strong> класс должен содержать <strong>хотя бы один виртуальный метод.</strong></p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "4047627",
+  "time": "2026-11-22T18:35:40Z"
+}

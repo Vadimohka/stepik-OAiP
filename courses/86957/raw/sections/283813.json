@@ -1,0 +1,43 @@
+{
+  "id": 283813,
+  "course": 86957,
+  "units": [
+    857458,
+    857459,
+    857460
+  ],
+  "position": 17,
+  "discounting_policy": "no_discount",
+  "progress": "79-283813",
+  "actions": {
+    "test_section": "#"
+  },
+  "required_section": null,
+  "required_percent": 100,
+  "is_requirement_satisfied": true,
+  "is_exam": false,
+  "is_exam_without_progress": false,
+  "is_random_exam": false,
+  "exam_duration_minutes": 120,
+  "random_exam_problems_course": null,
+  "random_exam_problems_count": 20,
+  "exam_session": null,
+  "proctor_session": null,
+  "description": "",
+  "is_proctoring_can_be_scheduled": false,
+  "title": "Сбалансированные деревья поиска",
+  "slug": "Сбалансированные-деревья-поиска-283813",
+  "begin_date": "2023-03-13T09:00:00Z",
+  "end_date": null,
+  "soft_deadline": null,
+  "hard_deadline": null,
+  "grading_policy": "no_deadlines",
+  "begin_date_source": "2023-03-13T09:00:00Z",
+  "end_date_source": null,
+  "soft_deadline_source": null,
+  "hard_deadline_source": null,
+  "grading_policy_source": null,
+  "is_active": true,
+  "create_date": "2022-12-16T14:17:39Z",
+  "update_date": "2024-01-02T18:44:55Z"
+}

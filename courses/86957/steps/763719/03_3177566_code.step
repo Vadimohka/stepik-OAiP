@@ -1,0 +1,61 @@
+{
+  "block": {
+    "name": "code",
+    "text": "<p>Модифицируйте программу, чтобы результат выводился в обратном порядке.</p>\n\n<pre><code>#include &lt;iostream&gt;\n\nint main() {  \n    int i = 0;\n    std::cin &gt;&gt; i;\n    while(i &lt; 10) {\n        std::cout &lt;&lt; i &lt;&lt; \" * \" &lt;&lt; i &lt;&lt; \" = \" &lt;&lt; i * i &lt;&lt; std::endl;\n        i++;\n    }\n    return 0;\n}</code></pre>",
+    "video": null,
+    "options": {
+      "execution_time_limit": 5,
+      "execution_memory_limit": 256,
+      "limits": {
+        "c++": {
+          "time": 5,
+          "memory": 256
+        }
+      },
+      "code_templates": {
+        "c++": "#include <iostream>\n\nint main()\n{  \n    int i = 0;\n    std::cin>> i;\n    while(i < 10)\n    {\n        std::cout << i << \" * \" << i << \" = \" << i * i << std::endl;\n        i++;\n    }\n\n    return 0;\n}"
+      },
+      "code_templates_header_lines_count": {
+        "c++": 0
+      },
+      "code_templates_footer_lines_count": {
+        "c++": 0
+      },
+      "code_templates_options": {},
+      "samples": [
+        [
+          "10",
+          "9 * 9 = 81\n8 * 8 = 64\n7 * 7 = 49\n6 * 6 = 36\n5 * 5 = 25\n4 * 4 = 16\n3 * 3 = 9\n2 * 2 = 4\n1 * 1 = 1"
+        ]
+      ],
+      "is_run_user_code_allowed": false
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "code": "# This is a sample Code Challenge\n# Learn more: https://stepik.org/lesson/9173\n# Ask your questions via support@stepik.org\n\ndef generate():\n    return []\n\ndef check(reply, clue):\n    return reply.strip() == clue.strip()\n\n# def solve(dataset):\n#     a, b = dataset.split()\n#     return str(int(a) + int(b))",
+      "execution_time_limit": 5,
+      "execution_memory_limit": 256,
+      "samples_count": 1,
+      "templates_data": "::c++\n\n#include <iostream>\n\nint main()\n{  \n    int i = 0;\n    std::cin>> i;\n    while(i < 10)\n    {\n        std::cout << i << \" * \" << i << \" = \" << i * i << std::endl;\n        i++;\n    }\n \n    return 0;\n}\n\n",
+      "is_time_limit_scaled": false,
+      "is_memory_limit_scaled": false,
+      "is_run_user_code_allowed": false,
+      "manual_time_limits": [],
+      "manual_memory_limits": [],
+      "test_archive": [],
+      "test_cases": [
+        [
+          "10",
+          "9 * 9 = 81\n8 * 8 = 64\n7 * 7 = 49\n6 * 6 = 36\n5 * 5 = 25\n4 * 4 = 16\n3 * 3 = 9\n2 * 2 = 4\n1 * 1 = 1"
+        ]
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": "/api/step-sources/3177566/tests",
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3177566",
+  "time": "2026-11-22T18:35:40Z"
+}

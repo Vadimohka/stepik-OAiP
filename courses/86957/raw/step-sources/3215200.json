@@ -1,0 +1,67 @@
+{
+  "id": 3215200,
+  "lesson": 771131,
+  "position": 2,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<h3>Открытие файла</h3>\n\n<p>При операциях с файлом вначале необходимо открыть файл с помощью функции open(). Данная функция имеет две версии:</p>\n\n<ul>\n\t<li>\n\t<p><code>open(путь)</code></p>\n\t</li>\n\t<li>\n\t<p><code>open(путь, режим)</code></p>\n\t</li>\n</ul>\n\n<p>Для открытия файла в функцию необходимо передать путь к файлу в виде строки. И также можно указать режим открытия. Список доступных режимов открытия файла:</p>\n\n<ul>\n\t<li>\n\t<p>ios::in: файл открывается для ввода (чтения). Может быть установлен только для объекта ifstream или fstream</p>\n\t</li>\n\t<li>\n\t<p>ios::out: файл открывается для вывода (записи). При этом старые данные удаляются. Может быть установлен только для объекта ofstream или fstream</p>\n\t</li>\n\t<li>\n\t<p>ios::app: файл открывается для дозаписи. Старые данные не удаляются.</p>\n\t</li>\n\t<li>\n\t<p>ios::ate: после открытия файла перемещает указатель в конец файла</p>\n\t</li>\n\t<li>\n\t<p>ios::trunc: файл усекается при открытии. Может быть установлен, если также установлен режим <code>out</code></p>\n\t</li>\n\t<li>\n\t<p>ios::binary: файл открывается в бинарном режиме</p>\n\t</li>\n</ul>\n\n<p>Если при открытии режим не указан, то по умолчанию для объектов ofstream применяется режим <code>ios::out</code>, а для объектов ifstream - режим <code>ios::in</code>. Для объектов fstream совмещаются режимы <code>ios::out</code> и <code>ios::in</code>.</p>\n\n<pre><code class=\"language-cpp\">std::ofstream out;          // поток для записи\nout.open(\"D:\\\\hello1.txt\"); // окрываем файл для записи\n     \nstd::ofstream out2;\nout2.open(\"D:\\\\hello2.txt\", std::ios::app); // окрываем файл для дозаписи\n \nstd::ofstream out3;\nout2.open(\"D:\\\\hello3.txt\", std::ios::out | std::ios::trunc); // установка нескольких режимов\n \nstd::ifstream in;       // поток для чтения\nin.open(\"D:\\\\hello4.txt\"); // окрываем файл для чтения\n \nstd::fstream fs;        // поток для чтения-записи\nfs.open(\"D:\\\\hello5.txt\"); // окрываем файл для чтения-записи</code></pre>\n\n<p>Однако в принципе необязательно использовать функцию open для открытия файла. В качестве альтернативы можно также использовать конструктор объектов-потоков и передавать в них путь к файлу и режим открытия. При вызове конструктора, в который передан путь к файлу, данный файл будет автоматически открываться:</p>\n\n<pre><code class=\"language-cpp\">std::ofstream out(\"D:\\\\hello.txt\");\nstd::ifstream in(\"D:\\\\hello.txt\");\nstd::fstream fs(\"D:\\\\hello.txt\", std::ios::app);</code></pre>\n\n<p>Использование конструкторов для открытия потока является более предпочтительным, так как определение переменной, представляющей файловой поток, уже предполагает, что этот поток будет открыт для чтения или записи. А использование конструктора избавит от ситуации, когда мы забудем открыть поток, но при этом начнем его использовать.</p>\n\n<p>В процессе работы мы можем проверить, открыт ли файл с помощью функции is_open(). Если файл открыт, то она возвращает true.</p>\n\n<h3>Закрытие файла</h3>\n\n<p>После завершения работы с файлом его следует закрыть с помощью функции close(). Также стоит отметить, то при выходе объекта потока из области видимости, он удаляется, и у него автоматически вызывается функция close.</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;fstream&gt;\n \nint main()\n{\n    std::ofstream out;          // поток для записи\n    out.open(\"D:\\\\hello.txt\"); // окрываем файл для записи\n    out.close();            // закрываем файл\n \n    std::ifstream in;       // поток для чтения\n    in.open(\"D:\\\\hello.txt\"); // окрываем файл для чтения\n    in.close();             // закрываем файл\n \n    std::fstream fs;        // поток для чтения-записи\n    fs.open(\"D:\\\\hello.txt\"); // окрываем файл для чтения-записи\n    fs.close();             // закрываем файл\n     \n    return 0;\n}</code></pre>\n\n<p>Стоит отметить, что при компиляции через g++ следует использовать флаг -static, если программа работает со файлами и использует типы из заголовочного файла fstream:</p>\n\n<pre><code>g++ app.cpp -o app -static</code></pre>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3215200",
+  "subscriptions": [
+    "31-77-3215200",
+    "30-77-3215200"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 679,
+  "passed_by": 679,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3194292,
+  "create_date": "2022-08-18T19:55:11Z",
+  "update_date": "2022-08-18T19:55:11Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3215200-1",
+  "discussion_threads": [
+    "77-3215200-1"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 0
+}

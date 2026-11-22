@@ -1,0 +1,138 @@
+{
+  "id": 3281353,
+  "lesson": 763640,
+  "position": 9,
+  "status": "ready",
+  "block": {
+    "name": "code",
+    "text": "<p>В прямоугольной комнате W на H стоит прямоугольный стол, стороны которого параллельны сторонам комнаты. Нижний левый угол стола находится в точке (x1, y1), а верхний правый в точке (x2, y2). Вы хотите поставить в эту комнату ещё один прямоугольный стол с шириной w и высотой h так, чтобы сторона, соответствующая ширине стола, была параллельна стороне комнаты, соответствующей её ширине. (столы могут касаться друг друга, но не могут иметь общей площади).</p>\n\n<p><strong>На какое минимальное расстояние нужно сдвинуть первый стол так, чтобы в комнату можно было поставить второй стол?</strong> Если второй стол нельзя поставить, выведите -1. Поворачивать столы - запрещено. В расчётах используется Декартова система координат.</p>",
+    "video": null,
+    "options": {
+      "execution_time_limit": 1,
+      "execution_memory_limit": 32,
+      "limits": {
+        "c++": {
+          "time": 1,
+          "memory": 32
+        }
+      },
+      "code_templates": {
+        "c++": "#include <iostream>\n\nint main() {\n    // put your code here\n    return 0;\n}"
+      },
+      "code_templates_header_lines_count": {
+        "c++": 0
+      },
+      "code_templates_footer_lines_count": {
+        "c++": 0
+      },
+      "code_templates_options": {},
+      "samples": [
+        [
+          "8 7\n6 5 4 3\n2 1",
+          "0"
+        ]
+      ],
+      "is_run_user_code_allowed": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "code": "# This is a sample Code Challenge\n# Learn more: https://stepik.org/lesson/9173\n# Ask your questions via support@stepik.org\n\ndef generate():\n    return []\n\ndef check(reply, clue):\n    return reply.strip() == clue.strip()\n\n# def solve(dataset):\n#     a, b = dataset.split()\n#     return str(int(a) + int(b))",
+      "execution_time_limit": 1,
+      "execution_memory_limit": 32,
+      "samples_count": 1,
+      "templates_data": "::c++",
+      "is_time_limit_scaled": false,
+      "is_memory_limit_scaled": false,
+      "is_run_user_code_allowed": true,
+      "manual_time_limits": [],
+      "manual_memory_limits": [],
+      "test_archive": [],
+      "test_cases": [
+        [
+          "8 7\n6 5 4 3\n2 1",
+          "0"
+        ],
+        [
+          "8 5\n2 1 7 4\n4 2",
+          "1"
+        ],
+        [
+          "5 4\n2 2 5 4\n3 3",
+          "-1"
+        ],
+        [
+          "1 8\n0 3 1 6\n1 5",
+          "2"
+        ],
+        [
+          "8 1\n3 0 6 1\n5 1",
+          "2"
+        ],
+        [
+          "8 10\n4 5 7 8\n8 5",
+          "0"
+        ],
+        [
+          "3 2\n1 0 3 2\n2 1",
+          "-1"
+        ]
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": "/api/step-sources/3281353/tests",
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3281353",
+  "subscriptions": [
+    "31-77-3281353",
+    "30-77-3281353"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 767,
+  "passed_by": 468,
+  "correct_ratio": 0.14695029303234208,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3260445,
+  "create_date": "2022-09-11T18:58:59Z",
+  "update_date": "2023-11-21T17:03:48Z",
+  "discussions_count": 5,
+  "discussion_proxy": "77-3281353-1",
+  "discussion_threads": [
+    "77-3281353-1",
+    "77-3281353-2"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 1
+}

@@ -1,0 +1,131 @@
+{
+  "id": 3425771,
+  "lesson": 770590,
+  "position": 6,
+  "status": "ready",
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите правильные утверждения. </p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 10,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "Оператор return может не завершать выполнение функции.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Указав inline в определении функции, компилятор обязательно заменит вызовы функции ее кодом.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "int a();  - это выражение создает перменную типа a и инициализируют ее нулем.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "В нескольких файлах можно определить static функцию с одним и тем же именем.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "В нескольких файлах можно определить constexpr функцию с одним и тем же именем.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Функция может бесконечно вызывать сама себя.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Память под переменные, определенные внутри функции, выделяется в стеке.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Переменные определенные внутри одной функции доступны внутри другой функции.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Прототип функции включает имя функции, типы аргументов и возвращаемый тип данных. ",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Все функции выполняются одновременно ",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3425771",
+  "subscriptions": [
+    "31-77-3425771",
+    "30-77-3425771"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 682,
+  "passed_by": 453,
+  "correct_ratio": 0.12123572170301142,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3404863,
+  "create_date": "2022-11-06T10:00:16Z",
+  "update_date": "2022-11-09T19:26:16Z",
+  "discussions_count": 3,
+  "discussion_proxy": "77-3425771-1",
+  "discussion_threads": [
+    "77-3425771-1",
+    "77-3425771-2"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 1
+}

@@ -1,0 +1,78 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите верные утверждения.</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 10,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": true,
+          "text": "Библиотека позволяет повторно использовать код.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Несколько приложений могут одновременно использовать статическую библиотеку ",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Динамическая библиотека может быть написана на любом языке программирования.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Динамические библиотеки, написанные на C++, могут использоваться только приложениями написанными на C++.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Формат динамической библиотеки зависит от операционной системы.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Приложения скомпонованные со статическими библиотеками запускаются быстрее по сравнению с приложениями использующими дин. библиотеки.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Вызовы функций быстрее в динамических библиотеках.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Приложения скомпонованные со статическими библиотеками занимают меньше памяти, чем приложения использующие дин. библиотеки.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Динамические библиотеки можно только загружать функцией LoadLibrary и подобными ей.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Динамические библиотеки может загружать операционная система при запуске процесса.",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3426151",
+  "time": "2026-11-22T18:35:40Z"
+}

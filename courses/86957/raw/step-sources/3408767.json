@@ -1,0 +1,131 @@
+{
+  "id": 3408767,
+  "lesson": 770595,
+  "position": 9,
+  "status": "ready",
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите верные утверждения.</p>\n\n<p>Устойчивая сортировка - одинаковые (с одинаковыми ключами для сравнения) элементы сохраняют порядок.  <br>\nЕсли не указано иного, то описываем среднее time complexity для сортировок. </p>\n\n<p>Тут есть вопросы, которые не были затронуты в 9.2. Предполагается самостоятельное изучение.</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 10,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "in-place merge sort невозможен",
+          "feedback": "Почитайте про merge sort"
+        },
+        {
+          "is_correct": true,
+          "text": "in-place merge sort возможен, но сложность ухудшится $O(n \\cdot \\log^2{n})$",
+          "feedback": "Почитайте про merge sort"
+        },
+        {
+          "is_correct": false,
+          "text": "in-place merge sort возможен, сложность не ухудшится $O(n \\cdot \\log{n})$",
+          "feedback": "Почитайте про merge sort"
+        },
+        {
+          "is_correct": true,
+          "text": "quick sort неустойчив",
+          "feedback": "Почитайте про устойчивые и неустойчивые сортировки"
+        },
+        {
+          "is_correct": false,
+          "text": "merge sort неустойчив",
+          "feedback": "Почитайте про устойчивые и неустойчивые сортировки"
+        },
+        {
+          "is_correct": true,
+          "text": "quick sort space complexity $O(\\log{n})$",
+          "feedback": "Почитайте про space complexity алгоритмов сортировок"
+        },
+        {
+          "is_correct": false,
+          "text": "heap sort space complexity $O(n)$",
+          "feedback": "Почитайте про space complexity алгоритмов сортировок"
+        },
+        {
+          "is_correct": true,
+          "text": "сортировка сравнениями не может быть лучше $O(n \\cdot \\log{n})$",
+          "feedback": "Теорема о нижней оценке для сортировки сравнениями, ознакомьтесь "
+        },
+        {
+          "is_correct": false,
+          "text": "нет сортировок с асимптотикой лучше, чем $O(n \\cdot \\log{n})$",
+          "feedback": "radix sort и похожие, ознакомьтесь"
+        },
+        {
+          "is_correct": true,
+          "text": "bubble sort time complexity $O(n^2)$",
+          "feedback": "Почитайте про bubble sort"
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3408767",
+  "subscriptions": [
+    "31-77-3408767",
+    "30-77-3408767"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 644,
+  "passed_by": 411,
+  "correct_ratio": 0.2974137931034483,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3387859,
+  "create_date": "2022-11-01T18:08:25Z",
+  "update_date": "2022-11-01T18:09:40Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3408767-1",
+  "discussion_threads": [
+    "77-3408767-1",
+    "77-3408767-2"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 1
+}

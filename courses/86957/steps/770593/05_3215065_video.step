@@ -1,0 +1,42 @@
+{
+  "block": {
+    "name": "video",
+    "text": "",
+    "video": {
+      "id": 253154,
+      "thumbnail": "https://cdn.stepik.net/video/253154/thumbnail/1f70248f6307c59da1fd22d034730e24.jpg",
+      "urls": [
+        {
+          "quality": "720",
+          "url": "https://cdn.stepik.net/video/253154/720/ebf324a2b4e24b67467d5460d0924afb.mp4"
+        },
+        {
+          "quality": "540",
+          "url": "https://cdn.stepik.net/video/253154/540/5a01a4711e9e01fc0d5993848129a6e6.mp4"
+        },
+        {
+          "quality": "360",
+          "url": "https://cdn.stepik.net/video/253154/360/3e9cafe957ad4101377783f703bff6f0.mp4"
+        },
+        {
+          "quality": "240",
+          "url": "https://cdn.stepik.net/video/253154/240/27bf1b1495e81352200410021ee53d07.mp4"
+        }
+      ],
+      "duration": 487,
+      "status": "ready",
+      "upload_date": "2022-08-18T18:23:08Z",
+      "filename": "Создание статической и динамической библиотек Visual Studio C++ (online-video-cutter.com).mp4"
+    },
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3215065",
+  "time": "2026-11-22T18:35:40Z"
+}

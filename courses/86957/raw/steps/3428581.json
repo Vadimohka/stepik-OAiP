@@ -1,0 +1,59 @@
+{
+  "id": 3428581,
+  "lesson": 770585,
+  "position": 11,
+  "status": "ready",
+  "block": {
+    "name": "choice",
+    "text": "<p>void foo(const int* ptr)<br>\n{<br>\n    *ptr = 100;<br>\n}</p>\n\n<p>int main(void)<br>\n{<br>\n    int x = 200;<br>\n    int* ptr = &amp;x;<br>\n    std::cout &lt;&lt; \"Before x = \" &lt;&lt; x &lt;&lt; \";\" &lt;&lt; \"\\t\";<br>\n    foo(ptr);<br>\n    std::cout &lt;&lt; \"After x = \" &lt;&lt; x &lt;&lt; std::endl;<br>\n    return 0;<br>\n}</p>\n\n<p>Что выведет данная программа?</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": false
+    },
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3428581",
+  "subscriptions": [
+    "31-77-3428581",
+    "30-77-3428581"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 747,
+  "passed_by": 668,
+  "correct_ratio": 0.47280334728033474,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3407673,
+  "create_date": "2022-11-07T13:20:48Z",
+  "update_date": "2022-11-07T13:43:29Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3428581-1",
+  "discussion_threads": [
+    "77-3428581-1",
+    "77-3428581-2"
+  ]
+}

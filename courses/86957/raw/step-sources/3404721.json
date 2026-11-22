@@ -1,0 +1,131 @@
+{
+  "id": 3404721,
+  "lesson": 770590,
+  "position": 5,
+  "status": "ready",
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите правильные утверждения. </p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 10,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "ключевое слове return обязательно должно присутствовать в теле функции ",
+          "feedback": "Не забывайте, что некоторые ключевые слова используются по-умолчанию."
+        },
+        {
+          "is_correct": true,
+          "text": "объявлений функции может быть много, но определение лишь одно",
+          "feedback": "У одной функции точно может быть много тел?"
+        },
+        {
+          "is_correct": false,
+          "text": "объявлений и определений функции может быть много",
+          "feedback": "У одной функции точно может быть много тел?"
+        },
+        {
+          "is_correct": true,
+          "text": "inline - указать компилятору, что стоит встроить код функции в место вызова",
+          "feedback": "Рассмотрите подробнее модификаторы функций "
+        },
+        {
+          "is_correct": false,
+          "text": "function(int a); - корректное объявление функции (ничего не возвращает)",
+          "feedback": "Есть такая штука, void"
+        },
+        {
+          "is_correct": false,
+          "text": "int 7up(int cola); - корректное объявление функции",
+          "feedback": "Повторите правила именования функций и переменных"
+        },
+        {
+          "is_correct": true,
+          "text": "auto func(); - корректное объявление функции",
+          "feedback": "Начиная с с++11 так делать можно"
+        },
+        {
+          "is_correct": true,
+          "text": "constexpr - гарантирует: если значения параметров возможно посчитать на этапе компиляции, то возвращаемое значение тоже должно посчитаться на этапе компиляции.",
+          "feedback": "Рассмотрите подробнее модификаторы функций "
+        },
+        {
+          "is_correct": false,
+          "text": "free function (бесплатная/не-членная функция) - так называют только глобально определённые функции",
+          "feedback": "Подсказка: пространство имён"
+        },
+        {
+          "is_correct": true,
+          "text": "В библиотеке Вы обнаружили int _func(double t); - префикс \"_\" означает, что Вам не стоит использовать эту функцию",
+          "feedback": "Есть функции, которые не стоит трогать. В их имени содержится предупреждение? "
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3404721",
+  "subscriptions": [
+    "31-77-3404721",
+    "30-77-3404721"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 719,
+  "passed_by": 504,
+  "correct_ratio": 0.28883903533370725,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3383813,
+  "create_date": "2022-10-31T17:21:02Z",
+  "update_date": "2022-10-31T17:21:02Z",
+  "discussions_count": 3,
+  "discussion_proxy": "77-3404721-1",
+  "discussion_threads": [
+    "77-3404721-1",
+    "77-3404721-2"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 1
+}

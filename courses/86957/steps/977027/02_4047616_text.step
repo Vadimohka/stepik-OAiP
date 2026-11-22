@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<p style=\"text-align: center;\"><strong>static_cast</strong></p>\n\n<p><strong>static_cast</strong> - это оператор приведения типов в C++, который позволяет явно преобразовать значение одного типа в другой. Он может быть использован для преобразования между разными числовыми типами, указателями, ссылками и указателями на члены класса.</p>\n\n<p>Синтаксис static_cast:</p>\n\n<pre><code>static_cast&lt;new_type&gt;(expression)</code></pre>\n\n<p>new_type - новый тип данных, в который нужно преобразовать выражение.</p>\n\n<p>expression - выражение, которое нужно преобразовать.</p>\n\n<p>Примеры:</p>\n\n<p>     1. Преобразование между числовыми типами:</p>\n\n<pre><code>int x = 5;\ndouble y = static_cast&lt;double&gt;(x); // преобразование целочисленного значения в вещественное число\n</code></pre>\n\n<p>     2. Преобразование указателей:</p>\n\n<pre><code>int* p = new int(10);\nvoid* q = static_cast&lt;void*&gt;(p); // преобразование указателя int* в указатель void*\n</code></pre>\n\n<p>     3. Преобразование ссылок:</p>\n\n<pre><code>int x = 5;\ndouble&amp; y = static_cast&lt;double&amp;&gt;(x); // преобразование ссылки на целочисленное значение в ссылку на вещественное число\n</code></pre>\n\n<p>     4. Преобразование указателей на члены класса:</p>\n\n<pre><code>class Base {\npublic:\n    virtual ~Base() {}\n};\n\nclass Derived : public Base {\npublic:\n    void foo() {\n    cout &lt;&lt; \"Derived::foo()\" &lt;&lt; endl; \n    }\n};\n\nint main() {\n    Base* p = new Derived();\n    Derived* q = static_cast&lt;Derived*&gt;(p); // преобразование указателя на базовый класс в указатель на производный класс\n    q-&gt;foo(); // вызов функции foo() из класса Derived\n}\n</code></pre>\n\n<p>Важно отметить, что <strong>static_cast не выполняет проверку корректности преобразования</strong> и может привести к ошибкам во время выполнения программы, если преобразование некорректно. Поэтому при использовании <strong>static_cast </strong>необходимо быть <strong>осторожным</strong> и убедиться в корректности преобразования перед его использованием.</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "4047616",
+  "time": "2026-11-22T18:35:40Z"
+}

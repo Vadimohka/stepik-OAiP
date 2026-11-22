@@ -1,0 +1,90 @@
+{
+  "block": {
+    "name": "code",
+    "text": "<p>У Миши в общежитии всего лишь 1 розетка. Дабы исправить это недоразумение, Миша купил N удлинителей таких, что i-й удлинитель имеет a[i] входов. Индексация удлинителя начинается с 1. Вычислите, сколько розеток получится у Миши, если он оптимально соединит удлинители?</p>\n\n<p>Входные данные не более чем размер long long int в языке С++.</p>",
+    "video": null,
+    "options": {
+      "execution_time_limit": 1,
+      "execution_memory_limit": 32,
+      "limits": {
+        "c++": {
+          "time": 1,
+          "memory": 32
+        }
+      },
+      "code_templates": {
+        "c++": "#include <iostream>\n\nint main() {\n    // put your code here\n    return 0;\n}"
+      },
+      "code_templates_header_lines_count": {
+        "c++": 0
+      },
+      "code_templates_footer_lines_count": {
+        "c++": 0
+      },
+      "code_templates_options": {},
+      "samples": [
+        [
+          "10",
+          "46"
+        ]
+      ],
+      "is_run_user_code_allowed": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "code": "# This is a sample Code Challenge\n# Learn more: https://stepik.org/lesson/9173\n# Ask your questions via support@stepik.org\n\ndef generate():\n    return []\n\ndef check(reply, clue):\n    return reply.strip() == clue.strip()\n\n# def solve(dataset):\n#     a, b = dataset.split()\n#     return str(int(a) + int(b))",
+      "execution_time_limit": 1,
+      "execution_memory_limit": 32,
+      "samples_count": 1,
+      "templates_data": "::c++",
+      "is_time_limit_scaled": false,
+      "is_memory_limit_scaled": true,
+      "is_run_user_code_allowed": true,
+      "manual_time_limits": [],
+      "manual_memory_limits": [],
+      "test_archive": [],
+      "test_cases": [
+        [
+          "10",
+          "46"
+        ],
+        [
+          "5",
+          "11"
+        ],
+        [
+          "1",
+          "1"
+        ],
+        [
+          "2",
+          "2"
+        ],
+        [
+          "3",
+          "4"
+        ],
+        [
+          "4",
+          "7"
+        ],
+        [
+          "9223372036854775807",
+          "42535295865117307919086767873688862722"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "are_all_tests_run": true
+    },
+    "subtitles": {},
+    "tests_archive": "/api/step-sources/3383209/tests",
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3383209",
+  "time": "2026-11-22T18:35:40Z"
+}

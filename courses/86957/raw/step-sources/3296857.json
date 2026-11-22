@@ -1,0 +1,106 @@
+{
+  "id": 3296857,
+  "lesson": 763639,
+  "position": 13,
+  "status": "ready",
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите правильные утвреждения</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 5,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "double(3/2) - результат будет иметь тип double и значение 1.5",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "(double)(int)(double)3/2 - результат будет иметь тип double и значение 1",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "(char)256L - эквивалетно false",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "(сhar)0b11111111 равно -1",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "double a = 1L - опасное выражение",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3296857",
+  "subscriptions": [
+    "31-77-3296857",
+    "30-77-3296857"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 792,
+  "passed_by": 577,
+  "correct_ratio": 0.10728110599078342,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3275949,
+  "create_date": "2022-09-18T19:39:55Z",
+  "update_date": "2026-01-30T17:56:18Z",
+  "discussions_count": 1,
+  "discussion_proxy": "77-3296857-1",
+  "discussion_threads": [
+    "77-3296857-1",
+    "77-3296857-2"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 1
+}

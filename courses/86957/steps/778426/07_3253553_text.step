@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<p><strong>Фичи</strong></p>\n\n<p>Стоит отметить, что ASSERT_EQ может работать не только с переменными типа int, но и с переменными любых других типов (он будет проверять их на равенство). Также для отдельных ситуаций можно использовать и более лаконичные варианты:</p>\n\n<p style=\"text-align: center;\"><img alt=\"\" height=\"556\" name=\"image.png\" src=\"https://ucarecdn.stepik.net/9ec46997-58f7-4d88-84ad-f0335f993d83/\" width=\"772\"></p>\n\n<p>Соответственно, три нижеописанные конструкции проверяют одно и тоже</p>\n\n<pre><code>TEST(test_of_assert_eq)\n{\n    ASSERT_EQ(CountInterestingInInterval(1), 0);\n}\nTEST(test_of_assert_true)\n{\n    ASSERT_TRUE(CountInterestingInInterval(1) == 0);\n}\nTEST(test_of_fail)\n{\n    if (CountInterestingInInterval(1) != 0)\n        FAIL();\n}</code></pre>\n\n<p>Нужно упомянуть о <strong>EXPECT</strong>.<br>\nПри тестировании может быть три исхода:</p>\n\n<ol>\n\t<li>success - все работает корректно, выполнения теста продолжается</li>\n\t<li>non-fatal failure - работает некорректно, выполнение теста продолжается - сработал EXPECT</li>\n\t<li>fatal failure - работает некорректно, выполнение теста завершено - сработал ASSERT</li>\n</ol>\n\n<p>Для EXPECT действительны окончания, что и для ASSERT: EQ, GT, TRUE и т.д.</p>\n\n<p>Можно добавить свой собственный <strong>комментарий</strong> к ASSERT, EXPECT: </p>\n\n<pre><code class=\"language-cpp\">ASSERT_EQ(some_variable, 0) &lt;&lt; \"The comment you would like to see in the terminal if the assertion failed\";</code></pre>\n\n<p>Тесты могут использовать схожие условия для проверки. Чтобы избежать дублирования кода, не думать о инициализации и очищении ресурсов за собой при написании тестового блока, можно воспользоваться фиксацией. Для её использования необходимо использовать классы, потому <strong><a href=\"https://habr.com/ru/post/667880/#:~:text=%D0%94%D0%BE%D0%BF%D1%83%D1%81%D1%82%D0%B8%D0%BC%20%D1%83%20%D0%BD%D0%B0%D1%81%20%D0%B5%D1%81%D1%82%D1%8C%20%D1%82%D0%B0%D0%BA%D0%BE%D0%B9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81\" rel=\"noopener noreferrer nofollow\">читать не обязательно</a>.</strong></p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3253553",
+  "time": "2026-11-22T18:35:40Z"
+}

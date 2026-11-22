@@ -1,0 +1,78 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите правильные утверждения.</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 10,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": true,
+          "text": "new возвращает указатель нужного типа.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "new возвращает void*.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Если памяти недостаточно, new вернёт NULL.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Если памяти недостаточно, new обработается с ошибкой",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Обнулить, ранее обнулённый указатель - ошибка.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Обнулить, ранее обнулённый указатель - ничего не произойдёт.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "free(NULL) - UB.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "free можно спокойно вызывать для памяти, выделенной new. ",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "free нельзя (не стоит) вызывать для памяти, выделенной new. ",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Динамический массив можно обойти с помощью for(auto& t: a), как и статический. ",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3324363",
+  "time": "2026-11-22T18:35:40Z"
+}

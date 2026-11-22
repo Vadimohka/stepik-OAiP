@@ -1,0 +1,67 @@
+{
+  "id": 3253503,
+  "lesson": 778426,
+  "position": 5,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<p><strong>Собственно Google Test</strong></p>\n\n<p>Все эти проверки и замеры проводились вручную, что не всегда позволяет удобно и точно устранять баги. Поэтому воспользуемся специальными тестами. Для того, чтобы добавить к заданию тесты, нужно кликнуть ПКМ по названию решения, затем “Добавить” =&gt; “Cоздать проект…”.</p>\n\n<p style=\"text-align: center;\"><img alt=\"\" height=\"817\" name=\"image.png\" src=\"https://ucarecdn.stepik.net/c46e90e2-39f1-4c25-98bf-b3d4b3d6d0b8/\" width=\"983\"></p>\n\n<p>Затем выбираем Google Test, определяемся с названием и создаём проект.</p>\n\n<p><img alt=\"\" height=\"991\" name=\"image.png\" src=\"https://ucarecdn.stepik.net/e5573656-a84f-458e-9d0e-16a54d2c8e50/\" width=\"1887\"></p>\n\n<p>По умолчанию новый тестовый cpp файл будет содержать такой код:</p>\n\n<pre><code>#include \"pch.h\"\n\nTEST(TestCaseName, TestName) \n{\n    EXPECT_EQ(1, 1);\n    EXPECT_TRUE(true);\n}</code></pre>\n\n<p>Для удобного тестирования нужно вставить прототип функции, которую нужно тестировать в этот файл, а под тестом добавить её тело. Если вы получаете ответ задачи не в отдельной функции, a в функции main(что не очень хорошо, ибо функции упрощают понимание кода), то придётся каждый раз копировать этот код. Так что лучше сделать отдельную функцию для этого.</p>\n\n<pre><code>#include \"pch.h\"\n\n\nint CountInterestingInInterval(int interval_end);\n\nTEST(TestCaseName, TestName) \n{\n    EXPECT_EQ(1, 1);\n    EXPECT_TRUE(true);\n}\n\nint CountInterestingInInterval(int interval_end)\n{\n    return  (interval_end + 1) / 10;\n}</code></pre>\n\n<p>Затем нужно создать несколько тестов, не забыв сделать для каждого уникальное название (желательно осмысленное).</p>\n\n<pre><code>#include \"pch.h\"\n\nint CountInterestingInInterval(int end_of_interval);\n\nTEST(test_ordinary_1)\n{\n    ASSERT_EQ(CountInterestingInInterval(3), 0);\n}\nTEST(test_ordinary_2)\n{\n    ASSERT_EQ(CountInterestingInInterval(9), 1);\n}\nTEST(test_ordinary_3)\n{\n    ASSERT_EQ(CountInterestingInInterval(10), 1);\n}\nTEST(test_ordinary_4)\n{\n    ASSERT_EQ(CountInterestingInInterval(34), 3);\n}\nTEST(test_ordinary_5)\n{\n    ASSERT_EQ(CountInterestingInInterval(880'055'535), 88'005'553);\n}\nTEST(test_min)\n{\n    ASSERT_EQ(CountInterestingInInterval(1), 0);\n}\nTEST(test_max)\n{\n    ASSERT_EQ(CountInterestingInInterval(1'000'000'000), 100'000'000);\n}\n\n\nint CountInterestingInInterval(int end_of_interval)\n{\n    return  (end_of_interval + 1) / 10;\n}</code></pre>\n\n<p>Конструкция ASSERT_EQ проверяет на равенство два числа. Если они отличаются, то тест считается проваленным.</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3253503",
+  "subscriptions": [
+    "31-77-3253503",
+    "30-77-3253503"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 737,
+  "passed_by": 737,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3232595,
+  "create_date": "2022-09-01T17:31:48Z",
+  "update_date": "2022-09-13T16:42:23Z",
+  "discussions_count": 1,
+  "discussion_proxy": "77-3253503-1",
+  "discussion_threads": [
+    "77-3253503-1"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 0
+}

@@ -1,0 +1,111 @@
+{
+  "id": 3428748,
+  "lesson": 770586,
+  "position": 9,
+  "status": "ready",
+  "block": {
+    "name": "choice",
+    "text": "<p>const int size = 5;<br>\nint arr[size]{ 1, 2, 3, 4, 5 }; // arr = 0x00000020C43BFA78<br>\nint* ptr = arr;</p>\n\n<p>while (arr != ptr + size)<br>\n{<br>\n    std::cout &lt;&lt; *(arr++) &lt;&lt; \" \";<br>\n}</p>\n\n<p>Что выведет данная программа?</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": false
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": false,
+      "is_always_correct": false,
+      "sample_size": 6,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "1 2 3 4 5",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "00000020C43BFA78 00000020C43BFA7C 00000020C43BFA80 00000020C43BFA84 00000020C43BFA88",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Ничего, произойдёт ошибка времени компиляции",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "2 3 4 5 *рандомное значение*",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Ничего, произойдёт ошибка времени выполнения",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "00000020C43BFA7C 00000020C43BFA80 00000020C43BFA84 00000020C43BFA88 00000020C43BFA8C",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3428748",
+  "subscriptions": [
+    "31-77-3428748",
+    "30-77-3428748"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 661,
+  "passed_by": 616,
+  "correct_ratio": 0.3799019607843137,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3407840,
+  "create_date": "2022-11-07T14:32:05Z",
+  "update_date": "2022-11-10T08:29:57Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3428748-1",
+  "discussion_threads": [
+    "77-3428748-1",
+    "77-3428748-2"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 1
+}

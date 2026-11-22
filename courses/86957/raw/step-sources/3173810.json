@@ -1,0 +1,67 @@
+{
+  "id": 3173810,
+  "lesson": 763037,
+  "position": 3,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<h3><strong>Спецификация языков</strong></h3>\n\n<h3>Стандартизация</h3>\n\n<p>Для многих широко распространённых языков программирования созданы <a href=\"https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B6%D0%B4%D1%83%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F\" rel=\"noopener noreferrer nofollow\" title=\"Международная стандартизация\">международные стандарты</a>. Специальные организации проводят регулярное обновление и публикацию <a href=\"https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B5%D1%86%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F_%D1%8F%D0%B7%D1%8B%D0%BA%D0%BE%D0%B2_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F\" rel=\"noopener noreferrer nofollow\" title=\"Спецификация языков программирования\">спецификаций</a> и формальных определений соответствующего языка. В рамках таких комитетов продолжается разработка и модернизация языков программирования и решаются вопросы о расширении или поддержке уже существующих и новых языковых конструкций.</p>\n\n<h3>Алфавит</h3>\n\n<p>Современные языки программирования рассчитаны на использование таблицы кодирования символов <a href=\"https://ru.wikipedia.org/wiki/ASCII\" rel=\"noopener noreferrer nofollow\" title=\"ASCII\">ASCII</a>, то есть доступность всех <em>графических</em> символов ASCII является необходимым и достаточным условием для записи любых конструкций языка. <em>Управляющие</em> символы ASCII используются ограниченно: допускаются только возврат каретки CR, перевод строки LF и горизонтальная табуляция HT (иногда также вертикальная табуляция VT и переход к следующей странице FF).</p>\n\n<p>Ранние языки, возникшие в эпоху <a href=\"https://ru.wikipedia.org/wiki/%D0%A8%D0%B5%D1%81%D1%82%D0%B8%D0%B1%D0%B8%D1%82%D0%BD%D0%B0%D1%8F_%D0%BA%D0%BE%D0%B4%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0\" rel=\"noopener noreferrer nofollow\" title=\"Шестибитная кодировка\">6-битных символов</a>, использовали более ограниченный набор. Например, алфавит Фортрана включает 49 символов (включая пробел): A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 0 1 2 3 4 5 6 7 8 9 = + - * / () . , $ ' :</p>\n\n<p>В СССР существовали языки, где все ключевые слова писались русскими буквами, но большой популярности подобные языки не завоевали (исключение составляет <a href=\"https://ru.wikipedia.org/wiki/%D0%92%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_1%D0%A1:%D0%9F%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D0%B5\" rel=\"noopener noreferrer nofollow\" title=\"Встроенный язык программирования 1С:Предприятие\">Встроенный язык программирования 1С:Предприятие</a>).</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3173810",
+  "subscriptions": [
+    "31-77-3173810",
+    "30-77-3173810"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 1636,
+  "passed_by": 1636,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3152902,
+  "create_date": "2022-07-31T19:08:12Z",
+  "update_date": "2022-08-18T21:36:22Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3173810-1",
+  "discussion_threads": [
+    "77-3173810-1"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 0
+}

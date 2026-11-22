@@ -1,0 +1,78 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите верные утверждения.</p>\n\n<p>Программа:</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n\nint var = 1;\nvoid printer();\n\nint main() {\n    std::cout &lt;&lt; var &lt;&lt; ' '; // 1\n\n    int var = 2;\n\n    std::cout &lt;&lt; var &lt;&lt; ' '; // 2\n\n    {\n        var = 4;\n        std::cout &lt;&lt; var &lt;&lt; ' '; // 3\n    }\n\n    std::cout &lt;&lt; var &lt;&lt; ' '; // 4\n\n    {\n        int var = 0;\n        std::cout &lt;&lt; var &lt;&lt; ' '; // 5\n    }\n\n    printer(); // 6\n    printer(); // 7\n    printer(); // 8\n\n    return 0;\n}\n\nvoid printer() {\n    static int var = 1;\n    std::cout &lt;&lt; var &lt;&lt; ' ';\n    var += 100;\n}\n\n</code></pre>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 10,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "Автоматические объекты - это локальные объекты, автоматически созданные компилятором",
+          "feedback": "про автоматические объекты почитайте"
+        },
+        {
+          "is_correct": true,
+          "text": "Автоматические объекты - это локальные объекты с автоматической продолжительностью хранения: существуют только во время выполнения того блока, в котором определены",
+          "feedback": "про автоматические объекты почитайте"
+        },
+        {
+          "is_correct": true,
+          "text": ".h файлы в основном используют для объявлений, а .cpp для определений",
+          "feedback": "почитайте, зачем нужно разделение на .h и .cpp файлы"
+        },
+        {
+          "is_correct": false,
+          "text": ".h файлы в основном используют для определений, а .cpp для объявлений",
+          "feedback": "почитайте, зачем нужно разделение на .h и .cpp файлы"
+        },
+        {
+          "is_correct": true,
+          "text": "#pragme once - препроцессорная директива для контроля, что исходный файл подключается лишь раз",
+          "feedback": "повторите, что такое препроцессорная директива"
+        },
+        {
+          "is_correct": false,
+          "text": "#pragme once -  указание компилятору, что исходный файл подключается лишь раз",
+          "feedback": "повторите, что такое препроцессорная директива"
+        },
+        {
+          "is_correct": true,
+          "text": "Программа выведет эти числа: 1 2 4 4 0 1 101 201",
+          "feedback": "Повторите область видимости и статические переменные"
+        },
+        {
+          "is_correct": false,
+          "text": "Программа выведет эти числа:1 2 4 4 0 1 1 1",
+          "feedback": "Почитайте про статические переменные"
+        },
+        {
+          "is_correct": false,
+          "text": "Программа выведет эти числа: 1 1 4 4 0 1 101 201",
+          "feedback": "Почитайте про глобальные переменные"
+        },
+        {
+          "is_correct": false,
+          "text": "Программа выведет эти числа: 1 2 4 4 4 1 101 201",
+          "feedback": "Почитайте про локальные переменные"
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3404927",
+  "time": "2026-11-22T18:35:40Z"
+}

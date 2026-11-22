@@ -1,0 +1,53 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите все подходящие ответы из списка.</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 5,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "Сборщик проекта занимается лишь компоновкой.",
+          "feedback": "Сборщик проекта контролирует препроцессорную обработку, компиляцию и компоновку."
+        },
+        {
+          "is_correct": true,
+          "text": "Cmake кроссплатформенный. ",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Cmake непосредственно занимается сборкой проекта. ",
+          "feedback": "Cmake генерирует makefile, потом утилита make выполнит его."
+        },
+        {
+          "is_correct": true,
+          "text": "${SOURCES} #получаем значение переменной SOURCES ",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Cmake не может проверять наличие необходимых библиотек. ",
+          "feedback": "Может."
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3273099",
+  "time": "2026-11-22T18:35:40Z"
+}

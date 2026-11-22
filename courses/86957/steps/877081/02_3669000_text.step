@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h2><strong>Класс как тип данных</strong></h2>\n\n<p>Здесь мы рассмотрим пример, демонстрирующий применение объектов C++ в качестве переменных типа, определенного пользователем. Объекты будут представлять расстояния, выраженные в английской системе мер. Ниже приведен листинг программы:</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n\n// длина в английской системе\nclass Distance {\nprivate:\n    int feet;\n    float inches;\n\npublic:\n    // установка значений полей\n    void setdist(int ft, float in) {\n        feet = ft;\n        inches = in;\n    }\n\n    // ввод полей с клавиатуры\n    void getdist() {\n        std::cout &lt;&lt; \"Введите число футов: \";\n        std::cin &gt;&gt; feet;\n        std::cout &lt;&lt; \"Введите число дюймов: \";\n        std::cin &gt;&gt; inches;\n    }\n\n    // вывод полей на экран\n    void showdist() {\n        std::cout &lt;&lt; feet &lt;&lt; \" футов \" &lt;&lt; inches &lt;&lt; \" дюймов\";\n    }\n};\n\nint main() {\n    setlocale(LC_ALL, \"Russian\");\n    Distance dist1, dist2; // две длины\n    dist1.setdist(11, 6.25); // установка значений для d1\n    dist2.getdist(); // ввод значений для dist2\n\n    // вывод длин на экран\n    std::cout &lt;&lt; \"\\ndist1 - \"; \n    dist1.showdist();\n    std::cout &lt;&lt; \"\\ndist2 - \"; \n    dist2.showdist();\n    std::cout &lt;&lt; std::endl;\n    return 0;\n}</code></pre>\n\n<p>В этой программе класс Distance содержит два поля: feet и inches. Класс Distance имеет три метода:</p>\n\n<ol>\n\t<li>setdist(), предназначенный для задания значений полей объекта через передаваемые ему аргументы;</li>\n\t<li>getdist(), получающий эти же значения с клавиатуры;</li>\n\t<li>showdist(), отображающий на экране расстояние в футах и дюймах</li>\n</ol>\n\n<p>Таким образом, значения полей объекта класса Distance могут быть заданы двумя способами. В функции main() мы определили две переменные типа Distance: dist1 и dist2. Значения полей для первой из них задаются с помощью функции setdist(), вызванной с аргументами 11 и 6.25, а значения полей переменной dist2 вводятся пользователем.</p>\n\n<p>Данный пример демонстрирует два способа использования методов класса для инициализации полей объекта класса. Но как правило, удобнее инициализировать поля объекта автоматически в момент его создания, а не явно вызывать в программе соответствующий метод. Такой способ инициализации реализуется с помощью особого метода класса, называемого <strong>конструктором</strong>. Что же это такое?</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3669000",
+  "time": "2026-11-22T18:35:40Z"
+}

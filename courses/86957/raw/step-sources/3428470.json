@@ -1,0 +1,106 @@
+{
+  "id": 3428470,
+  "lesson": 770585,
+  "position": 8,
+  "status": "ready",
+  "block": {
+    "name": "choice",
+    "text": "<p>Дан указатель <code>int* ptr</code>, который хранит в себе адрес  <code>ptr = 0x00001F42</code>.<br>\nВ таком случае, какой вывод будет у следующей программы (<code>sizeof(int) = 4</code>):</p>\n\n<p>int x = 5;<br>\nint* ptr = &amp;x;<br>\nstd::cout &lt;&lt; ptr + 3 &lt;&lt; std::endl;</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": false
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": false,
+      "is_always_correct": false,
+      "sample_size": 5,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "Ничего, произойдёт ошибка времени компиляции",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "00001F45",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "00001F4E",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "8",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Ничего, произойдёт ошибка времени выполнения",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3428470",
+  "subscriptions": [
+    "31-77-3428470",
+    "30-77-3428470"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 820,
+  "passed_by": 714,
+  "correct_ratio": 0.4836173001310616,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3407562,
+  "create_date": "2022-11-07T12:51:44Z",
+  "update_date": "2022-11-07T13:43:28Z",
+  "discussions_count": 2,
+  "discussion_proxy": "77-3428470-1",
+  "discussion_threads": [
+    "77-3428470-1",
+    "77-3428470-2"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 1
+}

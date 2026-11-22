@@ -1,0 +1,59 @@
+{
+  "id": 3333794,
+  "lesson": 770587,
+  "position": 16,
+  "status": "ready",
+  "block": {
+    "name": "choice",
+    "text": "<p>int** mat = new int*[3];<br>\nfor (int i = 0; i &lt;= 2; ++i){<br>\n    mat[i] = new int[i+1];<br>\n}</p>\n\n<p>Выберите правильное утверждение.</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": false
+    },
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3333794",
+  "subscriptions": [
+    "31-77-3333794",
+    "30-77-3333794"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 649,
+  "passed_by": 591,
+  "correct_ratio": 0.6172839506172839,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3312886,
+  "create_date": "2022-10-03T15:35:34Z",
+  "update_date": "2023-10-25T18:04:06Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3333794-1",
+  "discussion_threads": [
+    "77-3333794-1",
+    "77-3333794-2"
+  ]
+}

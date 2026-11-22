@@ -1,0 +1,130 @@
+{
+  "id": 3264622,
+  "lesson": 763640,
+  "position": 5,
+  "status": "ready",
+  "block": {
+    "name": "code",
+    "text": "<p>Дан квадрат с вершинами в точках (0, 0), (0, k), (k, k), (k, 0). Вычислите наименьшее из расстояний от точки с координатами (x, y), лежащей внутри или снаружи квадрата, до сторон данного квадрата. Координаты вещественные.</p>\n\n<p>Формат ввода:</p>\n\n<p>Переменные вводятся в порядке K, X, Y.</p>\n\n<p>Используйте библиотеку <code>&lt;iomanip&gt;</code> и функцию <code>setprecision(22)</code>. </p>",
+    "video": null,
+    "options": {
+      "execution_time_limit": 5,
+      "execution_memory_limit": 256,
+      "limits": {
+        "c++": {
+          "time": 5,
+          "memory": 256
+        }
+      },
+      "code_templates": {
+        "c++": "#include <iostream>\n\nint main() {\n    // put your code here\n    return 0;\n}"
+      },
+      "code_templates_header_lines_count": {
+        "c++": 0
+      },
+      "code_templates_footer_lines_count": {
+        "c++": 0
+      },
+      "code_templates_options": {},
+      "samples": [
+        [
+          "9\n2\n3",
+          "2"
+        ]
+      ],
+      "is_run_user_code_allowed": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "code": "# This is a sample Code Challenge\n# Learn more: https://stepik.org/lesson/9173\n# Ask your questions via support@stepik.org\n\ndef generate():\n    return []\n\ndef check(reply, clue):\n    return reply.strip() == clue.strip()\n\n# def solve(dataset):\n#     a, b = dataset.split()\n#     return str(int(a) + int(b))",
+      "execution_time_limit": 5,
+      "execution_memory_limit": 256,
+      "samples_count": 1,
+      "templates_data": "::c++",
+      "is_time_limit_scaled": true,
+      "is_memory_limit_scaled": true,
+      "is_run_user_code_allowed": true,
+      "manual_time_limits": [],
+      "manual_memory_limits": [],
+      "test_archive": [],
+      "test_cases": [
+        [
+          "9\n2\n3",
+          "2"
+        ],
+        [
+          "-36.9215863403500000092\n-18.4607931701750000046\n51.1519829254375000115",
+          "51.1519829254375000098"
+        ],
+        [
+          "-5\n-6\n1",
+          "1.414213562373095048764"
+        ],
+        [
+          "-5\n-7\n1",
+          "2.236067977499789696414"
+        ],
+        [
+          "-5\n-3\n0",
+          "0"
+        ]
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": "/api/step-sources/3264622/tests",
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3264622",
+  "subscriptions": [
+    "31-77-3264622",
+    "30-77-3264622"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 818,
+  "passed_by": 467,
+  "correct_ratio": 0.08330526552149994,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    1,
+    0,
+    0,
+    0,
+    2
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3243714,
+  "create_date": "2022-09-06T07:25:09Z",
+  "update_date": "2022-09-11T13:04:07Z",
+  "discussions_count": 11,
+  "discussion_proxy": "77-3264622-1",
+  "discussion_threads": [
+    "77-3264622-1",
+    "77-3264622-2"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 1
+}

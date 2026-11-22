@@ -1,0 +1,68 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите верные утверждения.</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 8,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "Time complexity - оценивается время",
+          "feedback": "Почитайте про time complexity"
+        },
+        {
+          "is_correct": true,
+          "text": "Time complexity - оценивается количество операций",
+          "feedback": "Почитайте про time complexity"
+        },
+        {
+          "is_correct": false,
+          "text": "При оценке операций учитывается их сложность (a * b и a + b учтут с разными коэффициентами)",
+          "feedback": "Почитайте про time complexity"
+        },
+        {
+          "is_correct": true,
+          "text": "При оценке операций не учитывается их сложность (a * b и a + b считаются одинаково сложными)",
+          "feedback": "Почитайте про time complexity"
+        },
+        {
+          "is_correct": true,
+          "text": "Space complexcity - оценивается количество ячеек памяти (int a, double b считаются одинакового размер)",
+          "feedback": "Почитайте про space complexity"
+        },
+        {
+          "is_correct": false,
+          "text": "Space complexcity - оценивается количество байт (int a, double b внесут разный вклад)",
+          "feedback": "Почитайте про space complexity"
+        },
+        {
+          "is_correct": false,
+          "text": "В big-O notation нужно указывать основание-константу логарифма. $O(\\log_2(n))$",
+          "feedback": "Почитайте про логарифм"
+        },
+        {
+          "is_correct": true,
+          "text": "В big-O notation не нужно указывать основание-константу логарифма. $O(\\log(n))$",
+          "feedback": "Почитайте про логарифм"
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3408612",
+  "time": "2026-11-22T18:35:40Z"
+}

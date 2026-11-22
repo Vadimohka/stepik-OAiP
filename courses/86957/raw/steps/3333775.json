@@ -1,0 +1,59 @@
+{
+  "id": 3333775,
+  "lesson": 770587,
+  "position": 14,
+  "status": "ready",
+  "block": {
+    "name": "choice",
+    "text": "<p>// .. корретное выделение памяти .. //<br>\n// ..<br>\nfor (int i = 0; i &lt; 2; ++i){<br>\n    delete mat[i]; <br>\n    mat[i] = nullptr;<br>\n}<br>\ndelete mat;<br>\nmat = nullptr;</p>\n\n<p>Выберите правильное утверждение.</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": false
+    },
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3333775",
+  "subscriptions": [
+    "31-77-3333775",
+    "30-77-3333775"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 648,
+  "passed_by": 590,
+  "correct_ratio": 0.6221294363256785,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3312867,
+  "create_date": "2022-10-03T15:30:02Z",
+  "update_date": "2022-11-06T13:53:15Z",
+  "discussions_count": 2,
+  "discussion_proxy": "77-3333775-1",
+  "discussion_threads": [
+    "77-3333775-1",
+    "77-3333775-2"
+  ]
+}

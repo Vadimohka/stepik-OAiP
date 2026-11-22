@@ -1,0 +1,101 @@
+{
+  "id": 3173888,
+  "lesson": 763039,
+  "position": 2,
+  "status": "ready",
+  "block": {
+    "name": "choice",
+    "text": "<p>Что принципиально отличает интерпретатор от компилятора?</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 4,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": true,
+          "text": "Исполнение программы происходит сразу (по исходнику/AST/байткоду), без предварительного получения нативного бинарника",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Язык сам по себе «интерпретируемый» или «компилируемый» и это нельзя менять",
+          "feedback": "Различие — в способе исполнения. Любой язык можно реализовать и так и так; ВМ может быть и у компилятора (JIT)."
+        },
+        {
+          "is_correct": false,
+          "text": "Наличие виртуальной машины обязательно только у интерпретатора",
+          "feedback": "Различие — в способе исполнения. Любой язык можно реализовать и так и так; ВМ может быть и у компилятора (JIT)."
+        },
+        {
+          "is_correct": true,
+          "text": "Компилятор заранее генерирует машинный код (или объектные файлы), который потом запускается",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3173888",
+  "subscriptions": [
+    "31-77-3173888",
+    "30-77-3173888"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 1348,
+  "passed_by": 975,
+  "correct_ratio": 0.15959821428571427,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3152980,
+  "create_date": "2022-07-31T19:56:25Z",
+  "update_date": "2025-09-29T09:48:51Z",
+  "discussions_count": 5,
+  "discussion_proxy": "77-3173888-1",
+  "discussion_threads": [
+    "77-3173888-1",
+    "77-3173888-2"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 1
+}

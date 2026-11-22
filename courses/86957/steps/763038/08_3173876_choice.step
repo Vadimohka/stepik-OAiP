@@ -1,0 +1,78 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите правильные утверждения</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 10,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": true,
+          "text": "Компиляция создаёт новую программу на основе исходного кода ЯП",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Исходный код языка С++ хранится в формате .cpp",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Объектный файл рекомендуется писать самому",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Объектный файл - исходный код новой программы созданной компилятором на этапе компиляции основанный на .cpp",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Включение файлов выполняется на этапе препроцессорной обработки",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Результатом трансляции являются .lib или .exe файлы",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Результатом трансляции являются .obj или .lib файлы",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "На этапе компоновки используются .obj и .lib файлы",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Компоновка выполняется на этапе препроцессорной обработки",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Результатом успешной компиляции всегда является .exe файл",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3173876",
+  "time": "2026-11-22T18:35:40Z"
+}

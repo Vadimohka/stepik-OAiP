@@ -1,0 +1,78 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите верные утверждения.</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 10,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "Структуры не могут иметь три уровня вложенности.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Структуры можно передавать в функции.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Большие структуры желательно передавать по значению.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Большие структуры желательно передавать по ссылке.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Поля структуры по умолчанию инициализируются нулем. ",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "MyStruct mystr{0}; // инициализирует нулем только первое поле.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Объекты структур можно присваивать друг другу.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Объекты структур можно инициализировать другими объектами этой же структуры.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "При присваивании одного объекта другому, при наличии поля указателя, будет выделена память и скопировано содержимое по этому указателю.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Для доступа к полю структуры используеются оператор ->",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3438077",
+  "time": "2026-11-22T18:35:40Z"
+}

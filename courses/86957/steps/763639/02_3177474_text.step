@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Операции преобразования типов:</h3>\n\n<p>int, float и double</p>\n\n<pre><code class=\"language-cpp\">double x;\nint m;\nstd::cin &gt;&gt; m;\nx = (double) m / 2 + (double)7 / 3;</code></pre>\n\n<h3>Опасные и безопасные преобразования</h3>\n\n<p>Те преобразования, при которых не происходит потеря информации, являются безопасными. Как правило, это преобразования от типа с меньшей разрядностью к типу с большей разрядностью. В частности, это следующие цепочки преобразований:</p>\n\n<p>bool -&gt; char -&gt; short -&gt; int -&gt; double -&gt; long double</p>\n\n<p>bool -&gt; char -&gt; short -&gt; int -&gt; long -&gt; long long</p>\n\n<p>unsigned char -&gt; unsigned short -&gt; unsigned int -&gt; unsigned long</p>\n\n<p>float -&gt; double -&gt; long double</p>\n\n<p>*Подробнее можно почитать <a href=\"https://metanit.com/cpp/tutorial/2.4.php\" rel=\"noopener noreferrer nofollow\">здесь</a>.</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3177474",
+  "time": "2026-11-22T18:35:40Z"
+}

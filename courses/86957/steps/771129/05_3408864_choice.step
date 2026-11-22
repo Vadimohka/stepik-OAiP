@@ -1,0 +1,78 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите верные утверждения.</p>\n\n<p>a - отсортированный массив<br>\nx - искомое<br>\nl, r - текущие границы поиска в массиве<br>\nm - разделительный элемент</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 10,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": true,
+          "text": "Time complexity линейного поиска $O(n)$",
+          "feedback": "Почитайте про линейный поиск"
+        },
+        {
+          "is_correct": true,
+          "text": "Бинарный поиск используется для отсортированных массивов",
+          "feedback": "Почитайте про бинарный поиск"
+        },
+        {
+          "is_correct": true,
+          "text": "Интерполяционный поиск используется для отсортированных массивов",
+          "feedback": "Почитайте про интерполяционный поиск"
+        },
+        {
+          "is_correct": true,
+          "text": "Time complexity бинарного поиска $O(\\log{n})$",
+          "feedback": "Почитайте про бинарный поиск"
+        },
+        {
+          "is_correct": true,
+          "text": "$m = \\frac{x-a_l}{a_r - a_l} \\cdot (r - l) + l$ для интерполяционный поиска",
+          "feedback": "Почитайте про интерполяционный поиск"
+        },
+        {
+          "is_correct": true,
+          "text": "$m = \\frac{r + l}{2}$ (там +-1, но не важно) для бинарного поиска",
+          "feedback": "Почитайте про бинарный поиск"
+        },
+        {
+          "is_correct": true,
+          "text": "$m = \\frac{r - l}{2} + l$ (там +-1, но не важно) для бинарного поиска",
+          "feedback": "Почитайте про бинарный поиск"
+        },
+        {
+          "is_correct": true,
+          "text": "worst case time complexity для интерполяционного поиска $O(n)$",
+          "feedback": "Почитайте про интерполяционный поиск"
+        },
+        {
+          "is_correct": true,
+          "text": "worst case time complexity для интерполяционного поиска возникает, если входные данные распределены экспоненциально",
+          "feedback": "Почитайте про интерполяционный поиск"
+        },
+        {
+          "is_correct": true,
+          "text": "average case time complexity для интерполяционного поиска $O(\\log{\\log{n}})$",
+          "feedback": "Почитайте про интерполяционный поиск"
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3408864",
+  "time": "2026-11-22T18:35:40Z"
+}

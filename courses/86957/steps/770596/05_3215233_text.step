@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Приведение типов</h3>\n\n<p>Стандартом поведение при приведении одной структуры к другой не определено. Это значит, что даже если структуры имеют одинаковые поля, то нельзя явно кастовать одну структуру до другой.</p>\n\n<p>Если у нас существуют две похожие друга на друга структуры, то правильное приведение типов выглядит так:</p>\n\n<pre><code>#include &lt;stdio.h&gt;\n \nstruct Point {\n    int x;\n    int y;\n};\n \nstruct Apex {\n    int a;\n    int b;\n};\n\nvoid main() {\n    struct Point point = {10, 20};\n    struct Apex apex;\n \n    apex.a = point.x;\n    apex.b = point.y;\n \n    printf(\"a = %d, b = %d\", apex.a, apex.b);\n \n    getch();\n}</code></pre>\n\n<p>Привести массив к структуре (или любому другому типу) по стандарту также невозможно (хотя в различных компиляторах есть для этого инструменты), пример:</p>\n\n<pre><code class=\"language-cpp\">#include &lt;conio.h&gt;\n#include &lt;stdio.h&gt;\n \nstruct Point {\n    int x;\n    int y;\n};\n \nvoid main() {\n    struct Point point = {10, 20};\n    int x[3] = {300, 400, 500};\n \n    point = (*(struct Point*)(x));\n \n    printf(\"a = %d, b = %d\", point.x, point.y);\n \n    getch();\n}</code></pre>\n\n<p>Однако стоит помнить, что поведение программы при таком приведении <strong>не определено</strong>.</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3215233",
+  "time": "2026-11-22T18:35:40Z"
+}

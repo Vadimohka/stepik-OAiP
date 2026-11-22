@@ -1,0 +1,78 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите верные утверждения.<br>\nСистема использует little endian.</p>\n\n<p>Программа 1. </p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;string&gt;\n\ntypedef union EU {\n    int8_t b;\n    int16_t a;\n} EU;\n\nint main() {\n    EU eu;\n    eu.b = 1;\n\n    std::cout &lt;&lt; eu.a &lt;&lt; '\\n';\n    \n    return 0;\n}\n</code></pre>\n\n<p>Программа 2.</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n\ntypedef union test {\n    int x;\n    char arr[4];\n} test;\n\nint main() {\n    test t;\n    t.x = 0;\n    t.arr[1] = 'A';\n    std::cout &lt;&lt; t.arr;\n\n    return 0;\n}\n</code></pre>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 10,
+      "preserve_order": true,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "Длина объединения - это сумма длин полей объединения.",
+          "feedback": "Длина объединения, повторить."
+        },
+        {
+          "is_correct": true,
+          "text": "Длина объединения - это максимум из длин полей объединения.",
+          "feedback": "Длина объединения, повторить."
+        },
+        {
+          "is_correct": false,
+          "text": "Класс не может быть типом поля объединения.",
+          "feedback": "Что не может быть полем union?"
+        },
+        {
+          "is_correct": true,
+          "text": "Программа 1 выведет 1.",
+          "feedback": "Повторите, что такое little endian и как в памяти union располагается"
+        },
+        {
+          "is_correct": false,
+          "text": "Программа 1 выведет 256.",
+          "feedback": "Повторите, что такое little endian и как в памяти union располагается"
+        },
+        {
+          "is_correct": false,
+          "text": "Программа 1 выведет мусор.",
+          "feedback": "Нет, не мусор. Больше подсказок не будет)"
+        },
+        {
+          "is_correct": false,
+          "text": "Программа 1 выдаст ошибку: к значению eu.a нельзя обращаться, т.к. ранее было использовано eu.b",
+          "feedback": "Вы думаете, что в c++ есть куча проверок?"
+        },
+        {
+          "is_correct": true,
+          "text": "Программа 2 ничего не выведет.",
+          "feedback": "Какое число в таблице ASCII ответственно за '\\0'?"
+        },
+        {
+          "is_correct": false,
+          "text": "Программа 2 выведет A.",
+          "feedback": "Какое число в таблице ASCII ответственно за '\\0'?"
+        },
+        {
+          "is_correct": false,
+          "text": "Программа 2 выведет мусорное значение, затем A.",
+          "feedback": "Какое число в таблице ASCII ответственно за '\\0'?"
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3426585",
+  "time": "2026-11-22T18:35:40Z"
+}

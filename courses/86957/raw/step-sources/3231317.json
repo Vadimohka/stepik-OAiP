@@ -1,0 +1,67 @@
+{
+  "id": 3231317,
+  "lesson": 774618,
+  "position": 3,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<h3><strong>Установка и запуск Cmake из консоли</strong></h3>\n\n<p>Установить Cmake можно с официального сайта <a href=\"https://cmake.org/\" rel=\"noopener noreferrer nofollow\">https://cmake.org/</a> или на linux ввести команду:</p>\n\n<p><code>sudo apt install cmake</code></p>\n\n<p>Создадим простейший test.cpp, в котором выведем Hello, World! В этой же директории создадим CMakeLists.txt, в который добавим:</p>\n\n<p><code>cmake_minimum_required(VERSION 3.22.1) # объявляем минимальную версию cmake</code><br>\n<code>project(test) # устанавливаем имя проекта</code><br>\n<code>set(SOURCES test.cpp) # переменной SOURCES присваиваем значение test.cpp</code><br>\n<code>add_executable(test ${SOURCES}) # добавляем переменную SOURCES к исполняемым файлам</code></p>\n\n<p>Запускаем в консоли следующую команду: </p>\n\n<p><code>cmake CMakeLists.txt</code></p>\n\n<p>Затем:</p>\n\n<p><code>make</code></p>\n\n<p>И после выполнения данной программы появится исполняемый файл. На linux его можно запустить с помощью:</p>\n\n<p><code>./test</code></p>\n\n<p>Полученный вывод:</p>\n\n<p><code>Hello World</code></p>\n\n<p>Таким образом, можно быстро запускать C++ проект из консоли.</p>\n\n<p>Подробнее о синтаксисе Cmake: <a href=\"https://www.pvsm.ru/kompilyatsiya/300549\" rel=\"noopener noreferrer nofollow\">https://www.pvsm.ru/kompilyatsiya/300549</a>\"</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3231317",
+  "subscriptions": [
+    "31-77-3231317",
+    "30-77-3231317"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 1593,
+  "passed_by": 1593,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3210409,
+  "create_date": "2022-08-26T16:13:18Z",
+  "update_date": "2022-08-28T17:44:31Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3231317-1",
+  "discussion_threads": [
+    "77-3231317-1"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 0
+}

@@ -1,0 +1,54 @@
+{
+  "id": 3253548,
+  "lesson": 778426,
+  "position": 6,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<p><strong>Использование Google Tests</strong></p>\n\n<p>Если запустить код с предыдущего шага, то консоль будет выглядеть так:</p>\n\n<p style=\"text-align: center;\"><img alt=\"\" height=\"635\" name=\"image.png\" src=\"https://ucarecdn.stepik.net/68206ee9-b084-4a2d-95f2-6c1c02c08055/\" width=\"593\"></p>\n\n<p>Можно заметить, что результат каждого теста выводится в отдельном блоке, и в каждом из них есть информация об успешности теста и о времени выполнения.</p>\n\n<p>Вот что будет, если специально подставить в тест неправильный ответ (это же произойдёт, если изначальный алгоритм окажется ошибочным):</p>\n\n<p style=\"text-align: center;\"><img alt=\"\" height=\"743\" name=\"image.png\" src=\"https://ucarecdn.stepik.net/5ff00f3c-1025-4227-a711-04b0f8ceea4d/\" width=\"637\"></p>\n\n<p>Как можно заметить, при провале теста в консоль вывелась информация о том, какой ответ получился из функции и какой мы ожидали получить (изначальный ответ 3 был заменён на 53). Давайте также посмотрим разницу во времени в трёх разных реализациях данной программы: </p>\n\n<p style=\"text-align: center;\"><img alt=\"\" height=\"347\" name=\"image.png\" src=\"https://ucarecdn.stepik.net/63715e90-5c45-49dc-88a8-b7de211cd7c6/\" width=\"638\"></p>\n\n<p>Как можно увидеть, что первый алгоритм, как было ранее доказано, отрабатывает гораздо медленнее второго и третьего (третий отработал быстрее миллисекунды, поэтому время равно нулю). </p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3253548",
+  "subscriptions": [
+    "31-77-3253548",
+    "30-77-3253548"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 712,
+  "passed_by": 712,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3232640,
+  "create_date": "2022-09-01T18:01:07Z",
+  "update_date": "2023-11-18T20:38:39Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3253548-1",
+  "discussion_threads": [
+    "77-3253548-1"
+  ]
+}

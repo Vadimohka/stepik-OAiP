@@ -1,0 +1,67 @@
+{
+  "id": 3215136,
+  "lesson": 770595,
+  "position": 2,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<h3>Пузырьковая сортировка</h3>\n\n<p>В пузырьковой сортировке каждый элемент сравнивается со следующим. Если два таких элемента не стоят в нужном порядке, то они меняются между собой местами. В конце каждой итерации (далее называем их проходами) наибольший/наименьший элемент ставится в конец списка.</p>\n\n<p><img alt=\"\" height=\"3980\" name=\"Frame 23.png\" src=\"https://ucarecdn.stepik.net/c5d61993-9d6d-46d1-8c0e-a8dd4b1934fc/-/crop/10096x3980/0,677/-/preview/\" width=\"10096\"></p>\n\n<p>Bubble sort является базой для каждого студента, однако её применение крайне не выгодно.</p>\n\n<p>Сложность в любом случае: <strong>O(n<sup>2</sup>).</strong></p>\n\n<p>Затраты по памяти <strong>О(1).</strong></p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3215136",
+  "subscriptions": [
+    "31-77-3215136",
+    "30-77-3215136"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 689,
+  "passed_by": 689,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3194228,
+  "create_date": "2022-08-18T19:07:14Z",
+  "update_date": "2023-12-28T07:08:49Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3215136-1",
+  "discussion_threads": [
+    "77-3215136-1"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 0
+}

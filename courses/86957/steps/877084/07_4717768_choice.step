@@ -1,0 +1,48 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>Что из перечисленного не может быть унаследовано от базового класса?</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": false
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": false,
+      "is_always_correct": false,
+      "sample_size": 4,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "Friend",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Both A and B cannot be inherited",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Constructor",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Both A and B can be inherited",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "4717768",
+  "time": "2026-11-22T18:35:40Z"
+}

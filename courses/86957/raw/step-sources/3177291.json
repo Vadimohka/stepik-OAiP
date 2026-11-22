@@ -1,0 +1,67 @@
+{
+  "id": 3177291,
+  "lesson": 763639,
+  "position": 1,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<h3>В языке С++ существуют следующие операции</h3>\n\n<ul>\n\t<li>Оператор присваивания: =.</li>\n\t<li>Арифметические:\n\t<ul>\n\t\t<li>бинарные (операция над двумя операндами): <em>+ - * / %</em></li>\n\t\t<li>унарные (операция над одним операндом): <em>++ --</em></li>\n\t</ul>\n\t</li>\n\t<li>Логические:\n\t<ul>\n\t\t<li>бинарные: <em>&amp;&amp; ||</em></li>\n\t\t<li>унарные: <em>!</em></li>\n\t</ul>\n\t</li>\n\t<li>Сравнения: <em>== != &gt; &lt; &gt;= &lt;=</em></li>\n\t<li>Приведения типов: <em>(type)</em></li>\n\t<li>Сокращённые версии бинарных операторов: <em>+= -= *= /= %=</em></li>\n</ul>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3177291",
+  "subscriptions": [
+    "31-77-3177291",
+    "30-77-3177291"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 1326,
+  "passed_by": 1326,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3156383,
+  "create_date": "2022-08-01T15:17:04Z",
+  "update_date": "2022-08-01T16:48:30Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3177291-1",
+  "discussion_threads": [
+    "77-3177291-1"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 0
+}

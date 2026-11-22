@@ -1,0 +1,77 @@
+{
+  "block": {
+    "name": "code",
+    "text": "<p>Дан квадрат с вершинами в точках (0, 0), (0, k), (k, k), (k, 0). Вычислите наименьшее из расстояний от точки с координатами (x, y), лежащей внутри или снаружи квадрата, до сторон данного квадрата. Координаты вещественные.</p>\n\n<p>Формат ввода:</p>\n\n<p>Переменные вводятся в порядке K, X, Y.</p>\n\n<p>Используйте библиотеку <code>&lt;iomanip&gt;</code> и функцию <code>setprecision(22)</code>. </p>",
+    "video": null,
+    "options": {
+      "execution_time_limit": 5,
+      "execution_memory_limit": 256,
+      "limits": {
+        "c++": {
+          "time": 5,
+          "memory": 256
+        }
+      },
+      "code_templates": {
+        "c++": "#include <iostream>\n\nint main() {\n    // put your code here\n    return 0;\n}"
+      },
+      "code_templates_header_lines_count": {
+        "c++": 0
+      },
+      "code_templates_footer_lines_count": {
+        "c++": 0
+      },
+      "code_templates_options": {},
+      "samples": [
+        [
+          "9\n2\n3",
+          "2"
+        ]
+      ],
+      "is_run_user_code_allowed": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "code": "# This is a sample Code Challenge\n# Learn more: https://stepik.org/lesson/9173\n# Ask your questions via support@stepik.org\n\ndef generate():\n    return []\n\ndef check(reply, clue):\n    return reply.strip() == clue.strip()\n\n# def solve(dataset):\n#     a, b = dataset.split()\n#     return str(int(a) + int(b))",
+      "execution_time_limit": 5,
+      "execution_memory_limit": 256,
+      "samples_count": 1,
+      "templates_data": "::c++",
+      "is_time_limit_scaled": true,
+      "is_memory_limit_scaled": true,
+      "is_run_user_code_allowed": true,
+      "manual_time_limits": [],
+      "manual_memory_limits": [],
+      "test_archive": [],
+      "test_cases": [
+        [
+          "9\n2\n3",
+          "2"
+        ],
+        [
+          "-36.9215863403500000092\n-18.4607931701750000046\n51.1519829254375000115",
+          "51.1519829254375000098"
+        ],
+        [
+          "-5\n-6\n1",
+          "1.414213562373095048764"
+        ],
+        [
+          "-5\n-7\n1",
+          "2.236067977499789696414"
+        ],
+        [
+          "-5\n-3\n0",
+          "0"
+        ]
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": "/api/step-sources/3264622/tests",
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3264622",
+  "time": "2026-11-22T18:35:40Z"
+}

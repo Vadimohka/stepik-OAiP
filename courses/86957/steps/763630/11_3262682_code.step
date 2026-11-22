@@ -1,0 +1,81 @@
+{
+  "block": {
+    "name": "code",
+    "text": "<p>Определить время падения камня на поверхность земли с высоты h. Ускорение свободного падения g взять равным 9.8 м/с^2.</p>\n\n<p>Точность ответа: до 9 разрядов после запятой.</p>",
+    "video": null,
+    "options": {
+      "execution_time_limit": 5,
+      "execution_memory_limit": 256,
+      "limits": {
+        "c++": {
+          "time": 5,
+          "memory": 256
+        }
+      },
+      "code_templates": {
+        "c++": "#include <iostream>\n\nint main() {\n    // put your code here\n    return 0;\n}"
+      },
+      "code_templates_header_lines_count": {
+        "c++": 0
+      },
+      "code_templates_footer_lines_count": {
+        "c++": 0
+      },
+      "code_templates_options": {},
+      "samples": [
+        [
+          "92",
+          "4.33307168"
+        ]
+      ],
+      "is_run_user_code_allowed": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "code": "# This is a sample Code Challenge\n# Learn more: https://stepik.org/lesson/9173\n# Ask your questions via support@stepik.org\n\ndef generate():\n    return []\n\ndef check(reply, clue):\n    return reply.strip() == clue.strip()\n\n# def solve(dataset):\n#     a, b = dataset.split()\n#     return str(int(a) + int(b))",
+      "execution_time_limit": 5,
+      "execution_memory_limit": 256,
+      "samples_count": 1,
+      "templates_data": "::c++",
+      "is_time_limit_scaled": true,
+      "is_memory_limit_scaled": true,
+      "is_run_user_code_allowed": true,
+      "manual_time_limits": [],
+      "manual_memory_limits": [],
+      "test_archive": [],
+      "test_cases": [
+        [
+          "92",
+          "4.33307168"
+        ],
+        [
+          "1356247538635742635",
+          "526103803"
+        ],
+        [
+          "12343252145",
+          "50189.9497"
+        ],
+        [
+          "7625877",
+          "1247.51811"
+        ],
+        [
+          "415.1515213525",
+          "9.20460756"
+        ],
+        [
+          "0.012401241251251",
+          "0.0503077088"
+        ]
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": "/api/step-sources/3262682/tests",
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3262682",
+  "time": "2026-11-22T18:35:40Z"
+}

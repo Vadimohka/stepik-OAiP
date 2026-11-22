@@ -1,0 +1,54 @@
+{
+  "id": 3212990,
+  "lesson": 770585,
+  "position": 5,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<h3>Арифметика указателей</h3>\n\n<p>Указатели могут участвовать в арифметических операциях (сложение, вычитание, инкремент, декремент). Однако сами операции производятся немного иначе, чем с числами. И многое здесь зависит от типа указателя.</p>\n\n<p>К указателю можно прибавлять целое число, и также можно вычитать из указателя целое число. Кроме того, можно вычитать из одного указателя другой указатель.</p>\n\n<p>Рассмотрим вначале операции инкремента и декремента и для этого возьмем указатель на объект типа int:</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n \nint main() {\n    int n = 10;\n      \n    int *ptr = &amp;n;\n    std::cout &lt;&lt; \"address=\" &lt;&lt; ptr &lt;&lt; \"\\tvalue=\" &lt;&lt; *ptr &lt;&lt; std::endl;\n      \n    ptr++;\n    std::cout &lt;&lt; \"address=\" &lt;&lt; ptr &lt;&lt; \"\\tvalue=\" &lt;&lt; *ptr &lt;&lt; std::endl;\n      \n    ptr--;\n    std::cout &lt;&lt; \"address=\" &lt;&lt; ptr &lt;&lt; \"\\tvalue=\" &lt;&lt; *ptr &lt;&lt; std::endl;\n \n    return 0;\n}</code></pre>\n\n<p>Операция инкремента ++ увеличивает значение на единицу. В случае с указателем увеличение на единицу будет означать увеличение адреса, который хранится в указателе, на размер типа указателя. То есть в данном случае указатель на тип int, а размер объектов int в большинстве архитектур равен 4 байтам. Поэтому увеличение указателя типа int на единицу означает увеличение значение указателя на 4.</p>\n\n<p><img alt=\"\" height=\"2739\" name=\"Frame 13.png\" src=\"https://ucarecdn.stepik.net/268c8ae4-5247-45a9-afb3-ebd68d92c438/-/preview/\" width=\"5372\"></p>\n\n<p>Фактически увеличение на единицу означает, что мы хотим перейти к следующему объекту в памяти, который находится за текущим и на который указывает указатель. А уменьшение на единицу означает переход назад к предыдущему объекту в памяти.</p>\n\n<p>После изменения адреса мы можем получить значение, которое находится по новому адресу, однако это значение может быть неопределенным, как показано в случае выше.</p>\n\n<p>В случае с указателем типа int увеличение/уменьшение на единицу означает изменение адреса на 4. Аналогично, для указателя типа short эти операции изменяли бы адрес на 2, а для указателя типа char на 1.</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n \nint main() {\n    double d = 10.6;\n    double *pd = &amp;d;\n    std::cout &lt;&lt; \"Pointer pd: address:\" &lt;&lt; pd &lt;&lt; std::endl;\n    pd++;\n    std::cout &lt;&lt; \"Pointer pd: address:\" &lt;&lt; pd &lt;&lt; std::endl;\n          \n    char c = 'N';\n    char *pc = &amp;c;\n    std::cout &lt;&lt; \"Pointer pc: address:\" &lt;&lt; (void*)pc &lt;&lt; std::endl;\n    pc++;\n    std::cout &lt;&lt; \"Pointer pc: address:\" &lt;&lt; (void*)pc &lt;&lt; std::endl;\n \n    return 0;\n}</code></pre>\n\n<p>Увеличение на единицу указателя типа double дало увеличения хранимого в нем адреса на 8 единиц (размер объекта double - 8 байт), а увеличение на единицу указателя типа char дало увеличение хранимого в нем адреса на 1 (размер типа char - 1 байт).</p>\n\n<p>Аналогично указатель будет изменяться при прибавлении/вычитании не единицы, а какого-то другого числа.</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n \nint main() {\n    double d = 10.6;\n    double *pd = &amp;d;\n    std::cout &lt;&lt; \"Pointer pd: address:\" &lt;&lt; pd &lt;&lt; std::endl;\n    pd = pd + 2;\n    std::cout &lt;&lt; \"Pointer pd: address:\" &lt;&lt; pd &lt;&lt; std::endl;\n      \n    char c = 'N';\n    char *pc = &amp;c;\n    std::cout &lt;&lt; \"Pointer pc: address:\" &lt;&lt; (void*)pc &lt;&lt; std::endl;\n    pc = pc - 3;\n    std::cout &lt;&lt; \"Pointer pc: address:\" &lt;&lt; (void*)pc &lt;&lt; std::endl;\n \n    return 0;\n}</code></pre>\n\n<p>В отличие от сложения операция вычитания может применять не только к указателю и целому числу, но и к двум указателям одного типа:</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n \nint main() {\n    int a = 10;\n    int b = 23;\n    int *pa = &amp;a;\n    int *pb = &amp;b;\n    int c = pa - pb;\n      \n    std::cout &lt;&lt; \"pa: \" &lt;&lt; pa &lt;&lt; std::endl;\n    std::cout &lt;&lt; \"pb: \" &lt;&lt; pb &lt;&lt; std::endl;\n    std::cout &lt;&lt; \"c: \" &lt;&lt; c &lt;&lt; std::endl;\n \n    return 0;\n}</code></pre>\n\n<p>Результатом разности двух указателей является \"расстояние\" между ними. Например, в случае выше адрес из первого указателя на 4 больше, чем адрес из второго указателя (0x60fe8c + 4 = 0x60fe90). Так как размер одного объекта int равен 4 байтам, то расстояние между указателями будет равно (0x60fe90 - 0x60fe8c)/4 = 1.</p>\n\n<h3>Некоторые особенности операций</h3>\n\n<p>При работе с указателями надо отличать операции с самим указателем и операции со значением по адресу, на который указывает указатель.</p>\n\n<pre><code class=\"language-cpp\">int a = 10;\nint *pa = &amp;a;\nint b = *pa + 20;   // операция со значением, на который указывает указатель\npa++;               // операция с самим указателем\n     \nstd::cout &lt;&lt; \"b: \" &lt;&lt; b &lt;&lt; std::endl;  ;  // 30</code></pre>\n\n<p>То есть в данном случае через операцию разыменования <code>*pa</code> получаем значение, на которое указывает указатель pa, то есть число 10, и выполняем операцию сложения. То есть в данном случае обычная операция сложения между двумя числами, так как выражение <code>*pa</code> представляет число.</p>\n\n<p>Но в то же время есть особенности, в частности, с операциями инкремента и декремента. Дело в том, что операции *, ++ и -- имеют одинаковый приоритет и при размещении рядом выполняются справа налево.</p>\n\n<p>Например, выполним постфиксный инкремент:</p>\n\n<pre><code class=\"language-cpp\">int a = 10;\nint *pa = &amp;a;\nstd::cout &lt;&lt; \"pa: address=\" &lt;&lt; pa &lt;&lt; \"\\tvalue=\" &lt;&lt; *pa &lt;&lt; std::endl;\nint b = *pa++;      // инкремент адреса указателя\n          \nstd::cout &lt;&lt; \"b: value=\" &lt;&lt; b &lt;&lt; std::endl;\nstd::cout &lt;&lt; \"pa: address=\" &lt;&lt; pa &lt;&lt; \"\\tvalue=\" &lt;&lt; *pa &lt;&lt; std::endl;</code></pre>\n\n<p>В выражении <code>b = *pa++;</code> сначала к указателю присваивается единица (то есть к адресу добавляется 4, так как указатель типа int). Затем так как инкремент постфиксный, с помощью операции разыменования возвращается значение, которое было до инкремента - то есть число 10. И это число 10 присваивается переменной b.</p>\n\n<p>Изменим выражение:</p>\n\n<pre><code class=\"language-cpp\">b = ++*pa;</code></pre>\n\n<p>В данном случае сначала с помощью операции разыменования получаем значение по адресу из указателя pa, к этому значению прибавляется единица. То есть теперь значение по адресу, который хранится в указателе, равно 11. Затем результат операции присваивается переменной b.</p>\n\n<p>Изменим выражение:</p>\n\n<pre><code class=\"language-cpp\">b = *++pa;</code></pre>\n\n<p>Теперь сначала изменяет адрес в указателе, затем мы получаем по этому адресу значение и присваиваем его переменной b. Полученное значение в этом случае может быть неопределенным.</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3212990",
+  "subscriptions": [
+    "31-77-3212990",
+    "30-77-3212990"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 852,
+  "passed_by": 852,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3192082,
+  "create_date": "2022-08-17T17:18:55Z",
+  "update_date": "2023-05-15T20:00:38Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3212990-1",
+  "discussion_threads": [
+    "77-3212990-1"
+  ]
+}

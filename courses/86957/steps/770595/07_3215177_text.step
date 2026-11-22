@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Сортировка Шелла</h3>\n\n<p>Алгоритм включает в себя сортировку вставками. Исходный массив размером <code>N</code> разбивается на подмассивы с шагом<code>N/2</code>. Подмассивы сортируются вставками. Затем вновь разбиваются, но уже с шагом равным <code>N/4</code>. Цикл повторяется. Производим целочисленное деление шага на два каждую итерацию. Когда шаг становится равен 1, массив просто сортируется вставками.</p>\n\n<p><img alt=\"\" height=\"1331\" name=\"Frame 28.png\" src=\"https://ucarecdn.stepik.net/d563867a-1085-462c-bbcb-377ce767e6b4/-/crop/4320x1331/0,236/-/preview/\" width=\"4320\"></p>\n\n<p>Сложность в лучшем и среднем случае:<strong> O(n*logn);</strong></p>\n\n<p>Сложность в худшем случае: <strong>O(n<sup>2</sup>).</strong></p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3215177",
+  "time": "2026-11-22T18:35:40Z"
+}

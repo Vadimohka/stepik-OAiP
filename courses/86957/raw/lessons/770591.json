@@ -1,0 +1,77 @@
+{
+  "id": 770591,
+  "steps": [
+    3212950,
+    3214973,
+    3214972,
+    3214971,
+    3214974,
+    3215024,
+    3214978,
+    3404829,
+    3425890,
+    3428206,
+    3428255,
+    3384518,
+    5828883
+  ],
+  "actions": {
+    "learn_lesson": "#",
+    "assist_lesson": "#",
+    "view_all_submissions": "#",
+    "edit_lesson": "#",
+    "view_statistics": "#",
+    "attachments": "/lesson/770591/attachments/",
+    "clone_lesson": "/lesson/770591/clone/",
+    "admin_lesson": "#",
+    "edit_permissions": "/lesson/770591/permissions/",
+    "delete_lesson": "#"
+  },
+  "progress": "76-770591",
+  "subscriptions": [
+    "31-76-770591",
+    "30-76-770591"
+  ],
+  "viewed_by": 827,
+  "passed_by": 158,
+  "time_to_complete": 2103,
+  "cover_url": "https://ucarecdn.stepik.net/55ac7865-40ce-4f77-b579-f1afaca84d29/-/scale_crop/180x180/center/",
+  "is_comments_enabled": true,
+  "is_exam_without_progress": false,
+  "is_blank": false,
+  "is_draft": false,
+  "is_orphaned": false,
+  "courses": [
+    86957
+  ],
+  "units": [
+    773032
+  ],
+  "owner": 296085237,
+  "language": "ru",
+  "is_featured": false,
+  "is_public": true,
+  "canonical_url": "https://stepik.org/lesson/770591/",
+  "title": "Создание функций в С++",
+  "slug": "Создание-функций-в-С++-770591",
+  "create_date": "2022-08-17T16:25:27Z",
+  "update_date": "2024-08-16T06:50:06Z",
+  "learners_group": 5116733,
+  "testers_group": 5116734,
+  "moderators_group": 5116735,
+  "assistants_group": 5116736,
+  "teachers_group": 5116731,
+  "admins_group": 5116732,
+  "discussions_count": 13,
+  "discussion_proxy": "76-770591-1",
+  "discussion_threads": [
+    "76-770591-1"
+  ],
+  "epic_count": 22,
+  "abuse_count": 14,
+  "vote_delta": 8,
+  "vote": null,
+  "lti_consumer_key": "",
+  "lti_secret_key": "",
+  "lti_private_profile": false
+}

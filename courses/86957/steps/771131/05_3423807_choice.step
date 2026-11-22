@@ -1,0 +1,78 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите верные утверждения.</p>\n\n<p>Программа 1. text.txt не существует до запуска.</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;string&gt;\n#include &lt;fstream&gt;\n\nint main() {\n    std::fstream file(\"text.txt\");\n\n    file &lt;&lt; \"ABOBA\";\n\n    return 0;\n}\n\n</code></pre>\n\n<p>Программа 2. В text.txt записано \"ABOBA\".</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;string&gt;\n#include &lt;fstream&gt;\n\nint main() {\n    std::fstream file(\"text.txt\");\n\n    file &lt;&lt; \"LUCI\";\n\n    return 0;\n}\n\n</code></pre>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 10,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": true,
+          "text": "в с++ (fstream) файлы не обязательно закрывать с помощью close (делается автоматически при выходе из области видимости)",
+          "feedback": "почитайте про закрытие файлов в C++"
+        },
+        {
+          "is_correct": false,
+          "text": "в с (FILE *) файлы не обязательно закрывать с помощью fclose (делается автоматически при выходе из области видимости)",
+          "feedback": "почитайте про закрытие файлов в C"
+        },
+        {
+          "is_correct": true,
+          "text": "fread/fwrite возвращают количество успешно прочитанных/записанных байт",
+          "feedback": "обратите внимание на API fread/fwrite"
+        },
+        {
+          "is_correct": false,
+          "text": "fread/fwrite возвращают true, если не было ошибок.",
+          "feedback": "обратите внимание на API fread/fwrite"
+        },
+        {
+          "is_correct": false,
+          "text": "использование нескольких флагов: flag1 & flag2 & flag3.",
+          "feedback": "посмотрите, как использовать сразу несколько флагов"
+        },
+        {
+          "is_correct": true,
+          "text": "использование нескольких флагов: flag1 | flag2 | flag3.",
+          "feedback": "посмотрите, как использовать сразу несколько флагов"
+        },
+        {
+          "is_correct": true,
+          "text": "Программа 1 успешно создаст text.txt и запишет туда \"ABOBA\"",
+          "feedback": "почитайте про флаги по умолчанию в fstream"
+        },
+        {
+          "is_correct": false,
+          "text": "Программа 1 не создаст text.txt. Нужен флаг std::fstream::out.",
+          "feedback": "почитайте про флаги по умолчанию в fstream"
+        },
+        {
+          "is_correct": false,
+          "text": "После выполнения программы 2 в text.txt будет \"LUCI\"",
+          "feedback": "почитайте про ios::trunc и флаги по умолчанию в fstream"
+        },
+        {
+          "is_correct": true,
+          "text": "После выполнения программы 2 в text.txt будет \"LUCIA\"",
+          "feedback": "почитайте про ios::trunc и флаги по умолчанию в fstream"
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3423807",
+  "time": "2026-11-22T18:35:40Z"
+}

@@ -1,0 +1,43 @@
+{
+  "id": 258836,
+  "course": 86957,
+  "units": [
+    773035,
+    773036,
+    773574
+  ],
+  "position": 10,
+  "discounting_policy": "no_discount",
+  "progress": "79-258836",
+  "actions": {
+    "test_section": "#"
+  },
+  "required_section": null,
+  "required_percent": 100,
+  "is_requirement_satisfied": true,
+  "is_exam": false,
+  "is_exam_without_progress": false,
+  "is_random_exam": false,
+  "exam_duration_minutes": 120,
+  "random_exam_problems_course": null,
+  "random_exam_problems_count": 20,
+  "exam_session": null,
+  "proctor_session": null,
+  "description": "",
+  "is_proctoring_can_be_scheduled": false,
+  "title": "Исследование алгоритмов",
+  "slug": "Исследование-алгоритмов-258836",
+  "begin_date": "2022-11-21T09:00:00Z",
+  "end_date": null,
+  "soft_deadline": null,
+  "hard_deadline": null,
+  "grading_policy": "no_deadlines",
+  "begin_date_source": "2022-11-21T09:00:00Z",
+  "end_date_source": null,
+  "soft_deadline_source": null,
+  "hard_deadline_source": null,
+  "grading_policy_source": null,
+  "is_active": true,
+  "create_date": "2022-08-17T16:20:57Z",
+  "update_date": "2024-08-03T11:03:24Z"
+}

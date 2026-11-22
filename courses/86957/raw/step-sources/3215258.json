@@ -1,0 +1,67 @@
+{
+  "id": 3215258,
+  "lesson": 771155,
+  "position": 2,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<h3>Преобразование чисел из одной системы счисления в другую</h3>\n\n<h4><strong>Преобразование целого в десятичную систему счисления. </strong></h4>\n\n<p>Для перевода целого числа, представленного в системе счисления с основанием <strong>P, </strong>нужно воспользоваться формулой определения значения числа в этой системе счисления, выполнив соответствующие действия над цифрами (в родной десятичной системе) - <strong>W= </strong><strong>ΣR<sub>i</sub> p<sup>i</sup></strong>.<br>\n2C5<sub>16</sub><sup> = </sup>2 <sup>. </sup>16<sup>2 </sup>+ <sup> </sup>12(C) <sup>. </sup>16<sup>1 </sup>+ 5 = 512 + 192 + 5 = 709<sub>10</sub><br>\n4375<sub>8 </sub>= 4 <sup>. </sup>8<sup>3</sup> + 3 <sup>. </sup>8<sup>2</sup> + 7 <sup>. </sup>8 + 5 = 2048 + 192 + 56  + 5 = 2301<sub>10</sub></p>\n\n<p> </p>\n\n<h4><strong>Преобразования дробной части числа в десятичную систему счисления. </strong></h4>\n\n<p>Для дробной части числа нужно использовать ту же самую формулу с учетом отрицательных степеней основания для разрядов дробной части - <strong>W= ΣR<sub>i</sub> p<sup>-i</sup></strong>.</p>\n\n<p>0.3F5<sub>16 </sub>= 3/16 + 15(F)/16<sup>2</sup> + 5/16<sup>3</sup> = 0.18750 + 0.05859 + 0.00122 = 0.24731<sub>10 </sub></p>\n\n<p>0.524<sub>8 </sub>= 5/8 + 2/8<sup>2</sup> + 4/8<sup>3</sup> = 0.6250 + 0.0312 + 0.0078 = 0.6640<sub>10</sub></p>\n\n<p> </p>\n\n<h4><strong>Преобразование целого из десятичной системы счисления в систему с основанием </strong><strong>P. </strong></h4>\n\n<p>Идея алгоритма заключается в том, что остаток от деления исходного числа на <strong>P </strong>дает нам младшую цифру числа в этой системе счисления. Последовательность остатков от деления исходного числа на основание системы счисления образует цифры числа, но в обратном порядке, начиная с младшей.</p>\n\n<p>2301 / 8 = 287 (5)                                   709  / 16 = 44 (5)</p>\n\n<p>  287 / 8 = 35  (7)                                      44 /  16 = 2  (12=C)</p>\n\n<p>    35 / 8 =  4   (3)                                        2 /  16 = 0  (2) = 2C5<sub>16</sub></p>\n\n<p>      4 / 8 =  0   (4)  = 4375<sub>8</sub></p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3215258",
+  "subscriptions": [
+    "31-77-3215258",
+    "30-77-3215258"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 1281,
+  "passed_by": 1281,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3194349,
+  "create_date": "2022-08-18T21:52:24Z",
+  "update_date": "2022-08-18T21:52:25Z",
+  "discussions_count": 1,
+  "discussion_proxy": "77-3215258-1",
+  "discussion_threads": [
+    "77-3215258-1"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 0
+}

@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<p style=\"text-align: center;\"><strong>const_cast</strong></p>\n\n<p><strong>const_cast</strong> - это оператор приведения типов в C++, который позволяет удалить или добавить константность к выражению. Он используется для преобразования указателей и ссылок на константные объекты в указатели и ссылки на не константные объекты и наоборот.</p>\n\n<p>Синтаксис const_cast:</p>\n\n<pre><code>const_cast&lt;new_type&gt;(expression)</code></pre>\n\n<p>new_type - новый тип данных, в который нужно преобразовать выражение.</p>\n\n<p>expression - выражение, которое нужно преобразовать.</p>\n\n<p>Примеры:</p>\n\n<p>     1. Удаление константности:</p>\n\n<pre><code>void print_string(char* str) {\n    cout &lt;&lt; str &lt;&lt; endl;\n}\n\nint main() {\n    const char* const_str = \"Hello, world!\";\n    char* str = const_cast&lt;char*&gt;(const_str); // удаление константности\n    print_string(str); // вызов функции, которая принимает указатель на не константный char\n    return 0;\n}\n</code></pre>\n\n<p>     2. Добавление константности:</p>\n\n<pre><code>void print_string(const char* str) {\n    cout &lt;&lt; str &lt;&lt; endl;\n}\n\nint main() {\n    char str[] = \"Hello, world!\";\n    const char* const_str = const_cast&lt;const char*&gt;(str); // добавление константности\n    print_string(const_str); // вызов функции, которая принимает указатель на константный char\n    return 0;\n}\n</code></pre>\n\n<p>Важно отметить, чт<strong>о const_cast может привести к неопределенному поведению программы</strong>, если константность удалена из выражения, которое в действительности является константным. Поэтому при использовании<strong> const_cas</strong>t необходимо быть осторожным и убедиться, что удаление или добавление константности безопасно для программы.</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "4047680",
+  "time": "2026-11-22T18:35:40Z"
+}

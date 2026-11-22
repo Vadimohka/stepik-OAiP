@@ -1,0 +1,78 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите правильные утверждения.</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 10,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": true,
+          "text": "*(a++); // вернет значение первого элемента массива, если a указывает на начало массива",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "*(++a); // вернет значение первого элемента массива, если a указывает на начало массива",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "int* ptr = new int[2]{1, 2} - 1; // ptr[1] вернет 1",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "new (buf) int[3] - не вызывает выделения памяти",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "int* a = new int[2]; delete a; // UB",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "int* a = new int[2]; delete[] a; // корректно",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "char* str = new char[]{\"Hello\"}; // корректно",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "если, при вызове new, не хватает памяти - программа аварийно завершается",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "если, при вызове new, не хватает памяти - new возвращает nullptr",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "динамические массивы выделяются в той же области памяти, что и статические",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3330738",
+  "time": "2026-11-22T18:35:40Z"
+}

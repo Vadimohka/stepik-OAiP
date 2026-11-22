@@ -1,0 +1,69 @@
+{
+  "id": 771009,
+  "steps": [
+    3214764,
+    3214777,
+    3214778,
+    3214832,
+    3214833
+  ],
+  "actions": {
+    "learn_lesson": "#",
+    "assist_lesson": "#",
+    "view_all_submissions": "#",
+    "edit_lesson": "#",
+    "view_statistics": "#",
+    "attachments": "/lesson/771009/attachments/",
+    "clone_lesson": "/lesson/771009/clone/",
+    "admin_lesson": "#",
+    "edit_permissions": "/lesson/771009/permissions/",
+    "delete_lesson": "#"
+  },
+  "progress": "76-771009",
+  "subscriptions": [
+    "31-76-771009",
+    "30-76-771009"
+  ],
+  "viewed_by": 1349,
+  "passed_by": 1108,
+  "time_to_complete": 87,
+  "cover_url": "https://ucarecdn.stepik.net/b28e5f84-ad7f-4c30-88a4-3b5b69cad8d8/-/scale_crop/180x180/center/",
+  "is_comments_enabled": true,
+  "is_exam_without_progress": false,
+  "is_blank": false,
+  "is_draft": false,
+  "is_orphaned": false,
+  "courses": [
+    86957
+  ],
+  "units": [
+    773461
+  ],
+  "owner": 296085237,
+  "language": "ru",
+  "is_featured": false,
+  "is_public": true,
+  "canonical_url": "https://stepik.org/lesson/771009/",
+  "title": "Система контроля версий",
+  "slug": "Система-контроля-версий-771009",
+  "create_date": "2022-08-18T14:34:12Z",
+  "update_date": "2024-01-02T18:40:21Z",
+  "learners_group": 5119514,
+  "testers_group": 5119515,
+  "moderators_group": 5119516,
+  "assistants_group": 5119517,
+  "teachers_group": 5119512,
+  "admins_group": 5119513,
+  "discussions_count": 1,
+  "discussion_proxy": "76-771009-1",
+  "discussion_threads": [
+    "76-771009-1"
+  ],
+  "epic_count": 19,
+  "abuse_count": 2,
+  "vote_delta": 17,
+  "vote": null,
+  "lti_consumer_key": "",
+  "lti_secret_key": "",
+  "lti_private_profile": false
+}

@@ -1,0 +1,67 @@
+{
+  "id": 3215257,
+  "lesson": 771155,
+  "position": 3,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<h3><strong>Преобразование дробной части из десятичной системы счисления в систему с основанием </strong><strong>P. </strong></h3>\n\n<p>При умножении дробной части на основание системы счисления <strong>P </strong>очередная цифра дробной части «выдвигается» в целую часть числа. Если ее отбросить и повторить процесс, то получим последовательность цифр дробной части (в прямом порядке).</p>\n\n<p>0.24731 * 16 = 3.95696   (3)</p>\n\n<p>0.95696 * 16 = 15.31136 (15(F))</p>\n\n<p>0.31136 * 16 = 4.98176   (4)</p>\n\n<p>0.98176 * 16 = 15.70816  (15(F)) = 0.3F4F<sub>16</sub> ≈ 0.3F5<sub>16</sub></p>\n\n<p> </p>\n\n<p>0.6640 * 8 = 5.312 (5)</p>\n\n<p>0.312   * 8 = 2.496 (2)</p>\n\n<p>0.496   * 8 = 3.968 (3)</p>\n\n<p>0.968   * 8 = 7.744 (7) = 0.5237<sub>8 </sub>≈ 0.524<sub>8</sub></p>\n\n<p>Обратите внимание, что при преобразовании дробной части сначала в десятичную систему а затем обратно в исходную получаем значение, меньшее исходного, которое только при округлении становится «правильным». Это связано с тем, что при первом преобразовании мы оставили только четыре десятичных цифры, отбросив «хвост».</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3215257",
+  "subscriptions": [
+    "31-77-3215257",
+    "30-77-3215257"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 1269,
+  "passed_by": 1269,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3194350,
+  "create_date": "2022-08-18T21:52:24Z",
+  "update_date": "2022-08-18T21:52:25Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3215257-1",
+  "discussion_threads": [
+    "77-3215257-1"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 0
+}

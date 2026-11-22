@@ -1,0 +1,67 @@
+{
+  "id": 3213248,
+  "lesson": 770594,
+  "position": 7,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<h3>Как правильно определить O(n)?</h3>\n\n<p>Давайте вспомним 8-й класс и разберёмся: что значит запись <em>O(n)</em> с математической точки зрения. При расчёте Big O Notation используют два правила:</p>\n\n<p><strong>Константы откидываются.</strong> Нас интересует только часть формулы, которая зависит от размера входных данных. Проще говоря, это само число n, его степени, логарифмы, факториалы и экспоненты, где число находится в степени n.</p>\n\n<p><strong>Примеры:</strong></p>\n\n<p><em>O(3n) = O(n)</em></p>\n\n<p><em>O(10000 n^2) = O(n^2)</em></p>\n\n<p><em>O(2n * log n) = O(n * log n)</em></p>\n\n<p><strong>Если в O есть сумма, нас интересует самое быстрорастущее слагаемое.</strong> Это называется асимптотической оценкой сложности.</p>\n\n<p><strong>Примеры:</strong></p>\n\n<p><em>O(n^2 + n) = O(n^2)</em></p>\n\n<p><em>O(n^3 + 100n * log n) = O(n^3)</em></p>\n\n<p><em>O(n! + 999) = O(n!)</em></p>\n\n<p><em>O(1,1^n + n^100) = O(1,1^n)</em></p>\n\n<p><em>Так повелось т.к. с</em>уществует вероятность того, что O(N) код быстрее, чем O(1) код для определенных входных данных. “О” большое просто описывает скорость увеличения.</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3213248",
+  "subscriptions": [
+    "31-77-3213248",
+    "30-77-3213248"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 673,
+  "passed_by": 673,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3192340,
+  "create_date": "2022-08-17T18:46:06Z",
+  "update_date": "2022-08-17T18:55:44Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3213248-1",
+  "discussion_threads": [
+    "77-3213248-1"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 0
+}

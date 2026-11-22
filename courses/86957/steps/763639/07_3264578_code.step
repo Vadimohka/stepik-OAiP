@@ -1,0 +1,85 @@
+{
+  "block": {
+    "name": "code",
+    "text": "<p>Заданы два целых числа <strong>X</strong> и <strong>Y</strong>. Определите, верно ли, что одно из них делится на другое без остатка, или нет.</p>\n\n<p>В ответе выведите \"YES\", если делятся, \"NO\", если не делятся.</p>\n\n<p>В противных случаях выведите \"ERROR\".</p>\n\n<p>Для решения задачи попробуйте интуитивно применить оператор if вместе с вашими операциями сравнения.</p>\n\n<p><em>if(улосвие){ваш код}</em></p>",
+    "video": null,
+    "options": {
+      "execution_time_limit": 5,
+      "execution_memory_limit": 256,
+      "limits": {
+        "c++": {
+          "time": 5,
+          "memory": 256
+        }
+      },
+      "code_templates": {
+        "c++": "#include <iostream>\n\nint main() {\n    // put your code here\n    return 0;\n}"
+      },
+      "code_templates_header_lines_count": {
+        "c++": 0
+      },
+      "code_templates_footer_lines_count": {
+        "c++": 0
+      },
+      "code_templates_options": {},
+      "samples": [
+        [
+          "2 2",
+          "YES"
+        ]
+      ],
+      "is_run_user_code_allowed": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "code": "# This is a sample Code Challenge\n# Learn more: https://stepik.org/lesson/9173\n# Ask your questions via support@stepik.org\n\ndef generate():\n    return []\n\ndef check(reply, clue):\n    return reply.strip() == clue.strip()\n\n# def solve(dataset):\n#     a, b = dataset.split()\n#     return str(int(a) + int(b))",
+      "execution_time_limit": 5,
+      "execution_memory_limit": 256,
+      "samples_count": 1,
+      "templates_data": "::c++",
+      "is_time_limit_scaled": true,
+      "is_memory_limit_scaled": true,
+      "is_run_user_code_allowed": true,
+      "manual_time_limits": [],
+      "manual_memory_limits": [],
+      "test_archive": [],
+      "test_cases": [
+        [
+          "2 2",
+          "YES"
+        ],
+        [
+          "0 2",
+          "YES"
+        ],
+        [
+          "2 0",
+          "YES"
+        ],
+        [
+          "0 0",
+          "ERROR"
+        ],
+        [
+          "-10 2145",
+          "NO"
+        ],
+        [
+          "96 -96",
+          "YES"
+        ],
+        [
+          "17 21",
+          "NO"
+        ]
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": "/api/step-sources/3264578/tests",
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3264578",
+  "time": "2026-11-22T18:35:40Z"
+}

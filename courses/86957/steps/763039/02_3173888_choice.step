@@ -1,0 +1,48 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>Что принципиально отличает интерпретатор от компилятора?</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 4,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": true,
+          "text": "Исполнение программы происходит сразу (по исходнику/AST/байткоду), без предварительного получения нативного бинарника",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Язык сам по себе «интерпретируемый» или «компилируемый» и это нельзя менять",
+          "feedback": "Различие — в способе исполнения. Любой язык можно реализовать и так и так; ВМ может быть и у компилятора (JIT)."
+        },
+        {
+          "is_correct": false,
+          "text": "Наличие виртуальной машины обязательно только у интерпретатора",
+          "feedback": "Различие — в способе исполнения. Любой язык можно реализовать и так и так; ВМ может быть и у компилятора (JIT)."
+        },
+        {
+          "is_correct": true,
+          "text": "Компилятор заранее генерирует машинный код (или объектные файлы), который потом запускается",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3173888",
+  "time": "2026-11-22T18:35:40Z"
+}

@@ -1,0 +1,73 @@
+{
+  "id": 763037,
+  "steps": [
+    3173778,
+    3173804,
+    3173810,
+    3173811,
+    3173832,
+    3173835,
+    3173836,
+    3173838,
+    3173839
+  ],
+  "actions": {
+    "learn_lesson": "#",
+    "assist_lesson": "#",
+    "view_all_submissions": "#",
+    "edit_lesson": "#",
+    "view_statistics": "#",
+    "attachments": "/lesson/763037/attachments/",
+    "clone_lesson": "/lesson/763037/clone/",
+    "admin_lesson": "#",
+    "edit_permissions": "/lesson/763037/permissions/",
+    "delete_lesson": "#"
+  },
+  "progress": "76-763037",
+  "subscriptions": [
+    "31-76-763037",
+    "30-76-763037"
+  ],
+  "viewed_by": 1969,
+  "passed_by": 1344,
+  "time_to_complete": 445,
+  "cover_url": null,
+  "is_comments_enabled": true,
+  "is_exam_without_progress": false,
+  "is_blank": false,
+  "is_draft": false,
+  "is_orphaned": false,
+  "courses": [
+    86957
+  ],
+  "units": [
+    765197
+  ],
+  "owner": 296085237,
+  "language": "ru",
+  "is_featured": false,
+  "is_public": true,
+  "canonical_url": "https://stepik.org/lesson/763037/",
+  "title": "Что такое язык программирования?",
+  "slug": "Что-такое-язык-программирования-763037",
+  "create_date": "2022-07-31T18:52:33Z",
+  "update_date": "2024-01-02T18:38:10Z",
+  "learners_group": 5067000,
+  "testers_group": 5067001,
+  "moderators_group": 5067002,
+  "assistants_group": 5067003,
+  "teachers_group": 5066998,
+  "admins_group": 5066999,
+  "discussions_count": 10,
+  "discussion_proxy": "76-763037-1",
+  "discussion_threads": [
+    "76-763037-1"
+  ],
+  "epic_count": 45,
+  "abuse_count": 5,
+  "vote_delta": 40,
+  "vote": null,
+  "lti_consumer_key": "",
+  "lti_secret_key": "",
+  "lti_private_profile": false
+}

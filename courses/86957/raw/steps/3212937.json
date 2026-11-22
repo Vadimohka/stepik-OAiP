@@ -1,0 +1,54 @@
+{
+  "id": 3212937,
+  "lesson": 763646,
+  "position": 5,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<h3>Забегаем чуть-чуть вперёд сейчас, чтобы не страдать потом :)</h3>\n\n<p>Если массив объявлен <em><strong>статически</strong></em>, то есть в глобальной области видимости, в области видимости пространства имен или в качестве статического члена класса, то он размещается в <em><strong>статической памяти</strong></em>. Массивам, объявленным <strong>локально</strong> (внутри функции к примеру), память выделяется <strong>в стеке</strong>. В таком случае необходимо учитывать ограниченный размер стека при выборе размера локальных массивов. Динамические массивы размещаются в динамической памяти (куче).</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3212937",
+  "subscriptions": [
+    "31-77-3212937",
+    "30-77-3212937"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 829,
+  "passed_by": 829,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3192029,
+  "create_date": "2022-08-17T16:14:40Z",
+  "update_date": "2022-08-17T16:16:27Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3212937-1",
+  "discussion_threads": [
+    "77-3212937-1"
+  ]
+}

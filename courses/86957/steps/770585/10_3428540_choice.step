@@ -1,0 +1,48 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>int x = 5;<br>\nint* intPtr = &amp;x; // intPtr = 0x0000001D3E3FF714<br>\nvoid* voidPtr = (void*)intPtr;</p>\n\n<p>std::cout &lt;&lt; *voidPtr &lt;&lt; std::endl;</p>\n\n<p>Что выведет данная программа (<code>sizeof(int) = 4</code>)?</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": false
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": false,
+      "is_always_correct": false,
+      "sample_size": 4,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "Ничего, произойдёт ошибка времени выполнения",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "0000001D3E3FF714",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Ничего, произойдёт ошибка времени компиляции",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "5",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3428540",
+  "time": "2026-11-22T18:35:40Z"
+}

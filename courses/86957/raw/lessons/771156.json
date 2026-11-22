@@ -1,0 +1,70 @@
+{
+  "id": 771156,
+  "steps": [
+    3215256,
+    3215268,
+    3215267,
+    3215266,
+    3215265,
+    4717221
+  ],
+  "actions": {
+    "learn_lesson": "#",
+    "assist_lesson": "#",
+    "view_all_submissions": "#",
+    "edit_lesson": "#",
+    "view_statistics": "#",
+    "attachments": "/lesson/771156/attachments/",
+    "clone_lesson": "/lesson/771156/clone/",
+    "admin_lesson": "#",
+    "edit_permissions": "/lesson/771156/permissions/",
+    "delete_lesson": "#"
+  },
+  "progress": "76-771156",
+  "subscriptions": [
+    "31-76-771156",
+    "30-76-771156"
+  ],
+  "viewed_by": 1541,
+  "passed_by": 479,
+  "time_to_complete": 367,
+  "cover_url": "https://ucarecdn.stepik.net/67a0feae-ae91-4a17-a3cf-306cfe342044/-/scale_crop/180x180/center/",
+  "is_comments_enabled": true,
+  "is_exam_without_progress": false,
+  "is_blank": false,
+  "is_draft": false,
+  "is_orphaned": false,
+  "courses": [
+    86957
+  ],
+  "units": [
+    773601
+  ],
+  "owner": 296085237,
+  "language": "ru",
+  "is_featured": false,
+  "is_public": true,
+  "canonical_url": "https://stepik.org/lesson/771156/",
+  "title": "Бит, байт, машинное слово",
+  "slug": "Бит-байт-машинное-слово-771156",
+  "create_date": "2022-08-18T21:48:55Z",
+  "update_date": "2024-01-02T18:38:50Z",
+  "learners_group": 5120449,
+  "testers_group": 5120450,
+  "moderators_group": 5120451,
+  "assistants_group": 5120452,
+  "teachers_group": 5120447,
+  "admins_group": 5120448,
+  "discussions_count": 4,
+  "discussion_proxy": "76-771156-1",
+  "discussion_threads": [
+    "76-771156-1"
+  ],
+  "epic_count": 21,
+  "abuse_count": 13,
+  "vote_delta": 8,
+  "vote": null,
+  "lti_consumer_key": "",
+  "lti_secret_key": "",
+  "lti_private_profile": false
+}

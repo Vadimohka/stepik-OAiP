@@ -1,0 +1,130 @@
+{
+  "id": 3446132,
+  "lesson": 770589,
+  "position": 10,
+  "status": "ready",
+  "block": {
+    "name": "code",
+    "text": "<p>У вас есть строка s и фишка, которую вы можете поставить на любой символ этой строки.</p>\n\n<p>После того, как вы поставите фишку, вы можете подвинуть ее вправо несколько (возможно, ноль) раз, то есть сделать следующее действие несколько раз: если текущая позиция фишки обозначена как i, фишка перемещается в позицию i+1. Конечно же, это действие невозможно, если фишка находится в последней позиции строки.</p>\n\n<p>После того, как вы закончите двигать фишку вправо, вы можете подвинуть ее влево несколько (возможно, ноль) раз, то есть сделать следующее действие несколько раз: если текущая позиция фишки обозначена как i, фишка перемещается в позицию i−1. Конечно же, это действие невозможно, если фишка находится в первой позиции строки.</p>\n\n<p>Когда вы ставите фишку или перемещаете ее, вы выписываете символ, на котором оказалась фишка. Например, если строка s — abcdef, вы ставите фишку на 3-й символ, двигаете ее вправо 2 раза, а затем двигаете её влево 3 раза, вы выпишете строку cdedcb.</p>\n\n<p>Вам даны две строки s и t. Ваше задание — определить, можно ли так выполнить описанные операции со строкой s, что в результате вы выпишете строку t.</p>\n\n<p><strong>Входные данные</strong></p>\n\n<p>В первой строке задано одно целое число q (1≤q≤500) — количество наборов входных данных.</p>\n\n<p>Каждый набор входных данных состоит из двух строк. В первой строке задана строка ss (1≤|s|≤500), во второй строке — строка t (1≤|t|≤2*|s|−1). Обе строки состоят из строчных букв латинского алфавита.</p>\n\n<p>Гарантируется, что сумма |s| по всем наборам входных данных не превосходит 500.</p>\n\n<p><strong>Выходные данные</strong></p>\n\n<p>Для каждого набора выходных данных выведите «YES», если можно выписать строку t, проводя описанные в условии действия со строкой s, или «NO» в противном случае.</p>",
+    "video": null,
+    "options": {
+      "execution_time_limit": 1,
+      "execution_memory_limit": 32,
+      "limits": {
+        "c++": {
+          "time": 1,
+          "memory": 32
+        }
+      },
+      "code_templates": {
+        "c++": "#include <iostream>\n\nint main() {\n    // put your code here\n    return 0;\n}"
+      },
+      "code_templates_header_lines_count": {
+        "c++": 0
+      },
+      "code_templates_footer_lines_count": {
+        "c++": 0
+      },
+      "code_templates_options": {},
+      "samples": [
+        [
+          "6\nabcdef\ncdedcb\naaa\naaaaa\naab\nbaaa\nab\nb\nabcdef\nabcdef\nba\nbaa",
+          "YES\nYES\nNO\nYES\nYES\nNO"
+        ]
+      ],
+      "is_run_user_code_allowed": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "code": "# This is a sample Code Challenge\n# Learn more: https://stepik.org/lesson/9173\n# Ask your questions via support@stepik.org\n\ndef generate():\n    return []\n\ndef check(reply, clue):\n    return reply.strip() == clue.strip()\n\n# def solve(dataset):\n#     a, b = dataset.split()\n#     return str(int(a) + int(b))",
+      "execution_time_limit": 1,
+      "execution_memory_limit": 32,
+      "samples_count": 1,
+      "templates_data": "::c++",
+      "is_time_limit_scaled": false,
+      "is_memory_limit_scaled": false,
+      "is_run_user_code_allowed": true,
+      "manual_time_limits": [],
+      "manual_memory_limits": [],
+      "test_archive": [],
+      "test_cases": [
+        [
+          "6\nabcdef\ncdedcb\naaa\naaaaa\naab\nbaaa\nab\nb\nabcdef\nabcdef\nba\nbaa",
+          "YES\nYES\nNO\nYES\nYES\nNO"
+        ],
+        [
+          "15\nrfkqcssocgvdkddnwbsunwjcbsvpqxroknzlwnppcw\nvsbcjwnusbwn\nspjwgvwjuuxloggvbdpdzmwwkzbfwyrmcwghefiswfpggxffhgcobiqqial\nzavnqaniycwbephqqarnihdokhtxbpoyezwifvehoiboskmakrn\nlmbqbgkagjikkwwkujbyoutduppnniolnxjsqxgvmhwxgb\nvfhmzjttmmmncioimgdylavtsulctrrqwmyobuzbjljjdvrs\nushbbepwvimvnozwozbdzvvshivdijcqmjlwrqjlzzkxzerqu\nhbbepwvimvnozwowzonvmivwpebbhs\ntvottwhkbavurcpaczynrusivhnvrcdsjiipgpxnvjmafabquxdlyg\npncspuzsoepvoxnjydlvvohubexrscqkw\nc\nt\nj\ni\na\nx\no\nk\nb\nb\np\nh\nx\nx\nq\ne\ni\nm\nv\nv",
+          "YES\nNO\nNO\nYES\nNO\nNO\nNO\nNO\nNO\nYES\nNO\nYES\nNO\nNO\nYES"
+        ],
+        [
+          "1\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab\naba",
+          "YES"
+        ],
+        [
+          "500\nu\no\no\no\np\nv\nf\nu\no\no\nh\nh\nb\nb\nq\nx\nh\ne\nf\nf\nt\nw\nk\nx\ne\ne\nn\nn\nt\nr\nv\nv\nv\nu\nl\nl\nm\nm\no\no\nf\nf\nn\ny\ng\ng\nq\nq\ne\ne\nl\nk\nm\nm\nx\nv\ng\ng\nh\nm\no\ng\nf\ni\nk\nk\nd\nd\nd\nc\nh\nh\nw\no\nq\nq\na\na\nm\na\nj\nj\nf\ne\nb\nb\ny\nw\ng\nk\nr\nn\ni\ni\nz\nz\ns\ns\nq\nq\nr\nr\ng\ng\ne\ne\nu\nu\np\np\ny\ny\nk\nt\ng\nc\nw\nw\ne\ni\nb\nb\nq\ne\nm\nq\nd\nd\nf\ny\nv\np\nq\nq\nx\nx\np\np\nt\nm\ny\ni\ns\ns\nx\nq\nz\nz\nm\nm\no\ng\nn\ns\nc\nd\nx\nx\nk\nv\ng\ng\nq\nq\ny\na\nz\nz\nu\no\no\no\np\nv\nf\nu\no\no\nh\nh\nb\nb\nq\nx\nh\ne\nf\nf\nt\nw\nk\nx\ne\ne\nn\nn\nt\nr\nv\nv\nv\nu\nl\nl\nm\nm\no\no\nf\nf\nn\ny\ng\ng\nq\nq\ne\ne\nl\nk\nm\nm\nx\nv\ng\ng\nh\nm\no\ng\nf\ni\nk\nk\nd\nd\nd\nc\nh\nh\nw\no\nq\nq\na\na\nm\na\nj\nj\nf\ne\nb\nb\ny\nw\ng\nk\nr\nn\ni\ni\nz\nz\ns\ns\nq\nq\nr\nr\ng\ng\ne\ne\nu\nu\np\np\ny\ny\nk\nt\ng\nc\nw\nw\ne\ni\nb\nb\nq\ne\nm\nq\nd\nd\nf\ny\nv\np\nq\nq\nx\nx\np\np\nt\nm\ny\ni\ns\ns\nx\nq\nz\nz\nm\nm\no\ng\nn\ns\nc\nd\nx\nx\nk\nv\ng\ng\nq\nq\ny\na\nz\nz\nu\no\no\no\np\nv\nf\nu\no\no\nh\nh\nb\nb\nq\nx\nh\ne\nf\nf\nt\nw\nk\nx\ne\ne\nn\nn\nt\nr\nv\nv\nv\nu\nl\nl\nm\nm\no\no\nf\nf\nn\ny\ng\ng\nq\nq\ne\ne\nl\nk\nm\nm\nx\nv\ng\ng\nh\nm\no\ng\nf\ni\nk\nk\nd\nd\nd\nc\nh\nh\nw\no\nq\nq\na\na\nm\na\nj\nj\nf\ne\nb\nb\ny\nw\ng\nk\nr\nn\ni\ni\nz\nz\ns\ns\nq\nq\nr\nr\ng\ng\ne\ne\nu\nu\np\np\ny\ny\nk\nt\ng\nc\nw\nw\ne\ni\nb\nb\nq\ne\nm\nq\nd\nd\nf\ny\nv\np\nq\nq\nx\nx\np\np\nt\nm\ny\ni\ns\ns\nx\nq\nz\nz\nm\nm\no\ng\nn\ns\nc\nd\nx\nx\nk\nv\ng\ng\nq\nq\ny\na\nz\nz\nu\no\no\no\np\nv\nf\nu\no\no\nh\nh\nb\nb\nq\nx\nh\ne\nf\nf\nt\nw\nk\nx\ne\ne\nn\nn\nt\nr\nv\nv\nv\nu\nl\nl\nm\nm\no\no\nf\nf\nn\ny\ng\ng\nq\nq\ne\ne\nl\nk\nm\nm\nx\nv\ng\ng\nh\nm\no\ng\nf\ni\nk\nk\nd\nd\nd\nc\nh\nh\nw\no\nq\nq\na\na\nm\na\nj\nj\nf\ne\nb\nb\ny\nw\ng\nk\nr\nn\ni\ni\nz\nz\ns\ns\nq\nq\nr\nr\ng\ng\ne\ne\nu\nu\np\np\ny\ny\nk\nt\ng\nc\nw\nw\ne\ni\nb\nb\nq\ne\nm\nq\nd\nd\nf\ny\nv\np\nq\nq\nx\nx\np\np\nt\nm\ny\ni\ns\ns\nx\nq\nz\nz\nm\nm\no\ng\nn\ns\nc\nd\nx\nx\nk\nv\ng\ng\nq\nq\ny\na\nz\nz\nu\no\no\no\np\nv\nf\nu\no\no\nh\nh\nb\nb\nq\nx\nh\ne\nf\nf\nt\nw\nk\nx\ne\ne\nn\nn\nt\nr\nv\nv\nv\nu\nl\nl\nm\nm\no\no\nf\nf\nn\ny\ng\ng\nq\nq\ne\ne\nl\nk\nm\nm\nx\nv\ng\ng\nh\nm\no\ng\nf\ni\nk\nk\nd\nd\nd\nc\nh\nh\nw\no\nq\nq\na\na\nm\na\nj\nj\nf\ne\nb\nb\ny\nw\ng\nk\nr\nn\ni\ni\nz\nz\ns\ns\nq\nq\nr\nr\ng\ng\ne\ne\nu\nu\np\np\ny\ny\nk\nt\ng\nc\nw\nw\ne\ni\nb\nb\nq\ne\nm\nq\nd\nd\nf\ny\nv\np\nq\nq\nx\nx\np\np\nt\nm\ny\ni\ns\ns\nx\nq\nz\nz\nm\nm\no\ng\nn\ns\nc\nd\nx\nx\nk\nv\ng\ng\nq\nq\ny\na\nz\nz\nu\no\no\no\np\nv\nf\nu\no\no\nh\nh\nb\nb\nq\nx\nh\ne\nf\nf\nt\nw\nk\nx\ne\ne\nn\nn\nt\nr\nv\nv\nv\nu\nl\nl\nm\nm\no\no\nf\nf\nn\ny\ng\ng\nq\nq\ne\ne\nl\nk\nm\nm\nx\nv\ng\ng\nh\nm\no\ng\nf\ni\nk\nk\nd\nd\nd\nc\nh\nh\nw\no\nq\nq\na\na\nm\na\nj\nj\nf\ne\nb\nb\ny\nw\ng\nk\nr\nn\ni\ni\nz\nz\ns\ns\nq\nq\nr\nr\ng\ng\ne\ne\nu\nu\np\np\ny\ny\nk\nt\ng\nc\nw\nw\ne\ni\nb\nb\nq\ne\nm\nq\nd\nd\nf\ny\nv\np\nq\nq\nx\nx\np\np\nt\nm\ny\ni\ns\ns\nx\nq\nz\nz\nm\nm\no\ng\nn\ns\nc\nd\nx\nx\nk\nv",
+          "NO\nYES\nNO\nNO\nYES\nYES\nYES\nNO\nNO\nYES\nNO\nNO\nYES\nYES\nNO\nYES\nNO\nYES\nYES\nYES\nYES\nNO\nYES\nYES\nYES\nNO\nYES\nNO\nYES\nNO\nNO\nNO\nYES\nYES\nNO\nYES\nNO\nYES\nYES\nNO\nYES\nNO\nYES\nNO\nNO\nNO\nYES\nYES\nYES\nYES\nYES\nYES\nYES\nYES\nYES\nYES\nNO\nNO\nYES\nNO\nYES\nNO\nNO\nYES\nNO\nNO\nYES\nYES\nYES\nNO\nNO\nYES\nNO\nYES\nYES\nNO\nNO\nNO\nYES\nNO\nYES\nYES\nNO\nYES\nNO\nYES\nNO\nNO\nYES\nYES\nYES\nNO\nNO\nYES\nNO\nNO\nYES\nYES\nNO\nYES\nNO\nYES\nYES\nYES\nYES\nNO\nYES\nYES\nYES\nNO\nYES\nNO\nYES\nNO\nNO\nNO\nYES\nYES\nNO\nYES\nNO\nYES\nYES\nNO\nYES\nNO\nYES\nNO\nNO\nNO\nYES\nYES\nYES\nYES\nYES\nYES\nYES\nYES\nYES\nYES\nNO\nNO\nYES\nNO\nYES\nNO\nNO\nYES\nNO\nNO\nYES\nYES\nYES\nNO\nNO\nYES\nNO\nYES\nYES\nNO\nNO\nNO\nYES\nNO\nYES\nYES\nNO\nYES\nNO\nYES\nNO\nNO\nYES\nYES\nYES\nNO\nNO\nYES\nNO\nNO\nYES\nYES\nNO\nYES\nNO\nYES\nYES\nYES\nYES\nNO\nYES\nYES\nYES\nNO\nYES\nNO\nYES\nNO\nNO\nNO\nYES\nYES\nNO\nYES\nNO\nYES\nYES\nNO\nYES\nNO\nYES\nNO\nNO\nNO\nYES\nYES\nYES\nYES\nYES\nYES\nYES\nYES\nYES\nYES\nNO\nNO\nYES\nNO\nYES\nNO\nNO\nYES\nNO\nNO\nYES\nYES\nYES\nNO\nNO\nYES\nNO\nYES\nYES\nNO\nNO\nNO\nYES\nNO\nYES\nYES\nNO\nYES\nNO\nYES\nNO\nNO\nYES\nYES\nYES\nNO\nNO\nYES\nNO\nNO\nYES\nYES\nNO\nYES\nNO\nYES\nYES\nYES\nYES\nNO\nYES\nYES\nYES\nNO\nYES\nNO\nYES\nNO\nNO\nNO\nYES\nYES\nNO\nYES\nNO\nYES\nYES\nNO\nYES\nNO\nYES\nNO\nNO\nNO\nYES\nYES\nYES\nYES\nYES\nYES\nYES\nYES\nYES\nYES\nNO\nNO\nYES\nNO\nYES\nNO\nNO\nYES\nNO\nNO\nYES\nYES\nYES\nNO\nNO\nYES\nNO\nYES\nYES\nNO\nNO\nNO\nYES\nNO\nYES\nYES\nNO\nYES\nNO\nYES\nNO\nNO\nYES\nYES\nYES\nNO\nNO\nYES\nNO\nNO\nYES\nYES\nNO\nYES\nNO\nYES\nYES\nYES\nYES\nNO\nYES\nYES\nYES\nNO\nYES\nNO\nYES\nNO\nNO\nNO\nYES\nYES\nNO\nYES\nNO\nYES\nYES\nNO\nYES\nNO\nYES\nNO\nNO\nNO\nYES\nYES\nYES\nYES\nYES\nYES\nYES\nYES\nYES\nYES\nNO\nNO\nYES\nNO\nYES\nNO\nNO\nYES\nNO\nNO\nYES\nYES\nYES\nNO\nNO\nYES\nNO\nYES\nYES\nNO\nNO\nNO\nYES\nNO\nYES\nYES\nNO\nYES\nNO\nYES\nNO\nNO\nYES\nYES\nYES\nNO\nNO\nYES\nNO\nNO\nYES\nYES\nNO\nYES\nNO\nYES\nYES\nYES\nYES\nNO\nYES\nYES\nYES\nNO\nYES\nNO\nYES\nNO\nNO\nNO\nYES\nYES\nNO\nYES\nNO\nYES\nYES\nNO\nYES\nNO\nYES\nNO\nNO\nNO\nYES\nYES\nYES\nYES\nYES\nYES\nYES\nYES\nYES\nYES\nNO\nNO\nYES\nNO\nYES\nNO\nNO\nYES\nNO\nNO\nYES\nYES\nYES\nNO\nNO\nYES\nNO\nYES\nYES\nNO\nNO\nNO\nYES\nNO"
+        ],
+        [
+          "2\nqwertry\nertre\nbruiytyiopiyt\niytyip",
+          "YES\nYES"
+        ]
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": "/api/step-sources/3446132/tests",
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3446132",
+  "subscriptions": [
+    "31-77-3446132",
+    "30-77-3446132"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 566,
+  "passed_by": 299,
+  "correct_ratio": 0.24417098445595856,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3425224,
+  "create_date": "2022-11-12T21:13:13Z",
+  "update_date": "2023-11-16T19:16:41Z",
+  "discussions_count": 2,
+  "discussion_proxy": "77-3446132-1",
+  "discussion_threads": [
+    "77-3446132-1",
+    "77-3446132-2"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 1
+}

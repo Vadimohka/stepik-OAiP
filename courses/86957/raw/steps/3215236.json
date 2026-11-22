@@ -1,0 +1,54 @@
+{
+  "id": 3215236,
+  "lesson": 770596,
+  "position": 7,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<h3>Указатели на поля структуры и на вложенные структуры</h3>\n\n<p>Указатели на поля структуры определяются также, как и обычные указатели. Указатели на вложенные структуры возможны только тогда, когда структура определена. Немного переделаем предыдущий пример: \"деанонимизируем\" вложенную безымянную структуру и возьмём указатели на поля структуры Model:</p>\n\n<pre><code class=\"language-cpp\">#include &lt;conio.h&gt;\n#include &lt;stdio.h&gt;\n#include &lt;stdlib.h&gt;\n#include &lt;string.h&gt;\n \n#define YEAR_OFFSET 1890\n \n//Отдельно выделили структуру \"Марка\"\ntypedef struct Make {\n    int id;\n    char *name;\n} Make;\n \n//Теперь полем структуры \"Модель\" является структура \"Марка\"\ntypedef struct Model {\n    int id;\n    Make make;\n    char *name;\n    unsigned char year; //year is an offset to 1890\n} Model;\n \nchar* mallocByString(const char *str) { // функция, которая инициализирует поля типа char*\n    char* p = (char*) malloc(strlen(str) + 1);\n    strcpy(p, str);\n    return p;\n}\n  \nvoid freeModel(Model* model) { // очистка памяти\n    free(model-&gt;make.name);\n    free(model-&gt;name);\n}\n \nvoid main() {\n    Make *make = NULL;\n    Model cl;\n    int *id;\n \n    cl.id = 2;\n    cl.make.id = 1;\n    cl.make.name = mallocByString(\"Acura\");\n    cl.name = mallocByString(\"CL\");\n    cl.year = (2003 - YEAR_OFFSET);\n \n    //Получаем указатель на вложенную структуру\n    make = &amp;cl.make;\n    //Получаем указатель на поле структуры\n    id = &amp;cl.id;\n    printf(\"make.name = %s\\n\", make-&gt;name);\n    printf(\"make.id = %d\\n\", make-&gt;id);\n    printf(\"model.id = %d\\n\", *id);\n \n    freeModel(&amp;cl);\n}</code></pre>\n\n<p>Как уже говорилось ранее, в языке С, даже если у двух структур совпадают поля, но структуры имеют разные имена, то их нельзя приводить к одному типу. Поэтому приходится избавляться от анонимных вложенных структур, если на них нужно взять указатель. Можно попытаться взять указатель типа char* на поле структуры, но нет гарантии, что поля будут расположены непрерывно.</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3215236",
+  "subscriptions": [
+    "31-77-3215236",
+    "30-77-3215236"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 644,
+  "passed_by": 644,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3194328,
+  "create_date": "2022-08-18T21:05:32Z",
+  "update_date": "2023-04-25T10:21:35Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3215236-1",
+  "discussion_threads": [
+    "77-3215236-1"
+  ]
+}

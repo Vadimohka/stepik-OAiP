@@ -1,0 +1,67 @@
+{
+  "id": 3215191,
+  "lesson": 771129,
+  "position": 4,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<h3>Интерполирующий поиск элемента в массиве</h3>\n\n<p>Интерполирующий поиск пришел из математики, и он не настолько сложен, как произносится. Его смысл сводится к тому, что необходимо определять область поиска заданного значения, вычисляя подобие расстояний между искомым элементом и всей областью.</p>\n\n<p>Формула достаточно проста – вычисляется длина между номерами первого элемента и искомого (задаваемого точнее). Такая же длина считается между первым и последним номерами. Длины между собой делятся, как раз и получая вычисление подобия. То же самое происходит со значениями элементов – так же вычисляется расстояние между граничными значениями в массиве.</p>\n\n<p>Полученная длина номеров элементов массива умножается на длину значений в этих (граничащих) элементах и прибавляется значение в первой ячейке массива.</p>\n\n<p>Получается: 1 + (20-1)/(100-1) * (200-5) = 38 с копейками.</p>\n\n<p>Данный поиск один из самых интересных в реализации, поэтому предлагаю вам написать его самим :)</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3215191",
+  "subscriptions": [
+    "31-77-3215191",
+    "30-77-3215191"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 603,
+  "passed_by": 603,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3194284,
+  "create_date": "2022-08-18T19:36:16Z",
+  "update_date": "2024-08-03T11:01:38Z",
+  "discussions_count": 1,
+  "discussion_proxy": "77-3215191-1",
+  "discussion_threads": [
+    "77-3215191-1"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 0
+}

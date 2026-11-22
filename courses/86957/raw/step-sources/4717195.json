@@ -1,0 +1,106 @@
+{
+  "id": 4717195,
+  "lesson": 771154,
+  "position": 5,
+  "status": "ready",
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите правильные утверждения:</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 5,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": true,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "Все программисты должны уметь писать код на язык ассемблер",
+          "feedback": "Нет. Язык ассемблера точно нужно уметь читать опытному программисту и этого почти всегда достаточно."
+        },
+        {
+          "is_correct": false,
+          "text": "Все языки программирования транслируются в ассемблерный код",
+          "feedback": "С++ - да, остальные имеют свой \"байт-код\". К примеру C# проходит через CLR, а Java имеет объектный файл .dex."
+        },
+        {
+          "is_correct": false,
+          "text": "Python - не язык программирования",
+          "feedback": "Это современный язык программирования, который долгие годы идёт к быстродействию и высокоэффективности."
+        },
+        {
+          "is_correct": false,
+          "text": "В языке С++ все компиляторы работают одинаково",
+          "feedback": "К сожалению нет. Почитайте про GNU C++ и MSVC (от майкрофсофт)"
+        },
+        {
+          "is_correct": true,
+          "text": "Язык С++ является одним из самых быстрых языков программирования в мире",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-4717195",
+  "subscriptions": [
+    "31-77-4717195",
+    "30-77-4717195"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 1210,
+  "passed_by": 1002,
+  "correct_ratio": 0.3424059139784946,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    1,
+    0,
+    0,
+    0,
+    1
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 4696292,
+  "create_date": "2023-11-13T15:49:21Z",
+  "update_date": "2023-11-13T15:49:29Z",
+  "discussions_count": 4,
+  "discussion_proxy": "77-4717195-1",
+  "discussion_threads": [
+    "77-4717195-1",
+    "77-4717195-2"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 1
+}

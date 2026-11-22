@@ -1,0 +1,75 @@
+{
+  "id": 763719,
+  "steps": [
+    3177562,
+    3177565,
+    3177566,
+    3177651,
+    3177655,
+    3177786,
+    3177789,
+    3299645,
+    4718155,
+    4718172,
+    4718178
+  ],
+  "actions": {
+    "learn_lesson": "#",
+    "assist_lesson": "#",
+    "view_all_submissions": "#",
+    "edit_lesson": "#",
+    "view_statistics": "#",
+    "attachments": "/lesson/763719/attachments/",
+    "clone_lesson": "/lesson/763719/clone/",
+    "admin_lesson": "#",
+    "edit_permissions": "/lesson/763719/permissions/",
+    "delete_lesson": "#"
+  },
+  "progress": "76-763719",
+  "subscriptions": [
+    "31-76-763719",
+    "30-76-763719"
+  ],
+  "viewed_by": 1117,
+  "passed_by": 544,
+  "time_to_complete": 934,
+  "cover_url": null,
+  "is_comments_enabled": true,
+  "is_exam_without_progress": false,
+  "is_blank": false,
+  "is_draft": false,
+  "is_orphaned": false,
+  "courses": [
+    86957
+  ],
+  "units": [
+    765887
+  ],
+  "owner": 296085237,
+  "language": "ru",
+  "is_featured": false,
+  "is_public": true,
+  "canonical_url": "https://stepik.org/lesson/763719/",
+  "title": "Операторы циклов",
+  "slug": "Операторы-циклов-763719",
+  "create_date": "2022-08-01T18:17:52Z",
+  "update_date": "2024-01-02T18:41:07Z",
+  "learners_group": 5071398,
+  "testers_group": 5071399,
+  "moderators_group": 5071400,
+  "assistants_group": 5071401,
+  "teachers_group": 5071396,
+  "admins_group": 5071397,
+  "discussions_count": 10,
+  "discussion_proxy": "76-763719-1",
+  "discussion_threads": [
+    "76-763719-1"
+  ],
+  "epic_count": 36,
+  "abuse_count": 7,
+  "vote_delta": 29,
+  "vote": null,
+  "lti_consumer_key": "",
+  "lti_secret_key": "",
+  "lti_private_profile": false
+}

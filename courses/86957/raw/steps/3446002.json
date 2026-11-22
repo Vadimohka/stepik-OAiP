@@ -1,0 +1,83 @@
+{
+  "id": 3446002,
+  "lesson": 770589,
+  "position": 8,
+  "status": "ready",
+  "block": {
+    "name": "code",
+    "text": "<p>Во многих прикладных задачах, таких как поиск в сети или расшифровка генома, требуется совершать некоторые действия со строками. Например, часто требуется по некоторым данным о строке восстановить ее саму.</p>\n\n<p>Вам даны две строки <strong>S<sub>1</sub></strong> и <strong>S<sub>2</sub></strong>. Известно, что одна из них была суффиксом искомой строки <strong>S</strong>, а другая — ее префиксом. Также известна длина искомой строки <strong>L</strong>, а также то, что строка <strong>S</strong> состояла только из строчных букв латинского алфавита.</p>\n\n<p>Необходимо определить число строк, удовлетворяющих этим ограничениям. Так как это число может быть достаточно большим, то необходимо вывести его по модулю <strong>m</strong>.</p>\n\n<p><strong>Входные данные</strong></p>\n\n<p>Первая строка содержит одно целое число <strong>t</strong> (<strong>1</strong> ≤ <strong>t</strong> ≤ <strong>100</strong>) — количество наборов входных данных, которые необходимо обработать.</p>\n\n<p>Описание каждого из наборов входных данных содержит три строки. Первая из них содержит два целых числа: <strong>L</strong> и <strong>m</strong> (<strong>1</strong> ≤ <strong>L</strong> ≤ <strong>10<sup>9</sup></strong>, <strong>1</strong> ≤ <strong>m</strong> ≤ <strong>10<sup>4</sup></strong>). Вторая и третья строки содержат соответственно строки <strong>S<sub>1</sub></strong> и <strong>S<sub>2</sub></strong>. Они непусты, состоят из строчных букв латинского алфавита, их длины не превышают <strong>200</strong> символов.</p>\n\n<p><strong>Выходные данные</strong></p>\n\n<p>Для каждого набора входных данных выведите в отдельной строке остаток от деления числа строк, удовлетворяющих требованиям условия, на <strong>m</strong>.</p>",
+    "video": null,
+    "options": {
+      "execution_time_limit": 1,
+      "execution_memory_limit": 32,
+      "limits": {
+        "c++": {
+          "time": 1,
+          "memory": 32
+        }
+      },
+      "code_templates": {
+        "c++": "#include <iostream>\n\nint main() {\n    // put your code here\n    return 0;\n}"
+      },
+      "code_templates_header_lines_count": {
+        "c++": 0
+      },
+      "code_templates_footer_lines_count": {
+        "c++": 0
+      },
+      "code_templates_options": {},
+      "samples": [
+        [
+          "3\n14 1000\ncup\nrussia\n7 123\nrussian\ncodecup\n7 15\ncodec\ndecup",
+          "752\n0\n1"
+        ]
+      ],
+      "is_run_user_code_allowed": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3446002",
+  "subscriptions": [
+    "31-77-3446002",
+    "30-77-3446002"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 622,
+  "passed_by": 250,
+  "correct_ratio": 0.08036689233457087,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3425094,
+  "create_date": "2022-11-12T19:42:38Z",
+  "update_date": "2023-11-21T15:56:40Z",
+  "discussions_count": 2,
+  "discussion_proxy": "77-3446002-1",
+  "discussion_threads": [
+    "77-3446002-1",
+    "77-3446002-2"
+  ]
+}

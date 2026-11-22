@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3><strong>Важный момент который стоит помнить</strong></h3>\n\n<p>От массива (как статического, так и динамического) можно взять адрес (<code>&amp;x</code>), и это будет самый настоящий указатель на то место, где этот массив расположен. Тип у выражения <code>&amp;x</code>, как легко понять, будет <code>int (*)[5]</code>. В начале массива размещён его нулевой элемент, поэтому адрес самого массива и адрес его нулевого элемента численно совпадают.</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n\nint main() {\n    int a[5];\n    std::cout &lt;&lt; \"Address &amp;a = \" &lt;&lt; &amp;a &lt;&lt; \"\\nAddress &amp;a[0] = \" &lt;&lt; &amp;a[0];\n    return 0;\n}</code></pre>\n\n<p>Консольный вывод:</p>\n\n<p><em><code>Address &amp;a = 0x63feac<br>\nAddress &amp;a[0] = 0x63feac</code></em></p>\n\n<p>Но при этом имя массива — это не стандартный указатель, и мы не можем изменить его адрес, например, так:</p>\n\n<pre><code class=\"language-cpp\">int a[5] = {1, 2, 3, 4, 5};\na++;            // так сделать нельзя\nint b = 8;\na = &amp;b;         // так тоже сделать нельзя</code></pre>\n\n<p>В этом плане имя массива своим поведением похоже на константный указатель. Мы можем изменять значение, хранящееся по этому адресу, но не можем изменять значение самого адреса.</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3212945",
+  "time": "2026-11-22T18:35:40Z"
+}

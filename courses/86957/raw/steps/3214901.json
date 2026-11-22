@@ -1,0 +1,54 @@
+{
+  "id": 3214901,
+  "lesson": 770589,
+  "position": 2,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<h3>Преимущества и недостатки дает использование класса string в сравнении с типом char*</h3>\n\n<p>Создание нового типа <code>string</code> было обусловлено недостатками работы с строками символов, который демонстрировал тип <code>char*</code>. В сравнении с типом <code>char*</code> тип <code>string</code> имеет следующие основные преимущества:</p>\n\n<ul>\n\t<li>возможность обработки строк стандартными операторами C++ (<code><strong>=</strong></code>, <code><strong>+</strong></code>, <code><strong>==</strong></code>, <code><strong>&lt;&gt;</strong></code> и т.п.). Как известно, при использовании типа char* даже наиболее простые операции со строками выглядели сложно и требовали написания чрезмерного программного кода;</li>\n\t<li>обеспечение лучшей надежности (безопасности) программного кода. Например, при копировании строк, тип string обеспечивает соответствующие действия, которые могут возникнуть в случае, если строка-источник имеет больший размер чем строка-приемник;</li>\n\t<li>обеспечение строки, как самостоятельного типа данных. Использование типа <code>string</code> в качестве строки для всех переменных в программе, обеспечивает непротиворечивость данных.</li>\n</ul>\n\n<p>Основным недостатком типа <code>string</code>  в сравнении с типом <code>char*</code>, это замедленная скорость инициализации данных. Это связано с тем, что тип <code>string</code> – это, фактически, контейнерный класс. А работа с классом требует дополнительной реализации программного кода, который, в свою очередь занимает лишнее время. Однако во время работы программы большинство методов класса <code>string</code> работают быстрее т.к. используются оптимизации языка С++ которых не было в языке С. </p>\n\n<p><strong><img alt=\"\" height=\"540px;\" src=\"https://lh7-us.googleusercontent.com/0ULL7_b6LFkJ7JcQtqsiss7Xj9Lak2KF96ZIWuS4fImR0eP0jG1mwtD6nCG13Y8DZonj1_C6w5MlRaxQOsu-J2j3NW31TkQu0kY2aB29W6eRHVsgP3Yyju5rKUAV_pdYNYi0TmfNcMU1h96Y-_Ga_HlaUQ=s2048\" width=\"830px;\"></strong></p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3214901",
+  "subscriptions": [
+    "31-77-3214901",
+    "30-77-3214901"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 699,
+  "passed_by": 699,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3193993,
+  "create_date": "2022-08-18T16:00:09Z",
+  "update_date": "2024-01-07T13:15:45Z",
+  "discussions_count": 1,
+  "discussion_proxy": "77-3214901-1",
+  "discussion_threads": [
+    "77-3214901-1"
+  ]
+}

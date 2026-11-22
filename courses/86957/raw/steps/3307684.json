@@ -1,0 +1,54 @@
+{
+  "id": 3307684,
+  "lesson": 770587,
+  "position": 6,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<h3>Подытожим</h3>\n\n<p>Что использовать: new или malloc?</p>\n\n<p>Краткий ответ: пишите на C++ — new, на С — у Вас нет выбора.</p>\n\n<p>Сложный ответ: досмотрите эту страницу до конца и увидите разницу между двумя подходами.</p>\n\n<p>Это <strong>дополнительный</strong> шаг про различия между С и С++, <code>malloc</code> и <code>new</code>, <code>free</code> и <code>delete</code>.</p>\n\n<p>Проблемы С API: </p>\n\n<ol>\n\t<li>Если нам понадобится выделить память и явно указать выравнивание (число, которому должен быть кратен адрес блока), то для этого в C11(и в С++17) добавлен <code>aligned_alloc</code>, но <code>realloc</code> и <code>calloc</code> все ещё не имеют такой функции.</li>\n\t<li>Как уже было сказано, <code>free</code> принимает только указатель на освобождаемую память, соответственно где-то там хранятся метаданные. Также мы не имеем возможности освободить лишь часть памяти.</li>\n\t<li><code>malloc</code> использует кэш недавно очищенных элементов и старается выделить память оттуда. Выделяет он первый подходящий блок или наименьший подходящий, суть одна - может выделить больше памяти, чем нам необходимо, и не уведомляет об этом.</li>\n\t<li>realloc - пытается увеличить доступную память без копирования, но в случае неудачи производит автоматическое выделение нового блока памяти и копирования элементов туда. Проблема в том, что это происходит автоматически. Возникают проблемы с реализацией конструктора перемещения в c++ и self-referential pointer (пока не важно, что это за проблемы).</li>\n</ol>\n\n<p>А что же с <code>new</code> вы можете спросить? А <code>new</code> наследует большинство вышеперечисленных проблем, как минимум, потому что многие реализации <code>new</code> используют <code>malloc</code>. Но различия есть:</p>\n\n<ol>\n\t<li>Можем указать свой alignment c C++17.</li>\n\t<li>Sized deallocation c С++17. </li>\n</ol>\n\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\">\n\t<caption>new/delete vs malloc/free</caption>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>Что возвращает?</td>\n\t\t\t<td>указатель нужного типа</td>\n\t\t\t<td><code>void*</code></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Ошибка?</td>\n\t\t\t<td>выбрасывает ошибку</td>\n\t\t\t<td><code>NULL</code></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Сколько памяти выделить?</td>\n\t\t\t<td>Компилятор считает сам, исходя из типа объекта</td>\n\t\t\t<td>Вы указываете</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Массивы?</td>\n\t\t\t<td>Есть удобный API для этого</td>\n\t\t\t<td>Сами считаете размер</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Довыделить память (reallocate)</td>\n\t\t\t<td>Сложно, т.к. есть конструктор копирования</td>\n\t\t\t<td>Легко</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Мало памяти?</td>\n\t\t\t<td>Добавить memory allocator (<code>std::set_new_handler</code>)</td>\n\t\t\t<td>-</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Override?</td>\n\t\t\t<td>+</td>\n\t\t\t<td>-</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Вызывает конструктор/деструктор</td>\n\t\t\t<td>+</td>\n\t\t\t<td>-</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>Можно сделать вывод, что API new/delete удобнее, а производительность при этом не страдает.</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3307684",
+  "subscriptions": [
+    "31-77-3307684",
+    "30-77-3307684"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 733,
+  "passed_by": 733,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3286776,
+  "create_date": "2022-09-22T16:59:58Z",
+  "update_date": "2022-11-06T12:09:42Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3307684-1",
+  "discussion_threads": [
+    "77-3307684-1"
+  ]
+}

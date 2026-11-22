@@ -1,0 +1,101 @@
+{
+  "id": 4717756,
+  "lesson": 763640,
+  "position": 11,
+  "status": "ready",
+  "block": {
+    "name": "choice",
+    "text": "<p>Что является логическим оператором для логического и ?</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": false
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": false,
+      "is_always_correct": false,
+      "sample_size": 4,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "||",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "&&",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "&",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "&|",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-4717756",
+  "subscriptions": [
+    "31-77-4717756",
+    "30-77-4717756"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 559,
+  "passed_by": 505,
+  "correct_ratio": 0.7416058394160584,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 4696853,
+  "create_date": "2023-11-13T16:53:49Z",
+  "update_date": "2023-11-13T16:53:50Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-4717756-1",
+  "discussion_threads": [
+    "77-4717756-1",
+    "77-4717756-2"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 1
+}

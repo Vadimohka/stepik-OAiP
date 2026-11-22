@@ -1,0 +1,53 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите правильные утвреждения</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 5,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": true,
+          "text": "'1' - 49 - эквивалетно false",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "'1' + '2' + '3' равно 6",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "1 + true равно 2",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "1 + bool(255) равно 256",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "a++ / 2 равно 1 при условии, что a равно 3",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3296975",
+  "time": "2026-11-22T18:35:40Z"
+}

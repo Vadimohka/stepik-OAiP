@@ -1,0 +1,77 @@
+{
+  "block": {
+    "name": "code",
+    "text": "<p>На вход дано b1 - первый член геометрической прогрессии. Необходимо вычислить сумму всех членов бесконечно убывающей геометрической прогрессии, где знаменатель прогрессии q равен 1/1001.</p>\n\n<p>Используйте библиотеку <code>&lt;iomanip&gt;</code> и функцию <code>setprecision(8)</code>. </p>",
+    "video": null,
+    "options": {
+      "execution_time_limit": 5,
+      "execution_memory_limit": 256,
+      "limits": {
+        "c++": {
+          "time": 5,
+          "memory": 256
+        }
+      },
+      "code_templates": {
+        "c++": "#include <iostream>\n\nint main() {\n    // put your code here\n    return 0;\n}"
+      },
+      "code_templates_header_lines_count": {
+        "c++": 0
+      },
+      "code_templates_footer_lines_count": {
+        "c++": 0
+      },
+      "code_templates_options": {},
+      "samples": [
+        [
+          "1",
+          "1.001"
+        ]
+      ],
+      "is_run_user_code_allowed": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "code": "# This is a sample Code Challenge\n# Learn more: https://stepik.org/lesson/9173\n# Ask your questions via support@stepik.org\n\ndef generate():\n    return []\n\ndef check(reply, clue):\n    return reply.strip() == clue.strip()\n\n# def solve(dataset):\n#     a, b = dataset.split()\n#     return str(int(a) + int(b))",
+      "execution_time_limit": 5,
+      "execution_memory_limit": 256,
+      "samples_count": 1,
+      "templates_data": "::c++",
+      "is_time_limit_scaled": true,
+      "is_memory_limit_scaled": true,
+      "is_run_user_code_allowed": true,
+      "manual_time_limits": [],
+      "manual_memory_limits": [],
+      "test_archive": [],
+      "test_cases": [
+        [
+          "1",
+          "1.001"
+        ],
+        [
+          "0.99999",
+          "1.00099"
+        ],
+        [
+          "1241345",
+          "1242586.3"
+        ],
+        [
+          "-123",
+          "-123.123"
+        ],
+        [
+          "15358.125125",
+          "15373.483"
+        ]
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": "/api/step-sources/3262772/tests",
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3262772",
+  "time": "2026-11-22T18:35:40Z"
+}

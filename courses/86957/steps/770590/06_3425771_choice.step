@@ -1,0 +1,78 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите правильные утверждения. </p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 10,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "Оператор return может не завершать выполнение функции.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Указав inline в определении функции, компилятор обязательно заменит вызовы функции ее кодом.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "int a();  - это выражение создает перменную типа a и инициализируют ее нулем.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "В нескольких файлах можно определить static функцию с одним и тем же именем.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "В нескольких файлах можно определить constexpr функцию с одним и тем же именем.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Функция может бесконечно вызывать сама себя.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Память под переменные, определенные внутри функции, выделяется в стеке.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Переменные определенные внутри одной функции доступны внутри другой функции.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Прототип функции включает имя функции, типы аргументов и возвращаемый тип данных. ",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Все функции выполняются одновременно ",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3425771",
+  "time": "2026-11-22T18:35:40Z"
+}

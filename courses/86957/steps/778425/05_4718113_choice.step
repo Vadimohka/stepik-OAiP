@@ -1,0 +1,48 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>Как помешать программе потреблять много оперативной памяти?</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": false
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": false,
+      "is_always_correct": false,
+      "sample_size": 4,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "Использовать жесткий диск вместо оперативной памяти",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Все перечисленное",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Определить способ работать с данными по очереди",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Объявить его в памяти программы, а не в стеке",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "4718113",
+  "time": "2026-11-22T18:35:40Z"
+}

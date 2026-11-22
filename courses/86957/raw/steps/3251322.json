@@ -1,0 +1,54 @@
+{
+  "id": 3251322,
+  "lesson": 778426,
+  "position": 1,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<p><strong>Unit тесты в С++</strong></p>\n\n<p>Как было сказано ранее, тестирование - это очень важная часть написания программ. Поэтому для упрощение этого процесса программистами было придумано множество инструментов. Одним из них являются Google Tests в Visual Studio.</p>\n\n<p>В данном уроке мы <span style=\"font-size: inherit; font-weight: inherit;\">рассмотрим работу с ними </span><span style=\"font-size: inherit; font-weight: inherit;\"> на примере одного задания прошлогодней лабораторной работы.</span></p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3251322",
+  "subscriptions": [
+    "31-77-3251322",
+    "30-77-3251322"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 959,
+  "passed_by": 959,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3230414,
+  "create_date": "2022-08-31T17:06:17Z",
+  "update_date": "2022-09-01T15:38:08Z",
+  "discussions_count": 2,
+  "discussion_proxy": "77-3251322-1",
+  "discussion_threads": [
+    "77-3251322-1"
+  ]
+}

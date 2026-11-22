@@ -1,0 +1,83 @@
+{
+  "id": 3383135,
+  "lesson": 763646,
+  "position": 12,
+  "status": "ready",
+  "block": {
+    "name": "code",
+    "text": "<p>В качестве входных данных поступают две целочисленные матрицы A и B, которые имеют размер N и соответственно M. Требуется найти произведение матриц A*B.</p>\n\n<p>В первой строке вводится размер матрицы А. В следующих N строках вводятся элементы матрицы. Затем вводится размер матрицы В. В следующих M строках вводятся элементы матрицы В.</p>",
+    "video": null,
+    "options": {
+      "execution_time_limit": 5,
+      "execution_memory_limit": 256,
+      "limits": {
+        "c++": {
+          "time": 5,
+          "memory": 256
+        }
+      },
+      "code_templates": {
+        "c++": "#include <iostream>\n\nint main() {\n    // put your code here\n    return 0;\n}"
+      },
+      "code_templates_header_lines_count": {
+        "c++": 0
+      },
+      "code_templates_footer_lines_count": {
+        "c++": 0
+      },
+      "code_templates_options": {},
+      "samples": [
+        [
+          "2\n1 2\n-2 0\n2\n-3 2\n-2 -4",
+          "-7 -6\n6 -4"
+        ]
+      ],
+      "is_run_user_code_allowed": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3383135",
+  "subscriptions": [
+    "31-77-3383135",
+    "30-77-3383135"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 706,
+  "passed_by": 465,
+  "correct_ratio": 0.26715945089757126,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3362227,
+  "create_date": "2022-10-21T13:55:00Z",
+  "update_date": "2022-10-21T15:09:27Z",
+  "discussions_count": 5,
+  "discussion_proxy": "77-3383135-1",
+  "discussion_threads": [
+    "77-3383135-1",
+    "77-3383135-2"
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": 3286930,
+  "lesson": 763639,
+  "position": 11,
+  "status": "ready",
+  "block": {
+    "name": "choice",
+    "text": "<p>Как корректно установить значение определенного флага статуса?<br>\nchar status = 0;<br>\nchar online = 1;<br>\nchar offline = 1 &lt;&lt; 1;</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": false
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": false,
+      "is_always_correct": false,
+      "sample_size": 5,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "status &= online",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "status & online",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "status || online",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "status |= online",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "status = online",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3286930",
+  "subscriptions": [
+    "31-77-3286930",
+    "30-77-3286930"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 816,
+  "passed_by": 712,
+  "correct_ratio": 0.42563198118753676,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    1,
+    0,
+    0,
+    0,
+    1
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3266022,
+  "create_date": "2022-09-13T20:47:32Z",
+  "update_date": "2022-09-19T18:16:22Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3286930-1",
+  "discussion_threads": [
+    "77-3286930-1",
+    "77-3286930-2"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 1
+}

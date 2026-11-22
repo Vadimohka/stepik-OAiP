@@ -1,0 +1,54 @@
+{
+  "id": 3214974,
+  "lesson": 770591,
+  "position": 5,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<h3>Константные параметры</h3>\n\n<p>Параметры могут быть константными - значения таких параметров не могут меняться. Например:</p>\n\n<pre><code class=\"language-cpp\">void square(const int n) {\n    // n = n * n;  // можно считать значение параметра, но не изменять его\n    std::cout &lt;&lt; n * n &lt;&lt; std::endl;\n}</code></pre>\n\n<p>Константному параметру можно передать в качестве аргумента как константу, так и переменную.</p>\n\n<p>Следует помнить, что при передаче параметров по значению, мы делаем копию значения переданной переменной, а это значит, что переданные константы в не константные параметры могут меняться.</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n \nvoid square(int, int);\n \nint main() {\n    const int a = 4;\n    const int b = 5;\n    square(a, b);   // 400\n    return 0;\n}\n\nvoid square(int a, int b) {\n    a = a * a;\n    b = b * b;\n    std::cout &lt;&lt; \"In square: a * b = \" &lt;&lt; a * b &lt;&lt; std::endl;\n}</code></pre>\n\n<h3>Константные ссылки</h3>\n\n<p>Если функция получает аргументы по ссылке, то чтобы передать в функцию константу, параметры тоже должны представлять ссылку на константу:</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n \nvoid square(const int&amp;, const int&amp;);\n \nint main() {\n    const int a = 4;\n    const int b = 5;\n    square(a, b);   // 20\n    return 0;\n}\n\nvoid square(const int &amp;a, const int &amp;b) {\n    // a = a * a;   так нельзя сделать\n    // b = b * b;   так нельзя сделать\n    std::cout &lt;&lt; \"In square: a * b = \" &lt;&lt; a * b &lt;&lt; std::endl;\n}</code></pre>\n\n<p>И если в функцию необходимо передать большие объекты, которые не должны изменяться, то определение параметров именно как константных ссылок больше всего подходит для данной задачи.</p>\n\n<h3>Возвращение ссылки</h3>\n\n<p>Не следует возвращать ссылку на локальный объект, который создается внутри функции. Поскольку все создаваемые в функции объекты удаляются после ее завершения, а их память очищается, то возвращаемая ссыла будет указывать на несуществующий объект, как в следующем случае:</p>\n\n<pre><code class=\"language-cpp\">int &amp;factorial(int n) {\n    int result = 1;\n    for (int i = 1; i &lt;= n; i++) {\n        result *= i;\n    }\n    return result;\n}</code></pre>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3214974",
+  "subscriptions": [
+    "31-77-3214974",
+    "30-77-3214974"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 674,
+  "passed_by": 674,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3194066,
+  "create_date": "2022-08-18T17:16:09Z",
+  "update_date": "2023-05-19T17:17:25Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3214974-1",
+  "discussion_threads": [
+    "77-3214974-1"
+  ]
+}

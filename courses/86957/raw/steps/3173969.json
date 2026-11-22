@@ -1,0 +1,54 @@
+{
+  "id": 3173969,
+  "lesson": 763041,
+  "position": 1,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<h3>Что такое Блок-схема и зачем она нужна?</h3>\n\n<p>Блок–схема — наглядный способ представления алгоритма. Блок–схема отображается в виде последовательности связанных между собой функциональных блоков, каждый из которых соответствует выполнению одного или нескольких действий. Определенному типу действия соответствует определенная геометрическая фигура блока. Линии, соединяющие блоки, определяют очередность выполнения действий. По умолчанию блоки соединяются сверху вниз и слева направо. Если последовательность выполнения блоков должна быть иной, используются направленные линии (стрелки).</p>\n\n<p>Пример:</p>\n\n<p><img alt=\"\" height=\"1096\" name=\"image.png\" src=\"https://ucarecdn.stepik.net/60eb1e1d-6211-4caf-85b1-20dbe20ea96d/\" width=\"1122\"></p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3173969",
+  "subscriptions": [
+    "31-77-3173969",
+    "30-77-3173969"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 3079,
+  "passed_by": 3079,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    2
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3153061,
+  "create_date": "2022-07-31T20:38:52Z",
+  "update_date": "2022-08-18T18:30:13Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3173969-1",
+  "discussion_threads": [
+    "77-3173969-1"
+  ]
+}

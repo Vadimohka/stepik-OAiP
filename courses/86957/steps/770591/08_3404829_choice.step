@@ -1,0 +1,78 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите верные утверждения. </p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 10,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": true,
+          "text": "Локальная переменная видна во вложенных блоках",
+          "feedback": "Сверху вниз видать нормально. Почитайте про область видимости"
+        },
+        {
+          "is_correct": true,
+          "text": "Использовать глобальные переменные стоит только для констант",
+          "feedback": "Глобальные переменные зло, не правда ли?"
+        },
+        {
+          "is_correct": false,
+          "text": "Значения по умолчанию могут указываться только в определении",
+          "feedback": "Про объявления функций стоит почитать"
+        },
+        {
+          "is_correct": false,
+          "text": "void f(int a);  вызов f(b) может изменить значение переменной b",
+          "feedback": "Передача по значению и по ссылке, перечитайте"
+        },
+        {
+          "is_correct": false,
+          "text": "возвращать ссылку на локальный объект функции - это нормальная практика",
+          "feedback": "Область видимости объекта - это важно, не забывайте о ней"
+        },
+        {
+          "is_correct": true,
+          "text": "void f(int arr[]) {std::cout << sizeof(arr);}  вызов f(m) выведет 8 (размер указателя)",
+          "feedback": "Повторите, как передаются массивы в функцию"
+        },
+        {
+          "is_correct": false,
+          "text": "void f(int arr[]) {std::cout << sizeof(arr);}  вызов f(m) выведет количество элементов массива",
+          "feedback": "Повторите, как передаются массивы в функцию"
+        },
+        {
+          "is_correct": true,
+          "text": "std::end(m) - вернёт адрес за последним элементом массива m",
+          "feedback": "Посмотрите, что возвращает std::end"
+        },
+        {
+          "is_correct": false,
+          "text": "void f(const int& a);  вызов f(b) может изменить значение переменной b",
+          "feedback": "Не забывайте про const"
+        },
+        {
+          "is_correct": true,
+          "text": "void f(int a); вызов f(d) допустим (const int d). ",
+          "feedback": "Если в функцию передают аргумент по значению, важна ли константность аргумента?"
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3404829",
+  "time": "2026-11-22T18:35:40Z"
+}

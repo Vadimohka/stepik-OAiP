@@ -1,0 +1,58 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>const int size = 5;<br>\nint arr[size]{ 1, 2, 3, 4, 5 }; // arr = 0x00000020C43BFA78<br>\nint* ptr = arr;</p>\n\n<p>while (arr != ptr + size)<br>\n{<br>\n    std::cout &lt;&lt; *(arr++) &lt;&lt; \" \";<br>\n}</p>\n\n<p>Что выведет данная программа?</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": false
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": false,
+      "is_always_correct": false,
+      "sample_size": 6,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "1 2 3 4 5",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "00000020C43BFA78 00000020C43BFA7C 00000020C43BFA80 00000020C43BFA84 00000020C43BFA88",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Ничего, произойдёт ошибка времени компиляции",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "2 3 4 5 *рандомное значение*",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Ничего, произойдёт ошибка времени выполнения",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "00000020C43BFA7C 00000020C43BFA80 00000020C43BFA84 00000020C43BFA88 00000020C43BFA8C",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3428748",
+  "time": "2026-11-22T18:35:40Z"
+}

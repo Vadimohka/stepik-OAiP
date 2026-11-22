@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>В языке С++ существуют следующие операции</h3>\n\n<ul>\n\t<li>Оператор присваивания: =.</li>\n\t<li>Арифметические:\n\t<ul>\n\t\t<li>бинарные (операция над двумя операндами): <em>+ - * / %</em></li>\n\t\t<li>унарные (операция над одним операндом): <em>++ --</em></li>\n\t</ul>\n\t</li>\n\t<li>Логические:\n\t<ul>\n\t\t<li>бинарные: <em>&amp;&amp; ||</em></li>\n\t\t<li>унарные: <em>!</em></li>\n\t</ul>\n\t</li>\n\t<li>Сравнения: <em>== != &gt; &lt; &gt;= &lt;=</em></li>\n\t<li>Приведения типов: <em>(type)</em></li>\n\t<li>Сокращённые версии бинарных операторов: <em>+= -= *= /= %=</em></li>\n</ul>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3177291",
+  "time": "2026-11-22T18:35:40Z"
+}

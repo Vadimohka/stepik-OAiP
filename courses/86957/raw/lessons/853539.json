@@ -1,0 +1,64 @@
+{
+  "id": 853539,
+  "steps": [
+    3569329,
+    3570230,
+    3570231
+  ],
+  "actions": {
+    "learn_lesson": "#",
+    "assist_lesson": "#",
+    "view_all_submissions": "#",
+    "edit_lesson": "#",
+    "view_statistics": "#",
+    "attachments": "/lesson/853539/attachments/",
+    "clone_lesson": "/lesson/853539/clone/"
+  },
+  "progress": "76-853539",
+  "subscriptions": [
+    "31-76-853539",
+    "30-76-853539"
+  ],
+  "viewed_by": 658,
+  "passed_by": 479,
+  "time_to_complete": 69,
+  "cover_url": "https://ucarecdn.stepik.net/d31bc5cd-1706-4688-b849-31ec8c4331f2/-/scale_crop/180x180/center/",
+  "is_comments_enabled": true,
+  "is_exam_without_progress": false,
+  "is_blank": false,
+  "is_draft": false,
+  "is_orphaned": false,
+  "courses": [
+    86957
+  ],
+  "units": [
+    857458
+  ],
+  "owner": 15571096,
+  "language": "ru",
+  "is_featured": false,
+  "is_public": true,
+  "canonical_url": "https://stepik.org/lesson/853539/",
+  "title": "Двоичное дерево поиска",
+  "slug": "Двоичное-дерево-поиска-853539",
+  "create_date": "2022-12-16T14:17:40Z",
+  "update_date": "2024-01-02T18:44:39Z",
+  "learners_group": null,
+  "testers_group": null,
+  "moderators_group": null,
+  "assistants_group": null,
+  "teachers_group": null,
+  "admins_group": null,
+  "discussions_count": 0,
+  "discussion_proxy": "76-853539-1",
+  "discussion_threads": [
+    "76-853539-1"
+  ],
+  "epic_count": 4,
+  "abuse_count": 1,
+  "vote_delta": 3,
+  "vote": null,
+  "lti_consumer_key": "",
+  "lti_secret_key": "",
+  "lti_private_profile": false
+}

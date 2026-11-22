@@ -1,0 +1,65 @@
+{
+  "block": {
+    "name": "code",
+    "text": "<p><img alt=\"\" height=\"527\" name=\"image.png\" src=\"https://ucarecdn.stepik.net/45486ab0-1147-4762-ac2b-6fddb87fadd0/\" width=\"726\"></p>\n\n<p><strong>Входные данные</strong></p>\n\n<p>Каждая строка содержит три целых числа: 𝒌(𝟎 &lt; 𝒌 &lt; 𝟏𝟎^𝟏𝟗), 𝒏(𝟎 &lt; 𝒏 &lt; 𝟏𝟎^𝟏𝟗)и 𝒕(𝟎 &lt; 𝒕 &lt; 𝟏𝟎) Последняя строка содержит три нуля и не обрабатывается.</p>\n\n<p><strong>Выходные данные</strong></p>\n\n<p>Для каждого теста в отдельной строке вывести номер теста и значение x. Формат вывода приведен в примере.</p>",
+    "video": null,
+    "options": {
+      "execution_time_limit": 1,
+      "execution_memory_limit": 128,
+      "limits": {
+        "c++": {
+          "time": 1,
+          "memory": 128
+        }
+      },
+      "code_templates": {
+        "c++": "#include <iostream>\n\nint main() {\n    // put your code here\n    return 0;\n}"
+      },
+      "code_templates_header_lines_count": {
+        "c++": 0
+      },
+      "code_templates_footer_lines_count": {
+        "c++": 0
+      },
+      "code_templates_options": {},
+      "samples": [
+        [
+          "1234 1234 4\n2323 99999999999 8\n4 99999 9\n888 888 8\n0 0 0",
+          "Case #1: 736\nCase #2: 39087387\nCase #3: 494777344\nCase #4: 91255296"
+        ]
+      ],
+      "is_run_user_code_allowed": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "code": "# This is a sample Code Challenge\n# Learn more: https://stepik.org/lesson/9173\n# Ask your questions via support@stepik.org\n\ndef generate():\n    return []\n\ndef check(reply, clue):\n    return reply.strip() == clue.strip()\n\n# def solve(dataset):\n#     a, b = dataset.split()\n#     return str(int(a) + int(b))",
+      "execution_time_limit": 1,
+      "execution_memory_limit": 128,
+      "samples_count": 1,
+      "templates_data": "::c++",
+      "is_time_limit_scaled": true,
+      "is_memory_limit_scaled": true,
+      "is_run_user_code_allowed": true,
+      "manual_time_limits": [],
+      "manual_memory_limits": [],
+      "test_archive": [],
+      "test_cases": [
+        [
+          "1234 1234 4\n2323 99999999999 8\n4 99999 9\n888 888 8\n0 0 0",
+          "Case #1: 736\nCase #2: 39087387\nCase #3: 494777344\nCase #4: 91255296"
+        ],
+        [
+          "999999999999999999 999999999999999999 9\n1 1 1\n999999999999999999 999999999999999999 1\n999999999999999999 999999999999999999 2\n999999999999999999 999999999999999999 3\n999999999999999999 999999999999999999 4\n999999999999999999 999999999999999999 5\n999999999999999999 999999999999999999 6\n999999999999999999 999999999999999999 7\n999999999999999999 999999999999999999 8\n999999999999999999 999999999999999999 9\n1 1 9\n1 999999999999999999 9\n999999999999999999 1 9\n0 0 0",
+          "Case #1: 999999999\nCase #2: 1\nCase #3: 9\nCase #4: 99\nCase #5: 999\nCase #6: 9999\nCase #7: 99999\nCase #8: 999999\nCase #9: 9999999\nCase #10: 99999999\nCase #11: 999999999\nCase #12: 1\nCase #13: 1\nCase #14: 999999999"
+        ]
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": "/api/step-sources/3428255/tests",
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3428255",
+  "time": "2026-11-22T18:35:40Z"
+}

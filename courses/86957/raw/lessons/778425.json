@@ -1,0 +1,72 @@
+{
+  "id": 778425,
+  "steps": [
+    3251321,
+    3252939,
+    3252941,
+    3252940,
+    4718113,
+    4718115,
+    5822035,
+    4739135
+  ],
+  "actions": {
+    "learn_lesson": "#",
+    "assist_lesson": "#",
+    "view_all_submissions": "#",
+    "edit_lesson": "#",
+    "view_statistics": "#",
+    "attachments": "/lesson/778425/attachments/",
+    "clone_lesson": "/lesson/778425/clone/",
+    "admin_lesson": "#",
+    "edit_permissions": "/lesson/778425/permissions/",
+    "delete_lesson": "#"
+  },
+  "progress": "76-778425",
+  "subscriptions": [
+    "31-76-778425",
+    "30-76-778425"
+  ],
+  "viewed_by": 854,
+  "passed_by": 56,
+  "time_to_complete": 2883,
+  "cover_url": "https://ucarecdn.stepik.net/cca08992-a591-472f-af4e-fcdc05b80183/-/scale_crop/180x180/center/",
+  "is_comments_enabled": true,
+  "is_exam_without_progress": false,
+  "is_blank": false,
+  "is_draft": false,
+  "is_orphaned": false,
+  "courses": [
+    86957
+  ],
+  "units": [
+    780909
+  ],
+  "owner": 296085237,
+  "language": "ru",
+  "is_featured": false,
+  "is_public": true,
+  "canonical_url": "https://stepik.org/lesson/778425/",
+  "title": "Что такое тестирование ПО?",
+  "slug": "Что-такое-тестирование-ПО-778425",
+  "create_date": "2022-08-31T17:06:03Z",
+  "update_date": "2024-08-13T19:08:58Z",
+  "learners_group": 5166300,
+  "testers_group": 5166301,
+  "moderators_group": 5166302,
+  "assistants_group": 5166303,
+  "teachers_group": 5166298,
+  "admins_group": 5166299,
+  "discussions_count": 10,
+  "discussion_proxy": "76-778425-1",
+  "discussion_threads": [
+    "76-778425-1"
+  ],
+  "epic_count": 7,
+  "abuse_count": 7,
+  "vote_delta": 0,
+  "vote": null,
+  "lti_consumer_key": "",
+  "lti_secret_key": "",
+  "lti_private_profile": false
+}

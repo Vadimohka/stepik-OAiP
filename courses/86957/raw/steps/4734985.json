@@ -1,0 +1,83 @@
+{
+  "id": 4734985,
+  "lesson": 770595,
+  "position": 11,
+  "status": "ready",
+  "block": {
+    "name": "code",
+    "text": "<p>Дана строка $S$, нужно найти количество подходящих пар подстрок, пусть первая подстрока будет начинаться с элемента $S_{l_1}$ и заканчиваться элементом $S_{r_1}$, а вторая подстрока $S_{l_2}$ и $S_{r_2}$ соответственно, тогда должны выполняться следующие условия: $l_1 &lt; l_2$, а также эти подстроки должны совпадать.</p>\n\n<p><br>\n<strong>Входные данные</strong></p>\n\n<p>В первой строке вводится число $t$ ($1 \\le t \\le 10$).</p>\n\n<p>В следующих $t$ строках вводится строка $S_i$.</p>\n\n<p>Длина строки $S_i$ не превышает $10^5$.</p>\n\n<p><br>\n<strong>Выходные данные</strong></p>\n\n<p>Нужно вывести $t$ строк, в каждой из строк вывести ответ на $S_i$ строку.</p>",
+    "video": null,
+    "options": {
+      "execution_time_limit": 2,
+      "execution_memory_limit": 32,
+      "limits": {
+        "c++": {
+          "time": 2,
+          "memory": 32
+        }
+      },
+      "code_templates": {
+        "c++": "#include <iostream>\n\nint main() {\n    // put your code here\n    return 0;\n}"
+      },
+      "code_templates_header_lines_count": {
+        "c++": 0
+      },
+      "code_templates_footer_lines_count": {
+        "c++": 0
+      },
+      "code_templates_options": {},
+      "samples": [
+        [
+          "1\nbbcaabccddbcbad",
+          "25"
+        ]
+      ],
+      "is_run_user_code_allowed": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-4734985",
+  "subscriptions": [
+    "31-77-4734985",
+    "30-77-4734985"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 423,
+  "passed_by": 37,
+  "correct_ratio": 0.06784260515603799,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 4714082,
+  "create_date": "2023-11-16T19:55:32Z",
+  "update_date": "2023-11-16T20:12:26Z",
+  "discussions_count": 2,
+  "discussion_proxy": "77-4734985-1",
+  "discussion_threads": [
+    "77-4734985-1",
+    "77-4734985-2"
+  ]
+}

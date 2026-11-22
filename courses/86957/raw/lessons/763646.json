@@ -1,0 +1,76 @@
+{
+  "id": 763646,
+  "steps": [
+    3212924,
+    3177298,
+    3212939,
+    3212928,
+    3212937,
+    3324082,
+    3330670,
+    3341723,
+    3381234,
+    3381291,
+    3382745,
+    3383135
+  ],
+  "actions": {
+    "learn_lesson": "#",
+    "assist_lesson": "#",
+    "view_all_submissions": "#",
+    "edit_lesson": "#",
+    "view_statistics": "#",
+    "attachments": "/lesson/763646/attachments/",
+    "clone_lesson": "/lesson/763646/clone/",
+    "admin_lesson": "#",
+    "edit_permissions": "/lesson/763646/permissions/",
+    "delete_lesson": "#"
+  },
+  "progress": "76-763646",
+  "subscriptions": [
+    "31-76-763646",
+    "30-76-763646"
+  ],
+  "viewed_by": 1030,
+  "passed_by": 460,
+  "time_to_complete": 3481,
+  "cover_url": "https://ucarecdn.stepik.net/d6c3e657-1ac6-4667-8ba0-f7b9c2563b60/-/scale_crop/180x180/center/",
+  "is_comments_enabled": true,
+  "is_exam_without_progress": false,
+  "is_blank": false,
+  "is_draft": false,
+  "is_orphaned": false,
+  "courses": [
+    86957
+  ],
+  "units": [
+    765813
+  ],
+  "owner": 296085237,
+  "language": "ru",
+  "is_featured": false,
+  "is_public": true,
+  "canonical_url": "https://stepik.org/lesson/763646/",
+  "title": "Многомерные массивы",
+  "slug": "Многомерные-массивы-763646",
+  "create_date": "2022-08-01T15:17:17Z",
+  "update_date": "2024-01-03T18:54:30Z",
+  "learners_group": 5070916,
+  "testers_group": 5070917,
+  "moderators_group": 5070918,
+  "assistants_group": 5070919,
+  "teachers_group": 5070914,
+  "admins_group": 5070915,
+  "discussions_count": 27,
+  "discussion_proxy": "76-763646-1",
+  "discussion_threads": [
+    "76-763646-1"
+  ],
+  "epic_count": 31,
+  "abuse_count": 17,
+  "vote_delta": 14,
+  "vote": null,
+  "lti_consumer_key": "",
+  "lti_secret_key": "",
+  "lti_private_profile": false
+}

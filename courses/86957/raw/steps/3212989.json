@@ -1,0 +1,54 @@
+{
+  "id": 3212989,
+  "lesson": 770585,
+  "position": 6,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<h3>Указатели на константы</h3>\n\n<p>Указатели могут указывать как на переменные, так и на константы. Чтобы определить указатель на константу, он тоже должен объявляться с ключевым словом const:</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n \nint main() {\n    const int a = 10;\n    const int *pa = &amp;a;\n    std::cout &lt;&lt; \"address=\" &lt;&lt; pa &lt;&lt; \"\\tvalue=\" &lt;&lt; *pa &lt;&lt; std::endl;\n     \n    return 0;\n}</code></pre>\n\n<p>Здесь указатель <code>pa</code> указывает на константу <code>a</code>. Поэтому даже если мы захотим изменить значение по адресу, который хранится в указателе, мы не сможем это сделать, например так:</p>\n\n<pre><code class=\"language-cpp\">*pa = 34;</code></pre>\n\n<p>В этом случае мы просто получим ошибку во время компиляции.</p>\n\n<p>Возможна также ситуация, когда указатель на константу на самом деле указывает на переменную:</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n \nint main() {\n    int a = 10;\n    const int *pa = &amp;a;\n    std::cout &lt;&lt;\"value=\" &lt;&lt; *pa &lt;&lt; std::endl;     // 10\n    a = 22;\n    std::cout &lt;&lt;\"value=\" &lt;&lt; *pa &lt;&lt; std::endl;     // 22\n    //*pa = 34;     // так делать нельзя\n     \n    return 0;\n}</code></pre>\n\n<p>В этом случае переменную отдельно мы сможем изменять, однако по прежнему изменить ее значение через указатель мы не сможем.</p>\n\n<p>Через указатель на константу мы не можем изменять значение переменной/константы. Но мы можем присвоить указателю адрес любой другой переменной или константы:</p>\n\n<pre><code class=\"language-cpp\">const int a = 10;\nconst int *pa = &amp;a;     // указатель указывает на константу a\nconst int b = 45;\npa = &amp;b;                // указатель указывает на константу b\nstd::cout &lt;&lt;\"value=\" &lt;&lt; *pa &lt;&lt; std::endl;     // 45\nstd::cout &lt;&lt;\"value=\" &lt;&lt; a &lt;&lt; std::endl;     // 10 - константа a не изменяется</code></pre>\n\n<h3>Константный указатель</h3>\n\n<p>От указателей на константы надо отличать константные указатели. Они не могут изменять адрес, который в них хранится, но могут изменять значение по этому адресу.</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n \nint main() {\n    int a = 10;\n    int *const pa = &amp;a;\n    std::cout &lt;&lt; \"value=\" &lt;&lt; *pa &lt;&lt; std::endl;      // 10\n    *pa = 22;                                       // меняем значение\n    std::cout &lt;&lt; \"value=\" &lt;&lt; *pa &lt;&lt; std::endl;      // 22\n  \n    int b = 45;\n    // pa = &amp;b;         так нельзя сделать\n     \n    return 0;\n}</code></pre>\n\n<h3>Константный указатель на константу</h3>\n\n<p>И объединение обоих предыдущих случаев - константный указатель на константу, который не позволяет менять ни хранимый в нем адрес, ни значение по этому адресу:</p>\n\n<pre><code class=\"language-cpp\">int a = 10;\nconst int *const pa = &amp;a;\n \n//*pa = 22;  так сделать нельзя\n \nint b = 45;\n// pa = &amp;b;  так сделать нельзя </code></pre>\n\n<p>Для лучшего понимания очередности написания типа данных, звездочки и слова const в объявлении указателя, можно прибегнуть к простому приему — прочитать полученную конструкцию справа налево:<br>\nconst int *ptr1 — значит ptr1 — указатель на int константный<br>\nint *const ptr2 — значит ptr2 — константный указатель на int<br>\nconst int* const ptr3 — значит ptr3 — константный указатель на int константный</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3212989",
+  "subscriptions": [
+    "31-77-3212989",
+    "30-77-3212989"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 819,
+  "passed_by": 819,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3192081,
+  "create_date": "2022-08-17T17:18:55Z",
+  "update_date": "2023-05-02T20:15:42Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3212989-1",
+  "discussion_threads": [
+    "77-3212989-1"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>C ++ - это __________ язык программирования.</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 4,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "общего назначения",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Все перечисленное",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "процедурный и функциональный",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "объектно-ориентированный, универсальный и модульный",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "4717659",
+  "time": "2026-11-22T18:35:40Z"
+}

@@ -1,0 +1,101 @@
+{
+  "id": 3394601,
+  "lesson": 763642,
+  "position": 7,
+  "status": "ready",
+  "block": {
+    "name": "choice",
+    "text": "<p>Фигурные скобки в операторе switch всегда необходимы т.к.</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": false
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": false,
+      "is_always_correct": false,
+      "sample_size": 4,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": true,
+          "text": "в switch как минимум должно быть два переключателя (case)",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Значение переменной равно одному из значений  в строке с оператором case",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "если ни один из case не истинен, то управление передается ветке — default",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "case-веток может быть неограниченное количество",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3394601",
+  "subscriptions": [
+    "31-77-3394601",
+    "30-77-3394601"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 771,
+  "passed_by": 705,
+  "correct_ratio": 0.4110854503464203,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3373693,
+  "create_date": "2022-10-27T06:26:13Z",
+  "update_date": "2022-10-27T06:26:13Z",
+  "discussions_count": 1,
+  "discussion_proxy": "77-3394601-1",
+  "discussion_threads": [
+    "77-3394601-1",
+    "77-3394601-2"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 1
+}

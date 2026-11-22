@@ -1,0 +1,67 @@
+{
+  "id": 3569323,
+  "lesson": 853534,
+  "position": 1,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<p>Для поддержки семантики перемещения в C++11 ввели <strong>3 новые категории значений</strong>:</p>\n\n<ul>\n\t<li>\n\t<p>x-values (eXpiring values) - это категория значений, которая была введена в C++11 для представления объектов, которые находятся в конце своего жизненного цикла и могут быть перемещены в другой объект. Они представляют собой изменяемые r-values, но не имеют адреса в памяти. Примерами x-values могут быть объекты, которые были созданы с помощью функции std::move() или которые являются результатом выражения std::move();</p>\n\t</li>\n\t<li>\n\t<p>pr-values (pure r-values) - это r-values, которые не являются x-values. Они имеют только значение, но не обладают адресом в памяти и не могут быть изменены. Примерами pr-values являются литералы и временные значения;</p>\n\t</li>\n\t<li>\n\t<p>gl-values (generalized l-values) - это категория значений, которая включает в себя l-values и x-values. Они обладают адресом в памяти и могут быть модифицированы. Примерами gl-values являются переменные и объекты.</p>\n\t</li>\n</ul>\n\n<p>Их понимание не столь важно в изучении или эффективном использовании семантики перемещения.</p>\n\n<p>До версии C++11 существовал только один тип ссылок, его называли просто — <em>«ссылка»</em>. В <em>C++11</em> этот тип ссылки еще называют «ссылкой l-value». <strong>Ссылки <em>l-value</em></strong> могут быть инициализированы только изменяемыми <em>l-values</em>.</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3569323",
+  "subscriptions": [
+    "31-77-3569323",
+    "30-77-3569323"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 510,
+  "passed_by": 510,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3548415,
+  "create_date": "2022-12-16T14:17:22Z",
+  "update_date": "2023-05-07T11:54:10Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3569323-1",
+  "discussion_threads": [
+    "77-3569323-1"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 0
+}

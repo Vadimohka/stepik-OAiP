@@ -1,0 +1,54 @@
+{
+  "id": 3669093,
+  "lesson": 877081,
+  "position": 6,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<h2><strong>Дружественная функция в языке С++</strong></h2>\n\n<p><strong>Дружественная функция</strong> – это функция, которая может получить доступ к закрытым членам класса, как если бы она была членом этого класса. Во всем остальном дружественная функция похожа на обычную функцию. Дружественная функция может быть либо обычной функцией, либо функцией-членом другого класса. Чтобы объявить дружественную функцию, просто используйте ключевое слово <code>friend</code> перед прототипом функции, которую вы хотите сделать другом класса. Не имеет значения, объявляете ли вы дружественную функцию в закрытом или открытом разделе класса.</p>\n\n<p>Вот пример использования дружественной функции:</p>\n\n<pre><code class=\"language-cpp\">class Accumulator {\nprivate:\n    int m_value;\npublic:\n    Accumulator() { \n        m_value = 0;\n    }\n \n    void add(int value) {\n        m_value += value;\n    }\n \n    // Сделаем функцию reset() другом этого класса\n    friend void reset(Accumulator &amp;accumulator);\n};\n \n// reset() теперь является другом класса Accumulator\nvoid reset(Accumulator &amp;accumulator) {\n    // и может получить доступ к закрытым данным объектов Accumulator\n    accumulator.m_value = 0;\n}\n \nint main() {\n    Accumulator acc;\n    acc.add(5); // добавляем 5 в накапливающий сумматор\n    reset(acc); // сбрасываем накапливающий сумматор в 0\n \n    return 0;\n}</code></pre>\n\n<p>В этом примере мы объявили функцию с именем <code>reset()</code>, которая принимает объект класса <code>Accumulator</code> и устанавливает значение <code>m_value</code> равным 0. Поскольку <code>reset()</code> не является членом класса <code>Accumulator</code>, обычно <code>reset()</code> не будет иметь доступ к закрытым членам <code>Accumulator</code>. Однако, поскольку <code>Accumulator</code> специально объявил эту функцию <code>reset()</code> как друга класса, то ей предоставляется доступ к закрытым членам <code>Accumulator</code>.</p>\n\n<p>Обратите внимание, что мы должны передать в <code>reset()</code> объект <code>Accumulator</code>. Это потому, что <code>reset()</code> не является функцией-членом. У нее нет указателя <code>*this</code> и нет объекта <code>Accumulator</code> для работы, если он не указан.</p>\n\n<p>Вот еще один пример:</p>\n\n<pre><code class=\"language-cpp\">class Value {\nprivate:\n    int m_value;\npublic:\n    Value(int value) {\n        m_value = value;\n    }\n    friend bool isEqual(const Value &amp;value1, const Value &amp;value2);\n};\n \nbool isEqual(const Value &amp;value1, const Value &amp;value2) {\n    return (value1.m_value == value2.m_value);\n}</code></pre>\n\n<p>В этом примере мы объявляем функцию <code>isEqual()</code> другом класса <code>Value</code>. <code>isEqual()</code> принимает в качестве параметров два объекта <code>Value</code>. Поскольку <code>isEqual()</code> является другом класса <code>Value</code>, она может получить доступ к закрытым членам всех объектов <code>Value</code>. В этом случае она использует этот доступ для сравнения двух объектов и возвращает <code>true</code>, если они равны.</p>\n\n<h2>Несколько друзей</h2>\n\n<p>Функция может быть другом для более чем одного класса одновременно. Например, рассмотрим следующий пример:</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n \nclass Humidity;\n \nclass Temperature {\nprivate:\n    int m_temp;\npublic:\n    Temperature(int temp=0) {\n        m_temp = temp;\n    }\n \n    friend void printWeather(const Temperature &amp;temperature,\n                             const Humidity &amp;humidity);\n};\n \nclass Humidity {\nprivate:\n    int m_humidity;\npublic:\n    Humidity(int humidity = 0) {\n        m_humidity = humidity;\n    }\n \n    friend void printWeather(const Temperature &amp;temperature,\n                             const Humidity &amp;humidity);\n};\n \nvoid printWeather(const Temperature &amp;temperature, const Humidity &amp;humidity) {\n    std::cout &lt;&lt; \"The temperature is \" &lt;&lt; temperature.m_temp &lt;&lt;\n       \" and the humidity is \" &lt;&lt; humidity.m_humidity &lt;&lt; '\\n';\n}\n \nint main() {\n    Humidity hum(10);\n    Temperature temp(12);\n \n    printWeather(temp, hum);\n \n    return 0;\n}</code></pre>\n\n<p>В этом примере стоит отметить две вещи. Во-первых, поскольку <code>printWeather</code> является другом обоих классов, она может получить доступ к закрытым данным из объектов обоих классов. Во-вторых, обратите внимание на следующую строку в верхней части примера:</p>\n\n<pre><code>class Humidity;</code></pre>\n\n<p>Это прототип класса, который сообщает компилятору, что в будущем мы собираемся определить класс под названием <code>Humidity</code>. Без этой строки компилятор при синтаксическом анализе прототипа для <code>printWeather()</code> внутри класса <code>Temperature</code> сообщил бы нам, что не знает, что такое <code>Humidity</code>. Прототипы классов выполняют ту же роль, что и прототипы функций – они сообщают компилятору, как что-то выглядит, чтобы его можно было использовать сейчас и определить позже. Однако, в отличие от функций, классы не имеют возвращаемых типов или параметров, поэтому прототипы классов всегда представляют собой просто <code>class ClassName</code>, где <code>ClassName</code> – это имя класса. </p>\n\n<p>Обращаю особое внимание на то, что дружеские функции<strong> не являются членами класса</strong>, однако <strong>получают</strong> <strong>доступ к полям с модификатором доступа private</strong>. Особое внимание данному моменту будет уделено в следующем уроке, где будут разобраны дружественные классы в языке С++.</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3669093",
+  "subscriptions": [
+    "31-77-3669093",
+    "30-77-3669093"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 445,
+  "passed_by": 445,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3648185,
+  "create_date": "2023-01-15T21:26:12Z",
+  "update_date": "2023-04-30T18:51:05Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3669093-1",
+  "discussion_threads": [
+    "77-3669093-1"
+  ]
+}

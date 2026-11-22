@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Первые ошибки</h3>\n\n<p>Рассмотрим аналогичный код, но только с небольшим изменением</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\nint main(){\n    cout &lt;&lt; \"Hello world!\";\n}</code></pre>\n\n<p>Если вы запустите этот код, то встретите следующую ошибку:</p>\n\n<p><em>error: 'cout' was not declared in this scope (Clion)</em></p>\n\n<p>или</p>\n\n<p><em>error C2065: cout: необъявленный идентификатор (Visual Studio)</em></p>\n\n<p>Почему так и почему разные ошибки?</p>\n\n<p>1. Так вышло, потому что компьютер потерял доступ к функции cout. В предыдущем варианте перед функцией <strong>cout </strong>находился Уточнённый идентификатор ( :: ), он позволяет компилятору на этапе линковки определить откуда взята наша функция. Функция std</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3201189",
+  "time": "2026-11-22T18:35:40Z"
+}

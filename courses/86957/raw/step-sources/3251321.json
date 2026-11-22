@@ -1,0 +1,67 @@
+{
+  "id": 3251321,
+  "lesson": 778425,
+  "position": 1,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<p><strong>Введение в тестирование</strong></p>\n\n<p>Вероятно, в любом деле сложно обойтись без ошибок, и программы не исключение. Допустим, вы написали код и не видите в нём явных багов. Как узнать, что при реальном использовании программы не возникнет непредвиденных случаев и программа не даст сбой? Ответ на этот вопрос прост, как дважды два – тестирование.</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3251321",
+  "subscriptions": [
+    "31-77-3251321",
+    "30-77-3251321"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 854,
+  "passed_by": 854,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    2
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3230413,
+  "create_date": "2022-08-31T17:06:15Z",
+  "update_date": "2022-09-01T14:22:17Z",
+  "discussions_count": 2,
+  "discussion_proxy": "77-3251321-1",
+  "discussion_threads": [
+    "77-3251321-1"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 0
+}

@@ -1,0 +1,78 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите правильные утверждения.</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 10,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "int a[4]; // Значения в массиве a - нули.",
+          "feedback": "Сначала выделение памяти, потом инициализация."
+        },
+        {
+          "is_correct": true,
+          "text": "double a[4]{true, 1, 1.5}; // корректное выражение",
+          "feedback": "В С++ есть неявные преобразования типов. "
+        },
+        {
+          "is_correct": false,
+          "text": "int a[4]{1, 1.5, 2, 3}; // корректное выражение",
+          "feedback": "Не все типы преобразуются друг к другу неявно."
+        },
+        {
+          "is_correct": false,
+          "text": "char str[] = \"aboba\"; // размер str 5",
+          "feedback": "Для работы со строками как c массивами char используются специальные символы."
+        },
+        {
+          "is_correct": true,
+          "text": "char str[] = \"aboba\"; // размер str 6",
+          "feedback": "Для работы со строками как c массивами char используются специальные символы."
+        },
+        {
+          "is_correct": false,
+          "text": "int a[2] = {0, 1}; //обращение к a[1] даст 0, а к a[2] - 1",
+          "feedback": "С чего начинается нумерация?"
+        },
+        {
+          "is_correct": false,
+          "text": "int a[2] = {0, 1}; //обращение к a[1] даст 1, а к a[2] ошибку",
+          "feedback": "Контролируется ли выход за границы массива?"
+        },
+        {
+          "is_correct": true,
+          "text": "int a[2] = {0, 1}; //обращение к a[1] даст 1, а к a[2] (мусор/UB) ",
+          "feedback": "Контролируется ли выход за границы массива?"
+        },
+        {
+          "is_correct": true,
+          "text": "void* v[2]; //корректное выражение",
+          "feedback": "void и void* - это один и тот же тип? "
+        },
+        {
+          "is_correct": false,
+          "text": "typedef int[6] I6; и using I6 = int[6]; корректные выражения",
+          "feedback": "Посмотрите внимательнее на синтаксис typedef."
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3323781",
+  "time": "2026-11-22T18:35:40Z"
+}

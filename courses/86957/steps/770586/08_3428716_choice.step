@@ -1,0 +1,58 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>void getSize(int arr[])<br>\n{<br>\n    std::cout &lt;&lt; \"Size of the array from getSize(): \" &lt;&lt; sizeof(arr) &lt;&lt; \"\\t\";<br>\n}</p>\n\n<p>int main()<br>\n{<br>\n    int arr[100];<br>\n    std::cout &lt;&lt; \"Size of the array from main(): \" &lt;&lt; sizeof(arr) &lt;&lt; \"\\t\";<br>\n    <br>\n    getSize(arr);<br>\n    return 0;<br>\n}</p>\n\n<p>Что выведет данная программа (<code>sizeof(int) = 4</code>)?</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": false
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": false,
+      "is_always_correct": false,
+      "sample_size": 6,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "Size of the array from main(): 400      Size of the array from getSize(): 400",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Size of the array from main(): 8      Size of the array from getSize(): 8",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Ничего, произойдёт ошибка времени выполнения",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Size of the array from main(): 8      Size of the array from getSize(): 400",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Size of the array from main(): 400      Size of the array from getSize(): 8",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Ничего, произойдёт ошибка времени компиляции",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3428716",
+  "time": "2026-11-22T18:35:40Z"
+}

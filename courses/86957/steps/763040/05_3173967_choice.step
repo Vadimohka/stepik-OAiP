@@ -1,0 +1,53 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите правильные утверждения</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 5,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "Конечность - это когда есть конец алгоритма, но нет начала",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Способы описания алгоритмов нужны для лучшей коммуникации разработчиков на проектах",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Псевдокод - способ описания основанный на языке программирования (чаще на том, на котором пишется программа), но с заменой сложных лексических конструкций на более простые понятные человеку",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Свойств алгоритмов огромное множество, но основных 4",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Циклические алгоритмы невозможно описать",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3173967",
+  "time": "2026-11-22T18:35:40Z"
+}

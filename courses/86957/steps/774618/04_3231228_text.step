@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3><strong>Cmake  и IDE</strong></h3>\n\n<p>CMake выглядит следующим образом: В корневой директории находятся файлы: CMakeLists.txt (файл с командами, указаниями исполняемых файлов и тд), и файлы исходного кода, например, main.cpp.</p>\n\n<p>Файл CMakeLists.txt может выглядеть примерно так:</p>\n\n<p style=\"text-align: center;\"><img alt=\"\" height=\"274\" name=\"Снимок экрана от 2022-08-26 17-18-36.png\" src=\"https://ucarecdn.stepik.net/c3a5fcba-6c0c-4ede-92bb-94dcd07121af/\" width=\"676\"></p>\n\n<p>На данном этапе изучения программирования, полное понимание работы сборщика Cmakе НЕ является необходимым. Важно понимать, что проект может выполняться по-разному на разных IDE или даже ОС.</p>\n\n<p>К вашему счастью, такие IDE, как Qt, Clion, Visual Studio автоматически генерируют и редактируют  make-файлы вашего проекта, и вам остается лишь позаботиться о написании кода. Вот как это выглядит в Clion:</p>\n\n<p style=\"text-align: center;\"><img alt=\"\" height=\"181\" name=\"Снимок экрана от 2022-08-26 17-45-29.png\" src=\"https://ucarecdn.stepik.net/5480a934-5485-4991-b242-8f108d754b28/\" width=\"360\"></p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3231228",
+  "time": "2026-11-22T18:35:40Z"
+}

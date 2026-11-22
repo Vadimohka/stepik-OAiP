@@ -1,0 +1,54 @@
+{
+  "id": 3201151,
+  "lesson": 768140,
+  "position": 4,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<h3>Qt Creator</h3>\n\n<p>Qt Creator — интегрированная среда разработки C++, доступная на Windows, Linux и macOS. Предоставляет бесплатную версию, которой можно пользоваться в течение 1 месяца. Предлагает полный набор инструментов разработчика, предназначенных для создания и развёртывания приложений.</p>\n\n<p><a href=\"https://media.tproger.ru/uploads/2015/11/qt.jpg\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img alt=\"Qt Creator для C++\" height=\"580\" src=\"https://media.tproger.ru/uploads/2015/11/qt.jpg\" width=\"1000\"></a></p>\n\n<p><strong>Достоинства</strong>:</p>\n\n<ul>\n\t<li>Поддерживает отладку, профилирование, автозавершение кода и рефакторинг.</li>\n\t<li>Возможность компиляции проектов для разных ОС.</li>\n</ul>\n\n<p><strong>Недостатки</strong>:</p>\n\n<ul>\n\t<li>Большой вес приложений.</li>\n\t<li>Не всегда работает автозавершение кода.</li>\n\t<li>Дорогая платная версия.</li>\n\t<li>Нужна регистрация для скачивания бесплатной версии.</li>\n</ul>\n\n<p>Скачать можно по ссылке: <a href=\"https://www.qt.io/download\" rel=\"noopener noreferrer nofollow\">https://www.qt.io/download</a></p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3201151",
+  "subscriptions": [
+    "31-77-3201151",
+    "30-77-3201151"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 1495,
+  "passed_by": 1495,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3180243,
+  "create_date": "2022-08-11T18:26:29Z",
+  "update_date": "2022-08-18T18:32:54Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3201151-1",
+  "discussion_threads": [
+    "77-3201151-1"
+  ]
+}

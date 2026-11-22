@@ -1,0 +1,78 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите верные утверждения.</p>\n\n<div style=\"height: 70.4px; width: 573.675px;\"> </div>\n\n<div class=\"gtx-bubble jfk-bubble\" style=\"\">\n<div class=\"jfk-bubble-content-id\">\n<div style=\"\"> </div>\n</div>\n\n<div class=\"jfk-bubble-closebtn jfk-bubble-closebtn-id\"> </div>\n\n<div class=\"jfk-bubble-arrow jfk-bubble-arrow-id jfk-bubble-arrowup\" style=\"\">\n<div class=\"jfk-bubble-arrowimplbefore\"> </div>\n\n<div class=\"jfk-bubble-arrowimplafter\"> </div>\n</div>\n</div>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 10,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": true,
+          "text": "std::variant - безопасный аналог union.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Поля union инициализируются по умолчанию.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Один и тот же тип union на разных платформах может иметь разный размер.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Объекты объединений можно сравнивать между собой.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Поля объединений можно сравнивать между собой.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Объединения могут быть полями структур.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Размеры структур и объединений с одинаковыми полями могут быть равны.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Для доступа к элементу объединения через указатель используется оператор . (точка)",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Объединения могут быть вложены друг в друга.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Когда полю объединения присваивается значение, поле, используемое до этого, корректно удаляется.",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3440026",
+  "time": "2026-11-22T18:35:40Z"
+}

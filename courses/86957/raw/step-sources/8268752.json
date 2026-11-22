@@ -1,0 +1,101 @@
+{
+  "id": 8268752,
+  "lesson": 763039,
+  "position": 9,
+  "status": "ready",
+  "block": {
+    "name": "choice",
+    "text": "<p>Про интерактивность (REPL)</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 4,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": true,
+          "text": "REPL достигается компиляцией/интерпретацией небольших фрагментов «на лету»",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Интерактивность — свойство инструмента/реализации, а не неизменная характеристика языка",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "REPL возможен только в интерпретируемых языках",
+          "feedback": "Есть REPL даже для C++ (через инкрементальную компиляцию/JIT)."
+        },
+        {
+          "is_correct": false,
+          "text": "Компилируемые языки не могут иметь REPL",
+          "feedback": "Есть REPL даже для C++ (через инкрементальную компиляцию/JIT)."
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-8268752",
+  "subscriptions": [
+    "31-77-8268752",
+    "30-77-8268752"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 127,
+  "passed_by": 93,
+  "correct_ratio": 0.4492753623188406,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 8247843,
+  "create_date": "2025-09-29T09:44:07Z",
+  "update_date": "2025-09-29T09:45:57Z",
+  "discussions_count": 1,
+  "discussion_proxy": "77-8268752-1",
+  "discussion_threads": [
+    "77-8268752-1",
+    "77-8268752-2"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 1
+}

@@ -1,0 +1,67 @@
+{
+  "id": 3215176,
+  "lesson": 770595,
+  "position": 4,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<h3>Сортировка вставками</h3>\n\n<p>Общая суть сортировок вставками такова:</p>\n\n<ol>\n\t<li>Перебираются элементы в неотсортированной части массива.</li>\n\t<li>Каждый элемент вставляется в отсортированную часть массива на то место, где он должен находиться.</li>\n</ol>\n\n<p><img alt=\"\" height=\"4925\" name=\"Frame 25.png\" src=\"https://ucarecdn.stepik.net/91b6ef9d-0d79-498c-8ed1-db4ecf7f1adc/-/crop/7230x4925/0,514/-/preview/\" width=\"7230\"></p>\n\n<p> </p>\n\n<p>Сложность в лучшем случае: <strong>O(n);</strong></p>\n\n<p>Сложность в худшем случае: <strong>O(n<sup>2</sup>).</strong></p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3215176",
+  "subscriptions": [
+    "31-77-3215176",
+    "30-77-3215176"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 670,
+  "passed_by": 670,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3194268,
+  "create_date": "2022-08-18T19:20:15Z",
+  "update_date": "2023-05-15T20:20:20Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3215176-1",
+  "discussion_threads": [
+    "77-3215176-1"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 0
+}

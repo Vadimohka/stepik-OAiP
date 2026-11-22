@@ -1,0 +1,53 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>Как корректно установить значение определенного флага статуса?<br>\nchar status = 0;<br>\nchar online = 1;<br>\nchar offline = 1 &lt;&lt; 1;</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": false
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": false,
+      "is_always_correct": false,
+      "sample_size": 5,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "status &= online",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "status & online",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "status || online",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "status |= online",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "status = online",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3286930",
+  "time": "2026-11-22T18:35:40Z"
+}

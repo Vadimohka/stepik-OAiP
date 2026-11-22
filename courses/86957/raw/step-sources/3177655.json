@@ -1,0 +1,114 @@
+{
+  "id": 3177655,
+  "lesson": 763719,
+  "position": 5,
+  "status": "ready",
+  "block": {
+    "name": "code",
+    "text": "<p> Циклом for удобно определять вложенные циклы. Например, выведем таблицу умножения:</p>",
+    "video": null,
+    "options": {
+      "execution_time_limit": 5,
+      "execution_memory_limit": 256,
+      "limits": {
+        "c++": {
+          "time": 5,
+          "memory": 256
+        }
+      },
+      "code_templates": {
+        "c++": "#include <iostream>\n\nint main()\n{\n    int k = 0;\n    std::cin >> k;\n\n    for(int i = 1; i < k;i++)\n       for(int j = 1;j < k;j++)   \n           std::cout << i * j << ((j == k - 1) ? '\\n' : '\\t');\n\n    std::cout << ' ';\n\n   return 0; \n}"
+      },
+      "code_templates_header_lines_count": {
+        "c++": 0
+      },
+      "code_templates_footer_lines_count": {
+        "c++": 0
+      },
+      "code_templates_options": {},
+      "samples": [
+        [
+          "10",
+          "1\t2\t3\t4\t5\t6\t7\t8\t9\n2\t4\t6\t8\t10\t12\t14\t16\t18\n3\t6\t9\t12\t15\t18\t21\t24\t27\n4\t8\t12\t16\t20\t24\t28\t32\t36\n5\t10\t15\t20\t25\t30\t35\t40\t45\n6\t12\t18\t24\t30\t36\t42\t48\t54\n7\t14\t21\t28\t35\t42\t49\t56\t63\n8\t16\t24\t32\t40\t48\t56\t64\t72\n9\t18\t27\t36\t45\t54\t63\t72\t81"
+        ]
+      ],
+      "is_run_user_code_allowed": false
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "code": "# This is a sample Code Challenge\n# Learn more: https://stepik.org/lesson/9173\n# Ask your questions via support@stepik.org\n\ndef generate():\n    return []\n\ndef check(reply, clue):\n    return reply.strip() == clue.strip()\n\n# def solve(dataset):\n#     a, b = dataset.split()\n#     return str(int(a) + int(b))",
+      "execution_time_limit": 5,
+      "execution_memory_limit": 256,
+      "samples_count": 1,
+      "templates_data": "::c++\n#include <iostream>\n\nint main()\n{\n    int k = 0;\n    std::cin >> k;\n\n    for(int i = 1; i < k;i++)\n       for(int j = 1;j < k;j++)   \n           std::cout << i * j << ((j == k - 1) ? '\\n' : '\\t');\n    \n    std::cout << ' ';\n\n   return 0; \n}",
+      "is_time_limit_scaled": false,
+      "is_memory_limit_scaled": false,
+      "is_run_user_code_allowed": false,
+      "manual_time_limits": [],
+      "manual_memory_limits": [],
+      "test_archive": [],
+      "test_cases": [
+        [
+          "10",
+          "1\t2\t3\t4\t5\t6\t7\t8\t9\n2\t4\t6\t8\t10\t12\t14\t16\t18\n3\t6\t9\t12\t15\t18\t21\t24\t27\n4\t8\t12\t16\t20\t24\t28\t32\t36\n5\t10\t15\t20\t25\t30\t35\t40\t45\n6\t12\t18\t24\t30\t36\t42\t48\t54\n7\t14\t21\t28\t35\t42\t49\t56\t63\n8\t16\t24\t32\t40\t48\t56\t64\t72\n9\t18\t27\t36\t45\t54\t63\t72\t81"
+        ]
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": "/api/step-sources/3177655/tests",
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3177655",
+  "subscriptions": [
+    "31-77-3177655",
+    "30-77-3177655"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 915,
+  "passed_by": 669,
+  "correct_ratio": 0.6626281453867661,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3156747,
+  "create_date": "2022-08-01T18:59:01Z",
+  "update_date": "2022-09-19T18:51:55Z",
+  "discussions_count": 1,
+  "discussion_proxy": "77-3177655-1",
+  "discussion_threads": [
+    "77-3177655-1",
+    "77-3177655-2"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 1
+}

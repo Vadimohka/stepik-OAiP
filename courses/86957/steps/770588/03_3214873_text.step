@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Указатель на массив символов Char*</h3>\n\n<p>Если <code>char s[] = \"text\";</code>это объявление массива <code>s</code> типа <code>char []</code> и инициализация этого массива строковым литералом <code>\"text\"</code>. Т. е. <code>s</code> — это просто массив из <strong>пяти</strong> символов: <code>t</code>, <code>e</code>, <code>x</code>, <code>t</code>, <code>\\0</code>.</p>\n\n<p>То вы можете менять его: </p>\n\n<pre><code class=\"language-cpp\">s[0] = 'n'; /* s: \"next\" */</code></pre>\n\n<p>Но не можете переприсвоить сам массив <code>s</code> (это же массив):</p>\n\n<pre><code class=\"language-cpp\">char s[] = \"text\";  /* OK */\ns = \"another text\"; /* Это ошибка. */</code></pre>\n\n<p> Если вы используете указатель:</p>\n\n<pre><code class=\"language-cpp\">char *s = \"text\"; /* до C++11 */\nconst char *s = \"text\"; /* начиная C++11 */</code></pre>\n\n<p>Объявление указателя <code>s</code> типа <code>char *</code> и присваивание ему указателя на первый элемент строкового литерала <code>\"text\"</code>. Попытка изменить этот строковой литерал (<code>s[0] = 'a'</code>, например), — это неопределенное поведение.</p>\n\n<p>И уже сам указатель переприсваивать можно:</p>\n\n<pre><code class=\"language-cpp\">const char *p = \"text\"; /* OK */\np = \"another text\"; /* OK */</code></pre>\n\n<p>Начиная с C++11 строковые литералы могут быть прямо присвоены только <code>const char *</code> (только указателям на <em>константный</em> <code>char</code>, <strong>не путать с константным указателем</strong>).</p>\n\n<p>При разработке ПО массив char рекомендуется использовать исключительно как набор одиночных символов. Для всего остального есть библиотека string, к ней мы сейчас и перейдём.</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3214873",
+  "time": "2026-11-22T18:35:40Z"
+}

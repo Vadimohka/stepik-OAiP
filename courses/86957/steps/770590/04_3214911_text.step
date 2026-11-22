@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Определение функции</h3>\n\n<p><em>Определение функции</em> состоит из объявления и тела функции, заключенных в фигурные скобки, которые содержат объявления переменных, операторы и выражения. В следующем примере показано полное определение функции:</p>\n\n<pre><code class=\"language-cpp\">int foo(int i, std::string s) {\n    int value {i};\n    MyClass mc;\n    if (strcmp(s, \"default\") != 0) {\n        value = mc.do_something(i);\n    }\n    return value;\n}</code></pre>\n\n<p><em><strong>*</strong></em>Переменные, объявленные в теле функции, называются локальными. Они исчезают из области видимости при выходе из функции, поэтому функция никогда не должна возвращать ссылку на локальную переменную.</p>\n\n<pre><code class=\"language-cpp\">int&amp; factorial(int n) {\n    int result = 1;\n    for (int i = 1; i &lt;= n; i++) {\n        result *= i;\n    }\n    return result;\n}</code></pre>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3214911",
+  "time": "2026-11-22T18:35:40Z"
+}

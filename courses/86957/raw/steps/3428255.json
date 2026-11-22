@@ -1,0 +1,83 @@
+{
+  "id": 3428255,
+  "lesson": 770591,
+  "position": 11,
+  "status": "ready",
+  "block": {
+    "name": "code",
+    "text": "<p><img alt=\"\" height=\"527\" name=\"image.png\" src=\"https://ucarecdn.stepik.net/45486ab0-1147-4762-ac2b-6fddb87fadd0/\" width=\"726\"></p>\n\n<p><strong>Входные данные</strong></p>\n\n<p>Каждая строка содержит три целых числа: 𝒌(𝟎 &lt; 𝒌 &lt; 𝟏𝟎^𝟏𝟗), 𝒏(𝟎 &lt; 𝒏 &lt; 𝟏𝟎^𝟏𝟗)и 𝒕(𝟎 &lt; 𝒕 &lt; 𝟏𝟎) Последняя строка содержит три нуля и не обрабатывается.</p>\n\n<p><strong>Выходные данные</strong></p>\n\n<p>Для каждого теста в отдельной строке вывести номер теста и значение x. Формат вывода приведен в примере.</p>",
+    "video": null,
+    "options": {
+      "execution_time_limit": 1,
+      "execution_memory_limit": 128,
+      "limits": {
+        "c++": {
+          "time": 1,
+          "memory": 128
+        }
+      },
+      "code_templates": {
+        "c++": "#include <iostream>\n\nint main() {\n    // put your code here\n    return 0;\n}"
+      },
+      "code_templates_header_lines_count": {
+        "c++": 0
+      },
+      "code_templates_footer_lines_count": {
+        "c++": 0
+      },
+      "code_templates_options": {},
+      "samples": [
+        [
+          "1234 1234 4\n2323 99999999999 8\n4 99999 9\n888 888 8\n0 0 0",
+          "Case #1: 736\nCase #2: 39087387\nCase #3: 494777344\nCase #4: 91255296"
+        ]
+      ],
+      "is_run_user_code_allowed": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3428255",
+  "subscriptions": [
+    "31-77-3428255",
+    "30-77-3428255"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 624,
+  "passed_by": 414,
+  "correct_ratio": 0.3346153846153846,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3407347,
+  "create_date": "2022-11-07T11:42:05Z",
+  "update_date": "2022-11-07T12:12:24Z",
+  "discussions_count": 4,
+  "discussion_proxy": "77-3428255-1",
+  "discussion_threads": [
+    "77-3428255-1",
+    "77-3428255-2"
+  ]
+}

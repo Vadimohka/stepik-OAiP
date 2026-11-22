@@ -1,0 +1,83 @@
+{
+  "id": 3384518,
+  "lesson": 770591,
+  "position": 12,
+  "status": "ready",
+  "block": {
+    "name": "code",
+    "text": "<p>Пусть <strong>f(n)</strong> - наибольший нечетный делитель натурального числа <strong>n</strong>. По заданному натуральному <strong>n</strong> необходимо вычислить значение суммы <strong>f.(1)</strong> + <strong>f(2)</strong> + ... + <strong>f(n)</strong>.</p>\n\n<h4>Входные данные</h4>\n\n<p>Первым подаётся число <strong>k</strong> - количество тестов.</p>\n\n<p>Следующие <strong>k</strong> строк содержат одно натуральное число <strong>n</strong> (<strong>n</strong> ≤ <code>10<sup>9</sup></code>).</p>\n\n<h4>Выходные данные</h4>\n\n<p>Для каждого значения <strong>n</strong> в отдельной строке вывести значение суммы <strong>f(1)</strong> + <strong>f(2)</strong> + ... + <strong>f(n)</strong>.</p>",
+    "video": null,
+    "options": {
+      "execution_time_limit": 1,
+      "execution_memory_limit": 32,
+      "limits": {
+        "c++": {
+          "time": 1,
+          "memory": 32
+        }
+      },
+      "code_templates": {
+        "c++": "#include <iostream>\n\nint main() {\n    // put your code here\n    return 0;\n}"
+      },
+      "code_templates_header_lines_count": {
+        "c++": 0
+      },
+      "code_templates_footer_lines_count": {
+        "c++": 0
+      },
+      "code_templates_options": {},
+      "samples": [
+        [
+          "3\n7\n1\n777",
+          "21\n1\n201537"
+        ]
+      ],
+      "is_run_user_code_allowed": false
+    },
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3384518",
+  "subscriptions": [
+    "31-77-3384518",
+    "30-77-3384518"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 820,
+  "passed_by": 504,
+  "correct_ratio": 0.1697185023230391,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3363610,
+  "create_date": "2022-10-22T09:03:56Z",
+  "update_date": "2022-11-07T11:42:07Z",
+  "discussions_count": 4,
+  "discussion_proxy": "77-3384518-1",
+  "discussion_threads": [
+    "77-3384518-1",
+    "77-3384518-2"
+  ]
+}

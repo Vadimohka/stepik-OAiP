@@ -1,0 +1,59 @@
+{
+  "id": 3332379,
+  "lesson": 770587,
+  "position": 11,
+  "status": "ready",
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите правильные утверждения.</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3332379",
+  "subscriptions": [
+    "31-77-3332379",
+    "30-77-3332379"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 647,
+  "passed_by": 495,
+  "correct_ratio": 0.22847985347985347,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3311471,
+  "create_date": "2022-10-03T10:11:50Z",
+  "update_date": "2022-10-03T15:50:10Z",
+  "discussions_count": 2,
+  "discussion_proxy": "77-3332379-1",
+  "discussion_threads": [
+    "77-3332379-1",
+    "77-3332379-2"
+  ]
+}

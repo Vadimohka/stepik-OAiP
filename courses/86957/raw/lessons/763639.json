@@ -1,0 +1,79 @@
+{
+  "id": 763639,
+  "steps": [
+    3177291,
+    3177474,
+    3177504,
+    3177499,
+    3262772,
+    3262735,
+    3264578,
+    3286892,
+    3286908,
+    3286915,
+    3286930,
+    3296822,
+    3296857,
+    3296975,
+    4717734
+  ],
+  "actions": {
+    "learn_lesson": "#",
+    "assist_lesson": "#",
+    "view_all_submissions": "#",
+    "edit_lesson": "#",
+    "view_statistics": "#",
+    "attachments": "/lesson/763639/attachments/",
+    "clone_lesson": "/lesson/763639/clone/",
+    "admin_lesson": "#",
+    "edit_permissions": "/lesson/763639/permissions/",
+    "delete_lesson": "#"
+  },
+  "progress": "76-763639",
+  "subscriptions": [
+    "31-76-763639",
+    "30-76-763639"
+  ],
+  "viewed_by": 1326,
+  "passed_by": 511,
+  "time_to_complete": 3190,
+  "cover_url": null,
+  "is_comments_enabled": true,
+  "is_exam_without_progress": false,
+  "is_blank": false,
+  "is_draft": false,
+  "is_orphaned": false,
+  "courses": [
+    86957
+  ],
+  "units": [
+    765806
+  ],
+  "owner": 296085237,
+  "language": "ru",
+  "is_featured": false,
+  "is_public": true,
+  "canonical_url": "https://stepik.org/lesson/763639/",
+  "title": "Операции языка С++",
+  "slug": "Операции-языка-С++-763639",
+  "create_date": "2022-08-01T15:17:02Z",
+  "update_date": "2026-01-30T17:56:18Z",
+  "learners_group": 5070874,
+  "testers_group": 5070875,
+  "moderators_group": 5070876,
+  "assistants_group": 5070877,
+  "teachers_group": 5070872,
+  "admins_group": 5070873,
+  "discussions_count": 21,
+  "discussion_proxy": "76-763639-1",
+  "discussion_threads": [
+    "76-763639-1"
+  ],
+  "epic_count": 62,
+  "abuse_count": 72,
+  "vote_delta": -10,
+  "vote": null,
+  "lti_consumer_key": "",
+  "lti_secret_key": "",
+  "lti_private_profile": false
+}

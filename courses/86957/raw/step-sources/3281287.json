@@ -1,0 +1,174 @@
+{
+  "id": 3281287,
+  "lesson": 763640,
+  "position": 8,
+  "status": "ready",
+  "block": {
+    "name": "code",
+    "text": "<p>Для целочисленного числа К напечатать фразу \"Мы нашли К грибов в лесу\", согласовав окончание слова \"гриб\" с числом К.</p>",
+    "video": null,
+    "options": {
+      "execution_time_limit": 5,
+      "execution_memory_limit": 256,
+      "limits": {
+        "c++": {
+          "time": 5,
+          "memory": 256
+        }
+      },
+      "code_templates": {
+        "c++": "#include <iostream>\n\nint main() {\n    // put your code here\n    return 0;\n}"
+      },
+      "code_templates_header_lines_count": {
+        "c++": 0
+      },
+      "code_templates_footer_lines_count": {
+        "c++": 0
+      },
+      "code_templates_options": {},
+      "samples": [
+        [
+          "15",
+          "Мы нашли 15 грибов в лесу"
+        ]
+      ],
+      "is_run_user_code_allowed": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "code": "# This is a sample Code Challenge\n# Learn more: https://stepik.org/lesson/9173\n# Ask your questions via support@stepik.org\n\ndef generate():\n    return []\n\ndef check(reply, clue):\n    return reply.strip() == clue.strip()\n\n# def solve(dataset):\n#     a, b = dataset.split()\n#     return str(int(a) + int(b))",
+      "execution_time_limit": 5,
+      "execution_memory_limit": 256,
+      "samples_count": 1,
+      "templates_data": "::c++",
+      "is_time_limit_scaled": true,
+      "is_memory_limit_scaled": true,
+      "is_run_user_code_allowed": true,
+      "manual_time_limits": [],
+      "manual_memory_limits": [],
+      "test_archive": [],
+      "test_cases": [
+        [
+          "15",
+          "Мы нашли 15 грибов в лесу"
+        ],
+        [
+          "1",
+          "Мы нашли 1 гриб в лесу"
+        ],
+        [
+          "2",
+          "Мы нашли 2 гриба в лесу"
+        ],
+        [
+          "21",
+          "Мы нашли 21 гриб в лесу"
+        ],
+        [
+          "12",
+          "Мы нашли 12 грибов в лесу"
+        ],
+        [
+          "22",
+          "Мы нашли 22 гриба в лесу"
+        ],
+        [
+          "23",
+          "Мы нашли 23 гриба в лесу"
+        ],
+        [
+          "44",
+          "Мы нашли 44 гриба в лесу"
+        ],
+        [
+          "55",
+          "Мы нашли 55 грибов в лесу"
+        ],
+        [
+          "101",
+          "Мы нашли 101 гриб в лесу"
+        ],
+        [
+          "10",
+          "Мы нашли 10 грибов в лесу"
+        ],
+        [
+          "10101",
+          "Мы нашли 10101 гриб в лесу"
+        ],
+        [
+          "19000",
+          "Мы нашли 19000 грибов в лесу"
+        ],
+        [
+          "100000001",
+          "Мы нашли 100000001 гриб в лесу"
+        ],
+        [
+          "11011",
+          "Мы нашли 11011 грибов в лесу"
+        ],
+        [
+          "100000000002",
+          "Мы нашли 100000000002 гриба в лесу"
+        ]
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": "/api/step-sources/3281287/tests",
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3281287",
+  "subscriptions": [
+    "31-77-3281287",
+    "30-77-3281287"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 760,
+  "passed_by": 538,
+  "correct_ratio": 0.14314606741573033,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3260379,
+  "create_date": "2022-09-11T18:11:57Z",
+  "update_date": "2022-09-14T20:36:04Z",
+  "discussions_count": 5,
+  "discussion_proxy": "77-3281287-1",
+  "discussion_threads": [
+    "77-3281287-1",
+    "77-3281287-2"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 1
+}

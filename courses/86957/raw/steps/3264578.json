@@ -1,0 +1,83 @@
+{
+  "id": 3264578,
+  "lesson": 763639,
+  "position": 7,
+  "status": "ready",
+  "block": {
+    "name": "code",
+    "text": "<p>Заданы два целых числа <strong>X</strong> и <strong>Y</strong>. Определите, верно ли, что одно из них делится на другое без остатка, или нет.</p>\n\n<p>В ответе выведите \"YES\", если делятся, \"NO\", если не делятся.</p>\n\n<p>В противных случаях выведите \"ERROR\".</p>\n\n<p>Для решения задачи попробуйте интуитивно применить оператор if вместе с вашими операциями сравнения.</p>\n\n<p><em>if(улосвие){ваш код}</em></p>",
+    "video": null,
+    "options": {
+      "execution_time_limit": 5,
+      "execution_memory_limit": 256,
+      "limits": {
+        "c++": {
+          "time": 5,
+          "memory": 256
+        }
+      },
+      "code_templates": {
+        "c++": "#include <iostream>\n\nint main() {\n    // put your code here\n    return 0;\n}"
+      },
+      "code_templates_header_lines_count": {
+        "c++": 0
+      },
+      "code_templates_footer_lines_count": {
+        "c++": 0
+      },
+      "code_templates_options": {},
+      "samples": [
+        [
+          "2 2",
+          "YES"
+        ]
+      ],
+      "is_run_user_code_allowed": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3264578",
+  "subscriptions": [
+    "31-77-3264578",
+    "30-77-3264578"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 876,
+  "passed_by": 540,
+  "correct_ratio": 0.09103820480045448,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3243670,
+  "create_date": "2022-09-06T07:00:41Z",
+  "update_date": "2024-10-19T08:07:56Z",
+  "discussions_count": 8,
+  "discussion_proxy": "77-3264578-1",
+  "discussion_threads": [
+    "77-3264578-1",
+    "77-3264578-2"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": 3269060,
+  "lesson": 763640,
+  "position": 3,
+  "status": "ready",
+  "block": {
+    "name": "code",
+    "text": "<p>Даны действительные положительные числа x, y, z. Выяснить, существует ли треугольник с длинами сторон x, y, z.</p>\n\n<p>Формат ввода:</p>\n\n<p>По очереди вводятся X, Y, Z.</p>\n\n<p>Формат вывода:</p>\n\n<p>Если треугольник существует выведите \"YES\", иначе выведите \"NO\".</p>",
+    "video": null,
+    "options": {
+      "execution_time_limit": 1,
+      "execution_memory_limit": 32,
+      "limits": {
+        "c++": {
+          "time": 1,
+          "memory": 32
+        }
+      },
+      "code_templates": {
+        "c++": "#include <iostream>\n\nint main() {\n    // put your code here\n    return 0;\n}"
+      },
+      "code_templates_header_lines_count": {
+        "c++": 0
+      },
+      "code_templates_footer_lines_count": {
+        "c++": 0
+      },
+      "code_templates_options": {},
+      "samples": [
+        [
+          "3 4 5",
+          "YES"
+        ]
+      ],
+      "is_run_user_code_allowed": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3269060",
+  "subscriptions": [
+    "31-77-3269060",
+    "30-77-3269060"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 909,
+  "passed_by": 624,
+  "correct_ratio": 0.29333333333333333,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3248152,
+  "create_date": "2022-09-07T11:46:16Z",
+  "update_date": "2023-10-26T19:34:13Z",
+  "discussions_count": 1,
+  "discussion_proxy": "77-3269060-1",
+  "discussion_threads": [
+    "77-3269060-1",
+    "77-3269060-2"
+  ]
+}

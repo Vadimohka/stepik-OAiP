@@ -1,0 +1,54 @@
+{
+  "id": 3177249,
+  "lesson": 763038,
+  "position": 6,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<h3><strong>Этап компиляции</strong></h3>\n\n<ul>\n\t<li>На вход компилятору поступает код на C++ после обработки препроцессором</li>\n\t<li>Каждый файл с кодом компилируется отдельно и независимо от других файлов с кодом</li>\n\t<li>Компилируется только файлы с кодом (т.е. *.cpp)</li>\n\t<li>Заголовочные файлы сами по себе ни во что не компилируются, только в составе файлов с кодом</li>\n\t<li>На выходе компилятора из каждого файла с кодом получается “объектный файл” — бинарный файл со скомпилированным кодом (с расширением .o или .obj в зависимотсти от вашей операционной системы).</li>\n</ul>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3177249",
+  "subscriptions": [
+    "31-77-3177249",
+    "30-77-3177249"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 1486,
+  "passed_by": 1486,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    1,
+    0,
+    0,
+    0,
+    1
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3156341,
+  "create_date": "2022-08-01T14:58:02Z",
+  "update_date": "2023-11-13T16:29:39Z",
+  "discussions_count": 1,
+  "discussion_proxy": "77-3177249-1",
+  "discussion_threads": [
+    "77-3177249-1"
+  ]
+}

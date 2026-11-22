@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Возможности работы с указателями</h3>\n\n<p>Значение, которое получено в результате операции разыменования, можно присвоить другой переменной:</p>\n\n<pre><code class=\"language-cpp\">int x = 10;\nint *p  = &amp;x;\nint y = *p;\nstd::cout &lt;&lt; \"Value = \" &lt;&lt; y &lt;&lt; std::endl;    // 10</code></pre>\n\n<p>И также используя указатель, мы можем менять значение по адресу, который хранится в указателе:</p>\n\n<pre><code class=\"language-cpp\">int x = 10;\nint *p = &amp;x;\n*p = 45;\nstd::cout &lt;&lt; \"x = \" &lt;&lt; x &lt;&lt; std::endl;     // 45</code></pre>\n\n<p>Так как по адресу, на который указывает указатель, располагается переменная x, то соответственно ее значение изменится.</p>\n\n<p>Иллюстрация, как это работает:</p>\n\n<p><img alt=\"\" height=\"1450\" name=\"Frame 11.png\" src=\"https://ucarecdn.stepik.net/1b5aa630-6e2f-44e6-bc61-2aae7119fdd2/-/crop/4560x1450/0,243/-/preview/\" width=\"4560\"></p>\n\n<p>Создадим еще несколько указателей:</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n \nint main() {\n    short c = 12;\n    int d = 10;\n    short s = 2;\n      \n    short *pc = &amp;c;          // получаем адрес переменной с типа short\n    int *pd = &amp;d;           // получаем адрес переменной d типа int\n    short *ps = &amp;s;         // получаем адрес переменной s типа short\n      \n    std::cout &lt;&lt; \"Variable c: address=\" &lt;&lt; pc &lt;&lt; \"\\t value=\" &lt;&lt; *pc &lt;&lt; std::endl;\n    std::cout &lt;&lt; \"Variable d: address=\" &lt;&lt; pd &lt;&lt; \"\\t value=\" &lt;&lt; *pd &lt;&lt; std::endl;\n    std::cout &lt;&lt; \"Variable s: address=\" &lt;&lt; ps &lt;&lt; \"\\t value=\" &lt;&lt; *ps &lt;&lt; std::endl;\n     \n    return 0;\n}</code></pre>\n\n<p>Запустите несколько раз код у себя и посмотрите что получится.</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3212969",
+  "time": "2026-11-22T18:35:40Z"
+}

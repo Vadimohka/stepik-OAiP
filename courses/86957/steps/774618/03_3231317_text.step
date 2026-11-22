@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3><strong>Установка и запуск Cmake из консоли</strong></h3>\n\n<p>Установить Cmake можно с официального сайта <a href=\"https://cmake.org/\" rel=\"noopener noreferrer nofollow\">https://cmake.org/</a> или на linux ввести команду:</p>\n\n<p><code>sudo apt install cmake</code></p>\n\n<p>Создадим простейший test.cpp, в котором выведем Hello, World! В этой же директории создадим CMakeLists.txt, в который добавим:</p>\n\n<p><code>cmake_minimum_required(VERSION 3.22.1) # объявляем минимальную версию cmake</code><br>\n<code>project(test) # устанавливаем имя проекта</code><br>\n<code>set(SOURCES test.cpp) # переменной SOURCES присваиваем значение test.cpp</code><br>\n<code>add_executable(test ${SOURCES}) # добавляем переменную SOURCES к исполняемым файлам</code></p>\n\n<p>Запускаем в консоли следующую команду: </p>\n\n<p><code>cmake CMakeLists.txt</code></p>\n\n<p>Затем:</p>\n\n<p><code>make</code></p>\n\n<p>И после выполнения данной программы появится исполняемый файл. На linux его можно запустить с помощью:</p>\n\n<p><code>./test</code></p>\n\n<p>Полученный вывод:</p>\n\n<p><code>Hello World</code></p>\n\n<p>Таким образом, можно быстро запускать C++ проект из консоли.</p>\n\n<p>Подробнее о синтаксисе Cmake: <a href=\"https://www.pvsm.ru/kompilyatsiya/300549\" rel=\"noopener noreferrer nofollow\">https://www.pvsm.ru/kompilyatsiya/300549</a>\"</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3231317",
+  "time": "2026-11-22T18:35:40Z"
+}

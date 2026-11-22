@@ -1,0 +1,43 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>int** mat = new int[3];<br>\nfor (int i = 1; i &lt;= 3; ++i){<br>\n    mat[i] = new int[i];<br>\n}</p>\n\n<p>Выберите правильное утверждение.</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": false
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": false,
+      "is_always_correct": false,
+      "sample_size": 3,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "создается двумерный динамический массив 2x2",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Неверное создание массива",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "создается двумерный динамический массив из одного элемента в первой строке, двух во второй, трех в третьей",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3333765",
+  "time": "2026-11-22T18:35:40Z"
+}

@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h1>Перегрузка бинарных операций</h1>\n\n<h2>Операции сравнения</h2>\n\n<p>Произведём сравнение объектов класса Distance. В нашем первом примере мы перегрузим операцию «меньше чем» (&lt;) в классе Distance для того, чтобы иметь возможность сравнивать объекты этого класса.</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n\n// длина в английской системе\nclass Distance {\nprivate:\n    int feet;\n    float inches;\n\npublic:\n    // конструктор без аргументов\n    Distance() {\n        feet = 0;\n        inches = 0;\n    }\n\n    // конструктор с двумя аргументами\n    Distance(int ft, float in) {\n        feet = ft;\n        inches = in;\n    }\n\n\n    // получение информации от пользователя\n    void getdist() {\n        std::cout &lt;&lt; \"\\nВведите футы: \";\n        std::cin &gt;&gt; feet;\n        std::cout &lt;&lt; \"Введите дюймы: \";\n        std::cin &gt;&gt; inches;\n    }\n\n    // показ информации\n    void showdist() {\n        std::cout &lt;&lt; feet &lt;&lt; \" футов \" &lt;&lt; inches &lt;&lt; \" дюймов\";\n    }\n\n    // сравнение двух длин\n    bool operator&lt;(Distance) const;\n};\n\n\n// сравнение двух длин\nbool Distance::operator&lt;(Distance d2) const {\n    float bf1 = feet + inches / 12;\n    float bf2 = d2.feet + d2.inches / 12;\n    return (bf1 &lt; bf2);\n}\n\n\nint main() {\n    setlocale(LC_ALL, \"Russian\");\n    Distance dist1; // определяем переменную\n    dist1.getdist(); // получаем длину от пользователя\n    Distance dist2(6, 2.5); // определяем и инициализируем переменную\n    // показываем длины\n    std::cout &lt;&lt; \"\\ndist1 = \";\n    dist1.showdist();\n    std::cout &lt;&lt; \"\\ndist2 = \";\n    dist2.showdist();\n    // используем наш оператор\n    if (dist1 &lt; dist2)\n        std::cout &lt;&lt; \"\\ndist1 меньше чем dist2\";\n    else\n        std::cout &lt;&lt; \"\\ndist1 больше или равно чем dist2\";\n    std::cout &lt;&lt; std::endl;\n    return 0;\n} </code></pre>\n\n<p>Эта программа сравнивает интервал, заданный пользователем, с интервалом 6'-2.5\", определенным в программе. В зависимости от полученного результата затем выводится одно из двух предложений. Пример возможного вывода:</p>\n\n<pre><code class=\"language-no-highlight\">Введите футы: 5\nВведите дюймы: 11.5\ndist1 = 5 футов 11.5 дюймов\ndist2 = 6 футов 2.5 дюймов\ndist1 меньше чем dist2</code></pre>\n\n<p>Подход, используемый для функции operator&lt;() в данной программе, похож на перегрузку операции + в ранних примерах, за исключением того, что здесь функция operator&lt;() имеет возвращаемое значение типа bool. Возвращаемым значением может быть false или true, в зависимости от результата сравнения двух интервалов. При сравнении мы конвертируем оба интервала в значения футов с плавающей точкой и затем сравниваем их, используя обычную операцию &lt;. Помним, что здесь использована операция условия:</p>\n\n<pre><code class=\"language-no-highlight\">return (bf1 &lt; bf2);\nэто то же самое, что:\nif(bf1 &lt; bf2)\n    return true;\nelse\n    return false;</code></pre>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3760029",
+  "time": "2026-11-22T18:35:40Z"
+}

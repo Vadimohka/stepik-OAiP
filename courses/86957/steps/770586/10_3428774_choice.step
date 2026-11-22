@@ -1,0 +1,53 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>char arr[]{ \"Hello!\" };<br>\nconst char* ptr = arr; // ptr = 0x0000005A068FFBF4<br>\nwhile (*ptr)<br>\n{<br>\n    std::cout &lt;&lt; ptr &lt;&lt; \" \";<br>\n    ++ptr;<br>\n}</p>\n\n<p>Что выведет данная программа?</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": false
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": false,
+      "is_always_correct": false,
+      "sample_size": 5,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": true,
+          "text": "Hello! ello! llo! lo! o! !",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Ничего, произойдёт ошибка времени компиляции",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "H e l l o ! ",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Ничего, произойдёт ошибка времени выполнения",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "0000005A068FFBF4 0000005A068FFBF5 0000005A068FFBF6 0000005A068FFBF7 0000005A068FFBF8 0000005A068FFBF9",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3428774",
+  "time": "2026-11-22T18:35:40Z"
+}

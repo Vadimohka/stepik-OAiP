@@ -1,0 +1,54 @@
+{
+  "id": 3569919,
+  "lesson": 853534,
+  "position": 2,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<p><strong><em>Ссылки r-value</em></strong></p>\n\n<p>В C++11 был добавлен новый тип ссылок - <strong>ссылки r-value</strong>, которые позволяют получать доступ к r-values и x-values. Они используются для реализации семантики перемещения и эффективной передачи аргументов функций. Хотя <em>ссылка l-value</em> создается с использованием одного амперсанда, <em>ссылка r-value</em> создается с использованием двойного амперсанда:</p>\n\n<pre><code class=\"language-cpp\">int x = 7;\nint&amp; lref = x; // инициализация ссылки l-value переменной x (значение l-value)\nint&amp;&amp; rref = 7; // инициализация ссылки r-value литералом 7 (значение r-value)\n</code></pre>\n\n<p><em>Ссылки r-value</em> имеют <strong>два полезных свойства</strong><strong>:</strong></p>\n\n<ul>\n\t<li>\n\t<p>Увеличение продолжительности жизни объекта: когда r-value инициализирует ссылку r-value, то продолжительность жизни объекта, на который ссылается r-value, продлевается до конца жизни ссылки r-value. Это особенно полезно, когда мы хотим передать r-value в функцию, которая требует l-value.</p>\n\t</li>\n\t<li>\n\t<p>Возможность изменения значений r-values: неконстантные ссылки r-value позволяют изменять значения r-values, на которые они указывают.</p>\n\t</li>\n</ul>\n\n<p>Ссылки r-value часто используются в качестве параметров функции. Это особенно полезно при перегрузке функций, когда мы хотим, чтобы выполнение функции отличалось в зависимости от типа аргумента (l-value или r-value). Например:</p>\n\n<pre><code class=\"language-cpp\">// перегрузка функции для работы с аргументами l-values\nfun(const int&amp; lref) {\n    std::cout &lt;&lt; \"L-value reference to const\\n\";\n}\n\n// перегрузка функции для работы с аргументами r-values\nvoid fun(int&amp;&amp; rref) {\n    std::cout &lt;&lt; \"r-value reference\\n\";\n}\n\nint main() {\n    int x=7;\n    fun(x); // аргумент l-value вызывает функцию с ссылкой l-value\n    fun(7); // аргумент r-value вызывает функцию с ссылкой r-value\n    return 0;\n}</code></pre>\n\n<p>Output: </p>\n\n<pre><code class=\"language-1c\">l-value reference to const\nr-value reference</code></pre>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3569919",
+  "subscriptions": [
+    "31-77-3569919",
+    "30-77-3569919"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 391,
+  "passed_by": 391,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3549011,
+  "create_date": "2022-12-16T17:47:23Z",
+  "update_date": "2023-05-07T09:30:17Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3569919-1",
+  "discussion_threads": [
+    "77-3569919-1"
+  ]
+}

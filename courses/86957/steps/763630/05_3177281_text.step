@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Символьные типы</h3>\n\n<p>Для представления символов в приложении используются типы&nbsp;char,&nbsp;wchar_t,&nbsp;char16_t&nbsp;и&nbsp;char32_t.</p>\n\n<p>Определим несколько переменных:</p>\n\n<pre><code>char c ='d';\nwchar_t d ='c';</code></pre>\n\n<p>Переменная типа char в качестве значения принимает один символ в одинарных кавычках:&nbsp;<code>char c ='d'</code>. Также можно присвоить число из указанного выше в списке диапазона:&nbsp;<code>char c = 120</code>. В этом случае значением переменной c будет тот символ, который имеет код 120 в таблице символов ASCII.</p>\n\n<p>Стоит учитывать, что для вывода на консоль символов wchar_t следует использовать не std::cout, а поток&nbsp;std::wcout:</p>\n\n<pre><code>#include &lt;iostream&gt;\n \nint main() {\n    char a = 'H';\n    wchar_t b = 'e';\n    std::wcout &lt;&lt; a &lt;&lt; b &lt;&lt; '\\n';\n    return 0;\n}</code></pre>\n\n<p>При этом поток std::wcout может работать как с char, так и с wchar_t. А поток std::cout для переменной wchar_t вместо символа будет выводить его числовой код.</p>\n\n<p>В стандарте С++11 были добавлены типы&nbsp;char16_t&nbsp;и&nbsp;char32_t, которые ориентированы на использование Unicode. Однако на уровне ОС пока не реализованы потоки для работы с этими типами. Поэтому если потребуется вывести на консоль значения переменных этих типов, то необходимо преобразовать переменные к типам char или wchar_t:</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n \nint main() {\n    char a = 'H';\n    wchar_t b = 'e';\n    char16_t c = 'l';\n    char32_t d = 'o';\n    std::cout &lt;&lt; a &lt;&lt; (char)b &lt;&lt; (char)c &lt;&lt; (char)d &lt;&lt; \"\\n\";\n    return 0;\n}</code></pre>\n\n<p>В данном случае при выводе перед переменными указывается операция приведения к типу char -&nbsp;(char), благодаря чему значения переменных b, c и d преобразуются в тип char и могут быть выведены на консоль с помощью потока std::cout.</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3177281",
+  "time": "2026-11-22T18:35:40Z"
+}

@@ -6,7 +6,7 @@
   "intro": "",
   "course_format": "",
   "target_audience": "Данный курс предназначен в первую очередь для студентов и очень похож на формат обучения который дают в университете, однако любой желающий может попробовать свои силы в освоении С++",
-  "certificate_footer": null,
+  "certificate_footer": "https://cdn.stepik.net/media/courses/86957/certificate_footer_5EMNGK2.png",
   "certificate_cover_org": "https://cdn.stepik.net/media/courses/86957/certificate_cover_org_p45NYz5.png",
   "is_certificate_issued": true,
   "is_certificate_auto_issued": true,
@@ -41,37 +41,57 @@
     441369
   ],
   "total_units": 62,
-  "enrollment": null,
+  "enrollment": 86957,
   "is_favorite": false,
   "actions": {
     "view_reports": {
-      "enabled": false,
-      "needs_permission": "teach"
+      "enabled": true
     },
     "edit_reports": {
       "enabled": false,
-      "needs_permission": "teach"
+      "needs_plan": "enterprise"
     },
     "view_grade_book_page": {
-      "enabled": false,
-      "needs_permission": "assist"
+      "enabled": true
     },
     "view_grade_book": {
       "enabled": false,
-      "needs_permission": "assist"
+      "needs_plan": "enterprise"
     },
     "edit_lti": {
       "enabled": false,
-      "needs_permission": "admin"
+      "needs_plan": "enterprise"
     },
     "edit_advanced_settings": {
       "enabled": false,
-      "needs_permission": "teach"
+      "needs_plan": "enterprise"
     },
     "manage_permissions": {
       "enabled": false,
-      "needs_permission": "admin"
+      "needs_plan": "enterprise"
     },
+    "assist_course": "#",
+    "view_instructor_dashboard": "#",
+    "edit_course": "/course/86957/edit-info",
+    "edit_syllabus": "/course/86957/edit",
+    "view_statistics": "/course/86957/statistics/",
+    "attachments": "/course/86957/attachments/",
+    "create_announcements": "#",
+    "clone_module": "/course/86957/clone-module/",
+    "edit_certificates": "#",
+    "can_publish": {
+      "enabled": true,
+      "needs_plan": null
+    },
+    "can_be_private": {
+      "enabled": false,
+      "needs_plan": "enterprise"
+    },
+    "admin_course": "#",
+    "edit_permissions": "/course/86957/edit-permissions",
+    "edit_publish_settings": "#",
+    "clone_course": "/course/86957/clone/",
+    "transfer_ownership": "/course/86957/transfer/",
     "view_revenue": {
       "enabled": false
     },
@@ -85,32 +105,34 @@
       "enabled": true
     },
     "can_be_deleted": {
-      "enabled": false
+      "enabled": true
     },
     "edit_tags": {
-      "enabled": false
+      "enabled": true
     },
     "can_edit_variants": {
-      "enabled": false
+      "enabled": true
     }
   },
-  "progress": null,
+  "progress": "78-86957",
   "first_lesson": 763040,
   "first_unit": 765200,
   "certificate_link": null,
-  "certificate_regular_link": null,
-  "certificate_distinction_link": null,
+  "certificate_regular_link": "/api/courses/86957/regular",
+  "certificate_distinction_link": "/api/courses/86957/distinction",
   "user_certificate": null,
-  "referral_link": null,
-  "schedule_link": null,
-  "schedule_long_link": null,
+  "referral_link": "/a/86957",
+  "schedule_link": "/course/86957/schedule/b2a07f778114a78fb4e1b0ea3af7dfbf2377286a/",
+  "schedule_long_link": "/course/86957/schedule/long/b2a07f778114a78fb4e1b0ea3af7dfbf2377286a/",
   "first_deadline": null,
   "last_deadline": null,
   "subscriptions": [
     "31-78-86957",
     "30-78-86957"
   ],
-  "announcements": [],
+  "announcements": [
+    22773
+  ],
   "is_contest": false,
   "is_self_paced": true,
   "is_adaptive": false,
@@ -143,7 +165,7 @@
   "is_variant_active": true,
   "certificates_count": 453,
   "learners_count": 4855,
-  "wish_lists_count": null,
+  "wish_lists_count": 2177,
   "lessons_count": 62,
   "quizzes_count": 152,
   "challenges_count": 48,
@@ -190,15 +212,15 @@
   ],
   "learning_format": "<p>В курс входит теоретическая информация в формате текста или видео и техническое задание в виде задания уровня и формата лабораторных работ, где учащийся обязан будет написать программу.</p>",
   "content_details": [],
-  "issue": null,
+  "issue": 44386,
   "course_type": "basic",
-  "possible_type": null,
+  "possible_type": "basic",
   "is_certificate_with_score": true,
   "preview_lesson": null,
   "preview_unit": null,
   "possible_currencies": [],
-  "commission_basic": null,
-  "commission_promo": null,
+  "commission_basic": "7.00",
+  "commission_promo": "40.00",
   "with_certificate": true,
   "child_courses": [],
   "child_courses_count": 0,
@@ -231,15 +253,17 @@
   "is_active": true,
   "create_date": "2020-11-09T17:02:36Z",
   "update_date": "2026-01-30T17:56:48Z",
-  "learners_group": null,
-  "testers_group": null,
-  "moderators_group": null,
-  "assistants_group": null,
-  "teachers_group": null,
-  "admins_group": null,
-  "discussions_count": 0,
-  "discussion_proxy": null,
-  "discussion_threads": [],
+  "learners_group": 2870189,
+  "testers_group": 2870190,
+  "moderators_group": 2870191,
+  "assistants_group": 2870192,
+  "teachers_group": 2870187,
+  "admins_group": 2870188,
+  "discussions_count": 430,
+  "discussion_proxy": "78-86957-1",
+  "discussion_threads": [
+    "78-86957-1"
+  ],
   "lti_consumer_key": "",
   "lti_secret_key": "",
   "lti_private_profile": false

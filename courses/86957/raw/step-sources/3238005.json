@@ -1,0 +1,67 @@
+{
+  "id": 3238005,
+  "lesson": 776128,
+  "position": 4,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<h3>Scaffolding</h3>\n\n<p><strong>Скаффолдинг</strong> — это процесс инициализации проекта, включающий развёртывание файловой структуры проекта и генерацию некоторого (иногда опционального) количества кода, требуемого пользователю.</p>\n\n<p>Процесс установки может вызывать другие функции для настройки каркаса программы, который требуется системе. Настройка скаффолдинга программы перед main может включать:</p>\n\n<ul>\n\t<li>Поддержка многопоточности и локальное хранилище потоков</li>\n\t<li>Обнаружение переполнения буфера</li>\n\t<li>Ведение журнала стека</li>\n\t<li>Проверка ошибок во время выполнения</li>\n\t<li>Настройки локали</li>\n\t<li>Обработка математических ошибок</li>\n\t<li>Точность математической библиотеки по умолчанию</li>\n</ul>\n\n<p>Конкретные вызываемые функции скаффолдинга различаются в зависимости от реализации стандартной библиотеки и операционной системы.</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3238005",
+  "subscriptions": [
+    "31-77-3238005",
+    "30-77-3238005"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 1104,
+  "passed_by": 1104,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3217097,
+  "create_date": "2022-08-28T17:39:19Z",
+  "update_date": "2022-08-28T17:39:19Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3238005-1",
+  "discussion_threads": [
+    "77-3238005-1"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 0
+}

@@ -1,0 +1,73 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите правильные утверждения.</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 9,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "int mat[2][2] = {1, 2, 3, 4}; // обращение к mat[0][3] даст UB",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "int mat[2][2] = {1, 2, 3, 4}; // обращение к mat[0][3] даст 4",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "int mat[][2]; // корректная запись",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "int mat[][2] = {1, 2, 3}; // корректная запись",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "int mat[2][] = {1, 2, 3}; // корректная запись",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "int mat[][3] = {1, 2, 3, 4}; // sizeof(mat) вернет 6",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "int mat[][3] = {1, 2, 3, 4}; // sizeof(mat)/sizeof(int) вернет 6",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "int mat[0][2] = {1, 2}; // корректная запись",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "int mat[2][3]{}; // создаст массив инициализированный 6 нулями",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3330670",
+  "time": "2026-11-22T18:35:40Z"
+}

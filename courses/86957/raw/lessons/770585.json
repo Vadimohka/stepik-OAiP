@@ -1,0 +1,80 @@
+{
+  "id": 770585,
+  "steps": [
+    3212944,
+    3212968,
+    3212969,
+    3212970,
+    3212990,
+    3212989,
+    3212991,
+    3428470,
+    3428480,
+    3428540,
+    3428581,
+    4672519,
+    4717787,
+    4718101,
+    4718144,
+    4718146
+  ],
+  "actions": {
+    "learn_lesson": "#",
+    "assist_lesson": "#",
+    "view_all_submissions": "#",
+    "edit_lesson": "#",
+    "view_statistics": "#",
+    "attachments": "/lesson/770585/attachments/",
+    "clone_lesson": "/lesson/770585/clone/",
+    "admin_lesson": "#",
+    "edit_permissions": "/lesson/770585/permissions/",
+    "delete_lesson": "#"
+  },
+  "progress": "76-770585",
+  "subscriptions": [
+    "31-76-770585",
+    "30-76-770585"
+  ],
+  "viewed_by": 1184,
+  "passed_by": 270,
+  "time_to_complete": 1374,
+  "cover_url": "https://ucarecdn.stepik.net/ec792ba0-8226-4e1a-9d91-0c01220f8672/-/scale_crop/180x180/center/",
+  "is_comments_enabled": true,
+  "is_exam_without_progress": false,
+  "is_blank": false,
+  "is_draft": false,
+  "is_orphaned": false,
+  "courses": [
+    86957
+  ],
+  "units": [
+    773026
+  ],
+  "owner": 296085237,
+  "language": "ru",
+  "is_featured": false,
+  "is_public": true,
+  "canonical_url": "https://stepik.org/lesson/770585/",
+  "title": "Понятие указатель в С++",
+  "slug": "Понятие-указатель-в-С++-770585",
+  "create_date": "2022-08-17T16:25:01Z",
+  "update_date": "2024-01-02T18:41:27Z",
+  "learners_group": 5116697,
+  "testers_group": 5116698,
+  "moderators_group": 5116699,
+  "assistants_group": 5116700,
+  "teachers_group": 5116695,
+  "admins_group": 5116696,
+  "discussions_count": 15,
+  "discussion_proxy": "76-770585-1",
+  "discussion_threads": [
+    "76-770585-1"
+  ],
+  "epic_count": 30,
+  "abuse_count": 9,
+  "vote_delta": 21,
+  "vote": null,
+  "lti_consumer_key": "",
+  "lti_secret_key": "",
+  "lti_private_profile": false
+}

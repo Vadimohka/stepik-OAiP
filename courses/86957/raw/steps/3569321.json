@@ -1,0 +1,54 @@
+{
+  "id": 3569321,
+  "lesson": 853532,
+  "position": 1,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<p><strong>l-value и r-value</strong></p>\n\n<p>В языке C++, все переменные являются l-values, l-value, то есть они имеют свой собственный адрес в памяти.  l от слова «left», так как только значения l-values могут быть использованы в качестве операнда в левой части операции присваивания(в противоположном случае, мы получим ошибку), а также в других контекстах, где требуется изменяемое значение.<br>\nНапример, стейтмент 9 = 10; вызовет ошибку компилятора, так как 9 не является l-value. Число 9 не имеет своего адреса в памяти и, таким образом, мы ничего не можем ему присвоить (9 = 9 и ничего здесь не изменить).</p>\n\n<p><img alt=\"\" height=\"310\" name=\"image.png\" src=\"https://ucarecdn.stepik.net/ff2336ab-7e2f-46f4-b459-917fe2482d01/\" width=\"772\"></p>\n\n<p>Противоположностью l-value является r-value. r-value - это выражение, которое имеет временное значение, которое не может быть использовано в качестве операнда в левой части операции присваивания. Например, число 7 или результат выражения 3 + х являются r-values. Они не имеют адреса в памяти и не могут быть изменены. Обычно r-value используется в качестве операнда в правой части операции присваивания и других контекстах, где требуется неизменяемое значение.</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3569321",
+  "subscriptions": [
+    "31-77-3569321",
+    "30-77-3569321"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 595,
+  "passed_by": 595,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3548413,
+  "create_date": "2022-12-16T14:17:14Z",
+  "update_date": "2023-05-07T08:51:08Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3569321-1",
+  "discussion_threads": [
+    "77-3569321-1"
+  ]
+}

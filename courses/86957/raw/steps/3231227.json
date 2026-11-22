@@ -1,0 +1,54 @@
+{
+  "id": 3231227,
+  "lesson": 774618,
+  "position": 2,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<h3>Что такое CMake?</h3>\n\n<p><strong>CMake</strong> — кроссплатформенная автоматизированная система сборки проектов. Непосредственно сборкой она не занимается, а только генерирует <em>Makefile</em>, который потом будет выполнен утилитой make.</p>\n\n<p><img alt=\"\" height=\"5369\" name=\"Frame 7.png\" src=\"https://ucarecdn.stepik.net/1bb92134-94f9-4e34-bd08-ffb43f2ccc5a/-/preview/\" width=\"7930\"></p>\n\n<p>CMake может проверять наличие необходимых библиотек и подключать их, собирать проекты под разными компиляторами и операционными системами. Т.е. у вас есть куча кода и файлик, содержащий информацию для cmake, и чтобы скомпилить это дело где-нибудь еще, вам нужно просто запустить там cmake, который сделает всё сам. Удобно, полезно, просто.</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3231227",
+  "subscriptions": [
+    "31-77-3231227",
+    "30-77-3231227"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 1495,
+  "passed_by": 1495,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3210319,
+  "create_date": "2022-08-26T14:49:15Z",
+  "update_date": "2023-05-15T19:50:28Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3231227-1",
+  "discussion_threads": [
+    "77-3231227-1"
+  ]
+}

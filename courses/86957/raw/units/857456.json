@@ -1,0 +1,28 @@
+{
+  "id": 857456,
+  "section": 283812,
+  "lesson": 853537,
+  "assignments": [
+    3563749,
+    3564629,
+    4739515
+  ],
+  "position": 2,
+  "actions": {
+    "learn_unit": "#"
+  },
+  "progress": "80-857456",
+  "begin_date": "2023-03-13T09:00:00Z",
+  "end_date": null,
+  "soft_deadline": null,
+  "hard_deadline": null,
+  "grading_policy": "no_deadlines",
+  "begin_date_source": null,
+  "end_date_source": null,
+  "soft_deadline_source": null,
+  "hard_deadline_source": null,
+  "grading_policy_source": null,
+  "is_active": true,
+  "create_date": "2022-12-16T14:17:32Z",
+  "update_date": "2024-01-02T18:44:12Z"
+}

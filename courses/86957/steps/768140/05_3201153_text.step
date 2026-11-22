@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>CLion</h3>\n\n<p>CLion — кроссплатформенная среда программирования на C++ от компании JetBrains. Включает в себя современные стандарты C ++, libc ++ и Boost. Поддерживает также другие языки программирования — Kotlin, Python, Rust и т.д. — «из коробки» или с помощью плагинов.</p>\n\n<p><a href=\"https://media.tproger.ru/uploads/2015/11/clion.jpg\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img alt=\"CLion для C++\" height=\"521\" src=\"https://media.tproger.ru/uploads/2015/11/clion.jpg\" width=\"1000\"></a></p>\n\n<p><strong>Достоинства</strong>:</p>\n\n<ul>\n\t<li>Удобные механизмы отладки приложений.</li>\n\t<li>Автозавершение кода.</li>\n\t<li>Поддержка <a href=\"https://www.vim.org/\" rel=\"noopener noreferrer nofollow\">VIM</a>.</li>\n\t<li>Входит в пакет бесплатных приложений для студентов университетов (<a href=\"https://www.jetbrains.com/toolbox-app/\" rel=\"noopener noreferrer nofollow\">https://www.jetbrains.com/toolbox-app/</a>)</li>\n</ul>\n\n<p><strong>Недостатки</strong>:</p>\n\n<ul>\n\t<li>Нет бесплатной версии — только демо на 30 дней.</li>\n\t<li>Нет встроенного компилятора.</li>\n\t<li>Возникают проблемы с установкой компилятора.</li>\n</ul>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3201153",
+  "time": "2026-11-22T18:35:40Z"
+}

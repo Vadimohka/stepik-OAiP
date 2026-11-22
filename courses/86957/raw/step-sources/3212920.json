@@ -1,0 +1,67 @@
+{
+  "id": 3212920,
+  "lesson": 763644,
+  "position": 6,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<h3>Доступ к элементам массива</h3>\n\n<p>Доступ к элементам массива осуществляется через индексатор, значения индекса от <code>0</code> до <code>N-1</code>. Вот пример:</p>\n\n<pre><code class=\"language-cpp\">int a[4];\na[0] = 42;\nint t = a[3];</code></pre>\n\n<p>Выход за границы массива <strong>не контролируется</strong>, ошибка может привести к неопределенному поведению.</p>\n\n<p>В C++11 в стандартной библиотеке появились свободные (<em>не члены</em>) шаблоны функций <code>std::begin()</code> и <code>std::end()</code>. Вызванная для массива <code>std::begin()</code> возвращает указатель на первый элемент массива, <code>std::end()</code> на past-the-last элемент. (Есть также константные версии: <code>std::cbegin()</code>, <code>std::cend()</code>.) Это позволяет использовать массивы в диапазонном <code>for</code>.</p>\n\n<pre><code class=\"language-cpp\">int a[4]{ 4, 3, 2, 1 };\n\nfor (auto t : a) {\n    std::cout &lt;&lt; t &lt;&lt; ' ';\n}</code></pre>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3212920",
+  "subscriptions": [
+    "31-77-3212920",
+    "30-77-3212920"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 923,
+  "passed_by": 923,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3192013,
+  "create_date": "2022-08-17T15:56:20Z",
+  "update_date": "2023-04-18T18:16:01Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3212920-1",
+  "discussion_threads": [
+    "77-3212920-1"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 0
+}

@@ -1,0 +1,54 @@
+{
+  "id": 3214911,
+  "lesson": 770590,
+  "position": 4,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<h3>Определение функции</h3>\n\n<p><em>Определение функции</em> состоит из объявления и тела функции, заключенных в фигурные скобки, которые содержат объявления переменных, операторы и выражения. В следующем примере показано полное определение функции:</p>\n\n<pre><code class=\"language-cpp\">int foo(int i, std::string s) {\n    int value {i};\n    MyClass mc;\n    if (strcmp(s, \"default\") != 0) {\n        value = mc.do_something(i);\n    }\n    return value;\n}</code></pre>\n\n<p><em><strong>*</strong></em>Переменные, объявленные в теле функции, называются локальными. Они исчезают из области видимости при выходе из функции, поэтому функция никогда не должна возвращать ссылку на локальную переменную.</p>\n\n<pre><code class=\"language-cpp\">int&amp; factorial(int n) {\n    int result = 1;\n    for (int i = 1; i &lt;= n; i++) {\n        result *= i;\n    }\n    return result;\n}</code></pre>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3214911",
+  "subscriptions": [
+    "31-77-3214911",
+    "30-77-3214911"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 733,
+  "passed_by": 733,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3194003,
+  "create_date": "2022-08-18T16:10:42Z",
+  "update_date": "2023-04-18T19:25:32Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3214911-1",
+  "discussion_threads": [
+    "77-3214911-1"
+  ]
+}

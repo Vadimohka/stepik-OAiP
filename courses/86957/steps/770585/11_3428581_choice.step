@@ -1,0 +1,48 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>void foo(const int* ptr)<br>\n{<br>\n    *ptr = 100;<br>\n}</p>\n\n<p>int main(void)<br>\n{<br>\n    int x = 200;<br>\n    int* ptr = &amp;x;<br>\n    std::cout &lt;&lt; \"Before x = \" &lt;&lt; x &lt;&lt; \";\" &lt;&lt; \"\\t\";<br>\n    foo(ptr);<br>\n    std::cout &lt;&lt; \"After x = \" &lt;&lt; x &lt;&lt; std::endl;<br>\n    return 0;<br>\n}</p>\n\n<p>Что выведет данная программа?</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": false
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": false,
+      "is_always_correct": false,
+      "sample_size": 4,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": true,
+          "text": "Ничего, произойдёт ошибка времени компиляции",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Before call foo() x = 200;      After call foo() x = 200",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Ничего, произойдёт ошибка времени выполнения",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Before call foo() x = 200;      After call foo() x = 100",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3428581",
+  "time": "2026-11-22T18:35:40Z"
+}

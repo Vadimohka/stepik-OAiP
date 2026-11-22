@@ -1,0 +1,59 @@
+{
+  "id": 4717791,
+  "lesson": 763640,
+  "position": 12,
+  "status": "ready",
+  "block": {
+    "name": "choice",
+    "text": "<p>На переменные какого типа можно ссылаться из любого места в коде C ++?</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": false
+    },
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-4717791",
+  "subscriptions": [
+    "31-77-4717791",
+    "30-77-4717791"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 555,
+  "passed_by": 502,
+  "correct_ratio": 0.7110799438990182,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 4696888,
+  "create_date": "2023-11-13T17:06:34Z",
+  "update_date": "2023-11-13T17:06:34Z",
+  "discussions_count": 1,
+  "discussion_proxy": "77-4717791-1",
+  "discussion_threads": [
+    "77-4717791-1",
+    "77-4717791-2"
+  ]
+}

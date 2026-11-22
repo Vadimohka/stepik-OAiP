@@ -1,0 +1,72 @@
+{
+  "id": 768146,
+  "steps": [
+    3201191,
+    3201236,
+    3201235,
+    3201234,
+    3201267,
+    3261530,
+    4717774,
+    4718334
+  ],
+  "actions": {
+    "learn_lesson": "#",
+    "assist_lesson": "#",
+    "view_all_submissions": "#",
+    "edit_lesson": "#",
+    "view_statistics": "#",
+    "attachments": "/lesson/768146/attachments/",
+    "clone_lesson": "/lesson/768146/clone/",
+    "admin_lesson": "#",
+    "edit_permissions": "/lesson/768146/permissions/",
+    "delete_lesson": "#"
+  },
+  "progress": "76-768146",
+  "subscriptions": [
+    "31-76-768146",
+    "30-76-768146"
+  ],
+  "viewed_by": 2070,
+  "passed_by": 742,
+  "time_to_complete": 310,
+  "cover_url": "https://ucarecdn.stepik.net/4c485d22-c15e-4496-9a62-43b574e80613/-/scale_crop/180x180/center/",
+  "is_comments_enabled": true,
+  "is_exam_without_progress": false,
+  "is_blank": false,
+  "is_draft": false,
+  "is_orphaned": false,
+  "courses": [
+    86957
+  ],
+  "units": [
+    770500
+  ],
+  "owner": 296085237,
+  "language": "ru",
+  "is_featured": false,
+  "is_public": true,
+  "canonical_url": "https://stepik.org/lesson/768146/",
+  "title": "Стандартная библиотека языка С++. Пространство имён std.",
+  "slug": "Стандартная-библиотека-языка-С++-Пространство-имён-std-768146",
+  "create_date": "2022-08-11T19:12:29Z",
+  "update_date": "2024-09-04T10:13:56Z",
+  "learners_group": 5100778,
+  "testers_group": 5100779,
+  "moderators_group": 5100780,
+  "assistants_group": 5100781,
+  "teachers_group": 5100776,
+  "admins_group": 5100777,
+  "discussions_count": 4,
+  "discussion_proxy": "76-768146-1",
+  "discussion_threads": [
+    "76-768146-1"
+  ],
+  "epic_count": 30,
+  "abuse_count": 5,
+  "vote_delta": 25,
+  "vote": null,
+  "lti_consumer_key": "",
+  "lti_secret_key": "",
+  "lti_private_profile": false
+}

@@ -1,0 +1,54 @@
+{
+  "id": 3252939,
+  "lesson": 778425,
+  "position": 2,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<p><strong>Что такое тестирование программ и каким оно бывает?</strong></p>\n\n<p>Тестирование программ – процесс проверки программ на наличие в них ошибок – то есть неправильного поведения. Существует 2 вида тестирования – статическое и динамическое.</p>\n\n<p>          <strong>Статическое тестирование</strong> подразумевает анализ программы на основе исходного кода, который вычитывается вручную либо анализируется специальными инструментами. Таким способом можно быстро устранить очевидные ошибки, не прибегая к запуску программы.</p>\n\n<p>          <strong>Динамическое тестирование </strong>– тестирование, которое используется с помощью запуска программы и проверки её работы в разных обстоятельствах. Данный вид тестирования занимает гораздо больше времени, но позволяет гораздо быстрее найти неочевидные на первый взгляд ошибки.</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3252939",
+  "subscriptions": [
+    "31-77-3252939",
+    "30-77-3252939"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 741,
+  "passed_by": 741,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    2
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3232031,
+  "create_date": "2022-09-01T14:22:14Z",
+  "update_date": "2022-09-01T14:22:14Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3252939-1",
+  "discussion_threads": [
+    "77-3252939-1"
+  ]
+}

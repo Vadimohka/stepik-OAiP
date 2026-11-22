@@ -1,0 +1,142 @@
+{
+  "id": 3281279,
+  "lesson": 763640,
+  "position": 7,
+  "status": "ready",
+  "block": {
+    "name": "code",
+    "text": "<p>Даны действительные числа a, b, c, x ,y. Выяснить, пройдёт ли кирпич с ребрами a, b, c в прямоугольное отверстие со сторонами x и y. Просовывать кирпич в отверстие разрешается только так, чтобы каждое из его рёбер было параллельно или перпендикулярно каждой из сторон отверстия. Выведите \"YES\", если кирпич пройдёт, выведите \"NO\", если не пройдёт. Проверьте правильность входных данных и выведите \"Incorrect input\" если входные данные некорректны.</p>",
+    "video": null,
+    "options": {
+      "execution_time_limit": 1,
+      "execution_memory_limit": 256,
+      "limits": {
+        "c++": {
+          "time": 1,
+          "memory": 256
+        }
+      },
+      "code_templates": {
+        "c++": ""
+      },
+      "code_templates_header_lines_count": {
+        "c++": 0
+      },
+      "code_templates_footer_lines_count": {
+        "c++": 0
+      },
+      "code_templates_options": {},
+      "samples": [
+        [
+          "1 2 3 4 5",
+          "YES"
+        ]
+      ],
+      "is_run_user_code_allowed": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "code": "# This is a sample Code Challenge\n# Learn more: https://stepik.org/lesson/9173\n# Ask your questions via support@stepik.org\n\ndef generate():\n    return []\n\ndef check(reply, clue):\n    return reply.strip() == clue.strip()\n\n# def solve(dataset):\n#     a, b = dataset.split()\n#     return str(int(a) + int(b))",
+      "execution_time_limit": 1,
+      "execution_memory_limit": 256,
+      "samples_count": 1,
+      "templates_data": "::c++\n\n\n\n\n",
+      "is_time_limit_scaled": true,
+      "is_memory_limit_scaled": true,
+      "is_run_user_code_allowed": true,
+      "manual_time_limits": [],
+      "manual_memory_limits": [],
+      "test_archive": [],
+      "test_cases": [
+        [
+          "1 2 3 4 5",
+          "YES"
+        ],
+        [
+          "78 1 1 2 2",
+          "YES"
+        ],
+        [
+          "2.123 5.189 1.56 7 5",
+          "YES"
+        ],
+        [
+          "13.213 4815162342 666 7 12",
+          "NO"
+        ],
+        [
+          "-2 15 1 23 63",
+          "Incorrect input"
+        ],
+        [
+          "1.11 1.1 1.111 1.11 1.1",
+          "YES"
+        ],
+        [
+          "1.111 1.11 1.1 1.105 1.106",
+          "NO"
+        ],
+        [
+          "1 -1 1 1 1",
+          "Incorrect input"
+        ]
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": "/api/step-sources/3281279/tests",
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3281279",
+  "subscriptions": [
+    "31-77-3281279",
+    "30-77-3281279"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 767,
+  "passed_by": 531,
+  "correct_ratio": 0.25346784363177804,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    1,
+    0,
+    0,
+    0,
+    2
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3260371,
+  "create_date": "2022-09-11T18:05:28Z",
+  "update_date": "2023-10-26T19:10:12Z",
+  "discussions_count": 5,
+  "discussion_proxy": "77-3281279-1",
+  "discussion_threads": [
+    "77-3281279-1",
+    "77-3281279-2"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 1
+}

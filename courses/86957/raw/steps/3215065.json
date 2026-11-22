@@ -1,0 +1,79 @@
+{
+  "id": 3215065,
+  "lesson": 770593,
+  "position": 5,
+  "status": "ready",
+  "block": {
+    "name": "video",
+    "text": "",
+    "video": {
+      "id": 253154,
+      "thumbnail": "https://cdn.stepik.net/video/253154/thumbnail/1f70248f6307c59da1fd22d034730e24.jpg",
+      "urls": [
+        {
+          "quality": "720",
+          "url": "https://cdn.stepik.net/video/253154/720/ebf324a2b4e24b67467d5460d0924afb.mp4"
+        },
+        {
+          "quality": "540",
+          "url": "https://cdn.stepik.net/video/253154/540/5a01a4711e9e01fc0d5993848129a6e6.mp4"
+        },
+        {
+          "quality": "360",
+          "url": "https://cdn.stepik.net/video/253154/360/3e9cafe957ad4101377783f703bff6f0.mp4"
+        },
+        {
+          "quality": "240",
+          "url": "https://cdn.stepik.net/video/253154/240/27bf1b1495e81352200410021ee53d07.mp4"
+        }
+      ],
+      "duration": 487,
+      "status": "ready",
+      "upload_date": "2022-08-18T18:23:08Z",
+      "filename": "Создание статической и динамической библиотек Visual Studio C++ (online-video-cutter.com).mp4"
+    },
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3215065",
+  "subscriptions": [
+    "31-77-3215065",
+    "30-77-3215065"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 751,
+  "passed_by": 751,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3194157,
+  "create_date": "2022-08-18T18:23:14Z",
+  "update_date": "2022-08-18T18:23:30Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3215065-1",
+  "discussion_threads": [
+    "77-3215065-1"
+  ]
+}

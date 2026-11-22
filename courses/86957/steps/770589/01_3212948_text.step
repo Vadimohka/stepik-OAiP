@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Класс std::string</h3>\n\n<p>Класс string предназначен для работы со строками типа <code>char*</code>, которые представляют собой строку с завершающим нулем. Класс string был введен как альтернативный вариант для работы со строками типа <code>char*</code>. Строки, которые завершаются символом <strong>‘\\0’</strong> еще называются <strong>C-строками</strong>. Поскольку, string есть класс, то можно объявлять объекты этого класса.</p>\n\n<p>Чтобы использовать возможности класса string в MS Visual Studio (C++), нужно подключить библиотеку <code>&lt;string&gt;</code> и пространство имен std.</p>\n\n<p>Объявление переменной типа <code>string</code> осуществляется точно так же как и обычной переменной. Возможный вариант объявления с одновременной инициализацией.</p>\n\n<pre><code class=\"language-cpp\">// тип string\nstring s1; // переменная с именем s1 типа string\nstring s2 = \"This is a string variable\"; // объявление с инициализацией\n// использование переменной типа string с оператором присваивания\ns1 = s2; // s1 = \"This is a string variable\"\ns2 = \"New text\";</code></pre>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3212948",
+  "time": "2026-11-22T18:35:40Z"
+}

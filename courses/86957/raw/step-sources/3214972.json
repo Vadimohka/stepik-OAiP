@@ -1,0 +1,67 @@
+{
+  "id": 3214972,
+  "lesson": 770591,
+  "position": 3,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<h3>Аргументы функции в С++</h3>\n\n<p>Рассмотрим, что происходит, когда вы передаёте аргумент в функцию. Допустим, есть вот такой код:</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n\nvoid sum(int a) {\n    a = a + 500;\n}\n\nint main() {\n    int a = 5;\n    sum(a);\n    std::cout &lt;&lt; a &lt;&lt; \"\\n\";\n    return 0;\n}</code></pre>\n\n<p>Можно подумать, что в результате программы мы увидим число 505, но это неверно. Дело в том, что функции в качестве аргументов принимают не сами переменные, а их значения. То есть в <em>sum ()</em> попала не ячейка памяти, а число 5, которое находилось в этой ячейке. Учитывайте это, когда пишете программы.</p>\n\n<p>Это касается только примитивных типов данных. Ссылочные типы ведут себя иначе.</p>\n\n<h3>Аргументы по умолчанию</h3>\n\n<p>Функция может принимать аргументы по умолчанию, то есть некоторые значения, которые функция использует, если при вызове для параметров явным образом не передается значение:</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n \nvoid multiply(int n, int m = 3) {\n    int result = n * m;\n    std::cout &lt;&lt; \"n * m = \" &lt;&lt; result &lt;&lt; std::endl;\n}\n\nint main() {\n    multiply(4, 5);\n    multiply(4);\n    return 0;\n}</code></pre>\n\n<p>Для установки значения по умолчанию параметру присваивается это значение <code>int m = 3</code>. И если для второго параметра не будет передано значение, то он будет использовать значение по умолчанию.</p>\n\n<p>При объявлении прототипа подобной функции он тоже может содержать значение по умолчанию для параметра. И в этом случае мы можем не определять в функции значение по умолчанию для параметра - оно будет браться из прототипа:</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n \nvoid multiply(int n, int m = 3);\n \nint main() {\n    multiply(4, 5);\n    multiply(4);\n    return 0;\n}\n \nvoid multiply(int n, int m) {\n    int result = n * m;\n    std::cout &lt;&lt; \"n * m = \" &lt;&lt; result &lt;&lt; std::endl;\n}</code></pre>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3214972",
+  "subscriptions": [
+    "31-77-3214972",
+    "30-77-3214972"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 674,
+  "passed_by": 674,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3194064,
+  "create_date": "2022-08-18T17:16:09Z",
+  "update_date": "2023-05-19T17:17:25Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3214972-1",
+  "discussion_threads": [
+    "77-3214972-1"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 0
+}

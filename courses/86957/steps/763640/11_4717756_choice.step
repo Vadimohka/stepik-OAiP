@@ -1,0 +1,48 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>Что является логическим оператором для логического и ?</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": false
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": false,
+      "is_always_correct": false,
+      "sample_size": 4,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "||",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "&&",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "&",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "&|",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "4717756",
+  "time": "2026-11-22T18:35:40Z"
+}

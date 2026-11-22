@@ -1,0 +1,286 @@
+{
+  "id": 3408968,
+  "lesson": 770588,
+  "position": 4,
+  "status": "ready",
+  "block": {
+    "name": "fill-blanks",
+    "text": "<p>Вводите только название функции, к примеру:</p>\n\n<p>Длину Си - строки можно получить с помощью: strlen</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "components": [
+        {
+          "type": "text",
+          "text": "Из строки можно получить int c помощью функции",
+          "options": []
+        },
+        {
+          "type": "input",
+          "text": "",
+          "options": [
+            {
+              "text": "atoi",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<br>Получить указатель первого вхождения любого символа из одной строки в другой",
+          "options": []
+        },
+        {
+          "type": "input",
+          "text": "",
+          "options": [
+            {
+              "text": "strprbk",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<br>Найти первое вхождение символа в строке",
+          "options": []
+        },
+        {
+          "type": "input",
+          "text": "",
+          "options": [
+            {
+              "text": "strchr",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<br>Проверить, что данный символ буква или число",
+          "options": []
+        },
+        {
+          "type": "input",
+          "text": "",
+          "options": [
+            {
+              "text": "isalnum",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<br>Сравнить две строки",
+          "options": []
+        },
+        {
+          "type": "input",
+          "text": "",
+          "options": [
+            {
+              "text": "strcmp",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<br>Объединить две строки",
+          "options": []
+        },
+        {
+          "type": "input",
+          "text": "",
+          "options": [
+            {
+              "text": "strcat",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<br>strlen(\"abacaba\") будет",
+          "options": []
+        },
+        {
+          "type": "select",
+          "text": "",
+          "options": [
+            {
+              "text": "6",
+              "is_correct": false
+            },
+            {
+              "text": "7",
+              "is_correct": true
+            },
+            {
+              "text": "8",
+              "is_correct": false
+            },
+            {
+              "text": "9",
+              "is_correct": false
+            },
+            {
+              "text": "ошибка",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<br>sizeof(\"aboba\") будет",
+          "options": []
+        },
+        {
+          "type": "select",
+          "text": "",
+          "options": [
+            {
+              "text": "1",
+              "is_correct": false
+            },
+            {
+              "text": "5",
+              "is_correct": false
+            },
+            {
+              "text": "6",
+              "is_correct": true
+            },
+            {
+              "text": "8",
+              "is_correct": false
+            },
+            {
+              "text": "ошибка",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<br>функция getchar возвращает тип",
+          "options": []
+        },
+        {
+          "type": "select",
+          "text": "",
+          "options": [
+            {
+              "text": "int",
+              "is_correct": true
+            },
+            {
+              "text": "char",
+              "is_correct": false
+            },
+            {
+              "text": "unsigned char",
+              "is_correct": false
+            },
+            {
+              "text": "unsigned int",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<br>char p[] = \"amoguss\";  \n<br>p = \"amogus\\0\";  \n<br>std::cout << sizeof(p) << '\\n';",
+          "options": []
+        },
+        {
+          "type": "select",
+          "text": "",
+          "options": [
+            {
+              "text": "6",
+              "is_correct": false
+            },
+            {
+              "text": "7",
+              "is_correct": false
+            },
+            {
+              "text": "8",
+              "is_correct": false
+            },
+            {
+              "text": "1",
+              "is_correct": false
+            },
+            {
+              "text": "ошибка",
+              "is_correct": true
+            }
+          ]
+        }
+      ],
+      "is_case_sensitive": true,
+      "is_detailed_feedback": true,
+      "is_partially_correct": false
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3408968",
+  "subscriptions": [
+    "31-77-3408968",
+    "30-77-3408968"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 702,
+  "passed_by": 463,
+  "correct_ratio": 0.2675086107921929,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3388060,
+  "create_date": "2022-11-01T20:22:24Z",
+  "update_date": "2023-11-18T12:20:23Z",
+  "discussions_count": 1,
+  "discussion_proxy": "77-3408968-1",
+  "discussion_threads": [
+    "77-3408968-1",
+    "77-3408968-2"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 1
+}

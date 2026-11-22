@@ -1,0 +1,83 @@
+{
+  "id": 4672519,
+  "lesson": 770585,
+  "position": 12,
+  "status": "ready",
+  "block": {
+    "name": "code",
+    "text": "<p>Даны два массива действительных (входящих в размер базового типа С++) чисел размерами m и n соответственно, где m и n находятся в промежутке <strong>[</strong> 2 <strong>;</strong> 10^5 <strong>]</strong>.</p>\n\n<p>Назовём <em>характеристикой</em> массива действительных чисел X следующую величину:<br>\n \\(\\sum\\limits_{i=0}^{n-2}{(X[i]-X[i+1])}\\)</p>\n\n<p>Определите, характеристика какого из двух массивов больше.</p>\n\n<p><strong>Формат входныx данныx:</strong> m, n - количество элементов в первом и втором массиве соответственно. В следующих двух строках даны по m и n действительных чисел.</p>\n\n<p><strong>Формат выходных данных</strong>: Выведите одно целое число. Если характеристика первого массива больше либо равна характеристики второго выведите 1, иначе выведите 2.</p>",
+    "video": null,
+    "options": {
+      "execution_time_limit": 1,
+      "execution_memory_limit": 32,
+      "limits": {
+        "c++": {
+          "time": 1,
+          "memory": 32
+        }
+      },
+      "code_templates": {
+        "c++": "#include <iostream>\n\nint main() {\n    // put your code here\n    return 0;\n}"
+      },
+      "code_templates_header_lines_count": {
+        "c++": 0
+      },
+      "code_templates_footer_lines_count": {
+        "c++": 0
+      },
+      "code_templates_options": {},
+      "samples": [
+        [
+          "2 2\n10 2\n7 1",
+          "1"
+        ]
+      ],
+      "is_run_user_code_allowed": false
+    },
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-4672519",
+  "subscriptions": [
+    "31-77-4672519",
+    "30-77-4672519"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 611,
+  "passed_by": 270,
+  "correct_ratio": 0.11944557684467999,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 4651616,
+  "create_date": "2023-11-02T18:50:34Z",
+  "update_date": "2023-11-02T20:26:01Z",
+  "discussions_count": 8,
+  "discussion_proxy": "77-4672519-1",
+  "discussion_threads": [
+    "77-4672519-1",
+    "77-4672519-2"
+  ]
+}

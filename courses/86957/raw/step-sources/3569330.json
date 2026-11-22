@@ -1,0 +1,67 @@
+{
+  "id": 3569330,
+  "lesson": 853540,
+  "position": 1,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<h3><strong>АВЛ-дерево</strong></h3>\n\n<p>Наиболее простое, но наглядное сбалансированное дерево поиска – это АВЛ-дерево.</p>\n\n<p><strong>АВЛ-дерево</strong> – это сбалансированное дерево поиска, в котором для каждой вершины разность высот её двух поддеревьев не превышает 1.</p>\n\n<p>Когда разность высот становится равной 2, происходит перебалансировка путем вращений дочерних узлов, чтобы разница высот не превышала 1.</p>\n\n<p>В АВЛ-дереве используются 4 типа вращений, которые позволяют сохранять свойства дерева при изменении его структуры.</p>\n\n<p>1.<strong>Малое левое вращение</strong> <a href=\"https://ru.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:AVL_LR.GIF\" rel=\"noopener noreferrer nofollow\"> </a> Данное вращение используется тогда, когда разница высот a-поддерева и b-поддерева равна 2 и высота С &lt;= высота R.</p>\n\n<p><img alt=\"\" height=\"182\" name=\"Frame 38.png\" src=\"https://ucarecdn.stepik.net/002639dc-ebd5-400f-b3a5-98e55ce44722/-/crop/11139x4011/0,312/-/preview/\" width=\"505\"></p>\n\n<p>2.<strong>Большое левое вращение</strong> <a href=\"https://ru.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:AVL_BR.GIF\" rel=\"noopener noreferrer nofollow\"> </a> Данное вращение используется тогда, когда разница высот a-поддерева и b-поддерева равна 2 и высота c-поддерева &gt; высота R.</p>\n\n<p><img alt=\"\" height=\"211\" name=\"Frame 39.png\" src=\"https://ucarecdn.stepik.net/eb035d28-a18d-4266-bdd4-efdf05dde59e/-/crop/5669x1909/0,838/-/preview/\" width=\"627\"></p>\n\n<p>3.<strong>Малое правое вращение</strong> <a href=\"https://ru.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:AVL_LL.GIF\" rel=\"noopener noreferrer nofollow\"> </a> Данное вращение используется тогда, когда разница высот a-поддерева и b-поддерева равна 2 и высота С &lt;= высота L.</p>\n\n<p><img alt=\"\" height=\"206\" name=\"Frame 40.png\" src=\"https://ucarecdn.stepik.net/32ab76c6-3929-4745-8fa1-9197a338a048/-/crop/11139x4209/0,1295/-/preview/\" width=\"545\"></p>\n\n<p>4.<strong>Большое правое вращение</strong> <a href=\"https://ru.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:AVL_BL.GIF\" rel=\"noopener noreferrer nofollow\"> </a> Данное вращение используется тогда, когда разница высот a-поддерева и b-поддерева равна 2 и высота c-поддерева &gt; высота L.</p>\n\n<p><img alt=\"\" height=\"245\" name=\"Frame 41.png\" src=\"https://ucarecdn.stepik.net/b5822f44-c2fe-488a-a955-068687786f23/-/crop/5669x2091/0,593/-/preview/\" width=\"664\"></p>\n\n<p>Каждое из четырёх вращений, используемых в АВЛ-дереве, может быть применено только если разница высот поддеревьев не превышает 2, и после применения вращения разница высот поддеревьев не превышает 1. Это означает, что каждое вращение приводит к нужному результату.</p>\n\n<p>Для доказательства, что полная высота дерева не может увеличиться, заметим, что при применении вращения высота одного поддерева уменьшается, а высота другого либо не меняется, либо увеличивается на 1. Таким образом, полная высота дерева может уменьшиться на 1, но не может увеличиться.</p>\n\n<p>Большое вращение представляет собой комбинацию правого и левого малого вращений, поэтому также не увеличивает полную высоту дерева.</p>\n\n<p>Благодаря свойству балансированности высот, время добавления элемента в АВЛ-дерево составляет O(log(N)), где N - количество вершин в дереве.</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3569330",
+  "subscriptions": [
+    "31-77-3569330",
+    "30-77-3569330"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 850,
+  "passed_by": 850,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3548422,
+  "create_date": "2022-12-16T14:17:44Z",
+  "update_date": "2023-05-15T21:17:37Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3569330-1",
+  "discussion_threads": [
+    "77-3569330-1"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 0
+}

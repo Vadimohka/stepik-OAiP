@@ -1,0 +1,83 @@
+{
+  "id": 3280697,
+  "lesson": 763640,
+  "position": 4,
+  "status": "ready",
+  "block": {
+    "name": "code",
+    "text": "<p>Меньшее из двух значений переменных целого типа Х и Y заменить нулём, а в случае их равенства - заменить нулями оба; наибольшее из трёх различных значений переменных вещественного типа А, В и С уменьшите на K. K вводится с клавиатуры.</p>\n\n<p>Входные данные не более чем размер long long int в языке С++.</p>\n\n<p>Выведите X, Y, A, B, C.</p>",
+    "video": null,
+    "options": {
+      "execution_time_limit": 5,
+      "execution_memory_limit": 256,
+      "limits": {
+        "c++": {
+          "time": 5,
+          "memory": 256
+        }
+      },
+      "code_templates": {
+        "c++": ""
+      },
+      "code_templates_header_lines_count": {
+        "c++": 0
+      },
+      "code_templates_footer_lines_count": {
+        "c++": 0
+      },
+      "code_templates_options": {},
+      "samples": [
+        [
+          "0 0\n1 2 3 4",
+          "0 0\n1 2 -1"
+        ]
+      ],
+      "is_run_user_code_allowed": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3280697",
+  "subscriptions": [
+    "31-77-3280697",
+    "30-77-3280697"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 834,
+  "passed_by": 563,
+  "correct_ratio": 0.13706644379440033,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    1,
+    0,
+    1,
+    0,
+    2
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3259789,
+  "create_date": "2022-09-11T12:37:48Z",
+  "update_date": "2024-01-02T10:21:09Z",
+  "discussions_count": 4,
+  "discussion_proxy": "77-3280697-1",
+  "discussion_threads": [
+    "77-3280697-1",
+    "77-3280697-2"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": 3440026,
+  "lesson": 770597,
+  "position": 6,
+  "status": "ready",
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите верные утверждения.</p>\n\n<div style=\"height: 70.4px; width: 573.675px;\"> </div>\n\n<div class=\"gtx-bubble jfk-bubble\" style=\"\">\n<div class=\"jfk-bubble-content-id\">\n<div style=\"\"> </div>\n</div>\n\n<div class=\"jfk-bubble-closebtn jfk-bubble-closebtn-id\"> </div>\n\n<div class=\"jfk-bubble-arrow jfk-bubble-arrow-id jfk-bubble-arrowup\" style=\"\">\n<div class=\"jfk-bubble-arrowimplbefore\"> </div>\n\n<div class=\"jfk-bubble-arrowimplafter\"> </div>\n</div>\n</div>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3440026",
+  "subscriptions": [
+    "31-77-3440026",
+    "30-77-3440026"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 525,
+  "passed_by": 353,
+  "correct_ratio": 0.1305473372781065,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3419118,
+  "create_date": "2022-11-10T15:53:38Z",
+  "update_date": "2022-11-10T16:09:50Z",
+  "discussions_count": 1,
+  "discussion_proxy": "77-3440026-1",
+  "discussion_threads": [
+    "77-3440026-1",
+    "77-3440026-2"
+  ]
+}

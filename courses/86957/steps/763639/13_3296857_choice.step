@@ -1,0 +1,53 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите правильные утвреждения</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 5,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "double(3/2) - результат будет иметь тип double и значение 1.5",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "(double)(int)(double)3/2 - результат будет иметь тип double и значение 1",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "(char)256L - эквивалетно false",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "(сhar)0b11111111 равно -1",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "double a = 1L - опасное выражение",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3296857",
+  "time": "2026-11-22T18:35:40Z"
+}

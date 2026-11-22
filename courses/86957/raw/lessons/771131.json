@@ -1,0 +1,70 @@
+{
+  "id": 771131,
+  "steps": [
+    3215113,
+    3215200,
+    3215199,
+    3580923,
+    3423807,
+    3437886
+  ],
+  "actions": {
+    "learn_lesson": "#",
+    "assist_lesson": "#",
+    "view_all_submissions": "#",
+    "edit_lesson": "#",
+    "view_statistics": "#",
+    "attachments": "/lesson/771131/attachments/",
+    "clone_lesson": "/lesson/771131/clone/",
+    "admin_lesson": "#",
+    "edit_permissions": "/lesson/771131/permissions/",
+    "delete_lesson": "#"
+  },
+  "progress": "76-771131",
+  "subscriptions": [
+    "31-76-771131",
+    "30-76-771131"
+  ],
+  "viewed_by": 789,
+  "passed_by": 340,
+  "time_to_complete": 407,
+  "cover_url": null,
+  "is_comments_enabled": true,
+  "is_exam_without_progress": false,
+  "is_blank": false,
+  "is_draft": false,
+  "is_orphaned": false,
+  "courses": [
+    86957
+  ],
+  "units": [
+    773576
+  ],
+  "owner": 296085237,
+  "language": "ru",
+  "is_featured": false,
+  "is_public": true,
+  "canonical_url": "https://stepik.org/lesson/771131/",
+  "title": "Потоки для работы с файлами",
+  "slug": "Потоки-для-работы-с-файлами-771131",
+  "create_date": "2022-08-18T18:57:07Z",
+  "update_date": "2024-01-02T18:42:55Z",
+  "learners_group": 5120299,
+  "testers_group": 5120300,
+  "moderators_group": 5120301,
+  "assistants_group": 5120302,
+  "teachers_group": 5120297,
+  "admins_group": 5120298,
+  "discussions_count": 2,
+  "discussion_proxy": "76-771131-1",
+  "discussion_threads": [
+    "76-771131-1"
+  ],
+  "epic_count": 6,
+  "abuse_count": 5,
+  "vote_delta": 1,
+  "vote": null,
+  "lti_consumer_key": "",
+  "lti_secret_key": "",
+  "lti_private_profile": false
+}

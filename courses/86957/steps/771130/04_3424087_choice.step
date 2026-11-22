@@ -1,0 +1,78 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите верные утверждения.</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 10,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": true,
+          "text": "Понятие адреса в файле - порядковый номер байт, начиная с 0",
+          "feedback": "Адрес в файле - это? "
+        },
+        {
+          "is_correct": true,
+          "text": "FNULL - недействительное значение файлового указателя (-1L)",
+          "feedback": "FNULL, повторить"
+        },
+        {
+          "is_correct": false,
+          "text": "FNULL - недействительное значение файлового указателя (-1UL)",
+          "feedback": "FNULL, повторить"
+        },
+        {
+          "is_correct": false,
+          "text": "fseek возвращает true, если успех",
+          "feedback": "посмотрите, что возвращает fseek"
+        },
+        {
+          "is_correct": true,
+          "text": "fseek возвращает 0, если успех",
+          "feedback": "посмотрите, что возвращает fseek"
+        },
+        {
+          "is_correct": false,
+          "text": "SEEK_END - начало отсчета - конец файла. Адреса имеют положительные значения.",
+          "feedback": "посмотрите внимательнее на параметр mode в  fseek(FILE *fp, long pos, int mode)"
+        },
+        {
+          "is_correct": true,
+          "text": "SEEK_END - начало отсчета - конец файла. Адреса имеют отрицательные значения.",
+          "feedback": "посмотрите внимательнее на параметр mode в  fseek(FILE *fp, long pos, int mode)"
+        },
+        {
+          "is_correct": true,
+          "text": "Ошибка формата файла может возникнуть в следствии аварийного завершения программы.  ",
+          "feedback": "Что будет, если прервать длительный процесс и оставить промежуточное состояние."
+        },
+        {
+          "is_correct": true,
+          "text": "Создание частичного образа структуры данных предполагает сеансовый режим работы.",
+          "feedback": "Перечитайте шаг 2, изменение данных в файле"
+        },
+        {
+          "is_correct": false,
+          "text": "Файловую систему нельзя рассматривать как большой бинарный файл.",
+          "feedback": "Перечитайте шаг 1."
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3424087",
+  "time": "2026-11-22T18:35:40Z"
+}

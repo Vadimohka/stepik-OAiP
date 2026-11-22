@@ -1,0 +1,54 @@
+{
+  "id": 3669173,
+  "lesson": 877083,
+  "position": 5,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<h2>Структуры и классы</h2>\n\n<p>Все примеры, рассмотренные нами до сих пор, подтверждали негласный принцип: структуры предназначены для объединения данных, а классы — для объединения данных и функций. На самом деле, в большинстве ситуаций можно использовать структуры так же, как и классы. Формально разница между структурами и классами заключается лишь в том, что по умолчанию все члены класса являются скрытыми, а все члены структуры — открытыми. Формат, который мы использовали при определении классов, выглядит примерно так:</p>\n\n<pre><code class=\"language-cpp\">class foo {\nprivate:\n    int data1;\npublic:\n    void func();\n};</code></pre>\n\n<p>Поскольку ключевое слово private для членов классов подразумевается по умолчанию, указывать его явно не обязательно. Можно определять класс более компактным способом:</p>\n\n<pre><code class=\"language-cpp\">class foo {\n    int data1;\npublic:\n    void func();\n}; </code></pre>\n\n<p>В этом случае поле data1 сохранит свою закрытость. Многие программисты предпочитают второй стиль из-за его краткости. Мы же придерживаемся первого стиля, поскольку он более понятен. Если вы хотите при помощи структуры выполнять те же действия, что и с использованием класса, вы можете отменить действие принятого по умолчанию ключевого слова public словом private и расположить открытые поля структуры до слова private, а закрытые поля — после слова private:</p>\n\n<pre><code class=\"language-cpp\">struct foo {\n    void func();\nprivate:\n    int data1;\n}; </code></pre>\n\n<p>Тем не менее, чаще всего программисты не используют структуры таким образом, а придерживаются правила, о котором шла речь в начале: структуры предназначены для объединения данных, а классы — для объединения данных и функций.</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3669173",
+  "subscriptions": [
+    "31-77-3669173",
+    "30-77-3669173"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 400,
+  "passed_by": 400,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3648265,
+  "create_date": "2023-01-15T23:01:04Z",
+  "update_date": "2023-04-30T18:11:25Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3669173-1",
+  "discussion_threads": [
+    "77-3669173-1"
+  ]
+}

@@ -1,0 +1,498 @@
+{
+  "id": 3272881,
+  "lesson": 776128,
+  "position": 7,
+  "status": "ready",
+  "block": {
+    "name": "table",
+    "text": "<p>Вам необходимо для каждого действия (ряда) указать шаг (колонку), на котором действие было выполнено. </p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "rows": [
+        {
+          "name": "Включение кэшей",
+          "columns": [
+            {
+              "choice": true
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            }
+          ]
+        },
+        {
+          "name": "Инициализация других строительных лесов (Scaffolding), требуемых системой",
+          "columns": [
+            {
+              "choice": true
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            }
+          ]
+        },
+        {
+          "name": "Инициализация среды выполнения с/с++",
+          "columns": [
+            {
+              "choice": true
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            }
+          ]
+        },
+        {
+          "name": "Инициализация стека, убедившись, что стек правильно выровнен в соответствии с требованиями двоичного интерфейса приложений",
+          "columns": [
+            {
+              "choice": true
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            }
+          ]
+        },
+        {
+          "name": "Вызов функций, зарегистрированных в atexit и __cxa_atexit",
+          "columns": [
+            {
+              "choice": false
+            },
+            {
+              "choice": true
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            }
+          ]
+        },
+        {
+          "name": "Завершает работу программы с возвращаемым значением, предоставленным main",
+          "columns": [
+            {
+              "choice": false
+            },
+            {
+              "choice": true
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            }
+          ]
+        },
+        {
+          "name": "Вызывает exit",
+          "columns": [
+            {
+              "choice": true
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            }
+          ]
+        },
+        {
+          "name": "Вызывает глобальные деструкторы (те, Вызывает глобальные деструкторы (зарегистрированы в .fini, .fini_array или .dtors)",
+          "columns": [
+            {
+              "choice": false
+            },
+            {
+              "choice": true
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            }
+          ]
+        },
+        {
+          "name": "Развёртывание файловой структуры проекта",
+          "columns": [
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": true
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            }
+          ]
+        },
+        {
+          "name": "Поддержка многопоточности и локальное хранилище потоков",
+          "columns": [
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": true
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            }
+          ]
+        },
+        {
+          "name": "Ведение журнала стека",
+          "columns": [
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": true
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            }
+          ]
+        },
+        {
+          "name": "Обнаружение переполнения буфера",
+          "columns": [
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": true
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            }
+          ]
+        },
+        {
+          "name": "Проверка ошибок во время выполнения",
+          "columns": [
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": true
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            }
+          ]
+        },
+        {
+          "name": "Проверить разрешения",
+          "columns": [
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": true
+            },
+            {
+              "choice": false
+            }
+          ]
+        },
+        {
+          "name": "Выделить место для стека/кучи программы",
+          "columns": [
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": true
+            },
+            {
+              "choice": false
+            }
+          ]
+        },
+        {
+          "name": "Сопоставление виртуальных адресных пространств",
+          "columns": [
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": true
+            },
+            {
+              "choice": false
+            }
+          ]
+        },
+        {
+          "name": "Динамическое связывание",
+          "columns": [
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": true
+            },
+            {
+              "choice": false
+            }
+          ]
+        },
+        {
+          "name": "Инициализировать stdio (т.е. stdin, stdout, stderr)",
+          "columns": [
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": true
+            }
+          ]
+        },
+        {
+          "name": "Зарегистрировать деструкторы и другие функции очистки (atexit и __cxa_atexit)",
+          "columns": [
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": true
+            }
+          ]
+        },
+        {
+          "name": "Поддержка инициализации исключений (при использовании C++)",
+          "columns": [
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": false
+            },
+            {
+              "choice": true
+            }
+          ]
+        }
+      ],
+      "options": {
+        "is_checkbox": false,
+        "is_randomize_rows": true,
+        "is_randomize_columns": false,
+        "sample_size": -1
+      },
+      "columns": [
+        {
+          "name": "_start"
+        },
+        {
+          "name": "exit"
+        },
+        {
+          "name": "scaffolding"
+        },
+        {
+          "name": "загрузчик (функция exec)"
+        },
+        {
+          "name": "среда выполнения"
+        }
+      ],
+      "description": "Ряды: ",
+      "is_always_correct": false
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3272881",
+  "subscriptions": [
+    "31-77-3272881",
+    "30-77-3272881"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 1107,
+  "passed_by": 523,
+  "correct_ratio": 0.39430284857571213,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    2,
+    0,
+    0,
+    0,
+    1
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3251973,
+  "create_date": "2022-09-08T10:55:50Z",
+  "update_date": "2022-09-08T10:55:50Z",
+  "discussions_count": 3,
+  "discussion_proxy": "77-3272881-1",
+  "discussion_threads": [
+    "77-3272881-1",
+    "77-3272881-2"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 1
+}

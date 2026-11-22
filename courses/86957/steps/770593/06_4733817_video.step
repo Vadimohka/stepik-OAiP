@@ -1,0 +1,42 @@
+{
+  "block": {
+    "name": "video",
+    "text": "",
+    "video": {
+      "id": 349164,
+      "thumbnail": "https://cdn.stepik.net/video/349164/thumbnail/dc545f85f8564a96133028ef26f260ef.jpg",
+      "urls": [
+        {
+          "quality": "720",
+          "url": "https://cdn.stepik.net/video/349164/720/2f9dcac8cd97cd1109bddb399ed830d0.mp4"
+        },
+        {
+          "quality": "540",
+          "url": "https://cdn.stepik.net/video/349164/540/ccec9a9d3ee5a5d63e08b7a8dc74ef28.mp4"
+        },
+        {
+          "quality": "360",
+          "url": "https://cdn.stepik.net/video/349164/360/0d3ffc4a815f9e69d6be7050c6a0ddf2.mp4"
+        },
+        {
+          "quality": "240",
+          "url": "https://cdn.stepik.net/video/349164/240/f09af5e597d6c991c7fa98ad7571cfa5.mp4"
+        }
+      ],
+      "duration": 323,
+      "status": "ready",
+      "upload_date": "2023-11-16T15:41:49Z",
+      "filename": "https://www.youtube.com/watch?v=5w3bskXN6Ug"
+    },
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "4733817",
+  "time": "2026-11-22T18:35:40Z"
+}

@@ -1,0 +1,48 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>Какова обязательная директива препроцессора для C ++?</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": false
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": false,
+      "is_always_correct": false,
+      "sample_size": 4,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "#undef",
+          "feedback": "Не существует"
+        },
+        {
+          "is_correct": false,
+          "text": "#include",
+          "feedback": "int main() { return 0; } - пример программы которая запустится без директив"
+        },
+        {
+          "is_correct": false,
+          "text": "#define",
+          "feedback": "Взгляните на примеры кода до этого, там не было этой директивы"
+        },
+        {
+          "is_correct": true,
+          "text": "Ничего из перечисленного",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "4718334",
+  "time": "2026-11-22T18:35:40Z"
+}

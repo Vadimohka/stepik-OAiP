@@ -1,0 +1,88 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите ответы с правильным переводом числа 71356825739579 в десятичной системе счисления в другую.</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 12,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": true,
+          "text": "10000001110011000001110010000000010000100111011 (2)",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "20811294952556 (11)",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "20811294952556 (13)",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "411432512340000135 (6)",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "3IMN4QHMPT (30)",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "13062F51C2B (24)",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "20SO74089R (32)",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "20SO73VUHB (32)",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "40E60E3FFA2B (16)",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "33323102234341321304 (5)",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "310578385541324 (9)",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "20811294945AA7 (11)",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3261481",
+  "time": "2026-11-22T18:35:40Z"
+}

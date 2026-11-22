@@ -1,0 +1,54 @@
+{
+  "id": 3215244,
+  "lesson": 770597,
+  "position": 3,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<h3>Указатели и union</h3>\n\n<p>Работа объединений с указателями точно такая же, как и работа структур с указателями.</p>\n\n<p>В нижеследующем примере объявляется неуправляемый указатель на объединение типа Ints:</p>\n\n<pre><code class=\"language-cpp\">// указатель на объединение\nInts *p;\n\n// выделить память для объединения\np = new Ints;\n\n// доступ к полям с помощью указателя\npI-&gt;a = 200;\npI-&gt;b = 3400;</code></pre>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3215244",
+  "subscriptions": [
+    "31-77-3215244",
+    "30-77-3215244"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 590,
+  "passed_by": 590,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3194336,
+  "create_date": "2022-08-18T21:26:42Z",
+  "update_date": "2022-08-18T21:26:42Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3215244-1",
+  "discussion_threads": [
+    "77-3215244-1"
+  ]
+}

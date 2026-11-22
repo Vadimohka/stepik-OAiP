@@ -1,0 +1,131 @@
+{
+  "id": 3404829,
+  "lesson": 770591,
+  "position": 8,
+  "status": "ready",
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите верные утверждения. </p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 10,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": true,
+          "text": "Локальная переменная видна во вложенных блоках",
+          "feedback": "Сверху вниз видать нормально. Почитайте про область видимости"
+        },
+        {
+          "is_correct": true,
+          "text": "Использовать глобальные переменные стоит только для констант",
+          "feedback": "Глобальные переменные зло, не правда ли?"
+        },
+        {
+          "is_correct": false,
+          "text": "Значения по умолчанию могут указываться только в определении",
+          "feedback": "Про объявления функций стоит почитать"
+        },
+        {
+          "is_correct": false,
+          "text": "void f(int a);  вызов f(b) может изменить значение переменной b",
+          "feedback": "Передача по значению и по ссылке, перечитайте"
+        },
+        {
+          "is_correct": false,
+          "text": "возвращать ссылку на локальный объект функции - это нормальная практика",
+          "feedback": "Область видимости объекта - это важно, не забывайте о ней"
+        },
+        {
+          "is_correct": true,
+          "text": "void f(int arr[]) {std::cout << sizeof(arr);}  вызов f(m) выведет 8 (размер указателя)",
+          "feedback": "Повторите, как передаются массивы в функцию"
+        },
+        {
+          "is_correct": false,
+          "text": "void f(int arr[]) {std::cout << sizeof(arr);}  вызов f(m) выведет количество элементов массива",
+          "feedback": "Повторите, как передаются массивы в функцию"
+        },
+        {
+          "is_correct": true,
+          "text": "std::end(m) - вернёт адрес за последним элементом массива m",
+          "feedback": "Посмотрите, что возвращает std::end"
+        },
+        {
+          "is_correct": false,
+          "text": "void f(const int& a);  вызов f(b) может изменить значение переменной b",
+          "feedback": "Не забывайте про const"
+        },
+        {
+          "is_correct": true,
+          "text": "void f(int a); вызов f(d) допустим (const int d). ",
+          "feedback": "Если в функцию передают аргумент по значению, важна ли константность аргумента?"
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3404829",
+  "subscriptions": [
+    "31-77-3404829",
+    "30-77-3404829"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 656,
+  "passed_by": 494,
+  "correct_ratio": 0.35273243435060325,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3383921,
+  "create_date": "2022-10-31T18:51:32Z",
+  "update_date": "2022-10-31T18:51:33Z",
+  "discussions_count": 1,
+  "discussion_proxy": "77-3404829-1",
+  "discussion_threads": [
+    "77-3404829-1",
+    "77-3404829-2"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 1
+}

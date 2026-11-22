@@ -1,0 +1,54 @@
+{
+  "id": 3173783,
+  "lesson": 763041,
+  "position": 2,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<h3><strong>Основные элементы блок–схемы алгоритма:</strong></h3>\n\n<p><strong><img alt=\"\" height=\"1180\" name=\"image.png\" src=\"https://ucarecdn.stepik.net/5a3fde30-02c3-4e2a-a80b-6e01aa5fdc7e/\" width=\"844\"><img alt=\"\" height=\"321\" name=\"image.png\" src=\"https://ucarecdn.stepik.net/4507e6d0-a175-4518-bd64-d735c0aa2623/\" width=\"666\"></strong></p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3173783",
+  "subscriptions": [
+    "31-77-3173783",
+    "30-77-3173783"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 2384,
+  "passed_by": 2384,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    2
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3152875,
+  "create_date": "2022-07-31T18:52:48Z",
+  "update_date": "2022-08-18T18:30:13Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3173783-1",
+  "discussion_threads": [
+    "77-3173783-1"
+  ]
+}

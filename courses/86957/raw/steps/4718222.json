@@ -1,0 +1,59 @@
+{
+  "id": 4718222,
+  "lesson": 853534,
+  "position": 3,
+  "status": "ready",
+  "block": {
+    "name": "choice",
+    "text": "<p>Что вернет оператор разыменования?</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": false
+    },
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-4718222",
+  "subscriptions": [
+    "31-77-4718222",
+    "30-77-4718222"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 277,
+  "passed_by": 233,
+  "correct_ratio": 0.5796019900497512,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 4697319,
+  "create_date": "2023-11-13T19:06:04Z",
+  "update_date": "2023-11-13T19:06:04Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-4718222-1",
+  "discussion_threads": [
+    "77-4718222-1",
+    "77-4718222-2"
+  ]
+}

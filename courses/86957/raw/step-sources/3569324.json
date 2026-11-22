@@ -1,0 +1,67 @@
+{
+  "id": 3569324,
+  "lesson": 853535,
+  "position": 1,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<p><strong>Конструктор копирования</strong></p>\n\n<p><strong>Конструктор копирования</strong> в C++ используется для создания копии объекта класса при инициализации. <strong>Оператор присваивания копированием</strong> (или <em><strong>«копирующее присваивание»</strong></em>) используется для копирования одного объекта класса в другой существующий объект. По умолчанию компилятор автоматически предоставляет конструктор копирования и оператор присваивания копированием, если они не определены пользователем. Однако, эти автоматически сгенерированные функции выполняют только поверхностное копирование, что может приводить к проблемам у классов, работающих с динамической памятью. Для решения этих проблем необходимо переопределить конструктор копирования и оператор присваивания копированием, чтобы они выполняли <strong>глубокое копирование данных</strong>.</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3569324",
+  "subscriptions": [
+    "31-77-3569324",
+    "30-77-3569324"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 489,
+  "passed_by": 489,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3548416,
+  "create_date": "2022-12-16T14:17:26Z",
+  "update_date": "2023-05-07T09:34:24Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3569324-1",
+  "discussion_threads": [
+    "77-3569324-1"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 0
+}

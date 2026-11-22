@@ -1,0 +1,75 @@
+{
+  "id": 770596,
+  "steps": [
+    3212955,
+    3215231,
+    3215234,
+    3215232,
+    3215233,
+    3215235,
+    3215236,
+    3216509,
+    3425979,
+    3426003,
+    3438077
+  ],
+  "actions": {
+    "learn_lesson": "#",
+    "assist_lesson": "#",
+    "view_all_submissions": "#",
+    "edit_lesson": "#",
+    "view_statistics": "#",
+    "attachments": "/lesson/770596/attachments/",
+    "clone_lesson": "/lesson/770596/clone/",
+    "admin_lesson": "#",
+    "edit_permissions": "/lesson/770596/permissions/",
+    "delete_lesson": "#"
+  },
+  "progress": "76-770596",
+  "subscriptions": [
+    "31-76-770596",
+    "30-76-770596"
+  ],
+  "viewed_by": 886,
+  "passed_by": 368,
+  "time_to_complete": 589,
+  "cover_url": "https://ucarecdn.stepik.net/b5deb6f0-f770-4676-9b0c-4edd036ab468/-/scale_crop/180x180/center/",
+  "is_comments_enabled": true,
+  "is_exam_without_progress": false,
+  "is_blank": false,
+  "is_draft": false,
+  "is_orphaned": false,
+  "courses": [
+    86957
+  ],
+  "units": [
+    773037
+  ],
+  "owner": 296085237,
+  "language": "ru",
+  "is_featured": false,
+  "is_public": true,
+  "canonical_url": "https://stepik.org/lesson/770596/",
+  "title": "Тип данных struct",
+  "slug": "Тип-данных-struct-770596",
+  "create_date": "2022-08-17T16:25:46Z",
+  "update_date": "2024-11-04T06:38:19Z",
+  "learners_group": 5116763,
+  "testers_group": 5116764,
+  "moderators_group": 5116765,
+  "assistants_group": 5116766,
+  "teachers_group": 5116761,
+  "admins_group": 5116762,
+  "discussions_count": 4,
+  "discussion_proxy": "76-770596-1",
+  "discussion_threads": [
+    "76-770596-1"
+  ],
+  "epic_count": 4,
+  "abuse_count": 7,
+  "vote_delta": -3,
+  "vote": null,
+  "lti_consumer_key": "",
+  "lti_secret_key": "",
+  "lti_private_profile": false
+}

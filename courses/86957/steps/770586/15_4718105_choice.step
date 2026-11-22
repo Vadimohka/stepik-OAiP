@@ -1,0 +1,48 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>Что нужно сделать, чтобы сэкономить память, когда используются операции с кучей?</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": false
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": false,
+      "is_always_correct": false,
+      "sample_size": 4,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "Переименовать объекты",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Удалить объекты после обработки",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Все перечисленное",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Ничего из перечисленного",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "4718105",
+  "time": "2026-11-22T18:35:40Z"
+}

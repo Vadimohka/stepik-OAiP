@@ -1,0 +1,53 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>int arr[]{ 1, 2, 3, 4, 5, 6 };<br>\nint a = 3[arr - 1] - arr[3] + (arr - 1)[5];<br>\nstd::cout &lt;&lt; \"a: \" &lt;&lt; a &lt;&lt; std::endl;</p>\n\n<p>Что выведет данная программа?</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": false
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": false,
+      "is_always_correct": false,
+      "sample_size": 5,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "Ничего, произойдёт ошибка времени компиляции",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "a: 6",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "a: 5",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "a: 4",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Ничего, произойдёт ошибка времени выполнения",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3428845",
+  "time": "2026-11-22T18:35:40Z"
+}

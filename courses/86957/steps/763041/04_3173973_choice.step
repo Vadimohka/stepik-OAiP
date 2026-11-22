@@ -1,0 +1,48 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>Назовите вид блок-схемы с картинки.</p>\n\n<p>Подсчёт факториала числа N:</p>\n\n<p><img alt=\"\" height=\"391\" name=\"image.png\" src=\"https://ucarecdn.stepik.net/98c7929e-401a-4d89-9ec3-e7f6069fff81/\" width=\"159\"></p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": false
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": false,
+      "is_always_correct": false,
+      "sample_size": 4,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "Рекурсивная",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Циклическая",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Линейная",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Разветвляющиеся",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3173973",
+  "time": "2026-11-22T18:35:40Z"
+}

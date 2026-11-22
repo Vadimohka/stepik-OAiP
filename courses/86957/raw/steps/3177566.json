@@ -1,0 +1,83 @@
+{
+  "id": 3177566,
+  "lesson": 763719,
+  "position": 3,
+  "status": "ready",
+  "block": {
+    "name": "code",
+    "text": "<p>Модифицируйте программу, чтобы результат выводился в обратном порядке.</p>\n\n<pre><code>#include &lt;iostream&gt;\n\nint main() {  \n    int i = 0;\n    std::cin &gt;&gt; i;\n    while(i &lt; 10) {\n        std::cout &lt;&lt; i &lt;&lt; \" * \" &lt;&lt; i &lt;&lt; \" = \" &lt;&lt; i * i &lt;&lt; std::endl;\n        i++;\n    }\n    return 0;\n}</code></pre>",
+    "video": null,
+    "options": {
+      "execution_time_limit": 5,
+      "execution_memory_limit": 256,
+      "limits": {
+        "c++": {
+          "time": 5,
+          "memory": 256
+        }
+      },
+      "code_templates": {
+        "c++": "#include <iostream>\n\nint main()\n{  \n    int i = 0;\n    std::cin>> i;\n    while(i < 10)\n    {\n        std::cout << i << \" * \" << i << \" = \" << i * i << std::endl;\n        i++;\n    }\n\n    return 0;\n}"
+      },
+      "code_templates_header_lines_count": {
+        "c++": 0
+      },
+      "code_templates_footer_lines_count": {
+        "c++": 0
+      },
+      "code_templates_options": {},
+      "samples": [
+        [
+          "10",
+          "9 * 9 = 81\n8 * 8 = 64\n7 * 7 = 49\n6 * 6 = 36\n5 * 5 = 25\n4 * 4 = 16\n3 * 3 = 9\n2 * 2 = 4\n1 * 1 = 1"
+        ]
+      ],
+      "is_run_user_code_allowed": false
+    },
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3177566",
+  "subscriptions": [
+    "31-77-3177566",
+    "30-77-3177566"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 938,
+  "passed_by": 665,
+  "correct_ratio": 0.23881624225739848,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3156658,
+  "create_date": "2022-08-01T18:24:04Z",
+  "update_date": "2023-04-20T19:30:14Z",
+  "discussions_count": 2,
+  "discussion_proxy": "77-3177566-1",
+  "discussion_threads": [
+    "77-3177566-1",
+    "77-3177566-2"
+  ]
+}

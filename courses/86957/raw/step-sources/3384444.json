@@ -1,0 +1,150 @@
+{
+  "id": 3384444,
+  "lesson": 763644,
+  "position": 1,
+  "status": "ready",
+  "block": {
+    "name": "code",
+    "text": "<p>Таблица заполняется по следующему алгоритму:</p>\n\n<p>В таблицу вносятся все натуральные числа по порядку. 1 становится в левую верхнюю ячейку, затем выбирается самая левая незаполненная ячейка в самой первой строке таблицы и заполняется. Затем, пока у последней заполненной ячейки сосед слева существует и заполнен, опускаемся вниз и заполняем очередную ячейку. Когда же не окажется соседа слева, то начинается заполнение клеток справа налево. После этого алгоритм заполнения повторятся. Необходимо вывести строку и столбец, в котором будет находится число, введенное с клавиатуры.</p>\n\n<p><img alt=\"\" height=\"387\" name=\"степик2.png\" src=\"https://ucarecdn.stepik.net/7b69c500-2a1f-4c25-84c9-c0cf51752b1b/\" width=\"313\"></p>\n\n<p>В первой входной строке вводится одно число не более 10^19.</p>\n\n<p>В выходной строке сначала указывается индекс строки, затем индекс столбца, где находится искомое число.</p>",
+    "video": null,
+    "options": {
+      "execution_time_limit": 1,
+      "execution_memory_limit": 32,
+      "limits": {
+        "c++": {
+          "time": 1,
+          "memory": 32
+        }
+      },
+      "code_templates": {
+        "c++": "#include <iostream>\n\nint main() {\n    // put your code here\n    return 0;\n}"
+      },
+      "code_templates_header_lines_count": {
+        "c++": 0
+      },
+      "code_templates_footer_lines_count": {
+        "c++": 0
+      },
+      "code_templates_options": {},
+      "samples": [
+        [
+          "3",
+          "1 1"
+        ],
+        [
+          "17",
+          "0 4"
+        ]
+      ],
+      "is_run_user_code_allowed": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "code": "# This is a sample Code Challenge\n# Learn more: https://stepik.org/lesson/9173\n# Ask your questions via support@stepik.org\n\ndef generate():\n    return []\n\ndef check(reply, clue):\n    return reply.strip() == clue.strip()\n\n# def solve(dataset):\n#     a, b = dataset.split()\n#     return str(int(a) + int(b))",
+      "execution_time_limit": 1,
+      "execution_memory_limit": 32,
+      "samples_count": 2,
+      "templates_data": "::c++",
+      "is_time_limit_scaled": true,
+      "is_memory_limit_scaled": true,
+      "is_run_user_code_allowed": true,
+      "manual_time_limits": [],
+      "manual_memory_limits": [],
+      "test_archive": [],
+      "test_cases": [
+        [
+          "3",
+          "1 1"
+        ],
+        [
+          "17",
+          "0 4"
+        ],
+        [
+          "10000000000",
+          "99999 0"
+        ],
+        [
+          "12345678987654321",
+          "111111110 0"
+        ],
+        [
+          "1000000000000000000",
+          "999999999 0"
+        ],
+        [
+          "83745827405483628",
+          "193687258 289388713"
+        ],
+        [
+          "700000900001000203",
+          "648202106 836660564"
+        ],
+        [
+          "9223372033963249501",
+          "3037000499 3037000499"
+        ],
+        [
+          "231502367023507923",
+          "481146928 262623118"
+        ]
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": "/api/step-sources/3384444/tests",
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3384444",
+  "subscriptions": [
+    "31-77-3384444",
+    "30-77-3384444"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 1292,
+  "passed_by": 497,
+  "correct_ratio": 0.1535132382892057,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3363536,
+  "create_date": "2022-10-22T08:13:48Z",
+  "update_date": "2023-12-27T14:14:05Z",
+  "discussions_count": 6,
+  "discussion_proxy": "77-3384444-1",
+  "discussion_threads": [
+    "77-3384444-1",
+    "77-3384444-2"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 1
+}

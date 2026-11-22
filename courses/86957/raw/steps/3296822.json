@@ -1,0 +1,59 @@
+{
+  "id": 3296822,
+  "lesson": 763639,
+  "position": 12,
+  "status": "ready",
+  "block": {
+    "name": "choice",
+    "text": "<p>double sizeFileA = 0;<br>\ndouble sizeFileB = 0;<br>\n// ...some code with setting sizes up...<br>\nint diff = sizeFileA - sizeFileB;</p>\n\n<p>Означает ли положительное значение diff то, что размер файла А больше, чем размер файла B.</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": false
+    },
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3296822",
+  "subscriptions": [
+    "31-77-3296822",
+    "30-77-3296822"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 792,
+  "passed_by": 705,
+  "correct_ratio": 0.64376130198915,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3275914,
+  "create_date": "2022-09-18T19:07:34Z",
+  "update_date": "2026-01-30T17:56:18Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3296822-1",
+  "discussion_threads": [
+    "77-3296822-1",
+    "77-3296822-2"
+  ]
+}

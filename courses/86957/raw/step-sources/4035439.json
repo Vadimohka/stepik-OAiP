@@ -1,0 +1,67 @@
+{
+  "id": 4035439,
+  "lesson": 973829,
+  "position": 1,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<p style=\"text-align: center;\"><strong>Что это и зачем</strong></p>\n\n<p>Хеш-таблица — это структура данных для хранения пар ключей и их значений, которую используют, если хотят быстро выполнять операции вставки/удаления/нахождения.</p>\n\n<p>По сути она представляет собой массив, где местоположение элемента зависит от значения самого элемента. Связь между значением элемента и его позицией в хеш-таблице задает <strong>хеш\u0002-функция</strong>.</p>\n\n<p>Для наглядности рассмотрим стандартные контейнеры и асимптотику их наиболее часто используемых методов:</p>\n\n<p><img alt=\"\" height=\"213\" name=\"228.png\" src=\"https://ucarecdn.stepik.net/a502ed6f-0daf-4a80-bd3e-4422b370a2d5/-/crop/9078x3112/0,449/-/preview/\" width=\"621\"></p>\n\n<p><strong>Все данные при условии хорошо выполненных контейнерах, хорошо подобранных хеш-функциях.</strong></p>\n\n<p>Из этой таблицы очень хорошо понятно, почему же стоит использовать хеш-таблицы. Но тогда возникает противоположный вопрос: почему же тогда ими не пользуются постоянно?</p>\n\n<p>Ответ очень прост: как и всегда, невозможно получить все сразу, а именно: и скорость, и память. Хеш-таблицы тяжеловесные, и, хоть они и быстро отвечают на вопросы основных операций, пользоваться ими все время <strong>очень затратно</strong>.</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-4035439",
+  "subscriptions": [
+    "31-77-4035439",
+    "30-77-4035439"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 608,
+  "passed_by": 608,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 4014536,
+  "create_date": "2023-05-07T11:42:33Z",
+  "update_date": "2023-05-17T17:54:48Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-4035439-1",
+  "discussion_threads": [
+    "77-4035439-1"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 0
+}

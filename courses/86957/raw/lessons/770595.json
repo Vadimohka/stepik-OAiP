@@ -1,0 +1,75 @@
+{
+  "id": 770595,
+  "steps": [
+    3212954,
+    3215136,
+    3215137,
+    3215176,
+    3215175,
+    3215178,
+    3215177,
+    3215179,
+    3408767,
+    3435286,
+    4734985
+  ],
+  "actions": {
+    "learn_lesson": "#",
+    "assist_lesson": "#",
+    "view_all_submissions": "#",
+    "edit_lesson": "#",
+    "view_statistics": "#",
+    "attachments": "/lesson/770595/attachments/",
+    "clone_lesson": "/lesson/770595/clone/",
+    "admin_lesson": "#",
+    "edit_permissions": "/lesson/770595/permissions/",
+    "delete_lesson": "#"
+  },
+  "progress": "76-770595",
+  "subscriptions": [
+    "31-76-770595",
+    "30-76-770595"
+  ],
+  "viewed_by": 792,
+  "passed_by": 37,
+  "time_to_complete": 1141,
+  "cover_url": "https://ucarecdn.stepik.net/e9443158-8ba8-4be9-b370-5ff93d925ff3/-/scale_crop/180x180/center/",
+  "is_comments_enabled": true,
+  "is_exam_without_progress": false,
+  "is_blank": false,
+  "is_draft": false,
+  "is_orphaned": false,
+  "courses": [
+    86957
+  ],
+  "units": [
+    773036
+  ],
+  "owner": 296085237,
+  "language": "ru",
+  "is_featured": false,
+  "is_public": true,
+  "canonical_url": "https://stepik.org/lesson/770595/",
+  "title": "Сортировки",
+  "slug": "Сортировки-770595",
+  "create_date": "2022-08-17T16:25:42Z",
+  "update_date": "2024-01-02T18:42:43Z",
+  "learners_group": 5116757,
+  "testers_group": 5116758,
+  "moderators_group": 5116759,
+  "assistants_group": 5116760,
+  "teachers_group": 5116755,
+  "admins_group": 5116756,
+  "discussions_count": 3,
+  "discussion_proxy": "76-770595-1",
+  "discussion_threads": [
+    "76-770595-1"
+  ],
+  "epic_count": 8,
+  "abuse_count": 2,
+  "vote_delta": 6,
+  "vote": null,
+  "lti_consumer_key": "",
+  "lti_secret_key": "",
+  "lti_private_profile": false
+}

@@ -1,0 +1,101 @@
+{
+  "id": 4717787,
+  "lesson": 770585,
+  "position": 13,
+  "status": "ready",
+  "block": {
+    "name": "choice",
+    "text": "<p>Оператор разыменования также вызывается как</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": false
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": false,
+      "is_always_correct": false,
+      "sample_size": 4,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": false,
+          "text": "оператор ссылки",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "оператор смещения",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "указатель",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "оператор деоффсета",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-4717787",
+  "subscriptions": [
+    "31-77-4717787",
+    "30-77-4717787"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 534,
+  "passed_by": 486,
+  "correct_ratio": 0.3268845897264843,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 4696884,
+  "create_date": "2023-11-13T17:03:48Z",
+  "update_date": "2023-11-13T17:03:48Z",
+  "discussions_count": 1,
+  "discussion_proxy": "77-4717787-1",
+  "discussion_threads": [
+    "77-4717787-1",
+    "77-4717787-2"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 1
+}

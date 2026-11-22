@@ -1,0 +1,66 @@
+{
+  "id": 853534,
+  "steps": [
+    3569323,
+    3569919,
+    4718222,
+    4718241,
+    4718318
+  ],
+  "actions": {
+    "learn_lesson": "#",
+    "assist_lesson": "#",
+    "view_all_submissions": "#",
+    "edit_lesson": "#",
+    "view_statistics": "#",
+    "attachments": "/lesson/853534/attachments/",
+    "clone_lesson": "/lesson/853534/clone/"
+  },
+  "progress": "76-853534",
+  "subscriptions": [
+    "31-76-853534",
+    "30-76-853534"
+  ],
+  "viewed_by": 510,
+  "passed_by": 222,
+  "time_to_complete": 62,
+  "cover_url": "https://ucarecdn.stepik.net/e8a69c2b-3df4-4fcd-8146-29a77e78d2b6/-/scale_crop/180x180/center/",
+  "is_comments_enabled": true,
+  "is_exam_without_progress": false,
+  "is_blank": false,
+  "is_draft": false,
+  "is_orphaned": false,
+  "courses": [
+    86957
+  ],
+  "units": [
+    857453
+  ],
+  "owner": 15571096,
+  "language": "ru",
+  "is_featured": false,
+  "is_public": true,
+  "canonical_url": "https://stepik.org/lesson/853534/",
+  "title": "Категория : ссылка r-value",
+  "slug": "Категория-ссылка-r-value-853534",
+  "create_date": "2022-12-16T14:17:21Z",
+  "update_date": "2024-01-02T18:43:55Z",
+  "learners_group": null,
+  "testers_group": null,
+  "moderators_group": null,
+  "assistants_group": null,
+  "teachers_group": null,
+  "admins_group": null,
+  "discussions_count": 0,
+  "discussion_proxy": "76-853534-1",
+  "discussion_threads": [
+    "76-853534-1"
+  ],
+  "epic_count": 1,
+  "abuse_count": 1,
+  "vote_delta": 0,
+  "vote": null,
+  "lti_consumer_key": "",
+  "lti_secret_key": "",
+  "lti_private_profile": false
+}

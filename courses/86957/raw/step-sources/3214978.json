@@ -1,0 +1,67 @@
+{
+  "id": 3214978,
+  "lesson": 770591,
+  "position": 7,
+  "status": "ready",
+  "block": {
+    "name": "text",
+    "text": "<h3>Рекурсивный вызов функций</h3>\n\n<p>Рекурсия — это ситуация, когда объект является частью самого себя <em>(не путать с фракталом)</em>. В программировании это проявляется в одной интересной особенности функций — они могут вызывать сами себя.</p>\n\n<p><img alt=\"\" height=\"257\" name=\"image.png\" src=\"https://ucarecdn.stepik.net/55ac7865-40ce-4f77-b579-f1afaca84d29/\" width=\"1142\"></p>\n\n<p><em>Чтобы понять, что такое рекурсия, нужно понять, что такое рекурсия</em></p>\n\n<p>Чаще всего рекурсия объясняется на примере факториалов<em> (не путать с фракталами):</em></p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n \nint factorial(int);\n \nint main() {\n    int n = 5;\n    int result = factorial(n);\n    std::cout &lt;&lt; \"Factorial of \" &lt;&lt; n &lt;&lt; \" is equal to \" &lt;&lt; result &lt;&lt; std::endl;\n    return 0;\n}\n \nint factorial(int n) {\n    if (n&gt;1)\n        return n * factorial(n - 1);\n    return 1;\n}</code></pre>\n\n<p>В функции factorial задано условие, что если число n больше 1, то это число умножается на результат этой же функции, в которую в качестве параметра передается число n-1. То есть происходит рекурсивный спуск. И так далее, пока не дойдем того момента, когда значение параметра не будет равно 1. В этом случае функция возвратит 1.</p>\n\n<p>Рекурсивная функция обязательно должна иметь некоторый базовый вариант, который использует оператор return и к которому сходится выполнение остальных вызовов этой функции. В случае с факториалом базовый вариант представлен ситуацией, при которой n = 1. В этом случае сработает инструкция <code>return 1;</code>. Иначе программа попадёт в бесконечный цикл и сильно нагрузит компьютер.</p>\n\n<p>На практике применение этой особенности можно увидеть при рекурсивном удалении папок. Функция удаления должна работать так:</p>\n\n<ol>\n\t<li>Сканирует указанную папку.</li>\n\t<li>Удаляет все файлы из этой папки.</li>\n\t<li>Сканирует папки внутри этой папки и выполняет предыдущие шаги для каждой из них.</li>\n</ol>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "actions": {
+    "comment": "#"
+  },
+  "progress": "77-3214978",
+  "subscriptions": [
+    "31-77-3214978",
+    "30-77-3214978"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 663,
+  "passed_by": 663,
+  "correct_ratio": null,
+  "worth": 0,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3194070,
+  "create_date": "2022-08-18T17:27:41Z",
+  "update_date": "2023-05-02T20:24:01Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3214978-1",
+  "discussion_threads": [
+    "77-3214978-1"
+  ],
+  "reason_of_failure": "",
+  "error": {
+    "text": "",
+    "code": "",
+    "params": {}
+  },
+  "warnings": [],
+  "cost": 0
+}

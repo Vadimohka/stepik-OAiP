@@ -1,0 +1,59 @@
+{
+  "id": 3408864,
+  "lesson": 771129,
+  "position": 5,
+  "status": "ready",
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите верные утверждения.</p>\n\n<p>a - отсортированный массив<br>\nx - искомое<br>\nl, r - текущие границы поиска в массиве<br>\nm - разделительный элемент</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false
+  },
+  "actions": {
+    "edit_instructions": "#",
+    "submit": "#",
+    "comment": "#"
+  },
+  "progress": "77-3408864",
+  "subscriptions": [
+    "31-77-3408864",
+    "30-77-3408864"
+  ],
+  "instruction": null,
+  "session": null,
+  "instruction_type": null,
+  "viewed_by": 595,
+  "passed_by": 397,
+  "correct_ratio": 0.39387956564659427,
+  "worth": 1,
+  "is_solutions_unlocked": false,
+  "solutions_unlocked_attempts": 3,
+  "has_submissions_restrictions": false,
+  "max_submissions_count": 3,
+  "variation": 1,
+  "variations_count": 1,
+  "is_enabled": true,
+  "needs_plan": null,
+  "num_grades": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "user_step_grade": null,
+  "user_step_vote": null,
+  "step_issue": 3387956,
+  "create_date": "2022-11-01T19:04:36Z",
+  "update_date": "2022-11-01T19:05:37Z",
+  "discussions_count": 0,
+  "discussion_proxy": "77-3408864-1",
+  "discussion_threads": [
+    "77-3408864-1",
+    "77-3408864-2"
+  ]
+}
