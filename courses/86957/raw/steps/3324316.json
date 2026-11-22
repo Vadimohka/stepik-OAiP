@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "choice",
-    "text": "<p>Выберите верные утверждения. </p>",
+    "text": "<p>Выберите верные утверждения. Для <code>malloc</code> и <code>realloc</code> применяйте правила C17; для <code>new[]</code> — C++20.</p>",
     "video": null,
     "options": {
       "is_multiple_choice": true
@@ -49,7 +49,7 @@
   "user_step_vote": null,
   "step_issue": 3303408,
   "create_date": "2022-09-29T15:12:47Z",
-  "update_date": "2025-12-22T18:05:50Z",
+  "update_date": "2026-11-22T21:07:22Z",
   "discussions_count": 5,
   "discussion_proxy": "77-3324316-1",
   "discussion_threads": [

@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "choice",
-    "text": "<p>Выберите правильные утвреждения</p>",
+    "text": "<p>Выберите правильные утверждения. Предполагается <strong>ASCII-совместимая кодировка исполнения</strong>. В варианте с a++ переменная a имеет тип int и исходное значение 3; варианты независимы.</p>",
     "video": null,
     "options": {
       "is_multiple_choice": true
@@ -18,32 +18,32 @@
       "sample_size": 5,
       "preserve_order": false,
       "is_html_enabled": true,
-      "is_options_feedback": false,
+      "is_options_feedback": true,
       "options": [
         {
           "is_correct": true,
-          "text": "'1' - 49 - эквивалетно false",
+          "text": "'1' - 49 равно 0 и при преобразовании в bool даёт false.",
           "feedback": ""
         },
         {
           "is_correct": false,
-          "text": "'1' + '2' + '3' равно 6",
-          "feedback": ""
+          "text": "'1' + '2' + '3' равно 6.",
+          "feedback": "Складываются коды символов."
         },
         {
           "is_correct": true,
-          "text": "1 + true равно 2",
+          "text": "1 + true равно 2.",
           "feedback": ""
         },
         {
           "is_correct": false,
-          "text": "1 + bool(255) равно 256",
-          "feedback": ""
+          "text": "1 + bool(255) равно 256.",
+          "feedback": "bool(255) равно true, поэтому сумма равна 2."
         },
         {
           "is_correct": true,
-          "text": "a++ / 2 равно 1 при условии, что a равно 3",
-          "feedback": ""
+          "text": "a++ / 2 равно 1, а после вычисления a равно 4.",
+          "feedback": "В делении участвует прежнее значение 3; целочисленное 3/2 равно 1."
         }
       ]
     },
@@ -88,7 +88,7 @@
   "user_step_vote": null,
   "step_issue": 3276067,
   "create_date": "2022-09-18T19:53:39Z",
-  "update_date": "2026-01-30T17:56:18Z",
+  "update_date": "2026-11-22T20:07:16Z",
   "discussions_count": 1,
   "discussion_proxy": "77-3296975-1",
   "discussion_threads": [
@@ -102,5 +102,5 @@
     "params": {}
   },
   "warnings": [],
-  "cost": 1
+  "cost": 0
 }

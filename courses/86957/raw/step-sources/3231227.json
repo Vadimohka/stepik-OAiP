@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "text",
-    "text": "<h3>Что такое CMake?</h3>\n\n<p><strong>CMake</strong> — кроссплатформенная автоматизированная система сборки проектов. Непосредственно сборкой она не занимается, а только генерирует <em>Makefile</em>, который потом будет выполнен утилитой make.</p>\n\n<p><img alt=\"\" height=\"5369\" name=\"Frame 7.png\" src=\"https://ucarecdn.stepik.net/1bb92134-94f9-4e34-bd08-ffb43f2ccc5a/-/preview/\" width=\"7930\"></p>\n\n<p>CMake может проверять наличие необходимых библиотек и подключать их, собирать проекты под разными компиляторами и операционными системами. Т.е. у вас есть куча кода и файлик, содержащий информацию для cmake, и чтобы скомпилить это дело где-нибудь еще, вам нужно просто запустить там cmake, который сделает всё сам. Удобно, полезно, просто.</p>",
+    "text": "<h3>Что такое CMake?</h3>\n\n<p><strong>CMake</strong> — кроссплатформенный инструмент настройки и организации сборки. Он читает <code>CMakeLists.txt</code> и генерирует файлы для выбранной системы сборки. Это могут быть Makefiles, файлы Ninja или проекты Visual Studio. Непосредственную компиляцию выполняют выбранный компилятор и система сборки; команда <code>cmake --build</code> запускает соответствующий инструмент сборки.</p>\n\n<table border=\"1\" cellpadding=\"4\" cellspacing=\"0\">\n<caption>Примеры цепочек сборки</caption>\n<thead><tr><th>Описание проекта</th><th>Генератор CMake</th><th>Дальнейшая сборка</th></tr></thead>\n<tbody>\n<tr><td><code>CMakeLists.txt</code></td><td><code>Unix Makefiles</code></td><td>make и выбранный компилятор</td></tr>\n<tr><td><code>CMakeLists.txt</code></td><td><code>Ninja</code></td><td>ninja и выбранный компилятор</td></tr>\n<tr><td><code>CMakeLists.txt</code></td><td>Visual Studio</td><td>MSBuild и выбранный компилятор</td></tr>\n</tbody>\n</table>\n\n<p>CMake может искать необходимые библиотеки и настраивать сборку под разные компиляторы и операционные системы. Для переноса проекта нужны его исходники, описание сборки, подходящий набор инструментов и зависимости. Затем выполняют настройку и генерацию файлов сборки, после чего запускают саму сборку.</p>",
     "video": null,
     "options": {},
     "subtitle_files": [],
@@ -50,7 +50,7 @@
   "user_step_vote": null,
   "step_issue": 3210319,
   "create_date": "2022-08-26T14:49:15Z",
-  "update_date": "2023-05-15T19:50:28Z",
+  "update_date": "2026-11-22T20:02:32Z",
   "discussions_count": 0,
   "discussion_proxy": "77-3231227-1",
   "discussion_threads": [

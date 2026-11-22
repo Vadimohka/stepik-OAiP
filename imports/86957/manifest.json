@@ -3,7 +3,23 @@
   "course_id": 86957,
   "date": "2026-11-22",
   "format": "Stepik .step: block, id, time",
-  "deployment_status": "pending_user_import",
+  "deployment_status": "verified_on_stepik",
+  "deployment_verified_at": "2026-11-22T21:11:35Z",
+  "deployment_verification": {
+    "verified_step_sources": 455,
+    "exact_reviewed_blocks": 446,
+    "normalized_html_step_ids": [
+      3173892,
+      3177242,
+      3177281,
+      3177282,
+      3201150,
+      3201151,
+      3201153,
+      3201155,
+      3201168
+    ]
+  },
   "baseline_content_commit": "6ecd4375ed2c4730feacd54f3be5b36670eb3ffe",
   "baseline_bundle_sha256": "b78c06f34d19d3b7bd817348233ceecc15f34e45571270b5732441baf08c41b0",
   "archive": "stepik-86957-corrections-2026-11-22.zip",
@@ -10379,6 +10395,10 @@
     "changed_lessons": 60,
     "findings": 405,
     "reviewed_steps": 485,
-    "archive": "stepik-86957-round2.zip"
-  }
+    "archive": "stepik-86957-round2.zip",
+    "archive_url": "https://github.com/Vadimohka/stepik-OAiP/blob/c9e3e4c208b031e4da790ca353d0479cd6fb169a/imports/86957/stepik-86957-round2.zip"
+  },
+  "deployment_commit": "c9e3e4c208b031e4da790ca353d0479cd6fb169a",
+  "archive_scope": "Reviewed Git source at the deployment commit. The live export is in courses/86957.",
+  "archive_url": "https://github.com/Vadimohka/stepik-OAiP/blob/c9e3e4c208b031e4da790ca353d0479cd6fb169a/imports/86957/stepik-86957-corrections-2026-11-22.zip"
 }

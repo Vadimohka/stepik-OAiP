@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "choice",
-    "text": "<p>«Чистая» vs «смешанная» интерпретация (выберите верные)</p>",
+    "text": "<p>В этом вопросе «чистой» называем интерпретацию без отдельной компиляции в байт-код, а «смешанной» — схему «исходник → байт-код → интерпретация». Выберите верные утверждения.</p>",
     "video": null,
     "options": {
       "is_multiple_choice": true
@@ -49,7 +49,7 @@
   "user_step_vote": null,
   "step_issue": 8247834,
   "create_date": "2025-09-29T09:40:46Z",
-  "update_date": "2025-09-29T09:48:20Z",
+  "update_date": "2026-11-22T21:05:54Z",
   "discussions_count": 0,
   "discussion_proxy": "77-8268743-1",
   "discussion_threads": [

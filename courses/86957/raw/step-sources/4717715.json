@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "choice",
-    "text": "<p>Что из следующего не может быть передано функции?</p>",
+    "text": "<p>Что из перечисленного само по себе является исходным файлом, а не значением аргумента при вызове функции C++?</p>",
     "video": null,
     "options": {
       "is_multiple_choice": false
@@ -83,7 +83,7 @@
   "user_step_vote": null,
   "step_issue": 4696812,
   "create_date": "2023-11-13T16:43:33Z",
-  "update_date": "2023-11-13T16:43:33Z",
+  "update_date": "2026-11-22T21:07:41Z",
   "discussions_count": 0,
   "discussion_proxy": "77-4717715-1",
   "discussion_threads": [
@@ -97,5 +97,5 @@
     "params": {}
   },
   "warnings": [],
-  "cost": 1
+  "cost": 0
 }

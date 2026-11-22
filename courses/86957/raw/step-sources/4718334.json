@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "choice",
-    "text": "<p>Какова обязательная директива препроцессора для C ++?</p>",
+    "text": "<p>Какую из перечисленных директив препроцессора обязательно использовать в каждой обычной программе на C++?</p>",
     "video": null,
     "options": {
       "is_multiple_choice": false
@@ -23,12 +23,12 @@
         {
           "is_correct": false,
           "text": "#undef",
-          "feedback": "Не существует"
+          "feedback": "Директива #undef существует, но её не обязательно использовать в каждой программе."
         },
         {
           "is_correct": false,
           "text": "#include",
-          "feedback": "int main() { return 0; } - пример программы которая запустится без директив"
+          "feedback": "int main() { return 0; } — пример программы, которая компилируется без директив препроцессора."
         },
         {
           "is_correct": false,
@@ -83,7 +83,7 @@
   "user_step_vote": null,
   "step_issue": 4697431,
   "create_date": "2023-11-13T19:21:33Z",
-  "update_date": "2024-09-04T10:13:55Z",
+  "update_date": "2026-11-22T21:07:11Z",
   "discussions_count": 2,
   "discussion_proxy": "77-4718334-1",
   "discussion_threads": [
@@ -97,5 +97,5 @@
     "params": {}
   },
   "warnings": [],
-  "cost": 1
+  "cost": 0
 }

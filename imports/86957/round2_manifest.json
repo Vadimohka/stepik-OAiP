@@ -4,7 +4,21 @@
   "date": "2026-11-22",
   "scope": "Only changes since the first published correction package",
   "previous_content_commit": "8bf4639ce2799a13146e22ed13cf103dd1916ad5",
-  "deployment_status": "pending_user_import",
+  "deployment_status": "verified_on_stepik",
+  "deployment_verified_at": "2026-11-22T21:11:35Z",
+  "deployment_verification": {
+    "verified_step_sources": 371,
+    "exact_reviewed_blocks": 364,
+    "normalized_html_step_ids": [
+      3173892,
+      3177282,
+      3201150,
+      3201151,
+      3201153,
+      3201155,
+      3201168
+    ]
+  },
   "archive": "stepik-86957-round2.zip",
   "changed_steps": 371,
   "changed_lessons": 60,
@@ -8650,5 +8664,8 @@
         "R2-R036"
       ]
     }
-  ]
+  ],
+  "deployment_commit": "c9e3e4c208b031e4da790ca353d0479cd6fb169a",
+  "archive_scope": "Reviewed Git source at the deployment commit. The live export is in courses/86957.",
+  "archive_url": "https://github.com/Vadimohka/stepik-OAiP/blob/c9e3e4c208b031e4da790ca353d0479cd6fb169a/imports/86957/stepik-86957-round2.zip"
 }

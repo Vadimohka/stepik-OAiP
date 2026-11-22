@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "code",
-    "text": "<p>Определить время падения камня на поверхность земли с высоты h. Ускорение свободного падения g взять равным 9.8 м/с^2.</p>\n\n<p>Точность ответа: до 9 разрядов после запятой.</p>",
+    "text": "<p>Камень начинает свободно падать без начальной скорости с высоты <em>h</em>. Определите время падения на поверхность земли. Сопротивлением воздуха пренебрегите; ускорение свободного падения примите равным <strong>g = 9.8 м/с²</strong>.</p>\n<h3>Входные данные</h3>\n<p>Одно вещественное число <em>h</em> в метрах, 0 ≤ h ≤ 10<sup>19</sup>.</p>\n<h3>Выходные данные</h3>\n<p>Выведите время в секундах. Ответ принимается, если его абсолютная или относительная погрешность не превышает 10<sup>−9</sup>: |ответ − эталон| ≤ max(10<sup>−9</sup>, 10<sup>−9</sup> · |эталон|).</p>\n<p>Можно использовать <code>std::setprecision(15)</code> из <code>&lt;iomanip&gt;</code> либо <code>std::fixed &lt;&lt; std::setprecision(9)</code>. Количество напечатанных цифр само по себе не проверяется: сравниваются числовые значения.</p>",
     "video": null,
     "options": {
       "execution_time_limit": 5,
@@ -29,7 +29,7 @@
       "samples": [
         [
           "92",
-          "4.33307168"
+          "4.33307168231517174528961453502"
         ]
       ],
       "is_run_user_code_allowed": true
@@ -37,7 +37,7 @@
     "subtitle_files": [],
     "is_deprecated": false,
     "source": {
-      "code": "# This is a sample Code Challenge\n# Learn more: https://stepik.org/lesson/9173\n# Ask your questions via support@stepik.org\n\ndef generate():\n    return []\n\ndef check(reply, clue):\n    return reply.strip() == clue.strip()\n\n# def solve(dataset):\n#     a, b = dataset.split()\n#     return str(int(a) + int(b))",
+      "code": "from decimal import Decimal, DecimalException, localcontext\n\ndef generate():\n    return []\n\ndef check(reply, clue):\n    actual = reply.split()\n    expected = str(clue).split()\n    if len(actual) != 1 or len(expected) != 1:\n        return False\n    try:\n        with localcontext() as context:\n            context.prec = 60\n            value, reference = Decimal(actual[0]), Decimal(expected[0])\n            if not value.is_finite() or not reference.is_finite():\n                return False\n            tolerance = max(Decimal(\"1e-9\"), Decimal(\"1e-9\") * abs(reference))\n            return abs(value - reference) <= tolerance\n    except (DecimalException, ValueError, TypeError):\n        return False\n",
       "execution_time_limit": 5,
       "execution_memory_limit": 256,
       "samples_count": 1,
@@ -51,27 +51,31 @@
       "test_cases": [
         [
           "92",
-          "4.33307168"
+          "4.33307168231517174528961453502"
         ],
         [
           "1356247538635742635",
-          "526103803"
+          "526103803.413811188135690500469"
         ],
         [
           "12343252145",
-          "50189.9497"
+          "50189.9496911483265535295792217"
         ],
         [
           "7625877",
-          "1247.51811"
+          "1247.51810751244351284032027069"
         ],
         [
           "415.1515213525",
-          "9.20460756"
+          "9.20460755687174357672883328622"
         ],
         [
           "0.012401241251251",
-          "0.0503077088"
+          "0.0503077087679392920130309924008"
+        ],
+        [
+          "0",
+          "0"
         ]
       ]
     },
@@ -116,7 +120,7 @@
   "user_step_vote": null,
   "step_issue": 3241774,
   "create_date": "2022-09-05T18:20:37Z",
-  "update_date": "2023-10-26T20:31:46Z",
+  "update_date": "2026-11-22T19:59:02Z",
   "discussions_count": 7,
   "discussion_proxy": "77-3262682-1",
   "discussion_threads": [
@@ -130,5 +134,5 @@
     "params": {}
   },
   "warnings": [],
-  "cost": 1
+  "cost": 0
 }

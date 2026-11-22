@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "text",
-    "text": "<h3>Инициализация строки через класс string</h3>\n\n<p>Как и любой класс, класс string имеет ряд конструкторов. Основные из них следующие:</p>\n\n<pre><code class=\"language-cpp\">string() //конструктор по умолчанию (без параметров) создает пустую строку.\nstring(string &amp; S) //копия строки S\nstring(size_t n, char c) //повторение символа c заданное число n раз.\nstring(size_t c) //строка из одного символа c.\nstring(string &amp; S, size_t start, size_t len) //строка, содержащая не более, чем len символов данной\n//строки S, начиная с символа номер start.</code></pre>\n\n<p>Ниже приведены примеры инициализации переменных типа string:</p>\n\n<pre><code class=\"language-cpp\">string s1(\"Hello!\"); // инициализация - конструктор string(const char * str)\nstring s2 = \"Hello!\"; // инициализация - конструктор string(const char * str)\nchar * ps = \"Hello\";\nstring s3(ps); // инициализация\nstring s4(s3); // инициализация - конструктор string(const string &amp; str)\nstring s5; // инициализация - конструктор string()</code></pre>",
+    "text": "<h3>Инициализация строки через класс string</h3>\n\n<p>Как и любой класс, класс string имеет ряд конструкторов. Основные из них следующие:</p>\n\n<pre><code class=\"language-cpp\">#include &lt;cstddef&gt;\n#include &lt;string&gt;\n\nstd::string S = \"abcdef\";\nstd::size_t n = 3, start = 1, len = 2;\nchar c = 'x';\n\nstd::string empty;                // пустая строка\nstd::string copy(S);              // \"abcdef\"\nstd::string repeated(n, c);       // \"xxx\"\nstd::string one_character(1, c);  // \"x\"\nstd::string part(S, start, len);  // \"bc\"</code></pre>\n\n<p>Ниже приведены примеры инициализации переменных типа string:</p>\n\n<pre><code class=\"language-cpp\">#include &lt;string&gt;\n\nstd::string s1(\"Hello!\");\nstd::string s2 = \"Hello!\";\nconst char* ps = \"Hello\";\nstd::string s3(ps);\nstd::string s4(s3);\nstd::string s5;\nstd::string s6(1, 'A');</code></pre>",
     "video": null,
     "options": {},
     "subtitle_files": [],
@@ -45,7 +45,7 @@
   "user_step_vote": null,
   "step_issue": 3193995,
   "create_date": "2022-08-18T16:00:09Z",
-  "update_date": "2022-08-18T16:00:10Z",
+  "update_date": "2026-11-22T20:09:48Z",
   "discussions_count": 0,
   "discussion_proxy": "77-3214903-1",
   "discussion_threads": [

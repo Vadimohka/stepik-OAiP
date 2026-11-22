@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "code",
-    "text": "<p>Переведите число из арабской системы записи чисел в \"римскую\".</p>\n\n<p><img alt=\"\" height=\"1512\" name=\"2.png\" src=\"https://ucarecdn.stepik.net/c61c5cda-3c52-4452-9231-1d5affb396b1/-/preview/\" width=\"2917\"></p>",
+    "text": "<p>Переведите целое число <code>1 ≤ n ≤ 3999</code> в условную «римскую» запись этой задачи. В ней используются только <code>I = 1</code>, <code>V = 5</code>, <code>X = 10</code>, <code>L = 50</code>, <code>C = 100</code> и <code>M = 1000</code>. Символ <code>D</code> не используется.</p>\n<p>Тысячи записываются повторением <code>M</code>. Сотни, десятки и единицы переводятся отдельно по таблице, затем их записи соединяются слева направо. Нулевой разряд ничего не добавляет.</p>\n<table><thead><tr><th>Цифра</th><th>Сотни</th><th>Десятки</th><th>Единицы</th></tr></thead><tbody>\n<tr><td>1</td><td>C</td><td>X</td><td>I</td></tr><tr><td>2</td><td>CC</td><td>XX</td><td>II</td></tr><tr><td>3</td><td>CCC</td><td>XXX</td><td>III</td></tr><tr><td>4</td><td>CCCC</td><td>XL</td><td>IV</td></tr><tr><td>5</td><td>CCCCC</td><td>L</td><td>V</td></tr><tr><td>6</td><td>CCCCM</td><td>LX</td><td>VI</td></tr><tr><td>7</td><td>CCCM</td><td>LXX</td><td>VII</td></tr><tr><td>8</td><td>CCM</td><td>LXXX</td><td>VIII</td></tr><tr><td>9</td><td>CM</td><td>XC</td><td>IX</td></tr>\n</tbody></table>\n<p>Например, <code>600 → CCCCM</code>, <code>1337 → MCCCXXXVII</code>. Это учебное соглашение отличается от общепринятой римской записи, где 500 обозначается D, а 600 — DC.</p>\n<p>Вводится одно число n. Выведите его запись прописными латинскими буквами без пробелов.</p>\n",
     "video": null,
     "options": {
       "execution_time_limit": 1,
@@ -93,7 +93,7 @@
   "user_step_vote": null,
   "step_issue": 3475863,
   "create_date": "2022-11-29T08:09:20Z",
-  "update_date": "2023-11-28T05:10:21Z",
+  "update_date": "2026-11-22T21:10:10Z",
   "discussions_count": 3,
   "discussion_proxy": "77-3496771-1",
   "discussion_threads": [

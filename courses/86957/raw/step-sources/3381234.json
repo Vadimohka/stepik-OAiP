@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "code",
-    "text": "<p>Для заданной матрицы А размером N*M построить матрицу В такого же размера, элементы которой обладают следующим свойством: элемент B[i][j] равен максимальному из элементов матрицы А, расположенных левее и выше позиции (i,j), включая позицию (i,j). При этом считается, что позиция (1,1) - верхняя левая позиция матрицы.</p>\n\n<p>Гарантируется, количество строк и столбцов в массиве не превышает 10^5.</p>",
+    "text": "<p>Для целочисленной матрицы <code>A</code> размера <code>N × M</code> постройте матрицу <code>B</code> того же размера. Элемент <code>B[i][j]</code> равен максимуму в прямоугольнике <code>A[1..i][1..j]</code>, включая текущую строку, текущий столбец и сам элемент <code>A[i][j]</code>. Ячейка <code>(1, 1)</code> — верхняя левая.</p>\n<h4>Входные данные</h4>\n<p>В первой строке вводятся положительные целые <code>N</code> и <code>M</code>, причём <code>N · M ≤ 10<sup>5</sup></code>. Затем вводятся элементы матрицы <code>A</code> по строкам; их модули не превышают <code>10<sup>9</sup></code>.</p>\n<h4>Выходные данные</h4>\n<p>Выведите элементы матрицы <code>B</code> по строкам. Числа отделяйте пробельными символами; пробелы в конце строк не требуются.</p>\n",
     "video": null,
     "options": {
       "execution_time_limit": 1,
@@ -29,7 +29,7 @@
       "samples": [
         [
           "3 4\n5 8 9 8\n6 7 10 7\n3 9 1 5",
-          "5 8 9 9 \n6 8 10 10 \n6 9 10 10 "
+          "5 8 9 9\n6 8 10 10\n6 9 10 10"
         ]
       ],
       "is_run_user_code_allowed": true
@@ -37,7 +37,7 @@
     "subtitle_files": [],
     "is_deprecated": false,
     "source": {
-      "code": "# This is a sample Code Challenge\n# Learn more: https://stepik.org/lesson/9173\n# Ask your questions via support@stepik.org\n\ndef generate():\n    return []\n\ndef check(reply, clue):\n    return reply.strip() == clue.strip()\n\n# def solve(dataset):\n#     a, b = dataset.split()\n#     return str(int(a) + int(b))",
+      "code": "def generate():\n    return []\n\ndef check(reply, clue):\n    return reply.split() == clue.split()\n",
       "execution_time_limit": 1,
       "execution_memory_limit": 32,
       "samples_count": 1,
@@ -51,23 +51,31 @@
       "test_cases": [
         [
           "3 4\n5 8 9 8\n6 7 10 7\n3 9 1 5",
-          "5 8 9 9 \n6 8 10 10 \n6 9 10 10 "
+          "5 8 9 9\n6 8 10 10\n6 9 10 10"
         ],
         [
           "3 3\n1 1 1\n1 1 1\n1 1 1",
-          "1 1 1 \n1 1 1 \n1 1 1 "
+          "1 1 1\n1 1 1\n1 1 1"
         ],
         [
           "5 5\n1 2 3 4 5\n1 2 3 4 5\n1 2 3 4 5\n1 2 3 4 5\n1 2 3 4 5",
-          "1 2 3 4 5 \n1 2 3 4 5 \n1 2 3 4 5 \n1 2 3 4 5 \n1 2 3 4 5 "
+          "1 2 3 4 5\n1 2 3 4 5\n1 2 3 4 5\n1 2 3 4 5\n1 2 3 4 5"
         ],
         [
           "5 5\n5 4 3 2 1\n5 4 3 2 1\n5 4 3 2 1\n5 4 3 2 1\n5 4 3 2 1",
-          "5 5 5 5 5 \n5 5 5 5 5 \n5 5 5 5 5 \n5 5 5 5 5 \n5 5 5 5 5 "
+          "5 5 5 5 5\n5 5 5 5 5\n5 5 5 5 5\n5 5 5 5 5\n5 5 5 5 5"
         ],
         [
           "3 3\n0 1 0\n1 0 1\n0 1 0",
-          "0 1 1 \n1 1 1 \n1 1 1 "
+          "0 1 1\n1 1 1\n1 1 1"
+        ],
+        [
+          "1 4\n-7 -3 -8 -1",
+          "-7 -3 -3 -1"
+        ],
+        [
+          "3 1\n-5\n-8\n-2",
+          "-5\n-5\n-2"
         ]
       ],
       "are_all_tests_run": true,
@@ -114,7 +122,7 @@
   "user_step_vote": null,
   "step_issue": 3360326,
   "create_date": "2022-10-20T15:05:03Z",
-  "update_date": "2023-10-26T18:32:33Z",
+  "update_date": "2026-11-22T21:07:38Z",
   "discussions_count": 5,
   "discussion_proxy": "77-3381234-1",
   "discussion_threads": [
@@ -128,5 +136,5 @@
     "params": {}
   },
   "warnings": [],
-  "cost": 1
+  "cost": 0
 }

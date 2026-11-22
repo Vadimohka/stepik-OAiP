@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "text",
-    "text": "<h3>Перебор двумерного массива</h3>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n \nint main() {\n    const int rows = 3, columns = 2;\n    int numbers[rows][columns] = { {1, 2}, {3, 4}, {5, 6} };\n    for (int i=0; i &lt; rows; i++) {\n        for (int j=0; j &lt; columns; j++) {\n            std::cout &lt;&lt; numbers[i][j] &lt;&lt; \"\\t\";\n        }\n        std::cout &lt;&lt; std::endl;\n    }\n    return 0;\n}</code></pre>\n\n<p>Также для перебора элементов многомерного массива можно использовать другую форму цикла for:</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n \nint main() {\n    const int rows = 3, columns = 2;\n    int numbers[rows][columns] = { {1, 2}, {3, 4}, {5, 6} };\n     \n    for (auto &amp;subnumbers : numbers) {\n        for (int number : subnumbers) {\n            std::cout &lt;&lt; number &lt;&lt; \"\\t\";\n        }\n        std::cout &lt;&lt; std::endl;\n    }\n         \n    return 0;\n}</code></pre>\n\n<p><em><strong>*</strong></em>Для перебора массивов, которые входят в массив, применяются ссылки. То есть во внешнем цикле <code>for(auto &amp;subnumbers : numbers)</code> &amp;subnumbers представляет ссылку на подмассив в массиве. Во внутреннем цикле <code>for(int number : subnumbers)</code> из каждого подмассива в subnumbers получаем отдельные его элементы в переменную number и выводим ее значение на консоль.</p>",
+    "text": "<h3>Перебор двумерного массива</h3>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n \nint main() {\n    const int rows = 3, columns = 2;\n    int numbers[rows][columns] = { {1, 2}, {3, 4}, {5, 6} };\n    for (int i=0; i &lt; rows; i++) {\n        for (int j=0; j &lt; columns; j++) {\n            std::cout &lt;&lt; numbers[i][j] &lt;&lt; \"\\t\";\n        }\n        std::cout &lt;&lt; std::endl;\n    }\n    return 0;\n}</code></pre>\n\n<p>Также для перебора элементов многомерного массива можно использовать другую форму цикла for:</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n \nint main() {\n    const int rows = 3, columns = 2;\n    int numbers[rows][columns] = { {1, 2}, {3, 4}, {5, 6} };\n     \n    for (auto &amp;subnumbers : numbers) {\n        for (int number : subnumbers) {\n            std::cout &lt;&lt; number &lt;&lt; \"\\t\";\n        }\n        std::cout &lt;&lt; std::endl;\n    }\n         \n    return 0;\n}</code></pre>\n\n<p><em><strong>*</strong></em>Для перебора массивов, которые входят в массив, применяются ссылки. То есть во внешнем цикле <code>for(auto &amp;subnumbers : numbers)</code> имя subnumbers обозначает ссылку на очередной подмассив. Во внутреннем цикле <code>for(int number : subnumbers)</code> из каждого подмассива в subnumbers получаем отдельные его элементы в переменную number и выводим ее значение на консоль.</p>",
     "video": null,
     "options": {},
     "subtitle_files": [],
@@ -50,7 +50,7 @@
   "user_step_vote": null,
   "step_issue": 3192031,
   "create_date": "2022-08-17T16:16:26Z",
-  "update_date": "2023-05-02T20:13:08Z",
+  "update_date": "2026-11-22T21:05:34Z",
   "discussions_count": 0,
   "discussion_proxy": "77-3212939-1",
   "discussion_threads": [

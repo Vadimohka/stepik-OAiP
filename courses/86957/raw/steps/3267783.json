@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "choice",
-    "text": "<p>Выберите правильные утверждения.</p>",
+    "text": "<p>Выберите правильные утверждения. Считайте, что необходимые заголовки подключены, а переменные имеют указанные типы.</p>",
     "video": null,
     "options": {
       "is_multiple_choice": true
@@ -49,7 +49,7 @@
   "user_step_vote": null,
   "step_issue": 3246875,
   "create_date": "2022-09-06T21:12:20Z",
-  "update_date": "2022-09-09T08:31:12Z",
+  "update_date": "2026-11-22T20:02:28Z",
   "discussions_count": 2,
   "discussion_proxy": "77-3267783-1",
   "discussion_threads": [

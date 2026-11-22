@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "text",
-    "text": "<h3>Первые ошибки</h3>\n\n<p>Рассмотрим аналогичный код, но только с небольшим изменением</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\nint main(){\n    cout &lt;&lt; \"Hello world!\";\n}</code></pre>\n\n<p>Если вы запустите этот код, то встретите следующую ошибку:</p>\n\n<p><em>error: 'cout' was not declared in this scope (Clion)</em></p>\n\n<p>или</p>\n\n<p><em>error C2065: cout: необъявленный идентификатор (Visual Studio)</em></p>\n\n<p>Почему так и почему разные ошибки?</p>\n\n<p>1. Так вышло, потому что компьютер потерял доступ к функции cout. В предыдущем варианте перед функцией <strong>cout </strong>находился Уточнённый идентификатор ( :: ), он позволяет компилятору на этапе линковки определить откуда взята наша функция. Функция std</p>",
+    "text": "<h3>Первые ошибки</h3>\n\n<p>Рассмотрим аналогичный код, но только с небольшим изменением</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\nint main(){\n    cout &lt;&lt; \"Hello world!\";\n}</code></pre>\n\n<p>Если вы попробуете скомпилировать этот код, то получите диагностическое сообщение:</p>\n\n<p><em>error: 'cout' was not declared in this scope (CLion)</em></p>\n\n<p>или</p>\n\n<p><em>error C2065: cout: необъявленный идентификатор (Visual Studio)</em></p>\n\n<p>Почему так и почему разные ошибки?</p>\n\n<p>Имя <code>cout</code> объявлено в пространстве имён <code>std</code>. В этом примере неквалифицированное имя <code>cout</code> не найдено при компиляции. Запись <code>std::cout</code> использует оператор разрешения области видимости <code>::</code> и явно указывает, где искать имя объекта потока. Это поиск имени при компиляции, а не действие компоновщика. Текст диагностического сообщения зависит от компилятора, выбранного в IDE.</p>",
     "video": null,
     "options": {},
     "subtitle_files": [],
@@ -45,7 +45,7 @@
   "user_step_vote": null,
   "step_issue": 3180281,
   "create_date": "2022-08-11T19:10:23Z",
-  "update_date": "2023-05-19T14:35:33Z",
+  "update_date": "2026-11-22T21:05:03Z",
   "discussions_count": 4,
   "discussion_proxy": "77-3201189-1",
   "discussion_threads": [

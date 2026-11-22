@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "choice",
-    "text": "<p>Фигурные скобочки в операторе if нужны...</p>",
+    "text": "<p>Какие утверждения о фигурных скобках в if верны?</p>",
     "video": null,
     "options": {
       "is_multiple_choice": true
@@ -18,27 +18,27 @@
       "sample_size": 4,
       "preserve_order": false,
       "is_html_enabled": true,
-      "is_options_feedback": false,
+      "is_options_feedback": true,
       "options": [
         {
           "is_correct": true,
-          "text": "только, если в теле оператора if, несколько строк кода.",
+          "text": "Фигурные скобки объединяют несколько инструкций в одну составную инструкцию ветви.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Одна инструкция может занимать несколько строк; количество строк само по себе не определяет необходимость скобок.",
           "feedback": ""
         },
         {
           "is_correct": false,
-          "text": "Всегда",
+          "text": "Без фигурных скобок к ветви if автоматически относятся все следующие строки до пустой строки.",
           "feedback": ""
         },
         {
           "is_correct": false,
-          "text": "только, если в теле оператора if одна строчка кода",
-          "feedback": ""
-        },
-        {
-          "is_correct": false,
-          "text": "!Всегда",
-          "feedback": ""
+          "text": "Фигурные скобки запрещены, если в ветви только одна инструкция.",
+          "feedback": "В курсе рекомендуем ставить скобки и для одной инструкции."
         }
       ]
     },
@@ -83,7 +83,7 @@
   "user_step_vote": null,
   "step_issue": 3373682,
   "create_date": "2022-10-27T06:22:33Z",
-  "update_date": "2022-10-27T06:22:34Z",
+  "update_date": "2026-11-22T20:07:44Z",
   "discussions_count": 2,
   "discussion_proxy": "77-3394590-1",
   "discussion_threads": [
@@ -97,5 +97,5 @@
     "params": {}
   },
   "warnings": [],
-  "cost": 1
+  "cost": 0
 }

@@ -1,7 +1,7 @@
 {
   "block": {
     "name": "text",
-    "text": "<h3>&nbsp;Целочисленные типы</h3>\n\n<p>Целочисленные типы представлены следующими типами:&nbsp;short,&nbsp;unsigned short,&nbsp;int,&nbsp;unsigned int,&nbsp;long,&nbsp;unsigned long,&nbsp;long long&nbsp;и&nbsp;unsigned long long:</p>\n\n<pre><code class=\"language-cpp\">short a = -10;\nunsigned short b= 10;\nint c = -30;\nunsigned int d = 60;\nlong e = -170;\nunsigned long f = 45;\nlong long g = 89;</code></pre>\n\n<h3>Типы чисел с плавающей точкой</h3>\n\n<p>Числа с плавающей точкой представлены типами float, double и long double:</p>\n\n<pre><code class=\"language-cpp\">float a = -10.45;\ndouble b = 0.00105;\nlong double c = 30.890045;</code></pre>",
+    "text": "<h3> Целочисленные типы</h3>\n\n<p>Целочисленные типы представлены следующими типами: short, unsigned short, int, unsigned int, long, unsigned long, long long и unsigned long long:</p>\n\n<pre><code class=\"language-cpp\">short a = -10;\nunsigned short b= 10;\nint c = -30;\nunsigned int d = 60;\nlong e = -170;\nunsigned long f = 45;\nlong long g = 89;</code></pre>\n\n<h3>Типы чисел с плавающей точкой</h3>\n\n<p>Числа с плавающей точкой представлены типами float, double и long double:</p>\n\n<pre><code class=\"language-cpp\">float a = -10.45;\ndouble b = 0.00105;\nlong double c = 30.890045;</code></pre>",
     "video": null,
     "options": {},
     "subtitle_files": [],
@@ -13,5 +13,5 @@
     "feedback_wrong": ""
   },
   "id": "3177282",
-  "time": "2026-11-22T18:35:40Z"
+  "time": "2026-11-22T21:11:35Z"
 }

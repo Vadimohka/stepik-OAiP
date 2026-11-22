@@ -37,7 +37,7 @@
         },
         {
           "is_correct": false,
-          "text": "Разветвляющиеся",
+          "text": "Разветвляющаяся",
           "feedback": ""
         }
       ]
@@ -83,7 +83,7 @@
   "user_step_vote": null,
   "step_issue": 3153065,
   "create_date": "2022-07-31T20:40:21Z",
-  "update_date": "2022-07-31T20:40:55Z",
+  "update_date": "2026-11-22T21:04:22Z",
   "discussions_count": 1,
   "discussion_proxy": "77-3173973-1",
   "discussion_threads": [
@@ -97,5 +97,5 @@
     "params": {}
   },
   "warnings": [],
-  "cost": 1
+  "cost": 0
 }

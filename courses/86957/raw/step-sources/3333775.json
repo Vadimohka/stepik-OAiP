@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "choice",
-    "text": "<p>// .. корретное выделение памяти .. //<br>\n// ..<br>\nfor (int i = 0; i &lt; 2; ++i){<br>\n    delete mat[i]; <br>\n    mat[i] = nullptr;<br>\n}<br>\ndelete mat;<br>\nmat = nullptr;</p>\n\n<p>Выберите правильное утверждение.</p>",
+    "text": "<p>Память выделена для двумерного массива из двух строк следующими операторами:</p>\n<pre><code class=\"language-cpp\">int** mat = new int*[2];\nfor (int i = 0; i &lt; 2; ++i) {\n    mat[i] = new int[3]{};\n}</code></pre>\n<p>Оцените правильность освобождения памяти:</p>\n<pre><code class=\"language-cpp\">for (int i = 0; i &lt; 2; ++i) {\n    delete[] mat[i];\n    mat[i] = nullptr;\n}\ndelete[] mat;\nmat = nullptr;</code></pre>\n<p>Выберите правильное утверждение.</p>",
     "video": null,
     "options": {
       "is_multiple_choice": false
@@ -78,7 +78,7 @@
   "user_step_vote": null,
   "step_issue": 3312867,
   "create_date": "2022-10-03T15:30:02Z",
-  "update_date": "2022-11-06T13:53:15Z",
+  "update_date": "2026-11-22T20:09:08Z",
   "discussions_count": 2,
   "discussion_proxy": "77-3333775-1",
   "discussion_threads": [
@@ -92,5 +92,5 @@
     "params": {}
   },
   "warnings": [],
-  "cost": 1
+  "cost": 0
 }

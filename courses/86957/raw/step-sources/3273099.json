@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "choice",
-    "text": "<p>Выберите все подходящие ответы из списка.</p>",
+    "text": "<p>Выберите правильные утверждения о CMake и сборке проекта.</p>",
     "video": null,
     "options": {
       "is_multiple_choice": true
@@ -15,35 +15,40 @@
     "source": {
       "is_multiple_choice": true,
       "is_always_correct": false,
-      "sample_size": 5,
+      "sample_size": 6,
       "preserve_order": false,
       "is_html_enabled": true,
-      "is_options_feedback": false,
+      "is_options_feedback": true,
       "options": [
         {
           "is_correct": false,
-          "text": "Сборщик проекта занимается лишь компоновкой.",
-          "feedback": "Сборщик проекта контролирует препроцессорную обработку, компиляцию и компоновку."
+          "text": "Система сборки занимается только компоновкой.",
+          "feedback": "Она организует необходимые этапы, включая компиляцию и компоновку."
         },
         {
           "is_correct": true,
-          "text": "Cmake кроссплатформенный. ",
+          "text": "CMake поддерживает разные платформы и компиляторы.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "CMake может генерировать файлы для Make, Ninja и Visual Studio.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Запись ${SOURCES} подставляет значение переменной SOURCES в CMakeLists.txt.",
           "feedback": ""
         },
         {
           "is_correct": false,
-          "text": "Cmake непосредственно занимается сборкой проекта. ",
-          "feedback": "Cmake генерирует makefile, потом утилита make выполнит его."
-        },
-        {
-          "is_correct": true,
-          "text": "${SOURCES} #получаем значение переменной SOURCES ",
+          "text": "CMake не может искать необходимые проекту библиотеки.",
           "feedback": ""
         },
         {
-          "is_correct": false,
-          "text": "Cmake не может проверять наличие необходимых библиотек. ",
-          "feedback": "Может."
+          "is_correct": true,
+          "text": "Команда cmake --build запускает инструмент сборки, выбранный для данного build-каталога.",
+          "feedback": ""
         }
       ]
     },
@@ -88,7 +93,7 @@
   "user_step_vote": null,
   "step_issue": 3252191,
   "create_date": "2022-09-08T13:00:05Z",
-  "update_date": "2022-09-08T13:00:05Z",
+  "update_date": "2026-11-22T20:02:35Z",
   "discussions_count": 0,
   "discussion_proxy": "77-3273099-1",
   "discussion_threads": [
@@ -102,5 +107,5 @@
     "params": {}
   },
   "warnings": [],
-  "cost": 1
+  "cost": 0
 }

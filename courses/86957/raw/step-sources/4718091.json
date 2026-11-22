@@ -27,7 +27,7 @@
         },
         {
           "is_correct": true,
-          "text": "Класс в коллекции объектов",
+          "text": "Пользовательский тип, который объединяет данные и операции над ними и задаёт устройство своих объектов.",
           "feedback": ""
         },
         {
@@ -83,7 +83,7 @@
   "user_step_vote": null,
   "step_issue": 4697188,
   "create_date": "2023-11-13T18:45:30Z",
-  "update_date": "2023-11-13T18:45:30Z",
+  "update_date": "2026-11-22T20:12:19Z",
   "discussions_count": 1,
   "discussion_proxy": "77-4718091-1",
   "discussion_threads": [
@@ -97,5 +97,5 @@
     "params": {}
   },
   "warnings": [],
-  "cost": 1
+  "cost": 0
 }

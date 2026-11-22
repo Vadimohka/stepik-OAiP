@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "choice",
-    "text": "<p>В C ++ ios::ate используется для установки</p>",
+    "text": "<p>Где режим <code>std::ios::ate</code> устанавливает позицию сразу после успешного открытия непустого файла?</p>",
     "video": null,
     "options": {
       "is_multiple_choice": false
@@ -49,7 +49,7 @@
   "user_step_vote": null,
   "step_issue": 4696885,
   "create_date": "2023-11-13T17:04:36Z",
-  "update_date": "2023-11-13T17:04:36Z",
+  "update_date": "2026-11-22T21:07:07Z",
   "discussions_count": 0,
   "discussion_proxy": "77-4717788-1",
   "discussion_threads": [

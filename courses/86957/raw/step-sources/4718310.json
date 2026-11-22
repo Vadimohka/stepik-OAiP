@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "choice",
-    "text": "<p>Каковы обязательные части в объявлении функции?</p>",
+    "text": "<p>Какие части обязательно записывают в обычном объявлении свободной функции, например int f();? Конструкторы и функции преобразования здесь не рассматриваются.</p>",
     "video": null,
     "options": {
       "is_multiple_choice": false
@@ -21,13 +21,13 @@
       "is_options_feedback": false,
       "options": [
         {
-          "is_correct": false,
-          "text": "возвращаемый тип, имя функции, параметры",
+          "is_correct": true,
+          "text": "Возвращаемый тип, имя функции и список параметров в круглых скобках; список может быть пустым.",
           "feedback": ""
         },
         {
-          "is_correct": true,
-          "text": "возвращаемый тип, название функции",
+          "is_correct": false,
+          "text": "Только возвращаемый тип и имя; круглые скобки не нужны.",
           "feedback": ""
         },
         {
@@ -83,7 +83,7 @@
   "user_step_vote": null,
   "step_issue": 4697407,
   "create_date": "2023-11-13T19:17:47Z",
-  "update_date": "2023-11-13T19:17:47Z",
+  "update_date": "2026-11-22T21:06:36Z",
   "discussions_count": 0,
   "discussion_proxy": "77-4718310-1",
   "discussion_threads": [
@@ -97,5 +97,5 @@
     "params": {}
   },
   "warnings": [],
-  "cost": 1
+  "cost": 0
 }

@@ -33,7 +33,7 @@
         {
           "is_correct": false,
           "text": "Классический C++ (AOT)",
-          "feedback": "Эти реализации формируют и исполняют байткод на своей ВМ."
+          "feedback": "Обычная AOT-сборка C++ формирует машинный код для выбранной целевой платформы. Байткодные схемы в этом вопросе представлены PHP/Zend, CPython и Lua."
         },
         {
           "is_correct": true,
@@ -83,7 +83,7 @@
   "user_step_vote": null,
   "step_issue": 8247846,
   "create_date": "2025-09-29T09:44:37Z",
-  "update_date": "2025-09-29T09:45:46Z",
+  "update_date": "2026-11-22T21:07:11Z",
   "discussions_count": 0,
   "discussion_proxy": "77-8268755-1",
   "discussion_threads": [
@@ -97,5 +97,5 @@
     "params": {}
   },
   "warnings": [],
-  "cost": 1
+  "cost": 0
 }

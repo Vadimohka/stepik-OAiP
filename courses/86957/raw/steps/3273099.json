@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "choice",
-    "text": "<p>Выберите все подходящие ответы из списка.</p>",
+    "text": "<p>Выберите правильные утверждения о CMake и сборке проекта.</p>",
     "video": null,
     "options": {
       "is_multiple_choice": true
@@ -49,7 +49,7 @@
   "user_step_vote": null,
   "step_issue": 3252191,
   "create_date": "2022-09-08T13:00:05Z",
-  "update_date": "2022-09-08T13:00:05Z",
+  "update_date": "2026-11-22T20:02:35Z",
   "discussions_count": 0,
   "discussion_proxy": "77-3273099-1",
   "discussion_threads": [

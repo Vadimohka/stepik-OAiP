@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "text",
-    "text": "<h3>Операции преобразования типов:</h3>\n\n<p>int, float и double</p>\n\n<pre><code class=\"language-cpp\">double x;\nint m;\nstd::cin &gt;&gt; m;\nx = (double) m / 2 + (double)7 / 3;</code></pre>\n\n<h3>Опасные и безопасные преобразования</h3>\n\n<p>Те преобразования, при которых не происходит потеря информации, являются безопасными. Как правило, это преобразования от типа с меньшей разрядностью к типу с большей разрядностью. В частности, это следующие цепочки преобразований:</p>\n\n<p>bool -&gt; char -&gt; short -&gt; int -&gt; double -&gt; long double</p>\n\n<p>bool -&gt; char -&gt; short -&gt; int -&gt; long -&gt; long long</p>\n\n<p>unsigned char -&gt; unsigned short -&gt; unsigned int -&gt; unsigned long</p>\n\n<p>float -&gt; double -&gt; long double</p>\n\n<p>*Подробнее можно почитать <a href=\"https://metanit.com/cpp/tutorial/2.4.php\" rel=\"noopener noreferrer nofollow\">здесь</a>.</p>",
+    "text": "<h3>Операции преобразования типов:</h3>\n\n<p>Пример явного преобразования int в double. Фрагмент предполагает подключённый &lt;iostream&gt; и размещение внутри main:</p>\n\n<pre><code class=\"language-cpp\">int m{};\nif (!(std::cin &gt;&gt; m)) {\n    return 1;\n}\ndouble x = (double)m / 2 + (double)7 / 3;</code></pre>\n\n<h3>Опасные и безопасные преобразования</h3>\n\n<p>Преобразование сохраняет значение без потерь, если целевой тип способен представить его точно. Одного сравнения размеров типов в байтах недостаточно: важны диапазон значений и точность. Для стандартных целых типов и конечных значений стандартных типов с плавающей точкой можно использовать следующие цепочки без потери значения:</p>\n\n<p>signed char → short → int → long → long long</p>\n\n<p>unsigned char → unsigned short → unsigned int → unsigned long → unsigned long long</p>\n\n<p>Значения bool преобразуются в числа 0 и 1. Для char нужно учитывать, является ли он знаковым или беззнаковым в выбранной реализации; например, не всякое значение беззнакового char обязательно помещается в short.</p>\n\n<p>float → double → long double. При этом преобразование целого числа в double не всегда точно: например, double формата IEEE 754 binary64 не может представить целое 9007199254740993 без округления.</p>\n\n<p>*Подробнее можно почитать <a href=\"https://metanit.com/cpp/tutorial/2.4.php\" rel=\"noopener noreferrer nofollow\">здесь</a>.</p>",
     "video": null,
     "options": {},
     "subtitle_files": [],
@@ -50,7 +50,7 @@
   "user_step_vote": null,
   "step_issue": 3156566,
   "create_date": "2022-08-01T16:48:30Z",
-  "update_date": "2023-04-20T19:17:50Z",
+  "update_date": "2026-11-22T21:04:35Z",
   "discussions_count": 0,
   "discussion_proxy": "77-3177474-1",
   "discussion_threads": [

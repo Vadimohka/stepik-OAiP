@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "choice",
-    "text": "<p>Определите неправильный вариант.</p>",
+    "text": "<p>Выберите соотношение, которое неверно для типов MSVC x64. Знаки = здесь обозначают математическое равенство размеров.</p>",
     "video": null,
     "options": {
       "is_multiple_choice": false
@@ -22,7 +22,7 @@
       "options": [
         {
           "is_correct": false,
-          "text": "sizeof(N) = sizeof(signed N) = sizeof(unsigned N)",
+          "text": "sizeof(int) = sizeof(signed int) = sizeof(unsigned int)",
           "feedback": ""
         },
         {
@@ -83,7 +83,7 @@
   "user_step_vote": null,
   "step_issue": 4697165,
   "create_date": "2023-11-13T18:34:30Z",
-  "update_date": "2023-12-25T10:27:52Z",
+  "update_date": "2026-11-22T21:07:26Z",
   "discussions_count": 0,
   "discussion_proxy": "77-4718068-1",
   "discussion_threads": [
@@ -97,5 +97,5 @@
     "params": {}
   },
   "warnings": [],
-  "cost": 1
+  "cost": 0
 }

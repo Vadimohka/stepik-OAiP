@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "choice",
-    "text": "<p>Выберите правильные утверждения.</p>",
+    "text": "<p>Выберите правильные утверждения. В первых двух вариантах a — указатель на первый элемент инициализированного массива как минимум из двух int. Для размещающей формы new буфер buf имеет достаточный размер и выравнивание, подключён заголовок &lt;new&gt;. В остальных вариантах имеется в виду обычное new без std::nothrow.</p>",
     "video": null,
     "options": {
       "is_multiple_choice": true
@@ -49,7 +49,7 @@
   "user_step_vote": null,
   "step_issue": 3309830,
   "create_date": "2022-10-02T21:17:10Z",
-  "update_date": "2022-10-18T06:59:57Z",
+  "update_date": "2026-11-22T21:09:06Z",
   "discussions_count": 4,
   "discussion_proxy": "77-3330738-1",
   "discussion_threads": [

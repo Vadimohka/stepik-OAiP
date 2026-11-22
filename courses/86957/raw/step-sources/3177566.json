@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "code",
-    "text": "<p>Модифицируйте программу, чтобы результат выводился в обратном порядке.</p>\n\n<pre><code>#include &lt;iostream&gt;\n\nint main() {  \n    int i = 0;\n    std::cin &gt;&gt; i;\n    while(i &lt; 10) {\n        std::cout &lt;&lt; i &lt;&lt; \" * \" &lt;&lt; i &lt;&lt; \" = \" &lt;&lt; i * i &lt;&lt; std::endl;\n        i++;\n    }\n    return 0;\n}</code></pre>",
+    "text": "<p>На вход подаётся целое число <strong>N</strong>, <code>2 ≤ N ≤ 1000</code>. Выведите квадраты чисел от <code>N−1</code> до <code>1</code> включительно <strong>в убывающем порядке</strong>. Каждое равенство выводите на отдельной строке в формате <code>i * i = квадрат</code>, например <code>3 * 3 = 9</code>.</p>\n\n<p>Ниже дан возрастающий вариант для того же входа: он выводит числа от 1 до N−1. Измените начальное значение счётчика, условие и направление его изменения, чтобы получить требуемый обратный порядок.</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n\nint main() {\n    int n{};\n    std::cin &gt;&gt; n;\n    int i = 1;\n    while (i &lt; n) {\n        std::cout &lt;&lt; i &lt;&lt; \" * \" &lt;&lt; i &lt;&lt; \" = \" &lt;&lt; 1LL * i * i &lt;&lt; '\\n';\n        ++i;\n    }\n    return 0;\n}</code></pre>",
     "video": null,
     "options": {
       "execution_time_limit": 5,
@@ -17,7 +17,7 @@
         }
       },
       "code_templates": {
-        "c++": "#include <iostream>\n\nint main()\n{  \n    int i = 0;\n    std::cin>> i;\n    while(i < 10)\n    {\n        std::cout << i << \" * \" << i << \" = \" << i * i << std::endl;\n        i++;\n    }\n\n    return 0;\n}"
+        "c++": "#include <iostream>\n\nint main() {\n    int n{};\n    std::cin >> n;\n    int i = 1;\n    while (i < n) {\n        std::cout << i << \" * \" << i << \" = \" << 1LL * i * i << '\\n';\n        ++i;\n    }\n    return 0;\n}"
       },
       "code_templates_header_lines_count": {
         "c++": 0
@@ -37,11 +37,11 @@
     "subtitle_files": [],
     "is_deprecated": false,
     "source": {
-      "code": "# This is a sample Code Challenge\n# Learn more: https://stepik.org/lesson/9173\n# Ask your questions via support@stepik.org\n\ndef generate():\n    return []\n\ndef check(reply, clue):\n    return reply.strip() == clue.strip()\n\n# def solve(dataset):\n#     a, b = dataset.split()\n#     return str(int(a) + int(b))",
+      "code": "def generate():\n    return []\n\ndef check(reply, clue):\n    # Порядок равенств и их содержимое важны; лишние пробелы и переносы — нет.\n    return reply.split() == clue.split()\n",
       "execution_time_limit": 5,
       "execution_memory_limit": 256,
       "samples_count": 1,
-      "templates_data": "::c++\n\n#include <iostream>\n\nint main()\n{  \n    int i = 0;\n    std::cin>> i;\n    while(i < 10)\n    {\n        std::cout << i << \" * \" << i << \" = \" << i * i << std::endl;\n        i++;\n    }\n \n    return 0;\n}\n\n",
+      "templates_data": "::c++\n\n#include <iostream>\n\nint main() {\n    int n{};\n    std::cin >> n;\n    int i = 1;\n    while (i < n) {\n        std::cout << i << \" * \" << i << \" = \" << 1LL * i * i << '\\n';\n        ++i;\n    }\n    return 0;\n}\n",
       "is_time_limit_scaled": false,
       "is_memory_limit_scaled": false,
       "is_run_user_code_allowed": false,
@@ -52,6 +52,14 @@
         [
           "10",
           "9 * 9 = 81\n8 * 8 = 64\n7 * 7 = 49\n6 * 6 = 36\n5 * 5 = 25\n4 * 4 = 16\n3 * 3 = 9\n2 * 2 = 4\n1 * 1 = 1"
+        ],
+        [
+          "2",
+          "1 * 1 = 1"
+        ],
+        [
+          "4",
+          "3 * 3 = 9\n2 * 2 = 4\n1 * 1 = 1"
         ]
       ]
     },
@@ -96,7 +104,7 @@
   "user_step_vote": null,
   "step_issue": 3156658,
   "create_date": "2022-08-01T18:24:04Z",
-  "update_date": "2023-04-20T19:30:14Z",
+  "update_date": "2026-11-22T20:07:59Z",
   "discussions_count": 2,
   "discussion_proxy": "77-3177566-1",
   "discussion_threads": [
@@ -110,5 +118,5 @@
     "params": {}
   },
   "warnings": [],
-  "cost": 1
+  "cost": 0
 }

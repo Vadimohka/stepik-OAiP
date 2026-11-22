@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "choice",
-    "text": "<p>Что вернет оператор разыменования?</p>",
+    "text": "<p>Дан int* p, который указывает на существующий объект int. Что представляет собой выражение *p при встроенном разыменовании?</p>",
     "video": null,
     "options": {
       "is_multiple_choice": false
@@ -22,23 +22,23 @@
       "options": [
         {
           "is_correct": false,
-          "text": "rvalue эквивалентно значению в адресе указателя",
-          "feedback": ""
+          "text": "Prvalue — отдельное значение int, не связанное с исходным объектом.",
+          "feedback": "Встроенное разыменование указателя на объект даёт lvalue, обозначающее этот объект."
         },
         {
           "is_correct": true,
-          "text": "значение, эквивалентное значению в адресе указателя",
-          "feedback": ""
+          "text": "Lvalue, обозначающее объект int, на который указывает p.",
+          "feedback": "Через это lvalue можно читать и изменять существующий объект; decltype(*p) имеет тип int&amp;."
         },
         {
           "is_correct": false,
-          "text": "он ничего не вернет",
-          "feedback": ""
+          "text": "Сам указатель p с типом int*.",
+          "feedback": "Тип *p — int; указатель имеет тип int*."
         },
         {
           "is_correct": false,
-          "text": "Ничего из перечисленного",
-          "feedback": ""
+          "text": "Обязательно число 0.",
+          "feedback": "Значение объекта зависит от его состояния; разыменование не обнуляет объект."
         }
       ]
     },
@@ -83,7 +83,7 @@
   "user_step_vote": null,
   "step_issue": 4697319,
   "create_date": "2023-11-13T19:06:04Z",
-  "update_date": "2023-11-13T19:06:04Z",
+  "update_date": "2026-11-22T21:05:13Z",
   "discussions_count": 0,
   "discussion_proxy": "77-4718222-1",
   "discussion_threads": [
@@ -97,5 +97,5 @@
     "params": {}
   },
   "warnings": [],
-  "cost": 1
+  "cost": 0
 }

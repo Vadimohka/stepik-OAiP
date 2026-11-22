@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "choice",
-    "text": "<p><strong> </strong>Какая из перечисленных ниже программ на C ++ подходит для вывода в консоль строки \"Hello World\"?</p>\n\n<table align=\"left\" border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 500px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<pre>\n#include&lt;iostream&gt;\nusing namespace std;\nint main()\n{\n cout&lt;&lt;\"Hello World\";\n return 0;\n}</pre>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<pre>\n#include&lt;iostream&gt;\nint main()\n{\n std::cout&lt;&lt;\"Hello World\";\n return 0;\n}</pre>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<pre>\n#include&lt;iostream&gt;\nusing namespace std;\nvoid codescracker();\nint main()\n{\n codescracker();\n return 0;\n}\nvoid codescracker()\n{\n cout&lt;&lt;\"Hello World\";\n}\n\n</pre>\n\n\t\t\t<p> </p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>",
+    "text": "<p>Какой вариант ответа перечисляет все программы ниже, которые выводят в консоль строку \"Hello World\"?</p>\n\n<table align=\"left\" border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 500px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<pre>\n#include&lt;iostream&gt;\nusing namespace std;\nint main()\n{\n cout&lt;&lt;\"Hello World\";\n return 0;\n}</pre>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<pre>\n#include&lt;iostream&gt;\nint main()\n{\n std::cout&lt;&lt;\"Hello World\";\n return 0;\n}</pre>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<pre>\n#include&lt;iostream&gt;\nusing namespace std;\nvoid codescracker();\nint main()\n{\n codescracker();\n return 0;\n}\nvoid codescracker()\n{\n cout&lt;&lt;\"Hello World\";\n}\n\n</pre>\n\n\t\t\t<p> </p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>",
     "video": null,
     "options": {
       "is_multiple_choice": false
@@ -83,7 +83,7 @@
   "user_step_vote": null,
   "step_issue": 4696773,
   "create_date": "2023-11-13T16:27:08Z",
-  "update_date": "2023-11-13T16:29:39Z",
+  "update_date": "2026-11-22T21:06:47Z",
   "discussions_count": 1,
   "discussion_proxy": "77-4717676-1",
   "discussion_threads": [
@@ -97,5 +97,5 @@
     "params": {}
   },
   "warnings": [],
-  "cost": 1
+  "cost": 0
 }

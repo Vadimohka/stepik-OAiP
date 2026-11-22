@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "choice",
-    "text": "<p>To which of these enumerators can be assigned ?</p>",
+    "text": "<p>Чем можно задать значение перечислителя в обычном enum (не enum class), если результат является целочисленным константным выражением и представим в типе перечисления? Выберите наиболее полный ответ.</p>",
     "video": null,
     "options": {
       "is_multiple_choice": false
@@ -49,7 +49,7 @@
   "user_step_vote": null,
   "step_issue": 4697413,
   "create_date": "2023-11-13T19:19:58Z",
-  "update_date": "2023-11-13T19:19:59Z",
+  "update_date": "2026-11-22T21:06:46Z",
   "discussions_count": 2,
   "discussion_proxy": "77-4718316-1",
   "discussion_threads": [

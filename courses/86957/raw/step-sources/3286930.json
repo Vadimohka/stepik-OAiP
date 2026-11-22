@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "choice",
-    "text": "<p>Как корректно установить значение определенного флага статуса?<br>\nchar status = 0;<br>\nchar online = 1;<br>\nchar offline = 1 &lt;&lt; 1;</p>",
+    "text": "<p>Какой оператор установит флаг online и сохранит остальные флаги при любом исходном значении status? Ниже показана начальная настройка флагов; к моменту установки online значение status уже может измениться.<br>\nchar status = 0;<br>\nchar online = 1;<br>\nchar offline = 1 &lt;&lt; 1;</p>",
     "video": null,
     "options": {
       "is_multiple_choice": false
@@ -88,7 +88,7 @@
   "user_step_vote": null,
   "step_issue": 3266022,
   "create_date": "2022-09-13T20:47:32Z",
-  "update_date": "2022-09-19T18:16:22Z",
+  "update_date": "2026-11-22T21:07:13Z",
   "discussions_count": 0,
   "discussion_proxy": "77-3286930-1",
   "discussion_threads": [
@@ -102,5 +102,5 @@
     "params": {}
   },
   "warnings": [],
-  "cost": 1
+  "cost": 0
 }

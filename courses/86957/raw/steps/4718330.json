@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "choice",
-    "text": "<p>Сколько последовательностей операторов присутствует в C ++?</p>",
+    "text": "<p>Что верно после выполнения этого кода C++17/20?</p>\n<pre><code class=\"language-cpp\">auto p = std::make_shared&lt;int&gt;(42);\nstd::weak_ptr&lt;int&gt; w = p;\np.reset();\nauto q = w.lock();</code></pre>\n<p>Других shared_ptr, владеющих этим объектом, нет.</p>",
     "video": null,
     "options": {
       "is_multiple_choice": false
@@ -49,7 +49,7 @@
   "user_step_vote": null,
   "step_issue": 4697427,
   "create_date": "2023-11-13T19:20:55Z",
-  "update_date": "2023-11-13T19:20:55Z",
+  "update_date": "2026-11-22T20:12:49Z",
   "discussions_count": 2,
   "discussion_proxy": "77-4718330-1",
   "discussion_threads": [

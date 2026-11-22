@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "choice",
-    "text": "<p>Как объявляются константы?</p>",
+    "text": "<p>Какие из перечисленных средств позволяют задать именованное постоянное значение: макрос с числовой заменой или объект с квалификатором const? Выберите полный ответ.</p>",
     "video": null,
     "options": {
       "is_multiple_choice": false
@@ -22,17 +22,17 @@
       "options": [
         {
           "is_correct": false,
-          "text": "#define preprocessor",
+          "text": "Директива #define, например #define LIMIT 10",
           "feedback": ""
         },
         {
           "is_correct": true,
-          "text": "Всё перечисленное",
-          "feedback": ""
+          "text": "Оба перечисленных средства",
+          "feedback": "#define задаёт текстовую замену препроцессора; const int объявляет типизированный объект. Это разные механизмы."
         },
         {
           "is_correct": false,
-          "text": "const keyword",
+          "text": "Квалификатор const, например const int limit = 10;",
           "feedback": ""
         },
         {
@@ -83,7 +83,7 @@
   "user_step_vote": null,
   "step_issue": 4696831,
   "create_date": "2023-11-13T16:51:17Z",
-  "update_date": "2026-01-30T17:56:18Z",
+  "update_date": "2026-11-22T21:07:38Z",
   "discussions_count": 3,
   "discussion_proxy": "77-4717734-1",
   "discussion_threads": [
@@ -97,5 +97,5 @@
     "params": {}
   },
   "warnings": [],
-  "cost": 1
+  "cost": 0
 }

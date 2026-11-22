@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "text",
-    "text": "<h3>Так можно реализовать аналог класса std::unique_ptr.</h3>\n\n<pre><code class=\"language-cpp\">Так можно реализовать аналог класса std::unique_ptr.\ntemplate&lt;class T&gt;\nclass unique_ptr {\nprivate:\n    T* m_ptr;\n\npublic:\n    operator bool() const {\n        return m_ptr != nullptr;\n    }\n\n    unique_ptr(T* ptr = nullptr) {\n        m_ptr = ptr;\n    }\n\n    // Деструктор позаботится об удалении указателя\n    ~unique_ptr() {\n         delete m_ptr;\n    }\n\n    // Конструктор перемещения, который передает право собственности на x.m_ptr в m_ptr\n    unique_ptr(unique_ptr&amp;&amp; x) {\n        m_ptr = x.m_ptr;\n        x.m_ptr = nullptr;\n    }\n\n    unique_ptr(const unique_ptr&amp; x) = delete;\n\n    unique_ptr&amp; operator=(unique_ptr&amp; a) = delete;\n\n    // Оператор присваивания перемещением, который передает право собственности на x.m_ptr в m_ptr\n    unique_ptr&amp; operator=(unique_ptr&amp;&amp; x) {\n        // Проверка на самоприсваивание\n        if (&amp;x == this)\n            return *this;\n\n        // Удаляем всё, что к этому моменту может хранить указатель \n        delete m_ptr;\n\n        // Передаем право собственности на x.m_ptr в m_ptr\n        m_ptr = x.m_ptr;\n        x.m_ptr = nullptr; // мы поговорим об этом чуть позже\n\n        return *this;\n    }\n\n    T&amp; operator*() const {\n        return *m_ptr;\n    }\n\n    T* operator-&gt;() const {\n        return m_ptr;\n    }\n\n    bool isNull() const { \n        return m_ptr == nullptr;\n    }\n};\n</code></pre>",
+    "text": "<h3>Так можно реализовать аналог класса std::unique_ptr.</h3>\n\n<pre><code class=\"language-cpp\">// Учебный вариант для одиночного объекта T (не для массива).\ntemplate&lt;class T&gt;\nclass unique_ptr {\nprivate:\n    T* m_ptr;\n\npublic:\n    explicit operator bool() const {\n        return m_ptr != nullptr;\n    }\n\n    explicit unique_ptr(T* ptr = nullptr) {\n        m_ptr = ptr;\n    }\n\n    // Деструктор позаботится об удалении указателя\n    ~unique_ptr() {\n         delete m_ptr;\n    }\n\n    // Конструктор перемещения, который передает право собственности на x.m_ptr в m_ptr\n    unique_ptr(unique_ptr&amp;&amp; x) {\n        m_ptr = x.m_ptr;\n        x.m_ptr = nullptr;\n    }\n\n    unique_ptr(const unique_ptr&amp; x) = delete;\n\n    unique_ptr&amp; operator=(const unique_ptr&amp; a) = delete;\n\n    // Оператор присваивания перемещением, который передает право собственности на x.m_ptr в m_ptr\n    unique_ptr&amp; operator=(unique_ptr&amp;&amp; x) {\n        // Проверка на самоприсваивание\n        if (&amp;x == this)\n            return *this;\n\n        // Удаляем всё, что к этому моменту может хранить указатель \n        delete m_ptr;\n\n        // Передаем право собственности на x.m_ptr в m_ptr\n        m_ptr = x.m_ptr;\n        x.m_ptr = nullptr; // мы поговорим об этом чуть позже\n\n        return *this;\n    }\n\n    T&amp; operator*() const {\n        return *m_ptr;\n    }\n\n    T* operator-&gt;() const {\n        return m_ptr;\n    }\n\n    bool isNull() const { \n        return m_ptr == nullptr;\n    }\n};\n</code></pre>",
     "video": null,
     "options": {},
     "subtitle_files": [],
@@ -45,7 +45,7 @@
   "user_step_vote": null,
   "step_issue": 3549258,
   "create_date": "2022-12-16T20:39:25Z",
-  "update_date": "2023-05-02T20:48:18Z",
+  "update_date": "2026-11-22T20:12:46Z",
   "discussions_count": 0,
   "discussion_proxy": "77-3570166-1",
   "discussion_threads": [

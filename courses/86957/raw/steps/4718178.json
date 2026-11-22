@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "choice",
-    "text": "<p>Какую концепцию использует преинкремент?</p>",
+    "text": "<p>Рассмотрите выражения <code>++x</code> и <code>x++</code> <strong>по отдельности</strong>, каждый раз начиная с <code>int x = 3;</code>. Какое утверждение верно?</p>",
     "video": null,
     "options": {
       "is_multiple_choice": false
@@ -49,7 +49,7 @@
   "user_step_vote": null,
   "step_issue": 4697275,
   "create_date": "2023-11-13T19:01:45Z",
-  "update_date": "2023-11-13T19:01:45Z",
+  "update_date": "2026-11-22T20:08:13Z",
   "discussions_count": 1,
   "discussion_proxy": "77-4718178-1",
   "discussion_threads": [

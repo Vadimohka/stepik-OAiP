@@ -32,7 +32,7 @@
         },
         {
           "is_correct": true,
-          "text": "fread/fwrite возвращают количество успешно прочитанных/записанных байт",
+          "text": "fread/fwrite возвращают количество полностью прочитанных/записанных элементов размером size байт каждый.",
           "feedback": "обратите внимание на API fread/fwrite"
         },
         {
@@ -51,13 +51,13 @@
           "feedback": "посмотрите, как использовать сразу несколько флагов"
         },
         {
-          "is_correct": true,
+          "is_correct": false,
           "text": "Программа 1 успешно создаст text.txt и запишет туда \"ABOBA\"",
           "feedback": "почитайте про флаги по умолчанию в fstream"
         },
         {
-          "is_correct": false,
-          "text": "Программа 1 не создаст text.txt. Нужен флаг std::fstream::out.",
+          "is_correct": true,
+          "text": "Программа 1 не создаст text.txt. Для создания можно открыть fstream с режимом std::ios::out либо std::ios::in | std::ios::out | std::ios::trunc.",
           "feedback": "почитайте про флаги по умолчанию в fstream"
         },
         {
@@ -113,7 +113,7 @@
   "user_step_vote": null,
   "step_issue": 3402899,
   "create_date": "2022-11-05T15:43:13Z",
-  "update_date": "2022-12-19T19:45:59Z",
+  "update_date": "2026-11-22T20:11:54Z",
   "discussions_count": 0,
   "discussion_proxy": "77-3423807-1",
   "discussion_threads": [
@@ -127,5 +127,5 @@
     "params": {}
   },
   "warnings": [],
-  "cost": 1
+  "cost": 0
 }

@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "choice",
-    "text": "<p>int** mat = new int[3];<br>\nfor (int i = 1; i &lt;= 3; ++i){<br>\n    mat[i] = new int[i];<br>\n}</p>\n\n<p>Выберите правильное утверждение.</p>",
+    "text": "<pre><code class=\"language-cpp\">int** mat = new int[3];\nfor (int i = 1; i &lt;= 3; ++i){\nmat[i] = new int[i];\n}</code></pre>\n\n<p>Выберите правильное утверждение.</p>",
     "video": null,
     "options": {
       "is_multiple_choice": false
@@ -49,7 +49,7 @@
   "user_step_vote": null,
   "step_issue": 3312857,
   "create_date": "2022-10-03T15:23:35Z",
-  "update_date": "2022-10-03T15:30:02Z",
+  "update_date": "2026-11-22T21:09:21Z",
   "discussions_count": 0,
   "discussion_proxy": "77-3333765-1",
   "discussion_threads": [

@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "choice",
-    "text": "<p>оператор подстрочного индекса используется для доступа к каким элементам?</p>",
+    "text": "<p>В выражении a[2], где a объявлен как int a[5]{}, к чему даёт доступ оператор индексирования []?</p>",
     "video": null,
     "options": {
       "is_multiple_choice": false
@@ -22,17 +22,17 @@
       "options": [
         {
           "is_correct": false,
-          "text": "строка",
+          "text": "К строке текста целиком",
           "feedback": ""
         },
         {
           "is_correct": true,
-          "text": "массив",
+          "text": "К одному элементу массива a",
           "feedback": ""
         },
         {
           "is_correct": false,
-          "text": "символ",
+          "text": "К имени переменной a как тексту",
           "feedback": ""
         },
         {
@@ -83,7 +83,7 @@
   "user_step_vote": null,
   "step_issue": 4697195,
   "create_date": "2023-11-13T18:47:26Z",
-  "update_date": "2023-11-13T18:47:26Z",
+  "update_date": "2026-11-22T21:09:10Z",
   "discussions_count": 1,
   "discussion_proxy": "77-4718098-1",
   "discussion_threads": [
@@ -97,5 +97,5 @@
     "params": {}
   },
   "warnings": [],
-  "cost": 1
+  "cost": 0
 }

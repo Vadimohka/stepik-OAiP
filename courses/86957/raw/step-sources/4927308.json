@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "code",
-    "text": "<p><strong>Магическим квадратом</strong> <strong>n-ного порядка</strong> называется квадратная числовая матрица размера <span class=\"math-tex\">\\(n \\times n\\)</span>, в которой <u>все числа различны</u>, такая, что сумма чисел на каждом её столбце равна сумме чисел на каждой её строке и равна сумме чисел на обеих диагоналях матрицы. Например, один из магических квадратов 3x3 имеет вид:</p>\n\n<pre><code>4 9 2\n3 5 7\n8 1 6</code></pre>\n\n<p>Выведите один из магических квадратов заданного порядка либо слово NO, если он не существует.</p>\n\n<p><em>Формат входных данных:</em> порядок квадрата (<span class=\"math-tex\">\\(1 \\leq n \\leq 1500\\)</span>)</p>\n\n<p><em>Формат выходных данных: </em>магический квадрат, где числа разделены пробелом и <u>каждый новый ряд начинается с новой строки.</u></p>\n\n<p>В тестовых примерах представлены варианты возможных магических квадратов. Система примет любой вывод являющийся ответом на задачу.</p>\n\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 500px;\">\n\t<caption>\n\t<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 600px;\">\n\t\t<thead>\n\t\t\t<tr>\n\t\t\t\t<th>Номер теста</th>\n\t\t\t\t<th>Пример входных данных</th>\n\t\t\t\t<th>Возможные выходные данные</th>\n\t\t\t</tr>\n\t\t</thead>\n\t\t<tbody>\n\t\t\t<tr>\n\t\t\t\t<td><strong>#1</strong></td>\n\t\t\t\t<td>1</td>\n\t\t\t\t<td>1</td>\n\t\t\t</tr>\n\t\t\t<tr>\n\t\t\t\t<td><strong>#2</strong></td>\n\t\t\t\t<td>2</td>\n\t\t\t\t<td>NO</td>\n\t\t\t</tr>\n\t\t\t<tr>\n\t\t\t\t<td><strong>#3</strong></td>\n\t\t\t\t<td>4</td>\n\t\t\t\t<td>\n\t\t\t\t<p>1 15 14 4</p>\n\n\t\t\t\t<p>12 6 7 9</p>\n\n\t\t\t\t<p>8 10 11 5</p>\n\n\t\t\t\t<p>13 3 2 16</p>\n\t\t\t\t</td>\n\t\t\t</tr>\n\t\t</tbody>\n\t</table>\n\t</caption>\n</table>",
+    "text": "<p><strong>Магический квадрат порядка n</strong> — квадратная матрица размера <code>n × n</code> из попарно различных <strong>целых</strong> чисел. Суммы во всех строках, во всех столбцах и на главной и побочной диагоналях должны быть одинаковыми. Например:</p>\n<pre><code>4 9 2\n3 5 7\n8 1 6</code></pre>\n<p>Выведите любой такой квадрат заданного порядка или <code>NO</code>, если он не существует. Использовать именно числа от 1 до n² не обязательно: принимается любой квадрат, удовлетворяющий данному определению.</p>\n<h4>Входные данные</h4>\n<p>Одно целое число <code>n</code>, <code>1 ≤ n ≤ 1500</code>.</p>\n<h4>Выходные данные</h4>\n<p>Выведите n строк по n целых чисел, разделённых пробелами, либо слово <code>NO</code>. Завершающий перевод строки допускается. Квадрат не обязан совпадать с образцом.</p>\n<table><thead><tr><th>Ввод</th><th>Один из возможных ответов</th></tr></thead><tbody>\n<tr><td>1</td><td><pre>1</pre></td></tr>\n<tr><td>2</td><td><pre>NO</pre></td></tr>\n<tr><td>4</td><td><pre>1 15 14 4\n12 6 7 9\n8 10 11 5\n13 3 2 16</pre></td></tr></tbody></table>\n",
     "video": null,
     "options": {
       "execution_time_limit": 2,
@@ -88,7 +88,7 @@
   "user_step_vote": null,
   "step_issue": 4906405,
   "create_date": "2023-12-25T10:28:32Z",
-  "update_date": "2024-01-02T14:51:01Z",
+  "update_date": "2026-11-22T21:09:10Z",
   "discussions_count": 2,
   "discussion_proxy": "77-4927308-1",
   "discussion_threads": [
@@ -102,5 +102,5 @@
     "params": {}
   },
   "warnings": [],
-  "cost": 1
+  "cost": 0
 }

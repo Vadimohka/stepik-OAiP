@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "choice",
-    "text": "<p>Выберите правильные утверждения.</p>",
+    "text": "<p>Выберите правильные утверждения для стандартного C++17. Каждый фрагмент рассматривается отдельно внутри функции; заголовки подключены, std::cin доступен.</p>",
     "video": null,
     "options": {
       "is_multiple_choice": true
@@ -49,7 +49,7 @@
   "user_step_vote": null,
   "step_issue": 3309622,
   "create_date": "2022-10-02T19:52:46Z",
-  "update_date": "2022-10-22T08:13:48Z",
+  "update_date": "2026-11-22T21:07:37Z",
   "discussions_count": 4,
   "discussion_proxy": "77-3330530-1",
   "discussion_threads": [

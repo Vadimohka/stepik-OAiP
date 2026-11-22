@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "choice",
-    "text": "<p>Выберите правильные утверждения</p>",
+    "text": "<p>Выберите правильные утверждения об обычной сборке программы на C++.</p>",
     "video": null,
     "options": {
       "is_multiple_choice": true
@@ -49,7 +49,7 @@
   "user_step_vote": null,
   "step_issue": 3152968,
   "create_date": "2022-07-31T19:46:56Z",
-  "update_date": "2023-11-13T16:29:39Z",
+  "update_date": "2026-11-22T19:59:28Z",
   "discussions_count": 10,
   "discussion_proxy": "77-3173876-1",
   "discussion_threads": [

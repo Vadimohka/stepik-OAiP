@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "choice",
-    "text": "<p>Значение переменной a после выполнения следующего кода будет равно:<br>\nchar a = 255;<br>\na++;</p>",
+    "text": "<p>Пусть <code>CHAR_BIT == 8</code>. Чему равно <strong>числовое значение</strong> a после выполнения кода?</p>\n\n<pre><code class=\"language-cpp\">unsigned char a = 255;\na++;</code></pre>",
     "video": null,
     "options": {
       "is_multiple_choice": false
@@ -18,7 +18,7 @@
       "sample_size": 4,
       "preserve_order": false,
       "is_html_enabled": true,
-      "is_options_feedback": false,
+      "is_options_feedback": true,
       "options": [
         {
           "is_correct": false,
@@ -28,7 +28,7 @@
         {
           "is_correct": true,
           "text": "0",
-          "feedback": ""
+          "feedback": "Преобразование результата в 8-битный unsigned char выполняется по модулю 256."
         },
         {
           "is_correct": false,
@@ -37,8 +37,8 @@
         },
         {
           "is_correct": false,
-          "text": "не определено",
-          "feedback": ""
+          "text": "Неопределённое поведение",
+          "feedback": "Для этого беззнакового преобразования поведение определено."
         }
       ]
     },
@@ -83,7 +83,7 @@
   "user_step_vote": null,
   "step_issue": 3266007,
   "create_date": "2022-09-13T20:41:09Z",
-  "update_date": "2022-09-19T18:16:23Z",
+  "update_date": "2026-11-22T20:07:01Z",
   "discussions_count": 0,
   "discussion_proxy": "77-3286915-1",
   "discussion_threads": [
@@ -97,5 +97,5 @@
     "params": {}
   },
   "warnings": [],
-  "cost": 1
+  "cost": 0
 }

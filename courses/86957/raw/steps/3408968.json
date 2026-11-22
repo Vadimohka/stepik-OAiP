@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "fill-blanks",
-    "text": "<p>Вводите только название функции, к примеру:</p>\n\n<p>Длину Си - строки можно получить с помощью: strlen</p>",
+    "text": "<p>В пунктах о функциях вводите имя рассмотренной функции стандартной библиотеки C без префикса std::, например:</p>\n\n<p>Длину C-строки можно получить с помощью: strlen</p>",
     "video": null,
     "options": {},
     "subtitle_files": [],
@@ -47,7 +47,7 @@
   "user_step_vote": null,
   "step_issue": 3388060,
   "create_date": "2022-11-01T20:22:24Z",
-  "update_date": "2023-11-18T12:20:23Z",
+  "update_date": "2026-11-22T21:06:14Z",
   "discussions_count": 1,
   "discussion_proxy": "77-3408968-1",
   "discussion_threads": [

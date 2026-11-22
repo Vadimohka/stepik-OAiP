@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "choice",
-    "text": "<p>double sizeFileA = 0;<br>\ndouble sizeFileB = 0;<br>\n// ...some code with setting sizes up...<br>\nint diff = sizeFileA - sizeFileB;</p>\n\n<p>Означает ли положительное значение diff то, что размер файла А больше, чем размер файла B.</p>",
+    "text": "<p>Даны конечные значения <code>double sizeFileA</code> и <code>double sizeFileB</code>. Их вычисленная разность конечна, а её целая часть после усечения к нулю представима типом int.</p>\n\n<pre><code class=\"language-cpp\">int diff = sizeFileA - sizeFileB;</code></pre><p>Если <code>diff &gt; 0</code>, следует ли из этого <code>sizeFileA &gt; sizeFileB</code>?</p>",
     "video": null,
     "options": {
       "is_multiple_choice": false
@@ -49,7 +49,7 @@
   "user_step_vote": null,
   "step_issue": 3275914,
   "create_date": "2022-09-18T19:07:34Z",
-  "update_date": "2026-01-30T17:56:18Z",
+  "update_date": "2026-11-22T20:07:06Z",
   "discussions_count": 0,
   "discussion_proxy": "77-3296822-1",
   "discussion_threads": [

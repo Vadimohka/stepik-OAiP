@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "choice",
-    "text": "<p>Выберите правильные утвреждения</p>",
+    "text": "<p>Выберите правильные утверждения. Считайте, что a — инициализированная переменная типа int.</p>",
     "video": null,
     "options": {
       "is_multiple_choice": true
@@ -49,7 +49,7 @@
   "user_step_vote": null,
   "step_issue": 3265984,
   "create_date": "2022-09-13T20:33:38Z",
-  "update_date": "2022-09-19T18:16:22Z",
+  "update_date": "2026-11-22T21:06:55Z",
   "discussions_count": 4,
   "discussion_proxy": "77-3286892-1",
   "discussion_threads": [

@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "choice",
-    "text": "<p>Как осуществляется доступ к последовательности объектов в C++?</p>",
+    "text": "<p>Какие два средства в C++ поддерживают последовательный обход элементов: одно — по адресам элементов массива, другое — через интерфейс контейнера?</p>",
     "video": null,
     "options": {
       "is_multiple_choice": false
@@ -49,7 +49,7 @@
   "user_step_vote": null,
   "step_issue": 4696827,
   "create_date": "2023-11-13T16:49:13Z",
-  "update_date": "2023-11-13T16:49:13Z",
+  "update_date": "2026-11-22T21:10:10Z",
   "discussions_count": 2,
   "discussion_proxy": "77-4717730-1",
   "discussion_threads": [

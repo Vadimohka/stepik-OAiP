@@ -42,7 +42,7 @@
         },
         {
           "is_correct": true,
-          "text": "default - необязательная часть swith case.",
+          "text": "default — необязательная часть switch case.",
           "feedback": "Лучше лишний раз перестраховаться при использовании switch case."
         },
         {
@@ -98,7 +98,7 @@
   "user_step_vote": null,
   "step_issue": 3272735,
   "create_date": "2022-09-16T18:38:22Z",
-  "update_date": "2022-09-16T18:59:03Z",
+  "update_date": "2026-11-22T21:06:55Z",
   "discussions_count": 0,
   "discussion_proxy": "77-3293643-1",
   "discussion_threads": [
@@ -112,5 +112,5 @@
     "params": {}
   },
   "warnings": [],
-  "cost": 1
+  "cost": 0
 }

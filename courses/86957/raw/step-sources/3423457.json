@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "choice",
-    "text": "<p>Выберите верные утверждения.</p>\n\n<p>Программа 1.</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;string&gt;\n\nconst char* printer() {\n    std::string s1 = \"aboba\";\n\n    std::cout &lt;&lt; s1 &lt;&lt; '\\n';\n\n    return s1.c_str();\n}\n\nint main() {\n    const char* s1 = printer();\n    std::cout &lt;&lt; s1 &lt;&lt; '\\n';\n\n    return 0;\n}\n\n</code></pre>\n\n<p>Программа 2.</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;string&gt;\n\nvoid stringIntPrinter(const std::string&amp; s) {\n    for (int i = 0; i &lt; s.length() - 1; i++) {\n        std::cout &lt;&lt; static_cast&lt;int&gt;(s[i]) &lt;&lt; ' ';\n    }\n    std::cout &lt;&lt; '\\n';\n}\n\nint main() {\n    std::string s0, s1 = \"Hello\";\n    stringIntPrinter(s1);\n    stringIntPrinter(s0);\n\n    return 0;\n}\n\n</code></pre>\n\n<p>Программа 3.</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;string&gt;\n\nint main() {\n    std::string s0 = \"a\", s1 = \"boba\";\n    s0 = s0 + s1;\n    std::cout &lt;&lt; s0;\n\n    return 0;\n}\n\n</code></pre>",
+    "text": "<p>Выберите верные утверждения для C++17. Ошибочные программы приведены для анализа, выполнять их не требуется.</p>\n\n<p>Программа 1.</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;string&gt;\n\nconst char* printer() {\n    std::string s1 = \"aboba\";\n\n    std::cout &lt;&lt; s1 &lt;&lt; '\\n';\n\n    return s1.c_str();\n}\n\nint main() {\n    const char* s1 = printer();\n    std::cout &lt;&lt; s1 &lt;&lt; '\\n';\n\n    return 0;\n}\n\n</code></pre>\n\n<p>Программа 2.</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;string&gt;\n\nvoid stringIntPrinter(const std::string&amp; s) {\n    for (int i = 0; i &lt; s.length() - 1; i++) {\n        std::cout &lt;&lt; static_cast&lt;int&gt;(s[i]) &lt;&lt; ' ';\n    }\n    std::cout &lt;&lt; '\\n';\n}\n\nint main() {\n    std::string s0, s1 = \"Hello\";\n    stringIntPrinter(s1);\n    stringIntPrinter(s0);\n\n    return 0;\n}\n\n</code></pre>\n\n<p>Программа 3.</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;string&gt;\n\nint main() {\n    std::string s0 = \"a\", s1 = \"boba\";\n    s0 = s0 + s1;\n    std::cout &lt;&lt; s0;\n\n    return 0;\n}\n\n</code></pre>",
     "video": null,
     "options": {
       "is_multiple_choice": true
@@ -27,7 +27,7 @@
         },
         {
           "is_correct": true,
-          "text": "Программа 1 некорректна. UB - вернули указатель на освобожденную память.",
+          "text": "Программа 1 некорректна: после выхода из printer строка s1 уничтожена; последующее чтение через возвращённый c_str() в main имеет неопределённое поведение.",
           "feedback": "подробнее ознакомьтесь, что возвращает c_str"
         },
         {
@@ -52,7 +52,7 @@
         },
         {
           "is_correct": true,
-          "text": "Программа 2 некорректна. UB из-за доступа к не выделенной памяти (SIGSEGV, например).",
+          "text": "Программа 2 некорректна: у пустой строки length() - 1 даёт максимальное беззнаковое значение, и цикл затем выходит за допустимые границы; возникает неопределённое поведение.",
           "feedback": "почитайте про перегрузку [] в string"
         },
         {
@@ -67,7 +67,7 @@
         },
         {
           "is_correct": true,
-          "text": "size и length идентичны (synonyms)",
+          "text": "Для std::string методы size() и length() возвращают одинаковое число элементов char.",
           "feedback": "почитайте про size и length"
         }
       ]
@@ -113,7 +113,7 @@
   "user_step_vote": null,
   "step_issue": 3402549,
   "create_date": "2022-11-05T14:32:52Z",
-  "update_date": "2022-11-05T14:34:30Z",
+  "update_date": "2026-11-22T21:06:39Z",
   "discussions_count": 1,
   "discussion_proxy": "77-3423457-1",
   "discussion_threads": [
@@ -127,5 +127,5 @@
     "params": {}
   },
   "warnings": [],
-  "cost": 1
+  "cost": 0
 }

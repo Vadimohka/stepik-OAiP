@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "code",
-    "text": "<p>На вход даны а1 и a100, первый и сотый член арифметической прогрессии. Необходимо вычислить:</p>\n\n<ol>\n\t<li>Разность арифметической прогрессии.</li>\n\t<li>Сумму первых 70 членов арифметической прогрессии.</li>\n</ol>\n\n<p>Формат ввода:</p>\n\n<p>В первых двух строках вводятся первый и сотый член арифметической прогрессии.</p>\n\n<p>Формат вывода:</p>\n\n<p>В первой строку выведите разность арифметической прогрессии, во второй строке сумму первых 70 членов арифметической прогрессии.</p>\n\n<p>Используйте библиотеку <code>&lt;iomanip&gt;</code> и функцию <code>setprecision(10)</code>. </p>",
+    "text": "<p>Даны первый и сотый члены арифметической прогрессии <code>a₁</code> и <code>a₁₀₀</code>. Найдите разность прогрессии и сумму её первых 70 членов.</p>\n<h4>Входные данные</h4>\n<p>В двух строках вводятся конечные вещественные числа <code>a₁</code> и <code>a₁₀₀</code>; их модули не превышают <code>10<sup>12</sup></code>.</p>\n<h4>Выходные данные</h4>\n<p>В первой строке выведите разность прогрессии, во второй — сумму первых 70 членов. Для каждого числа допускается погрешность <code>|ответ − эталон| ≤ max(10<sup>−9</sup>, 10<sup>−9</sup> · |эталон|)</code>.</p>\n<p>Можно использовать манипулятор <code>std::setprecision(10)</code> из заголовка <code>&lt;iomanip&gt;</code> или большую точность. Проверяются числовые значения; пробельные разделители и форма записи чисел не влияют на результат.</p>\n",
     "video": null,
     "options": {
       "execution_time_limit": 5,
@@ -37,7 +37,7 @@
     "subtitle_files": [],
     "is_deprecated": false,
     "source": {
-      "code": "# This is a sample Code Challenge\n# Learn more: https://stepik.org/lesson/9173\n# Ask your questions via support@stepik.org\n\ndef generate():\n    return []\n\ndef check(reply, clue):\n    return reply.strip() == clue.strip()\n\n# def solve(dataset):\n#     a, b = dataset.split()\n#     return str(int(a) + int(b))",
+      "code": "from decimal import Decimal, DecimalException, localcontext\nimport re\n\ndef generate():\n    return []\n\ndef check(reply, clue):\n    answer = reply.split()\n    expected = clue.split()\n    if len(answer) != 2 or len(expected) != 2:\n        return False\n    number = r\"[+-]?(?:[0-9]+(?:\\.[0-9]*)?|\\.[0-9]+)(?:[eE][+-]?[0-9]+)?\"\n    if any(re.fullmatch(number, token) is None for token in answer):\n        return False\n    try:\n        with localcontext() as ctx:\n            ctx.prec = 60\n            tolerance = Decimal(\"1e-9\")\n            for actual, target in zip(answer, expected):\n                actual, target = Decimal(actual), Decimal(target)\n                if not actual.is_finite() or not target.is_finite():\n                    return False\n                if abs(actual - target) > max(tolerance, tolerance * abs(target)):\n                    return False\n    except (DecimalException, ValueError):\n        return False\n    return True\n",
       "execution_time_limit": 5,
       "execution_memory_limit": 256,
       "samples_count": 1,
@@ -55,15 +55,27 @@
         ],
         [
           "12513535\n135312513551",
-          "1366666667\n3.301375948e+12"
+          "1366666666.8282828282828282828282828\n3301375947840.3030303030303030303030"
         ],
         [
           "-12515\n-2151351325",
-          "-21730695.05\n-5.24805046e+10"
+          "-21730695.050505050505050505050505051\n-52480504596.969696969696969696969697"
         ],
         [
           "1\n34",
-          "0.3333333333\n875"
+          "0.33333333333333333333333333333333333\n875.00000000000000000000000000000000"
+        ],
+        [
+          "0\n0",
+          "0\n0"
+        ],
+        [
+          "7.5\n7.5",
+          "0.0\n525.0"
+        ],
+        [
+          "99\n-99",
+          "-2\n2100"
         ]
       ]
     },
@@ -108,7 +120,7 @@
   "user_step_vote": null,
   "step_issue": 3241827,
   "create_date": "2022-09-05T18:53:34Z",
-  "update_date": "2023-09-12T08:58:50Z",
+  "update_date": "2026-11-22T21:06:01Z",
   "discussions_count": 2,
   "discussion_proxy": "77-3262735-1",
   "discussion_threads": [
@@ -122,5 +134,5 @@
     "params": {}
   },
   "warnings": [],
-  "cost": 1
+  "cost": 0
 }

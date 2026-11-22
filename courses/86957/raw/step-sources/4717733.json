@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "choice",
-    "text": "<p>Из каких частей состоят литеральные константы?</p>",
+    "text": "<p>Какой вариант охватывает все перечисленные ниже категории литералов C++?</p>",
     "video": null,
     "options": {
       "is_multiple_choice": false
@@ -22,22 +22,22 @@
       "options": [
         {
           "is_correct": false,
-          "text": "строки и логические значения",
+          "text": "Строковые и логические литералы",
           "feedback": ""
         },
         {
           "is_correct": true,
-          "text": "Все перечисленное",
+          "text": "Все перечисленные категории",
           "feedback": ""
         },
         {
           "is_correct": false,
-          "text": "целочисленные числа",
+          "text": "Целочисленные литералы",
           "feedback": ""
         },
         {
           "is_correct": false,
-          "text": "цифры с плавающей запятой",
+          "text": "Литералы с плавающей точкой",
           "feedback": ""
         }
       ]
@@ -83,7 +83,7 @@
   "user_step_vote": null,
   "step_issue": 4696830,
   "create_date": "2023-11-13T16:50:38Z",
-  "update_date": "2023-11-13T16:50:38Z",
+  "update_date": "2026-11-22T21:07:34Z",
   "discussions_count": 0,
   "discussion_proxy": "77-4717733-1",
   "discussion_threads": [
@@ -97,5 +97,5 @@
     "params": {}
   },
   "warnings": [],
-  "cost": 1
+  "cost": 0
 }

@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "choice",
-    "text": "<p>Фигурные скобки в операторе switch всегда необходимы т.к.</p>",
+    "text": "<p>Какое утверждение о switch верно?</p>",
     "video": null,
     "options": {
       "is_multiple_choice": false
@@ -18,26 +18,26 @@
       "sample_size": 4,
       "preserve_order": false,
       "is_html_enabled": true,
-      "is_options_feedback": false,
+      "is_options_feedback": true,
       "options": [
         {
           "is_correct": true,
-          "text": "в switch как минимум должно быть два переключателя (case)",
+          "text": "Метки case могут отсутствовать; метка default также необязательна.",
           "feedback": ""
         },
         {
           "is_correct": false,
-          "text": "Значение переменной равно одному из значений  в строке с оператором case",
+          "text": "В любом switch должно быть не менее двух меток case.",
           "feedback": ""
         },
         {
           "is_correct": false,
-          "text": "если ни один из case не истинен, то управление передается ветке — default",
-          "feedback": ""
+          "text": "Стандарт всегда требует фигурные скобки после условия switch.",
+          "feedback": "Синтаксис допускает одну инструкцию; в обычном коде блок используют для нескольких меток и инструкций."
         },
         {
           "is_correct": false,
-          "text": "case-веток может быть неограниченное количество",
+          "text": "Если совпадающего case нет, отсутствие default является ошибкой компиляции.",
           "feedback": ""
         }
       ]
@@ -83,7 +83,7 @@
   "user_step_vote": null,
   "step_issue": 3373693,
   "create_date": "2022-10-27T06:26:13Z",
-  "update_date": "2022-10-27T06:26:13Z",
+  "update_date": "2026-11-22T20:07:49Z",
   "discussions_count": 1,
   "discussion_proxy": "77-3394601-1",
   "discussion_threads": [
@@ -97,5 +97,5 @@
     "params": {}
   },
   "warnings": [],
-  "cost": 1
+  "cost": 0
 }

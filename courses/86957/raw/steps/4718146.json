@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "choice",
-    "text": "<p>Что используется для разыменования?</p>",
+    "text": "<p>Как записать разыменование указателя p на существующий объект?</p>",
     "video": null,
     "options": {
       "is_multiple_choice": false
@@ -49,7 +49,7 @@
   "user_step_vote": null,
   "step_issue": 4697243,
   "create_date": "2023-11-13T18:57:11Z",
-  "update_date": "2023-11-13T18:57:11Z",
+  "update_date": "2026-11-22T21:10:10Z",
   "discussions_count": 0,
   "discussion_proxy": "77-4718146-1",
   "discussion_threads": [

@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "choice",
-    "text": "<p>Выберите верные утверждения.</p>\n\n<p>Программа 1.</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;string&gt;\n\ntypedef struct inner {\n    int f;\n    int g;\n} inner;\n\ntypedef struct s1 {\n    int x;\n    int y;\n    inner in;\n    char* z;\n} s1;\n\nvoid printer(inner* inner1) {\n    std::cout &lt;&lt; inner1.f &lt;&lt; \" \" &lt;&lt; inner1.g &lt;&lt; '\\n';\n}\n\nint main() {\n    s1* points = new s1[5];\n    int x[3] =  {100, 200, 300};\n    points[0] = {1, 1, 3, 4, new char[7]};\n    points[1] = (*(s1*)(x));\n\n    std::cout &lt;&lt; points[0].x &lt;&lt; \" \" &lt;&lt; points[0].y &lt;&lt; \" \" &lt;&lt; points[0].in.f &lt;&lt; \" \" &lt;&lt; points[0].in.g &lt;&lt; '\\n';\n    printer(&amp;points[1].in);\n\n    delete[] points;\n    return 0;\n}\n</code></pre>",
+    "text": "<p>Выберите верные утверждения об отдельных фрагментах программы. Если найденная ошибка мешает компиляции, остальные строки оценивайте после её исправления.</p>\n\n<p>Программа 1.</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;string&gt;\n\ntypedef struct inner {\n    int f;\n    int g;\n} inner;\n\ntypedef struct s1 {\n    int x;\n    int y;\n    inner in;\n    char* z;\n} s1;\n\nvoid printer(inner* inner1) {\n    std::cout &lt;&lt; inner1.f &lt;&lt; \" \" &lt;&lt; inner1.g &lt;&lt; '\\n';\n}\n\nint main() {\n    s1* points = new s1[5];\n    int x[3] =  {100, 200, 300};\n    points[0] = {1, 1, 3, 4, new char[7]};\n    points[1] = (*(s1*)(x));\n\n    std::cout &lt;&lt; points[0].x &lt;&lt; \" \" &lt;&lt; points[0].y &lt;&lt; \" \" &lt;&lt; points[0].in.f &lt;&lt; \" \" &lt;&lt; points[0].in.g &lt;&lt; '\\n';\n    printer(&amp;points[1].in);\n\n    delete[] points;\n    return 0;\n}\n</code></pre>",
     "video": null,
     "options": {
       "is_multiple_choice": true
@@ -49,7 +49,7 @@
   "user_step_vote": null,
   "step_issue": 3405071,
   "create_date": "2022-11-06T12:13:46Z",
-  "update_date": "2022-11-06T12:13:46Z",
+  "update_date": "2026-11-22T21:07:30Z",
   "discussions_count": 0,
   "discussion_proxy": "77-3425979-1",
   "discussion_threads": [

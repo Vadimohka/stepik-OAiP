@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "choice",
-    "text": "<p>Выберите правильные утвреждения</p>",
+    "text": "<p>Выберите правильные утверждения для <strong>C++20 при CHAR_BIT = 8</strong>. В преобразованиях ниже используется явно заданный тип <code>signed char</code>, а не обычный char.</p>",
     "video": null,
     "options": {
       "is_multiple_choice": true
@@ -18,32 +18,32 @@
       "sample_size": 5,
       "preserve_order": false,
       "is_html_enabled": true,
-      "is_options_feedback": false,
+      "is_options_feedback": true,
       "options": [
         {
           "is_correct": false,
-          "text": "double(3/2) - результат будет иметь тип double и значение 1.5",
-          "feedback": ""
+          "text": "double(3 / 2) имеет тип double и значение 1.5.",
+          "feedback": "Сначала выполняется целочисленное деление 3/2, дающее 1."
         },
         {
           "is_correct": false,
-          "text": "(double)(int)(double)3/2 - результат будет иметь тип double и значение 1",
-          "feedback": ""
+          "text": "(double)(int)(double)3 / 2 имеет тип double и значение 1.",
+          "feedback": "Левый операнд перед делением снова имеет тип double, поэтому результат 1.5."
         },
         {
           "is_correct": true,
-          "text": "(char)256L - эквивалетно false",
-          "feedback": ""
+          "text": "static_cast&lt;signed char&gt;(256L) равно 0.",
+          "feedback": "В C++20 результат целочисленного преобразования сравним с исходным по модулю 2^8."
         },
         {
           "is_correct": true,
-          "text": "(сhar)0b11111111 равно -1",
-          "feedback": ""
+          "text": "static_cast&lt;signed char&gt;(0b11111111) равно -1.",
+          "feedback": "При заданных условиях 255 преобразуется в -1."
         },
         {
           "is_correct": false,
-          "text": "double a = 1L - опасное выражение",
-          "feedback": ""
+          "text": "При double a = 1L; значение 1 невозможно представить точно.",
+          "feedback": "Единица представима точно."
         }
       ]
     },
@@ -88,7 +88,7 @@
   "user_step_vote": null,
   "step_issue": 3275949,
   "create_date": "2022-09-18T19:39:55Z",
-  "update_date": "2026-01-30T17:56:18Z",
+  "update_date": "2026-11-22T20:07:11Z",
   "discussions_count": 1,
   "discussion_proxy": "77-3296857-1",
   "discussion_threads": [
@@ -102,5 +102,5 @@
     "params": {}
   },
   "warnings": [],
-  "cost": 1
+  "cost": 0
 }

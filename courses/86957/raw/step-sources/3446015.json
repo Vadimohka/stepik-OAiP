@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "code",
-    "text": "<p>Анаграммой слова называется любая перестановка всех букв слова. Например, из слова <strong>SOLO</strong> можно получить <strong>12</strong> анаграмм: <strong>SOLO</strong>, <strong>LOSO</strong>, <strong>OSLO</strong>, <strong>OLSO</strong>, <strong>OSOL</strong>, <strong>OLOS</strong>, <strong>SLOO</strong>, <strong>LSOO</strong>, <strong>OOLS</strong>, <strong>OOSL</strong>, <strong>LOOS</strong>, <strong>SOOL</strong>.</p>\n\n<p>Напишите программу, которая выводит количество различных анаграмм, которые могут получиться из этого слова.</p>\n\n<h4>Входные данные</h4>\n\n<p>Слово, количество букв в котором не превышает <strong>14</strong>.</p>\n\n<h4>Выходные данные</h4>\n\n<p>Количество различных анаграмм.</p>",
+    "text": "<p>Анаграммой слова называется любая перестановка всех букв слова. Например, из слова <strong>SOLO</strong> можно получить <strong>12</strong> анаграмм: <strong>SOLO</strong>, <strong>LOSO</strong>, <strong>OSLO</strong>, <strong>OLSO</strong>, <strong>OSOL</strong>, <strong>OLOS</strong>, <strong>SLOO</strong>, <strong>LSOO</strong>, <strong>OOLS</strong>, <strong>OOSL</strong>, <strong>LOOS</strong>, <strong>SOOL</strong>.</p>\n\n<p>Напишите программу, которая выводит количество различных анаграмм, которые могут получиться из этого слова.</p>\n\n<h4>Входные данные</h4>\n\n<p>Непустое слово длиной не более <strong>14</strong> букв латинского алфавита. Заглавные и строчные буквы считаются различными символами.</p>\n\n<h4>Выходные данные</h4>\n\n<p>Количество различных анаграмм.</p>",
     "video": null,
     "options": {
       "execution_time_limit": 1,
@@ -76,6 +76,10 @@
         [
           "abcdefghijklmn",
           "87178291200"
+        ],
+        [
+          "Aa",
+          "2"
         ]
       ],
       "are_all_tests_run": false,
@@ -122,7 +126,7 @@
   "user_step_vote": null,
   "step_issue": 3425107,
   "create_date": "2022-11-12T19:54:49Z",
-  "update_date": "2022-11-12T19:55:47Z",
+  "update_date": "2026-11-22T21:07:02Z",
   "discussions_count": 2,
   "discussion_proxy": "77-3446015-1",
   "discussion_threads": [
@@ -136,5 +140,5 @@
     "params": {}
   },
   "warnings": [],
-  "cost": 1
+  "cost": 0
 }

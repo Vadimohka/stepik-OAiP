@@ -18,31 +18,31 @@
       "sample_size": 5,
       "preserve_order": false,
       "is_html_enabled": true,
-      "is_options_feedback": false,
+      "is_options_feedback": true,
       "options": [
         {
-          "is_correct": false,
-          "text": "С большего ничем",
-          "feedback": ""
-        },
-        {
           "is_correct": true,
-          "text": "break выходит из текущего блока кода, а continue переходит к следующей итерации",
+          "text": "break завершает ближайший охватывающий цикл или switch; continue завершает текущую итерацию ближайшего охватывающего цикла.",
           "feedback": ""
         },
         {
           "is_correct": false,
-          "text": "continue выходит из текущего блока кода, а break переходит к следующей итерации",
+          "text": "break завершает любой ближайший блок в фигурных скобках, даже отдельный блок if.",
           "feedback": ""
         },
         {
           "is_correct": false,
-          "text": "break выходит из текущего блока кода, а continue переходит к следующему блоку кода",
+          "text": "continue всегда завершает функцию.",
           "feedback": ""
         },
         {
           "is_correct": false,
-          "text": "continue выходит из текущего блока кода, а break переходит к следующему блоку кода",
+          "text": "break и continue всегда выполняют одинаковое действие.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "continue можно использовать в switch вне какого-либо цикла.",
           "feedback": ""
         }
       ]
@@ -88,7 +88,7 @@
   "user_step_vote": null,
   "step_issue": 3373712,
   "create_date": "2022-10-27T06:29:33Z",
-  "update_date": "2022-10-27T06:29:33Z",
+  "update_date": "2026-11-22T20:07:54Z",
   "discussions_count": 0,
   "discussion_proxy": "77-3394620-1",
   "discussion_threads": [
@@ -102,5 +102,5 @@
     "params": {}
   },
   "warnings": [],
-  "cost": 1
+  "cost": 0
 }

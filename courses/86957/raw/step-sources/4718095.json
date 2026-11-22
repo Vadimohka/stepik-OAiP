@@ -27,7 +27,7 @@
         },
         {
           "is_correct": true,
-          "text": "typedef не создает разные типы.Он создает только синонимы существующих типов.",
+          "text": "typedef не создаёт новый тип. Он вводит псевдоним существующего типа.",
           "feedback": ""
         },
         {
@@ -83,7 +83,7 @@
   "user_step_vote": null,
   "step_issue": 4697192,
   "create_date": "2023-11-13T18:46:54Z",
-  "update_date": "2023-11-16T15:41:59Z",
+  "update_date": "2026-11-22T21:07:45Z",
   "discussions_count": 1,
   "discussion_proxy": "77-4718095-1",
   "discussion_threads": [
@@ -97,5 +97,5 @@
     "params": {}
   },
   "warnings": [],
-  "cost": 1
+  "cost": 0
 }

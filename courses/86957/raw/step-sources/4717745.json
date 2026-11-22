@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "choice",
-    "text": "<p>Какие типы переменной неправильные в C ++?</p>",
+    "text": "<p>Какие записи <strong>не являются полными именами встроенных типов C++</strong>? Пользовательские типы и псевдонимы с такими именами не объявлены.</p>",
     "video": null,
     "options": {
       "is_multiple_choice": true
@@ -18,7 +18,7 @@
       "sample_size": 10,
       "preserve_order": false,
       "is_html_enabled": true,
-      "is_options_feedback": false,
+      "is_options_feedback": true,
       "options": [
         {
           "is_correct": false,
@@ -43,7 +43,7 @@
         {
           "is_correct": true,
           "text": "const",
-          "feedback": ""
+          "feedback": "const — квалификатор; отдельно он не задаёт тип."
         },
         {
           "is_correct": true,
@@ -58,17 +58,17 @@
         {
           "is_correct": true,
           "text": "typedef",
-          "feedback": ""
+          "feedback": "typedef используется в объявлении псевдонима."
         },
         {
           "is_correct": true,
           "text": "array",
-          "feedback": ""
+          "feedback": "Это не имя встроенного типа C++; std::array — шаблон стандартной библиотеки."
         },
         {
-          "is_correct": false,
+          "is_correct": true,
           "text": "long float",
-          "feedback": ""
+          "feedback": "Такого сочетания спецификаторов типа в C++ нет; существует long double."
         }
       ]
     },
@@ -113,7 +113,7 @@
   "user_step_vote": null,
   "step_issue": 4696842,
   "create_date": "2023-11-13T16:53:05Z",
-  "update_date": "2023-11-13T16:53:06Z",
+  "update_date": "2026-11-22T20:06:57Z",
   "discussions_count": 5,
   "discussion_proxy": "77-4717745-1",
   "discussion_threads": [
@@ -127,5 +127,5 @@
     "params": {}
   },
   "warnings": [],
-  "cost": 1
+  "cost": 0
 }

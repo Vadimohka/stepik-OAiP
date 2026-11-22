@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "code",
-    "text": "<p>Составить программу используя условный оператор <strong>if:</strong></p>\n\n<p><img alt=\"\" height=\"80\" name=\"st.png\" src=\"https://ucarecdn.stepik.net/207f1574-d689-45a0-9ec4-5bc4e2180453/\" width=\"274\"></p>\n\n<p>При математических ошибках выводите \"ERROR\".</p>\n\n<p>Для вывода используйте библиотеку <code>&lt;iomanip&gt;</code> и <code>setprecision(20)</code></p>",
+    "text": "<p>Используя условный оператор <code>if</code>, вычислите значение функции:</p>\n<table><thead><tr><th>Условие</th><th>Значение</th></tr></thead><tbody>\n<tr><td>c ≥ d и a &lt; d</td><td>a + b / c</td></tr>\n<tr><td>c &lt; d и a ≥ d</td><td>a − b / c</td></tr>\n<tr><td>Все остальные случаи</td><td>0</td></tr></tbody></table>\n<h3>Входные данные</h3>\n<p>Четыре конечных вещественных числа в порядке a, b, c, d. Их модули не превышают 10<sup>6</sup>; c равно нулю либо |c| ≥ 10<sup>−12</sup>.</p>\n<h3>Выходные данные</h3>\n<p>Сначала выберите ветвь функции. Если в выбранной ветви требуется делить на c = 0, выведите <code>ERROR</code>. В ветви «все остальные случаи» результат равен 0, даже если c = 0: деление в этой ветви не выполняется.</p>\n<p>Для числового результата допустима погрешность |ответ − эталон| ≤ max(10<sup>−9</sup>, 10<sup>−12</sup> · |эталон|). Для вывода можно использовать <code>&lt;iomanip&gt;</code> и <code>std::setprecision(20)</code>; проверка сравнивает числа, а не буквальное написание ответа.</p>",
     "video": null,
     "options": {
       "execution_time_limit": 5,
@@ -73,7 +73,7 @@
   "user_step_vote": null,
   "step_issue": 3259819,
   "create_date": "2022-09-11T13:04:07Z",
-  "update_date": "2022-09-11T13:05:13Z",
+  "update_date": "2026-11-22T20:07:30Z",
   "discussions_count": 4,
   "discussion_proxy": "77-3280727-1",
   "discussion_threads": [

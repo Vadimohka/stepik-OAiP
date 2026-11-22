@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "fill-blanks",
-    "text": "<p>Вводите размеры в байтах, только число.</p>\n\n<p>Структура 1.</p>\n\n<pre><code class=\"language-cpp\">typedef struct inner {\n    bool x;\n    char z;\n    int y;\n} inner;</code></pre>\n\n<p>Структура 2.</p>\n\n<pre><code class=\"language-cpp\">#pragma pack(2)\nstruct T {\n    int i;\n    short j;\n    double k;\n    inner in;\n};</code></pre>",
+    "text": "<p>Вводите размеры в байтах, только число. Используем обычное размещение MSVC x64 или GCC x86-64 при следующих условиях: sizeof/alignof(bool) = 1/1, char = 1/1, short = 2/2, int = 4/4, double = 8/8. Поля располагаются по порядку с минимальным заполнением для выравнивания, размер структуры округляется до кратного её выравниванию. inner определяется при обычной упаковке; только T определяется с ограничением выравнивания полей до 2 байт. Изменять типы, упаковку и вложенность нельзя; в заданиях о минимуме можно лишь переставлять указанные поля.</p>\n\n<p>Структура 1.</p>\n\n<pre><code class=\"language-cpp\">typedef struct inner {\n    bool x;\n    char z;\n    int y;\n} inner;</code></pre>\n\n<p>Структура 2.</p>\n\n<pre><code class=\"language-cpp\">#pragma pack(push, 2)\nstruct T {\n    int i;\n    short j;\n    double k;\n    inner in;\n};\n#pragma pack(pop)</code></pre>",
     "video": null,
     "options": {},
     "subtitle_files": [],
@@ -47,7 +47,7 @@
   "user_step_vote": null,
   "step_issue": 3405095,
   "create_date": "2022-11-06T12:24:39Z",
-  "update_date": "2024-11-04T06:38:18Z",
+  "update_date": "2026-11-22T20:12:08Z",
   "discussions_count": 1,
   "discussion_proxy": "77-3426003-1",
   "discussion_threads": [

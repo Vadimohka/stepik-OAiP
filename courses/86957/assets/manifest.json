@@ -1,15 +1,13 @@
 {
   "schema_version": 1,
   "course_id": 86957,
-  "generated_at": "2026-11-22T18:38:59Z",
-  "status": "partial",
+  "generated_at": "2026-11-22T21:11:51Z",
+  "status": "complete",
   "maximum_file_size": 99614720,
   "selection": "Highest-quality video variant; all original variants remain in raw JSON.",
   "summary": {
-    "downloaded": 189,
-    "variant_omitted": 6,
-    "failed": 1,
-    "external": 4
+    "downloaded": 168,
+    "variant_omitted": 6
   },
   "assets": [
     {
@@ -1471,38 +1469,6 @@
       "cache_hit": false
     },
     {
-      "url": "https://ucarecdn.stepik.net/f172a20d-ecdb-4ef1-bfa0-a7b79f3bd3c5/",
-      "url_sha256": "ac27963db0072c6df9c02e724c0ab971bc6dc82c9944fff823a889219d872641",
-      "original_urls": [
-        "https://ucarecdn.stepik.net/f172a20d-ecdb-4ef1-bfa0-a7b79f3bd3c5/"
-      ],
-      "kinds": [
-        "image"
-      ],
-      "origins": [
-        {
-          "resource": "steps",
-          "id": 3215254,
-          "raw_path": "raw/steps/3215254.json",
-          "field": "block.text"
-        },
-        {
-          "resource": "step-sources",
-          "id": 3215254,
-          "raw_path": "raw/step-sources/3215254.json",
-          "field": "block.text"
-        }
-      ],
-      "selected": true,
-      "status": "downloaded",
-      "local_path": "assets/ac27963db0072c6df9c02e724c0ab971bc6dc82c9944fff823a889219d872641.png",
-      "sha256": "84b4c9cb1b0a621a950903ea4c6821649f0c6d72963e4ccb06be095859649acc",
-      "size": 352675,
-      "mime": "image/png",
-      "final_url": "https://ucarecdn.stepik.net/f172a20d-ecdb-4ef1-bfa0-a7b79f3bd3c5/",
-      "cache_hit": false
-    },
-    {
       "url": "https://ucarecdn.stepik.net/ffaa0a01-580f-43ae-8a94-25e4ee1765d3/-/crop/6296x3799/0,642/-/preview/",
       "url_sha256": "ce58777c05c6a7ded1774c6357e4895c3380894ae6c6491104008773f128dbcf",
       "original_urls": [
@@ -2127,70 +2093,6 @@
       "cache_hit": false
     },
     {
-      "url": "https://ucarecdn.stepik.net/4c485d22-c15e-4496-9a62-43b574e80613/",
-      "url_sha256": "f5d40c32fc0fef680e10a4a42fec51ddee28cd9f71b5f6e2063b276999699d1e",
-      "original_urls": [
-        "https://ucarecdn.stepik.net/4c485d22-c15e-4496-9a62-43b574e80613/"
-      ],
-      "kinds": [
-        "image"
-      ],
-      "origins": [
-        {
-          "resource": "steps",
-          "id": 3201235,
-          "raw_path": "raw/steps/3201235.json",
-          "field": "block.text"
-        },
-        {
-          "resource": "step-sources",
-          "id": 3201235,
-          "raw_path": "raw/step-sources/3201235.json",
-          "field": "block.text"
-        }
-      ],
-      "selected": true,
-      "status": "downloaded",
-      "local_path": "assets/f5d40c32fc0fef680e10a4a42fec51ddee28cd9f71b5f6e2063b276999699d1e.png",
-      "sha256": "cafe7c0b580eee76fca5688c3b395cfa82821e6ba818752d4e9e0f7b50977309",
-      "size": 15417,
-      "mime": "image/png",
-      "final_url": "https://ucarecdn.stepik.net/4c485d22-c15e-4496-9a62-43b574e80613/",
-      "cache_hit": false
-    },
-    {
-      "url": "https://ucarecdn.stepik.net/7d084466-b4e1-4d8a-afb2-fe4069833572/",
-      "url_sha256": "b4cbb841ce7739c7f64dbb0ae4396220b3d895bf9c515d0d814000d48e5d641a",
-      "original_urls": [
-        "https://ucarecdn.stepik.net/7d084466-b4e1-4d8a-afb2-fe4069833572/"
-      ],
-      "kinds": [
-        "image"
-      ],
-      "origins": [
-        {
-          "resource": "steps",
-          "id": 3201235,
-          "raw_path": "raw/steps/3201235.json",
-          "field": "block.text"
-        },
-        {
-          "resource": "step-sources",
-          "id": 3201235,
-          "raw_path": "raw/step-sources/3201235.json",
-          "field": "block.text"
-        }
-      ],
-      "selected": true,
-      "status": "downloaded",
-      "local_path": "assets/b4cbb841ce7739c7f64dbb0ae4396220b3d895bf9c515d0d814000d48e5d641a.png",
-      "sha256": "24d5024c1241978da89e21dc043a0b74927cfea12fc8901b6a9e0cb983eb20e8",
-      "size": 24834,
-      "mime": "image/png",
-      "final_url": "https://ucarecdn.stepik.net/7d084466-b4e1-4d8a-afb2-fe4069833572/",
-      "cache_hit": false
-    },
-    {
       "url": "https://ucarecdn.stepik.net/48f7e1fb-932c-462f-b060-9632a543d56a/",
       "url_sha256": "59985b39825c8d0caaba93be2740248a198bbdd39821cb6d43bbe0f8ef13b30e",
       "original_urls": [
@@ -2415,38 +2317,6 @@
       "cache_hit": false
     },
     {
-      "url": "https://ucarecdn.stepik.net/1bb92134-94f9-4e34-bd08-ffb43f2ccc5a/-/preview/",
-      "url_sha256": "574a12d21781604f39bcaa7b9073e40a0dd99262a0b7f0a4f845259096be5dd4",
-      "original_urls": [
-        "https://ucarecdn.stepik.net/1bb92134-94f9-4e34-bd08-ffb43f2ccc5a/-/preview/"
-      ],
-      "kinds": [
-        "image"
-      ],
-      "origins": [
-        {
-          "resource": "steps",
-          "id": 3231227,
-          "raw_path": "raw/steps/3231227.json",
-          "field": "block.text"
-        },
-        {
-          "resource": "step-sources",
-          "id": 3231227,
-          "raw_path": "raw/step-sources/3231227.json",
-          "field": "block.text"
-        }
-      ],
-      "selected": true,
-      "status": "downloaded",
-      "local_path": "assets/574a12d21781604f39bcaa7b9073e40a0dd99262a0b7f0a4f845259096be5dd4.png",
-      "sha256": "472247f174eb50fe7b3b5270c8d3af38fabf8f799b20fc6dade6f90c4bac18ea",
-      "size": 176026,
-      "mime": "image/png",
-      "final_url": "https://ucarecdn.stepik.net/1bb92134-94f9-4e34-bd08-ffb43f2ccc5a/-/preview/",
-      "cache_hit": false
-    },
-    {
       "url": "https://ucarecdn.stepik.net/c3a5fcba-6c0c-4ede-92bb-94dcd07121af/",
       "url_sha256": "357a982fb1170036fcdf1b51b4e1d544396311b27800b8002b7d14b1310ee7c8",
       "original_urls": [
@@ -2540,70 +2410,6 @@
       "size": 17041,
       "mime": "image/png",
       "final_url": "https://ucarecdn.stepik.net/4559f38b-cb8d-4005-803b-97bd729f3708/",
-      "cache_hit": false
-    },
-    {
-      "url": "https://ucarecdn.stepik.net/e6f33843-eb33-4c99-85db-4ad1f6aba7b0/-/crop/7280x3660/0,129/-/preview/",
-      "url_sha256": "2e55f6b44788d32d8e742b9f4f7b438bebfeb3bcc9e9b916298f3ac3cdb216fc",
-      "original_urls": [
-        "https://ucarecdn.stepik.net/e6f33843-eb33-4c99-85db-4ad1f6aba7b0/-/crop/7280x3660/0,129/-/preview/"
-      ],
-      "kinds": [
-        "image"
-      ],
-      "origins": [
-        {
-          "resource": "steps",
-          "id": 3262711,
-          "raw_path": "raw/steps/3262711.json",
-          "field": "block.text"
-        },
-        {
-          "resource": "step-sources",
-          "id": 3262711,
-          "raw_path": "raw/step-sources/3262711.json",
-          "field": "block.text"
-        }
-      ],
-      "selected": true,
-      "status": "downloaded",
-      "local_path": "assets/2e55f6b44788d32d8e742b9f4f7b438bebfeb3bcc9e9b916298f3ac3cdb216fc.png",
-      "sha256": "7cc2d65bdde2d436d697fd078c2efbea44676257b0dbc8de5b577240b00cd0dc",
-      "size": 147274,
-      "mime": "image/png",
-      "final_url": "https://ucarecdn.stepik.net/e6f33843-eb33-4c99-85db-4ad1f6aba7b0/-/crop/7280x3660/0,129/-/preview/",
-      "cache_hit": false
-    },
-    {
-      "url": "https://ucarecdn.stepik.net/207f1574-d689-45a0-9ec4-5bc4e2180453/",
-      "url_sha256": "e190c8964b1d4757b4b3efdfd858ee24b05a5507dbb143a059068361056a8399",
-      "original_urls": [
-        "https://ucarecdn.stepik.net/207f1574-d689-45a0-9ec4-5bc4e2180453/"
-      ],
-      "kinds": [
-        "image"
-      ],
-      "origins": [
-        {
-          "resource": "steps",
-          "id": 3280727,
-          "raw_path": "raw/steps/3280727.json",
-          "field": "block.text"
-        },
-        {
-          "resource": "step-sources",
-          "id": 3280727,
-          "raw_path": "raw/step-sources/3280727.json",
-          "field": "block.text"
-        }
-      ],
-      "selected": true,
-      "status": "downloaded",
-      "local_path": "assets/e190c8964b1d4757b4b3efdfd858ee24b05a5507dbb143a059068361056a8399.png",
-      "sha256": "ee39d863ddef2a0bd1faa190a4daa497b9a3a5d9988d74a9c8516e072a09f7b0",
-      "size": 11190,
-      "mime": "image/png",
-      "final_url": "https://ucarecdn.stepik.net/207f1574-d689-45a0-9ec4-5bc4e2180453/",
       "cache_hit": false
     },
     {
@@ -2799,134 +2605,6 @@
       "cache_hit": false
     },
     {
-      "url": "https://ucarecdn.stepik.net/95aeb297-bbdd-4a25-95a7-19c2d3d5565f/-/preview/",
-      "url_sha256": "cbf25b4bdc76d99c4f665c1910512eb870f1c09a0b103f7cfa2c747f0da8452d",
-      "original_urls": [
-        "https://ucarecdn.stepik.net/95aeb297-bbdd-4a25-95a7-19c2d3d5565f/-/preview/"
-      ],
-      "kinds": [
-        "image"
-      ],
-      "origins": [
-        {
-          "resource": "steps",
-          "id": 3177298,
-          "raw_path": "raw/steps/3177298.json",
-          "field": "block.text"
-        },
-        {
-          "resource": "step-sources",
-          "id": 3177298,
-          "raw_path": "raw/step-sources/3177298.json",
-          "field": "block.text"
-        }
-      ],
-      "selected": true,
-      "status": "downloaded",
-      "local_path": "assets/cbf25b4bdc76d99c4f665c1910512eb870f1c09a0b103f7cfa2c747f0da8452d.jpg",
-      "sha256": "07f46576e840ada2c2d0e9de3c15a929a42adb2a6542522200bfb7898ae42bb1",
-      "size": 155111,
-      "mime": "image/jpeg",
-      "final_url": "https://ucarecdn.stepik.net/95aeb297-bbdd-4a25-95a7-19c2d3d5565f/-/preview/",
-      "cache_hit": false
-    },
-    {
-      "url": "https://ucarecdn.stepik.net/cb902a94-2ecc-40c0-b435-48f29a5a340c/-/crop/6866x3361/0,269/-/preview/",
-      "url_sha256": "17c694c88467974adb39873d27a97fdd5f1e5784795002bd013d2f436dd00593",
-      "original_urls": [
-        "https://ucarecdn.stepik.net/cb902a94-2ecc-40c0-b435-48f29a5a340c/-/crop/6866x3361/0,269/-/preview/"
-      ],
-      "kinds": [
-        "image"
-      ],
-      "origins": [
-        {
-          "resource": "steps",
-          "id": 3212928,
-          "raw_path": "raw/steps/3212928.json",
-          "field": "block.text"
-        },
-        {
-          "resource": "step-sources",
-          "id": 3212928,
-          "raw_path": "raw/step-sources/3212928.json",
-          "field": "block.text"
-        }
-      ],
-      "selected": true,
-      "status": "downloaded",
-      "local_path": "assets/17c694c88467974adb39873d27a97fdd5f1e5784795002bd013d2f436dd00593.png",
-      "sha256": "7d03aae8fb7770d1be4c9b61d1aa87f8c4ac6a389e6540c23bbed85fe2855fc1",
-      "size": 130360,
-      "mime": "image/png",
-      "final_url": "https://ucarecdn.stepik.net/cb902a94-2ecc-40c0-b435-48f29a5a340c/-/crop/6866x3361/0,269/-/preview/",
-      "cache_hit": false
-    },
-    {
-      "url": "https://ucarecdn.stepik.net/a220646b-84c1-4470-8e01-44ff3b7c6d45/-/crop/4681x1928/0,239/-/preview/",
-      "url_sha256": "f9cd7da8e01dc5b842e2f05f48996ddec84e2b84c457cb9c72d9c576a0e093c0",
-      "original_urls": [
-        "https://ucarecdn.stepik.net/a220646b-84c1-4470-8e01-44ff3b7c6d45/-/crop/4681x1928/0,239/-/preview/"
-      ],
-      "kinds": [
-        "image"
-      ],
-      "origins": [
-        {
-          "resource": "steps",
-          "id": 3212928,
-          "raw_path": "raw/steps/3212928.json",
-          "field": "block.text"
-        },
-        {
-          "resource": "step-sources",
-          "id": 3212928,
-          "raw_path": "raw/step-sources/3212928.json",
-          "field": "block.text"
-        }
-      ],
-      "selected": true,
-      "status": "downloaded",
-      "local_path": "assets/f9cd7da8e01dc5b842e2f05f48996ddec84e2b84c457cb9c72d9c576a0e093c0.png",
-      "sha256": "910f96e214436ed37a33490da8d4a8ba28a06616a38892689c02eeb5b5f73d15",
-      "size": 100209,
-      "mime": "image/png",
-      "final_url": "https://ucarecdn.stepik.net/a220646b-84c1-4470-8e01-44ff3b7c6d45/-/crop/4681x1928/0,239/-/preview/",
-      "cache_hit": false
-    },
-    {
-      "url": "https://ucarecdn.stepik.net/4256e506-8907-4d26-88b9-5e06523462ec/",
-      "url_sha256": "8275d67d5f5073855c4219852f9c0bd3c19649d006f1eb371f096fd5db1dffdd",
-      "original_urls": [
-        "https://ucarecdn.stepik.net/4256e506-8907-4d26-88b9-5e06523462ec/"
-      ],
-      "kinds": [
-        "image"
-      ],
-      "origins": [
-        {
-          "resource": "steps",
-          "id": 3341723,
-          "raw_path": "raw/steps/3341723.json",
-          "field": "block.text"
-        },
-        {
-          "resource": "step-sources",
-          "id": 3341723,
-          "raw_path": "raw/step-sources/3341723.json",
-          "field": "block.text"
-        }
-      ],
-      "selected": true,
-      "status": "downloaded",
-      "local_path": "assets/8275d67d5f5073855c4219852f9c0bd3c19649d006f1eb371f096fd5db1dffdd.png",
-      "sha256": "bd59fbacade9efebc7a9be83fa869e9b5319ece20dd0400085b71939e70a74a4",
-      "size": 101439,
-      "mime": "image/png",
-      "final_url": "https://ucarecdn.stepik.net/4256e506-8907-4d26-88b9-5e06523462ec/",
-      "cache_hit": false
-    },
-    {
       "url": "https://ucarecdn.stepik.net/231618f6-930c-4d8b-9689-5956a618e3da/-/crop/4609x1140/0,564/-/preview/",
       "url_sha256": "a8ea8a86dbe60534c9fd7e3ffc226912e084cf0e0e2b8bec9b00deca1c92248d",
       "original_urls": [
@@ -2988,134 +2666,6 @@
       "size": 276076,
       "mime": "image/jpeg",
       "final_url": "https://ucarecdn.stepik.net/e64b797c-7720-4a6d-836f-bd96bb790e50/-/crop/4342x2859/0,174/-/preview/",
-      "cache_hit": false
-    },
-    {
-      "url": "https://ucarecdn.stepik.net/1b5aa630-6e2f-44e6-bc61-2aae7119fdd2/-/crop/4560x1450/0,243/-/preview/",
-      "url_sha256": "3b761a1bb23a77ccd6d728ad437307620dcb372116789c13ea36e51a0fb14be7",
-      "original_urls": [
-        "https://ucarecdn.stepik.net/1b5aa630-6e2f-44e6-bc61-2aae7119fdd2/-/crop/4560x1450/0,243/-/preview/"
-      ],
-      "kinds": [
-        "image"
-      ],
-      "origins": [
-        {
-          "resource": "steps",
-          "id": 3212969,
-          "raw_path": "raw/steps/3212969.json",
-          "field": "block.text"
-        },
-        {
-          "resource": "step-sources",
-          "id": 3212969,
-          "raw_path": "raw/step-sources/3212969.json",
-          "field": "block.text"
-        }
-      ],
-      "selected": true,
-      "status": "downloaded",
-      "local_path": "assets/3b761a1bb23a77ccd6d728ad437307620dcb372116789c13ea36e51a0fb14be7.png",
-      "sha256": "c44e4f9ddafbf0208eb37323d4caf78055bde0b0bea8d59c5b3ed5bc2674ac59",
-      "size": 75886,
-      "mime": "image/png",
-      "final_url": "https://ucarecdn.stepik.net/1b5aa630-6e2f-44e6-bc61-2aae7119fdd2/-/crop/4560x1450/0,243/-/preview/",
-      "cache_hit": false
-    },
-    {
-      "url": "https://ucarecdn.stepik.net/268c8ae4-5247-45a9-afb3-ebd68d92c438/-/preview/",
-      "url_sha256": "f83ec2c7bc31641b47bfe3b832b7e7988d46db952a2a1372d3aa37b39526c7ec",
-      "original_urls": [
-        "https://ucarecdn.stepik.net/268c8ae4-5247-45a9-afb3-ebd68d92c438/-/preview/"
-      ],
-      "kinds": [
-        "image"
-      ],
-      "origins": [
-        {
-          "resource": "steps",
-          "id": 3212990,
-          "raw_path": "raw/steps/3212990.json",
-          "field": "block.text"
-        },
-        {
-          "resource": "step-sources",
-          "id": 3212990,
-          "raw_path": "raw/step-sources/3212990.json",
-          "field": "block.text"
-        }
-      ],
-      "selected": true,
-      "status": "downloaded",
-      "local_path": "assets/f83ec2c7bc31641b47bfe3b832b7e7988d46db952a2a1372d3aa37b39526c7ec.png",
-      "sha256": "79a465ebc04673234601b630645865fa97545f92e2b0abcdd8d32c598e97ec7b",
-      "size": 56473,
-      "mime": "image/png",
-      "final_url": "https://ucarecdn.stepik.net/268c8ae4-5247-45a9-afb3-ebd68d92c438/-/preview/",
-      "cache_hit": false
-    },
-    {
-      "url": "https://ucarecdn.stepik.net/ec792ba0-8226-4e1a-9d91-0c01220f8672/",
-      "url_sha256": "1bd0077cae2d86123734e33f579f474b4f8563d903a6936e790df22bc04481d9",
-      "original_urls": [
-        "https://ucarecdn.stepik.net/ec792ba0-8226-4e1a-9d91-0c01220f8672/"
-      ],
-      "kinds": [
-        "image"
-      ],
-      "origins": [
-        {
-          "resource": "steps",
-          "id": 3212991,
-          "raw_path": "raw/steps/3212991.json",
-          "field": "block.text"
-        },
-        {
-          "resource": "step-sources",
-          "id": 3212991,
-          "raw_path": "raw/step-sources/3212991.json",
-          "field": "block.text"
-        }
-      ],
-      "selected": true,
-      "status": "downloaded",
-      "local_path": "assets/1bd0077cae2d86123734e33f579f474b4f8563d903a6936e790df22bc04481d9.png",
-      "sha256": "9127ffa6853f227b1091f68387ea7120204e47c18a3c96dc0ebcb11d97ae17ae",
-      "size": 16684,
-      "mime": "image/png",
-      "final_url": "https://ucarecdn.stepik.net/ec792ba0-8226-4e1a-9d91-0c01220f8672/",
-      "cache_hit": false
-    },
-    {
-      "url": "https://ucarecdn.stepik.net/719ea24b-78b2-4cb3-a9db-98b9d8ff3b4a/-/crop/11212x4997/0,155/-/preview/",
-      "url_sha256": "5d3a80bc68fdc32d90242b2878718fa95614853852eca089a5b51a95d09ed377",
-      "original_urls": [
-        "https://ucarecdn.stepik.net/719ea24b-78b2-4cb3-a9db-98b9d8ff3b4a/-/crop/11212x4997/0,155/-/preview/"
-      ],
-      "kinds": [
-        "image"
-      ],
-      "origins": [
-        {
-          "resource": "steps",
-          "id": 3212991,
-          "raw_path": "raw/steps/3212991.json",
-          "field": "block.text"
-        },
-        {
-          "resource": "step-sources",
-          "id": 3212991,
-          "raw_path": "raw/step-sources/3212991.json",
-          "field": "block.text"
-        }
-      ],
-      "selected": true,
-      "status": "downloaded",
-      "local_path": "assets/5d3a80bc68fdc32d90242b2878718fa95614853852eca089a5b51a95d09ed377.png",
-      "sha256": "3f1f0892e930ca2e20cd7502bef6b3e9bfa8a99bab6b45b9d842bf2e66ded3d7",
-      "size": 115892,
-      "mime": "image/png",
-      "final_url": "https://ucarecdn.stepik.net/719ea24b-78b2-4cb3-a9db-98b9d8ff3b4a/-/crop/11212x4997/0,155/-/preview/",
       "cache_hit": false
     },
     {
@@ -3567,70 +3117,6 @@
       "cache_hit": false
     },
     {
-      "url": "https://ucarecdn.stepik.net/d92acf0a-ca35-49a4-802b-770881b00a9d/",
-      "url_sha256": "e3ff94fedd91eabbd448b77d036be62f2c586662927a8eee62b15e9f04a666c2",
-      "original_urls": [
-        "https://ucarecdn.stepik.net/d92acf0a-ca35-49a4-802b-770881b00a9d/"
-      ],
-      "kinds": [
-        "image"
-      ],
-      "origins": [
-        {
-          "resource": "steps",
-          "id": 3428206,
-          "raw_path": "raw/steps/3428206.json",
-          "field": "block.text"
-        },
-        {
-          "resource": "step-sources",
-          "id": 3428206,
-          "raw_path": "raw/step-sources/3428206.json",
-          "field": "block.text"
-        }
-      ],
-      "selected": true,
-      "status": "downloaded",
-      "local_path": "assets/e3ff94fedd91eabbd448b77d036be62f2c586662927a8eee62b15e9f04a666c2.png",
-      "sha256": "7ae1f68ae0902929a8324b021133d3dd615fd5636570d4b8801b0b1ba3d83b05",
-      "size": 6594,
-      "mime": "image/png",
-      "final_url": "https://ucarecdn.stepik.net/d92acf0a-ca35-49a4-802b-770881b00a9d/",
-      "cache_hit": false
-    },
-    {
-      "url": "https://ucarecdn.stepik.net/05f32da4-75c4-4473-893a-a45d8a6a6e0c/",
-      "url_sha256": "552cf16869d4550ead33478e9b9e8cbb165df60e6ea4104ccd451d7d4384270e",
-      "original_urls": [
-        "https://ucarecdn.stepik.net/05f32da4-75c4-4473-893a-a45d8a6a6e0c/"
-      ],
-      "kinds": [
-        "image"
-      ],
-      "origins": [
-        {
-          "resource": "steps",
-          "id": 3428206,
-          "raw_path": "raw/steps/3428206.json",
-          "field": "block.text"
-        },
-        {
-          "resource": "step-sources",
-          "id": 3428206,
-          "raw_path": "raw/step-sources/3428206.json",
-          "field": "block.text"
-        }
-      ],
-      "selected": true,
-      "status": "downloaded",
-      "local_path": "assets/552cf16869d4550ead33478e9b9e8cbb165df60e6ea4104ccd451d7d4384270e.png",
-      "sha256": "328556e997b92c90ca000c7d3880ca337ca3324158aa64185637c67be763e7ff",
-      "size": 1772,
-      "mime": "image/png",
-      "final_url": "https://ucarecdn.stepik.net/05f32da4-75c4-4473-893a-a45d8a6a6e0c/",
-      "cache_hit": false
-    },
-    {
       "url": "https://ucarecdn.stepik.net/45486ab0-1147-4762-ac2b-6fddb87fadd0/",
       "url_sha256": "fe5b8aab74dcffeb1baa4c681c2be0b87d91d0b51a8d306be9dc1014799ad0af",
       "original_urls": [
@@ -3993,38 +3479,6 @@
       "reason": "highest_quality_variant_selected"
     },
     {
-      "url": "https://ucarecdn.stepik.net/19cc2dcb-d216-4a5d-9404-4e5107c9254b/",
-      "url_sha256": "d553ca76d6075f49dd1b1b434f44fffd5ca7781143360a9dda1da514b5070016",
-      "original_urls": [
-        "https://ucarecdn.stepik.net/19cc2dcb-d216-4a5d-9404-4e5107c9254b/"
-      ],
-      "kinds": [
-        "image"
-      ],
-      "origins": [
-        {
-          "resource": "steps",
-          "id": 3252940,
-          "raw_path": "raw/steps/3252940.json",
-          "field": "block.text"
-        },
-        {
-          "resource": "step-sources",
-          "id": 3252940,
-          "raw_path": "raw/step-sources/3252940.json",
-          "field": "block.text"
-        }
-      ],
-      "selected": true,
-      "status": "downloaded",
-      "local_path": "assets/d553ca76d6075f49dd1b1b434f44fffd5ca7781143360a9dda1da514b5070016.png",
-      "sha256": "828f6b613df0cb346634daf82c21b6f6b0a662e3953aa4a19a5f82b8bdc28715",
-      "size": 260925,
-      "mime": "image/png",
-      "final_url": "https://ucarecdn.stepik.net/19cc2dcb-d216-4a5d-9404-4e5107c9254b/",
-      "cache_hit": false
-    },
-    {
       "url": "https://ucarecdn.stepik.net/f4cb398f-2c9c-4269-8c12-f4c81e8f808a/",
       "url_sha256": "fc67da86a9a130c17736453ab570cc32903932b8d96a29b6677d57f29f4c8302",
       "original_urls": [
@@ -4249,38 +3703,6 @@
       "cache_hit": false
     },
     {
-      "url": "https://lh7-us.googleusercontent.com/0ULL7_b6LFkJ7JcQtqsiss7Xj9Lak2KF96ZIWuS4fImR0eP0jG1mwtD6nCG13Y8DZonj1_C6w5MlRaxQOsu-J2j3NW31TkQu0kY2aB29W6eRHVsgP3Yyju5rKUAV_pdYNYi0TmfNcMU1h96Y-_Ga_HlaUQ=s2048",
-      "url_sha256": "fed75089dfce1c2301ff5ce7757dd06e210d78f30763789f207c772cecd5119b",
-      "original_urls": [
-        "https://lh7-us.googleusercontent.com/0ULL7_b6LFkJ7JcQtqsiss7Xj9Lak2KF96ZIWuS4fImR0eP0jG1mwtD6nCG13Y8DZonj1_C6w5MlRaxQOsu-J2j3NW31TkQu0kY2aB29W6eRHVsgP3Yyju5rKUAV_pdYNYi0TmfNcMU1h96Y-_Ga_HlaUQ=s2048"
-      ],
-      "kinds": [
-        "image"
-      ],
-      "origins": [
-        {
-          "resource": "steps",
-          "id": 3214901,
-          "raw_path": "raw/steps/3214901.json",
-          "field": "block.text"
-        },
-        {
-          "resource": "step-sources",
-          "id": 3214901,
-          "raw_path": "raw/step-sources/3214901.json",
-          "field": "block.text"
-        }
-      ],
-      "selected": true,
-      "status": "failed",
-      "local_path": null,
-      "sha256": null,
-      "size": null,
-      "mime": null,
-      "reason": "HTTP 404",
-      "http_status": 404
-    },
-    {
       "url": "https://ucarecdn.stepik.net/e0ec2c57-8c43-4e10-b7d6-67d9538b203c/",
       "url_sha256": "d580afb65dcd2c31593cb458f5fb06add0f0765e2032e6f0985b6107577824fc",
       "original_urls": [
@@ -4310,38 +3732,6 @@
       "size": 75877,
       "mime": "image/png",
       "final_url": "https://ucarecdn.stepik.net/e0ec2c57-8c43-4e10-b7d6-67d9538b203c/",
-      "cache_hit": false
-    },
-    {
-      "url": "https://ucarecdn.stepik.net/c61c5cda-3c52-4452-9231-1d5affb396b1/-/preview/",
-      "url_sha256": "f02d73e65bc6658b3857df8d31923286efaac41d34de96e528213d55c72b392f",
-      "original_urls": [
-        "https://ucarecdn.stepik.net/c61c5cda-3c52-4452-9231-1d5affb396b1/-/preview/"
-      ],
-      "kinds": [
-        "image"
-      ],
-      "origins": [
-        {
-          "resource": "steps",
-          "id": 3496771,
-          "raw_path": "raw/steps/3496771.json",
-          "field": "block.text"
-        },
-        {
-          "resource": "step-sources",
-          "id": 3496771,
-          "raw_path": "raw/step-sources/3496771.json",
-          "field": "block.text"
-        }
-      ],
-      "selected": true,
-      "status": "downloaded",
-      "local_path": "assets/f02d73e65bc6658b3857df8d31923286efaac41d34de96e528213d55c72b392f.png",
-      "sha256": "10e418755cd6b17cad4d9fcd6e5904cdb01055038afba4fa5f8324f3c2b5815d",
-      "size": 408822,
-      "mime": "image/png",
-      "final_url": "https://ucarecdn.stepik.net/c61c5cda-3c52-4452-9231-1d5affb396b1/-/preview/",
       "cache_hit": false
     },
     {
@@ -4505,13 +3895,13 @@
       "cache_hit": false
     },
     {
-      "url": "https://ucarecdn.stepik.net/d563867a-1085-462c-bbcb-377ce767e6b4/-/crop/4320x1331/0,236/-/preview/",
-      "url_sha256": "30e89f70dc6a9ec7675e0dccbeec43550a92ca6fe90e36d93107841a61f00bad",
+      "url": "https://sedgewick.io/wp-content/themes/sedgewick/papers/1986Shellsort.pdf",
+      "url_sha256": "030e89954b0ac75fa253994fdf31b34c26f3d1df28bbd1a03b80be8a1d7ce178",
       "original_urls": [
-        "https://ucarecdn.stepik.net/d563867a-1085-462c-bbcb-377ce767e6b4/-/crop/4320x1331/0,236/-/preview/"
+        "https://sedgewick.io/wp-content/themes/sedgewick/papers/1986Shellsort.pdf"
       ],
       "kinds": [
-        "image"
+        "file"
       ],
       "origins": [
         {
@@ -4529,11 +3919,11 @@
       ],
       "selected": true,
       "status": "downloaded",
-      "local_path": "assets/30e89f70dc6a9ec7675e0dccbeec43550a92ca6fe90e36d93107841a61f00bad.jpg",
-      "sha256": "4a198e370dd96af056a4d2054bc5ea3b38b909679d1391abde29ae933b452c7b",
-      "size": 107889,
-      "mime": "image/jpeg",
-      "final_url": "https://ucarecdn.stepik.net/d563867a-1085-462c-bbcb-377ce767e6b4/-/crop/4320x1331/0,236/-/preview/",
+      "local_path": "assets/030e89954b0ac75fa253994fdf31b34c26f3d1df28bbd1a03b80be8a1d7ce178.pdf",
+      "sha256": "5d772e2e828aa7b7465db82739df70fb962fd467316c36c02a2a274816f5c645",
+      "size": 814852,
+      "mime": "application/pdf",
+      "final_url": "https://sedgewick.io/wp-content/themes/sedgewick/papers/1986Shellsort.pdf",
       "cache_hit": false
     },
     {
@@ -5081,38 +4471,6 @@
       "cache_hit": false
     },
     {
-      "url": "https://ru.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:AVL_LR.GIF",
-      "url_sha256": "d51cb225cf7d6730278dddfbead62f8f29ac8b40a4300fddd3b765a0827818ed",
-      "original_urls": [
-        "https://ru.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:AVL_LR.GIF"
-      ],
-      "kinds": [
-        "file"
-      ],
-      "origins": [
-        {
-          "resource": "steps",
-          "id": 3569330,
-          "raw_path": "raw/steps/3569330.json",
-          "field": "block.text"
-        },
-        {
-          "resource": "step-sources",
-          "id": 3569330,
-          "raw_path": "raw/step-sources/3569330.json",
-          "field": "block.text"
-        }
-      ],
-      "selected": true,
-      "status": "external",
-      "local_path": null,
-      "sha256": null,
-      "size": null,
-      "mime": "text/html",
-      "final_url": "https://ru.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:AVL_LR.GIF",
-      "reason": "server_returned_web_page"
-    },
-    {
       "url": "https://ucarecdn.stepik.net/002639dc-ebd5-400f-b3a5-98e55ce44722/-/crop/11139x4011/0,312/-/preview/",
       "url_sha256": "ee6ef07715f51a068680990dffd2fbe885f44aa13cd332f4e93f1c3f4311b880",
       "original_urls": [
@@ -5143,38 +4501,6 @@
       "mime": "image/png",
       "final_url": "https://ucarecdn.stepik.net/002639dc-ebd5-400f-b3a5-98e55ce44722/-/crop/11139x4011/0,312/-/preview/",
       "cache_hit": false
-    },
-    {
-      "url": "https://ru.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:AVL_BR.GIF",
-      "url_sha256": "a8073d22b67948f1081d61c838f61c9b8a9fd96d65661c3cba5778d010f4bdb2",
-      "original_urls": [
-        "https://ru.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:AVL_BR.GIF"
-      ],
-      "kinds": [
-        "file"
-      ],
-      "origins": [
-        {
-          "resource": "steps",
-          "id": 3569330,
-          "raw_path": "raw/steps/3569330.json",
-          "field": "block.text"
-        },
-        {
-          "resource": "step-sources",
-          "id": 3569330,
-          "raw_path": "raw/step-sources/3569330.json",
-          "field": "block.text"
-        }
-      ],
-      "selected": true,
-      "status": "external",
-      "local_path": null,
-      "sha256": null,
-      "size": null,
-      "mime": "text/html",
-      "final_url": "https://ru.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:AVL_BR.GIF",
-      "reason": "server_returned_web_page"
     },
     {
       "url": "https://ucarecdn.stepik.net/eb035d28-a18d-4266-bdd4-efdf05dde59e/-/crop/5669x1909/0,838/-/preview/",
@@ -5209,38 +4535,6 @@
       "cache_hit": false
     },
     {
-      "url": "https://ru.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:AVL_LL.GIF",
-      "url_sha256": "d06a4ae6ccbd993b1e01a3d734002af408766a51388ec455cdf9693ab06ed9c0",
-      "original_urls": [
-        "https://ru.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:AVL_LL.GIF"
-      ],
-      "kinds": [
-        "file"
-      ],
-      "origins": [
-        {
-          "resource": "steps",
-          "id": 3569330,
-          "raw_path": "raw/steps/3569330.json",
-          "field": "block.text"
-        },
-        {
-          "resource": "step-sources",
-          "id": 3569330,
-          "raw_path": "raw/step-sources/3569330.json",
-          "field": "block.text"
-        }
-      ],
-      "selected": true,
-      "status": "external",
-      "local_path": null,
-      "sha256": null,
-      "size": null,
-      "mime": "text/html",
-      "final_url": "https://ru.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:AVL_LL.GIF",
-      "reason": "server_returned_web_page"
-    },
-    {
       "url": "https://ucarecdn.stepik.net/32ab76c6-3929-4745-8fa1-9197a338a048/-/crop/11139x4209/0,1295/-/preview/",
       "url_sha256": "808b3ab8b0d78f89b013810c1b8e2fb8d47d650d3cc8c874d173a905bd0e2249",
       "original_urls": [
@@ -5271,38 +4565,6 @@
       "mime": "image/png",
       "final_url": "https://ucarecdn.stepik.net/32ab76c6-3929-4745-8fa1-9197a338a048/-/crop/11139x4209/0,1295/-/preview/",
       "cache_hit": false
-    },
-    {
-      "url": "https://ru.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:AVL_BL.GIF",
-      "url_sha256": "dad37eef3326a7ea2e8400ca8d211ab9bc65c06e15556c6a3629a6fc8bd23a99",
-      "original_urls": [
-        "https://ru.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:AVL_BL.GIF"
-      ],
-      "kinds": [
-        "file"
-      ],
-      "origins": [
-        {
-          "resource": "steps",
-          "id": 3569330,
-          "raw_path": "raw/steps/3569330.json",
-          "field": "block.text"
-        },
-        {
-          "resource": "step-sources",
-          "id": 3569330,
-          "raw_path": "raw/step-sources/3569330.json",
-          "field": "block.text"
-        }
-      ],
-      "selected": true,
-      "status": "external",
-      "local_path": null,
-      "sha256": null,
-      "size": null,
-      "mime": "text/html",
-      "final_url": "https://ru.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:AVL_BL.GIF",
-      "reason": "server_returned_web_page"
     },
     {
       "url": "https://ucarecdn.stepik.net/b5822f44-c2fe-488a-a955-068687786f23/-/crop/5669x2091/0,593/-/preview/",
@@ -5849,38 +5111,6 @@
       "cache_hit": false
     },
     {
-      "url": "https://ucarecdn.stepik.net/a502ed6f-0daf-4a80-bd3e-4422b370a2d5/-/crop/9078x3112/0,449/-/preview/",
-      "url_sha256": "ec274dcb755c4e978e0f71d093ba69abe7cf959481a8c6d9533f141579b144c5",
-      "original_urls": [
-        "https://ucarecdn.stepik.net/a502ed6f-0daf-4a80-bd3e-4422b370a2d5/-/crop/9078x3112/0,449/-/preview/"
-      ],
-      "kinds": [
-        "image"
-      ],
-      "origins": [
-        {
-          "resource": "steps",
-          "id": 4035439,
-          "raw_path": "raw/steps/4035439.json",
-          "field": "block.text"
-        },
-        {
-          "resource": "step-sources",
-          "id": 4035439,
-          "raw_path": "raw/step-sources/4035439.json",
-          "field": "block.text"
-        }
-      ],
-      "selected": true,
-      "status": "downloaded",
-      "local_path": "assets/ec274dcb755c4e978e0f71d093ba69abe7cf959481a8c6d9533f141579b144c5.jpg",
-      "sha256": "24b46e9f3212d773cfa1e32317fe0a631eb2447436b537f298736b2eb971be85",
-      "size": 106035,
-      "mime": "image/jpeg",
-      "final_url": "https://ucarecdn.stepik.net/a502ed6f-0daf-4a80-bd3e-4422b370a2d5/-/crop/9078x3112/0,449/-/preview/",
-      "cache_hit": false
-    },
-    {
       "url": "https://ucarecdn.stepik.net/56ae65ee-f8d5-48eb-9b21-e0842b61db5a/-/crop/6865x1890/0,181/-/preview/",
       "url_sha256": "956efbdcd9d0ec4416667bb7eb6733086f3d9f143097029c55969175e0439d26",
       "original_urls": [
@@ -6070,70 +5300,6 @@
       "size": 764115,
       "mime": "image/png",
       "final_url": "https://ucarecdn.stepik.net/3eba7965-35eb-46b1-8e66-d335a26ae2dc/",
-      "cache_hit": false
-    },
-    {
-      "url": "https://ucarecdn.stepik.net/81fe7918-7b30-456f-abcc-b8db01a92604/",
-      "url_sha256": "5b3c35dbb7ef716fdb32cf7d4142b45acf30b074fda7af6832d7fcf3b4947d17",
-      "original_urls": [
-        "https://ucarecdn.stepik.net/81fe7918-7b30-456f-abcc-b8db01a92604/"
-      ],
-      "kinds": [
-        "image"
-      ],
-      "origins": [
-        {
-          "resource": "steps",
-          "id": 4035427,
-          "raw_path": "raw/steps/4035427.json",
-          "field": "block.text"
-        },
-        {
-          "resource": "step-sources",
-          "id": 4035427,
-          "raw_path": "raw/step-sources/4035427.json",
-          "field": "block.text"
-        }
-      ],
-      "selected": true,
-      "status": "downloaded",
-      "local_path": "assets/5b3c35dbb7ef716fdb32cf7d4142b45acf30b074fda7af6832d7fcf3b4947d17.png",
-      "sha256": "fa5d238c1f1c53a87e51a2b25da43743710d6ce0740eb7a7038a43c37f02ca43",
-      "size": 950401,
-      "mime": "image/png",
-      "final_url": "https://ucarecdn.stepik.net/81fe7918-7b30-456f-abcc-b8db01a92604/",
-      "cache_hit": false
-    },
-    {
-      "url": "https://ucarecdn.stepik.net/64d9b23a-3c18-40e6-bcc7-9238422b899f/-/crop/10864x4518/0,301/-/preview/",
-      "url_sha256": "9f22eecd87f3c8db8729c06fc090585001a59d9744f3e8da76c1b781e8f19f05",
-      "original_urls": [
-        "https://ucarecdn.stepik.net/64d9b23a-3c18-40e6-bcc7-9238422b899f/-/crop/10864x4518/0,301/-/preview/"
-      ],
-      "kinds": [
-        "image"
-      ],
-      "origins": [
-        {
-          "resource": "steps",
-          "id": 4035430,
-          "raw_path": "raw/steps/4035430.json",
-          "field": "block.text"
-        },
-        {
-          "resource": "step-sources",
-          "id": 4035430,
-          "raw_path": "raw/step-sources/4035430.json",
-          "field": "block.text"
-        }
-      ],
-      "selected": true,
-      "status": "downloaded",
-      "local_path": "assets/9f22eecd87f3c8db8729c06fc090585001a59d9744f3e8da76c1b781e8f19f05.jpg",
-      "sha256": "5b5849c79ce9850829bbc86ddc41e00a11801465bc97106b6af94eec6a2e1a54",
-      "size": 130389,
-      "mime": "image/jpeg",
-      "final_url": "https://ucarecdn.stepik.net/64d9b23a-3c18-40e6-bcc7-9238422b899f/-/crop/10864x4518/0,301/-/preview/",
       "cache_hit": false
     },
     {

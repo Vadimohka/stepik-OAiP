@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "code",
-    "text": "<p>В качестве входных данных поступают две целочисленные матрицы A и B, которые имеют размер N и соответственно M. Требуется найти произведение матриц A*B.</p>\n\n<p>В первой строке вводится размер матрицы А. В следующих N строках вводятся элементы матрицы. Затем вводится размер матрицы В. В следующих M строках вводятся элементы матрицы В.</p>",
+    "text": "<p>Даны две квадратные целочисленные матрицы <code>A</code> и <code>B</code>. Найдите их произведение <code>A · B</code> именно в этом порядке.</p>\n<h4>Входные данные</h4>\n<p>Сначала вводится порядок первой матрицы <code>N</code>, затем её <code>N²</code> элементов по строкам. Далее вводится порядок второй матрицы <code>M</code>, затем её <code>M²</code> элементов по строкам. Гарантируется, что <code>N = M</code> и <code>1 ≤ N ≤ 100</code>, поэтому произведение определено. Модуль каждого элемента не превышает <code>10<sup>6</sup></code>.</p>\n<h4>Выходные данные</h4>\n<p>Выведите произведение в виде <code>N</code> строк по <code>N</code> целых чисел. Числа разделяйте пробелами. Для произведений и сумм используйте <code>long long</code>: ответ может превышать диапазон 32-битного int.</p>\n",
     "video": null,
     "options": {
       "execution_time_limit": 5,
@@ -37,7 +37,7 @@
     "subtitle_files": [],
     "is_deprecated": false,
     "source": {
-      "code": "# This is a sample Code Challenge\n# Learn more: https://stepik.org/lesson/9173\n# Ask your questions via support@stepik.org\n\ndef generate():\n    return []\n\ndef check(reply, clue):\n    return reply.strip() == clue.strip()\n\n# def solve(dataset):\n#     a, b = dataset.split()\n#     return str(int(a) + int(b))",
+      "code": "def generate():\n    return []\n\ndef check(reply, clue):\n    return reply.split() == clue.split()\n",
       "execution_time_limit": 5,
       "execution_memory_limit": 256,
       "samples_count": 1,
@@ -68,6 +68,14 @@
         [
           "3\n1 0 1\n-1 0 0\n0 0 1\n3\n-1 0 0\n0 1 0\n0 0 1",
           "-1 0 1\n1 0 0\n0 0 1"
+        ],
+        [
+          "1\n-1000000\n1\n1000000",
+          "-1000000000000"
+        ],
+        [
+          "2\n0 0\n0 0\n2\n1 2\n3 4",
+          "0 0\n0 0"
         ]
       ]
     },
@@ -112,7 +120,7 @@
   "user_step_vote": null,
   "step_issue": 3362227,
   "create_date": "2022-10-21T13:55:00Z",
-  "update_date": "2022-10-21T15:09:27Z",
+  "update_date": "2026-11-22T21:09:13Z",
   "discussions_count": 5,
   "discussion_proxy": "77-3383135-1",
   "discussion_threads": [
@@ -126,5 +134,5 @@
     "params": {}
   },
   "warnings": [],
-  "cost": 1
+  "cost": 0
 }

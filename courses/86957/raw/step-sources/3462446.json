@@ -27,17 +27,17 @@
         },
         {
           "is_correct": true,
-          "text": ".dll в отличнии от .lib не участвует в этапе компиляции и не загружается объектным файлом.",
+          "text": "DLL загружается при запуске или во время выполнения; при неявном связывании на этапе компоновки обычно используется импортная .lib.",
           "feedback": ""
         },
         {
           "is_correct": true,
-          "text": "Дескриптор с атрибутами библиотеки передаётся в аргумент HMODULE",
+          "text": "LoadLibrary возвращает дескриптор типа HMODULE; его можно передать, например, в GetProcAddress.",
           "feedback": ""
         },
         {
           "is_correct": false,
-          "text": "HINSTANCE является typedef от HMODULE",
+          "text": "В современных Windows HINSTANCE и HMODULE — принципиально разные, невзаимозаменяемые типы дескрипторов.",
           "feedback": ""
         },
         {
@@ -88,7 +88,7 @@
   "user_step_vote": null,
   "step_issue": 3441538,
   "create_date": "2022-11-17T06:56:05Z",
-  "update_date": "2023-11-16T15:41:59Z",
+  "update_date": "2026-11-22T21:07:22Z",
   "discussions_count": 1,
   "discussion_proxy": "77-3462446-1",
   "discussion_threads": [
@@ -102,5 +102,5 @@
     "params": {}
   },
   "warnings": [],
-  "cost": 1
+  "cost": 0
 }

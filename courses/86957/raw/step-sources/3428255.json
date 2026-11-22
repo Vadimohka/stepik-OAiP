@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "code",
-    "text": "<p><img alt=\"\" height=\"527\" name=\"image.png\" src=\"https://ucarecdn.stepik.net/45486ab0-1147-4762-ac2b-6fddb87fadd0/\" width=\"726\"></p>\n\n<p><strong>Входные данные</strong></p>\n\n<p>Каждая строка содержит три целых числа: 𝒌(𝟎 &lt; 𝒌 &lt; 𝟏𝟎^𝟏𝟗), 𝒏(𝟎 &lt; 𝒏 &lt; 𝟏𝟎^𝟏𝟗)и 𝒕(𝟎 &lt; 𝒕 &lt; 𝟏𝟎) Последняя строка содержит три нуля и не обрабатывается.</p>\n\n<p><strong>Выходные данные</strong></p>\n\n<p>Для каждого теста в отдельной строке вывести номер теста и значение x. Формат вывода приведен в примере.</p>",
+    "text": "<p><img alt=\"\" height=\"527\" name=\"image.png\" src=\"https://ucarecdn.stepik.net/45486ab0-1147-4762-ac2b-6fddb87fadd0/\" width=\"726\"></p>\n\n<p><strong>Входные данные</strong></p>\n\n<p>Каждая строка содержит три целых числа: 𝒌(𝟎 &lt; 𝒌 &lt; 𝟏𝟎^𝟏𝟗), 𝒏(𝟎 &lt; 𝒏 &lt; 𝟏𝟎^𝟏𝟗) и 𝒕(𝟎 &lt; 𝒕 &lt; 𝟏𝟎). Последняя строка содержит три нуля и не обрабатывается.</p>\n\n<p><strong>Выходные данные</strong></p>\n\n<p>Для каждого теста в отдельной строке вывести номер теста и значение x. Формат вывода приведен в примере.</p>",
     "video": null,
     "options": {
       "execution_time_limit": 1,
@@ -100,7 +100,7 @@
   "user_step_vote": null,
   "step_issue": 3407347,
   "create_date": "2022-11-07T11:42:05Z",
-  "update_date": "2022-11-07T12:12:24Z",
+  "update_date": "2026-11-22T21:09:27Z",
   "discussions_count": 4,
   "discussion_proxy": "77-3428255-1",
   "discussion_threads": [
@@ -114,5 +114,5 @@
     "params": {}
   },
   "warnings": [],
-  "cost": 1
+  "cost": 0
 }
