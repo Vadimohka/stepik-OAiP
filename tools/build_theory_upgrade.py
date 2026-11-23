@@ -58,6 +58,39 @@ def blob_sha(data):
     return hashlib.sha1(b'blob ' + str(len(data)).encode() + b'\0' + data).hexdigest()
 
 
+def change_table(steps):
+    lines = ['| Шаг | Урок / позиция | Блок | Изменение |', '| --- | --- | --- | --- |']
+    for step in steps:
+        summary = step['summary'].replace('|', '\\|').replace('\n', ' ')
+        lines.append(f'| [{step["step_id"]}]({step["step_url"]}) | '
+                     f'{step["lesson_id"]} / {step["position"]} | {step["part"].upper()} | {summary} |')
+    return lines
+
+
+def changes_by_module(steps, bindings):
+    grouped = {}
+    for step in steps:
+        section_ids = bindings[step['step_id']]['section_ids']
+        require(section_ids, f'Step has no course module: {step["step_id"]}')
+        grouped.setdefault(section_ids[0], []).append(step)
+
+    modules = []
+    for section_id, rows in grouped.items():
+        path = ROOT / 'courses/86957/raw/sections' / f'{section_id}.json'
+        section = json.loads(path.read_bytes())
+        title = html.escape(' '.join(section['title'].split())).replace('[', '\\[').replace(']', '\\]')
+        modules.append((section['position'], title, rows))
+    modules.sort(key=lambda module: module[0])
+
+    lines = ['## Оглавление по модулям', '']
+    for number, title, rows in modules:
+        lines.append(f'- [Модуль {number}. {title} ({len(rows)})](#module-{number})')
+    for number, title, rows in modules:
+        lines.extend(['', f'<a name="module-{number}"></a>', '', f'## Модуль {number}. {title}', ''])
+        lines.extend(change_table(rows))
+    return lines
+
+
 def build(parts=None, package='theory-2026-11-23'):
     PKG = ROOT / 'improvements/86957' / package
     BASE_COMMIT, TITLE = PACKAGE_CONFIGS[package]
@@ -163,14 +196,19 @@ def build(parts=None, package='theory-2026-11-23'):
         preview = ('\n'.join(line.rstrip(' \t') for line in
                              preview.decode('utf-8').split('\n'))).encode('utf-8')
     staged[PKG/'preview.html']=preview
+    grouped_journal = package == 'theory-continuation-2026-11-23'
+    lesson_count = manifest['changed_lessons']
+    size_line = (f'**Шаги** — {len(steps)} · **Уроки** — {lesson_count}.' if grouped_journal
+                 else f'Изменено **{len(steps)} текстовых шагов в {lesson_count} уроках**.')
     lines=[f'# {TITLE}','','Базовый коммит: `'+BASE_COMMIT+'`.','',
-           f'Изменено **{len(steps)} текстовых шагов в {manifest["changed_lessons"]} уроках**.',
+           size_line,
            'Меняется исключительно `block.text`; ID, типы, позиции и задания сохранены.','',
            f'Статус публикации: `{publication["status"]}`.','',
-           '[Превью](preview.html) · [Манифест](manifest.json) · [Связи между шагами](course_links.json)','','| Шаг | Урок / позиция | Блок | Изменение |','| --- | --- | --- | --- |']
-    for s in steps:
-        summary=s['summary'].replace('|','\\|').replace('\n',' ')
-        lines.append(f'| [{s["step_id"]}]({s["step_url"]}) | {s["lesson_id"]} / {s["position"]} | {s["part"].upper()} | {summary} |')
+           '[Превью](preview.html) · [Манифест](manifest.json) · [Связи между шагами](course_links.json)','']
+    if grouped_journal:
+        lines.extend(changes_by_module(steps, bindings))
+    else:
+        lines.extend(change_table(steps))
     lines += ['','## Проверка','','`python3 tools/build_theory_upgrade.py --check` проверяет точные исходные байты по дереву закреплённого коммита, единственное изменяемое поле, привязки шагов, внутренние ссылки и воспроизводимость манифеста/превью.','',
               'Компиляция и прогоны — авторская проверка разобранных примеров, а не новые задания учащимся. Исторические пакеты не переписываются.','']
     staged[PKG/'CHANGES.md']='\n'.join(lines).encode()
