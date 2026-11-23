@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h1>Постфиксные операции</h1>\n\n<p>До сих пор мы применяли операцию увеличения, используя только префиксную запись:</p>\n\n<p> <code>++c1</code> </p>\n\n<p>А как можно использовать постфиксную запись, где переменная увеличивается после того, как ее значение было использовано в выражении?</p>\n\n<p><code>c1++</code></p>\n\n<p>Чтобы иметь возможность работать с двумя версиями операции, мы определим два варианта перегрузки операции ++.</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n\nclass Counter {\nprivate:\n    unsigned int count;\n\npublic:\n    Counter() {\n        count = 0;\n    }\n\n    Counter(int c) {\n        count = c;\n    }\n\n    unsigned int get_count() {\n        return count;\n    }\n\n    Counter operator++() {\n        return Counter(++count);\n    }\n\n    Counter operator++(int) {\n        return Counter(count++);\n    }\n};\n\nint main() {\n    Counter c1, c2; // определяем переменные\n    std::cout &lt;&lt; \"\\nc1 = \" &lt;&lt; c1.get_count(); // выводим на экран\n    std::cout &lt;&lt; \"\\nc2 = \" &lt;&lt; c2.get_count();\n    ++c1; // увеличиваем c1\n    c2 = ++c1; // c1 = 2, c2 = 2\n    std::cout &lt;&lt; \"\\nc1 = \" &lt;&lt; c1.get_count(); // снова показываем значения\n    std::cout &lt;&lt; \"\\nc2 = \" &lt;&lt; c2.get_count();\n    c2 = c1++;\n    std::cout &lt;&lt; \"\\nc1 = \" &lt;&lt; c1.get_count(); // и снова\n    std::cout &lt;&lt; \"\\nc2 = \" &lt;&lt; c2.get_count() &lt;&lt; std::endl;\n    return 0;\n} </code></pre>\n\n<p>Теперь у нас есть два типа объявления функции operator++. С одной из них, для префиксной операции, мы уже были знакомы ранее:</p>\n\n<p><code>Counter operator++();</code></p>\n\n<p>Для реализации постфиксной записи операции ++ используем новую функцию:</p>\n\n<p><code>Counter operator++(int);</code></p>\n\n<p>Различие сигнатур — дополнительный параметр int у постфиксной версии. Это настоящий параметр, который обычно оставляют без имени и не используют: при записи c1++ компилятор передаёт в него 0. При явном вызове c1.operator++(2) можно передать другое значение, но такая запись уже является обычным вызовом функции. Дополнительный int позволяет различить префиксную и постфиксную перегрузки. Результат работы программы будет таким:</p>\n\n<pre><code class=\"language-cpp\">c1 = 0\nc2 = 0\nc1 = 2\nc2 = 2\nc1 = 3\nc2 = 2</code></pre>\n\n<p>Первые четыре строки мы уже видели в предыдущих программах. А в последних двух строках мы видим результаты, полученные после обработки выражения <code>c2 = c1++;</code></p>\n\n<p>Здесь c1 увеличивается до 3, но переменной c2 значение переменной c1 было присвоено до ее увеличения. Поэтому переменная c2 имеет значение 2. Конечно же, мы можем использовать различные варианты записи операции и для <code>operator--</code>.</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3760026",
+  "time": "2026-11-22T18:35:40Z"
+}

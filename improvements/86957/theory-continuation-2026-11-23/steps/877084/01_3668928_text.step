@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Композиция и открытое наследование</h3>\n\n<p>Композиция выражает связь «содержит»: автомобиль содержит двигатель. Открытое наследование выражает отношение подтипа: объект производного класса можно использовать через доступный и однозначный базовый интерфейс. Для хорошего проекта это должно сохранять смысл и контракты операций базы.</p><p>Полная программа, C++17 и C++20:</p><pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;string&gt;\n\nclass Device {\n    std::string name_;\npublic:\n    explicit Device(const std::string&amp; name) : name_(name) {}\n    const std::string&amp; name() const { return name_; }\n};\n\nclass Printer : public Device {\n    int pages_per_minute_;\npublic:\n    Printer(const std::string&amp; name, int speed)\n        : Device(name), pages_per_minute_(speed) {}\n    int speed() const { return pages_per_minute_; }\n};\n\nvoid print_name(const Device&amp; device) {\n    std::cout &lt;&lt; device.name() &lt;&lt; '\\n';\n}\n\nint main() {\n    const Printer printer{\"Office\", 20};\n    print_name(printer);\n    std::cout &lt;&lt; printer.speed() &lt;&lt; '\\n';\n    return 0;\n}</code></pre><p>Результат:</p><pre><code class=\"language-no-highlight\">Office\n20</code></pre><p>У <code>Printer</code> есть подобъект <code>Device</code> и собственное поле скорости. Публичное наследование позволяет передать принтер в функцию с параметром <code>const Device&amp;</code>. Ссылка даёт доступ к базовой части без копирования всего объекта. Закрытое <code>name_</code> не становится доступным производному классу по имени; он пользуется открытым методом <code>name()</code>.</p><p>Для скорости здесь допустим любой <code>int</code>: пример показывает отношение типов, а не полный физический контракт устройства. Если предметная область требует положительное значение, это ограничение должен установить конструктор и сохранять операции. Полезность наследования определяется такой договорённостью, а не возможностью механически не переписывать поля.</p><p>При <code>public</code>-наследовании открытые члены базы остаются открытым интерфейсом, защищённые доступны с правилами <code>protected</code>, закрытые остаются закрытыми для производного класса. <code>private</code>- и <code>protected</code>-наследование меняют доступ к базовому интерфейсу; это иные проектные решения. Модификатор относится к каждой базе отдельно, поэтому его удобно писать явно.</p><p>Объекты программы локальны и уничтожаются как <code>Printer</code>; удаления через <code>Device*</code> здесь нет. Для обычного полиморфного удаления через указатель на базу потребуется виртуальный деструктор, который разберём в <a href=\"https://stepik.org/lesson/877084/step/5\">абстрактном интерфейсе</a>. Стандартные контейнеры не образуют общую иерархию наследования только из-за сходства некоторых операций.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3668928",
+  "time": "2026-11-22T18:35:40Z"
+}

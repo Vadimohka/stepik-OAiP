@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Доступ к структуре через указатель</h3>\n\n<p>Поля можно получить через сам объект с помощью <code>.</code> или через указатель с помощью <code>-&gt;</code>. Для обычного указателя <code>p-&gt;age</code> означает то же, что <code>(*p).age</code>. Указатель должен обозначать живой объект подходящего типа.</p><p>Полная программа, C++17 и C++20:</p><pre><code class=\"language-cpp\">#include &lt;array&gt;\n#include &lt;iostream&gt;\n#include &lt;string&gt;\n\nstruct Person {\n    std::string name;\n    int age{};\n};\n\nint main() {\n    std::array&lt;Person, 2&gt; people{{{\"Anna\", 20}, {\"Boris\", 19}}};\n    Person* selected = &amp;people[1];\n    selected-&gt;age = 21;\n    const Person* reader = selected;\n    std::cout &lt;&lt; reader-&gt;name &lt;&lt; ' ' &lt;&lt; reader-&gt;age &lt;&lt; '\\n';\n    std::cout &lt;&lt; people[0].age &lt;&lt; '\\n';\n    return 0;\n}</code></pre><p>Результат:</p><pre><code class=\"language-no-highlight\">Boris 21\n20</code></pre><p>Массив владеет своими двумя элементами, а каждый <code>std::string</code> сам управляет памятью своей строки. <code>selected</code> лишь даёт доступ ко второму элементу: операция <code>new</code> не выполнялась, освобождать этот указатель через <code>delete</code> нельзя. После записи через стрелку возраст второго человека равен 21, первого — по-прежнему 20.</p><p><code>const Person*</code> запрещает изменять человека через этот указатель. Это ограничение доступа не делает объект отдельной копией и не исключает изменение через другой неконстантный путь. Указатель <code>nullptr</code> не обозначает человека; обращение через него недопустимо. После завершения времени жизни <code>people</code> доступ через сохранённый указатель на его элемент тоже недопустим.</p><p>Для объяснения стрелки достаточно уже знакомых <a href=\"https://stepik.org/lesson/763644/step/6\">массивов стандартной библиотеки</a> и строк. Ручное выделение C-строк и хранение паролей не являются частью этой модели. Передачу объекта только для чтения удобно выразить и ссылкой <code>const Person&amp;</code>, если отсутствие объекта не является допустимым вариантом.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3215234",
+  "time": "2026-11-23T06:34:36Z"
+}

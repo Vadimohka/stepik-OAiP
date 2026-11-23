@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h2>Литерал: значение, записанное в программе</h2>\n<p>Литерал — запись значения непосредственно в исходном тексте. Например, в <code>int count = 42;</code> имя <code>count</code> обозначает переменную, а <code>42</code> — целочисленный литерал. Тип есть не только у переменной: литерал тоже имеет тип, от которого зависят вычисления.</p>\n<table><thead><tr><th>Запись</th><th>Тип и смысл</th></tr></thead><tbody><tr><td><code>42</code></td><td>Для этого значения — <code>int</code>. У десятичного целого без суффикса выбирается первый подходящий тип из <code>int</code>, <code>long</code>, <code>long long</code>.</td></tr><tr><td><code>42U</code>, <code>42LL</code></td><td>В этих примерах соответственно <code>unsigned int</code> и <code>long long</code>. Суффиксы влияют на выбор типа, а не делают любое большое число представимым.</td></tr><tr><td><code>3.5</code>, <code>3.5F</code>, <code>3.5L</code></td><td>Соответственно <code>double</code>, <code>float</code>, <code>long double</code>. Десятичная точка в коде записывается точкой.</td></tr><tr><td><code>3.0e2</code></td><td>Число <code>300.0</code> типа <code>double</code>: показатель <code>e2</code> означает умножение на десять в квадрате.</td></tr><tr><td><code>'A'</code>, <code>'\\n'</code></td><td>Обычные односимвольные литералы C++ типа <code>char</code>: буква и перевод строки.</td></tr><tr><td><code>\"A\"</code></td><td>Строковый литерал: массив двух <code>const char</code>, включая завершающий нулевой символ. Это не то же самое, что один символ.</td></tr><tr><td><code>true</code>, <code>false</code></td><td>Два значения типа <code>bool</code>.</td></tr></tbody></table>\n<p>В записи <code>-42</code> знак минус является унарной операцией над литералом <code>42</code>. Для целых также доступны шестнадцатеричная запись <code>0x2A</code> и двоичная <code>0b101010</code>; обе обозначают сорок два. Начальный ноль в <code>010</code> задаёт восьмеричную запись: это восемь, а не десять.</p>\n<p>Запись числа в исходном тексте, его математическое значение и внутреннее представление — разные вещи. Например, литерал <code>0.1</code> обычно округляется при представлении в двоичном <code>double</code>. Числовые диапазоны рассматриваются в <a href=\"https://stepik.org/lesson/763630/step/7\">шаге о размерах типов</a>, а строки — в <a href=\"https://stepik.org/lesson/770588/step/1\">модуле 9</a>.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3262706",
+  "time": "2026-11-22T18:35:40Z"
+}

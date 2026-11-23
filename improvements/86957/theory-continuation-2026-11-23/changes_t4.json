@@ -1,0 +1,462 @@
+[
+  {
+    "step_id": 3212953,
+    "path": "steps/770594/01_3212953_text.step",
+    "summary": "Задание о максимуме превращено в полную трассировку; время и память привязаны к выбранной операции и пустому входу.",
+    "sources": [
+      "https://algs4.cs.princeton.edu/14analysis/",
+      "https://algs4.cs.princeton.edu/cheatsheet/"
+    ],
+    "plan": [
+      "T4",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 3213244,
+    "path": "steps/770594/02_3213244_text.step",
+    "summary": "Уточнены кванторы O/Θ, зависимость констант и отличие точного порядка от необязательно тесной верхней границы.",
+    "sources": [
+      "https://algs4.cs.princeton.edu/14analysis/"
+    ],
+    "plan": [
+      "T4",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3213241,
+    "path": "steps/770594/03_3213241_text.step",
+    "summary": "Пример явно помечен полной программой; указан точный вывод, параметр роста и граница оцениваемой операции.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/range.access"
+    ],
+    "plan": [
+      "T4",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3213243,
+    "path": "steps/770594/04_3213243_text.step",
+    "summary": "Пример явно помечен полной программой; указан точный вывод, параметр роста и граница оцениваемой операции.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/stmt.ranged",
+      "https://algs4.cs.princeton.edu/14analysis/"
+    ],
+    "plan": [
+      "T4",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3213242,
+    "path": "steps/770594/05_3213242_text.step",
+    "summary": "Пример явно помечен полной программой; указан точный вывод, параметр роста и граница оцениваемой операции.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.array",
+      "https://algs4.cs.princeton.edu/14analysis/"
+    ],
+    "plan": [
+      "T4",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3213247,
+    "path": "steps/770594/06_3213247_text.step",
+    "summary": "Самостоятельный запуск заменён трассировкой 31/32; добавлен точный переход к бинарному поиску.",
+    "sources": [
+      "https://algs4.cs.princeton.edu/14analysis/",
+      "https://timsong-cpp.github.io/cppwp/n4861/lower.bound",
+      "https://timsong-cpp.github.io/cppwp/n4861/sort"
+    ],
+    "plan": [
+      "T4",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 3213248,
+    "path": "steps/770594/07_3213248_text.step",
+    "summary": "Убрана неоговорённая школьная предпосылка; правила упрощения дополнены независимыми размерами и границами асимптотического вывода.",
+    "sources": [
+      "https://algs4.cs.princeton.edu/14analysis/"
+    ],
+    "plan": [
+      "T4",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3213256,
+    "path": "steps/770594/08_3213256_text.step",
+    "summary": "Изменение границы цикла полностью разобрано формулами и числами; добавлена точная связь с деревом рекурсии слияния.",
+    "sources": [
+      "https://algs4.cs.princeton.edu/14analysis/"
+    ],
+    "plan": [
+      "T4",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 3213255,
+    "path": "steps/770594/09_3213255_text.step",
+    "summary": "Практикум измерений заменён законченным разбором условий честного сравнения без поручения эксперимента ученику.",
+    "sources": [
+      "https://algs4.cs.princeton.edu/14analysis/",
+      "https://timsong-cpp.github.io/cppwp/n4861/time.clock.steady"
+    ],
+    "plan": [
+      "T4",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 3212954,
+    "path": "steps/770595/01_3212954_text.step",
+    "summary": "Контракт сортировки связан с требованиями итераторов и контейнеров; полный проверенный пример сохранён.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/sort",
+      "https://timsong-cpp.github.io/cppwp/n4861/stable.sort",
+      "https://algs4.cs.princeton.edu/cheatsheet/"
+    ],
+    "plan": [
+      "T4",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 3215136,
+    "path": "steps/770595/02_3215136_text.step",
+    "summary": "Самостоятельное рассуждение заменено законченным разбором; уточнены инвариант и условия оценки конкретного алгоритма.",
+    "sources": [
+      "https://algs4.cs.princeton.edu/cheatsheet/"
+    ],
+    "plan": [
+      "T4",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 3215137,
+    "path": "steps/770595/03_3215137_text.step",
+    "summary": "Вместо изображения без текстового разбора даны инвариант, точное число сравнений, трассировка и контрпример устойчивости.",
+    "sources": [
+      "https://algs4.cs.princeton.edu/code/edu/princeton/cs/algs4/Selection.java.html"
+    ],
+    "plan": [
+      "T4",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3215176,
+    "path": "steps/770595/04_3215176_text.step",
+    "summary": "Самостоятельное рассуждение заменено законченным разбором; уточнены инвариант и условия оценки конкретного алгоритма.",
+    "sources": [
+      "https://algs4.cs.princeton.edu/cheatsheet/"
+    ],
+    "plan": [
+      "T4",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 3215175,
+    "path": "steps/770595/05_3215175_text.step",
+    "summary": "Самостоятельное рассуждение заменено законченным разбором; уточнены инвариант и условия оценки конкретного алгоритма.",
+    "sources": [
+      "https://algs4.cs.princeton.edu/cheatsheet/",
+      "https://timsong-cpp.github.io/cppwp/n4861/sort",
+      "https://algs4.cs.princeton.edu/23quicksort/"
+    ],
+    "plan": [
+      "T4",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 3215178,
+    "path": "steps/770595/06_3215178_text.step",
+    "summary": "Самостоятельное рассуждение заменено законченным разбором; уточнены инвариант и условия оценки конкретного алгоритма.",
+    "sources": [
+      "https://algs4.cs.princeton.edu/cheatsheet/",
+      "https://algs4.cs.princeton.edu/22mergesort/",
+      "https://hjemmesider.diku.dk/~jyrki/Myris/GKP2000J.html"
+    ],
+    "plan": [
+      "T4",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 3215177,
+    "path": "steps/770595/07_3215177_text.step",
+    "summary": "Добавлены инвариант прохода, объяснение завершения, память и неустойчивость; конкретная последовательность шагов отделена от других вариантов.",
+    "sources": [
+      "https://sedgewick.io/wp-content/themes/sedgewick/papers/1986Shellsort.pdf"
+    ],
+    "plan": [
+      "T4",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3215179,
+    "path": "steps/770595/08_3215179_text.step",
+    "summary": "Самостоятельное рассуждение заменено законченным разбором; уточнены инвариант и условия оценки конкретного алгоритма.",
+    "sources": [
+      "https://algs4.cs.princeton.edu/cheatsheet/",
+      "https://algs4.cs.princeton.edu/24pq/"
+    ],
+    "plan": [
+      "T4",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 3215109,
+    "path": "steps/771129/01_3215109_text.step",
+    "summary": "Мини-задача превращена в объяснение изменения смысла индекса; добавлена связь контракта поиска с интерфейсом класса.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/alg.find",
+      "https://timsong-cpp.github.io/cppwp/n4861/lower.bound",
+      "https://timsong-cpp.github.io/cppwp/n4861/alg.binary.search",
+      "https://timsong-cpp.github.io/cppwp/n4861/alg.search"
+    ],
+    "plan": [
+      "T4",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 3215183,
+    "path": "steps/771129/02_3215183_text.step",
+    "summary": "Предложение написать новый поиск заменено завершённой трассировкой различия первого и последнего совпадения; исходный контракт сохранён.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/alg.find",
+      "https://algs4.cs.princeton.edu/14analysis/"
+    ],
+    "plan": [
+      "T4",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 3215192,
+    "path": "steps/771129/03_3215192_text.step",
+    "summary": "Самопроверка превращена в законченный разбор трёх отсутствующих ключей и безопасного порядка проверки границы. Независимая сверка: название оператора короткого замыкания исправлено на || в соответствии с кодом.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/lower.bound",
+      "https://timsong-cpp.github.io/cppwp/n4861/alg.binary.search",
+      "https://timsong-cpp.github.io/cppwp/n4861/is.sorted"
+    ],
+    "plan": [
+      "T4",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 3215191,
+    "path": "steps/771129/04_3215191_text.step",
+    "summary": "Исключено самостоятельное задание; математическая формула отделена от C++-реализации, разобраны равные ключи, пустота и контракт вхождения.",
+    "sources": [
+      "https://csaws.cs.technion.ac.il/~itai/publications/Algorithms/p550-perl.pdf"
+    ],
+    "plan": [
+      "T4",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3215113,
+    "path": "steps/771131/01_3215113_text.step",
+    "summary": "Самостоятельный вопрос заменён завершённым разбором состояния/формата файла; сохранён проверяемый исходный пример.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/string.io",
+      "https://timsong-cpp.github.io/cppwp/n4861/iostate.flags",
+      "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rr-raii"
+    ],
+    "plan": [
+      "T4",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 3215200,
+    "path": "steps/771131/02_3215200_text.step",
+    "summary": "Самостоятельный вопрос заменён завершённым разбором состояния/формата файла; сохранён проверяемый исходный пример.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/filebuf.members",
+      "https://timsong-cpp.github.io/cppwp/n4861/ofstream.members",
+      "https://timsong-cpp.github.io/cppwp/n4861/ostream.unformatted"
+    ],
+    "plan": [
+      "T4",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 3215199,
+    "path": "steps/771131/03_3215199_text.step",
+    "summary": "Самостоятельный вопрос заменён завершённым разбором состояния/формата файла; сохранён проверяемый исходный пример.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/c.files",
+      "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rr-raii"
+    ],
+    "plan": [
+      "T4",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 3580923,
+    "path": "steps/771131/04_3580923_text.step",
+    "summary": "Самостоятельный вопрос заменён завершённым разбором состояния/формата файла; сохранён проверяемый исходный пример.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/filebuf.members",
+      "https://timsong-cpp.github.io/cppwp/n4861/ifstream.members",
+      "https://timsong-cpp.github.io/cppwp/n4861/ofstream.members"
+    ],
+    "plan": [
+      "T4",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 3215112,
+    "path": "steps/771130/01_3215112_text.step",
+    "summary": "Самостоятельный вопрос заменён завершённым разбором состояния/формата файла; сохранён проверяемый исходный пример.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/filebuf.members",
+      "https://timsong-cpp.github.io/cppwp/n4861/basic.types",
+      "https://timsong-cpp.github.io/cppwp/n4861/ostream.inserters.arithmetic"
+    ],
+    "plan": [
+      "T4",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 3215203,
+    "path": "steps/771130/02_3215203_text.step",
+    "summary": "Самостоятельный вопрос заменён завершённым разбором состояния/формата файла; сохранён проверяемый исходный пример.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/istream.unformatted",
+      "https://timsong-cpp.github.io/cppwp/n4861/ostream.seeks",
+      "https://timsong-cpp.github.io/cppwp/n4861/c.files"
+    ],
+    "plan": [
+      "T4",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 3215206,
+    "path": "steps/771130/03_3215206_text.step",
+    "summary": "Самостоятельный вопрос заменён завершённым разбором состояния/формата файла; сохранён проверяемый исходный пример.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/string.io",
+      "https://timsong-cpp.github.io/cppwp/n4861/istream.formatted.arithmetic",
+      "https://timsong-cpp.github.io/cppwp/n4861/iostate.flags"
+    ],
+    "plan": [
+      "T4",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 4035311,
+    "path": "steps/973816/01_4035311_text.step",
+    "summary": "Три самостоятельных вопроса заменены законченным разбором пустого диапазона, отсутствия и назначения сортировки.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/iterator.requirements.general",
+      "https://timsong-cpp.github.io/cppwp/n4861/alg.find",
+      "https://timsong-cpp.github.io/cppwp/n4861/sort"
+    ],
+    "plan": [
+      "T4",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 4035416,
+    "path": "steps/973825/01_4035416_text.step",
+    "summary": "Самостоятельная проверка заменена разбором пяти повторов; интерфейс set связан с деревьями без подмены гарантий реализацией. Независимая LINKS-сверка: ссылка о красно-чёрном дереве перенаправлена с шага 3569332 (2–3-дерево) на 3570303 (красно-чёрное дерево).",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/associative.reqmts",
+      "https://timsong-cpp.github.io/cppwp/n4861/set"
+    ],
+    "plan": [
+      "T4",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 4035427,
+    "path": "steps/973825/02_4035427_text.step",
+    "summary": "Практика заменена разобранными результатами map; различены отсутствие, нулевое значение и побочная вставка.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/map.access",
+      "https://timsong-cpp.github.io/cppwp/n4861/map.modifiers"
+    ],
+    "plan": [
+      "T4",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 4035417,
+    "path": "steps/973826/01_4035417_text.step",
+    "summary": "Самопроверка превращена в законченный расчёт обхода и серии поисков; согласованы средняя, худшая и амортизированная оценки.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/associative.reqmts",
+      "https://timsong-cpp.github.io/cppwp/n4861/unord.req",
+      "https://timsong-cpp.github.io/cppwp/n4861/vector.modifiers"
+    ],
+    "plan": [
+      "T4",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 4035430,
+    "path": "steps/973826/02_4035430_text.step",
+    "summary": "Два блока самостоятельной работы заменены законченными разборами выбора контейнера и повторного чтения отсутствующего ключа. Независимая сверка: убрана адресованная редактору оговорка об объёме работ; пояснение предпосылок сохранено.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/associative.reqmts",
+      "https://timsong-cpp.github.io/cppwp/n4861/unord.req"
+    ],
+    "plan": [
+      "T4",
+      "LINKS",
+      "SCOPE"
+    ]
+  }
+]

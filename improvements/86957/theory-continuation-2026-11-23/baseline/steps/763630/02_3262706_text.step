@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Литералы языка С++</h3>\n\n<p>Символьные и целочисленные литералы:</p>\n\n<ol>\n\t<li><code>'a'</code> — символьный литерал типа char,</li>\n\t<li><em>42</em> — литерал типа int. Для десятичного целого литерала без суффикса выбирается первый из типов int, long, long long, способный представить его значение,</li>\n\t<li><em>1234567890L</em> — литерал типа long; суффикс L начинает выбор с long, а для большего значения может потребоваться long long,</li>\n\t<li><em>1703U</em> — литерал типа unsigned int; суффикс U задаёт выбор среди беззнаковых типов,</li>\n\t<li><em>2128506UL</em> — соответствует типу unsigned long.</li>\n</ol>\n\n<p>Числа с плавающей точкой:</p>\n\n<ol>\n\t<li><em>3.14</em> — вещественный литерал без суффикса, имеющий тип double</li>\n\t<li><em>2.71F</em> — суффикс ’F’ соответствует типу float</li>\n\t<li><em>3.0E8</em> — соответствует 3.0 * 10^8</li>\n</ol>\n\n<p><em>true</em> и <em>false</em> — значения типа bool.</p>\n\n<p>Строки задаются в двойных кавычках: \"<em>Text string</em>\".</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3262706",
+  "time": "2026-11-22T18:35:40Z"
+}

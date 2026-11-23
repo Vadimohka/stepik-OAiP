@@ -12,6 +12,7 @@ from html.parser import HTMLParser
 import json
 from pathlib import Path
 import re
+import subprocess
 import sys
 from urllib.parse import urlparse
 
@@ -23,6 +24,12 @@ ROOT = Path(__file__).resolve().parents[1]
 PKG = ROOT / 'improvements/86957/theory-2026-11-23'
 BASE_COMMIT = '07f9f91852c2dbe5e6a9cdab6ccd90230cd2eb79'
 TITLE = 'Теория C++: точность, современность и связанность'
+PACKAGE_CONFIGS = {
+    'theory-2026-11-23': (BASE_COMMIT, TITLE),
+    'theory-continuation-2026-11-23': (
+        'd96e5b9cffa65010c53894a9b65b1a497cb6b58a',
+        'Продолжение теоретической редакции C++: типы, классы и сквозные связи'),
+}
 
 
 class Links(HTMLParser):
@@ -51,12 +58,26 @@ def blob_sha(data):
     return hashlib.sha1(b'blob ' + str(len(data)).encode() + b'\0' + data).hexdigest()
 
 
-def build(parts=None):
+def build(parts=None, package='theory-2026-11-23'):
+    PKG = ROOT / 'improvements/86957' / package
+    BASE_COMMIT, TITLE = PACKAGE_CONFIGS[package]
     bindings, order = load_bindings(ROOT)
     locations = {(b['lesson_id'], b['position']): int(sid) for sid,b in bindings.items()}
     index = json.loads((PKG/'base_source_index.json').read_bytes())
     require(index['base_commit'] == BASE_COMMIT and len(index['files']) == 485,
             'Wrong baseline source index')
+    # Verify the index itself against Git, not only against its own recorded hashes.
+    pinned_tree = subprocess.check_output(
+        ['git', 'rev-parse', BASE_COMMIT + '^{tree}'], cwd=ROOT, text=True).strip()
+    pinned_files = {}
+    for line in subprocess.check_output(
+            ['git', 'ls-tree', '-r', BASE_COMMIT, '--', 'courses/86957/steps'],
+            cwd=ROOT, text=True).splitlines():
+        metadata, path = line.split('\t', 1)
+        if path.endswith('.step'):
+            pinned_files[path] = metadata.split()[2]
+    require(index['tree_sha'] == pinned_tree and index['files'] == pinned_files,
+            'Source index differs from the pinned Git commit')
     previous_path = PKG/'manifest.json'
     previous = json.loads(previous_path.read_bytes()) if previous_path.exists() else None
     old = {s['step_id']: s for s in previous['steps']} if previous else {}
@@ -97,6 +118,9 @@ def build(parts=None):
         fields = changed_fields(before,after)
         require(fields == ['block.text'],f'Out-of-scope or empty edit {sid}: {fields}')
         require(after['block']['name'] == 'text',f'Non-theory step {sid}')
+        if package != 'theory-2026-11-23':
+            require(not re.search(r"['\"]\s*\+\s*link\(\d+,\s*\d+,", after['block']['text']),
+                    f'Unexpanded link generator in explanation: {sid}')
         parser = Links(); parser.feed(after['block']['text'])
         require(not parser.errors, f'{sid}: {parser.errors}')
         require(parser.headings, f'Missing explanation heading {sid}')
@@ -133,7 +157,12 @@ def build(parts=None):
                 'new_practice':False,'new_video':False,'existing_assessment_changes':False},'steps':steps}
     staged[PKG/'manifest.json']=json_bytes(manifest)
     staged[PKG/'course_links.json']=json_bytes({'schema_version':1,'links':links,'checked_against':'courses/86957/manifest.json'})
-    staged[PKG/'preview.html']=render_preview(PKG,manifest,TITLE,documents)
+    preview = render_preview(PKG,manifest,TITLE,documents)
+    if package != 'theory-2026-11-23':
+        # Preview-only whitespace hygiene; canonical .step code is unchanged.
+        preview = ('\n'.join(line.rstrip(' \t') for line in
+                             preview.decode('utf-8').split('\n'))).encode('utf-8')
+    staged[PKG/'preview.html']=preview
     lines=[f'# {TITLE}','','Базовый коммит: `'+BASE_COMMIT+'`.','',
            f'Изменено **{len(steps)} текстовых шагов в {manifest["changed_lessons"]} уроках**.',
            'Меняется исключительно `block.text`; ID, типы, позиции и задания сохранены.','',
@@ -149,20 +178,28 @@ def build(parts=None):
 
 
 def main():
-    ap=argparse.ArgumentParser();ap.add_argument('--check',action='store_true');ap.add_argument('--parts',nargs='+');args=ap.parse_args()
+    ap=argparse.ArgumentParser()
+    ap.add_argument('--check',action='store_true')
+    ap.add_argument('--parts',nargs='+')
+    ap.add_argument('--package', choices=PACKAGE_CONFIGS,
+                    help='One package; default: all registered theory packages')
+    args=ap.parse_args()
     try:
-        parts=args.parts
-        if args.check:
-            require(parts is None,'--check uses saved manifest parts')
-            parts=json.loads((PKG/'manifest.json').read_bytes())['parts']
-        staged,manifest=build(parts)
-        mismatches=[p for p,data in staged.items() if not p.exists() or p.read_bytes()!=data]
-        if args.check:
-            require(not mismatches,'Stale generated files: '+', '.join(p.relative_to(ROOT).as_posix() for p in mismatches))
-        else:
-            for path in mismatches:
-                path.parent.mkdir(parents=True,exist_ok=True);path.write_bytes(staged[path])
-        print(json.dumps({'status':'checked' if args.check else 'built','steps':manifest['changed_steps'],'lessons':manifest['changed_lessons'],'parts':manifest['parts'],'written':0 if args.check else len(mismatches)}))
+        require(not args.parts or args.package, '--parts requires an explicit --package')
+        packages = [args.package] if args.package else list(PACKAGE_CONFIGS)
+        for package in packages:
+            parts=args.parts
+            if args.check:
+                require(parts is None,'--check uses saved manifest parts')
+                parts=json.loads((ROOT/'improvements/86957'/package/'manifest.json').read_bytes())['parts']
+            staged,manifest=build(parts, package)
+            mismatches=[p for p,data in staged.items() if not p.exists() or p.read_bytes()!=data]
+            if args.check:
+                require(not mismatches,'Stale generated files: '+', '.join(p.relative_to(ROOT).as_posix() for p in mismatches))
+            else:
+                for path in mismatches:
+                    path.parent.mkdir(parents=True,exist_ok=True);path.write_bytes(staged[path])
+            print(json.dumps({'package':package,'status':'checked' if args.check else 'built','steps':manifest['changed_steps'],'lessons':manifest['changed_lessons'],'parts':manifest['parts'],'written':0 if args.check else len(mismatches)}))
         return 0
     except Exception as error:
         print(f'{type(error).__name__}: {error}',file=sys.stderr);return 1

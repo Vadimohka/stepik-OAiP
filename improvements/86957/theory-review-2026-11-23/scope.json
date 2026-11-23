@@ -365,7 +365,15 @@
           "Самостоятельно и разбор"
         ]
       }
-    ]
+    ],
+    "current_adaptation": {
+      "review_file": "../theory-continuation-2026-11-23/review_scope.json",
+      "unique_text_steps": 37,
+      "already_adapted": 12,
+      "adapted_in_continuation": 25,
+      "status": "completed_in_prepared_theory",
+      "publication_of_continuation": "not_published"
+    }
   },
   "source_inventory_path": "improvements/86957/course-review-2026-11-23/inventory.json",
   "source_snapshot_digest_sha256": "18b4059c02f701ba62f957c81ea9d8bc026fa4e218ac9318cc1e354ef939ccc3",
@@ -377,5 +385,13 @@
     "verified_course_steps": 485,
     "verification_receipt": "courses/86957/publication-verification-theory-2026-11-23.json",
     "note": "Первый блок теоретического плана опубликован; новые упражнения и видео не добавлялись."
+  },
+  "current_continuation": {
+    "manifest_path": "improvements/86957/theory-continuation-2026-11-23/manifest.json",
+    "publication_status": "not_published",
+    "changed_steps": 191,
+    "overlap_with_published_theory": 7,
+    "additional_unique_steps": 184,
+    "scope_text_only": true
   }
 }

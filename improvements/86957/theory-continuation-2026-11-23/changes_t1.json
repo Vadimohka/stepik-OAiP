@@ -1,0 +1,74 @@
+[
+  {
+    "step_id": 3215266,
+    "path": "steps/771156/04_3215266_text.step",
+    "summary": "Исправлена буквальная вставка генератора link(...): переход стал действующей ссылкой на конкретный шаг; основная теория и примеры сохранены.",
+    "sources": [
+      "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3214833,
+    "path": "steps/771009/05_3214833_text.step",
+    "summary": "Исправлена буквальная вставка генератора link(...): переход стал действующей ссылкой на конкретный шаг; основная теория и примеры сохранены.",
+    "sources": [
+      "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3237946,
+    "path": "steps/776128/01_3237946_text.step",
+    "summary": "Исправлена буквальная вставка генератора link(...): переход стал действующей ссылкой на конкретный шаг; основная теория и примеры сохранены.",
+    "sources": [
+      "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3215253,
+    "path": "steps/771154/02_3215253_text.step",
+    "summary": "Исправлена буквальная вставка генератора link(...): переход стал действующей ссылкой на конкретный шаг; основная теория и примеры сохранены.",
+    "sources": [
+      "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3215254,
+    "path": "steps/771154/03_3215254_text.step",
+    "summary": "Исправлена буквальная вставка генератора link(...): переход стал действующей ссылкой на конкретный шаг; основная теория и примеры сохранены.",
+    "sources": [
+      "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3201190,
+    "path": "steps/768145/01_3201190_text.step",
+    "summary": "Исправлена буквальная вставка генератора link(...): переход стал действующей ссылкой на конкретный шаг; основная теория и примеры сохранены.",
+    "sources": [
+      "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  }
+]

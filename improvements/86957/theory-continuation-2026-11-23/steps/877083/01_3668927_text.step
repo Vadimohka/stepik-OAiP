@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Static: состояние типа и состояние экземпляра</h3>\n\n<p>Обычное нестатическое поле входит в каждый объект. Статический член данных обозначает один отдельный объект, связанный с классом, и не входит в каждый экземпляр. Обычный статический член без <code>thread_local</code> имеет статическую продолжительность хранения.</p><p>Полная программа, C++17 и C++20:</p><pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n\nstruct Sample {\n    int value{};\n    inline static int limit = 10;\n\n    bool exceeds_limit() const { return value &gt; limit; }\n    static void set_limit(int next) { limit = next; }\n};\n\nint main() {\n    Sample first{12}, second{8};\n    std::cout &lt;&lt; std::boolalpha &lt;&lt; first.exceeds_limit() &lt;&lt; ' '\n              &lt;&lt; second.exceeds_limit() &lt;&lt; '\\n';\n    Sample::set_limit(7);\n    std::cout &lt;&lt; first.exceeds_limit() &lt;&lt; ' ' &lt;&lt; second.exceeds_limit() &lt;&lt; '\\n';\n    std::cout &lt;&lt; first.value &lt;&lt; ' ' &lt;&lt; second.value &lt;&lt; '\\n';\n    return 0;\n}</code></pre><p>Результат:</p><pre><code class=\"language-no-highlight\">true false\ntrue true\n12 8</code></pre><p>Сначала общий предел равен 10: его превышает только первое значение 12. После изменения предела на 7 оба значения превышают его, хотя поля объектов остались 12 и 8. Это один общий <code>Sample::limit</code>, а не две автоматически синхронизируемые копии.</p><p>Функция <code>set_limit</code> статическая: у неё нет <code>this</code>, и её можно вызвать как <code>Sample::set_limit(7)</code> без экземпляра. Она не может обратиться к нестатическому <code>value</code> без отдельно полученного объекта. Методы <code>exceeds_limit() const</code> не меняют текущие объекты, но их результат зависит от общего изменяемого предела; <code>const</code> не делает внешнее состояние неизменным.</p><p>Запись <code>inline static</code> определяет переменную в классе начиная с C++17 и подходит для обычного заголовка при соблюдении правил одинаковых определений. Альтернативный прежний способ — объявить <code>static int limit;</code> внутри класса и дать одно определение <code>int Sample::limit = 10;</code> в <code>.cpp</code>. Оба варианта задают один объект; смешивать их в этом примере не нужно.</p><p>Счётчик живых объектов потребовал бы учитывать все способы создания, копирование, перемещение и уничтожение. Простое увеличение в одном конструкторе ещё не даёт такого счётчика. Статическое поле выбирают, когда состояние действительно общее по смыслу; для независимых значений оно не нужно.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3668927",
+  "time": "2026-11-22T18:35:40Z"
+}

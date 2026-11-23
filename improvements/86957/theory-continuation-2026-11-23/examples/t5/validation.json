@@ -1,0 +1,1166 @@
+{
+  "schema_version": 1,
+  "part": "T5_modules_12_13",
+  "started_at": "2026-11-23T10:44:44.403295+00:00",
+  "status": "passed",
+  "all_passed": true,
+  "standards": [
+    "c++17",
+    "c++20"
+  ],
+  "scope": "Author verification of complete theory illustrations and their stated contracts; no learner tasks.",
+  "counts": {
+    "text_steps": 45,
+    "complete_programs": 37,
+    "compilations": 76,
+    "runtime_cases": 90,
+    "expected_compile_failures": 10,
+    "boundary_harness_runs": 2
+  },
+  "checks": [
+    {
+      "file": "person.cpp",
+      "standard": "c++17",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "Tom 34\n\"\" 0\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "aliases.cpp",
+      "standard": "c++17",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "10 30\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "struct_pointer.cpp",
+      "standard": "c++17",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "Boris 21\n20\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "layout.cpp",
+      "standard": "c++17",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "char=1\nint=4\nrecord=8\nalignment=4\nvalue_offset=4\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "struct_convert.cpp",
+      "standard": "c++17",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "10 20\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "composition.cpp",
+      "standard": "c++17",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "Acura CL 2003\nTSX\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "member_pointer.cpp",
+      "standard": "c++17",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "Acura 11\n1\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "bit_fields.cpp",
+      "standard": "c++17",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "2 5\n31 7\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "union_active.cpp",
+      "standard": "c++17",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "7\n2.5\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "union_size.cpp",
+      "standard": "c++17",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "float=4\ndouble=8\nunion=8\nalignment=8\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "union_pointer.cpp",
+      "standard": "c++17",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "4\n1.25\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "variant.cpp",
+      "standard": "c++17",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "7\nready\ntrue\nwrong alternative\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "level.cpp",
+      "standard": "c++17",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "0\ntrue 70\nfalse 70\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "objects.cpp",
+      "standard": "c++17",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "0 0\n1066 1776\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "distance_input.cpp",
+      "standard": "c++17",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "11 6\n",
+          "stdout": "11 6\n",
+          "exit": 0
+        },
+        {
+          "stdin": "0 0\n",
+          "stdout": "0 0\n",
+          "exit": 0
+        },
+        {
+          "stdin": "1000000 11\n",
+          "stdout": "1000000 11\n",
+          "exit": 0
+        },
+        {
+          "stdin": "-1 0\n",
+          "stdout": "invalid distance\n",
+          "exit": 1
+        },
+        {
+          "stdin": "1 12\n",
+          "stdout": "invalid distance\n",
+          "exit": 1
+        },
+        {
+          "stdin": "1000001 0\n",
+          "stdout": "invalid distance\n",
+          "exit": 1
+        },
+        {
+          "stdin": "word\n",
+          "stdout": "input error\n",
+          "exit": 1
+        },
+        {
+          "stdin": "",
+          "stdout": "input error\n",
+          "exit": 1
+        }
+      ]
+    },
+    {
+      "file": "distance_constructor.cpp",
+      "standard": "c++17",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "0 0\n138\ninvalid distance\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "lifetime.cpp",
+      "standard": "c++17",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "begin first\nbegin second\nend second\nend first\ncaught\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "distance_external.cpp",
+      "standard": "c++17",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "15 0\n3 5\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "friend.cpp",
+      "standard": "c++17",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "true false\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "static_data.cpp",
+      "standard": "c++17",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "true false\ntrue true\n12 8\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "const_methods.cpp",
+      "standard": "c++17",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "2 2\n18 8\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "friend_member.cpp",
+      "standard": "c++17",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "5 6.5\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "distance_copy.cpp",
+      "standard": "c++17",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "24 18 18\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "cards.cpp",
+      "standard": "c++17",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "7 clubs\n14 spades\n11 hearts\ntrue\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "counter_prefix.cpp",
+      "standard": "c++17",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "1 2\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "counter_reference.cpp",
+      "standard": "c++17",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "3 3 2\ntrue\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "temporary.cpp",
+      "standard": "c++17",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "3 7\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "counter_postfix.cpp",
+      "standard": "c++17",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "1 1 2\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "distance_plus.cpp",
+      "standard": "c++17",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "15 0\n15 6\n41 139\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "distance_compare.cpp",
+      "standard": "c++17",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "true false\ntrue false\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "distance_assign.cpp",
+      "standard": "c++17",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "15 0\ntrue\n30 0\nunchanged 1000000 11\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "checked_array.cpp",
+      "standard": "c++17",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "10 0 30\nindex error\n30\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "inheritance.cpp",
+      "standard": "c++17",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "Office\n20\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "virtual_base.cpp",
+      "standard": "c++17",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "42\ntrue\n1\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "construction_order.cpp",
+      "standard": "c++17",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "BaseA\nBaseB\nMember\nDerived body\n~Derived body\n~Member\n~BaseB\n~BaseA\nfailed construction\nBaseA\nBaseB\nMember\nDerived body\n~Member\n~BaseB\n~BaseA\ncaught\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "base_view.cpp",
+      "standard": "c++17",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "Derived Base\ntrue\ntrue\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "abstract.cpp",
+      "standard": "c++17",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "12\n1\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "checks.cpp",
+      "standard": "c++17",
+      "passed": true,
+      "coverage": [
+        "Distance constructor boundaries, carry, limit, ordering, self-add and unchanged error state",
+        "Counter return types, prefix/postfix maximum refusal",
+        "Level allowed and denied changes",
+        "Card rank/suit and independent copy",
+        "CheckedArray const return types, bounds and unchanged error state",
+        "Rectangle range/area and virtual destruction",
+        "nested trivial union active members"
+      ]
+    },
+    {
+      "kind": "expected_compile_failure",
+      "name": "const_increment",
+      "standard": "c++17",
+      "passed": true
+    },
+    {
+      "kind": "expected_compile_failure",
+      "name": "private_member",
+      "standard": "c++17",
+      "passed": true
+    },
+    {
+      "kind": "expected_compile_failure",
+      "name": "const_index",
+      "standard": "c++17",
+      "passed": true
+    },
+    {
+      "kind": "expected_compile_failure",
+      "name": "abstract_object",
+      "standard": "c++17",
+      "passed": true
+    },
+    {
+      "kind": "expected_compile_failure",
+      "name": "distinct_types",
+      "standard": "c++17",
+      "passed": true
+    },
+    {
+      "file": "person.cpp",
+      "standard": "c++20",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "Tom 34\n\"\" 0\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "aliases.cpp",
+      "standard": "c++20",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "10 30\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "struct_pointer.cpp",
+      "standard": "c++20",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "Boris 21\n20\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "layout.cpp",
+      "standard": "c++20",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "char=1\nint=4\nrecord=8\nalignment=4\nvalue_offset=4\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "struct_convert.cpp",
+      "standard": "c++20",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "10 20\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "composition.cpp",
+      "standard": "c++20",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "Acura CL 2003\nTSX\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "member_pointer.cpp",
+      "standard": "c++20",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "Acura 11\n1\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "bit_fields.cpp",
+      "standard": "c++20",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "2 5\n31 7\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "union_active.cpp",
+      "standard": "c++20",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "7\n2.5\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "union_size.cpp",
+      "standard": "c++20",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "float=4\ndouble=8\nunion=8\nalignment=8\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "union_pointer.cpp",
+      "standard": "c++20",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "4\n1.25\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "variant.cpp",
+      "standard": "c++20",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "7\nready\ntrue\nwrong alternative\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "level.cpp",
+      "standard": "c++20",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "0\ntrue 70\nfalse 70\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "objects.cpp",
+      "standard": "c++20",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "0 0\n1066 1776\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "distance_input.cpp",
+      "standard": "c++20",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "11 6\n",
+          "stdout": "11 6\n",
+          "exit": 0
+        },
+        {
+          "stdin": "0 0\n",
+          "stdout": "0 0\n",
+          "exit": 0
+        },
+        {
+          "stdin": "1000000 11\n",
+          "stdout": "1000000 11\n",
+          "exit": 0
+        },
+        {
+          "stdin": "-1 0\n",
+          "stdout": "invalid distance\n",
+          "exit": 1
+        },
+        {
+          "stdin": "1 12\n",
+          "stdout": "invalid distance\n",
+          "exit": 1
+        },
+        {
+          "stdin": "1000001 0\n",
+          "stdout": "invalid distance\n",
+          "exit": 1
+        },
+        {
+          "stdin": "word\n",
+          "stdout": "input error\n",
+          "exit": 1
+        },
+        {
+          "stdin": "",
+          "stdout": "input error\n",
+          "exit": 1
+        }
+      ]
+    },
+    {
+      "file": "distance_constructor.cpp",
+      "standard": "c++20",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "0 0\n138\ninvalid distance\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "lifetime.cpp",
+      "standard": "c++20",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "begin first\nbegin second\nend second\nend first\ncaught\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "distance_external.cpp",
+      "standard": "c++20",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "15 0\n3 5\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "friend.cpp",
+      "standard": "c++20",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "true false\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "static_data.cpp",
+      "standard": "c++20",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "true false\ntrue true\n12 8\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "const_methods.cpp",
+      "standard": "c++20",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "2 2\n18 8\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "friend_member.cpp",
+      "standard": "c++20",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "5 6.5\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "distance_copy.cpp",
+      "standard": "c++20",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "24 18 18\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "cards.cpp",
+      "standard": "c++20",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "7 clubs\n14 spades\n11 hearts\ntrue\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "counter_prefix.cpp",
+      "standard": "c++20",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "1 2\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "counter_reference.cpp",
+      "standard": "c++20",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "3 3 2\ntrue\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "temporary.cpp",
+      "standard": "c++20",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "3 7\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "counter_postfix.cpp",
+      "standard": "c++20",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "1 1 2\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "distance_plus.cpp",
+      "standard": "c++20",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "15 0\n15 6\n41 139\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "distance_compare.cpp",
+      "standard": "c++20",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "true false\ntrue false\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "distance_assign.cpp",
+      "standard": "c++20",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "15 0\ntrue\n30 0\nunchanged 1000000 11\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "checked_array.cpp",
+      "standard": "c++20",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "10 0 30\nindex error\n30\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "inheritance.cpp",
+      "standard": "c++20",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "Office\n20\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "virtual_base.cpp",
+      "standard": "c++20",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "42\ntrue\n1\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "construction_order.cpp",
+      "standard": "c++20",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "BaseA\nBaseB\nMember\nDerived body\n~Derived body\n~Member\n~BaseB\n~BaseA\nfailed construction\nBaseA\nBaseB\nMember\nDerived body\n~Member\n~BaseB\n~BaseA\ncaught\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "base_view.cpp",
+      "standard": "c++20",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "Derived Base\ntrue\ntrue\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "abstract.cpp",
+      "standard": "c++20",
+      "passed": true,
+      "runs": [
+        {
+          "stdin": "",
+          "stdout": "12\n1\n",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "file": "checks.cpp",
+      "standard": "c++20",
+      "passed": true,
+      "coverage": [
+        "Distance constructor boundaries, carry, limit, ordering, self-add and unchanged error state",
+        "Counter return types, prefix/postfix maximum refusal",
+        "Level allowed and denied changes",
+        "Card rank/suit and independent copy",
+        "CheckedArray const return types, bounds and unchanged error state",
+        "Rectangle range/area and virtual destruction",
+        "nested trivial union active members"
+      ]
+    },
+    {
+      "kind": "expected_compile_failure",
+      "name": "const_increment",
+      "standard": "c++20",
+      "passed": true
+    },
+    {
+      "kind": "expected_compile_failure",
+      "name": "private_member",
+      "standard": "c++20",
+      "passed": true
+    },
+    {
+      "kind": "expected_compile_failure",
+      "name": "const_index",
+      "standard": "c++20",
+      "passed": true
+    },
+    {
+      "kind": "expected_compile_failure",
+      "name": "abstract_object",
+      "standard": "c++20",
+      "passed": true
+    },
+    {
+      "kind": "expected_compile_failure",
+      "name": "distinct_types",
+      "standard": "c++20",
+      "passed": true
+    }
+  ],
+  "input_sha256": {
+    "improvements/86957/theory-continuation-2026-11-23/changes_t5.json": "f20283674e7a43851d98d8c85f2f797fff8d1174719be73e706f6abe1c278115",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5/abstract.cpp": "f68c453160803d3e13cc50d919f0c6fd0438773eba9a2407405828c891fec0c9",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5/aliases.cpp": "ef49c10254cd1655d2a27b952795c38c3d5f6b2adb68b65c55b02c2c0c50641a",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5/base_view.cpp": "684129b5a1a4558c0a228472cac3401323dff131ea98406f2b55ae51f7babb11",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5/bit_fields.cpp": "07ccf9f3a49d8f5ef4edcfe6b290271e7f82c5d2a1d58b8910bee9c2d882b87a",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5/cards.cpp": "566108819c1dd5e13a1423d09b7b5ff934313266ea8dd3a972155f183e1049b4",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5/cases.json": "0169fecb7d1995486b8f61cfd2e719d784cc59eb79a9746fdbfa6252870f6c80",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5/checked_array.cpp": "aaf9b70931fe5d4e9e11a6d12c47ed7381b33804f113d271da1fecf322b3e1aa",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5/checks.cpp": "557ce9794e0094060a84ac6ffbc9a89c3d551736f3d04cde52313800f32ccfca",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5/composition.cpp": "9bbfdb3362105eb0c7c9025a8d4889cedd1b3f715abc4f25cd731bed18d6e580",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5/const_methods.cpp": "755aadf51c4fa4fb0dd8fce551a3aa2454f889f6389783df77fe0ffd8e32b407",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5/construction_order.cpp": "48dc8df28f064b7c7104d5a9320a26705edb57396e8ef5a9be07064531e34a1e",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5/counter.hpp": "128c9729768e892f851e07d59d69565cb7883e66969e94207dfd040033f92e10",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5/counter_postfix.cpp": "3a2b29b92060b9aaea2cf4d5962fc6fd4785c28bdfae7395f28eeb2f41696d4b",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5/counter_prefix.cpp": "66a6ab6f0b6188dee053adcf4660f44d738119e097175bf73dba79a00adbd83b",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5/counter_reference.cpp": "79787348a8ab0612cb750df7580519a8b0dbb1dc51f8e1109427bd792c490059",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5/distance.hpp": "bd3eaeffea051ff5f513313909f4b254c28838205ffdf7c610bcaa1a0c8558e8",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5/distance_assign.cpp": "c437f14b407b78d4be8cfd54b690eac4fb6739e605843c34e3cd4d5571c9436c",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5/distance_compare.cpp": "1e1108a10df8c0af07c963d34eb057d05e74654b8b4517850742cf28d532298e",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5/distance_constructor.cpp": "999fd6757fa5b78c6454807f98970551ba6ab805ae4a115203224ecc660e7190",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5/distance_copy.cpp": "1c90363ad90fe549f51758e1e31991bb8ee9a5615c07ff0b2d899001fc8a503b",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5/distance_external.cpp": "b294e9cee2d176e6b3715007cac5e80a57a1e8f0e06f6f999e3725fc8f37f353",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5/distance_input.cpp": "a5d36507027977d274046f71580d59abcd2690a933ee1fd4fa7bf6895ec551c4",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5/distance_plus.cpp": "db03f2603a77f01120a8932fdc1678d26c1887511f35894099d1a131d7aa0b6f",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5/friend.cpp": "4399a51072594d9faa4f795f09b86126bbd058872078ec31105a363f5a6cc692",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5/friend_member.cpp": "7a90109cdc34489f01f336e9a375055e8e1bbe5c40fc02ec57eb8e4073121b26",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5/inheritance.cpp": "65be22aaf32db58c3088d29784b87750069fd0c09b57f2488fc8e2139dd4a1f6",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5/layout.cpp": "bd12f3ba608e0189e476226cfc21c4b4a495abdce9cd69459b17536ef9553e76",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5/level.cpp": "6e8e08053987f1098b2fe119dfda218c70302b108a4b450699e0747ac3a9ff29",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5/lifetime.cpp": "cae0a25ae2e7c73647837b2e757fe3f54564f7655d2722f73d7b44b8a6dd4f74",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5/member_pointer.cpp": "edc7d72fb55ef2efacbc99ed28445cbc5976d0479f5acc00f554cab6a32776c8",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5/objects.cpp": "942c6a13f3c408f59777dec85dc23e7f960c9a0f95ff8a3fa6a1760341a2f482",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5/person.cpp": "e37d3dd7fe2951459dc8ef7f2918a2df584c403467b907758cce426173225e45",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5/static_data.cpp": "b4a7376ae371ce5256bfdffb4b34b7502da37d1ac510f17c17235144cc3deaea",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5/struct_convert.cpp": "dfa14a3f5a3a83f42e82b51df16f00d689c63819f509511f8c5fe6104e261cdd",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5/struct_pointer.cpp": "03f8fc55584ea8bb745d76712156fe2f524cbf8781679966cdd6b84f8953c4f4",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5/temporary.cpp": "63e9ba569d289e13d68f46ffda7a018be2bcb6d8da05a96b26c301c54545cc3c",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5/union_active.cpp": "e70b0ffbcbc5b42af4797b10188a444866a8281378259d77ac44623d88edea9d",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5/union_pointer.cpp": "0d2d59fe4b7e031c89a387f692947912bf2bbc754f1cf3dd601c137d6de54f96",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5/union_size.cpp": "aea8513118f501d4806ab1dda3bdb9872de8b44bc8a6a4eca687647f3f846789",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5/variant.cpp": "32508218b61500fd82f9faff6e2a5af357ee32c44b3c9af4eedaff8bb9b1e821",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5/verify.py": "23743c7adbe3996fe50834a665498657db1a7babeab9dc5d40ba172c43f969dd",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5/virtual_base.cpp": "55ca0cc1a3deb71dd08579c790f7749bce2bb124619681d22211cc0e4a13c3db",
+    "improvements/86957/theory-continuation-2026-11-23/steps/770596/01_3212955_text.step": "9079f4ae032f86113bce47cd32c3af70a66803ed7791215a9464b4e32bde6386",
+    "improvements/86957/theory-continuation-2026-11-23/steps/770596/02_3215231_text.step": "6841e68d17781b112528ab781d0a78f2b1cfd23f0796e8ff1862937f6c88297d",
+    "improvements/86957/theory-continuation-2026-11-23/steps/770596/03_3215234_text.step": "f9b4b5d562b20ca1fe89f4587830cee4a71f0c844a3a5f4ed04e4212091ed9d8",
+    "improvements/86957/theory-continuation-2026-11-23/steps/770596/04_3215232_text.step": "98111500e3025f4df1cb3786a9efde99e9f5bec82cc6ca45695edb07dca6f002",
+    "improvements/86957/theory-continuation-2026-11-23/steps/770596/05_3215233_text.step": "cdcb7507290a5ba2677be2c8985b67fbd83dfc6387efc1cde98759659a40e269",
+    "improvements/86957/theory-continuation-2026-11-23/steps/770596/06_3215235_text.step": "94c934a6b739d38ba3265ee5d39845dc5dafb24f085e1f3b689785c3b6822b21",
+    "improvements/86957/theory-continuation-2026-11-23/steps/770596/07_3215236_text.step": "50265a8a50293b0499da215f683dc515f053f217e08bca39e8c8baeeed30b9f3",
+    "improvements/86957/theory-continuation-2026-11-23/steps/770596/08_3216509_text.step": "0dde6def5d828d15b4cff69cd19741eeb8e24801f0242f98dd140b79ef06beae",
+    "improvements/86957/theory-continuation-2026-11-23/steps/770597/01_3212956_text.step": "9a97aec8c8debf9d85d5f7a4cdabf4aba0ed9ec01d72d0818c6155716222a537",
+    "improvements/86957/theory-continuation-2026-11-23/steps/770597/02_3215243_text.step": "11e858dd4a57564915b96460d28600db7c287d7907a98f34d4d91296c93e467a",
+    "improvements/86957/theory-continuation-2026-11-23/steps/770597/03_3215244_text.step": "85a784ebcd9b7ae3d2300453541c887e39c5a0ade83650acb323d487e9b18ad3",
+    "improvements/86957/theory-continuation-2026-11-23/steps/770597/04_3215242_text.step": "356d0053004197dcbd6981258049f47023f05aad9db112b52f805eb383e14bce",
+    "improvements/86957/theory-continuation-2026-11-23/steps/877081/01_3668925_text.step": "ab96730bc8cc190d27b4e8315a4d7481b1374379cc7d350c13e7c89bdc4b0441",
+    "improvements/86957/theory-continuation-2026-11-23/steps/877081/02_3669000_text.step": "9b34000c14e645a5dd70b4cb893d2074629aa1b01545fdfbf5bf0cf4ed13266e",
+    "improvements/86957/theory-continuation-2026-11-23/steps/877081/03_3668999_text.step": "52164d7388590683f8a0226da53e51ccc4d73d821fb023f5a05246703d88e1fe",
+    "improvements/86957/theory-continuation-2026-11-23/steps/877081/04_3669075_text.step": "6ac6303563368449eaf98ef34dc95151899818f09680767e1c2bf1a8d1ae377e",
+    "improvements/86957/theory-continuation-2026-11-23/steps/877081/05_3669089_text.step": "c98d022fd9328b63aac9ae8e69414f2be8d761f381abf24fb706a3fbcbc203ac",
+    "improvements/86957/theory-continuation-2026-11-23/steps/877081/06_3669093_text.step": "89303d5a7c3ed6eecfcb3e57c2ae5d3bb29c4ea2a4a4e444eb6a369c2438892f",
+    "improvements/86957/theory-continuation-2026-11-23/steps/877082/01_3668926_text.step": "4abf0df9fa6dc314d5de44ad6f11344781e43c1d0b0d4ce6242b8a393c00d33e",
+    "improvements/86957/theory-continuation-2026-11-23/steps/877082/02_3668952_text.step": "ebcc01dc2ba4fe2fd04924af40c5efea6f0c3964e28a5b75c2732865d49b0cf7",
+    "improvements/86957/theory-continuation-2026-11-23/steps/877082/03_3668953_text.step": "e3afbb7a6491c3381b839c3599441c397054d38372ccbf57f89bce3771918064",
+    "improvements/86957/theory-continuation-2026-11-23/steps/877082/04_3669114_text.step": "19b46b42ac88f80a4bd18b564e180f94ad8a75e8739e33ac4dca150758724096",
+    "improvements/86957/theory-continuation-2026-11-23/steps/877082/05_3668977_text.step": "006ccb12e0fe3d78a8c1d23f25c6d32206df4e41cfd6cdd89eaffcaa845df767",
+    "improvements/86957/theory-continuation-2026-11-23/steps/877082/06_3669121_text.step": "c65db88c37647cdf4dc2de992928212a3dd5bc753753a871e122898bccb6a082",
+    "improvements/86957/theory-continuation-2026-11-23/steps/877083/01_3668927_text.step": "dfb2ec05e915d4a5c07754e8f6d9a5c57a278040e9e1e11f4087867c4c0fed0d",
+    "improvements/86957/theory-continuation-2026-11-23/steps/877083/02_3669140_text.step": "b651a3eb6e1695b2e33257eda560447bcd04d7117553d9c07ffff8db66623824",
+    "improvements/86957/theory-continuation-2026-11-23/steps/877083/03_3669142_text.step": "38404d1f9f0e7a2da41f75f5cbd162c7a6188e2f7522470f0ea9854254331e91",
+    "improvements/86957/theory-continuation-2026-11-23/steps/877083/04_3669156_text.step": "dcf7d5c3629cc82d18ac62565e4961eb8b124180eacfed185b766716c822a313",
+    "improvements/86957/theory-continuation-2026-11-23/steps/877083/05_3669173_text.step": "b6ff6986a9de341a886578926c9518e3f5d8cf4c438f93c6b0e8f4ccbb9ea1c7",
+    "improvements/86957/theory-continuation-2026-11-23/steps/877083/06_3669172_text.step": "11cf49f88cfbde922eac83bce1eae9aff98c31bfcefbf52a031dc679d5349872",
+    "improvements/86957/theory-continuation-2026-11-23/steps/877084/01_3668928_text.step": "ff06ace448e63f5a4d84c3bb33d254d2d39c3565aa9eca63fbd6f1893a1bc043",
+    "improvements/86957/theory-continuation-2026-11-23/steps/877084/02_3759849_text.step": "c4d0810b3515f534f1b3c46f2f809af842b3ec809a9f797dd7c2e56feb5be9aa",
+    "improvements/86957/theory-continuation-2026-11-23/steps/877084/03_3759850_text.step": "cf9a34b7973b5287f5448292b2c8a5c5487eaf3c5bd6f593a65dbb7d4c6a325b",
+    "improvements/86957/theory-continuation-2026-11-23/steps/877084/04_3759851_text.step": "245c8c2da78d07f3e6f17a08185e5369b725f45ec65f4df98dad265170317c94",
+    "improvements/86957/theory-continuation-2026-11-23/steps/877084/05_3759914_text.step": "fde02306014a889ed6de43c7d877ec25e74e3b7ddc9f64d0f2a5ae20fbc017fe",
+    "improvements/86957/theory-continuation-2026-11-23/steps/897987/01_3759977_text.step": "ac4658487d7350bc30668e4a749d64bee11a37886108dea17bf680a41c254f4a",
+    "improvements/86957/theory-continuation-2026-11-23/steps/897987/02_3760028_text.step": "1ad9fe013d074abf38ace85cb34de7d811d5b2f029e6fb6b14e4917d854e8021",
+    "improvements/86957/theory-continuation-2026-11-23/steps/897987/03_3760023_text.step": "6b479149d24cf9f7e5254c5db74df8db5135ee3d9436d699f44cf96a2511da45",
+    "improvements/86957/theory-continuation-2026-11-23/steps/897987/04_3760024_text.step": "d595bb3d110ff5febe92429c487129f5073f6dfc99e65aeb9cac025da05ccc06",
+    "improvements/86957/theory-continuation-2026-11-23/steps/897987/05_3760025_text.step": "7919078aa7d704ba1c95e9c6bd519c8684f8a09850673b9407d124cb4bf585f9",
+    "improvements/86957/theory-continuation-2026-11-23/steps/897987/06_3760026_text.step": "eb5158fb2606ac7a6c4150c44196b0dac07755091e27d6daabdd98ccc6f78e09",
+    "improvements/86957/theory-continuation-2026-11-23/steps/897987/07_3760027_text.step": "7688c8d6bac1f6c116b58c56e26b6fe44812da42011f46f68abb876bea35c3ca",
+    "improvements/86957/theory-continuation-2026-11-23/steps/897987/08_3760029_text.step": "0267ec1438c2d5a6c51808dcecffc70e291443b62d98f40b0b8bd82a26fe3994",
+    "improvements/86957/theory-continuation-2026-11-23/steps/897987/09_3760048_text.step": "72c90a1701a9efbca05ee8b2e705ab60896f73dad697380f6b160c1cad462014",
+    "improvements/86957/theory-continuation-2026-11-23/steps/897987/10_3760047_text.step": "c3a06c25ea32b9718c53badeb651dc8010c7d4aa4c60313b7a709081c508fd07"
+  },
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "limitations": [
+    "Only the 37 complete changed T5 listings, their listed instructor boundary harness and five explained negative compilation cases are checked.",
+    "Finite behavioral cases do not prove correctness for every program state. GCC/Linux was used; Windows/MSVC and macOS were not run.",
+    "Layout and union sizes are checked using standard constraints; exact ABI numbers are observations, not portable expected outputs.",
+    "No learner submissions, grading settings, videos or Stepik APIs are accessed."
+  ],
+  "finished_at": "2026-11-23T10:45:11.391460+00:00"
+}

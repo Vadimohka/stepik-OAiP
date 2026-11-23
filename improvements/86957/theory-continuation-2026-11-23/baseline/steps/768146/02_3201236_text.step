@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Пространства имён</h3>\n\n<p>Пространство имен — это декларативная область, в рамках которой определяются различные идентификаторы (имена типов, функций, переменных, и т. д.). Пространства имен используются для организации кода в виде логических групп и с целью избежания конфликтов имен, которые могут возникнуть, особенно в таких случаях, когда база кода включает несколько библиотек. Обращение к членам пространства имён подчиняется правилам области видимости и поиска имён; в частности, нужное объявление должно быть доступно в месте использования. За пределами пространства имён можно обращаться к его членам с помощью полного имени для каждого идентификатора, например <code>std::vector&lt;std::string&gt; vec;</code>, с помощью <a href=\"https://docs.microsoft.com/ru-ru/cpp/cpp/using-declaration?view=msvc-160\" rel=\"noopener noreferrer nofollow\">объявления</a> для одного идентификатора (<code>using std::string</code>) или <a href=\"https://docs.microsoft.com/ru-ru/cpp/cpp/namespaces-cpp?view=msvc-160#using_directives\" rel=\"noopener noreferrer nofollow\">директивы using</a> для всех идентификаторов в пространстве имен (<code>using namespace std;</code>). В общедоступных заголовках следует избегать глобальных using-директив; квалифицированные имена помогают не влиять на поиск имён в подключающем коде.</p>\n\n<p>Директива <code>using namespace std;</code> позволяет при неквалифицированном поиске имён учитывать пространство <code>std</code>. Она не помещает следующие объявления или функцию <code>main</code> в <code>std</code> и не переносит туда или оттуда сущности. Например:</p>\n\n<pre><code class=\"language-cpp\">#include &lt;string&gt;\n#include &lt;vector&gt;\n\nint main() {\n    using namespace std;\n    vector&lt;string&gt; words;\n}</code></pre>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3201236",
+  "time": "2026-11-22T18:35:40Z"
+}

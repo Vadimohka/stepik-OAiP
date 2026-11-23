@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h2>goto: переход к метке</h2>\n<p><code>goto label;</code> передаёт управление к <code>label:</code> в той же функции. Метка — имя с двоеточием перед инструкцией. Этот механизм полезно узнавать в существующем коде, хотя обычные ветвления и циклы обычно яснее выражают структуру алгоритма.</p>\n<p><strong>Фрагмент внутри main с подключённым &lt;iostream&gt;.</strong></p>\n<pre><code class=\"language-cpp\">int number{-2};\nif (number &lt; 0) {\n    goto negative;\n}\nstd::cout &lt;&lt; \"nonnegative\\n\";\ngoto done;\nnegative:\nstd::cout &lt;&lt; \"negative\\n\";\ndone:\n;\n</code></pre>\n<p>Значение −2 выбирает метку <code>negative</code>, поэтому выводится одна строка <code>negative</code>. После <code>done:</code> стоит пустая инструкция <code>;</code>: в C++17/20 метка должна относиться к инструкции. Ту же логику проще записать так:</p>\n<p><strong>Альтернативный фрагмент, не продолжение предыдущего; требуется &lt;iostream&gt;.</strong></p>\n<pre><code class=\"language-cpp\">int number{-2};\nif (number &lt; 0) {\n    std::cout &lt;&lt; \"negative\\n\";\n} else {\n    std::cout &lt;&lt; \"nonnegative\\n\";\n}\n</code></pre>\n<p>Нельзя перейти в другую функцию. Нельзя перепрыгнуть через инициализацию локальной переменной и попасть в область, где она должна быть уже создана, например через <code>int x{5};</code> к использованию <code>x</code>. При выходе из блока через <code>goto</code> уже созданные автоматические объекты уничтожаются по обычным правилам.</p>\n<p>Ветвления и циклы тоже могут компилироваться в машинные переходы, но стандарт не требует одинакового машинного кода или скорости для разных записей. Для начала удобно читать программу как последовательность блоков <code>if</code> и циклов. <a href=\"https://stepik.org/lesson/763642/step/4\">break</a> и <a href=\"https://stepik.org/lesson/763642/step/5\">continue</a> дают более узкие и явно заданные цели перехода.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3177540",
+  "time": "2026-11-22T18:35:40Z"
+}

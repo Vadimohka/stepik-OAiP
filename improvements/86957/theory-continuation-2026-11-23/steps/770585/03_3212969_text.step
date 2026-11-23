@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h2>Копия значения и общий доступ</h2>\n<p>При копировании числа получается отдельное значение в отдельном объекте. При копировании указателя получаются два указателя на тот же исходный объект. Новый объект <code>int</code> от копирования адреса не создаётся.</p>\n<p><strong>Полная программа C++17/C++20.</strong></p>\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\nint main() {\n    int value{10};\n    int copy = value;\n    int* first = &amp;value;\n    int* second = first;\n    *second = 45;\n    std::cout &lt;&lt; value &lt;&lt; ' ' &lt;&lt; copy &lt;&lt; ' ' &lt;&lt; *first &lt;&lt; '\\n';\n    int other{7};\n    second = &amp;other;\n    *second = 8;\n    std::cout &lt;&lt; value &lt;&lt; ' ' &lt;&lt; other &lt;&lt; ' ' &lt;&lt; *first &lt;&lt; '\\n';\n}\n</code></pre>\n<p>Первая строка вывода — <code>45 10 45</code>. Указатели <code>first</code> и <code>second</code> дают общий доступ к <code>value</code>; независимая копия <code>copy</code> сохраняет 10. Затем присваивание <code>second = &amp;other</code> меняет лишь значение второго указателя. <code>first</code> по-прежнему указывает на <code>value</code>. Поэтому вторая строка — <code>45 8 45</code>.</p>\n<p>Общий доступ не означает совместного владения: ни один указатель в этой программе ничего не выделял и не должен освобождать. Оба исходных объекта существуют до выхода из <code>main</code>. Если бы объект перестал существовать, все указатели на него потеряли бы право доступа, независимо от числа копий.</p>\n<p>Типы тоже проверяются: <code>int*</code> нельзя неявно инициализировать адресом <code>double</code>. Принудительное приведение указателя не превращает лежащий там объект в другой тип. Операции с самими указателями уточняются в <a href=\"https://stepik.org/lesson/770585/step/4\">следующем шаге</a>.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3212969",
+  "time": "2026-11-22T18:35:40Z"
+}

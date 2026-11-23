@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3><strong>ЛИНЕЙНАЯ | O(N)</strong></h3>\n\n<p>При линейном порядке Θ(n) число базовых операций пропорционально количеству элементов n. В примере каждый элемент массива посещается один раз. Здесь показан массив из пяти элементов; для массива длины n цикл выполнится n раз.</p>\n\n<p><strong>Пример:</strong></p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\nusing namespace std;\n\nint main() {\n    int a[] {1,2,3,4,5};\n    for (auto i: a)\n        cout &lt;&lt; i &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3213243",
+  "time": "2026-11-22T18:35:40Z"
+}

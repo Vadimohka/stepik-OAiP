@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h2>break: завершение ближайшего цикла или switch</h2>\n<p><code>break</code> завершает ближайший охватывающий цикл или <code>switch</code>. Выполнение продолжается после этой конструкции. Блок <code>if</code> сам по себе целью <code>break</code> не является.</p>\n<p><strong>Полная программа C++17/C++20.</strong></p>\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\nint main() {\n    for (int i = 0; i &lt; 10; ++i) {\n        if (i == 3) {\n            break;\n        }\n        std::cout &lt;&lt; i &lt;&lt; '\\n';\n    }\n    std::cout &lt;&lt; \"done\\n\";\n}\n</code></pre>\n<p>Цикл начинает с 0, проверяет <code>i &lt; 10</code> и увеличивает счётчик после обычного прохода тела. В вывод попадают 0, 1 и 2. При <code>i == 3</code> сначала выполняется <code>break</code>; число 3 не печатается. Приращение счётчика и следующая проверка условия уже не выполняются. Затем выводится <code>done</code>.</p>\n<p>Если один цикл вложен в другой, <code>break</code> завершает только внутренний. Если внутри цикла расположен <code>switch</code>, а <code>break</code> находится в нём, он завершает только <code>switch</code>. Для окончания функции применяется <code>return</code>. Таким образом, цель перехода определяется вложенностью, а не ближайшими фигурными скобками.</p>\n<p>Полный порядок исполнения <code>for</code> раскрыт в <a href=\"https://stepik.org/lesson/763719/step/4\">следующем уроке о циклах</a>. В отличие от <code>break</code>, <code>continue</code> сохраняет цикл и пропускает только остаток одной итерации.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3177546",
+  "time": "2026-11-22T18:35:40Z"
+}

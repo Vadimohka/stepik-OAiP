@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h2>Объект-указатель и объект, на который он указывает</h2>\n<p>Тип <code>int*</code> означает «указатель на <code>int</code>». Переменная такого типа сама является объектом и хранит значение указателя. В простейшем случае это значение указывает на другой живой объект. Указатель также может быть нулевым или обозначать позицию сразу за массивом; эти значения нельзя разыменовывать.</p>\n<p><strong>Полная программа C++17/C++20.</strong></p>\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\nint main() {\n    int value{10};\n    int* pointer = &amp;value;\n    std::cout &lt;&lt; *pointer &lt;&lt; '\\n';\n    *pointer = 25;\n    std::cout &lt;&lt; value &lt;&lt; '\\n';\n    pointer = nullptr;\n    std::cout &lt;&lt; std::boolalpha &lt;&lt; (pointer == nullptr) &lt;&lt; '\\n';\n}\n</code></pre>\n<p>Вывод: <code>10</code>, <code>25</code>, <code>true</code>. Операция <code>&amp;value</code> получает указатель на <code>value</code>. Выражение <code>*pointer</code> обращается к этому объекту. Поэтому присваивание через него меняет именно <code>value</code>, а не отдельную копию.</p>\n<table><thead><tr><th>Запись</th><th>Что обозначает</th></tr></thead><tbody><tr><td><code>int* pointer</code></td><td>Объявление объекта-указателя; звёздочка участвует в записи типа.</td></tr><tr><td><code>&amp;value</code></td><td>Получение адреса объекта <code>value</code>; тип выражения <code>int*</code>.</td></tr><tr><td><code>*pointer</code></td><td>Разыменование: доступ к объекту <code>int</code>, когда указатель действителен для такого доступа.</td></tr><tr><td><code>nullptr</code></td><td>Нулевое значение указателя, обозначающее отсутствие объекта.</td></tr></tbody></table>\n<p>После <code>pointer = nullptr;</code> объект <code>value</code> продолжает существовать и содержит 25. Изменение указателя не уничтожает прежний объект. В примере владелец хранения — блок <code>main</code>, а указатель лишь даёт доступ.</p>\n<p>Локальное <code>int* p;</code> без инициализатора не задаёт допустимого значения. Используйте сразу адрес либо <code>nullptr</code>. Проверка на <code>nullptr</code> полезна, но не доказывает, что любой другой указатель действителен: он мог пережить объект. Числа адресов, которые показывает отладчик, зависят от реализации и запуска; их нельзя автоматически считать физическими адресами оперативной памяти.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3212968",
+  "time": "2026-11-22T18:35:40Z"
+}

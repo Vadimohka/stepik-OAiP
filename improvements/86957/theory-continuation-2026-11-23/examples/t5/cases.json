@@ -1,0 +1,413 @@
+[
+  {
+    "file": "person.cpp",
+    "expected": "Tom 34\n\"\" 0\n",
+    "inputs": null,
+    "check": null,
+    "step_ids": [
+      3212955
+    ],
+    "sha256": "e37d3dd7fe2951459dc8ef7f2918a2df584c403467b907758cce426173225e45"
+  },
+  {
+    "file": "aliases.cpp",
+    "expected": "10 30\n",
+    "inputs": null,
+    "check": null,
+    "step_ids": [
+      3215231
+    ],
+    "sha256": "ef49c10254cd1655d2a27b952795c38c3d5f6b2adb68b65c55b02c2c0c50641a"
+  },
+  {
+    "file": "struct_pointer.cpp",
+    "expected": "Boris 21\n20\n",
+    "inputs": null,
+    "check": null,
+    "step_ids": [
+      3215234
+    ],
+    "sha256": "03f8fc55584ea8bb745d76712156fe2f524cbf8781679966cdd6b84f8953c4f4"
+  },
+  {
+    "file": "layout.cpp",
+    "expected": null,
+    "inputs": null,
+    "check": "layout",
+    "step_ids": [
+      3215232
+    ],
+    "sha256": "bd12f3ba608e0189e476226cfc21c4b4a495abdce9cd69459b17536ef9553e76"
+  },
+  {
+    "file": "struct_convert.cpp",
+    "expected": "10 20\n",
+    "inputs": null,
+    "check": null,
+    "step_ids": [
+      3215233
+    ],
+    "sha256": "dfa14a3f5a3a83f42e82b51df16f00d689c63819f509511f8c5fe6104e261cdd"
+  },
+  {
+    "file": "composition.cpp",
+    "expected": "Acura CL 2003\nTSX\n",
+    "inputs": null,
+    "check": null,
+    "step_ids": [
+      3215235
+    ],
+    "sha256": "9bbfdb3362105eb0c7c9025a8d4889cedd1b3f715abc4f25cd731bed18d6e580"
+  },
+  {
+    "file": "member_pointer.cpp",
+    "expected": "Acura 11\n1\n",
+    "inputs": null,
+    "check": null,
+    "step_ids": [
+      3215236
+    ],
+    "sha256": "edc7d72fb55ef2efacbc99ed28445cbc5976d0479f5acc00f554cab6a32776c8"
+  },
+  {
+    "file": "bit_fields.cpp",
+    "expected": "2 5\n31 7\n",
+    "inputs": null,
+    "check": null,
+    "step_ids": [
+      3216509
+    ],
+    "sha256": "07ccf9f3a49d8f5ef4edcfe6b290271e7f82c5d2a1d58b8910bee9c2d882b87a"
+  },
+  {
+    "file": "union_active.cpp",
+    "expected": "7\n2.5\n",
+    "inputs": null,
+    "check": null,
+    "step_ids": [
+      3212956
+    ],
+    "sha256": "e70b0ffbcbc5b42af4797b10188a444866a8281378259d77ac44623d88edea9d"
+  },
+  {
+    "file": "union_size.cpp",
+    "expected": null,
+    "inputs": null,
+    "check": "union_size",
+    "step_ids": [
+      3215243
+    ],
+    "sha256": "aea8513118f501d4806ab1dda3bdb9872de8b44bc8a6a4eca687647f3f846789"
+  },
+  {
+    "file": "union_pointer.cpp",
+    "expected": "4\n1.25\n",
+    "inputs": null,
+    "check": null,
+    "step_ids": [
+      3215244
+    ],
+    "sha256": "0d2d59fe4b7e031c89a387f692947912bf2bbc754f1cf3dd601c137d6de54f96"
+  },
+  {
+    "file": "variant.cpp",
+    "expected": "7\nready\ntrue\nwrong alternative\n",
+    "inputs": null,
+    "check": null,
+    "step_ids": [
+      3215242
+    ],
+    "sha256": "32508218b61500fd82f9faff6e2a5af357ee32c44b3c9af4eedaff8bb9b1e821"
+  },
+  {
+    "file": "level.cpp",
+    "expected": "0\ntrue 70\nfalse 70\n",
+    "inputs": null,
+    "check": null,
+    "step_ids": [
+      3668952
+    ],
+    "sha256": "6e8e08053987f1098b2fe119dfda218c70302b108a4b450699e0747ac3a9ff29"
+  },
+  {
+    "file": "objects.cpp",
+    "expected": "0 0\n1066 1776\n",
+    "inputs": null,
+    "check": null,
+    "step_ids": [
+      3668977
+    ],
+    "sha256": "942c6a13f3c408f59777dec85dc23e7f960c9a0f95ff8a3fa6a1760341a2f482"
+  },
+  {
+    "file": "distance_input.cpp",
+    "expected": null,
+    "inputs": [
+      {
+        "stdin": "11 6\n",
+        "stdout": "11 6\n",
+        "exit": 0
+      },
+      {
+        "stdin": "0 0\n",
+        "stdout": "0 0\n",
+        "exit": 0
+      },
+      {
+        "stdin": "1000000 11\n",
+        "stdout": "1000000 11\n",
+        "exit": 0
+      },
+      {
+        "stdin": "-1 0\n",
+        "stdout": "invalid distance\n",
+        "exit": 1
+      },
+      {
+        "stdin": "1 12\n",
+        "stdout": "invalid distance\n",
+        "exit": 1
+      },
+      {
+        "stdin": "1000001 0\n",
+        "stdout": "invalid distance\n",
+        "exit": 1
+      },
+      {
+        "stdin": "word\n",
+        "stdout": "input error\n",
+        "exit": 1
+      },
+      {
+        "stdin": "",
+        "stdout": "input error\n",
+        "exit": 1
+      }
+    ],
+    "check": null,
+    "step_ids": [
+      3669000
+    ],
+    "sha256": "a5d36507027977d274046f71580d59abcd2690a933ee1fd4fa7bf6895ec551c4"
+  },
+  {
+    "file": "distance_constructor.cpp",
+    "expected": "0 0\n138\ninvalid distance\n",
+    "inputs": null,
+    "check": null,
+    "step_ids": [
+      3668999
+    ],
+    "sha256": "999fd6757fa5b78c6454807f98970551ba6ab805ae4a115203224ecc660e7190"
+  },
+  {
+    "file": "lifetime.cpp",
+    "expected": "begin first\nbegin second\nend second\nend first\ncaught\n",
+    "inputs": null,
+    "check": null,
+    "step_ids": [
+      3669075
+    ],
+    "sha256": "cae0a25ae2e7c73647837b2e757fe3f54564f7655d2722f73d7b44b8a6dd4f74"
+  },
+  {
+    "file": "distance_external.cpp",
+    "expected": "15 0\n3 5\n",
+    "inputs": null,
+    "check": null,
+    "step_ids": [
+      3669089
+    ],
+    "sha256": "b294e9cee2d176e6b3715007cac5e80a57a1e8f0e06f6f999e3725fc8f37f353"
+  },
+  {
+    "file": "friend.cpp",
+    "expected": "true false\n",
+    "inputs": null,
+    "check": null,
+    "step_ids": [
+      3669093
+    ],
+    "sha256": "4399a51072594d9faa4f795f09b86126bbd058872078ec31105a363f5a6cc692"
+  },
+  {
+    "file": "static_data.cpp",
+    "expected": "true false\ntrue true\n12 8\n",
+    "inputs": null,
+    "check": null,
+    "step_ids": [
+      3668927
+    ],
+    "sha256": "b4a7376ae371ce5256bfdffb4b34b7502da37d1ac510f17c17235144cc3deaea"
+  },
+  {
+    "file": "const_methods.cpp",
+    "expected": "2 2\n18 8\n",
+    "inputs": null,
+    "check": null,
+    "step_ids": [
+      3669140
+    ],
+    "sha256": "755aadf51c4fa4fb0dd8fce551a3aa2454f889f6389783df77fe0ffd8e32b407"
+  },
+  {
+    "file": "friend_member.cpp",
+    "expected": "5 6.5\n",
+    "inputs": null,
+    "check": null,
+    "step_ids": [
+      3669142
+    ],
+    "sha256": "7a90109cdc34489f01f336e9a375055e8e1bbe5c40fc02ec57eb8e4073121b26"
+  },
+  {
+    "file": "distance_copy.cpp",
+    "expected": "24 18 18\n",
+    "inputs": null,
+    "check": null,
+    "step_ids": [
+      3669156
+    ],
+    "sha256": "1c90363ad90fe549f51758e1e31991bb8ee9a5615c07ff0b2d899001fc8a503b"
+  },
+  {
+    "file": "cards.cpp",
+    "expected": "7 clubs\n14 spades\n11 hearts\ntrue\n",
+    "inputs": null,
+    "check": null,
+    "step_ids": [
+      3669172
+    ],
+    "sha256": "566108819c1dd5e13a1423d09b7b5ff934313266ea8dd3a972155f183e1049b4"
+  },
+  {
+    "file": "counter_prefix.cpp",
+    "expected": "1 2\n",
+    "inputs": null,
+    "check": null,
+    "step_ids": [
+      3760028
+    ],
+    "sha256": "66a6ab6f0b6188dee053adcf4660f44d738119e097175bf73dba79a00adbd83b"
+  },
+  {
+    "file": "counter_reference.cpp",
+    "expected": "3 3 2\ntrue\n",
+    "inputs": null,
+    "check": null,
+    "step_ids": [
+      3760024
+    ],
+    "sha256": "79787348a8ab0612cb750df7580519a8b0dbb1dc51f8e1109427bd792c490059"
+  },
+  {
+    "file": "temporary.cpp",
+    "expected": "3 7\n",
+    "inputs": null,
+    "check": null,
+    "step_ids": [
+      3760025
+    ],
+    "sha256": "63e9ba569d289e13d68f46ffda7a018be2bcb6d8da05a96b26c301c54545cc3c"
+  },
+  {
+    "file": "counter_postfix.cpp",
+    "expected": "1 1 2\n",
+    "inputs": null,
+    "check": null,
+    "step_ids": [
+      3760026
+    ],
+    "sha256": "3a2b29b92060b9aaea2cf4d5962fc6fd4785c28bdfae7395f28eeb2f41696d4b"
+  },
+  {
+    "file": "distance_plus.cpp",
+    "expected": "15 0\n15 6\n41 139\n",
+    "inputs": null,
+    "check": null,
+    "step_ids": [
+      3760027
+    ],
+    "sha256": "db03f2603a77f01120a8932fdc1678d26c1887511f35894099d1a131d7aa0b6f"
+  },
+  {
+    "file": "distance_compare.cpp",
+    "expected": "true false\ntrue false\n",
+    "inputs": null,
+    "check": null,
+    "step_ids": [
+      3760029
+    ],
+    "sha256": "1e1108a10df8c0af07c963d34eb057d05e74654b8b4517850742cf28d532298e"
+  },
+  {
+    "file": "distance_assign.cpp",
+    "expected": "15 0\ntrue\n30 0\nunchanged 1000000 11\n",
+    "inputs": null,
+    "check": null,
+    "step_ids": [
+      3760048
+    ],
+    "sha256": "c437f14b407b78d4be8cfd54b690eac4fb6739e605843c34e3cd4d5571c9436c"
+  },
+  {
+    "file": "checked_array.cpp",
+    "expected": "10 0 30\nindex error\n30\n",
+    "inputs": null,
+    "check": null,
+    "step_ids": [
+      3760047
+    ],
+    "sha256": "aaf9b70931fe5d4e9e11a6d12c47ed7381b33804f113d271da1fecf322b3e1aa"
+  },
+  {
+    "file": "inheritance.cpp",
+    "expected": "Office\n20\n",
+    "inputs": null,
+    "check": null,
+    "step_ids": [
+      3668928
+    ],
+    "sha256": "65be22aaf32db58c3088d29784b87750069fd0c09b57f2488fc8e2139dd4a1f6"
+  },
+  {
+    "file": "virtual_base.cpp",
+    "expected": "42\ntrue\n1\n",
+    "inputs": null,
+    "check": null,
+    "step_ids": [
+      3759849
+    ],
+    "sha256": "55ca0cc1a3deb71dd08579c790f7749bce2bb124619681d22211cc0e4a13c3db"
+  },
+  {
+    "file": "construction_order.cpp",
+    "expected": "BaseA\nBaseB\nMember\nDerived body\n~Derived body\n~Member\n~BaseB\n~BaseA\nfailed construction\nBaseA\nBaseB\nMember\nDerived body\n~Member\n~BaseB\n~BaseA\ncaught\n",
+    "inputs": null,
+    "check": null,
+    "step_ids": [
+      3759850
+    ],
+    "sha256": "48dc8df28f064b7c7104d5a9320a26705edb57396e8ef5a9be07064531e34a1e"
+  },
+  {
+    "file": "base_view.cpp",
+    "expected": "Derived Base\ntrue\ntrue\n",
+    "inputs": null,
+    "check": null,
+    "step_ids": [
+      3759851
+    ],
+    "sha256": "684129b5a1a4558c0a228472cac3401323dff131ea98406f2b55ae51f7babb11"
+  },
+  {
+    "file": "abstract.cpp",
+    "expected": "12\n1\n",
+    "inputs": null,
+    "check": null,
+    "step_ids": [
+      3759914
+    ],
+    "sha256": "f68c453160803d3e13cc50d919f0c6fd0438773eba9a2407405828c891fec0c9"
+  }
+]

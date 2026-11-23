@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Указатель на union не выбирает активный член</h3>\n\n<p>Для доступа через указатель к объединению применяется знакомая стрелка. Сам тип указателя сообщает тип объединения, но не сообщает, какой его член сейчас активен.</p><p>Полная программа, C++17 и C++20:</p><pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n\nunion Number {\n    int integer;\n    double real;\n};\n\nint main() {\n    Number number{4};\n    Number* pointer = &amp;number;\n    std::cout &lt;&lt; pointer-&gt;integer &lt;&lt; '\\n';\n    pointer-&gt;real = 1.25;\n    std::cout &lt;&lt; number.real &lt;&lt; '\\n';\n    return 0;\n}</code></pre><p>Результат:</p><pre><code class=\"language-no-highlight\">4\n1.25</code></pre><p>Указатель обозначает существующий локальный объект; здесь не требуется динамическая память. После второй записи активен <code>real</code>, независимо от того, обращаемся мы через <code>pointer-&gt;real</code> или через <code>number.real</code>. Доступ к <code>integer</code> после переключения не становится допустимым от использования указателя.</p><p>Указатель не владеет объектом и не продлевает его время жизни. <code>delete pointer</code> в этом примере был бы ошибкой: объект не создан операцией <code>new</code>. Для <code>nullptr</code> и для указателя после уничтожения объекта недопустимо разыменование. Правила адреса и времени жизни те же, что у структуры; к ним добавляется правило активного члена объединения.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3215244",
+  "time": "2026-11-23T06:34:36Z"
+}

@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Создание копии и присваивание существующему объекту</h3>\n\n<p>Инициализация создаёт объект; присваивание меняет уже существующий. Одинаковый знак <code>=</code> в исходнике не делает эти действия одинаковыми. Для класса без ручного управления ресурсом подходящие специальные операции часто может сформировать компилятор.</p><p>Полная программа, C++17 и C++20:</p><pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;stdexcept&gt;\n\nclass Distance {\n    long long feet_{};\n    long long inches_{};\npublic:\n    static constexpr long long max_feet = 1'000'000;\n\n    Distance() = default;\n    Distance(long long feet, long long inches)\n        : feet_(feet), inches_(inches) {\n        if (feet &lt; 0 || feet &gt; max_feet || inches &lt; 0 || inches &gt;= 12) {\n            throw std::invalid_argument(\"distance\");\n        }\n    }\n\n    long long feet() const { return feet_; }\n    long long inches() const { return inches_; }\n    long long total_inches() const { return feet_ * 12 + inches_; }\n};\n\nint main() {\n    Distance original{1, 6};\n    Distance copy = original;\n    Distance assigned;\n    assigned = original;\n    original = Distance{2, 0};\n    std::cout &lt;&lt; original.total_inches() &lt;&lt; ' ' &lt;&lt; copy.total_inches() &lt;&lt; ' '\n              &lt;&lt; assigned.total_inches() &lt;&lt; '\\n';\n    return 0;\n}</code></pre><p>Результат:</p><pre><code class=\"language-no-highlight\">24 18 18</code></pre><p><code>Distance copy = original;</code> инициализирует новый объект копирующим конструктором. В <code>assigned = original;</code> объект уже существует, поэтому используется копирующее присваивание. Обе операции доступны для показанного типа и копируют его два числовых поля. После изменения <code>original</code> остальные значения остаются по 18 дюймов.</p><p>Формирование копирования не означает простое копирование произвольных байтов. Базы и поля копируются по своим правилам: <code>std::string</code> копирует строковое значение, а обычный указатель — только адрес. Автоматически получить независимую копию объекта за указателем таким образом нельзя. Если поле некопируемо, как <code>std::unique_ptr</code>, соответствующая неявная операция класса обычно тоже удалена.</p><p>Обычная форма копирующего конструктора — <code>Distance(const Distance&amp;)</code>. Передача источника по значению для такого конструктора потребовала бы ещё одной копии при самом вызове и не является допустимой заменой. Для наших числовых полей ручное определение не нужно.</p><p>Возврат по значению безопасно передаёт готовое значение без ссылки на уничтоженный локальный объект. В C++17/20 <code>return Distance{1, 6};</code> создаёт результат непосредственно из этого prvalue; отдельная копия или перемещение в таком случае не требуются. Для возврата именованного локального <code>result</code> действует необязательная оптимизация NRVO. Подробная связь с категориями выражений и перемещением находится в <a href=\"https://stepik.org/lesson/853535/step/1\">модуле 14</a>.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3669156",
+  "time": "2026-11-22T18:35:40Z"
+}

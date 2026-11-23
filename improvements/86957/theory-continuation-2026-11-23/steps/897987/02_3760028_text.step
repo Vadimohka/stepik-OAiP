@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Префиксный инкремент: изменить и вернуть тот же объект</h3>\n\n<p>Унарная операция имеет один операнд. Для счётчика <code>++counter</code> увеличивает значение на единицу. По обычному соглашению префиксная форма возвращает ссылку на уже изменённый объект, как встроенный префиксный инкремент числа.</p><p>Полная программа, C++17 и C++20:</p><pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;limits&gt;\n#include &lt;stdexcept&gt;\n\nclass Counter {\n    unsigned count_{};\npublic:\n    Counter() = default;\n    explicit Counter(unsigned initial) : count_(initial) {}\n    unsigned value() const { return count_; }\n\n    Counter&amp; operator++() {\n        if (count_ == std::numeric_limits&lt;unsigned&gt;::max()) {\n            throw std::overflow_error(\"counter\");\n        }\n        ++count_;\n        return *this;\n    }\n};\n\nint main() {\n    Counter first, second;\n    ++first;\n    ++second;\n    ++second;\n    std::cout &lt;&lt; first.value() &lt;&lt; ' ' &lt;&lt; second.value() &lt;&lt; '\\n';\n    return 0;\n}</code></pre><p>Результат:</p><pre><code class=\"language-no-highlight\">1 2</code></pre><p>Текущий объект передаётся методу неявно, поэтому у <code>operator++()</code> нет обычного параметра-операнда. <code>*this</code> обозначает сам объект, а возвращаемый тип <code>Counter&amp;</code> сохраняет связь с ним. Возвращать отдельную копию для префикса здесь нет необходимости.</p><p>Беззнаковая арифметика языка допускает переход максимума к нулю, но для данного счётчика выбран другой контракт: превышение максимума считается ошибкой. Проверка выполняется <em>до</em> изменения. <code>std::numeric_limits&lt;unsigned&gt;::max()</code> даёт максимум типа в используемой реализации; заранее фиксировать число битов не нужно.</p><p>Это авторская политика конкретного типа. Язык не требует, чтобы каждая пользовательская перегрузка <code>++</code> проверяла переполнение или возвращала именно ссылку. Мы выбираем привычный интерфейс и объясняем его предел. Статус <code>const</code> у <code>value()</code> позволяет читать счётчик, а увеличивающий метод закономерно неконстантен.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3760028",
+  "time": "2026-11-22T18:35:40Z"
+}

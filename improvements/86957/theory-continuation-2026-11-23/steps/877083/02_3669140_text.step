@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Const относится к пути доступа</h3>\n\n<p>Метод с <code>const</code> после списка параметров получает текущий объект как константный. Через этот путь он не может менять обычные нестатические поля или вызывать для текущего объекта неконстантные методы. Поэтому операции наблюдения и вычисления нового значения объявляют <code>const</code>.</p><p>Полная программа, C++17 и C++20:</p><pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;stdexcept&gt;\n\nclass Distance {\n    long long feet_{};\n    long long inches_{};\npublic:\n    static constexpr long long max_feet = 1'000'000;\n\n    Distance() = default;\n    Distance(long long feet, long long inches)\n        : feet_(feet), inches_(inches) {\n        if (feet &lt; 0 || feet &gt; max_feet || inches &lt; 0 || inches &gt;= 12) {\n            throw std::invalid_argument(\"distance\");\n        }\n    }\n\n    long long feet() const { return feet_; }\n    long long inches() const { return inches_; }\n    long long total_inches() const { return feet_ * 12 + inches_; }\n    Distance add_dist(const Distance&amp; other) const {\n        const long long total = total_inches() + other.total_inches();\n        if (total &gt; max_feet * 12 + 11) {\n            throw std::overflow_error(\"distance sum\");\n        }\n        return Distance{total / 12, total % 12};\n    }\n};\n\nint main() {\n    const Distance first{1, 6};\n    const Distance second{0, 8};\n    Distance sum = first.add_dist(second);\n    std::cout &lt;&lt; sum.feet() &lt;&lt; ' ' &lt;&lt; sum.inches() &lt;&lt; '\\n';\n    std::cout &lt;&lt; first.total_inches() &lt;&lt; ' ' &lt;&lt; second.total_inches() &lt;&lt; '\\n';\n    return 0;\n}</code></pre><p>Результат:</p><pre><code class=\"language-no-highlight\">2 2\n18 8</code></pre><p>Сумма равна 2 футам 2 дюймам; исходные 18 и 8 дюймов сохранены. В <code>add_dist(const Distance&amp; other) const</code> две разные договорённости: параметр <code>other</code> доступен только для чтения через ссылку, и текущий объект доступен только для чтения через <code>this</code>. Новый возвращаемый объект изменяется независимо.</p><p>Если объявление и определение разделены, конечное <code>const</code> указывается в обоих местах. Оно участвует в типе нестатического метода, поэтому можно определить константную и неконстантную версии одной операции; такой приём будет использован в <a href=\"https://stepik.org/lesson/897987/step/10\">операторе индексации</a>.</p><p>У <code>const</code> есть точные границы. Поля с <code>mutable</code> допускают изменение даже через константный текущий объект. Статические поля не являются его частью. Если поле хранит <code>int*</code>, константность объекта запрещает менять этот указатель через него, но сама по себе не превращает указанное число в <code>const int</code>. Поэтому <code>const</code> не означает автоматически «никаких побочных эффектов» или потокобезопасность.</p><p>У действительно объявленного константным объекта обычные поля нельзя менять и через снятие квалификатора: такое изменение имеет неопределённое поведение. В показанном интерфейсе для этого нет необходимости: чтение доступно напрямую, а арифметика возвращает отдельное значение.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3669140",
+  "time": "2026-11-22T18:35:40Z"
+}

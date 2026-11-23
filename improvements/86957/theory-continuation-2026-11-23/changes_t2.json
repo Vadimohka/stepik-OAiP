@@ -1,0 +1,803 @@
+[
+  {
+    "step_id": 3262706,
+    "path": "steps/763630/02_3262706_text.step",
+    "summary": "Литерал связан со значением, типом и синтаксисом; суффиксы и кодировки отделены от представления объекта.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/lex.icon",
+      "https://timsong-cpp.github.io/cppwp/n4659/lex.fcon",
+      "https://timsong-cpp.github.io/cppwp/n4659/lex.ccon",
+      "https://timsong-cpp.github.io/cppwp/n4659/lex.string"
+    ],
+    "plan": [
+      "T2",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3177280,
+    "path": "steps/763630/03_3177280_text.step",
+    "summary": "Введена единая модель типа, значения, объекта, выражения, инициализации и времени жизни.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/intro.object",
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.life",
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.init",
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.scope",
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.stc.auto"
+    ],
+    "plan": [
+      "T2",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3177282,
+    "path": "steps/763630/04_3177282_text.step",
+    "summary": "Выбор числового типа связан с диапазоном и точностью; unsigned не представлен как проверка неотрицательности.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.fundamental",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr",
+      "https://timsong-cpp.github.io/cppwp/n4659/conv.integral",
+      "https://timsong-cpp.github.io/cppwp/n4659/conv.fpint"
+    ],
+    "plan": [
+      "T2",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3177279,
+    "path": "steps/763630/08_3177279_text.step",
+    "summary": "auto представлен как статический вывод типа выражения с разобранным целочисленным делением.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.spec.auto",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.mul"
+    ],
+    "plan": [
+      "T2",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3177291,
+    "path": "steps/763639/01_3177291_text.step",
+    "summary": "Связаны выражение, тип результата, побочный эффект, деление и короткое замыкание; задан контракт программы.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/expr",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.mul",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.log.and",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.log.or",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.post.incr",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.pre.incr"
+    ],
+    "plan": [
+      "T2",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3177474,
+    "path": "steps/763639/02_3177474_text.step",
+    "summary": "Явные C++-приведения, продвижения и mixed signed/unsigned снабжены условиями сохранения значения и версии.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/conv.prom",
+      "https://timsong-cpp.github.io/cppwp/n4659/conv.integral",
+      "https://timsong-cpp.github.io/cppwp/n4659/conv.fpint",
+      "https://timsong-cpp.github.io/cppwp/n4659/conv.double",
+      "https://timsong-cpp.github.io/cppwp/n4659/conv.bool",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr",
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.init.list",
+      "https://timsong-cpp.github.io/cppwp/n4861/conv.integral"
+    ],
+    "plan": [
+      "T2",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3177292,
+    "path": "steps/763640/01_3177292_text.step",
+    "summary": "Ветвление объяснено как выбор пути; показаны границы, независимые if, else-if и условное выражение без платформенной локали.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/stmt.if",
+      "https://timsong-cpp.github.io/cppwp/n4659/conv.bool",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.cond",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.rel"
+    ],
+    "plan": [
+      "T2",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3215105,
+    "path": "steps/763640/02_3215105_text.step",
+    "summary": "switch получает точный контракт меток и разобранный fallthrough; убраны нерелевантные лимиты и обещания скорости.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/stmt.switch",
+      "https://timsong-cpp.github.io/cppwp/n4659/stmt.dcl",
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.attr.fallthrough"
+    ],
+    "plan": [
+      "T2",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3177294,
+    "path": "steps/763642/01_3177294_text.step",
+    "summary": "Для операторов перехода заданы точные цели и конкретные продолжения, включая предварительное объяснение циклов.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/stmt.jump",
+      "https://timsong-cpp.github.io/cppwp/n4659/stmt.iter"
+    ],
+    "plan": [
+      "T2",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3177541,
+    "path": "steps/763642/02_3177541_text.step",
+    "summary": "return объяснён через полный пример функции, код завершения main и обязательность результата.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/stmt.return",
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.start.main",
+      "https://timsong-cpp.github.io/cppwp/n4659/support.start.term"
+    ],
+    "plan": [
+      "T2",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3177540,
+    "path": "steps/763642/03_3177540_text.step",
+    "summary": "goto получил законченный разбор без ассемблерных изображений, заданий и обещаний одинаковой скорости.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/stmt.goto",
+      "https://timsong-cpp.github.io/cppwp/n4659/stmt.label",
+      "https://timsong-cpp.github.io/cppwp/n4659/stmt.dcl",
+      "https://timsong-cpp.github.io/cppwp/n4659/stmt.jump"
+    ],
+    "plan": [
+      "T2",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3177546,
+    "path": "steps/763642/04_3177546_text.step",
+    "summary": "break разобран переносимой полной программой без внешнего kbhit и незаданных переменных.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/stmt.break",
+      "https://timsong-cpp.github.io/cppwp/n4659/stmt.for"
+    ],
+    "plan": [
+      "T2",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3177547,
+    "path": "steps/763642/05_3177547_text.step",
+    "summary": "continue разобран на числах без преждевременного строкового ввода и платформенного преобразования символов.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/stmt.cont",
+      "https://timsong-cpp.github.io/cppwp/n4659/stmt.for",
+      "https://timsong-cpp.github.io/cppwp/n4659/stmt.while",
+      "https://timsong-cpp.github.io/cppwp/n4659/stmt.do"
+    ],
+    "plan": [
+      "T2",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3177296,
+    "path": "steps/763644/02_3177296_text.step",
+    "summary": "Сохранён сильный пример std::array; самостоятельное изменение заменено завершённым объяснением размера и значения.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/array",
+      "https://timsong-cpp.github.io/cppwp/n4659/stmt.ranged"
+    ],
+    "plan": [
+      "T2",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 3212907,
+    "path": "steps/763644/03_3212907_text.step",
+    "summary": "Определение встроенного массива связано с объектами-элементами, типом T[N] и будущим преобразованием в указатель.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.array",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.sub",
+      "https://timsong-cpp.github.io/cppwp/n4659/conv.array",
+      "https://timsong-cpp.github.io/cppwp/n4659/array"
+    ],
+    "plan": [
+      "T2",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3212908,
+    "path": "steps/763644/04_3212908_text.step",
+    "summary": "Сохранён полный пример независимой копии; проверочный вопрос заменён разбором частичной и избыточной инициализации.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.array",
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.init.aggr",
+      "https://timsong-cpp.github.io/cppwp/n4659/array.cons"
+    ],
+    "plan": [
+      "T2",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 3212935,
+    "path": "steps/763644/05_3212935_text.step",
+    "summary": "Инициализация массивов уточнена без обещания универсальной эквивалентности скобок; псевдонимы не оставляют неинициализированные элементы.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.init.aggr",
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.init.list",
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.array",
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.typedef",
+      "https://timsong-cpp.github.io/cppwp/n4659/lex.string",
+      "https://timsong-cpp.github.io/cppwp/n4659/array.zero"
+    ],
+    "plan": [
+      "T2",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3212920,
+    "path": "steps/763644/06_3212920_text.step",
+    "summary": "Сохранён контракт безопасного доступа; самопроверка заменена полным разбором первого, последнего и запрещённых индексов.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.sub",
+      "https://timsong-cpp.github.io/cppwp/n4659/array",
+      "https://timsong-cpp.github.io/cppwp/n4659/sequence.reqmts"
+    ],
+    "plan": [
+      "T2",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 3212926,
+    "path": "steps/763644/07_3212926_text.step",
+    "summary": "Ограничения типов элементов объяснены без преждевременного массива константных указателей.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.array",
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.ref",
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.init"
+    ],
+    "plan": [
+      "T2",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3212924,
+    "path": "steps/763646/01_3212924_text.step",
+    "summary": "Двумерный массив объяснён текстом и таблицей без зависимости от изображения.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.array",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.sub"
+    ],
+    "plan": [
+      "T2",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3212939,
+    "path": "steps/763646/03_3212939_text.step",
+    "summary": "Полный обход таблицы согласован с границами; ссылка в range-for объяснена локально.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.array",
+      "https://timsong-cpp.github.io/cppwp/n4659/stmt.ranged",
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.ref"
+    ],
+    "plan": [
+      "T2",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3212937,
+    "path": "steps/763646/05_3212937_text.step",
+    "summary": "Размер массива отделён от продолжительности хранения; динамическая память перенесена в конкретное продолжение.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.stc",
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.stc.auto",
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.stc.static",
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.scope"
+    ],
+    "plan": [
+      "T2",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3177562,
+    "path": "steps/763719/01_3177562_text.step",
+    "summary": "Цикл введён через состояние, условие, прогресс и конечность, добавлен маршрут к обходу диапазона.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/stmt.iter",
+      "https://timsong-cpp.github.io/cppwp/n4659/stmt.while",
+      "https://timsong-cpp.github.io/cppwp/n4659/stmt.do",
+      "https://timsong-cpp.github.io/cppwp/n4659/stmt.for",
+      "https://timsong-cpp.github.io/cppwp/n4659/stmt.ranged"
+    ],
+    "plan": [
+      "T2",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3177565,
+    "path": "steps/763719/02_3177565_text.step",
+    "summary": "while снабжён разбором начала, инварианта счётчика, остановки и нулевого числа итераций.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/stmt.while",
+      "https://timsong-cpp.github.io/cppwp/n4659/stmt.block",
+      "https://timsong-cpp.github.io/cppwp/n4659/stmt.expr"
+    ],
+    "plan": [
+      "T2",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3177651,
+    "path": "steps/763719/04_3177651_text.step",
+    "summary": "for связан с while с явной оговоркой continue; исключён совет о float как обычном счётчике.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/stmt.for",
+      "https://timsong-cpp.github.io/cppwp/n4659/stmt.cont",
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.scope.block",
+      "https://timsong-cpp.github.io/cppwp/n4659/stmt.ranged"
+    ],
+    "plan": [
+      "T2",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3177786,
+    "path": "steps/763719/06_3177786_text.step",
+    "summary": "do-while сопоставлен с while на законченной программе и объяснён как тело с последующей проверкой.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/stmt.do",
+      "https://timsong-cpp.github.io/cppwp/n4659/stmt.while",
+      "https://timsong-cpp.github.io/cppwp/n4659/stmt.break"
+    ],
+    "plan": [
+      "T2",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3177789,
+    "path": "steps/763719/07_3177789_text.step",
+    "summary": "Итог циклов превращён в законченный разбор суммы, границ и continue с проверенным результатом.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/stmt.for",
+      "https://timsong-cpp.github.io/cppwp/n4659/stmt.cont",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.log.or",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.mul"
+    ],
+    "plan": [
+      "T2",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3212944,
+    "path": "steps/770585/01_3212944_text.step",
+    "summary": "Введение указателей заменено явной целью и моделью объект–адрес–время жизни–владение.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.compound",
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.life",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.unary.op"
+    ],
+    "plan": [
+      "T2",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3212968,
+    "path": "steps/770585/02_3212968_text.step",
+    "summary": "Указатель введён как типизированное значение, а не физический адрес; показаны &/* и отсутствие владения.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.compound",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.unary.op",
+      "https://timsong-cpp.github.io/cppwp/n4659/conv.ptr",
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.life",
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.init"
+    ],
+    "plan": [
+      "T2",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3212969,
+    "path": "steps/770585/03_3212969_text.step",
+    "summary": "Копирование указателя отделено от копирования объекта; ранний указатель на указатель перенесён в собственный шаг.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.compound",
+      "https://timsong-cpp.github.io/cppwp/n4659/conv.ptr",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.ass",
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.life",
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.lval"
+    ],
+    "plan": [
+      "T2",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3212970,
+    "path": "steps/770585/04_3212970_text.step",
+    "summary": "Операции указателей упорядочены по доступу и времени жизни; добавлена ссылка без преждевременного сложного объявления.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.eq",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.rel",
+      "https://timsong-cpp.github.io/cppwp/n4659/conv.ptr",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.unary.op",
+      "https://timsong-cpp.github.io/cppwp/n4659/ostream.inserters.character",
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.life"
+    ],
+    "plan": [
+      "T2",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3212991,
+    "path": "steps/770585/07_3212991_text.step",
+    "summary": "Двухуровневый указатель объяснён полным примером изменения адреса и объекта вместо цепочек случайных адресов.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.ptr",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.unary.op",
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.array",
+      "https://timsong-cpp.github.io/cppwp/n4659/conv.array"
+    ],
+    "plan": [
+      "T2",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3212945,
+    "path": "steps/770586/01_3212945_text.step",
+    "summary": "Адрес массива, элемента и указателя сопоставлены по типам без необъяснённого new[] и числовых адресов.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/conv.array",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.unary.op",
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.ptr",
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.array",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.add"
+    ],
+    "plan": [
+      "T2",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3212995,
+    "path": "steps/770586/02_3212995_text.step",
+    "summary": "Преобразование массива в указатель отделено от типа/размера объекта; индексирование объяснено через диапазон.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/conv.array",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.sizeof",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.sub",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.add",
+      "https://timsong-cpp.github.io/cppwp/n4659/array.data"
+    ],
+    "plan": [
+      "T2",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3213003,
+    "path": "steps/770586/03_3213003_text.step",
+    "summary": "Показаны настоящий указатель на строку и корректировка параметра массива; объяснение через оптимизацию удалено.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.array",
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.ptr",
+      "https://timsong-cpp.github.io/cppwp/n4659/conv.array",
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.fct",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.add",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.sizeof"
+    ],
+    "plan": [
+      "T2",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3213004,
+    "path": "steps/770586/04_3213004_text.step",
+    "summary": "Строковый вывод char* объяснён контрактом терминатора; адреса отделены от данных и размера.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/lex.string",
+      "https://timsong-cpp.github.io/cppwp/n4659/ostream.inserters.character",
+      "https://timsong-cpp.github.io/cppwp/n4659/c.strings",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.add"
+    ],
+    "plan": [
+      "T2",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3438842,
+    "path": "steps/770586/05_3438842_text.step",
+    "summary": "Платформенная модель адресного пространства отделена от правил C++; устранены обязательность физического адреса и зависимость от схем.",
+    "sources": [
+      "https://learn.microsoft.com/en-us/windows-hardware/drivers/gettingstarted/virtual-address-spaces",
+      "https://learn.microsoft.com/en-us/windows/win32/memory/virtual-address-space",
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.compound",
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.life",
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.stc"
+    ],
+    "plan": [
+      "T2",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3438841,
+    "path": "steps/770586/06_3438841_text.step",
+    "summary": "Продолжительность хранения, стек вызовов и динамический ресурс разделены; ранняя модель RAII выражена через vector.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.stc",
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.stc.auto",
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.stc.static",
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.stc.dynamic",
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.life",
+      "https://timsong-cpp.github.io/cppwp/n4659/vector",
+      "https://timsong-cpp.github.io/cppwp/n4659/except.ctor"
+    ],
+    "plan": [
+      "T2",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3212946,
+    "path": "steps/770587/01_3212946_text.step",
+    "summary": "Сохранены vector и ручное выделение с оговорками; инструкции ученику заменены готовыми граничными разборами.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/vector",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.new",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.delete"
+    ],
+    "plan": [
+      "T2",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 3213209,
+    "path": "steps/770587/02_3213209_text.step",
+    "summary": "Сохранён проверяемый vector таблицы; ручная схема явно отделяет строки от массива указателей и завершает разбор владения.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/vector",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.new",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.delete",
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.life"
+    ],
+    "plan": [
+      "T2",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 3213208,
+    "path": "steps/770587/03_3213208_text.step",
+    "summary": "malloc/free выделены в исторический раздел C11/C17; законченный пример проверяет отказ и сохраняет адрес владельца.",
+    "sources": [
+      "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf",
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.life",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.new",
+      "https://timsong-cpp.github.io/cppwp/n4659/vector"
+    ],
+    "plan": [
+      "T2",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3213207,
+    "path": "steps/770587/04_3213207_text.step",
+    "summary": "calloc/realloc объяснены через контракт, временный указатель и две ветви владения; устранены длинные недоказанные схемы чтения.",
+    "sources": [
+      "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf",
+      "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n2438.htm",
+      "https://timsong-cpp.github.io/cppwp/n4659/vector"
+    ],
+    "plan": [
+      "T2",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3213210,
+    "path": "steps/770587/05_3213210_text.step",
+    "summary": "Ошибки динамической памяти сведены к границам, времени жизни и обязанности освобождения; отказ выделения отделён от нарушения контракта.",
+    "sources": [
+      "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf",
+      "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n2438.htm",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.new",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.delete",
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.life",
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.stc",
+      "https://timsong-cpp.github.io/cppwp/n4659/new.delete.single",
+      "https://timsong-cpp.github.io/cppwp/n4659/new.delete.array"
+    ],
+    "plan": [
+      "T2",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3307684,
+    "path": "steps/770587/06_3307684_text.step",
+    "summary": "Сохранена сильная модель vector; самостоятельная подстановка заменена законченным разбором size/reserve/resize.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/vector",
+      "https://timsong-cpp.github.io/cppwp/n4659/vector.capacity",
+      "https://timsong-cpp.github.io/cppwp/n4659/vector.modifiers",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.new",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.delete"
+    ],
+    "plan": [
+      "T2",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 3213206,
+    "path": "steps/770587/07_3213206_text.step",
+    "summary": "Рекламное завершение и необязательный видеосписок заменены самодостаточным итогом указателей и хранения с переходами.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.life",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.add",
+      "https://timsong-cpp.github.io/cppwp/n4659/conv.array",
+      "https://timsong-cpp.github.io/cppwp/n4659/array",
+      "https://timsong-cpp.github.io/cppwp/n4659/vector"
+    ],
+    "plan": [
+      "T2",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3212947,
+    "path": "steps/770588/01_3212947_text.step",
+    "summary": "C-строка объяснена как соглашение о массиве, нулевом терминаторе и доступной ёмкости, а не отдельный указательный тип.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/lex.string",
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.init.string",
+      "https://timsong-cpp.github.io/cppwp/n4659/c.strings",
+      "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf"
+    ],
+    "plan": [
+      "T2",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3214845,
+    "path": "steps/770588/02_3214845_text.step",
+    "summary": "Перечень функций C превращён в объяснение контрактов копирования, классификации и разбора чисел; atoi не предложен как валидатор.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/c.strings",
+      "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf",
+      "https://cplusplus.github.io/LWG/issue2955"
+    ],
+    "plan": [
+      "T2",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3212948,
+    "path": "steps/770589/01_3212948_text.step",
+    "summary": "Сохранены две сильные программы getline; самопроверка преобразована в таблицу полностью объяснённых исходов.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/string.io",
+      "https://timsong-cpp.github.io/cppwp/n4659/istream.unformatted",
+      "https://timsong-cpp.github.io/cppwp/n4659/istream.manip"
+    ],
+    "plan": [
+      "T2",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 3214901,
+    "path": "steps/770589/02_3214901_text.step",
+    "summary": "Преимущества string сформулированы через владение значением, размер и операции; автоматическая безопасность отделена от контрактов.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.string",
+      "https://timsong-cpp.github.io/cppwp/n4659/string.require",
+      "https://timsong-cpp.github.io/cppwp/n4659/string.cons",
+      "https://timsong-cpp.github.io/cppwp/n4659/string.access",
+      "https://timsong-cpp.github.io/cppwp/n4659/string.accessors",
+      "https://timsong-cpp.github.io/cppwp/n4659/string.capacity",
+      "https://timsong-cpp.github.io/cppwp/n4659/string.compare"
+    ],
+    "plan": [
+      "T2",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3214903,
+    "path": "steps/770589/03_3214903_text.step",
+    "summary": "Сохранены конструкторы и независимость копии; самостоятельная подстановка завершена объяснением нулевого количества.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/string.cons",
+      "https://timsong-cpp.github.io/cppwp/n4659/string.access"
+    ],
+    "plan": [
+      "T2",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 3214902,
+    "path": "steps/770589/04_3214902_text.step",
+    "summary": "Операции string связаны с конкретной программой, значениями и различием строкового содержимого и указателя.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/string.nonmembers",
+      "https://timsong-cpp.github.io/cppwp/n4659/string.append",
+      "https://timsong-cpp.github.io/cppwp/n4659/string.compare",
+      "https://timsong-cpp.github.io/cppwp/n4659/string.access",
+      "https://timsong-cpp.github.io/cppwp/n4659/lex.string",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.eq"
+    ],
+    "plan": [
+      "T2",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3214904,
+    "path": "steps/770589/05_3214904_text.step",
+    "summary": "Сохранены find/npos, границы, UTF-8 и срок указателей; задания заменены исходами и добавлен строгий числовой разбор.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/string.find",
+      "https://timsong-cpp.github.io/cppwp/n4659/string.substr",
+      "https://timsong-cpp.github.io/cppwp/n4659/string.access",
+      "https://timsong-cpp.github.io/cppwp/n4659/string.accessors",
+      "https://timsong-cpp.github.io/cppwp/n4659/string.io",
+      "https://timsong-cpp.github.io/cppwp/n4861/charconv.from.chars",
+      "https://cplusplus.github.io/LWG/issue2955",
+      "https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2017/p0682r1.html"
+    ],
+    "plan": [
+      "T2",
+      "LINKS",
+      "SCOPE"
+    ]
+  }
+]

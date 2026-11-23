@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Конструктор устанавливает инвариант</h3>\n\n<p>Конструктор участвует в инициализации нового объекта. В его объявлении используется имя класса, а тип возвращаемого значения не записывается. Конструктор не заменяет выделение памяти: для локального объекта хранение обеспечивает объявление, а конструктор инициализирует его части.</p><p>Полная программа, C++17 и C++20:</p><pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;stdexcept&gt;\n\nclass Distance {\n    long long feet_{};\n    long long inches_{};\npublic:\n    static constexpr long long max_feet = 1'000'000;\n\n    Distance() = default;\n    Distance(long long feet, long long inches)\n        : feet_(feet), inches_(inches) {\n        if (feet &lt; 0 || feet &gt; max_feet || inches &lt; 0 || inches &gt;= 12) {\n            throw std::invalid_argument(\"distance\");\n        }\n    }\n\n    long long feet() const { return feet_; }\n    long long inches() const { return inches_; }\n    long long total_inches() const { return feet_ * 12 + inches_; }\n};\n\nint main() {\n    Distance zero;\n    const Distance length{11, 6};\n    std::cout &lt;&lt; zero.feet() &lt;&lt; ' ' &lt;&lt; zero.inches() &lt;&lt; '\\n';\n    std::cout &lt;&lt; length.total_inches() &lt;&lt; '\\n';\n    try {\n        Distance invalid{1, 12};\n        std::cout &lt;&lt; invalid.total_inches() &lt;&lt; '\\n';\n    } catch (const std::invalid_argument&amp;) {\n        std::cout &lt;&lt; \"invalid distance\\n\";\n    }\n    return 0;\n}</code></pre><p>Результат:</p><pre><code class=\"language-no-highlight\">0 0\n138\ninvalid distance</code></pre><p>Список после двоеточия инициализирует поля: <code>feet_(feet), inches_(inches)</code>. Поля инициализируются в порядке их объявления в классе, а не в произвольном порядке списка. Тело конструктора затем проверяет сочетание значений. При неверном диапазоне оно бросает исключение: полностью созданного <code>invalid</code> не появляется, а уже созданные подобъекты освобождаются по правилам языка.</p><p><code>Distance() = default;</code> явно оставляет конструктор без аргументов. Поля с <code>{}</code> получают нули, то есть допустимую длину. После объявления конструктора с параметрами конструктор по умолчанию не добавляется автоматически; здесь он нужен и указан явно. В общем случае defaulted-конструктор может оказаться удалённым, если один из подобъектов нельзя инициализировать.</p><p><code>max_feet</code> — именованная константа типа, общая для всех объектов; её <code>static constexpr</code> объявление подробнее связано с <a href=\"https://stepik.org/lesson/877083/step/1\">членами класса static</a>. Арифметика выполняется в <code>long long</code>, а выбранный предел намного меньше его гарантированного максимума.</p><p>В учебном типе из <a href=\"https://stepik.org/lesson/877081/step/2\">предыдущего шага</a> ошибку изменения сообщал <code>bool</code>. У конструктора нет такого возвращаемого значения: при невозможности создать допустимый объект здесь используется исключение. Другой проект может предоставлять отдельную функцию создания с явным результатом ошибки. Главное — не выдавать завершённый объект с нарушенным инвариантом.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3668999",
+  "time": "2026-11-22T18:35:40Z"
+}

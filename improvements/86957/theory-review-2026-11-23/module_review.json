@@ -748,5 +748,21 @@
         }
       ]
     }
-  ]
+  ],
+  "current_execution": {
+    "progress_file": "PROGRESS.md",
+    "manifest": "../theory-continuation-2026-11-23/manifest.json",
+    "review_depth": "Состояния подтверждаются журналами и текущими проверками; исторические оценки ниже сохранены как исходная точка. Полный итоговый балл будет пересмотрен после LINKS.",
+    "blocks": {
+      "T1": "prepared_verified",
+      "T2": "prepared_verified",
+      "T3": "published_revalidated",
+      "T4": "prepared_verified",
+      "T5": "prepared_verified",
+      "T6": "published_revalidated",
+      "SCOPE": "completed_in_prepared_theory",
+      "LINKS": "in_progress",
+      "PUB": "blocked_missing_authorized_stepik_api"
+    }
+  }
 }

@@ -1,0 +1,381 @@
+{
+  "schema_version": 1,
+  "course_id": 86957,
+  "date": "2026-11-23",
+  "base_commit": "5885876d1ddbc744bf0c21e2fef32a0bb92a7c43",
+  "user_constraints": [
+    "Видеоуроков не будет.",
+    "Практику не добавлять.",
+    "Обновить и актуализировать теорию, повысить качество материала и связанность курса."
+  ],
+  "included": [
+    "Точность объяснений и современные идиомы C++.",
+    "Предпосылки, переходы между темами и единая терминология.",
+    "Разобранные иллюстративные примеры и их редакторская проверка.",
+    "Текстовая самодостаточность без видео."
+  ],
+  "excluded": [
+    "Новые самостоятельные упражнения, самопроверки, quiz/code задания.",
+    "Лабораторные работы и проекты для самостоятельного выполнения.",
+    "Создание или переработка проверяющих программ заданий.",
+    "Производство и сопровождение видео.",
+    "Модернизация задачника и измерение навыков учащихся."
+  ],
+  "inventory": {
+    "modules": 20,
+    "lessons": 62,
+    "steps": 485,
+    "text_steps": 283,
+    "theory_modules_in_scope": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "practice_only_module_outside_scope": 20,
+    "existing_video_steps": [
+      3215065,
+      4733817
+    ],
+    "existing_video_lesson": 770593,
+    "inventory_note": "Тип text — структурная категория, не подтверждённый счёт полноценных теоретических уроков."
+  },
+  "prepared_materials": {
+    "all_steps": 46,
+    "text_steps": 37,
+    "assessment_and_code_steps": 9,
+    "text_files_with_practice_heading_markers": 33,
+    "marker_is_heuristic": true,
+    "text_publication_policy": "Перед переносом нужна редакторская адаптация самостоятельных заданий в тексте в разобранные иллюстрации; наличие типа text не означает соответствие новому объёму.",
+    "assessment_publication_policy": "Девять оценочных и программных изменений уже опубликованы и сохранены как история; дальнейшая разработка оценивания не входит в активный теоретический план.",
+    "packages": [
+      {
+        "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
+        "manifest_sha256": "182a00d85668fbf62c2b6820a493f29c5bf485ba55e30a59b790770c508d067b",
+        "publication": {
+          "status": "verified_on_stepik",
+          "applied": true,
+          "verified_at": "2026-11-23T07:53:35Z",
+          "verified_changed_steps": 25,
+          "verification_receipt": "courses/86957/publication-verification-2026-11-23.json",
+          "note": "Ранее опубликовано и сверено через Stepik API. Текущая теория-переоценка не публикует эти пакеты повторно."
+        },
+        "step_types": {
+          "text": 25
+        },
+        "current_scope": "text_review_required"
+      },
+      {
+        "manifest_path": "improvements/86957/assessment-2026-11-23/manifest.json",
+        "manifest_sha256": "39e0ba140a056d9f4b704c1709dc54537ed9fe940768dafa3f6b0ac99bbbbc98",
+        "publication": {
+          "status": "verified_on_stepik",
+          "applied": true,
+          "verified_at": "2026-11-23T07:53:35Z",
+          "verified_changed_steps": 4,
+          "verification_receipt": "courses/86957/publication-verification-2026-11-23.json",
+          "note": "Ранее опубликовано и сверено через Stepik API. Текущая теория-переоценка не публикует эти пакеты повторно."
+        },
+        "step_types": {
+          "choice": 4
+        },
+        "current_scope": "outside_theory_scope"
+      },
+      {
+        "manifest_path": "improvements/86957/functions-2026-11-23/manifest.json",
+        "manifest_sha256": "14dcf997e4afc48368820a1530c2c87b04f130cb9f285f42641f8f3f01c3564c",
+        "publication": {
+          "status": "verified_on_stepik",
+          "applied": true,
+          "verified_at": "2026-11-23T07:53:35Z",
+          "verified_changed_steps": 12,
+          "verification_receipt": "courses/86957/publication-verification-2026-11-23.json",
+          "note": "Ранее опубликовано и сверено через Stepik API. Текущая теория-переоценка не публикует эти пакеты повторно."
+        },
+        "step_types": {
+          "text": 12
+        },
+        "current_scope": "text_review_required"
+      },
+      {
+        "manifest_path": "improvements/86957/practice-2026-11-23/manifest.json",
+        "manifest_sha256": "f7818d626d8acabcacc78e7eef583eebad3efa88445eaf655d91a4e8ec61c172",
+        "publication": {
+          "status": "verified_on_stepik",
+          "applied": true,
+          "verified_at": "2026-11-23T07:53:35Z",
+          "verified_changed_steps": 5,
+          "verification_receipt": "courses/86957/publication-verification-2026-11-23.json",
+          "note": "Ранее опубликовано и сверено через Stepik API. Текущая теория-переоценка не публикует эти пакеты повторно."
+        },
+        "step_types": {
+          "code": 3,
+          "choice": 2
+        },
+        "current_scope": "outside_theory_scope"
+      }
+    ],
+    "flagged_text_files": [
+      {
+        "step_id": 3213256,
+        "target_path": "improvements/86957/quality-2026-11-23/steps/770594/08_3213256_text.step",
+        "headings": [
+          "Самостоятельно"
+        ]
+      },
+      {
+        "step_id": 3213255,
+        "target_path": "improvements/86957/quality-2026-11-23/steps/770594/09_3213255_text.step",
+        "headings": [
+          "Мини-практикум: подготовьте честное сравнение",
+          "Самопроверка"
+        ]
+      },
+      {
+        "step_id": 3215136,
+        "target_path": "improvements/86957/quality-2026-11-23/steps/770595/02_3215136_text.step",
+        "headings": [
+          "Самостоятельно"
+        ]
+      },
+      {
+        "step_id": 3215176,
+        "target_path": "improvements/86957/quality-2026-11-23/steps/770595/04_3215176_text.step",
+        "headings": [
+          "Самостоятельно"
+        ]
+      },
+      {
+        "step_id": 3215175,
+        "target_path": "improvements/86957/quality-2026-11-23/steps/770595/05_3215175_text.step",
+        "headings": [
+          "Самостоятельно"
+        ]
+      },
+      {
+        "step_id": 3215178,
+        "target_path": "improvements/86957/quality-2026-11-23/steps/770595/06_3215178_text.step",
+        "headings": [
+          "Самостоятельно"
+        ]
+      },
+      {
+        "step_id": 3215179,
+        "target_path": "improvements/86957/quality-2026-11-23/steps/770595/08_3215179_text.step",
+        "headings": [
+          "Самостоятельно"
+        ]
+      },
+      {
+        "step_id": 3215183,
+        "target_path": "improvements/86957/quality-2026-11-23/steps/771129/02_3215183_text.step",
+        "headings": [
+          "Самостоятельно"
+        ]
+      },
+      {
+        "step_id": 3215192,
+        "target_path": "improvements/86957/quality-2026-11-23/steps/771129/03_3215192_text.step",
+        "headings": [
+          "Самостоятельно"
+        ]
+      },
+      {
+        "step_id": 3215113,
+        "target_path": "improvements/86957/quality-2026-11-23/steps/771131/01_3215113_text.step",
+        "headings": [
+          "Самопроверка"
+        ]
+      },
+      {
+        "step_id": 3215200,
+        "target_path": "improvements/86957/quality-2026-11-23/steps/771131/02_3215200_text.step",
+        "headings": [
+          "Самопроверка"
+        ]
+      },
+      {
+        "step_id": 3215199,
+        "target_path": "improvements/86957/quality-2026-11-23/steps/771131/03_3215199_text.step",
+        "headings": [
+          "Самопроверка"
+        ]
+      },
+      {
+        "step_id": 3580923,
+        "target_path": "improvements/86957/quality-2026-11-23/steps/771131/04_3580923_text.step",
+        "headings": [
+          "Самопроверка"
+        ]
+      },
+      {
+        "step_id": 3215112,
+        "target_path": "improvements/86957/quality-2026-11-23/steps/771130/01_3215112_text.step",
+        "headings": [
+          "Самопроверка"
+        ]
+      },
+      {
+        "step_id": 3215203,
+        "target_path": "improvements/86957/quality-2026-11-23/steps/771130/02_3215203_text.step",
+        "headings": [
+          "Самопроверка"
+        ]
+      },
+      {
+        "step_id": 3215206,
+        "target_path": "improvements/86957/quality-2026-11-23/steps/771130/03_3215206_text.step",
+        "headings": [
+          "Самопроверка"
+        ]
+      },
+      {
+        "step_id": 4035311,
+        "target_path": "improvements/86957/quality-2026-11-23/steps/973816/01_4035311_text.step",
+        "headings": [
+          "Попробуйте самостоятельно"
+        ]
+      },
+      {
+        "step_id": 4035416,
+        "target_path": "improvements/86957/quality-2026-11-23/steps/973825/01_4035416_text.step",
+        "headings": [
+          "Практика: убрать повторения и вывести числа по порядку",
+          "Самостоятельная проверка"
+        ]
+      },
+      {
+        "step_id": 4035427,
+        "target_path": "improvements/86957/quality-2026-11-23/steps/973825/02_4035427_text.step",
+        "headings": [
+          "Практика"
+        ]
+      },
+      {
+        "step_id": 4035417,
+        "target_path": "improvements/86957/quality-2026-11-23/steps/973826/01_4035417_text.step",
+        "headings": [
+          "Самопроверка"
+        ]
+      },
+      {
+        "step_id": 4035430,
+        "target_path": "improvements/86957/quality-2026-11-23/steps/973826/02_4035430_text.step",
+        "headings": [
+          "std::map или std::unordered_map: порядок, гарантии и практика",
+          "Небольшая практика перед задачей повышенной сложности"
+        ]
+      },
+      {
+        "step_id": 3212949,
+        "target_path": "improvements/86957/functions-2026-11-23/steps/770590/01_3212949_text.step",
+        "headings": [
+          "Самостоятельно"
+        ]
+      },
+      {
+        "step_id": 3214909,
+        "target_path": "improvements/86957/functions-2026-11-23/steps/770590/02_3214909_text.step",
+        "headings": [
+          "Самостоятельно и разбор"
+        ]
+      },
+      {
+        "step_id": 3214910,
+        "target_path": "improvements/86957/functions-2026-11-23/steps/770590/03_3214910_text.step",
+        "headings": [
+          "Самостоятельно и разбор"
+        ]
+      },
+      {
+        "step_id": 3214911,
+        "target_path": "improvements/86957/functions-2026-11-23/steps/770590/04_3214911_text.step",
+        "headings": [
+          "Самостоятельно и разбор"
+        ]
+      },
+      {
+        "step_id": 3212950,
+        "target_path": "improvements/86957/functions-2026-11-23/steps/770591/01_3212950_text.step",
+        "headings": [
+          "Самостоятельно"
+        ]
+      },
+      {
+        "step_id": 3214973,
+        "target_path": "improvements/86957/functions-2026-11-23/steps/770591/02_3214973_text.step",
+        "headings": [
+          "Самостоятельно и разбор"
+        ]
+      },
+      {
+        "step_id": 3214972,
+        "target_path": "improvements/86957/functions-2026-11-23/steps/770591/03_3214972_text.step",
+        "headings": [
+          "Самостоятельно"
+        ]
+      },
+      {
+        "step_id": 3214971,
+        "target_path": "improvements/86957/functions-2026-11-23/steps/770591/04_3214971_text.step",
+        "headings": [
+          "Самостоятельно и разбор"
+        ]
+      },
+      {
+        "step_id": 3214974,
+        "target_path": "improvements/86957/functions-2026-11-23/steps/770591/05_3214974_text.step",
+        "headings": [
+          "Самостоятельно и разбор"
+        ]
+      },
+      {
+        "step_id": 3215024,
+        "target_path": "improvements/86957/functions-2026-11-23/steps/770591/06_3215024_text.step",
+        "headings": [
+          "Самостоятельно и разбор"
+        ]
+      },
+      {
+        "step_id": 3214978,
+        "target_path": "improvements/86957/functions-2026-11-23/steps/770591/07_3214978_text.step",
+        "headings": [
+          "Самостоятельно"
+        ]
+      },
+      {
+        "step_id": 3214992,
+        "target_path": "improvements/86957/functions-2026-11-23/steps/770592/01_3214992_text.step",
+        "headings": [
+          "Самостоятельно и разбор"
+        ]
+      }
+    ]
+  },
+  "source_inventory_path": "improvements/86957/course-review-2026-11-23/inventory.json",
+  "source_snapshot_digest_sha256": "18b4059c02f701ba62f957c81ea9d8bc026fa4e218ac9318cc1e354ef939ccc3",
+  "historical_review_superseded": "improvements/86957/course-review-2026-11-23/README.md",
+  "current_theory_publication": {
+    "manifest_path": "improvements/86957/theory-2026-11-23/manifest.json",
+    "publication_status": "verified_on_stepik",
+    "verified_changed_steps": 88,
+    "verified_course_steps": 485,
+    "verification_receipt": "courses/86957/publication-verification-theory-2026-11-23.json",
+    "note": "Первый блок теоретического плана опубликован; новые упражнения и видео не добавлялись."
+  }
+}

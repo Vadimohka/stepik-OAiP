@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Ссылка на результат операции и независимая копия</h3>\n\n<p>Возвращаемая ссылка позволяет продолжить работу с тем же объектом. Возвращаемое значение может стать самостоятельной копией. Эти случаи видно по объявлению переменной-получателя.</p><p>Полная программа, C++17 и C++20:</p><pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;limits&gt;\n#include &lt;stdexcept&gt;\n\nclass Counter {\n    unsigned count_{};\npublic:\n    Counter() = default;\n    explicit Counter(unsigned initial) : count_(initial) {}\n    unsigned value() const { return count_; }\n\n    Counter&amp; operator++() {\n        if (count_ == std::numeric_limits&lt;unsigned&gt;::max()) {\n            throw std::overflow_error(\"counter\");\n        }\n        ++count_;\n        return *this;\n    }\n};\n\nint main() {\n    Counter counter;\n    Counter&amp; alias = ++counter;\n    Counter copy = ++counter;\n    ++alias;\n    std::cout &lt;&lt; counter.value() &lt;&lt; ' ' &lt;&lt; alias.value() &lt;&lt; ' ' &lt;&lt; copy.value() &lt;&lt; '\\n';\n    std::cout &lt;&lt; std::boolalpha &lt;&lt; (&amp;alias == &amp;counter) &lt;&lt; '\\n';\n    return 0;\n}</code></pre><p>Результат:</p><pre><code class=\"language-no-highlight\">3 3 2\ntrue</code></pre><p>Первый инкремент изменил <code>counter</code> с 0 до 1 и вернул ссылку на него. Переменная-ссылка <code>alias</code> обозначает тот же объект. Второй инкремент дал 2; объявление <code>Counter copy</code> создало отдельный объект с этим значением. Увеличение через <code>alias</code> изменило исходный объект до 3, но не копию.</p><p>В <code>return *this;</code> не создаётся новая ссылка-владелец или новый счётчик. Выражение обозначает существующий объект, время жизни которого должно продолжаться у вызывающего кода. Возвращаемая ссылка не продлевает его жизнь.</p><p>Ссылка на локальную временную переменную метода была бы ошибочным интерфейсом: после выхода такая переменная уничтожается. Поэтому нельзя заменить <code>return *this;</code> на возврат ссылки на локальную копию. Когда требуется новое независимое значение, функция должна возвращать его по значению; именно так будет устроен постфиксный инкремент.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3760024",
+  "time": "2026-11-22T18:35:40Z"
+}

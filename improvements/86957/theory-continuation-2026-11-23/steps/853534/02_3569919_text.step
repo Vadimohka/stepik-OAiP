@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h2>Именованная rvalue-ссылка и выбор перегрузки</h2>\n<p>Объявленный тип ссылки и категория выражения с её именем — разные свойства. В <code>int&amp;&amp; named = 8;</code> переменная объявлена как rvalue-ссылка, но выражение <code>named</code> является lvalue. Имя позволяет снова обращаться к одному объекту, поэтому передавать его ресурс следующей операции без явного указания не следует.</p>\n<p>Полная программа показывает выбор между двумя перегрузками. Обе функции только печатают число: привязка к <code>int&amp;&amp;</code> сама по себе ничего не перемещает.</p>\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;utility&gt;\n\nvoid inspect(const int&amp; value) {\n    std::cout &lt;&lt; \"const lvalue reference: \" &lt;&lt; value &lt;&lt; '\\n';\n}\n\nvoid inspect(int&amp;&amp; value) {\n    std::cout &lt;&lt; \"rvalue reference: \" &lt;&lt; value &lt;&lt; '\\n';\n}\n\nint main() {\n    int x{7};\n    const int cx{9};\n    int&amp;&amp; named = 8;\n    inspect(x);\n    inspect(7);\n    inspect(named);\n    inspect(std::move(named));\n    inspect(std::move(cx));\n    std::cout &lt;&lt; x &lt;&lt; ' ' &lt;&lt; named &lt;&lt; ' ' &lt;&lt; cx &lt;&lt; '\\n';\n}\n</code></pre>\n<p>Вывод:</p><pre>const lvalue reference: 7\nrvalue reference: 7\nconst lvalue reference: 8\nrvalue reference: 8\nconst lvalue reference: 9\n7 8 9\n</pre>\n<p>Для <code>x</code> и <code>named</code> подходит <code>const int&amp;</code>. Для литерала и <code>std::move(named)</code> обе перегрузки допустимы, но при этих аргументах предпочтительна <code>int&amp;&amp;</code>. У <code>std::move(cx)</code> сохраняется <code>const</code>, поэтому неконстантная rvalue-ссылка не подходит и выбирается <code>const int&amp;</code>.</p>\n<p>В последней строке все значения прежние: выбранные функции не меняли объекты. Временный <code>int</code>, обозначаемый <code>named</code>, живёт до конца жизни этой локальной ссылки. Временный аргумент <code>inspect(7)</code> живёт до конца полного выражения с вызовом; <code>inspect</code> не сохраняет ссылку.</p>\n<p>Чтобы действительно передать ресурс, выбранная операция должна выполнить передачу. Именно это реализуют <a href=\"https://stepik.org/lesson/853535/step/2\">конструктор перемещения и перемещающее присваивание</a>.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3569919",
+  "time": "2026-11-22T18:35:40Z"
+}

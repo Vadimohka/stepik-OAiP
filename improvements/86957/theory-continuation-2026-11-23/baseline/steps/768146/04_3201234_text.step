@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Стандартная библиотека: короткая карта для первых задач</h3>\n<p><strong>Цель шага:</strong> подобрать стандартный тип или функцию и подключить заголовок, который их объявляет. Запоминать весь список заголовков не нужно.</p>\n<table><thead><tr><th>Задача</th><th>Средство</th><th>Заголовок</th></tr></thead><tbody>\n<tr><td>Прочитать данные и вывести результат</td><td><code>std::cin</code>, <code>std::cout</code>, <code>std::cerr</code></td><td><code>&lt;iostream&gt;</code></td></tr>\n<tr><td>Хранить текст</td><td><code>std::string</code>, строковая версия <code>std::getline</code></td><td><code>&lt;string&gt;</code></td></tr>\n<tr><td>Хранить последовательность переменного размера</td><td><code>std::vector</code></td><td><code>&lt;vector&gt;</code></td></tr>\n<tr><td>Хранить фиксированное число элементов</td><td><code>std::array</code> (C++11)</td><td><code>&lt;array&gt;</code></td></tr>\n<tr><td>Найти элемент или отсортировать последовательность</td><td><code>std::find</code>, <code>std::sort</code></td><td><code>&lt;algorithm&gt;</code></td></tr>\n<tr><td>Сложить элементы диапазона</td><td><code>std::accumulate</code></td><td><code>&lt;numeric&gt;</code></td></tr>\n<tr><td>Прочитать или записать файл</td><td><code>std::ifstream</code>, <code>std::ofstream</code></td><td><code>&lt;fstream&gt;</code></td></tr>\n<tr><td>Выразить единоличное владение динамическим объектом</td><td><code>std::unique_ptr</code> (C++11), <code>std::make_unique</code> (C++14)</td><td><code>&lt;memory&gt;</code></td></tr>\n</tbody></table>\n<p>Строки, массивы, контейнеры и алгоритмы будут разобраны в соответствующих уроках. Здесь важно увидеть общий принцип: для обычной задачи сначала ищем подходящее стандартное средство, затем изучаем необходимые детали его работы.</p>\n<p>Подключайте используемые заголовки явно. Если сегодня <code>&lt;iostream&gt;</code> косвенно подключил другой заголовок, это не делает такую зависимость переносимой. Запись <code>std::</code> указывает пространство имён; она не заменяет <code>#include</code>.</p>\n<p>Для более поздних тем существуют <code>&lt;chrono&gt;</code> для времени, <code>&lt;random&gt;</code> для генераторов случайных чисел и <code>&lt;thread&gt;</code> для потоков выполнения. Многопоточность не нужна для первых задач.</p>\n<h4>Проверьте понимание</h4>\n<p>Программа хранит строку в <code>std::string</code> и выводит её через <code>std::cout</code>. Какие два заголовка нужно подключить явно? <strong>Ответ:</strong> <code>&lt;string&gt;</code> и <code>&lt;iostream&gt;</code>.</p>\n<p>Ориентир по стилю: <a href=\"https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#S-stdlib\" rel=\"noopener noreferrer nofollow\">C++ Core Guidelines: стандартная библиотека</a>.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3201234",
+  "time": "2026-11-22T21:48:56Z"
+}

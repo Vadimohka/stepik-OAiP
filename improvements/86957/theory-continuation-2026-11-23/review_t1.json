@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "modules": [
+    1,
+    2,
+    3
+  ],
+  "base_commit": "d96e5b9cffa65010c53894a9b65b1a497cb6b58a",
+  "reviewed_text_step_ids": [
+    3201190,
+    3214833,
+    3215253,
+    3215254,
+    3215266,
+    3237946
+  ],
+  "changed_text_step_ids": [
+    3201190,
+    3214833,
+    3215253,
+    3215254,
+    3215266,
+    3237946
+  ],
+  "specific_defect": "Опубликованные буквальные вставки генератора в шести текстах; адресные исправления разрешены согласованным scope.",
+  "links_repaired": [
+    {
+      "from_step_id": 3215266,
+      "target_lesson_id": 771155,
+      "target_position": 3,
+      "label": "двоичной записи дробей",
+      "url": "https://stepik.org/lesson/771155/step/3"
+    },
+    {
+      "from_step_id": 3214833,
+      "target_lesson_id": 774618,
+      "target_position": 1,
+      "label": "CMake",
+      "url": "https://stepik.org/lesson/774618/step/1"
+    },
+    {
+      "from_step_id": 3237946,
+      "target_lesson_id": 771009,
+      "target_position": 1,
+      "label": "истории исходников в Git",
+      "url": "https://stepik.org/lesson/771009/step/1"
+    },
+    {
+      "from_step_id": 3237946,
+      "target_lesson_id": 774618,
+      "target_position": 1,
+      "label": "описания сборки",
+      "url": "https://stepik.org/lesson/774618/step/1"
+    },
+    {
+      "from_step_id": 3215253,
+      "target_lesson_id": 763038,
+      "target_position": 3,
+      "label": "уроке о компиляции",
+      "url": "https://stepik.org/lesson/763038/step/3"
+    },
+    {
+      "from_step_id": 3215253,
+      "target_lesson_id": 770592,
+      "target_position": 1,
+      "label": "модуле функций",
+      "url": "https://stepik.org/lesson/770592/step/1"
+    },
+    {
+      "from_step_id": 3215254,
+      "target_lesson_id": 770585,
+      "target_position": 2,
+      "label": "модуле 6",
+      "url": "https://stepik.org/lesson/770585/step/2"
+    },
+    {
+      "from_step_id": 3201190,
+      "target_lesson_id": 770590,
+      "target_position": 1,
+      "label": "модуле 7 «Функции»",
+      "url": "https://stepik.org/lesson/770590/step/1"
+    }
+  ],
+  "code_changed": false,
+  "note": "Это шесть повторных редакций из первых88, а не ещё шесть уникальных шагов при подсчете общего результата.",
+  "remaining_issues": []
+}

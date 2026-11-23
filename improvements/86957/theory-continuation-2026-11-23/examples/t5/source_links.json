@@ -1,0 +1,425 @@
+{
+  "checked_at": "2026-11-23T10:34:49.187806+00:00",
+  "scope": "Availability of exact cited source URLs; not a claim of independent full editorial verification of every source paragraph.",
+  "sources": [
+    {
+      "url": "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rc-struct",
+      "http_status": 200,
+      "resolved_url": "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rc-struct"
+    },
+    {
+      "url": "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rc-zero",
+      "http_status": 200,
+      "resolved_url": "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rc-zero"
+    },
+    {
+      "url": "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Ro-conventional",
+      "http_status": 200,
+      "resolved_url": "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Ro-conventional"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/array",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/array"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/associative.reqmts",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/associative.reqmts"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/basic.align",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/basic.align"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/basic.def.odr",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/basic.def.odr"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/basic.fundamental",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/basic.fundamental"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/basic.life",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/basic.life"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/basic.lval",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/basic.lval"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/basic.stc",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/basic.stc",
+      "checked_at": "2026-11-23T10:47:03.938544+00:00"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/basic.stc.static",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/basic.stc.static"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/basic.string",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/basic.string"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/basic.types",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/basic.types"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/class",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/class"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/class.abstract",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/class.abstract"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/class.access",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/class.access"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/class.access.base",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/class.access.base"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/class.base.init",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/class.base.init"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/class.bit",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/class.bit"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/class.conv.ctor",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/class.conv.ctor"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/class.copy",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/class.copy"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/class.copy.elision",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/class.copy.elision"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/class.ctor",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/class.ctor"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/class.derived",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/class.derived"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/class.dtor",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/class.dtor"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/class.friend",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/class.friend"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/class.mem",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/class.mem"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/class.mfct",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/class.mfct"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/class.mfct.non-static",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/class.mfct.non-static"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/class.mi",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/class.mi"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/class.name",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/class.name"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/class.protected",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/class.protected"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/class.static.data",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/class.static.data"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/class.static.mfct",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/class.static.mfct"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/class.temporary",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/class.temporary"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/class.this",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/class.this"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/class.union",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/class.union"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/class.virtual",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/class.virtual"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/conv.integral",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/conv.integral",
+      "checked_at": "2026-11-23T10:47:03.938544+00:00"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/conv.ptr",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/conv.ptr"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/dcl.enum",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/dcl.enum"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/dcl.fct.spec",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/dcl.fct.spec"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/dcl.init",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/dcl.init"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/dcl.init.aggr",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/dcl.init.aggr"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/dcl.ref",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/dcl.ref"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/dcl.stc",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/dcl.stc"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/dcl.type.cv",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/dcl.type.cv"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/dcl.typedef",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/dcl.typedef"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/except.ctor",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/except.ctor"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/except.terminate",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/except.terminate"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/expr.add",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/expr.add"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/expr.ass",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/expr.ass"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/expr.delete",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/expr.delete"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/expr.dynamic.cast",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/expr.dynamic.cast"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/expr.eq",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/expr.eq"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/expr.mul",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/expr.mul"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/expr.post.incr",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/expr.post.incr"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/expr.pre.incr",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/expr.pre.incr"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/expr.ref",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/expr.ref"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/expr.rel",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/expr.rel"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/expr.sizeof",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/expr.sizeof"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/expr.static.cast",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/expr.static.cast"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/expr.unary.op",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/expr.unary.op"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/intro.object",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/intro.object"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/istream.formatted.arithmetic",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/istream.formatted.arithmetic"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/numeric.limits",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/numeric.limits"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/over.ass",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/over.ass"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/over.binary",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/over.binary"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/over.inc",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/over.inc"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/over.load",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/over.load"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/over.oper",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/over.oper"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/over.sub",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/over.sub"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/over.unary",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/over.unary"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/sequence.reqmts",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/sequence.reqmts"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/stmt.return",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/stmt.return"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/support.start.term",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/support.start.term"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/support.types",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/support.types"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/utility.swap",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/utility.swap"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/variant",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/variant"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/variant.get",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/variant.get"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/variant.status",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4659/variant.status"
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4861/dcl.init.aggr",
+      "http_status": 200,
+      "resolved_url": "https://timsong-cpp.github.io/cppwp/n4861/dcl.init.aggr"
+    }
+  ],
+  "additional_checks_at": "2026-11-23T10:47:03.938544+00:00",
+  "additional_checks_note": "Two new C++17 URLs added after independent scope/link review; prior 81 observations retained without refetch."
+}

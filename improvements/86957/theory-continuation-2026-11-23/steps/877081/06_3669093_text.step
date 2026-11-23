@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Друг класса: точное право доступа</h3>\n\n<p>Иногда операция естественно записывается свободной функцией, но ей нужен доступ к внутреннему представлению. Класс может явно объявить такую функцию другом с помощью <code>friend</code>. Это право доступа, а не членство в классе.</p><p>Полная программа, C++17 и C++20:</p><pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n\nclass Value {\n    int number_;\npublic:\n    explicit Value(int number) : number_(number) {}\n    friend bool equal(const Value&amp; left, const Value&amp; right);\n};\n\nbool equal(const Value&amp; left, const Value&amp; right) {\n    return left.number_ == right.number_;\n}\n\nint main() {\n    const Value first{7}, second{7}, third{8};\n    std::cout &lt;&lt; std::boolalpha &lt;&lt; equal(first, second) &lt;&lt; ' '\n              &lt;&lt; equal(first, third) &lt;&lt; '\\n';\n    return 0;\n}</code></pre><p>Результат:</p><pre><code class=\"language-no-highlight\">true false</code></pre><p>У <code>equal</code> нет <code>this</code>, поэтому она получает оба объекта как параметры. Доступ к <code>number_</code> разрешён объявлением внутри <code>Value</code>. Помещение <code>friend</code> в секцию <code>public</code> или <code>private</code> не меняет смысл предоставленного доступа. В данном примере любое значение <code>int</code> допустимо, а сравнение не меняет состояния.</p><p>Дружба не наследуется, не является взаимной и не передаётся по цепочке. Если <code>A</code> разрешил доступ <code>B</code>, это не даёт <code>A</code> доступ к <code>B</code> и не делает друзей <code>B</code> друзьями <code>A</code>. Друг обязан сохранять тот же инвариант, что и методы класса.</p><p>Если публичного интерфейса достаточно, свободной функции не нужна дружба. Например, функция вывода может пользоваться методами чтения. Рекомендация — предоставлять ровно тот доступ, который нужен реализации; это решение проектирования, а не обязательное правило языка. В <a href=\"https://stepik.org/lesson/877083/step/3\">следующем уроке о доступе</a> показан друг, являющийся одной функцией-членом другого класса; перегрузки операторов тоже могут быть свободными функциями.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3669093",
+  "time": "2026-11-22T18:35:40Z"
+}

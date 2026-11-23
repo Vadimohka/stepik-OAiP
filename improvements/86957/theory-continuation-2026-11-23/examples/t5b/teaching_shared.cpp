@@ -1,0 +1,122 @@
+#include <cstddef>
+#include <utility>
+
+namespace teaching {
+
+template<class T>
+struct control_block {
+    T* value;
+    std::size_t strong;
+    std::size_t weak;
+};
+
+template<class T> class weak_ptr;
+
+template<class T>
+class shared_ptr {
+    control_block<T>* control_ = nullptr;
+    struct counted_t {};
+    shared_ptr(control_block<T>* p, counted_t) noexcept : control_(p) {}
+    friend class weak_ptr<T>;
+
+    void release() noexcept {
+        if (control_ && --control_->strong == 0) {
+            T* value = std::exchange(control_->value, nullptr);
+            delete value; // служебная слабая ссылка удерживает блок
+            if (--control_->weak == 0) delete control_;
+        }
+        control_ = nullptr;
+    }
+
+public:
+    shared_ptr() noexcept = default;
+
+    explicit shared_ptr(T* p) {
+        if (!p) return;
+        try {
+            control_ = new control_block<T>{p, 1, 1};
+        } catch (...) {
+            delete p;
+            throw;
+        }
+    }
+
+    shared_ptr(const shared_ptr& other) noexcept : control_(other.control_) {
+        if (control_) ++control_->strong;
+    }
+    shared_ptr(shared_ptr&& other) noexcept
+        : control_(std::exchange(other.control_, nullptr)) {}
+    shared_ptr& operator=(shared_ptr other) noexcept {
+        swap(other);
+        return *this;
+    }
+    ~shared_ptr() { release(); }
+
+    void swap(shared_ptr& other) noexcept { std::swap(control_, other.control_); }
+    void reset() noexcept { shared_ptr{}.swap(*this); }
+    std::size_t use_count() const noexcept { return control_ ? control_->strong : 0; }
+    T* get() const noexcept { return control_ ? control_->value : nullptr; }
+    explicit operator bool() const noexcept { return get() != nullptr; }
+    T& operator*() const { return *get(); } // только для непустого указателя
+    T* operator->() const noexcept { return get(); }
+};
+
+template<class T>
+class weak_ptr {
+    control_block<T>* control_ = nullptr;
+
+    void release() noexcept {
+        if (control_ && --control_->weak == 0) {
+            delete control_;
+        }
+        control_ = nullptr;
+    }
+
+public:
+    weak_ptr() noexcept = default;
+    weak_ptr(const shared_ptr<T>& owner) noexcept : control_(owner.control_) {
+        if (control_) ++control_->weak;
+    }
+    weak_ptr(const weak_ptr& other) noexcept : control_(other.control_) {
+        if (control_) ++control_->weak;
+    }
+    weak_ptr(weak_ptr&& other) noexcept
+        : control_(std::exchange(other.control_, nullptr)) {}
+    weak_ptr& operator=(weak_ptr other) noexcept {
+        swap(other);
+        return *this;
+    }
+    ~weak_ptr() { release(); }
+
+    void swap(weak_ptr& other) noexcept { std::swap(control_, other.control_); }
+    void reset() noexcept { weak_ptr{}.swap(*this); }
+    std::size_t use_count() const noexcept { return control_ ? control_->strong : 0; }
+    bool expired() const noexcept { return use_count() == 0; }
+
+    shared_ptr<T> lock() const noexcept {
+        if (!control_ || control_->strong == 0) return {};
+        ++control_->strong;
+        return shared_ptr<T>(control_, typename shared_ptr<T>::counted_t{});
+    }
+
+    bool same_owner(const weak_ptr& other) const noexcept {
+        return control_ == other.control_;
+    }
+};
+
+} // namespace teaching
+
+#include <iostream>
+
+int main() {
+    teaching::weak_ptr<int> observer;
+    {
+        teaching::shared_ptr<int> owner(new int(42));
+        observer = owner;
+        auto second_owner = observer.lock();
+        std::cout << owner.use_count() << '\n'; // 2
+    } // int уничтожен; observer ещё удерживает блок управления
+    auto result = observer.lock();
+    std::cout << std::boolalpha << observer.expired() << '\n'; // true
+    std::cout << static_cast<bool>(result) << '\n'; // false
+} // последний weak_ptr освобождает блок управления

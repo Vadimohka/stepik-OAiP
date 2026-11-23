@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h2>Указатель на указатель</h2>\n<p>Указатель сам является объектом, поэтому можно получить его адрес. Если <code>current</code> имеет тип <code>int*</code>, то <code>&amp;current</code> имеет тип <code>int**</code>. Одно разыменование такого значения обращается к указателю, второе — к числу, на которое он сейчас указывает.</p>\n<p><strong>Полная программа C++17/C++20.</strong></p>\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\nint main() {\n    int first{10}, second{20};\n    int* current = &amp;first;\n    int** handle = &amp;current;\n    **handle = 11;\n    *handle = &amp;second;\n    **handle = 22;\n    std::cout &lt;&lt; first &lt;&lt; ' ' &lt;&lt; second &lt;&lt; ' ' &lt;&lt; *current &lt;&lt; '\\n';\n}\n</code></pre>\n<table><thead><tr><th>Выражение</th><th>Обозначаемый объект</th></tr></thead><tbody><tr><td><code>handle</code></td><td>Хранит адрес <code>current</code>.</td></tr><tr><td><code>*handle</code></td><td>Сам объект-указатель <code>current</code>; ему присваивается <code>&amp;second</code>.</td></tr><tr><td><code>**handle</code></td><td>Сначала <code>first</code>, после изменения <code>current</code> — <code>second</code>.</td></tr></tbody></table>\n<p>Вывод: <code>11 22 22</code>. Все звенья цепочки — живые локальные объекты. Перед вторым разыменованием требуется, чтобы и промежуточный указатель обозначал допустимый объект. Наличие внешнего <code>handle</code> не гарантирует допустимость всей цепочки.</p>\n<p><code>int**</code> не означает автоматически «двумерный массив». Он указывает на объект <code>int*</code>; этот объект может быть элементом массива указателей на отдельные строки. А встроенный <code>int[2][3]</code> содержит сами строки подряд и при преобразовании даёт указатель на строку, с другим типом. <a href=\"https://stepik.org/lesson/770586/step/3\">Следующий урок</a> сопоставляет эти представления.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3212991",
+  "time": "2026-11-22T18:35:40Z"
+}

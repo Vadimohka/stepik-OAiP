@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h2>Почему char* иногда выводится как строка</h2>\n<p>Указатель <code>char*</code> сам по себе не хранит длину и не гарантирует строку. Но у стандартного потока есть операция вывода, которая принимает указатель на начало C-строки: она читает элементы до первого <code>'\\0'</code>. Поэтому для неё нужен доступный нулевой терминатор.</p>\n<p><strong>Полная программа C++17/C++20.</strong></p>\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\nint main() {\n    char letters[] = \"hello\";\n    char* p = letters;\n    std::cout &lt;&lt; p &lt;&lt; '\\n';\n    std::cout &lt;&lt; *p &lt;&lt; '\\n';\n    p += 2;\n    std::cout &lt;&lt; p &lt;&lt; '\\n';\n}\n</code></pre>\n<p>Массив содержит шесть элементов: пять букв и нулевой терминатор. Первый вывод читает всю C-строку <code>hello</code>, второй выводит один символ <code>h</code>, третий — суффикс <code>llo</code>. После смещения нулевой символ всё ещё находится в доступной части того же массива.</p>\n<p>Для адреса используется другая форма: <code>std::cout &lt;&lt; static_cast&lt;const void*&gt;(p);</code>. Результат зависит от реализации и запуска. <code>&amp;p</code> означало бы адрес самой переменной-указателя.</p>\n<p>Отдельный символ <code>char letter{'H'};</code> не является нуль-терминированной строкой. Передавать <code>&amp;letter</code> строковой операции вывода нельзя: она может читать за границами объекта. Подробнее устройство C-строк и более удобного <code>std::string</code> рассматривается в <a href=\"https://stepik.org/lesson/770588/step/1\">модуле 9</a>.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3213004",
+  "time": "2026-11-22T18:35:40Z"
+}

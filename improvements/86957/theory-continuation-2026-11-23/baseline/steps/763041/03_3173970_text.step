@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3><strong>Виды блок-схем:</strong></h3>\n\n<ul>\n\t<li><strong>Линейные:</strong></li>\n</ul>\n\n<p><img alt=\"\" height=\"125\" name=\"image.png\" src=\"https://ucarecdn.stepik.net/85ea888c-7d0e-48db-b0d4-8390c60e4ded/\" width=\"146\">    <img alt=\"\" height=\"165\" name=\"image.png\" src=\"https://ucarecdn.stepik.net/fca93422-060a-4b9c-9f69-1b775074864d/\" width=\"99\"></p>\n\n<ul>\n\t<li><strong>Разветвляющиеся</strong></li>\n</ul>\n\n<p><img alt=\"\" height=\"182\" name=\"image.png\" src=\"https://ucarecdn.stepik.net/529ec81b-de4c-47bb-b91e-25ce05ceef55/\" width=\"264\"></p>\n\n<ul>\n\t<li><strong>Циклические</strong></li>\n</ul>\n\n<p><strong>​​​​​​​</strong><img alt=\"\" height=\"283\" name=\"image.png\" src=\"https://ucarecdn.stepik.net/a8b6035b-5f7c-415c-8b5e-6c416f1a9867/\" width=\"202\"></p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3173970",
+  "time": "2026-11-22T18:35:40Z"
+}

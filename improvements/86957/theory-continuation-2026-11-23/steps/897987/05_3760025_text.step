@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Временный результат и возврат по значению</h3>\n\n<p>Новая величина может быть создана выражением без отдельного локального имени. Это удобно для результата операции, который должен быть независим от исходного объекта. Для префиксного <code>++</code> мы возвращаем ссылку; для создания нового счётчика выберем обычную функцию, возвращающую значение.</p><p>Полная программа, C++17 и C++20:</p><pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n\nclass Counter {\n    unsigned count_;\npublic:\n    explicit Counter(unsigned initial) : count_(initial) {}\n    unsigned value() const { return count_; }\n};\n\nCounter make_counter(unsigned initial) {\n    return Counter{initial};\n}\n\nint main() {\n    Counter first = make_counter(3);\n    const Counter&amp; temporary = Counter{7};\n    std::cout &lt;&lt; first.value() &lt;&lt; ' ' &lt;&lt; temporary.value() &lt;&lt; '\\n';\n    return 0;\n}</code></pre><p>Результат:</p><pre><code class=\"language-no-highlight\">3 7</code></pre><p><code>Counter{initial}</code> использует конструктор с числом, а не конструктор копирования. В C++17/20 возвращаемый объект того же типа создаётся непосредственно как результат этого выражения. Отдельная промежуточная копия не требуется. Это отличается от необязательного NRVO при <code>return local_name;</code>.</p><p>При непосредственной привязке локальной <code>const Counter&amp;</code> к <code>Counter{7}</code> время жизни временного объекта продлевается до конца времени жизни этой ссылки. Такое продление не следует переносить на любой возврат ссылки из функции: ссылка на локальный объект не становится допустимой от возвращения вызывающему коду.</p><p><code>explicit</code> у конструктора требует явно выразить создание счётчика из числа; показанная запись в фигурных скобках его допускает. Нам не нужно неявно превращать любое число в счётчик при выборе перегрузки. Подробности временных объектов и категорий выражений рассматриваются в <a href=\"https://stepik.org/lesson/853532/step/1\">модуле 14</a>.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3760025",
+  "time": "2026-11-22T18:35:40Z"
+}

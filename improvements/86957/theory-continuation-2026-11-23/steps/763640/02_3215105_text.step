@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h2>switch: выбор по отдельным значениям</h2>\n<p><code>switch</code> удобен, когда одно целое значение выбирает вариант: номер команды, день недели или символ операции. Выражение условия вычисляется один раз. Управление переходит к совпавшей метке <code>case</code>, а при отсутствии совпадения — к <code>default</code>, если она есть. Без <code>default</code> несовпадение просто пропускает тело.</p>\n<p><strong>Полная программа C++17/C++20.</strong></p>\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\nint main() {\n    int command{};\n    if (!(std::cin &gt;&gt; command)) {\n        std::cout &lt;&lt; \"INVALID\\n\";\n        return 1;\n    }\n    switch (command) {\n        case 1:\n            std::cout &lt;&lt; \"open\\n\";\n            break;\n        case 2:\n        case 3:\n            std::cout &lt;&lt; \"save\\n\";\n            break;\n        default:\n            std::cout &lt;&lt; \"unknown\\n\";\n            break;\n    }\n}\n</code></pre>\n<p>Команды 2 и 3 ведут к одному действию. <code>break</code> завершает весь <code>switch</code>. Метка сама не создаёт отдельную ветвь с автоматическим выходом: если после выполняемых инструкций нет перехода, выполнение продолжается через следующие метки.</p>\n<p><strong>Фрагмент внутри main с подключённым &lt;iostream&gt;.</strong></p>\n<pre><code class=\"language-cpp\">int command{2};\nswitch (command) {\n    case 2:\n        std::cout &lt;&lt; \"two\\n\";\n        [[fallthrough]];\n    case 3:\n        std::cout &lt;&lt; \"three\\n\";\n        break;\n}\n</code></pre>\n<p>Этот фрагмент выводит <code>two</code> и <code>three</code> на разных строках. Значение команды остаётся равным 2: повторного сравнения с 3 не происходит. Атрибут <code>[[fallthrough]];</code> доступен с C++17 и отмечает намеренный переход к следующей метке; он не меняет этот порядок выполнения.</p>\n<p>В начальных примерах условие имеет целочисленный тип. Язык также допускает перечисления и некоторые классовые типы с преобразованием; <code>std::string</code> и <code>double</code> напрямую не подходят. Значения <code>case</code> должны быть константными выражениями и различаться после преобразования к типу условия. Для интервала вроде «от 10 до 20» нужен <code>if</code>. Если внутри ветви объявляется переменная с инициализатором, отдельный блок <code>{ ... }</code> ограничивает её область и предотвращает переход через её инициализацию из другой метки.</p>\n<p>Стандарт не обещает, что <code>switch</code> быстрее цепочки <code>if</code>: реализация может использовать сравнения или таблицу переходов. Выбор формы здесь определяется устройством условия и ясностью программы.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3215105",
+  "time": "2026-11-23T06:34:36Z"
+}

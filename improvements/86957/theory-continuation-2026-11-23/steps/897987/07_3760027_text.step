@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Сложение двух значений Distance</h3>\n\n<p>Бинарный оператор-член получает левый объект через <code>this</code>, правый — через явный параметр. Реализация <code>+</code> может опереться на уже разобранный метод <code>add_dist</code>, сохранив его проверку результата.</p><p>Полная программа, C++17 и C++20:</p><pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;stdexcept&gt;\n\nclass Distance {\n    long long feet_{};\n    long long inches_{};\npublic:\n    static constexpr long long max_feet = 1'000'000;\n\n    Distance() = default;\n    Distance(long long feet, long long inches)\n        : feet_(feet), inches_(inches) {\n        if (feet &lt; 0 || feet &gt; max_feet || inches &lt; 0 || inches &gt;= 12) {\n            throw std::invalid_argument(\"distance\");\n        }\n    }\n\n    long long feet() const { return feet_; }\n    long long inches() const { return inches_; }\n    long long total_inches() const { return feet_ * 12 + inches_; }\n    Distance add_dist(const Distance&amp; other) const {\n        const long long total = total_inches() + other.total_inches();\n        if (total &gt; max_feet * 12 + 11) {\n            throw std::overflow_error(\"distance sum\");\n        }\n        return Distance{total / 12, total % 12};\n    }\n\n    Distance operator+(const Distance&amp; other) const {\n        return add_dist(other);\n    }\n};\n\nint main() {\n    const Distance first{3, 5};\n    const Distance second{11, 7};\n    Distance sum = first + second;\n    Distance extended = first + second + Distance{0, 6};\n    std::cout &lt;&lt; sum.feet() &lt;&lt; ' ' &lt;&lt; sum.inches() &lt;&lt; '\\n';\n    std::cout &lt;&lt; extended.feet() &lt;&lt; ' ' &lt;&lt; extended.inches() &lt;&lt; '\\n';\n    std::cout &lt;&lt; first.total_inches() &lt;&lt; ' ' &lt;&lt; second.total_inches() &lt;&lt; '\\n';\n    return 0;\n}</code></pre><p>Результат:</p><pre><code class=\"language-no-highlight\">15 0\n15 6\n41 139</code></pre><p>Первые два операнда содержат 41 и 139 дюймов. Сумма 180 дюймов нормализуется в 15 футов 0 дюймов. Следующее сложение добавляет 6 дюймов к возвращённому значению, поэтому результат равен 15 футам 6 дюймам. Исходные объекты остаются прежними.</p><p>Метод <code>operator+</code> возвращает <code>Distance</code> по значению и имеет конечное <code>const</code>. Параметр — ссылка только для чтения. Поддерживаемый диапазон не расширяется от красивой записи: если любая промежуточная сумма выходит за предел <code>max_feet</code> футов 11 дюймов, операция сообщает ошибку исключением.</p><p>Запись <code>first + second + third</code> группируется как <code>(first + second) + third</code>. Перегрузка не меняет приоритет и группировку. Она также не создаёт автоматически <code>+=</code>, сравнение или другие операции: у каждой нужен согласованный интерфейс. В <a href=\"https://stepik.org/lesson/897987/step/9\">операторе +=</a> используем ту же проверяемую сумму для изменения текущего объекта.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3760027",
+  "time": "2026-11-22T18:35:40Z"
+}

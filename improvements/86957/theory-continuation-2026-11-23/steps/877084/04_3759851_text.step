@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Базовая ссылка, динамический тип и срезка</h3>\n\n<p>Ссылка или указатель на базу может обозначать базовую часть производного объекта. Это не создаёт копию и не меняет полный тип объекта. Для доступной однозначной базы преобразование вверх выполняется неявно.</p><p>Полная программа, C++17 и C++20:</p><pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n\nclass Base {\npublic:\n    virtual const char* kind() const { return \"Base\"; }\n    virtual ~Base() = default;\n};\n\nclass Derived : public Base {\npublic:\n    const char* kind() const override { return \"Derived\"; }\n};\n\nint main() {\n    Derived object;\n    const Base&amp; view = object;\n    Base copy = object;\n    std::cout &lt;&lt; view.kind() &lt;&lt; ' ' &lt;&lt; copy.kind() &lt;&lt; '\\n';\n    Base* pointer = &amp;object;\n    std::cout &lt;&lt; std::boolalpha &lt;&lt; (dynamic_cast&lt;Derived*&gt;(pointer) == &amp;object) &lt;&lt; '\\n';\n    Base plain;\n    Base* plain_pointer = &amp;plain;\n    std::cout &lt;&lt; (dynamic_cast&lt;Derived*&gt;(plain_pointer) == nullptr) &lt;&lt; '\\n';\n    return 0;\n}</code></pre><p>Результат:</p><pre><code class=\"language-no-highlight\">Derived Base\ntrue\ntrue</code></pre><p>У выражения <code>view</code> базовый статический тип, но ссылка обозначает часть исходного <code>Derived</code>. Виртуальный вызов выбирает его переопределение и выводит <code>Derived</code>. Объявление <code>Base copy = object</code> создаёт самостоятельный объект только базового типа: производная часть не копируется. Это называют срезкой; <code>copy.kind()</code> выводит <code>Base</code>.</p><p>Обратное преобразование требует знания реального типа. У полиморфной базы, то есть имеющей хотя бы одну виртуальную функцию, <code>dynamic_cast</code> проверяет подходящий тип во время выполнения. В показанном случае он возвращает адрес исходного <code>Derived</code>, а для самостоятельного <code>Base</code> — <code>nullptr</code>. Вариант с ссылкой при неудаче бросает <code>std::bad_cast</code>.</p><p><code>static_cast</code> не является такой проверкой. Обратное приведение к подходящему производному типу допустимо только при выполнении его условий; слепое приведение не создаёт отсутствующую производную часть. Подробные границы разобраны в <a href=\"https://stepik.org/lesson/977027/step/3\">отдельной теме dynamic_cast</a>.</p><p>Адрес базового подобъекта может отличаться от адреса всего объекта: необходимое изменение адреса выполняет преобразование языка. Нельзя обходить массив производных объектов арифметикой <code>Base*</code> как массив баз. Все указатели здесь невладеющие и указывают на локальные объекты; их не удаляют. Виртуальный деструктор задаёт корректный интерфейс на случай обычного удаления через <code>Base*</code>.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3759851",
+  "time": "2026-11-22T18:35:40Z"
+}

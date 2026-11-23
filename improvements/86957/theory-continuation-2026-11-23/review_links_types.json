@@ -1,0 +1,633 @@
+{
+  "schema_version": 1,
+  "status": "passed_after_three_targeted_corrections",
+  "reviewed_at": "2026-11-23T10:46:14.618515+00:00",
+  "reviewer": "cpp_reference_review",
+  "base_commit": "d96e5b9cffa65010c53894a9b65b1a497cb6b58a",
+  "scope": "Смысловая сверка переходов T2 → ранее опубликованный T3 → подготовленный T5 по двум цепочкам: значение/объект/диапазон/время жизни и контракт/инвариант/операции. Проверены конкретные тексты и их предпосылки, а не только существование URL.",
+  "independence": "Тексты T3/T5 и их стыки прочитаны отдельным от их авторов редактором. Тот же редактор является автором T2; этот отчёт не называется независимой повторной полной вычиткой всего T2.",
+  "reviewed_step_ids_by_block": {
+    "T2": [
+      3177280,
+      3177282,
+      3177279,
+      3177291,
+      3177474,
+      3212907,
+      3212920,
+      3212937,
+      3212968,
+      3212969,
+      3212970,
+      3212989,
+      3212990,
+      3212945,
+      3212995,
+      3213003,
+      3438841,
+      3307684,
+      3212947,
+      3214904
+    ],
+    "T3": [
+      3212949,
+      3214911,
+      3214971,
+      3214974,
+      3214992,
+      3215024
+    ],
+    "T5": [
+      3212955,
+      3215235,
+      3215236,
+      3668926,
+      3668952,
+      3669114,
+      3669000,
+      3668999,
+      3669075,
+      3669089,
+      3669140,
+      3669156,
+      3669173,
+      3760024,
+      3760025,
+      3760048,
+      3760047,
+      3569321,
+      3569891,
+      3569896,
+      3569323,
+      3569324,
+      3569932,
+      3569325,
+      3569964,
+      3569963
+    ]
+  },
+  "reviewed_text_count": 52,
+  "additional_context_read": [
+    3214978
+  ],
+  "chains": [
+    {
+      "name": "Значение → объект → диапазон → время жизни",
+      "transitions": [
+        {
+          "from": [
+            3177280,
+            3177291,
+            3177474
+          ],
+          "to": [
+            3569321,
+            3569891,
+            3569896
+          ],
+          "finding": "Тип и значение отделены от объекта и обозначающего его выражения. Поздние lvalue/prvalue/xvalue уточняют ту же модель: имя объекта не становится rvalue из-за положения справа от присваивания. Чтение значения не меняет объект.",
+          "boundary": "Вводный T2 намеренно не требует терминов категорий выражений; в T5B они вводятся явно."
+        },
+        {
+          "from": [
+            3212907,
+            3212920,
+            3212990,
+            3212945,
+            3212995
+          ],
+          "to": [
+            3213003,
+            3215024,
+            3760047
+          ],
+          "finding": "Встроенный массив содержит элементы, указатель не хранит длину. Корректировка параметра массива объяснена правилом языка; указатель на строку int (*)[N] не подменяется int**. One-past используется как граница, а не элемент.",
+          "boundary": "Проверяемый CheckedArray задаёт собственный контракт через at; это не обещание проверки у встроенного [], array[] или vector[]. Отрицательный ввод проверяется до unsigned-преобразования."
+        },
+        {
+          "from": [
+            3212937,
+            3438841,
+            3212968,
+            3212969
+          ],
+          "to": [
+            3214911,
+            3214992,
+            3215236,
+            3569325
+          ],
+          "finding": "Область видимости, продолжительность хранения и время жизни разведены. Локальный static не уничтожается при каждом выходе из функции. Сохранение адреса либо ссылки не продлевает жизнь локального объекта или подобъекта.",
+          "boundary": "Стек и виртуальные адреса остаются типичными платформенными моделями. Правила объекта применяются независимо от наблюдаемого физического размещения."
+        },
+        {
+          "from": [
+            3307684,
+            3212947,
+            3214904,
+            3215024
+          ],
+          "to": [
+            3215235,
+            3569964,
+            3569963
+          ],
+          "finding": "Длина, границы и время жизни буфера не теряются при переходе к строкам, композиции и RAII. Копия указателя даёт общий доступ, а не новую обязанность удаления; копия vector<int>/string имеет свои элементы. get() передаёт доступ, перемещение unique_ptr передаёт владение.",
+          "boundary": "Изменение контейнера может инвалидировать адреса; const-путь чтения не создаёт владения и не сохраняет объект живым."
+        }
+      ]
+    },
+    {
+      "name": "Контракт функции → инвариант типа → операции класса",
+      "transitions": [
+        {
+          "from": [
+            3177474,
+            3212949,
+            3214971,
+            3214974
+          ],
+          "to": [
+            3668926,
+            3668952,
+            3669114,
+            3669000
+          ],
+          "finding": "Предусловие функции ограничивает допустимый вызов, инвариант задаёт согласованное состояние объекта между операциями. Проверка внешнего ввода отделена от арифметики и изменения состояния. Level/Distance не полагаются на обязательный первый setter: нулевое состояние уже допустимо.",
+          "boundary": "Тип int или закрытый доступ сами по себе не доказывают смыслового инварианта; проверки и контракт задаёт автор типа."
+        },
+        {
+          "from": [
+            3669000,
+            3668999
+          ],
+          "to": [
+            3669089,
+            3760048
+          ],
+          "finding": "Конструктор устанавливает один и тот же диапазон Distance. Сложение использует нормализованные части и ограниченную long long-арифметику. При отказе += исходный объект остаётся прежним; самодобавление читает оба операнда до присваивания.",
+          "boundary": "Миллион футов и целые неотрицательные дюймы являются явно обозначенной учебной моделью, а не ограничением C++ или единиц измерения."
+        },
+        {
+          "from": [
+            3212989,
+            3214974
+          ],
+          "to": [
+            3669140,
+            3760047,
+            3569963
+          ],
+          "finding": "Const относится к данному пути доступа; указатель-поле или константный unique_ptr сами по себе не делают адресуемый объект константным. Возврат const-ссылки допускает чтение без копии, но не отменяет ограничения времени жизни.",
+          "boundary": "Это не обещание отсутствия любых побочных эффектов, глубокой неизменяемости или потокобезопасности."
+        },
+        {
+          "from": [
+            3177280,
+            3307684,
+            3214911,
+            3214971
+          ],
+          "to": [
+            3669156,
+            3760024,
+            3760025,
+            3569324,
+            3569932
+          ],
+          "finding": "Инициализация нового объекта и присваивание существующему различаются последовательно. Возврат ссылки обозначает прежний объект; возврат значения создаёт самостоятельный результат. Прямое построение из prvalue C++17/20 отделено от необязательного NRVO.",
+          "boundary": "Поэлементное копирование/перемещение не гарантирует независимой копии внешнего ресурса и сохранения произвольного межполевого инварианта. В T5B это явно оговорено."
+        }
+      ]
+    }
+  ],
+  "defects_found_and_resolved": [
+    {
+      "step_id": 3212955,
+      "severity": "точность версии и предпосылок",
+      "finding": "Формулировка о любых типах с конструкторами не учитывала возможную агрегатность при defaulted-конструкторе в C++17.",
+      "resolution": "Указаны неагрегатные классы; добавлен переход к 3669173 с различиями критериев C++17/20.",
+      "status": "Исправлено автором T5 и перечитано в готовом .step.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4659/dcl.init.aggr",
+        "https://timsong-cpp.github.io/cppwp/n4861/dcl.init.aggr"
+      ]
+    },
+    {
+      "step_id": 3669075,
+      "severity": "согласованность времени жизни",
+      "finding": "Общее утверждение об уничтожении локальных объектов при выходе не различало автоматическое хранение и локальный static из T3 3214992.",
+      "resolution": "Уничтожение при выходе из блока явно ограничено локальными объектами с автоматической длительностью хранения.",
+      "status": "Исправлено автором T5 и перечитано в готовом .step.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4659/basic.stc",
+        "https://timsong-cpp.github.io/cppwp/n4659/basic.stc.auto",
+        "https://timsong-cpp.github.io/cppwp/n4659/basic.stc.static"
+      ]
+    },
+    {
+      "step_id": 3760047,
+      "severity": "границы числового преобразования",
+      "finding": "Нельзя обещать, что любое отрицательное целое после преобразования в size_t становится большим индексом: исходный тип может быть шире.",
+      "resolution": "Разобран точный случай -1, указано модульное правило и необходимость отклонять отрицательный ввод до преобразования, затем проверять верхнюю границу.",
+      "status": "Исправлено автором T5 и перечитано в готовом .step.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4659/conv.integral",
+        "https://timsong-cpp.github.io/cppwp/n4861/conv.integral"
+      ]
+    }
+  ],
+  "unresolved_defects": [],
+  "terminology": {
+    "object": "объект",
+    "value": "значение",
+    "expression": "выражение",
+    "range": "диапазон; контекст различает числовой диапазон и диапазон элементов",
+    "lifetime": "время жизни",
+    "storage_duration": "продолжительность хранения; вариант «длительность хранения» используется как синоним, не как отдельное понятие",
+    "function_contract": "контракт вызова/операции",
+    "class_invariant": "инвариант допустимого состояния"
+  },
+  "verification_evidence": [
+    {
+      "path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/validation.json",
+      "result": "passed: 37 точных полных программ; 74 компиляции; 204 запуска; 6 подстановок отказа выделения; 12 проверок контрактов, включая 8 ожидаемых отказов компиляции."
+    },
+    {
+      "note": "В рамках этого смыслового обзора программы T3/T5 не запускались заново: их авторские протоколы сохраняются отдельно; после точечных правок T5 автор обновляет хеши своим verify."
+    }
+  ],
+  "limits": [
+    "Выборка охватывает 52 конкретных текста по двум цепочкам; это не полная новая вычитка всех 283 теоретических шагов.",
+    "Сквозная вычитка не публикует шаги на Stepik и не подтверждает их живое состояние; PUB ведётся отдельно.",
+    "Оцениваемые задания, проверяющие программы и видео не изменялись. Полного аудита всех их условий этот отчёт не заявляет.",
+    "Код трёх исправленных T5 шагов не менялся: найдены и устранены только неточные общие формулировки.",
+    "Другие линии LINKS (компиляция/библиотека и алгоритм/стоимость/контейнер) проверяются отдельными отчётами."
+  ],
+  "review_inputs": [
+    {
+      "step_id": 3177279,
+      "path": "improvements/86957/theory-continuation-2026-11-23/steps/763630/08_3177279_text.step",
+      "sha256": "9ce3ee09ff1e73ef54de9e6e095cfb96246ac2fb59950a092e2528210cc543eb",
+      "text_sha256": "0fa8a2855124ce5c73caef90f2152a32970764e6a5b9962f2f35a2a57fe7269d",
+      "step_url": "https://stepik.org/lesson/763630/step/8"
+    },
+    {
+      "step_id": 3177280,
+      "path": "improvements/86957/theory-continuation-2026-11-23/steps/763630/03_3177280_text.step",
+      "sha256": "0717a26b569eefb551f4565d6161b9711266d3ae211de4d4e7e90de4dbe0497c",
+      "text_sha256": "f28e69e167f48595d4b63e9322245c110b46424124a3c7d1fd122e3f107f9f31",
+      "step_url": "https://stepik.org/lesson/763630/step/3"
+    },
+    {
+      "step_id": 3177282,
+      "path": "improvements/86957/theory-continuation-2026-11-23/steps/763630/04_3177282_text.step",
+      "sha256": "40f3a8203dae67207b6f567d4bd912d4418ff46bfe3428175a6510d7f9ada4fb",
+      "text_sha256": "196e1049c7b67cfa4ad92bef4308451ec664531663cd73e6e240d5df30b35a65",
+      "step_url": "https://stepik.org/lesson/763630/step/4"
+    },
+    {
+      "step_id": 3177291,
+      "path": "improvements/86957/theory-continuation-2026-11-23/steps/763639/01_3177291_text.step",
+      "sha256": "d788be80f38d4436d912768a3056a3ff06e6d780ecda3ee2e3fdc23aef50b6ce",
+      "text_sha256": "db229832d7b69a2ddfd7f3811fe7dc8366a6240c46b3c4b06075ddb8415ee20e",
+      "step_url": "https://stepik.org/lesson/763639/step/1"
+    },
+    {
+      "step_id": 3177474,
+      "path": "improvements/86957/theory-continuation-2026-11-23/steps/763639/02_3177474_text.step",
+      "sha256": "4c123c940a79b92f13dec74c42bcc70782be4e9399f99f9e2c0259bd3a1ab5d1",
+      "text_sha256": "58a45ed75aaab8d6c016ca079f8ef784cd841eba3c1b69341f1c30fec686dbdd",
+      "step_url": "https://stepik.org/lesson/763639/step/2"
+    },
+    {
+      "step_id": 3212907,
+      "path": "improvements/86957/theory-continuation-2026-11-23/steps/763644/03_3212907_text.step",
+      "sha256": "371545ad730fa40d8e232fbd10277862200959f400620dd743fb51a195fcfbc1",
+      "text_sha256": "eb0826642851b7e5a2b6fbb5928b0e3c2b20eb8b0d8aebdeb33486428a574bd7",
+      "step_url": "https://stepik.org/lesson/763644/step/3"
+    },
+    {
+      "step_id": 3212920,
+      "path": "improvements/86957/theory-continuation-2026-11-23/steps/763644/06_3212920_text.step",
+      "sha256": "f828b4e93f7773b9da7ac85a06becd5936f74f9781d9517370f2b5362043e6c9",
+      "text_sha256": "fa99835f7ffc517e245b501d778124d1a976306be7fe200a3f4d6f51ebfff892",
+      "step_url": "https://stepik.org/lesson/763644/step/6"
+    },
+    {
+      "step_id": 3212937,
+      "path": "improvements/86957/theory-continuation-2026-11-23/steps/763646/05_3212937_text.step",
+      "sha256": "6bc33d75d5478f330c95cc1e5896b2b15fd6847633f9b758679d73a2f94fe4a7",
+      "text_sha256": "8104f1a406ea424448dc48d9c147a19b8cc9bdb60586ea1d94a118304ca9972f",
+      "step_url": "https://stepik.org/lesson/763646/step/5"
+    },
+    {
+      "step_id": 3212945,
+      "path": "improvements/86957/theory-continuation-2026-11-23/steps/770586/01_3212945_text.step",
+      "sha256": "3b4b08b864b48e5191d6d5471eb6a72c4e4e9bce8c8fe7a4717c7e327abdfb51",
+      "text_sha256": "58102b262d4a295728ad9af909aab4b66ff2d0deaba650cfdddbe93071381224",
+      "step_url": "https://stepik.org/lesson/770586/step/1"
+    },
+    {
+      "step_id": 3212947,
+      "path": "improvements/86957/theory-continuation-2026-11-23/steps/770588/01_3212947_text.step",
+      "sha256": "6dcaa9dbdf47190a7d0521eba43c8c281a50c732c5b450035b693da288bb2fbc",
+      "text_sha256": "97ba07c59c96a9ac6dcac392bc9398e191b0ec2741c581350cdd8089adb90bc8",
+      "step_url": "https://stepik.org/lesson/770588/step/1"
+    },
+    {
+      "step_id": 3212949,
+      "path": "improvements/86957/theory-2026-11-23/steps/770590/01_3212949_text.step",
+      "sha256": "1951323a045c76458517e47c75d275defb8f0713c9d82e8db6084b0fb5abcf55",
+      "text_sha256": "c10862bc6edf6639b72a85bfec22b0e3307df43e2137afb1341d834097f5b783",
+      "step_url": "https://stepik.org/lesson/770590/step/1"
+    },
+    {
+      "step_id": 3212955,
+      "path": "improvements/86957/theory-continuation-2026-11-23/steps/770596/01_3212955_text.step",
+      "sha256": "9079f4ae032f86113bce47cd32c3af70a66803ed7791215a9464b4e32bde6386",
+      "text_sha256": "dcf65ab7b6cab23292db9a79e7a51447c46371ad2c3401a67f01e1290edbde6f",
+      "step_url": "https://stepik.org/lesson/770596/step/1"
+    },
+    {
+      "step_id": 3212968,
+      "path": "improvements/86957/theory-continuation-2026-11-23/steps/770585/02_3212968_text.step",
+      "sha256": "ac250f80af994897da005e1806be93168f4ac7addf2fbbb53d29455a03e3c686",
+      "text_sha256": "1bf133ab14c6161a4cdaf29fc37b17a96f3b2b16fdad28ff2e4d7275643f794c",
+      "step_url": "https://stepik.org/lesson/770585/step/2"
+    },
+    {
+      "step_id": 3212969,
+      "path": "improvements/86957/theory-continuation-2026-11-23/steps/770585/03_3212969_text.step",
+      "sha256": "78004bdfcc4e3703b97d82c3f3d7642064f8312aea2cdc0134768fe4df78085e",
+      "text_sha256": "b234c3ea348a7cc9d7de265d9008b97848af4b3b5f6d1f88cf39fe85c3c0688f",
+      "step_url": "https://stepik.org/lesson/770585/step/3"
+    },
+    {
+      "step_id": 3212970,
+      "path": "improvements/86957/theory-continuation-2026-11-23/steps/770585/04_3212970_text.step",
+      "sha256": "cede5997c2e79198e49718645784b13cafbcc7a180e43574d73ea26f84f50419",
+      "text_sha256": "dbe64b66031ea81ac2d00f6c46950103be01eef42f2e5d5067d322c5b19c6790",
+      "step_url": "https://stepik.org/lesson/770585/step/4"
+    },
+    {
+      "step_id": 3212989,
+      "path": "courses/86957/steps/770585/06_3212989_text.step",
+      "sha256": "3dc4cdca3b367b34d2b682be42489e99777b08ca4c8a11b6bbdd206b3741537f",
+      "text_sha256": "c05cf8c3b8909c7b5be75fd405cf42e0a88ffb0a7befc70a5ba8f405c6f7b06f",
+      "step_url": "https://stepik.org/lesson/770585/step/6"
+    },
+    {
+      "step_id": 3212990,
+      "path": "courses/86957/steps/770585/05_3212990_text.step",
+      "sha256": "37bf6ba467280ca7ebae231b13ac9dd5091040c037c5eafe341572649450eece",
+      "text_sha256": "8a043004748c032902965eb56a168ae102f80d8b1ecc4044db8eca6ce56e9aaa",
+      "step_url": "https://stepik.org/lesson/770585/step/5"
+    },
+    {
+      "step_id": 3212995,
+      "path": "improvements/86957/theory-continuation-2026-11-23/steps/770586/02_3212995_text.step",
+      "sha256": "22e9840bf256c1d99fed3e51410e380a6a36004009477a720a2f35c8ed46cfb6",
+      "text_sha256": "f179cae995e21ed2a8f4c1dfde83cee61cf24cec41f658b34a676f473e0738c5",
+      "step_url": "https://stepik.org/lesson/770586/step/2"
+    },
+    {
+      "step_id": 3213003,
+      "path": "improvements/86957/theory-continuation-2026-11-23/steps/770586/03_3213003_text.step",
+      "sha256": "7a959c7b33c697d774f436e54229e62db5f08e47505aa74f9bf9b6bdb99cc5ed",
+      "text_sha256": "5dcfb7fd675fd065de2ad5612affae40d686de253949a96c0ae915e114a04bac",
+      "step_url": "https://stepik.org/lesson/770586/step/3"
+    },
+    {
+      "step_id": 3214904,
+      "path": "improvements/86957/theory-continuation-2026-11-23/steps/770589/05_3214904_text.step",
+      "sha256": "64dd9e99ce16096d60ff1a8bb9e9eaad1638ef47046b82dc4f8273e68f36bc20",
+      "text_sha256": "66f0692aa51be1599f100bee08ecfb943b76f34b1c703f16b2a2ea58845cae21",
+      "step_url": "https://stepik.org/lesson/770589/step/5"
+    },
+    {
+      "step_id": 3214911,
+      "path": "improvements/86957/theory-2026-11-23/steps/770590/04_3214911_text.step",
+      "sha256": "80e31a0b4e9e3e202e2fa2d3188a7a558908490e963b63ce20b0556c508d0ee0",
+      "text_sha256": "aba4eabf68bb0575d7fc4fdc15ee0b8011fb89d9a05c390ddaaddc57ec58f433",
+      "step_url": "https://stepik.org/lesson/770590/step/4"
+    },
+    {
+      "step_id": 3214971,
+      "path": "improvements/86957/theory-2026-11-23/steps/770591/04_3214971_text.step",
+      "sha256": "b58edfceb8bc9c4f8bbe7c196c294780c03a3d5d8783be2914832d76a5734769",
+      "text_sha256": "6eaf4b5142d39548d4c843fc2c666c4d9dab45316da21f0bbe41d6408ef68046",
+      "step_url": "https://stepik.org/lesson/770591/step/4"
+    },
+    {
+      "step_id": 3214974,
+      "path": "improvements/86957/theory-2026-11-23/steps/770591/05_3214974_text.step",
+      "sha256": "a0fced3d7332b06ee66d11766a3f4f1548668c5081bdf72ec2974172b3fd738c",
+      "text_sha256": "3068ef7c5b5be37c6ffd0ab1745ba902a5ffffa64cc1334cd318c687bde69d74",
+      "step_url": "https://stepik.org/lesson/770591/step/5"
+    },
+    {
+      "step_id": 3214992,
+      "path": "improvements/86957/theory-2026-11-23/steps/770592/01_3214992_text.step",
+      "sha256": "e1d721cbf2b0e117620cc1f10baa13a3eacf8758132759a8b36624eb9981836a",
+      "text_sha256": "4278356e4179f5a1f35aac07184bb1413542257d0b14be56f8a3309502fc6b41",
+      "step_url": "https://stepik.org/lesson/770592/step/1"
+    },
+    {
+      "step_id": 3215024,
+      "path": "improvements/86957/theory-2026-11-23/steps/770591/06_3215024_text.step",
+      "sha256": "ed46b17578b2460dac7f895a39b2255cb580cf06d57f343849ad862600b6d7af",
+      "text_sha256": "53e3ff98041d01bac6d7375b5de4b3eb5f57287d13ddb12a812de84bbd34753f",
+      "step_url": "https://stepik.org/lesson/770591/step/6"
+    },
+    {
+      "step_id": 3215235,
+      "path": "improvements/86957/theory-continuation-2026-11-23/steps/770596/06_3215235_text.step",
+      "sha256": "94c934a6b739d38ba3265ee5d39845dc5dafb24f085e1f3b689785c3b6822b21",
+      "text_sha256": "55738e059ddea4622466cf568ddc1cce65296578a65368dfe6822ca7d78c756c",
+      "step_url": "https://stepik.org/lesson/770596/step/6"
+    },
+    {
+      "step_id": 3215236,
+      "path": "improvements/86957/theory-continuation-2026-11-23/steps/770596/07_3215236_text.step",
+      "sha256": "50265a8a50293b0499da215f683dc515f053f217e08bca39e8c8baeeed30b9f3",
+      "text_sha256": "baa8e8566aed403c7780370c9d5dd4a0cceec0a17e179261fb924390907f442c",
+      "step_url": "https://stepik.org/lesson/770596/step/7"
+    },
+    {
+      "step_id": 3307684,
+      "path": "improvements/86957/theory-continuation-2026-11-23/steps/770587/06_3307684_text.step",
+      "sha256": "2c1516436791461365e87bec0d2a65534c6379082b6264d6cce611561cab7e67",
+      "text_sha256": "61e2a0ae8a15e477dda7ab80696eb186587b5decbcb89e2f2f01b7abbdd58022",
+      "step_url": "https://stepik.org/lesson/770587/step/6"
+    },
+    {
+      "step_id": 3438841,
+      "path": "improvements/86957/theory-continuation-2026-11-23/steps/770586/06_3438841_text.step",
+      "sha256": "560c959544b814e5542b616110624c0946ceab7825d074bcfbcd0768186340c2",
+      "text_sha256": "2342610d6f9ad147d93b8f6beaa0795ba9c6bc205d5eec0eaedaeef003ecc55f",
+      "step_url": "https://stepik.org/lesson/770586/step/6"
+    },
+    {
+      "step_id": 3569321,
+      "path": "improvements/86957/theory-continuation-2026-11-23/steps/853532/01_3569321_text.step",
+      "sha256": "e2adb42b8598bd7f07cd9c7ba0579a001dd2e7a54189771f8b46541a112be86d",
+      "text_sha256": "d99634166b57e0c7799966670e1b8e69a98aed4e25397a2f43365ed73a1bde7f",
+      "step_url": "https://stepik.org/lesson/853532/step/1"
+    },
+    {
+      "step_id": 3569323,
+      "path": "improvements/86957/theory-continuation-2026-11-23/steps/853534/01_3569323_text.step",
+      "sha256": "1c89c58e640d5fbcfcd59c0334aebaa707b62fa62893abdeeca0b0b5e711c81c",
+      "text_sha256": "306d4653f130b55749458bb7268c08de10ac1e88224139548ed4dafaba89c614",
+      "step_url": "https://stepik.org/lesson/853534/step/1"
+    },
+    {
+      "step_id": 3569324,
+      "path": "improvements/86957/theory-continuation-2026-11-23/steps/853535/01_3569324_text.step",
+      "sha256": "bbfa66db97693a85b9c887dfca5c8e5ea74c706b2a58b73976c7fcca2990660d",
+      "text_sha256": "b1dd530471e9984725f44639be08db250bce58001c943902c61423f355718645",
+      "step_url": "https://stepik.org/lesson/853535/step/1"
+    },
+    {
+      "step_id": 3569325,
+      "path": "improvements/86957/theory-continuation-2026-11-23/steps/853536/01_3569325_text.step",
+      "sha256": "b1e07452635e83810c6c4b80836d67575d1413ac8606124876820d52a68585fb",
+      "text_sha256": "d7d51e3e861004ada85dc3569c1263abccd65cf79ecfc851cf2362906d31aac3",
+      "step_url": "https://stepik.org/lesson/853536/step/1"
+    },
+    {
+      "step_id": 3569891,
+      "path": "improvements/86957/theory-continuation-2026-11-23/steps/853532/02_3569891_text.step",
+      "sha256": "952243858405b889a303330dc9cb73f5603c387ffcdff8f29a61d8f20ccd2b50",
+      "text_sha256": "c9f091d24bce8b5501a6879a130f90636353e30b1ae0b49d40c65f1f7371161a",
+      "step_url": "https://stepik.org/lesson/853532/step/2"
+    },
+    {
+      "step_id": 3569896,
+      "path": "improvements/86957/theory-continuation-2026-11-23/steps/853532/03_3569896_text.step",
+      "sha256": "b41a69f2fbb02193695f7a83f10805a95de8dac2f167a8abbc8df0f4eeccbf0a",
+      "text_sha256": "59bafff7c8ad7fa01b2b781ceb4d7587a091e95014a0eaf2d0d4ce5aaf85d003",
+      "step_url": "https://stepik.org/lesson/853532/step/3"
+    },
+    {
+      "step_id": 3569932,
+      "path": "improvements/86957/theory-continuation-2026-11-23/steps/853535/02_3569932_text.step",
+      "sha256": "a1f7072a8a60ad94a6cebe7eb443c5c0fe6c327f90c7d0bbb2df8a5afd139357",
+      "text_sha256": "5fa225c4b6354a4474a959e4bd6826df69685d8269eef145287a495a96558183",
+      "step_url": "https://stepik.org/lesson/853535/step/2"
+    },
+    {
+      "step_id": 3569963,
+      "path": "improvements/86957/theory-continuation-2026-11-23/steps/853536/03_3569963_text.step",
+      "sha256": "e34ba7612099d2cd26a727090e14fdf1c8ebf45f459d84cece5ee7684b67db79",
+      "text_sha256": "cda59b343ac5465e9c5144c229300022aa1eba8832abf317a3c92af09f12e3d4",
+      "step_url": "https://stepik.org/lesson/853536/step/3"
+    },
+    {
+      "step_id": 3569964,
+      "path": "improvements/86957/theory-continuation-2026-11-23/steps/853536/02_3569964_text.step",
+      "sha256": "d9ccdf3abc2d86339a25fd85ce4ddebe4ba9e868c225a253eba964435214cb4d",
+      "text_sha256": "0d63d861af64119256b624d9131c98f6898ed008a9c183b9d623af193c03e330",
+      "step_url": "https://stepik.org/lesson/853536/step/2"
+    },
+    {
+      "step_id": 3668926,
+      "path": "improvements/86957/theory-continuation-2026-11-23/steps/877082/01_3668926_text.step",
+      "sha256": "4abf0df9fa6dc314d5de44ad6f11344781e43c1d0b0d4ce6242b8a393c00d33e",
+      "text_sha256": "a61e841dbd283789bab328797e1bdb06910a1285c53e1feef96c737df36f60fe",
+      "step_url": "https://stepik.org/lesson/877082/step/1"
+    },
+    {
+      "step_id": 3668952,
+      "path": "improvements/86957/theory-continuation-2026-11-23/steps/877082/02_3668952_text.step",
+      "sha256": "ebcc01dc2ba4fe2fd04924af40c5efea6f0c3964e28a5b75c2732865d49b0cf7",
+      "text_sha256": "aa3f66cfaf327e0da1f6cd963bffdbe490c5b663db9d4e9045796bc15dd49329",
+      "step_url": "https://stepik.org/lesson/877082/step/2"
+    },
+    {
+      "step_id": 3668999,
+      "path": "improvements/86957/theory-continuation-2026-11-23/steps/877081/03_3668999_text.step",
+      "sha256": "52164d7388590683f8a0226da53e51ccc4d73d821fb023f5a05246703d88e1fe",
+      "text_sha256": "b704337da397b17ff196a0014475b79533380e927a608da5ca367345ad5825c2",
+      "step_url": "https://stepik.org/lesson/877081/step/3"
+    },
+    {
+      "step_id": 3669000,
+      "path": "improvements/86957/theory-continuation-2026-11-23/steps/877081/02_3669000_text.step",
+      "sha256": "9b34000c14e645a5dd70b4cb893d2074629aa1b01545fdfbf5bf0cf4ed13266e",
+      "text_sha256": "329de185210a53a791f452f33a66d88e6c7932f6dafaf9965210980d7f62df7b",
+      "step_url": "https://stepik.org/lesson/877081/step/2"
+    },
+    {
+      "step_id": 3669075,
+      "path": "improvements/86957/theory-continuation-2026-11-23/steps/877081/04_3669075_text.step",
+      "sha256": "6ac6303563368449eaf98ef34dc95151899818f09680767e1c2bf1a8d1ae377e",
+      "text_sha256": "f5ae962aae287fb571be693758e09604c02eefe9ffa1e6531f756742e3c65f50",
+      "step_url": "https://stepik.org/lesson/877081/step/4"
+    },
+    {
+      "step_id": 3669089,
+      "path": "improvements/86957/theory-continuation-2026-11-23/steps/877081/05_3669089_text.step",
+      "sha256": "c98d022fd9328b63aac9ae8e69414f2be8d761f381abf24fb706a3fbcbc203ac",
+      "text_sha256": "2783de645522842860841368f5444797371ea25bcd64eaf905aaa8b1607a9380",
+      "step_url": "https://stepik.org/lesson/877081/step/5"
+    },
+    {
+      "step_id": 3669114,
+      "path": "improvements/86957/theory-continuation-2026-11-23/steps/877082/04_3669114_text.step",
+      "sha256": "19b46b42ac88f80a4bd18b564e180f94ad8a75e8739e33ac4dca150758724096",
+      "text_sha256": "85d3148e81f3018b1da73c75a0361ff595b6787d23c9681995964a3d1c705541",
+      "step_url": "https://stepik.org/lesson/877082/step/4"
+    },
+    {
+      "step_id": 3669140,
+      "path": "improvements/86957/theory-continuation-2026-11-23/steps/877083/02_3669140_text.step",
+      "sha256": "b651a3eb6e1695b2e33257eda560447bcd04d7117553d9c07ffff8db66623824",
+      "text_sha256": "e7166760cb0e6d23691930c4d05fb0814662726b58799cbbd2330dbeba487e49",
+      "step_url": "https://stepik.org/lesson/877083/step/2"
+    },
+    {
+      "step_id": 3669156,
+      "path": "improvements/86957/theory-continuation-2026-11-23/steps/877083/04_3669156_text.step",
+      "sha256": "dcf7d5c3629cc82d18ac62565e4961eb8b124180eacfed185b766716c822a313",
+      "text_sha256": "7fd69e6e6a9104ab8db31055fef4703f1eb83b4c4f0aa04d7784e57018d10d8f",
+      "step_url": "https://stepik.org/lesson/877083/step/4"
+    },
+    {
+      "step_id": 3669173,
+      "path": "improvements/86957/theory-continuation-2026-11-23/steps/877083/05_3669173_text.step",
+      "sha256": "b6ff6986a9de341a886578926c9518e3f5d8cf4c438f93c6b0e8f4ccbb9ea1c7",
+      "text_sha256": "5d25871f4cb02e2c31a09cc9a9a558800aa546ec4089d044aef016199b21b9d2",
+      "step_url": "https://stepik.org/lesson/877083/step/5"
+    },
+    {
+      "step_id": 3760024,
+      "path": "improvements/86957/theory-continuation-2026-11-23/steps/897987/04_3760024_text.step",
+      "sha256": "d595bb3d110ff5febe92429c487129f5073f6dfc99e65aeb9cac025da05ccc06",
+      "text_sha256": "f39672f4f20ace244d68c799630338d5190e4785d4c4db53d36a5db31898bebd",
+      "step_url": "https://stepik.org/lesson/897987/step/4"
+    },
+    {
+      "step_id": 3760025,
+      "path": "improvements/86957/theory-continuation-2026-11-23/steps/897987/05_3760025_text.step",
+      "sha256": "7919078aa7d704ba1c95e9c6bd519c8684f8a09850673b9407d124cb4bf585f9",
+      "text_sha256": "5ef86ccd652540decfdfab77a409279313456c797e73a45d901f8e8d5458a212",
+      "step_url": "https://stepik.org/lesson/897987/step/5"
+    },
+    {
+      "step_id": 3760047,
+      "path": "improvements/86957/theory-continuation-2026-11-23/steps/897987/10_3760047_text.step",
+      "sha256": "c3a06c25ea32b9718c53badeb651dc8010c7d4aa4c60313b7a709081c508fd07",
+      "text_sha256": "267071f050071688b7dfee827112428f47477532b8c8faa002d8753fe54dfe0f",
+      "step_url": "https://stepik.org/lesson/897987/step/10"
+    },
+    {
+      "step_id": 3760048,
+      "path": "improvements/86957/theory-continuation-2026-11-23/steps/897987/09_3760048_text.step",
+      "sha256": "72c90a1701a9efbca05ee8b2e705ab60896f73dad697380f6b160c1cad462014",
+      "text_sha256": "431d9b8f9fe3fe09b250cd5f7b3d2975cc8f79198ab0be2e86000aff591af223",
+      "step_url": "https://stepik.org/lesson/897987/step/9"
+    }
+  ]
+}

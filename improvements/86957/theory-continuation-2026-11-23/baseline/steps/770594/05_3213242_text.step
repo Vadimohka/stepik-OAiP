@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3><strong>КВАДРАТИЧНАЯ | O(N²)</strong></h3>\n\n<p>Квадратичный рост означает, что объём работы пропорционален <code>n²</code>: при удвоении <code>n</code> он увеличивается примерно в четыре раза. Это не наихудшая возможная сложность: встречаются, например, кубический и экспоненциальный рост. Полный обход матрицы <code>r × c</code> занимает <code>Θ(r·c)</code> операций; для квадратной матрицы <code>n × n</code> получаем <code>Θ(n²)</code>. Если размер входа считать общим числом элементов, такой обход линеен по этому числу.</p>\n\n<p><strong>Пример:</strong></p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n\nint main() {\n    const int n = 3;\n    int a[n][n]{{1,2,3},{4,5,6},{7,8,9}};\n    for (int i = 0; i &lt; n; ++i) {\n        for (int j = 0; j &lt; n; ++j) {\n            std::cout &lt;&lt; a[i][j] &lt;&lt; '\\n';\n        }\n    }\n}</code></pre>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3213242",
+  "time": "2026-11-22T18:35:40Z"
+}

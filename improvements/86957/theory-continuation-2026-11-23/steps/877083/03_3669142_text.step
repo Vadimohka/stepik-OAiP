@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Доступ и дружба одной функции-члена</h3>\n\n<p>Закрытое состояние позволяет проверять инвариант в ограниченном наборе операций. <code>private</code> — правило проверки программы компилятором, а не шифрование памяти и не защита от человека, который управляет процессом. Предоставляя <code>friend</code>, автор включает ещё одну функцию в набор кода, которому доверено представление.</p><p>Полная программа, C++17 и C++20:</p><pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n\nclass Storage;\n\nclass Display {\npublic:\n    void show(const Storage&amp; storage) const;\n};\n\nclass Storage {\n    int integer_;\n    double real_;\npublic:\n    Storage(int integer, double real) : integer_(integer), real_(real) {}\n    friend void Display::show(const Storage&amp; storage) const;\n};\n\nvoid Display::show(const Storage&amp; storage) const {\n    std::cout &lt;&lt; storage.integer_ &lt;&lt; ' ' &lt;&lt; storage.real_ &lt;&lt; '\\n';\n}\n\nint main() {\n    const Storage storage{5, 6.5};\n    const Display display;\n    display.show(storage);\n    return 0;\n}</code></pre><p>Результат:</p><pre><code class=\"language-no-highlight\">5 6.5</code></pre><p>Порядок объявлений отвечает зависимостям. Сначала сообщается имя <code>Storage</code>; этого достаточно для ссылочного параметра. Затем определяется <code>Display</code> с объявлением <code>show</code>. Поэтому при объявлении дружбы компилятор уже знает, какая именно функция-член указана. Тело <code>show</code> расположено после полного определения <code>Storage</code>, когда известны его поля.</p><p><code>this</code> внутри <code>Display::show</code> обозначает <code>Display</code>, а не <code>Storage</code>. Второй объект получен через параметр <code>storage</code>. Дружба разрешает доступ по имени, но не предоставляет объект автоматически. Ровно эта функция-член стала другом; другие функции <code>Display</code> такого права из этой записи не получают.</p><p>Если вместо неё написать <code>friend class Display;</code>, доступ будет дан всем членам указанного класса. Дружба не становится взаимной, транзитивной или наследуемой. Если вывод можно реализовать через уже существующие методы чтения, дружба вообще не требуется. Это позволяет уменьшить число мест, которые зависят от закрытого представления.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3669142",
+  "time": "2026-11-23T06:34:36Z"
+}

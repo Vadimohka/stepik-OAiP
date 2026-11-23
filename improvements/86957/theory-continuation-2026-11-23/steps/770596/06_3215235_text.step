@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Композиция: объект содержит другие объекты</h3>\n\n<p>Полем структуры может быть другая структура. Такое устройство называют композицией: модель автомобиля содержит сведения о марке. Поле <code>make</code> — настоящий подобъект внутри <code>Model</code>, а не указатель на отдельную марку.</p><p>Полная программа, C++17 и C++20:</p><pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;string&gt;\n\nstruct Make {\n    int id{};\n    std::string name;\n};\nstruct Model {\n    int id{};\n    Make make;\n    std::string name;\n    int year{};\n};\n\nint main() {\n    Model original{10, {1, \"Acura\"}, \"CL\", 2003};\n    Model copy = original;\n    copy.name = \"TSX\";\n    std::cout &lt;&lt; original.make.name &lt;&lt; ' ' &lt;&lt; original.name &lt;&lt; ' '\n              &lt;&lt; original.year &lt;&lt; '\\n';\n    std::cout &lt;&lt; copy.name &lt;&lt; '\\n';\n    return 0;\n}</code></pre><p>Результат:</p><pre><code class=\"language-no-highlight\">Acura CL 2003\nTSX</code></pre><p>Вложенный список <code>{1, \"Acura\"}</code> инициализирует поле <code>make</code>. Запись <code>original.make.name</code> сначала выбирает марку, затем её имя. Год хранится непосредственно как число 2003; скрытого смещения от исторического года здесь нет.</p><p>Копирование <code>Model</code> копирует его поля по их собственным правилам. У копии отдельное поле <code>std::string</code>, поэтому изменение <code>copy.name</code> не меняет имя исходной модели. Для строки стандартная библиотека сама выполняет необходимые действия с ресурсом. Вручную вызывать <code>free</code> или <code>delete</code> для её памяти не нужно.</p><p>Подобъекты создаются вместе с содержащим объектом и уничтожаются при его уничтожении. Эта связь времени жизни станет основой <a href=\"https://stepik.org/lesson/877081/step/4\">RAII и деструкторов</a>. Если многим моделям понадобится доступ к одной общей марке, потребуется иная модель: отдельно решить, кто владеет маркой и как долго допустим доступ к ней.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3215235",
+  "time": "2026-11-23T06:34:36Z"
+}

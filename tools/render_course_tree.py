@@ -22,6 +22,7 @@ PACKAGES = [
     ('Функции и контракты', 'improvements/86957/functions-2026-11-23/manifest.json', 'publication.status'),
     ('Задачи на запуск, сортировку и поиск', 'improvements/86957/practice-2026-11-23/manifest.json', 'publication.status'),
     ('Теоретическая редакция', 'improvements/86957/theory-2026-11-23/manifest.json', 'publication.status'),
+    ('Продолжение теоретической редакции', 'improvements/86957/theory-continuation-2026-11-23/manifest.json', 'publication.status'),
 ]
 
 

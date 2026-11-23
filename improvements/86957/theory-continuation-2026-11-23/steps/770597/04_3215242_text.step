@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Вложенные альтернативы и std::variant</h3>\n\n<p>Объединение может содержать структуру или другое объединение. Тогда активность нужно отслеживать на каждом уровне. Следующий фрагмент продолжает определение <code>Number</code> из <a href=\"https://stepik.org/lesson/770597/step/1\">начала урока</a>.</p><p>Фрагмент; определения и контекст указаны в объяснении:</p><pre><code class=\"language-cpp\">union Payload {\n    Number number;\n    int code;\n};\n\nPayload payload{{5}};       // активны number и number.integer\npayload.number.real = 2.5;  // активны number и number.real\npayload.code = 9;           // активен code; number больше не читается</code></pre><p>Появление полей сложного типа само по себе не добавляет управление их временем жизни. Для обычной программы с альтернативами «число или строка» удобен <code>std::variant</code> из C++17. Запись типов в угловых скобках задаёт допустимые альтернативы стандартного библиотечного шаблона; собственный шаблон писать не требуется.</p><p>Полная программа, C++17 и C++20:</p><pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;string&gt;\n#include &lt;variant&gt;\n\nint main() {\n    std::variant&lt;int, std::string&gt; value{7};\n    std::cout &lt;&lt; std::get&lt;int&gt;(value) &lt;&lt; '\\n';\n    value = std::string{\"ready\"};\n    if (const auto* text = std::get_if&lt;std::string&gt;(&amp;value)) {\n        std::cout &lt;&lt; *text &lt;&lt; '\\n';\n    }\n    std::cout &lt;&lt; std::boolalpha &lt;&lt; (std::get_if&lt;int&gt;(&amp;value) == nullptr) &lt;&lt; '\\n';\n    try {\n        std::cout &lt;&lt; std::get&lt;int&gt;(value) &lt;&lt; '\\n';\n    } catch (const std::bad_variant_access&amp;) {\n        std::cout &lt;&lt; \"wrong alternative\\n\";\n    }\n    return 0;\n}</code></pre><p>Результат:</p><pre><code class=\"language-no-highlight\">7\nready\ntrue\nwrong alternative</code></pre><p><code>variant</code> хранит текущую альтернативу и отвечает за создание и уничтожение её значения. После присваивания строки числовая альтернатива уже не выбрана. <code>get_if</code> возвращает указатель на нужное значение или <code>nullptr</code>; <code>get</code> при неверной альтернативе бросает <code>std::bad_variant_access</code>. Поэтому результат объясняется без чтения неактивного члена.</p><p>Это не обещание одинакового с <code>union</code> размера: для выбранной альтернативы требуется служебное состояние. При некоторых исключениях во время смены значения <code>variant</code> может остаться без значения; это проверяют методом <code>valueless_by_exception()</code>. Показанный нормальный путь завершает каждую операцию успешно. Для типов с ресурсами такой управляемый интерфейс обычно удобнее ручного переключения <code>union</code>. Следующая тема <a href=\"https://stepik.org/lesson/877082/step/1\">классов</a> обобщает ту же идею: представление данных сопровождается допустимыми операциями.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3215242",
+  "time": "2026-11-22T18:35:40Z"
+}

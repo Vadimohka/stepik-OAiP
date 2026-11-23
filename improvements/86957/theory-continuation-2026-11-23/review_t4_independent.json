@@ -1,0 +1,1234 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-11-23T10:46:25.943837+00:00",
+  "review_kind": "Независимое содержательное чтение T4, семантическая сверка SCOPE37 и адресная сверка цепочки T4→T6→стандартные контейнеры",
+  "authoring_review_separated": true,
+  "base_commit": "d96e5b9cffa65010c53894a9b65b1a497cb6b58a",
+  "head_observed": "d96e5b9cffa65010c53894a9b65b1a497cb6b58a",
+  "status": "passed_after_targeted_corrections",
+  "scope": {
+    "t4_modules": [
+      10,
+      11,
+      19
+    ],
+    "t4_text_steps_read_in_full": 33,
+    "scope_unique_historical_text_steps": 37,
+    "scope_previously_adapted_functions_read_in_full": 12,
+    "scope_new_adaptations_read_in_full": 25,
+    "excluded_historical_nontext_steps": 9,
+    "new_student_tasks_created": 0,
+    "new_videos_created": 0,
+    "t6_review_is_targeted_not_full_recatalogue": true
+  },
+  "method": [
+    "Прочитаны review_t4.json, changes_t4.json, README и verify.py T4, review_scope.json и все33 текста T4 целиком.",
+    "Все12 ранее адаптированных текстов T3 прочитаны целиком; новые объяснения сопоставлены с историческими заданиями всех37 шагов. Проверялся смысл предложения, наличие законченного результата и отсутствие поручения ученику, а не только название заголовка.",
+    "Смысловые контракты, числовые трассировки, границы диапазонов, состояние потоков и контейнерные гарантии рассмотрены независимо от автора изменений.",
+    "Проверена идентичность полей33 payload, кроме block.text;23 полных листинга побайтно привязаны к файлам после удаления только завершающего пробела/перевода строки. У24-го блока явно обозначенный фрагмент с оболочкой в авторском verifier.",
+    "Состав SCOPE восстановлен по четырём историческим манифестам и типам фактических payload:37 уникальных text и9 иных шагов. Контрольные суммы37 исторических исходников совпали с review_scope.json.",
+    "18 внутренних ссылок T4 разрешены по актуальному локальному снимку и подготовленному overlay; назначение ссылки сопоставлено с заголовком и прочитанным содержанием. Независимой живой сверки Stepik в этом отчёте нет."
+  ],
+  "findings": [
+    {
+      "id": "T4-I1",
+      "severity": "technical_local",
+      "step_id": 3215192,
+      "status": "fixed",
+      "problem": "Разбор безопасной проверки границы называл &&, хотя код использует ||.",
+      "correction": "В объяснении назван ||; при истинном position==size правая часть не вычисляется.",
+      "source": "https://timsong-cpp.github.io/cppwp/n4659/expr.log.or",
+      "file_sha256_before": "9406bd22fbeb7bd26ae209721de2daeb6e34b99738b5eb6e4f31091107528d5a",
+      "code_changed": false
+    },
+    {
+      "id": "T4-I2",
+      "severity": "editorial_local",
+      "step_id": 4035430,
+      "status": "fixed",
+      "problem": "В ученическом тексте была служебная фраза о границах редакторской работы.",
+      "correction": "Фраза удалена; пояснение дополнительных предпосылок существующего задания сохранено.",
+      "file_sha256_before": "01d926fffb34531c1f6a27c1ba8e2651f3d59388bed868100991533ade59a265",
+      "code_changed": false
+    },
+    {
+      "id": "T4-I3",
+      "severity": "links_semantic",
+      "step_id": 4035416,
+      "status": "fixed",
+      "problem": "Якорь Красно-чёрное дерево вёл на шаг3569332 о2–3-дереве.",
+      "old_target": {
+        "lesson_id": 853541,
+        "position": 1,
+        "step_id": 3569332
+      },
+      "new_target": {
+        "lesson_id": 853541,
+        "position": 2,
+        "step_id": 3570303
+      },
+      "correction": "Ссылка перенаправлена на определение красно-чёрного дерева; заголовок и теория целевого шага прочитаны.",
+      "file_sha256_before": "c788bbd3b4c8d202ecbe5f247fdd6cdda8e3e8a886feac596e89d7dd070e06dc",
+      "code_changed": false
+    },
+    {
+      "id": "T6-I1",
+      "severity": "technical_local",
+      "step_id": 3570303,
+      "status": "fixed_by_integration_owner_and_reread",
+      "problem": "Утверждалось, что изменяющиеся роли N/P/G/U всегда обозначают те же физические узлы, что противоречит InsCase1(g) в InsCase3.",
+      "evidence_step_id": 3570304,
+      "correction": "В новом продолжении сказано, что прежний G становится текущим N, а остальные роли определяются заново. Дополнительно P назван родителем.",
+      "historical_package_modified": false,
+      "code_changed": false,
+      "current_file_sha256": "7721b60508e832a02ab4d622e901fb707706109a3b89f9b94c3b0fdc4ff5036f"
+    }
+  ],
+  "acceptance": [
+    {
+      "criterion": "Модель стоимости и асимптотика",
+      "result": "passed",
+      "evidence": "Размер, базовая операция и случай входа указаны отдельно. O не отождествлено с худшим случаем; независимые n,m, дополнительная память, стек, среднее и амортизированное различены."
+    },
+    {
+      "criterion": "Сортировка и поиск",
+      "result": "passed",
+      "evidence": "Сортировка сохраняет элементы и повторы; устойчивость привязана к варианту. Поиск определяет первый индекс, отсутствие, пустой вход, предпосылку порядка, подготовку и стоимость проверки is_sorted. Оценка сравнений отделена от продвижений итераторов."
+    },
+    {
+      "criterion": "EOF, ошибки и формат",
+      "result": "passed",
+      "evidence": "Операция чтения управляет циклом; последняя строка без newline и пустой файл разобраны. Неправильный последний числовой токен отвергается отдельно от EOF. Формат отличён от binary, а проверка close — от is_open и RAII."
+    },
+    {
+      "criterion": "set/map и стандартные гарантии",
+      "result": "passed",
+      "evidence": "Сравнение, эквивалентность и unique/multi различены; [] намеренно вставляет, find и at не вставляют. Стоимость операции зависит от перегрузки. Перехеширование инвалидирует итераторы, но сохраняет ссылки на существующие элементы."
+    },
+    {
+      "criterion": "Самодостаточность без новой практики",
+      "result": "passed",
+      "evidence": "Все37 исторических предложений самостоятельной работы заменены завершёнными объяснениями либо исключены из активной редакции; вопросы в заголовках раскрываются текстом и не требуют сдачи ответа."
+    }
+  ],
+  "t4_steps": [
+    {
+      "step_id": 3212953,
+      "path": "steps/770594/01_3212953_text.step",
+      "file_sha256": "8f90ba1174cbe9c1664ff7635214e5891556b4c4d3da8de50385ffb96fa8d996",
+      "read_in_full": true,
+      "content_result": "passed",
+      "note": "Максимум полностью разобран на 4,1,7,2; время и память разделены, отсутствие максимума пустого входа явно названо."
+    },
+    {
+      "step_id": 3213244,
+      "path": "steps/770594/02_3213244_text.step",
+      "file_sha256": "380e09c3c34f6d65ced3bfef7dead79f15f64f2a54dfc558fc1732c3130aa9fe",
+      "read_in_full": true,
+      "content_result": "passed",
+      "note": "O определено через постоянную верхнюю границу; Θ отделено от среднего случая, а неточная O(n²) не объявлена равенством квадратичному росту."
+    },
+    {
+      "step_id": 3213241,
+      "path": "steps/770594/03_3213241_text.step",
+      "file_sha256": "3d32c2f97182bd37da5d20a367cec8db7c018af512d8c79b841a7c2f7410bf7f",
+      "read_in_full": true,
+      "content_result": "passed",
+      "note": "Оценка постоянной стоимости относится к std::size встроенного массива, печать отделена; полный вывод 5 указан."
+    },
+    {
+      "step_id": 3213243,
+      "path": "steps/770594/04_3213243_text.step",
+      "file_sha256": "ab826a1c9c3044537f8759f1ad9ff4c5941f8504fe88f53afc9534c804372772",
+      "read_in_full": true,
+      "content_result": "passed",
+      "note": "Подсчитаны посещения элементов, а цена форматирования и endl оговорена отдельно."
+    },
+    {
+      "step_id": 3213242,
+      "path": "steps/770594/05_3213242_text.step",
+      "file_sha256": "9b39a1cc1bf96c7cd693585e3f9327aa59a95710a721c2dceda07ab180a3f03f",
+      "read_in_full": true,
+      "content_result": "passed",
+      "note": "Различены сторона n, размеры r×c и общее число элементов N; полный код содержит стандартный массив постоянного размера."
+    },
+    {
+      "step_id": 3213247,
+      "path": "steps/770594/06_3213247_text.step",
+      "file_sha256": "a5d0e631029b6f488934a5d32844bd6a061a831cdde9260d53db83338182f4d5",
+      "read_in_full": true,
+      "content_result": "passed",
+      "note": "Выводы для 31 и 32 уже приведены с цепочками делений и объяснением порога степени двойки."
+    },
+    {
+      "step_id": 3213248,
+      "path": "steps/770594/07_3213248_text.step",
+      "file_sha256": "25abcecf62c8198341c79d8d7d2aebab7b1235fae3704d69638c5cc90e154ed3",
+      "read_in_full": true,
+      "content_result": "passed",
+      "note": "Постоянные множители отделены от независимого второго размера; правило суммы и далёкий асимптотический порог оговорены."
+    },
+    {
+      "step_id": 3213256,
+      "path": "steps/770594/08_3213256_text.step",
+      "file_sha256": "7193a8b0647f50b5156460de46a9445f709691cb01a255567b8a412411da77c8",
+      "read_in_full": true,
+      "content_result": "passed",
+      "note": "Обе границы j<i и j≤i разобраны численно и формулами; самостоятельного изменения программы не требуется."
+    },
+    {
+      "step_id": 3213255,
+      "path": "steps/770594/09_3213255_text.step",
+      "file_sha256": "b1bf67e270c5dd61288ed4db7faeb9162ff59f35536ae690e3cab103c2fd1c87",
+      "read_in_full": true,
+      "content_result": "passed",
+      "note": "Лаборатория измерений заменена законченным анализом условий сравнения; четырёхкратный рост объяснён без требования провести эксперимент."
+    },
+    {
+      "step_id": 3212954,
+      "path": "steps/770595/01_3212954_text.step",
+      "file_sha256": "cd6a24f17b77878f18de6719ac72273dd62371f414f6fc4b2f5da34a7a7ce973",
+      "read_in_full": true,
+      "content_result": "passed",
+      "note": "Минимум без сортировки объяснён проходом, стоимостью и пустым случаем; контракт сортировки сохраняет повторы."
+    },
+    {
+      "step_id": 3215136,
+      "path": "steps/770595/02_3215136_text.step",
+      "file_sha256": "d88003edca7fd933c9d236d282190a1daacb34d9f50f9f74f64a3002f4deb235",
+      "read_in_full": true,
+      "content_result": "passed",
+      "note": "Следствие удаления раннего выхода уже объяснено: корректность сохраняется, лучший случай становится квадратичным."
+    },
+    {
+      "step_id": 3215137,
+      "path": "steps/770595/03_3215137_text.step",
+      "file_sha256": "27bc7bca293bec43241ea654674a8043a2a57d8fc3557bfef97c0ef7a0de27d5",
+      "read_in_full": true,
+      "content_result": "passed",
+      "note": "Выбор минимума содержит инвариант, точное n(n−1)/2 сравнений и конкретный контрпример устойчивости."
+    },
+    {
+      "step_id": 3215176,
+      "path": "steps/770595/04_3215176_text.step",
+      "file_sha256": "9e84b093b02e73b0405c189e20489c79880c939fa28c6d283925626a7af422b1",
+      "read_in_full": true,
+      "content_result": "passed",
+      "note": "Сдвиги 6 и 4 при вставке 2 полностью прослежены; упорядоченный вход разобран отдельно."
+    },
+    {
+      "step_id": 3215175,
+      "path": "steps/770595/05_3215175_text.step",
+      "file_sha256": "b2a0f699ee1128c292e506781d73bd66626e38eb341d981d5251a9124196cb9c",
+      "read_in_full": true,
+      "content_result": "passed",
+      "note": "Цепочки 8,7,…,1 и 8,4,2,1 приведены; глубина стека отделена от суммарной работы."
+    },
+    {
+      "step_id": 3215178,
+      "path": "steps/770595/06_3215178_text.step",
+      "file_sha256": "ed70d5462d68f2f8cca8f1282da9dd104dc85e0c1c93d23df0bb7810164ec504",
+      "read_in_full": true,
+      "content_result": "passed",
+      "note": "Порядок меток А,В,Г,Б и выбор левой записи при равенстве уже обоснованы."
+    },
+    {
+      "step_id": 3215177,
+      "path": "steps/770595/07_3215177_text.step",
+      "file_sha256": "20844b04ea2f78e293a8273ddb20408facc60616b24236a23862aaa8978651ba",
+      "read_in_full": true,
+      "content_result": "passed",
+      "note": "Последовательность gap=n/2,…,1 обозначена явно, выводы других шагов на неё не переносятся; последняя сортировка вставками гарантирует результат."
+    },
+    {
+      "step_id": 3215179,
+      "path": "steps/770595/08_3215179_text.step",
+      "file_sha256": "7dd2e41d64bb5d779f98c21e6ea69d4e9f40a8d62be50d6657c27a839c2cd758",
+      "read_in_full": true,
+      "content_result": "passed",
+      "note": "Поиск произвольного ключа в куче отличён от получения максимума и поиска в BST."
+    },
+    {
+      "step_id": 3215109,
+      "path": "steps/771129/01_3215109_text.step",
+      "file_sha256": "b85125c826bb3359429dbae0d4626cf54f46696f0132a2439c663a6c19e08ca5",
+      "read_in_full": true,
+      "content_result": "passed",
+      "note": "Исходный индекс 0 и индекс 2 после сортировки вычислены и отнесены к разным контрактам."
+    },
+    {
+      "step_id": 3215183,
+      "path": "steps/771129/02_3215183_text.step",
+      "file_sha256": "f99bf2fe71e2dfe11adfaaa80637279a8eb246caf91f5c02d3b05c61d040e97e",
+      "read_in_full": true,
+      "content_result": "passed",
+      "note": "Последнее совпадение объяснено законченным проходом, начальным маркером и результатом 2; написание другой функции не требуется."
+    },
+    {
+      "step_id": 3215192,
+      "path": "steps/771129/03_3215192_text.step",
+      "file_sha256": "f8bf1c89ba18eaa75acd1c8cd4892ffd01f33cbde2c044526301a25008f2d76e",
+      "read_in_full": true,
+      "content_result": "passed",
+      "note": "Границы 0,4,6 и not found разобраны; после исправления назван фактический защитный оператор ||."
+    },
+    {
+      "step_id": 3215191,
+      "path": "steps/771129/04_3215191_text.step",
+      "file_sha256": "b5cf4a5efc09da6901047bd4c27d99c6d7c7be8be1dd010606e26e9e1860ff52",
+      "read_in_full": true,
+      "content_result": "passed",
+      "note": "Интерполяционная формула явно математическая; пустой диапазон, равные границы, переполнение и произвольное совпадение при повторах оговорены."
+    },
+    {
+      "step_id": 3215113,
+      "path": "steps/771131/01_3215113_text.step",
+      "file_sha256": "c8a7952f8795e31a31acd68c2c50eeea079c2d3dfa3961225b5d85607e62e3f3",
+      "read_in_full": true,
+      "content_result": "passed",
+      "note": "Пустая строка, отсутствие строк и последняя строка без newline различены с готовым выводом."
+    },
+    {
+      "step_id": 3215200,
+      "path": "steps/771131/02_3215200_text.step",
+      "file_sha256": "85b76a48aa76e2d1c22b03d0d1567227578c5ec77f203fdc4c9bc14864a11f1a",
+      "read_in_full": true,
+      "content_result": "passed",
+      "note": "Усечение прежних 100 строк, is_open после close и проверка состояния объяснены без вопроса ученику."
+    },
+    {
+      "step_id": 3215199,
+      "path": "steps/771131/03_3215199_text.step",
+      "file_sha256": "b09d3d016b2e2e8f245e78e13f99792f4ea405a0a39ccdc6589699260e4efc66",
+      "read_in_full": true,
+      "content_result": "passed",
+      "note": "Возврат fwrite 3 из 5 элементов разобран как неполная запись; обязательность fclose сохранена."
+    },
+    {
+      "step_id": 3580923,
+      "path": "steps/771131/04_3580923_text.step",
+      "file_sha256": "78f8f587276fac797e3f6e1be6d08b9e46041881a278cb7bb1df17dc8ee35c1d",
+      "read_in_full": true,
+      "content_result": "passed",
+      "note": "Выбор in|out, trunc и app приведён как законченный разбор; предложение проверять на копии файла исключено."
+    },
+    {
+      "step_id": 3215112,
+      "path": "steps/771130/01_3215112_text.step",
+      "file_sha256": "48f35c98e6949e882bb9b2bbcce414797b5e92d62f9465f52ae0d64289d0682b",
+      "read_in_full": true,
+      "content_result": "passed",
+      "note": "Несовместимость текстовых цифр и сырых байтов int объяснена независимо от флага binary."
+    },
+    {
+      "step_id": 3215203,
+      "path": "steps/771130/02_3215203_text.step",
+      "file_sha256": "8b24d6da2f1112d7c646ebb8472abbf035379fd2cf7a68804d7b1dc36d024e06",
+      "read_in_full": true,
+      "content_result": "passed",
+      "note": "Для пяти байтов вычислены позиции 0…4, конец 5 и смещение −1; пустой случай указан."
+    },
+    {
+      "step_id": 3215206,
+      "path": "steps/771130/03_3215206_text.step",
+      "file_sha256": "5e150af1fb22bf2f0526b24726f4d24ffc598eefcefa2bdcc6b374cb31b0be19",
+      "read_in_full": true,
+      "content_result": "passed",
+      "note": "Прежнее задание добавить счётчик отрицательных исключено; вместо него полностью разобран итог и отмена результата при поздней ошибке."
+    },
+    {
+      "step_id": 4035311,
+      "path": "steps/973816/01_4035311_text.step",
+      "file_sha256": "f93e1a3405b540d76728b3818f5c68af67241f0002bad1ba1546c6779a511283",
+      "read_in_full": true,
+      "content_result": "passed",
+      "note": "Для пустого диапазона и отсутствующего ключа дан готовый результат; назначение сортировки и цена подготовки объяснены."
+    },
+    {
+      "step_id": 4035416,
+      "path": "steps/973825/01_4035416_text.step",
+      "file_sha256": "02982534e4bfdfb482d42ec33f1b44a1ffd21adfab3b3e81ceefa7d766a5e4fe",
+      "read_in_full": true,
+      "content_result": "passed",
+      "note": "Пять одинаковых ключей и отличия set/multiset/vector объяснены; ссылка теперь ведёт к определению RB, а не к 2–3-дереву."
+    },
+    {
+      "step_id": 4035427,
+      "path": "steps/973825/02_4035427_text.step",
+      "file_sha256": "03d287c65fa95006ceb34539e12a9c5b7d0f61d47c98448e9d3da0de09c32b29",
+      "read_in_full": true,
+      "content_result": "passed",
+      "note": "Пустой словарь, имеющийся ключ и нулевая частота отсутствующего ключа разобраны без случайной вставки."
+    },
+    {
+      "step_id": 4035417,
+      "path": "steps/973826/01_4035417_text.step",
+      "file_sha256": "3a1ec3111a22e702c7a7523d36c3aaa443054239e5b93bdf6014c071be9bdb67",
+      "read_in_full": true,
+      "content_result": "passed",
+      "note": "Линейный обход, серия поисков и смысл средней оценки объяснены; никакого вопроса на оценивание не осталось."
+    },
+    {
+      "step_id": 4035430,
+      "path": "steps/973826/02_4035430_text.step",
+      "file_sha256": "bb9c1a3b8cbae4752f2e42ee8ac2a2acf1db8378db3bfeac2e116928a7e4884e",
+      "read_in_full": true,
+      "content_result": "passed",
+      "note": "Выбор map/unordered_map и три чтения apple,plum,plum даны с готовыми результатами и неизменным размером; задание реализовать q запросов исключено."
+    }
+  ],
+  "scope37": [
+    {
+      "step_id": 3212953,
+      "part": "T4",
+      "historical_path": "improvements/86957/quality-2026-11-23/steps/770594/01_3212953_text.step",
+      "historical_file_sha256": "8d5bd2bc571b703575161e5c4ba8fb41cfa581518e8c104916060c12bea64ae5",
+      "effective_path": "improvements/86957/theory-continuation-2026-11-23/steps/770594/01_3212953_text.step",
+      "effective_file_sha256": "8f90ba1174cbe9c1664ff7635214e5891556b4c4d3da8de50385ffb96fa8d996",
+      "residual_student_assignment": false,
+      "semantic_evidence": "Максимум полностью разобран на 4,1,7,2; время и память разделены, отсутствие максимума пустого входа явно названо."
+    },
+    {
+      "step_id": 3213247,
+      "part": "T4",
+      "historical_path": "improvements/86957/quality-2026-11-23/steps/770594/06_3213247_text.step",
+      "historical_file_sha256": "3a89d7298cfaf1339228824f5d989802ca32f8bcc314d6d747e5718153ae10a6",
+      "effective_path": "improvements/86957/theory-continuation-2026-11-23/steps/770594/06_3213247_text.step",
+      "effective_file_sha256": "a5d0e631029b6f488934a5d32844bd6a061a831cdde9260d53db83338182f4d5",
+      "residual_student_assignment": false,
+      "semantic_evidence": "Выводы для 31 и 32 уже приведены с цепочками делений и объяснением порога степени двойки."
+    },
+    {
+      "step_id": 3213256,
+      "part": "T4",
+      "historical_path": "improvements/86957/quality-2026-11-23/steps/770594/08_3213256_text.step",
+      "historical_file_sha256": "f09b9a5150645d6cbe6b76f3c43af18d85e6242d2c07b63ef8d6af1494c26a6f",
+      "effective_path": "improvements/86957/theory-continuation-2026-11-23/steps/770594/08_3213256_text.step",
+      "effective_file_sha256": "7193a8b0647f50b5156460de46a9445f709691cb01a255567b8a412411da77c8",
+      "residual_student_assignment": false,
+      "semantic_evidence": "Обе границы j<i и j≤i разобраны численно и формулами; самостоятельного изменения программы не требуется."
+    },
+    {
+      "step_id": 3213255,
+      "part": "T4",
+      "historical_path": "improvements/86957/quality-2026-11-23/steps/770594/09_3213255_text.step",
+      "historical_file_sha256": "26bc06526dde8f71c5b1442e0a55b85900d24d79075ced5cbd3ad600b3768162",
+      "effective_path": "improvements/86957/theory-continuation-2026-11-23/steps/770594/09_3213255_text.step",
+      "effective_file_sha256": "b1bf67e270c5dd61288ed4db7faeb9162ff59f35536ae690e3cab103c2fd1c87",
+      "residual_student_assignment": false,
+      "semantic_evidence": "Лаборатория измерений заменена законченным анализом условий сравнения; четырёхкратный рост объяснён без требования провести эксперимент."
+    },
+    {
+      "step_id": 3212954,
+      "part": "T4",
+      "historical_path": "improvements/86957/quality-2026-11-23/steps/770595/01_3212954_text.step",
+      "historical_file_sha256": "978d4298b07b10e2def4678ad80bb57b6a04e0c1ac35eac8b9fc9393705ff733",
+      "effective_path": "improvements/86957/theory-continuation-2026-11-23/steps/770595/01_3212954_text.step",
+      "effective_file_sha256": "cd6a24f17b77878f18de6719ac72273dd62371f414f6fc4b2f5da34a7a7ce973",
+      "residual_student_assignment": false,
+      "semantic_evidence": "Минимум без сортировки объяснён проходом, стоимостью и пустым случаем; контракт сортировки сохраняет повторы."
+    },
+    {
+      "step_id": 3215136,
+      "part": "T4",
+      "historical_path": "improvements/86957/quality-2026-11-23/steps/770595/02_3215136_text.step",
+      "historical_file_sha256": "358a49787ff731405ce8bf34a8b5fd404bd65ac893d8fd018a1800145b1077bf",
+      "effective_path": "improvements/86957/theory-continuation-2026-11-23/steps/770595/02_3215136_text.step",
+      "effective_file_sha256": "d88003edca7fd933c9d236d282190a1daacb34d9f50f9f74f64a3002f4deb235",
+      "residual_student_assignment": false,
+      "semantic_evidence": "Следствие удаления раннего выхода уже объяснено: корректность сохраняется, лучший случай становится квадратичным."
+    },
+    {
+      "step_id": 3215176,
+      "part": "T4",
+      "historical_path": "improvements/86957/quality-2026-11-23/steps/770595/04_3215176_text.step",
+      "historical_file_sha256": "1d6657dace67dafa30898d87b87ba4ea456413a2c96ecac2b893c477a4811c12",
+      "effective_path": "improvements/86957/theory-continuation-2026-11-23/steps/770595/04_3215176_text.step",
+      "effective_file_sha256": "9e84b093b02e73b0405c189e20489c79880c939fa28c6d283925626a7af422b1",
+      "residual_student_assignment": false,
+      "semantic_evidence": "Сдвиги 6 и 4 при вставке 2 полностью прослежены; упорядоченный вход разобран отдельно."
+    },
+    {
+      "step_id": 3215175,
+      "part": "T4",
+      "historical_path": "improvements/86957/quality-2026-11-23/steps/770595/05_3215175_text.step",
+      "historical_file_sha256": "684e91d3ff49dd45e6db5490245cccdcb0df23c9d24c609c5e7e6374fb825350",
+      "effective_path": "improvements/86957/theory-continuation-2026-11-23/steps/770595/05_3215175_text.step",
+      "effective_file_sha256": "b2a0f699ee1128c292e506781d73bd66626e38eb341d981d5251a9124196cb9c",
+      "residual_student_assignment": false,
+      "semantic_evidence": "Цепочки 8,7,…,1 и 8,4,2,1 приведены; глубина стека отделена от суммарной работы."
+    },
+    {
+      "step_id": 3215178,
+      "part": "T4",
+      "historical_path": "improvements/86957/quality-2026-11-23/steps/770595/06_3215178_text.step",
+      "historical_file_sha256": "96866ca65718e31d5211887a3025b05b723c4845813b216cb8adf46d6c10d7a2",
+      "effective_path": "improvements/86957/theory-continuation-2026-11-23/steps/770595/06_3215178_text.step",
+      "effective_file_sha256": "ed70d5462d68f2f8cca8f1282da9dd104dc85e0c1c93d23df0bb7810164ec504",
+      "residual_student_assignment": false,
+      "semantic_evidence": "Порядок меток А,В,Г,Б и выбор левой записи при равенстве уже обоснованы."
+    },
+    {
+      "step_id": 3215179,
+      "part": "T4",
+      "historical_path": "improvements/86957/quality-2026-11-23/steps/770595/08_3215179_text.step",
+      "historical_file_sha256": "3524a7ef5c7999a900eeff2976fcb3db125678d566d6f4ca8756fc679de03dac",
+      "effective_path": "improvements/86957/theory-continuation-2026-11-23/steps/770595/08_3215179_text.step",
+      "effective_file_sha256": "7dd2e41d64bb5d779f98c21e6ea69d4e9f40a8d62be50d6657c27a839c2cd758",
+      "residual_student_assignment": false,
+      "semantic_evidence": "Поиск произвольного ключа в куче отличён от получения максимума и поиска в BST."
+    },
+    {
+      "step_id": 3215109,
+      "part": "T4",
+      "historical_path": "improvements/86957/quality-2026-11-23/steps/771129/01_3215109_text.step",
+      "historical_file_sha256": "e44bc6f777a87d86cf4dc97e618375979f956cd00dfbb382cf8bebf056713e59",
+      "effective_path": "improvements/86957/theory-continuation-2026-11-23/steps/771129/01_3215109_text.step",
+      "effective_file_sha256": "b85125c826bb3359429dbae0d4626cf54f46696f0132a2439c663a6c19e08ca5",
+      "residual_student_assignment": false,
+      "semantic_evidence": "Исходный индекс 0 и индекс 2 после сортировки вычислены и отнесены к разным контрактам."
+    },
+    {
+      "step_id": 3215183,
+      "part": "T4",
+      "historical_path": "improvements/86957/quality-2026-11-23/steps/771129/02_3215183_text.step",
+      "historical_file_sha256": "32db2bccb767e6bfd069458702d65fe571c14364175ee0e91cceb909db74aa74",
+      "effective_path": "improvements/86957/theory-continuation-2026-11-23/steps/771129/02_3215183_text.step",
+      "effective_file_sha256": "f99bf2fe71e2dfe11adfaaa80637279a8eb246caf91f5c02d3b05c61d040e97e",
+      "residual_student_assignment": false,
+      "semantic_evidence": "Последнее совпадение объяснено законченным проходом, начальным маркером и результатом 2; написание другой функции не требуется."
+    },
+    {
+      "step_id": 3215192,
+      "part": "T4",
+      "historical_path": "improvements/86957/quality-2026-11-23/steps/771129/03_3215192_text.step",
+      "historical_file_sha256": "f7cd6de0c2ec7d4e20da763c15782724f9e0c834f706ba928ab50a297606a256",
+      "effective_path": "improvements/86957/theory-continuation-2026-11-23/steps/771129/03_3215192_text.step",
+      "effective_file_sha256": "f8bf1c89ba18eaa75acd1c8cd4892ffd01f33cbde2c044526301a25008f2d76e",
+      "residual_student_assignment": false,
+      "semantic_evidence": "Границы 0,4,6 и not found разобраны; после исправления назван фактический защитный оператор ||."
+    },
+    {
+      "step_id": 3215113,
+      "part": "T4",
+      "historical_path": "improvements/86957/quality-2026-11-23/steps/771131/01_3215113_text.step",
+      "historical_file_sha256": "2102d27daf8d4bd964a1dec9b3d918a9fd5785af9548bf357ba7293dd9cf238f",
+      "effective_path": "improvements/86957/theory-continuation-2026-11-23/steps/771131/01_3215113_text.step",
+      "effective_file_sha256": "c8a7952f8795e31a31acd68c2c50eeea079c2d3dfa3961225b5d85607e62e3f3",
+      "residual_student_assignment": false,
+      "semantic_evidence": "Пустая строка, отсутствие строк и последняя строка без newline различены с готовым выводом."
+    },
+    {
+      "step_id": 3215200,
+      "part": "T4",
+      "historical_path": "improvements/86957/quality-2026-11-23/steps/771131/02_3215200_text.step",
+      "historical_file_sha256": "38faa83d23a5144cc67f922ad09d244922fc8f3477432f8f8be566a03f19e4fc",
+      "effective_path": "improvements/86957/theory-continuation-2026-11-23/steps/771131/02_3215200_text.step",
+      "effective_file_sha256": "85b76a48aa76e2d1c22b03d0d1567227578c5ec77f203fdc4c9bc14864a11f1a",
+      "residual_student_assignment": false,
+      "semantic_evidence": "Усечение прежних 100 строк, is_open после close и проверка состояния объяснены без вопроса ученику."
+    },
+    {
+      "step_id": 3215199,
+      "part": "T4",
+      "historical_path": "improvements/86957/quality-2026-11-23/steps/771131/03_3215199_text.step",
+      "historical_file_sha256": "b880b901fe024c5883138e467d21dd82f1f6169a2ad51033502263331c820727",
+      "effective_path": "improvements/86957/theory-continuation-2026-11-23/steps/771131/03_3215199_text.step",
+      "effective_file_sha256": "b09d3d016b2e2e8f245e78e13f99792f4ea405a0a39ccdc6589699260e4efc66",
+      "residual_student_assignment": false,
+      "semantic_evidence": "Возврат fwrite 3 из 5 элементов разобран как неполная запись; обязательность fclose сохранена."
+    },
+    {
+      "step_id": 3580923,
+      "part": "T4",
+      "historical_path": "improvements/86957/quality-2026-11-23/steps/771131/04_3580923_text.step",
+      "historical_file_sha256": "7b9bfa244c8269fbf1319d6d3b0262b4878db645be07b7d9ae505c89a658b5bf",
+      "effective_path": "improvements/86957/theory-continuation-2026-11-23/steps/771131/04_3580923_text.step",
+      "effective_file_sha256": "78f8f587276fac797e3f6e1be6d08b9e46041881a278cb7bb1df17dc8ee35c1d",
+      "residual_student_assignment": false,
+      "semantic_evidence": "Выбор in|out, trunc и app приведён как законченный разбор; предложение проверять на копии файла исключено."
+    },
+    {
+      "step_id": 3215112,
+      "part": "T4",
+      "historical_path": "improvements/86957/quality-2026-11-23/steps/771130/01_3215112_text.step",
+      "historical_file_sha256": "8a63a3d54c99b8c64ed36950989e3fda92abd4de6e7860cee0dadd82608306d8",
+      "effective_path": "improvements/86957/theory-continuation-2026-11-23/steps/771130/01_3215112_text.step",
+      "effective_file_sha256": "48f35c98e6949e882bb9b2bbcce414797b5e92d62f9465f52ae0d64289d0682b",
+      "residual_student_assignment": false,
+      "semantic_evidence": "Несовместимость текстовых цифр и сырых байтов int объяснена независимо от флага binary."
+    },
+    {
+      "step_id": 3215203,
+      "part": "T4",
+      "historical_path": "improvements/86957/quality-2026-11-23/steps/771130/02_3215203_text.step",
+      "historical_file_sha256": "2ddd565bd8fa7dd2ca0fb19821cf73f248cd38f15f99526e4250a189a3513a81",
+      "effective_path": "improvements/86957/theory-continuation-2026-11-23/steps/771130/02_3215203_text.step",
+      "effective_file_sha256": "8b24d6da2f1112d7c646ebb8472abbf035379fd2cf7a68804d7b1dc36d024e06",
+      "residual_student_assignment": false,
+      "semantic_evidence": "Для пяти байтов вычислены позиции 0…4, конец 5 и смещение −1; пустой случай указан."
+    },
+    {
+      "step_id": 3215206,
+      "part": "T4",
+      "historical_path": "improvements/86957/quality-2026-11-23/steps/771130/03_3215206_text.step",
+      "historical_file_sha256": "86549916456fc99c39ec66c4d4e787baf20639ab907a1998d2f7d1b460638b1f",
+      "effective_path": "improvements/86957/theory-continuation-2026-11-23/steps/771130/03_3215206_text.step",
+      "effective_file_sha256": "5e150af1fb22bf2f0526b24726f4d24ffc598eefcefa2bdcc6b374cb31b0be19",
+      "residual_student_assignment": false,
+      "semantic_evidence": "Прежнее задание добавить счётчик отрицательных исключено; вместо него полностью разобран итог и отмена результата при поздней ошибке."
+    },
+    {
+      "step_id": 4035311,
+      "part": "T4",
+      "historical_path": "improvements/86957/quality-2026-11-23/steps/973816/01_4035311_text.step",
+      "historical_file_sha256": "a7cefaaafaf9e36b2d7ab916bdca175eca0bf82fa92c81749ffc4730305f5a00",
+      "effective_path": "improvements/86957/theory-continuation-2026-11-23/steps/973816/01_4035311_text.step",
+      "effective_file_sha256": "f93e1a3405b540d76728b3818f5c68af67241f0002bad1ba1546c6779a511283",
+      "residual_student_assignment": false,
+      "semantic_evidence": "Для пустого диапазона и отсутствующего ключа дан готовый результат; назначение сортировки и цена подготовки объяснены."
+    },
+    {
+      "step_id": 4035416,
+      "part": "T4",
+      "historical_path": "improvements/86957/quality-2026-11-23/steps/973825/01_4035416_text.step",
+      "historical_file_sha256": "01d2b147e1cbc1fc5ccc3328fb99fe2321bbfa885fd1b0bdf4d2ba8593b99259",
+      "effective_path": "improvements/86957/theory-continuation-2026-11-23/steps/973825/01_4035416_text.step",
+      "effective_file_sha256": "02982534e4bfdfb482d42ec33f1b44a1ffd21adfab3b3e81ceefa7d766a5e4fe",
+      "residual_student_assignment": false,
+      "semantic_evidence": "Пять одинаковых ключей и отличия set/multiset/vector объяснены; ссылка теперь ведёт к определению RB, а не к 2–3-дереву."
+    },
+    {
+      "step_id": 4035427,
+      "part": "T4",
+      "historical_path": "improvements/86957/quality-2026-11-23/steps/973825/02_4035427_text.step",
+      "historical_file_sha256": "d9b46eb814adf91785e92067ba6e9674b61d72f0cd2a1cdddbc20db59004ee58",
+      "effective_path": "improvements/86957/theory-continuation-2026-11-23/steps/973825/02_4035427_text.step",
+      "effective_file_sha256": "03d287c65fa95006ceb34539e12a9c5b7d0f61d47c98448e9d3da0de09c32b29",
+      "residual_student_assignment": false,
+      "semantic_evidence": "Пустой словарь, имеющийся ключ и нулевая частота отсутствующего ключа разобраны без случайной вставки."
+    },
+    {
+      "step_id": 4035417,
+      "part": "T4",
+      "historical_path": "improvements/86957/quality-2026-11-23/steps/973826/01_4035417_text.step",
+      "historical_file_sha256": "e2e8973b59e1be0de5c06f39a8266da5dcb4935a1bc494c1945f38a146f5075b",
+      "effective_path": "improvements/86957/theory-continuation-2026-11-23/steps/973826/01_4035417_text.step",
+      "effective_file_sha256": "3a1ec3111a22e702c7a7523d36c3aaa443054239e5b93bdf6014c071be9bdb67",
+      "residual_student_assignment": false,
+      "semantic_evidence": "Линейный обход, серия поисков и смысл средней оценки объяснены; никакого вопроса на оценивание не осталось."
+    },
+    {
+      "step_id": 4035430,
+      "part": "T4",
+      "historical_path": "improvements/86957/quality-2026-11-23/steps/973826/02_4035430_text.step",
+      "historical_file_sha256": "b6a118e59d500a8206a3dd72970999e45dc4d0eef4b28d543e921f620068e557",
+      "effective_path": "improvements/86957/theory-continuation-2026-11-23/steps/973826/02_4035430_text.step",
+      "effective_file_sha256": "bb9c1a3b8cbae4752f2e42ee8ac2a2acf1db8378db3bfeac2e116928a7e4884e",
+      "residual_student_assignment": false,
+      "semantic_evidence": "Выбор map/unordered_map и три чтения apple,plum,plum даны с готовыми результатами и неизменным размером; задание реализовать q запросов исключено."
+    },
+    {
+      "step_id": 3212949,
+      "part": "T3",
+      "historical_path": "improvements/86957/functions-2026-11-23/steps/770590/01_3212949_text.step",
+      "historical_file_sha256": "ab1b007bf8b51b1e3b4f4fc340dfc984f9bf50b006a914f5491b02b2d13d4ca3",
+      "effective_path": "courses/86957/steps/770590/01_3212949_text.step",
+      "effective_file_sha256": "309311a28cd1ca4f45e8058fde65d2699fb97f6937acc225dd53487e71816179",
+      "residual_student_assignment": false,
+      "semantic_evidence": "Граничные суммы и возможная разность уже вычислены; нет поручения написать difference."
+    },
+    {
+      "step_id": 3214909,
+      "part": "T3",
+      "historical_path": "improvements/86957/functions-2026-11-23/steps/770590/02_3214909_text.step",
+      "historical_file_sha256": "3f67144c1751a20a48a328c4b53ee69d55f31e22e55ab4bbc91ed5a86cb7ee23",
+      "effective_path": "courses/86957/steps/770590/02_3214909_text.step",
+      "effective_file_sha256": "704f75378057593a6a2a53413ce1eeaa1a94d1e6d6d92dba7471575ca9b19091",
+      "residual_student_assignment": false,
+      "semantic_evidence": "Оба расположения объявления/определения и соответствующие ошибки разобраны словами."
+    },
+    {
+      "step_id": 3214910,
+      "part": "T3",
+      "historical_path": "improvements/86957/functions-2026-11-23/steps/770590/03_3214910_text.step",
+      "historical_file_sha256": "bef7275f0271da956de32176e7a560ad897193174af3799f2a739bc08c46a91e",
+      "effective_path": "courses/86957/steps/770590/03_3214910_text.step",
+      "effective_file_sha256": "6856105c71b775e5dded0c8ce9fadf71a606ab0b9f9dd17e75a2fb7a8b46869a",
+      "residual_student_assignment": false,
+      "semantic_evidence": "Результаты четырёх вызовов и причина сохранения диапазона уже приведены."
+    },
+    {
+      "step_id": 3214911,
+      "part": "T3",
+      "historical_path": "improvements/86957/functions-2026-11-23/steps/770590/04_3214911_text.step",
+      "historical_file_sha256": "4871fea08b35648202e31dae5388b99a1d44a9159ac97c0ec8c43e72618b7bd5",
+      "effective_path": "courses/86957/steps/770590/04_3214911_text.step",
+      "effective_file_sha256": "0309a401bb3acde22bf13b8ae6f62e9f7263570fd66afc5853478c1d1016b8e4",
+      "residual_student_assignment": false,
+      "semantic_evidence": "Прямой return и локальное значение сравнены с готовыми ответами; висячая ссылка разобрана как запрет."
+    },
+    {
+      "step_id": 3212950,
+      "part": "T3",
+      "historical_path": "improvements/86957/functions-2026-11-23/steps/770591/01_3212950_text.step",
+      "historical_file_sha256": "7f8061f9d87bb27d1a38a3bd04ce82175742908940d344c94d5d8e3a630e438b",
+      "effective_path": "courses/86957/steps/770591/01_3212950_text.step",
+      "effective_file_sha256": "0e920b38d3e68c198271e6ccfe2eb9cb8bba51c01f22f65e1c0c963121901bd8",
+      "residual_student_assignment": false,
+      "semantic_evidence": "Контрпример к замене максимума минимумом и выражение максимума четырёх уже даны."
+    },
+    {
+      "step_id": 3214973,
+      "part": "T3",
+      "historical_path": "improvements/86957/functions-2026-11-23/steps/770591/02_3214973_text.step",
+      "historical_file_sha256": "3c434e280fa01cc5434c59bf5389befbc815c625b722b780bb0ab770c5a077ea",
+      "effective_path": "courses/86957/steps/770591/02_3214973_text.step",
+      "effective_file_sha256": "9587f11c29ddde93656e3483d1e04255a1333501d402cc04f63cc3688f428e45",
+      "residual_student_assignment": false,
+      "semantic_evidence": "Переименование параметра объяснено через передачу значения, без задания редактировать код."
+    },
+    {
+      "step_id": 3214972,
+      "part": "T3",
+      "historical_path": "improvements/86957/functions-2026-11-23/steps/770591/03_3214972_text.step",
+      "historical_file_sha256": "531132413c159676c6b2cdfe5505007b50df793e64b5a5015b817c83ecd523f5",
+      "effective_path": "courses/86957/steps/770591/03_3214972_text.step",
+      "effective_file_sha256": "748665155bdb7ba336f735979d3dd81dce66789b62aff912d08f101ece08b961",
+      "residual_student_assignment": false,
+      "semantic_evidence": "Изменение умолчания на 10 уже разобрано с ответом 40 20 и неизменным явным аргументом."
+    },
+    {
+      "step_id": 3214971,
+      "part": "T3",
+      "historical_path": "improvements/86957/functions-2026-11-23/steps/770591/04_3214971_text.step",
+      "historical_file_sha256": "092782ef081f10a39c9d20a01623391dfa0c1282b49172b7c9117e20c42b2fe4",
+      "effective_path": "courses/86957/steps/770591/04_3214971_text.step",
+      "effective_file_sha256": "130f77913c4f08f7064af63373ddcb815751214f173f779db44155de97d8c0db",
+      "residual_student_assignment": false,
+      "semantic_evidence": "Изменённый порядок вызовов полностью прослежен: исходный объект 6, отдельный результат 7."
+    },
+    {
+      "step_id": 3214974,
+      "part": "T3",
+      "historical_path": "improvements/86957/functions-2026-11-23/steps/770591/05_3214974_text.step",
+      "historical_file_sha256": "c6ab9de421bd9af0bfb74150a093918373dde02d5148eb53d4a44abfa1820660",
+      "effective_path": "courses/86957/steps/770591/05_3214974_text.step",
+      "effective_file_sha256": "ddcd773a9c2295cd2c6f2c3466317eee55fa461c843773a643b0210ea62babd2",
+      "residual_student_assignment": false,
+      "semantic_evidence": "Подсчёт положительных дан как завершённый алгоритм с интерфейсом и результатами 2,0,0; писать функцию не предлагается."
+    },
+    {
+      "step_id": 3215024,
+      "part": "T3",
+      "historical_path": "improvements/86957/functions-2026-11-23/steps/770591/06_3215024_text.step",
+      "historical_file_sha256": "9626344252eb3b341259ee64142ad8082cbaaa9e9da4b60e67049efeaf128b3b",
+      "effective_path": "courses/86957/steps/770591/06_3215024_text.step",
+      "effective_file_sha256": "0e10d37e8fafe36ce856859bf7377e2d5c303c4af1481c211cd572d71e06cfbd",
+      "residual_student_assignment": false,
+      "semantic_evidence": "Ошибка sizeof(pointer)/sizeof(element) объяснена, границы и невладение входят в контракт."
+    },
+    {
+      "step_id": 3214978,
+      "part": "T3",
+      "historical_path": "improvements/86957/functions-2026-11-23/steps/770591/07_3214978_text.step",
+      "historical_file_sha256": "0ddbd5999601fd524f84ba57c59a2b28c799442fa2b2d8b21c27804420a4bcba",
+      "effective_path": "courses/86957/steps/770591/07_3214978_text.step",
+      "effective_file_sha256": "8e9dfb86d047011bff9ff21e9d69fa09189af0a93bf9160aef4574a0faf15f0e",
+      "residual_student_assignment": false,
+      "semantic_evidence": "Итеративный факториал описан полностью и дан переход к готовой многофайловой реализации; нового задания нет."
+    },
+    {
+      "step_id": 3214992,
+      "part": "T3",
+      "historical_path": "improvements/86957/functions-2026-11-23/steps/770592/01_3214992_text.step",
+      "historical_file_sha256": "2019a0ce012411e74894844ada93ba3d58c52d94689bb99bc334134c5a41f2c1",
+      "effective_path": "courses/86957/steps/770592/01_3214992_text.step",
+      "effective_file_sha256": "31bb12831a0faeea5ebbc0b8fb3d074d23b3807f431dd78b2a6c3ca500195908",
+      "residual_student_assignment": false,
+      "semantic_evidence": "Результаты третьих вызовов 1 и 3 приведены; зависимость от истории и явная передача состояния объяснены."
+    }
+  ],
+  "cross_module_chain": {
+    "result": "passed_with_two_resolved_link_or_notation_findings",
+    "read_full": [
+      {
+        "step_id": "4035497",
+        "path": "courses/86957/steps/973837/01_4035497_text.step",
+        "file_sha256": "a5c2882c515bff4189f409ce9794709dc0ffe95227ec09fe32658c0cdd8d0a64"
+      },
+      {
+        "step_id": "4035517",
+        "path": "courses/86957/steps/973837/02_4035517_text.step",
+        "file_sha256": "3915f2c0668fca9a8f8fe59aba521e26918db7206ac928c8ad7bedb42e69bfc8"
+      },
+      {
+        "step_id": "3570230",
+        "path": "courses/86957/steps/853539/02_3570230_text.step",
+        "file_sha256": "5800f9c936e6bda5ddd8e448de3bfc772884001e5b78e5dc873ff80093346098"
+      },
+      {
+        "step_id": "3570231",
+        "path": "courses/86957/steps/853539/03_3570231_text.step",
+        "file_sha256": "426dfbe8af113277cae5def43177d45f3a2a332b62a19e2ba9d24bf93290a839"
+      },
+      {
+        "step_id": "4035439",
+        "path": "courses/86957/steps/973829/01_4035439_text.step",
+        "file_sha256": "33a1e4b48001a5124a04aa1413c28f9cd6d0ca0e7c833c628b34793b86e6bee5"
+      },
+      {
+        "step_id": "4035461",
+        "path": "courses/86957/steps/973829/02_4035461_text.step",
+        "file_sha256": "f6af7fb0d796a3db526886998853f2f6890da862c684c5e67c59dbab58aa2298"
+      },
+      {
+        "step_id": "4035460",
+        "path": "courses/86957/steps/973829/03_4035460_text.step",
+        "file_sha256": "a76e66aaabd4f1448217aefe78efa84a88e2e4526c3f22b37fe2c6a253dcbe21"
+      },
+      {
+        "step_id": "3569332",
+        "path": "courses/86957/steps/853541/01_3569332_text.step",
+        "file_sha256": "01b0ac148651b6f01422c668166342c0e4063ff65146e9f3de5e77d760485a12"
+      },
+      {
+        "step_id": "3570303",
+        "path": "improvements/86957/theory-continuation-2026-11-23/steps/853541/02_3570303_text.step",
+        "file_sha256": "7721b60508e832a02ab4d622e901fb707706109a3b89f9b94c3b0fdc4ff5036f"
+      },
+      {
+        "step_id": "4035443",
+        "path": "courses/86957/steps/973831/01_4035443_text.step",
+        "file_sha256": "01c2f4dc8eb44a14672ab25f051fd5f3e12f84223d239693a93747553cdb8dc4"
+      }
+    ],
+    "read_targeted": [
+      {
+        "step_id": 4035481,
+        "sections": "Описание контрактов, результатов, стоимости size/load_factor/rehash и ограничений; полный исходник ItemTable заново не сертифицировался."
+      },
+      {
+        "step_id": 3570304,
+        "sections": "Случай3 вставки и InsCase3→InsCase1(g); прочие ветви алгоритма не перепроверялись."
+      }
+    ],
+    "conclusions": [
+      "Контракт операции в T4 переходит к АТД/интерфейсу/реализации в T6; struct не объявлен самостоятельным алгоритмом хранения.",
+      "Поиск BST имеет O(h), а логарифмическая оценка обеспечивается балансом. T4 не приписывает гарантию std::map произвольному BST.",
+      "В T6 α=n/m, коллизия не равенство, ожидаемая стоимость зависит от распределения и заполнения. Это согласуется с таблицей среднего и худшего случая unordered-контейнеров T4.",
+      "Учебный ItemTable увеличивается явно, size() зависит от числа корзин и не имеет интерфейса итераторов; T4 не переносит эти свойства на стандартный unordered_map.",
+      "Гарантии std::set/std::map не сводятся к обязательному виду дерева; ссылка теперь ведёт к нужной модели и прямо отделяет её от норм стандарта."
+    ]
+  },
+  "internal_links": [
+    {
+      "source_step_id": 3213247,
+      "target_step_id": "3215192",
+      "lesson_id": 771129,
+      "position": 3,
+      "label": "шаге о бинарном поиске",
+      "target_heading": "Бинарный поиск и первая подходящая позиция",
+      "target_path": "improvements/86957/theory-continuation-2026-11-23/steps/771129/03_3215192_text.step",
+      "target_file_sha256": "f8bf1c89ba18eaa75acd1c8cd4892ffd01f33cbde2c044526301a25008f2d76e",
+      "placement_exists": true,
+      "semantic_target_matches": true
+    },
+    {
+      "source_step_id": 3213256,
+      "target_step_id": "3215178",
+      "lesson_id": 770595,
+      "position": 6,
+      "label": "сортировке слиянием",
+      "target_heading": "Сортировка слиянием: сначала половины, затем общий порядок",
+      "target_path": "improvements/86957/theory-continuation-2026-11-23/steps/770595/06_3215178_text.step",
+      "target_file_sha256": "ed70d5462d68f2f8cca8f1282da9dd104dc85e0c1c93d23df0bb7810164ec504",
+      "placement_exists": true,
+      "semantic_target_matches": true
+    },
+    {
+      "source_step_id": 3212954,
+      "target_step_id": "4035311",
+      "lesson_id": 973816,
+      "position": 1,
+      "label": "модуле 19",
+      "target_heading": "Контейнер, алгоритм и итератор: как они работают вместе",
+      "target_path": "improvements/86957/theory-continuation-2026-11-23/steps/973816/01_4035311_text.step",
+      "target_file_sha256": "f93e1a3405b540d76728b3818f5c68af67241f0002bad1ba1546c6779a511283",
+      "placement_exists": true,
+      "semantic_target_matches": true
+    },
+    {
+      "source_step_id": 3215137,
+      "target_step_id": "3215176",
+      "lesson_id": 770595,
+      "position": 4,
+      "label": "сортировку вставками",
+      "target_heading": "Сортировка вставками: расширяем упорядоченный префикс",
+      "target_path": "improvements/86957/theory-continuation-2026-11-23/steps/770595/04_3215176_text.step",
+      "target_file_sha256": "9e84b093b02e73b0405c189e20489c79880c939fa28c6d283925626a7af422b1",
+      "placement_exists": true,
+      "semantic_target_matches": true
+    },
+    {
+      "source_step_id": 3215179,
+      "target_step_id": "3570230",
+      "lesson_id": 853539,
+      "position": 2,
+      "label": "двоичном дереве поиска",
+      "target_heading": "Бинарное дерево поиска: инвариант и владение",
+      "target_path": "courses/86957/steps/853539/02_3570230_text.step",
+      "target_file_sha256": "5800f9c936e6bda5ddd8e448de3bfc772884001e5b78e5dc873ff80093346098",
+      "placement_exists": true,
+      "semantic_target_matches": true
+    },
+    {
+      "source_step_id": 3215109,
+      "target_step_id": "3668926",
+      "lesson_id": 877082,
+      "position": 1,
+      "label": "интерфейс пользовательского класса",
+      "target_heading": "Класс продолжает модель пользовательского типа",
+      "target_path": "improvements/86957/theory-continuation-2026-11-23/steps/877082/01_3668926_text.step",
+      "target_file_sha256": "4abf0df9fa6dc314d5de44ad6f11344781e43c1d0b0d4ce6242b8a393c00d33e",
+      "placement_exists": true,
+      "semantic_target_matches": true
+    },
+    {
+      "source_step_id": 3215192,
+      "target_step_id": "4035416",
+      "lesson_id": 973825,
+      "position": 1,
+      "label": "разделе о set",
+      "target_heading": "Выбор контейнера начинается с нужных операций",
+      "target_path": "improvements/86957/theory-continuation-2026-11-23/steps/973825/01_4035416_text.step",
+      "target_file_sha256": "02982534e4bfdfb482d42ec33f1b44a1ffd21adfab3b3e81ceefa7d766a5e4fe",
+      "placement_exists": true,
+      "semantic_target_matches": true
+    },
+    {
+      "source_step_id": 3215113,
+      "target_step_id": "3215206",
+      "lesson_id": 771130,
+      "position": 3,
+      "label": "шаге о числовом файле",
+      "target_heading": "Числовой файл: проверяем весь вход, затем выдаём результат",
+      "target_path": "improvements/86957/theory-continuation-2026-11-23/steps/771130/03_3215206_text.step",
+      "target_file_sha256": "5e150af1fb22bf2f0526b24726f4d24ffc598eefcefa2bdcc6b374cb31b0be19",
+      "placement_exists": true,
+      "semantic_target_matches": true
+    },
+    {
+      "source_step_id": 3215113,
+      "target_step_id": "3215200",
+      "lesson_id": 771131,
+      "position": 2,
+      "label": "следующем шаге",
+      "target_heading": "Открытие, пути и проверка сохранения",
+      "target_path": "improvements/86957/theory-continuation-2026-11-23/steps/771131/02_3215200_text.step",
+      "target_file_sha256": "85b76a48aa76e2d1c22b03d0d1567227578c5ec77f203fdc4c9bc14864a11f1a",
+      "placement_exists": true,
+      "semantic_target_matches": true
+    },
+    {
+      "source_step_id": 3215112,
+      "target_step_id": "3212955",
+      "lesson_id": 770596,
+      "position": 1,
+      "label": "модуле 12",
+      "target_heading": "Структура: свой тип и его объекты",
+      "target_path": "improvements/86957/theory-continuation-2026-11-23/steps/770596/01_3212955_text.step",
+      "target_file_sha256": "9079f4ae032f86113bce47cd32c3af70a66803ed7791215a9464b4e32bde6386",
+      "placement_exists": true,
+      "semantic_target_matches": true
+    },
+    {
+      "source_step_id": 3215112,
+      "target_step_id": "3668926",
+      "lesson_id": 877082,
+      "position": 1,
+      "label": "модуле 13",
+      "target_heading": "Класс продолжает модель пользовательского типа",
+      "target_path": "improvements/86957/theory-continuation-2026-11-23/steps/877082/01_3668926_text.step",
+      "target_file_sha256": "4abf0df9fa6dc314d5de44ad6f11344781e43c1d0b0d4ce6242b8a393c00d33e",
+      "placement_exists": true,
+      "semantic_target_matches": true
+    },
+    {
+      "source_step_id": 3215112,
+      "target_step_id": "3212955",
+      "lesson_id": 770596,
+      "position": 1,
+      "label": "пользовательский тип struct",
+      "target_heading": "Структура: свой тип и его объекты",
+      "target_path": "improvements/86957/theory-continuation-2026-11-23/steps/770596/01_3212955_text.step",
+      "target_file_sha256": "9079f4ae032f86113bce47cd32c3af70a66803ed7791215a9464b4e32bde6386",
+      "placement_exists": true,
+      "semantic_target_matches": true
+    },
+    {
+      "source_step_id": 4035311,
+      "target_step_id": "3215109",
+      "lesson_id": 771129,
+      "position": 1,
+      "label": "контракте поиска",
+      "target_heading": "Поиск начинается с контракта",
+      "target_path": "improvements/86957/theory-continuation-2026-11-23/steps/771129/01_3215109_text.step",
+      "target_file_sha256": "b85125c826bb3359429dbae0d4626cf54f46696f0132a2439c663a6c19e08ca5",
+      "placement_exists": true,
+      "semantic_target_matches": true
+    },
+    {
+      "source_step_id": 4035311,
+      "target_step_id": "4035517",
+      "lesson_id": 973837,
+      "position": 2,
+      "label": "интерфейсами структур данных",
+      "target_heading": "Как связаны изученные структуры",
+      "target_path": "courses/86957/steps/973837/02_4035517_text.step",
+      "target_file_sha256": "3915f2c0668fca9a8f8fe59aba521e26918db7206ac928c8ad7bedb42e69bfc8",
+      "placement_exists": true,
+      "semantic_target_matches": true
+    },
+    {
+      "source_step_id": 4035416,
+      "target_step_id": "3570303",
+      "lesson_id": 853541,
+      "position": 2,
+      "label": "Красно-чёрное дерево",
+      "target_heading": "Определение красно-черного дерева",
+      "target_path": "improvements/86957/theory-continuation-2026-11-23/steps/853541/02_3570303_text.step",
+      "target_file_sha256": "7721b60508e832a02ab4d622e901fb707706109a3b89f9b94c3b0fdc4ff5036f",
+      "placement_exists": true,
+      "semantic_target_matches": true
+    },
+    {
+      "source_step_id": 4035417,
+      "target_step_id": "3212953",
+      "lesson_id": 770594,
+      "position": 1,
+      "label": "модель стоимости алгоритмов",
+      "target_heading": "Сложность алгоритма: какую работу мы считаем?",
+      "target_path": "improvements/86957/theory-continuation-2026-11-23/steps/770594/01_3212953_text.step",
+      "target_file_sha256": "8f90ba1174cbe9c1664ff7635214e5891556b4c4d3da8de50385ffb96fa8d996",
+      "placement_exists": true,
+      "semantic_target_matches": true
+    },
+    {
+      "source_step_id": 4035417,
+      "target_step_id": "4035460",
+      "lesson_id": 973829,
+      "position": 3,
+      "label": "разбор заполнения хеш-таблицы",
+      "target_heading": "Коллизии, заполнение и стоимость",
+      "target_path": "courses/86957/steps/973829/03_4035460_text.step",
+      "target_file_sha256": "a76e66aaabd4f1448217aefe78efa84a88e2e4526c3f22b37fe2c6a253dcbe21",
+      "placement_exists": true,
+      "semantic_target_matches": true
+    },
+    {
+      "source_step_id": 4035430,
+      "target_step_id": "4035439",
+      "lesson_id": 973829,
+      "position": 1,
+      "label": "модуле о хеш-таблицах",
+      "target_heading": "Хеш-таблица: доступ по ключу без порядка",
+      "target_path": "courses/86957/steps/973829/01_4035439_text.step",
+      "target_file_sha256": "33a1e4b48001a5124a04aa1413c28f9cd6d0ca0e7c833c628b34793b86e6bee5",
+      "placement_exists": true,
+      "semantic_target_matches": true
+    }
+  ],
+  "primary_sources_checked": [
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/expr.log.or",
+      "claim": "Правый операнд встроенного || не вычисляется при истинном левом."
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/sort",
+      "claim": "Требования к итераторам и O(N log N) сравнений."
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/alg.binary.search",
+      "claim": "Предпосылка partition, контракт lower_bound, логарифмические сравнения и линейные продвижения без произвольного доступа."
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4861/associative.reqmts",
+      "claim": "Эквивалентность ключей, const-ключ, логарифмический поиск и амортизированное erase(iterator)."
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4861/unord.req",
+      "claim": "Согласованность хеша/равенства, средний и худший случай, инвалидация при rehash."
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4861/map.access",
+      "claim": "[] через try_emplace и исключение out_of_range у at при отсутствии."
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/string.io",
+      "claim": "Извлечение строки/слова, разделитель getline, eofbit и failbit."
+    },
+    {
+      "url": "https://timsong-cpp.github.io/cppwp/n4861/filebuf.members",
+      "claim": "Таблица режимов открытия, однократный ate и завершение close."
+    }
+  ],
+  "independent_checks": {
+    "payload_text_only": 33,
+    "exact_full_program_bindings": 23,
+    "explicit_cpp_fragments": 1,
+    "historical_text_ids_reconstructed": 37,
+    "historical_file_hashes_verified": 37,
+    "excluded_historical_nontext_ids": [
+      3437886,
+      3424087,
+      3437952,
+      4718246,
+      4643238,
+      3408767,
+      4734985,
+      3408864,
+      3496826
+    ],
+    "internal_link_placements_checked": 18,
+    "compilations_run_by_this_reviewer": 0,
+    "program_executions_run_by_this_reviewer": 0,
+    "reason_no_repeat_execution": "Дефекты касались трёх фраз/ссылки и одного обозначения, исходники программ не менялись. Повтор1002 запусков независимо без дополнительной гипотезы не выполнялся."
+  },
+  "author_validation_receipt_observed": {
+    "path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/validation.json",
+    "file_sha256": "c0dfcded11e24a011dbda236f5e7e4b43f1a33b2ea52b11d35bbe97679933c57",
+    "status": "passed",
+    "compilations": 48,
+    "executions": 1002,
+    "finished_at": "2026-11-23T10:42:25.462449+00:00",
+    "current_input_hash_mismatches": [],
+    "executed_by_this_reviewer": false
+  },
+  "program_source_bindings": [
+    {
+      "step_id": 3213247,
+      "path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/algorithms/halving.cpp",
+      "sha256": "12730472e46fd11d40e290000d7bc34e4af1fd9e07c8feeb0e7e1f1da44de384"
+    },
+    {
+      "step_id": 3213256,
+      "path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/algorithms/operation_counts.cpp",
+      "sha256": "4d7eaefd35c175cf1a137eb6f1855e5d605c6763254e95fbece78e6fcbe83a97"
+    },
+    {
+      "step_id": 3212954,
+      "path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/algorithms/standard_sort.cpp",
+      "sha256": "4b6cfdf0e331b9c8699652d00aa65f150c78d50f42e03f05f691d774b994ffe5"
+    },
+    {
+      "step_id": 3215136,
+      "path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/algorithms/bubble_sort.cpp",
+      "sha256": "814030ced972f9e39fe5b4e6c31313e152d1ee057f5e948acbb98ad28a4a4572"
+    },
+    {
+      "step_id": 3215176,
+      "path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/algorithms/insertion_sort.cpp",
+      "sha256": "557d06d68fbc3e95060e3a0d5a562c209910f591869c29d9bb6c23081a4d576a"
+    },
+    {
+      "step_id": 3215178,
+      "path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/algorithms/merge_sort.cpp",
+      "sha256": "74ded6d82d9ac0b5e73b6c8a49e8937e9b025b97963387ce6f5e9a1b19e1f6df"
+    },
+    {
+      "step_id": 3215179,
+      "path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/algorithms/heap_sort.cpp",
+      "sha256": "235735c7dfcc55b9b97bb75ea89d3fe18addaa66db3344746db5bb9479766e70"
+    },
+    {
+      "step_id": 3215183,
+      "path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/algorithms/linear_search.cpp",
+      "sha256": "c7005700901751f57b9a4cbbdf80973a4ac75ad31a94737f7f21d1d12e8c8946"
+    },
+    {
+      "step_id": 3215192,
+      "path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/algorithms/binary_search.cpp",
+      "sha256": "6e2afab2e2730c47d502947d2ea6d4bd87a3fcf38ddd410255bf3ce3f6df769d"
+    },
+    {
+      "step_id": 3215113,
+      "path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/files/read_lines.cpp",
+      "sha256": "444d8c0016866b3ec3937f6ba6dacfbcccf34fb136112708c79e9e934616e757"
+    },
+    {
+      "step_id": 3215200,
+      "path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/files/write_report.cpp",
+      "sha256": "d0653d27ed3772070b5849d8c78df4dae8d29acb2b5a64c219e9c88774619782"
+    },
+    {
+      "step_id": 3215199,
+      "path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/files/c_write.cpp",
+      "sha256": "2892758974a2a18ca161e47f36c43436236abd2e5f90042a73cdfa763fc87ae8"
+    },
+    {
+      "step_id": 3580923,
+      "path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/files/append_line.cpp",
+      "sha256": "bc810f410fcfe77a0955bfc7d775cc4643a55272eb8221fca8f90d783b162eef"
+    },
+    {
+      "step_id": 3580923,
+      "path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/files/overwrite_prefix.cpp",
+      "sha256": "9bcb4688f3cc4f145e767008abebf6cd4427f4f5df90078719b2745cda34185e"
+    },
+    {
+      "step_id": 3215203,
+      "path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/files/last_byte.cpp",
+      "sha256": "fcbea23b42d5577b1a11226f62744123a7ac7c9a0693100bc7871c7767d0e0de"
+    },
+    {
+      "step_id": 3215206,
+      "path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/files/sum_numbers.cpp",
+      "sha256": "cc449b3b3ae04a79813198b2397795ec6365dd1016c706864db275283e74255d"
+    },
+    {
+      "step_id": 4035311,
+      "path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/containers/stl_range.cpp",
+      "sha256": "ddef767c92b22dafe8ead9b9700fbb2e956c5f413a438b41652a3888de7f6d3c"
+    },
+    {
+      "step_id": 4035416,
+      "path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/containers/set_unique.cpp",
+      "sha256": "6f76d3d5f8a093d3ec3bbd19dff7807885e186f4b8c87c61c5820dc31b281b9f"
+    },
+    {
+      "step_id": 4035427,
+      "path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/containers/map_frequency.cpp",
+      "sha256": "cc7c61e7ec213ece7c4d31738d322d6211e3cef971d63bcaeeb8471d671bfe9a"
+    },
+    {
+      "step_id": 4035430,
+      "path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/containers/unordered_frequency.cpp",
+      "sha256": "5ffa624167e9fa24f128e87a5b34e1f503aab9fd2a31ec3a0d055bb905948c90"
+    },
+    {
+      "step_id": 3213241,
+      "path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/3213241.cpp",
+      "sha256": "fae0a4c9ac8b60af3658efcef3d5ee05db79e9629604f8ff88a6d5a54aa73849"
+    },
+    {
+      "step_id": 3213242,
+      "path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/3213242.cpp",
+      "sha256": "6211ffad762bd0db903a71c5053e67262acfe386f8f34304df4f18fb4135766c"
+    },
+    {
+      "step_id": 3213243,
+      "path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/3213243.cpp",
+      "sha256": "626d9d2a57060297fa8b244eac5e5f8ff7a67e921350ebd5587a56299c59475d"
+    }
+  ],
+  "remaining_defects_in_reviewed_scope": [],
+  "limits": [
+    "Это не независимый полный аудит всех283 текстов и не новая оценка всего курса.",
+    "Доказательства всех асимптотических теорем заново формально не строились; рассмотрены предпосылки, явные трассировки и соответствие алгоритму.",
+    "Полные реализации AVL/RB/ItemTable и все изображения T6 повторно не верифицировались; проверка T6 ограничена перечисленными текстами и связями.",
+    "Проверяющие программы и существующие оцениваемые шаги не запускались и не изменялись. Несоответствия предпосылок существующих сложных задач остаются отдельными замечаниями review_t4.json.",
+    "Не выполнялись новые Windows/MSVC/macOS-запуски, моделирование отказа диска или отключения питания.",
+    "Публикация и живое размещение Stepik не подтверждаются этим отчётом; локальная подготовка и публикация остаются разными состояниями."
+  ]
+}

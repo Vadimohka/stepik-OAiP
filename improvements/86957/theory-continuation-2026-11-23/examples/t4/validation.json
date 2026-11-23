@@ -1,0 +1,388 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "all_passed": true,
+  "started_at": "2026-11-23T10:42:04.007576+00:00",
+  "scope": "Авторская проверка объясняющего кода T4; учебных заданий и отправок Stepik нет.",
+  "standards": [
+    "c++17",
+    "c++20"
+  ],
+  "flags": [
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-Werror",
+    "-O1",
+    "-g",
+    "-fsanitize=undefined",
+    "-fno-sanitize-recover=all"
+  ],
+  "compilations": 48,
+  "executions": 1002,
+  "text_steps": 33,
+  "results": [
+    {
+      "source": "halving.cpp",
+      "standard": "c++17",
+      "cases": 8,
+      "passed": true
+    },
+    {
+      "source": "operation_counts.cpp",
+      "standard": "c++17",
+      "cases": 5,
+      "passed": true
+    },
+    {
+      "source": "standard_sort.cpp",
+      "standard": "c++17",
+      "cases": 60,
+      "passed": true
+    },
+    {
+      "source": "bubble_sort.cpp",
+      "standard": "c++17",
+      "cases": 60,
+      "passed": true
+    },
+    {
+      "source": "insertion_sort.cpp",
+      "standard": "c++17",
+      "cases": 60,
+      "passed": true
+    },
+    {
+      "source": "merge_sort.cpp",
+      "standard": "c++17",
+      "cases": 60,
+      "passed": true
+    },
+    {
+      "source": "heap_sort.cpp",
+      "standard": "c++17",
+      "cases": 60,
+      "passed": true
+    },
+    {
+      "source": "linear_search.cpp",
+      "standard": "c++17",
+      "cases": 59,
+      "passed": true
+    },
+    {
+      "source": "binary_search.cpp",
+      "standard": "c++17",
+      "cases": 63,
+      "passed": true
+    },
+    {
+      "source": "read_lines.cpp",
+      "standard": "c++17",
+      "cases": 5,
+      "passed": true
+    },
+    {
+      "source": "write_report.cpp",
+      "standard": "c++17",
+      "cases": 3,
+      "passed": true
+    },
+    {
+      "source": "c_write.cpp",
+      "standard": "c++17",
+      "cases": 3,
+      "passed": true
+    },
+    {
+      "source": "append_line.cpp",
+      "standard": "c++17",
+      "cases": 4,
+      "passed": true
+    },
+    {
+      "source": "overwrite_prefix.cpp",
+      "standard": "c++17",
+      "cases": 3,
+      "passed": true
+    },
+    {
+      "source": "last_byte.cpp",
+      "standard": "c++17",
+      "cases": 5,
+      "passed": true
+    },
+    {
+      "source": "sum_numbers.cpp",
+      "standard": "c++17",
+      "cases": 17,
+      "passed": true
+    },
+    {
+      "source": "stl_range.cpp",
+      "standard": "c++17",
+      "cases": 6,
+      "passed": true
+    },
+    {
+      "source": "set_unique.cpp",
+      "standard": "c++17",
+      "cases": 5,
+      "passed": true
+    },
+    {
+      "source": "map_frequency.cpp",
+      "standard": "c++17",
+      "cases": 5,
+      "passed": true
+    },
+    {
+      "source": "unordered_frequency.cpp",
+      "standard": "c++17",
+      "cases": 6,
+      "passed": true
+    },
+    {
+      "source": "3213241.cpp",
+      "standard": "c++17",
+      "cases": 1,
+      "passed": true
+    },
+    {
+      "source": "3213243.cpp",
+      "standard": "c++17",
+      "cases": 1,
+      "passed": true
+    },
+    {
+      "source": "3213242.cpp",
+      "standard": "c++17",
+      "cases": 1,
+      "passed": true
+    },
+    {
+      "source": "binary_format.cpp",
+      "standard": "c++17",
+      "cases": 1,
+      "passed": true
+    },
+    {
+      "source": "halving.cpp",
+      "standard": "c++20",
+      "cases": 8,
+      "passed": true
+    },
+    {
+      "source": "operation_counts.cpp",
+      "standard": "c++20",
+      "cases": 5,
+      "passed": true
+    },
+    {
+      "source": "standard_sort.cpp",
+      "standard": "c++20",
+      "cases": 60,
+      "passed": true
+    },
+    {
+      "source": "bubble_sort.cpp",
+      "standard": "c++20",
+      "cases": 60,
+      "passed": true
+    },
+    {
+      "source": "insertion_sort.cpp",
+      "standard": "c++20",
+      "cases": 60,
+      "passed": true
+    },
+    {
+      "source": "merge_sort.cpp",
+      "standard": "c++20",
+      "cases": 60,
+      "passed": true
+    },
+    {
+      "source": "heap_sort.cpp",
+      "standard": "c++20",
+      "cases": 60,
+      "passed": true
+    },
+    {
+      "source": "linear_search.cpp",
+      "standard": "c++20",
+      "cases": 59,
+      "passed": true
+    },
+    {
+      "source": "binary_search.cpp",
+      "standard": "c++20",
+      "cases": 63,
+      "passed": true
+    },
+    {
+      "source": "read_lines.cpp",
+      "standard": "c++20",
+      "cases": 5,
+      "passed": true
+    },
+    {
+      "source": "write_report.cpp",
+      "standard": "c++20",
+      "cases": 3,
+      "passed": true
+    },
+    {
+      "source": "c_write.cpp",
+      "standard": "c++20",
+      "cases": 3,
+      "passed": true
+    },
+    {
+      "source": "append_line.cpp",
+      "standard": "c++20",
+      "cases": 4,
+      "passed": true
+    },
+    {
+      "source": "overwrite_prefix.cpp",
+      "standard": "c++20",
+      "cases": 3,
+      "passed": true
+    },
+    {
+      "source": "last_byte.cpp",
+      "standard": "c++20",
+      "cases": 5,
+      "passed": true
+    },
+    {
+      "source": "sum_numbers.cpp",
+      "standard": "c++20",
+      "cases": 17,
+      "passed": true
+    },
+    {
+      "source": "stl_range.cpp",
+      "standard": "c++20",
+      "cases": 6,
+      "passed": true
+    },
+    {
+      "source": "set_unique.cpp",
+      "standard": "c++20",
+      "cases": 5,
+      "passed": true
+    },
+    {
+      "source": "map_frequency.cpp",
+      "standard": "c++20",
+      "cases": 5,
+      "passed": true
+    },
+    {
+      "source": "unordered_frequency.cpp",
+      "standard": "c++20",
+      "cases": 6,
+      "passed": true
+    },
+    {
+      "source": "3213241.cpp",
+      "standard": "c++20",
+      "cases": 1,
+      "passed": true
+    },
+    {
+      "source": "3213243.cpp",
+      "standard": "c++20",
+      "cases": 1,
+      "passed": true
+    },
+    {
+      "source": "3213242.cpp",
+      "standard": "c++20",
+      "cases": 1,
+      "passed": true
+    },
+    {
+      "source": "binary_format.cpp",
+      "standard": "c++20",
+      "cases": 1,
+      "passed": true
+    }
+  ],
+  "limitations": [
+    "Linux/GCC; Windows/MSVC и macOS не запускались.",
+    "Отказы диска и отключение питания не моделировались.",
+    "Математические оценки не выводятся из длительности авторских запусков."
+  ],
+  "input_sha256": {
+    "improvements/86957/quality-2026-11-23/examples/algorithms/verify.py": "756e4a392929185e29b334b39075a9cf2b680a17764efc58d21318c5194400b4",
+    "improvements/86957/quality-2026-11-23/examples/files/verify.py": "2767446e1289b20f34746ec44e500101e57295d6780b851d98adf7ecfef364b4",
+    "improvements/86957/theory-continuation-2026-11-23/changes_t4.json": "af90dc26b909916f91d7d259ba74be77f4732d54579022931a0d186751a2d032",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t4/3213241.cpp": "fae0a4c9ac8b60af3658efcef3d5ee05db79e9629604f8ff88a6d5a54aa73849",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t4/3213242.cpp": "6211ffad762bd0db903a71c5053e67262acfe386f8f34304df4f18fb4135766c",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t4/3213243.cpp": "626d9d2a57060297fa8b244eac5e5f8ff7a67e921350ebd5587a56299c59475d",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t4/algorithms/binary_search.cpp": "6e2afab2e2730c47d502947d2ea6d4bd87a3fcf38ddd410255bf3ce3f6df769d",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t4/algorithms/bubble_sort.cpp": "814030ced972f9e39fe5b4e6c31313e152d1ee057f5e948acbb98ad28a4a4572",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t4/algorithms/cases.json": "6d5eb25d5fe671958cf6d1c2b479bf4c4cbdbd8281bebb2016952dded453a6c1",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t4/algorithms/halving.cpp": "12730472e46fd11d40e290000d7bc34e4af1fd9e07c8feeb0e7e1f1da44de384",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t4/algorithms/heap_sort.cpp": "235735c7dfcc55b9b97bb75ea89d3fe18addaa66db3344746db5bb9479766e70",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t4/algorithms/insertion_sort.cpp": "557d06d68fbc3e95060e3a0d5a562c209910f591869c29d9bb6c23081a4d576a",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t4/algorithms/linear_search.cpp": "c7005700901751f57b9a4cbbdf80973a4ac75ad31a94737f7f21d1d12e8c8946",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t4/algorithms/merge_sort.cpp": "74ded6d82d9ac0b5e73b6c8a49e8937e9b025b97963387ce6f5e9a1b19e1f6df",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t4/algorithms/operation_counts.cpp": "4d7eaefd35c175cf1a137eb6f1855e5d605c6763254e95fbece78e6fcbe83a97",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t4/algorithms/standard_sort.cpp": "4b6cfdf0e331b9c8699652d00aa65f150c78d50f42e03f05f691d774b994ffe5",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t4/containers/cases.json": "3e5c77dc324bf27e0fbe88a761b8fe80f98a7142dadc869fb274806a5fd06497",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t4/containers/map_frequency.cpp": "cc7c61e7ec213ece7c4d31738d322d6211e3cef971d63bcaeeb8471d671bfe9a",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t4/containers/set_unique.cpp": "6f76d3d5f8a093d3ec3bbd19dff7807885e186f4b8c87c61c5820dc31b281b9f",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t4/containers/stl_range.cpp": "ddef767c92b22dafe8ead9b9700fbb2e956c5f413a438b41652a3888de7f6d3c",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t4/containers/unordered_frequency.cpp": "5ffa624167e9fa24f128e87a5b34e1f503aab9fd2a31ec3a0d055bb905948c90",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t4/files/append_line.cpp": "bc810f410fcfe77a0955bfc7d775cc4643a55272eb8221fca8f90d783b162eef",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t4/files/c_write.cpp": "2892758974a2a18ca161e47f36c43436236abd2e5f90042a73cdfa763fc87ae8",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t4/files/cases.json": "f057a1dd9eed7eda053c5a80de5822d30503ea761c40c6281be64bac156cc5bc",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t4/files/last_byte.cpp": "fcbea23b42d5577b1a11226f62744123a7ac7c9a0693100bc7871c7767d0e0de",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t4/files/overwrite_prefix.cpp": "9bcb4688f3cc4f145e767008abebf6cd4427f4f5df90078719b2745cda34185e",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t4/files/read_lines.cpp": "444d8c0016866b3ec3937f6ba6dacfbcccf34fb136112708c79e9e934616e757",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t4/files/sum_numbers.cpp": "cc449b3b3ae04a79813198b2397795ec6365dd1016c706864db275283e74255d",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t4/files/write_report.cpp": "d0653d27ed3772070b5849d8c78df4dae8d29acb2b5a64c219e9c88774619782",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t4/verify.py": "cb5ba82bd6b63e42a878036a2b1c8d76c326af8164e8ebced43a4b28bc3aa323",
+    "improvements/86957/theory-continuation-2026-11-23/review_t4.json": "30caf0695b59b992e30bd7af75b7b22e971ea831839049117f57be008d20ef31",
+    "improvements/86957/theory-continuation-2026-11-23/steps/770594/01_3212953_text.step": "8f90ba1174cbe9c1664ff7635214e5891556b4c4d3da8de50385ffb96fa8d996",
+    "improvements/86957/theory-continuation-2026-11-23/steps/770594/02_3213244_text.step": "380e09c3c34f6d65ced3bfef7dead79f15f64f2a54dfc558fc1732c3130aa9fe",
+    "improvements/86957/theory-continuation-2026-11-23/steps/770594/03_3213241_text.step": "3d32c2f97182bd37da5d20a367cec8db7c018af512d8c79b841a7c2f7410bf7f",
+    "improvements/86957/theory-continuation-2026-11-23/steps/770594/04_3213243_text.step": "ab826a1c9c3044537f8759f1ad9ff4c5941f8504fe88f53afc9534c804372772",
+    "improvements/86957/theory-continuation-2026-11-23/steps/770594/05_3213242_text.step": "9b39a1cc1bf96c7cd693585e3f9327aa59a95710a721c2dceda07ab180a3f03f",
+    "improvements/86957/theory-continuation-2026-11-23/steps/770594/06_3213247_text.step": "a5d0e631029b6f488934a5d32844bd6a061a831cdde9260d53db83338182f4d5",
+    "improvements/86957/theory-continuation-2026-11-23/steps/770594/07_3213248_text.step": "25abcecf62c8198341c79d8d7d2aebab7b1235fae3704d69638c5cc90e154ed3",
+    "improvements/86957/theory-continuation-2026-11-23/steps/770594/08_3213256_text.step": "7193a8b0647f50b5156460de46a9445f709691cb01a255567b8a412411da77c8",
+    "improvements/86957/theory-continuation-2026-11-23/steps/770594/09_3213255_text.step": "b1bf67e270c5dd61288ed4db7faeb9162ff59f35536ae690e3cab103c2fd1c87",
+    "improvements/86957/theory-continuation-2026-11-23/steps/770595/01_3212954_text.step": "cd6a24f17b77878f18de6719ac72273dd62371f414f6fc4b2f5da34a7a7ce973",
+    "improvements/86957/theory-continuation-2026-11-23/steps/770595/02_3215136_text.step": "d88003edca7fd933c9d236d282190a1daacb34d9f50f9f74f64a3002f4deb235",
+    "improvements/86957/theory-continuation-2026-11-23/steps/770595/03_3215137_text.step": "27bc7bca293bec43241ea654674a8043a2a57d8fc3557bfef97c0ef7a0de27d5",
+    "improvements/86957/theory-continuation-2026-11-23/steps/770595/04_3215176_text.step": "9e84b093b02e73b0405c189e20489c79880c939fa28c6d283925626a7af422b1",
+    "improvements/86957/theory-continuation-2026-11-23/steps/770595/05_3215175_text.step": "b2a0f699ee1128c292e506781d73bd66626e38eb341d981d5251a9124196cb9c",
+    "improvements/86957/theory-continuation-2026-11-23/steps/770595/06_3215178_text.step": "ed70d5462d68f2f8cca8f1282da9dd104dc85e0c1c93d23df0bb7810164ec504",
+    "improvements/86957/theory-continuation-2026-11-23/steps/770595/07_3215177_text.step": "20844b04ea2f78e293a8273ddb20408facc60616b24236a23862aaa8978651ba",
+    "improvements/86957/theory-continuation-2026-11-23/steps/770595/08_3215179_text.step": "7dd2e41d64bb5d779f98c21e6ea69d4e9f40a8d62be50d6657c27a839c2cd758",
+    "improvements/86957/theory-continuation-2026-11-23/steps/771129/01_3215109_text.step": "b85125c826bb3359429dbae0d4626cf54f46696f0132a2439c663a6c19e08ca5",
+    "improvements/86957/theory-continuation-2026-11-23/steps/771129/02_3215183_text.step": "f99bf2fe71e2dfe11adfaaa80637279a8eb246caf91f5c02d3b05c61d040e97e",
+    "improvements/86957/theory-continuation-2026-11-23/steps/771129/03_3215192_text.step": "f8bf1c89ba18eaa75acd1c8cd4892ffd01f33cbde2c044526301a25008f2d76e",
+    "improvements/86957/theory-continuation-2026-11-23/steps/771129/04_3215191_text.step": "b5cf4a5efc09da6901047bd4c27d99c6d7c7be8be1dd010606e26e9e1860ff52",
+    "improvements/86957/theory-continuation-2026-11-23/steps/771130/01_3215112_text.step": "48f35c98e6949e882bb9b2bbcce414797b5e92d62f9465f52ae0d64289d0682b",
+    "improvements/86957/theory-continuation-2026-11-23/steps/771130/02_3215203_text.step": "8b24d6da2f1112d7c646ebb8472abbf035379fd2cf7a68804d7b1dc36d024e06",
+    "improvements/86957/theory-continuation-2026-11-23/steps/771130/03_3215206_text.step": "5e150af1fb22bf2f0526b24726f4d24ffc598eefcefa2bdcc6b374cb31b0be19",
+    "improvements/86957/theory-continuation-2026-11-23/steps/771131/01_3215113_text.step": "c8a7952f8795e31a31acd68c2c50eeea079c2d3dfa3961225b5d85607e62e3f3",
+    "improvements/86957/theory-continuation-2026-11-23/steps/771131/02_3215200_text.step": "85b76a48aa76e2d1c22b03d0d1567227578c5ec77f203fdc4c9bc14864a11f1a",
+    "improvements/86957/theory-continuation-2026-11-23/steps/771131/03_3215199_text.step": "b09d3d016b2e2e8f245e78e13f99792f4ea405a0a39ccdc6589699260e4efc66",
+    "improvements/86957/theory-continuation-2026-11-23/steps/771131/04_3580923_text.step": "78f8f587276fac797e3f6e1be6d08b9e46041881a278cb7bb1df17dc8ee35c1d",
+    "improvements/86957/theory-continuation-2026-11-23/steps/973816/01_4035311_text.step": "f93e1a3405b540d76728b3818f5c68af67241f0002bad1ba1546c6779a511283",
+    "improvements/86957/theory-continuation-2026-11-23/steps/973825/01_4035416_text.step": "02982534e4bfdfb482d42ec33f1b44a1ffd21adfab3b3e81ceefa7d766a5e4fe",
+    "improvements/86957/theory-continuation-2026-11-23/steps/973825/02_4035427_text.step": "03d287c65fa95006ceb34539e12a9c5b7d0f61d47c98448e9d3da0de09c32b29",
+    "improvements/86957/theory-continuation-2026-11-23/steps/973826/01_4035417_text.step": "3a1ec3111a22e702c7a7523d36c3aaa443054239e5b93bdf6014c071be9bdb67",
+    "improvements/86957/theory-continuation-2026-11-23/steps/973826/02_4035430_text.step": "bb9c1a3b8cbae4752f2e42ee8ac2a2acf1db8378db3bfeac2e116928a7e4884e"
+  },
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "finished_at": "2026-11-23T10:42:25.462449+00:00"
+}

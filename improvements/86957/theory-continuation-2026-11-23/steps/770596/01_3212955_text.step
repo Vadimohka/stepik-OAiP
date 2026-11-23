@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Структура: свой тип и его объекты</h3>\n\n<p>Ранее типы <code>int</code> и <code>std::string</code> позволяли хранить число и строку отдельно. Когда эти значения описывают одну сущность, удобно объединить их в пользовательский тип. <code>struct</code> определяет класс в терминах языка C++; его нестатические поля входят в каждый объект этого типа.</p><p>Полная программа, C++17 и C++20:</p><pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;string&gt;\n\nstruct Person {\n    std::string name;\n    int age{};\n};\n\nint main() {\n    Person tom{\"Tom\", 34};\n    Person unknown{};\n    std::cout &lt;&lt; tom.name &lt;&lt; ' ' &lt;&lt; tom.age &lt;&lt; '\\n';\n    std::cout &lt;&lt; '\"' &lt;&lt; unknown.name &lt;&lt; \"\\\" \" &lt;&lt; unknown.age &lt;&lt; '\\n';\n    return 0;\n}</code></pre><p>Результат:</p><pre><code class=\"language-no-highlight\">Tom 34\n\"\" 0</code></pre><p>Определение <code>Person</code> завершается точкой с запятой и само по себе не создаёт человека. Объявления <code>tom</code> и <code>unknown</code> создают два разных объекта. Выражение <code>tom.age</code> обозначает поле возраста именно первого объекта; изменение этого поля не меняет возраст второго.</p><p>Здесь <code>Person</code> — агрегат: открытые поля можно инициализировать списком по порядку объявления. Поэтому в <code>{\"Tom\", 34}</code> сначала идёт имя, затем возраст. Пустая строка конструируется по правилам <code>std::string</code>, а <code>age{}</code> задаёт ноль. Фигурные скобки у объекта не означают, что у любого пользовательского типа они обязательно заполняют поля: у неагрегатных классов работают правила выбора конструктора. Критерии агрегата и различие C++17/20 уточняются в <a href=\"https://stepik.org/lesson/877083/step/5\">сравнении struct и class</a>.</p><p>Поля структуры по умолчанию открыты (<code>public</code>), поэтому запись <code>tom.age = -5;</code> допустима для языка. Смысловой запрет отрицательного возраста здесь ещё не выражен. В <a href=\"https://stepik.org/lesson/877082/step/4\">теме инвариантов класса</a> разберём, как сделать недопустимое состояние недоступным через обычный интерфейс. <code>struct</code> также допускает методы, конструкторы и закрытые поля; отличие от <code>class</code> состоит в доступе по умолчанию. Общая модель типа и объекта сохраняется.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3212955",
+  "time": "2026-11-22T18:35:40Z"
+}

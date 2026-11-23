@@ -1,0 +1,210 @@
+[
+  {
+    "step_id": 3569321,
+    "path": "steps/853532/01_3569321_text.step",
+    "summary": "Разделены тип, категория выражения, чтение и запись; вводная связана с операциями класса, устранено определение через стороны присваивания.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.lval",
+      "https://timsong-cpp.github.io/cppwp/n4861/expr.ass"
+    ],
+    "plan": [
+      "T5",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3569891,
+    "path": "steps/853532/02_3569891_text.step",
+    "summary": "Разобрано lvalue-to-rvalue-преобразование по строкам; фрагмент имеет известные начальные значения и явно объяснённый результат.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/conv.lval",
+      "https://timsong-cpp.github.io/cppwp/n4861/expr.ass"
+    ],
+    "plan": [
+      "T5",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3569896,
+    "path": "steps/853532/03_3569896_text.step",
+    "summary": "Собрана единая схема категорий с таблицей; const, строковый литерал и время жизни отделены от возможности перемещения.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.lval",
+      "https://timsong-cpp.github.io/cppwp/n4861/class.temporary",
+      "https://timsong-cpp.github.io/cppwp/n4861/lex.string"
+    ],
+    "plan": [
+      "T5",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3569323,
+    "path": "steps/853534/01_3569323_text.step",
+    "summary": "Повтор классификации заменён точной матрицей привязки ссылок и объяснением времени жизни временных объектов.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.init.ref",
+      "https://timsong-cpp.github.io/cppwp/n4861/class.temporary"
+    ],
+    "plan": [
+      "T5",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3569919,
+    "path": "steps/853534/02_3569919_text.step",
+    "summary": "Полный пример различает объявленный T&& и lvalue с его именем; показаны std::move, const и отсутствие переноса при одном чтении.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/expr",
+      "https://timsong-cpp.github.io/cppwp/n4861/dcl.init.ref",
+      "https://timsong-cpp.github.io/cppwp/n4861/over.ics.rank",
+      "https://timsong-cpp.github.io/cppwp/n4861/forward"
+    ],
+    "plan": [
+      "T5",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3569324,
+    "path": "steps/853535/01_3569324_text.step",
+    "summary": "Копирующее создание отделено от присваивания; полный пример показывает независимость векторов и связь с инвариантом типа.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/class.copy.ctor",
+      "https://timsong-cpp.github.io/cppwp/n4861/class.copy.assign",
+      "https://timsong-cpp.github.io/cppwp/n4861/vector.cons"
+    ],
+    "plan": [
+      "T5",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3569932,
+    "path": "steps/853535/02_3569932_text.step",
+    "summary": "Согласованы выбор copy/move, контракт источника и инвариант; обязательное прямое создание prvalue отделено от необязательной NRVO.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.init",
+      "https://timsong-cpp.github.io/cppwp/n4659/class.copy.elision",
+      "https://timsong-cpp.github.io/cppwp/n4861/class.copy.ctor",
+      "https://timsong-cpp.github.io/cppwp/n4861/class.copy.assign",
+      "https://timsong-cpp.github.io/cppwp/n4861/lib.types.movedfrom"
+    ],
+    "plan": [
+      "T5",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 4040986,
+    "path": "steps/853535/03_4040986_text.step",
+    "summary": "Сохранены два сильных примера; введены необходимые правила вывода шаблона/свёртки ссылок, уточнён forward; вопросы заменены разбором.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/forward",
+      "https://timsong-cpp.github.io/cppwp/n4861/temp.deduct.call",
+      "https://timsong-cpp.github.io/cppwp/n4861/dcl.ref",
+      "https://timsong-cpp.github.io/cppwp/n4861/lib.types.movedfrom",
+      "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines"
+    ],
+    "plan": [
+      "T5",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 3569325,
+    "path": "steps/853536/01_3569325_text.step",
+    "summary": "Сохранена теория хранения и NRVO; самостоятельные вопросы заменены объяснением владельца, сырого адреса и контейнера.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.stc",
+      "https://timsong-cpp.github.io/cppwp/n4861/basic.life",
+      "https://timsong-cpp.github.io/cppwp/n4861/class.copy.elision"
+    ],
+    "plan": [
+      "T5",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 3569964,
+    "path": "steps/853536/02_3569964_text.step",
+    "summary": "Сохранён разбор RAII и всех путей выхода; уточнены границы гарантии и ответственность интерфейса, исключена самостоятельная работа.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/except.ctor",
+      "https://timsong-cpp.github.io/cppwp/n4861/class.dtor",
+      "https://timsong-cpp.github.io/cppwp/n4861/unique.ptr",
+      "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines"
+    ],
+    "plan": [
+      "T5",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 3569963,
+    "path": "steps/853536/03_3569963_text.step",
+    "summary": "Сохранён пример unique_ptr; самостоятельные вопросы заменены законченным разбором доступа и единственности владения.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/unique.ptr.single.ctor",
+      "https://timsong-cpp.github.io/cppwp/n4861/unique.ptr.single.modifiers",
+      "https://timsong-cpp.github.io/cppwp/n4861/unique.ptr.single.observers",
+      "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines"
+    ],
+    "plan": [
+      "T5",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 3570166,
+    "path": "steps/853536/04_3570166_text.step",
+    "summary": "Учебная реализация сохранена; явно обозначены полная программа и границы контракта, вопросы заменены объяснением утечки и двойного удаления.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.delete",
+      "https://timsong-cpp.github.io/cppwp/n4861/class.copy.ctor",
+      "https://timsong-cpp.github.io/cppwp/n4861/unique.ptr"
+    ],
+    "plan": [
+      "T5",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 3569327,
+    "path": "steps/853537/01_3569327_text.step",
+    "summary": "Совместный доступ отделён от владения; полный пример lock/reset показывает оба времени жизни и истечение weak_ptr; уточнены циклы и многопоточность.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/util.smartptr.shared",
+      "https://timsong-cpp.github.io/cppwp/n4861/util.smartptr.shared.const",
+      "https://timsong-cpp.github.io/cppwp/n4861/util.smartptr.shared.dest",
+      "https://timsong-cpp.github.io/cppwp/n4861/util.smartptr.weak.obs",
+      "https://timsong-cpp.github.io/cppwp/n4861/util.smartptr.shared.create",
+      "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines"
+    ],
+    "plan": [
+      "T5",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3570213,
+    "path": "steps/853537/02_3570213_text.step",
+    "summary": "Учебный shared/weak сохранён; определены статус двух фрагментов, предусловия, ожидаемый результат и ограничения однопоточной модели.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/util.smartptr.shared",
+      "https://timsong-cpp.github.io/cppwp/n4861/util.smartptr.shared.dest",
+      "https://timsong-cpp.github.io/cppwp/n4861/util.smartptr.weak.obs"
+    ],
+    "plan": [
+      "T5",
+      "LINKS"
+    ]
+  }
+]

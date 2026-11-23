@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h2>Указатель на строку встроенной таблицы</h2>\n<p>У двумерного массива <code>int table[2][3]</code> элементом внешнего массива является строка типа <code>int[3]</code>. Поэтому после преобразования получается <code>int (*)[3]</code>, а не <code>int**</code>. Скобки в объявлении связывают звёздочку с именем указателя.</p>\n<p><strong>Полная программа C++17/C++20.</strong></p>\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\nint main() {\n    int table[2][3]{{1, 2, 3}, {4, 5, 6}};\n    int (*row)[3] = table;\n    std::cout &lt;&lt; (*row)[2] &lt;&lt; '\\n';\n    ++row;\n    std::cout &lt;&lt; (*row)[0] &lt;&lt; '\\n';\n}\n</code></pre>\n<p>Вывод: 3, затем 4. При <code>++row</code> указатель проходит одну целую строку из трёх <code>int</code>. А <code>int* element = table[0];</code> относился бы только к первой строке: переходить через её конец к другой строке арифметикой этого указателя нельзя, даже при непрерывном хранении всей таблицы.</p>\n<h3>Массив как аргумент функции</h3>\n<p>В списке параметров функции записи <code>int data[]</code> и <code>int* data</code> задают один и тот же тип параметра. Даже число в <code>int data[10]</code> не передаёт длину и не требует от вызывающего ровно десять элементов. Это правило языка о типе параметра, а не необязательная оптимизация копирования.</p>\n<p><strong>Полная программа C++17/C++20.</strong></p>\n<pre><code class=\"language-cpp\">#include &lt;cstddef&gt;\n#include &lt;iostream&gt;\nvoid set_first(int* data, std::size_t count) {\n    if (count != 0) {\n        data[0] = 100;\n    }\n}\nint main() {\n    int values[]{1, 2, 3};\n    set_first(values, 3);\n    set_first(nullptr, 0);\n    std::cout &lt;&lt; values[0] &lt;&lt; ' ' &lt;&lt; values[1] &lt;&lt; '\\n';\n}\n</code></pre>\n<p>Контракт <code>set_first</code>: при ненулевом <code>count</code> указатель обозначает начало доступного изменяемого диапазона как минимум из <code>count</code> элементов; при нулевом размере допустим <code>nullptr</code>. Счётчик использует <code>std::size_t</code> — беззнаковый тип для размеров. Функция копирует значение указателя, но обращается к исходному элементу, поэтому вывод равен <code>100 2</code>. Сам параметр не проверяет этот контракт автоматически.</p>\n<p>Запись <code>sizeof(data)</code> внутри такой функции измерила бы указатель. Граница должна поступить отдельно или быть выражена подходящим типом интерфейса. Полный разбор параметров, ссылок и контрактов продолжится в <a href=\"https://stepik.org/lesson/770590/step/1\">модуле 7</a>.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3213003",
+  "time": "2026-11-22T18:35:40Z"
+}

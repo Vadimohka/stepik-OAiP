@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Операции преобразования типов:</h3>\n\n<p>Пример явного преобразования int в double. Фрагмент предполагает подключённый &lt;iostream&gt; и размещение внутри main:</p>\n\n<pre><code class=\"language-cpp\">int m{};\nif (!(std::cin &gt;&gt; m)) {\n    return 1;\n}\ndouble x = (double)m / 2 + (double)7 / 3;</code></pre>\n\n<h3>Опасные и безопасные преобразования</h3>\n\n<p>Преобразование сохраняет значение без потерь, если целевой тип способен представить его точно. Одного сравнения размеров типов в байтах недостаточно: важны диапазон значений и точность. Для стандартных целых типов и конечных значений стандартных типов с плавающей точкой можно использовать следующие цепочки без потери значения:</p>\n\n<p>signed char → short → int → long → long long</p>\n\n<p>unsigned char → unsigned short → unsigned int → unsigned long → unsigned long long</p>\n\n<p>Значения bool преобразуются в числа 0 и 1. Для char нужно учитывать, является ли он знаковым или беззнаковым в выбранной реализации; например, не всякое значение беззнакового char обязательно помещается в short.</p>\n\n<p>float → double → long double. При этом преобразование целого числа в double не всегда точно: например, double формата IEEE 754 binary64 не может представить целое 9007199254740993 без округления.</p>\n\n<p>*Подробнее можно почитать <a href=\"https://metanit.com/cpp/tutorial/2.4.php\" rel=\"noopener noreferrer nofollow\">здесь</a>.</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3177474",
+  "time": "2026-11-22T18:35:40Z"
+}

@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Виртуальная база в ромбовидной иерархии</h3>\n\n<p>Если две промежуточные базы сами наследуют один тип, в конечном объекте без специальных указаний будет два его подобъекта. При виртуальном наследовании соответствующие пути могут пользоваться одним общим подобъектом виртуальной базы.</p><p>Полная программа, C++17 и C++20:</p><pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n\nstruct Identity {\n    int id;\n    explicit Identity(int value) : id(value) {}\n};\n\nstruct Scanner : virtual public Identity {\n    Scanner() : Identity(1) {}\n};\n\nstruct Printer : virtual public Identity {\n    Printer() : Identity(2) {}\n};\n\nstruct Combined : public Scanner, public Printer {\n    explicit Combined(int value) : Identity(value), Scanner(), Printer() {}\n};\n\nint main() {\n    Combined device{42};\n    Scanner&amp; scanner = device;\n    Printer&amp; printer = device;\n    Identity* first = &amp;scanner;\n    Identity* second = &amp;printer;\n    std::cout &lt;&lt; device.id &lt;&lt; '\\n';\n    std::cout &lt;&lt; std::boolalpha &lt;&lt; (first == second) &lt;&lt; '\\n';\n    Scanner standalone;\n    std::cout &lt;&lt; standalone.id &lt;&lt; '\\n';\n    return 0;\n}</code></pre><p>Результат:</p><pre><code class=\"language-no-highlight\">42\ntrue\n1</code></pre><p>Оба указателя получены через разные ветви одного <code>Combined</code>, но обозначают общий <code>Identity</code>, поэтому сравнение даёт <code>true</code>. Этот подобъект инициализирует конструктор наиболее производного объекта: здесь <code>Combined</code> передаёт 42. Записи <code>Identity(1)</code> и <code>Identity(2)</code> у промежуточных баз при создании <code>Combined</code> не выбирают два разных значения.</p><p>Для самостоятельного объекта <code>Scanner</code> наиболее производный тип — сам <code>Scanner</code>, поэтому его база получает 1. Если удалить <code>virtual</code> в обеих ветвях, у конечного объекта будут два <code>Identity</code>; без выбора ветви обращение <code>device.id</code> станет неоднозначным, а конструктор <code>Combined</code> уже не сможет инициализировать косвенную невиртуальную базу напрямую.</p><p>Виртуальная база и виртуальная функция — разные механизмы. Первый регулирует число и устройство базовых подобъектов, второй — выбор переопределённой функции. Конкретные скрытые указатели, таблицы и смещения относятся к ABI; стандарт не требует определённого способа реализации.</p><p>Ромбовидное наследование нужно только когда общий подобъект соответствует модели. Само желание повторно использовать несколько полей ещё не оправдывает такую иерархию: композиция часто даёт более прямое отношение времени жизни и владения.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3759849",
+  "time": "2026-11-22T18:35:40Z"
+}

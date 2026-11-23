@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h2>Операторы string работают с содержимым</h2>\n<p>Тип определяет смысл операции. Для <code>std::string</code> присваивание меняет текст, <code>+</code> создаёт объединённую строку, <code>+=</code> добавляет текст к существующей, а сравнения учитывают содержимое. Квадратные скобки дают доступ к отдельному <code>char</code>.</p>\n<p><strong>Полная программа C++17/C++20.</strong></p>\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;string&gt;\n\nint main() {\n    std::string first = \"ab\";\n    std::string copy = first;\n    copy += \"cd\";\n    const std::string joined = first + \"!\";\n    copy[0] = 'A';\n    std::cout &lt;&lt; first &lt;&lt; '\\n' &lt;&lt; copy &lt;&lt; '\\n' &lt;&lt; joined &lt;&lt; '\\n';\n    std::cout &lt;&lt; std::boolalpha\n              &lt;&lt; (first == \"ab\") &lt;&lt; ' '\n              &lt;&lt; (first != copy) &lt;&lt; ' '\n              &lt;&lt; (first &lt; std::string(\"abc\")) &lt;&lt; '\\n';\n}\n</code></pre>\n<p>Первые строки вывода: <code>ab</code>, <code>Abcd</code>, <code>ab!</code>. Копия и результат объединения — отдельные значения; изменение <code>copy[0]</code> не затронуло <code>first</code>. Обращение к индексу 0 допустимо, потому что <code>copy</code> непуста.</p>\n<p>Последняя строка — <code>true true true</code>. Первая строка равна литералу по содержимому, отличается от изменённой копии и меньше строки <code>abc</code>, собственным префиксом которой она является. Сравнение лексикографическое: сопоставляются элементы по порядку, а при равном общем префиксе более короткая строка меньше. Это не сортировка по словарным правилам русского или другого естественного языка.</p>\n<p>Для сложения литералов нужен строковый объект хотя бы в подходящем операнде: <code>std::string(\"ab\") + \"cd\"</code> корректно. Запись <code>\"ab\" + \"cd\"</code> не складывает два текста и не компилируется: встроенной операции сложения двух указателей нет. Соседние литералы <code>\"ab\" \"cd\"</code> соединяются при обработке исходного кода и образуют один литерал, но это другая возможность языка.</p>\n<p>Сравнение двух <code>const char*</code> через <code>==</code> сравнивает указатели. Для текста нужны строковые операции: <code>std::string</code> или корректное сравнение C-строк. <a href=\"https://stepik.org/lesson/770589/step/5\">Следующий шаг</a> рассматривает поиск, допустимые индексы и строгий разбор числового текста.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3214902",
+  "time": "2026-11-22T18:35:40Z"
+}

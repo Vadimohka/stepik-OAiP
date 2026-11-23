@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h2>Пространство имён и запись std::</h2>\n<p>Разные части программы могут выбирать одинаковые короткие имена. <strong>Пространство имён</strong> помогает объединять связанные объявления и различать такие имена. Оператор разрешения области <code>::</code> уточняет, где искать имя.</p>\n<p>Ниже <strong>полная программа C++17/C++20</strong>. В ней две независимые величины названы <code>value</code>, но находятся в разных пространствах имён.</p>\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n\nnamespace first {\n    const int value = 10;\n}\n\nnamespace second {\n    const int value = 20;\n}\n\nint main() {\n    std::cout &lt;&lt; first::value &lt;&lt; &#x27; &#x27; &lt;&lt; second::value &lt;&lt; &#x27;\\n&#x27;;\n}\n</code></pre>\n<p>Вывод:</p>\n<pre><code class=\"language-text\">10 20\n</code></pre>\n<p>В записи <code>first::value</code> используется значение 10, а в <code>second::value</code> — 20. Точно так же <code>std::cout</code> указывает на имя стандартной библиотеки. Пространство имён не запускает код, не создаёт отдельную программу и не является папкой файловой системы.</p>\n<p>Можно ввести выбранное имя в текущую область с помощью <code>using std::cout;</code>, а затем писать <code>cout</code>. Это <strong>объявление using</strong>. Директива <code>using namespace std;</code> влияет на поиск сразу множества имён и имеет более широкий эффект. Ни одна из этих записей не переносит определение <code>main</code> в <code>std</code> и не подключает заголовки.</p>\n<p>В небольших примерах курса будем предпочитать явные записи <code>std::...</code>: по ним видно происхождение библиотечного имени. <a href=\"https://stepik.org/lesson/768146/step/5\">Отдельный шаг разбирает конфликт имён и границы using</a>. Позже пространство имён также поможет организовать собственную многофайловую библиотеку в модуле 7.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3201236",
+  "time": "2026-11-22T18:35:40Z"
+}

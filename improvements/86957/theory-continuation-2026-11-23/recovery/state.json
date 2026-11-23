@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "confirmed_main_at_start": "d96e5b9cffa65010c53894a9b65b1a497cb6b58a",
+  "previous_chat_checkpoint": "a5985e9db1687915111a6cfb5095ee79b05b91b9",
+  "commits_since_previous_checkpoint": [
+    {
+      "sha": "d96e5b9cffa65010c53894a9b65b1a497cb6b58a",
+      "subject": "Publish 88 text-only theory updates"
+    }
+  ],
+  "working_tree_at_start": "clean fresh clone of current main",
+  "published_theory_steps": 88,
+  "published_theory_lessons": 23,
+  "publication_evidence": "courses/86957/publication-verification-theory-2026-11-23.json",
+  "current_live_stepik_readback": false,
+  "api_probe": "Unauthenticated GET /api/steps/3173923 returned HTTP403; no credentials configured.",
+  "browser_probe": "Course page visible; signed-out state shows Войти. No course changes made.",
+  "module_inventory": {
+    "T1": 72,
+    "T1_published": 32,
+    "T1B_remaining": 40,
+    "T2": 63,
+    "T3": 29,
+    "T4": 33,
+    "T5": 59,
+    "T6": 27
+  },
+  "limits": "Исторический receipt подтверждает прежнюю публикацию; это не новая независимая сверка живого курса."
+}

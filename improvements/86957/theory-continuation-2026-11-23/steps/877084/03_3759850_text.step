@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Порядок создания и уничтожения частей объекта</h3>\n\n<p>Производный объект строится из баз и полей. Порядок задаёт язык: сначала виртуальные базы по установленному обходу иерархии, затем непосредственные невиртуальные базы в порядке списка наследования, затем поля в порядке объявления и, наконец, тело конструктора. Перестановка записей после двоеточия этот порядок не меняет.</p><p>Полная программа, C++17 и C++20:</p><pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;stdexcept&gt;\n\nstruct BaseA {\n    BaseA() { std::cout &lt;&lt; \"BaseA\\n\"; }\n    ~BaseA() { std::cout &lt;&lt; \"~BaseA\\n\"; }\n};\nstruct BaseB {\n    BaseB() { std::cout &lt;&lt; \"BaseB\\n\"; }\n    ~BaseB() { std::cout &lt;&lt; \"~BaseB\\n\"; }\n};\nstruct Member {\n    Member() { std::cout &lt;&lt; \"Member\\n\"; }\n    ~Member() { std::cout &lt;&lt; \"~Member\\n\"; }\n};\n\nclass Derived : public BaseA, public BaseB {\n    Member member_;\npublic:\n    explicit Derived(bool fail) : BaseA(), BaseB(), member_() {\n        std::cout &lt;&lt; \"Derived body\\n\";\n        if (fail) throw std::runtime_error(\"construction\");\n    }\n    ~Derived() { std::cout &lt;&lt; \"~Derived body\\n\"; }\n};\n\nint main() {\n    {\n        Derived complete{false};\n    }\n    std::cout &lt;&lt; \"failed construction\\n\";\n    try {\n        Derived incomplete{true};\n    } catch (const std::runtime_error&amp;) {\n        std::cout &lt;&lt; \"caught\\n\";\n    }\n    return 0;\n}</code></pre><p>Результат:</p><pre><code class=\"language-no-highlight\">BaseA\nBaseB\nMember\nDerived body\n~Derived body\n~Member\n~BaseB\n~BaseA\nfailed construction\nBaseA\nBaseB\nMember\nDerived body\n~Member\n~BaseB\n~BaseA\ncaught</code></pre><p>В первом блоке создание завершается. При выходе сначала выполняется тело деструктора <code>Derived</code>, затем уничтожается <code>member_</code>, потом базы <code>BaseB</code> и <code>BaseA</code>. Автор не должен вручную вызывать их деструкторы из тела <code>~Derived</code>: это уже делает язык.</p><p>Во втором блоке тело конструктора бросает исключение. Полного <code>Derived</code> не создано, поэтому его деструктор не вызывается. Однако поле и обе базы уже были полностью созданы; они уничтожаются в обратном порядке. Вывод демонстрирует, как композиция с правильно владеющими полями помогает очистке даже при неудачном создании.</p><p>Если база не указана в списке инициализации, используется её инициализация по умолчанию; это возможно лишь при доступном подходящем конструкторе. Для виртуальной базы за аргументы отвечает наиболее производный класс, как в <a href=\"https://stepik.org/lesson/877084/step/2\">предыдущем шаге</a>. Пустая или закрытая база не исчезает из смысловой модели объекта, даже если оптимизация уменьшает её физический размер.</p><p>В программе нет удаления производного объекта через указатель на базу. Локальный объект уничтожается по своему полному типу. Правило виртуального деструктора относится к другому случаю — обычному удалению через базовый указатель.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3759850",
+  "time": "2026-11-23T06:34:36Z"
+}

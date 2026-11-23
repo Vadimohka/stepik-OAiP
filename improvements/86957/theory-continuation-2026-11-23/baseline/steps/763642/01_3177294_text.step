@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h2>Операторы переходов</h2>\n\n<p>В языке C++ определены четыре обычных оператора перехода: return, goto, break и continue. return завершает текущую функцию, а goto передаёт управление к метке в той же функции; для них действуют ограничения языка, которые рассмотрим далее. break и continue применяются внутри циклов. Как указывалось ранее, break также применяется в switch.</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3177294",
+  "time": "2026-11-22T18:35:40Z"
+}

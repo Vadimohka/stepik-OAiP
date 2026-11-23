@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Distance: смысл типа и допустимое состояние</h3>\n\n<p>Построим учебный тип длины <code>Distance</code>. В одном футе 12 дюймов. Чтобы сосредоточиться на устройстве класса, будем хранить только <strong>целые неотрицательные дюймы</strong>. Дробные дюймы и отрицательные перемещения в этот пример не входят.</p><p>Инвариант: число футов находится в диапазоне 0–1 000 000, число оставшихся дюймов — 0–11. Предел футов — явное учебное ограничение, позволяющее обсуждать отказ операции и выполнять арифметику в <code>long long</code> без переполнения. Это не ограничение единиц измерения или C++.</p><p>Полная программа, C++17 и C++20:</p><pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n\nclass Distance {\n    long long feet_{};\n    long long inches_{};\npublic:\n    bool set(long long feet, long long inches) {\n        if (feet &lt; 0 || feet &gt; 1'000'000 || inches &lt; 0 || inches &gt;= 12) {\n            return false;\n        }\n        feet_ = feet;\n        inches_ = inches;\n        return true;\n    }\n    long long feet() const { return feet_; }\n    long long inches() const { return inches_; }\n};\n\nint main() {\n    Distance distance;\n    long long feet{}, inches{};\n    if (!(std::cin &gt;&gt; feet &gt;&gt; inches)) {\n        std::cout &lt;&lt; \"input error\\n\";\n        return 1;\n    }\n    if (!distance.set(feet, inches)) {\n        std::cout &lt;&lt; \"invalid distance\\n\";\n        return 1;\n    }\n    std::cout &lt;&lt; distance.feet() &lt;&lt; ' ' &lt;&lt; distance.inches() &lt;&lt; '\\n';\n    return 0;\n}</code></pre><p>Для входа <code>11 6</code> программа выводит <code>11 6</code>. Вход <code>1 12</code> отклоняется: интерфейс принимает уже нормализованные части, а не произвольное число дюймов. Можно было бы выбрать автоматическую нормализацию, но это был бы другой контракт.</p><p>Ввод выполняется во временные числа. Лишь после проверки формы и диапазона <code>set</code> записывает оба поля. При отказе прежний объект остаётся допустимым. Начальные нули тоже допустимы, поэтому объект никогда не требует обязательного «первого setter-а» перед чтением.</p><p>Класс управляет смысловым состоянием, а <code>main</code> — диалогом и сообщениями об ошибке. Поэтому те же операции можно использовать без клавиатуры. В <a href=\"https://stepik.org/lesson/877081/step/3\">следующем шаге</a> значения будут проверяться непосредственно при создании объекта конструктором.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3669000",
+  "time": "2026-11-22T18:35:40Z"
+}

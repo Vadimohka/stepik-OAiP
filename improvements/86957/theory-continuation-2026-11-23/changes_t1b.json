@@ -1,0 +1,550 @@
+[
+  {
+    "step_id": 3173782,
+    "path": "steps/763040/01_3173782_text.step",
+    "summary": "Алгоритмизация объяснена как переход от задачи и договора о данных к точным действиям; отделены алгоритм, запись и программа.",
+    "sources": [
+      "https://xlinux.nist.gov/dads/HTML/algorithm.html"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3173955,
+    "path": "steps/763040/04_3173955_text.step",
+    "summary": "Разделены псевдокод, алгоритмические конструкции и исполнимая программа; дан законченный разбор чтения записи.",
+    "sources": [
+      "https://xlinux.nist.gov/dads/HTML/algorithm.html"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3173969,
+    "path": "steps/763041/01_3173969_text.step",
+    "summary": "Зависимый от рисунка вводный текст заменён самодостаточным чтением блок-схемы с явными направлениями и полным разбором ветвления.",
+    "sources": [
+      "https://www.iso.org/standard/11955.html",
+      "https://protect.gost.ru/gost/details/0c85e066-f89e-433d-a6d3-b7f746bd0c7c"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3173783,
+    "path": "steps/763041/02_3173783_text.step",
+    "summary": "Вместо изображения без объяснения дан текстовый справочник используемых символов и связей с разобранным маршрутом.",
+    "sources": [
+      "https://www.iso.org/standard/11955.html",
+      "https://protect.gost.ru/gost/details/0c85e066-f89e-433d-a6d3-b7f746bd0c7c"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3173970,
+    "path": "steps/763041/03_3173970_text.step",
+    "summary": "Три иллюстрации дополнены полными текстовыми моделями, трассировкой цикла и граничным случаем нулевого числа повторений.",
+    "sources": [
+      "https://xlinux.nist.gov/dads/HTML/algorithm.html",
+      "https://www.iso.org/standard/11955.html"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3201341,
+    "path": "steps/768145/05_3201341_text.step",
+    "summary": "Функция на схеме объяснена через вход, возврат результата и продолжение вызвавшего алгоритма; восстановлена самостоятельность без рисунка.",
+    "sources": [
+      "https://xlinux.nist.gov/dads/HTML/algorithm.html",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.call"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3173778,
+    "path": "steps/763037/01_3173778_text.step",
+    "summary": "Понятие языка связано с лексикой, синтаксисом, смыслом и минимальной полной программой; удалена историческая справка без учебной функции.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/lex",
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.start.main",
+      "https://timsong-cpp.github.io/cppwp/n4659/iostream.objects"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3173804,
+    "path": "steps/763037/02_3173804_text.step",
+    "summary": "Отличие алгоритма от программы показано на контракте максимума и конечном диапазоне машинного типа.",
+    "sources": [
+      "https://xlinux.nist.gov/dads/HTML/algorithm.html",
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.fundamental"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3173810,
+    "path": "steps/763037/03_3173810_text.step",
+    "summary": "Спецификация, версия стандарта, реализация и кодировка исходного файла разведены; сокращены неподтверждённые исторические перечисления.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/intro.compliance",
+      "https://timsong-cpp.github.io/cppwp/n4659/lex.charset",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.sizeof",
+      "https://www.unicode.org/faq/utf_bom.html"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3173832,
+    "path": "steps/763037/05_3173832_text.step",
+    "summary": "Уровень языка отделён от обещаний скорости и безопасности; удалены реклама и неверные обобщения о сборке мусора.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/intro.abstract",
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.fundamental",
+      "https://timsong-cpp.github.io/cppwp/n4659/unique.ptr"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3173836,
+    "path": "steps/763037/07_3173836_text.step",
+    "summary": "Статическая типизация, auto, динамическая типизация и безопасность разделены; неоднозначные ярлыки заменены конкретными гарантиями.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.types",
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.spec.auto",
+      "https://timsong-cpp.github.io/cppwp/n4659/intro.compliance"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3173838,
+    "path": "steps/763037/08_3173838_text.step",
+    "summary": "Компиляция и интерпретация представлены как способы реализации; устранены универсальные выводы о скорости и построчном исполнении.",
+    "sources": [
+      "https://gcc.gnu.org/onlinedocs/gcc/Overall-Options.html",
+      "https://docs.python.org/3/library/dis.html",
+      "https://timsong-cpp.github.io/cppwp/n4659/intro.abstract"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3173779,
+    "path": "steps/763038/01_3173779_text.step",
+    "summary": "Роли редактора, компилятора, компоновщика, отладчика и системы сборки соединены с состоянием исходника и результата.",
+    "sources": [
+      "https://gcc.gnu.org/onlinedocs/gcc/Overall-Options.html",
+      "https://cmake.org/cmake/help/v3.22/manual/cmake.1.html",
+      "https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3173870,
+    "path": "steps/763038/03_3173870_text.step",
+    "summary": "Этапы GCC объяснены с результатами и границами применимости; отдельно указан уровень стандарта C++ и конкретной цепочки инструментов.",
+    "sources": [
+      "https://gcc.gnu.org/onlinedocs/gcc/Overall-Options.html",
+      "https://timsong-cpp.github.io/cppwp/n4659/lex.phases"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3173871,
+    "path": "steps/763038/04_3173871_text.step",
+    "summary": "Статическая схема заменена воспроизводимым разбором компиляции и компоновки hello с пояснением различий ошибок.",
+    "sources": [
+      "https://gcc.gnu.org/onlinedocs/gcc/Overall-Options.html"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3177248,
+    "path": "steps/763038/05_3177248_text.step",
+    "summary": "Препроцессор описан как обработка директив и токенов; include отделён от вызова функции, установки пакета и компоновки.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/cpp.include",
+      "https://timsong-cpp.github.io/cppwp/n4659/cpp",
+      "https://timsong-cpp.github.io/cppwp/n4659/headers"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3177249,
+    "path": "steps/763038/06_3177249_text.step",
+    "summary": "Единица трансляции отделена от файла на диске; согласованы зависимости заголовков и раздельная сборка.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/lex.phases",
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.def.odr",
+      "https://cmake.org/cmake/help/v3.22/manual/cmake-buildsystem.7.html"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3177250,
+    "path": "steps/763038/07_3177250_text.step",
+    "summary": "Компоновка объяснена через объявление и определение на минимальном примере; различены отсутствие определения и ошибка синтаксиса.",
+    "sources": [
+      "https://gcc.gnu.org/onlinedocs/gcc/Overall-Options.html",
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.def.odr",
+      "https://timsong-cpp.github.io/cppwp/n4659/lex.phases"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3173780,
+    "path": "steps/763039/01_3173780_text.step",
+    "summary": "Модель интерпретатора изложена через анализ, промежуточное представление и исполнение; ярлыки чистой/смешанной схемы имеют явные границы.",
+    "sources": [
+      "https://docs.python.org/3/library/dis.html",
+      "https://timsong-cpp.github.io/cppwp/n4659/lex.phases",
+      "https://gcc.gnu.org/onlinedocs/gcc/Overall-Options.html"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3173892,
+    "path": "steps/763039/12_3173892_text.step",
+    "summary": "Исторические прогнозы о языках заменены устойчивым объяснением эволюции стандартов, совместимости и выбора инструментов.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/intro",
+      "https://timsong-cpp.github.io/cppwp/n4861/intro",
+      "https://cmake.org/cmake/help/v3.22/prop_tgt/CXX_STANDARD.html"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3215255,
+    "path": "steps/771155/01_3215255_text.step",
+    "summary": "Значение числа отделено от записи и битового представления; введены основание, вес разряда и допустимые цифры без ранних аппаратных деталей.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/lex.icon"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3215258,
+    "path": "steps/771155/02_3215258_text.step",
+    "summary": "Алгоритм перевода целых чисел дан с объяснением порядка остатков, нулём и точной обратной проверкой; формулы отделены от кода C++.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/lex.icon"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3215257,
+    "path": "steps/771155/03_3215257_text.step",
+    "summary": "Перевод дробей разобран как точная операция с явно отделённым ограничением числа разрядов и округлением; добавлен бесконечный двоичный пример.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.fundamental",
+      "https://timsong-cpp.github.io/cppwp/n4659/numeric.limits.members"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3215256,
+    "path": "steps/771156/01_3215256_text.step",
+    "summary": "Бит, байт и машинное слово разведены; число комбинаций отделено от диапазона типа, CHAR_BIT — от типичных восьми бит.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/intro.memory",
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.fundamental",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.sizeof",
+      "https://timsong-cpp.github.io/cppwp/n4659/support.limits.general"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3215268,
+    "path": "steps/771156/02_3215268_text.step",
+    "summary": "Шестнадцатеричная запись объяснена как группировка по четыре бита; порядок байтов отделён от значения и ширины адреса.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.types",
+      "https://timsong-cpp.github.io/cppwp/n4861/bit.endian"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3215265,
+    "path": "steps/771156/05_3215265_text.step",
+    "summary": "Символ, кодовая точка, кодировка и байт char различены на точных UTF-8 примерах; сняты универсальные предположения об ASCII и длине символа.",
+    "sources": [
+      "https://www.unicode.org/faq/utf_bom.html",
+      "https://timsong-cpp.github.io/cppwp/n4659/lex.charset",
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.fundamental"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3201191,
+    "path": "steps/768146/01_3201191_text.step",
+    "summary": "Стандартная библиотека связана с объявлениями, контрактами и компоновкой вместо определения как коллекции заголовков.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/library",
+      "https://timsong-cpp.github.io/cppwp/n4659/headers",
+      "https://timsong-cpp.github.io/cppwp/n4659/contents"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3201236,
+    "path": "steps/768146/02_3201236_text.step",
+    "summary": "Пространства имён объяснены на двух простых значениях без преждевременного vector; полный пример связан с квалифицированным поиском имени.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/namespace.def",
+      "https://timsong-cpp.github.io/cppwp/n4659/namespace.udir",
+      "https://timsong-cpp.github.io/cppwp/n4659/namespace.udecl"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3201235,
+    "path": "steps/768146/03_3201235_text.step",
+    "summary": "Совместимость с C показана на проверяемом abs с явной областью допустимости; неподготовленный clock и вопросный раздел заменены разбором.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/headers",
+      "https://timsong-cpp.github.io/cppwp/n4659/c.math",
+      "https://timsong-cpp.github.io/cppwp/n4659/support.runtime",
+      "https://timsong-cpp.github.io/cppwp/n4659/c.files"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3201234,
+    "path": "steps/768146/04_3201234_text.step",
+    "summary": "Справочная таблица заголовков ограничена задачами курса и дополнена объяснением самостоятельных include; самопроверка заменена выводом.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/headers",
+      "https://timsong-cpp.github.io/cppwp/n4659/contents"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3201267,
+    "path": "steps/768146/05_3201267_text.step",
+    "summary": "Конфликт using показан на ранее введённых именах; отличие объявления и директивы и последствия для заголовков объяснены без сложных перегрузок.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/namespace.udir",
+      "https://timsong-cpp.github.io/cppwp/n4659/namespace.udecl",
+      "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rs-using-directive"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3215075,
+    "path": "steps/768143/03_3215075_text.step",
+    "summary": "Три повторявшиеся программы заменены одним полным разбором чтения, диапазона и ошибок; извлечение числа отделено от проверки всей строки.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/iostream.objects",
+      "https://timsong-cpp.github.io/cppwp/n4659/istream.formatted.arithmetic",
+      "https://timsong-cpp.github.io/cppwp/n4659/istream.formatted.reqmts",
+      "https://timsong-cpp.github.io/cppwp/n4659/support.start.term"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3215081,
+    "path": "steps/768143/04_3215081_text.step",
+    "summary": "Управляющие последовательности отделены от форматирования; постоянные настройки и одноразовая ширина разобраны на точном выводе.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/lex.ccon",
+      "https://timsong-cpp.github.io/cppwp/n4659/std.manip",
+      "https://timsong-cpp.github.io/cppwp/n4659/ostream.manip",
+      "https://timsong-cpp.github.io/cppwp/n4659/ostream.inserters.arithmetic",
+      "https://timsong-cpp.github.io/cppwp/n4659/facet.num.put.virtuals"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3215092,
+    "path": "steps/768143/05_3215092_text.step",
+    "summary": "Исторический ввод-вывод C отделён от основного маршрута; проверены формат, типы, результат, ограничения scanf и платформенность _s.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/c.files",
+      "https://timsong-cpp.github.io/cppwp/n4659/iostreams.base",
+      "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3237955,
+    "path": "steps/776128/02_3237955_text.step",
+    "summary": "Ввод в _start отделён от старта процессора и аппаратной инициализации; ошибочно размеченный ассемблер заменён честной концептуальной схемой.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.start.main",
+      "https://timsong-cpp.github.io/cppwp/n4861/basic.start.main",
+      "https://sourceware.org/binutils/docs/ld/Entry-Point.html",
+      "https://man7.org/linux/man-pages/man2/execve.2.html"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3238005,
+    "path": "steps/776128/04_3238005_text.step",
+    "summary": "Scaffolding определён как неформальная инфраструктура; обязательные обязанности среды отделены от необязательных проверок и инструментальных расширений.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/intro.compliance",
+      "https://timsong-cpp.github.io/cppwp/n4659/iostream.objects.overview",
+      "https://gcc.gnu.org/onlinedocs/gcc/Instrumentation-Options.html"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3238004,
+    "path": "steps/776128/05_3238004_text.step",
+    "summary": "Нормальное завершение main отделено от прямого exit и аварийного окончания; введены гарантированные обозначения успеха и ошибки без обещаний очистки всегда.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.start.main",
+      "https://timsong-cpp.github.io/cppwp/n4659/support.start.term",
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.start.term"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3238006,
+    "path": "steps/776128/06_3238006_text.step",
+    "summary": "Запуск процесса, загрузка ОС и старт встроенной программы разделены; устранены универсальные аппаратные сценарии и повторения.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/intro.compliance",
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.start.main",
+      "https://man7.org/linux/man-pages/man2/execve.2.html"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3230371,
+    "path": "steps/774618/01_3230371_text.step",
+    "summary": "Система сборки объяснена через зависимости, актуальность результата и разделение ролей редактора, компилятора, CMake и Git.",
+    "sources": [
+      "https://cmake.org/cmake/help/v3.22/manual/cmake.1.html",
+      "https://cmake.org/cmake/help/v3.22/manual/cmake-buildsystem.7.html",
+      "https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3231227,
+    "path": "steps/774618/02_3231227_text.step",
+    "summary": "CMake описан как конфигурация/генерация плюс запуск выбранной сборки; платформенные различия и продолжение полного примера обозначены явно.",
+    "sources": [
+      "https://cmake.org/cmake/help/v3.22/manual/cmake.1.html",
+      "https://cmake.org/cmake/help/v3.22/manual/cmake-generators.7.html",
+      "https://cmake.org/cmake/help/v3.22/prop_tgt/CXX_STANDARD.html"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  }
+]

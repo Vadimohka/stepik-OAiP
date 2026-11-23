@@ -1,0 +1,15 @@
+[
+  {
+    "step_id": 3570303,
+    "path": "steps/853541/02_3570303_text.step",
+    "summary": "Адресно исправлена модель обозначений N/P/G/U: при продолжении на дедушке роли пересчитываются. Код и остальные объяснения опубликованного T6 сохранены.",
+    "sources": [
+      "https://opendatastructures.org/ods-cpp/9_Red_Black_Trees.html",
+      "https://stepik.org/lesson/853541/step/3"
+    ],
+    "plan": [
+      "T6",
+      "LINKS"
+    ]
+  }
+]

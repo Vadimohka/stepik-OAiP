@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Индексация: ссылка, const и проверка границы</h3>\n\n<p>Перегруженный <code>operator[]</code> описывает доступ к элементу пользовательского типа. Для изменяемого целого элемента удобно возвращать <code>int&amp;</code>: присваивание результату меняет сам элемент. Для константного объекта возвращается <code>const int&amp;</code>.</p><p>Полная программа, C++17 и C++20:</p><pre><code class=\"language-cpp\">#include &lt;array&gt;\n#include &lt;cstddef&gt;\n#include &lt;iostream&gt;\n#include &lt;stdexcept&gt;\n\nclass CheckedArray {\n    std::array&lt;int, 4&gt; data_{};\npublic:\n    int&amp; operator[](std::size_t index) {\n        return data_.at(index);\n    }\n    const int&amp; operator[](std::size_t index) const {\n        return data_.at(index);\n    }\n};\n\nint main() {\n    CheckedArray values;\n    values[0] = 10;\n    values[3] = 30;\n    const CheckedArray&amp; view = values;\n    std::cout &lt;&lt; view[0] &lt;&lt; ' ' &lt;&lt; view[1] &lt;&lt; ' ' &lt;&lt; view[3] &lt;&lt; '\\n';\n    try {\n        values[4] = 99;\n    } catch (const std::out_of_range&amp;) {\n        std::cout &lt;&lt; \"index error\\n\";\n    }\n    std::cout &lt;&lt; view[3] &lt;&lt; '\\n';\n    return 0;\n}</code></pre><p>Результат:</p><pre><code class=\"language-no-highlight\">10 0 30\nindex error\n30</code></pre><p>Все четыре элемента изначально равны нулю. Допустимые индексы — 0, 1, 2 и 3. Внутри выбран метод стандартного массива <code>at</code>, который проверяет границу и при неверном индексе бросает <code>std::out_of_range</code>. Поэтому попытка записи по индексу 4 не меняет ни один элемент.</p><p>Это контракт <em>нашего</em> <code>CheckedArray</code>. У встроенного массива, <code>std::array::operator[]</code> и <code>std::vector::operator[]</code> в C++17/20 такой проверки не обещано; там индекс должен быть допустим заранее. Перегрузка не делает все операции <code>[]</code> языка проверяемыми. Например, число <code>-1</code> при преобразовании к <code>std::size_t</code> становится максимальным значением этого беззнакового типа; для массива из четырёх элементов <code>at</code> его отклоняет. Это не общее правило для любого отрицательного числа и любых исходных разрядностей: преобразование выполняется по модулю числа значений целевого беззнакового типа (его максимальное значение плюс один). Поэтому отрицательный ввод нужно отклонить до преобразования в <code>std::size_t</code>, затем проверить верхнюю границу индекса.</p><p>Через <code>view</code> выбирается константная версия. Запись <code>view[0] = 7;</code> не компилируется, зато изменение через исходный неконстантный <code>values</code> возможно. Возвращённые ссылки обозначают элементы внутри объекта и не должны использоваться после его уничтожения. Если интерфейс контейнера допускает действия, делающие ссылки недействительными, их условия также должны быть частью контракта.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3760047",
+  "time": "2026-11-22T18:35:40Z"
+}

@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Определение нового типа</h3>\n\n<p>В C++ объявление <code>struct point_t</code> создаёт новый тип, и далее имя <code>point_t</code> можно использовать без слова <code>struct</code>. Объявление <code>typedef</code> создаёт дополнительное имя уже существующего типа, а не новый самостоятельный тип. В языке C имя-тег структуры используется вместе со словом <code>struct</code>, если для него не объявлен typedef-псевдоним.</p>\n\n<pre><code class=\"language-cpp\">struct point_t {\n    int x;\n    int y;\n};\n\ntypedef point_t Point; // Point и point_t — один и тот же тип\n\nint main() {\n    point_t p = {10, 20}; // C++: слово struct не требуется\n    Point px = {10, 20};\n    return p.x == px.x ? 0 : 1;\n}</code></pre>\n\n<p>В C++ имя типа доступно и внутри его определения, поэтому самоссылочная структура записывается так:</p>\n\n<pre><code class=\"language-cpp\">struct Node {\n    int value;\n    Node* next;\n};</code></pre>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3215231",
+  "time": "2026-11-22T18:35:40Z"
+}

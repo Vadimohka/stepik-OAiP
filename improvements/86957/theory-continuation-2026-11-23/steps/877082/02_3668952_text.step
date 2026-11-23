@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Открытый интерфейс и закрытое состояние</h3>\n\n<p><code>public</code> обозначает доступный снаружи интерфейс, <code>private</code> — члены, к которым по имени обращаются члены класса и его друзья. Секция доступа действует до следующей секции или конца класса. В <code>class</code> доступ <code>private</code> установлен по умолчанию.</p><p>Полная программа, C++17 и C++20:</p><pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n\nclass Level {\n    int value_{};\npublic:\n    int value() const { return value_; }\n    bool set(int next) {\n        if (next &lt; 0 || next &gt; 100) return false;\n        value_ = next;\n        return true;\n    }\n};\n\nint main() {\n    Level level;\n    std::cout &lt;&lt; level.value() &lt;&lt; '\\n';\n    std::cout &lt;&lt; std::boolalpha &lt;&lt; level.set(70) &lt;&lt; ' ' &lt;&lt; level.value() &lt;&lt; '\\n';\n    std::cout &lt;&lt; level.set(150) &lt;&lt; ' ' &lt;&lt; level.value() &lt;&lt; '\\n';\n    return 0;\n}</code></pre><p>Результат:</p><pre><code class=\"language-no-highlight\">0\ntrue 70\nfalse 70</code></pre><p>Поле <code>value_{}</code> получает ноль при создании, поэтому новый объект сразу допустим. <code>set(70)</code> возвращает <code>true</code> и изменяет состояние. <code>set(150)</code> возвращает <code>false</code> и оставляет прежнее значение 70. Проверка выполнена до присваивания: отказ не разрушает инвариант.</p><p>Запись <code>level.value_ = 150;</code> вне класса не компилируется, потому что поле закрыто. Метод <code>value() const</code> разрешает читать уровень, не меняя обычные поля через текущий объект; подробности <code>const</code> будут в <a href=\"https://stepik.org/lesson/877083/step/2\">отдельном шаге</a>. Имена <code>value_</code> и <code>value()</code> различны: первое — поле, второе — операция чтения.</p><p>Третий вид доступа, <code>protected</code>, допускает использование из производных классов с дополнительными правилами; он нужен в <a href=\"https://stepik.org/lesson/877084/step/1\">уроке о наследовании</a>. Пока у типа нет такой задачи, его внутреннее состояние оставляют <code>private</code>. Наличие метода <code>set</code> не обязательно: интерфейс выбирают по смыслу, а не создают автоматически отдельный setter для каждого поля.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3668952",
+  "time": "2026-11-22T18:35:40Z"
+}

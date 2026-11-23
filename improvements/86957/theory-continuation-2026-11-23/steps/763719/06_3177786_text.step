@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h2>do-while: сначала тело, затем условие</h2>\n<p>У <code>do-while</code> проверка стоит после тела. Если управление дошло до самого цикла, тело начинает выполняться хотя бы один раз; досрочный выход из тела, например через <code>break</code>, может пропустить проверку. После <code>while (условие)</code> нужна точка с запятой.</p>\n<p><strong>Полная программа C++17/C++20.</strong></p>\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\nint main() {\n    int before{};\n    while (before &lt; 0) {\n        ++before;\n    }\n    int after{};\n    do {\n        ++after;\n    } while (after &lt; 0);\n    std::cout &lt;&lt; before &lt;&lt; ' ' &lt;&lt; after &lt;&lt; '\\n';\n}\n</code></pre>\n<p>Вывод <code>0 1</code>. У первого цикла условие <code>0 &lt; 0</code> сразу ложно. У второго сначала выполняется <code>++after</code>, поэтому проверяется уже <code>1 &lt; 0</code>. Затем второй цикл завершается.</p>\n<p>Форма полезна, когда первое действие требуется независимо от предварительного условия. Она не гарантирует успешность ввода или вычисления: результаты операций в теле всё равно нужно проверять. Выбор между <code>while</code> и <code>do-while</code> определяется тем, допускает ли алгоритм ноль проходов.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3177786",
+  "time": "2026-11-22T18:35:40Z"
+}

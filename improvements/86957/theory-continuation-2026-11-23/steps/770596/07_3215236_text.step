@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Адрес подобъекта и время жизни</h3>\n\n<p>Адрес можно взять не только у всей структуры, но и у её поля. В этом случае указатель обозначает подобъект: его время жизни связано с содержащим объектом.</p><p>Полная программа, C++17 и C++20:</p><pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;string&gt;\n\nstruct Make {\n    int id{};\n    std::string name;\n};\nstruct Model {\n    int id{};\n    Make make;\n    std::string name;\n    int year{};\n};\n\nint main() {\n    Model model{10, {1, \"Acura\"}, \"CL\", 2003};\n    Make* make = &amp;model.make;\n    int* id = &amp;model.id;\n    *id = 11;\n    std::cout &lt;&lt; make-&gt;name &lt;&lt; ' ' &lt;&lt; model.id &lt;&lt; '\\n';\n    const Model&amp; view = model;\n    const Make* read_only = &amp;view.make;\n    std::cout &lt;&lt; read_only-&gt;id &lt;&lt; '\\n';\n    return 0;\n}</code></pre><p>Результат:</p><pre><code class=\"language-no-highlight\">Acura 11\n1</code></pre><p><code>id</code> указывает на поле <code>model.id</code>, поэтому присваивание <code>*id = 11</code> изменяет эту модель. <code>make</code> указывает на вложенную марку; стрелка выбирает её поле. Ни один из указателей не передаёт владение: отдельного освобождения подобъектов нет.</p><p>Из константного представления <code>view</code> получен <code>const Make*</code>: через него можно читать, но нельзя менять обычные поля марки. Сам <code>model</code> остаётся неконстантным объектом. Указатели не продлевают время жизни модели и не становятся безопасными после её уничтожения.</p><p>Имя вложенного типа удобно для явной записи <code>Make*</code>, но не является условием взятия адреса: тип указателя можно вывести записью <code>auto* make = &amp;model.make;</code>. Отдельный механизм «указатель на член класса» имеет другой смысл и здесь не используется. В <a href=\"https://stepik.org/lesson/853536/step/3\">модели владения</a> вернёмся к различию объекта-владельца и временного доступа к его частям.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3215236",
+  "time": "2026-11-23T06:34:36Z"
+}

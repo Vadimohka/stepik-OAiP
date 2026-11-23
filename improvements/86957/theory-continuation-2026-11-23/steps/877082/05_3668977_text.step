@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Два объекта одного класса</h3>\n\n<p>Определение класса задаёт тип. Объявление объекта создаёт конкретное состояние этого типа. Одна и та же функция-член может применяться к разным объектам.</p><p>Полная программа, C++17 и C++20:</p><pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n\nclass SomeClass {\n    int data_{};\npublic:\n    void setdata(int data) { data_ = data; }\n    int data() const { return data_; }\n};\n\nint main() {\n    SomeClass first, second;\n    std::cout &lt;&lt; first.data() &lt;&lt; ' ' &lt;&lt; second.data() &lt;&lt; '\\n';\n    first.setdata(1066);\n    second.setdata(1776);\n    std::cout &lt;&lt; first.data() &lt;&lt; ' ' &lt;&lt; second.data() &lt;&lt; '\\n';\n    return 0;\n}</code></pre><p>Результат:</p><pre><code class=\"language-no-highlight\">0 0\n1066 1776</code></pre><p>При создании поля обоих объектов получают ноль благодаря <code>int data_{}</code>. Поэтому метод чтения допустим сразу, без обязательного предварительного вызова <code>setdata</code>. У <code>first</code> и <code>second</code> отдельные поля; установка 1066 у первого не меняет второго.</p><p>Вызов <code>first.setdata(1066)</code> означает применение функции-члена к объекту <code>first</code>. Точка выбирает член, а круглые скобки выполняют вызов. При доступе через действительный указатель можно написать <code>pointer-&gt;setdata(1066)</code>. Закрытый доступ не мешает самим методам читать и изменять поле.</p><p>У этого учебного типа нет дополнительного ограничения значения: допустим любой <code>int</code>. Если добавить ограничение, метод изменения должен будет проверять его, как в <code>Level</code>. В следующем <a href=\"https://stepik.org/lesson/877081/step/1\">уроке о методах</a> разберём, откуда метод знает текущий объект.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3668977",
+  "time": "2026-11-22T18:35:40Z"
+}

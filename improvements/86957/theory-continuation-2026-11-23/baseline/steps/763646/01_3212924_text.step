@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Базовое представление многомерного массива на примере двумерного</h3>\n\n<p>Многомерные массивы — это что-то вроде массива внутри массива. Двумерный массив называется матрицей.</p>\n\n<p style=\"text-align: center;\"><img alt=\"\" height=\"1050\" name=\"image.png\" src=\"https://ucarecdn.stepik.net/dff104df-8d0b-40e6-819e-6c93fd9bc5d4/\" width=\"1400\"></p>\n\n<p> Самый простой пример матрицы — двумерная карта. Положение элемента на карте задаётся парой индексов: номером строки и номером столбца.</p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3212924",
+  "time": "2026-11-22T18:35:40Z"
+}

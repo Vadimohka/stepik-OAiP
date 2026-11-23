@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Постфиксный инкремент возвращает прежнее значение</h3>\n\n<p>Обычный смысл <code>counter++</code>: увеличить исходный счётчик и вернуть отдельное значение, которое было до изменения. Вычисление не откладывается до произвольного будущего момента; разница с префиксом состоит в результате выражения.</p><p>Полная программа, C++17 и C++20:</p><pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;limits&gt;\n#include &lt;stdexcept&gt;\n\nclass Counter {\n    unsigned count_{};\npublic:\n    Counter() = default;\n    explicit Counter(unsigned initial) : count_(initial) {}\n    unsigned value() const { return count_; }\n\n    Counter&amp; operator++() {\n        if (count_ == std::numeric_limits&lt;unsigned&gt;::max()) {\n            throw std::overflow_error(\"counter\");\n        }\n        ++count_;\n        return *this;\n    }\n\n    Counter operator++(int) {\n        Counter old = *this;\n        ++(*this);\n        return old;\n    }\n};\n\nint main() {\n    Counter counter;\n    Counter first = ++counter;\n    Counter old = counter++;\n    std::cout &lt;&lt; first.value() &lt;&lt; ' ' &lt;&lt; old.value() &lt;&lt; ' ' &lt;&lt; counter.value() &lt;&lt; '\\n';\n    return 0;\n}</code></pre><p>Результат:</p><pre><code class=\"language-no-highlight\">1 1 2</code></pre><p>Префикс увеличил счётчик до 1; <code>first</code> получил копию этого значения. Затем постфикс сохранил старую единицу, вызвал уже проверенный префиксный метод и вернул старую копию. Поэтому <code>old</code> равен 1, а исходный <code>counter</code> — 2.</p><p>Дополнительный параметр <code>int</code> — часть формы постфиксной перегрузки. При записи <code>counter++</code> в него передаётся ноль; имя параметра здесь опущено, потому что значение не используется. Он не означает величину приращения. Возвращаемый <code>Counter</code> — значение, тогда как префикс возвращает <code>Counter&amp;</code>.</p><p>Если счётчик уже максимален, префиксная операция внутри постфикса бросает исключение до изменения состояния. Вызов не возвращает старое значение как успешный результат. Проверка границы сосредоточена в одном месте. Возвращаемая локальная копия безопасна именно потому, что возвращается по значению, а не по ссылке.</p><p>Такой смысл согласован со встроенными операциями и удобен для чтения программы. Язык позволяет и другие возвращаемые типы, но они должны быть мотивированы контрактом; привычная запись сама по себе не доказывает корректность реализации.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3760026",
+  "time": "2026-11-22T18:35:40Z"
+}
