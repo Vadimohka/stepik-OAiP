@@ -19,6 +19,8 @@ PACKAGES = [
     ('Исправление существующих шагов', 'corrections/86957/manifest.json', 'publication.status'),
     ('Качество объяснений и практики', 'improvements/86957/quality-2026-11-23/manifest.json', 'publication.status'),
     ('Согласованное оценивание', 'improvements/86957/assessment-2026-11-23/manifest.json', 'publication.status'),
+    ('Функции и контракты', 'improvements/86957/functions-2026-11-23/manifest.json', 'publication.status'),
+    ('Задачи на запуск, сортировку и поиск', 'improvements/86957/practice-2026-11-23/manifest.json', 'publication.status'),
 ]
 
 

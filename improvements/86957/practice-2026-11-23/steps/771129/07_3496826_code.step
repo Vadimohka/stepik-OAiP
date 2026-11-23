@@ -1,0 +1,64 @@
+{
+  "block": {
+    "name": "code",
+    "text": "<h2>Первое вхождение: много запросов</h2>\n<p>Дана последовательность целых чисел, уже отсортированная по неубыванию. Для каждого запроса <code>x</code> найдите <strong>индекс первого вхождения</strong> <code>x</code>. Индексы начинаются с <strong>нуля</strong>. Если значения нет, выведите <code>−1</code>.</p>\n<p>Например, в последовательности <code>[1, 2, 2, 2, 5]</code> первое вхождение <code>2</code> имеет индекс <code>1</code>. Последующие одинаковые элементы не меняют ответ.</p>\n<h3>Входные данные</h3>\n<p>Сначала даны числа <code>n</code> и <code>q</code>: длина последовательности и количество запросов; <code>0 ≤ n ≤ 100000</code>, <code>0 ≤ q ≤ 100000</code>. Затем идут <code>n</code> элементов последовательности и <code>q</code> значений запросов. Все значения — целые числа от <code>−1000000000</code> до <code>1000000000</code> включительно. Числа разделены пробельными символами. При <code>n = 0</code> элементов последовательности нет: после <code>n q</code> сразу идут запросы.</p>\n<p>Отсортированность гарантирована условием. Не нужно заново сортировать последовательность или проверять её отсортированность перед каждым запросом.</p>\n<h3>Выходные данные</h3>\n<p>Выведите ровно <code>q</code> ответов в порядке запросов: индекс первого вхождения либо <code>−1</code>. Удобно печатать каждый ответ на новой строке; любые пробельные разделители допустимы. При <code>q = 0</code> вывод не должен содержать чисел. Для пустой последовательности ответ на каждый запрос — <code>−1</code>.</p>\n<h3>На что обратить внимание</h3>\n<p>Используйте двоичный поиск первого подходящего индекса на полуинтервале <code>[left, right)</code> или <code>std::lower_bound</code> из <code>&lt;algorithm&gt;</code> для <code>std::vector&lt;int&gt;</code>. Найденная граница ещё не означает, что значение существует: сначала убедитесь, что она не равна концу, затем проверьте равенство ключу.</p>\n<p>Для одного запроса достаточно логарифмического числа сравнений; для всех запросов — <code>O(q log(n + 1))</code>. С учётом ввода последовательности и вывода ответов полный объём работы составляет <code>O(n + q + q log(n + 1))</code>. Такой подход подходит для верхних границ <code>n</code> и <code>q</code>.</p>",
+    "video": null,
+    "options": {
+      "execution_time_limit": 1,
+      "execution_memory_limit": 32,
+      "limits": {
+        "c++": {
+          "time": 1,
+          "memory": 32
+        }
+      },
+      "code_templates": {
+        "c++": "#include <iostream>\n\nint main() {\n    // put your code here\n    return 0;\n}"
+      },
+      "code_templates_header_lines_count": {
+        "c++": 0
+      },
+      "code_templates_footer_lines_count": {
+        "c++": 0
+      },
+      "code_templates_options": {},
+      "samples": [
+        [
+          "6 5\n-3 1 1 1 7 9\n1 9 -3 2 10\n",
+          "1\n5\n0\n-1\n-1\n"
+        ],
+        [
+          "0 3\n\n-1 0 5\n",
+          "-1\n-1\n-1\n"
+        ],
+        [
+          "1 4\n4\n4 3 5 4\n",
+          "0\n-1\n-1\n0\n"
+        ]
+      ],
+      "is_run_user_code_allowed": false
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "code": "\"\"\"Stepik source.code for step 3496826. Deterministic generate/solve/check.\n\ncase_specs is a local helper, not an additional Stepik API entry point.\n\"\"\"\n\nimport re\n\n\ndef _dataset(values, queries):\n    return \"{} {}\\n{}\\n{}\\n\".format(\n        len(values), len(queries),\n        \" \".join(map(str, values)), \" \".join(map(str, queries))\n    )\n\n\ndef _numbers(seed):\n    while True:\n        seed = (1664525 * seed + 1013904223) % 4294967296\n        yield seed\n\n\ndef case_specs():\n    # These three cases are the displayed samples (samples_count remains 3).\n    yield \"sample_duplicates\", _dataset(\n        [-3, 1, 1, 1, 7, 9], [1, 9, -3, 2, 10]\n    ), [\"sample\", \"duplicates\", \"first_index\", \"missing\", \"zero_index\"]\n    yield \"sample_empty\", _dataset([], [-1, 0, 5]), [\"sample\", \"empty\"]\n    yield \"sample_singleton\", _dataset([4], [4, 3, 5, 4]), [\n        \"sample\", \"singleton\", \"missing\", \"repeated_queries\"\n    ]\n    yield \"empty_no_queries\", _dataset([], []), [\"empty\", \"zero_queries\"]\n    yield \"nonempty_no_queries\", _dataset([-2, 0, 0, 9], []), [\"zero_queries\"]\n    yield \"all_equal\", _dataset([5] * 9, [5, 4, 6, 5]), [\n        \"duplicates\", \"first_index\", \"missing\"\n    ]\n    yield \"missing_gaps\", _dataset([-10, -4, 0, 6, 12], [-11, -8, -1, 3, 11, 13]), [\n        \"missing\", \"negative\", \"gaps\"\n    ]\n    yield \"both_ends_duplicates\", _dataset(\n        [-7, -7, -7, 0, 1, 9, 9], [9, -7, 1, 0, -8, 10]\n    ), [\"duplicates\", \"first_index\", \"ends\"]\n    yield \"signed_bounds\", _dataset(\n        [-1000000000, -1000000000, 0, 1000000000, 1000000000],\n        [-1000000000, 1000000000, -999999999, 999999999, 0]\n    ), [\"bounds\", \"duplicates\", \"missing\"]\n    yield \"length_two\", _dataset([-1, 1], [-1, 1, 0, -2, 2]), [\"two_elements\"]\n    for n in (3, 5, 16, 31, 64, 101, 257, 1000):\n        numbers = _numbers(3496826 + n)\n        values = sorted(next(numbers) % 201 - 100 for _ in range(n))\n        queries = [next(numbers) % 301 - 150 for _ in range(2 * n)]\n        queries.extend((values[0], values[-1]))\n        yield \"generated_{}\".format(n), _dataset(values, queries), [\n            \"deterministic_generated\", \"duplicates\", \"missing\", \"negative\"\n        ]\n    yield \"max_empty_queries\", _dataset([], [0] * 100000), [\"empty\", \"max_q\"]\n    yield \"max_equal\", _dataset([7] * 100000, [7, 6, 8, 7] * 25000), [\n        \"max_n\", \"max_q\", \"duplicates\", \"first_index\", \"missing\"\n    ]\n    yield \"max_distinct\", _dataset(\n        [2 * i - 100000 for i in range(100000)],\n        [(7919 * i) % 200001 - 100001 for i in range(100000)]\n    ), [\"max_n\", \"max_q\", \"missing\", \"negative\", \"many_queries\"]\n    yield \"max_groups\", _dataset(\n        [i // 5 - 10000 for i in range(100000)],\n        [(1543 * i) % 22001 - 11000 for i in range(100000)]\n    ), [\"max_n\", \"max_q\", \"duplicates\", \"first_index\", \"missing\", \"many_queries\"]\n\n\ndef solve(dataset):\n    tokens = list(map(int, dataset.split()))\n    n, q = tokens[:2]\n    assert 0 <= n <= 100000 and 0 <= q <= 100000\n    assert len(tokens) == 2 + n + q\n    values = tokens[2:2 + n]\n    queries = tokens[2 + n:]\n    assert all(-1000000000 <= value <= 1000000000 for value in values + queries)\n    assert all(a <= b for a, b in zip(values, values[1:]))\n    # Independent oracle: first positions in a dictionary, not binary search.\n    first = {}\n    for index, value in enumerate(values):\n        if value not in first:\n            first[value] = index\n    return \"\".join(\"{}\\n\".format(first.get(value, -1)) for value in queries)\n\n\ndef generate():\n    return [(dataset, solve(dataset)) for _, dataset, _ in case_specs()]\n\n\ndef check(reply, clue):\n    actual = reply.split()\n    expected = clue.split()\n    if len(actual) != len(expected):\n        return False\n    for got, wanted in zip(actual, expected):\n        if re.fullmatch(r\"[+-]?[0-9]+\", got) is None:\n            return False\n        try:\n            if int(got) != int(wanted):\n                return False\n        except ValueError:\n            return False\n    return True\n",
+      "execution_time_limit": 1,
+      "execution_memory_limit": 32,
+      "samples_count": 3,
+      "templates_data": "::c++",
+      "is_time_limit_scaled": false,
+      "is_memory_limit_scaled": false,
+      "is_run_user_code_allowed": false,
+      "manual_time_limits": [],
+      "manual_memory_limits": [],
+      "test_archive": [],
+      "test_cases": []
+    },
+    "subtitles": {},
+    "tests_archive": "/api/step-sources/3496826/tests",
+    "feedback_correct": "Верно: соблюдены формат результата и все условия задачи, включая граничные случаи.",
+    "feedback_wrong": "Проверьте первый индекс, индексацию с нуля, отсутствующий ключ и пустую последовательность."
+  },
+  "id": "3496826",
+  "time": "2026-11-22T18:35:40Z"
+}

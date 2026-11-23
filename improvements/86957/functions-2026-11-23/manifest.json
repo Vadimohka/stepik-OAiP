@@ -1,0 +1,275 @@
+{
+  "schema_version": 1,
+  "course_id": 86957,
+  "date": "2026-11-23",
+  "base_commit": "498e5468863becfdf72f5c73ca52bd2ebfeaf229",
+  "status": "prepared",
+  "changed_steps": 12,
+  "changed_lessons": 3,
+  "publication": {
+    "status": "not_published",
+    "applied": false,
+    "note": "Подготовлено в GitHub; в Stepik в этой итерации не применялось."
+  },
+  "dependencies": [],
+  "steps": [
+    {
+      "step_id": 3212949,
+      "lesson_id": 770590,
+      "position": 1,
+      "source_path": "courses/86957/steps/770590/01_3212949_text.step",
+      "target_path": "improvements/86957/functions-2026-11-23/steps/770590/01_3212949_text.step",
+      "baseline_path": "improvements/86957/functions-2026-11-23/baseline/steps/770590/01_3212949_text.step",
+      "before_file_sha256": "0bdf7c0da08038b378794cdd63207c9b8b06cc424a3133e27d5343063b0fb8dc",
+      "after_file_sha256": "ab1b007bf8b51b1e3b4f4fc340dfc984f9bf50b006a914f5491b02b2d13d4ca3",
+      "before_block_sha256": "f6e0fce6d889f3cd8f2d0d4e37b203ad101df6c64cc8e0cfe3a223c1bf172f9c",
+      "after_block_sha256": "ce82f7b549eacefd6cd6fbb2f0100276c861b36347c93e1cc240d41c63464319",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Введены контракт функции, границы входа и разделение вычисления и ввода-вывода; добавлена полная проверяемая программа.",
+      "sources": [
+        "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rf-logical",
+        "https://timsong-cpp.github.io/cppwp/n4861/expr.call"
+      ],
+      "step_url": "https://stepik.org/lesson/770590/step/1"
+    },
+    {
+      "step_id": 3214909,
+      "lesson_id": 770590,
+      "position": 2,
+      "source_path": "courses/86957/steps/770590/02_3214909_text.step",
+      "target_path": "improvements/86957/functions-2026-11-23/steps/770590/02_3214909_text.step",
+      "baseline_path": "improvements/86957/functions-2026-11-23/baseline/steps/770590/02_3214909_text.step",
+      "before_file_sha256": "d3175f9e5250ad351fc38179f69ba430097547f1bcd4b776ecd565c488c722ad",
+      "after_file_sha256": "3f67144c1751a20a48a328c4b53ee69d55f31e22e55ab4bbc91ed5a86cb7ee23",
+      "before_block_sha256": "3189b04866bef1254e9f3caf18f7aed87702df74e8b7c4d53218c844f765915d",
+      "after_block_sha256": "ab48a1095c68df14788ccc0e6f9c6651454500574430f23bf0f60e98d92d04b4",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Согласованы объявление, определение и вызов; сохранены важные правила ODR, auto, перегрузок и зарезервированных имён.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4861/basic.def.odr",
+        "https://timsong-cpp.github.io/cppwp/n4861/dcl.spec.auto",
+        "https://timsong-cpp.github.io/cppwp/n4861/lex.name"
+      ],
+      "step_url": "https://stepik.org/lesson/770590/step/2"
+    },
+    {
+      "step_id": 3214910,
+      "lesson_id": 770590,
+      "position": 3,
+      "source_path": "courses/86957/steps/770590/03_3214910_text.step",
+      "target_path": "improvements/86957/functions-2026-11-23/steps/770590/03_3214910_text.step",
+      "baseline_path": "improvements/86957/functions-2026-11-23/baseline/steps/770590/03_3214910_text.step",
+      "before_file_sha256": "23c441645e1458bce2e6246c5f90fc13bb8c874d94e0246394e2b6f8149b8c8b",
+      "after_file_sha256": "bef7275f0271da956de32176e7a560ad897193174af3799f2a739bc08c46a91e",
+      "before_block_sha256": "cbc05fddf036f84e0fe51737ac05f0f5e341a2962898ca6396ea312dfae6e1fd",
+      "after_block_sha256": "4bb94b334d44a8086fe59dd5626c574b6f2033113a174bc680190384bce0602d",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "constexpr, inline и static разведены по назначению; корректная степень имеет явный диапазон и обработку нулевой степени.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4861/dcl.constexpr",
+        "https://timsong-cpp.github.io/cppwp/n4861/dcl.inline",
+        "https://timsong-cpp.github.io/cppwp/n4861/basic.link"
+      ],
+      "step_url": "https://stepik.org/lesson/770590/step/3"
+    },
+    {
+      "step_id": 3214911,
+      "lesson_id": 770590,
+      "position": 4,
+      "source_path": "courses/86957/steps/770590/04_3214911_text.step",
+      "target_path": "improvements/86957/functions-2026-11-23/steps/770590/04_3214911_text.step",
+      "baseline_path": "improvements/86957/functions-2026-11-23/baseline/steps/770590/04_3214911_text.step",
+      "before_file_sha256": "6019db50b36a2fe5a4208c7cb528ff9ae97a3056df5b93c9efc803064afe3530",
+      "after_file_sha256": "4871fea08b35648202e31dae5388b99a1d44a9159ac97c0ec8c43e72618b7bd5",
+      "before_block_sha256": "589e93ea13947902613025de59510e5856b5544eba9eb25f40afeec70f1434c2",
+      "after_block_sha256": "a5f7919a6710003da4d3143946cb26cc9335a20a087f90e74b200dde2b1a03e9",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Возврат значения объяснён через время жизни; безопасный пример заменил зависимость от несуществующего класса.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4861/stmt.return",
+        "https://timsong-cpp.github.io/cppwp/n4861/basic.life",
+        "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rf-dangle"
+      ],
+      "step_url": "https://stepik.org/lesson/770590/step/4"
+    },
+    {
+      "step_id": 3212950,
+      "lesson_id": 770591,
+      "position": 1,
+      "source_path": "courses/86957/steps/770591/01_3212950_text.step",
+      "target_path": "improvements/86957/functions-2026-11-23/steps/770591/01_3212950_text.step",
+      "baseline_path": "improvements/86957/functions-2026-11-23/baseline/steps/770591/01_3212950_text.step",
+      "before_file_sha256": "66922042825c391bdc4f99710ee0a2d82c46d696447e7226f4648420773bda7e",
+      "after_file_sha256": "7f8061f9d87bb27d1a38a3bd04ce82175742908940d344c94d5d8e3a630e438b",
+      "before_block_sha256": "b503dd23c4cc1e55ac12cd3debb50263074c95a49c4b470c901955621890d69c",
+      "after_block_sha256": "4ee8d74e7104c1db27ca989ed113d835203d97d77308969da2d4b2f8280b56fa",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Декомпозиция показана через композицию чистых функций и отдельную проверку ввода в main.",
+      "sources": [
+        "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rf-logical",
+        "https://timsong-cpp.github.io/cppwp/n4861/stmt.return"
+      ],
+      "step_url": "https://stepik.org/lesson/770591/step/1"
+    },
+    {
+      "step_id": 3214973,
+      "lesson_id": 770591,
+      "position": 2,
+      "source_path": "courses/86957/steps/770591/02_3214973_text.step",
+      "target_path": "improvements/86957/functions-2026-11-23/steps/770591/02_3214973_text.step",
+      "baseline_path": "improvements/86957/functions-2026-11-23/baseline/steps/770591/02_3214973_text.step",
+      "before_file_sha256": "5711a52ba139a72ef3bd8fc2a3a8644745c4282c8e7f00121156b1b940521cf2",
+      "after_file_sha256": "3c434e280fa01cc5434c59bf5389befbc815c625b722b780bb0ab770c5a077ea",
+      "before_block_sha256": "b5b545c61b09103b0ab537f67de063f1cd5428ffb223a9285878c62e060eb10f",
+      "after_block_sha256": "2013d5fa03918f5dff6cbac8b2f219bee64a934d0617a04d395b0367d5cfc606",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Область видимости изучается на корректной передаче параметра; убрано введение глобальной переменной как основного исправления.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4861/basic.scope",
+        "https://timsong-cpp.github.io/cppwp/n4861/expr.call"
+      ],
+      "step_url": "https://stepik.org/lesson/770591/step/2"
+    },
+    {
+      "step_id": 3214972,
+      "lesson_id": 770591,
+      "position": 3,
+      "source_path": "courses/86957/steps/770591/03_3214972_text.step",
+      "target_path": "improvements/86957/functions-2026-11-23/steps/770591/03_3214972_text.step",
+      "baseline_path": "improvements/86957/functions-2026-11-23/baseline/steps/770591/03_3214972_text.step",
+      "before_file_sha256": "25bd9d5a35a91ce48c521079e569a5f244d118c3d2554acc6b38783f1e67083e",
+      "after_file_sha256": "531132413c159676c6b2cdfe5505007b50df793e64b5a5015b817c83ecd523f5",
+      "before_block_sha256": "4c10d7395432c69d471f7c86e62a1458ce4ae9425757ebf1d46e8ebd316126fa",
+      "after_block_sha256": "8c24050d88046f0a3a6246bc733ecf90bbb53b91691e25224324c4986c7f3c03",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Аргументы по умолчанию заданы один раз в видимом объявлении; показан результат, а не смешивание вычисления с печатью.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4861/dcl.fct.default",
+        "https://timsong-cpp.github.io/cppwp/n4861/expr.call"
+      ],
+      "step_url": "https://stepik.org/lesson/770591/step/3"
+    },
+    {
+      "step_id": 3214971,
+      "lesson_id": 770591,
+      "position": 4,
+      "source_path": "courses/86957/steps/770591/04_3214971_text.step",
+      "target_path": "improvements/86957/functions-2026-11-23/steps/770591/04_3214971_text.step",
+      "baseline_path": "improvements/86957/functions-2026-11-23/baseline/steps/770591/04_3214971_text.step",
+      "before_file_sha256": "ae8fc4863b0660b9e4c207b00a6f339c348377de27c82aaf70a2d6aeccce8f03",
+      "after_file_sha256": "092782ef081f10a39c9d20a01623391dfa0c1282b49172b7c9117e20c42b2fe4",
+      "before_block_sha256": "341c0672fd334790f55242e5c68b1ae8d928a0303b7252f6d310524165ec2c59",
+      "after_block_sha256": "39240c928f77c6ca9c5e28457aaf3f5bbd5277078f64ab8ebfdf7ecf03c14b90",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Явно сопоставлены возврат нового значения и изменение исходного объекта через ссылку.",
+      "sources": [
+        "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rf-inout",
+        "https://timsong-cpp.github.io/cppwp/n4861/dcl.init.ref"
+      ],
+      "step_url": "https://stepik.org/lesson/770591/step/4"
+    },
+    {
+      "step_id": 3214974,
+      "lesson_id": 770591,
+      "position": 5,
+      "source_path": "courses/86957/steps/770591/05_3214974_text.step",
+      "target_path": "improvements/86957/functions-2026-11-23/steps/770591/05_3214974_text.step",
+      "baseline_path": "improvements/86957/functions-2026-11-23/baseline/steps/770591/05_3214974_text.step",
+      "before_file_sha256": "d0cab9288c756adaed93a237ec5cd016c3c24451ea84d23950a32854d3fadd5d",
+      "after_file_sha256": "c6ab9de421bd9af0bfb74150a093918373dde02d5148eb53d4a44abfa1820660",
+      "before_block_sha256": "ef51d5e7c2a338dafd6f2fabf8883f170a46410c08efec98dbc0af3d3dc755bc",
+      "after_block_sha256": "0e9a02c33551cebb49a50d5fae48f733a72bdf1bab4b4930a07d74fb48d89bc8",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "const-ссылка показана на векторе; добавлены пустой диапазон, выбор интерфейса и практика подсчёта.",
+      "sources": [
+        "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rf-in",
+        "https://timsong-cpp.github.io/cppwp/n4861/dcl.type.cv"
+      ],
+      "step_url": "https://stepik.org/lesson/770591/step/5"
+    },
+    {
+      "step_id": 3215024,
+      "lesson_id": 770591,
+      "position": 6,
+      "source_path": "courses/86957/steps/770591/06_3215024_text.step",
+      "target_path": "improvements/86957/functions-2026-11-23/steps/770591/06_3215024_text.step",
+      "baseline_path": "improvements/86957/functions-2026-11-23/baseline/steps/770591/06_3215024_text.step",
+      "before_file_sha256": "08514056857ca596ef1543d21c3eebbd03da514cb5a1cc660bd95b33c9295e5f",
+      "after_file_sha256": "9626344252eb3b341259ee64142ad8082cbaaa9e9da4b60e67049efeaf128b3b",
+      "before_block_sha256": "d3027cd8fbcaa61f954695a50e21f7c415f01ba71456a4fe2220cc0969d7037f",
+      "after_block_sha256": "6fc1079f0fc52bc04cf398391c5c24a45665efae1c96eca01508bb70e2323492",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Указатель дополнен явной длиной и контрактом; sizeof отделён от размера; ручная матрица new[] заменена владеющим контейнером.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4861/dcl.fct",
+        "https://timsong-cpp.github.io/cppwp/n4861/conv.array",
+        "https://timsong-cpp.github.io/cppwp/n4861/iterator.range"
+      ],
+      "step_url": "https://stepik.org/lesson/770591/step/6"
+    },
+    {
+      "step_id": 3214978,
+      "lesson_id": 770591,
+      "position": 7,
+      "source_path": "courses/86957/steps/770591/07_3214978_text.step",
+      "target_path": "improvements/86957/functions-2026-11-23/steps/770591/07_3214978_text.step",
+      "baseline_path": "improvements/86957/functions-2026-11-23/baseline/steps/770591/07_3214978_text.step",
+      "before_file_sha256": "1dcda267fe8af941ccc69d1e138a7d560894a97af9fee60d26d11bde065aa1d9",
+      "after_file_sha256": "0ddbd5999601fd524f84ba57c59a2b28c799442fa2b2d8b21c27804420a4bcba",
+      "before_block_sha256": "5d2bd865ed728228c934ee736b334cb3f44e4b49f2eba6dfca0611924c919433",
+      "after_block_sha256": "501bc562df9dfd7e0dff664f1e69165d84293130626668fb2d74064d4c22fad6",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Рекурсия получила проверяемый базовый случай, ограничение 0..20, оценку глубины и итеративную альтернативу.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4861/expr.call",
+        "https://timsong-cpp.github.io/cppwp/n4861/basic.fundamental"
+      ],
+      "step_url": "https://stepik.org/lesson/770591/step/7"
+    },
+    {
+      "step_id": 3214992,
+      "lesson_id": 770592,
+      "position": 1,
+      "source_path": "courses/86957/steps/770592/01_3214992_text.step",
+      "target_path": "improvements/86957/functions-2026-11-23/steps/770592/01_3214992_text.step",
+      "baseline_path": "improvements/86957/functions-2026-11-23/baseline/steps/770592/01_3214992_text.step",
+      "before_file_sha256": "0df86a3eec021f3fb5557e406bdeb5aa951c85c7e74558ff498c98c30f97a051",
+      "after_file_sha256": "2019a0ce012411e74894844ada93ba3d58c52d94689bb99bc334134c5a41f2c1",
+      "before_block_sha256": "f9af71d95c3460a499872dce4ff4baf5c7d56f1afbbf83d07ae85b3b4064b5f2",
+      "after_block_sha256": "341806998c51112118967c706a85c2f35c7a7a01b7a52bf6f64fe56903fcc496",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Разделены область видимости, время жизни, хранение и связывание; добавлен полный пример сохранения локального static.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4861/basic.stc",
+        "https://timsong-cpp.github.io/cppwp/n4861/stmt.dcl",
+        "https://timsong-cpp.github.io/cppwp/n4861/basic.link",
+        "https://timsong-cpp.github.io/cppwp/n4861/expr.call"
+      ],
+      "step_url": "https://stepik.org/lesson/770592/step/1"
+    }
+  ]
+}

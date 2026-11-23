@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Константные параметры</h3>\n\n<p>Параметры могут быть константными - значения таких параметров не могут меняться. Например:</p>\n\n<pre><code class=\"language-cpp\">void square(const int n) {\n    // n = n * n;  // можно считать значение параметра, но не изменять его\n    std::cout &lt;&lt; n * n &lt;&lt; std::endl;\n}</code></pre>\n\n<p>Константному параметру можно передать в качестве аргумента как константу, так и переменную.</p>\n\n<p>При передаче по значению параметр получает копию значения аргумента. Поэтому параметр int можно изменять, даже если исходный аргумент был const int. Сама исходная константа при этом не изменяется.</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n \nvoid square(int, int);\n \nint main() {\n    const int a = 4;\n    const int b = 5;\n    square(a, b);   // 400\n    return 0;\n}\n\nvoid square(int a, int b) {\n    a = a * a;\n    b = b * b;\n    std::cout &lt;&lt; \"In square: a * b = \" &lt;&lt; a * b &lt;&lt; std::endl;\n}</code></pre>\n\n<h3>Константные ссылки</h3>\n\n<p>Если функция получает аргументы по ссылке, то чтобы передать в функцию константу, параметры тоже должны представлять ссылку на константу:</p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n \nvoid square(const int&amp;, const int&amp;);\n \nint main() {\n    const int a = 4;\n    const int b = 5;\n    square(a, b);   // 20\n    return 0;\n}\n\nvoid square(const int &amp;a, const int &amp;b) {\n    // a = a * a;   так нельзя сделать\n    // b = b * b;   так нельзя сделать\n    std::cout &lt;&lt; \"In square: a * b = \" &lt;&lt; a * b &lt;&lt; std::endl;\n}</code></pre>\n\n<p>И если в функцию необходимо передать большие объекты, которые не должны изменяться, то определение параметров именно как константных ссылок больше всего подходит для данной задачи.</p>\n\n<h3>Возвращение ссылки</h3>\n\n<p>Нельзя возвращать ссылку на автоматический локальный объект, время жизни которого заканчивается при выходе из функции. Такая ссылка становится висячей. Это не относится к объектам с другим временем хранения, например к локальной переменной с static. Следующий пример намеренно ошибочен:</p>\n\n<pre><code class=\"language-cpp\">int &amp;factorial(int n) {\n    int result = 1;\n    for (int i = 1; i &lt;= n; i++) {\n        result *= i;\n    }\n    return result;\n}</code></pre>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3214974",
+  "time": "2026-11-22T18:35:40Z"
+}

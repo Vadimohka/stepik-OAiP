@@ -1,0 +1,15 @@
+{
+  "course_id": 86957,
+  "changes": [
+    {
+      "step_id": 4643238,
+      "path": "steps/763630/09_4643238_code.step",
+      "summary": "Разрешён C++ в первом программном шаге; условие явно различает математическое упрощение и вычисление в ограниченном числовом типе. Прежние C, тесты, ключи и лимиты сохранены.",
+      "sources": [
+        "https://github.com/StepicOrg/stepik-plugins/blob/master/stepic_plugins/quizzes/code/__init__.py",
+        "https://eel.is/c++draft/expr.pre"
+      ],
+      "assessment_semantics": "preserved"
+    }
+  ]
+}

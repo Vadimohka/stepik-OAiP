@@ -1,0 +1,1205 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "all_passed": true,
+  "started_at": "2026-11-23T07:37:05.128099+00:00",
+  "compiler_command": "g++",
+  "standards": [
+    "c++17",
+    "c++20"
+  ],
+  "flags": [
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-Werror",
+    "-O2",
+    "-DNDEBUG"
+  ],
+  "input_sha256": {
+    "verify.py": "80806056e052e078a944e8706ba33603053d3ee1dcf20a45ff11ba3fcfc4a3c3",
+    "cases.json": "d4d0ddd57769d124f0a3a80219eebcde05ad37186ffe7559af9b4c2ed0cea5c6",
+    "changes_functions.json": "64cc0036102dc9aaab879a0bd1cb7f9f240d1fdd8344167fe3c3d85513dd0f29",
+    "steps/770590/01_3212949_text.step": "ab1b007bf8b51b1e3b4f4fc340dfc984f9bf50b006a914f5491b02b2d13d4ca3",
+    "steps/770590/02_3214909_text.step": "3f67144c1751a20a48a328c4b53ee69d55f31e22e55ab4bbc91ed5a86cb7ee23",
+    "steps/770590/03_3214910_text.step": "bef7275f0271da956de32176e7a560ad897193174af3799f2a739bc08c46a91e",
+    "steps/770590/04_3214911_text.step": "4871fea08b35648202e31dae5388b99a1d44a9159ac97c0ec8c43e72618b7bd5",
+    "steps/770591/01_3212950_text.step": "7f8061f9d87bb27d1a38a3bd04ce82175742908940d344c94d5d8e3a630e438b",
+    "steps/770591/02_3214973_text.step": "3c434e280fa01cc5434c59bf5389befbc815c625b722b780bb0ab770c5a077ea",
+    "steps/770591/03_3214972_text.step": "531132413c159676c6b2cdfe5505007b50df793e64b5a5015b817c83ecd523f5",
+    "steps/770591/04_3214971_text.step": "092782ef081f10a39c9d20a01623391dfa0c1282b49172b7c9117e20c42b2fe4",
+    "steps/770591/05_3214974_text.step": "c6ab9de421bd9af0bfb74150a093918373dde02d5148eb53d4a44abfa1820660",
+    "steps/770591/06_3215024_text.step": "9626344252eb3b341259ee64142ad8082cbaaa9e9da4b60e67049efeaf128b3b",
+    "steps/770591/07_3214978_text.step": "0ddbd5999601fd524f84ba57c59a2b28c799442fa2b2d8b21c27804420a4bcba",
+    "steps/770592/01_3214992_text.step": "2019a0ce012411e74894844ada93ba3d58c52d94689bb99bc334134c5a41f2c1",
+    "baseline/steps/770590/01_3212949_text.step": "0bdf7c0da08038b378794cdd63207c9b8b06cc424a3133e27d5343063b0fb8dc",
+    "baseline/steps/770590/02_3214909_text.step": "d3175f9e5250ad351fc38179f69ba430097547f1bcd4b776ecd565c488c722ad",
+    "baseline/steps/770590/03_3214910_text.step": "23c441645e1458bce2e6246c5f90fc13bb8c874d94e0246394e2b6f8149b8c8b",
+    "baseline/steps/770590/04_3214911_text.step": "6019db50b36a2fe5a4208c7cb528ff9ae97a3056df5b93c9efc803064afe3530",
+    "baseline/steps/770591/01_3212950_text.step": "66922042825c391bdc4f99710ee0a2d82c46d696447e7226f4648420773bda7e",
+    "baseline/steps/770591/02_3214973_text.step": "5711a52ba139a72ef3bd8fc2a3a8644745c4282c8e7f00121156b1b940521cf2",
+    "baseline/steps/770591/03_3214972_text.step": "25bd9d5a35a91ce48c521079e569a5f244d118c3d2554acc6b38783f1e67083e",
+    "baseline/steps/770591/04_3214971_text.step": "ae8fc4863b0660b9e4c207b00a6f339c348377de27c82aaf70a2d6aeccce8f03",
+    "baseline/steps/770591/05_3214974_text.step": "d0cab9288c756adaed93a237ec5cd016c3c24451ea84d23950a32854d3fadd5d",
+    "baseline/steps/770591/06_3215024_text.step": "08514056857ca596ef1543d21c3eebbd03da514cb5a1cc660bd95b33c9295e5f",
+    "baseline/steps/770591/07_3214978_text.step": "1dcda267fe8af941ccc69d1e138a7d560894a97af9fee60d26d11bde065aa1d9",
+    "baseline/steps/770592/01_3214992_text.step": "0df86a3eec021f3fb5557e406bdeb5aa951c85c7e74558ff498c98c30f97a051",
+    "examples/array_parameter.cpp": "d56db11e57fcad734af291533b92ef33ca18aef8fed3a33f4e3559034428ceb2",
+    "examples/const_reference.cpp": "43674b39783285700b575a2852402317d4a68dc9fbe2d58f235233ba9ebcebd3",
+    "examples/constexpr_power.cpp": "56cc01928ab248a82ac4b820b2cf4de3dd162af6f78f1fdd58f34b00d3ac08a8",
+    "examples/declaration.cpp": "1ff78aaf6d6e627b6cccea3c0b64d0589c9b55b968d4c0ff9c0c32079616e2a8",
+    "examples/decomposition.cpp": "90afa5b3f8bcf6f3b91049093ef2ee27e6f72dfa69add12c088959a6d0337733",
+    "examples/default_arguments.cpp": "d544919a779abae6550b8b64efb12d543f02c511e0e16d7763bddf8a35fceb78",
+    "examples/matrix_parameter.cpp": "e3e71f5b1d8627ec3a4c200caaaeb633ff17147d56f41638223048faa19988d4",
+    "examples/parameters_scope.cpp": "2fe710fe8910f30747ff1c7ba2a0f3046c298ec333e90389c1a2af87ef4c071c",
+    "examples/recursion.cpp": "6f0fd48186bd2d2e4ab7ab8c3b77fbdc4f4733e8138a5800df4470581f65d62b",
+    "examples/return_value.cpp": "cd857af03a31caf428ad617cee8b1ba72849e39a89fcff9b059f6b2b9d631518",
+    "examples/storage_duration.cpp": "5b1ffce13ecbe06352d250346d80e5ac4d3380a9965510e37934afd662d5215d",
+    "examples/sum_contract.cpp": "379963377d5700441027600b3a33a4233d57af245178cc1798fc77d9f3cf38c4",
+    "examples/value_reference.cpp": "946022df606198ae43588bc49b0d55449fc56c8e3cfe1577eeaf0bff2fbfa926"
+  },
+  "material_checks": [
+    {
+      "step_id": 3212949,
+      "source": "steps/770590/01_3212949_text.step",
+      "cpp_blocks": 1,
+      "only_block_text_changed": true,
+      "status": "passed"
+    },
+    {
+      "step_id": 3214909,
+      "source": "steps/770590/02_3214909_text.step",
+      "cpp_blocks": 1,
+      "only_block_text_changed": true,
+      "status": "passed"
+    },
+    {
+      "step_id": 3214910,
+      "source": "steps/770590/03_3214910_text.step",
+      "cpp_blocks": 1,
+      "only_block_text_changed": true,
+      "status": "passed"
+    },
+    {
+      "step_id": 3214911,
+      "source": "steps/770590/04_3214911_text.step",
+      "cpp_blocks": 1,
+      "only_block_text_changed": true,
+      "status": "passed"
+    },
+    {
+      "step_id": 3212950,
+      "source": "steps/770591/01_3212950_text.step",
+      "cpp_blocks": 1,
+      "only_block_text_changed": true,
+      "status": "passed"
+    },
+    {
+      "step_id": 3214973,
+      "source": "steps/770591/02_3214973_text.step",
+      "cpp_blocks": 1,
+      "only_block_text_changed": true,
+      "status": "passed"
+    },
+    {
+      "step_id": 3214972,
+      "source": "steps/770591/03_3214972_text.step",
+      "cpp_blocks": 1,
+      "only_block_text_changed": true,
+      "status": "passed"
+    },
+    {
+      "step_id": 3214971,
+      "source": "steps/770591/04_3214971_text.step",
+      "cpp_blocks": 1,
+      "only_block_text_changed": true,
+      "status": "passed"
+    },
+    {
+      "step_id": 3214974,
+      "source": "steps/770591/05_3214974_text.step",
+      "cpp_blocks": 1,
+      "only_block_text_changed": true,
+      "status": "passed"
+    },
+    {
+      "step_id": 3215024,
+      "source": "steps/770591/06_3215024_text.step",
+      "cpp_blocks": 2,
+      "only_block_text_changed": true,
+      "status": "passed"
+    },
+    {
+      "step_id": 3214978,
+      "source": "steps/770591/07_3214978_text.step",
+      "cpp_blocks": 1,
+      "only_block_text_changed": true,
+      "status": "passed"
+    },
+    {
+      "step_id": 3214992,
+      "source": "steps/770592/01_3214992_text.step",
+      "cpp_blocks": 1,
+      "only_block_text_changed": true,
+      "status": "passed"
+    }
+  ],
+  "results": [
+    {
+      "source": "sum_contract.cpp",
+      "step_id": 3212949,
+      "standard": "c++17",
+      "status": "passed",
+      "cases": [
+        {
+          "name": "sample",
+          "status": "passed"
+        },
+        {
+          "name": "zero",
+          "status": "passed"
+        },
+        {
+          "name": "cancel",
+          "status": "passed"
+        },
+        {
+          "name": "upper",
+          "status": "passed"
+        },
+        {
+          "name": "lower",
+          "status": "passed"
+        },
+        {
+          "name": "outside-a",
+          "status": "passed"
+        },
+        {
+          "name": "outside-b",
+          "status": "passed"
+        },
+        {
+          "name": "missing",
+          "status": "passed"
+        },
+        {
+          "name": "malformed",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "source": "declaration.cpp",
+      "step_id": 3214909,
+      "standard": "c++17",
+      "status": "passed",
+      "cases": [
+        {
+          "name": "left",
+          "status": "passed"
+        },
+        {
+          "name": "right",
+          "status": "passed"
+        },
+        {
+          "name": "equal",
+          "status": "passed"
+        },
+        {
+          "name": "negative",
+          "status": "passed"
+        },
+        {
+          "name": "zero",
+          "status": "passed"
+        },
+        {
+          "name": "missing",
+          "status": "passed"
+        },
+        {
+          "name": "malformed",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "source": "constexpr_power.cpp",
+      "step_id": 3214910,
+      "standard": "c++17",
+      "status": "passed",
+      "cases": [
+        {
+          "name": "sample",
+          "status": "passed"
+        },
+        {
+          "name": "zero-zero",
+          "status": "passed"
+        },
+        {
+          "name": "zero-base",
+          "status": "passed"
+        },
+        {
+          "name": "zero-exponent",
+          "status": "passed"
+        },
+        {
+          "name": "negative-odd",
+          "status": "passed"
+        },
+        {
+          "name": "negative-even",
+          "status": "passed"
+        },
+        {
+          "name": "upper",
+          "status": "passed"
+        },
+        {
+          "name": "lower",
+          "status": "passed"
+        },
+        {
+          "name": "negative-exponent",
+          "status": "passed"
+        },
+        {
+          "name": "large-exponent",
+          "status": "passed"
+        },
+        {
+          "name": "large-base",
+          "status": "passed"
+        },
+        {
+          "name": "small-base",
+          "status": "passed"
+        },
+        {
+          "name": "malformed",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "source": "return_value.cpp",
+      "step_id": 3214911,
+      "standard": "c++17",
+      "status": "passed",
+      "cases": [
+        {
+          "name": "negative",
+          "status": "passed"
+        },
+        {
+          "name": "zero",
+          "status": "passed"
+        },
+        {
+          "name": "one",
+          "status": "passed"
+        },
+        {
+          "name": "lower",
+          "status": "passed"
+        },
+        {
+          "name": "upper",
+          "status": "passed"
+        },
+        {
+          "name": "outside",
+          "status": "passed"
+        },
+        {
+          "name": "empty",
+          "status": "passed"
+        },
+        {
+          "name": "malformed",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "source": "decomposition.cpp",
+      "step_id": 3212950,
+      "standard": "c++17",
+      "status": "passed",
+      "cases": [
+        {
+          "name": "first",
+          "status": "passed"
+        },
+        {
+          "name": "middle",
+          "status": "passed"
+        },
+        {
+          "name": "last",
+          "status": "passed"
+        },
+        {
+          "name": "negative",
+          "status": "passed"
+        },
+        {
+          "name": "tie",
+          "status": "passed"
+        },
+        {
+          "name": "all-equal",
+          "status": "passed"
+        },
+        {
+          "name": "missing",
+          "status": "passed"
+        },
+        {
+          "name": "malformed",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "source": "parameters_scope.cpp",
+      "step_id": 3214973,
+      "standard": "c++17",
+      "status": "passed",
+      "cases": [
+        {
+          "name": "sample",
+          "status": "passed"
+        },
+        {
+          "name": "zero",
+          "status": "passed"
+        },
+        {
+          "name": "lower",
+          "status": "passed"
+        },
+        {
+          "name": "upper",
+          "status": "passed"
+        },
+        {
+          "name": "outside",
+          "status": "passed"
+        },
+        {
+          "name": "malformed",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "source": "default_arguments.cpp",
+      "step_id": 3214972,
+      "standard": "c++17",
+      "status": "passed",
+      "cases": [
+        {
+          "name": "sample",
+          "status": "passed"
+        },
+        {
+          "name": "negative-zero",
+          "status": "passed"
+        },
+        {
+          "name": "upper",
+          "status": "passed"
+        },
+        {
+          "name": "lower",
+          "status": "passed"
+        },
+        {
+          "name": "zero",
+          "status": "passed"
+        },
+        {
+          "name": "outside-value",
+          "status": "passed"
+        },
+        {
+          "name": "outside-factor",
+          "status": "passed"
+        },
+        {
+          "name": "missing",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "source": "value_reference.cpp",
+      "step_id": 3214971,
+      "standard": "c++17",
+      "status": "passed",
+      "cases": [
+        {
+          "name": "sample",
+          "status": "passed"
+        },
+        {
+          "name": "zero",
+          "status": "passed"
+        },
+        {
+          "name": "lower",
+          "status": "passed"
+        },
+        {
+          "name": "upper",
+          "status": "passed"
+        },
+        {
+          "name": "too-large",
+          "status": "passed"
+        },
+        {
+          "name": "too-small",
+          "status": "passed"
+        },
+        {
+          "name": "missing",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "source": "const_reference.cpp",
+      "step_id": 3214974,
+      "standard": "c++17",
+      "status": "passed",
+      "cases": [
+        {
+          "name": "empty",
+          "status": "passed"
+        },
+        {
+          "name": "single",
+          "status": "passed"
+        },
+        {
+          "name": "sample",
+          "status": "passed"
+        },
+        {
+          "name": "negative",
+          "status": "passed"
+        },
+        {
+          "name": "upper",
+          "status": "passed"
+        },
+        {
+          "name": "lower",
+          "status": "passed"
+        },
+        {
+          "name": "negative-count",
+          "status": "passed"
+        },
+        {
+          "name": "large-count",
+          "status": "passed"
+        },
+        {
+          "name": "short-data",
+          "status": "passed"
+        },
+        {
+          "name": "large-element",
+          "status": "passed"
+        },
+        {
+          "name": "malformed",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "source": "array_parameter.cpp",
+      "step_id": 3215024,
+      "standard": "c++17",
+      "status": "passed",
+      "cases": [
+        {
+          "name": "sample",
+          "status": "passed"
+        },
+        {
+          "name": "mixed",
+          "status": "passed"
+        },
+        {
+          "name": "upper",
+          "status": "passed"
+        },
+        {
+          "name": "lower",
+          "status": "passed"
+        },
+        {
+          "name": "short",
+          "status": "passed"
+        },
+        {
+          "name": "large-element",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "source": "matrix_parameter.cpp",
+      "step_id": 3215024,
+      "standard": "c++17",
+      "status": "passed",
+      "cases": [
+        {
+          "name": "sample",
+          "status": "passed"
+        },
+        {
+          "name": "empty",
+          "status": "passed"
+        },
+        {
+          "name": "no-rows",
+          "status": "passed"
+        },
+        {
+          "name": "empty-rows",
+          "status": "passed"
+        },
+        {
+          "name": "single",
+          "status": "passed"
+        },
+        {
+          "name": "upper",
+          "status": "passed"
+        },
+        {
+          "name": "lower",
+          "status": "passed"
+        },
+        {
+          "name": "large-rows",
+          "status": "passed"
+        },
+        {
+          "name": "large-columns",
+          "status": "passed"
+        },
+        {
+          "name": "negative-rows",
+          "status": "passed"
+        },
+        {
+          "name": "short-data",
+          "status": "passed"
+        },
+        {
+          "name": "large-element",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "source": "recursion.cpp",
+      "step_id": 3214978,
+      "standard": "c++17",
+      "status": "passed",
+      "cases": [
+        {
+          "name": "zero",
+          "status": "passed"
+        },
+        {
+          "name": "one",
+          "status": "passed"
+        },
+        {
+          "name": "two",
+          "status": "passed"
+        },
+        {
+          "name": "sample",
+          "status": "passed"
+        },
+        {
+          "name": "upper",
+          "status": "passed"
+        },
+        {
+          "name": "negative",
+          "status": "passed"
+        },
+        {
+          "name": "outside",
+          "status": "passed"
+        },
+        {
+          "name": "malformed",
+          "status": "passed"
+        },
+        {
+          "name": "empty",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "source": "storage_duration.cpp",
+      "step_id": 3214992,
+      "standard": "c++17",
+      "status": "passed",
+      "cases": [
+        {
+          "name": "two-calls-each",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "source": "sum_contract.cpp",
+      "step_id": 3212949,
+      "standard": "c++20",
+      "status": "passed",
+      "cases": [
+        {
+          "name": "sample",
+          "status": "passed"
+        },
+        {
+          "name": "zero",
+          "status": "passed"
+        },
+        {
+          "name": "cancel",
+          "status": "passed"
+        },
+        {
+          "name": "upper",
+          "status": "passed"
+        },
+        {
+          "name": "lower",
+          "status": "passed"
+        },
+        {
+          "name": "outside-a",
+          "status": "passed"
+        },
+        {
+          "name": "outside-b",
+          "status": "passed"
+        },
+        {
+          "name": "missing",
+          "status": "passed"
+        },
+        {
+          "name": "malformed",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "source": "declaration.cpp",
+      "step_id": 3214909,
+      "standard": "c++20",
+      "status": "passed",
+      "cases": [
+        {
+          "name": "left",
+          "status": "passed"
+        },
+        {
+          "name": "right",
+          "status": "passed"
+        },
+        {
+          "name": "equal",
+          "status": "passed"
+        },
+        {
+          "name": "negative",
+          "status": "passed"
+        },
+        {
+          "name": "zero",
+          "status": "passed"
+        },
+        {
+          "name": "missing",
+          "status": "passed"
+        },
+        {
+          "name": "malformed",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "source": "constexpr_power.cpp",
+      "step_id": 3214910,
+      "standard": "c++20",
+      "status": "passed",
+      "cases": [
+        {
+          "name": "sample",
+          "status": "passed"
+        },
+        {
+          "name": "zero-zero",
+          "status": "passed"
+        },
+        {
+          "name": "zero-base",
+          "status": "passed"
+        },
+        {
+          "name": "zero-exponent",
+          "status": "passed"
+        },
+        {
+          "name": "negative-odd",
+          "status": "passed"
+        },
+        {
+          "name": "negative-even",
+          "status": "passed"
+        },
+        {
+          "name": "upper",
+          "status": "passed"
+        },
+        {
+          "name": "lower",
+          "status": "passed"
+        },
+        {
+          "name": "negative-exponent",
+          "status": "passed"
+        },
+        {
+          "name": "large-exponent",
+          "status": "passed"
+        },
+        {
+          "name": "large-base",
+          "status": "passed"
+        },
+        {
+          "name": "small-base",
+          "status": "passed"
+        },
+        {
+          "name": "malformed",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "source": "return_value.cpp",
+      "step_id": 3214911,
+      "standard": "c++20",
+      "status": "passed",
+      "cases": [
+        {
+          "name": "negative",
+          "status": "passed"
+        },
+        {
+          "name": "zero",
+          "status": "passed"
+        },
+        {
+          "name": "one",
+          "status": "passed"
+        },
+        {
+          "name": "lower",
+          "status": "passed"
+        },
+        {
+          "name": "upper",
+          "status": "passed"
+        },
+        {
+          "name": "outside",
+          "status": "passed"
+        },
+        {
+          "name": "empty",
+          "status": "passed"
+        },
+        {
+          "name": "malformed",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "source": "decomposition.cpp",
+      "step_id": 3212950,
+      "standard": "c++20",
+      "status": "passed",
+      "cases": [
+        {
+          "name": "first",
+          "status": "passed"
+        },
+        {
+          "name": "middle",
+          "status": "passed"
+        },
+        {
+          "name": "last",
+          "status": "passed"
+        },
+        {
+          "name": "negative",
+          "status": "passed"
+        },
+        {
+          "name": "tie",
+          "status": "passed"
+        },
+        {
+          "name": "all-equal",
+          "status": "passed"
+        },
+        {
+          "name": "missing",
+          "status": "passed"
+        },
+        {
+          "name": "malformed",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "source": "parameters_scope.cpp",
+      "step_id": 3214973,
+      "standard": "c++20",
+      "status": "passed",
+      "cases": [
+        {
+          "name": "sample",
+          "status": "passed"
+        },
+        {
+          "name": "zero",
+          "status": "passed"
+        },
+        {
+          "name": "lower",
+          "status": "passed"
+        },
+        {
+          "name": "upper",
+          "status": "passed"
+        },
+        {
+          "name": "outside",
+          "status": "passed"
+        },
+        {
+          "name": "malformed",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "source": "default_arguments.cpp",
+      "step_id": 3214972,
+      "standard": "c++20",
+      "status": "passed",
+      "cases": [
+        {
+          "name": "sample",
+          "status": "passed"
+        },
+        {
+          "name": "negative-zero",
+          "status": "passed"
+        },
+        {
+          "name": "upper",
+          "status": "passed"
+        },
+        {
+          "name": "lower",
+          "status": "passed"
+        },
+        {
+          "name": "zero",
+          "status": "passed"
+        },
+        {
+          "name": "outside-value",
+          "status": "passed"
+        },
+        {
+          "name": "outside-factor",
+          "status": "passed"
+        },
+        {
+          "name": "missing",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "source": "value_reference.cpp",
+      "step_id": 3214971,
+      "standard": "c++20",
+      "status": "passed",
+      "cases": [
+        {
+          "name": "sample",
+          "status": "passed"
+        },
+        {
+          "name": "zero",
+          "status": "passed"
+        },
+        {
+          "name": "lower",
+          "status": "passed"
+        },
+        {
+          "name": "upper",
+          "status": "passed"
+        },
+        {
+          "name": "too-large",
+          "status": "passed"
+        },
+        {
+          "name": "too-small",
+          "status": "passed"
+        },
+        {
+          "name": "missing",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "source": "const_reference.cpp",
+      "step_id": 3214974,
+      "standard": "c++20",
+      "status": "passed",
+      "cases": [
+        {
+          "name": "empty",
+          "status": "passed"
+        },
+        {
+          "name": "single",
+          "status": "passed"
+        },
+        {
+          "name": "sample",
+          "status": "passed"
+        },
+        {
+          "name": "negative",
+          "status": "passed"
+        },
+        {
+          "name": "upper",
+          "status": "passed"
+        },
+        {
+          "name": "lower",
+          "status": "passed"
+        },
+        {
+          "name": "negative-count",
+          "status": "passed"
+        },
+        {
+          "name": "large-count",
+          "status": "passed"
+        },
+        {
+          "name": "short-data",
+          "status": "passed"
+        },
+        {
+          "name": "large-element",
+          "status": "passed"
+        },
+        {
+          "name": "malformed",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "source": "array_parameter.cpp",
+      "step_id": 3215024,
+      "standard": "c++20",
+      "status": "passed",
+      "cases": [
+        {
+          "name": "sample",
+          "status": "passed"
+        },
+        {
+          "name": "mixed",
+          "status": "passed"
+        },
+        {
+          "name": "upper",
+          "status": "passed"
+        },
+        {
+          "name": "lower",
+          "status": "passed"
+        },
+        {
+          "name": "short",
+          "status": "passed"
+        },
+        {
+          "name": "large-element",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "source": "matrix_parameter.cpp",
+      "step_id": 3215024,
+      "standard": "c++20",
+      "status": "passed",
+      "cases": [
+        {
+          "name": "sample",
+          "status": "passed"
+        },
+        {
+          "name": "empty",
+          "status": "passed"
+        },
+        {
+          "name": "no-rows",
+          "status": "passed"
+        },
+        {
+          "name": "empty-rows",
+          "status": "passed"
+        },
+        {
+          "name": "single",
+          "status": "passed"
+        },
+        {
+          "name": "upper",
+          "status": "passed"
+        },
+        {
+          "name": "lower",
+          "status": "passed"
+        },
+        {
+          "name": "large-rows",
+          "status": "passed"
+        },
+        {
+          "name": "large-columns",
+          "status": "passed"
+        },
+        {
+          "name": "negative-rows",
+          "status": "passed"
+        },
+        {
+          "name": "short-data",
+          "status": "passed"
+        },
+        {
+          "name": "large-element",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "source": "recursion.cpp",
+      "step_id": 3214978,
+      "standard": "c++20",
+      "status": "passed",
+      "cases": [
+        {
+          "name": "zero",
+          "status": "passed"
+        },
+        {
+          "name": "one",
+          "status": "passed"
+        },
+        {
+          "name": "two",
+          "status": "passed"
+        },
+        {
+          "name": "sample",
+          "status": "passed"
+        },
+        {
+          "name": "upper",
+          "status": "passed"
+        },
+        {
+          "name": "negative",
+          "status": "passed"
+        },
+        {
+          "name": "outside",
+          "status": "passed"
+        },
+        {
+          "name": "malformed",
+          "status": "passed"
+        },
+        {
+          "name": "empty",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "source": "storage_duration.cpp",
+      "step_id": 3214992,
+      "standard": "c++20",
+      "status": "passed",
+      "cases": [
+        {
+          "name": "two-calls-each",
+          "status": "passed"
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "steps": 12,
+    "programs": 13,
+    "compilations": 26,
+    "runtime_cases": 210
+  },
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "finished_at": "2026-11-23T07:37:13.089502+00:00"
+}

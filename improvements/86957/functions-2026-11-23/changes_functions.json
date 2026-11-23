@@ -1,0 +1,106 @@
+{
+  "changes": [
+    {
+      "step_id": 3212949,
+      "summary": "Введены контракт функции, границы входа и разделение вычисления и ввода-вывода; добавлена полная проверяемая программа.",
+      "sources": [
+        "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rf-logical",
+        "https://timsong-cpp.github.io/cppwp/n4861/expr.call"
+      ]
+    },
+    {
+      "step_id": 3214909,
+      "summary": "Согласованы объявление, определение и вызов; сохранены важные правила ODR, auto, перегрузок и зарезервированных имён.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4861/basic.def.odr",
+        "https://timsong-cpp.github.io/cppwp/n4861/dcl.spec.auto",
+        "https://timsong-cpp.github.io/cppwp/n4861/lex.name"
+      ]
+    },
+    {
+      "step_id": 3214910,
+      "summary": "constexpr, inline и static разведены по назначению; корректная степень имеет явный диапазон и обработку нулевой степени.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4861/dcl.constexpr",
+        "https://timsong-cpp.github.io/cppwp/n4861/dcl.inline",
+        "https://timsong-cpp.github.io/cppwp/n4861/basic.link"
+      ]
+    },
+    {
+      "step_id": 3214911,
+      "summary": "Возврат значения объяснён через время жизни; безопасный пример заменил зависимость от несуществующего класса.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4861/stmt.return",
+        "https://timsong-cpp.github.io/cppwp/n4861/basic.life",
+        "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rf-dangle"
+      ]
+    },
+    {
+      "step_id": 3212950,
+      "summary": "Декомпозиция показана через композицию чистых функций и отдельную проверку ввода в main.",
+      "sources": [
+        "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rf-logical",
+        "https://timsong-cpp.github.io/cppwp/n4861/stmt.return"
+      ]
+    },
+    {
+      "step_id": 3214973,
+      "summary": "Область видимости изучается на корректной передаче параметра; убрано введение глобальной переменной как основного исправления.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4861/basic.scope",
+        "https://timsong-cpp.github.io/cppwp/n4861/expr.call"
+      ]
+    },
+    {
+      "step_id": 3214972,
+      "summary": "Аргументы по умолчанию заданы один раз в видимом объявлении; показан результат, а не смешивание вычисления с печатью.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4861/dcl.fct.default",
+        "https://timsong-cpp.github.io/cppwp/n4861/expr.call"
+      ]
+    },
+    {
+      "step_id": 3214971,
+      "summary": "Явно сопоставлены возврат нового значения и изменение исходного объекта через ссылку.",
+      "sources": [
+        "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rf-inout",
+        "https://timsong-cpp.github.io/cppwp/n4861/dcl.init.ref"
+      ]
+    },
+    {
+      "step_id": 3214974,
+      "summary": "const-ссылка показана на векторе; добавлены пустой диапазон, выбор интерфейса и практика подсчёта.",
+      "sources": [
+        "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rf-in",
+        "https://timsong-cpp.github.io/cppwp/n4861/dcl.type.cv"
+      ]
+    },
+    {
+      "step_id": 3215024,
+      "summary": "Указатель дополнен явной длиной и контрактом; sizeof отделён от размера; ручная матрица new[] заменена владеющим контейнером.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4861/dcl.fct",
+        "https://timsong-cpp.github.io/cppwp/n4861/conv.array",
+        "https://timsong-cpp.github.io/cppwp/n4861/iterator.range"
+      ]
+    },
+    {
+      "step_id": 3214978,
+      "summary": "Рекурсия получила проверяемый базовый случай, ограничение 0..20, оценку глубины и итеративную альтернативу.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4861/expr.call",
+        "https://timsong-cpp.github.io/cppwp/n4861/basic.fundamental"
+      ]
+    },
+    {
+      "step_id": 3214992,
+      "summary": "Разделены область видимости, время жизни, хранение и связывание; добавлен полный пример сохранения локального static.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4861/basic.stc",
+        "https://timsong-cpp.github.io/cppwp/n4861/stmt.dcl",
+        "https://timsong-cpp.github.io/cppwp/n4861/basic.link",
+        "https://timsong-cpp.github.io/cppwp/n4861/expr.call"
+      ]
+    }
+  ]
+}

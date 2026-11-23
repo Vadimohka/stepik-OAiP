@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "all_passed": true,
+  "step_id": 4643238,
+  "scope": "Local templates, preserved grader data, and reference outputs; no live Stepik calls.",
+  "input_sha256": {
+    "improvements/86957/practice-2026-11-23/steps/763630/09_4643238_code.step": "04457e6bf16b8ec3123789dd9a54a45204ff58e63f8a8432eed3b50c7a9a2cd7",
+    "improvements/86957/practice-2026-11-23/baseline/steps/763630/09_4643238_code.step": "a9b080ea9fd921388bce0cd844e33f7d1f63daabb2944873bf0a0f9957133f77",
+    "courses/86957/steps/763630/09_4643238_code.step": "a9b080ea9fd921388bce0cd844e33f7d1f63daabb2944873bf0a0f9957133f77",
+    "improvements/86957/practice-2026-11-23/changes_entry.json": "eae02bc7621b042dff318f529aaf971dc888700380a23d0d959c8b983a87cc9c",
+    "improvements/86957/practice-2026-11-23/examples/expression_identity.cpp": "bd6503610e7c50acaa5e1f4512e45b49eefd8db7428e7fe70be3bcb0da64c410",
+    "improvements/86957/practice-2026-11-23/verify_entry.py": "eda8a4923d1a14394a81041e5d3830bbf161c003a704a8003d42508f84eb99be"
+  },
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "compilations": 5,
+  "runtime_cases": 18,
+  "original_test_cases": 9,
+  "checker_negative_probes": 63,
+  "maximum_input_characters": 20003,
+  "tests_and_grader_preserved": true,
+  "live_stepik_verified": false
+}
