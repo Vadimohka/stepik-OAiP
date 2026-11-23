@@ -398,7 +398,7 @@
     "verification_receipt": "courses/86957/publication-verification-theory-continuation-2026-11-23.json"
   },
   "current_execution": {
-    "as_of": "2026-11-23T14:56:06.348135+00:00",
+    "as_of": "2026-11-23T19:30:40Z",
     "progress_file": "PROGRESS.md",
     "scope_acceptance": "../theory-final-review-2026-11-23/review_completion.json",
     "unique_original_texts": 37,
@@ -406,12 +406,14 @@
     "new_adaptations_this_session": 0,
     "status": "completed_and_independently_rechecked",
     "current_package": "../theory-final-review-2026-11-23/manifest.json",
-    "publication": "not_published_for_cumulative_55",
+    "publication": "verified_on_stepik",
     "historical_data_note": "Остальные поля сохраняют исходную инвентаризацию и хеши старых пакетов; они не являются перечнем незаконченных адаптаций.",
     "base_commit": "26bbfeb5065ef3475f9ea612a3a8785f934b7c49",
     "current_new_corrections": 6,
     "current_carried_forward": 49,
     "previous_pending_package_preserved": "../theory-links-2026-11-23/manifest.json",
-    "live_stepik_access": false
+    "live_stepik_access": true,
+    "verification_receipt": "courses/86957/publication-verification-theory-final-review-2026-11-23.json",
+    "verified_course_steps": 485
   }
 }

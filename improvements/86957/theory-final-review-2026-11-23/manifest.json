@@ -3,7 +3,7 @@
   "course_id": 86957,
   "date": "2026-11-23",
   "base_commit": "26bbfeb5065ef3475f9ea612a3a8785f934b7c49",
-  "status": "prepared",
+  "status": "published",
   "parts": [
     "advanced",
     "carried",
@@ -13,9 +13,23 @@
   "changed_steps": 55,
   "changed_lessons": 32,
   "publication": {
-    "status": "not_published",
-    "applied": false,
-    "note": "Только GitHub по прямому указанию владельца от 23 ноября 2026 года; изменения на Stepik в этой сессии не разрешены."
+    "status": "verified_on_stepik",
+    "applied": true,
+    "verified_at": "2026-11-23T19:30:40Z",
+    "source_commit": "5b3946ed7864ff22231bdbd16a4485ced71e6592",
+    "verified_changed_steps": 55,
+    "verified_course_steps": 485,
+    "normalized_html_step_ids": [
+      3177298,
+      3201141,
+      3201168,
+      3215253,
+      3231226,
+      3237989,
+      3238004
+    ],
+    "verification_receipt": "courses/86957/publication-verification-theory-final-review-2026-11-23.json",
+    "verification_scope": "Full author and learner API readback with placement and internal-link verification."
   },
   "scope": {
     "allowed_fields": [

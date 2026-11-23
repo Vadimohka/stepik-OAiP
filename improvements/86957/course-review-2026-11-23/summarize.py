@@ -67,11 +67,16 @@ def package_records() -> list[dict]:
     paths = [ROOT / "modernization/86957/manifest.json", ROOT / "corrections/86957/manifest.json"]
     paths += sorted((ROOT / "improvements/86957").glob("*/manifest.json"))
     result = []
+    superseded_by = {}
     for path in paths:
         if not path.exists():
             continue
         data = read(path)
         publication = data.get("publication", {})
+        manifest_path = path.relative_to(ROOT).as_posix()
+        predecessor = data.get("preparation", {}).get("supersedes_prepared_manifest")
+        if predecessor:
+            superseded_by[predecessor] = manifest_path
         entries = []
         for item in data.get("steps", []):
             if not isinstance(item, dict) or "step_id" not in item:
@@ -86,7 +91,7 @@ def package_records() -> list[dict]:
             })
         # A correction manifest can document existing snapshots without target files.
         result.append({
-            "manifest_path": str(path.relative_to(ROOT)),
+            "manifest_path": manifest_path,
             "manifest_sha256": sha(path),
             "status": data.get("status"),
             "publication_status": publication.get("status"),
@@ -95,6 +100,9 @@ def package_records() -> list[dict]:
             "declared_changed_steps": data.get("changed_steps"),
             "indexed_steps": entries,
         })
+    for package in result:
+        if replacement := superseded_by.get(package["manifest_path"]):
+            package["superseded_by"] = replacement
     return result
 
 
@@ -112,6 +120,8 @@ def build() -> dict:
     packages = package_records()
     package_by_step: dict[int, list[dict]] = {}
     for package in packages:
+        if package.get("superseded_by"):
+            continue
         for entry in package["indexed_steps"]:
             package_by_step.setdefault(entry["step_id"], []).append({
                 "manifest_path": package["manifest_path"],

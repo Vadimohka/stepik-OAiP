@@ -182,7 +182,7 @@
         {
           "step_id": 3177504,
           "snapshot_path": "courses/86957/steps/763639/03_3177504_text.step",
-          "effective_path": "courses/86957/steps/763639/03_3177504_text.step",
+          "effective_path": "improvements/86957/theory-final-review-2026-11-23/baseline/steps/763639/03_3177504_text.step",
           "effective_file_sha256": "af91782891a81e3273f56eb1eee5b9e3b6da8a8a18d70875e48027d04f944380",
           "observation": "Уже имеющиеся уточнения C++20 и границ сдвига необходимо сохранить."
         }
@@ -750,7 +750,7 @@
     }
   ],
   "current_execution": {
-    "as_of": "2026-11-23T14:56:06.348135+00:00",
+    "as_of": "2026-11-23T19:30:40Z",
     "base_commit": "26bbfeb5065ef3475f9ea612a3a8785f934b7c49",
     "progress_file": "PROGRESS.md",
     "manifest": "../theory-final-review-2026-11-23/manifest.json",
@@ -765,16 +765,18 @@
       "SCOPE": "completed_and_rechecked_in_effective_theory",
       "LINKS": "completed_and_verified_in_github",
       "VERIFY": "completed_and_independently_verified",
-      "PUB": "pending_cumulative_publication_blocked_by_owner_instruction"
+      "PUB": "verified_on_stepik"
     },
     "current_read_unique_texts": 283,
     "current_changed_steps": 6,
     "effective_edited_union_steps": 277,
-    "publication_note": "Только GitHub. Прямые изменения Stepik запрещены владельцем в текущем запросе; оставшийся PUB сейчас не выполняется.",
-    "current_cumulative_pending_steps": 55,
+    "publication_note": "Опубликованы 55 текстовых шагов в 32 уроках и 15 модулях. Через API сверены авторские и ученические версии всех 485 шагов, позиции и 103 внутренние ссылки пакета.",
+    "current_cumulative_pending_steps": 0,
     "current_carried_forward_steps": 49,
     "runtime_summary": "../theory-final-review-2026-11-23/runtime_summary.json",
-    "code_coverage": "../theory-final-review-2026-11-23/code_coverage.json"
+    "code_coverage": "../theory-final-review-2026-11-23/code_coverage.json",
+    "current_cumulative_published_steps": 55,
+    "verification_receipt": "courses/86957/publication-verification-theory-final-review-2026-11-23.json"
   },
   "historical_fields_note": "rubric, overall и исходные карточки modules сохраняют первоначальную переоценку. Текущий результат ниже в current_execution/current_quality_assessment; старые remaining_theory и часы карточек не являются актуальным остатком.",
   "current_quality_assessment": {
@@ -816,7 +818,7 @@
       9.0
     ],
     "confidence": "medium_to_high_within_declared_review_and_runtime_scope",
-    "object": "Эффективная подготовленная теория модулей 1–19: сохранённый снимок плюс новый cumulative пакет 55; не заявление о живой редакции Stepik.",
+    "object": "Теория модулей 1–19, принятая перед публикацией. Публикация подтвердила совпадение содержания с этой редакцией.",
     "not_completion_percentage": true,
     "source": "../theory-final-review-2026-11-23/quality_assessment.json"
   },
@@ -827,7 +829,8 @@
       "status": "fully_read_and_accepted",
       "review": "../theory-final-review-2026-11-23/review_foundations.json",
       "new_correction_step_ids": [],
-      "cumulative_pending_steps": 0
+      "cumulative_pending_steps": 0,
+      "cumulative_published_steps": 0
     },
     {
       "module_number": 2,
@@ -835,7 +838,8 @@
       "status": "fully_read_and_accepted",
       "review": "../theory-final-review-2026-11-23/review_foundations.json",
       "new_correction_step_ids": [],
-      "cumulative_pending_steps": 1
+      "cumulative_pending_steps": 0,
+      "cumulative_published_steps": 1
     },
     {
       "module_number": 3,
@@ -843,7 +847,8 @@
       "status": "fully_read_and_accepted",
       "review": "../theory-final-review-2026-11-23/review_foundations.json",
       "new_correction_step_ids": [],
-      "cumulative_pending_steps": 5
+      "cumulative_pending_steps": 0,
+      "cumulative_published_steps": 5
     },
     {
       "module_number": 4,
@@ -855,7 +860,8 @@
         3177291,
         3177292
       ],
-      "cumulative_pending_steps": 8
+      "cumulative_pending_steps": 0,
+      "cumulative_published_steps": 8
     },
     {
       "module_number": 5,
@@ -865,7 +871,8 @@
       "new_correction_step_ids": [
         3177298
       ],
-      "cumulative_pending_steps": 5
+      "cumulative_pending_steps": 0,
+      "cumulative_published_steps": 5
     },
     {
       "module_number": 6,
@@ -873,7 +880,8 @@
       "status": "fully_read_and_accepted",
       "review": "../theory-final-review-2026-11-23/review_core.json",
       "new_correction_step_ids": [],
-      "cumulative_pending_steps": 6
+      "cumulative_pending_steps": 0,
+      "cumulative_published_steps": 6
     },
     {
       "module_number": 7,
@@ -881,7 +889,8 @@
       "status": "fully_read_and_accepted",
       "review": "../theory-final-review-2026-11-23/review_core.json",
       "new_correction_step_ids": [],
-      "cumulative_pending_steps": 8
+      "cumulative_pending_steps": 0,
+      "cumulative_published_steps": 8
     },
     {
       "module_number": 8,
@@ -889,7 +898,8 @@
       "status": "fully_read_and_accepted",
       "review": "../theory-final-review-2026-11-23/review_core.json",
       "new_correction_step_ids": [],
-      "cumulative_pending_steps": 3
+      "cumulative_pending_steps": 0,
+      "cumulative_published_steps": 3
     },
     {
       "module_number": 9,
@@ -897,7 +907,8 @@
       "status": "fully_read_and_accepted",
       "review": "../theory-final-review-2026-11-23/review_core.json",
       "new_correction_step_ids": [],
-      "cumulative_pending_steps": 2
+      "cumulative_pending_steps": 0,
+      "cumulative_published_steps": 2
     },
     {
       "module_number": 10,
@@ -905,7 +916,8 @@
       "status": "fully_read_and_accepted",
       "review": "../theory-final-review-2026-11-23/review_core.json",
       "new_correction_step_ids": [],
-      "cumulative_pending_steps": 2
+      "cumulative_pending_steps": 0,
+      "cumulative_published_steps": 2
     },
     {
       "module_number": 11,
@@ -913,7 +925,8 @@
       "status": "fully_read_and_accepted",
       "review": "../theory-final-review-2026-11-23/review_core.json",
       "new_correction_step_ids": [],
-      "cumulative_pending_steps": 2
+      "cumulative_pending_steps": 0,
+      "cumulative_published_steps": 2
     },
     {
       "module_number": 12,
@@ -921,7 +934,8 @@
       "status": "fully_read_and_accepted",
       "review": "../theory-final-review-2026-11-23/review_advanced.json",
       "new_correction_step_ids": [],
-      "cumulative_pending_steps": 0
+      "cumulative_pending_steps": 0,
+      "cumulative_published_steps": 0
     },
     {
       "module_number": 13,
@@ -929,7 +943,8 @@
       "status": "fully_read_and_accepted",
       "review": "../theory-final-review-2026-11-23/review_advanced.json",
       "new_correction_step_ids": [],
-      "cumulative_pending_steps": 3
+      "cumulative_pending_steps": 0,
+      "cumulative_published_steps": 3
     },
     {
       "module_number": 14,
@@ -937,7 +952,8 @@
       "status": "fully_read_and_accepted",
       "review": "../theory-final-review-2026-11-23/review_advanced.json",
       "new_correction_step_ids": [],
-      "cumulative_pending_steps": 0
+      "cumulative_pending_steps": 0,
+      "cumulative_published_steps": 0
     },
     {
       "module_number": 15,
@@ -945,7 +961,8 @@
       "status": "fully_read_and_accepted",
       "review": "../theory-final-review-2026-11-23/review_advanced.json",
       "new_correction_step_ids": [],
-      "cumulative_pending_steps": 4
+      "cumulative_pending_steps": 0,
+      "cumulative_published_steps": 4
     },
     {
       "module_number": 16,
@@ -953,7 +970,8 @@
       "status": "fully_read_and_accepted",
       "review": "../theory-final-review-2026-11-23/review_advanced.json",
       "new_correction_step_ids": [],
-      "cumulative_pending_steps": 1
+      "cumulative_pending_steps": 0,
+      "cumulative_published_steps": 1
     },
     {
       "module_number": 17,
@@ -964,7 +982,8 @@
         3570304,
         3570333
       ],
-      "cumulative_pending_steps": 4
+      "cumulative_pending_steps": 0,
+      "cumulative_published_steps": 4
     },
     {
       "module_number": 18,
@@ -972,7 +991,8 @@
       "status": "fully_read_and_accepted",
       "review": "../theory-final-review-2026-11-23/review_advanced.json",
       "new_correction_step_ids": [],
-      "cumulative_pending_steps": 1
+      "cumulative_pending_steps": 0,
+      "cumulative_published_steps": 1
     },
     {
       "module_number": 19,
@@ -980,7 +1000,8 @@
       "status": "fully_read_and_accepted",
       "review": "../theory-final-review-2026-11-23/review_advanced.json",
       "new_correction_step_ids": [],
-      "cumulative_pending_steps": 0
+      "cumulative_pending_steps": 0,
+      "cumulative_published_steps": 0
     }
   ]
 }
