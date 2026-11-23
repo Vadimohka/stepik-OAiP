@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-11-23T12:10:06.725477+00:00",
+  "status": "content_saved_and_read_back_on_github",
+  "repository": "Vadimohka/stepik-OAiP",
+  "branch": "main",
+  "content_commit": "acbf98df242982928d58fb02b36534945b5efc7f",
+  "parent_commit": "352c2796717a55f4f0db8395b7d6093d8d67c35e",
+  "expected_tree": "e60741364d30bf6a05aa259c07ef67a34097b20c",
+  "remote_commit_tree": "e60741364d30bf6a05aa259c07ef67a34097b20c",
+  "tree_matches_checked_local_files": true,
+  "saved_changed_paths": 155,
+  "remote_ref_read_back": true,
+  "remote_git_commit_read_back": true,
+  "local_fetch_head": "acbf98df242982928d58fb02b36534945b5efc7f",
+  "ref_update": {
+    "expected_sha": "352c2796717a55f4f0db8395b7d6093d8d67c35e",
+    "force": false
+  },
+  "transport": "GitHub connector Git Data API; normal CLI push lacked credentials, so no secret was copied or requested.",
+  "local_pre_transfer_commit": "3378752096d5e8d9e336e64d3246fb9f0fc9f2b2",
+  "local_pre_transfer_commit_note": "Unpublished local commit preserved on local-theory-links-3378752; authoritative main commit above has the identical tree.",
+  "stepik_access": false,
+  "stepik_publication_status": "not_published",
+  "remaining_blocker": "Owner explicitly limited this session to GitHub.",
+  "checkpoint_note": "This receipt and the PROGRESS SHA pointer are recorded in a subsequent metadata commit; the content commit above contains all checked theory changes."
+}
