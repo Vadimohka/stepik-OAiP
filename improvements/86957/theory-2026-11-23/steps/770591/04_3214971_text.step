@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Передача по значению и изменяемой ссылке</h3>\n<p><strong>Цель:</strong> выбрать интерфейс по тому, должна ли функция менять объект вызывающего кода.</p>\n<p>Параметр <code>int value</code> содержит отдельное значение. Параметр <code>int&amp; value</code> — ссылка на уже существующий изменяемый объект. Присваивание через такую ссылку меняет этот объект.</p>\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n\n// Both functions require -1000 &lt;= value &lt;= 1000.\nint incremented(int value) {\n    value += 1;\n    return value;\n}\n\nvoid increment(int&amp; value) {\n    value += 1;\n}\n\nint main() {\n    int value = 0;\n    if (!(std::cin &gt;&gt; value) || value &lt; -1000 || value &gt; 1000) {\n        std::cerr &lt;&lt; \"input error\\n\";\n        return 1;\n    }\n    const int next = incremented(value);\n    std::cout &lt;&lt; value &lt;&lt; ' ' &lt;&lt; next &lt;&lt; '\\n';\n    increment(value);\n    std::cout &lt;&lt; value &lt;&lt; '\\n';\n    return 0;\n}\n</code></pre>\n<p><strong>Контракт обеих функций:</strong> исходное число от −1000 до 1000. <code>incremented</code> возвращает число на единицу больше и не меняет аргумент; <code>increment</code> изменяет сам аргумент и имеет тип результата <code>void</code>.</p>\n<p>Для ввода <code>5</code> программа выводит две строки:</p>\n<pre>5 6\n6</pre>\n<p>После первого вызова исходный <code>value</code> равен 5, а <code>next</code> равен 6. Во втором вызове параметр-ссылка обращается к объекту <code>value</code> из <code>main</code>; теперь он становится равен 6. У <code>void</code>-функции результатом действия служит изменение состояния, отдельного числового значения вызов не даёт.</p>\n<h4>Что можно передать</h4>\n<ul><li><code>incremented(5)</code> допустим: аргументом может быть значение выражения.</li><li>Если объявлено <code>const int fixed = 5;</code>, вызов <code>incremented(fixed)</code> допустим: копируется значение.</li><li>Для <code>increment</code> нужен изменяемый объект подходящего типа. Вызовы <code>increment(5)</code> и <code>increment(fixed)</code> недопустимы: обычная изменяемая ссылка <code>int&amp;</code> не связывается с такими аргументами.</li></ul>\n<p>Если задача состоит в вычислении одного нового значения, возврат результата часто делает код понятнее. Изменяемая ссылка уместна, когда изменение переданного объекта — явная цель операции, например очистка контейнера. Для чтения большого объекта без копии используем ссылку на <code>const</code> в следующем шаге.</p>\n<p><strong>Оговорка о значении:</strong> копия указателя всё ещё может указывать на общие данные. Передача указателя по значению не копирует массив и не запрещает менять элементы через этот указатель. Случай встроенных массивов разберём отдельно.</p>\n<h4>Разбор порядка операций</h4>\n<p>Если при начальном значении 5 первым вызывается <code>increment(value)</code>, объект становится равен 6. Последующий <code>incremented(value)</code> возвращает 7, оставляя объект равным 6. Возвращаемое значение меняет исходную переменную лишь при явном присваивании, например <code>value = incremented(value);</code>. Поэтому интерфейс должен ясно показывать, какая операция изменяет состояние.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3214971",
+  "time": "2026-11-23T07:53:35Z"
+}

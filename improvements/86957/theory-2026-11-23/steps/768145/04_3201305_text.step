@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h2>Полный пример с функцией</h2>\n<p>Следующая программа не требует ввода. Она продолжает разобранный перевод единиц и выводит <code>250</code>.</p><pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n\ndouble meters_to_centimeters(double meters) {\n    return meters * 100.0;\n}\n\nint main() {\n    const double length_m = 2.5;\n    const double length_cm = meters_to_centimeters(length_m);\n    std::cout &lt;&lt; length_cm &lt;&lt; &#x27;\\n&#x27;;\n}</code></pre>\n<p><code>double</code> обозначает тип с плавающей точкой; <code>const</code> запрещает изменение значения через это имя. При вызове значение <code>length_m</code> передаётся параметру <code>meters</code>. Выражение после <code>return</code> вычисляется и становится результатом вызова. Затем <code>std::cout</code> выводит этот результат и перевод строки.</p>\n<p><code>main</code> — главная функция обычной программы C++. <code>std::cout</code> — объект стандартного потока вывода, а <code>&lt;&lt;</code> здесь обозначает вставку данных в поток. Это разные сущности, хотя все они участвуют в одном выражении.</p>\n<p>Сейчас достаточно проследить путь <strong>исходное значение → вызов → возвращённое значение → вывод</strong>. Подробные правила типов появятся в модуле 4, а параметры, возвращаемые значения и контракты — в модуле 7.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3201305",
+  "time": "2026-11-22T18:35:40Z"
+}

@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Qt Creator</h3>\n\n<p>Qt Creator — интегрированная среда разработки C++, доступная на Windows, Linux и macOS. Существует открытая версия Qt Creator под лицензией GPL и коммерческая поставка. Открытая версия не ограничена месячным пробным сроком. Условия самой IDE и используемых библиотек Qt нужно различать; актуальная информация приведена в <a href=\"https://doc.qt.io/qtcreator/creator-acknowledgements.html\" rel=\"noopener noreferrer nofollow\">документации Qt Creator</a>.</p>\n\n<p><a href=\"https://media.tproger.ru/uploads/2015/11/qt.jpg\" rel=\"noopener noreferrer nofollow\" target=\"_blank\"><img alt=\"Qt Creator для C++\" height=\"580\" src=\"https://media.tproger.ru/uploads/2015/11/qt.jpg\" width=\"1000\"></a></p>\n\n<p><strong>Достоинства</strong>:</p>\n\n<ul>\n\t<li>Поддерживает отладку, профилирование, автозавершение кода и рефакторинг.</li>\n\t<li>Возможность компиляции проектов для разных ОС.</li>\n</ul>\n\n<p><strong>Недостатки</strong>:</p>\n\n<ul>\n\t<li>Не всегда работает автозавершение кода.</li>\n\t<li>Дорогая платная версия.</li>\n\t<li>Для Qt Online Installer нужна учётная запись Qt; Qt Creator также доступен как отдельный инструмент.</li>\n</ul>\n\n<p>Скачать можно по ссылке: <a href=\"https://www.qt.io/download\" rel=\"noopener noreferrer nofollow\">https://www.qt.io/download</a></p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3201151",
+  "time": "2026-11-22T21:11:35Z"
+}

@@ -1,0 +1,402 @@
+[
+  {
+    "step_id": 3173923,
+    "path": "steps/763040/02_3173923_text.step",
+    "summary": "Уточнены свойства детерминированных алгоритмов, допустимый вход, завершение и корректность без универсальных ложных утверждений.",
+    "sources": [
+      "https://www.stroustrup.com/PPP3.html"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3173935,
+    "path": "steps/763040/03_3173935_text.step",
+    "summary": "Связаны контракт, псевдокод, блок-схема и будущая программа на одном разобранном примере.",
+    "sources": [
+      "https://www.stroustrup.com/PPP3.html"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3201132,
+    "path": "steps/768140/01_3201132_text.step",
+    "summary": "Сохранено современное объяснение инструментов; вопрос для самопроверки преобразован в законченный разбор.",
+    "sources": [
+      "https://gcc.gnu.org/onlinedocs/gcc/C_002b_002b-Dialect-Options.html"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3201141,
+    "path": "steps/768140/02_3201141_text.step",
+    "summary": "Сохранено современное объяснение инструментов; вопрос для самопроверки преобразован в законченный разбор.",
+    "sources": [
+      "https://gcc.gnu.org/onlinedocs/gcc/C_002b_002b-Dialect-Options.html"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3201150,
+    "path": "steps/768140/03_3201150_text.step",
+    "summary": "Каталог достоинств, рекламы и нестабильных ограничений заменён объяснением роли IDE и набора инструментов.",
+    "sources": [
+      "https://learn.microsoft.com/en-us/cpp/build/vscpp-step-0-installation"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3201151,
+    "path": "steps/768140/04_3201151_text.step",
+    "summary": "Каталог достоинств, рекламы и нестабильных ограничений заменён объяснением роли IDE и набора инструментов.",
+    "sources": [
+      "https://doc.qt.io/qtcreator/creator-targets.html"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3201153,
+    "path": "steps/768140/05_3201153_text.step",
+    "summary": "Каталог достоинств, рекламы и нестабильных ограничений заменён объяснением роли IDE и набора инструментов.",
+    "sources": [
+      "https://www.jetbrains.com/help/clion/quick-tutorial-on-configuring-clion-on-windows.html"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3201155,
+    "path": "steps/768140/07_3201155_text.step",
+    "summary": "Каталог достоинств, рекламы и нестабильных ограничений заменён объяснением роли IDE и набора инструментов.",
+    "sources": [
+      "https://www.codeblocks.org/user-manual/"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3201168,
+    "path": "steps/768140/08_3201168_text.step",
+    "summary": "Рабочий цикл превращён в разобранное объяснение вместо самостоятельного практикума.",
+    "sources": [
+      "https://gcc.gnu.org/onlinedocs/gcc/Overall-Options.html"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3201179,
+    "path": "steps/768143/01_3201179_text.step",
+    "summary": "Пример первого запуска сохраняет команды и ожидаемый вывод, а самостоятельная часть заменена разбором состояния.",
+    "sources": [
+      "https://gcc.gnu.org/onlinedocs/gcc/Overall-Options.html",
+      "https://timsong-cpp.github.io/cppwp/n4861/basic.start.main"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3201181,
+    "path": "steps/768140/06_3201181_text.step",
+    "summary": "Каталог достоинств, рекламы и нестабильных ограничений заменён объяснением роли IDE и набора инструментов.",
+    "sources": [
+      "https://developer.apple.com/xcode/"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3201189,
+    "path": "steps/768143/02_3201189_text.step",
+    "summary": "Диагностика и логическая ошибка разобраны до ответа; намеренно некорректный исходник явно сохранён как контрпример.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/basic.lookup.qual"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3201190,
+    "path": "steps/768145/01_3201190_text.step",
+    "summary": "Уточнены определение/вызов/контракт и исправлен неверный маршрут к функциям «в конце курса».",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/dcl.fct"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3201303,
+    "path": "steps/768145/03_3201303_text.step",
+    "summary": "Убрана неоговорённая предпосылка HTML/CSS; дан доступный разбор вызова, аргумента и результата.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/expr.call"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3201304,
+    "path": "steps/768145/02_3201304_text.step",
+    "summary": "Заменены автоматические обещания качества функций объяснением разделения ответственности и побочных эффектов.",
+    "sources": [
+      "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f2-a-function-should-perform-a-single-logical-operation"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3201305,
+    "path": "steps/768145/04_3201305_text.step",
+    "summary": "Вместо предложения самостоятельно исследовать код дан полный проверяемый разбор простой функции.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/basic.start.main",
+      "https://timsong-cpp.github.io/cppwp/n4861/stmt.return"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3214764,
+    "path": "steps/771009/01_3214764_text.step",
+    "summary": "Вопрос об индексе заменён объяснением конкретного результата.",
+    "sources": [
+      "https://git-scm.com/docs/git-add"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3214777,
+    "path": "steps/771009/02_3214777_text.step",
+    "summary": "Маркетинговые сравнения заменены понятиями снимка, объектов, истории и границ хеширования.",
+    "sources": [
+      "https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F",
+      "https://git-scm.com/book/en/v2/Git-Internals-Git-Objects"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3214778,
+    "path": "steps/771009/03_3214778_text.step",
+    "summary": "Вместо рекламы Git/Atlassian дана связная модель веток, удалённого репозитория и code review.",
+    "sources": [
+      "https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell",
+      "https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3214832,
+    "path": "steps/771009/04_3214832_text.step",
+    "summary": "Командный процесс связан с контрактами и воспроизводимостью, без рекламы сервисов и заданий.",
+    "sources": [
+      "https://git-scm.com/docs/gitignore",
+      "https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3214833,
+    "path": "steps/771009/05_3214833_text.step",
+    "summary": "Практикум Git заменён законченной историей с объяснением состояний индекса, коммитов и результатов.",
+    "sources": [
+      "https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository",
+      "https://git-scm.com/docs/git-show",
+      "https://git-scm.com/docs/gitignore"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3215247,
+    "path": "steps/771154/01_3215247_text.step",
+    "summary": "Убрана перегруженная вводная; введены управление и данные на знакомом примере и маршрут к трансляции.",
+    "sources": [
+      "https://www.stroustrup.com/PPP3.html",
+      "https://timsong-cpp.github.io/cppwp/n4861/intro.abstract"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3215252,
+    "path": "steps/771154/04_3215252_text.step",
+    "summary": "Убрана зависимость вводной теории от CS/IP и учебного ассемблера; дан разбор состояния и ветвления.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/intro.abstract"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3215253,
+    "path": "steps/771154/02_3215253_text.step",
+    "summary": "Разделены исходник, реализация и машинный код; убрано отождествление переменной с машинным словом.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/intro.abstract",
+      "https://gcc.gnu.org/onlinedocs/gcc/Overall-Options.html"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3215254,
+    "path": "steps/771154/03_3215254_text.step",
+    "summary": "Историческая сегментная модель заменена ясным разделением иерархии памяти, виртуальных адресов и объектов C++.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/intro.memory",
+      "https://timsong-cpp.github.io/cppwp/n4861/basic.fundamental",
+      "https://www.kernel.org/doc/html/latest/admin-guide/mm/concepts.html"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3215266,
+    "path": "steps/771156/04_3215266_text.step",
+    "summary": "Исправлен разбор округления; теория самодостаточна без видео, формат IEEE отделён от гарантий C++.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/basic.fundamental",
+      "https://timsong-cpp.github.io/cppwp/n4861/numeric.limits"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3215267,
+    "path": "steps/771156/03_3215267_text.step",
+    "summary": "Уточнены диапазоны и C++20, отделён дополнительный код от правил переполнения; исторические форматы не занимают основную линию.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/basic.fundamental",
+      "https://timsong-cpp.github.io/cppwp/n4861/numeric.limits"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3231226,
+    "path": "steps/774618/05_3231226_text.step",
+    "summary": "Завершение урока связывает CMake, Git и будущие библиотеки без нового упражнения.",
+    "sources": [
+      "https://cmake.org/cmake/help/latest/manual/cmake-buildsystem.7.html"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3231228,
+    "path": "steps/774618/04_3231228_text.step",
+    "summary": "Различие настройки, сборки и запуска объяснено на журнале вместо задания учащемуся.",
+    "sources": [
+      "https://cmake.org/cmake/help/latest/manual/cmake.1.html"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3231317,
+    "path": "steps/774618/03_3231317_text.step",
+    "summary": "Сохранён полный CMake-пример, самостоятельное изменение заменено разбором пересборки и ошибки.",
+    "sources": [
+      "https://cmake.org/cmake/help/latest/manual/cmake.1.html",
+      "https://cmake.org/cmake/help/latest/prop_tgt/CXX_STANDARD.html"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3237946,
+    "path": "steps/776128/01_3237946_text.step",
+    "summary": "Углублённый материал получил явные предпосылки, границы ELF/Linux и возврат в основной маршрут.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/basic.start.main",
+      "https://timsong-cpp.github.io/cppwp/n4861/basic.start.static"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3237989,
+    "path": "steps/776128/03_3237989_text.step",
+    "summary": "Платформенный список действий runtime отделён от требований языка; сохранены корректные пояснения инициализации.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/basic.start.static",
+      "https://timsong-cpp.github.io/cppwp/n4861/basic.start.dynamic"
+    ],
+    "plan": [
+      "T1",
+      "LINKS"
+    ]
+  }
+]

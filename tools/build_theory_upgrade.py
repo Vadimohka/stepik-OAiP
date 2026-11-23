@@ -1,0 +1,171 @@
+#!/usr/bin/env python3
+"""Build the theory-only revision; immutable baselines, no network writes.
+
+--parts allows complete editorial blocks to be committed while others are being
+written. --check always checks the exact parts listed in the saved manifest.
+"""
+from __future__ import annotations
+import argparse
+import hashlib
+import html
+from html.parser import HTMLParser
+import json
+from pathlib import Path
+import re
+import sys
+from urllib.parse import urlparse
+
+from build_quality_packages import (block_digest, changed_fields, digest,
+                                    json_bytes, load_bindings, require)
+from build_next_upgrade import render_preview
+
+ROOT = Path(__file__).resolve().parents[1]
+PKG = ROOT / 'improvements/86957/theory-2026-11-23'
+BASE_COMMIT = '07f9f91852c2dbe5e6a9cdab6ccd90230cd2eb79'
+TITLE = 'Теория C++: точность, современность и связанность'
+
+
+class Links(HTMLParser):
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.urls = []
+        self.headings = []
+        self.heading = None
+        self.errors = []
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        if tag in {'script', 'iframe', 'video'}:
+            self.errors.append('Active or video element: ' + tag)
+        if tag == 'a' and attrs.get('href'):
+            self.urls.append(attrs['href'])
+        if re.fullmatch('h[1-6]', tag): self.heading = []
+    def handle_endtag(self, tag):
+        if re.fullmatch('h[1-6]', tag) and self.heading is not None:
+            self.headings.append(''.join(self.heading))
+            self.heading = None
+    def handle_data(self, data):
+        if self.heading is not None: self.heading.append(data)
+
+
+def blob_sha(data):
+    return hashlib.sha1(b'blob ' + str(len(data)).encode() + b'\0' + data).hexdigest()
+
+
+def build(parts=None):
+    bindings, order = load_bindings(ROOT)
+    locations = {(b['lesson_id'], b['position']): int(sid) for sid,b in bindings.items()}
+    index = json.loads((PKG/'base_source_index.json').read_bytes())
+    require(index['base_commit'] == BASE_COMMIT and len(index['files']) == 485,
+            'Wrong baseline source index')
+    previous_path = PKG/'manifest.json'
+    previous = json.loads(previous_path.read_bytes()) if previous_path.exists() else None
+    old = {s['step_id']: s for s in previous['steps']} if previous else {}
+    if previous:
+        require(previous['base_commit'] == BASE_COMMIT, 'Unexpected previous baseline')
+    journals = sorted(PKG.glob('changes_*.json'))
+    selected = sorted(parts or [p.stem.removeprefix('changes_') for p in journals])
+    require(bool(selected) and len(selected) == len(set(selected)), 'Empty/duplicate parts')
+    changes = {}
+    for part in selected:
+        require(re.fullmatch(r't[1-6]b?', part), 'Invalid editorial part')
+        path = PKG/f'changes_{part}.json'
+        rows = json.loads(path.read_bytes())
+        if isinstance(rows, dict): rows = rows['changes']
+        for row in rows:
+            sid = int(row['step_id'])
+            require(sid not in changes, f'Duplicate journal ID {sid}')
+            require(isinstance(row.get('summary'),str) and row['summary'].strip(),f'No summary {sid}')
+            require(row.get('sources') and all(url.startswith('https://') for url in row['sources']),f'No primary source {sid}')
+            changes[sid] = dict(row, part=part)
+    staged, documents, steps, links = {}, {}, [], []
+    for sid in sorted(changes, key=lambda sid: order[sid]):
+        row, binding = changes[sid], bindings[sid]
+        relative = Path(row['path'])
+        require(relative.as_posix() == binding['path'] and binding['type'] == 'text',f'Wrong binding/type {sid}')
+        require(re.fullmatch(r'steps/\d+/\d+_\d+_text\.step',relative.as_posix()),f'Unsafe path {sid}')
+        source = ROOT/'courses/86957'/relative
+        baseline = PKG/'baseline'/relative
+        target = PKG/relative
+        require(not target.is_symlink() and not baseline.is_symlink(),f'Symlink {sid}')
+        before_bytes = baseline.read_bytes() if baseline.exists() else source.read_bytes()
+        source_name = source.relative_to(ROOT).as_posix()
+        require(blob_sha(before_bytes) == index['files'][source_name],f'Baseline differs from pinned GitHub tree: {sid}')
+        if not baseline.exists(): staged[baseline] = before_bytes
+        after_bytes = target.read_bytes()
+        before, after = json.loads(before_bytes), json.loads(after_bytes)
+        require(str(before['id']) == str(after['id']) == str(sid),f'Payload ID mismatch {sid}')
+        fields = changed_fields(before,after)
+        require(fields == ['block.text'],f'Out-of-scope or empty edit {sid}: {fields}')
+        require(after['block']['name'] == 'text',f'Non-theory step {sid}')
+        parser = Links(); parser.feed(after['block']['text'])
+        require(not parser.errors, f'{sid}: {parser.errors}')
+        require(parser.headings, f'Missing explanation heading {sid}')
+        require(not any(re.search(r'самопровер|самостоятельн|практикум|упражнени',h,re.I) for h in parser.headings),f'Learner assignment heading {sid}')
+        for url in parser.urls:
+            u = urlparse(url)
+            if u.hostname in {'stepik.org','www.stepik.org'}:
+                match = re.fullmatch(r'/lesson/(\d+)/step/(\d+)/?',u.path)
+                if match:
+                    location=tuple(map(int,match.groups()))
+                    require(location in locations,f'Invalid course link {sid}: {url}')
+                    links.append({'from_step_id':sid,'to_step_id':locations[location],'url':url})
+        record = dict(step_id=sid, lesson_id=binding['lesson_id'],position=binding['position'],
+                      source_path=source_name,target_path=target.relative_to(ROOT).as_posix(),
+                      baseline_path=baseline.relative_to(ROOT).as_posix(),
+                      before_file_sha256=digest(before_bytes),after_file_sha256=digest(after_bytes),
+                      before_block_sha256=block_digest(before['block']),after_block_sha256=block_digest(after['block']),
+                      changed_fields=fields,summary=row['summary'],sources=row['sources'],
+                      plan=row.get('plan',[row['part'].upper(),'LINKS']),part=row['part'],step_url=binding['step_url'])
+        if sid in old:
+            require(old[sid]['before_file_sha256']==record['before_file_sha256'],f'Mutated immutable baseline {sid}')
+            if previous['publication'].get('applied'):
+                require(old[sid]['after_file_sha256']==record['after_file_sha256'],f'Published revision edited {sid}')
+        documents[sid]=after;steps.append(record)
+    if previous and previous['publication'].get('applied'):
+        require(set(old)==set(changes),'Published package membership changed')
+    publication = previous['publication'] if previous else {
+        'status':'not_published','applied':False,
+        'note':'Новая редакция только теории; публикация проверяется отдельно.'}
+    manifest = {'schema_version':1,'course_id':86957,'date':'2026-11-23','base_commit':BASE_COMMIT,
+                'status':'published' if publication.get('status')=='verified_on_stepik' else 'prepared',
+                'parts':selected,'changed_steps':len(steps),'changed_lessons':len({s['lesson_id'] for s in steps}),
+                'publication':publication,'scope':{'allowed_fields':['block.text'],'allowed_step_types':['text'],
+                'new_practice':False,'new_video':False,'existing_assessment_changes':False},'steps':steps}
+    staged[PKG/'manifest.json']=json_bytes(manifest)
+    staged[PKG/'course_links.json']=json_bytes({'schema_version':1,'links':links,'checked_against':'courses/86957/manifest.json'})
+    staged[PKG/'preview.html']=render_preview(PKG,manifest,TITLE,documents)
+    lines=[f'# {TITLE}','','Базовый коммит: `'+BASE_COMMIT+'`.','',
+           f'Изменено **{len(steps)} текстовых шагов в {manifest["changed_lessons"]} уроках**.',
+           'Меняется исключительно `block.text`; ID, типы, позиции и задания сохранены.','',
+           f'Статус публикации: `{publication["status"]}`.','',
+           '[Превью](preview.html) · [Манифест](manifest.json) · [Связи между шагами](course_links.json)','','| Шаг | Урок / позиция | Блок | Изменение |','| --- | --- | --- | --- |']
+    for s in steps:
+        summary=s['summary'].replace('|','\\|').replace('\n',' ')
+        lines.append(f'| [{s["step_id"]}]({s["step_url"]}) | {s["lesson_id"]} / {s["position"]} | {s["part"].upper()} | {summary} |')
+    lines += ['','## Проверка','','`python3 tools/build_theory_upgrade.py --check` проверяет точные исходные байты по дереву закреплённого коммита, единственное изменяемое поле, привязки шагов, внутренние ссылки и воспроизводимость манифеста/превью.','',
+              'Компиляция и прогоны — авторская проверка разобранных примеров, а не новые задания учащимся. Исторические пакеты не переписываются.','']
+    staged[PKG/'CHANGES.md']='\n'.join(lines).encode()
+    return staged,manifest
+
+
+def main():
+    ap=argparse.ArgumentParser();ap.add_argument('--check',action='store_true');ap.add_argument('--parts',nargs='+');args=ap.parse_args()
+    try:
+        parts=args.parts
+        if args.check:
+            require(parts is None,'--check uses saved manifest parts')
+            parts=json.loads((PKG/'manifest.json').read_bytes())['parts']
+        staged,manifest=build(parts)
+        mismatches=[p for p,data in staged.items() if not p.exists() or p.read_bytes()!=data]
+        if args.check:
+            require(not mismatches,'Stale generated files: '+', '.join(p.relative_to(ROOT).as_posix() for p in mismatches))
+        else:
+            for path in mismatches:
+                path.parent.mkdir(parents=True,exist_ok=True);path.write_bytes(staged[path])
+        print(json.dumps({'status':'checked' if args.check else 'built','steps':manifest['changed_steps'],'lessons':manifest['changed_lessons'],'parts':manifest['parts'],'written':0 if args.check else len(mismatches)}))
+        return 0
+    except Exception as error:
+        print(f'{type(error).__name__}: {error}',file=sys.stderr);return 1
+
+
+if __name__=='__main__':raise SystemExit(main())

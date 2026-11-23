@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h2>Бинарное дерево поиска</h2>\n\n<p>Бинарное дерево поиска - это особый тип бинарного дерева, в котором каждый узел имеет не более двух дочерних узлов, и выполняются дополнительные условия:</p>\n\n<ul>\n\t<li>оба поддерева, как левое, так и правое, также являются бинарными деревьями поиска;</li>\n\t<li>значения ключей данных всех узлов в левом поддереве произвольного узла X меньше, чем значение ключа данных самого узла X;</li>\n\t<li>в приведённой реализации ключи уникальны, поэтому ключи всех узлов правого поддерева X строго больше ключа X; повторная вставка того же ключа оставляет прежнее значение.</li>\n</ul>\n\n<p>Для каждого узла в дереве должны быть определены ключи данных, по которым возможно выполнение операции сравнения меньше.</p>\n\n<p>Определение узла(ноды):</p>\n\n<pre><code class=\"language-cpp\">#include &lt;memory&gt;\n#include &lt;string&gt;\n#include &lt;utility&gt;\n\nstruct Node {\n    int key;\n    std::string value;\n    std::shared_ptr&lt;Node&gt; left, right;\n    int height = 1; // используется в AVL-дереве\n\n    Node(int nKey, std::string nValue)\n        : key(nKey), value(std::move(nValue)) {}\n};\n\nstd::shared_ptr&lt;Node&gt; newNode(int key, std::string value) {\n    return std::make_shared&lt;Node&gt;(key, std::move(value));\n}</code></pre>\n\n<p>Добавление узла(ноды):</p>\n\n<pre><code class=\"language-cpp\">std::shared_ptr&lt;Node&gt; insert(std::shared_ptr&lt;Node&gt; node, int key, std::string value) {\n    if (!node)\n        return(newNode(key, value));\n\n    if (key &lt; node-&gt;key) {\n        node-&gt;left = insert(node-&gt;left, key, value);\n        return node;\n    }\n    else if (key &gt; node-&gt;key) {\n        node-&gt;right = insert(node-&gt;right, key, value);\n        return node;\n    }\n    else { // Одинаковые ключи не допускаются\n        return node;\n    }\n}</code></pre>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3570230",
+  "time": "2026-11-22T18:35:40Z"
+}

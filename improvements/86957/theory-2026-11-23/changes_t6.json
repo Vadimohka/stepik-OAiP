@@ -1,0 +1,376 @@
+[
+  {
+    "step_id": 4035497,
+    "path": "steps/973837/01_4035497_text.step",
+    "summary": "Разделены АТД, интерфейс и организация хранения; добавлена связь с контрактами, классами и владением.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/container.adaptors",
+      "https://timsong-cpp.github.io/cppwp/n4861/sequence.reqmts"
+    ],
+    "plan": [
+      "T6",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 4035517,
+    "path": "steps/973837/02_4035517_text.step",
+    "summary": "Вместо каталога названий дана карта последовательностей, адаптеров, словарей и реализаций.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/container.adaptors",
+      "https://timsong-cpp.github.io/cppwp/n4861/sequence.reqmts"
+    ],
+    "plan": [
+      "T6",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 4035524,
+    "path": "steps/973842/01_4035524_text.step",
+    "summary": "Очередь объясняется через контракт, трассировку и инвариант; разделены порядок, хранение и многопоточность.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/queue",
+      "https://timsong-cpp.github.io/cppwp/n4861/stack",
+      "https://timsong-cpp.github.io/cppwp/n4861/priority.queue"
+    ],
+    "plan": [
+      "T6",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 4035562,
+    "path": "steps/973842/02_4035562_text.step",
+    "summary": "Разведены FIFO, LIFO, приоритет и ёмкость; устранено обещание автоматической потокобезопасности.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/queue",
+      "https://timsong-cpp.github.io/cppwp/n4861/stack",
+      "https://timsong-cpp.github.io/cppwp/n4861/priority.queue"
+    ],
+    "plan": [
+      "T6",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 4035563,
+    "path": "steps/973842/03_4035563_text.step",
+    "summary": "Контракты queue подкреплены полным примером времени жизни; стоимость связана с базовым контейнером.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/queue",
+      "https://timsong-cpp.github.io/cppwp/n4861/stack",
+      "https://timsong-cpp.github.io/cppwp/n4861/priority.queue"
+    ],
+    "plan": [
+      "T6",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 4036909,
+    "path": "steps/973842/04_4036909_text.step",
+    "summary": "Гарантии deque отделены от блочной реализации; добавлены границы доступа и различие ссылок/итераторов.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/deque",
+      "https://timsong-cpp.github.io/cppwp/n4861/deque.modifiers",
+      "https://timsong-cpp.github.io/cppwp/n4861/vector"
+    ],
+    "plan": [
+      "T6",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 4047594,
+    "path": "steps/977027/01_4047594_text.step",
+    "summary": "Создан переход от числовых выражений и наследования к четырём различным намерениям приведений.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/expr.static.cast",
+      "https://timsong-cpp.github.io/cppwp/n4861/expr.dynamic.cast",
+      "https://timsong-cpp.github.io/cppwp/n4861/expr.const.cast",
+      "https://timsong-cpp.github.io/cppwp/n4861/expr.reinterpret.cast"
+    ],
+    "plan": [
+      "T6",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 4047616,
+    "path": "steps/977027/02_4047616_text.step",
+    "summary": "Устранён ручной new в примере static_cast; разобраны порядок деления, диапазон и контракт downcast.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/expr.static.cast",
+      "https://timsong-cpp.github.io/cppwp/n4861/expr.dynamic.cast",
+      "https://timsong-cpp.github.io/cppwp/n4861/expr.const.cast",
+      "https://timsong-cpp.github.io/cppwp/n4861/expr.reinterpret.cast"
+    ],
+    "plan": [
+      "T6",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 4047627,
+    "path": "steps/977027/03_4047627_text.step",
+    "summary": "Проверяемые приведения объяснены на одном примере успеха, неудачи, nullptr и bad_cast без ручного владения.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/expr.static.cast",
+      "https://timsong-cpp.github.io/cppwp/n4861/expr.dynamic.cast",
+      "https://timsong-cpp.github.io/cppwp/n4861/expr.const.cast",
+      "https://timsong-cpp.github.io/cppwp/n4861/expr.reinterpret.cast"
+    ],
+    "plan": [
+      "T6",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 4047680,
+    "path": "steps/977027/04_4047680_text.step",
+    "summary": "Снятие const связано с реальным объектом; безопасный пример заменяет маскировку неверного интерфейса строки.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/expr.static.cast",
+      "https://timsong-cpp.github.io/cppwp/n4861/expr.dynamic.cast",
+      "https://timsong-cpp.github.io/cppwp/n4861/expr.const.cast",
+      "https://timsong-cpp.github.io/cppwp/n4861/expr.reinterpret.cast"
+    ],
+    "plan": [
+      "T6",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 4047681,
+    "path": "steps/977027/05_4047681_text.step",
+    "summary": "Низкоуровневое приведение отделено от числового; введены тип доступа, жизнь, выравнивание и переносимость представления.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/expr.static.cast",
+      "https://timsong-cpp.github.io/cppwp/n4861/expr.dynamic.cast",
+      "https://timsong-cpp.github.io/cppwp/n4861/expr.const.cast",
+      "https://timsong-cpp.github.io/cppwp/n4861/expr.reinterpret.cast"
+    ],
+    "plan": [
+      "T6",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 4047682,
+    "path": "steps/977027/06_4047682_text.step",
+    "summary": "Закреплены намерения четырёх приведений и переход к инвариантам деревьев; удалены лишние бездействующие фрагменты.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/expr.static.cast",
+      "https://timsong-cpp.github.io/cppwp/n4861/expr.dynamic.cast",
+      "https://timsong-cpp.github.io/cppwp/n4861/expr.const.cast",
+      "https://timsong-cpp.github.io/cppwp/n4861/expr.reinterpret.cast"
+    ],
+    "plan": [
+      "T6",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3569329,
+    "path": "steps/853539/01_3569329_text.step",
+    "summary": "Уточнены обходы, соглашение о высоте и связь дерева с интерфейсом и стоимостью.",
+    "sources": [
+      "https://opendatastructures.org/ods-cpp/6_Binary_Trees.html",
+      "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/376714cc85c6c784d90eec9c575ec027_MIT6_006S20_lec6.pdf"
+    ],
+    "plan": [
+      "T6",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3570230,
+    "path": "steps/853539/02_3570230_text.step",
+    "summary": "BST получил единый договор дубликатов и полный пример с единственным владельцем каждого узла.",
+    "sources": [
+      "https://opendatastructures.org/ods-cpp/6_Binary_Trees.html",
+      "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/376714cc85c6c784d90eec9c575ec027_MIT6_006S20_lec6.pdf"
+    ],
+    "plan": [
+      "T6",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3570231,
+    "path": "steps/853539/03_3570231_text.step",
+    "summary": "Стоимость связана с высотой и числом сравнений; показано, что BST-инвариант не гарантирует баланс.",
+    "sources": [
+      "https://opendatastructures.org/ods-cpp/6_Binary_Trees.html",
+      "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/376714cc85c6c784d90eec9c575ec027_MIT6_006S20_lec6.pdf"
+    ],
+    "plan": [
+      "T6",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3569330,
+    "path": "steps/853540/01_3569330_text.step",
+    "summary": "Сохранены исправленные случаи AVL; добавлены доказательство порядка при повороте и причина логарифмической высоты.",
+    "sources": [
+      "https://opendatastructures.org/ods-cpp/6_Binary_Trees.html",
+      "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/376714cc85c6c784d90eec9c575ec027_MIT6_006S20_lec6.pdf",
+      "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/a2c80596cf4a2b5fbc854afdd2f23dcb_MIT6_006S20_lec7.pdf"
+    ],
+    "plan": [
+      "T6",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3570281,
+    "path": "steps/853540/02_3570281_text.step",
+    "summary": "AVL переписан на unique_ptr; дан полный собираемый пример и связь алгоритма с инвариантами, данными и временем жизни.",
+    "sources": [
+      "https://opendatastructures.org/ods-cpp/6_Binary_Trees.html",
+      "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/376714cc85c6c784d90eec9c575ec027_MIT6_006S20_lec6.pdf",
+      "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/a2c80596cf4a2b5fbc854afdd2f23dcb_MIT6_006S20_lec7.pdf"
+    ],
+    "plan": [
+      "T6",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3569332,
+    "path": "steps/853541/01_3569332_text.step",
+    "summary": "Сохранён иллюстрированный разбор 2–3-дерева; самостоятельная вставка заменена готовой трассировкой и уточнено соответствие 2–3–4.",
+    "sources": [
+      "https://opendatastructures.org/ods-cpp/9_Red_Black_Trees.html",
+      "https://opendatastructures.org/ods-cpp/9_1_2_4_Trees.html",
+      "https://timsong-cpp.github.io/cppwp/n4861/associative.reqmts"
+    ],
+    "plan": [
+      "T6",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3570303,
+    "path": "steps/853541/02_3570303_text.step",
+    "summary": "Каркас RB включён в единый маршрут реализации, определены NIL, владение, дубликаты и пределы библиотечных гарантий.",
+    "sources": [
+      "https://opendatastructures.org/ods-cpp/9_Red_Black_Trees.html",
+      "https://opendatastructures.org/ods-cpp/9_1_2_4_Trees.html",
+      "https://timsong-cpp.github.io/cppwp/n4861/associative.reqmts"
+    ],
+    "plan": [
+      "T6",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3570304,
+    "path": "steps/853541/03_3570304_text.step",
+    "summary": "Перед кодом вставки RB раскрыт единственный исправляемый инвариант и маршрут пяти случаев; добавлена готовая трассировка.",
+    "sources": [
+      "https://opendatastructures.org/ods-cpp/9_Red_Black_Trees.html",
+      "https://opendatastructures.org/ods-cpp/9_1_2_4_Trees.html",
+      "https://timsong-cpp.github.io/cppwp/n4861/associative.reqmts"
+    ],
+    "plan": [
+      "T6",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3570333,
+    "path": "steps/853541/04_3570333_text.step",
+    "summary": "Удаление RB организовано вокруг дефицита чёрной высоты, таблицы случаев и двух готовых трассировок; согласовано имя DelCase1.",
+    "sources": [
+      "https://opendatastructures.org/ods-cpp/9_Red_Black_Trees.html",
+      "https://opendatastructures.org/ods-cpp/9_1_2_4_Trees.html",
+      "https://timsong-cpp.github.io/cppwp/n4861/associative.reqmts"
+    ],
+    "plan": [
+      "T6",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3570332,
+    "path": "steps/853541/05_3570332_text.step",
+    "summary": "Неполная небезопасная надстройка итератора заменена алгоритмом преемника, контрактом end и полным примером стандартного обхода.",
+    "sources": [
+      "https://opendatastructures.org/ods-cpp/9_Red_Black_Trees.html",
+      "https://opendatastructures.org/ods-cpp/9_1_2_4_Trees.html",
+      "https://timsong-cpp.github.io/cppwp/n4861/associative.reqmts"
+    ],
+    "plan": [
+      "T6",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 4035439,
+    "path": "steps/973829/01_4035439_text.step",
+    "summary": "Сравнение структур связано с контрактом уникальных ключей, стоимостью строк и ожидаемыми/худшими оценками.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/unord.req",
+      "https://opendatastructures.org/ods-cpp/5_Hash_Tables.html"
+    ],
+    "plan": [
+      "T6",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 4035461,
+    "path": "steps/973829/02_4035461_text.step",
+    "summary": "Хеш-код отделён от корзины; на числах разобраны коллизия после редукции и обязательная связь с равенством.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/unord.req",
+      "https://opendatastructures.org/ods-cpp/5_Hash_Tables.html"
+    ],
+    "plan": [
+      "T6",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 4035460,
+    "path": "steps/973829/03_4035460_text.step",
+    "summary": "Коллизии связаны с равенством, n/m, условиями ожидаемой оценки, удалением при пробировании и rehash.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/unord.req",
+      "https://opendatastructures.org/ods-cpp/5_Hash_Tables.html"
+    ],
+    "plan": [
+      "T6",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 4035443,
+    "path": "steps/973831/01_4035443_text.step",
+    "summary": "PasswordList** заменён нейтральной моделью словаря с RAII, полным контрактом, optional и ясными инвариантами.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/unord.req",
+      "https://opendatastructures.org/ods-cpp/5_Hash_Tables.html"
+    ],
+    "plan": [
+      "T6",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 4035481,
+    "path": "steps/973831/02_4035481_text.step",
+    "summary": "Дан полный собираемый hash-класс без скрытых функций; разобраны коллизия, замена, удаление, rehash, копирование и точная стоимость.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/unord.req",
+      "https://opendatastructures.org/ods-cpp/5_Hash_Tables.html"
+    ],
+    "plan": [
+      "T6",
+      "LINKS"
+    ]
+  }
+]

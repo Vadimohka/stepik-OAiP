@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Microsoft Visual Studio</h3>\n\n<p>Visual Studio — интегрированная среда разработки с поддержкой C++ и других языков. Она позволяет создавать консольные приложения, приложения с графическим интерфейсом и другие виды проектов. Для обычной разработки C++ под Windows устанавливают рабочую нагрузку «Разработка классических приложений на C++». Поддерживаемые платформы и дополнительные средства зависят от версии IDE и выбранных компонентов; их актуальный список приведён в документации Microsoft.</p>\n\n<p><a href=\"https://media.tproger.ru/uploads/2015/11/visualstudio.jpg\" rel=\"noopener noreferrer nofollow\" target=\"_blank\"><img alt=\"Visual Studio для C++\" height=\"624\" src=\"https://media.tproger.ru/uploads/2015/11/visualstudio.jpg\" width=\"1000\"></a></p>\n\n<p><strong>Достоинства</strong>:</p>\n\n<ul>\n\t<li>Есть бесплатная версия Visual Studio Community.</li>\n\t<li>Встроенный интерфейс командной строки.</li>\n\t<li>API для подключения дополнительных инструментов отладки.</li>\n\t<li>Полный набор инструментов разработчика для создания и клонирования Git-репозиториев, управления ветвями и разрешения конфликтов слияния прямо в интегрированной среде разработки C++.</li>\n\t<li>Большой набор дополнений для расширения базовой функциональности.</li>\n</ul>\n\n<p><strong>Недостатки</strong>:</p>\n\n<ul>\n\t<li>Professional и Enterprise распространяются по платным лицензиям; актуальные цены и условия указаны на официальном сайте.</li>\n\t<li>Высокие требования к «железу».</li>\n\t<li>Нет версии для Linux.</li>\n</ul>\n\n<p>Скачать можно по ссылке: <a href=\"https://visualstudio.microsoft.com/ru/\" rel=\"noopener noreferrer nofollow\">https://visualstudio.microsoft.com/ru/</a></p>",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3201150",
+  "time": "2026-11-22T21:11:35Z"
+}

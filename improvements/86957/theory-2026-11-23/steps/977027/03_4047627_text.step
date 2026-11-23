@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h2>dynamic_cast: проверка фактического типа</h2>\n<p>Нужны понятия <a href=\"https://stepik.org/lesson/877084/step/1\">наследования и виртуальной функции</a>. Для проверяемого приведения вниз или поперёк иерархии исходный тип должен быть <strong>полиморфным</strong>: иметь виртуальную функцию. Преобразование вверх к доступной однозначной базе возможно и без полиморфизма.</p>\n<p><code>dynamic_cast&lt;Derived*&gt;(base_pointer)</code> возвращает подходящий указатель или <code>nullptr</code>, если проверка не удалась. Нулевой исходный указатель даёт нулевой результат. Приведение к ссылке не имеет нулевого результата: при неудаче оно выбрасывает <code>std::bad_cast</code> из <code>&lt;typeinfo&gt;</code>.</p>\n<h3>Разобранная полная программа C++17/20</h3>\n<p>Локальные объекты живут до конца <code>main</code>; указатели в массиве ими не владеют. Виртуальный деструктор делает базу полиморфной и обеспечивает корректное уничтожение через базовый указатель в тех программах, где оно требуется.</p><pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;typeinfo&gt;\n\nstruct Shape {\n    virtual ~Shape() = default;\n};\nstruct Circle : Shape {\n    int radius = 3;\n};\n\nint main() {\n    Circle circle;\n    Shape other;\n    Shape* shapes[]{&amp;circle, &amp;other, nullptr};\n    for (Shape* shape : shapes) {\n        if (const auto* found = dynamic_cast&lt;const Circle*&gt;(shape)) {\n            std::cout &lt;&lt; found-&gt;radius &lt;&lt; &#x27;\\n&#x27;;\n        } else {\n            std::cout &lt;&lt; &quot;not a circle\\n&quot;;\n        }\n    }\n    try {\n        (void)dynamic_cast&lt;Circle&amp;&gt;(other);\n    } catch (const std::bad_cast&amp;) {\n        std::cout &lt;&lt; &quot;reference cast failed\\n&quot;;\n    }\n}</code></pre>\n<p>Вывод: <code>3</code>, два раза <code>not a circle</code>, затем <code>reference cast failed</code>, каждое сообщение на новой строке. Здесь один и тот же оператор отличает объект <code>Circle</code>, обычный <code>Shape</code> и отсутствие объекта.</p>\n<p>Проверка не делает безопасным висячий указатель: время жизни исходного объекта должно продолжаться. Также <code>dynamic_cast</code> не снимает <code>const</code>. Если ветвление по конкретным типам повторяется в каждом вызывающем коде, стоит рассмотреть виртуальную операцию в общем интерфейсе; выбор зависит от модели задачи.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "4047627",
+  "time": "2026-11-22T18:35:40Z"
+}

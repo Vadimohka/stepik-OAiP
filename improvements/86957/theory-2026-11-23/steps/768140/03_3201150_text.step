@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h2>Visual Studio: компоненты среды Windows</h2><p>Visual Studio объединяет редактор, проекты, сборку и отладку. Для C++ нужна установленная рабочая нагрузка разработки классических приложений на C++: наличие самой оболочки ещё не означает, что доступны компилятор и библиотеки.</p><p>В типичном проекте используются MSVC, Windows SDK и средства сборки. Visual Studio также поддерживает CMake-проекты. Важно различать настройки проекта, активную конфигурацию и фактическую команду компилятора. Visual Studio и Visual Studio Code — разные продукты.</p><p>Справка: <a href=\"https://learn.microsoft.com/en-us/cpp/build/vscpp-step-0-installation\">официальная документация</a>. Для дальнейших уроков достаточно одной настроенной среды; знать особенности всех перечисленных IDE не требуется.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3201150",
+  "time": "2026-11-22T21:11:35Z"
+}

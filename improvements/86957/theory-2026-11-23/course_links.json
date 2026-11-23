@@ -1,0 +1,281 @@
+{
+  "schema_version": 1,
+  "links": [
+    {
+      "from_step_id": 3212949,
+      "to_step_id": 3212944,
+      "url": "https://stepik.org/lesson/770585/step/1"
+    },
+    {
+      "from_step_id": 3212949,
+      "to_step_id": 3251321,
+      "url": "https://stepik.org/lesson/778425/step/1"
+    },
+    {
+      "from_step_id": 3212949,
+      "to_step_id": 3668926,
+      "url": "https://stepik.org/lesson/877082/step/1"
+    },
+    {
+      "from_step_id": 3214978,
+      "to_step_id": 3212951,
+      "url": "https://stepik.org/lesson/770592/step/2"
+    },
+    {
+      "from_step_id": 3212951,
+      "to_step_id": 3214978,
+      "url": "https://stepik.org/lesson/770591/step/7"
+    },
+    {
+      "from_step_id": 3212951,
+      "to_step_id": 3214991,
+      "url": "https://stepik.org/lesson/770592/step/3"
+    },
+    {
+      "from_step_id": 3212951,
+      "to_step_id": 3212952,
+      "url": "https://stepik.org/lesson/770593/step/1"
+    },
+    {
+      "from_step_id": 3212952,
+      "to_step_id": 3212951,
+      "url": "https://stepik.org/lesson/770592/step/2"
+    },
+    {
+      "from_step_id": 3212952,
+      "to_step_id": 3215031,
+      "url": "https://stepik.org/lesson/770593/step/2"
+    },
+    {
+      "from_step_id": 3215032,
+      "to_step_id": 3212951,
+      "url": "https://stepik.org/lesson/770592/step/2"
+    },
+    {
+      "from_step_id": 3215045,
+      "to_step_id": 3215032,
+      "url": "https://stepik.org/lesson/770593/step/3"
+    },
+    {
+      "from_step_id": 3215045,
+      "to_step_id": 3251321,
+      "url": "https://stepik.org/lesson/778425/step/1"
+    },
+    {
+      "from_step_id": 3251321,
+      "to_step_id": 3212949,
+      "url": "https://stepik.org/lesson/770590/step/1"
+    },
+    {
+      "from_step_id": 3252941,
+      "to_step_id": 3668927,
+      "url": "https://stepik.org/lesson/877083/step/1"
+    },
+    {
+      "from_step_id": 3252941,
+      "to_step_id": 3569325,
+      "url": "https://stepik.org/lesson/853536/step/1"
+    },
+    {
+      "from_step_id": 3253557,
+      "to_step_id": 3668926,
+      "url": "https://stepik.org/lesson/877082/step/1"
+    },
+    {
+      "from_step_id": 3253557,
+      "to_step_id": 3212953,
+      "url": "https://stepik.org/lesson/770594/step/1"
+    },
+    {
+      "from_step_id": 3253557,
+      "to_step_id": 3569325,
+      "url": "https://stepik.org/lesson/853536/step/1"
+    },
+    {
+      "from_step_id": 4035497,
+      "to_step_id": 3668926,
+      "url": "https://stepik.org/lesson/877082/step/1"
+    },
+    {
+      "from_step_id": 4035497,
+      "to_step_id": 3569325,
+      "url": "https://stepik.org/lesson/853536/step/1"
+    },
+    {
+      "from_step_id": 4035497,
+      "to_step_id": 3212953,
+      "url": "https://stepik.org/lesson/770594/step/1"
+    },
+    {
+      "from_step_id": 4035517,
+      "to_step_id": 3569329,
+      "url": "https://stepik.org/lesson/853539/step/1"
+    },
+    {
+      "from_step_id": 4035517,
+      "to_step_id": 4035439,
+      "url": "https://stepik.org/lesson/973829/step/1"
+    },
+    {
+      "from_step_id": 4035517,
+      "to_step_id": 4035311,
+      "url": "https://stepik.org/lesson/973816/step/1"
+    },
+    {
+      "from_step_id": 4035524,
+      "to_step_id": 4035497,
+      "url": "https://stepik.org/lesson/973837/step/1"
+    },
+    {
+      "from_step_id": 4035524,
+      "to_step_id": 3212949,
+      "url": "https://stepik.org/lesson/770590/step/1"
+    },
+    {
+      "from_step_id": 4036909,
+      "to_step_id": 3668928,
+      "url": "https://stepik.org/lesson/877084/step/1"
+    },
+    {
+      "from_step_id": 4047594,
+      "to_step_id": 3177291,
+      "url": "https://stepik.org/lesson/763639/step/1"
+    },
+    {
+      "from_step_id": 4047594,
+      "to_step_id": 3212944,
+      "url": "https://stepik.org/lesson/770585/step/1"
+    },
+    {
+      "from_step_id": 4047594,
+      "to_step_id": 3668928,
+      "url": "https://stepik.org/lesson/877084/step/1"
+    },
+    {
+      "from_step_id": 4047627,
+      "to_step_id": 3668928,
+      "url": "https://stepik.org/lesson/877084/step/1"
+    },
+    {
+      "from_step_id": 4047681,
+      "to_step_id": 3215112,
+      "url": "https://stepik.org/lesson/771130/step/1"
+    },
+    {
+      "from_step_id": 4047682,
+      "to_step_id": 3569329,
+      "url": "https://stepik.org/lesson/853539/step/1"
+    },
+    {
+      "from_step_id": 3569329,
+      "to_step_id": 4035497,
+      "url": "https://stepik.org/lesson/973837/step/1"
+    },
+    {
+      "from_step_id": 3569329,
+      "to_step_id": 3212950,
+      "url": "https://stepik.org/lesson/770591/step/1"
+    },
+    {
+      "from_step_id": 3569329,
+      "to_step_id": 3569325,
+      "url": "https://stepik.org/lesson/853536/step/1"
+    },
+    {
+      "from_step_id": 3569329,
+      "to_step_id": 3570230,
+      "url": "https://stepik.org/lesson/853539/step/2"
+    },
+    {
+      "from_step_id": 3570231,
+      "to_step_id": 3569330,
+      "url": "https://stepik.org/lesson/853540/step/1"
+    },
+    {
+      "from_step_id": 3570231,
+      "to_step_id": 3570303,
+      "url": "https://stepik.org/lesson/853541/step/2"
+    },
+    {
+      "from_step_id": 3569330,
+      "to_step_id": 3570230,
+      "url": "https://stepik.org/lesson/853539/step/2"
+    },
+    {
+      "from_step_id": 3570281,
+      "to_step_id": 3569332,
+      "url": "https://stepik.org/lesson/853541/step/1"
+    },
+    {
+      "from_step_id": 3570303,
+      "to_step_id": 3570230,
+      "url": "https://stepik.org/lesson/853539/step/2"
+    },
+    {
+      "from_step_id": 3570303,
+      "to_step_id": 3569330,
+      "url": "https://stepik.org/lesson/853540/step/1"
+    },
+    {
+      "from_step_id": 3570303,
+      "to_step_id": 3569327,
+      "url": "https://stepik.org/lesson/853537/step/1"
+    },
+    {
+      "from_step_id": 3570304,
+      "to_step_id": 3570303,
+      "url": "https://stepik.org/lesson/853541/step/2"
+    },
+    {
+      "from_step_id": 3570333,
+      "to_step_id": 3570303,
+      "url": "https://stepik.org/lesson/853541/step/2"
+    },
+    {
+      "from_step_id": 3570332,
+      "to_step_id": 3569329,
+      "url": "https://stepik.org/lesson/853539/step/1"
+    },
+    {
+      "from_step_id": 3570332,
+      "to_step_id": 4035439,
+      "url": "https://stepik.org/lesson/973829/step/1"
+    },
+    {
+      "from_step_id": 4035439,
+      "to_step_id": 4035497,
+      "url": "https://stepik.org/lesson/973837/step/1"
+    },
+    {
+      "from_step_id": 4035439,
+      "to_step_id": 3212953,
+      "url": "https://stepik.org/lesson/770594/step/1"
+    },
+    {
+      "from_step_id": 4035439,
+      "to_step_id": 3570230,
+      "url": "https://stepik.org/lesson/853539/step/2"
+    },
+    {
+      "from_step_id": 4035460,
+      "to_step_id": 4035443,
+      "url": "https://stepik.org/lesson/973831/step/1"
+    },
+    {
+      "from_step_id": 4035443,
+      "to_step_id": 3668926,
+      "url": "https://stepik.org/lesson/877082/step/1"
+    },
+    {
+      "from_step_id": 4035443,
+      "to_step_id": 3569325,
+      "url": "https://stepik.org/lesson/853536/step/1"
+    },
+    {
+      "from_step_id": 4035481,
+      "to_step_id": 4035417,
+      "url": "https://stepik.org/lesson/973826/step/1"
+    }
+  ],
+  "checked_against": "courses/86957/manifest.json"
+}

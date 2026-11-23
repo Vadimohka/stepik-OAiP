@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "scope": "T6; modules 16–18; theory only",
+  "source_commit": "07f9f91852c2dbe5e6a9cdab6ccd90230cd2eb79",
+  "reviewed_text_steps": [
+    {
+      "step_id": 4035497,
+      "source_path": "courses/86957/steps/973837/01_4035497_text.step",
+      "source_sha256": "4ea9d1c64eff0b082df25d10d090006582e2bc758c4a913a3a3151a078f4d4bc",
+      "status": "revised",
+      "reason": "Разделены АТД, интерфейс и организация хранения; добавлена связь с контрактами, классами и владением."
+    },
+    {
+      "step_id": 4035517,
+      "source_path": "courses/86957/steps/973837/02_4035517_text.step",
+      "source_sha256": "49f4ec686f37f9fa01e52ca051fd9a1e52248f738bdc6ad0b3331c6336f795b7",
+      "status": "revised",
+      "reason": "Вместо каталога названий дана карта последовательностей, адаптеров, словарей и реализаций."
+    },
+    {
+      "step_id": 4035524,
+      "source_path": "courses/86957/steps/973842/01_4035524_text.step",
+      "source_sha256": "0977839d4c3a0d21aa9d451ecb574ac38cae78831ff64a5d396c5a032d6638de",
+      "status": "revised",
+      "reason": "Очередь объясняется через контракт, трассировку и инвариант; разделены порядок, хранение и многопоточность."
+    },
+    {
+      "step_id": 4035562,
+      "source_path": "courses/86957/steps/973842/02_4035562_text.step",
+      "source_sha256": "4132e837a9f758f2d902d8d216e87084df0a58c1fc09f72d5e7f5263b6671fe0",
+      "status": "revised",
+      "reason": "Разведены FIFO, LIFO, приоритет и ёмкость; устранено обещание автоматической потокобезопасности."
+    },
+    {
+      "step_id": 4035563,
+      "source_path": "courses/86957/steps/973842/03_4035563_text.step",
+      "source_sha256": "39da123f1c37aaa7a2f18533f616c171682736ce7f8f2af5f03343ca093f0592",
+      "status": "revised",
+      "reason": "Контракты queue подкреплены полным примером времени жизни; стоимость связана с базовым контейнером."
+    },
+    {
+      "step_id": 4036909,
+      "source_path": "courses/86957/steps/973842/04_4036909_text.step",
+      "source_sha256": "30ec1aeb40eaf3a789475dd3e491d747a97d3b104b1f2c853c88091e09bce15d",
+      "status": "revised",
+      "reason": "Гарантии deque отделены от блочной реализации; добавлены границы доступа и различие ссылок/итераторов."
+    },
+    {
+      "step_id": 4047594,
+      "source_path": "courses/86957/steps/977027/01_4047594_text.step",
+      "source_sha256": "c3704f0c9ccbdcc35d53d637cab658278bb468fe9b131d414274e20fabf2981b",
+      "status": "revised",
+      "reason": "Создан переход от числовых выражений и наследования к четырём различным намерениям приведений."
+    },
+    {
+      "step_id": 4047616,
+      "source_path": "courses/86957/steps/977027/02_4047616_text.step",
+      "source_sha256": "b07c6da1017331c0d1bc76584a8f3c9780b3357e419eca2c694bd3fc724a55d5",
+      "status": "revised",
+      "reason": "Устранён ручной new в примере static_cast; разобраны порядок деления, диапазон и контракт downcast."
+    },
+    {
+      "step_id": 4047627,
+      "source_path": "courses/86957/steps/977027/03_4047627_text.step",
+      "source_sha256": "6a864e83562e453d3a467fa4f61a6c8a6c276d3190879fd28c3db9308d86f6dc",
+      "status": "revised",
+      "reason": "Проверяемые приведения объяснены на одном примере успеха, неудачи, nullptr и bad_cast без ручного владения."
+    },
+    {
+      "step_id": 4047680,
+      "source_path": "courses/86957/steps/977027/04_4047680_text.step",
+      "source_sha256": "5c9f38f4695f08852155a6a92ed48f76ddc5786a101b72380b3f303585615ea0",
+      "status": "revised",
+      "reason": "Снятие const связано с реальным объектом; безопасный пример заменяет маскировку неверного интерфейса строки."
+    },
+    {
+      "step_id": 4047681,
+      "source_path": "courses/86957/steps/977027/05_4047681_text.step",
+      "source_sha256": "0427a9df8f6302bd15943277bdca794a042a9d6be8169c3c3dd9854582c042fa",
+      "status": "revised",
+      "reason": "Низкоуровневое приведение отделено от числового; введены тип доступа, жизнь, выравнивание и переносимость представления."
+    },
+    {
+      "step_id": 4047682,
+      "source_path": "courses/86957/steps/977027/06_4047682_text.step",
+      "source_sha256": "325990050dc4ec28fbcd20bae7b6f6510168e81c9c8fce85f5d95560b630ffa5",
+      "status": "revised",
+      "reason": "Закреплены намерения четырёх приведений и переход к инвариантам деревьев; удалены лишние бездействующие фрагменты."
+    },
+    {
+      "step_id": 3569329,
+      "source_path": "courses/86957/steps/853539/01_3569329_text.step",
+      "source_sha256": "3b0ec9f64b130e3d61b2b25328c3912b666dbccf41b27c3bf709923b7c3af58e",
+      "status": "revised",
+      "reason": "Уточнены обходы, соглашение о высоте и связь дерева с интерфейсом и стоимостью."
+    },
+    {
+      "step_id": 3570230,
+      "source_path": "courses/86957/steps/853539/02_3570230_text.step",
+      "source_sha256": "18d20fcc43428ed0fda275c4f0a8c8b697e59ff201dc44002dcb8269ada0ac4c",
+      "status": "revised",
+      "reason": "BST получил единый договор дубликатов и полный пример с единственным владельцем каждого узла."
+    },
+    {
+      "step_id": 3570231,
+      "source_path": "courses/86957/steps/853539/03_3570231_text.step",
+      "source_sha256": "66d25b9c7ed22326c37c241bc61ebc64fa9850c8b92c82d6b4c7da4e920e6cce",
+      "status": "revised",
+      "reason": "Стоимость связана с высотой и числом сравнений; показано, что BST-инвариант не гарантирует баланс."
+    },
+    {
+      "step_id": 3569330,
+      "source_path": "courses/86957/steps/853540/01_3569330_text.step",
+      "source_sha256": "897ed77a6a4b14cfd1296e92bd6def113a80570d2d98b0a7b54f7ddda69fe8e3",
+      "status": "revised",
+      "reason": "Сохранены исправленные случаи AVL; добавлены доказательство порядка при повороте и причина логарифмической высоты."
+    },
+    {
+      "step_id": 3570281,
+      "source_path": "courses/86957/steps/853540/02_3570281_text.step",
+      "source_sha256": "ae7123ac90ea33f13425dbadf7c785143b564f3a262e41861da7217f2f47bd8b",
+      "status": "revised",
+      "reason": "AVL переписан на unique_ptr; дан полный собираемый пример и связь алгоритма с инвариантами, данными и временем жизни."
+    },
+    {
+      "step_id": 3569332,
+      "source_path": "courses/86957/steps/853541/01_3569332_text.step",
+      "source_sha256": "dd540086630a7b1c72c69ab12b1232528a850a32e3fba2d18f48b9a4cce11127",
+      "status": "revised",
+      "reason": "Сохранён иллюстрированный разбор 2–3-дерева; самостоятельная вставка заменена готовой трассировкой и уточнено соответствие 2–3–4."
+    },
+    {
+      "step_id": 3570303,
+      "source_path": "courses/86957/steps/853541/02_3570303_text.step",
+      "source_sha256": "bb0b9c1f7dd190535cbcaf6ae0b507509aab08475b20b0b7806618efd6df0348",
+      "status": "revised",
+      "reason": "Каркас RB включён в единый маршрут реализации, определены NIL, владение, дубликаты и пределы библиотечных гарантий."
+    },
+    {
+      "step_id": 3570304,
+      "source_path": "courses/86957/steps/853541/03_3570304_text.step",
+      "source_sha256": "33274523d61bd49a3e9a656689cf677bbc57171fcd9c42fa6315dec407201da0",
+      "status": "revised",
+      "reason": "Перед кодом вставки RB раскрыт единственный исправляемый инвариант и маршрут пяти случаев; добавлена готовая трассировка."
+    },
+    {
+      "step_id": 3570333,
+      "source_path": "courses/86957/steps/853541/04_3570333_text.step",
+      "source_sha256": "079d3ceb6b10b8b58fc966732879cfcd77c83cbcd3882f43b327fe460ece408c",
+      "status": "revised",
+      "reason": "Удаление RB организовано вокруг дефицита чёрной высоты, таблицы случаев и двух готовых трассировок; согласовано имя DelCase1."
+    },
+    {
+      "step_id": 3570332,
+      "source_path": "courses/86957/steps/853541/05_3570332_text.step",
+      "source_sha256": "556babe61424acad923f68de390e6744658f8bc636e74b710e37371c0ba3b8e4",
+      "status": "revised",
+      "reason": "Неполная небезопасная надстройка итератора заменена алгоритмом преемника, контрактом end и полным примером стандартного обхода."
+    },
+    {
+      "step_id": 4035439,
+      "source_path": "courses/86957/steps/973829/01_4035439_text.step",
+      "source_sha256": "63b47c0df4a85355f7e8f47f4580cc2f6e82e1ad3e1cd4f33c19b0985e55c0b9",
+      "status": "revised",
+      "reason": "Сравнение структур связано с контрактом уникальных ключей, стоимостью строк и ожидаемыми/худшими оценками."
+    },
+    {
+      "step_id": 4035461,
+      "source_path": "courses/86957/steps/973829/02_4035461_text.step",
+      "source_sha256": "f742dae1316c5d7c9f8229414696a64450dca6aca572bc4743416301d7e70388",
+      "status": "revised",
+      "reason": "Хеш-код отделён от корзины; на числах разобраны коллизия после редукции и обязательная связь с равенством."
+    },
+    {
+      "step_id": 4035460,
+      "source_path": "courses/86957/steps/973829/03_4035460_text.step",
+      "source_sha256": "1a37cd15e3fd730e343f07e5bd7168113bca6f0664004b9d0849ff1057bb1018",
+      "status": "revised",
+      "reason": "Коллизии связаны с равенством, n/m, условиями ожидаемой оценки, удалением при пробировании и rehash."
+    },
+    {
+      "step_id": 4035443,
+      "source_path": "courses/86957/steps/973831/01_4035443_text.step",
+      "source_sha256": "c49348f3781f17f7c4e45e0e9585f8fafbfe9ffaae5f62e329f852578b8ce394",
+      "status": "revised",
+      "reason": "PasswordList** заменён нейтральной моделью словаря с RAII, полным контрактом, optional и ясными инвариантами."
+    },
+    {
+      "step_id": 4035481,
+      "source_path": "courses/86957/steps/973831/02_4035481_text.step",
+      "source_sha256": "bedc13cbbfb575664d3bff1b7371fda566c13d72eb9844ab18a7fb8073adca49",
+      "status": "revised",
+      "reason": "Дан полный собираемый hash-класс без скрытых функций; разобраны коллизия, замена, удаление, rehash, копирование и точная стоимость."
+    }
+  ],
+  "remaining_issues": [],
+  "limitations": [
+    "Авторская проверка выполняет конечный набор сценариев и не является доказательством корректности для всех состояний.",
+    "Учебный RB не предоставляет итераторов и не обещает библиотечных гарантий исключений для произвольных типов; это прямо оговорено в тексте.",
+    "AVL и hash-примеры иллюстрируют алгоритмы и не заменяют стандартные контейнеры."
+  ]
+}

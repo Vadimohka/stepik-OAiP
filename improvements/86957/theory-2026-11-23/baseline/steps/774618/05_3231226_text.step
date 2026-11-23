@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Что освоено и где искать детали</h3>\n<p>Минимальный результат этого урока: вы можете объяснить роль <code>CMakeLists.txt</code>, настроить проект в отдельном каталоге, собрать его и запустить нужную программу. CMake генерирует описание сборки и запускает выбранный инструмент; машинный код создаёт компилятор.</p>\n<ul>\n<li><a href=\"https://cmake.org/cmake/help/latest/guide/tutorial/\" rel=\"noopener noreferrer nofollow\">Официальный учебник CMake</a> — цели, библиотеки и работа с несколькими файлами.</li>\n<li><a href=\"https://cmake.org/cmake/help/latest/manual/cmake.1.html\" rel=\"noopener noreferrer nofollow\">Справка <code>cmake</code></a> — параметры настройки и сборки.</li>\n<li><a href=\"https://cmake.org/cmake/help/latest/manual/ctest.1.html\" rel=\"noopener noreferrer nofollow\">Справка CTest</a> — запуск автоматических тестов; к нему вернёмся в модуле тестирования.</li>\n<li><a href=\"https://learn.microsoft.com/en-us/cpp/build/cmake-projects-in-visual-studio\" rel=\"noopener noreferrer nofollow\">CMake в Visual Studio</a> и <a href=\"https://www.jetbrains.com/help/clion/quick-cmake-tutorial.html\" rel=\"noopener noreferrer nofollow\">учебник CMake в CLion</a> — настройки конкретных IDE.</li>\n</ul>\n<p><strong>Небольшое упражнение.</strong> Создайте новый каталог сборки <code>build-check</code>, соберите в нём тот же проект и убедитесь, что вывод совпадает. Исходные файлы копировать для этого не нужно. После этого ответьте на вопросы следующего шага.</p>\n<p>Пример локально использует C++20. Это настройка вашего проекта, а не заявление о версии проверяющей системы Stepik. В программных заданиях выбирайте язык из доступного списка и учитывайте указанные в условии требования.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3231226",
+  "time": "2026-11-22T21:48:56Z"
+}

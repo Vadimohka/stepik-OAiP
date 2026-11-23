@@ -1,0 +1,411 @@
+[
+  {
+    "step_id": 3212949,
+    "path": "steps/770590/01_3212949_text.step",
+    "summary": "Самостоятельные задания переработаны в объяснённые результаты; сохранены контракты и проверяемые примеры.",
+    "sources": [
+      "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines",
+      "https://timsong-cpp.github.io/cppwp/n4861/dcl.fct",
+      "https://timsong-cpp.github.io/cppwp/n4861/basic.life"
+    ],
+    "plan": [
+      "T3",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 3214909,
+    "path": "steps/770590/02_3214909_text.step",
+    "summary": "Самостоятельные задания переработаны в объяснённые результаты; сохранены контракты и проверяемые примеры.",
+    "sources": [
+      "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines",
+      "https://timsong-cpp.github.io/cppwp/n4861/dcl.fct",
+      "https://timsong-cpp.github.io/cppwp/n4861/basic.life"
+    ],
+    "plan": [
+      "T3",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 3214910,
+    "path": "steps/770590/03_3214910_text.step",
+    "summary": "Самостоятельные задания переработаны в объяснённые результаты; сохранены контракты и проверяемые примеры.",
+    "sources": [
+      "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines",
+      "https://timsong-cpp.github.io/cppwp/n4861/dcl.fct",
+      "https://timsong-cpp.github.io/cppwp/n4861/basic.life"
+    ],
+    "plan": [
+      "T3",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 3214911,
+    "path": "steps/770590/04_3214911_text.step",
+    "summary": "Самостоятельные задания переработаны в объяснённые результаты; сохранены контракты и проверяемые примеры.",
+    "sources": [
+      "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines",
+      "https://timsong-cpp.github.io/cppwp/n4861/dcl.fct",
+      "https://timsong-cpp.github.io/cppwp/n4861/basic.life"
+    ],
+    "plan": [
+      "T3",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 3212950,
+    "path": "steps/770591/01_3212950_text.step",
+    "summary": "Самостоятельные задания переработаны в объяснённые результаты; сохранены контракты и проверяемые примеры.",
+    "sources": [
+      "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines",
+      "https://timsong-cpp.github.io/cppwp/n4861/dcl.fct",
+      "https://timsong-cpp.github.io/cppwp/n4861/basic.life"
+    ],
+    "plan": [
+      "T3",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 3214973,
+    "path": "steps/770591/02_3214973_text.step",
+    "summary": "Самостоятельные задания переработаны в объяснённые результаты; сохранены контракты и проверяемые примеры.",
+    "sources": [
+      "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines",
+      "https://timsong-cpp.github.io/cppwp/n4861/dcl.fct",
+      "https://timsong-cpp.github.io/cppwp/n4861/basic.life"
+    ],
+    "plan": [
+      "T3",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 3214972,
+    "path": "steps/770591/03_3214972_text.step",
+    "summary": "Самостоятельные задания переработаны в объяснённые результаты; сохранены контракты и проверяемые примеры.",
+    "sources": [
+      "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines",
+      "https://timsong-cpp.github.io/cppwp/n4861/dcl.fct",
+      "https://timsong-cpp.github.io/cppwp/n4861/basic.life"
+    ],
+    "plan": [
+      "T3",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 3214971,
+    "path": "steps/770591/04_3214971_text.step",
+    "summary": "Самостоятельные задания переработаны в объяснённые результаты; сохранены контракты и проверяемые примеры.",
+    "sources": [
+      "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines",
+      "https://timsong-cpp.github.io/cppwp/n4861/dcl.fct",
+      "https://timsong-cpp.github.io/cppwp/n4861/basic.life"
+    ],
+    "plan": [
+      "T3",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 3214974,
+    "path": "steps/770591/05_3214974_text.step",
+    "summary": "Самостоятельные задания переработаны в объяснённые результаты; сохранены контракты и проверяемые примеры.",
+    "sources": [
+      "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines",
+      "https://timsong-cpp.github.io/cppwp/n4861/dcl.fct",
+      "https://timsong-cpp.github.io/cppwp/n4861/basic.life"
+    ],
+    "plan": [
+      "T3",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 3215024,
+    "path": "steps/770591/06_3215024_text.step",
+    "summary": "Самостоятельные задания переработаны в объяснённые результаты; сохранены контракты и проверяемые примеры.",
+    "sources": [
+      "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines",
+      "https://timsong-cpp.github.io/cppwp/n4861/dcl.fct",
+      "https://timsong-cpp.github.io/cppwp/n4861/basic.life"
+    ],
+    "plan": [
+      "T3",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 3214978,
+    "path": "steps/770591/07_3214978_text.step",
+    "summary": "Самостоятельные задания переработаны в объяснённые результаты; сохранены контракты и проверяемые примеры.",
+    "sources": [
+      "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines",
+      "https://timsong-cpp.github.io/cppwp/n4861/dcl.fct",
+      "https://timsong-cpp.github.io/cppwp/n4861/basic.life"
+    ],
+    "plan": [
+      "T3",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 3214992,
+    "path": "steps/770592/01_3214992_text.step",
+    "summary": "Самостоятельные задания переработаны в объяснённые результаты; сохранены контракты и проверяемые примеры.",
+    "sources": [
+      "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines",
+      "https://timsong-cpp.github.io/cppwp/n4861/dcl.fct",
+      "https://timsong-cpp.github.io/cppwp/n4861/basic.life"
+    ],
+    "plan": [
+      "T3",
+      "LINKS",
+      "SCOPE"
+    ]
+  },
+  {
+    "step_id": 3212951,
+    "path": "steps/770592/02_3212951_text.step",
+    "summary": "Полный согласованный трёхфайловый factorial: контракт 0..20, собственный заголовок, единицы трансляции, компиляция и компоновка.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/basic.def.odr",
+      "https://timsong-cpp.github.io/cppwp/n4861/basic.link",
+      "https://gcc.gnu.org/onlinedocs/gcc/Overall-Options.html"
+    ],
+    "plan": [
+      "T3",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3214991,
+    "path": "steps/770592/03_3214991_text.step",
+    "summary": "Разделены область видимости, связывание, extern/const/inline; показаны полные определения и цена общего состояния.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4861/basic.def.odr",
+      "https://timsong-cpp.github.io/cppwp/n4861/basic.link",
+      "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines"
+    ],
+    "plan": [
+      "T3",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3212952,
+    "path": "steps/770593/01_3212952_text.step",
+    "summary": "Связаны API/контракт, компиляция, компоновка и запуск; добавлено отличие header-only от бинарной библиотеки.",
+    "sources": [
+      "https://cmake.org/cmake/help/latest/command/add_library.html",
+      "https://timsong-cpp.github.io/cppwp/n4861/basic.def.odr",
+      "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines"
+    ],
+    "plan": [
+      "T3",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3215031,
+    "path": "steps/770593/02_3215031_text.step",
+    "summary": "Гарантии языка отделены от бинарных форматов; сопоставлены static/shared/header-only, ABI и зависимости запуска.",
+    "sources": [
+      "https://cmake.org/cmake/help/latest/command/add_library.html",
+      "https://learn.microsoft.com/en-us/cpp/build/dlls-in-visual-cpp"
+    ],
+    "plan": [
+      "T3",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3215032,
+    "path": "steps/770593/03_3215032_text.step",
+    "summary": "Кликабельная инструкция конкретной IDE заменена полным CMake-примером static-библиотеки и объяснением include/link/target.",
+    "sources": [
+      "https://cmake.org/cmake/help/latest/command/add_library.html",
+      "https://cmake.org/cmake/help/latest/command/target_link_libraries.html",
+      "https://cmake.org/cmake/help/latest/command/target_include_directories.html"
+    ],
+    "plan": [
+      "T3",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3215045,
+    "path": "steps/770593/04_3215045_text.step",
+    "summary": "Самодостаточная теория shared-библиотеки; тот же пример, runtime dependencies/ABI/export, Windows API отделены от стандарта.",
+    "sources": [
+      "https://cmake.org/cmake/help/latest/command/add_library.html",
+      "https://cmake.org/cmake/help/latest/prop_tgt/WINDOWS_EXPORT_ALL_SYMBOLS.html",
+      "https://learn.microsoft.com/en-us/cpp/build/dlls-in-visual-cpp"
+    ],
+    "plan": [
+      "T3",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3251321,
+    "path": "steps/778425/01_3251321_text.step",
+    "summary": "Введение опирается на контракт функции; разделены проверка вычисления и ввод, прогон и обоснование.",
+    "sources": [
+      "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines",
+      "https://google.github.io/googletest/primer.html"
+    ],
+    "plan": [
+      "T3",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3252939,
+    "path": "steps/778425/02_3252939_text.step",
+    "summary": "Разведены статическая/динамическая проверка, уровень наблюдения и пределы инструментов.",
+    "sources": [
+      "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines",
+      "https://clang.llvm.org/docs/AddressSanitizer.html",
+      "https://google.github.io/googletest/primer.html"
+    ],
+    "plan": [
+      "T3",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3252941,
+    "path": "steps/778425/03_3252941_text.step",
+    "summary": "Систематизированы compile/link, ввод, логика, UB, утечки, стоимость и исключения; добавлена модель раскрутки стека.",
+    "sources": [
+      "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines",
+      "https://timsong-cpp.github.io/cppwp/n4861/except.throw",
+      "https://timsong-cpp.github.io/cppwp/n4861/except.terminate"
+    ],
+    "plan": [
+      "T3",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3252940,
+    "path": "steps/778425/04_3252940_text.step",
+    "summary": "Граница задана контрактом; полностью разобраны at/исключение vs []/UB, продвижение и сужение.",
+    "sources": [
+      "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines",
+      "https://timsong-cpp.github.io/cppwp/n4861/sequence.reqmts",
+      "https://timsong-cpp.github.io/cppwp/n4861/conv.integral"
+    ],
+    "plan": [
+      "T3",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3251322,
+    "path": "steps/778426/01_3251322_text.step",
+    "summary": "Модульное тестирование оформлено как разбор готового кода, ожидания независимы от реализации.",
+    "sources": [
+      "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines",
+      "https://google.github.io/googletest/primer.html"
+    ],
+    "plan": [
+      "T3",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3253129,
+    "path": "steps/778426/02_3253129_text.step",
+    "summary": "Условие восстановлено текстом; целочисленные типы и диапазон безопасны, отделены корректность и стоимость.",
+    "sources": [
+      "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines",
+      "https://timsong-cpp.github.io/cppwp/n4861/basic.fundamental"
+    ],
+    "plan": [
+      "T3",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3253429,
+    "path": "steps/778426/04_3253429_text.step",
+    "summary": "Сохранено доказательство формулы и общий исходник; инструкция превращена в описание полного примера.",
+    "sources": [
+      "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines"
+    ],
+    "plan": [
+      "T3",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3253503,
+    "path": "steps/778426/05_3253503_text.step",
+    "summary": "Общий код приложения/тестов и CTest сохранены как законченный разобранный пример без самостоятельных заданий.",
+    "sources": [
+      "https://cmake.org/cmake/help/latest/command/add_library.html",
+      "https://cmake.org/cmake/help/latest/manual/ctest.1.html"
+    ],
+    "plan": [
+      "T3",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3253548,
+    "path": "steps/778426/06_3253548_text.step",
+    "summary": "Отрицательный контроль и ошибка границы полностью разобраны вместо задания изменить и восстановить проект.",
+    "sources": [
+      "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines",
+      "https://google.github.io/googletest/primer.html"
+    ],
+    "plan": [
+      "T3",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3253553,
+    "path": "steps/778426/07_3253553_text.step",
+    "summary": "Сохранена закреплённая GoogleTest-конфигурация; самопроверка заменена объяснением выбора сравнения и поведения отказов.",
+    "sources": [
+      "https://google.github.io/googletest/primer.html",
+      "https://google.github.io/googletest/reference/assertions.html",
+      "https://google.github.io/googletest/quickstart-cmake.html"
+    ],
+    "plan": [
+      "T3",
+      "LINKS"
+    ]
+  },
+  {
+    "step_id": 3253557,
+    "path": "steps/778426/09_3253557_text.step",
+    "summary": "Итоговая самостоятельная работа заменена разбором наблюдений и сквозными связями с инвариантами, сложностью и RAII.",
+    "sources": [
+      "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines",
+      "https://cmake.org/cmake/help/latest/manual/ctest.1.html"
+    ],
+    "plan": [
+      "T3",
+      "LINKS"
+    ]
+  }
+]

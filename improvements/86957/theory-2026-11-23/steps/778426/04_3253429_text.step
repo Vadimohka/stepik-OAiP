@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>От перебора к формуле и отдельной функции</h3>\n<p>Пусть число заканчивается ровно <code>k</code> девятками. При прибавлении единицы они превращаются в нули, а соседний разряд увеличивается на один; если разряда не было, появляется ведущая единица. Поэтому сумма цифр меняется на <code>1 − 9k</code>. Она уменьшается тогда и только тогда, когда <code>k ≥ 1</code>, то есть последняя цифра исходного числа — девятка.</p>\n<p>Подходящие числа: <code>9, 19, 29, …</code>. Среди чисел от <code>1</code> до <code>n</code> включительно их ровно <code>(n + 1) / 10</code>, где деление целочисленное. Для <code>n = 8</code> ответ 0, для 9 и 10 — 1, для 19 — 2. Формула выполняет постоянное число арифметических операций, в отличие от перебора всего интервала.</p>\n<p><strong>Оптимизация</strong> меняет способ вычисления ради эффективности. <strong>Рефакторинг</strong> меняет внутреннюю структуру с сохранением наблюдаемого поведения. Далее выделим вычисление из консольной программы, чтобы вызывать его и из приложения, и из тестов.</p>\n<p>Готовый пример состоит из трёх файлов в одной папке. <code>interesting.hpp</code> содержит объявление функции и её предусловие. Для локальной функции дополнительно разрешим <code>n = 0</code>: в пустом интервале ответ равен нулю. В задании Stepik граница остаётся <code>1 ≤ n ≤ 10<sup>9</sup></code>.</p>\n<pre><code class=\"language-cpp\">#ifndef INTERESTING_HPP\n#define INTERESTING_HPP\n\n// Precondition: 0 &lt;= interval_end &lt;= 1'000'000'000.\nlong long CountInterestingInInterval(long long interval_end);\n\n#endif\n</code></pre>\n<p>Файл <code>interesting.cpp</code> — единственное определение алгоритма:</p>\n<pre><code class=\"language-cpp\">#include \"interesting.hpp\"\n\nlong long CountInterestingInInterval(long long interval_end) {\n    return (interval_end + 1) / 10;\n}\n</code></pre>\n<p>Тип <code>long long</code> позволяет представить все значения заявленного диапазона и промежуточное <code>n + 1</code>. За пределами предусловия функция здесь не проверяется; этот контракт не следует расширять без анализа переполнения.</p>\n<p>Файл <code>main.cpp</code> отвечает за ввод и вывод:</p>\n<pre><code class=\"language-cpp\">#include \"interesting.hpp\"\n#include &lt;iostream&gt;\n\nint main() {\n    long long n{};\n    if (!(std::cin &gt;&gt; n) || n &lt; 1 || n &gt; 1'000'000'000) {\n        std::cerr &lt;&lt; \"Expected an integer from 1 to 1000000000\\n\";\n        return 1;\n    }\n    std::cout &lt;&lt; CountInterestingInInterval(n) &lt;&lt; '\\n';\n}\n</code></pre>\n<p>Приложение читает одно целое число из диапазона задания и выводит только ответ. При неудачном чтении или недопустимом значении оно сообщает об ошибке в <code>std::cerr</code> и завершает работу с кодом 1.</p>\n<p>Для GCC/Clang можно проверить проект непосредственной сборкой:</p>\n<pre><code class=\"language-bash\">g++ -std=c++20 -Wall -Wextra -Wpedantic main.cpp interesting.cpp -o interesting_app\n</code></pre>\n<p>Например, ввод <code>19</code> даёт вывод <code>2</code>. На следующем шаге показаны отдельная программа, вызывающая эту же функцию на нескольких входах, и описание сборки CMake.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3253429",
+  "time": "2026-11-22T21:48:56Z"
+}
