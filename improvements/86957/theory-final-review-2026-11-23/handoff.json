@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "course_id": 86957,
+  "status": "github_preparation_completed",
+  "ready_for_user_agents": true,
+  "completed_at": "2026-11-23T18:55:07.276121+00:00",
+  "verified_starting_head": "874ebbd2cda1b75edfdbf2d3852fdbd1f40fc29d",
+  "verified_starting_tree": "cdade6c823acd917fcb995ffc405f05e44c20856",
+  "content_commit": "fabbfdd3c9697c72ca2eabbd8575d3c0cc5a48b0",
+  "previous_checkpoint_commit": "874ebbd2cda1b75edfdbf2d3852fdbd1f40fc29d",
+  "handoff_commit_note": "Сам документ передаётся отдельным последующим коммитом main. Его SHA указан в истории Git; здесь закреплена проверенная исходная вершина без самоссылки.",
+  "authorized_scope": {
+    "location": "GitHub only",
+    "modules": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "step_type": "text",
+    "allowed_step_fields": [
+      "block.text"
+    ],
+    "new_learner_practice": false,
+    "new_videos": false,
+    "existing_assessment_changes": false,
+    "module_20_changes": false
+  },
+  "completion": {
+    "T1": "completed",
+    "T1B": "completed",
+    "T2": "completed",
+    "T3": "completed",
+    "T4": "completed",
+    "T5": "completed",
+    "T6": "completed",
+    "SCOPE": "completed",
+    "LINKS": "completed",
+    "VERIFY": "completed",
+    "github_save": "verified",
+    "remaining_authorized_work": []
+  },
+  "effective_material": {
+    "text_step_count": 283,
+    "all_texts_index": {
+      "path": "improvements/86957/theory-final-review-2026-11-23/review_completion.json",
+      "field": "effective_inputs"
+    },
+    "pending_manifest": "improvements/86957/theory-final-review-2026-11-23/manifest.json",
+    "pending_text_steps": 55,
+    "new_corrections_in_last_editorial_pass": 6,
+    "carried_forward_unchanged": 49,
+    "construction": "Использовать target_path из единого итогового manifest для его 55 ID; остальные text-шаги модулей 1–19 брать из courses/86957. Полный явный перечень 283 итоговых путей и SHA уже находится в review_completion.effective_inputs.",
+    "snapshot_note": "courses/86957 сам по себе не содержит подготовленные 55 изменений. Его нельзя выдавать за итоговую эффективную редакцию.",
+    "superseded_prepared_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "publication_rule": "Прежний LINKS не применять отдельно повторно; исторические 46, 88 и 191 изменения также не публиковать автоматически."
+  },
+  "acceptance_inputs_sha256": {
+    "improvements/86957/theory-final-review-2026-11-23/manifest.json": "0c45c2924ef7441090a07ed072e2a9076356a6a6ca874336d95c8cda25746306",
+    "improvements/86957/theory-final-review-2026-11-23/review_completion.json": "b259e1f9a0b638c6dae6ae4f01ef43edc8e74d057044dd83f00c11cb8f6db365",
+    "improvements/86957/theory-final-review-2026-11-23/review_integration_independent.json": "23ee9fe8881f5929ab6d4c24c8f1ac0e0edfea8a70c103a0bca0905a978329ba",
+    "improvements/86957/theory-final-review-2026-11-23/code_coverage.json": "4340993a80518d13a18e745af2b1a5d6d032a3a555a0231c34aa4c078e0e22e3",
+    "improvements/86957/theory-final-review-2026-11-23/runtime_summary.json": "151fd096799e1390cb1b1e5fd6f2584b88268ea2f20618ac7275e99b70eb4494",
+    "improvements/86957/theory-final-review-2026-11-23/validation/integrity.json": "b1d8300f576c916a9db5fa58b17e7b0a3af475b0d0724826ee3565eb7e349702",
+    "improvements/86957/theory-final-review-2026-11-23/validation/github_save.json": "342e99bc8d73afc31f110a1541a9b9b03b287211f98173d8b419c441579d1107",
+    "improvements/86957/theory-final-review-2026-11-23/whitespace_exceptions.json": "c5f6f8122f72abc942b7fabf77ff3e4c0aae261fc97f1ebac3a69c879210a76c",
+    "improvements/86957/theory-final-review-2026-11-23/validation/preserved_whitespace.json": "2a2c3acd8054539b683d5994516946a8dd025c6aa8e268644bf72f362cb53daa",
+    "tools/build_theory_upgrade.py": "d14f3558e12f87a622367e6311d007166054d9918d2ed21daa59239e14c867c6",
+    "tools/verify_theory_final.py": "0c68dbac1d0c81eab63c59758d3d2c71cb3fc30e715702e1cc2cb8bdff94481a",
+    "tools/render_course_tree.py": "4960f1019608e92fd3356110822c09ba277133efeb65261d1d08b821ac2c1998",
+    "improvements/86957/theory-final-review-2026-11-23/verify_code_coverage.py": "3ddc705c0e0cb14767f74942fb201941172449edca257173db1e679bf9955fbd",
+    "improvements/86957/theory-final-review-2026-11-23/verify_preserved_whitespace.py": "b9c2cfc862526c957d26c9909ddbe2651a682fc4ea614e99e2ce53ea067838e5",
+    "AGENTS.md": "4bae69fda1b0e37a4fcb14625518c7741cc3839bd7fb14985f5a0e190a21fbe3"
+  },
+  "closeout_checks": [
+    {
+      "id": "packages",
+      "command": "python3 tools/build_theory_upgrade.py --check",
+      "exit_code": 0,
+      "result": "passed",
+      "stdout": "{\"package\": \"theory-2026-11-23\", \"status\": \"checked\", \"steps\": 88, \"lessons\": 23, \"parts\": [\"t1\", \"t3\", \"t6\"], \"written\": 0}\n{\"package\": \"theory-continuation-2026-11-23\", \"status\": \"checked\", \"steps\": 191, \"lessons\": 47, \"parts\": [\"t1\", \"t1b\", \"t2\", \"t4\", \"t5\", \"t5b\", \"t6\"], \"written\": 0}\n{\"package\": \"theory-links-2026-11-23\", \"status\": \"checked\", \"steps\": 50, \"lessons\": 31, \"parts\": [\"algorithms\", \"foundations\", \"ownership\", \"types\"], \"written\": 0}\n{\"package\": \"theory-final-review-2026-11-23\", \"status\": \"checked\", \"steps\": 55, \"lessons\": 32, \"parts\": [\"advanced\", \"carried\", \"core\", \"foundations\"], \"written\": 0}"
+    },
+    {
+      "id": "integrity",
+      "command": "python3 tools/verify_theory_final.py --check",
+      "exit_code": 0,
+      "result": "passed",
+      "stdout": "{\"status\": \"passed\", \"reviewed_theory_text_steps\": 283, \"new_corrections\": 6, \"carried_forward\": 49, \"cumulative_pending_text_steps\": 55, \"checked_internal_link_occurrences\": 323}"
+    },
+    {
+      "id": "coverage",
+      "command": "python3 improvements/86957/theory-final-review-2026-11-23/verify_code_coverage.py --check",
+      "exit_code": 0,
+      "result": "passed",
+      "stdout": "{\"status\": \"checked\", \"counts\": {\"text_steps\": 283, \"pre_blocks\": 340, \"by_kind\": {\"build_configuration\": 4, \"expected_failure\": 5, \"fragment\": 81, \"full_program\": 148, \"mathematical_notation\": 2, \"multi_file_component\": 11, \"output\": 66, \"pseudocode\": 4, \"shell_commands\": 18, \"syntax_template\": 1}, \"manifest_overrides\": 55, \"carried_links_byte_identical\": 49, \"new_prose_only_corrections\": 6, \"positive_full_listing_occurrences\": 148, \"assembled_positive_programs\": 1, \"positive_program_units_including_assembly\": 149, \"cpp17_cpp20_full_listing_occurrences\": 146, \"cpp17_cpp20_assembled_programs\": 1, \"c11_c17_full_listing_occurrences\": 2, \"multi_file_pre_components\": 11, \"assembled_headers_from_fragments\": 1, \"expected_failure_pre_blocks\": 5, \"newly_closed_full_listing_coverage_gaps\": 7, \"full_sources_with_expected_failure\": 2, \"blocks_without_individual_execution_binding\": 146, \"unbound_by_kind\": {\"build_configuration\": 1, \"fragment\": 54, \"mathematical_notation\": 2, \"output\": 66, \"pseudocode\": 4, \"shell_commands\": 18, \"syntax_template\": 1}, \"current_suites_used\": 11, \"report_input_hashes_checked_including_repeated_inputs\": 534, \"unique_report_input_files_checked\": 530}}"
+    },
+    {
+      "id": "preserved_whitespace",
+      "command": "python3 improvements/86957/theory-final-review-2026-11-23/verify_preserved_whitespace.py --check",
+      "exit_code": 0,
+      "result": "passed_with_exact_historical_source_exception",
+      "stdout": "{\"status\": \"passed_with_exact_historical_source_exception\", \"approved_files\": 5, \"approved_lines\": 9, \"source_copies_equal_pinned_decoded_pre\": true}"
+    },
+    {
+      "id": "course_tree",
+      "command": "python3 tools/render_course_tree.py --check",
+      "exit_code": 0,
+      "result": "passed",
+      "stdout": ""
+    }
+  ],
+  "current_closeout_did_not_recompile_examples": true,
+  "runtime_evidence_note": "В полном предшествующем проходе выполнены 14 наборов. На закрытии проверены неизменность исходников и актуальность SHA протоколов; их компиляции не зачитываются повторно как новый запуск.",
+  "agent_start_sequence": [
+    "Получить актуальный main без перезаписи чужих незакоммиченных изменений; прочитать AGENTS.md и применимые вложенные инструкции.",
+    "Открыть PROGRESS.md и этот документ; сравнить acceptance_inputs_sha256 с полученными файлами.",
+    "Для чтения теории использовать все 283 effective_inputs, а для подготовленных изменений — только итоговый manifest на 55 ID.",
+    "Выполнить пять команд closeout_checks. Для пробелов допустимо только документированное точное исключение; обычный diff --check относительно базы сообщает эти девять строк.",
+    "Начинать собственную порученную владельцем работу с принятой редакции. Повторная редактура завершённых блоков нужна только при конкретной находке, а не из-за старого исторического статуса."
+  ],
+  "publication": {
+    "status": "not_published",
+    "applied": false,
+    "stepik_access_performed": false,
+    "PUB": "blocked_by_owner_github_only_instruction",
+    "blocker": "Действует прямое указание владельца не обновлять Stepik и работать только с GitHub. Это не технический отказ API.",
+    "not_authorization_for_agents_to_publish": true,
+    "next_action_only_if_owner_changes_restriction": "Свежая сверка 55 live-текстов и размещения с baseline; перенос только block.text; обратное чтение и проверка отображения; затем обновление снимка, статуса и TREE.md в отдельном коммите.",
+    "remaining_human_editor_hours_if_authorized": [
+      1,
+      3
+    ]
+  },
+  "limitations": [
+    "Текущая проверка выполнения программ относится к Linux/GCC и сохранённым режимам C++17/C++20, C11/C17; Windows/MSVC и macOS заново не проверены.",
+    "Не каждый фрагмент или команда исполнялись отдельно; точная классификация всех 340 pre и привязки полных примеров находятся в code_coverage.json.",
+    "Существующие задания/checker-ы не переаудировались; сохранены отдельные замечания к шагу 3272881 и урокам 770595/973826.",
+    "Конечные тесты не доказывают все возможные состояния, отказы памяти и инстанцирования шаблонов."
+  ]
+}
