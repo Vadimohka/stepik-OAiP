@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "course_id": 86957,
+  "status": "saved_and_verified_in_github",
+  "verified_at": "2026-11-23T20:28:02.961866+00:00",
+  "repository": "https://github.com/Vadimohka/stepik-OAiP",
+  "branch": "main",
+  "accepted_closeout_commit": "b097f29683827b26823efc7f6d4119f674fae422",
+  "accepted_closeout_tree": "9a04d29dd5988e422e9aa993aada282918448c27",
+  "parent_publication_commit": "cd85f40b17f4cfd4992e94e5def8d6ff0374b7b7",
+  "accepted_preparation_commit": "5b3946ed7864ff22231bdbd16a4485ced71e6592",
+  "github_readback": {
+    "ref_endpoint": "https://api.github.com/repos/Vadimohka/stepik-OAiP/git/ref/heads/main",
+    "commit_endpoint": "https://api.github.com/repos/Vadimohka/stepik-OAiP/git/commits/b097f29683827b26823efc7f6d4119f674fae422",
+    "ref_sha_at_readback": "b097f29683827b26823efc7f6d4119f674fae422",
+    "commit_tree_matches_local_reviewed_tree": true,
+    "commit_parent_matches_publication": true,
+    "git_fetch_confirmed_full_tree": true,
+    "force_update": false
+  },
+  "changed_files": 12,
+  "accepted_closeout_file_hashes": {
+    "improvements/86957/theory-final-review-2026-11-23/README.md": {
+      "sha256": "d0ab36452cfde75bc5d6c3ed651a8a1e5224b374445a0dd1d94b0aeb409677b4",
+      "git_blob": "98eac2df86f5ca6197d0aebd96f3ec5fa667eff6"
+    },
+    "improvements/86957/theory-final-review-2026-11-23/publication_closeout/README.md": {
+      "sha256": "50f8415a02eb8c875b7abd7c9b4ad0712bb23406d76c0a06b8da82251392786d",
+      "git_blob": "e0c7b720388d8e5c1c7ec34ba2baa32554f64590"
+    },
+    "improvements/86957/theory-final-review-2026-11-23/publication_closeout/handoff.json": {
+      "sha256": "3d703bfa2746affc616ff42271d86dcb27c25d0bfdfd4ebfea8113191b3d726d",
+      "git_blob": "66850487257033ade39b15d8fb2397a990a10d3e"
+    },
+    "improvements/86957/theory-final-review-2026-11-23/publication_closeout/review_closeout_independent.json": {
+      "sha256": "4e252cb1bdeae9985e86cc5bc6461ff7a000c7c502a57a028c3439521f03ba5b",
+      "git_blob": "8dd7d61d03ef4e284d59909d290a9c13a9390384"
+    },
+    "improvements/86957/theory-final-review-2026-11-23/publication_closeout/review_snapshot.json": {
+      "sha256": "c9b92ceaa50f2892e730215ea05054b3847b1dcd9c3cd2ec5245e991afe2a821",
+      "git_blob": "acbbe5fdb8ebe3e6cf5b97bd19bfa101d48fbf02"
+    },
+    "improvements/86957/theory-final-review-2026-11-23/publication_closeout/verification.json": {
+      "sha256": "4414447a3c8b80c47d4fcacbdad8e48dd366610bf2d4e991e4d98a61861f3afa",
+      "git_blob": "71b3af1ad35097cde6b6b36913554236a465fa32"
+    },
+    "improvements/86957/theory-review-2026-11-23/PROGRESS.md": {
+      "sha256": "d500d0ba3b016aa3d55ab213898b998d1716cde56c4feeed62fbede7fe361ef9",
+      "git_blob": "3f017ac2da479da3cd874f55b974bf91b0c0a121"
+    },
+    "improvements/86957/theory-review-2026-11-23/README.md": {
+      "sha256": "b7cf4eca29b9e64c34e6eb2f7ffe4d6b455b5a31c0abb3e55200f6ded6293f91",
+      "git_blob": "525b8a9131c7f0af54a0259fb29ee24d0bddb0cf"
+    },
+    "improvements/86957/theory-review-2026-11-23/backlog.json": {
+      "sha256": "90725471aeb8231037684d765f538a80dac157c437d87e9c5e44eedd8b4993b2",
+      "git_blob": "849001cb32efbb2d8be383c6be80e45b7787d378"
+    },
+    "improvements/86957/theory-review-2026-11-23/module_review.json": {
+      "sha256": "b3ae042e4917d83d1b572d50e7e46d15b328edb591d1a63877bf7742640e6585",
+      "git_blob": "4c06a76ec874b72e285dac1b276b9db5a91e7bc4"
+    },
+    "improvements/86957/theory-review-2026-11-23/scope.json": {
+      "sha256": "a336b830a972ffea389a08fbbc8523bda928c4a2f3a65cb339f809acab54fdf9",
+      "git_blob": "93463be48485a5f6b5ea9db284e07c7782bec595"
+    },
+    "tools/verify_theory_published.py": {
+      "sha256": "029bbfe696bf4b0273028447d8c3a398836fa43a5bdd2ba20b8da223d309388a",
+      "git_blob": "cf5ce3d959e75a68af39558d41b3416b55822685"
+    }
+  },
+  "current_handoff": "improvements/86957/theory-final-review-2026-11-23/publication_closeout/handoff.json",
+  "independent_closeout_review": "improvements/86957/theory-final-review-2026-11-23/publication_closeout/review_closeout_independent.json",
+  "root_verification": {
+    "published_snapshot_command": "python3 tools/verify_theory_published.py --check",
+    "exit_code": 0,
+    "historical_gates_reexecuted_unchanged": 5,
+    "current_builder_and_tree_checks": "passed",
+    "tree_regeneration_changed_snapshot": false,
+    "handoff_input_sha_checked": 14,
+    "independent_review_input_sha_checked": 7,
+    "local_markdown_link_files_checked": 4,
+    "broken_local_links": 0,
+    "git_diff_check": "passed"
+  },
+  "completion": {
+    "remaining_plan_work": [],
+    "unpublished_pending_steps": 0,
+    "remaining_human_editor_hours": {
+      "min": 0,
+      "max": 0
+    },
+    "repeat_publication_required": false
+  },
+  "live_stepik_access": false,
+  "stepik_updates_performed": false,
+  "new_compiler_or_program_runs": 0,
+  "checkpoint_note": "This record documents the already saved substantive closeout commit. It is saved in a subsequent checkpoint with PROGRESS.md; its own commit identity is provided by Git history, without a circular self-hash.",
+  "limitations": [
+    "The API readback from Stepik remains the publishing agent saved receipt. This GitHub save verification does not claim new live Stepik or UI access.",
+    "File hashes describe accepted_closeout_commit, including PROGRESS.md before the subsequent save checkpoint."
+  ]
+}
