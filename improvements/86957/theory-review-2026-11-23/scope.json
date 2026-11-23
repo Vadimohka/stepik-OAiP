@@ -396,5 +396,17 @@
     "verified_at": "2026-11-23T11:06:59Z",
     "verified_course_steps": 485,
     "verification_receipt": "courses/86957/publication-verification-theory-continuation-2026-11-23.json"
+  },
+  "current_execution": {
+    "as_of": "2026-11-23T12:02:24.921211+00:00",
+    "progress_file": "PROGRESS.md",
+    "scope_acceptance": "../theory-links-2026-11-23/review_scope.json",
+    "unique_original_texts": 37,
+    "adapted_previously": 37,
+    "new_adaptations_this_session": 0,
+    "status": "completed_and_rechecked",
+    "current_package": "../theory-links-2026-11-23/manifest.json",
+    "publication": "not_published_for_LINKS",
+    "historical_data_note": "Остальные поля сохраняют исходную инвентаризацию и хеши старых пакетов; они не являются перечнем незаконченных адаптаций."
   }
 }

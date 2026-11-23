@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h3>Сравнение значений и порядок</h3>\n\n<p>Для длины сравниваются смысловые значения. Все объекты <code>Distance</code> уже нормализованы, поэтому сначала достаточно сравнить футы, а при их равенстве — оставшиеся дюймы. Перевод в <code>float</code> не нужен и не должен терять точность.</p><p>Полная программа, C++17 и C++20:</p><pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;stdexcept&gt;\n\nclass Distance {\n    long long feet_{};\n    long long inches_{};\npublic:\n    static constexpr long long max_feet = 1'000'000;\n\n    Distance() = default;\n    Distance(long long feet, long long inches)\n        : feet_(feet), inches_(inches) {\n        if (feet &lt; 0 || feet &gt; max_feet || inches &lt; 0 || inches &gt;= 12) {\n            throw std::invalid_argument(\"distance\");\n        }\n    }\n\n    long long feet() const { return feet_; }\n    long long inches() const { return inches_; }\n    long long total_inches() const { return feet_ * 12 + inches_; }\n    bool operator&lt;(const Distance&amp; other) const {\n        return feet_ &lt; other.feet_ ||\n               (feet_ == other.feet_ &amp;&amp; inches_ &lt; other.inches_);\n    }\n    bool operator==(const Distance&amp; other) const {\n        return feet_ == other.feet_ &amp;&amp; inches_ == other.inches_;\n    }\n    bool operator!=(const Distance&amp; other) const {\n        return !(*this == other);\n    }\n};\n\nint main() {\n    const Distance first{5, 11};\n    const Distance second{6, 0};\n    const Distance equal{5, 11};\n    std::cout &lt;&lt; std::boolalpha &lt;&lt; (first &lt; second) &lt;&lt; ' '\n              &lt;&lt; (second &lt; first) &lt;&lt; '\\n';\n    std::cout &lt;&lt; (first == equal) &lt;&lt; ' ' &lt;&lt; (first != equal) &lt;&lt; '\\n';\n    return 0;\n}</code></pre><p>Результат:</p><pre><code class=\"language-no-highlight\">true false\ntrue false</code></pre><p>Пять футов одиннадцать дюймов меньше шести футов. Равенство проверяет оба нормализованных поля, поэтому <code>first</code> и <code>equal</code> равны по значению, хотя существуют как разные объекты. Все операции возвращают <code>bool</code> и не меняют состояние.</p><p>Инвариант существенен: если бы <code>{5, 12}</code> и <code>{6, 0}</code> были двумя допустимыми представлениями одной длины, простое сравнение полей на равенство давало бы неверный смысловой результат. Выбранный конструктор запрещает первое представление. Поэтому соглашение о представлении и операции нельзя проектировать независимо.</p><p>Для использования в упорядоченных контейнерах операция «меньше» должна задавать согласованный строгий порядок: объект не меньше самого себя, а цепочки сравнений не должны противоречить друг другу. Сравнение наших ограниченных целых пар обладает этим свойством. Подробная связь с <a href=\"https://stepik.org/lesson/973825/step/1\" rel=\"noopener noreferrer nofollow\">set и map</a> будет после деревьев.</p><p>Здесь <code>!=</code> явно выражен через <code>==</code>, поэтому пример работает одинаково в C++17 и C++20. Специальные правила C++20 и оператор <code>&lt;=&gt;</code> не требуются для этой модели.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3760029",
+  "time": "2026-11-23T11:05:27Z"
+}

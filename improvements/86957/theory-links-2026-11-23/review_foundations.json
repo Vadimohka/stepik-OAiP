@@ -1,0 +1,675 @@
+{
+  "schema_version": 1,
+  "part": "foundations",
+  "status": "passed_after_targeted_corrections",
+  "reviewed_at": "2026-11-23T11:51:01.680272+00:00",
+  "base_commit": "352c2796717a55f4f0db8395b7d6093d8d67c35e",
+  "modules": [
+    1,
+    2,
+    3
+  ],
+  "review_depth": "Смысловое чтение всех 72 текстов: предварительные знания, назначение понятий, разобранные результаты, пределы моделей и фактические продолжения. Это не повторная компиляция всех полных программ.",
+  "reviewed_text_step_ids": [
+    3173782,
+    3173923,
+    3173935,
+    3173955,
+    3173969,
+    3173783,
+    3173970,
+    3201190,
+    3201304,
+    3201303,
+    3201305,
+    3201341,
+    3215247,
+    3215253,
+    3215254,
+    3215252,
+    3173778,
+    3173804,
+    3173810,
+    3173832,
+    3173836,
+    3173838,
+    3173779,
+    3173870,
+    3173871,
+    3177248,
+    3177249,
+    3177250,
+    3173780,
+    3173892,
+    3215255,
+    3215258,
+    3215257,
+    3215256,
+    3215268,
+    3215267,
+    3215266,
+    3215265,
+    3201132,
+    3201141,
+    3201150,
+    3201151,
+    3201153,
+    3201181,
+    3201155,
+    3201168,
+    3201191,
+    3201236,
+    3201235,
+    3201234,
+    3201267,
+    3201179,
+    3201189,
+    3215075,
+    3215081,
+    3215092,
+    3237946,
+    3237955,
+    3237989,
+    3238005,
+    3238004,
+    3238006,
+    3214764,
+    3214777,
+    3214778,
+    3214832,
+    3214833,
+    3230371,
+    3231227,
+    3231317,
+    3231228,
+    3231226
+  ],
+  "review_inputs": [
+    {
+      "step_id": 3173782,
+      "source_path": "courses/86957/steps/763040/01_3173782_text.step",
+      "file_sha256": "909004cafe0e0f749cc6354fb76cd7849a6907834b46370773a06ac330723254",
+      "text_sha256": "3d76c308a1aac4a72bfa48998732e65c686231d549304e60e486054fb83ab1ca"
+    },
+    {
+      "step_id": 3173923,
+      "source_path": "courses/86957/steps/763040/02_3173923_text.step",
+      "file_sha256": "4e155cb00b3cda79dd20c25145dd1821384242a3599c427baec4174d96c23a78",
+      "text_sha256": "3a750e24bd3ed0f29f360a3100f915724a5495cd66ac30649fcc3e8e0b082e32"
+    },
+    {
+      "step_id": 3173935,
+      "source_path": "courses/86957/steps/763040/03_3173935_text.step",
+      "file_sha256": "e1d1c1457c14ee5a71e0af7aa00f257dfde0569819d642d437a4ca1bd5750b59",
+      "text_sha256": "cf5e65196bac17aae0d6e742c9bbcaf8043e5ca4460353fb8fde70d681d50cfc"
+    },
+    {
+      "step_id": 3173955,
+      "source_path": "courses/86957/steps/763040/04_3173955_text.step",
+      "file_sha256": "cda3ae9759eff492e20c68f7f3e9429c2ac32fc6f5cc8f8e863de557a7a61096",
+      "text_sha256": "c8269d7c50d4ffb71f35b6d71512ac85ac5a55d78c6363925b8eeb9a7ebd222b"
+    },
+    {
+      "step_id": 3173969,
+      "source_path": "courses/86957/steps/763041/01_3173969_text.step",
+      "file_sha256": "fc7a2f86848257180b6a7ed1390ceb12f1087131a016c0a6c20fadf9ae4d739c",
+      "text_sha256": "78ee6d3d11f692dbbef8bae42a13e16e77a6cb066b2867e72493ba329a6d1270"
+    },
+    {
+      "step_id": 3173783,
+      "source_path": "courses/86957/steps/763041/02_3173783_text.step",
+      "file_sha256": "4700cf7a3d83713fe58dbd4ef847cd0272343dad5b8c6af301ab15c8e67a5365",
+      "text_sha256": "0660949b776de45439086326bb718215c9b1e0cc806fba8e3c39fdb10a65aeb4"
+    },
+    {
+      "step_id": 3173970,
+      "source_path": "courses/86957/steps/763041/03_3173970_text.step",
+      "file_sha256": "954045e1c9c19b4ee22e488a8a8cf38eb9ef953bd1ebdec21c67a2c737fc4dd1",
+      "text_sha256": "416bf2a9e9c50eaa7ab2fb06dbbdceacd23e581c266affc2f564fe893fc4b439"
+    },
+    {
+      "step_id": 3201190,
+      "source_path": "courses/86957/steps/768145/01_3201190_text.step",
+      "file_sha256": "97c006edcd2d005eb9d8cb510940dbd941bbaaba5151c3a0f5b41203347c2c21",
+      "text_sha256": "438bff38f658bde17560dd0e1aa1ecc88aa59bbeda6a7a6f3a9810ad8043fe1c"
+    },
+    {
+      "step_id": 3201304,
+      "source_path": "courses/86957/steps/768145/02_3201304_text.step",
+      "file_sha256": "f942b0aabf8b12c32ee787146ddd8dae8a5e686a59c1006f070e2ddffdada49f",
+      "text_sha256": "42e65d850e43c71fd0c25167249fe63db2937e9b1925c035f6ec667a40b64e87"
+    },
+    {
+      "step_id": 3201303,
+      "source_path": "courses/86957/steps/768145/03_3201303_text.step",
+      "file_sha256": "953a2f43986cd72902989c4b35c8acd0c37189dfd9b2ada5c7df008339aa83d7",
+      "text_sha256": "bdfb433295e4c94adc83d493536f8d39cec3438a45c51a2218fb038096d8d218"
+    },
+    {
+      "step_id": 3201305,
+      "source_path": "courses/86957/steps/768145/04_3201305_text.step",
+      "file_sha256": "6af9df8500e5060d713ea423355e9c168f8489c08f5a769aa63b4da1dea87044",
+      "text_sha256": "277073a45f795eee0204226f59a492c931c129112c2d260a0a3af5e182358174"
+    },
+    {
+      "step_id": 3201341,
+      "source_path": "courses/86957/steps/768145/05_3201341_text.step",
+      "file_sha256": "a4777940107ad1aa824a0a05b585ca99d389bad61b3066c69a5183830b69415b",
+      "text_sha256": "9f17159b58b065b7b6f0ed16c86fd56ce134aff28e96b09aa69d3caf33e6482f"
+    },
+    {
+      "step_id": 3215247,
+      "source_path": "courses/86957/steps/771154/01_3215247_text.step",
+      "file_sha256": "ce37618793615e503681e2cfc442a30b70596eb39f35b6b35d3bde114901366c",
+      "text_sha256": "4393de6b77df5427770b194c22775e04601c810c7fab614e5b2750f31754cfc2"
+    },
+    {
+      "step_id": 3215253,
+      "source_path": "courses/86957/steps/771154/02_3215253_text.step",
+      "file_sha256": "5d165dd1737ab558bb69ef184b6d301ef00099e131ddff81c5eeed4aba27f180",
+      "text_sha256": "ae2554dcd96796546256837fde331cb71a24b7a7980eb33f92c1fffb15ed1dc2"
+    },
+    {
+      "step_id": 3215254,
+      "source_path": "courses/86957/steps/771154/03_3215254_text.step",
+      "file_sha256": "bac2c32e65cb05155259158db63832745aa837061fd638fbdcccf8a1f4632930",
+      "text_sha256": "efcedec96456cbddd04603e81571b3b5bdc7233ee9e8460558e66017c084eb09"
+    },
+    {
+      "step_id": 3215252,
+      "source_path": "courses/86957/steps/771154/04_3215252_text.step",
+      "file_sha256": "26e8ebea6a852a26cef1d01d55d0c3b6e05482bdd0b8c389ca86ad890859be0f",
+      "text_sha256": "62765da801475a461ad721b38e29cfb559123fcb587219dfd45c596dc44cf7df"
+    },
+    {
+      "step_id": 3173778,
+      "source_path": "courses/86957/steps/763037/01_3173778_text.step",
+      "file_sha256": "fe7b82728f0d03d89e81551e7e1f88e9bd1147a3301bc8afb7870a223b875d4a",
+      "text_sha256": "3378137a019a03e3fb13899d27019c639bd8f4fcc41ae7c4c6b043cb22a8dd16"
+    },
+    {
+      "step_id": 3173804,
+      "source_path": "courses/86957/steps/763037/02_3173804_text.step",
+      "file_sha256": "586d4bddd55010eb4fd76cfd94872e2ae2ffc91f9a68756b674cbe9e73dcacb1",
+      "text_sha256": "5f9246e15481ec31d86da7b7e20c6fea0bbe2d60816f1452c07bebb698f821d2"
+    },
+    {
+      "step_id": 3173810,
+      "source_path": "courses/86957/steps/763037/03_3173810_text.step",
+      "file_sha256": "9697fead58c81805e7476d314d7b5e27083347d6d16e334bef4960c1ed1b035b",
+      "text_sha256": "a71df85706659eb5fc6579d9f2a901293b230cfe1c266f53b82fe0ae100c5b2a"
+    },
+    {
+      "step_id": 3173832,
+      "source_path": "courses/86957/steps/763037/05_3173832_text.step",
+      "file_sha256": "604fffc47aadfddece14ae1f42f3717e4877952b5ab260155ce6be682e817fec",
+      "text_sha256": "030ab6311338203ae332000e467334d91eab59d78a5a3432903b07ffd28a560e"
+    },
+    {
+      "step_id": 3173836,
+      "source_path": "courses/86957/steps/763037/07_3173836_text.step",
+      "file_sha256": "f1003a32d778dfba60a8bfc75d306a21dc1b4f3bc20d606336ee074801053020",
+      "text_sha256": "f4d08238c29e9fa97d3d232ea9e50c78ba6c1256f8acb728d079d42fd3d6d01d"
+    },
+    {
+      "step_id": 3173838,
+      "source_path": "courses/86957/steps/763037/08_3173838_text.step",
+      "file_sha256": "74029b7d7df05860bb2d137014189e3a39e47043cc9e951f129b671038239999",
+      "text_sha256": "c6f902b9a5f1065ef44e839db0c143a31d09fe0e6d9548d44369cee4c034f782"
+    },
+    {
+      "step_id": 3173779,
+      "source_path": "courses/86957/steps/763038/01_3173779_text.step",
+      "file_sha256": "36c1acba58c5c4ef9e199dba465b37293d61e2718a603066dec8145ddc5922e0",
+      "text_sha256": "d8c9387183b80290cbb5d86fcbb4f0381eedaebc38ce49a39efdb6b1a6c8f2ac"
+    },
+    {
+      "step_id": 3173870,
+      "source_path": "courses/86957/steps/763038/03_3173870_text.step",
+      "file_sha256": "abffaea5bb6300a818f8b530d0d56b153fd631ab769da6c17fd4d9935645c278",
+      "text_sha256": "02135f2e6b55622aff095b677419195f2978283a3e85d6bbad97858ef5531ce4"
+    },
+    {
+      "step_id": 3173871,
+      "source_path": "courses/86957/steps/763038/04_3173871_text.step",
+      "file_sha256": "9129f11c0e04b588b69ed659bf3a0e466463845a22c5144e3dd80d6e989a5e27",
+      "text_sha256": "14aea2ae1250b1dfb5abecfc6749c0c55543ae399ab2c9fc939892fe21fb0033"
+    },
+    {
+      "step_id": 3177248,
+      "source_path": "courses/86957/steps/763038/05_3177248_text.step",
+      "file_sha256": "e7bbd688479fb024e109f4b9a84451058e216f3eb1f1895a41b2e56d4e010c32",
+      "text_sha256": "72da1bc4fe9bddd3b237d18747f602da58bc00b0fa940bca4634e95bda1d17e3"
+    },
+    {
+      "step_id": 3177249,
+      "source_path": "courses/86957/steps/763038/06_3177249_text.step",
+      "file_sha256": "f4b904d70d5e8da74faff2becf3e2634585966c66706406fa22ae2eedb16d57e",
+      "text_sha256": "7e9e5217c5f1aeeabbcccc841bab871d17bf95ac96c603bcf3a473be45a0c7ab"
+    },
+    {
+      "step_id": 3177250,
+      "source_path": "courses/86957/steps/763038/07_3177250_text.step",
+      "file_sha256": "0139b51b086b2c90428f45c0c1448517d9faf0e3865c226a06010582dbd88970",
+      "text_sha256": "18998d79517a72360425eb1617a5fbea291e162f6d5365b957e0520dfd44fdfa"
+    },
+    {
+      "step_id": 3173780,
+      "source_path": "courses/86957/steps/763039/01_3173780_text.step",
+      "file_sha256": "30c772f609ef9dcd6e3fd69bd9c4f2e8a833ed121a2df7fa89b9770f2246159c",
+      "text_sha256": "5fb3d3ffdfae0792e0ec5c0e1b9a14c29bdcfb712003e2fa4113f83b956803b4"
+    },
+    {
+      "step_id": 3173892,
+      "source_path": "courses/86957/steps/763039/12_3173892_text.step",
+      "file_sha256": "3fa1b44e2c0cf32b5fae1cd3fc867da1850fce65528e681c8acb0a763ff455dd",
+      "text_sha256": "8135b99f2febdeda0e53fa8f4bffc398cf849e8272b88494dea5a8915bef2ac9"
+    },
+    {
+      "step_id": 3215255,
+      "source_path": "courses/86957/steps/771155/01_3215255_text.step",
+      "file_sha256": "6551b1bc627980798d84ad85475bb361750ec8d7e8f936a9dcfb9d8ec0f2113a",
+      "text_sha256": "464f2ece5be05c6a32ebb2345029839df76237deb51990a9de502f4cd8bd67db"
+    },
+    {
+      "step_id": 3215258,
+      "source_path": "courses/86957/steps/771155/02_3215258_text.step",
+      "file_sha256": "ece06f35f68279b56a6de71baebfedfe4de8f95f519de4e344990fee93fd3780",
+      "text_sha256": "87b17208e55021b0618f5397ea152c6d16c1f7e157f993f3e806a426f6f9ae71"
+    },
+    {
+      "step_id": 3215257,
+      "source_path": "courses/86957/steps/771155/03_3215257_text.step",
+      "file_sha256": "d62100cb8718d027e7544f8fee300f1f4bd55a816b5232af7f05b80fe0d2b941",
+      "text_sha256": "6036f648071dbf47e2d92f3a95c4f245bb29f7377eebd9a9ad536bfbbf9f6e79"
+    },
+    {
+      "step_id": 3215256,
+      "source_path": "courses/86957/steps/771156/01_3215256_text.step",
+      "file_sha256": "0f2f6942a0dfcc61aa42fd63e968d6dca7551a77f0b56e0723365cbe5098ae70",
+      "text_sha256": "975c771e23e30b2e8f50970be1a0d0b47fe84662e4c278be126e2e2d2df61840"
+    },
+    {
+      "step_id": 3215268,
+      "source_path": "courses/86957/steps/771156/02_3215268_text.step",
+      "file_sha256": "3e218f6304c6b842b85947fbe3a25f7076c8ead2a8ff4cfc7319805cce7d4192",
+      "text_sha256": "3f948b95a5dc989356ea1ae36e3faf1fdc7d72b93a50e8f64f66e46b76c44b9e"
+    },
+    {
+      "step_id": 3215267,
+      "source_path": "courses/86957/steps/771156/03_3215267_text.step",
+      "file_sha256": "a614933fbd1690f3ceb2e0dafe4c7a696a631bbc030aeb98e673fba43a0e804b",
+      "text_sha256": "69d394951b0cf65554169d4f8082d1c5fafd09b23633386dcbe53f070ff87029"
+    },
+    {
+      "step_id": 3215266,
+      "source_path": "courses/86957/steps/771156/04_3215266_text.step",
+      "file_sha256": "4d188e0f95318bb4125ac2a604f34e7044c3af6ca94abf0eff6355afe0c3113a",
+      "text_sha256": "042c00c3a417f8e9396f5a3d797e77a1319549d9e7ab0b314ea6ede4f84357be"
+    },
+    {
+      "step_id": 3215265,
+      "source_path": "courses/86957/steps/771156/05_3215265_text.step",
+      "file_sha256": "0c919da9ccea4a18c737aece28a1d70cb31911c9450134dedfc7fe05ec02ee77",
+      "text_sha256": "4c957298b83de32d8c01790c66191866d887db2ecc1150bb8b93c30cd19f3d9c"
+    },
+    {
+      "step_id": 3201132,
+      "source_path": "courses/86957/steps/768140/01_3201132_text.step",
+      "file_sha256": "c7cb4df5f32a6ac4036c6cf2438018fca2ace05487366f7694f78875039fb0a4",
+      "text_sha256": "535ce38a00da5018ccb6b1891f3fbebd0d9724d2438b8a54b70629ad8e70d884"
+    },
+    {
+      "step_id": 3201141,
+      "source_path": "courses/86957/steps/768140/02_3201141_text.step",
+      "file_sha256": "5da3e47d941992d9b2e54d7ab8ee8ef8a88c693725e2cf74c512aefe63f71119",
+      "text_sha256": "ff93ae376fe9944eda3ff3801c0000f0ae6b9f349e84a3f974ee72a833e9d652"
+    },
+    {
+      "step_id": 3201150,
+      "source_path": "courses/86957/steps/768140/03_3201150_text.step",
+      "file_sha256": "d650b67e789d9258ff5a5da442d28072985497c5903fc46e9016da7baed50766",
+      "text_sha256": "c57e52e7d3408dab5440b1c0c333f00fd71e041dc9e2c8a455ba36a480c4c212"
+    },
+    {
+      "step_id": 3201151,
+      "source_path": "courses/86957/steps/768140/04_3201151_text.step",
+      "file_sha256": "5db98260b1d29efb7528eb8586021ea50a5968a69d9e679f03db50b13a0bb3ce",
+      "text_sha256": "0d15d3aff3a330a59f73ddb04b53036d69a23d2948b1d32ac1c9d26cf644d3db"
+    },
+    {
+      "step_id": 3201153,
+      "source_path": "courses/86957/steps/768140/05_3201153_text.step",
+      "file_sha256": "eeb93c4b5167259c205cc89f8abe24457e73dc64c3406a3b37d39e99e93a2176",
+      "text_sha256": "6eb9f243e2e43409525aae7ac7ba75ac3898ba151218433c8a1de48a6b305837"
+    },
+    {
+      "step_id": 3201181,
+      "source_path": "courses/86957/steps/768140/06_3201181_text.step",
+      "file_sha256": "faf8238c2b0fe1f612e4b1f2507d8852ace936d18442263bff919603b572fd11",
+      "text_sha256": "760c811634cc69581cfa0b7e946374c99a54ab7e2d3622eb64c01eab5765fcab"
+    },
+    {
+      "step_id": 3201155,
+      "source_path": "courses/86957/steps/768140/07_3201155_text.step",
+      "file_sha256": "9e1c020603add4066d3420c019d6897d13c5e42fecb8f54ad2ba93596302cd46",
+      "text_sha256": "9ebcfe48d4129125feb3e759842ebe368ab3ace8788cb4b9e3c838c98c9df21a"
+    },
+    {
+      "step_id": 3201168,
+      "source_path": "courses/86957/steps/768140/08_3201168_text.step",
+      "file_sha256": "6f6937ef26ed96ce92e4b2c2f4c908c8c54c9e90b11eee404904911e7a551439",
+      "text_sha256": "3cc0dba5ace2a1e346461ffe72f8f636f2dcaf185f03aa4745104ddcb5140e39"
+    },
+    {
+      "step_id": 3201191,
+      "source_path": "courses/86957/steps/768146/01_3201191_text.step",
+      "file_sha256": "89053e07e4cf0b3fd893b4198d64baf5dacd5ef9095d8126bd84cc917f4f0817",
+      "text_sha256": "88aa2bb29e1f031c95ba6b9d74f1df0f517f68e895de73f239b60601bf5c8778"
+    },
+    {
+      "step_id": 3201236,
+      "source_path": "courses/86957/steps/768146/02_3201236_text.step",
+      "file_sha256": "e792008fcb680f6c3035638866a1af436b5ac2d49e553dda60df4c8d2b13a30f",
+      "text_sha256": "a27ff283307f6b86a763d842386fad04abdc06a5c6fc512e65b7fb2bd214436d"
+    },
+    {
+      "step_id": 3201235,
+      "source_path": "courses/86957/steps/768146/03_3201235_text.step",
+      "file_sha256": "464d97df887cb3f1869b8192140909b467487981596cd162af181d06e489bd86",
+      "text_sha256": "ea8252b329cbb4cb347df33dec913665cbd0be9dfeb4b358c8d986b9bd67cc35"
+    },
+    {
+      "step_id": 3201234,
+      "source_path": "courses/86957/steps/768146/04_3201234_text.step",
+      "file_sha256": "07c2274bddfa302fe5662b1fdb43cac1e2b6be4e89cf0c162efd4e74d9807b5a",
+      "text_sha256": "60912b151f9324c9e54d4f041a36dd4ab9be51ce57bc21e5cf1d9018c690cbc5"
+    },
+    {
+      "step_id": 3201267,
+      "source_path": "courses/86957/steps/768146/05_3201267_text.step",
+      "file_sha256": "3839097df0d1c1d78d5eb8b501c7e64169037e0b4dfeca0bec4a9e0b71d57e9d",
+      "text_sha256": "b0100121768f553f40360849f67b104379859eee4fb17467723bd890035829c9"
+    },
+    {
+      "step_id": 3201179,
+      "source_path": "courses/86957/steps/768143/01_3201179_text.step",
+      "file_sha256": "b2844c6892ac0c5eff54e044a0de2917174510bd936849f7fcb74bab5b75f65b",
+      "text_sha256": "14e701a477a0ac113cb4be1c4882fb29dbb14793ddb9ada5bb06293a679f2a2d"
+    },
+    {
+      "step_id": 3201189,
+      "source_path": "courses/86957/steps/768143/02_3201189_text.step",
+      "file_sha256": "3e84e0a2b5561ab5f3905de506720502bf6c6383f03eb74c6647db3e30bc0f28",
+      "text_sha256": "598f45671ed0f4c050fdd50db067a3c3fb30c1649a09b6bf1547428a0a51dc82"
+    },
+    {
+      "step_id": 3215075,
+      "source_path": "courses/86957/steps/768143/03_3215075_text.step",
+      "file_sha256": "875a76c5893271c0738cf458171dc7cce9c579d29044df5edcc958bd2ca2c0cf",
+      "text_sha256": "e9befc569205a3379ee96f888347f62bfc9f1ed4b5d5021b26efa34ba81e735a"
+    },
+    {
+      "step_id": 3215081,
+      "source_path": "courses/86957/steps/768143/04_3215081_text.step",
+      "file_sha256": "4a34f89a46fd744c491512a0246e413898f0029d505df1201f4c6fc25a292f42",
+      "text_sha256": "9e8790c3e79a07b93a4d2e794916d8272da04af16c5b96b953d7c44224b85f30"
+    },
+    {
+      "step_id": 3215092,
+      "source_path": "courses/86957/steps/768143/05_3215092_text.step",
+      "file_sha256": "b16e2f15e3c98c606a22077c16b5ba6554bbfe1b53839435959ea8e265b75daa",
+      "text_sha256": "2bdd2f504258d36954caeb7c78e40c56cf2a118d82e6c1bc462168a8351cc297"
+    },
+    {
+      "step_id": 3237946,
+      "source_path": "courses/86957/steps/776128/01_3237946_text.step",
+      "file_sha256": "9fcfd8f4998a5f6c6e8bed355468f1bdb2addff482f60f28b75c59efd51c9aa6",
+      "text_sha256": "e608269372d3d681f23a4085588edf461f0060428b3ee47b1eff05518826c2ac"
+    },
+    {
+      "step_id": 3237955,
+      "source_path": "courses/86957/steps/776128/02_3237955_text.step",
+      "file_sha256": "2d6e67c2bfbd61f760827b463a8fabcd981bee30d8e33d1585ea5506d108a3e3",
+      "text_sha256": "5c5045d723d215d1b000edc7311599704ca3397ae39523a42511ffaf4963718f"
+    },
+    {
+      "step_id": 3237989,
+      "source_path": "courses/86957/steps/776128/03_3237989_text.step",
+      "file_sha256": "11e616bbfe91de447414cfdc1b4c6b77d65105d1cea2a5dc6a1091a724d0e16a",
+      "text_sha256": "9c491867b804bf6a947ab35c72c482043f364c5ae6dea420de9b9745b5f4e702"
+    },
+    {
+      "step_id": 3238005,
+      "source_path": "courses/86957/steps/776128/04_3238005_text.step",
+      "file_sha256": "13d3fb30979f46299c5750dd5747d2886b9911c29e7a762654b099b461ddd70a",
+      "text_sha256": "d0c5369e484e77646ca278ac10cbfd233bfcadfd1b8d3a8fc00920fed3bdbdfd"
+    },
+    {
+      "step_id": 3238004,
+      "source_path": "courses/86957/steps/776128/05_3238004_text.step",
+      "file_sha256": "f4aad40524d1e509cafdfeb11ca056b42a2bad3860a01e86e90b7539b12aeb6b",
+      "text_sha256": "cbabf1ac32562bc18c3422f557d38e8c3f8b42e2e2d0e257e8181fce509b9597"
+    },
+    {
+      "step_id": 3238006,
+      "source_path": "courses/86957/steps/776128/06_3238006_text.step",
+      "file_sha256": "183434b64e6669cb396fb010dad18f1945d4abcd671cde1390e4e71a39f9d0f6",
+      "text_sha256": "432c75eb3cde39e6e67acadfc7d32250199d459263735d8c076409d496945d81"
+    },
+    {
+      "step_id": 3214764,
+      "source_path": "courses/86957/steps/771009/01_3214764_text.step",
+      "file_sha256": "a725890556e3c010d2dcac16f61671be516abd652d55876a32e913e6d38ba15a",
+      "text_sha256": "7f3b0b21290438f8a7cacc009486559b82f3beacbf9ba1fcb511b5fc18f9382a"
+    },
+    {
+      "step_id": 3214777,
+      "source_path": "courses/86957/steps/771009/02_3214777_text.step",
+      "file_sha256": "5d26e3dede3896c1ec7a66d4e896203c63b2ca9aa9601af8001e485854e4e636",
+      "text_sha256": "cef4e36a75537f671498449e15f37a5676d1e9470e4537d60f06207194cae564"
+    },
+    {
+      "step_id": 3214778,
+      "source_path": "courses/86957/steps/771009/03_3214778_text.step",
+      "file_sha256": "d6f9f11e7482104d6e51c5ca78a3ea9b22f756112d1cf24d0a7ffdd457f64c6e",
+      "text_sha256": "8c3618aa855ac8698f7519256fb194c3ffb1391ff4ef3f29a5483543f90cfcfc"
+    },
+    {
+      "step_id": 3214832,
+      "source_path": "courses/86957/steps/771009/04_3214832_text.step",
+      "file_sha256": "0de578834813e675c341b952c03529714961ba4dbf5cf1231494539aa5a4a22b",
+      "text_sha256": "b71fc462b587ca47447a8d675d129f4ef580b24a67133819dcef451f006c5f3d"
+    },
+    {
+      "step_id": 3214833,
+      "source_path": "courses/86957/steps/771009/05_3214833_text.step",
+      "file_sha256": "0898986a2c2bd5d2b6f643cde897a96811cf83fdd6aba4f38ba96197ef88476f",
+      "text_sha256": "8360468a548b21f1b4f6c991b7e4b2739ca4acf2097361f925346796e389c65b"
+    },
+    {
+      "step_id": 3230371,
+      "source_path": "courses/86957/steps/774618/01_3230371_text.step",
+      "file_sha256": "a60fad23fea88de4923bc7c07c4ef616c5970ce47080aa529cb6cf6fea45744e",
+      "text_sha256": "9d8c4fe9d42ea971cfb302dc567b623a54dc10899e126c9124424e32f5a69350"
+    },
+    {
+      "step_id": 3231227,
+      "source_path": "courses/86957/steps/774618/02_3231227_text.step",
+      "file_sha256": "cf537e9cae0b8dd40ecfb5c9566a9e7cbb647e5371b78e13e793d7882ce5494a",
+      "text_sha256": "2f92c8ec49e59d43321073458d08206b1ea3b28c9cde680f2a0ca7fd28c71768"
+    },
+    {
+      "step_id": 3231317,
+      "source_path": "courses/86957/steps/774618/03_3231317_text.step",
+      "file_sha256": "f88005a130b0a79298dfdbacbb67be0171d58f3e7a8afd8062b42d4174787612",
+      "text_sha256": "afbd585d440066758ad3974627636fc2fbb71f55a12b95f1ef781710ceebb870"
+    },
+    {
+      "step_id": 3231228,
+      "source_path": "courses/86957/steps/774618/04_3231228_text.step",
+      "file_sha256": "8547815672c15c01aeaf983ac3c74a3430f8b98f2c5e666375d826b502faf24f",
+      "text_sha256": "f39fe68bb0fc111d0e70950499ec91165436e7972c91e714774a620a775ce900"
+    },
+    {
+      "step_id": 3231226,
+      "source_path": "courses/86957/steps/774618/05_3231226_text.step",
+      "file_sha256": "48bbe8c02f724dbc446a276f4386d87a639dc5ffe04f0241ba743e8245aa7317",
+      "text_sha256": "86eb6b64e3b53e32b24b1f92e660f11c433f390160bd595a504ca1906526599f"
+    }
+  ],
+  "changed_text_step_ids": [
+    3215253,
+    3201141,
+    3201168,
+    3237989,
+    3238004,
+    3231226
+  ],
+  "related_reviewed_step_ids": [
+    3212951,
+    3214991,
+    3212952,
+    3215032,
+    3215045,
+    3253503,
+    3253548,
+    3569325,
+    3569964,
+    3669114,
+    3212955
+  ],
+  "related_review_depth": "Сверены адреса, вводные/заключительные объяснения и назначение продолжений; у 3569325/3569964/3669114 прочитаны полные объяснения. Полная вычитка модулей4–19 распределена между остальными тремя review-файлами.",
+  "chains": [
+    {
+      "id": "build",
+      "chain": "Алгоритм → программа → трансляция → компиляция → компоновка → библиотека",
+      "step_ids": [
+        3173782,
+        3173935,
+        3201190,
+        3215247,
+        3215253,
+        3173870,
+        3177248,
+        3177249,
+        3177250,
+        3201191,
+        3230371,
+        3231226,
+        3212951,
+        3212952,
+        3215032,
+        3215045
+      ],
+      "conclusion": "Объявление, определение, заголовок и библиотека имеют разные роли. Несколько исходников продолжают введённую модель сборки; ссылка на полный пример теперь ведёт непосредственно на него."
+    },
+    {
+      "id": "tools",
+      "chain": "Редактор → компилятор и компоновщик → система сборки → Git → проверка поведения",
+      "step_ids": [
+        3173779,
+        3201132,
+        3201141,
+        3201168,
+        3201179,
+        3214764,
+        3214833,
+        3230371,
+        3231227,
+        3231317,
+        3231228,
+        3231226,
+        3253503,
+        3253548
+      ],
+      "conclusion": "Исправлен реальный порядок уроков. Названы точные адреса CMake, нескольких файлов, библиотек и CTest; выбранный стандарт20 не смешивается с проверяемой совместимостью17/20."
+    },
+    {
+      "id": "representation",
+      "chain": "Значение → запись → представление → диапазон → операции типа",
+      "step_ids": [
+        3215255,
+        3215258,
+        3215257,
+        3215256,
+        3215268,
+        3215267,
+        3215266,
+        3215265,
+        3173836
+      ],
+      "conclusion": "Число и запись разделены. CHAR_BIT, размер типа, типичное IEEE754 и порядок байтов имеют границы; переполнение не выводится из дополнительного кода. Продолжения модулей4/9/11 определены."
+    },
+    {
+      "id": "startup_lifetime",
+      "chain": "Запуск программы → инициализация → время жизни → нормальное завершение → RAII",
+      "step_ids": [
+        3237946,
+        3237955,
+        3237989,
+        3238004,
+        3569325,
+        3569964
+      ],
+      "conclusion": "Локальный static больше не попадает под неоговорённое правило инициализации до main или уничтожения при выходе из функции. Объектные файлы CRT отделены от исходников; основной маршрут не требует знания ELF."
+    }
+  ],
+  "defects_found_and_resolved": [
+    {
+      "step_id": 3215253,
+      "correction": "Отсылка к полному многофайловому примеру направлена на сам разбор трёх файлов, а не на вводный шаг проекта."
+    },
+    {
+      "step_id": 3201141,
+      "correction": "Указаны точные продолжения команд сборки и согласовано различие выбранного C++20 и проверяемой совместимости C++17/20."
+    },
+    {
+      "step_id": 3201168,
+      "correction": "Исправлен фактический порядок уроков: библиотека и std:: предшествуют первому запуску."
+    },
+    {
+      "step_id": 3237989,
+      "correction": "Разведены инициализация до main и динамическая инициализация локального static; исправлено смешение исходников и готовых объектов CRT."
+    },
+    {
+      "step_id": 3238004,
+      "correction": "Правило выхода из функции ограничено автоматическими объектами; локальный static связан с отдельным объяснением времени жизни."
+    },
+    {
+      "step_id": 3231226,
+      "correction": "Завершена линия CMake → несколько файлов → библиотека → CTest с точными адресами и устойчивыми ролями инструментов."
+    }
+  ],
+  "unresolved_defects": [],
+  "code_changes": {
+    "full_programs": 0,
+    "pre_blocks_changed": 0,
+    "note": "Все <pre> в шести правках совпадают с исходными байтами; новых учебных программ, заданий и видео нет."
+  },
+  "primary_sources_checked": [
+    "https://cmake.org/cmake/help/v3.22/manual/cmake.1.html",
+    "https://gcc.gnu.org/onlinedocs/gcc-14.3.0/gccint/Initialization.html",
+    "https://gcc.gnu.org/onlinedocs/gcc/Overall-Options.html",
+    "https://timsong-cpp.github.io/cppwp/n4659/basic.start.main",
+    "https://timsong-cpp.github.io/cppwp/n4659/basic.start.static",
+    "https://timsong-cpp.github.io/cppwp/n4659/stmt.dcl",
+    "https://timsong-cpp.github.io/cppwp/n4861/basic.start.dynamic",
+    "https://timsong-cpp.github.io/cppwp/n4861/basic.start.main",
+    "https://timsong-cpp.github.io/cppwp/n4861/stmt.dcl"
+  ],
+  "source_version_policy": "Проверены N4659 и N4861 с точными разделами. Документация CMake3.22 соответствует заявленному минимуму; GCC14.3 описывает только платформенные компоненты GNU, не правила C++.",
+  "assessment_conflicts": [
+    {
+      "step_id": 3272881,
+      "status": "preexisting_out_of_scope",
+      "evidence": "theory-continuation-2026-11-23/review_t1b.json",
+      "issue": "Таблица приписывает _start включение кешей, а scaffolding — обязательную диагностику; задание сохранено без изменений."
+    }
+  ],
+  "limitations": [
+    "Новый доступ к Stepik не выполнялся; сведения о публикации прежних пакетов подтверждены только репозиторием.",
+    "Исторические сценарии сборки CMake, MSVC и macOS не запускались заново; новые учебные команды и полные программы в этой части не добавлялись.",
+    "Смысловая вычитка не является формальным доказательством всех утверждений и реализаций курса."
+  ]
+}

@@ -29,6 +29,9 @@ PACKAGE_CONFIGS = {
     'theory-continuation-2026-11-23': (
         'd96e5b9cffa65010c53894a9b65b1a497cb6b58a',
         'Продолжение теоретической редакции C++: типы, классы и сквозные связи'),
+    'theory-links-2026-11-23': (
+        '352c2796717a55f4f0db8395b7d6093d8d67c35e',
+        'Сквозное согласование теории C++: предпосылки, термины и переходы'),
 }
 
 
@@ -121,7 +124,10 @@ def build(parts=None, package='theory-2026-11-23'):
     require(bool(selected) and len(selected) == len(set(selected)), 'Empty/duplicate parts')
     changes = {}
     for part in selected:
-        require(re.fullmatch(r't[1-6]b?', part), 'Invalid editorial part')
+        valid_part = (part in {'foundations', 'types', 'ownership', 'algorithms'}
+                      if package == 'theory-links-2026-11-23'
+                      else re.fullmatch(r't[1-6]b?', part))
+        require(valid_part, 'Invalid editorial part')
         path = PKG/f'changes_{part}.json'
         rows = json.loads(path.read_bytes())
         if isinstance(rows, dict): rows = rows['changes']
@@ -182,7 +188,10 @@ def build(parts=None, package='theory-2026-11-23'):
         require(set(old)==set(changes),'Published package membership changed')
     publication = previous['publication'] if previous else {
         'status':'not_published','applied':False,
-        'note':'Новая редакция только теории; публикация проверяется отдельно.'}
+        'note':('Только GitHub по прямому указанию владельца от 23 ноября 2026 года; '
+                'изменения на Stepik в этой сессии не разрешены.'
+                if package == 'theory-links-2026-11-23' else
+                'Новая редакция только теории; публикация проверяется отдельно.')}
     manifest = {'schema_version':1,'course_id':86957,'date':'2026-11-23','base_commit':BASE_COMMIT,
                 'status':'published' if publication.get('status')=='verified_on_stepik' else 'prepared',
                 'parts':selected,'changed_steps':len(steps),'changed_lessons':len({s['lesson_id'] for s in steps}),
@@ -196,7 +205,7 @@ def build(parts=None, package='theory-2026-11-23'):
         preview = ('\n'.join(line.rstrip(' \t') for line in
                              preview.decode('utf-8').split('\n'))).encode('utf-8')
     staged[PKG/'preview.html']=preview
-    grouped_journal = package == 'theory-continuation-2026-11-23'
+    grouped_journal = package in {'theory-continuation-2026-11-23', 'theory-links-2026-11-23'}
     lesson_count = manifest['changed_lessons']
     size_line = (f'**Шаги** — {len(steps)} · **Уроки** — {lesson_count}.' if grouped_journal
                  else f'Изменено **{len(steps)} текстовых шагов в {lesson_count} уроках**.')

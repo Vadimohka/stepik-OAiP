@@ -1,0 +1,369 @@
+[
+  {
+    "step_id": 3177280,
+    "path": "steps/763630/03_3177280_text.step",
+    "summary": "Значение больше не отождествляется только с содержимым именованного объекта; введение ссылки имеет точный адрес продолжения.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/expr",
+      "https://timsong-cpp.github.io/cppwp/n4659/intro.object",
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.ref"
+    ],
+    "plan": [
+      "LINKS",
+      "T2"
+    ]
+  },
+  {
+    "step_id": 3177279,
+    "path": "steps/763630/08_3177279_text.step",
+    "summary": "Обещанный разбор auto/const/ссылок направлен к добавленному законченному объяснению, отдельно от разбора позиции строки.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.type.auto.deduct"
+    ],
+    "plan": [
+      "LINKS",
+      "T2"
+    ]
+  },
+  {
+    "step_id": 3177283,
+    "path": "steps/763630/07_3177283_text.step",
+    "summary": "Убран буквальный дубль таблицы размеров соседнего шага; оставлена связь значащих битов, представления, sizeof и диапазона.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.fundamental",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.sizeof",
+      "https://timsong-cpp.github.io/cppwp/n4659/numeric.limits"
+    ],
+    "plan": [
+      "LINKS",
+      "T2"
+    ]
+  },
+  {
+    "step_id": 3177504,
+    "path": "steps/763639/03_3177504_text.step",
+    "summary": "Сдвиги связаны с продвижениями и ограничениями диапазона; правила отрицательных значений разделены для C++17 и C++20, фрагменты явно обозначены.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.shift",
+      "https://timsong-cpp.github.io/cppwp/n4659/conv.prom",
+      "https://timsong-cpp.github.io/cppwp/n4861/expr.shift"
+    ],
+    "plan": [
+      "LINKS",
+      "T2"
+    ]
+  },
+  {
+    "step_id": 3177499,
+    "path": "steps/763639/04_3177499_text.step",
+    "summary": "Справочник приоритетов отделён от обязательных предварительных знаний; отмечены версии и темы вне курса.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/expr",
+      "https://timsong-cpp.github.io/cppwp/n4861/expr"
+    ],
+    "plan": [
+      "LINKS",
+      "T2"
+    ]
+  },
+  {
+    "step_id": 3212935,
+    "path": "steps/763644/05_3212935_text.step",
+    "summary": "Обещание объяснить круглые и фигурные скобки имеет конкретные продолжения для vector и string.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.init.list",
+      "https://timsong-cpp.github.io/cppwp/n4659/vector.cons",
+      "https://timsong-cpp.github.io/cppwp/n4659/string.cons"
+    ],
+    "plan": [
+      "LINKS",
+      "T2"
+    ]
+  },
+  {
+    "step_id": 3212920,
+    "path": "steps/763644/06_3212920_text.step",
+    "summary": "Ошибка индекса теперь сообщает код 1, согласованный с контрактами ввода T2/T3; добавлены точные переходы от at к обработке исключения.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/array.overview",
+      "https://timsong-cpp.github.io/cppwp/n4659/support.start.term",
+      "https://timsong-cpp.github.io/cppwp/n4659/except.throw"
+    ],
+    "plan": [
+      "LINKS",
+      "T2"
+    ]
+  },
+  {
+    "step_id": 3212926,
+    "path": "steps/763644/07_3212926_text.step",
+    "summary": "Предварительная ссылка на ссылки ведёт непосредственно к их объяснению при передаче аргументов, а не к общему введению функций.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.ref"
+    ],
+    "plan": [
+      "LINKS",
+      "T2"
+    ]
+  },
+  {
+    "step_id": 3212939,
+    "path": "steps/763646/03_3212939_text.step",
+    "summary": "Предварительная ссылка на ссылки ведёт непосредственно к их объяснению при передаче аргументов, а не к общему введению функций.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.ref"
+    ],
+    "plan": [
+      "LINKS",
+      "T2"
+    ]
+  },
+  {
+    "step_id": 3212970,
+    "path": "steps/770585/04_3212970_text.step",
+    "summary": "Предварительная ссылка на ссылки ведёт непосредственно к их объяснению при передаче аргументов, а не к общему введению функций.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.ref"
+    ],
+    "plan": [
+      "LINKS",
+      "T2"
+    ]
+  },
+  {
+    "step_id": 3212968,
+    "path": "steps/770585/02_3212968_text.step",
+    "summary": "Литерал nullptr, его собственный тип и полученное нулевое значение int* разведены в общей модели литерал/тип/объект.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/lex.nullptr",
+      "https://timsong-cpp.github.io/cppwp/n4659/conv.ptr"
+    ],
+    "plan": [
+      "LINKS",
+      "T2"
+    ]
+  },
+  {
+    "step_id": 3438841,
+    "path": "steps/770586/06_3438841_text.step",
+    "summary": "Переход от времени жизни локального контейнера к RAII и unique_ptr закреплён точными адресами.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.life",
+      "https://timsong-cpp.github.io/cppwp/n4659/except.ctor"
+    ],
+    "plan": [
+      "LINKS",
+      "T2"
+    ]
+  },
+  {
+    "step_id": 3213209,
+    "path": "steps/770587/02_3213209_text.step",
+    "summary": "Устранено повторное отождествление int** с массивом; чтение связано с инициализацией и обеими границами, различие скобок vector разобрано до конкретных элементов.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/conv.array",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.sub",
+      "https://timsong-cpp.github.io/cppwp/n4659/vector.cons",
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.init.list"
+    ],
+    "plan": [
+      "LINKS",
+      "T2"
+    ]
+  },
+  {
+    "step_id": 3213210,
+    "path": "steps/770587/05_3213210_text.step",
+    "summary": "Исправлена ошибочная отсылка к разделу функций: объяснение исключений реально находится в модуле 8.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/except.throw"
+    ],
+    "plan": [
+      "LINKS",
+      "T2"
+    ]
+  },
+  {
+    "step_id": 3213206,
+    "path": "steps/770587/07_3213206_text.step",
+    "summary": "Итоговая карта указателей завершена конкретными переходами к инварианту и RAII.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.life",
+      "https://timsong-cpp.github.io/cppwp/n4659/except.ctor"
+    ],
+    "plan": [
+      "LINKS",
+      "T2"
+    ]
+  },
+  {
+    "step_id": 3212949,
+    "path": "steps/770590/01_3212949_text.step",
+    "summary": "Устранён круг в предпосылках: вводный шаг функций больше не требует уже знать ещё не введённые ссылки.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.fct",
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.ref"
+    ],
+    "plan": [
+      "LINKS",
+      "T3"
+    ]
+  },
+  {
+    "step_id": 3214910,
+    "path": "steps/770590/03_3214910_text.step",
+    "summary": "Неопределённое обещание будущих разделов noexcept заменено конкретным маршрутом к исключениям.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/except.spec",
+      "https://timsong-cpp.github.io/cppwp/n4659/except.terminate"
+    ],
+    "plan": [
+      "LINKS",
+      "T3"
+    ]
+  },
+  {
+    "step_id": 3214911,
+    "path": "steps/770590/04_3214911_text.step",
+    "summary": "Связь возврата значения с созданием результата и перемещением имеет конкретное продолжение без преждевременного углубления.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/stmt.return",
+      "https://timsong-cpp.github.io/cppwp/n4659/class.copy.elision"
+    ],
+    "plan": [
+      "LINKS",
+      "T3"
+    ]
+  },
+  {
+    "step_id": 3214973,
+    "path": "steps/770591/02_3214973_text.step",
+    "summary": "Область видимости связана с точными разборами многофайлового устройства и связывания.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.scope",
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.link"
+    ],
+    "plan": [
+      "LINKS",
+      "T3"
+    ]
+  },
+  {
+    "step_id": 3214971,
+    "path": "steps/770591/04_3214971_text.step",
+    "summary": "Передача указателя по значению связана с конкретным разбором невладеющего диапазона.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.fct",
+      "https://timsong-cpp.github.io/cppwp/n4659/conv.array"
+    ],
+    "plan": [
+      "LINKS",
+      "T3"
+    ]
+  },
+  {
+    "step_id": 3214974,
+    "path": "steps/770591/05_3214974_text.step",
+    "summary": "Закрыт обещанный в T2 переход auto → копия/ссылка/const; добавлен законченный разбор без требования знаний шаблонов.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.type.auto.deduct",
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.ref",
+      "https://timsong-cpp.github.io/cppwp/n4861/dcl.type.auto.deduct"
+    ],
+    "plan": [
+      "LINKS",
+      "T3"
+    ]
+  },
+  {
+    "step_id": 3214991,
+    "path": "steps/770592/03_3214991_text.step",
+    "summary": "Общее состояние связано с конкретными объяснениями инварианта и владения ресурсом.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.link",
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.life",
+      "https://timsong-cpp.github.io/cppwp/n4659/except.ctor"
+    ],
+    "plan": [
+      "LINKS",
+      "T3"
+    ]
+  },
+  {
+    "step_id": 3215045,
+    "path": "steps/770593/04_3215045_text.step",
+    "summary": "Время жизни загруженной реализации связано с конкретным объяснением RAII, без приписывания платформенного загрузчика стандарту языка.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.life",
+      "https://timsong-cpp.github.io/cppwp/n4659/except.ctor"
+    ],
+    "plan": [
+      "LINKS",
+      "T3"
+    ]
+  },
+  {
+    "step_id": 3252939,
+    "path": "steps/778425/02_3252939_text.step",
+    "summary": "Классификация проверок ведёт к точному общему исходнику приложения и проверяющей программы.",
+    "sources": [
+      "https://cmake.org/cmake/help/latest/command/add_test.html"
+    ],
+    "plan": [
+      "LINKS",
+      "T3"
+    ]
+  },
+  {
+    "step_id": 3253129,
+    "path": "steps/778426/02_3253129_text.step",
+    "summary": "Преждевременное обозначение O(n log n) снабжено объяснением двух множителей и адресом определения сложности.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/structure.specifications"
+    ],
+    "plan": [
+      "LINKS",
+      "T3"
+    ]
+  },
+  {
+    "step_id": 3253553,
+    "path": "steps/778426/07_3253553_text.step",
+    "summary": "GoogleTest-пример получил минимально необходимые предпосылки std::string до модуля 9 и связь с уже введённой C-строкой.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/string.require",
+      "https://google.github.io/googletest/reference/assertions.html"
+    ],
+    "plan": [
+      "LINKS",
+      "T3"
+    ]
+  },
+  {
+    "step_id": 3214873,
+    "path": "steps/770588/03_3214873_text.step",
+    "summary": "Независимые фрагменты и ожидаемая ошибка компиляции обозначены явно; переход к владеющей строке имеет точный адрес.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/lex.string",
+      "https://timsong-cpp.github.io/cppwp/n4659/conv.array",
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.array"
+    ],
+    "plan": [
+      "LINKS",
+      "T2"
+    ]
+  },
+  {
+    "step_id": 3214903,
+    "path": "steps/770589/03_3214903_text.step",
+    "summary": "Введение конструкторов string не предполагает ещё не изученного устройства классов; назначение операции объяснено на месте.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/string.cons",
+      "https://timsong-cpp.github.io/cppwp/n4659/class.ctor"
+    ],
+    "plan": [
+      "LINKS",
+      "T2"
+    ]
+  }
+]

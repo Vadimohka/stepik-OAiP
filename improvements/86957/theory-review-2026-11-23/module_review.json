@@ -750,9 +750,11 @@
     }
   ],
   "current_execution": {
+    "as_of": "2026-11-23T12:02:24.921211+00:00",
+    "base_commit": "352c2796717a55f4f0db8395b7d6093d8d67c35e",
     "progress_file": "PROGRESS.md",
-    "manifest": "../theory-continuation-2026-11-23/manifest.json",
-    "review_depth": "Состояния подтверждаются журналами и текущими проверками; исторические оценки ниже сохранены как исходная точка. Полный итоговый балл будет пересмотрен после LINKS.",
+    "manifest": "../theory-links-2026-11-23/manifest.json",
+    "review_depth": "Сквозная редакторская проверка предпосылок, терминологии, ссылок, повторений и переходов всех 283 text-шагов модулей 1–19; дополнительная техническая проверка выявленных рисков. Не формальная сертификация каждой старой программы.",
     "blocks": {
       "T1": "published_verified",
       "T2": "published_verified",
@@ -760,9 +762,57 @@
       "T4": "published_verified",
       "T5": "published_verified",
       "T6": "published_revalidated",
-      "SCOPE": "completed_in_published_theory",
-      "LINKS": "in_progress",
-      "PUB": "completed"
-    }
+      "SCOPE": "completed_and_rechecked_in_effective_theory",
+      "LINKS": "completed_and_verified_in_github",
+      "PUB": "pending_links_publication_blocked_by_owner_instruction"
+    },
+    "current_read_unique_texts": 283,
+    "current_changed_steps": 50,
+    "effective_edited_union_steps": 276,
+    "publication_note": "Только GitHub. Прямые изменения Stepik запрещены владельцем в текущем запросе; оставшийся PUB сейчас не выполняется."
+  },
+  "historical_fields_note": "rubric, overall и исходные карточки modules сохраняют первоначальную переоценку. Текущий результат ниже в current_execution/current_quality_assessment; старые remaining_theory и часы карточек не являются актуальным остатком.",
+  "current_quality_assessment": {
+    "source": "../theory-links-2026-11-23/quality_assessment.json",
+    "rubric": [
+      {
+        "dimension": "Техническая корректность",
+        "weight_percent": 30,
+        "score": 8.8,
+        "reason": "Адресно устранены ошибки хранения/инициализации, версий сдвига, nullptr, файловых потоков, контрактов деревьев и владения; утверждения опираются на версии N4659/N4861 и первичные документы."
+      },
+      {
+        "dimension": "Последовательность и связанность",
+        "weight_percent": 25,
+        "score": 8.8,
+        "reason": "Все 283 текста прочитаны по шести межмодульным цепям; точные переходы заменяют неверные обещания, устранены преждевременные предпосылки."
+      },
+      {
+        "dimension": "Актуальность C++ и учебного отбора",
+        "weight_percent": 20,
+        "score": 8.9,
+        "reason": "C++17/20, контейнеры и RAII используются по назначению; C, CRT/GCC и типичные реализации отделены от гарантий языка."
+      },
+      {
+        "dimension": "Ясность и самодостаточность",
+        "weight_percent": 15,
+        "score": 8.6,
+        "reason": "Понятия вводятся по месту использования, задания заменены завершёнными разборами, обязательного видео нет. Удаление RB и расширенный справочник операторов остаются наиболее плотными разделами."
+      },
+      {
+        "dimension": "Проверяемость объясняющих примеров",
+        "weight_percent": 10,
+        "score": 8.7,
+        "reason": "Изменённая полная программа и новый фрагмент точно связаны с исходниками проверки; новые рискованные утверждения имеют содержательные проверки C++17/20. Исторические большие наборы сохранены, но не выданы за новый запуск."
+      }
+    ],
+    "weighted_central_score": 8.78,
+    "reported_range": [
+      8.5,
+      9.0
+    ],
+    "confidence": "medium",
+    "object": "Эффективная теория модулей 1–19: сохранённый снимок плюс подготовленный пакет LINKS; не состояние живого Stepik.",
+    "not_completion_percentage": true
   }
 }

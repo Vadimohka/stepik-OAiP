@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "observed_main": "352c2796717a55f4f0db8395b7d6093d8d67c35e",
+  "user_context_commit": "a5985e9db1687915111a6cfb5095ee79b05b91b9",
+  "commits_after_user_context": [
+    {
+      "sha": "d96e5b9cffa65010c53894a9b65b1a497cb6b58a",
+      "message": "Publish 88 text-only theory updates"
+    },
+    {
+      "sha": "eb5928b4eb14cde463526251dcf1090b61affda5",
+      "message": "Prepare remaining C++ theory blocks with verified examples"
+    },
+    {
+      "sha": "9889233ace6950b47162610cdb4cc3556557d4bd",
+      "message": "Sync Stepik after 191 theory updates"
+    },
+    {
+      "sha": "352c2796717a55f4f0db8395b7d6093d8d67c35e",
+      "message": "Group 191 published Stepik updates by module"
+    }
+  ],
+  "working_copy_at_start": "fresh clone; no existing project edits in workspace",
+  "instructions": [
+    "AGENTS.md"
+  ],
+  "nested_agents_files": [],
+  "published_packages_at_start": [
+    {
+      "path": "improvements/86957/theory-2026-11-23/manifest.json",
+      "steps": 88,
+      "lessons": 23,
+      "status": "published",
+      "publication_status": "verified_on_stepik"
+    },
+    {
+      "path": "improvements/86957/theory-continuation-2026-11-23/manifest.json",
+      "steps": 191,
+      "lessons": 47,
+      "status": "published",
+      "publication_status": "verified_on_stepik"
+    }
+  ],
+  "unique_previously_revised_text_ids": 272,
+  "overlap_between_published_theory_packages": 7,
+  "remaining_block_at_start": "LINKS",
+  "historical_remaining_hours": {
+    "min": 4,
+    "max": 6
+  },
+  "user_authorization": "GitHub only; no direct Stepik updates or republication",
+  "snapshot_policy": "Keep courses/86957 unchanged until a separately authorized publication with successful readback",
+  "historical_receipts": [
+    "courses/86957/publication-verification-theory-2026-11-23.json",
+    "courses/86957/publication-verification-theory-continuation-2026-11-23.json"
+  ],
+  "fresh_live_stepik_verification": false,
+  "recovered_files": [
+    {
+      "path": "recovery/PROGRESS.md",
+      "sha256": "5150cb725c7b1464565298402764040359a35648c7883757569cb9f652d81517"
+    },
+    {
+      "path": "recovery/backlog.json",
+      "sha256": "805eae820a0d72c6798426a7726b94e2bf44f630bb65294361d82b68fac1417c"
+    }
+  ],
+  "saved_active_state_files": [
+    {
+      "path": "improvements/86957/theory-links-2026-11-23/recovery/README.md",
+      "source_path": "improvements/86957/theory-review-2026-11-23/README.md",
+      "sha256": "576c2501cf6c2b0bd784ed1e864c4681736b3cd0dc36ec1b10da0420e904a41e"
+    },
+    {
+      "path": "improvements/86957/theory-links-2026-11-23/recovery/scope.json",
+      "source_path": "improvements/86957/theory-review-2026-11-23/scope.json",
+      "sha256": "65872b6fd0837bfd53d335a40e60826828b3282588e5a483aaea3c11f23aaa7d"
+    },
+    {
+      "path": "improvements/86957/theory-links-2026-11-23/recovery/module_review.json",
+      "source_path": "improvements/86957/theory-review-2026-11-23/module_review.json",
+      "sha256": "7c4279dbf928c1ab7d053b07a1c4a37673a2e1e73baa1530c591a7d3b5f681a7"
+    },
+    {
+      "path": "improvements/86957/theory-links-2026-11-23/recovery/PROGRESS.md",
+      "source_path": "improvements/86957/theory-review-2026-11-23/PROGRESS.md",
+      "sha256": "5150cb725c7b1464565298402764040359a35648c7883757569cb9f652d81517"
+    },
+    {
+      "path": "improvements/86957/theory-links-2026-11-23/recovery/backlog.json",
+      "source_path": "improvements/86957/theory-review-2026-11-23/backlog.json",
+      "sha256": "805eae820a0d72c6798426a7726b94e2bf44f630bb65294361d82b68fac1417c"
+    }
+  ]
+}

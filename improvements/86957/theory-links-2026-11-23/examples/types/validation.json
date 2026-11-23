@@ -1,0 +1,729 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "checked_at": "2026-11-23T11:58:57.483371+00:00",
+  "base_commit": "352c2796717a55f4f0db8395b7d6093d8d67c35e",
+  "command": "python3 improvements/86957/theory-links-2026-11-23/examples/types/verify.py",
+  "environment": {
+    "system": "Linux",
+    "machine": "x86_64",
+    "python": "3.12.14",
+    "compiler": "g++ (Debian 14.2.0-19) 14.2.0"
+  },
+  "counts": {
+    "changed_steps": 28,
+    "steps_with_code_blocks_preserved": 25,
+    "successful_compilations": 4,
+    "expected_compile_rejections": 4,
+    "executions": 30,
+    "standards": [
+      "C++17",
+      "C++20"
+    ]
+  },
+  "step_inputs": [
+    {
+      "step_id": 3177280,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/763630/03_3177280_text.step",
+      "sha256": "f351093a8c97bc36f4810b3255ff92a252f95234b108a02d3d9fc8238e4f6050",
+      "text_sha256": "9fa39d24cc836a9ca8e48365a60cf21493ebc6430ceae36018a44ba3e31fcaa1",
+      "code_blocks": 2,
+      "code_change": "none"
+    },
+    {
+      "step_id": 3177279,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/763630/08_3177279_text.step",
+      "sha256": "85fe7cae15bffab37e9ec95e2752dac27d1b1a766d556f1978836453e1003156",
+      "text_sha256": "47cb7a7bfa6e26af833c8e65111ce01be094ed3c83d8de91e736804c763b184b",
+      "code_blocks": 1,
+      "code_change": "none"
+    },
+    {
+      "step_id": 3177283,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/763630/07_3177283_text.step",
+      "sha256": "535764f7fe3fb4f2b18e0c6fd65cb70f1d92d18bfd3b236e779ff036fbe3ed63",
+      "text_sha256": "10e6f0df20ba0bdac30eba1bfb98bc7d9110fcc9367d75b2cf2cbf4774d5dffa",
+      "code_blocks": 3,
+      "code_change": "none"
+    },
+    {
+      "step_id": 3177504,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/763639/03_3177504_text.step",
+      "sha256": "af27639e5efd5fb4974b550f11660d9ce82d5a2b2745d81f733167381dfc783a",
+      "text_sha256": "a10976ffe3aef362f2189af0ed8822f33fab5ebc1316f46f87b6969070c640e6",
+      "code_blocks": 2,
+      "code_change": "none"
+    },
+    {
+      "step_id": 3177499,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/763639/04_3177499_text.step",
+      "sha256": "a28d7389a36d4f3a681c9465c2fa38e19aaa73459c092011a5f9006292151118",
+      "text_sha256": "fd69ab4268fb87f9618276a264869b962bd561472922a95adfadea344ab0b0d3",
+      "code_blocks": 0,
+      "code_change": "none"
+    },
+    {
+      "step_id": 3212935,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/763644/05_3212935_text.step",
+      "sha256": "139b19365352e131039726a679714c6ba47a5b864e3d0ac30803abd676c7185b",
+      "text_sha256": "3a0eaecefe4d62b5da73d8516efd6338810072da51a39ab83c5899ef324a51fa",
+      "code_blocks": 2,
+      "code_change": "none"
+    },
+    {
+      "step_id": 3212920,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/763644/06_3212920_text.step",
+      "sha256": "b8da69f2092fe153fe4d551c9a9a1d7fba03681e8c90da4ecf06c9a812fc5b9c",
+      "text_sha256": "76221c8fc16ee4a7a061e52baf2d78683b16f3a0363ad245a8882b3173e22e2c",
+      "code_blocks": 2,
+      "code_change": "return_code"
+    },
+    {
+      "step_id": 3212926,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/763644/07_3212926_text.step",
+      "sha256": "ba8abe7a6ffe913034bba013806de8601ad258761cdf84828c252c956448e19d",
+      "text_sha256": "2d4533120316f5bdb6f914a0fefcb80c02d77b7a7f8ece41ba323b968de9a4da",
+      "code_blocks": 1,
+      "code_change": "none"
+    },
+    {
+      "step_id": 3212939,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/763646/03_3212939_text.step",
+      "sha256": "67517caef22065ad865b26ba19c314515e392ff881c41fc6f77ce5a9ef6b3849",
+      "text_sha256": "830666a0502a4bb073a8361609e25f8849b484fdd955b078ae16cb15c307711c",
+      "code_blocks": 2,
+      "code_change": "none"
+    },
+    {
+      "step_id": 3212970,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/770585/04_3212970_text.step",
+      "sha256": "e78db463559d3c007da3ec39cb0cff169633731a88474619baa144075b07597f",
+      "text_sha256": "0aaab9fbf3914b6bf04d04101e93d48f1a322c4519d5f7a7f004eb922779ebdb",
+      "code_blocks": 3,
+      "code_change": "none"
+    },
+    {
+      "step_id": 3212968,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/770585/02_3212968_text.step",
+      "sha256": "f2f90539b4a47f5bbe5e7a666806be5a661b634c2a19b606f5644f1a8c292fb8",
+      "text_sha256": "8ed004f7827f6f3374053f1e7d92ccbd32b7c136b33758cd5b9afa9aebfb6397",
+      "code_blocks": 1,
+      "code_change": "none"
+    },
+    {
+      "step_id": 3438841,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/770586/06_3438841_text.step",
+      "sha256": "170bdcd09d4fc2521171f31b9b5f9250b59374e76ce2c580d16540f490610682",
+      "text_sha256": "6fca84f326176a2c7be1e419454b0b6951d55c84ea11d046958e1cbcc79542e1",
+      "code_blocks": 1,
+      "code_change": "none"
+    },
+    {
+      "step_id": 3213209,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/770587/02_3213209_text.step",
+      "sha256": "8b34bc727e369621835b37112edd10ca9896cc7b14f27b0f421fcb39253f768b",
+      "text_sha256": "234d59a7a63fa17dfb6289e90bb88736641f96524921e433021f7183e765fd0e",
+      "code_blocks": 4,
+      "code_change": "comments_only"
+    },
+    {
+      "step_id": 3213210,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/770587/05_3213210_text.step",
+      "sha256": "6ebd07119215adef7c687c818bdbe478c7eaff2c483799336f1347a6d5225378",
+      "text_sha256": "57ac5aa748d295c6d5f9f1ef6dbc5f34f2aac15c8831577974e24fbd88a463d1",
+      "code_blocks": 0,
+      "code_change": "none"
+    },
+    {
+      "step_id": 3213206,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/770587/07_3213206_text.step",
+      "sha256": "8380fa42ac37dad428b7028b5bd4d990c8cc8760218129cf3770c3d9ffbca59b",
+      "text_sha256": "1a75865e315b8242b79df43f6ac9b9131dd2909b5a5c8b7f53bca1c3ee533dbc",
+      "code_blocks": 0,
+      "code_change": "none"
+    },
+    {
+      "step_id": 3212949,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/770590/01_3212949_text.step",
+      "sha256": "7b648925b5b91f41e0cc76988ae5e023a45c2562d4d84148718c3b41893f1f43",
+      "text_sha256": "530784d31acf84e8286c801061d0eab1f3577e58d6c5879817fb172d03fadccc",
+      "code_blocks": 1,
+      "code_change": "none"
+    },
+    {
+      "step_id": 3214910,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/770590/03_3214910_text.step",
+      "sha256": "ec0dc14fc8bf746dbcd12b82b2afb0ee214e5fcc9c5ab67b16b9b2918238404c",
+      "text_sha256": "d1131399cfc39517f7f4b5285b81b38e5323a0b35ff8c91787996b2c40a5a8a0",
+      "code_blocks": 1,
+      "code_change": "none"
+    },
+    {
+      "step_id": 3214911,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/770590/04_3214911_text.step",
+      "sha256": "8387349225c5d9c8793a21d36dfa76d6e1e1f03502293fb463bfce825594245d",
+      "text_sha256": "79c1b219bdea1fce06124007a8932a27391075117f5234510b299076c6329f3d",
+      "code_blocks": 1,
+      "code_change": "none"
+    },
+    {
+      "step_id": 3214973,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/770591/02_3214973_text.step",
+      "sha256": "64927fa835cb7f39526cd831bb9903fdc9c236a311465b8e3b36577f2afa1f7e",
+      "text_sha256": "948400981202119ab0462d7f7b5c089e5d34bce3cbeb44eea363dc104d75680d",
+      "code_blocks": 1,
+      "code_change": "none"
+    },
+    {
+      "step_id": 3214971,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/770591/04_3214971_text.step",
+      "sha256": "a6813aeb8bd034ab4310d3d54beb6edb0507042f63028b8c47d4bc9b0d1fc836",
+      "text_sha256": "7139c76ee5df93a140fa5d8745f9c8ae80d7817ba3b1226d55e142175074b3d8",
+      "code_blocks": 1,
+      "code_change": "none"
+    },
+    {
+      "step_id": 3214974,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/770591/05_3214974_text.step",
+      "sha256": "14735511583b92b8743378dea8a94a9e422ddb08aa7a12eb53dacb98f80486d4",
+      "text_sha256": "c9cf3370c466d31f9ea316c270113a0ad32a405b69b7d5d16c93e35d95c2d513",
+      "code_blocks": 2,
+      "code_change": "added_fragment"
+    },
+    {
+      "step_id": 3214991,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/770592/03_3214991_text.step",
+      "sha256": "9d073900263b2ebc4f86fde9f85f3283e40e185579733ac797a0bbef73e52a6b",
+      "text_sha256": "80166409f342149c89d763b8573b686e372841cddbd214a1c5d64bc8d424db37",
+      "code_blocks": 3,
+      "code_change": "none"
+    },
+    {
+      "step_id": 3215045,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/770593/04_3215045_text.step",
+      "sha256": "81e4ff413bf5cbf08e651e9495352cc927c81e52a1fa23df7f421f234dc09a2e",
+      "text_sha256": "d3794827cf3fbdfd55e313704f47d22531f6b6f2c3f4c2539101c090736ef5b5",
+      "code_blocks": 1,
+      "code_change": "none"
+    },
+    {
+      "step_id": 3252939,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/778425/02_3252939_text.step",
+      "sha256": "ff05f508224353ff78be83b504174c3bc3fd29350f78c5b2f98510556c0fe750",
+      "text_sha256": "a479e8fbdabdc0f7c215ad07ce5be483167b29dd8e606f0ac4273d7a7be11392",
+      "code_blocks": 0,
+      "code_change": "none"
+    },
+    {
+      "step_id": 3253129,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/778426/02_3253129_text.step",
+      "sha256": "65e0159a56eb02f89177e160e2efdb4874733612b6705396c412025fa59a859c",
+      "text_sha256": "f1f67d8ecf3e3889d8a1fa098ba39e1d1307ff44f8869dfc2689d7f6b0ca599f",
+      "code_blocks": 1,
+      "code_change": "none"
+    },
+    {
+      "step_id": 3253553,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/778426/07_3253553_text.step",
+      "sha256": "2abe1c1ee3afcb6412cfa9f3dec7fe29cc6894994f5eee71983c1489b5546a79",
+      "text_sha256": "70bab3650f525a21ae12c20b1f3bff45bd0d438f824834f4c98c57d00ecbdcde",
+      "code_blocks": 3,
+      "code_change": "none"
+    },
+    {
+      "step_id": 3214873,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/770588/03_3214873_text.step",
+      "sha256": "cf934cdbe5a2305bfcbef726d379693af6d8925829cbaaa5b533949769ea6d30",
+      "text_sha256": "26c073920ae74be4b43a086b2a4088773f12267670248f57842e9f21d5d6477b",
+      "code_blocks": 4,
+      "code_change": "none"
+    },
+    {
+      "step_id": 3214903,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/770589/03_3214903_text.step",
+      "sha256": "d8b4f6df076d3206dca87ff59661cc87b76b84bc6afa169db38b49b0f3023d7a",
+      "text_sha256": "0fbac43d25476b08fe6a2f41dd9265dc42569222c174729d6af7fe07aaf4b5fb",
+      "code_blocks": 2,
+      "code_change": "none"
+    }
+  ],
+  "sources": [
+    {
+      "path": "improvements/86957/theory-links-2026-11-23/examples/types/bounds.cpp",
+      "sha256": "5461b81d26afff5950f4266a0ffc1fad65455ed77305509c59805d22e370aefd"
+    },
+    {
+      "path": "improvements/86957/theory-links-2026-11-23/examples/types/auto_aliases.inc",
+      "sha256": "61f78d406e8ac31dd6a713c59fb9f37f3dc5f8b4cdb151cda1de068c065ac2af"
+    },
+    {
+      "path": "improvements/86957/theory-links-2026-11-23/examples/types/semantic_checks.cpp",
+      "sha256": "0cbc5b06855e3aca3bbfc231a91f6c94e374a9d7e5ee8367f582a04e075aca17"
+    },
+    {
+      "path": "improvements/86957/theory-links-2026-11-23/examples/types/verify.py",
+      "sha256": "5a89871b99375757f14671b9c4ab6e08d5d6cf13c74dcedab4b58fe830c31db6"
+    }
+  ],
+  "checks": [
+    {
+      "kind": "compile",
+      "standard": "c++17",
+      "source": "bounds.cpp",
+      "flags": [
+        "-std=c++17",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-fsanitize=undefined",
+        "-fno-sanitize-recover=all"
+      ],
+      "result": "passed"
+    },
+    {
+      "kind": "run",
+      "standard": "c++17",
+      "program": "bounds",
+      "input": "0\n",
+      "expected_stdout": "10\n",
+      "expected_exit_code": 0,
+      "observed_stdout": "10\n",
+      "observed_stderr": "",
+      "observed_exit_code": 0,
+      "result": "passed"
+    },
+    {
+      "kind": "run",
+      "standard": "c++17",
+      "program": "bounds",
+      "input": "1\n",
+      "expected_stdout": "20\n",
+      "expected_exit_code": 0,
+      "observed_stdout": "20\n",
+      "observed_stderr": "",
+      "observed_exit_code": 0,
+      "result": "passed"
+    },
+    {
+      "kind": "run",
+      "standard": "c++17",
+      "program": "bounds",
+      "input": "2\n",
+      "expected_stdout": "30\n",
+      "expected_exit_code": 0,
+      "observed_stdout": "30\n",
+      "observed_stderr": "",
+      "observed_exit_code": 0,
+      "result": "passed"
+    },
+    {
+      "kind": "run",
+      "standard": "c++17",
+      "program": "bounds",
+      "input": "3\n",
+      "expected_stdout": "40\n",
+      "expected_exit_code": 0,
+      "observed_stdout": "40\n",
+      "observed_stderr": "",
+      "observed_exit_code": 0,
+      "result": "passed"
+    },
+    {
+      "kind": "run",
+      "standard": "c++17",
+      "program": "bounds",
+      "input": "-1\n",
+      "expected_stdout": "INVALID\n",
+      "expected_exit_code": 1,
+      "observed_stdout": "INVALID\n",
+      "observed_stderr": "",
+      "observed_exit_code": 1,
+      "result": "passed"
+    },
+    {
+      "kind": "run",
+      "standard": "c++17",
+      "program": "bounds",
+      "input": "4\n",
+      "expected_stdout": "INVALID\n",
+      "expected_exit_code": 1,
+      "observed_stdout": "INVALID\n",
+      "observed_stderr": "",
+      "observed_exit_code": 1,
+      "result": "passed"
+    },
+    {
+      "kind": "run",
+      "standard": "c++17",
+      "program": "bounds",
+      "input": "2147483647\n",
+      "expected_stdout": "INVALID\n",
+      "expected_exit_code": 1,
+      "observed_stdout": "INVALID\n",
+      "observed_stderr": "",
+      "observed_exit_code": 1,
+      "result": "passed"
+    },
+    {
+      "kind": "run",
+      "standard": "c++17",
+      "program": "bounds",
+      "input": "-2147483648\n",
+      "expected_stdout": "INVALID\n",
+      "expected_exit_code": 1,
+      "observed_stdout": "INVALID\n",
+      "observed_stderr": "",
+      "observed_exit_code": 1,
+      "result": "passed"
+    },
+    {
+      "kind": "run",
+      "standard": "c++17",
+      "program": "bounds",
+      "input": "",
+      "expected_stdout": "INVALID\n",
+      "expected_exit_code": 1,
+      "observed_stdout": "INVALID\n",
+      "observed_stderr": "",
+      "observed_exit_code": 1,
+      "result": "passed"
+    },
+    {
+      "kind": "run",
+      "standard": "c++17",
+      "program": "bounds",
+      "input": "abc\n",
+      "expected_stdout": "INVALID\n",
+      "expected_exit_code": 1,
+      "observed_stdout": "INVALID\n",
+      "observed_stderr": "",
+      "observed_exit_code": 1,
+      "result": "passed"
+    },
+    {
+      "kind": "run",
+      "standard": "c++17",
+      "program": "bounds",
+      "input": "999999999999999999999999999999999999\n",
+      "expected_stdout": "INVALID\n",
+      "expected_exit_code": 1,
+      "observed_stdout": "INVALID\n",
+      "observed_stderr": "",
+      "observed_exit_code": 1,
+      "result": "passed"
+    },
+    {
+      "kind": "run",
+      "standard": "c++17",
+      "program": "bounds",
+      "input": "2 trailing text\n",
+      "expected_stdout": "30\n",
+      "expected_exit_code": 0,
+      "observed_stdout": "30\n",
+      "observed_stderr": "",
+      "observed_exit_code": 0,
+      "result": "passed"
+    },
+    {
+      "kind": "run",
+      "standard": "c++17",
+      "program": "bounds",
+      "input": "1x\n",
+      "expected_stdout": "20\n",
+      "expected_exit_code": 0,
+      "observed_stdout": "20\n",
+      "observed_stderr": "",
+      "observed_exit_code": 0,
+      "result": "passed"
+    },
+    {
+      "kind": "run",
+      "standard": "c++17",
+      "program": "bounds",
+      "input": "1 2\n",
+      "expected_stdout": "20\n",
+      "expected_exit_code": 0,
+      "observed_stdout": "20\n",
+      "observed_stderr": "",
+      "observed_exit_code": 0,
+      "result": "passed"
+    },
+    {
+      "kind": "compile",
+      "standard": "c++17",
+      "source": "semantic_checks.cpp",
+      "flags": [
+        "-std=c++17",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-fsanitize=undefined",
+        "-fno-sanitize-recover=all"
+      ],
+      "result": "passed"
+    },
+    {
+      "kind": "run",
+      "standard": "c++17",
+      "program": "semantic_checks",
+      "input": "",
+      "expected_stdout": "7 7 9\n",
+      "expected_exit_code": 0,
+      "observed_stdout": "7 7 9\n",
+      "observed_stderr": "",
+      "observed_exit_code": 0,
+      "result": "passed"
+    },
+    {
+      "kind": "expected_compile_rejection",
+      "standard": "c++17",
+      "operation": "same = 9;",
+      "source_sha256": "9a5eca2dacda9c012ab2860c2ea9d311aa2d5f1cf15ff7c9f91e862bde87def6",
+      "observed_exit_code": 1,
+      "result": "passed"
+    },
+    {
+      "kind": "expected_compile_rejection",
+      "standard": "c++17",
+      "operation": "read_only = 9;",
+      "source_sha256": "29575725d63476e2e3e0ebd96e2b5813b9eac1ec58dee6047aca540da2cff22a",
+      "observed_exit_code": 1,
+      "result": "passed"
+    },
+    {
+      "kind": "compile",
+      "standard": "c++20",
+      "source": "bounds.cpp",
+      "flags": [
+        "-std=c++20",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-fsanitize=undefined",
+        "-fno-sanitize-recover=all"
+      ],
+      "result": "passed"
+    },
+    {
+      "kind": "run",
+      "standard": "c++20",
+      "program": "bounds",
+      "input": "0\n",
+      "expected_stdout": "10\n",
+      "expected_exit_code": 0,
+      "observed_stdout": "10\n",
+      "observed_stderr": "",
+      "observed_exit_code": 0,
+      "result": "passed"
+    },
+    {
+      "kind": "run",
+      "standard": "c++20",
+      "program": "bounds",
+      "input": "1\n",
+      "expected_stdout": "20\n",
+      "expected_exit_code": 0,
+      "observed_stdout": "20\n",
+      "observed_stderr": "",
+      "observed_exit_code": 0,
+      "result": "passed"
+    },
+    {
+      "kind": "run",
+      "standard": "c++20",
+      "program": "bounds",
+      "input": "2\n",
+      "expected_stdout": "30\n",
+      "expected_exit_code": 0,
+      "observed_stdout": "30\n",
+      "observed_stderr": "",
+      "observed_exit_code": 0,
+      "result": "passed"
+    },
+    {
+      "kind": "run",
+      "standard": "c++20",
+      "program": "bounds",
+      "input": "3\n",
+      "expected_stdout": "40\n",
+      "expected_exit_code": 0,
+      "observed_stdout": "40\n",
+      "observed_stderr": "",
+      "observed_exit_code": 0,
+      "result": "passed"
+    },
+    {
+      "kind": "run",
+      "standard": "c++20",
+      "program": "bounds",
+      "input": "-1\n",
+      "expected_stdout": "INVALID\n",
+      "expected_exit_code": 1,
+      "observed_stdout": "INVALID\n",
+      "observed_stderr": "",
+      "observed_exit_code": 1,
+      "result": "passed"
+    },
+    {
+      "kind": "run",
+      "standard": "c++20",
+      "program": "bounds",
+      "input": "4\n",
+      "expected_stdout": "INVALID\n",
+      "expected_exit_code": 1,
+      "observed_stdout": "INVALID\n",
+      "observed_stderr": "",
+      "observed_exit_code": 1,
+      "result": "passed"
+    },
+    {
+      "kind": "run",
+      "standard": "c++20",
+      "program": "bounds",
+      "input": "2147483647\n",
+      "expected_stdout": "INVALID\n",
+      "expected_exit_code": 1,
+      "observed_stdout": "INVALID\n",
+      "observed_stderr": "",
+      "observed_exit_code": 1,
+      "result": "passed"
+    },
+    {
+      "kind": "run",
+      "standard": "c++20",
+      "program": "bounds",
+      "input": "-2147483648\n",
+      "expected_stdout": "INVALID\n",
+      "expected_exit_code": 1,
+      "observed_stdout": "INVALID\n",
+      "observed_stderr": "",
+      "observed_exit_code": 1,
+      "result": "passed"
+    },
+    {
+      "kind": "run",
+      "standard": "c++20",
+      "program": "bounds",
+      "input": "",
+      "expected_stdout": "INVALID\n",
+      "expected_exit_code": 1,
+      "observed_stdout": "INVALID\n",
+      "observed_stderr": "",
+      "observed_exit_code": 1,
+      "result": "passed"
+    },
+    {
+      "kind": "run",
+      "standard": "c++20",
+      "program": "bounds",
+      "input": "abc\n",
+      "expected_stdout": "INVALID\n",
+      "expected_exit_code": 1,
+      "observed_stdout": "INVALID\n",
+      "observed_stderr": "",
+      "observed_exit_code": 1,
+      "result": "passed"
+    },
+    {
+      "kind": "run",
+      "standard": "c++20",
+      "program": "bounds",
+      "input": "999999999999999999999999999999999999\n",
+      "expected_stdout": "INVALID\n",
+      "expected_exit_code": 1,
+      "observed_stdout": "INVALID\n",
+      "observed_stderr": "",
+      "observed_exit_code": 1,
+      "result": "passed"
+    },
+    {
+      "kind": "run",
+      "standard": "c++20",
+      "program": "bounds",
+      "input": "2 trailing text\n",
+      "expected_stdout": "30\n",
+      "expected_exit_code": 0,
+      "observed_stdout": "30\n",
+      "observed_stderr": "",
+      "observed_exit_code": 0,
+      "result": "passed"
+    },
+    {
+      "kind": "run",
+      "standard": "c++20",
+      "program": "bounds",
+      "input": "1x\n",
+      "expected_stdout": "20\n",
+      "expected_exit_code": 0,
+      "observed_stdout": "20\n",
+      "observed_stderr": "",
+      "observed_exit_code": 0,
+      "result": "passed"
+    },
+    {
+      "kind": "run",
+      "standard": "c++20",
+      "program": "bounds",
+      "input": "1 2\n",
+      "expected_stdout": "20\n",
+      "expected_exit_code": 0,
+      "observed_stdout": "20\n",
+      "observed_stderr": "",
+      "observed_exit_code": 0,
+      "result": "passed"
+    },
+    {
+      "kind": "compile",
+      "standard": "c++20",
+      "source": "semantic_checks.cpp",
+      "flags": [
+        "-std=c++20",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-fsanitize=undefined",
+        "-fno-sanitize-recover=all"
+      ],
+      "result": "passed"
+    },
+    {
+      "kind": "run",
+      "standard": "c++20",
+      "program": "semantic_checks",
+      "input": "",
+      "expected_stdout": "7 7 9\n",
+      "expected_exit_code": 0,
+      "observed_stdout": "7 7 9\n",
+      "observed_stderr": "",
+      "observed_exit_code": 0,
+      "result": "passed"
+    },
+    {
+      "kind": "expected_compile_rejection",
+      "standard": "c++20",
+      "operation": "same = 9;",
+      "source_sha256": "9a5eca2dacda9c012ab2860c2ea9d311aa2d5f1cf15ff7c9f91e862bde87def6",
+      "observed_exit_code": 1,
+      "result": "passed"
+    },
+    {
+      "kind": "expected_compile_rejection",
+      "standard": "c++20",
+      "operation": "read_only = 9;",
+      "source_sha256": "29575725d63476e2e3e0ebd96e2b5813b9eac1ec58dee6047aca540da2cff22a",
+      "observed_exit_code": 1,
+      "result": "passed"
+    }
+  ],
+  "limits": [
+    "Это новый запуск проверки адресных изменений LINKS, не перезапись исторических validation.json.",
+    "Полная программа с индексом компилируется из точного кода обновлённого .step. Новый фрагмент auto включён в авторский harness без изменения.",
+    "Дополнительные проверки различия скобок vector, типа nullptr и допустимых сдвигов проверяют сформулированные в текстах частные случаи; они не доказывают все положения стандарта.",
+    "В 25 изменённых шагах все pre/code-блоки сохранены побайтно после HTML-декодирования. В 3213209 меняется только комментарий фрагмента; исходная полная программа сохранена. Полная программа T3 в 3214974 сохранена.",
+    "Остальные старые полные программы не пересобираются в этом запуске. Windows/MSVC и macOS не проверялись. Stepik не читается и не изменяется."
+  ]
+}

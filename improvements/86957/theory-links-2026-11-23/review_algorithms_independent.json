@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "status": "accepted_within_review_scope",
+  "reviewed_at": "2026-11-23T12:00:47.185659+00:00",
+  "base_commit": "352c2796717a55f4f0db8395b7d6093d8d67c35e",
+  "reviewer": "links_types (independent of algorithms authoring)",
+  "scope": {
+    "changed_steps_reviewed": 9,
+    "full_targets_read": [
+      3580923,
+      3570230,
+      4035481
+    ],
+    "other_targets_read_as_diffs_with_context": [
+      3213242,
+      3215109,
+      3215113,
+      4035517,
+      3569332,
+      3570333
+    ],
+    "final_file_readiness": "Автор links_algorithms сообщил о завершении EOF-уточнений и фиксации девяти .step перед расчётом этих хешей.",
+    "excluded": "Повторная компиляция и формальная проверка всех прежних реализаций не проводились."
+  },
+  "review_inputs": [
+    {
+      "step_id": 3213242,
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/770594/05_3213242_text.step",
+      "file_sha256": "3eee1eae1afb594a52d555ee7f12347d163cefc58b461dd3f850e92d611d34ea",
+      "text_sha256": "20586085ec2e275aac9e9b165d3a9fefff6cbf61c31ff0c185f9c7d1bef3d701",
+      "source_path": "courses/86957/steps/770594/05_3213242_text.step",
+      "source_file_sha256": "06455ceaaeacdc7cd444b1c9fce32beaa513223992c24845b5efed18ce3b2e06",
+      "read_mode": "changed_passages_with_surrounding_context",
+      "only_block_text_changed": true,
+      "pre_blocks_unchanged": true
+    },
+    {
+      "step_id": 3215109,
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/771129/01_3215109_text.step",
+      "file_sha256": "a202f2322fab10ffa8e22e336fe786f6094c756a09ef49db2a552625df7ba778",
+      "text_sha256": "1adc88be677b39e898ea6fc5c7c42181ec7d832069101caf2f2e9e167e606795",
+      "source_path": "courses/86957/steps/771129/01_3215109_text.step",
+      "source_file_sha256": "e60f54ef1c61c247f9d743261fa7bbdb4346f0073f8717062f036f91c7729aa4",
+      "read_mode": "changed_passages_with_surrounding_context",
+      "only_block_text_changed": true,
+      "pre_blocks_unchanged": true
+    },
+    {
+      "step_id": 3215113,
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/771131/01_3215113_text.step",
+      "file_sha256": "d20a78e26c6f3799883565accf379d61061904a12ab1c06bb3721755612b5b43",
+      "text_sha256": "34abed2c50bec5e41dc3c3f753e3bbbb0a1176ef8a7eb9c256698f507ff5bed6",
+      "source_path": "courses/86957/steps/771131/01_3215113_text.step",
+      "source_file_sha256": "84da624b21c910db7ecc92ed81daefb6d27680198f3d5613485422932977c037",
+      "read_mode": "changed_passages_with_surrounding_context",
+      "only_block_text_changed": true,
+      "pre_blocks_unchanged": true
+    },
+    {
+      "step_id": 3580923,
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/771131/04_3580923_text.step",
+      "file_sha256": "844732654f70ebfd7acd27c0397029fadf0985a179cb60c2a498c9ef78234c82",
+      "text_sha256": "cc57016e8f249dcc8897e688eb7d774c7f785675b049b6f6313fbbefa914e0ab",
+      "source_path": "courses/86957/steps/771131/04_3580923_text.step",
+      "source_file_sha256": "1855a608f7db45b06b029a435c234672b5c618c51d83319131576f1103336614",
+      "read_mode": "full_target_and_diff",
+      "only_block_text_changed": true,
+      "pre_blocks_unchanged": true
+    },
+    {
+      "step_id": 4035517,
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/973837/02_4035517_text.step",
+      "file_sha256": "296bcb84d4821e7fb886735cf3dbcbaff929d30382159cd076437fcfae35a202",
+      "text_sha256": "4b4429783e53f3be1d8dc829726d17f5f294743dcc09208ae26df5e46604af0b",
+      "source_path": "courses/86957/steps/973837/02_4035517_text.step",
+      "source_file_sha256": "3915f2c0668fca9a8f8fe59aba521e26918db7206ac928c8ad7bedb42e69bfc8",
+      "read_mode": "changed_passages_with_surrounding_context",
+      "only_block_text_changed": true,
+      "pre_blocks_unchanged": true
+    },
+    {
+      "step_id": 3570230,
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/853539/02_3570230_text.step",
+      "file_sha256": "dbec07a03f0f6cc55cb15cb55f33b485cb47cd91371f29d12923c447dd316ba9",
+      "text_sha256": "9a4b6a39e146e285c8af8b8754ccbefae79f9ee05931e92b42204d4a719a5aec",
+      "source_path": "courses/86957/steps/853539/02_3570230_text.step",
+      "source_file_sha256": "5800f9c936e6bda5ddd8e448de3bfc772884001e5b78e5dc873ff80093346098",
+      "read_mode": "full_target_and_diff",
+      "only_block_text_changed": true,
+      "pre_blocks_unchanged": true
+    },
+    {
+      "step_id": 3569332,
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/853541/01_3569332_text.step",
+      "file_sha256": "b48beb3e4d998abf79a0bcf2b4ddb1bd79ef8cecfbd6ce8ed594426180facc61",
+      "text_sha256": "cec752d49e175877488646f61ca1018f41b888fdf8605b4d539eb6311294757f",
+      "source_path": "courses/86957/steps/853541/01_3569332_text.step",
+      "source_file_sha256": "01b0ac148651b6f01422c668166342c0e4063ff65146e9f3de5e77d760485a12",
+      "read_mode": "changed_passages_with_surrounding_context",
+      "only_block_text_changed": true,
+      "pre_blocks_unchanged": true
+    },
+    {
+      "step_id": 3570333,
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/853541/04_3570333_text.step",
+      "file_sha256": "2d03dadf0feba385b34de2d8603e210fb766b2e605ac6ec33b31cb03acd46daf",
+      "text_sha256": "cf1639cea0bc8d72286d0faee72accb39441afb18edd69dbbf08de68e3bee706",
+      "source_path": "courses/86957/steps/853541/04_3570333_text.step",
+      "source_file_sha256": "50690b905505b9410e4c955f7c1448de3b673acb03cb9e0177087d07df08db47",
+      "read_mode": "changed_passages_with_surrounding_context",
+      "only_block_text_changed": true,
+      "pre_blocks_unchanged": true
+    },
+    {
+      "step_id": 4035481,
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/973831/02_4035481_text.step",
+      "file_sha256": "5d152e77161947c74113870beaa8484e90e02360d76004b48d476c82d851f927",
+      "text_sha256": "fbe0f8b1b7d16438fe62b51ac495f1c23f8f0ca0c374bb20cdf5f73b454b0a75",
+      "source_path": "courses/86957/steps/973831/02_4035481_text.step",
+      "source_file_sha256": "8e84a1e8ff47ba0788a61fa7986a0a35563f3e7b6c02991ffcbef0a25d1ec697",
+      "read_mode": "full_target_and_diff",
+      "only_block_text_changed": true,
+      "pre_blocks_unchanged": true
+    }
+  ],
+  "related_code_inputs": [
+    {
+      "step_id": 3570281,
+      "source_path": "courses/86957/steps/853540/02_3570281_text.step",
+      "file_sha256": "d418f4fc4f0c5a05eacb720b96bd03d7285f4aa775b76c122f7112308fe5e1e1",
+      "text_sha256": "7b3f9fe4b5a104534d8902d217313bdbe802d91c4ac2a119569605e095e1e0c7",
+      "read_mode": "relevant_code_blocks",
+      "finding": "Полный avl.hpp и main.cpp: bool insert, false на совпадении ключа до изменения value."
+    },
+    {
+      "step_id": 3570303,
+      "source_path": "courses/86957/steps/853541/02_3570303_text.step",
+      "file_sha256": "826d3b2d16a2cf0119f7f9381f8e5acca45920d8ab6f7af9cbb61ed75c2f44ec",
+      "text_sha256": "0c6b3327f49b7ecc00b37a5d3923b2d76b1b0a252248631f750d3cce33f4c108",
+      "read_mode": "relevant_code_blocks",
+      "finding": "Объявление класса RBT: void add(T key, T1 value)."
+    },
+    {
+      "step_id": 3570304,
+      "source_path": "courses/86957/steps/853541/03_3570304_text.step",
+      "file_sha256": "dfda4a17131fbe0e637a6dfe126ea837d85f757aaca90e2dc1b3be71eccb3e87",
+      "text_sha256": "665dcfc40c06b48bd8655048adcfa5ea0ea484707e45577729754b0f0ef97c17",
+      "read_mode": "relevant_code_blocks",
+      "finding": "Определение RBT::add: ветвь равенства выполняет return до создания узла и изменения данных."
+    }
+  ],
+  "primary_sources_read_now": [
+    {
+      "id": "file_position_17",
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/filebuf",
+      "version": "N4659 / C++17",
+      "clause": "[filebuf]/2, /3.3",
+      "supports": "Ограничения чтения/записи наследуют правила C FILE; поддерживается общая файловая позиция."
+    },
+    {
+      "id": "file_position_20",
+      "url": "https://timsong-cpp.github.io/cppwp/n4861/filebuf",
+      "version": "N4861 / C++20",
+      "clause": "[filebuf]/2, /3.3",
+      "supports": "То же правило для заявленной версии C++20."
+    },
+    {
+      "id": "c_update",
+      "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf",
+      "version": "N1570 / C11",
+      "clause": "7.21.5.3 paragraph 7",
+      "supports": "После записи перед чтением нужны fflush либо позиционирование; после чтения перед записью — позиционирование, кроме чтения, встретившего EOF."
+    },
+    {
+      "id": "sentry_17",
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/ostream::sentry",
+      "version": "N4659 / C++17",
+      "clause": "[ostream::sentry]/2–3",
+      "supports": "Выходной sentry успешен только при good(); eofbit нельзя игнорировать перед записью."
+    },
+    {
+      "id": "sentry_20",
+      "url": "https://timsong-cpp.github.io/cppwp/n4861/ostream.sentry",
+      "version": "N4861 / C++20",
+      "clause": "[ostream.sentry]/2–3",
+      "supports": "Тот же критерий good() для подготовки вывода."
+    },
+    {
+      "id": "iostate",
+      "url": "https://timsong-cpp.github.io/cppwp/n4861/iostate.flags",
+      "version": "N4861 / C++20",
+      "clause": "[iostate.flags], clear, good, fail",
+      "supports": "good() требует нулевого состояния; fail() проверяет failbit/badbit, поэтому успешное извлечение и eofbit совместимы. clear изменяет состояние, не позицию."
+    },
+    {
+      "id": "seekg",
+      "url": "https://timsong-cpp.github.io/cppwp/n4861/istream.unformatted",
+      "version": "N4861 / C++20",
+      "clause": "[istream.unformatted]/41, /43",
+      "supports": "seekg предварительно снимает eofbit, но не failbit; позиционирование выполняется только при отсутствии fail()."
+    },
+    {
+      "id": "optional_17",
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/optional.ctor",
+      "version": "N4659 / C++17",
+      "clause": "[optional.ctor]/20",
+      "supports": "Конструирование optional из U&& непосредственно инициализирует содержащееся значение через forward<U>; для const string lvalue используется копирование."
+    },
+    {
+      "id": "optional_20",
+      "url": "https://timsong-cpp.github.io/cppwp/n4861/optional.ctor",
+      "version": "N4861 / C++20",
+      "clause": "[optional.ctor]/23",
+      "supports": "То же правило конструирования содержащегося значения."
+    },
+    {
+      "id": "string_17",
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/basic.string",
+      "version": "N4659 / C++17",
+      "clause": "[basic.string]/3",
+      "supports": "basic_string является contiguous container; применяются требования контейнера."
+    },
+    {
+      "id": "string_20",
+      "url": "https://timsong-cpp.github.io/cppwp/n4861/basic.string",
+      "version": "N4861 / C++20",
+      "clause": "[basic.string]/2",
+      "supports": "То же требование контейнера для C++20."
+    },
+    {
+      "id": "copy_17",
+      "url": "https://timsong-cpp.github.io/cppwp/n4659/container.requirements.general",
+      "version": "N4659 / C++17",
+      "clause": "Container requirements, X u(a)",
+      "supports": "Копирование линейно по числу содержащихся объектов; для строки речь идёт о char."
+    },
+    {
+      "id": "copy_20",
+      "url": "https://timsong-cpp.github.io/cppwp/n4861/container.requirements.general",
+      "version": "N4861 / C++20",
+      "clause": "Container requirements, X u(a)",
+      "supports": "То же требование линейной стоимости копирования."
+    },
+    {
+      "id": "map_find",
+      "url": "https://timsong-cpp.github.io/cppwp/n4861/associative.reqmts",
+      "version": "N4861 / C++20",
+      "clause": "Associative container requirements, b.find(k)",
+      "supports": "find возвращает итератор/const_iterator на запись либо end, а не копию mapped value."
+    }
+  ],
+  "checks": [
+    {
+      "step_id": 3580923,
+      "result": "accepted",
+      "finding": "Общая позиция, различие направлений и исключение для нормального EOF описаны верно. Финальная редакция отдельно снимает eofbit даже после успешного извлечения; не обещает, что seek устраняет failbit, а clear исправляет причину ошибки.",
+      "evidence": [
+        "file_position_17",
+        "file_position_20",
+        "c_update",
+        "sentry_17",
+        "sentry_20",
+        "iostate",
+        "seekg"
+      ]
+    },
+    {
+      "step_id": 3570230,
+      "result": "accepted",
+      "finding": "BST insert_bst и AVL insert возвращают bool с false при дубликате. Реальный RBT::add объявлен и определён как void; ветвь равенства не меняет прежние данные. Интерфейсы теперь разделены точно.",
+      "related_step_ids": [
+        3570281,
+        3570303,
+        3570304
+      ]
+    },
+    {
+      "step_id": 4035481,
+      "result": "accepted",
+      "finding": "В const find запись наблюдается через const Entry&, return entry.name создаёт независимую строку внутри optional. Поэтому к ожидаемому числу сравнений ID добавлена работа O(L) с символами. Сравнение с map::find не переносит на копию гарантию срока жизни итератора. Оценка rehash отдельно учитывает размеры корзин и копирование текста.",
+      "evidence": [
+        "optional_17",
+        "optional_20",
+        "string_17",
+        "string_20",
+        "copy_17",
+        "copy_20",
+        "map_find"
+      ]
+    },
+    {
+      "step_id": 3213242,
+      "result": "accepted",
+      "finding": "Переход к уже введённому vector соответствует порядку курса. Замена хранения не меняет число посещений в данном обходе."
+    },
+    {
+      "step_id": 3215109,
+      "result": "accepted",
+      "finding": "Индекс values.size() отделён от разыменования итератора; lower_bound_index и стандартный lower_bound имеют различающиеся типы результата при одной описанной границе."
+    },
+    {
+      "step_id": 3215113,
+      "result": "accepted",
+      "finding": "Закрытие при раскрутке ограничено найденным обработчиком. Ссылка на RAII продолжает объяснение владения готовым потоком и не требует заранее писать класс."
+    },
+    {
+      "step_id": 4035517,
+      "result": "accepted",
+      "finding": "Логарифмическая высота теперь относится к сбалансированному дереву; обычное BST допускает цепочку. Противоречие с вводным BST устранено."
+    },
+    {
+      "step_id": 3569332,
+      "result": "accepted",
+      "finding": "Общее красно-чёрное дерево не отождествлено с 2–3-деревом; устойчивые узлы с тремя ключами отнесены к 2–3–4. Учебное разделение переполненного узла сохранено."
+    },
+    {
+      "step_id": 3570333,
+      "result": "accepted",
+      "finding": "Новая вводная часть различает чёрный NIL и настоящий узел без детей; вместо пропуска объяснения задан маршрут чтения. Алгоритм удаления и его код этой правкой не изменены."
+    }
+  ],
+  "unresolved_defects": [],
+  "file_integrity_checks": {
+    "steps_with_only_block_text_changes": 9,
+    "steps_with_identical_pre_blocks": 9,
+    "compilations_run_by_this_independent_review": 0,
+    "target_files_modified_by_this_independent_review": 0
+  },
+  "conclusion": "Реальных дефектов в проверенных окончательных изменениях не обнаружено. Три приоритетных риска подтверждены первичными текстами C++17/C++20/C11 и фактическими реализациями; девять адресных правок приняты в заявленных границах."
+}

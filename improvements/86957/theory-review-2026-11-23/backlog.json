@@ -3,7 +3,7 @@
   "course_id": 86957,
   "date": "2026-11-23",
   "base_commit": "5885876d1ddbc744bf0c21e2fef32a0bb92a7c43",
-  "status": "active_theory_only_reassessment",
+  "status": "theory_ready_in_github_publication_pending_by_owner_instruction",
   "scope_file": "scope.json",
   "unit": "Часы одного человеческого преподавателя-редактора; оценка объёма, не календарный срок и не время ответа ассистента.",
   "assumptions": [
@@ -24,16 +24,16 @@
       "max": 0
     },
     "remaining_cross_module_editorial_review": {
-      "min": 4,
-      "max": 6
-    },
-    "remaining_publication": {
       "min": 0,
       "max": 0
     },
+    "remaining_publication": {
+      "min": 1,
+      "max": 3
+    },
     "remaining_complete_theory_workstream": {
-      "min": 4,
-      "max": 6
+      "min": 1,
+      "max": 3
     },
     "video_production": {
       "min": 0,
@@ -43,10 +43,10 @@
       "min": 0,
       "max": 0
     },
-    "note": "Оба пакета теории опубликованы и сверены. Для итогового отчёта остаётся сквозная проверка связности (LINKS). Историческая смета 60–99 часов сохранена отдельно."
+    "note": "T1–T6, SCOPE и LINKS завершены в эффективной теории GitHub. Исторические88+191 опубликованы по сохранённым протоколам. Новый пакет50 шагов подготовлен и проверен; его публикация запрещена текущим указанием владельца. Остаток1–3 человеческих часа относится только к PUB после отдельного разрешения, при отсутствии дрейфа исходников. Новая практика и видео:0."
   },
   "recommended_order": [
-    "LINKS"
+    "PUB"
   ],
   "packages": [
     {
@@ -75,7 +75,10 @@
           "max": 0
         },
         "evidence_note": "32 текста первого пакета и 40 текстов T1B опубликованы. В шести шагах исправлены ссылки.",
-        "progress_file": "PROGRESS.md"
+        "progress_file": "PROGRESS.md",
+        "semantic_links_review": "completed_in_github",
+        "links_refinement_manifest": "../theory-links-2026-11-23/manifest.json",
+        "publication_note": "Этот статус относится к сохранённому опубликованному базовому пакету; адресные поправки LINKS пока не опубликованы."
       }
     },
     {
@@ -105,7 +108,10 @@
           "max": 0
         },
         "evidence_note": "52 обновлённых текста опубликованы. Ещё 11 текстов просмотрены и сохранены в прежнем виде.",
-        "progress_file": "PROGRESS.md"
+        "progress_file": "PROGRESS.md",
+        "semantic_links_review": "completed_in_github",
+        "links_refinement_manifest": "../theory-links-2026-11-23/manifest.json",
+        "publication_note": "Этот статус относится к сохранённому опубликованному базовому пакету; адресные поправки LINKS пока не опубликованы."
       }
     },
     {
@@ -132,8 +138,11 @@
           "min": 0,
           "max": 0
         },
-        "evidence_note": "29 текстов опубликованы; текущий изолированный повторный запуск прошел, включая GoogleTest C++17/20.",
-        "progress_file": "PROGRESS.md"
+        "evidence_note": "29 текстов опубликованы по сохранённому receipt. Исторический повтор T3, включая GoogleTest C++17/20, сохранён; в этой сессии не повторялся. Сквозная вычитка и адресные уточнения завершены в LINKS.",
+        "progress_file": "PROGRESS.md",
+        "semantic_links_review": "completed_in_github",
+        "links_refinement_manifest": "../theory-links-2026-11-23/manifest.json",
+        "publication_note": "Этот статус относится к сохранённому опубликованному базовому пакету; адресные поправки LINKS пока не опубликованы."
       }
     },
     {
@@ -162,7 +171,10 @@
           "max": 0
         },
         "evidence_note": "33 текста опубликованы. В их числе 25 адаптаций прежних объяснений quality.",
-        "progress_file": "PROGRESS.md"
+        "progress_file": "PROGRESS.md",
+        "semantic_links_review": "completed_in_github",
+        "links_refinement_manifest": "../theory-links-2026-11-23/manifest.json",
+        "publication_note": "Этот статус относится к сохранённому опубликованному базовому пакету; адресные поправки LINKS пока не опубликованы."
       }
     },
     {
@@ -192,7 +204,10 @@
           "max": 0
         },
         "evidence_note": "59 текстов модулей 12–15 опубликованы и сверены.",
-        "progress_file": "PROGRESS.md"
+        "progress_file": "PROGRESS.md",
+        "semantic_links_review": "completed_in_github",
+        "links_refinement_manifest": "../theory-links-2026-11-23/manifest.json",
+        "publication_note": "Этот статус относится к сохранённому опубликованному базовому пакету; адресные поправки LINKS пока не опубликованы."
       }
     },
     {
@@ -220,8 +235,11 @@
           "min": 0,
           "max": 0
         },
-        "evidence_note": "27 текстов опубликованы ранее и повторно проверены. В продолжении опубликовано уточнение ролей N/P/G/U.",
-        "progress_file": "PROGRESS.md"
+        "evidence_note": "27 текстов опубликованы по сохранённому receipt; исторический повтор сохранён. В LINKS уточнены пять текстов о структурах; новые договоры проверены адресно C++17/20, весь старый T6 повторно не запускался.",
+        "progress_file": "PROGRESS.md",
+        "semantic_links_review": "completed_in_github",
+        "links_refinement_manifest": "../theory-links-2026-11-23/manifest.json",
+        "publication_note": "Этот статус относится к сохранённому опубликованному базовому пакету; адресные поправки LINKS пока не опубликованы."
       }
     },
     {
@@ -236,13 +254,14 @@
       "deliverable": "Просмотреть все 37 подготовленных текстов; новые самостоятельные упражнения исключить из активной редакции или превратить в объяснения с разбором. В 33 файлах найдены маркеры, но проверяются все 37. Создать согласованную теоретическую редакцию с собственными хешами; исходные пакеты сохранить.",
       "double_count_note": "Не включает повторное переписывание уже готовой теории и не дублирует часы модулей.",
       "execution": {
-        "status": "completed_in_published_theory",
+        "status": "completed_and_rechecked_in_effective_theory",
         "remaining_human_editor_hours": {
           "min": 0,
           "max": 0
         },
-        "evidence_note": "Опубликованы все 37 адаптированных текстов, из них 12 по функциям и 25 по алгоритмам, файлам и контейнерам.",
-        "progress_file": "PROGRESS.md"
+        "evidence_note": "Все37 исходных quality/functions ID подтверждены текущим смысловым чтением;12+25 адаптаций сделаны ранее. Новых адаптаций в этой сессии0;9 из37 получили только адресные LINKS-уточнения.",
+        "progress_file": "PROGRESS.md",
+        "review_file": "../theory-links-2026-11-23/review_scope.json"
       }
     },
     {
@@ -277,13 +296,15 @@
       "deliverable": "Единая карта предпосылок и терминов, проверка переходов объект/время жизни/владение и алгоритм/контейнер/реализация. Устранить повторения и обещания объяснения без ссылки на продолжение.",
       "double_count_note": "Здесь только проверка курса в целом; локальные переходы внутри модулей входят в T1–T6.",
       "execution": {
-        "status": "in_progress",
+        "status": "completed_and_verified_in_github",
         "remaining_human_editor_hours": {
-          "min": 4,
-          "max": 6
+          "min": 0,
+          "max": 0
         },
-        "evidence_note": "Восемь ссылок исправлены в шести шагах. Проверены адреса 215 внутренних переходов из продолжения. Осталась сквозная редакторская проверка связности.",
-        "progress_file": "PROGRESS.md"
+        "evidence_note": "Содержательно прочитаны283 text-шага модулей1–19; принято шесть сквозных цепей.50 шагов/31 урок/15 модулей исправлены и независимо перечитаны.323 внутренних вхождения ссылок разрешены. Полная перепроверка всех программ не заявляется.",
+        "progress_file": "PROGRESS.md",
+        "review_file": "../theory-links-2026-11-23/review_links.json",
+        "validation_file": "../theory-links-2026-11-23/validation/integrity.json"
       }
     },
     {
@@ -318,14 +339,17 @@
       "deliverable": "Перед переносом сверить исходные версии; публиковать только согласованную теорию, проверить HTML/код/формулы и перечитать блоки. Затем обновить снимок и статусы. Девять прежних оценочных/code изменений сюда не входят.",
       "double_count_note": "Проверка текста на платформе считается здесь, редактура и локальная компиляция объясняющих примеров — в T1–T6. Оценка использует уже существующую инфраструктуру пакетов и синхронизации.",
       "execution": {
-        "status": "completed",
+        "status": "pending_links_publication_blocked_by_owner_instruction",
         "remaining_human_editor_hours": {
-          "min": 0,
-          "max": 0
+          "min": 1,
+          "max": 3
         },
-        "evidence_note": "Опубликованы 88 шагов первого пакета и 191 шаг продолжения. Сверены все 485 шагов, их содержимое и расположение.",
+        "evidence_note": "Исторические88 и191 шаг опубликованы и сверены по repository receipts. Новый пакет50 text-шагов подготовлен, publication=not_published,applied=false. Stepik в текущей сессии не читался и не менялся.",
         "progress_file": "PROGRESS.md",
-        "verification_receipt": "courses/86957/publication-verification-theory-continuation-2026-11-23.json"
+        "verification_receipt": "courses/86957/publication-verification-theory-continuation-2026-11-23.json",
+        "blocker": "Прямое указание владельца работать только с GitHub. Это ограничение объёма текущей сессии, не установленная техническая недоступность API.",
+        "next_action_if_authorized": "Сверить50 исходных версий/размещение; при отсутствии дрейфа перенести только block.text, перечитать и сравнить; проверить отображение; затем обновить снимок, статусы и дерево в согласованном коммите.",
+        "historical_publication_status": "verified_in_saved_receipts_not_rechecked_live"
       }
     }
   ],
@@ -379,6 +403,7 @@
     "LINKS",
     "PUB"
   ],
-  "execution_base_commit": "d96e5b9cffa65010c53894a9b65b1a497cb6b58a",
-  "current_manifest": "../theory-continuation-2026-11-23/manifest.json"
+  "execution_base_commit": "352c2796717a55f4f0db8395b7d6093d8d67c35e",
+  "current_manifest": "../theory-links-2026-11-23/manifest.json",
+  "current_authorization": "Только GitHub. Прямые изменения Stepik запрещены владельцем в текущем запросе; оставшийся PUB сейчас не выполняется."
 }

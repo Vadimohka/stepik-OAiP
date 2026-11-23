@@ -1,0 +1,124 @@
+[
+  {
+    "step_id": 3213242,
+    "path": "steps/770594/05_3213242_text.step",
+    "summary": "Неопределённое обещание будущего контейнера заменено возвратом к уже введённому vector; размер хранения отделён от числа посещений.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.array",
+      "https://timsong-cpp.github.io/cppwp/n4659/vector.overview"
+    ],
+    "plan": [
+      "LINKS",
+      "T4"
+    ]
+  },
+  {
+    "step_id": 3215109,
+    "path": "steps/771129/01_3215109_text.step",
+    "summary": "Согласованы индекс, итератор и разыменование; собственная lower_bound_index отделена от стандартной lower_bound.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/alg.binary.search",
+      "https://timsong-cpp.github.io/cppwp/n4861/expr.sub"
+    ],
+    "plan": [
+      "LINKS",
+      "T4"
+    ]
+  },
+  {
+    "step_id": 3215113,
+    "path": "steps/771131/01_3215113_text.step",
+    "summary": "Мост от файлового потока к RAII получил точное продолжение; гарантия уничтожения при исключении ограничена раскруткой до обработчика.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/filebuf.cons",
+      "https://timsong-cpp.github.io/cppwp/n4861/filebuf.cons",
+      "https://timsong-cpp.github.io/cppwp/n4861/except.terminate"
+    ],
+    "plan": [
+      "LINKS",
+      "T4"
+    ]
+  },
+  {
+    "step_id": 3580923,
+    "path": "steps/771131/04_3580923_text.step",
+    "summary": "Вместо ссылки на неназванные правила объяснены общая файловая позиция, смена направлений fstream и состояние после EOF.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/filebuf",
+      "https://timsong-cpp.github.io/cppwp/n4861/filebuf",
+      "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf",
+      "https://timsong-cpp.github.io/cppwp/n4861/istream.unformatted",
+      "https://timsong-cpp.github.io/cppwp/n4659/iostate.flags",
+      "https://timsong-cpp.github.io/cppwp/n4861/iostate.flags"
+    ],
+    "plan": [
+      "LINKS",
+      "T4"
+    ]
+  },
+  {
+    "step_id": 4035517,
+    "path": "steps/973837/02_4035517_text.step",
+    "summary": "Сводная таблица больше не приписывает логарифмическую высоту произвольному дереву поиска; согласована с разбором вырождения.",
+    "sources": [
+      "https://sedgewick.io/wp-content/themes/sedgewick/papers/2008LLRB.pdf"
+    ],
+    "plan": [
+      "LINKS",
+      "T6"
+    ]
+  },
+  {
+    "step_id": 3570230,
+    "path": "steps/853539/02_3570230_text.step",
+    "summary": "Исправлено ложное обещание одинакового результата false у BST/AVL/RB: RBT::add возвращает void, хотя все три сохраняют значение дубликата.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.fct",
+      "https://github.com/Vadimohka/stepik-OAiP/blob/352c2796717a55f4f0db8395b7d6093d8d67c35e/courses/86957/steps/853541/02_3570303_text.step"
+    ],
+    "plan": [
+      "LINKS",
+      "T6"
+    ]
+  },
+  {
+    "step_id": 3569332,
+    "path": "steps/853541/01_3569332_text.step",
+    "summary": "Убрано смешение общего красно-чёрного дерева с 2–3-деревом; переход к 2–3–4 и конкретному следующему шагу сохранён.",
+    "sources": [
+      "https://sedgewick.io/wp-content/themes/sedgewick/papers/2008LLRB.pdf"
+    ],
+    "plan": [
+      "LINKS",
+      "T6"
+    ]
+  },
+  {
+    "step_id": 3570333,
+    "path": "steps/853541/04_3570333_text.step",
+    "summary": "Вместо предложения пропустить объяснение дан маршрут чтения удаления RB и явное различие NIL-листа и настоящего узла без детей.",
+    "sources": [
+      "https://sedgewick.io/wp-content/themes/sedgewick/papers/2008LLRB.pdf",
+      "https://github.com/Vadimohka/stepik-OAiP/blob/352c2796717a55f4f0db8395b7d6093d8d67c35e/courses/86957/steps/853541/04_3570333_text.step"
+    ],
+    "plan": [
+      "LINKS",
+      "T6"
+    ]
+  },
+  {
+    "step_id": 4035481,
+    "path": "steps/973831/02_4035481_text.step",
+    "summary": "Успешный ItemTable::find больше не выглядит константным по длине значения: сравнения ID отделены от копии строки и связаны с контрактом результата map::find.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/container.requirements.general",
+      "https://timsong-cpp.github.io/cppwp/n4861/container.requirements.general",
+      "https://timsong-cpp.github.io/cppwp/n4861/string.cons",
+      "https://timsong-cpp.github.io/cppwp/n4861/associative.reqmts"
+    ],
+    "plan": [
+      "LINKS",
+      "T6"
+    ]
+  }
+]

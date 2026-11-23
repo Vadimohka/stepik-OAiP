@@ -1,0 +1,105 @@
+[
+  {
+    "step_id": 3760029,
+    "path": "steps/897987/08_3760029_text.step",
+    "summary": "Сравнение Distance связано с точным требованием строгого слабого порядка и эквивалентностью ключей set/map; код и результат сохранены.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/associative.reqmts",
+      "https://timsong-cpp.github.io/cppwp/n4861/associative.reqmts",
+      "https://timsong-cpp.github.io/cppwp/n4659/alg.sorting",
+      "https://timsong-cpp.github.io/cppwp/n4861/alg.sorting"
+    ],
+    "plan": [
+      "LINKS",
+      "T5"
+    ]
+  },
+  {
+    "step_id": 3669075,
+    "path": "steps/877081/04_3669075_text.step",
+    "summary": "Переход от деструктора и правила нуля направлен на фактический разбор правила нуля и затем на RAII вместо страницы о продолжительности хранения.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/class.dtor",
+      "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rc-zero"
+    ],
+    "plan": [
+      "LINKS",
+      "T5"
+    ]
+  },
+  {
+    "step_id": 3759914,
+    "path": "steps/877084/05_3759914_text.step",
+    "summary": "Переход от виртуального деструктора уточнён для unique_ptr со стандартным удалителем и направлен на конкретный шаг, без обобщения на любой умный указатель.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.delete",
+      "https://timsong-cpp.github.io/cppwp/n4861/expr.delete",
+      "https://timsong-cpp.github.io/cppwp/n4659/unique.ptr.dltr.dflt",
+      "https://timsong-cpp.github.io/cppwp/n4861/unique.ptr.dltr.dflt"
+    ],
+    "plan": [
+      "LINKS",
+      "T5"
+    ]
+  },
+  {
+    "step_id": 3569964,
+    "path": "steps/853536/02_3569964_text.step",
+    "summary": "Обещание перехода RAII → unique_ptr согласовано с фактическим кодом: функция получает ссылку, а владение передаётся между локальными владельцами.",
+    "sources": [
+      "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rr-smartptrparam",
+      "https://timsong-cpp.github.io/cppwp/n4659/unique.ptr"
+    ],
+    "plan": [
+      "LINKS",
+      "T5"
+    ]
+  },
+  {
+    "step_id": 3569963,
+    "path": "steps/853536/03_3569963_text.step",
+    "summary": "Исключительное владение связано с ранее введённым Shape: автоматическое удаление через базовый тип сохраняет требование к виртуальному деструктору.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/unique.ptr.dltr.dflt",
+      "https://timsong-cpp.github.io/cppwp/n4861/unique.ptr.dltr.dflt",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.delete",
+      "https://timsong-cpp.github.io/cppwp/n4861/expr.delete"
+    ],
+    "plan": [
+      "LINKS",
+      "T5"
+    ]
+  },
+  {
+    "step_id": 3569327,
+    "path": "steps/853537/01_3569327_text.step",
+    "summary": "Совместное владение связано с наследованием: сохранённое уничтожение Derived при преобразовании владельца отделено от создания новой группы из Base*.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/util.smartptr.shared.const",
+      "https://timsong-cpp.github.io/cppwp/n4861/util.smartptr.shared.const",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.delete",
+      "https://timsong-cpp.github.io/cppwp/n4861/expr.delete",
+      "https://timsong-cpp.github.io/cppwp/n4659/util.smartptr.shared.create",
+      "https://timsong-cpp.github.io/cppwp/n4861/util.smartptr.shared.create"
+    ],
+    "plan": [
+      "LINKS",
+      "T5"
+    ]
+  },
+  {
+    "step_id": 3569325,
+    "path": "steps/853536/01_3569325_text.step",
+    "summary": "Гарантия сохранения элементов после возврата ограничена показанным владеющим vector; произвольный возврат по значению не объявляется передачей владения. Код сохранён.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/stmt.return",
+      "https://timsong-cpp.github.io/cppwp/n4861/stmt.return",
+      "https://timsong-cpp.github.io/cppwp/n4659/vector",
+      "https://timsong-cpp.github.io/cppwp/n4861/vector"
+    ],
+    "plan": [
+      "LINKS",
+      "T5"
+    ]
+  }
+]

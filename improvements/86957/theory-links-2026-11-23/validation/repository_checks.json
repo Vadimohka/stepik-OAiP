@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-11-23T12:06:01.073757+00:00",
+  "status": "passed",
+  "scope": "Current repository preparation; no live Stepik operations",
+  "python": "3.12.14",
+  "git_head_before_save": "352c2796717a55f4f0db8395b7d6093d8d67c35e",
+  "remote_main_after_fetch": "352c2796717a55f4f0db8395b7d6093d8d67c35e",
+  "commands": [
+    {
+      "argv": [
+        "python3",
+        "tools/build_theory_upgrade.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"package\": \"theory-2026-11-23\", \"status\": \"checked\", \"steps\": 88, \"lessons\": 23, \"parts\": [\"t1\", \"t3\", \"t6\"], \"written\": 0}\n{\"package\": \"theory-continuation-2026-11-23\", \"status\": \"checked\", \"steps\": 191, \"lessons\": 47, \"parts\": [\"t1\", \"t1b\", \"t2\", \"t4\", \"t5\", \"t5b\", \"t6\"], \"written\": 0}\n{\"package\": \"theory-links-2026-11-23\", \"status\": \"checked\", \"steps\": 50, \"lessons\": 31, \"parts\": [\"algorithms\", \"foundations\", \"ownership\", \"types\"], \"written\": 0}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "tools/render_course_tree.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "tree_regenerated_in_this_session": true,
+  "tree_unchanged_from_baseline": true,
+  "current_runtime_summary": {
+    "successful_compilations": 10,
+    "expected_compile_rejections": 4,
+    "executions": 44,
+    "standards": [
+      "C++17",
+      "C++20"
+    ],
+    "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+    "ubsan": true,
+    "reports": [
+      {
+        "path": "improvements/86957/theory-links-2026-11-23/examples/types/validation.json",
+        "sha256": "4a0c83c6d3b68421ba9df5a2c87f01b6087cffe35fe1a4b6ae73e4d4aee2a971"
+      },
+      {
+        "path": "improvements/86957/theory-links-2026-11-23/validation/ownership.json",
+        "sha256": "5178fa52c992bcd16442afc465f82ca56bad1f2e1fa7f4098d3092eb8a9e4ebd"
+      },
+      {
+        "path": "improvements/86957/theory-links-2026-11-23/validation/algorithms_current.json",
+        "sha256": "0bee68364714b5aa66cc3670f4d80bc9650abac258720d2ab0a3ad4602f216a0"
+      }
+    ]
+  },
+  "integrity_report": {
+    "path": "improvements/86957/theory-links-2026-11-23/validation/integrity.json",
+    "sha256": "301da9998775b7f74ad605488f890bc708bf40067dc8dc92516e940bcd29842d"
+  },
+  "git_scope_note": "Only new LINKS package, active plan documents, and three package/verification tools. Published snapshot and historical packages are unchanged.",
+  "recorded_finished_at": "2026-11-23T12:06:01.677669+00:00"
+}

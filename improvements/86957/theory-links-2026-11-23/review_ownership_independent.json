@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "status": "passed_for_seven_declared_targets",
+  "reviewer": "links_algorithms_independent_of_ownership_author",
+  "reviewed_at": "2026-11-23T12:00:44.805395+00:00",
+  "base_commit": "352c2796717a55f4f0db8395b7d6093d8d67c35e",
+  "scope": "Независимо прочитаны семь ownership diff, относящиеся к ним листинги и точный шаг продолжения правила нуля. Проверены смысл новых утверждений, ссылки, неизменность остальных полей/кода и актуальность входных SHA авторского validation. Новые компиляции здесь не выполнялись.",
+  "reviewed_target_inputs": [
+    {
+      "step_id": 3760029,
+      "source_path": "courses/86957/steps/897987/08_3760029_text.step",
+      "source_file_sha256": "70e667c418684e7c43a2a77e305b8dbfd048ba821ec6ede118e16ce332a1bdb3",
+      "source_text_sha256": "af6d8cbbea66c1d5145e07b26798aff6bab4736136b6415a3c2d1d93dbf527a8",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/897987/08_3760029_text.step",
+      "target_file_sha256": "7ac74567756953026b092f03d9aca2e4627b2701351b52549d2215a4927fd697",
+      "target_text_sha256": "bd7a38e85d7231e4263eef405a3a2144fa29eb32550fe39a6572580cd3f38659",
+      "changed_fields": [
+        "block.text"
+      ],
+      "pre_blocks_unchanged": 2
+    },
+    {
+      "step_id": 3669075,
+      "source_path": "courses/86957/steps/877081/04_3669075_text.step",
+      "source_file_sha256": "cda439390622510c599aa5ddf0ddbc93cd912e4d8bdcd7ee8f908756265e27dc",
+      "source_text_sha256": "bbc60c97de1fad86a8120f23013023581b13c0485a1b4cc47d22b0cbedf0edd8",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/877081/04_3669075_text.step",
+      "target_file_sha256": "462af2d166951f4a26d62df50cfcf38872c0e4820d703df7027c74e504d6c770",
+      "target_text_sha256": "08df11e0a70bfa35ddf7884417ccfe55e8bdca157c113bfb8d3716e9f3af5d43",
+      "changed_fields": [
+        "block.text"
+      ],
+      "pre_blocks_unchanged": 2
+    },
+    {
+      "step_id": 3759914,
+      "source_path": "courses/86957/steps/877084/05_3759914_text.step",
+      "source_file_sha256": "1df82d5d89289108037431f4feab86c7d15a8ff5713b60ec0fac2c21ca125b33",
+      "source_text_sha256": "f44d20f03b8881ae94cb3f1e388cdf3bbf860e579b648e00abb2be15d47662e1",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/877084/05_3759914_text.step",
+      "target_file_sha256": "05cc779762d34d04bc6f868aef4fa4e99ce34ef9527a414ee2ed8e72d2422583",
+      "target_text_sha256": "7a267abdeaa87a4f56d044863e13fcd571d637e56817e8ec12a33d5e8b80285d",
+      "changed_fields": [
+        "block.text"
+      ],
+      "pre_blocks_unchanged": 2
+    },
+    {
+      "step_id": 3569964,
+      "source_path": "courses/86957/steps/853536/02_3569964_text.step",
+      "source_file_sha256": "3fc3b3a5d0483962737a66cf740b22526875280182a6283019ba7e0a807e7324",
+      "source_text_sha256": "cb8e680308ebd0e2972f0b2607b376669fde814d2517488b598b596ffcf50cf8",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/853536/02_3569964_text.step",
+      "target_file_sha256": "6c4b3c10641846477e34cfcaf8814e293baa9014df8598a1ea372ead646c1e18",
+      "target_text_sha256": "22c5d38f1187e312bea2c43a5e8641323b47a4806bfd399185defb34874c1a0b",
+      "changed_fields": [
+        "block.text"
+      ],
+      "pre_blocks_unchanged": 4
+    },
+    {
+      "step_id": 3569963,
+      "source_path": "courses/86957/steps/853536/03_3569963_text.step",
+      "source_file_sha256": "e662c0f692be36119db7ae31d82ad92e799a5f56ca17a014c92aaf43fd79740e",
+      "source_text_sha256": "4fbae2a4de5ce931abad9cc0432169bedab24c77e70fa2712873aa0c8f8c97bb",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/853536/03_3569963_text.step",
+      "target_file_sha256": "13e62d53a3ef3b2b372bb07ecd8bf7223f175e12e2b03d8c3e8bef22cbc5705f",
+      "target_text_sha256": "25a7dda65284ef20d317ded6c8c2abc5217a4d9e7b1540360bbcea9b31cfddc1",
+      "changed_fields": [
+        "block.text"
+      ],
+      "pre_blocks_unchanged": 2
+    },
+    {
+      "step_id": 3569327,
+      "source_path": "courses/86957/steps/853537/01_3569327_text.step",
+      "source_file_sha256": "8db5c1de5d78638a547f88417a3909eb55425e696f719c64ea5fc5540bd3ad16",
+      "source_text_sha256": "d50599072cab9106b893cf7d6bb73c1118755143da141e6806add79d341bf681",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/853537/01_3569327_text.step",
+      "target_file_sha256": "e4d605309c08d5576a4a5691ad387cec6d2b0873bdf7f52ec8556b2345fac1cd",
+      "target_text_sha256": "1c08514e0700c512a8094e7ba611534722a949f82ca53b10f5ca04655fd94551",
+      "changed_fields": [
+        "block.text"
+      ],
+      "pre_blocks_unchanged": 2
+    },
+    {
+      "step_id": 3569325,
+      "source_path": "courses/86957/steps/853536/01_3569325_text.step",
+      "source_file_sha256": "9f5961ce94c01f2a55884cb11f7f941534ead75ac0b553e6c74e17a6fd28286e",
+      "source_text_sha256": "21c470ddd341a4e96011e7afcd48af3da0bb60121d1c31958b06f0ef975eb51c",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/853536/01_3569325_text.step",
+      "target_file_sha256": "3a351e9d6dfc2ddadd651f2a947e06280d2e0dca796c311a92df236784cd4b11",
+      "target_text_sha256": "8ec5f0a9372b209ce2efc4057a044f1c2be0bfe067c91a1ebea034fb37a4159e",
+      "changed_fields": [
+        "block.text"
+      ],
+      "pre_blocks_unchanged": 2
+    }
+  ],
+  "changed_steps_checked": 7,
+  "unchanged_pre_blocks": 16,
+  "change_journal": {
+    "path": "improvements/86957/theory-links-2026-11-23/changes_ownership.json",
+    "sha256": "b3f2e1bca8930ed023b0be8253638c5891fadd1a469b5929476c39188da23fb3"
+  },
+  "checks": [
+    {
+      "step_ids": [
+        3760029
+      ],
+      "conclusion": "Строгий слабый порядок сформулирован через иррефлексивность и транзитивность сравнения и индуцированной эквивалентности. Лексикографический порядок нормализованных целых пар Distance этим свойствам соответствует; совпадение эквивалентности с == ограничено этим типом. У set/map используется Compare, не обязательный вызов ==.",
+      "status": "passed"
+    },
+    {
+      "step_ids": [
+        3669075,
+        4040986,
+        3569964
+      ],
+      "conclusion": "Новая ссылка из деструктора ведёт к фактическому правилу нуля в853535/3. Там есть разбор готовых владеющих полей; переход к RAII853536/2 соответствует модели. Правило нуля названо рекомендацией, не обязательной нормой языка.",
+      "status": "passed"
+    },
+    {
+      "step_ids": [
+        3759914,
+        3569963
+      ],
+      "conclusion": "У Shape действительно есть public virtual destructor. Новая связь ограничена unique_ptr<Shape> со стандартным удалителем и обычным удалением; специальные пользовательские удалители прямо вынесены за пределы модели. Это не обобщено на любой smart pointer.",
+      "status": "passed"
+    },
+    {
+      "step_ids": [
+        3569964,
+        3569963
+      ],
+      "conclusion": "Обещание про следующую программу соответствует её коду: print_score принимает const Record&, а владение переносится между локальными first/second. Observer не становится владельцем и не используется после reset.",
+      "status": "passed"
+    },
+    {
+      "step_ids": [
+        3569327
+      ],
+      "conclusion": "Преобразующая копия shared_ptr<Base> от make_shared<Derived> сохраняет группу и уничтожение полного Derived; отсутствие виртуального деструктора допустимо именно на этом пути. Отдельно разобран исходный Base* со стандартным удалением; это не тот же договор, что создание группы по Derived*.",
+      "status": "passed"
+    },
+    {
+      "step_ids": [
+        3569325
+      ],
+      "conclusion": "Возврат vector<int> по значению даёт владеющий результат; утверждение больше не приписывает владение произвольному возвращённому значению, а копия сырого указателя явно не продлевает жизнь объекта.",
+      "status": "passed"
+    }
+  ],
+  "primary_sources_independently_opened": [
+    "https://timsong-cpp.github.io/cppwp/n4659/alg.sorting",
+    "https://timsong-cpp.github.io/cppwp/n4861/alg.sorting",
+    "https://timsong-cpp.github.io/cppwp/n4659/associative.reqmts",
+    "https://timsong-cpp.github.io/cppwp/n4861/associative.reqmts",
+    "https://timsong-cpp.github.io/cppwp/n4659/unique.ptr.dltr.dflt",
+    "https://timsong-cpp.github.io/cppwp/n4861/unique.ptr.dltr.dflt",
+    "https://timsong-cpp.github.io/cppwp/n4659/expr.delete",
+    "https://timsong-cpp.github.io/cppwp/n4861/expr.delete",
+    "https://timsong-cpp.github.io/cppwp/n4659/util.smartptr.shared.const",
+    "https://timsong-cpp.github.io/cppwp/n4861/util.smartptr.shared.const",
+    "https://timsong-cpp.github.io/cppwp/n4659/util.smartptr.shared.create",
+    "https://timsong-cpp.github.io/cppwp/n4861/util.smartptr.shared.create"
+  ],
+  "version_caveat": "В N4861 есть специальный destroying operator delete; проверенная учебная формулировка говорит об обычном удалении и стандартном удалителе, не пытаясь описать специальные схемы уничтожения. Ограничения C++17/20 не заменены правилами нового рабочего проекта.",
+  "author_validation_inspected": {
+    "path": "improvements/86957/theory-links-2026-11-23/validation/ownership.json",
+    "sha256": "5178fa52c992bcd16442afc465f82ca56bad1f2e1fa7f4098d3092eb8a9e4ebd",
+    "status": "passed",
+    "verified_input_hashes": 78,
+    "compilations_in_that_report": 2,
+    "runtime_cases_in_that_report": 10,
+    "rerun_by_independent_reviewer": false
+  },
+  "findings": [],
+  "unresolved_defects": [],
+  "limitations": [
+    "Это независимая проверка семи объявленных изменений, не повторное чтение всех59 текстов авторского участка.",
+    "Существующие листинги в семи изменённых шагах сохранены; весь исторический набор T5/T5B заново не компилировался.",
+    "Небезопасное удаление Derived через невиртуальный Base* не исполнялось; ограничение проверено по первичным источникам.",
+    "Ни Stepik, ни существующие оценочные задания не затрагивались."
+  ]
+}

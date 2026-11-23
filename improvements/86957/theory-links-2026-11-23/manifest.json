@@ -1,0 +1,1356 @@
+{
+  "schema_version": 1,
+  "course_id": 86957,
+  "date": "2026-11-23",
+  "base_commit": "352c2796717a55f4f0db8395b7d6093d8d67c35e",
+  "status": "prepared",
+  "parts": [
+    "algorithms",
+    "foundations",
+    "ownership",
+    "types"
+  ],
+  "changed_steps": 50,
+  "changed_lessons": 31,
+  "publication": {
+    "status": "not_published",
+    "applied": false,
+    "note": "Только GitHub по прямому указанию владельца от 23 ноября 2026 года; изменения на Stepik в этой сессии не разрешены."
+  },
+  "scope": {
+    "allowed_fields": [
+      "block.text"
+    ],
+    "allowed_step_types": [
+      "text"
+    ],
+    "new_practice": false,
+    "new_video": false,
+    "existing_assessment_changes": false
+  },
+  "steps": [
+    {
+      "step_id": 3215253,
+      "lesson_id": 771154,
+      "position": 2,
+      "source_path": "courses/86957/steps/771154/02_3215253_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/771154/02_3215253_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/771154/02_3215253_text.step",
+      "before_file_sha256": "5d165dd1737ab558bb69ef184b6d301ef00099e131ddff81c5eeed4aba27f180",
+      "after_file_sha256": "d415b0cd8bb077c4635acca47ba898775135212bf9c761142c1429e67603db8c",
+      "before_block_sha256": "a1d99a70ef4633d182e6d15e468baeb037111ee5020815b013f538b15019ecfd",
+      "after_block_sha256": "a09ed38765501e6ee461847807ddbe088f3bd0c42e06fc7aae310ca9ae7f0c6a",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Отсылка к полному многофайловому примеру направлена на сам разбор трёх файлов, а не на вводный шаг проекта.",
+      "sources": [
+        "https://cmake.org/cmake/help/v3.22/manual/cmake.1.html",
+        "https://gcc.gnu.org/onlinedocs/gcc/Overall-Options.html"
+      ],
+      "plan": [
+        "LINKS",
+        "T1"
+      ],
+      "part": "foundations",
+      "step_url": "https://stepik.org/lesson/771154/step/2"
+    },
+    {
+      "step_id": 3201141,
+      "lesson_id": 768140,
+      "position": 2,
+      "source_path": "courses/86957/steps/768140/02_3201141_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/768140/02_3201141_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/768140/02_3201141_text.step",
+      "before_file_sha256": "5da3e47d941992d9b2e54d7ab8ee8ef8a88c693725e2cf74c512aefe63f71119",
+      "after_file_sha256": "58404210c9c5be2158f79f505b2e9bc10899dc11a3bfa8bf2405dab9a9b564b5",
+      "before_block_sha256": "a242bb03f9f9ae45ace66469cccdd5f335a66d08df1d1c13830d225299416331",
+      "after_block_sha256": "7647d57477f0ec47064f89f740266782a737aca8b5551d4f9a76f36e857e40f4",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Указаны точные продолжения команд сборки и согласовано различие выбранного C++20 и проверяемой совместимости C++17/20.",
+      "sources": [
+        "https://cmake.org/cmake/help/v3.22/manual/cmake.1.html",
+        "https://gcc.gnu.org/onlinedocs/gcc/Overall-Options.html"
+      ],
+      "plan": [
+        "LINKS",
+        "T1"
+      ],
+      "part": "foundations",
+      "step_url": "https://stepik.org/lesson/768140/step/2"
+    },
+    {
+      "step_id": 3201168,
+      "lesson_id": 768140,
+      "position": 8,
+      "source_path": "courses/86957/steps/768140/08_3201168_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/768140/08_3201168_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/768140/08_3201168_text.step",
+      "before_file_sha256": "6f6937ef26ed96ce92e4b2c2f4c908c8c54c9e90b11eee404904911e7a551439",
+      "after_file_sha256": "f7711c5ba0bd6672f259222e82ce100b518b97b67044ba70e7c5327cb4ee329c",
+      "before_block_sha256": "ace3ac59a96213ccd63912407b9f061684c52c08da26d8e4d024f2feb77d9296",
+      "after_block_sha256": "5f22b4610795159806c283170214e9a1727604dbe67a01410d85baa15f51adf5",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Исправлен фактический порядок уроков: библиотека и std:: предшествуют первому запуску.",
+      "sources": [
+        "https://cmake.org/cmake/help/v3.22/manual/cmake.1.html",
+        "https://gcc.gnu.org/onlinedocs/gcc/Overall-Options.html"
+      ],
+      "plan": [
+        "LINKS",
+        "T1"
+      ],
+      "part": "foundations",
+      "step_url": "https://stepik.org/lesson/768140/step/8"
+    },
+    {
+      "step_id": 3237989,
+      "lesson_id": 776128,
+      "position": 3,
+      "source_path": "courses/86957/steps/776128/03_3237989_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/776128/03_3237989_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/776128/03_3237989_text.step",
+      "before_file_sha256": "11e616bbfe91de447414cfdc1b4c6b77d65105d1cea2a5dc6a1091a724d0e16a",
+      "after_file_sha256": "752d26e4067138cd7eab264c3b7ff6de7aea968dd598d016c00d65d692b0936f",
+      "before_block_sha256": "7d8188d89af4683aa9f976cf8f9c998e6a32903eb27ea67bcfbadcf5ca287ca4",
+      "after_block_sha256": "c0ccf857f8e45c7119a8ec8c4b78f7192bcbdae2d3dd031fe32441d54825060a",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Разведены инициализация до main и динамическая инициализация локального static; исправлено смешение исходников и готовых объектов CRT.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4659/basic.start.static",
+        "https://timsong-cpp.github.io/cppwp/n4659/stmt.dcl",
+        "https://timsong-cpp.github.io/cppwp/n4861/stmt.dcl",
+        "https://timsong-cpp.github.io/cppwp/n4861/basic.start.dynamic",
+        "https://gcc.gnu.org/onlinedocs/gcc-14.3.0/gccint/Initialization.html"
+      ],
+      "plan": [
+        "LINKS",
+        "T1"
+      ],
+      "part": "foundations",
+      "step_url": "https://stepik.org/lesson/776128/step/3"
+    },
+    {
+      "step_id": 3238004,
+      "lesson_id": 776128,
+      "position": 5,
+      "source_path": "courses/86957/steps/776128/05_3238004_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/776128/05_3238004_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/776128/05_3238004_text.step",
+      "before_file_sha256": "f4aad40524d1e509cafdfeb11ca056b42a2bad3860a01e86e90b7539b12aeb6b",
+      "after_file_sha256": "af3b38adcfbc3084dc53afe23f6d4fcfc314db6a819e48552a5490aa75a80b2b",
+      "before_block_sha256": "d16b101f8ad562bea47634427d07128808c404a2213762b9fb8a13818cc58848",
+      "after_block_sha256": "5ca10b68a186a46da99cad11cd123645ed0ad3f54e5bbdc08dbe439f4900e8e1",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Правило выхода из функции ограничено автоматическими объектами; локальный static связан с отдельным объяснением времени жизни.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4659/basic.start.main",
+        "https://timsong-cpp.github.io/cppwp/n4861/basic.start.main"
+      ],
+      "plan": [
+        "LINKS",
+        "T1"
+      ],
+      "part": "foundations",
+      "step_url": "https://stepik.org/lesson/776128/step/5"
+    },
+    {
+      "step_id": 3231226,
+      "lesson_id": 774618,
+      "position": 5,
+      "source_path": "courses/86957/steps/774618/05_3231226_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/774618/05_3231226_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/774618/05_3231226_text.step",
+      "before_file_sha256": "48bbe8c02f724dbc446a276f4386d87a639dc5ffe04f0241ba743e8245aa7317",
+      "after_file_sha256": "d2b63b2f877452c56db09e7c00026b8df7042b0a7f0554611f3a2d422d55d4ca",
+      "before_block_sha256": "e7841494b5d61608950a3c4afe721053362dbe3f208e78d8ff07cf66f49ec292",
+      "after_block_sha256": "96c73bfa1b00647aba26e7106a53cdcb50215ccc273e9ebda967e8258465208d",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Завершена линия CMake → несколько файлов → библиотека → CTest с точными адресами и устойчивыми ролями инструментов.",
+      "sources": [
+        "https://cmake.org/cmake/help/v3.22/manual/cmake.1.html",
+        "https://gcc.gnu.org/onlinedocs/gcc/Overall-Options.html"
+      ],
+      "plan": [
+        "LINKS",
+        "T1"
+      ],
+      "part": "foundations",
+      "step_url": "https://stepik.org/lesson/774618/step/5"
+    },
+    {
+      "step_id": 3177280,
+      "lesson_id": 763630,
+      "position": 3,
+      "source_path": "courses/86957/steps/763630/03_3177280_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/763630/03_3177280_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/763630/03_3177280_text.step",
+      "before_file_sha256": "e5e6be21a61197d917ced5f9920adc54e168dad97564a66752d4be2239e0b2db",
+      "after_file_sha256": "f351093a8c97bc36f4810b3255ff92a252f95234b108a02d3d9fc8238e4f6050",
+      "before_block_sha256": "88843356dcf823bb0a485603b558ef795df7654d186a4c3fa0355a3f24907add",
+      "after_block_sha256": "a35cd80fdbc049351c64846f76f2d4cac87396145490d270af6f29b4a2252e51",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Значение больше не отождествляется только с содержимым именованного объекта; введение ссылки имеет точный адрес продолжения.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4659/expr",
+        "https://timsong-cpp.github.io/cppwp/n4659/intro.object",
+        "https://timsong-cpp.github.io/cppwp/n4659/dcl.ref"
+      ],
+      "plan": [
+        "LINKS",
+        "T2"
+      ],
+      "part": "types",
+      "step_url": "https://stepik.org/lesson/763630/step/3"
+    },
+    {
+      "step_id": 3177283,
+      "lesson_id": 763630,
+      "position": 7,
+      "source_path": "courses/86957/steps/763630/07_3177283_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/763630/07_3177283_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/763630/07_3177283_text.step",
+      "before_file_sha256": "b882e15d50c4b700721b3cf38e57b73c8609c82e127b20a63064480b5e8920cd",
+      "after_file_sha256": "535764f7fe3fb4f2b18e0c6fd65cb70f1d92d18bfd3b236e779ff036fbe3ed63",
+      "before_block_sha256": "ac04968f51502dc5ca22b73bff2526a5bc821b90120a9e3fb465ae81ea83f72c",
+      "after_block_sha256": "1089e2a784162f6a7632ad09d9ee28a358f69212ad2e038d5171998cdd13c0ad",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Убран буквальный дубль таблицы размеров соседнего шага; оставлена связь значащих битов, представления, sizeof и диапазона.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4659/basic.fundamental",
+        "https://timsong-cpp.github.io/cppwp/n4659/expr.sizeof",
+        "https://timsong-cpp.github.io/cppwp/n4659/numeric.limits"
+      ],
+      "plan": [
+        "LINKS",
+        "T2"
+      ],
+      "part": "types",
+      "step_url": "https://stepik.org/lesson/763630/step/7"
+    },
+    {
+      "step_id": 3177279,
+      "lesson_id": 763630,
+      "position": 8,
+      "source_path": "courses/86957/steps/763630/08_3177279_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/763630/08_3177279_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/763630/08_3177279_text.step",
+      "before_file_sha256": "9b2bf8bf078784038efcca07bd2e5e93f9f1b87350ed05a65d522c1c438a9e75",
+      "after_file_sha256": "85fe7cae15bffab37e9ec95e2752dac27d1b1a766d556f1978836453e1003156",
+      "before_block_sha256": "a3ae145024fff016297dc5ed24847e09da12b27ad5a12f169c23ac58348fa875",
+      "after_block_sha256": "2869f1d68e30e05be4e4d4243bb6161e4572ad08797d51c0272bb3d4361b82e6",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Обещанный разбор auto/const/ссылок направлен к добавленному законченному объяснению, отдельно от разбора позиции строки.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4659/dcl.type.auto.deduct"
+      ],
+      "plan": [
+        "LINKS",
+        "T2"
+      ],
+      "part": "types",
+      "step_url": "https://stepik.org/lesson/763630/step/8"
+    },
+    {
+      "step_id": 3177504,
+      "lesson_id": 763639,
+      "position": 3,
+      "source_path": "courses/86957/steps/763639/03_3177504_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/763639/03_3177504_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/763639/03_3177504_text.step",
+      "before_file_sha256": "af91782891a81e3273f56eb1eee5b9e3b6da8a8a18d70875e48027d04f944380",
+      "after_file_sha256": "af27639e5efd5fb4974b550f11660d9ce82d5a2b2745d81f733167381dfc783a",
+      "before_block_sha256": "c5827fcdbbccdef9d4a7683dd5786118bfdfaf98659a97d2d57beaf592cb0a65",
+      "after_block_sha256": "67340ed6befe739023bba99b665c8c1fdb4119a9d5b6f86630557b1b365f3aea",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Сдвиги связаны с продвижениями и ограничениями диапазона; правила отрицательных значений разделены для C++17 и C++20, фрагменты явно обозначены.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4659/expr.shift",
+        "https://timsong-cpp.github.io/cppwp/n4659/conv.prom",
+        "https://timsong-cpp.github.io/cppwp/n4861/expr.shift"
+      ],
+      "plan": [
+        "LINKS",
+        "T2"
+      ],
+      "part": "types",
+      "step_url": "https://stepik.org/lesson/763639/step/3"
+    },
+    {
+      "step_id": 3177499,
+      "lesson_id": 763639,
+      "position": 4,
+      "source_path": "courses/86957/steps/763639/04_3177499_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/763639/04_3177499_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/763639/04_3177499_text.step",
+      "before_file_sha256": "6b26b65d75ec67f09b180a4407b589c69fbdf9fbde58dace32302202d431c687",
+      "after_file_sha256": "a28d7389a36d4f3a681c9465c2fa38e19aaa73459c092011a5f9006292151118",
+      "before_block_sha256": "07dc324e7e4c3cd8d47a195020e0744c324fa7ae187cfae3806b9e67f1ffe13e",
+      "after_block_sha256": "16bad80a44474a9d70fcd57bde065aee562cf7d047dc289be2bb5aef874c5961",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Справочник приоритетов отделён от обязательных предварительных знаний; отмечены версии и темы вне курса.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4659/expr",
+        "https://timsong-cpp.github.io/cppwp/n4861/expr"
+      ],
+      "plan": [
+        "LINKS",
+        "T2"
+      ],
+      "part": "types",
+      "step_url": "https://stepik.org/lesson/763639/step/4"
+    },
+    {
+      "step_id": 3212935,
+      "lesson_id": 763644,
+      "position": 5,
+      "source_path": "courses/86957/steps/763644/05_3212935_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/763644/05_3212935_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/763644/05_3212935_text.step",
+      "before_file_sha256": "51535943cf1c030b8d12eb499593f500d592b8ce676ee05078972744b3e0aa02",
+      "after_file_sha256": "139b19365352e131039726a679714c6ba47a5b864e3d0ac30803abd676c7185b",
+      "before_block_sha256": "67f84b85a5f2883d658ea5bb2c6685244232731b54ad575bbae6a1a328419aec",
+      "after_block_sha256": "4e8d09f27d6f2ad1273aaafa3cf8a5b6a72c2c8441a5bbd0a834d518c09bb86a",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Обещание объяснить круглые и фигурные скобки имеет конкретные продолжения для vector и string.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4659/dcl.init.list",
+        "https://timsong-cpp.github.io/cppwp/n4659/vector.cons",
+        "https://timsong-cpp.github.io/cppwp/n4659/string.cons"
+      ],
+      "plan": [
+        "LINKS",
+        "T2"
+      ],
+      "part": "types",
+      "step_url": "https://stepik.org/lesson/763644/step/5"
+    },
+    {
+      "step_id": 3212920,
+      "lesson_id": 763644,
+      "position": 6,
+      "source_path": "courses/86957/steps/763644/06_3212920_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/763644/06_3212920_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/763644/06_3212920_text.step",
+      "before_file_sha256": "640294c0f6fb7d104e7ea1ba947d343bfd6c05a627fc34b3a8a87f68efc19fe4",
+      "after_file_sha256": "b8da69f2092fe153fe4d551c9a9a1d7fba03681e8c90da4ecf06c9a812fc5b9c",
+      "before_block_sha256": "7d7d07eca6f08592b8d5f56b22aed7f565ab5a2e0568a7bc7a39dd6c1db80c83",
+      "after_block_sha256": "c8ab81bc5cdb5d32f00fe585f79d3d0c4abe9f6a15ef0fd98da6d0bbc946f33f",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Ошибка индекса теперь сообщает код 1, согласованный с контрактами ввода T2/T3; добавлены точные переходы от at к обработке исключения.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4659/array.overview",
+        "https://timsong-cpp.github.io/cppwp/n4659/support.start.term",
+        "https://timsong-cpp.github.io/cppwp/n4659/except.throw"
+      ],
+      "plan": [
+        "LINKS",
+        "T2"
+      ],
+      "part": "types",
+      "step_url": "https://stepik.org/lesson/763644/step/6"
+    },
+    {
+      "step_id": 3212926,
+      "lesson_id": 763644,
+      "position": 7,
+      "source_path": "courses/86957/steps/763644/07_3212926_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/763644/07_3212926_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/763644/07_3212926_text.step",
+      "before_file_sha256": "9a043d54f624d2f4ebfe6ff44d74ab848f8c339e4929a87f2951f34be23aedae",
+      "after_file_sha256": "ba8abe7a6ffe913034bba013806de8601ad258761cdf84828c252c956448e19d",
+      "before_block_sha256": "b42326ee5ed888ff5c2d59a9f8ad2db6e0e34d4650f006a85c1d5181a365ae37",
+      "after_block_sha256": "c7521e9be72ff6d542eec59856ac9c4f8d16f24b420183073017a7b78b6e2257",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Предварительная ссылка на ссылки ведёт непосредственно к их объяснению при передаче аргументов, а не к общему введению функций.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4659/dcl.ref"
+      ],
+      "plan": [
+        "LINKS",
+        "T2"
+      ],
+      "part": "types",
+      "step_url": "https://stepik.org/lesson/763644/step/7"
+    },
+    {
+      "step_id": 3212939,
+      "lesson_id": 763646,
+      "position": 3,
+      "source_path": "courses/86957/steps/763646/03_3212939_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/763646/03_3212939_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/763646/03_3212939_text.step",
+      "before_file_sha256": "dd9a9875e519ef973893173d9f59e787a0052b7a25259016d554050f1eb784cd",
+      "after_file_sha256": "67517caef22065ad865b26ba19c314515e392ff881c41fc6f77ce5a9ef6b3849",
+      "before_block_sha256": "b28265ae67f27d6c5f48a47fb217f416defea154d5d7eb14b273262635825b27",
+      "after_block_sha256": "3b770a932247ba6ec7182b9620ab605ccbf3549808ea9f86b410d0de6e945b7d",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Предварительная ссылка на ссылки ведёт непосредственно к их объяснению при передаче аргументов, а не к общему введению функций.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4659/dcl.ref"
+      ],
+      "plan": [
+        "LINKS",
+        "T2"
+      ],
+      "part": "types",
+      "step_url": "https://stepik.org/lesson/763646/step/3"
+    },
+    {
+      "step_id": 3212968,
+      "lesson_id": 770585,
+      "position": 2,
+      "source_path": "courses/86957/steps/770585/02_3212968_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/770585/02_3212968_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/770585/02_3212968_text.step",
+      "before_file_sha256": "8b5b95da18958cf1c49965a75000a59c516efef7c02e19d821c1ba8d0116faaa",
+      "after_file_sha256": "f2f90539b4a47f5bbe5e7a666806be5a661b634c2a19b606f5644f1a8c292fb8",
+      "before_block_sha256": "e73149dec80d27f55b55afa52f4a2c8483cd09aed6fe616ddafbabdca7538011",
+      "after_block_sha256": "29e0337b9e7211d39ee69badb2215a01e96548c19d04c8c2ff813fad52b76b5f",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Литерал nullptr, его собственный тип и полученное нулевое значение int* разведены в общей модели литерал/тип/объект.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4659/lex.nullptr",
+        "https://timsong-cpp.github.io/cppwp/n4659/conv.ptr"
+      ],
+      "plan": [
+        "LINKS",
+        "T2"
+      ],
+      "part": "types",
+      "step_url": "https://stepik.org/lesson/770585/step/2"
+    },
+    {
+      "step_id": 3212970,
+      "lesson_id": 770585,
+      "position": 4,
+      "source_path": "courses/86957/steps/770585/04_3212970_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/770585/04_3212970_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/770585/04_3212970_text.step",
+      "before_file_sha256": "5215da48cab1f491e7d189b0ab3c8b079b80d414b9c9e9bc942626029ffc7696",
+      "after_file_sha256": "e78db463559d3c007da3ec39cb0cff169633731a88474619baa144075b07597f",
+      "before_block_sha256": "6dffd1534fea3d4e83ca03d6c8af4c0d60863bc509ec2388473ba1c18d857e6b",
+      "after_block_sha256": "a7402c6c87b69854ba0088e48d40266f439edd43d3141a20c6e4688c5f7302f0",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Предварительная ссылка на ссылки ведёт непосредственно к их объяснению при передаче аргументов, а не к общему введению функций.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4659/dcl.ref"
+      ],
+      "plan": [
+        "LINKS",
+        "T2"
+      ],
+      "part": "types",
+      "step_url": "https://stepik.org/lesson/770585/step/4"
+    },
+    {
+      "step_id": 3438841,
+      "lesson_id": 770586,
+      "position": 6,
+      "source_path": "courses/86957/steps/770586/06_3438841_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/770586/06_3438841_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/770586/06_3438841_text.step",
+      "before_file_sha256": "32dd5add7f4dbfd2d31889b887c672b21c18488d75067c443885c6c9a5b276e4",
+      "after_file_sha256": "170bdcd09d4fc2521171f31b9b5f9250b59374e76ce2c580d16540f490610682",
+      "before_block_sha256": "e7a0b73fb858af1a2183a1fa12d41d57ab99320cfdb3ee396cabb7d6f9726a11",
+      "after_block_sha256": "a9bd794efe635a38de1b7a5cb4acb48ed391066797703fe3ded29b96577bb995",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Переход от времени жизни локального контейнера к RAII и unique_ptr закреплён точными адресами.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4659/basic.life",
+        "https://timsong-cpp.github.io/cppwp/n4659/except.ctor"
+      ],
+      "plan": [
+        "LINKS",
+        "T2"
+      ],
+      "part": "types",
+      "step_url": "https://stepik.org/lesson/770586/step/6"
+    },
+    {
+      "step_id": 3213209,
+      "lesson_id": 770587,
+      "position": 2,
+      "source_path": "courses/86957/steps/770587/02_3213209_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/770587/02_3213209_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/770587/02_3213209_text.step",
+      "before_file_sha256": "445f41c7f1a4aefe9f60a11b0162263c0d49225689987ddcba93fd503e340002",
+      "after_file_sha256": "8b34bc727e369621835b37112edd10ca9896cc7b14f27b0f421fcb39253f768b",
+      "before_block_sha256": "28ce008f1a93bdeee2fb3c546af9926eb646dfe95ec81802b3b7d6735f400bf8",
+      "after_block_sha256": "c5cbceac7b0595bb30f4762d3d52b5435cf2b7d69074b41447e486213fe3c3eb",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Устранено повторное отождествление int** с массивом; чтение связано с инициализацией и обеими границами, различие скобок vector разобрано до конкретных элементов.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4659/conv.array",
+        "https://timsong-cpp.github.io/cppwp/n4659/expr.sub",
+        "https://timsong-cpp.github.io/cppwp/n4659/vector.cons",
+        "https://timsong-cpp.github.io/cppwp/n4659/dcl.init.list"
+      ],
+      "plan": [
+        "LINKS",
+        "T2"
+      ],
+      "part": "types",
+      "step_url": "https://stepik.org/lesson/770587/step/2"
+    },
+    {
+      "step_id": 3213210,
+      "lesson_id": 770587,
+      "position": 5,
+      "source_path": "courses/86957/steps/770587/05_3213210_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/770587/05_3213210_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/770587/05_3213210_text.step",
+      "before_file_sha256": "b18ead9685df4813fefb1276d132a5916cd656cb707971b8956a1f28ed8964a0",
+      "after_file_sha256": "6ebd07119215adef7c687c818bdbe478c7eaff2c483799336f1347a6d5225378",
+      "before_block_sha256": "9bf9a4f4567b371c96fb2fcb8b4a2eea54aeaec1471b4ce6cb0ee2704d4f10fc",
+      "after_block_sha256": "0fa14dcccf428aec8fb6950b512beeb61023adad828195cbf275b45f104d97fb",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Исправлена ошибочная отсылка к разделу функций: объяснение исключений реально находится в модуле 8.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4659/except.throw"
+      ],
+      "plan": [
+        "LINKS",
+        "T2"
+      ],
+      "part": "types",
+      "step_url": "https://stepik.org/lesson/770587/step/5"
+    },
+    {
+      "step_id": 3213206,
+      "lesson_id": 770587,
+      "position": 7,
+      "source_path": "courses/86957/steps/770587/07_3213206_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/770587/07_3213206_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/770587/07_3213206_text.step",
+      "before_file_sha256": "e15394738cb863a5f16d880aea2fa20730c2b8ea3c896cf2dc8cb835c168171c",
+      "after_file_sha256": "8380fa42ac37dad428b7028b5bd4d990c8cc8760218129cf3770c3d9ffbca59b",
+      "before_block_sha256": "c95a43f5b1605f8ea4df139c1f11a681e2fc54c58c2b14b4a2badd8e9eac36ef",
+      "after_block_sha256": "5f8ee63379c7c4dad7d66c49237bd3b33f4973e6dec47a7c74d5a1b202464e41",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Итоговая карта указателей завершена конкретными переходами к инварианту и RAII.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4659/basic.life",
+        "https://timsong-cpp.github.io/cppwp/n4659/except.ctor"
+      ],
+      "plan": [
+        "LINKS",
+        "T2"
+      ],
+      "part": "types",
+      "step_url": "https://stepik.org/lesson/770587/step/7"
+    },
+    {
+      "step_id": 3212949,
+      "lesson_id": 770590,
+      "position": 1,
+      "source_path": "courses/86957/steps/770590/01_3212949_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/770590/01_3212949_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/770590/01_3212949_text.step",
+      "before_file_sha256": "309311a28cd1ca4f45e8058fde65d2699fb97f6937acc225dd53487e71816179",
+      "after_file_sha256": "7b648925b5b91f41e0cc76988ae5e023a45c2562d4d84148718c3b41893f1f43",
+      "before_block_sha256": "f12b628f986ab466233b469b34e440264d81ab9fd5291f415524070fad893522",
+      "after_block_sha256": "1a3c9b8cce5023390427d3fc617ee9f2381f7625d2613277e71a2869f5147650",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Устранён круг в предпосылках: вводный шаг функций больше не требует уже знать ещё не введённые ссылки.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4659/dcl.fct",
+        "https://timsong-cpp.github.io/cppwp/n4659/dcl.ref"
+      ],
+      "plan": [
+        "LINKS",
+        "T3"
+      ],
+      "part": "types",
+      "step_url": "https://stepik.org/lesson/770590/step/1"
+    },
+    {
+      "step_id": 3214910,
+      "lesson_id": 770590,
+      "position": 3,
+      "source_path": "courses/86957/steps/770590/03_3214910_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/770590/03_3214910_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/770590/03_3214910_text.step",
+      "before_file_sha256": "6856105c71b775e5dded0c8ce9fadf71a606ab0b9f9dd17e75a2fb7a8b46869a",
+      "after_file_sha256": "ec0dc14fc8bf746dbcd12b82b2afb0ee214e5fcc9c5ab67b16b9b2918238404c",
+      "before_block_sha256": "ec6c03189b9183e05db37148edb0759416a4e32d00b1121a76935522f7a400b9",
+      "after_block_sha256": "9b93a919613c409e4459bb71bbe0c74467b4b9501e99e5e5ff835097f55177aa",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Неопределённое обещание будущих разделов noexcept заменено конкретным маршрутом к исключениям.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4659/except.spec",
+        "https://timsong-cpp.github.io/cppwp/n4659/except.terminate"
+      ],
+      "plan": [
+        "LINKS",
+        "T3"
+      ],
+      "part": "types",
+      "step_url": "https://stepik.org/lesson/770590/step/3"
+    },
+    {
+      "step_id": 3214911,
+      "lesson_id": 770590,
+      "position": 4,
+      "source_path": "courses/86957/steps/770590/04_3214911_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/770590/04_3214911_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/770590/04_3214911_text.step",
+      "before_file_sha256": "0309a401bb3acde22bf13b8ae6f62e9f7263570fd66afc5853478c1d1016b8e4",
+      "after_file_sha256": "8387349225c5d9c8793a21d36dfa76d6e1e1f03502293fb463bfce825594245d",
+      "before_block_sha256": "14c4462a849dcb5fd8c94250c445ec81f635db1ba3d4eb8c7cc53458be63728d",
+      "after_block_sha256": "9441ae90b8815f444b326febd1e325016bf93364eda7c868c41dae91b35bef67",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Связь возврата значения с созданием результата и перемещением имеет конкретное продолжение без преждевременного углубления.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4659/stmt.return",
+        "https://timsong-cpp.github.io/cppwp/n4659/class.copy.elision"
+      ],
+      "plan": [
+        "LINKS",
+        "T3"
+      ],
+      "part": "types",
+      "step_url": "https://stepik.org/lesson/770590/step/4"
+    },
+    {
+      "step_id": 3214973,
+      "lesson_id": 770591,
+      "position": 2,
+      "source_path": "courses/86957/steps/770591/02_3214973_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/770591/02_3214973_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/770591/02_3214973_text.step",
+      "before_file_sha256": "9587f11c29ddde93656e3483d1e04255a1333501d402cc04f63cc3688f428e45",
+      "after_file_sha256": "64927fa835cb7f39526cd831bb9903fdc9c236a311465b8e3b36577f2afa1f7e",
+      "before_block_sha256": "1b408024a8f952679238655af6bb7e346397f0f111aa43114c40a70afec54eef",
+      "after_block_sha256": "44bd77255b648d9c8af6265c08c708e4aa7bd8496c14550b6f099fb98962bc07",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Область видимости связана с точными разборами многофайлового устройства и связывания.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4659/basic.scope",
+        "https://timsong-cpp.github.io/cppwp/n4659/basic.link"
+      ],
+      "plan": [
+        "LINKS",
+        "T3"
+      ],
+      "part": "types",
+      "step_url": "https://stepik.org/lesson/770591/step/2"
+    },
+    {
+      "step_id": 3214971,
+      "lesson_id": 770591,
+      "position": 4,
+      "source_path": "courses/86957/steps/770591/04_3214971_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/770591/04_3214971_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/770591/04_3214971_text.step",
+      "before_file_sha256": "130f77913c4f08f7064af63373ddcb815751214f173f779db44155de97d8c0db",
+      "after_file_sha256": "a6813aeb8bd034ab4310d3d54beb6edb0507042f63028b8c47d4bc9b0d1fc836",
+      "before_block_sha256": "d31b57b6ee509f1921e435eec05cdb8e0270f370e7021f1b27279d081d868d07",
+      "after_block_sha256": "3d4df7d549e9cdc12f331d2b0cca5913e0defd91bb21f472b1464306d5c7144f",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Передача указателя по значению связана с конкретным разбором невладеющего диапазона.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4659/dcl.fct",
+        "https://timsong-cpp.github.io/cppwp/n4659/conv.array"
+      ],
+      "plan": [
+        "LINKS",
+        "T3"
+      ],
+      "part": "types",
+      "step_url": "https://stepik.org/lesson/770591/step/4"
+    },
+    {
+      "step_id": 3214974,
+      "lesson_id": 770591,
+      "position": 5,
+      "source_path": "courses/86957/steps/770591/05_3214974_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/770591/05_3214974_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/770591/05_3214974_text.step",
+      "before_file_sha256": "ddcd773a9c2295cd2c6f2c3466317eee55fa461c843773a643b0210ea62babd2",
+      "after_file_sha256": "14735511583b92b8743378dea8a94a9e422ddb08aa7a12eb53dacb98f80486d4",
+      "before_block_sha256": "7f1e304b7d2c5e688a3349384b2333e7f54d8450b3382e8ac7f402fa2996f1e7",
+      "after_block_sha256": "2851042cd872de51ba3b6bb8fd7fa76fb3ba7b106e79d24ac7d3a2c096c76611",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Закрыт обещанный в T2 переход auto → копия/ссылка/const; добавлен законченный разбор без требования знаний шаблонов.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4659/dcl.type.auto.deduct",
+        "https://timsong-cpp.github.io/cppwp/n4659/dcl.ref",
+        "https://timsong-cpp.github.io/cppwp/n4861/dcl.type.auto.deduct"
+      ],
+      "plan": [
+        "LINKS",
+        "T3"
+      ],
+      "part": "types",
+      "step_url": "https://stepik.org/lesson/770591/step/5"
+    },
+    {
+      "step_id": 3214991,
+      "lesson_id": 770592,
+      "position": 3,
+      "source_path": "courses/86957/steps/770592/03_3214991_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/770592/03_3214991_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/770592/03_3214991_text.step",
+      "before_file_sha256": "19eb3266835f2ad77d15388648ed0181e8e78fd80be04c5bc7a536f4a7af224f",
+      "after_file_sha256": "9d073900263b2ebc4f86fde9f85f3283e40e185579733ac797a0bbef73e52a6b",
+      "before_block_sha256": "44b6eb2b43519e03af048da1d54f4ec1107570e92aced0f9f28cfa09fb9209a6",
+      "after_block_sha256": "f82d1d7eb88611796453691069c945ba0626d9869b310c49b1be04d471ce8c71",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Общее состояние связано с конкретными объяснениями инварианта и владения ресурсом.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4659/basic.link",
+        "https://timsong-cpp.github.io/cppwp/n4659/basic.life",
+        "https://timsong-cpp.github.io/cppwp/n4659/except.ctor"
+      ],
+      "plan": [
+        "LINKS",
+        "T3"
+      ],
+      "part": "types",
+      "step_url": "https://stepik.org/lesson/770592/step/3"
+    },
+    {
+      "step_id": 3215045,
+      "lesson_id": 770593,
+      "position": 4,
+      "source_path": "courses/86957/steps/770593/04_3215045_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/770593/04_3215045_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/770593/04_3215045_text.step",
+      "before_file_sha256": "833ab9b696a314a19e37954ce217a8195460854967b8fa277e8edbd1c97d36f3",
+      "after_file_sha256": "81e4ff413bf5cbf08e651e9495352cc927c81e52a1fa23df7f421f234dc09a2e",
+      "before_block_sha256": "b410a4834ada334e31877a2e4ccccdda4915132510e6a87ea6e94446c346b5d1",
+      "after_block_sha256": "67591abc9dc9851a021b66874aa6d8a752a46e55e22c4def050c80c61ce75204",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Время жизни загруженной реализации связано с конкретным объяснением RAII, без приписывания платформенного загрузчика стандарту языка.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4659/basic.life",
+        "https://timsong-cpp.github.io/cppwp/n4659/except.ctor"
+      ],
+      "plan": [
+        "LINKS",
+        "T3"
+      ],
+      "part": "types",
+      "step_url": "https://stepik.org/lesson/770593/step/4"
+    },
+    {
+      "step_id": 3252939,
+      "lesson_id": 778425,
+      "position": 2,
+      "source_path": "courses/86957/steps/778425/02_3252939_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/778425/02_3252939_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/778425/02_3252939_text.step",
+      "before_file_sha256": "1ad6d9fd2113e865cdb82029a5d8e2c0fc448d1912739c05111e3c8a80b879b2",
+      "after_file_sha256": "ff05f508224353ff78be83b504174c3bc3fd29350f78c5b2f98510556c0fe750",
+      "before_block_sha256": "aeace4b7b9e13613fe537e5c34da26d1f650b014260bef876a640083aa1a3f70",
+      "after_block_sha256": "cbd244e41c606127c270d108be53e5879aefb8a0a6c4c9949b4e5e82a28fc747",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Классификация проверок ведёт к точному общему исходнику приложения и проверяющей программы.",
+      "sources": [
+        "https://cmake.org/cmake/help/latest/command/add_test.html"
+      ],
+      "plan": [
+        "LINKS",
+        "T3"
+      ],
+      "part": "types",
+      "step_url": "https://stepik.org/lesson/778425/step/2"
+    },
+    {
+      "step_id": 3253129,
+      "lesson_id": 778426,
+      "position": 2,
+      "source_path": "courses/86957/steps/778426/02_3253129_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/778426/02_3253129_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/778426/02_3253129_text.step",
+      "before_file_sha256": "663cc6d38e9ba9855f52dacee84e689e57781ffa1c460e8cae79f44bf91efe70",
+      "after_file_sha256": "65e0159a56eb02f89177e160e2efdb4874733612b6705396c412025fa59a859c",
+      "before_block_sha256": "92ec774dbb218090c9b21c0568cd5d4ddf38694f2a376c2dbc1314dbb50898d0",
+      "after_block_sha256": "17c6958476b3517fa3c04d960ea99f83e0d962db04ee8bdaee7177af299e5b1d",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Преждевременное обозначение O(n log n) снабжено объяснением двух множителей и адресом определения сложности.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4659/structure.specifications"
+      ],
+      "plan": [
+        "LINKS",
+        "T3"
+      ],
+      "part": "types",
+      "step_url": "https://stepik.org/lesson/778426/step/2"
+    },
+    {
+      "step_id": 3253553,
+      "lesson_id": 778426,
+      "position": 7,
+      "source_path": "courses/86957/steps/778426/07_3253553_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/778426/07_3253553_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/778426/07_3253553_text.step",
+      "before_file_sha256": "ac14f5a297cd3f875384671e8e8a135284c2b61107c9ae41319de514c10e86de",
+      "after_file_sha256": "2abe1c1ee3afcb6412cfa9f3dec7fe29cc6894994f5eee71983c1489b5546a79",
+      "before_block_sha256": "3193c1698b5497bb6f4dc793228f8e5c26696dd5d3d5628418a225344a06dd6a",
+      "after_block_sha256": "c5d8070ee8ba9b7ec7932fd6d870652e6257456088798a91e82b1992bcc08388",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "GoogleTest-пример получил минимально необходимые предпосылки std::string до модуля 9 и связь с уже введённой C-строкой.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4659/string.require",
+        "https://google.github.io/googletest/reference/assertions.html"
+      ],
+      "plan": [
+        "LINKS",
+        "T3"
+      ],
+      "part": "types",
+      "step_url": "https://stepik.org/lesson/778426/step/7"
+    },
+    {
+      "step_id": 3214873,
+      "lesson_id": 770588,
+      "position": 3,
+      "source_path": "courses/86957/steps/770588/03_3214873_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/770588/03_3214873_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/770588/03_3214873_text.step",
+      "before_file_sha256": "d0dd27dd51c397ef07829c5b34ef8befb5860856e80cf72d773744b18f7e81a7",
+      "after_file_sha256": "cf934cdbe5a2305bfcbef726d379693af6d8925829cbaaa5b533949769ea6d30",
+      "before_block_sha256": "0b483e67475717134b521bf8612f8cde938a4a842ff135d8103acefd2ba205c2",
+      "after_block_sha256": "78701a31e9c80ab180e749eebc96592722da5c2eab4514380cf36b4c331451a8",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Независимые фрагменты и ожидаемая ошибка компиляции обозначены явно; переход к владеющей строке имеет точный адрес.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4659/lex.string",
+        "https://timsong-cpp.github.io/cppwp/n4659/conv.array",
+        "https://timsong-cpp.github.io/cppwp/n4659/dcl.array"
+      ],
+      "plan": [
+        "LINKS",
+        "T2"
+      ],
+      "part": "types",
+      "step_url": "https://stepik.org/lesson/770588/step/3"
+    },
+    {
+      "step_id": 3214903,
+      "lesson_id": 770589,
+      "position": 3,
+      "source_path": "courses/86957/steps/770589/03_3214903_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/770589/03_3214903_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/770589/03_3214903_text.step",
+      "before_file_sha256": "5f64014e2ada44cd09fd9904aad1077ff4272cb43107be3d59b7a9adbc0944eb",
+      "after_file_sha256": "d8b4f6df076d3206dca87ff59661cc87b76b84bc6afa169db38b49b0f3023d7a",
+      "before_block_sha256": "7110c20bad0b26c391f4a75cfb63eaaa14adee700128d5ba236378d2eaaaf341",
+      "after_block_sha256": "5a419fdfa27ef1a21917e30c058a505a12e53cd8e8af4e1c537dab64e316c9db",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Введение конструкторов string не предполагает ещё не изученного устройства классов; назначение операции объяснено на месте.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4659/string.cons",
+        "https://timsong-cpp.github.io/cppwp/n4659/class.ctor"
+      ],
+      "plan": [
+        "LINKS",
+        "T2"
+      ],
+      "part": "types",
+      "step_url": "https://stepik.org/lesson/770589/step/3"
+    },
+    {
+      "step_id": 3213242,
+      "lesson_id": 770594,
+      "position": 5,
+      "source_path": "courses/86957/steps/770594/05_3213242_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/770594/05_3213242_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/770594/05_3213242_text.step",
+      "before_file_sha256": "06455ceaaeacdc7cd444b1c9fce32beaa513223992c24845b5efed18ce3b2e06",
+      "after_file_sha256": "3eee1eae1afb594a52d555ee7f12347d163cefc58b461dd3f850e92d611d34ea",
+      "before_block_sha256": "78cc7625850833332a0a043fe7770bc23ef54d2e89bcecac4d91a8067f75effd",
+      "after_block_sha256": "1d8095fc9f36597abcb60e5fcb909d10be3488224c1ad7d1ffb41bce900b98be",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Неопределённое обещание будущего контейнера заменено возвратом к уже введённому vector; размер хранения отделён от числа посещений.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4659/dcl.array",
+        "https://timsong-cpp.github.io/cppwp/n4659/vector.overview"
+      ],
+      "plan": [
+        "LINKS",
+        "T4"
+      ],
+      "part": "algorithms",
+      "step_url": "https://stepik.org/lesson/770594/step/5"
+    },
+    {
+      "step_id": 3215109,
+      "lesson_id": 771129,
+      "position": 1,
+      "source_path": "courses/86957/steps/771129/01_3215109_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/771129/01_3215109_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/771129/01_3215109_text.step",
+      "before_file_sha256": "e60f54ef1c61c247f9d743261fa7bbdb4346f0073f8717062f036f91c7729aa4",
+      "after_file_sha256": "a202f2322fab10ffa8e22e336fe786f6094c756a09ef49db2a552625df7ba778",
+      "before_block_sha256": "df5b3dd66c1cbe00b5a47ce701efbe24b7e7766d64734cbedb4c51d7cb08f9f2",
+      "after_block_sha256": "1c11e360aa93c8fe8626bd16f90dd550e52e122fdbfcfc022da51c3bc7019978",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Согласованы индекс, итератор и разыменование; собственная lower_bound_index отделена от стандартной lower_bound.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4659/alg.binary.search",
+        "https://timsong-cpp.github.io/cppwp/n4861/expr.sub"
+      ],
+      "plan": [
+        "LINKS",
+        "T4"
+      ],
+      "part": "algorithms",
+      "step_url": "https://stepik.org/lesson/771129/step/1"
+    },
+    {
+      "step_id": 3215113,
+      "lesson_id": 771131,
+      "position": 1,
+      "source_path": "courses/86957/steps/771131/01_3215113_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/771131/01_3215113_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/771131/01_3215113_text.step",
+      "before_file_sha256": "84da624b21c910db7ecc92ed81daefb6d27680198f3d5613485422932977c037",
+      "after_file_sha256": "d20a78e26c6f3799883565accf379d61061904a12ab1c06bb3721755612b5b43",
+      "before_block_sha256": "45e7cd8cc3a131eb5b05e37a52fc529a94b24c815b5fc6bb96d16287db4c41f0",
+      "after_block_sha256": "f79aee72147604764be13868870f3fda257e593c3e2f86357f651ed1ffeed73f",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Мост от файлового потока к RAII получил точное продолжение; гарантия уничтожения при исключении ограничена раскруткой до обработчика.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4659/filebuf.cons",
+        "https://timsong-cpp.github.io/cppwp/n4861/filebuf.cons",
+        "https://timsong-cpp.github.io/cppwp/n4861/except.terminate"
+      ],
+      "plan": [
+        "LINKS",
+        "T4"
+      ],
+      "part": "algorithms",
+      "step_url": "https://stepik.org/lesson/771131/step/1"
+    },
+    {
+      "step_id": 3580923,
+      "lesson_id": 771131,
+      "position": 4,
+      "source_path": "courses/86957/steps/771131/04_3580923_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/771131/04_3580923_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/771131/04_3580923_text.step",
+      "before_file_sha256": "1855a608f7db45b06b029a435c234672b5c618c51d83319131576f1103336614",
+      "after_file_sha256": "844732654f70ebfd7acd27c0397029fadf0985a179cb60c2a498c9ef78234c82",
+      "before_block_sha256": "04c4f8f18260d53377eaa27de4182ccb30ea7fab1b6ec399db65a608cd7aa9fa",
+      "after_block_sha256": "1c947eb26b209ca08e88defd038e434efb99c9051e15d85bb0811fe55af2750a",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Вместо ссылки на неназванные правила объяснены общая файловая позиция, смена направлений fstream и состояние после EOF.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4659/filebuf",
+        "https://timsong-cpp.github.io/cppwp/n4861/filebuf",
+        "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf",
+        "https://timsong-cpp.github.io/cppwp/n4861/istream.unformatted",
+        "https://timsong-cpp.github.io/cppwp/n4659/iostate.flags",
+        "https://timsong-cpp.github.io/cppwp/n4861/iostate.flags"
+      ],
+      "plan": [
+        "LINKS",
+        "T4"
+      ],
+      "part": "algorithms",
+      "step_url": "https://stepik.org/lesson/771131/step/4"
+    },
+    {
+      "step_id": 3669075,
+      "lesson_id": 877081,
+      "position": 4,
+      "source_path": "courses/86957/steps/877081/04_3669075_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/877081/04_3669075_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/877081/04_3669075_text.step",
+      "before_file_sha256": "cda439390622510c599aa5ddf0ddbc93cd912e4d8bdcd7ee8f908756265e27dc",
+      "after_file_sha256": "462af2d166951f4a26d62df50cfcf38872c0e4820d703df7027c74e504d6c770",
+      "before_block_sha256": "db373fa1bdf71c39f64ab13e4522e323b635c0638f147cb83f54f202dd48d7ea",
+      "after_block_sha256": "e6990c40f39a5210e32a87c4a378d347fcbc4679caaf1b154d3b8879f3993bbb",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Переход от деструктора и правила нуля направлен на фактический разбор правила нуля и затем на RAII вместо страницы о продолжительности хранения.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4659/class.dtor",
+        "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rc-zero"
+      ],
+      "plan": [
+        "LINKS",
+        "T5"
+      ],
+      "part": "ownership",
+      "step_url": "https://stepik.org/lesson/877081/step/4"
+    },
+    {
+      "step_id": 3760029,
+      "lesson_id": 897987,
+      "position": 8,
+      "source_path": "courses/86957/steps/897987/08_3760029_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/897987/08_3760029_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/897987/08_3760029_text.step",
+      "before_file_sha256": "70e667c418684e7c43a2a77e305b8dbfd048ba821ec6ede118e16ce332a1bdb3",
+      "after_file_sha256": "7ac74567756953026b092f03d9aca2e4627b2701351b52549d2215a4927fd697",
+      "before_block_sha256": "a457536a430e8a16b6c5377ca2e0299fdb1f48d9ced778cead2b052c0be5adba",
+      "after_block_sha256": "8d1cf870f8435e6858cdcef9e85a46bec0fe39317c17b1bd524dfdceb1b76089",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Сравнение Distance связано с точным требованием строгого слабого порядка и эквивалентностью ключей set/map; код и результат сохранены.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4659/associative.reqmts",
+        "https://timsong-cpp.github.io/cppwp/n4861/associative.reqmts",
+        "https://timsong-cpp.github.io/cppwp/n4659/alg.sorting",
+        "https://timsong-cpp.github.io/cppwp/n4861/alg.sorting"
+      ],
+      "plan": [
+        "LINKS",
+        "T5"
+      ],
+      "part": "ownership",
+      "step_url": "https://stepik.org/lesson/897987/step/8"
+    },
+    {
+      "step_id": 3759914,
+      "lesson_id": 877084,
+      "position": 5,
+      "source_path": "courses/86957/steps/877084/05_3759914_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/877084/05_3759914_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/877084/05_3759914_text.step",
+      "before_file_sha256": "1df82d5d89289108037431f4feab86c7d15a8ff5713b60ec0fac2c21ca125b33",
+      "after_file_sha256": "05cc779762d34d04bc6f868aef4fa4e99ce34ef9527a414ee2ed8e72d2422583",
+      "before_block_sha256": "9c5e3899211939d7fd5c05cae1169f334a5b07de8d72340816fde50608738504",
+      "after_block_sha256": "b91ce0b4b4dc9101a7c064dcb332839ac576651681d886f5ad5ced2d02649feb",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Переход от виртуального деструктора уточнён для unique_ptr со стандартным удалителем и направлен на конкретный шаг, без обобщения на любой умный указатель.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4659/expr.delete",
+        "https://timsong-cpp.github.io/cppwp/n4861/expr.delete",
+        "https://timsong-cpp.github.io/cppwp/n4659/unique.ptr.dltr.dflt",
+        "https://timsong-cpp.github.io/cppwp/n4861/unique.ptr.dltr.dflt"
+      ],
+      "plan": [
+        "LINKS",
+        "T5"
+      ],
+      "part": "ownership",
+      "step_url": "https://stepik.org/lesson/877084/step/5"
+    },
+    {
+      "step_id": 3569325,
+      "lesson_id": 853536,
+      "position": 1,
+      "source_path": "courses/86957/steps/853536/01_3569325_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/853536/01_3569325_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/853536/01_3569325_text.step",
+      "before_file_sha256": "9f5961ce94c01f2a55884cb11f7f941534ead75ac0b553e6c74e17a6fd28286e",
+      "after_file_sha256": "3a351e9d6dfc2ddadd651f2a947e06280d2e0dca796c311a92df236784cd4b11",
+      "before_block_sha256": "d05a32a2a6b8cfc40789ead9f250c593363fa695746e28bc2a79f269fd8d528d",
+      "after_block_sha256": "0fcb58cf4e6f1a32e6f28ae84b903e314df1cfbede5e0015444cb5818a04ed72",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Гарантия сохранения элементов после возврата ограничена показанным владеющим vector; произвольный возврат по значению не объявляется передачей владения. Код сохранён.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4659/stmt.return",
+        "https://timsong-cpp.github.io/cppwp/n4861/stmt.return",
+        "https://timsong-cpp.github.io/cppwp/n4659/vector",
+        "https://timsong-cpp.github.io/cppwp/n4861/vector"
+      ],
+      "plan": [
+        "LINKS",
+        "T5"
+      ],
+      "part": "ownership",
+      "step_url": "https://stepik.org/lesson/853536/step/1"
+    },
+    {
+      "step_id": 3569964,
+      "lesson_id": 853536,
+      "position": 2,
+      "source_path": "courses/86957/steps/853536/02_3569964_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/853536/02_3569964_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/853536/02_3569964_text.step",
+      "before_file_sha256": "3fc3b3a5d0483962737a66cf740b22526875280182a6283019ba7e0a807e7324",
+      "after_file_sha256": "6c4b3c10641846477e34cfcaf8814e293baa9014df8598a1ea372ead646c1e18",
+      "before_block_sha256": "1feae3c9df7244c1db8f02f6b40956a282f8b30ee336fa66cad8b34817001783",
+      "after_block_sha256": "cb2efa3890b2dac8ea8096b81fd19bb0690ce56fc3f75b56c957a590f4128d0d",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Обещание перехода RAII → unique_ptr согласовано с фактическим кодом: функция получает ссылку, а владение передаётся между локальными владельцами.",
+      "sources": [
+        "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rr-smartptrparam",
+        "https://timsong-cpp.github.io/cppwp/n4659/unique.ptr"
+      ],
+      "plan": [
+        "LINKS",
+        "T5"
+      ],
+      "part": "ownership",
+      "step_url": "https://stepik.org/lesson/853536/step/2"
+    },
+    {
+      "step_id": 3569963,
+      "lesson_id": 853536,
+      "position": 3,
+      "source_path": "courses/86957/steps/853536/03_3569963_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/853536/03_3569963_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/853536/03_3569963_text.step",
+      "before_file_sha256": "e662c0f692be36119db7ae31d82ad92e799a5f56ca17a014c92aaf43fd79740e",
+      "after_file_sha256": "13e62d53a3ef3b2b372bb07ecd8bf7223f175e12e2b03d8c3e8bef22cbc5705f",
+      "before_block_sha256": "92490feecfb75c1e587a3aa075ecda2411a4800ad5d34798892f32ae1d1de575",
+      "after_block_sha256": "5980230b2f750bfedd477d0e945c04fedd813150348f48bffcc0e08a6ccc97a6",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Исключительное владение связано с ранее введённым Shape: автоматическое удаление через базовый тип сохраняет требование к виртуальному деструктору.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4659/unique.ptr.dltr.dflt",
+        "https://timsong-cpp.github.io/cppwp/n4861/unique.ptr.dltr.dflt",
+        "https://timsong-cpp.github.io/cppwp/n4659/expr.delete",
+        "https://timsong-cpp.github.io/cppwp/n4861/expr.delete"
+      ],
+      "plan": [
+        "LINKS",
+        "T5"
+      ],
+      "part": "ownership",
+      "step_url": "https://stepik.org/lesson/853536/step/3"
+    },
+    {
+      "step_id": 3569327,
+      "lesson_id": 853537,
+      "position": 1,
+      "source_path": "courses/86957/steps/853537/01_3569327_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/853537/01_3569327_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/853537/01_3569327_text.step",
+      "before_file_sha256": "8db5c1de5d78638a547f88417a3909eb55425e696f719c64ea5fc5540bd3ad16",
+      "after_file_sha256": "e4d605309c08d5576a4a5691ad387cec6d2b0873bdf7f52ec8556b2345fac1cd",
+      "before_block_sha256": "89356fe7d94804cbd5d6d5a8d3c937910c961ae40ab79c932ad67b320c66b13f",
+      "after_block_sha256": "8a688e31da3360552e8ae511417e10c9a61f55529312c7fc29a678e775176ece",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Совместное владение связано с наследованием: сохранённое уничтожение Derived при преобразовании владельца отделено от создания новой группы из Base*.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4659/util.smartptr.shared.const",
+        "https://timsong-cpp.github.io/cppwp/n4861/util.smartptr.shared.const",
+        "https://timsong-cpp.github.io/cppwp/n4659/expr.delete",
+        "https://timsong-cpp.github.io/cppwp/n4861/expr.delete",
+        "https://timsong-cpp.github.io/cppwp/n4659/util.smartptr.shared.create",
+        "https://timsong-cpp.github.io/cppwp/n4861/util.smartptr.shared.create"
+      ],
+      "plan": [
+        "LINKS",
+        "T5"
+      ],
+      "part": "ownership",
+      "step_url": "https://stepik.org/lesson/853537/step/1"
+    },
+    {
+      "step_id": 4035517,
+      "lesson_id": 973837,
+      "position": 2,
+      "source_path": "courses/86957/steps/973837/02_4035517_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/973837/02_4035517_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/973837/02_4035517_text.step",
+      "before_file_sha256": "3915f2c0668fca9a8f8fe59aba521e26918db7206ac928c8ad7bedb42e69bfc8",
+      "after_file_sha256": "296bcb84d4821e7fb886735cf3dbcbaff929d30382159cd076437fcfae35a202",
+      "before_block_sha256": "7848ac30ab19129b2a2d6f6f5421d83d421bae39fddd75873b89a7128d7eeda4",
+      "after_block_sha256": "2fffe221aa1e5004377f192937b1fa435eeb132780c4c3a0c40a8eda6eea4a87",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Сводная таблица больше не приписывает логарифмическую высоту произвольному дереву поиска; согласована с разбором вырождения.",
+      "sources": [
+        "https://sedgewick.io/wp-content/themes/sedgewick/papers/2008LLRB.pdf"
+      ],
+      "plan": [
+        "LINKS",
+        "T6"
+      ],
+      "part": "algorithms",
+      "step_url": "https://stepik.org/lesson/973837/step/2"
+    },
+    {
+      "step_id": 3570230,
+      "lesson_id": 853539,
+      "position": 2,
+      "source_path": "courses/86957/steps/853539/02_3570230_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/853539/02_3570230_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/853539/02_3570230_text.step",
+      "before_file_sha256": "5800f9c936e6bda5ddd8e448de3bfc772884001e5b78e5dc873ff80093346098",
+      "after_file_sha256": "dbec07a03f0f6cc55cb15cb55f33b485cb47cd91371f29d12923c447dd316ba9",
+      "before_block_sha256": "6fdc7840a55bc5aee067083ea0d0bde1c9cd4807735c347756a3a5bd97044a01",
+      "after_block_sha256": "51770234e1b01901e46da07798b4662562e6aeb9216ad6c5aa27a4830818c277",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Исправлено ложное обещание одинакового результата false у BST/AVL/RB: RBT::add возвращает void, хотя все три сохраняют значение дубликата.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4659/dcl.fct",
+        "https://github.com/Vadimohka/stepik-OAiP/blob/352c2796717a55f4f0db8395b7d6093d8d67c35e/courses/86957/steps/853541/02_3570303_text.step"
+      ],
+      "plan": [
+        "LINKS",
+        "T6"
+      ],
+      "part": "algorithms",
+      "step_url": "https://stepik.org/lesson/853539/step/2"
+    },
+    {
+      "step_id": 3569332,
+      "lesson_id": 853541,
+      "position": 1,
+      "source_path": "courses/86957/steps/853541/01_3569332_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/853541/01_3569332_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/853541/01_3569332_text.step",
+      "before_file_sha256": "01b0ac148651b6f01422c668166342c0e4063ff65146e9f3de5e77d760485a12",
+      "after_file_sha256": "b48beb3e4d998abf79a0bcf2b4ddb1bd79ef8cecfbd6ce8ed594426180facc61",
+      "before_block_sha256": "f1fa19dafca8de5d3fe0075fd62515d18faee91dd63a493b7188e0245c534856",
+      "after_block_sha256": "fc1f24cd99a45dbac6e51bab408cf202d9ce51e7ce1cf48fd0bd1ad94b0d0c5d",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Убрано смешение общего красно-чёрного дерева с 2–3-деревом; переход к 2–3–4 и конкретному следующему шагу сохранён.",
+      "sources": [
+        "https://sedgewick.io/wp-content/themes/sedgewick/papers/2008LLRB.pdf"
+      ],
+      "plan": [
+        "LINKS",
+        "T6"
+      ],
+      "part": "algorithms",
+      "step_url": "https://stepik.org/lesson/853541/step/1"
+    },
+    {
+      "step_id": 3570333,
+      "lesson_id": 853541,
+      "position": 4,
+      "source_path": "courses/86957/steps/853541/04_3570333_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/853541/04_3570333_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/853541/04_3570333_text.step",
+      "before_file_sha256": "50690b905505b9410e4c955f7c1448de3b673acb03cb9e0177087d07df08db47",
+      "after_file_sha256": "2d03dadf0feba385b34de2d8603e210fb766b2e605ac6ec33b31cb03acd46daf",
+      "before_block_sha256": "90259f5bf86eac0b014c3ad159105f56360857b558e5bb346777b8a27ab08157",
+      "after_block_sha256": "da6a43f73ac5e5e5181e288498274c7827d180ace731776e731a8c92627c820d",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Вместо предложения пропустить объяснение дан маршрут чтения удаления RB и явное различие NIL-листа и настоящего узла без детей.",
+      "sources": [
+        "https://sedgewick.io/wp-content/themes/sedgewick/papers/2008LLRB.pdf",
+        "https://github.com/Vadimohka/stepik-OAiP/blob/352c2796717a55f4f0db8395b7d6093d8d67c35e/courses/86957/steps/853541/04_3570333_text.step"
+      ],
+      "plan": [
+        "LINKS",
+        "T6"
+      ],
+      "part": "algorithms",
+      "step_url": "https://stepik.org/lesson/853541/step/4"
+    },
+    {
+      "step_id": 4035481,
+      "lesson_id": 973831,
+      "position": 2,
+      "source_path": "courses/86957/steps/973831/02_4035481_text.step",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/973831/02_4035481_text.step",
+      "baseline_path": "improvements/86957/theory-links-2026-11-23/baseline/steps/973831/02_4035481_text.step",
+      "before_file_sha256": "8e84a1e8ff47ba0788a61fa7986a0a35563f3e7b6c02991ffcbef0a25d1ec697",
+      "after_file_sha256": "5d152e77161947c74113870beaa8484e90e02360d76004b48d476c82d851f927",
+      "before_block_sha256": "f3f4196c2cf6f3137e262991c7584aef2ec953bf75ef68e18685ed7116501fae",
+      "after_block_sha256": "002f0323d72d41614c409da7b3b6d85c6f66068c957f314d702305ac4feabd36",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Успешный ItemTable::find больше не выглядит константным по длине значения: сравнения ID отделены от копии строки и связаны с контрактом результата map::find.",
+      "sources": [
+        "https://timsong-cpp.github.io/cppwp/n4659/container.requirements.general",
+        "https://timsong-cpp.github.io/cppwp/n4861/container.requirements.general",
+        "https://timsong-cpp.github.io/cppwp/n4861/string.cons",
+        "https://timsong-cpp.github.io/cppwp/n4861/associative.reqmts"
+      ],
+      "plan": [
+        "LINKS",
+        "T6"
+      ],
+      "part": "algorithms",
+      "step_url": "https://stepik.org/lesson/973831/step/2"
+    }
+  ]
+}

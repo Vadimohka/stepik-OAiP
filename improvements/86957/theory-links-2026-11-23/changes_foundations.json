@@ -1,0 +1,83 @@
+[
+  {
+    "step_id": 3215253,
+    "path": "steps/771154/02_3215253_text.step",
+    "summary": "Отсылка к полному многофайловому примеру направлена на сам разбор трёх файлов, а не на вводный шаг проекта.",
+    "sources": [
+      "https://cmake.org/cmake/help/v3.22/manual/cmake.1.html",
+      "https://gcc.gnu.org/onlinedocs/gcc/Overall-Options.html"
+    ],
+    "plan": [
+      "LINKS",
+      "T1"
+    ]
+  },
+  {
+    "step_id": 3201141,
+    "path": "steps/768140/02_3201141_text.step",
+    "summary": "Указаны точные продолжения команд сборки и согласовано различие выбранного C++20 и проверяемой совместимости C++17/20.",
+    "sources": [
+      "https://cmake.org/cmake/help/v3.22/manual/cmake.1.html",
+      "https://gcc.gnu.org/onlinedocs/gcc/Overall-Options.html"
+    ],
+    "plan": [
+      "LINKS",
+      "T1"
+    ]
+  },
+  {
+    "step_id": 3201168,
+    "path": "steps/768140/08_3201168_text.step",
+    "summary": "Исправлен фактический порядок уроков: библиотека и std:: предшествуют первому запуску.",
+    "sources": [
+      "https://cmake.org/cmake/help/v3.22/manual/cmake.1.html",
+      "https://gcc.gnu.org/onlinedocs/gcc/Overall-Options.html"
+    ],
+    "plan": [
+      "LINKS",
+      "T1"
+    ]
+  },
+  {
+    "step_id": 3237989,
+    "path": "steps/776128/03_3237989_text.step",
+    "summary": "Разведены инициализация до main и динамическая инициализация локального static; исправлено смешение исходников и готовых объектов CRT.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.start.static",
+      "https://timsong-cpp.github.io/cppwp/n4659/stmt.dcl",
+      "https://timsong-cpp.github.io/cppwp/n4861/stmt.dcl",
+      "https://timsong-cpp.github.io/cppwp/n4861/basic.start.dynamic",
+      "https://gcc.gnu.org/onlinedocs/gcc-14.3.0/gccint/Initialization.html"
+    ],
+    "plan": [
+      "LINKS",
+      "T1"
+    ]
+  },
+  {
+    "step_id": 3238004,
+    "path": "steps/776128/05_3238004_text.step",
+    "summary": "Правило выхода из функции ограничено автоматическими объектами; локальный static связан с отдельным объяснением времени жизни.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.start.main",
+      "https://timsong-cpp.github.io/cppwp/n4861/basic.start.main"
+    ],
+    "plan": [
+      "LINKS",
+      "T1"
+    ]
+  },
+  {
+    "step_id": 3231226,
+    "path": "steps/774618/05_3231226_text.step",
+    "summary": "Завершена линия CMake → несколько файлов → библиотека → CTest с точными адресами и устойчивыми ролями инструментов.",
+    "sources": [
+      "https://cmake.org/cmake/help/v3.22/manual/cmake.1.html",
+      "https://gcc.gnu.org/onlinedocs/gcc/Overall-Options.html"
+    ],
+    "plan": [
+      "LINKS",
+      "T1"
+    ]
+  }
+]

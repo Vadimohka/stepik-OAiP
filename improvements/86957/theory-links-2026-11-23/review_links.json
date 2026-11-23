@@ -1,0 +1,2499 @@
+{
+  "schema_version": 1,
+  "status": "accepted_for_github_preparation",
+  "accepted_at": "2026-11-23T12:01:34.457011+00:00",
+  "base_commit": "352c2796717a55f4f0db8395b7d6093d8d67c35e",
+  "review_scope": "Сквозная редакторская проверка предпосылок, терминологии, ссылок, повторений и переходов всех 283 text-шагов модулей 1–19; дополнительная техническая проверка выявленных рисков. Не формальная сертификация каждой старой программы.",
+  "method": "Четыре непересекающихся участка прочитаны авторами; root рассмотрел результаты смысловых цепей и все 50 source-to-target diff. Изменения независимо перечитаны другим участником. Эти конечные хеши фиксируют принятую редакцию; изменение текста требует новой редакторской приёмки, а не одного автоматического обновления хеша.",
+  "counts": {
+    "read_unique_texts": 283,
+    "changed_unique_texts": 50,
+    "changed_lessons": 31,
+    "changed_modules": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13,
+      15,
+      16,
+      17,
+      18
+    ],
+    "by_module": {
+      "2": 1,
+      "3": 5,
+      "4": 5,
+      "5": 4,
+      "6": 6,
+      "7": 8,
+      "8": 3,
+      "9": 2,
+      "10": 2,
+      "11": 2,
+      "13": 3,
+      "15": 4,
+      "16": 1,
+      "17": 3,
+      "18": 1
+    },
+    "prior_two_packages_unique_steps": 272,
+    "overlap_new_with_prior": 46,
+    "three_packages_unique_changed_steps": 276,
+    "newly_changed_previously_preserved_steps": [
+      3177283,
+      3177499,
+      3177504,
+      3214873
+    ],
+    "original_scope_unique_texts": 37
+  },
+  "editorial_reports": [
+    {
+      "path": "review_foundations.json",
+      "sha256": "dac24b9110ad7b3e36be43ed433ebff0aa62e934127953dc56c569a893d19502"
+    },
+    {
+      "path": "review_types.json",
+      "sha256": "ad00145f85bf5aae707e4d39dddde4133147bc17f5f90217bce83410e4f101d3"
+    },
+    {
+      "path": "review_ownership.json",
+      "sha256": "5f4612f1064d3ad546003bf8b8ebaa7537db6d3d39b74dbb8ac6e81710e02d69"
+    },
+    {
+      "path": "review_algorithms.json",
+      "sha256": "e822fcefac95648ab1560b0fdaa94bdc437a0e3ff865379025911897bd2fa372"
+    }
+  ],
+  "independent_reports": [
+    {
+      "path": "review_foundations_independent.json",
+      "sha256": "f2f7cb0ecec0a0af68184a4f1a070c158523ccfbfd94baf8a76e1b5d9db635cc"
+    },
+    {
+      "path": "review_types_independent.json",
+      "sha256": "f2d1dbb839004984f773f019fd78256e76b55250b2470901d8855185465435d1"
+    },
+    {
+      "path": "review_ownership_independent.json",
+      "sha256": "92da6e3af061dcd5f532f0e8bc735480678a922d360dc14b0706b889ddd5b598"
+    },
+    {
+      "path": "review_algorithms_independent.json",
+      "sha256": "c664a8c128a417da803e098ecb34d223dc83023e0e06209db0c3fa660f7c485a"
+    }
+  ],
+  "chains": [
+    {
+      "name": "Программа → компиляция → линковка → библиотека",
+      "step_ids": [
+        3215253,
+        3201141,
+        3231226,
+        3212951,
+        3214973,
+        3215032,
+        3215045,
+        3252939
+      ],
+      "review_parts": [
+        "foundations",
+        "types"
+      ],
+      "status": "accepted",
+      "conclusion": "Редактор и IDE отделены от компилятора и системы сборки. Объявление/определение, объектный файл, линковка и библиотека образуют один маршрут. Переходы ведут к фактическим трём файлам, CMake, библиотекам и CTest; загрузка библиотеки не подменяет время жизни её объектов."
+    },
+    {
+      "name": "Значение → объект → диапазон → время жизни",
+      "step_ids": [
+        3177280,
+        3177283,
+        3177504,
+        3212920,
+        3212968,
+        3213209,
+        3214873,
+        3569325
+      ],
+      "review_parts": [
+        "types",
+        "ownership"
+      ],
+      "status": "accepted",
+      "conclusion": "Значение выражения не сведено к именованной переменной. Числовое представление, продвижения и сдвиги различают C++17/C++20; указатель не хранит длину. Граница индекса, C-строки и int** имеет отдельный контракт. Область видимости, хранение и время жизни различены; возврат сырого указателя не создаёт владение."
+    },
+    {
+      "name": "Контракт функции → инвариант типа → операции класса",
+      "step_ids": [
+        3212949,
+        3214971,
+        3214974,
+        3669114,
+        3668999,
+        3669000,
+        3760048,
+        3760029,
+        4035416
+      ],
+      "review_parts": [
+        "types",
+        "ownership",
+        "algorithms"
+      ],
+      "status": "accepted",
+      "conclusion": "Предусловия функции и способ передачи аргумента разделены. Конструктор устанавливает допустимое состояние, операции проверяют результат до изменения, const сохраняет интерфейс чтения. Строгий слабый порядок и эквивалентность ключей связывают сравнение Distance с set/map; раннее объяснение строки ведёт к настоящему разбору конструкторов."
+    },
+    {
+      "name": "Время жизни → владение → RAII",
+      "step_ids": [
+        3237989,
+        3238004,
+        3213206,
+        3215113,
+        3669075,
+        3759914,
+        3569325,
+        3569964,
+        3569963,
+        3569327,
+        3570166
+      ],
+      "review_parts": [
+        "foundations",
+        "types",
+        "ownership",
+        "algorithms"
+      ],
+      "status": "accepted",
+      "conclusion": "Локальный static не обязан динамически инициализироваться до main. Автоматические объекты, владельцы и освобождение ресурса согласованы. Доступ по ссылке отделён от переноса владения. unique_ptr со стандартным удалителем и shared_ptr с сохранённым типом уничтожения имеют разные условия удаления через базу. RAII не гарантирует успешную запись файла."
+    },
+    {
+      "name": "Категория выражения → привязка ссылки → копирование/перемещение",
+      "step_ids": [
+        3214974,
+        3214911,
+        3569321,
+        3569891,
+        3569896,
+        3569323,
+        3569919,
+        3569324,
+        3569932,
+        4040986
+      ],
+      "review_parts": [
+        "types",
+        "ownership"
+      ],
+      "status": "accepted",
+      "conclusion": "Тип, категория и время жизни не отождествляются. Именованная T&& остаётся lvalue; std::move сам не переносит ресурс и сохраняет const. Копия, ссылка и const-ссылка показаны законченной иллюстрацией auto. Обязательное создание результата из prvalue и необязательное NRVO не смешаны."
+    },
+    {
+      "name": "Алгоритм → стоимость → структура данных → стандартный контейнер",
+      "step_ids": [
+        3212953,
+        3213244,
+        3215109,
+        4035517,
+        3570230,
+        3569332,
+        3570333,
+        4035481,
+        4035416,
+        4035417,
+        4035430
+      ],
+      "review_parts": [
+        "algorithms",
+        "ownership"
+      ],
+      "status": "accepted",
+      "conclusion": "O/Θ, средняя/худшая/амортизированная стоимость и единица операции согласованы. Высота O(log n) требует балансировки. Сохранение дубликата не означает одинаковый тип результата add у BST/AVL/RB. Копия строки при find учитывается отдельно от сравнений ID. Гарантии стандартных контейнеров отделены от типичной реализации деревом или корзинами."
+    }
+  ],
+  "effective_inputs": [
+    {
+      "step_id": 3173778,
+      "module_number": 2,
+      "path": "courses/86957/steps/763037/01_3173778_text.step",
+      "file_sha256": "fe7b82728f0d03d89e81551e7e1f88e9bd1147a3301bc8afb7870a223b875d4a",
+      "text_sha256": "3378137a019a03e3fb13899d27019c639bd8f4fcc41ae7c4c6b043cb22a8dd16",
+      "new_revision": false
+    },
+    {
+      "step_id": 3173779,
+      "module_number": 2,
+      "path": "courses/86957/steps/763038/01_3173779_text.step",
+      "file_sha256": "36c1acba58c5c4ef9e199dba465b37293d61e2718a603066dec8145ddc5922e0",
+      "text_sha256": "d8c9387183b80290cbb5d86fcbb4f0381eedaebc38ce49a39efdb6b1a6c8f2ac",
+      "new_revision": false
+    },
+    {
+      "step_id": 3173780,
+      "module_number": 2,
+      "path": "courses/86957/steps/763039/01_3173780_text.step",
+      "file_sha256": "30c772f609ef9dcd6e3fd69bd9c4f2e8a833ed121a2df7fa89b9770f2246159c",
+      "text_sha256": "5fb3d3ffdfae0792e0ec5c0e1b9a14c29bdcfb712003e2fa4113f83b956803b4",
+      "new_revision": false
+    },
+    {
+      "step_id": 3173782,
+      "module_number": 1,
+      "path": "courses/86957/steps/763040/01_3173782_text.step",
+      "file_sha256": "909004cafe0e0f749cc6354fb76cd7849a6907834b46370773a06ac330723254",
+      "text_sha256": "3d76c308a1aac4a72bfa48998732e65c686231d549304e60e486054fb83ab1ca",
+      "new_revision": false
+    },
+    {
+      "step_id": 3173783,
+      "module_number": 1,
+      "path": "courses/86957/steps/763041/02_3173783_text.step",
+      "file_sha256": "4700cf7a3d83713fe58dbd4ef847cd0272343dad5b8c6af301ab15c8e67a5365",
+      "text_sha256": "0660949b776de45439086326bb718215c9b1e0cc806fba8e3c39fdb10a65aeb4",
+      "new_revision": false
+    },
+    {
+      "step_id": 3173804,
+      "module_number": 2,
+      "path": "courses/86957/steps/763037/02_3173804_text.step",
+      "file_sha256": "586d4bddd55010eb4fd76cfd94872e2ae2ffc91f9a68756b674cbe9e73dcacb1",
+      "text_sha256": "5f9246e15481ec31d86da7b7e20c6fea0bbe2d60816f1452c07bebb698f821d2",
+      "new_revision": false
+    },
+    {
+      "step_id": 3173810,
+      "module_number": 2,
+      "path": "courses/86957/steps/763037/03_3173810_text.step",
+      "file_sha256": "9697fead58c81805e7476d314d7b5e27083347d6d16e334bef4960c1ed1b035b",
+      "text_sha256": "a71df85706659eb5fc6579d9f2a901293b230cfe1c266f53b82fe0ae100c5b2a",
+      "new_revision": false
+    },
+    {
+      "step_id": 3173832,
+      "module_number": 2,
+      "path": "courses/86957/steps/763037/05_3173832_text.step",
+      "file_sha256": "604fffc47aadfddece14ae1f42f3717e4877952b5ab260155ce6be682e817fec",
+      "text_sha256": "030ab6311338203ae332000e467334d91eab59d78a5a3432903b07ffd28a560e",
+      "new_revision": false
+    },
+    {
+      "step_id": 3173836,
+      "module_number": 2,
+      "path": "courses/86957/steps/763037/07_3173836_text.step",
+      "file_sha256": "f1003a32d778dfba60a8bfc75d306a21dc1b4f3bc20d606336ee074801053020",
+      "text_sha256": "f4d08238c29e9fa97d3d232ea9e50c78ba6c1256f8acb728d079d42fd3d6d01d",
+      "new_revision": false
+    },
+    {
+      "step_id": 3173838,
+      "module_number": 2,
+      "path": "courses/86957/steps/763037/08_3173838_text.step",
+      "file_sha256": "74029b7d7df05860bb2d137014189e3a39e47043cc9e951f129b671038239999",
+      "text_sha256": "c6f902b9a5f1065ef44e839db0c143a31d09fe0e6d9548d44369cee4c034f782",
+      "new_revision": false
+    },
+    {
+      "step_id": 3173870,
+      "module_number": 2,
+      "path": "courses/86957/steps/763038/03_3173870_text.step",
+      "file_sha256": "abffaea5bb6300a818f8b530d0d56b153fd631ab769da6c17fd4d9935645c278",
+      "text_sha256": "02135f2e6b55622aff095b677419195f2978283a3e85d6bbad97858ef5531ce4",
+      "new_revision": false
+    },
+    {
+      "step_id": 3173871,
+      "module_number": 2,
+      "path": "courses/86957/steps/763038/04_3173871_text.step",
+      "file_sha256": "9129f11c0e04b588b69ed659bf3a0e466463845a22c5144e3dd80d6e989a5e27",
+      "text_sha256": "14aea2ae1250b1dfb5abecfc6749c0c55543ae399ab2c9fc939892fe21fb0033",
+      "new_revision": false
+    },
+    {
+      "step_id": 3173892,
+      "module_number": 2,
+      "path": "courses/86957/steps/763039/12_3173892_text.step",
+      "file_sha256": "3fa1b44e2c0cf32b5fae1cd3fc867da1850fce65528e681c8acb0a763ff455dd",
+      "text_sha256": "8135b99f2febdeda0e53fa8f4bffc398cf849e8272b88494dea5a8915bef2ac9",
+      "new_revision": false
+    },
+    {
+      "step_id": 3173923,
+      "module_number": 1,
+      "path": "courses/86957/steps/763040/02_3173923_text.step",
+      "file_sha256": "4e155cb00b3cda79dd20c25145dd1821384242a3599c427baec4174d96c23a78",
+      "text_sha256": "3a750e24bd3ed0f29f360a3100f915724a5495cd66ac30649fcc3e8e0b082e32",
+      "new_revision": false
+    },
+    {
+      "step_id": 3173935,
+      "module_number": 1,
+      "path": "courses/86957/steps/763040/03_3173935_text.step",
+      "file_sha256": "e1d1c1457c14ee5a71e0af7aa00f257dfde0569819d642d437a4ca1bd5750b59",
+      "text_sha256": "cf5e65196bac17aae0d6e742c9bbcaf8043e5ca4460353fb8fde70d681d50cfc",
+      "new_revision": false
+    },
+    {
+      "step_id": 3173955,
+      "module_number": 1,
+      "path": "courses/86957/steps/763040/04_3173955_text.step",
+      "file_sha256": "cda3ae9759eff492e20c68f7f3e9429c2ac32fc6f5cc8f8e863de557a7a61096",
+      "text_sha256": "c8269d7c50d4ffb71f35b6d71512ac85ac5a55d78c6363925b8eeb9a7ebd222b",
+      "new_revision": false
+    },
+    {
+      "step_id": 3173969,
+      "module_number": 1,
+      "path": "courses/86957/steps/763041/01_3173969_text.step",
+      "file_sha256": "fc7a2f86848257180b6a7ed1390ceb12f1087131a016c0a6c20fadf9ae4d739c",
+      "text_sha256": "78ee6d3d11f692dbbef8bae42a13e16e77a6cb066b2867e72493ba329a6d1270",
+      "new_revision": false
+    },
+    {
+      "step_id": 3173970,
+      "module_number": 1,
+      "path": "courses/86957/steps/763041/03_3173970_text.step",
+      "file_sha256": "954045e1c9c19b4ee22e488a8a8cf38eb9ef953bd1ebdec21c67a2c737fc4dd1",
+      "text_sha256": "416bf2a9e9c50eaa7ab2fb06dbbdceacd23e581c266affc2f564fe893fc4b439",
+      "new_revision": false
+    },
+    {
+      "step_id": 3177242,
+      "module_number": 4,
+      "path": "courses/86957/steps/763630/01_3177242_text.step",
+      "file_sha256": "597a69ece82e2fb9fcec12fa2c722c8b449cfa3dd881632caa5b73c7aab0c1b3",
+      "text_sha256": "8a94adf4f0ee40bbe8231463b140669976e2c261d7ec72d7786962d2b141903d",
+      "new_revision": false
+    },
+    {
+      "step_id": 3177248,
+      "module_number": 2,
+      "path": "courses/86957/steps/763038/05_3177248_text.step",
+      "file_sha256": "e7bbd688479fb024e109f4b9a84451058e216f3eb1f1895a41b2e56d4e010c32",
+      "text_sha256": "72da1bc4fe9bddd3b237d18747f602da58bc00b0fa940bca4634e95bda1d17e3",
+      "new_revision": false
+    },
+    {
+      "step_id": 3177249,
+      "module_number": 2,
+      "path": "courses/86957/steps/763038/06_3177249_text.step",
+      "file_sha256": "f4b904d70d5e8da74faff2becf3e2634585966c66706406fa22ae2eedb16d57e",
+      "text_sha256": "7e9e5217c5f1aeeabbcccc841bab871d17bf95ac96c603bcf3a473be45a0c7ab",
+      "new_revision": false
+    },
+    {
+      "step_id": 3177250,
+      "module_number": 2,
+      "path": "courses/86957/steps/763038/07_3177250_text.step",
+      "file_sha256": "0139b51b086b2c90428f45c0c1448517d9faf0e3865c226a06010582dbd88970",
+      "text_sha256": "18998d79517a72360425eb1617a5fbea291e162f6d5365b957e0520dfd44fdfa",
+      "new_revision": false
+    },
+    {
+      "step_id": 3177279,
+      "module_number": 4,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/763630/08_3177279_text.step",
+      "file_sha256": "85fe7cae15bffab37e9ec95e2752dac27d1b1a766d556f1978836453e1003156",
+      "text_sha256": "47cb7a7bfa6e26af833c8e65111ce01be094ed3c83d8de91e736804c763b184b",
+      "new_revision": true
+    },
+    {
+      "step_id": 3177280,
+      "module_number": 4,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/763630/03_3177280_text.step",
+      "file_sha256": "f351093a8c97bc36f4810b3255ff92a252f95234b108a02d3d9fc8238e4f6050",
+      "text_sha256": "9fa39d24cc836a9ca8e48365a60cf21493ebc6430ceae36018a44ba3e31fcaa1",
+      "new_revision": true
+    },
+    {
+      "step_id": 3177281,
+      "module_number": 4,
+      "path": "courses/86957/steps/763630/05_3177281_text.step",
+      "file_sha256": "1a2cfb63a564b3b3eb3940a06fbf791d97c9a5390e6e3fde3de634d06ca6ed61",
+      "text_sha256": "ad69464326acc8835e132f48a8e179447df29464fa526deb95defad5f22517fc",
+      "new_revision": false
+    },
+    {
+      "step_id": 3177282,
+      "module_number": 4,
+      "path": "courses/86957/steps/763630/04_3177282_text.step",
+      "file_sha256": "bc3afa24a00a3001dcb2af03e559964834a3949c46fa29a304d6f3efa2b3223e",
+      "text_sha256": "72a7d4f6f9bb6ec632a71f71c2bb22555470e4fdd692580cddd01fe4ea4b1b0a",
+      "new_revision": false
+    },
+    {
+      "step_id": 3177283,
+      "module_number": 4,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/763630/07_3177283_text.step",
+      "file_sha256": "535764f7fe3fb4f2b18e0c6fd65cb70f1d92d18bfd3b236e779ff036fbe3ed63",
+      "text_sha256": "10e6f0df20ba0bdac30eba1bfb98bc7d9110fcc9367d75b2cf2cbf4774d5dffa",
+      "new_revision": true
+    },
+    {
+      "step_id": 3177291,
+      "module_number": 4,
+      "path": "courses/86957/steps/763639/01_3177291_text.step",
+      "file_sha256": "a93edba1c7428bc3474fb394dfaba80995107ae1b59646664b85e0095a8fe4c9",
+      "text_sha256": "08299e33999cadabed21a39a8e0909e7849e5fdafc324df47ff90094ae041262",
+      "new_revision": false
+    },
+    {
+      "step_id": 3177292,
+      "module_number": 4,
+      "path": "courses/86957/steps/763640/01_3177292_text.step",
+      "file_sha256": "5056977579546417e8e0f78ccf3e617244fb55f8f3a0b3d3119187828df07379",
+      "text_sha256": "bcb176920642d42dff869eeae68c646b63f26ecb06d51097f512202b02ff6318",
+      "new_revision": false
+    },
+    {
+      "step_id": 3177294,
+      "module_number": 4,
+      "path": "courses/86957/steps/763642/01_3177294_text.step",
+      "file_sha256": "e493289d8beb8f11a2faf5ff2a6cc26453d3e86bd6a75b1457d7b188b252efae",
+      "text_sha256": "ee9b05a3415508df892a138160ef2416618fa0b5ffd3607f8c4483efe92a5e9c",
+      "new_revision": false
+    },
+    {
+      "step_id": 3177296,
+      "module_number": 5,
+      "path": "courses/86957/steps/763644/02_3177296_text.step",
+      "file_sha256": "b20562d7d3733825364b680e413b50bdd04a200ccbe2d1be2f6a2e2d812fcb66",
+      "text_sha256": "340072728eff04166772597129c4ae88c091d53eddea8440aedc0d5daff30bdd",
+      "new_revision": false
+    },
+    {
+      "step_id": 3177298,
+      "module_number": 5,
+      "path": "courses/86957/steps/763646/02_3177298_text.step",
+      "file_sha256": "2f20683530db12b29ee0eecb979773d0633c237de89988fcb121ecc08260a517",
+      "text_sha256": "57d7c627e0c951db5d71b726af78adb458ead859547b6d6990c1424e24c4f00d",
+      "new_revision": false
+    },
+    {
+      "step_id": 3177474,
+      "module_number": 4,
+      "path": "courses/86957/steps/763639/02_3177474_text.step",
+      "file_sha256": "07373e771022774dcaa08b4e46db5f0f8415b6e2f005d76061338bad1060876b",
+      "text_sha256": "58a45ed75aaab8d6c016ca079f8ef784cd841eba3c1b69341f1c30fec686dbdd",
+      "new_revision": false
+    },
+    {
+      "step_id": 3177499,
+      "module_number": 4,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/763639/04_3177499_text.step",
+      "file_sha256": "a28d7389a36d4f3a681c9465c2fa38e19aaa73459c092011a5f9006292151118",
+      "text_sha256": "fd69ab4268fb87f9618276a264869b962bd561472922a95adfadea344ab0b0d3",
+      "new_revision": true
+    },
+    {
+      "step_id": 3177504,
+      "module_number": 4,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/763639/03_3177504_text.step",
+      "file_sha256": "af27639e5efd5fb4974b550f11660d9ce82d5a2b2745d81f733167381dfc783a",
+      "text_sha256": "a10976ffe3aef362f2189af0ed8822f33fab5ebc1316f46f87b6969070c640e6",
+      "new_revision": true
+    },
+    {
+      "step_id": 3177540,
+      "module_number": 4,
+      "path": "courses/86957/steps/763642/03_3177540_text.step",
+      "file_sha256": "58681b6145e3b1f6ad388d6d89858a2a6793d4a6aaf27b17314e61e76ca93149",
+      "text_sha256": "aa2ea8f90985d77b0fbb27639d571aa79b7e00ca3c7f812752b2314b22459904",
+      "new_revision": false
+    },
+    {
+      "step_id": 3177541,
+      "module_number": 4,
+      "path": "courses/86957/steps/763642/02_3177541_text.step",
+      "file_sha256": "a9eb3e26e24d10fe8d621c69eadfd3e6e5b510305e7b81b4410a6463c4d486b9",
+      "text_sha256": "a90d53fd3cc5d64c7777a3cc08a15822658442f7033d0952cd286e06b2dc7ccf",
+      "new_revision": false
+    },
+    {
+      "step_id": 3177546,
+      "module_number": 4,
+      "path": "courses/86957/steps/763642/04_3177546_text.step",
+      "file_sha256": "a94c7031e24e63097e810e5b8161699f7a776bcaadcb778343ddda654db79525",
+      "text_sha256": "ca8e03fb1f79db52683b6ae34853533b78a895443be452c76f1e7eda901903bc",
+      "new_revision": false
+    },
+    {
+      "step_id": 3177547,
+      "module_number": 4,
+      "path": "courses/86957/steps/763642/05_3177547_text.step",
+      "file_sha256": "8f09442b312075bcf86d3340d9c21056aa00983eaecba7542346c824f7f1d820",
+      "text_sha256": "1a47f026add90364b235dea339d696f66b9f115e7aa1287ffdad49d82f60cf6d",
+      "new_revision": false
+    },
+    {
+      "step_id": 3177562,
+      "module_number": 4,
+      "path": "courses/86957/steps/763719/01_3177562_text.step",
+      "file_sha256": "3911eeb7d068bc4f8b3d713babebf8822dbe5839901f957bb6f6a3a60e3bf582",
+      "text_sha256": "28c512aefc77a79608e3feb89464a676eaf2750dbfcb7287adf6f09820872396",
+      "new_revision": false
+    },
+    {
+      "step_id": 3177565,
+      "module_number": 4,
+      "path": "courses/86957/steps/763719/02_3177565_text.step",
+      "file_sha256": "168aa8b27d54ed8fc4bd5c5ac1ff6656361bec6f1865af80cab62e98522c3c15",
+      "text_sha256": "18a7b2a64fa233c09abc60433215918de6fbbba086db1b651c398ef5b3c76740",
+      "new_revision": false
+    },
+    {
+      "step_id": 3177651,
+      "module_number": 4,
+      "path": "courses/86957/steps/763719/04_3177651_text.step",
+      "file_sha256": "3a519636e4851170132db62b2b68ab7a8bf67551da4902a91860284302d705d9",
+      "text_sha256": "659af541dc11f6b61d01fcd5fa30f7435e4a16add390e1072b7224d1964c34cb",
+      "new_revision": false
+    },
+    {
+      "step_id": 3177786,
+      "module_number": 4,
+      "path": "courses/86957/steps/763719/06_3177786_text.step",
+      "file_sha256": "e363f08218f17fa0a7f211c60a36ee9ca1e9483f7e67bb293d5a20131a8b1382",
+      "text_sha256": "23e5392e334979833d80011d3989671e69df976e0beeb063a456ada32f38003c",
+      "new_revision": false
+    },
+    {
+      "step_id": 3177789,
+      "module_number": 4,
+      "path": "courses/86957/steps/763719/07_3177789_text.step",
+      "file_sha256": "fdbb443f0ac7b7f3f53224b62e6b2d3e37a8f47bab8f26d1a0d402e4fdf10c2d",
+      "text_sha256": "8bc96db022bb0f0c1e9c08825c7c5a5cc273af56e03434ed100d93f0cb3d82cc",
+      "new_revision": false
+    },
+    {
+      "step_id": 3201132,
+      "module_number": 3,
+      "path": "courses/86957/steps/768140/01_3201132_text.step",
+      "file_sha256": "c7cb4df5f32a6ac4036c6cf2438018fca2ace05487366f7694f78875039fb0a4",
+      "text_sha256": "535ce38a00da5018ccb6b1891f3fbebd0d9724d2438b8a54b70629ad8e70d884",
+      "new_revision": false
+    },
+    {
+      "step_id": 3201141,
+      "module_number": 3,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/768140/02_3201141_text.step",
+      "file_sha256": "58404210c9c5be2158f79f505b2e9bc10899dc11a3bfa8bf2405dab9a9b564b5",
+      "text_sha256": "4def618a2949bdd685ebf43cfe09ae5853f4b2b4a79f5a253db4e3ce694c14a1",
+      "new_revision": true
+    },
+    {
+      "step_id": 3201150,
+      "module_number": 3,
+      "path": "courses/86957/steps/768140/03_3201150_text.step",
+      "file_sha256": "d650b67e789d9258ff5a5da442d28072985497c5903fc46e9016da7baed50766",
+      "text_sha256": "c57e52e7d3408dab5440b1c0c333f00fd71e041dc9e2c8a455ba36a480c4c212",
+      "new_revision": false
+    },
+    {
+      "step_id": 3201151,
+      "module_number": 3,
+      "path": "courses/86957/steps/768140/04_3201151_text.step",
+      "file_sha256": "5db98260b1d29efb7528eb8586021ea50a5968a69d9e679f03db50b13a0bb3ce",
+      "text_sha256": "0d15d3aff3a330a59f73ddb04b53036d69a23d2948b1d32ac1c9d26cf644d3db",
+      "new_revision": false
+    },
+    {
+      "step_id": 3201153,
+      "module_number": 3,
+      "path": "courses/86957/steps/768140/05_3201153_text.step",
+      "file_sha256": "eeb93c4b5167259c205cc89f8abe24457e73dc64c3406a3b37d39e99e93a2176",
+      "text_sha256": "6eb9f243e2e43409525aae7ac7ba75ac3898ba151218433c8a1de48a6b305837",
+      "new_revision": false
+    },
+    {
+      "step_id": 3201155,
+      "module_number": 3,
+      "path": "courses/86957/steps/768140/07_3201155_text.step",
+      "file_sha256": "9e1c020603add4066d3420c019d6897d13c5e42fecb8f54ad2ba93596302cd46",
+      "text_sha256": "9ebcfe48d4129125feb3e759842ebe368ab3ace8788cb4b9e3c838c98c9df21a",
+      "new_revision": false
+    },
+    {
+      "step_id": 3201168,
+      "module_number": 3,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/768140/08_3201168_text.step",
+      "file_sha256": "f7711c5ba0bd6672f259222e82ce100b518b97b67044ba70e7c5327cb4ee329c",
+      "text_sha256": "ac803aaf761d08295f77e13de5ded2489621881aa4f317a589661167323047d9",
+      "new_revision": true
+    },
+    {
+      "step_id": 3201179,
+      "module_number": 3,
+      "path": "courses/86957/steps/768143/01_3201179_text.step",
+      "file_sha256": "b2844c6892ac0c5eff54e044a0de2917174510bd936849f7fcb74bab5b75f65b",
+      "text_sha256": "14e701a477a0ac113cb4be1c4882fb29dbb14793ddb9ada5bb06293a679f2a2d",
+      "new_revision": false
+    },
+    {
+      "step_id": 3201181,
+      "module_number": 3,
+      "path": "courses/86957/steps/768140/06_3201181_text.step",
+      "file_sha256": "faf8238c2b0fe1f612e4b1f2507d8852ace936d18442263bff919603b572fd11",
+      "text_sha256": "760c811634cc69581cfa0b7e946374c99a54ab7e2d3622eb64c01eab5765fcab",
+      "new_revision": false
+    },
+    {
+      "step_id": 3201189,
+      "module_number": 3,
+      "path": "courses/86957/steps/768143/02_3201189_text.step",
+      "file_sha256": "3e84e0a2b5561ab5f3905de506720502bf6c6383f03eb74c6647db3e30bc0f28",
+      "text_sha256": "598f45671ed0f4c050fdd50db067a3c3fb30c1649a09b6bf1547428a0a51dc82",
+      "new_revision": false
+    },
+    {
+      "step_id": 3201190,
+      "module_number": 1,
+      "path": "courses/86957/steps/768145/01_3201190_text.step",
+      "file_sha256": "97c006edcd2d005eb9d8cb510940dbd941bbaaba5151c3a0f5b41203347c2c21",
+      "text_sha256": "438bff38f658bde17560dd0e1aa1ecc88aa59bbeda6a7a6f3a9810ad8043fe1c",
+      "new_revision": false
+    },
+    {
+      "step_id": 3201191,
+      "module_number": 3,
+      "path": "courses/86957/steps/768146/01_3201191_text.step",
+      "file_sha256": "89053e07e4cf0b3fd893b4198d64baf5dacd5ef9095d8126bd84cc917f4f0817",
+      "text_sha256": "88aa2bb29e1f031c95ba6b9d74f1df0f517f68e895de73f239b60601bf5c8778",
+      "new_revision": false
+    },
+    {
+      "step_id": 3201234,
+      "module_number": 3,
+      "path": "courses/86957/steps/768146/04_3201234_text.step",
+      "file_sha256": "07c2274bddfa302fe5662b1fdb43cac1e2b6be4e89cf0c162efd4e74d9807b5a",
+      "text_sha256": "60912b151f9324c9e54d4f041a36dd4ab9be51ce57bc21e5cf1d9018c690cbc5",
+      "new_revision": false
+    },
+    {
+      "step_id": 3201235,
+      "module_number": 3,
+      "path": "courses/86957/steps/768146/03_3201235_text.step",
+      "file_sha256": "464d97df887cb3f1869b8192140909b467487981596cd162af181d06e489bd86",
+      "text_sha256": "ea8252b329cbb4cb347df33dec913665cbd0be9dfeb4b358c8d986b9bd67cc35",
+      "new_revision": false
+    },
+    {
+      "step_id": 3201236,
+      "module_number": 3,
+      "path": "courses/86957/steps/768146/02_3201236_text.step",
+      "file_sha256": "e792008fcb680f6c3035638866a1af436b5ac2d49e553dda60df4c8d2b13a30f",
+      "text_sha256": "a27ff283307f6b86a763d842386fad04abdc06a5c6fc512e65b7fb2bd214436d",
+      "new_revision": false
+    },
+    {
+      "step_id": 3201267,
+      "module_number": 3,
+      "path": "courses/86957/steps/768146/05_3201267_text.step",
+      "file_sha256": "3839097df0d1c1d78d5eb8b501c7e64169037e0b4dfeca0bec4a9e0b71d57e9d",
+      "text_sha256": "b0100121768f553f40360849f67b104379859eee4fb17467723bd890035829c9",
+      "new_revision": false
+    },
+    {
+      "step_id": 3201303,
+      "module_number": 1,
+      "path": "courses/86957/steps/768145/03_3201303_text.step",
+      "file_sha256": "953a2f43986cd72902989c4b35c8acd0c37189dfd9b2ada5c7df008339aa83d7",
+      "text_sha256": "bdfb433295e4c94adc83d493536f8d39cec3438a45c51a2218fb038096d8d218",
+      "new_revision": false
+    },
+    {
+      "step_id": 3201304,
+      "module_number": 1,
+      "path": "courses/86957/steps/768145/02_3201304_text.step",
+      "file_sha256": "f942b0aabf8b12c32ee787146ddd8dae8a5e686a59c1006f070e2ddffdada49f",
+      "text_sha256": "42e65d850e43c71fd0c25167249fe63db2937e9b1925c035f6ec667a40b64e87",
+      "new_revision": false
+    },
+    {
+      "step_id": 3201305,
+      "module_number": 1,
+      "path": "courses/86957/steps/768145/04_3201305_text.step",
+      "file_sha256": "6af9df8500e5060d713ea423355e9c168f8489c08f5a769aa63b4da1dea87044",
+      "text_sha256": "277073a45f795eee0204226f59a492c931c129112c2d260a0a3af5e182358174",
+      "new_revision": false
+    },
+    {
+      "step_id": 3201341,
+      "module_number": 1,
+      "path": "courses/86957/steps/768145/05_3201341_text.step",
+      "file_sha256": "a4777940107ad1aa824a0a05b585ca99d389bad61b3066c69a5183830b69415b",
+      "text_sha256": "9f17159b58b065b7b6f0ed16c86fd56ce134aff28e96b09aa69d3caf33e6482f",
+      "new_revision": false
+    },
+    {
+      "step_id": 3212907,
+      "module_number": 5,
+      "path": "courses/86957/steps/763644/03_3212907_text.step",
+      "file_sha256": "e3b57e53b7e89318dd2a33cf499aab368cec6270fd28c61b43aae09a06572f65",
+      "text_sha256": "2aa7c61d95cc968911eb533d4856e9b93718bab852b152c82e5d94b395b07a11",
+      "new_revision": false
+    },
+    {
+      "step_id": 3212908,
+      "module_number": 5,
+      "path": "courses/86957/steps/763644/04_3212908_text.step",
+      "file_sha256": "f782f105aea6c4dc1d12cf804cf47c75f1462b47fa52f29c33cf48bdc40906e6",
+      "text_sha256": "7313089cf6ba1dec28c3abc36da340da708cc917a67f6cee8a1899a23552988e",
+      "new_revision": false
+    },
+    {
+      "step_id": 3212920,
+      "module_number": 5,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/763644/06_3212920_text.step",
+      "file_sha256": "b8da69f2092fe153fe4d551c9a9a1d7fba03681e8c90da4ecf06c9a812fc5b9c",
+      "text_sha256": "76221c8fc16ee4a7a061e52baf2d78683b16f3a0363ad245a8882b3173e22e2c",
+      "new_revision": true
+    },
+    {
+      "step_id": 3212924,
+      "module_number": 5,
+      "path": "courses/86957/steps/763646/01_3212924_text.step",
+      "file_sha256": "56da32d824d23a481b3917a3de23fd42243ed2e535ba0ec54f1aca3d24b0acc7",
+      "text_sha256": "90764b7ef47c86f431b139abeabc7598bf9a38d8a6ca7ab6684b5ae2cace9ab8",
+      "new_revision": false
+    },
+    {
+      "step_id": 3212926,
+      "module_number": 5,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/763644/07_3212926_text.step",
+      "file_sha256": "ba8abe7a6ffe913034bba013806de8601ad258761cdf84828c252c956448e19d",
+      "text_sha256": "2d4533120316f5bdb6f914a0fefcb80c02d77b7a7f8ece41ba323b968de9a4da",
+      "new_revision": true
+    },
+    {
+      "step_id": 3212928,
+      "module_number": 5,
+      "path": "courses/86957/steps/763646/04_3212928_text.step",
+      "file_sha256": "5c2d7b8e75e8e27f00b46bf601aa839adcaa6e2aa90ddf945fef3695f40d10f2",
+      "text_sha256": "9ded9475eff7fa0316ae8060a9a912b267e175b8203b6b2ffc088275c55e0543",
+      "new_revision": false
+    },
+    {
+      "step_id": 3212935,
+      "module_number": 5,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/763644/05_3212935_text.step",
+      "file_sha256": "139b19365352e131039726a679714c6ba47a5b864e3d0ac30803abd676c7185b",
+      "text_sha256": "3a0eaecefe4d62b5da73d8516efd6338810072da51a39ab83c5899ef324a51fa",
+      "new_revision": true
+    },
+    {
+      "step_id": 3212937,
+      "module_number": 5,
+      "path": "courses/86957/steps/763646/05_3212937_text.step",
+      "file_sha256": "40488e00148964bc9aaa19392819db1ac1537550ba132f5b2ef88cf83ce7e173",
+      "text_sha256": "dc45748b26e9c47f8913546d36e01d04f445dac99e117b176fa3486eb251ede5",
+      "new_revision": false
+    },
+    {
+      "step_id": 3212939,
+      "module_number": 5,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/763646/03_3212939_text.step",
+      "file_sha256": "67517caef22065ad865b26ba19c314515e392ff881c41fc6f77ce5a9ef6b3849",
+      "text_sha256": "830666a0502a4bb073a8361609e25f8849b484fdd955b078ae16cb15c307711c",
+      "new_revision": true
+    },
+    {
+      "step_id": 3212944,
+      "module_number": 6,
+      "path": "courses/86957/steps/770585/01_3212944_text.step",
+      "file_sha256": "24870135287588bef317423d0c2d1e7f113b59ebbab34e5fc5794f12fb8ef1c1",
+      "text_sha256": "a128e2d419316c87cbd00a39ac5311919864625b4726d830eddc5fbf3acf98e2",
+      "new_revision": false
+    },
+    {
+      "step_id": 3212945,
+      "module_number": 6,
+      "path": "courses/86957/steps/770586/01_3212945_text.step",
+      "file_sha256": "b7c18a94861e5ae1840b0b199c2e7b28397ed4dcf91092547afe618fa1af873d",
+      "text_sha256": "31936acac3755168b8a4d9a3d781e51fa67dfad631cb385cfc0b275f2677b7c2",
+      "new_revision": false
+    },
+    {
+      "step_id": 3212946,
+      "module_number": 6,
+      "path": "courses/86957/steps/770587/01_3212946_text.step",
+      "file_sha256": "65c00d311f49cbe384660ca9476c34b9734d00c280133358a224fc88cc30499e",
+      "text_sha256": "7be07c24b978c3142bc1525ece9036a1ae857d6048106b287efe6282d0af96bd",
+      "new_revision": false
+    },
+    {
+      "step_id": 3212947,
+      "module_number": 9,
+      "path": "courses/86957/steps/770588/01_3212947_text.step",
+      "file_sha256": "84533795da479ea483efd1eb14b1d3ac92bd7d52d031044dbf55e19f8741ccde",
+      "text_sha256": "bde59c50dc574e407f04aae0459a525f9e46824050385e6c8add22689aae38ff",
+      "new_revision": false
+    },
+    {
+      "step_id": 3212948,
+      "module_number": 9,
+      "path": "courses/86957/steps/770589/01_3212948_text.step",
+      "file_sha256": "0af2f9a38f8d7538e6b3caf24c0cf18371648a719f8f22fda35f2e418b7dd178",
+      "text_sha256": "5fc5d31116e51e912608f7c72eed45b6875c21a95a2395ace14ad7335ac051a3",
+      "new_revision": false
+    },
+    {
+      "step_id": 3212949,
+      "module_number": 7,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/770590/01_3212949_text.step",
+      "file_sha256": "7b648925b5b91f41e0cc76988ae5e023a45c2562d4d84148718c3b41893f1f43",
+      "text_sha256": "530784d31acf84e8286c801061d0eab1f3577e58d6c5879817fb172d03fadccc",
+      "new_revision": true
+    },
+    {
+      "step_id": 3212950,
+      "module_number": 7,
+      "path": "courses/86957/steps/770591/01_3212950_text.step",
+      "file_sha256": "0e920b38d3e68c198271e6ccfe2eb9cb8bba51c01f22f65e1c0c963121901bd8",
+      "text_sha256": "c7cf33ff1eedbf7f8bd2f813a12de4cc63b2b5f53273317e82955d7b73d1e783",
+      "new_revision": false
+    },
+    {
+      "step_id": 3212951,
+      "module_number": 7,
+      "path": "courses/86957/steps/770592/02_3212951_text.step",
+      "file_sha256": "38732e0ed0ad3cefb93d66285a4f25cd3c212ca522c729e74cdbb148e2c71a2e",
+      "text_sha256": "c9c8a58710f60e2a3abc252f5ea76f7240d7a5c7833d4feda9b065e0ad446563",
+      "new_revision": false
+    },
+    {
+      "step_id": 3212952,
+      "module_number": 7,
+      "path": "courses/86957/steps/770593/01_3212952_text.step",
+      "file_sha256": "9ccfb114b5836457cf2dd1324afdd1ae768abe6fb1dfa4e62d2d97e1816daf94",
+      "text_sha256": "f2b5f11bd5cd42b249137e28785300257fe18726a777412f09b0d11096182e13",
+      "new_revision": false
+    },
+    {
+      "step_id": 3212953,
+      "module_number": 10,
+      "path": "courses/86957/steps/770594/01_3212953_text.step",
+      "file_sha256": "59cbde78acfb703652a42c08ac31d995ced14e5addaf3da191f1d2ae50b644c9",
+      "text_sha256": "7c6347569b701aacb48d0373529234d0b13f8a8f661dbec6d8dbcb5bad7fa987",
+      "new_revision": false
+    },
+    {
+      "step_id": 3212954,
+      "module_number": 10,
+      "path": "courses/86957/steps/770595/01_3212954_text.step",
+      "file_sha256": "51c36b6306778457ebdf19aafbba0a65d6f786980fe36fdcef25bfac2ed2bfae",
+      "text_sha256": "1930e69b10fceaf3112396fb1bc392d64424f74a168dfa18c5f20adc50c6b201",
+      "new_revision": false
+    },
+    {
+      "step_id": 3212955,
+      "module_number": 12,
+      "path": "courses/86957/steps/770596/01_3212955_text.step",
+      "file_sha256": "475822d5019d3a5f87c0ee4cc413bd16b7e8dd9a01d246a076d04edec604b589",
+      "text_sha256": "52f2ab427dcec98c8e30de9b3a08fa20ba67b4faae9bdaf2a14c7fb77039b65b",
+      "new_revision": false
+    },
+    {
+      "step_id": 3212956,
+      "module_number": 12,
+      "path": "courses/86957/steps/770597/01_3212956_text.step",
+      "file_sha256": "8e068b643cdd91e047aaada6b1d645e6e7458e5ce6749b20bd798c5a807d63a5",
+      "text_sha256": "5c0a5c708da0bc45e714cb78a1e8b7dc21a3d4c1314db4f9bc77f72f1152e47e",
+      "new_revision": false
+    },
+    {
+      "step_id": 3212968,
+      "module_number": 6,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/770585/02_3212968_text.step",
+      "file_sha256": "f2f90539b4a47f5bbe5e7a666806be5a661b634c2a19b606f5644f1a8c292fb8",
+      "text_sha256": "8ed004f7827f6f3374053f1e7d92ccbd32b7c136b33758cd5b9afa9aebfb6397",
+      "new_revision": true
+    },
+    {
+      "step_id": 3212969,
+      "module_number": 6,
+      "path": "courses/86957/steps/770585/03_3212969_text.step",
+      "file_sha256": "b7060dc914404a6836ecdb6140994d08af7fbd16a73c713298da6b03f0162642",
+      "text_sha256": "a3f29db0304ff699b200f82aac9e7efeb896b42274384d87882a0ece7fc25bb1",
+      "new_revision": false
+    },
+    {
+      "step_id": 3212970,
+      "module_number": 6,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/770585/04_3212970_text.step",
+      "file_sha256": "e78db463559d3c007da3ec39cb0cff169633731a88474619baa144075b07597f",
+      "text_sha256": "0aaab9fbf3914b6bf04d04101e93d48f1a322c4519d5f7a7f004eb922779ebdb",
+      "new_revision": true
+    },
+    {
+      "step_id": 3212989,
+      "module_number": 6,
+      "path": "courses/86957/steps/770585/06_3212989_text.step",
+      "file_sha256": "3dc4cdca3b367b34d2b682be42489e99777b08ca4c8a11b6bbdd206b3741537f",
+      "text_sha256": "c05cf8c3b8909c7b5be75fd405cf42e0a88ffb0a7befc70a5ba8f405c6f7b06f",
+      "new_revision": false
+    },
+    {
+      "step_id": 3212990,
+      "module_number": 6,
+      "path": "courses/86957/steps/770585/05_3212990_text.step",
+      "file_sha256": "37bf6ba467280ca7ebae231b13ac9dd5091040c037c5eafe341572649450eece",
+      "text_sha256": "8a043004748c032902965eb56a168ae102f80d8b1ecc4044db8eca6ce56e9aaa",
+      "new_revision": false
+    },
+    {
+      "step_id": 3212991,
+      "module_number": 6,
+      "path": "courses/86957/steps/770585/07_3212991_text.step",
+      "file_sha256": "18826b61c82e8a48c1720e92ce18e9e8b216a2c4ea81738125f491d792089509",
+      "text_sha256": "6a1b70feba39aa78188440357c7689719e97de82fc707b3b645da42934208df9",
+      "new_revision": false
+    },
+    {
+      "step_id": 3212995,
+      "module_number": 6,
+      "path": "courses/86957/steps/770586/02_3212995_text.step",
+      "file_sha256": "81b7b972fb3ff1542674d0bfc4a5c4dfdbc606469257a99ed2aeb3ca1b429244",
+      "text_sha256": "e9b58b7d77ec08298cbaa82795c2840044273ed4ac82db1bf2c482a34ca55609",
+      "new_revision": false
+    },
+    {
+      "step_id": 3213003,
+      "module_number": 6,
+      "path": "courses/86957/steps/770586/03_3213003_text.step",
+      "file_sha256": "cfb0f3390afbdfe1b6a38d3961de665b57b8dcdb9160b466a6d6e0f398cc2264",
+      "text_sha256": "02245fb567553fe9583e2776d65e9a46ab3bba8ed82dd519b61273c9ed428fdb",
+      "new_revision": false
+    },
+    {
+      "step_id": 3213004,
+      "module_number": 6,
+      "path": "courses/86957/steps/770586/04_3213004_text.step",
+      "file_sha256": "00c56aa75ef03a58366819f4f3da41d7c5a6f2ad9bd699944840d04dc6604318",
+      "text_sha256": "cd885cebc02c7faab2f0ae1cd385e008bdae3a0c475ad707514176af0c407f60",
+      "new_revision": false
+    },
+    {
+      "step_id": 3213206,
+      "module_number": 6,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/770587/07_3213206_text.step",
+      "file_sha256": "8380fa42ac37dad428b7028b5bd4d990c8cc8760218129cf3770c3d9ffbca59b",
+      "text_sha256": "1a75865e315b8242b79df43f6ac9b9131dd2909b5a5c8b7f53bca1c3ee533dbc",
+      "new_revision": true
+    },
+    {
+      "step_id": 3213207,
+      "module_number": 6,
+      "path": "courses/86957/steps/770587/04_3213207_text.step",
+      "file_sha256": "d52ce4ef98145896a6e2ac9b4aa81132b052ea7429bd52276cef3bf3894d524d",
+      "text_sha256": "61ff86f3f36c625a272055c32ff56b3ce9e4da01ab27f15848dd61c1a0a2fe6d",
+      "new_revision": false
+    },
+    {
+      "step_id": 3213208,
+      "module_number": 6,
+      "path": "courses/86957/steps/770587/03_3213208_text.step",
+      "file_sha256": "9c798b19a41a0f6cb9e58c2d196b639a161ccd30b7708334a693f895d55ad913",
+      "text_sha256": "ce14f79020205b48d5187bdd596f6ecfe474cde7703a1ab9183ab2e81487a86f",
+      "new_revision": false
+    },
+    {
+      "step_id": 3213209,
+      "module_number": 6,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/770587/02_3213209_text.step",
+      "file_sha256": "8b34bc727e369621835b37112edd10ca9896cc7b14f27b0f421fcb39253f768b",
+      "text_sha256": "234d59a7a63fa17dfb6289e90bb88736641f96524921e433021f7183e765fd0e",
+      "new_revision": true
+    },
+    {
+      "step_id": 3213210,
+      "module_number": 6,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/770587/05_3213210_text.step",
+      "file_sha256": "6ebd07119215adef7c687c818bdbe478c7eaff2c483799336f1347a6d5225378",
+      "text_sha256": "57ac5aa748d295c6d5f9f1ef6dbc5f34f2aac15c8831577974e24fbd88a463d1",
+      "new_revision": true
+    },
+    {
+      "step_id": 3213241,
+      "module_number": 10,
+      "path": "courses/86957/steps/770594/03_3213241_text.step",
+      "file_sha256": "84c6522c67086b96811323050b34ac92bf5753dca56ce8b7fa764339cd1233ab",
+      "text_sha256": "e2d025e9aa5d8828bd3d49c3ea1e92e39a51638de9db9f1855d06367fde8cb8a",
+      "new_revision": false
+    },
+    {
+      "step_id": 3213242,
+      "module_number": 10,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/770594/05_3213242_text.step",
+      "file_sha256": "3eee1eae1afb594a52d555ee7f12347d163cefc58b461dd3f850e92d611d34ea",
+      "text_sha256": "20586085ec2e275aac9e9b165d3a9fefff6cbf61c31ff0c185f9c7d1bef3d701",
+      "new_revision": true
+    },
+    {
+      "step_id": 3213243,
+      "module_number": 10,
+      "path": "courses/86957/steps/770594/04_3213243_text.step",
+      "file_sha256": "739b344e2fd252aba7e45876d443fbddc07f5f5ce925f670f4389aa54cd4a70a",
+      "text_sha256": "a2b9c1b217f8daee38ec110f59b7b6040283bb9e14da54ebd405dc13a7a9393f",
+      "new_revision": false
+    },
+    {
+      "step_id": 3213244,
+      "module_number": 10,
+      "path": "courses/86957/steps/770594/02_3213244_text.step",
+      "file_sha256": "5375a70585e2379c2b461106cb248ddff659fc44fc062e7524680e678e37f83d",
+      "text_sha256": "70c4e4bfe4bf8e2b5c450e4479e2423b79c365e7a38b24cc4fec9236a4b11624",
+      "new_revision": false
+    },
+    {
+      "step_id": 3213247,
+      "module_number": 10,
+      "path": "courses/86957/steps/770594/06_3213247_text.step",
+      "file_sha256": "e08f6bbc80a9e1e06c7cbc1ce2f5e85d330f0e392c7f5586b06db99fb49e8842",
+      "text_sha256": "f6870cecf354baefeeb5fda79b4b70d561ba2e4a421ba766bb550eba75954522",
+      "new_revision": false
+    },
+    {
+      "step_id": 3213248,
+      "module_number": 10,
+      "path": "courses/86957/steps/770594/07_3213248_text.step",
+      "file_sha256": "ca803ad249b920633f04a769325bc8d400b16a0c1d7a3760c7d95fc853bf9edc",
+      "text_sha256": "9a712d649530431498c13b4c84ad068908846c88c43bc08fd10c53590a69691c",
+      "new_revision": false
+    },
+    {
+      "step_id": 3213255,
+      "module_number": 10,
+      "path": "courses/86957/steps/770594/09_3213255_text.step",
+      "file_sha256": "dc888703b7314dd6939da40d738589f5357e68cdf2a3d5949840832bc138f099",
+      "text_sha256": "2a2c889d3f766a20205b35dafef43025c22bea1be909ccf9e59dd7f9b2589829",
+      "new_revision": false
+    },
+    {
+      "step_id": 3213256,
+      "module_number": 10,
+      "path": "courses/86957/steps/770594/08_3213256_text.step",
+      "file_sha256": "a58f374c9d2e9bf1c08f3737f4ff03e4a8e4b027045bd79e13226179fa5f79e4",
+      "text_sha256": "077a0522c47889ffa270d28a8b4ee3719fafaafa48a889a76cbe333968c39873",
+      "new_revision": false
+    },
+    {
+      "step_id": 3214764,
+      "module_number": 3,
+      "path": "courses/86957/steps/771009/01_3214764_text.step",
+      "file_sha256": "a725890556e3c010d2dcac16f61671be516abd652d55876a32e913e6d38ba15a",
+      "text_sha256": "7f3b0b21290438f8a7cacc009486559b82f3beacbf9ba1fcb511b5fc18f9382a",
+      "new_revision": false
+    },
+    {
+      "step_id": 3214777,
+      "module_number": 3,
+      "path": "courses/86957/steps/771009/02_3214777_text.step",
+      "file_sha256": "5d26e3dede3896c1ec7a66d4e896203c63b2ca9aa9601af8001e485854e4e636",
+      "text_sha256": "cef4e36a75537f671498449e15f37a5676d1e9470e4537d60f06207194cae564",
+      "new_revision": false
+    },
+    {
+      "step_id": 3214778,
+      "module_number": 3,
+      "path": "courses/86957/steps/771009/03_3214778_text.step",
+      "file_sha256": "d6f9f11e7482104d6e51c5ca78a3ea9b22f756112d1cf24d0a7ffdd457f64c6e",
+      "text_sha256": "8c3618aa855ac8698f7519256fb194c3ffb1391ff4ef3f29a5483543f90cfcfc",
+      "new_revision": false
+    },
+    {
+      "step_id": 3214832,
+      "module_number": 3,
+      "path": "courses/86957/steps/771009/04_3214832_text.step",
+      "file_sha256": "0de578834813e675c341b952c03529714961ba4dbf5cf1231494539aa5a4a22b",
+      "text_sha256": "b71fc462b587ca47447a8d675d129f4ef580b24a67133819dcef451f006c5f3d",
+      "new_revision": false
+    },
+    {
+      "step_id": 3214833,
+      "module_number": 3,
+      "path": "courses/86957/steps/771009/05_3214833_text.step",
+      "file_sha256": "0898986a2c2bd5d2b6f643cde897a96811cf83fdd6aba4f38ba96197ef88476f",
+      "text_sha256": "8360468a548b21f1b4f6c991b7e4b2739ca4acf2097361f925346796e389c65b",
+      "new_revision": false
+    },
+    {
+      "step_id": 3214845,
+      "module_number": 9,
+      "path": "courses/86957/steps/770588/02_3214845_text.step",
+      "file_sha256": "87703488365f3bb19acc25fa78cb2c29804394d0d78e9c73eac560a4ecf96207",
+      "text_sha256": "b3c0285cf944bd2efc2d43f4358dcb396675d13392c5674860e576df93855c91",
+      "new_revision": false
+    },
+    {
+      "step_id": 3214873,
+      "module_number": 9,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/770588/03_3214873_text.step",
+      "file_sha256": "cf934cdbe5a2305bfcbef726d379693af6d8925829cbaaa5b533949769ea6d30",
+      "text_sha256": "26c073920ae74be4b43a086b2a4088773f12267670248f57842e9f21d5d6477b",
+      "new_revision": true
+    },
+    {
+      "step_id": 3214901,
+      "module_number": 9,
+      "path": "courses/86957/steps/770589/02_3214901_text.step",
+      "file_sha256": "c1c64fdda8b9c2969748f01e0a1e4afbfb55edfbf65f90c316581469cb4f1c26",
+      "text_sha256": "57fb97693474eb73e86c8b59bd5896b08af8941dbb4aaf2205d32381e067236e",
+      "new_revision": false
+    },
+    {
+      "step_id": 3214902,
+      "module_number": 9,
+      "path": "courses/86957/steps/770589/04_3214902_text.step",
+      "file_sha256": "e087687768ae8f9d9a4b6bb5c475764a752185cd0a790a762ee09c306dc60c67",
+      "text_sha256": "2d3f394715181d3ea845fc3f75eb5e7131caea06cd0015fc5a05fe66e8f5e15c",
+      "new_revision": false
+    },
+    {
+      "step_id": 3214903,
+      "module_number": 9,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/770589/03_3214903_text.step",
+      "file_sha256": "d8b4f6df076d3206dca87ff59661cc87b76b84bc6afa169db38b49b0f3023d7a",
+      "text_sha256": "0fbac43d25476b08fe6a2f41dd9265dc42569222c174729d6af7fe07aaf4b5fb",
+      "new_revision": true
+    },
+    {
+      "step_id": 3214904,
+      "module_number": 9,
+      "path": "courses/86957/steps/770589/05_3214904_text.step",
+      "file_sha256": "32172d8a31fe950a7d20aa1107c22b2772a482337c8b79c42874b17b32da78bb",
+      "text_sha256": "66f0692aa51be1599f100bee08ecfb943b76f34b1c703f16b2a2ea58845cae21",
+      "new_revision": false
+    },
+    {
+      "step_id": 3214909,
+      "module_number": 7,
+      "path": "courses/86957/steps/770590/02_3214909_text.step",
+      "file_sha256": "704f75378057593a6a2a53413ce1eeaa1a94d1e6d6d92dba7471575ca9b19091",
+      "text_sha256": "4f0889cbe9dc335f72c12cc91ecebd427d4ae2e6772aafa83a2f593f92fa15fa",
+      "new_revision": false
+    },
+    {
+      "step_id": 3214910,
+      "module_number": 7,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/770590/03_3214910_text.step",
+      "file_sha256": "ec0dc14fc8bf746dbcd12b82b2afb0ee214e5fcc9c5ab67b16b9b2918238404c",
+      "text_sha256": "d1131399cfc39517f7f4b5285b81b38e5323a0b35ff8c91787996b2c40a5a8a0",
+      "new_revision": true
+    },
+    {
+      "step_id": 3214911,
+      "module_number": 7,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/770590/04_3214911_text.step",
+      "file_sha256": "8387349225c5d9c8793a21d36dfa76d6e1e1f03502293fb463bfce825594245d",
+      "text_sha256": "79c1b219bdea1fce06124007a8932a27391075117f5234510b299076c6329f3d",
+      "new_revision": true
+    },
+    {
+      "step_id": 3214971,
+      "module_number": 7,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/770591/04_3214971_text.step",
+      "file_sha256": "a6813aeb8bd034ab4310d3d54beb6edb0507042f63028b8c47d4bc9b0d1fc836",
+      "text_sha256": "7139c76ee5df93a140fa5d8745f9c8ae80d7817ba3b1226d55e142175074b3d8",
+      "new_revision": true
+    },
+    {
+      "step_id": 3214972,
+      "module_number": 7,
+      "path": "courses/86957/steps/770591/03_3214972_text.step",
+      "file_sha256": "748665155bdb7ba336f735979d3dd81dce66789b62aff912d08f101ece08b961",
+      "text_sha256": "f425fbcb2840142a51a50ce2a7245d4c9c5fa5f95fdb5014ddf04b4be3a38eca",
+      "new_revision": false
+    },
+    {
+      "step_id": 3214973,
+      "module_number": 7,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/770591/02_3214973_text.step",
+      "file_sha256": "64927fa835cb7f39526cd831bb9903fdc9c236a311465b8e3b36577f2afa1f7e",
+      "text_sha256": "948400981202119ab0462d7f7b5c089e5d34bce3cbeb44eea363dc104d75680d",
+      "new_revision": true
+    },
+    {
+      "step_id": 3214974,
+      "module_number": 7,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/770591/05_3214974_text.step",
+      "file_sha256": "14735511583b92b8743378dea8a94a9e422ddb08aa7a12eb53dacb98f80486d4",
+      "text_sha256": "c9cf3370c466d31f9ea316c270113a0ad32a405b69b7d5d16c93e35d95c2d513",
+      "new_revision": true
+    },
+    {
+      "step_id": 3214978,
+      "module_number": 7,
+      "path": "courses/86957/steps/770591/07_3214978_text.step",
+      "file_sha256": "8e9dfb86d047011bff9ff21e9d69fa09189af0a93bf9160aef4574a0faf15f0e",
+      "text_sha256": "fd7ad2acb0dfe1f66566e1822b1c1cfa4d26235a1d272ce92d40c3b85e8fa326",
+      "new_revision": false
+    },
+    {
+      "step_id": 3214991,
+      "module_number": 7,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/770592/03_3214991_text.step",
+      "file_sha256": "9d073900263b2ebc4f86fde9f85f3283e40e185579733ac797a0bbef73e52a6b",
+      "text_sha256": "80166409f342149c89d763b8573b686e372841cddbd214a1c5d64bc8d424db37",
+      "new_revision": true
+    },
+    {
+      "step_id": 3214992,
+      "module_number": 7,
+      "path": "courses/86957/steps/770592/01_3214992_text.step",
+      "file_sha256": "31bb12831a0faeea5ebbc0b8fb3d074d23b3807f431dd78b2a6c3ca500195908",
+      "text_sha256": "4278356e4179f5a1f35aac07184bb1413542257d0b14be56f8a3309502fc6b41",
+      "new_revision": false
+    },
+    {
+      "step_id": 3215024,
+      "module_number": 7,
+      "path": "courses/86957/steps/770591/06_3215024_text.step",
+      "file_sha256": "0e10d37e8fafe36ce856859bf7377e2d5c303c4af1481c211cd572d71e06cfbd",
+      "text_sha256": "53e3ff98041d01bac6d7375b5de4b3eb5f57287d13ddb12a812de84bbd34753f",
+      "new_revision": false
+    },
+    {
+      "step_id": 3215031,
+      "module_number": 7,
+      "path": "courses/86957/steps/770593/02_3215031_text.step",
+      "file_sha256": "c7b746c41364c0ae68b61bf6485e80211e05718e84a21541d74fc294c785c309",
+      "text_sha256": "f264e73ed61e62cff8848244c702b3ea8d6669609a494ff47725009d68795ea3",
+      "new_revision": false
+    },
+    {
+      "step_id": 3215032,
+      "module_number": 7,
+      "path": "courses/86957/steps/770593/03_3215032_text.step",
+      "file_sha256": "92ffa9f62b3d6d8ab6dfbdf4d7500e3ef4e23945bc3f851cad44d652530d9f72",
+      "text_sha256": "338d4bcc7a1095288f23966290c65e6ffe647f5eb60e45800378b301bcb23c87",
+      "new_revision": false
+    },
+    {
+      "step_id": 3215045,
+      "module_number": 7,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/770593/04_3215045_text.step",
+      "file_sha256": "81e4ff413bf5cbf08e651e9495352cc927c81e52a1fa23df7f421f234dc09a2e",
+      "text_sha256": "d3794827cf3fbdfd55e313704f47d22531f6b6f2c3f4c2539101c090736ef5b5",
+      "new_revision": true
+    },
+    {
+      "step_id": 3215075,
+      "module_number": 3,
+      "path": "courses/86957/steps/768143/03_3215075_text.step",
+      "file_sha256": "875a76c5893271c0738cf458171dc7cce9c579d29044df5edcc958bd2ca2c0cf",
+      "text_sha256": "e9befc569205a3379ee96f888347f62bfc9f1ed4b5d5021b26efa34ba81e735a",
+      "new_revision": false
+    },
+    {
+      "step_id": 3215081,
+      "module_number": 3,
+      "path": "courses/86957/steps/768143/04_3215081_text.step",
+      "file_sha256": "4a34f89a46fd744c491512a0246e413898f0029d505df1201f4c6fc25a292f42",
+      "text_sha256": "9e8790c3e79a07b93a4d2e794916d8272da04af16c5b96b953d7c44224b85f30",
+      "new_revision": false
+    },
+    {
+      "step_id": 3215092,
+      "module_number": 3,
+      "path": "courses/86957/steps/768143/05_3215092_text.step",
+      "file_sha256": "b16e2f15e3c98c606a22077c16b5ba6554bbfe1b53839435959ea8e265b75daa",
+      "text_sha256": "2bdd2f504258d36954caeb7c78e40c56cf2a118d82e6c1bc462168a8351cc297",
+      "new_revision": false
+    },
+    {
+      "step_id": 3215105,
+      "module_number": 4,
+      "path": "courses/86957/steps/763640/02_3215105_text.step",
+      "file_sha256": "b1bb4ff747bc603d34afdc0acf0fd3183bdbf53692a87f56f109242571ae4c4c",
+      "text_sha256": "6e02f65a4124dc7437ec7602fac9974d1ba9535ff5540e42c9ca6831f4340d40",
+      "new_revision": false
+    },
+    {
+      "step_id": 3215109,
+      "module_number": 10,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/771129/01_3215109_text.step",
+      "file_sha256": "a202f2322fab10ffa8e22e336fe786f6094c756a09ef49db2a552625df7ba778",
+      "text_sha256": "1adc88be677b39e898ea6fc5c7c42181ec7d832069101caf2f2e9e167e606795",
+      "new_revision": true
+    },
+    {
+      "step_id": 3215112,
+      "module_number": 11,
+      "path": "courses/86957/steps/771130/01_3215112_text.step",
+      "file_sha256": "7352e275877be85d40a90ad8a60f1ccda919008a54379099087aba40cbafd3c4",
+      "text_sha256": "d7c4fe7faf1e4e8a2b43d51ce53bfd91e8151b943923c7cd2d9510fb37c3fcf5",
+      "new_revision": false
+    },
+    {
+      "step_id": 3215113,
+      "module_number": 11,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/771131/01_3215113_text.step",
+      "file_sha256": "d20a78e26c6f3799883565accf379d61061904a12ab1c06bb3721755612b5b43",
+      "text_sha256": "34abed2c50bec5e41dc3c3f753e3bbbb0a1176ef8a7eb9c256698f507ff5bed6",
+      "new_revision": true
+    },
+    {
+      "step_id": 3215136,
+      "module_number": 10,
+      "path": "courses/86957/steps/770595/02_3215136_text.step",
+      "file_sha256": "376753642997df8618f879241500fb3b725df2bd3a91bbcb7552423a1eb6d8e4",
+      "text_sha256": "7423800297a801f24947607349d05f6c1dcfdf91998b635ccc0e946b2d46012e",
+      "new_revision": false
+    },
+    {
+      "step_id": 3215137,
+      "module_number": 10,
+      "path": "courses/86957/steps/770595/03_3215137_text.step",
+      "file_sha256": "f48fbafe75ee842c3b0a53af5e0c07577521e67e129d9e54b665f583fbc10041",
+      "text_sha256": "1625872ef8bbe73a9274ea2862f0f0fd4d57dc5686b67c2c42465fc99f908c4f",
+      "new_revision": false
+    },
+    {
+      "step_id": 3215175,
+      "module_number": 10,
+      "path": "courses/86957/steps/770595/05_3215175_text.step",
+      "file_sha256": "10c07abaf2a2c638c915ee78e2cca5e89d651e1739da9886e54a7dd5a00b531d",
+      "text_sha256": "21616f290447d1b62dc2cc749eed544bc672da3c25b9ed62e8e73d01d973fc3f",
+      "new_revision": false
+    },
+    {
+      "step_id": 3215176,
+      "module_number": 10,
+      "path": "courses/86957/steps/770595/04_3215176_text.step",
+      "file_sha256": "383c4e1bfb3c6a2177fcbc8f6b97e630a0f271228ebde92cca6623dec03b26b7",
+      "text_sha256": "11831c958306fd1bb321dbe215985f120b8513d3dc55537f367623a5caf07325",
+      "new_revision": false
+    },
+    {
+      "step_id": 3215177,
+      "module_number": 10,
+      "path": "courses/86957/steps/770595/07_3215177_text.step",
+      "file_sha256": "ef631ddd8b057b4f52afd47c848796080c7cc7686816b5b478848caeefe37f77",
+      "text_sha256": "cfbe37adf23d38cf44dc7495214f8e4d2b593c86209cb6e1ccb525878a8f29a5",
+      "new_revision": false
+    },
+    {
+      "step_id": 3215178,
+      "module_number": 10,
+      "path": "courses/86957/steps/770595/06_3215178_text.step",
+      "file_sha256": "43b54859da1b1904346c69526d0d602eda6a7537688781b682f6d0d3d15f60ae",
+      "text_sha256": "716e39766e8e4716131f44f6a2afd25e8bb5d1289f84a28b34b0238f763204ce",
+      "new_revision": false
+    },
+    {
+      "step_id": 3215179,
+      "module_number": 10,
+      "path": "courses/86957/steps/770595/08_3215179_text.step",
+      "file_sha256": "fcc7a6ed314ca062cea0bf804a2d5e35df74e47fbb4da0315e4226ed116dd6f3",
+      "text_sha256": "d1a2439bdd1e5cc8c9bbee0de5595d4aa2c6cbcbd51f823439b34c4b71369adb",
+      "new_revision": false
+    },
+    {
+      "step_id": 3215183,
+      "module_number": 10,
+      "path": "courses/86957/steps/771129/02_3215183_text.step",
+      "file_sha256": "ab1b70d78bbfdb316badf0ae41baa35e4e0a795aa12e04ba39e349b9f11b1639",
+      "text_sha256": "d8ccd4fab966fef340c9b197cf4485b452b80fac029237d63fbbd3c73bb77854",
+      "new_revision": false
+    },
+    {
+      "step_id": 3215191,
+      "module_number": 10,
+      "path": "courses/86957/steps/771129/04_3215191_text.step",
+      "file_sha256": "f66d433d86253eead84a3210e6d1e403729576aec37e012b3164d4c3e2bef508",
+      "text_sha256": "c6fd17a13d71d0d7d2a8117e8e7505a674b7c3c641e0ec8b693f6f4b098d9e89",
+      "new_revision": false
+    },
+    {
+      "step_id": 3215192,
+      "module_number": 10,
+      "path": "courses/86957/steps/771129/03_3215192_text.step",
+      "file_sha256": "0eb05ea47aca40c66b4632f1bdd3adfc6a1812f1575a5a57e3e7c69f94285d9d",
+      "text_sha256": "41f207c4131046af423c2a5e7a5904794f74d8374bb383f3415286aa6052ef4d",
+      "new_revision": false
+    },
+    {
+      "step_id": 3215199,
+      "module_number": 11,
+      "path": "courses/86957/steps/771131/03_3215199_text.step",
+      "file_sha256": "290d6b7b5b60ad511028b9be9a7fd8ab03df4b0344e9158a69621926d7490a67",
+      "text_sha256": "7798bee6f1554ae04c701fa46a2ce65bec352969cfeecce81f82df6ad4e7edf6",
+      "new_revision": false
+    },
+    {
+      "step_id": 3215200,
+      "module_number": 11,
+      "path": "courses/86957/steps/771131/02_3215200_text.step",
+      "file_sha256": "1afcc1867ff7023f4e795bd0b619b7f89e0cef35a38a8334959cb5a502c77209",
+      "text_sha256": "2589067d06fcbeaacca19d214d1cc153a03a2cad8a22acbcf725b780bcfc4b12",
+      "new_revision": false
+    },
+    {
+      "step_id": 3215203,
+      "module_number": 11,
+      "path": "courses/86957/steps/771130/02_3215203_text.step",
+      "file_sha256": "f2dd24b146379aa32b40fb94b862f70c343312f9027def1163d2cdf57dcfda75",
+      "text_sha256": "6bd551419c9480657f7a2f2030665c1370d99146ebe9c29d1a23e28b550da800",
+      "new_revision": false
+    },
+    {
+      "step_id": 3215206,
+      "module_number": 11,
+      "path": "courses/86957/steps/771130/03_3215206_text.step",
+      "file_sha256": "38837de4d0423da2af400a995a1859c7c24e72637a7dc2fcf9df0aa8a6920f49",
+      "text_sha256": "e16e9688ba287dcbaaa3a270f6a43061d83949d2362d74f89ff300fb1cf047d6",
+      "new_revision": false
+    },
+    {
+      "step_id": 3215231,
+      "module_number": 12,
+      "path": "courses/86957/steps/770596/02_3215231_text.step",
+      "file_sha256": "de40c07958a6d14c365630e9b740897fc27da8ec906fd1cf4afdf2ba92d389b0",
+      "text_sha256": "fd40c1536363b0d283a6c4d8ed4054010de7a560824828a2280e794ea663117e",
+      "new_revision": false
+    },
+    {
+      "step_id": 3215232,
+      "module_number": 12,
+      "path": "courses/86957/steps/770596/04_3215232_text.step",
+      "file_sha256": "b550c17c0bed73fe561884d998703861d56220790290d101a48461fce8b9dc01",
+      "text_sha256": "38aae7c3bc0b073a8558a9aefacf63e467bd4c62c75c0f7d47d38d1549cb7a3c",
+      "new_revision": false
+    },
+    {
+      "step_id": 3215233,
+      "module_number": 12,
+      "path": "courses/86957/steps/770596/05_3215233_text.step",
+      "file_sha256": "f5cfc4f4206245afc26982885425b733b9b8802e1635f647bac50f770ea375ef",
+      "text_sha256": "a20a1004805bbcab642eb2ae049bfd482cf6671e3e06df4d59370dfaec6b2431",
+      "new_revision": false
+    },
+    {
+      "step_id": 3215234,
+      "module_number": 12,
+      "path": "courses/86957/steps/770596/03_3215234_text.step",
+      "file_sha256": "27013c82cae853fc7cd95d196c141ac8294e6590614f22c07d9fcb0645a73b59",
+      "text_sha256": "f2a2f49c93e8eaf808322eb4e1c41c9aee4c003303e06aff78ebfd52b89127b6",
+      "new_revision": false
+    },
+    {
+      "step_id": 3215235,
+      "module_number": 12,
+      "path": "courses/86957/steps/770596/06_3215235_text.step",
+      "file_sha256": "62becbf2076dd1c5957b8cb9766f8989b2a1b816376846d6ccd896a43f372bb3",
+      "text_sha256": "cf4262e78cd6151c79cf7a825fe1bbbac17384469884dfd94477ec53338a1b7f",
+      "new_revision": false
+    },
+    {
+      "step_id": 3215236,
+      "module_number": 12,
+      "path": "courses/86957/steps/770596/07_3215236_text.step",
+      "file_sha256": "340dd6a78c8e2d0959ede9cc5f7b509a77492c44ad5ae10ae2a7b2e64f6f75de",
+      "text_sha256": "5baa6453fdca48199920b72518c16952ada77dd3cf42ea1a497d62f3aa080306",
+      "new_revision": false
+    },
+    {
+      "step_id": 3215242,
+      "module_number": 12,
+      "path": "courses/86957/steps/770597/04_3215242_text.step",
+      "file_sha256": "8428de2de5451c4dcff4ff72af54ec41f5df8ef3dc57ffd80aec854cfa6ade60",
+      "text_sha256": "93a342f6d43e856bcc9a064eded16afeb86947b316e17161bbe7f15f07ada7d9",
+      "new_revision": false
+    },
+    {
+      "step_id": 3215243,
+      "module_number": 12,
+      "path": "courses/86957/steps/770597/02_3215243_text.step",
+      "file_sha256": "3befc18070db74cb05d477958ebdac664b015b5f22c769cc86b78633fac6eb90",
+      "text_sha256": "a4e58cf8b0d1b70faeb86426b832a2d4f6ff9cdea3bf10d5b9c5fc9ed8fb6e3d",
+      "new_revision": false
+    },
+    {
+      "step_id": 3215244,
+      "module_number": 12,
+      "path": "courses/86957/steps/770597/03_3215244_text.step",
+      "file_sha256": "8336219cd4668d01625cd6be3be9dd8dd4033d8c61408ce7331d9efb5aa96f69",
+      "text_sha256": "d6a94afa16e300e638ef42d72facb8177f05cbbe9b66b741800cea449987fae4",
+      "new_revision": false
+    },
+    {
+      "step_id": 3215247,
+      "module_number": 2,
+      "path": "courses/86957/steps/771154/01_3215247_text.step",
+      "file_sha256": "ce37618793615e503681e2cfc442a30b70596eb39f35b6b35d3bde114901366c",
+      "text_sha256": "4393de6b77df5427770b194c22775e04601c810c7fab614e5b2750f31754cfc2",
+      "new_revision": false
+    },
+    {
+      "step_id": 3215252,
+      "module_number": 2,
+      "path": "courses/86957/steps/771154/04_3215252_text.step",
+      "file_sha256": "26e8ebea6a852a26cef1d01d55d0c3b6e05482bdd0b8c389ca86ad890859be0f",
+      "text_sha256": "62765da801475a461ad721b38e29cfb559123fcb587219dfd45c596dc44cf7df",
+      "new_revision": false
+    },
+    {
+      "step_id": 3215253,
+      "module_number": 2,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/771154/02_3215253_text.step",
+      "file_sha256": "d415b0cd8bb077c4635acca47ba898775135212bf9c761142c1429e67603db8c",
+      "text_sha256": "86165b684a30db85963fe53f731cd036c3b41c747e5156c42f943773a11da8b1",
+      "new_revision": true
+    },
+    {
+      "step_id": 3215254,
+      "module_number": 2,
+      "path": "courses/86957/steps/771154/03_3215254_text.step",
+      "file_sha256": "bac2c32e65cb05155259158db63832745aa837061fd638fbdcccf8a1f4632930",
+      "text_sha256": "efcedec96456cbddd04603e81571b3b5bdc7233ee9e8460558e66017c084eb09",
+      "new_revision": false
+    },
+    {
+      "step_id": 3215255,
+      "module_number": 2,
+      "path": "courses/86957/steps/771155/01_3215255_text.step",
+      "file_sha256": "6551b1bc627980798d84ad85475bb361750ec8d7e8f936a9dcfb9d8ec0f2113a",
+      "text_sha256": "464f2ece5be05c6a32ebb2345029839df76237deb51990a9de502f4cd8bd67db",
+      "new_revision": false
+    },
+    {
+      "step_id": 3215256,
+      "module_number": 2,
+      "path": "courses/86957/steps/771156/01_3215256_text.step",
+      "file_sha256": "0f2f6942a0dfcc61aa42fd63e968d6dca7551a77f0b56e0723365cbe5098ae70",
+      "text_sha256": "975c771e23e30b2e8f50970be1a0d0b47fe84662e4c278be126e2e2d2df61840",
+      "new_revision": false
+    },
+    {
+      "step_id": 3215257,
+      "module_number": 2,
+      "path": "courses/86957/steps/771155/03_3215257_text.step",
+      "file_sha256": "d62100cb8718d027e7544f8fee300f1f4bd55a816b5232af7f05b80fe0d2b941",
+      "text_sha256": "6036f648071dbf47e2d92f3a95c4f245bb29f7377eebd9a9ad536bfbbf9f6e79",
+      "new_revision": false
+    },
+    {
+      "step_id": 3215258,
+      "module_number": 2,
+      "path": "courses/86957/steps/771155/02_3215258_text.step",
+      "file_sha256": "ece06f35f68279b56a6de71baebfedfe4de8f95f519de4e344990fee93fd3780",
+      "text_sha256": "87b17208e55021b0618f5397ea152c6d16c1f7e157f993f3e806a426f6f9ae71",
+      "new_revision": false
+    },
+    {
+      "step_id": 3215265,
+      "module_number": 2,
+      "path": "courses/86957/steps/771156/05_3215265_text.step",
+      "file_sha256": "0c919da9ccea4a18c737aece28a1d70cb31911c9450134dedfc7fe05ec02ee77",
+      "text_sha256": "4c957298b83de32d8c01790c66191866d887db2ecc1150bb8b93c30cd19f3d9c",
+      "new_revision": false
+    },
+    {
+      "step_id": 3215266,
+      "module_number": 2,
+      "path": "courses/86957/steps/771156/04_3215266_text.step",
+      "file_sha256": "4d188e0f95318bb4125ac2a604f34e7044c3af6ca94abf0eff6355afe0c3113a",
+      "text_sha256": "042c00c3a417f8e9396f5a3d797e77a1319549d9e7ab0b314ea6ede4f84357be",
+      "new_revision": false
+    },
+    {
+      "step_id": 3215267,
+      "module_number": 2,
+      "path": "courses/86957/steps/771156/03_3215267_text.step",
+      "file_sha256": "a614933fbd1690f3ceb2e0dafe4c7a696a631bbc030aeb98e673fba43a0e804b",
+      "text_sha256": "69d394951b0cf65554169d4f8082d1c5fafd09b23633386dcbe53f070ff87029",
+      "new_revision": false
+    },
+    {
+      "step_id": 3215268,
+      "module_number": 2,
+      "path": "courses/86957/steps/771156/02_3215268_text.step",
+      "file_sha256": "3e218f6304c6b842b85947fbe3a25f7076c8ead2a8ff4cfc7319805cce7d4192",
+      "text_sha256": "3f948b95a5dc989356ea1ae36e3faf1fdc7d72b93a50e8f64f66e46b76c44b9e",
+      "new_revision": false
+    },
+    {
+      "step_id": 3216509,
+      "module_number": 12,
+      "path": "courses/86957/steps/770596/08_3216509_text.step",
+      "file_sha256": "62c4751f8a7eb19ed65496a9b23b20bca189541a13070064225f2df4ee66d62a",
+      "text_sha256": "1819dd5543876a0c924bd9b6cb576f9b988fb98b7dc60cfbb12691fbee14f75b",
+      "new_revision": false
+    },
+    {
+      "step_id": 3230371,
+      "module_number": 3,
+      "path": "courses/86957/steps/774618/01_3230371_text.step",
+      "file_sha256": "a60fad23fea88de4923bc7c07c4ef616c5970ce47080aa529cb6cf6fea45744e",
+      "text_sha256": "9d8c4fe9d42ea971cfb302dc567b623a54dc10899e126c9124424e32f5a69350",
+      "new_revision": false
+    },
+    {
+      "step_id": 3231226,
+      "module_number": 3,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/774618/05_3231226_text.step",
+      "file_sha256": "d2b63b2f877452c56db09e7c00026b8df7042b0a7f0554611f3a2d422d55d4ca",
+      "text_sha256": "0ff5b1d29a7667bdaf2399ff6e1a15fdb692735b0cc57c6660f2604270bd7e4f",
+      "new_revision": true
+    },
+    {
+      "step_id": 3231227,
+      "module_number": 3,
+      "path": "courses/86957/steps/774618/02_3231227_text.step",
+      "file_sha256": "cf537e9cae0b8dd40ecfb5c9566a9e7cbb647e5371b78e13e793d7882ce5494a",
+      "text_sha256": "2f92c8ec49e59d43321073458d08206b1ea3b28c9cde680f2a0ca7fd28c71768",
+      "new_revision": false
+    },
+    {
+      "step_id": 3231228,
+      "module_number": 3,
+      "path": "courses/86957/steps/774618/04_3231228_text.step",
+      "file_sha256": "8547815672c15c01aeaf983ac3c74a3430f8b98f2c5e666375d826b502faf24f",
+      "text_sha256": "f39fe68bb0fc111d0e70950499ec91165436e7972c91e714774a620a775ce900",
+      "new_revision": false
+    },
+    {
+      "step_id": 3231317,
+      "module_number": 3,
+      "path": "courses/86957/steps/774618/03_3231317_text.step",
+      "file_sha256": "f88005a130b0a79298dfdbacbb67be0171d58f3e7a8afd8062b42d4174787612",
+      "text_sha256": "afbd585d440066758ad3974627636fc2fbb71f55a12b95f1ef781710ceebb870",
+      "new_revision": false
+    },
+    {
+      "step_id": 3237946,
+      "module_number": 3,
+      "path": "courses/86957/steps/776128/01_3237946_text.step",
+      "file_sha256": "9fcfd8f4998a5f6c6e8bed355468f1bdb2addff482f60f28b75c59efd51c9aa6",
+      "text_sha256": "e608269372d3d681f23a4085588edf461f0060428b3ee47b1eff05518826c2ac",
+      "new_revision": false
+    },
+    {
+      "step_id": 3237955,
+      "module_number": 3,
+      "path": "courses/86957/steps/776128/02_3237955_text.step",
+      "file_sha256": "2d6e67c2bfbd61f760827b463a8fabcd981bee30d8e33d1585ea5506d108a3e3",
+      "text_sha256": "5c5045d723d215d1b000edc7311599704ca3397ae39523a42511ffaf4963718f",
+      "new_revision": false
+    },
+    {
+      "step_id": 3237989,
+      "module_number": 3,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/776128/03_3237989_text.step",
+      "file_sha256": "752d26e4067138cd7eab264c3b7ff6de7aea968dd598d016c00d65d692b0936f",
+      "text_sha256": "b6af599a33fb0ac1ef3b8d8f19d94414a37d1a2e4b15eb8c5cbe744844206cd0",
+      "new_revision": true
+    },
+    {
+      "step_id": 3238004,
+      "module_number": 3,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/776128/05_3238004_text.step",
+      "file_sha256": "af3b38adcfbc3084dc53afe23f6d4fcfc314db6a819e48552a5490aa75a80b2b",
+      "text_sha256": "35f97dce5e448c5e470a3ac8fdc5ec08c5d414ee1629e512913cf9a980e8dedd",
+      "new_revision": true
+    },
+    {
+      "step_id": 3238005,
+      "module_number": 3,
+      "path": "courses/86957/steps/776128/04_3238005_text.step",
+      "file_sha256": "13d3fb30979f46299c5750dd5747d2886b9911c29e7a762654b099b461ddd70a",
+      "text_sha256": "d0c5369e484e77646ca278ac10cbfd233bfcadfd1b8d3a8fc00920fed3bdbdfd",
+      "new_revision": false
+    },
+    {
+      "step_id": 3238006,
+      "module_number": 3,
+      "path": "courses/86957/steps/776128/06_3238006_text.step",
+      "file_sha256": "183434b64e6669cb396fb010dad18f1945d4abcd671cde1390e4e71a39f9d0f6",
+      "text_sha256": "432c75eb3cde39e6e67acadfc7d32250199d459263735d8c076409d496945d81",
+      "new_revision": false
+    },
+    {
+      "step_id": 3251321,
+      "module_number": 8,
+      "path": "courses/86957/steps/778425/01_3251321_text.step",
+      "file_sha256": "1155d1ac5b8926f2f15ccd3323b23c17c454412f86f6f03cf9ab8bed8637c865",
+      "text_sha256": "acb5a5983fb8e4fd251862b5c7fe3afac4071a20741cf3107bd558e2d52d2b3c",
+      "new_revision": false
+    },
+    {
+      "step_id": 3251322,
+      "module_number": 8,
+      "path": "courses/86957/steps/778426/01_3251322_text.step",
+      "file_sha256": "789d25e8ff4542db7366414b56d45221a52fe37b3b1a8bb554a57260aa11fc9d",
+      "text_sha256": "f650d02d1218d7255beddd8a7ac22ac6f40adedf0f5023c82dc468c1aa3ebe75",
+      "new_revision": false
+    },
+    {
+      "step_id": 3252939,
+      "module_number": 8,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/778425/02_3252939_text.step",
+      "file_sha256": "ff05f508224353ff78be83b504174c3bc3fd29350f78c5b2f98510556c0fe750",
+      "text_sha256": "a479e8fbdabdc0f7c215ad07ce5be483167b29dd8e606f0ac4273d7a7be11392",
+      "new_revision": true
+    },
+    {
+      "step_id": 3252940,
+      "module_number": 8,
+      "path": "courses/86957/steps/778425/04_3252940_text.step",
+      "file_sha256": "ddd860be50878443881c53a6661918219cfdf64f88f02d3004653c20a2fbebf3",
+      "text_sha256": "0ea38faf83956903f5b152d3a5f235c758b41fd083edc4b4e58775ad75058e11",
+      "new_revision": false
+    },
+    {
+      "step_id": 3252941,
+      "module_number": 8,
+      "path": "courses/86957/steps/778425/03_3252941_text.step",
+      "file_sha256": "765670a3b9e779818df4840d75f41c78642714f07edbae2a5ff38e6c9974d587",
+      "text_sha256": "a7b7f2742b52887086035750e0f678592e6a6173b1babb17e82ffd4c12701654",
+      "new_revision": false
+    },
+    {
+      "step_id": 3253129,
+      "module_number": 8,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/778426/02_3253129_text.step",
+      "file_sha256": "65e0159a56eb02f89177e160e2efdb4874733612b6705396c412025fa59a859c",
+      "text_sha256": "f1f67d8ecf3e3889d8a1fa098ba39e1d1307ff44f8869dfc2689d7f6b0ca599f",
+      "new_revision": true
+    },
+    {
+      "step_id": 3253429,
+      "module_number": 8,
+      "path": "courses/86957/steps/778426/04_3253429_text.step",
+      "file_sha256": "4f3d8e2dc9cbd840e72413bc3e8963c697f4c9b275289ad0a17ee24d399aec34",
+      "text_sha256": "f2b490d577e461276d0f87a627f8c094e6c9d381649fa7c5152774c3c8fcda56",
+      "new_revision": false
+    },
+    {
+      "step_id": 3253503,
+      "module_number": 8,
+      "path": "courses/86957/steps/778426/05_3253503_text.step",
+      "file_sha256": "8dff008ffd0d344a3a830c6d87bd5616fd73046a704c789c42d018f0bf686f55",
+      "text_sha256": "972e3a68d7ad22ad6893d7eda92a9f419c6be806d4c3db561181bf885c4cd706",
+      "new_revision": false
+    },
+    {
+      "step_id": 3253548,
+      "module_number": 8,
+      "path": "courses/86957/steps/778426/06_3253548_text.step",
+      "file_sha256": "0286900c5ff6fb22ed7d5d85656c2059de0d0583797c27396ef4320f3d27692e",
+      "text_sha256": "138ffc3eb2d7bcfce9490e2e6934f339af7baee038cd222e08d215b70eda988a",
+      "new_revision": false
+    },
+    {
+      "step_id": 3253553,
+      "module_number": 8,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/778426/07_3253553_text.step",
+      "file_sha256": "2abe1c1ee3afcb6412cfa9f3dec7fe29cc6894994f5eee71983c1489b5546a79",
+      "text_sha256": "70bab3650f525a21ae12c20b1f3bff45bd0d438f824834f4c98c57d00ecbdcde",
+      "new_revision": true
+    },
+    {
+      "step_id": 3253557,
+      "module_number": 8,
+      "path": "courses/86957/steps/778426/09_3253557_text.step",
+      "file_sha256": "fd008a5f567d853ecb7ff0598b4e6d06fe3e205f0f753254e6eaef9f91136281",
+      "text_sha256": "c89f3d78cbc4a14379a65de4a9978a0ad03af49f23cf647353dfcf6fdc361477",
+      "new_revision": false
+    },
+    {
+      "step_id": 3262706,
+      "module_number": 4,
+      "path": "courses/86957/steps/763630/02_3262706_text.step",
+      "file_sha256": "1eb9023ab4258446e906f4c07228d8c71c9fb13cbc8ed24d8a02cf417a161db2",
+      "text_sha256": "0ae3112c5fa51e5576bb21ad33b0fe87e1f0991fcb594c8f249eac1620925a95",
+      "new_revision": false
+    },
+    {
+      "step_id": 3262711,
+      "module_number": 4,
+      "path": "courses/86957/steps/763630/06_3262711_text.step",
+      "file_sha256": "914a70ed3b157ad8bdfa1ec1b47fbb3a7743fc3a70effa8af8455b0d74b1d13d",
+      "text_sha256": "3dac9622a99d13cdbddfa2af82e70563272c385f86689dbd71251f4706df6bdc",
+      "new_revision": false
+    },
+    {
+      "step_id": 3307684,
+      "module_number": 6,
+      "path": "courses/86957/steps/770587/06_3307684_text.step",
+      "file_sha256": "0ab0b102c82cf35829f1507c8f9e8bc4cf20493116f8bbdf27cbff92ba4daea9",
+      "text_sha256": "ee828a85ad23ede3d25f43b5e0734ef45165155a60d2be1214a37cf883624838",
+      "new_revision": false
+    },
+    {
+      "step_id": 3438841,
+      "module_number": 6,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/770586/06_3438841_text.step",
+      "file_sha256": "170bdcd09d4fc2521171f31b9b5f9250b59374e76ce2c580d16540f490610682",
+      "text_sha256": "6fca84f326176a2c7be1e419454b0b6951d55c84ea11d046958e1cbcc79542e1",
+      "new_revision": true
+    },
+    {
+      "step_id": 3438842,
+      "module_number": 6,
+      "path": "courses/86957/steps/770586/05_3438842_text.step",
+      "file_sha256": "eba40d21386ad03838485af73c0c9efffd09e871e3d0965894485eb391cab32e",
+      "text_sha256": "a94724015f3a85794e0ec3eba632131436d79a7dee58e112e20b499d29e74d97",
+      "new_revision": false
+    },
+    {
+      "step_id": 3569321,
+      "module_number": 14,
+      "path": "courses/86957/steps/853532/01_3569321_text.step",
+      "file_sha256": "98923c556808144d42bf8e081dca6b66c3e1319970f77b13c14c64fdd69666ce",
+      "text_sha256": "6ac41a60b86de51c7517caada30c641bc5bfe76ef99424fb350ac7759f06fe4c",
+      "new_revision": false
+    },
+    {
+      "step_id": 3569323,
+      "module_number": 14,
+      "path": "courses/86957/steps/853534/01_3569323_text.step",
+      "file_sha256": "c382c403ac2cca7257ee8ce8a1d020038e58b6bb6e6a4944647df2cdb46c57e3",
+      "text_sha256": "77b7fc866683d2723fc70b189c07acafc96926eec77abc247414d8f18cc4898c",
+      "new_revision": false
+    },
+    {
+      "step_id": 3569324,
+      "module_number": 14,
+      "path": "courses/86957/steps/853535/01_3569324_text.step",
+      "file_sha256": "b58349aaae6f3ec0482513e89ca4067e1e62290ead9fe56d8bc5107817394928",
+      "text_sha256": "d7875e17a7b2fca2855669c61581f9ccaadf3da1b6aef4061e20b325829bb3c0",
+      "new_revision": false
+    },
+    {
+      "step_id": 3569325,
+      "module_number": 15,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/853536/01_3569325_text.step",
+      "file_sha256": "3a351e9d6dfc2ddadd651f2a947e06280d2e0dca796c311a92df236784cd4b11",
+      "text_sha256": "8ec5f0a9372b209ce2efc4057a044f1c2be0bfe067c91a1ebea034fb37a4159e",
+      "new_revision": true
+    },
+    {
+      "step_id": 3569327,
+      "module_number": 15,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/853537/01_3569327_text.step",
+      "file_sha256": "e4d605309c08d5576a4a5691ad387cec6d2b0873bdf7f52ec8556b2345fac1cd",
+      "text_sha256": "1c08514e0700c512a8094e7ba611534722a949f82ca53b10f5ca04655fd94551",
+      "new_revision": true
+    },
+    {
+      "step_id": 3569329,
+      "module_number": 17,
+      "path": "courses/86957/steps/853539/01_3569329_text.step",
+      "file_sha256": "4a1670263d9429f6643c06254ac79547f0b99296946cf7efcfed5f6326ba2487",
+      "text_sha256": "ccb2178e45e34a0807332695268b17b2a66973781164d5b2420f132039b2735d",
+      "new_revision": false
+    },
+    {
+      "step_id": 3569330,
+      "module_number": 17,
+      "path": "courses/86957/steps/853540/01_3569330_text.step",
+      "file_sha256": "d883f54230d59e49eb10671bf98cd7a7bbd0ccda4fe6d99e6c7c5a6202d0763d",
+      "text_sha256": "91c32017f2b7a6ddd875af01e4d8942fc4373c2ac4409882f8fffb0eb0fbce91",
+      "new_revision": false
+    },
+    {
+      "step_id": 3569332,
+      "module_number": 17,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/853541/01_3569332_text.step",
+      "file_sha256": "b48beb3e4d998abf79a0bcf2b4ddb1bd79ef8cecfbd6ce8ed594426180facc61",
+      "text_sha256": "cec752d49e175877488646f61ca1018f41b888fdf8605b4d539eb6311294757f",
+      "new_revision": true
+    },
+    {
+      "step_id": 3569891,
+      "module_number": 14,
+      "path": "courses/86957/steps/853532/02_3569891_text.step",
+      "file_sha256": "c704539b24feb11a56626195f6ef72db2fc87e0e3810c53693020bdfbd50ddb0",
+      "text_sha256": "c9f091d24bce8b5501a6879a130f90636353e30b1ae0b49d40c65f1f7371161a",
+      "new_revision": false
+    },
+    {
+      "step_id": 3569896,
+      "module_number": 14,
+      "path": "courses/86957/steps/853532/03_3569896_text.step",
+      "file_sha256": "871f7ac9a98aa9d9352ca0538a18a7b1feb1d5f4bf75b59c2df283de568d940d",
+      "text_sha256": "a775601104562aa695357bfaf8e6d81fdcac65c5d93f924e1e8fc270591b9e4c",
+      "new_revision": false
+    },
+    {
+      "step_id": 3569919,
+      "module_number": 14,
+      "path": "courses/86957/steps/853534/02_3569919_text.step",
+      "file_sha256": "6be4ca714d04379a97d0e55a61ef2b1cf4614c311ab774e7aee3621fa1256424",
+      "text_sha256": "d548cf2b5fe9ced807ccb8a9512b50c260e519cd65bc5be68c80d288f6ba02de",
+      "new_revision": false
+    },
+    {
+      "step_id": 3569932,
+      "module_number": 14,
+      "path": "courses/86957/steps/853535/02_3569932_text.step",
+      "file_sha256": "87dd63c0b5d80d66995bbfc73b856ba754a4e898d53c8188cd949d7f2fc31097",
+      "text_sha256": "f8ea16728ca47910874e97a3dc3cec7b3e06273a2a3c3f7fbff6ce8f279c5679",
+      "new_revision": false
+    },
+    {
+      "step_id": 3569963,
+      "module_number": 15,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/853536/03_3569963_text.step",
+      "file_sha256": "13e62d53a3ef3b2b372bb07ecd8bf7223f175e12e2b03d8c3e8bef22cbc5705f",
+      "text_sha256": "25a7dda65284ef20d317ded6c8c2abc5217a4d9e7b1540360bbcea9b31cfddc1",
+      "new_revision": true
+    },
+    {
+      "step_id": 3569964,
+      "module_number": 15,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/853536/02_3569964_text.step",
+      "file_sha256": "6c4b3c10641846477e34cfcaf8814e293baa9014df8598a1ea372ead646c1e18",
+      "text_sha256": "22c5d38f1187e312bea2c43a5e8641323b47a4806bfd399185defb34874c1a0b",
+      "new_revision": true
+    },
+    {
+      "step_id": 3570166,
+      "module_number": 15,
+      "path": "courses/86957/steps/853536/04_3570166_text.step",
+      "file_sha256": "aaa684cf2b62fe5ba06b5866c3c377596cc3783be0f6c26a63638fa8de1b41ac",
+      "text_sha256": "44418fe6eca10b8b0857e9793c5c0595452f461c1fbff12fa60795a9d35505ea",
+      "new_revision": false
+    },
+    {
+      "step_id": 3570213,
+      "module_number": 15,
+      "path": "courses/86957/steps/853537/02_3570213_text.step",
+      "file_sha256": "cd6e981da24259ba5c0a34a3e06e9cf60aa44391338a5d9aff1794251b6e5a21",
+      "text_sha256": "288795d59a314abc145c9a8bde586f21c297259f127f6f9d725eec1f4a1006a5",
+      "new_revision": false
+    },
+    {
+      "step_id": 3570230,
+      "module_number": 17,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/853539/02_3570230_text.step",
+      "file_sha256": "dbec07a03f0f6cc55cb15cb55f33b485cb47cd91371f29d12923c447dd316ba9",
+      "text_sha256": "9a4b6a39e146e285c8af8b8754ccbefae79f9ee05931e92b42204d4a719a5aec",
+      "new_revision": true
+    },
+    {
+      "step_id": 3570231,
+      "module_number": 17,
+      "path": "courses/86957/steps/853539/03_3570231_text.step",
+      "file_sha256": "426dfbe8af113277cae5def43177d45f3a2a332b62a19e2ba9d24bf93290a839",
+      "text_sha256": "e5a11d1954fc53735c49ff2516f195573feee711c24884a44a663ad3dbb86fda",
+      "new_revision": false
+    },
+    {
+      "step_id": 3570281,
+      "module_number": 17,
+      "path": "courses/86957/steps/853540/02_3570281_text.step",
+      "file_sha256": "d418f4fc4f0c5a05eacb720b96bd03d7285f4aa775b76c122f7112308fe5e1e1",
+      "text_sha256": "7b3f9fe4b5a104534d8902d217313bdbe802d91c4ac2a119569605e095e1e0c7",
+      "new_revision": false
+    },
+    {
+      "step_id": 3570303,
+      "module_number": 17,
+      "path": "courses/86957/steps/853541/02_3570303_text.step",
+      "file_sha256": "826d3b2d16a2cf0119f7f9381f8e5acca45920d8ab6f7af9cbb61ed75c2f44ec",
+      "text_sha256": "0c6b3327f49b7ecc00b37a5d3923b2d76b1b0a252248631f750d3cce33f4c108",
+      "new_revision": false
+    },
+    {
+      "step_id": 3570304,
+      "module_number": 17,
+      "path": "courses/86957/steps/853541/03_3570304_text.step",
+      "file_sha256": "dfda4a17131fbe0e637a6dfe126ea837d85f757aaca90e2dc1b3be71eccb3e87",
+      "text_sha256": "665dcfc40c06b48bd8655048adcfa5ea0ea484707e45577729754b0f0ef97c17",
+      "new_revision": false
+    },
+    {
+      "step_id": 3570332,
+      "module_number": 17,
+      "path": "courses/86957/steps/853541/05_3570332_text.step",
+      "file_sha256": "ef3cea5463fb96efe28b61138b6479736eafa82b2d600e0e14bc20ab93f14b11",
+      "text_sha256": "24fe2b474069039d96021130749969eec0895f5fe80afbcc382e12f66e24fc70",
+      "new_revision": false
+    },
+    {
+      "step_id": 3570333,
+      "module_number": 17,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/853541/04_3570333_text.step",
+      "file_sha256": "2d03dadf0feba385b34de2d8603e210fb766b2e605ac6ec33b31cb03acd46daf",
+      "text_sha256": "cf1639cea0bc8d72286d0faee72accb39441afb18edd69dbbf08de68e3bee706",
+      "new_revision": true
+    },
+    {
+      "step_id": 3580923,
+      "module_number": 11,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/771131/04_3580923_text.step",
+      "file_sha256": "844732654f70ebfd7acd27c0397029fadf0985a179cb60c2a498c9ef78234c82",
+      "text_sha256": "cc57016e8f249dcc8897e688eb7d774c7f785675b049b6f6313fbbefa914e0ab",
+      "new_revision": true
+    },
+    {
+      "step_id": 3668925,
+      "module_number": 13,
+      "path": "courses/86957/steps/877081/01_3668925_text.step",
+      "file_sha256": "92e08d9eb5555617e2758f1afa130673fe9e2b9d9fe034484f7378c95e82d86a",
+      "text_sha256": "49917fc861295bf38cbc3aab38d0dd79870367793b2a5489c5c80104a82ca4bf",
+      "new_revision": false
+    },
+    {
+      "step_id": 3668926,
+      "module_number": 13,
+      "path": "courses/86957/steps/877082/01_3668926_text.step",
+      "file_sha256": "89a5b0dbe2fbffe2526efd1d2bafb713ea0eea994c3c2d41d16c6fd16a2c13b3",
+      "text_sha256": "13420a8a823a6e4ef056a611c3d9695581a3b82a190a8f14aff706a2139522f6",
+      "new_revision": false
+    },
+    {
+      "step_id": 3668927,
+      "module_number": 13,
+      "path": "courses/86957/steps/877083/01_3668927_text.step",
+      "file_sha256": "5d902ebc8b76ac2d493b3ceb1401a73fd02dd624cb5a4ff8ec78db271d18b5a5",
+      "text_sha256": "c969270e18165e1607e6a8c0694c55b212b1c37f9850d8438502b5aae425c99b",
+      "new_revision": false
+    },
+    {
+      "step_id": 3668928,
+      "module_number": 13,
+      "path": "courses/86957/steps/877084/01_3668928_text.step",
+      "file_sha256": "a04e694b0b950aefcb910d805aa055a27fcfe530ef0ceaaee6bfa46d9c3d13a6",
+      "text_sha256": "0bfc455419129664fa860c670b3eb1732986055290265bd690869b508e47fdf1",
+      "new_revision": false
+    },
+    {
+      "step_id": 3668952,
+      "module_number": 13,
+      "path": "courses/86957/steps/877082/02_3668952_text.step",
+      "file_sha256": "ffc7df5523204c738f64d9c7913d46068fe1740dfc08760bb3b8da997ace4513",
+      "text_sha256": "ca5c745e8c4c98d5d50d95adf9ef1ac5dabc884bd8f0d14b494c0054fcf1981e",
+      "new_revision": false
+    },
+    {
+      "step_id": 3668953,
+      "module_number": 13,
+      "path": "courses/86957/steps/877082/03_3668953_text.step",
+      "file_sha256": "2eaa262a9bf03d54f136a6851dfe29e8628995267dd568a35e59fc3b118cb5f1",
+      "text_sha256": "13ef501fae38d4f95b002f0a35a55a86cec97ed1a5a5f0d73aed9c290343b497",
+      "new_revision": false
+    },
+    {
+      "step_id": 3668977,
+      "module_number": 13,
+      "path": "courses/86957/steps/877082/05_3668977_text.step",
+      "file_sha256": "08c6a81352f1bf5a0529d087f56544a7cb4037bc5889c95ec7007fbda0c641fc",
+      "text_sha256": "b1573b4f5fbce0e2265fa5bac57b28d663b48c4e1b973387c067473b85f73273",
+      "new_revision": false
+    },
+    {
+      "step_id": 3668999,
+      "module_number": 13,
+      "path": "courses/86957/steps/877081/03_3668999_text.step",
+      "file_sha256": "5bc286208dc99abf902b062c413afe7c9d62e97a4e7a58f5cdad403c373a2204",
+      "text_sha256": "9bd343b6e5a2efd3fc389f9097c38c1dc87bc1263176a75ae5cc51abf6854ba5",
+      "new_revision": false
+    },
+    {
+      "step_id": 3669000,
+      "module_number": 13,
+      "path": "courses/86957/steps/877081/02_3669000_text.step",
+      "file_sha256": "505380d7833ce126744a18c18326794bb7d188410b87025db7233adbe99b4396",
+      "text_sha256": "cfd7432c14716c17b71acb0bb6be15f1d5f35675ba1fd85acf915212ff224949",
+      "new_revision": false
+    },
+    {
+      "step_id": 3669075,
+      "module_number": 13,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/877081/04_3669075_text.step",
+      "file_sha256": "462af2d166951f4a26d62df50cfcf38872c0e4820d703df7027c74e504d6c770",
+      "text_sha256": "08df11e0a70bfa35ddf7884417ccfe55e8bdca157c113bfb8d3716e9f3af5d43",
+      "new_revision": true
+    },
+    {
+      "step_id": 3669089,
+      "module_number": 13,
+      "path": "courses/86957/steps/877081/05_3669089_text.step",
+      "file_sha256": "720d2143b02b86a63fd2949898b2cbfe942346c34dfe5f1e537e376f15924080",
+      "text_sha256": "60427d9ff99d6f44708eeec5f015c55c3f6deab5bee3b342761e07d300193d9b",
+      "new_revision": false
+    },
+    {
+      "step_id": 3669093,
+      "module_number": 13,
+      "path": "courses/86957/steps/877081/06_3669093_text.step",
+      "file_sha256": "17a87f5abb6558267fcf39c250b796ed3aa5d6d3c2507ff2e7b4128b52d00ae8",
+      "text_sha256": "5a3f2ea25eabfaf4f21c684eaeaadca26149b198ab0967b7e067a37a0419e16c",
+      "new_revision": false
+    },
+    {
+      "step_id": 3669114,
+      "module_number": 13,
+      "path": "courses/86957/steps/877082/04_3669114_text.step",
+      "file_sha256": "7a917346c02283f0efb60c9c63f8d732aa099864f39b35376dc78733fd57ad3c",
+      "text_sha256": "ab23aaaa2da69abd639a0da91b40ff3b9af524cd98e03038f757d5ab14dd839e",
+      "new_revision": false
+    },
+    {
+      "step_id": 3669121,
+      "module_number": 13,
+      "path": "courses/86957/steps/877082/06_3669121_text.step",
+      "file_sha256": "d2e01f14bf92f6a64d3e435ba1a23c06430c62df6dc00da7d83ff101bba6010c",
+      "text_sha256": "533d19ac55e331deb38dc0e65b7349a10e4defc525794f3c78084b40300f7b43",
+      "new_revision": false
+    },
+    {
+      "step_id": 3669140,
+      "module_number": 13,
+      "path": "courses/86957/steps/877083/02_3669140_text.step",
+      "file_sha256": "119c24bfc3a71ac1ff3bed2d3abfcc5e00f837db8d4c448a77dd0cb44852de3d",
+      "text_sha256": "c647ca8a2f4dbc7cb5181cc9ca1635259e79c5dfef0d0025868cca1f6a3031e6",
+      "new_revision": false
+    },
+    {
+      "step_id": 3669142,
+      "module_number": 13,
+      "path": "courses/86957/steps/877083/03_3669142_text.step",
+      "file_sha256": "8a3d0c0de314aeb48c95a3b614693a2bae974a69525e557326808f608070b9fd",
+      "text_sha256": "818b77521099e403409885341b4830bd94c3cf06a76c4f9cb1ec4165a5aa0fd9",
+      "new_revision": false
+    },
+    {
+      "step_id": 3669156,
+      "module_number": 13,
+      "path": "courses/86957/steps/877083/04_3669156_text.step",
+      "file_sha256": "f37c7a3d6dbc47e0b5e971dfc14fb613e2344eda6817fd74c45436da1776904f",
+      "text_sha256": "3db398db80462c5fd9e5855d45e1371b7831d8e2887ca61b0bd734173936990c",
+      "new_revision": false
+    },
+    {
+      "step_id": 3669172,
+      "module_number": 13,
+      "path": "courses/86957/steps/877083/06_3669172_text.step",
+      "file_sha256": "07a21212133114ab37dec78a5bb229dc2ecc4246a348b8e91397eba2d0ee15e6",
+      "text_sha256": "525e4f9369cd8b20d86c43a0b841db549322a4823cf83f72052b86b56daa1d6f",
+      "new_revision": false
+    },
+    {
+      "step_id": 3669173,
+      "module_number": 13,
+      "path": "courses/86957/steps/877083/05_3669173_text.step",
+      "file_sha256": "3dc361e41fff31e7f5d820c88181f4bc77a31c7d96cf2127fa89aad488333a50",
+      "text_sha256": "5d25871f4cb02e2c31a09cc9a9a558800aa546ec4089d044aef016199b21b9d2",
+      "new_revision": false
+    },
+    {
+      "step_id": 3759849,
+      "module_number": 13,
+      "path": "courses/86957/steps/877084/02_3759849_text.step",
+      "file_sha256": "80818f5b179c5c389dc283eba3d2cc124f25735ef35c0d45694f45588fa47d65",
+      "text_sha256": "c64da8ab9be69930db23389d532491d2542d978bc2e65f3f420169217d0126e2",
+      "new_revision": false
+    },
+    {
+      "step_id": 3759850,
+      "module_number": 13,
+      "path": "courses/86957/steps/877084/03_3759850_text.step",
+      "file_sha256": "2b6c26d3c037f5339c2cc0a71e87864c1d7d39f0c672b278101e78303090b1f4",
+      "text_sha256": "b7d8effdb522289145bb8bdd920ec316f1612d317edc78f012342f278deece39",
+      "new_revision": false
+    },
+    {
+      "step_id": 3759851,
+      "module_number": 13,
+      "path": "courses/86957/steps/877084/04_3759851_text.step",
+      "file_sha256": "d56745276f640b67e4a3751b704db50b6e83d68c43e4caaa9ab2060021c34ec9",
+      "text_sha256": "10e15e16bc61ec22f86391979b5734c4e9313498893495881ea730e4eb21b77b",
+      "new_revision": false
+    },
+    {
+      "step_id": 3759914,
+      "module_number": 13,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/877084/05_3759914_text.step",
+      "file_sha256": "05cc779762d34d04bc6f868aef4fa4e99ce34ef9527a414ee2ed8e72d2422583",
+      "text_sha256": "7a267abdeaa87a4f56d044863e13fcd571d637e56817e8ec12a33d5e8b80285d",
+      "new_revision": true
+    },
+    {
+      "step_id": 3759977,
+      "module_number": 13,
+      "path": "courses/86957/steps/897987/01_3759977_text.step",
+      "file_sha256": "a3d81ac01166fb3a5a9240add1e73b87b8b3dbf01c44312632cc97aa61c7b9fd",
+      "text_sha256": "1aeea84af3749a506321acd7ecdd0b9459369dd38649f4d452cdbf115b7947f8",
+      "new_revision": false
+    },
+    {
+      "step_id": 3760023,
+      "module_number": 13,
+      "path": "courses/86957/steps/897987/03_3760023_text.step",
+      "file_sha256": "0d7471afd4218826275be96dbf0ffeb20a0388beb26889a9518e58294cad8730",
+      "text_sha256": "0c2af19a919fdf007fd07a478d11a3e5de7d109c74cad300eb488d267bea57d3",
+      "new_revision": false
+    },
+    {
+      "step_id": 3760024,
+      "module_number": 13,
+      "path": "courses/86957/steps/897987/04_3760024_text.step",
+      "file_sha256": "495e8d56921323bef1f6df9418dcb74496bf9a5cbd1f69c56f34dcb0c4eabb1a",
+      "text_sha256": "f39672f4f20ace244d68c799630338d5190e4785d4c4db53d36a5db31898bebd",
+      "new_revision": false
+    },
+    {
+      "step_id": 3760025,
+      "module_number": 13,
+      "path": "courses/86957/steps/897987/05_3760025_text.step",
+      "file_sha256": "23691729031ea7771e08fe0b58b15259330540214dfbfad57d8cd63816b025e8",
+      "text_sha256": "d5f7694865174050306bdf10fc5d6ee0a453ceb5d2c4c20e2d37e3a6aebb1af5",
+      "new_revision": false
+    },
+    {
+      "step_id": 3760026,
+      "module_number": 13,
+      "path": "courses/86957/steps/897987/06_3760026_text.step",
+      "file_sha256": "811c69cdec727cfdb25ddcbe8c1de203ae216fdf868acea449a3227e45935de9",
+      "text_sha256": "1a649f18ca973199066c6039bf8d10cc2ea06c027571085cefd7cf1860d0869c",
+      "new_revision": false
+    },
+    {
+      "step_id": 3760027,
+      "module_number": 13,
+      "path": "courses/86957/steps/897987/07_3760027_text.step",
+      "file_sha256": "bb917b3b8153eb2d295900214f9ffe9d0928a836fc4029cefa5db55244a869bc",
+      "text_sha256": "3a89d909ced48f0429568b31163b974b60d14e57c6396662012a1b380bac7a0f",
+      "new_revision": false
+    },
+    {
+      "step_id": 3760028,
+      "module_number": 13,
+      "path": "courses/86957/steps/897987/02_3760028_text.step",
+      "file_sha256": "90a9a0bd9435bdbdf7fd458d38e90d75b4166944b50170e2bc0d5b104909f0e7",
+      "text_sha256": "45dea563af4cfb5e867f55a5740385909e229ce8ef576216ab430dbb1b1fa242",
+      "new_revision": false
+    },
+    {
+      "step_id": 3760029,
+      "module_number": 13,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/897987/08_3760029_text.step",
+      "file_sha256": "7ac74567756953026b092f03d9aca2e4627b2701351b52549d2215a4927fd697",
+      "text_sha256": "bd7a38e85d7231e4263eef405a3a2144fa29eb32550fe39a6572580cd3f38659",
+      "new_revision": true
+    },
+    {
+      "step_id": 3760047,
+      "module_number": 13,
+      "path": "courses/86957/steps/897987/10_3760047_text.step",
+      "file_sha256": "4e95a7e240f9602fdcd436ecc0adf49173f75220ed164f0e77894109367c3b5f",
+      "text_sha256": "267071f050071688b7dfee827112428f47477532b8c8faa002d8753fe54dfe0f",
+      "new_revision": false
+    },
+    {
+      "step_id": 3760048,
+      "module_number": 13,
+      "path": "courses/86957/steps/897987/09_3760048_text.step",
+      "file_sha256": "01eec04d93b019983ceb85f8cba4afc51e993273fd557a4bbedf859b5efef1bc",
+      "text_sha256": "431d9b8f9fe3fe09b250cd5f7b3d2975cc8f79198ab0be2e86000aff591af223",
+      "new_revision": false
+    },
+    {
+      "step_id": 4035311,
+      "module_number": 19,
+      "path": "courses/86957/steps/973816/01_4035311_text.step",
+      "file_sha256": "9d89a98be479b27e8acdace7c632345859b2b1eeb8af9be46cc3de164707ef9c",
+      "text_sha256": "5b863f97b84a4f033525933a8722444f03a497c73fd7d17e433765ed230e3b07",
+      "new_revision": false
+    },
+    {
+      "step_id": 4035416,
+      "module_number": 19,
+      "path": "courses/86957/steps/973825/01_4035416_text.step",
+      "file_sha256": "c68c7356dbcdc9e6d09fe2f3d63a60c32495c3c73f0f39c1ac5cf74fe4800a68",
+      "text_sha256": "ba7c1969bc91c483499cf6dcfa6154798df5178b476b012a997ac0138e57f70c",
+      "new_revision": false
+    },
+    {
+      "step_id": 4035417,
+      "module_number": 19,
+      "path": "courses/86957/steps/973826/01_4035417_text.step",
+      "file_sha256": "7d12e9af4ac44a8d633e6e22ab3d7e6aebe05e17281df171cc8b1d8cefbee644",
+      "text_sha256": "bece7ec958e4cf6999937aa83f14e2bb72252b68fe5c514b804904bd1b0f680f",
+      "new_revision": false
+    },
+    {
+      "step_id": 4035427,
+      "module_number": 19,
+      "path": "courses/86957/steps/973825/02_4035427_text.step",
+      "file_sha256": "f984e803072df98393c63ecc415ea1131d4807613b4c8d2f1aac3484621f4849",
+      "text_sha256": "bd487c17c863cd762d69d0df370b0dc199ddd086bc7b3d52fb2b0de17f3ebb12",
+      "new_revision": false
+    },
+    {
+      "step_id": 4035430,
+      "module_number": 19,
+      "path": "courses/86957/steps/973826/02_4035430_text.step",
+      "file_sha256": "996f244e5a2046105f54298d953a6c31474925176f39851da58f9d9a7ceeab8c",
+      "text_sha256": "0bd2d33f5ea6cd4eaa189edc90867e6c341b45d3c59c4871f3987d246bb88cc0",
+      "new_revision": false
+    },
+    {
+      "step_id": 4035439,
+      "module_number": 18,
+      "path": "courses/86957/steps/973829/01_4035439_text.step",
+      "file_sha256": "33a1e4b48001a5124a04aa1413c28f9cd6d0ca0e7c833c628b34793b86e6bee5",
+      "text_sha256": "9cd5dd7f4afb732e4f7d2a794d008396d96be3da6f5ec07b3f687bb80b1abf9b",
+      "new_revision": false
+    },
+    {
+      "step_id": 4035443,
+      "module_number": 18,
+      "path": "courses/86957/steps/973831/01_4035443_text.step",
+      "file_sha256": "01c2f4dc8eb44a14672ab25f051fd5f3e12f84223d239693a93747553cdb8dc4",
+      "text_sha256": "c10b6b600898e01d1e3e73fa03cfe5ba61bf54e024519a0e0123283a60cb2b2b",
+      "new_revision": false
+    },
+    {
+      "step_id": 4035460,
+      "module_number": 18,
+      "path": "courses/86957/steps/973829/03_4035460_text.step",
+      "file_sha256": "a76e66aaabd4f1448217aefe78efa84a88e2e4526c3f22b37fe2c6a253dcbe21",
+      "text_sha256": "a6351f7fae974b945011c1e29f759a0a610e2246e74fb702278272911ed2c0c8",
+      "new_revision": false
+    },
+    {
+      "step_id": 4035461,
+      "module_number": 18,
+      "path": "courses/86957/steps/973829/02_4035461_text.step",
+      "file_sha256": "f6af7fb0d796a3db526886998853f2f6890da862c684c5e67c59dbab58aa2298",
+      "text_sha256": "a41293c205c7e89f4d7a09c02c76d273b4ac183ef5eaade72ce95ce5335f89a2",
+      "new_revision": false
+    },
+    {
+      "step_id": 4035481,
+      "module_number": 18,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/973831/02_4035481_text.step",
+      "file_sha256": "5d152e77161947c74113870beaa8484e90e02360d76004b48d476c82d851f927",
+      "text_sha256": "fbe0f8b1b7d16438fe62b51ac495f1c23f8f0ca0c374bb20cdf5f73b454b0a75",
+      "new_revision": true
+    },
+    {
+      "step_id": 4035497,
+      "module_number": 16,
+      "path": "courses/86957/steps/973837/01_4035497_text.step",
+      "file_sha256": "a5c2882c515bff4189f409ce9794709dc0ffe95227ec09fe32658c0cdd8d0a64",
+      "text_sha256": "112c220daf29bc964e1e9bcc70ec6c52e98dfac4600de9150a738bf5489d61d5",
+      "new_revision": false
+    },
+    {
+      "step_id": 4035517,
+      "module_number": 16,
+      "path": "improvements/86957/theory-links-2026-11-23/steps/973837/02_4035517_text.step",
+      "file_sha256": "296bcb84d4821e7fb886735cf3dbcbaff929d30382159cd076437fcfae35a202",
+      "text_sha256": "4b4429783e53f3be1d8dc829726d17f5f294743dcc09208ae26df5e46604af0b",
+      "new_revision": true
+    },
+    {
+      "step_id": 4035524,
+      "module_number": 16,
+      "path": "courses/86957/steps/973842/01_4035524_text.step",
+      "file_sha256": "9b72e7cea71a6bb2cabfbb4730dab6c180d2b81f46012b09925d7c99f916b48a",
+      "text_sha256": "570fdb64c37cb36cccf5a1b9b13e53b4ba53d254f719255a7c11c6a1c66b621a",
+      "new_revision": false
+    },
+    {
+      "step_id": 4035562,
+      "module_number": 16,
+      "path": "courses/86957/steps/973842/02_4035562_text.step",
+      "file_sha256": "d1612fba0f54c774e04d17667ea6f4fe7fba7aa2abb93840ffe5f141c4fd0e16",
+      "text_sha256": "db08a310a7b5eec2f79671560c6a99afdd1a541b860d7ac8aee8436e2e3ea3c0",
+      "new_revision": false
+    },
+    {
+      "step_id": 4035563,
+      "module_number": 16,
+      "path": "courses/86957/steps/973842/03_4035563_text.step",
+      "file_sha256": "2e1287a29ca290ff4f76225255a387d458784edaed171334e3185572f6cba954",
+      "text_sha256": "9dcb419f992d89b5237c4869e8a3a5c4dbe2a7bbe128bd42372ee5da16f3219f",
+      "new_revision": false
+    },
+    {
+      "step_id": 4036909,
+      "module_number": 16,
+      "path": "courses/86957/steps/973842/04_4036909_text.step",
+      "file_sha256": "8795821bb101ab67a5c9724db98c1dd40f57a8bf51af24fd1d1d0931864b4106",
+      "text_sha256": "00a08b06a81b0f532fb1eb845e10b2fd91c52b3f6a8ba52fb8a665da2978e023",
+      "new_revision": false
+    },
+    {
+      "step_id": 4040986,
+      "module_number": 14,
+      "path": "courses/86957/steps/853535/03_4040986_text.step",
+      "file_sha256": "b6fb699b465f217771c8f2e4ee7d91a268c01af5738385e6d82a419d591ec54b",
+      "text_sha256": "7aea8e9b8e6ed1909449cfea3bdf77d399604c073a4a357086a46d508da913fb",
+      "new_revision": false
+    },
+    {
+      "step_id": 4047594,
+      "module_number": 16,
+      "path": "courses/86957/steps/977027/01_4047594_text.step",
+      "file_sha256": "db2ecdbe3fbbc053e5c00686de6a49581212f20de52233d0867cb3902e4c862d",
+      "text_sha256": "a9eb2e7e694700a99ada5dd3e8910976f957db1ba347b49ca7f0441818ba8120",
+      "new_revision": false
+    },
+    {
+      "step_id": 4047616,
+      "module_number": 16,
+      "path": "courses/86957/steps/977027/02_4047616_text.step",
+      "file_sha256": "bac30c41f8de32fbb471068c6a01944a5562c44a9fd22bd896988b2f1e288ac0",
+      "text_sha256": "bcf9013e5fde0d145296d2c9800ba486abbaa7290b10af3dcd13af42bef3972b",
+      "new_revision": false
+    },
+    {
+      "step_id": 4047627,
+      "module_number": 16,
+      "path": "courses/86957/steps/977027/03_4047627_text.step",
+      "file_sha256": "1a134149b3adbcbf8852b7c54f8abbdf7bd207166a5a39b9670dcc6ac2a33757",
+      "text_sha256": "370120a1edadd16db63448d77e16ed70d7477d3d714bc406de587644165e403e",
+      "new_revision": false
+    },
+    {
+      "step_id": 4047680,
+      "module_number": 16,
+      "path": "courses/86957/steps/977027/04_4047680_text.step",
+      "file_sha256": "64022678e42fbd38ca7ff774bde0d0f2fe3d5682b2564a66142878b2121afad0",
+      "text_sha256": "3bf23b88a16fc17189838e266eeb7de443cf854e9d415009745b1f1df974aa42",
+      "new_revision": false
+    },
+    {
+      "step_id": 4047681,
+      "module_number": 16,
+      "path": "courses/86957/steps/977027/05_4047681_text.step",
+      "file_sha256": "5a3f9da517e99a356ed045e8c109824714a7dd84bba458d80637cc9aca14ee43",
+      "text_sha256": "ea55dfd4f9ffb7ababc8dc9104ef2cbbafb7ab6a89ebe435ce7501ffa8e633ec",
+      "new_revision": false
+    },
+    {
+      "step_id": 4047682,
+      "module_number": 16,
+      "path": "courses/86957/steps/977027/06_4047682_text.step",
+      "file_sha256": "78a18c508a60c3188fe0ab8a2dd5f4c128303aa3869d696c5f8d4dde6dc5b89f",
+      "text_sha256": "52db315387979522581def3fd5c78f00858422bac5ec6413f537dc3230c17e46",
+      "new_revision": false
+    }
+  ],
+  "unresolved_theory_defects": [],
+  "current_publication": {
+    "status": "not_published",
+    "applied": false,
+    "reason": "Прямое указание владельца: работать только с GitHub; не обновлять Stepik."
+  },
+  "limits": [
+    "Содержательное чтение не означает повторную компиляцию всех старых примеров.",
+    "Наличие цели внутренней ссылки проверяется автоматически; соответствие обещанной теме оценивается в содержательных отчётах.",
+    "Не проверялись в этой сессии Windows/MSVC, macOS, старые наборы CMake/GoogleTest и оценочные checker-ы.",
+    "Противоречия существующих заданий сохраняются отдельно; задания не менялись."
+  ]
+}

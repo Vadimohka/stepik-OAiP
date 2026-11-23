@@ -1,0 +1,215 @@
+{
+  "schema_version": 1,
+  "status": "passed_for_six_declared_targets",
+  "reviewer": "links_ownership_independent_of_foundations_author",
+  "reviewed_at": "2026-11-23T11:53:33.223434+00:00",
+  "scope": "Независимая короткая вычитка шести changes_foundations.json: сравнение исходного снимка с целевыми редакциями, смысл изменённых утверждений и точность маршрутов. Учебные тексты не редактировались; компиляции не повторялись.",
+  "reviewed_target_inputs": [
+    {
+      "step_id": 3215253,
+      "source_path": "courses/86957/steps/771154/02_3215253_text.step",
+      "source_file_sha256": "5d165dd1737ab558bb69ef184b6d301ef00099e131ddff81c5eeed4aba27f180",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/771154/02_3215253_text.step",
+      "target_file_sha256": "d415b0cd8bb077c4635acca47ba898775135212bf9c761142c1429e67603db8c",
+      "target_text_sha256": "86165b684a30db85963fe53f731cd036c3b41c747e5156c42f943773a11da8b1",
+      "changed_fields": [
+        "block.text"
+      ],
+      "pre_blocks_unchanged": 0
+    },
+    {
+      "step_id": 3201141,
+      "source_path": "courses/86957/steps/768140/02_3201141_text.step",
+      "source_file_sha256": "5da3e47d941992d9b2e54d7ab8ee8ef8a88c693725e2cf74c512aefe63f71119",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/768140/02_3201141_text.step",
+      "target_file_sha256": "58404210c9c5be2158f79f505b2e9bc10899dc11a3bfa8bf2405dab9a9b564b5",
+      "target_text_sha256": "4def618a2949bdd685ebf43cfe09ae5853f4b2b4a79f5a253db4e3ce694c14a1",
+      "changed_fields": [
+        "block.text"
+      ],
+      "pre_blocks_unchanged": 0
+    },
+    {
+      "step_id": 3201168,
+      "source_path": "courses/86957/steps/768140/08_3201168_text.step",
+      "source_file_sha256": "6f6937ef26ed96ce92e4b2c2f4c908c8c54c9e90b11eee404904911e7a551439",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/768140/08_3201168_text.step",
+      "target_file_sha256": "f7711c5ba0bd6672f259222e82ce100b518b97b67044ba70e7c5327cb4ee329c",
+      "target_text_sha256": "ac803aaf761d08295f77e13de5ded2489621881aa4f317a589661167323047d9",
+      "changed_fields": [
+        "block.text"
+      ],
+      "pre_blocks_unchanged": 0
+    },
+    {
+      "step_id": 3237989,
+      "source_path": "courses/86957/steps/776128/03_3237989_text.step",
+      "source_file_sha256": "11e616bbfe91de447414cfdc1b4c6b77d65105d1cea2a5dc6a1091a724d0e16a",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/776128/03_3237989_text.step",
+      "target_file_sha256": "752d26e4067138cd7eab264c3b7ff6de7aea968dd598d016c00d65d692b0936f",
+      "target_text_sha256": "b6af599a33fb0ac1ef3b8d8f19d94414a37d1a2e4b15eb8c5cbe744844206cd0",
+      "changed_fields": [
+        "block.text"
+      ],
+      "pre_blocks_unchanged": 0
+    },
+    {
+      "step_id": 3238004,
+      "source_path": "courses/86957/steps/776128/05_3238004_text.step",
+      "source_file_sha256": "f4aad40524d1e509cafdfeb11ca056b42a2bad3860a01e86e90b7539b12aeb6b",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/776128/05_3238004_text.step",
+      "target_file_sha256": "af3b38adcfbc3084dc53afe23f6d4fcfc314db6a819e48552a5490aa75a80b2b",
+      "target_text_sha256": "35f97dce5e448c5e470a3ac8fdc5ec08c5d414ee1629e512913cf9a980e8dedd",
+      "changed_fields": [
+        "block.text"
+      ],
+      "pre_blocks_unchanged": 0
+    },
+    {
+      "step_id": 3231226,
+      "source_path": "courses/86957/steps/774618/05_3231226_text.step",
+      "source_file_sha256": "48bbe8c02f724dbc446a276f4386d87a639dc5ffe04f0241ba743e8245aa7317",
+      "target_path": "improvements/86957/theory-links-2026-11-23/steps/774618/05_3231226_text.step",
+      "target_file_sha256": "d2b63b2f877452c56db09e7c00026b8df7042b0a7f0554611f3a2d422d55d4ca",
+      "target_text_sha256": "0ff5b1d29a7667bdaf2399ff6e1a15fdb692735b0cc57c6660f2604270bd7e4f",
+      "changed_fields": [
+        "block.text"
+      ],
+      "pre_blocks_unchanged": 0
+    }
+  ],
+  "changed_steps_checked": 6,
+  "unchanged_pre_blocks": 0,
+  "checked_course_links": [
+    {
+      "from_step_id": 3215253,
+      "to_step_id": 3173870,
+      "url": "https://stepik.org/lesson/763038/step/3"
+    },
+    {
+      "from_step_id": 3215253,
+      "to_step_id": 3212951,
+      "url": "https://stepik.org/lesson/770592/step/2"
+    },
+    {
+      "from_step_id": 3201141,
+      "to_step_id": 3201179,
+      "url": "https://stepik.org/lesson/768143/step/1"
+    },
+    {
+      "from_step_id": 3201141,
+      "to_step_id": 3231317,
+      "url": "https://stepik.org/lesson/774618/step/3"
+    },
+    {
+      "from_step_id": 3201168,
+      "to_step_id": 3201191,
+      "url": "https://stepik.org/lesson/768146/step/1"
+    },
+    {
+      "from_step_id": 3201168,
+      "to_step_id": 3201179,
+      "url": "https://stepik.org/lesson/768143/step/1"
+    },
+    {
+      "from_step_id": 3237989,
+      "to_step_id": 3569325,
+      "url": "https://stepik.org/lesson/853536/step/1"
+    },
+    {
+      "from_step_id": 3237989,
+      "to_step_id": 3173870,
+      "url": "https://stepik.org/lesson/763038/step/3"
+    },
+    {
+      "from_step_id": 3238004,
+      "to_step_id": 3569325,
+      "url": "https://stepik.org/lesson/853536/step/1"
+    },
+    {
+      "from_step_id": 3238004,
+      "to_step_id": 3569964,
+      "url": "https://stepik.org/lesson/853536/step/2"
+    },
+    {
+      "from_step_id": 3231226,
+      "to_step_id": 3253503,
+      "url": "https://stepik.org/lesson/778426/step/5"
+    },
+    {
+      "from_step_id": 3231226,
+      "to_step_id": 3212951,
+      "url": "https://stepik.org/lesson/770592/step/2"
+    },
+    {
+      "from_step_id": 3231226,
+      "to_step_id": 3215032,
+      "url": "https://stepik.org/lesson/770593/step/3"
+    },
+    {
+      "from_step_id": 3231226,
+      "to_step_id": 3215045,
+      "url": "https://stepik.org/lesson/770593/step/4"
+    }
+  ],
+  "findings": [
+    {
+      "step_id": 3237989,
+      "result": "passed",
+      "conclusion": "Статическая и динамическая инициализация разделены. Правило первого прохождения через объявление относится именно к динамической инициализации локального static, поэтому не обещает, что все static обязательно инициализируются до main. Память со статической продолжительностью хранения не отождествлена с уже живым объектом. Платформенный разбор явно ограничен типичной ELF/Linux-средой."
+    },
+    {
+      "step_id": 3237989,
+      "result": "passed",
+      "conclusion": "CRT исправлен предметно: перечислены готовые .o, а происхождение crtbegin.o/crtend.o из crtstuff.c ограничено соответствующими целями GCC. Документация GCC14.3 прямо подтверждает это различие; имена не выдаются за требование C++."
+    },
+    {
+      "step_id": 3238004,
+      "result": "passed",
+      "conclusion": "Возврат из main связан с уничтожением автоматических объектов и дальнейшим нормальным завершением; прямой exit не выдаётся за раскрутку текущих вызовов. Локальный static явно исключён из обычного уничтожения при каждом возврате."
+    },
+    {
+      "step_id": 3215253,
+      "result": "passed",
+      "conclusion": "Новая ссылка 770592/2 ведёт на три разобранных файла factorial.hpp/factorial.cpp/main.cpp. Ссылка 763038/3 действительно объясняет этапы сборки."
+    },
+    {
+      "step_id": 3201141,
+      "result": "passed",
+      "conclusion": "Команды первого запуска находятся в 768143/1, полный CMake-проект — в 774618/3. C++20 задан как выбранная настройка; совместимость C++17/20 сформулирована отдельно. Настройки Stepik не подменяются локальным флагом."
+    },
+    {
+      "step_id": 3201168,
+      "result": "passed",
+      "conclusion": "Проверена фактическая последовательность units модуля 3: урок 768140 (IDE) →768146 (библиотека/std) →768143 (первый запуск). Изменённый переход соответствует ей."
+    },
+    {
+      "step_id": 3231226,
+      "result": "passed",
+      "conclusion": "Переходы ведут на трёхфайловый factorial, его статическую/разделяемую библиотеку и полный CTest-разбор 3253503. В последнем CTest запускает собранный interesting_tests, а проверки возвращают ненулевой статус при отказе; новой учебной практики не добавлено."
+    }
+  ],
+  "reference_target_step_ids": [
+    3173870,
+    3201179,
+    3201191,
+    3231317,
+    3212951,
+    3215032,
+    3215045,
+    3253503,
+    3569325,
+    3569964
+  ],
+  "primary_sources_independently_opened": [
+    "https://gcc.gnu.org/onlinedocs/gcc-14.3.0/gccint/Initialization.html",
+    "https://timsong-cpp.github.io/cppwp/n4659/stmt.dcl",
+    "https://timsong-cpp.github.io/cppwp/n4861/basic.start.main"
+  ],
+  "unresolved_defects": [],
+  "limitations": [
+    "Это адресная независимая вычитка шести целевых текстов, а не повтор общего аудита модулей1–19.",
+    "Код и pre-блоки этих шести правок сохранены; новые компиляции в рамках этой вычитки не запускались.",
+    "Адреса проверены по снимку репозитория; прямой доступ к Stepik не выполнялся."
+  ]
+}

@@ -1,0 +1,1404 @@
+{
+  "schema_version": 1,
+  "package": "LINKS-algorithms",
+  "base_commit": "352c2796717a55f4f0db8395b7d6093d8d67c35e",
+  "reviewed_at_utc": "2026-11-23T11:56:52.225047+00:00",
+  "modules": [
+    10,
+    11,
+    16,
+    17,
+    18,
+    19
+  ],
+  "reviewed_text_step_ids": [
+    3212953,
+    3213244,
+    3213241,
+    3213243,
+    3213242,
+    3213247,
+    3213248,
+    3213256,
+    3213255,
+    3212954,
+    3215136,
+    3215137,
+    3215176,
+    3215175,
+    3215178,
+    3215177,
+    3215179,
+    3215109,
+    3215183,
+    3215192,
+    3215191,
+    3215113,
+    3215200,
+    3215199,
+    3580923,
+    3215112,
+    3215203,
+    3215206,
+    4035497,
+    4035517,
+    4035524,
+    4035562,
+    4035563,
+    4036909,
+    4047594,
+    4047616,
+    4047627,
+    4047680,
+    4047681,
+    4047682,
+    3569329,
+    3570230,
+    3570231,
+    3569330,
+    3570281,
+    3569332,
+    3570303,
+    3570304,
+    3570333,
+    3570332,
+    4035439,
+    4035461,
+    4035460,
+    4035443,
+    4035481,
+    4035311,
+    4035416,
+    4035427,
+    4035417,
+    4035430
+  ],
+  "review_inputs": [
+    {
+      "step_id": 3212953,
+      "source_path": "courses/86957/steps/770594/01_3212953_text.step",
+      "file_sha256": "59cbde78acfb703652a42c08ac31d995ced14e5addaf3da191f1d2ae50b644c9",
+      "text_sha256": "7c6347569b701aacb48d0373529234d0b13f8a8f661dbec6d8dbcb5bad7fa987"
+    },
+    {
+      "step_id": 3213244,
+      "source_path": "courses/86957/steps/770594/02_3213244_text.step",
+      "file_sha256": "5375a70585e2379c2b461106cb248ddff659fc44fc062e7524680e678e37f83d",
+      "text_sha256": "70c4e4bfe4bf8e2b5c450e4479e2423b79c365e7a38b24cc4fec9236a4b11624"
+    },
+    {
+      "step_id": 3213241,
+      "source_path": "courses/86957/steps/770594/03_3213241_text.step",
+      "file_sha256": "84c6522c67086b96811323050b34ac92bf5753dca56ce8b7fa764339cd1233ab",
+      "text_sha256": "e2d025e9aa5d8828bd3d49c3ea1e92e39a51638de9db9f1855d06367fde8cb8a"
+    },
+    {
+      "step_id": 3213243,
+      "source_path": "courses/86957/steps/770594/04_3213243_text.step",
+      "file_sha256": "739b344e2fd252aba7e45876d443fbddc07f5f5ce925f670f4389aa54cd4a70a",
+      "text_sha256": "a2b9c1b217f8daee38ec110f59b7b6040283bb9e14da54ebd405dc13a7a9393f"
+    },
+    {
+      "step_id": 3213242,
+      "source_path": "courses/86957/steps/770594/05_3213242_text.step",
+      "file_sha256": "06455ceaaeacdc7cd444b1c9fce32beaa513223992c24845b5efed18ce3b2e06",
+      "text_sha256": "714392f9dabf4b40981cd30e2d7d7dc0ae609bef6a0734e7b5c5fc143557f161"
+    },
+    {
+      "step_id": 3213247,
+      "source_path": "courses/86957/steps/770594/06_3213247_text.step",
+      "file_sha256": "e08f6bbc80a9e1e06c7cbc1ce2f5e85d330f0e392c7f5586b06db99fb49e8842",
+      "text_sha256": "f6870cecf354baefeeb5fda79b4b70d561ba2e4a421ba766bb550eba75954522"
+    },
+    {
+      "step_id": 3213248,
+      "source_path": "courses/86957/steps/770594/07_3213248_text.step",
+      "file_sha256": "ca803ad249b920633f04a769325bc8d400b16a0c1d7a3760c7d95fc853bf9edc",
+      "text_sha256": "9a712d649530431498c13b4c84ad068908846c88c43bc08fd10c53590a69691c"
+    },
+    {
+      "step_id": 3213256,
+      "source_path": "courses/86957/steps/770594/08_3213256_text.step",
+      "file_sha256": "a58f374c9d2e9bf1c08f3737f4ff03e4a8e4b027045bd79e13226179fa5f79e4",
+      "text_sha256": "077a0522c47889ffa270d28a8b4ee3719fafaafa48a889a76cbe333968c39873"
+    },
+    {
+      "step_id": 3213255,
+      "source_path": "courses/86957/steps/770594/09_3213255_text.step",
+      "file_sha256": "dc888703b7314dd6939da40d738589f5357e68cdf2a3d5949840832bc138f099",
+      "text_sha256": "2a2c889d3f766a20205b35dafef43025c22bea1be909ccf9e59dd7f9b2589829"
+    },
+    {
+      "step_id": 3212954,
+      "source_path": "courses/86957/steps/770595/01_3212954_text.step",
+      "file_sha256": "51c36b6306778457ebdf19aafbba0a65d6f786980fe36fdcef25bfac2ed2bfae",
+      "text_sha256": "1930e69b10fceaf3112396fb1bc392d64424f74a168dfa18c5f20adc50c6b201"
+    },
+    {
+      "step_id": 3215136,
+      "source_path": "courses/86957/steps/770595/02_3215136_text.step",
+      "file_sha256": "376753642997df8618f879241500fb3b725df2bd3a91bbcb7552423a1eb6d8e4",
+      "text_sha256": "7423800297a801f24947607349d05f6c1dcfdf91998b635ccc0e946b2d46012e"
+    },
+    {
+      "step_id": 3215137,
+      "source_path": "courses/86957/steps/770595/03_3215137_text.step",
+      "file_sha256": "f48fbafe75ee842c3b0a53af5e0c07577521e67e129d9e54b665f583fbc10041",
+      "text_sha256": "1625872ef8bbe73a9274ea2862f0f0fd4d57dc5686b67c2c42465fc99f908c4f"
+    },
+    {
+      "step_id": 3215176,
+      "source_path": "courses/86957/steps/770595/04_3215176_text.step",
+      "file_sha256": "383c4e1bfb3c6a2177fcbc8f6b97e630a0f271228ebde92cca6623dec03b26b7",
+      "text_sha256": "11831c958306fd1bb321dbe215985f120b8513d3dc55537f367623a5caf07325"
+    },
+    {
+      "step_id": 3215175,
+      "source_path": "courses/86957/steps/770595/05_3215175_text.step",
+      "file_sha256": "10c07abaf2a2c638c915ee78e2cca5e89d651e1739da9886e54a7dd5a00b531d",
+      "text_sha256": "21616f290447d1b62dc2cc749eed544bc672da3c25b9ed62e8e73d01d973fc3f"
+    },
+    {
+      "step_id": 3215178,
+      "source_path": "courses/86957/steps/770595/06_3215178_text.step",
+      "file_sha256": "43b54859da1b1904346c69526d0d602eda6a7537688781b682f6d0d3d15f60ae",
+      "text_sha256": "716e39766e8e4716131f44f6a2afd25e8bb5d1289f84a28b34b0238f763204ce"
+    },
+    {
+      "step_id": 3215177,
+      "source_path": "courses/86957/steps/770595/07_3215177_text.step",
+      "file_sha256": "ef631ddd8b057b4f52afd47c848796080c7cc7686816b5b478848caeefe37f77",
+      "text_sha256": "cfbe37adf23d38cf44dc7495214f8e4d2b593c86209cb6e1ccb525878a8f29a5"
+    },
+    {
+      "step_id": 3215179,
+      "source_path": "courses/86957/steps/770595/08_3215179_text.step",
+      "file_sha256": "fcc7a6ed314ca062cea0bf804a2d5e35df74e47fbb4da0315e4226ed116dd6f3",
+      "text_sha256": "d1a2439bdd1e5cc8c9bbee0de5595d4aa2c6cbcbd51f823439b34c4b71369adb"
+    },
+    {
+      "step_id": 3215109,
+      "source_path": "courses/86957/steps/771129/01_3215109_text.step",
+      "file_sha256": "e60f54ef1c61c247f9d743261fa7bbdb4346f0073f8717062f036f91c7729aa4",
+      "text_sha256": "f053e413b4f38a5da8d63ccc7db4a72f3acfc3a423fb99c55d1d0076a83bcd83"
+    },
+    {
+      "step_id": 3215183,
+      "source_path": "courses/86957/steps/771129/02_3215183_text.step",
+      "file_sha256": "ab1b70d78bbfdb316badf0ae41baa35e4e0a795aa12e04ba39e349b9f11b1639",
+      "text_sha256": "d8ccd4fab966fef340c9b197cf4485b452b80fac029237d63fbbd3c73bb77854"
+    },
+    {
+      "step_id": 3215192,
+      "source_path": "courses/86957/steps/771129/03_3215192_text.step",
+      "file_sha256": "0eb05ea47aca40c66b4632f1bdd3adfc6a1812f1575a5a57e3e7c69f94285d9d",
+      "text_sha256": "41f207c4131046af423c2a5e7a5904794f74d8374bb383f3415286aa6052ef4d"
+    },
+    {
+      "step_id": 3215191,
+      "source_path": "courses/86957/steps/771129/04_3215191_text.step",
+      "file_sha256": "f66d433d86253eead84a3210e6d1e403729576aec37e012b3164d4c3e2bef508",
+      "text_sha256": "c6fd17a13d71d0d7d2a8117e8e7505a674b7c3c641e0ec8b693f6f4b098d9e89"
+    },
+    {
+      "step_id": 3215113,
+      "source_path": "courses/86957/steps/771131/01_3215113_text.step",
+      "file_sha256": "84da624b21c910db7ecc92ed81daefb6d27680198f3d5613485422932977c037",
+      "text_sha256": "5ddd24493837ad689cd64919373c5bf7f411a28797eae7f9c98f2890b423563d"
+    },
+    {
+      "step_id": 3215200,
+      "source_path": "courses/86957/steps/771131/02_3215200_text.step",
+      "file_sha256": "1afcc1867ff7023f4e795bd0b619b7f89e0cef35a38a8334959cb5a502c77209",
+      "text_sha256": "2589067d06fcbeaacca19d214d1cc153a03a2cad8a22acbcf725b780bcfc4b12"
+    },
+    {
+      "step_id": 3215199,
+      "source_path": "courses/86957/steps/771131/03_3215199_text.step",
+      "file_sha256": "290d6b7b5b60ad511028b9be9a7fd8ab03df4b0344e9158a69621926d7490a67",
+      "text_sha256": "7798bee6f1554ae04c701fa46a2ce65bec352969cfeecce81f82df6ad4e7edf6"
+    },
+    {
+      "step_id": 3580923,
+      "source_path": "courses/86957/steps/771131/04_3580923_text.step",
+      "file_sha256": "1855a608f7db45b06b029a435c234672b5c618c51d83319131576f1103336614",
+      "text_sha256": "87b349cbdea291e6896abe1abdbeee5d47117ed74eb1cea9540979c5cacd248c"
+    },
+    {
+      "step_id": 3215112,
+      "source_path": "courses/86957/steps/771130/01_3215112_text.step",
+      "file_sha256": "7352e275877be85d40a90ad8a60f1ccda919008a54379099087aba40cbafd3c4",
+      "text_sha256": "d7c4fe7faf1e4e8a2b43d51ce53bfd91e8151b943923c7cd2d9510fb37c3fcf5"
+    },
+    {
+      "step_id": 3215203,
+      "source_path": "courses/86957/steps/771130/02_3215203_text.step",
+      "file_sha256": "f2dd24b146379aa32b40fb94b862f70c343312f9027def1163d2cdf57dcfda75",
+      "text_sha256": "6bd551419c9480657f7a2f2030665c1370d99146ebe9c29d1a23e28b550da800"
+    },
+    {
+      "step_id": 3215206,
+      "source_path": "courses/86957/steps/771130/03_3215206_text.step",
+      "file_sha256": "38837de4d0423da2af400a995a1859c7c24e72637a7dc2fcf9df0aa8a6920f49",
+      "text_sha256": "e16e9688ba287dcbaaa3a270f6a43061d83949d2362d74f89ff300fb1cf047d6"
+    },
+    {
+      "step_id": 4035497,
+      "source_path": "courses/86957/steps/973837/01_4035497_text.step",
+      "file_sha256": "a5c2882c515bff4189f409ce9794709dc0ffe95227ec09fe32658c0cdd8d0a64",
+      "text_sha256": "112c220daf29bc964e1e9bcc70ec6c52e98dfac4600de9150a738bf5489d61d5"
+    },
+    {
+      "step_id": 4035517,
+      "source_path": "courses/86957/steps/973837/02_4035517_text.step",
+      "file_sha256": "3915f2c0668fca9a8f8fe59aba521e26918db7206ac928c8ad7bedb42e69bfc8",
+      "text_sha256": "9e3d785312af3eba6941136a59b7f301cd900d9d2e5eb4b54fdefd529b637ee3"
+    },
+    {
+      "step_id": 4035524,
+      "source_path": "courses/86957/steps/973842/01_4035524_text.step",
+      "file_sha256": "9b72e7cea71a6bb2cabfbb4730dab6c180d2b81f46012b09925d7c99f916b48a",
+      "text_sha256": "570fdb64c37cb36cccf5a1b9b13e53b4ba53d254f719255a7c11c6a1c66b621a"
+    },
+    {
+      "step_id": 4035562,
+      "source_path": "courses/86957/steps/973842/02_4035562_text.step",
+      "file_sha256": "d1612fba0f54c774e04d17667ea6f4fe7fba7aa2abb93840ffe5f141c4fd0e16",
+      "text_sha256": "db08a310a7b5eec2f79671560c6a99afdd1a541b860d7ac8aee8436e2e3ea3c0"
+    },
+    {
+      "step_id": 4035563,
+      "source_path": "courses/86957/steps/973842/03_4035563_text.step",
+      "file_sha256": "2e1287a29ca290ff4f76225255a387d458784edaed171334e3185572f6cba954",
+      "text_sha256": "9dcb419f992d89b5237c4869e8a3a5c4dbe2a7bbe128bd42372ee5da16f3219f"
+    },
+    {
+      "step_id": 4036909,
+      "source_path": "courses/86957/steps/973842/04_4036909_text.step",
+      "file_sha256": "8795821bb101ab67a5c9724db98c1dd40f57a8bf51af24fd1d1d0931864b4106",
+      "text_sha256": "00a08b06a81b0f532fb1eb845e10b2fd91c52b3f6a8ba52fb8a665da2978e023"
+    },
+    {
+      "step_id": 4047594,
+      "source_path": "courses/86957/steps/977027/01_4047594_text.step",
+      "file_sha256": "db2ecdbe3fbbc053e5c00686de6a49581212f20de52233d0867cb3902e4c862d",
+      "text_sha256": "a9eb2e7e694700a99ada5dd3e8910976f957db1ba347b49ca7f0441818ba8120"
+    },
+    {
+      "step_id": 4047616,
+      "source_path": "courses/86957/steps/977027/02_4047616_text.step",
+      "file_sha256": "bac30c41f8de32fbb471068c6a01944a5562c44a9fd22bd896988b2f1e288ac0",
+      "text_sha256": "bcf9013e5fde0d145296d2c9800ba486abbaa7290b10af3dcd13af42bef3972b"
+    },
+    {
+      "step_id": 4047627,
+      "source_path": "courses/86957/steps/977027/03_4047627_text.step",
+      "file_sha256": "1a134149b3adbcbf8852b7c54f8abbdf7bd207166a5a39b9670dcc6ac2a33757",
+      "text_sha256": "370120a1edadd16db63448d77e16ed70d7477d3d714bc406de587644165e403e"
+    },
+    {
+      "step_id": 4047680,
+      "source_path": "courses/86957/steps/977027/04_4047680_text.step",
+      "file_sha256": "64022678e42fbd38ca7ff774bde0d0f2fe3d5682b2564a66142878b2121afad0",
+      "text_sha256": "3bf23b88a16fc17189838e266eeb7de443cf854e9d415009745b1f1df974aa42"
+    },
+    {
+      "step_id": 4047681,
+      "source_path": "courses/86957/steps/977027/05_4047681_text.step",
+      "file_sha256": "5a3f9da517e99a356ed045e8c109824714a7dd84bba458d80637cc9aca14ee43",
+      "text_sha256": "ea55dfd4f9ffb7ababc8dc9104ef2cbbafb7ab6a89ebe435ce7501ffa8e633ec"
+    },
+    {
+      "step_id": 4047682,
+      "source_path": "courses/86957/steps/977027/06_4047682_text.step",
+      "file_sha256": "78a18c508a60c3188fe0ab8a2dd5f4c128303aa3869d696c5f8d4dde6dc5b89f",
+      "text_sha256": "52db315387979522581def3fd5c78f00858422bac5ec6413f537dc3230c17e46"
+    },
+    {
+      "step_id": 3569329,
+      "source_path": "courses/86957/steps/853539/01_3569329_text.step",
+      "file_sha256": "4a1670263d9429f6643c06254ac79547f0b99296946cf7efcfed5f6326ba2487",
+      "text_sha256": "ccb2178e45e34a0807332695268b17b2a66973781164d5b2420f132039b2735d"
+    },
+    {
+      "step_id": 3570230,
+      "source_path": "courses/86957/steps/853539/02_3570230_text.step",
+      "file_sha256": "5800f9c936e6bda5ddd8e448de3bfc772884001e5b78e5dc873ff80093346098",
+      "text_sha256": "d02e3dcdb658a0eb0ebc890b0a0afe9654ea4637212ba4097ff06a32428b61ab"
+    },
+    {
+      "step_id": 3570231,
+      "source_path": "courses/86957/steps/853539/03_3570231_text.step",
+      "file_sha256": "426dfbe8af113277cae5def43177d45f3a2a332b62a19e2ba9d24bf93290a839",
+      "text_sha256": "e5a11d1954fc53735c49ff2516f195573feee711c24884a44a663ad3dbb86fda"
+    },
+    {
+      "step_id": 3569330,
+      "source_path": "courses/86957/steps/853540/01_3569330_text.step",
+      "file_sha256": "d883f54230d59e49eb10671bf98cd7a7bbd0ccda4fe6d99e6c7c5a6202d0763d",
+      "text_sha256": "91c32017f2b7a6ddd875af01e4d8942fc4373c2ac4409882f8fffb0eb0fbce91"
+    },
+    {
+      "step_id": 3570281,
+      "source_path": "courses/86957/steps/853540/02_3570281_text.step",
+      "file_sha256": "d418f4fc4f0c5a05eacb720b96bd03d7285f4aa775b76c122f7112308fe5e1e1",
+      "text_sha256": "7b3f9fe4b5a104534d8902d217313bdbe802d91c4ac2a119569605e095e1e0c7"
+    },
+    {
+      "step_id": 3569332,
+      "source_path": "courses/86957/steps/853541/01_3569332_text.step",
+      "file_sha256": "01b0ac148651b6f01422c668166342c0e4063ff65146e9f3de5e77d760485a12",
+      "text_sha256": "2bf01cb8d7664f93e198990fa282da88def7422a95e4bbc1a4d816634df0d416"
+    },
+    {
+      "step_id": 3570303,
+      "source_path": "courses/86957/steps/853541/02_3570303_text.step",
+      "file_sha256": "826d3b2d16a2cf0119f7f9381f8e5acca45920d8ab6f7af9cbb61ed75c2f44ec",
+      "text_sha256": "0c6b3327f49b7ecc00b37a5d3923b2d76b1b0a252248631f750d3cce33f4c108"
+    },
+    {
+      "step_id": 3570304,
+      "source_path": "courses/86957/steps/853541/03_3570304_text.step",
+      "file_sha256": "dfda4a17131fbe0e637a6dfe126ea837d85f757aaca90e2dc1b3be71eccb3e87",
+      "text_sha256": "665dcfc40c06b48bd8655048adcfa5ea0ea484707e45577729754b0f0ef97c17"
+    },
+    {
+      "step_id": 3570333,
+      "source_path": "courses/86957/steps/853541/04_3570333_text.step",
+      "file_sha256": "50690b905505b9410e4c955f7c1448de3b673acb03cb9e0177087d07df08db47",
+      "text_sha256": "b2b2137dac9b60f08c1d3ca85f669afaf402b77072f94d07a4361f38e2b64720"
+    },
+    {
+      "step_id": 3570332,
+      "source_path": "courses/86957/steps/853541/05_3570332_text.step",
+      "file_sha256": "ef3cea5463fb96efe28b61138b6479736eafa82b2d600e0e14bc20ab93f14b11",
+      "text_sha256": "24fe2b474069039d96021130749969eec0895f5fe80afbcc382e12f66e24fc70"
+    },
+    {
+      "step_id": 4035439,
+      "source_path": "courses/86957/steps/973829/01_4035439_text.step",
+      "file_sha256": "33a1e4b48001a5124a04aa1413c28f9cd6d0ca0e7c833c628b34793b86e6bee5",
+      "text_sha256": "9cd5dd7f4afb732e4f7d2a794d008396d96be3da6f5ec07b3f687bb80b1abf9b"
+    },
+    {
+      "step_id": 4035461,
+      "source_path": "courses/86957/steps/973829/02_4035461_text.step",
+      "file_sha256": "f6af7fb0d796a3db526886998853f2f6890da862c684c5e67c59dbab58aa2298",
+      "text_sha256": "a41293c205c7e89f4d7a09c02c76d273b4ac183ef5eaade72ce95ce5335f89a2"
+    },
+    {
+      "step_id": 4035460,
+      "source_path": "courses/86957/steps/973829/03_4035460_text.step",
+      "file_sha256": "a76e66aaabd4f1448217aefe78efa84a88e2e4526c3f22b37fe2c6a253dcbe21",
+      "text_sha256": "a6351f7fae974b945011c1e29f759a0a610e2246e74fb702278272911ed2c0c8"
+    },
+    {
+      "step_id": 4035443,
+      "source_path": "courses/86957/steps/973831/01_4035443_text.step",
+      "file_sha256": "01c2f4dc8eb44a14672ab25f051fd5f3e12f84223d239693a93747553cdb8dc4",
+      "text_sha256": "c10b6b600898e01d1e3e73fa03cfe5ba61bf54e024519a0e0123283a60cb2b2b"
+    },
+    {
+      "step_id": 4035481,
+      "source_path": "courses/86957/steps/973831/02_4035481_text.step",
+      "file_sha256": "8e84a1e8ff47ba0788a61fa7986a0a35563f3e7b6c02991ffcbef0a25d1ec697",
+      "text_sha256": "03b831efe4c60b500a06d21a8daa3066c2f5ae3aaea146700e4164aeeef3dea1"
+    },
+    {
+      "step_id": 4035311,
+      "source_path": "courses/86957/steps/973816/01_4035311_text.step",
+      "file_sha256": "9d89a98be479b27e8acdace7c632345859b2b1eeb8af9be46cc3de164707ef9c",
+      "text_sha256": "5b863f97b84a4f033525933a8722444f03a497c73fd7d17e433765ed230e3b07"
+    },
+    {
+      "step_id": 4035416,
+      "source_path": "courses/86957/steps/973825/01_4035416_text.step",
+      "file_sha256": "c68c7356dbcdc9e6d09fe2f3d63a60c32495c3c73f0f39c1ac5cf74fe4800a68",
+      "text_sha256": "ba7c1969bc91c483499cf6dcfa6154798df5178b476b012a997ac0138e57f70c"
+    },
+    {
+      "step_id": 4035427,
+      "source_path": "courses/86957/steps/973825/02_4035427_text.step",
+      "file_sha256": "f984e803072df98393c63ecc415ea1131d4807613b4c8d2f1aac3484621f4849",
+      "text_sha256": "bd487c17c863cd762d69d0df370b0dc199ddd086bc7b3d52fb2b0de17f3ebb12"
+    },
+    {
+      "step_id": 4035417,
+      "source_path": "courses/86957/steps/973826/01_4035417_text.step",
+      "file_sha256": "7d12e9af4ac44a8d633e6e22ab3d7e6aebe05e17281df171cc8b1d8cefbee644",
+      "text_sha256": "bece7ec958e4cf6999937aa83f14e2bb72252b68fe5c514b804904bd1b0f680f"
+    },
+    {
+      "step_id": 4035430,
+      "source_path": "courses/86957/steps/973826/02_4035430_text.step",
+      "file_sha256": "996f244e5a2046105f54298d953a6c31474925176f39851da58f9d9a7ceeab8c",
+      "text_sha256": "0bd2d33f5ea6cd4eaa189edc90867e6c341b45d3c59c4871f3987d246bb88cc0"
+    }
+  ],
+  "related_reviewed_step_ids": [
+    3177291,
+    3212944,
+    3212946,
+    3212949,
+    3212950,
+    3212955,
+    3307684,
+    3569325,
+    3569327,
+    3569964,
+    3668926,
+    3668928
+  ],
+  "related_review_inputs": [
+    {
+      "step_id": 3177291,
+      "source_path": "courses/86957/steps/763639/01_3177291_text.step",
+      "file_sha256": "a93edba1c7428bc3474fb394dfaba80995107ae1b59646664b85e0095a8fe4c9",
+      "text_sha256": "08299e33999cadabed21a39a8e0909e7849e5fdafc324df47ff90094ae041262"
+    },
+    {
+      "step_id": 3212944,
+      "source_path": "courses/86957/steps/770585/01_3212944_text.step",
+      "file_sha256": "24870135287588bef317423d0c2d1e7f113b59ebbab34e5fc5794f12fb8ef1c1",
+      "text_sha256": "a128e2d419316c87cbd00a39ac5311919864625b4726d830eddc5fbf3acf98e2"
+    },
+    {
+      "step_id": 3212946,
+      "source_path": "courses/86957/steps/770587/01_3212946_text.step",
+      "file_sha256": "65c00d311f49cbe384660ca9476c34b9734d00c280133358a224fc88cc30499e",
+      "text_sha256": "7be07c24b978c3142bc1525ece9036a1ae857d6048106b287efe6282d0af96bd"
+    },
+    {
+      "step_id": 3212949,
+      "source_path": "courses/86957/steps/770590/01_3212949_text.step",
+      "file_sha256": "309311a28cd1ca4f45e8058fde65d2699fb97f6937acc225dd53487e71816179",
+      "text_sha256": "fff746a07e56e513133990753c09964dbbd3b1223ee53ad3f5f74d9551858d41"
+    },
+    {
+      "step_id": 3212950,
+      "source_path": "courses/86957/steps/770591/01_3212950_text.step",
+      "file_sha256": "0e920b38d3e68c198271e6ccfe2eb9cb8bba51c01f22f65e1c0c963121901bd8",
+      "text_sha256": "c7cf33ff1eedbf7f8bd2f813a12de4cc63b2b5f53273317e82955d7b73d1e783"
+    },
+    {
+      "step_id": 3212955,
+      "source_path": "courses/86957/steps/770596/01_3212955_text.step",
+      "file_sha256": "475822d5019d3a5f87c0ee4cc413bd16b7e8dd9a01d246a076d04edec604b589",
+      "text_sha256": "52f2ab427dcec98c8e30de9b3a08fa20ba67b4faae9bdaf2a14c7fb77039b65b"
+    },
+    {
+      "step_id": 3307684,
+      "source_path": "courses/86957/steps/770587/06_3307684_text.step",
+      "file_sha256": "0ab0b102c82cf35829f1507c8f9e8bc4cf20493116f8bbdf27cbff92ba4daea9",
+      "text_sha256": "ee828a85ad23ede3d25f43b5e0734ef45165155a60d2be1214a37cf883624838"
+    },
+    {
+      "step_id": 3569325,
+      "source_path": "courses/86957/steps/853536/01_3569325_text.step",
+      "file_sha256": "9f5961ce94c01f2a55884cb11f7f941534ead75ac0b553e6c74e17a6fd28286e",
+      "text_sha256": "21c470ddd341a4e96011e7afcd48af3da0bb60121d1c31958b06f0ef975eb51c"
+    },
+    {
+      "step_id": 3569327,
+      "source_path": "courses/86957/steps/853537/01_3569327_text.step",
+      "file_sha256": "8db5c1de5d78638a547f88417a3909eb55425e696f719c64ea5fc5540bd3ad16",
+      "text_sha256": "d50599072cab9106b893cf7d6bb73c1118755143da141e6806add79d341bf681"
+    },
+    {
+      "step_id": 3569964,
+      "source_path": "courses/86957/steps/853536/02_3569964_text.step",
+      "file_sha256": "3fc3b3a5d0483962737a66cf740b22526875280182a6283019ba7e0a807e7324",
+      "text_sha256": "cb8e680308ebd0e2972f0b2607b376669fde814d2517488b598b596ffcf50cf8"
+    },
+    {
+      "step_id": 3668926,
+      "source_path": "courses/86957/steps/877082/01_3668926_text.step",
+      "file_sha256": "89a5b0dbe2fbffe2526efd1d2bafb713ea0eea994c3c2d41d16c6fd16a2c13b3",
+      "text_sha256": "13420a8a823a6e4ef056a611c3d9695581a3b82a190a8f14aff706a2139522f6"
+    },
+    {
+      "step_id": 3668928,
+      "source_path": "courses/86957/steps/877084/01_3668928_text.step",
+      "file_sha256": "a04e694b0b950aefcb910d805aa055a27fcfe530ef0ceaaee6bfa46d9c3d13a6",
+      "text_sha256": "0bfc455419129664fa860c670b3eb1732986055290265bd690869b508e47fdf1"
+    }
+  ],
+  "changed_text_step_ids": [
+    3213242,
+    3215109,
+    3215113,
+    3580923,
+    4035517,
+    3570230,
+    3569332,
+    3570333,
+    4035481
+  ],
+  "changed_outputs": [
+    {
+      "step_id": 3213242,
+      "path": "steps/770594/05_3213242_text.step",
+      "file_sha256": "3eee1eae1afb594a52d555ee7f12347d163cefc58b461dd3f850e92d611d34ea",
+      "text_sha256": "20586085ec2e275aac9e9b165d3a9fefff6cbf61c31ff0c185f9c7d1bef3d701"
+    },
+    {
+      "step_id": 3215109,
+      "path": "steps/771129/01_3215109_text.step",
+      "file_sha256": "a202f2322fab10ffa8e22e336fe786f6094c756a09ef49db2a552625df7ba778",
+      "text_sha256": "1adc88be677b39e898ea6fc5c7c42181ec7d832069101caf2f2e9e167e606795"
+    },
+    {
+      "step_id": 3215113,
+      "path": "steps/771131/01_3215113_text.step",
+      "file_sha256": "d20a78e26c6f3799883565accf379d61061904a12ab1c06bb3721755612b5b43",
+      "text_sha256": "34abed2c50bec5e41dc3c3f753e3bbbb0a1176ef8a7eb9c256698f507ff5bed6"
+    },
+    {
+      "step_id": 3580923,
+      "path": "steps/771131/04_3580923_text.step",
+      "file_sha256": "844732654f70ebfd7acd27c0397029fadf0985a179cb60c2a498c9ef78234c82",
+      "text_sha256": "cc57016e8f249dcc8897e688eb7d774c7f785675b049b6f6313fbbefa914e0ab"
+    },
+    {
+      "step_id": 4035517,
+      "path": "steps/973837/02_4035517_text.step",
+      "file_sha256": "296bcb84d4821e7fb886735cf3dbcbaff929d30382159cd076437fcfae35a202",
+      "text_sha256": "4b4429783e53f3be1d8dc829726d17f5f294743dcc09208ae26df5e46604af0b"
+    },
+    {
+      "step_id": 3570230,
+      "path": "steps/853539/02_3570230_text.step",
+      "file_sha256": "dbec07a03f0f6cc55cb15cb55f33b485cb47cd91371f29d12923c447dd316ba9",
+      "text_sha256": "9a4b6a39e146e285c8af8b8754ccbefae79f9ee05931e92b42204d4a719a5aec"
+    },
+    {
+      "step_id": 3569332,
+      "path": "steps/853541/01_3569332_text.step",
+      "file_sha256": "b48beb3e4d998abf79a0bcf2b4ddb1bd79ef8cecfbd6ce8ed594426180facc61",
+      "text_sha256": "cec752d49e175877488646f61ca1018f41b888fdf8605b4d539eb6311294757f"
+    },
+    {
+      "step_id": 3570333,
+      "path": "steps/853541/04_3570333_text.step",
+      "file_sha256": "2d03dadf0feba385b34de2d8603e210fb766b2e605ac6ec33b31cb03acd46daf",
+      "text_sha256": "cf1639cea0bc8d72286d0faee72accb39441afb18edd69dbbf08de68e3bee706"
+    },
+    {
+      "step_id": 4035481,
+      "path": "steps/973831/02_4035481_text.step",
+      "file_sha256": "5d152e77161947c74113870beaa8484e90e02360d76004b48d476c82d851f927",
+      "text_sha256": "fbe0f8b1b7d16438fe62b51ac495f1c23f8f0ca0c374bb20cdf5f73b454b0a75"
+    }
+  ],
+  "counts": {
+    "reviewed_unique_text_steps": 60,
+    "related_unique_text_steps": 12,
+    "changed_unique_text_steps": 9,
+    "by_module": {
+      "10": 21,
+      "11": 7,
+      "16": 12,
+      "17": 10,
+      "18": 5,
+      "19": 5
+    }
+  },
+  "review_depth": "Полностью прочитаны проза и листинги всех 60 текстовых шагов своего участка и 12 связанных текстов. Это семантическое согласование предпосылок, контракта, стоимости, результата и переходов; число прочитанных шагов не равно числу заново скомпилированных программ. T6 не переписан автоматически: только пять адресных прозаических исправлений, T4 — четыре.",
+  "method": {
+    "input": "Текущий снимок courses/86957 на base_commit; сохранённые continuation/T4 и theory/T6 отчёты прочитаны как история.",
+    "only_block_text_changed": true,
+    "all_pre_blocks_byte_identical": true,
+    "new_learner_tasks": 0,
+    "new_videos": 0,
+    "assessed_steps_modified": 0,
+    "historical_artifacts_modified": false
+  },
+  "findings": [
+    {
+      "id": "ALG-LINK-01",
+      "step_ids": [
+        3213242,
+        3212946
+      ],
+      "defect": "Квадратичный пример обещал будущий контейнер для переменного размера, хотя vector уже введён в модуле 6.",
+      "resolution": "Сделана точная обратная ссылка; выбор хранения отделён от подсчёта n² посещений.",
+      "status": "fixed"
+    },
+    {
+      "id": "ALG-LINK-02",
+      "step_ids": [
+        3215109,
+        3215192,
+        4035311
+      ],
+      "defect": "Описание поиска смешивало индекс и разыменуемый указатель/итератор; название lower_bound могло выглядеть как контракт стандартной функции.",
+      "resolution": "Значение size обозначает отсутствие индекса; запрещено values[size]. Собственная lower_bound_index возвращает индекс, std::lower_bound — итератор.",
+      "status": "fixed"
+    },
+    {
+      "id": "ALG-LINK-03",
+      "step_ids": [
+        3215113,
+        3569964
+      ],
+      "defect": "Фраза о закрытии файла при исключении не ограничивала случай раскрутки стека и не давала конкретного продолжения понятия RAII.",
+      "resolution": "Указана раскрутка до найденного обработчика и точный шаг RAII. Гарантия успешного сохранения по-прежнему требует явной проверки close.",
+      "status": "fixed"
+    },
+    {
+      "id": "ALG-LINK-04",
+      "step_ids": [
+        3580923,
+        3215203,
+        3215113
+      ],
+      "defect": "После примера fstream требовалось следовать неназванным правилам переключения чтения/записи; общая позиция и восстановление после EOF не были раскрыты.",
+      "resolution": "Разобраны output→flush/позиция→input, input→позиция→output и исключение после EOF. eofbit очищается и после успешного извлечения; позиционирование не убирает установленный failbit. clear не меняет позицию и не устраняет причину ошибки.",
+      "status": "fixed"
+    },
+    {
+      "id": "ALG-LINK-05",
+      "step_ids": [
+        4035517,
+        3570231,
+        3569330,
+        3570303
+      ],
+      "defect": "Таблица общих структур могла приписать логарифмический поиск любому дереву поиска, противореча следующему разбору вырождения.",
+      "resolution": "В таблице названо сбалансированное дерево, а обычное BST явно может стать цепочкой.",
+      "status": "fixed"
+    },
+    {
+      "id": "ALG-LINK-06",
+      "step_ids": [
+        3570230,
+        3570281,
+        3570303
+      ],
+      "defect": "BST-текст обещал единый результат false при дубликате также у RBT::add, хотя этот метод возвращает void.",
+      "resolution": "Общая семантика сохранения прежнего значения отделена от типа результата: bool у BST/AVL, void у RB. Связи ведут к реальным объявлениям.",
+      "status": "fixed",
+      "evidence": "examples/algorithms/contracts.cpp: static_assert типов и проверки дубликатов"
+    },
+    {
+      "id": "ALG-LINK-07",
+      "step_ids": [
+        3569332,
+        3570303
+      ],
+      "defect": "Старая вводная фраза называла 2–3-дерево прямым прообразом общего RB, противореча сохранённому уточнению про 2–3–4.",
+      "resolution": "Связь сформулирована через равную глубину листьев и чёрную высоту; устойчивые 4-узлы принадлежат варианту 2–3–4; конкретный бинарный инвариант задан следующим шагом.",
+      "status": "fixed"
+    },
+    {
+      "id": "ALG-LINK-08",
+      "step_ids": [
+        3570333,
+        3570303
+      ],
+      "defect": "Оформление предлагало пропустить объяснение удаления и ориентироваться по картинкам; термин лист мог означать и NIL, и узел данных без детей.",
+      "resolution": "Дан маршрут чтения дефицита чёрной высоты, брата и его детей; значения двух смыслов листа разведены. Проза, таблица и код самостоятельны.",
+      "status": "fixed"
+    },
+    {
+      "id": "ALG-LINK-09",
+      "step_ids": [
+        4035481,
+        4035443,
+        3212953,
+        4035427,
+        4035417
+      ],
+      "defect": "Таблица O(1+α)/O(n) рядом с find могла читаться как полная цена операции, хотя успешный find копирует строку произвольной длины.",
+      "resolution": "Оценено число сравнений ID; длина L и O(L) работы с символами для независимой копии результата указаны отдельно. Результат сопоставлен с итератором map::find.",
+      "status": "fixed",
+      "evidence": "examples/algorithms/contracts.cpp: сохранённая копия переживает замену, rehash и erase"
+    }
+  ],
+  "chains": [
+    {
+      "name": "Алгоритм → модель стоимости → поиск → выбор контейнера",
+      "step_ids": [
+        3212953,
+        3213244,
+        3213247,
+        3213248,
+        3213256,
+        3213255,
+        3215109,
+        3215183,
+        3215192,
+        3215191,
+        4035416,
+        4035417,
+        4035430
+      ],
+      "outcome": "checked_and_repaired",
+      "conclusion": "Число сравнений отделено от перемещения/копирования; O и Θ не смешаны, средняя/амортизированная/худшая оценка указаны. Бинарный поиск требует подходящего порядка и учёта категории итератора. Размер и возвращаемая граница согласованы. Измерения времени не подменяют доказательство оценки."
+    },
+    {
+      "name": "Сортировка → свойства результата → стандартный алгоритм",
+      "step_ids": [
+        3212954,
+        3215136,
+        3215137,
+        3215176,
+        3215175,
+        3215178,
+        3215177,
+        3215179,
+        4035311
+      ],
+      "outcome": "checked_no_additional_change",
+      "conclusion": "Прочитаны все семь разборов сортировки. Стабильность, память, худшие/средние случаи и выбранная версия алгоритма не смешаны. Предусловия полуинтервала и допустимого компаратора соотносятся с вводным контрактом; конкретные численные оценки не объявлены универсальным временем исполнения."
+    },
+    {
+      "name": "Абстрактный интерфейс → инвариант → дерево → map/set",
+      "step_ids": [
+        4035497,
+        4035517,
+        3668926,
+        3212949,
+        3569329,
+        3570230,
+        3570231,
+        3569330,
+        3570281,
+        3569332,
+        3570303,
+        3570304,
+        3570333,
+        3570332,
+        4035416,
+        4035427,
+        4035430
+      ],
+      "outcome": "checked_and_repaired",
+      "conclusion": "Логарифмическая высота требует балансировки. BST/AVL/RB сохраняют значения дубликатов, но тип результата вставки различается. Общее RB соотнесено с 2–3–4; NIL/end не считаются объектами для разыменования. Стандарт гарантирует свойства и сложность map/set, а красно-чёрное дерево обозначено как типичное устройство, не обязательная реализация."
+    },
+    {
+      "name": "Очередь → адаптер → последовательность → гарантии deque",
+      "step_ids": [
+        4035524,
+        4035562,
+        4035563,
+        4036909,
+        4035311,
+        4035416
+      ],
+      "outcome": "checked_no_additional_change",
+      "conclusion": "FIFO, LIFO, двусторонняя и приоритетная очереди различены; front/pop требуют непустой очереди. queue ограничивает интерфейс и не становится отдельной физической схемой памяти. Сегментное устройство deque обозначено как типичное, непрерывность памяти не обещана."
+    },
+    {
+      "name": "Хеширование → стоимость → результат поиска → unordered_map",
+      "step_ids": [
+        4035439,
+        4035461,
+        4035460,
+        4035443,
+        4035481,
+        3212953,
+        4035427,
+        4035417,
+        4035430
+      ],
+      "outcome": "checked_and_repaired",
+      "conclusion": "Хеш не равен идентичности ключа; коллизия не означает ошибку. α=n/m и качественное распределение являются условиями средней оценки, худший случай линейный. Договор учебного ItemTable отделён от стандартного unordered_map; копия строки и итератор имеют разную цену и время жизни."
+    },
+    {
+      "name": "Файл → формат/EOF → состояние → RAII",
+      "step_ids": [
+        3215113,
+        3215200,
+        3215199,
+        3580923,
+        3215112,
+        3215203,
+        3215206,
+        3569325,
+        3569964
+      ],
+      "outcome": "checked_and_repaired",
+      "conclusion": "Проверка результата чтения предшествует использованию; EOF как состояние не предсказывает следующую операцию. Формат чисел отделён от наличия байтов, ошибочный токен и конец файла различены. Режим, общая позиция, смена направления и clear согласованы. RAII закрывает ресурс при завершении объекта, но не удостоверяет сохранение данных; close проверяется отдельно."
+    },
+    {
+      "name": "Объект → представление → преобразование → сериализация",
+      "step_ids": [
+        3177291,
+        3212944,
+        3212955,
+        3215112,
+        4047594,
+        4047616,
+        4047627,
+        4047680,
+        4047681,
+        4047682,
+        3668928
+      ],
+      "outcome": "checked_no_additional_change",
+      "conclusion": "Приведение не создаёт автоматически объект нужного типа и не является форматом хранения. Диапазон, выравнивание, время жизни и допустимый доступ не отменены reinterpret_cast; текст о файлах не рекомендует сохранять сырое представление произвольного класса. dynamic_cast требует полиморфной базы, const_cast не разрешает менять исходно const-объект."
+    }
+  ],
+  "course_link_check": {
+    "matched_link_occurrences": 63,
+    "unique_edges": 62,
+    "unresolved_targets": [],
+    "edges": [
+      {
+        "from_step_id": 3213242,
+        "to_step_id": 3212946,
+        "lesson_id": 770587,
+        "position": 1
+      },
+      {
+        "from_step_id": 3213247,
+        "to_step_id": 3215192,
+        "lesson_id": 771129,
+        "position": 3
+      },
+      {
+        "from_step_id": 3213256,
+        "to_step_id": 3215178,
+        "lesson_id": 770595,
+        "position": 6
+      },
+      {
+        "from_step_id": 3212954,
+        "to_step_id": 4035311,
+        "lesson_id": 973816,
+        "position": 1
+      },
+      {
+        "from_step_id": 3215137,
+        "to_step_id": 3215176,
+        "lesson_id": 770595,
+        "position": 4
+      },
+      {
+        "from_step_id": 3215179,
+        "to_step_id": 3570230,
+        "lesson_id": 853539,
+        "position": 2
+      },
+      {
+        "from_step_id": 3215109,
+        "to_step_id": 3668926,
+        "lesson_id": 877082,
+        "position": 1
+      },
+      {
+        "from_step_id": 3215192,
+        "to_step_id": 4035416,
+        "lesson_id": 973825,
+        "position": 1
+      },
+      {
+        "from_step_id": 3215113,
+        "to_step_id": 3215206,
+        "lesson_id": 771130,
+        "position": 3
+      },
+      {
+        "from_step_id": 3215113,
+        "to_step_id": 3569964,
+        "lesson_id": 853536,
+        "position": 2
+      },
+      {
+        "from_step_id": 3215113,
+        "to_step_id": 3215200,
+        "lesson_id": 771131,
+        "position": 2
+      },
+      {
+        "from_step_id": 3580923,
+        "to_step_id": 3215203,
+        "lesson_id": 771130,
+        "position": 2
+      },
+      {
+        "from_step_id": 3215112,
+        "to_step_id": 3212955,
+        "lesson_id": 770596,
+        "position": 1
+      },
+      {
+        "from_step_id": 3215112,
+        "to_step_id": 3668926,
+        "lesson_id": 877082,
+        "position": 1
+      },
+      {
+        "from_step_id": 3215112,
+        "to_step_id": 3212955,
+        "lesson_id": 770596,
+        "position": 1
+      },
+      {
+        "from_step_id": 4035497,
+        "to_step_id": 3668926,
+        "lesson_id": 877082,
+        "position": 1
+      },
+      {
+        "from_step_id": 4035497,
+        "to_step_id": 3569325,
+        "lesson_id": 853536,
+        "position": 1
+      },
+      {
+        "from_step_id": 4035497,
+        "to_step_id": 3212953,
+        "lesson_id": 770594,
+        "position": 1
+      },
+      {
+        "from_step_id": 4035517,
+        "to_step_id": 3569329,
+        "lesson_id": 853539,
+        "position": 1
+      },
+      {
+        "from_step_id": 4035517,
+        "to_step_id": 4035439,
+        "lesson_id": 973829,
+        "position": 1
+      },
+      {
+        "from_step_id": 4035517,
+        "to_step_id": 4035311,
+        "lesson_id": 973816,
+        "position": 1
+      },
+      {
+        "from_step_id": 4035524,
+        "to_step_id": 4035497,
+        "lesson_id": 973837,
+        "position": 1
+      },
+      {
+        "from_step_id": 4035524,
+        "to_step_id": 3212949,
+        "lesson_id": 770590,
+        "position": 1
+      },
+      {
+        "from_step_id": 4036909,
+        "to_step_id": 3668928,
+        "lesson_id": 877084,
+        "position": 1
+      },
+      {
+        "from_step_id": 4047594,
+        "to_step_id": 3177291,
+        "lesson_id": 763639,
+        "position": 1
+      },
+      {
+        "from_step_id": 4047594,
+        "to_step_id": 3212944,
+        "lesson_id": 770585,
+        "position": 1
+      },
+      {
+        "from_step_id": 4047594,
+        "to_step_id": 3668928,
+        "lesson_id": 877084,
+        "position": 1
+      },
+      {
+        "from_step_id": 4047627,
+        "to_step_id": 3668928,
+        "lesson_id": 877084,
+        "position": 1
+      },
+      {
+        "from_step_id": 4047681,
+        "to_step_id": 3215112,
+        "lesson_id": 771130,
+        "position": 1
+      },
+      {
+        "from_step_id": 4047682,
+        "to_step_id": 3569329,
+        "lesson_id": 853539,
+        "position": 1
+      },
+      {
+        "from_step_id": 3569329,
+        "to_step_id": 4035497,
+        "lesson_id": 973837,
+        "position": 1
+      },
+      {
+        "from_step_id": 3569329,
+        "to_step_id": 3212950,
+        "lesson_id": 770591,
+        "position": 1
+      },
+      {
+        "from_step_id": 3569329,
+        "to_step_id": 3569325,
+        "lesson_id": 853536,
+        "position": 1
+      },
+      {
+        "from_step_id": 3569329,
+        "to_step_id": 3570230,
+        "lesson_id": 853539,
+        "position": 2
+      },
+      {
+        "from_step_id": 3570230,
+        "to_step_id": 3570281,
+        "lesson_id": 853540,
+        "position": 2
+      },
+      {
+        "from_step_id": 3570230,
+        "to_step_id": 3570303,
+        "lesson_id": 853541,
+        "position": 2
+      },
+      {
+        "from_step_id": 3570231,
+        "to_step_id": 3569330,
+        "lesson_id": 853540,
+        "position": 1
+      },
+      {
+        "from_step_id": 3570231,
+        "to_step_id": 3570303,
+        "lesson_id": 853541,
+        "position": 2
+      },
+      {
+        "from_step_id": 3569330,
+        "to_step_id": 3570230,
+        "lesson_id": 853539,
+        "position": 2
+      },
+      {
+        "from_step_id": 3570281,
+        "to_step_id": 3569332,
+        "lesson_id": 853541,
+        "position": 1
+      },
+      {
+        "from_step_id": 3569332,
+        "to_step_id": 3570303,
+        "lesson_id": 853541,
+        "position": 2
+      },
+      {
+        "from_step_id": 3570303,
+        "to_step_id": 3570230,
+        "lesson_id": 853539,
+        "position": 2
+      },
+      {
+        "from_step_id": 3570303,
+        "to_step_id": 3569330,
+        "lesson_id": 853540,
+        "position": 1
+      },
+      {
+        "from_step_id": 3570303,
+        "to_step_id": 3569327,
+        "lesson_id": 853537,
+        "position": 1
+      },
+      {
+        "from_step_id": 3570304,
+        "to_step_id": 3570303,
+        "lesson_id": 853541,
+        "position": 2
+      },
+      {
+        "from_step_id": 3570333,
+        "to_step_id": 3570303,
+        "lesson_id": 853541,
+        "position": 2
+      },
+      {
+        "from_step_id": 3570332,
+        "to_step_id": 3569329,
+        "lesson_id": 853539,
+        "position": 1
+      },
+      {
+        "from_step_id": 3570332,
+        "to_step_id": 4035439,
+        "lesson_id": 973829,
+        "position": 1
+      },
+      {
+        "from_step_id": 4035439,
+        "to_step_id": 4035497,
+        "lesson_id": 973837,
+        "position": 1
+      },
+      {
+        "from_step_id": 4035439,
+        "to_step_id": 3212953,
+        "lesson_id": 770594,
+        "position": 1
+      },
+      {
+        "from_step_id": 4035439,
+        "to_step_id": 3570230,
+        "lesson_id": 853539,
+        "position": 2
+      },
+      {
+        "from_step_id": 4035460,
+        "to_step_id": 4035443,
+        "lesson_id": 973831,
+        "position": 1
+      },
+      {
+        "from_step_id": 4035443,
+        "to_step_id": 3668926,
+        "lesson_id": 877082,
+        "position": 1
+      },
+      {
+        "from_step_id": 4035443,
+        "to_step_id": 3569325,
+        "lesson_id": 853536,
+        "position": 1
+      },
+      {
+        "from_step_id": 4035481,
+        "to_step_id": 3212953,
+        "lesson_id": 770594,
+        "position": 1
+      },
+      {
+        "from_step_id": 4035481,
+        "to_step_id": 4035427,
+        "lesson_id": 973825,
+        "position": 2
+      },
+      {
+        "from_step_id": 4035481,
+        "to_step_id": 4035417,
+        "lesson_id": 973826,
+        "position": 1
+      },
+      {
+        "from_step_id": 4035311,
+        "to_step_id": 3215109,
+        "lesson_id": 771129,
+        "position": 1
+      },
+      {
+        "from_step_id": 4035311,
+        "to_step_id": 4035517,
+        "lesson_id": 973837,
+        "position": 2
+      },
+      {
+        "from_step_id": 4035416,
+        "to_step_id": 3570303,
+        "lesson_id": 853541,
+        "position": 2
+      },
+      {
+        "from_step_id": 4035417,
+        "to_step_id": 3212953,
+        "lesson_id": 770594,
+        "position": 1
+      },
+      {
+        "from_step_id": 4035417,
+        "to_step_id": 4035460,
+        "lesson_id": 973829,
+        "position": 3
+      },
+      {
+        "from_step_id": 4035430,
+        "to_step_id": 4035439,
+        "lesson_id": 973829,
+        "position": 1
+      }
+    ],
+    "scope": "Ссылки lesson/step в эффективной редакции 60 текстов разрешены по зафиксированной структуре снимка. Работоспособность живого сайта не проверялась."
+  },
+  "unresolved_defects": [],
+  "related_findings_forwarded": [
+    {
+      "step_id": 3569325,
+      "issue": "Общая фраза о передаче владения при возвращении любого значения шире договора показанного vector.",
+      "disposition": "Передано агенту ownership; он подтвердил адресное уточнение. Исправление и проверка этого шага учитываются в его отчёте, не в девяти изменениях algorithms."
+    }
+  ],
+  "assessment_mismatches_from_history": [
+    {
+      "lesson_id": 770595,
+      "status": "preexisting_out_of_scope",
+      "description": "Существующие сложные задачи не измеряют только знание изложенной сортировки; см. исторические notes_algorithms.md."
+    },
+    {
+      "lesson_id": 973826,
+      "status": "preexisting_out_of_scope",
+      "description": "Существующее задание об упрощённом языке требует разбора выражений и состояния имён сверх интерфейса map; в теории это отмечено, задание не изменено."
+    }
+  ],
+  "assessment_mismatch_note": "Это сохранённые замечания предыдущего T4 к существующим заданиям; новые проверки оценочных программ сейчас не запускались, новых противоречий в своей текстовой сверке не обнаружено.",
+  "validation": {
+    "command": "python3 improvements/86957/theory-links-2026-11-23/examples/algorithms/verify.py",
+    "report": "validation/algorithms_current.json",
+    "result": "passed",
+    "compilations": 4,
+    "executions": 4,
+    "standards": [
+      "c++17",
+      "c++20"
+    ],
+    "compiler": "GCC 14.2.0",
+    "sanitizer": "UBSan",
+    "coverage": [
+      "типы bool/void и семантика вставки дубликата у BST/AVL/RB",
+      "удаление с последующей вставкой",
+      "коллизия, отсутствующий ключ и независимая строка ItemTable::find после замены/rehash/erase",
+      "общая позиция и допустимые переключения fstream",
+      "EOF с failbit, успешное извлечение с одним eofbit, пустой файл, ошибка открытия",
+      "точный stdout и содержимое четырёх полученных файлов"
+    ],
+    "historical_validation_overwritten": false
+  },
+  "sources": [
+    {
+      "family": "C++17 N4659 / C++20 N4861",
+      "role": "Версионированный текст требований, а не текущий рабочий проект",
+      "urls": [
+        "https://timsong-cpp.github.io/cppwp/n4659/filebuf",
+        "https://timsong-cpp.github.io/cppwp/n4861/filebuf",
+        "https://timsong-cpp.github.io/cppwp/n4659/filebuf.cons",
+        "https://timsong-cpp.github.io/cppwp/n4861/filebuf.cons",
+        "https://timsong-cpp.github.io/cppwp/n4659/iostate.flags",
+        "https://timsong-cpp.github.io/cppwp/n4861/iostate.flags",
+        "https://timsong-cpp.github.io/cppwp/n4861/ostream.sentry",
+        "https://timsong-cpp.github.io/cppwp/n4659/istream.unformatted",
+        "https://timsong-cpp.github.io/cppwp/n4861/istream.unformatted",
+        "https://timsong-cpp.github.io/cppwp/n4659/except.ctor",
+        "https://timsong-cpp.github.io/cppwp/n4861/except.ctor",
+        "https://timsong-cpp.github.io/cppwp/n4861/except.terminate",
+        "https://timsong-cpp.github.io/cppwp/n4659/alg.binary.search",
+        "https://timsong-cpp.github.io/cppwp/n4861/expr.sub",
+        "https://timsong-cpp.github.io/cppwp/n4659/dcl.array",
+        "https://timsong-cpp.github.io/cppwp/n4659/vector.overview",
+        "https://timsong-cpp.github.io/cppwp/n4659/dcl.fct",
+        "https://timsong-cpp.github.io/cppwp/n4659/container.requirements.general",
+        "https://timsong-cpp.github.io/cppwp/n4861/container.requirements.general",
+        "https://timsong-cpp.github.io/cppwp/n4659/basic.string",
+        "https://timsong-cpp.github.io/cppwp/n4861/basic.string",
+        "https://timsong-cpp.github.io/cppwp/n4861/string.cons",
+        "https://timsong-cpp.github.io/cppwp/n4861/associative.reqmts"
+      ],
+      "checked_claims": "Общая файловая позиция, переключение направлений, состояние/очистка, закрытие при уничтожении, границы unwinding; индексы и lower_bound; стоимость операций с элементами и независимая копия строки."
+    },
+    {
+      "family": "C N1570 и N2176",
+      "role": "Первичный текст правил FILE, на который ссылается C++ filebuf; §7.21.5.3/7",
+      "urls": [
+        "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf",
+        "https://cigix.me/c17"
+      ],
+      "checked_claims": "Между output и input нужны fflush либо позиционирование; между input и output нужно позиционирование, кроме достижения EOF. N2176 прочитан в HTML-представлении; официальный PDF N2176 инструмент не разобрал."
+    },
+    {
+      "family": "Robert Sedgewick, Left-Leaning Red-Black Trees (2008)",
+      "role": "Первичный авторский источник о соответствии RB и много-ключевых деревьев; не стандарт C++ и не доказательство всей данной реализации",
+      "urls": [
+        "https://sedgewick.io/wp-content/themes/sedgewick/papers/2008LLRB.pdf"
+      ],
+      "checked_claims": "Для разных вариантов бинарного представления используются ограничения, соответствующие 2–3 и 2–3–4; логарифмическая высота связана с инвариантом баланса."
+    }
+  ],
+  "quality_assessment": {
+    "scope": "Только прочитанные модули 10–11 и 16–19 после этих адресных исправлений; экспертная оценка, не процент готовности курса.",
+    "technical_correctness": {
+      "weight": 0.3,
+      "score": 9.0,
+      "reason": "Контракты, условия сложности и область стандартных гарантий согласованы; нормированные правила сверены по версиям, конечные тесты не заменяют доказательство всех состояний."
+    },
+    "sequence_and_connections": {
+      "weight": 0.25,
+      "score": 8.8,
+      "reason": "Семь цепей имеют явные опорные шаги; ошибочные обещания и неопределённые переходы своего участка исправлены."
+    },
+    "currency_and_selection": {
+      "weight": 0.2,
+      "score": 9.0,
+      "reason": "C++17/20, стандартные контейнеры и RAII отделены от учебных реализаций и интерфейса C."
+    },
+    "clarity_and_self_containment": {
+      "weight": 0.15,
+      "score": 8.5,
+      "reason": "Текст и разобранные примеры самостоятельны; длинное удаление RB остаётся самым плотным материалом, хотя маршрут чтения теперь явный."
+    },
+    "example_verifiability": {
+      "weight": 0.1,
+      "score": 9.0,
+      "reason": "Листинги связаны с сохранёнными исходниками, новый узкий запуск проверяет затронутые договоры. Исторические полные наборы не выдаются за новый запуск."
+    },
+    "weighted_score": 8.875,
+    "plausible_range": [
+      8.6,
+      9.0
+    ],
+    "no_new_practice_or_video_penalty": true
+  },
+  "remaining_editor_hours": {
+    "this_owned_semantic_review": [
+      0,
+      0
+    ],
+    "integration_and_independent_acceptance": "Root оценивает единожды для всего LINKS; не складывать с полным историческим T4/T6.",
+    "publication": "Только GitHub. Stepik не затрагивался по явной границе пользователя."
+  },
+  "limitations": [
+    "Не выполнен новый запуск всех старых сортировок, файловых программ и полного stress-набора T6; текущая проверка содержит два адресных авторских исходника.",
+    "Linux/GCC; Windows/MSVC и macOS сейчас не проверены.",
+    "Изображения деревьев не перерисованы и их загрузка/рендеринг не проверялись; новые объяснения не требуют рисунков.",
+    "Не проведена формальная верификация всех состояний AVL/RB, неисправностей носителя и асимптотики через измерения.",
+    "Не было прямых обращений к Stepik; snapshot и исторические статусы публикации не изменены."
+  ],
+  "scope_adaptation_confirmation": {
+    "confirmed_at_utc": "2026-11-23T12:00:44.806919+00:00",
+    "original_quality_text_step_ids": [
+      3212953,
+      3212954,
+      3213247,
+      3213255,
+      3213256,
+      3215109,
+      3215112,
+      3215113,
+      3215136,
+      3215175,
+      3215176,
+      3215178,
+      3215179,
+      3215183,
+      3215192,
+      3215199,
+      3215200,
+      3215203,
+      3215206,
+      3580923,
+      4035311,
+      4035416,
+      4035417,
+      4035427,
+      4035430
+    ],
+    "count": 25,
+    "conclusion": "По текущему полному чтению самостоятельные задания заменены законченными объяснениями/разборами либо исключены; простого переименования заголовка с сохранением поручения не обнаружено.",
+    "remaining_learner_assignments": [],
+    "runtime_scope": "Это текущее смысловое подтверждение, не повторная компиляция всех прежних программ."
+  }
+}

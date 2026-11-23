@@ -1,0 +1,768 @@
+{
+  "schema_version": 1,
+  "course_id": 86957,
+  "date": "2026-11-23",
+  "base_commit": "5885876d1ddbc744bf0c21e2fef32a0bb92a7c43",
+  "assessment_scope": "theory_accuracy_currency_and_coherence_only",
+  "review_depth": "Структура полная; содержательное чтение целевое, не построчная сертификация всех текстов.",
+  "rubric": [
+    {
+      "dimension": "Техническая корректность",
+      "weight_percent": 30,
+      "snapshot_score": 7,
+      "prepared_theory_score": 8,
+      "criterion": "Определения, гарантии, границы применимости; положительные примеры не обучают неопределённому поведению."
+    },
+    {
+      "dimension": "Последовательность и связанность",
+      "weight_percent": 25,
+      "snapshot_score": 5.5,
+      "prepared_theory_score": 6,
+      "criterion": "Предварительные знания, переходы, единая модель объектов/владения/сложности, согласованные термины."
+    },
+    {
+      "dimension": "Актуальность C++ и учебного отбора",
+      "weight_percent": 20,
+      "snapshot_score": 7,
+      "prepared_theory_score": 7.5,
+      "criterion": "Современные идиомы и стандартная библиотека; исторические и платформенные механизмы имеют явный контекст."
+    },
+    {
+      "dimension": "Ясность и самодостаточность текста",
+      "weight_percent": 15,
+      "snapshot_score": 6.5,
+      "prepared_theory_score": 7.5,
+      "criterion": "Понятная цель объяснения, умеренная нагрузка, необходимая теория доступна без просмотра видео."
+    },
+    {
+      "dimension": "Проверяемость объясняющих примеров",
+      "weight_percent": 10,
+      "snapshot_score": 7,
+      "prepared_theory_score": 8,
+      "criterion": "Полный пример отличим от фрагмента, разбор соответствует коду; изменяемые примеры проверяет редактор."
+    }
+  ],
+  "overall": {
+    "snapshot_range": [
+      6.5,
+      7
+    ],
+    "prepared_theory_range": [
+      7,
+      7.5
+    ],
+    "interpretation": "Экспертная оценка теоретической части, не процент готовности; с прежней оценкой полного учебного маршрута напрямую не сравнивается.",
+    "confidence": "medium"
+  },
+  "modules": [
+    {
+      "module_number": 1,
+      "title": "Что такое Алгоритм?",
+      "text_step_count": 12,
+      "priority": "P2",
+      "status": "targeted_theory_review",
+      "remaining_theory": "Связать алгоритм, программу и именованную операцию; убрать неоговорённую предпосылку знания HTML/CSS; согласовать первоначальное понятие функции с модулем 7.",
+      "human_editor_hours": {
+        "min": 1,
+        "max": 2
+      },
+      "evidence": [
+        {
+          "step_id": 3201303,
+          "snapshot_path": "courses/86957/steps/768145/03_3201303_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/768145/03_3201303_text.step",
+          "effective_file_sha256": "a46a2b3e1d55680bdec083ed77196e8a2935d5554635b6e8a7e9267369f6c9bd",
+          "observation": "Текст предполагает предшествующее знакомство всех учащихся с HTML/CSS."
+        },
+        {
+          "step_id": 3173935,
+          "snapshot_path": "courses/86957/steps/763040/03_3173935_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/763040/03_3173935_text.step",
+          "effective_file_sha256": "bc5ec70c20ae623ba5c9e965dc7e3b7854a65bb9c8d2778f3a8e9cf7ebf627a0",
+          "observation": "Формы записи алгоритма перечислены, переход к будущему C++ остаётся общим."
+        }
+      ]
+    },
+    {
+      "module_number": 2,
+      "title": "Основы программирования",
+      "text_step_count": 26,
+      "priority": "P1",
+      "status": "targeted_theory_review",
+      "remaining_theory": "Выстроить путь от программы и трансляции к представлению данных; отделить платформенную сегментную модель от языка; связать округление и числовые типы.",
+      "human_editor_hours": {
+        "min": 4,
+        "max": 6
+      },
+      "evidence": [
+        {
+          "step_id": 3215252,
+          "snapshot_path": "courses/86957/steps/771154/04_3215252_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/771154/04_3215252_text.step",
+          "effective_file_sha256": "840c38e314606823c19e88c5cddb1382fe5cdbbe7c6c8d1ff87b5383ac7e686c",
+          "observation": "Ранняя подробная модель CS:IP, адресации и команд требует контекста и предварительных знаний."
+        },
+        {
+          "step_id": 3215267,
+          "snapshot_path": "courses/86957/steps/771156/03_3215267_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/771156/03_3215267_text.step",
+          "effective_file_sha256": "219ed4c2fc71bd3664148cc97bd66d5ff3f9866895dd34343fe9848f56afc80b",
+          "observation": "Форматы базовых типов нужно связать с гарантиями языка и реализацией."
+        },
+        {
+          "step_id": 3215257,
+          "snapshot_path": "courses/86957/steps/771155/03_3215257_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/771155/03_3215257_text.step",
+          "effective_file_sha256": "5d25d5d0e1c9ad45e1bb4c9a945cad543966d120c47f7cfd22df74b7fa74f78a",
+          "observation": "Корректное объяснение округления уже есть; его следует связать с последующим double."
+        }
+      ]
+    },
+    {
+      "module_number": 3,
+      "title": "Первые шаги в программировании",
+      "text_step_count": 34,
+      "priority": "P2",
+      "status": "targeted_theory_review",
+      "remaining_theory": "Сократить справочник IDE и рекламные описания; объяснить роли редактора, компилятора, сборки и Git; согласовать стандарт C++ и маршрут к углублённому материалу.",
+      "human_editor_hours": {
+        "min": 3,
+        "max": 5
+      },
+      "evidence": [
+        {
+          "step_id": 3201141,
+          "snapshot_path": "courses/86957/steps/768140/02_3201141_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/768140/02_3201141_text.step",
+          "effective_file_sha256": "95d3cfa8561a4c3fa1c904abed13281f7cade21646d89a401f91ea5abbb30935",
+          "observation": "Современное разграничение IDE, компилятора, C++20 и среды Stepik уже подготовлено в опубликованной основе."
+        },
+        {
+          "step_id": 3214778,
+          "snapshot_path": "courses/86957/steps/771009/03_3214778_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/771009/03_3214778_text.step",
+          "effective_file_sha256": "d078f740d3d4683e800daff88d12d4cbab199ca97ed5d12020d5f1de30eaaff4",
+          "observation": "Большой текст о популярности Git и продуктах Atlassian отвлекает от понятийной модели."
+        },
+        {
+          "step_id": 3237946,
+          "snapshot_path": "courses/86957/steps/776128/01_3237946_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/776128/01_3237946_text.step",
+          "effective_file_sha256": "f73eb6c6b49ca200726204458967c12119a54329614abcc5140b6baca5ae71ec",
+          "observation": "Углублённая тема _start помечена, но нужный маршрут предварительных знаний недостаточно явен."
+        }
+      ]
+    },
+    {
+      "module_number": 4,
+      "title": "Основные приёмы программирования на языке С++",
+      "text_step_count": 24,
+      "priority": "P1",
+      "status": "targeted_theory_review",
+      "remaining_theory": "Согласовать тип, значение, выражение, преобразование, условие и цикл; пояснить целочисленное деление и побочные эффекты; именованные C++-приведения сделать основным объяснением.",
+      "human_editor_hours": {
+        "min": 4,
+        "max": 6
+      },
+      "evidence": [
+        {
+          "step_id": 3177291,
+          "snapshot_path": "courses/86957/steps/763639/01_3177291_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/763639/01_3177291_text.step",
+          "effective_file_sha256": "26406cab1a4ecb7327db03b7456a10532199fb0adc8ce2062b19c430d81fbcdd",
+          "observation": "Карта операторов дана кратким списком без связной модели выражений."
+        },
+        {
+          "step_id": 3177474,
+          "snapshot_path": "courses/86957/steps/763639/02_3177474_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/763639/02_3177474_text.step",
+          "effective_file_sha256": "828448c6e8fc57fc6095c4fa11eae1aefff7a26fbbef18cf0763e73e6c408a0d",
+          "observation": "Объяснение преобразования начинается с C-style записи (double)m."
+        },
+        {
+          "step_id": 3177504,
+          "snapshot_path": "courses/86957/steps/763639/03_3177504_text.step",
+          "effective_path": "courses/86957/steps/763639/03_3177504_text.step",
+          "effective_file_sha256": "af91782891a81e3273f56eb1eee5b9e3b6da8a8a18d70875e48027d04f944380",
+          "observation": "Уже имеющиеся уточнения C++20 и границ сдвига необходимо сохранить."
+        }
+      ]
+    },
+    {
+      "module_number": 5,
+      "title": "Статические массивы в языке С++",
+      "text_step_count": 11,
+      "priority": "P2",
+      "status": "targeted_theory_review",
+      "remaining_theory": "Связать встроенный массив, std::array, память и будущие указатели; отделить сведения, которые требуют ещё не введённых понятий; обозначить статус фрагментов.",
+      "human_editor_hours": {
+        "min": 1,
+        "max": 2
+      },
+      "evidence": [
+        {
+          "step_id": 3212926,
+          "snapshot_path": "courses/86957/steps/763644/07_3212926_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/763644/07_3212926_text.step",
+          "effective_file_sha256": "cfb3a1caa933293c1c4af911b3cc9c371acd7f3f622536d86e4724254125f4d1",
+          "observation": "Объяснение массива ссылок использует константные указатели до модуля указателей."
+        },
+        {
+          "step_id": 3212937,
+          "snapshot_path": "courses/86957/steps/763646/05_3212937_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/763646/05_3212937_text.step",
+          "effective_file_sha256": "275f0db870b6852cd1429bd3aeb8ed09da97f8470ba054ee632dd0defcfa172a",
+          "observation": "new[] и delete[] появляются до систематической темы динамической памяти."
+        },
+        {
+          "step_id": 3212928,
+          "snapshot_path": "courses/86957/steps/763646/04_3212928_text.step",
+          "effective_path": "courses/86957/steps/763646/04_3212928_text.step",
+          "effective_file_sha256": "5c2d7b8e75e8e27f00b46bf601aa839adcaa6e2aa90ddf945fef3695f40d10f2",
+          "observation": "Построчное хранение и границы уже объяснены; требуется согласование соседних текстов."
+        }
+      ]
+    },
+    {
+      "module_number": 6,
+      "title": "Указатели в языке С++",
+      "text_step_count": 20,
+      "priority": "P1",
+      "status": "targeted_theory_review",
+      "remaining_theory": "Выстроить единую модель объекта, времени жизни, адреса, диапазона и владельца; разделить C++ и материал о C11/C17, а гарантии языка — устройство аллокатора и процесса.",
+      "human_editor_hours": {
+        "min": 3,
+        "max": 5
+      },
+      "evidence": [
+        {
+          "step_id": 3212968,
+          "snapshot_path": "courses/86957/steps/770585/02_3212968_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/770585/02_3212968_text.step",
+          "effective_file_sha256": "a0f03a96b4dc04861fc935fa2c0fa6c837cc1c830a4660bf5306501748c15abf",
+          "observation": "Введение через физический адрес нуждается в согласовании с абстрактной моделью объектов."
+        },
+        {
+          "step_id": 3212970,
+          "snapshot_path": "courses/86957/steps/770585/04_3212970_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/770585/04_3212970_text.step",
+          "effective_file_sha256": "280c5a6bbdce7226d1adbfd209b197fc6fbdb749da24cbd7f75e9ec29aa79d94",
+          "observation": "Большой набор операций с указателями следует упорядочить по предпосылкам, сохранив уже исправленные ограничения."
+        },
+        {
+          "step_id": 3213208,
+          "snapshot_path": "courses/86957/steps/770587/03_3213208_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/770587/03_3213208_text.step",
+          "effective_file_sha256": "bc2938e0f6320417df9f01c7474bf812aa3b464ccdd149dd293e4a2fa69b2ad8",
+          "observation": "После C-примера изложение переходит к аллокатору и освобождению памяти процессом; уровни описания нужно разграничить."
+        }
+      ]
+    },
+    {
+      "module_number": 7,
+      "title": "Использование собственных функций в С++ проектах",
+      "text_step_count": 18,
+      "priority": "P1",
+      "status": "targeted_theory_review",
+      "remaining_theory": "Переработать шесть оставшихся текстов: заголовок, определение в .cpp, компиляция и линковка, статическая и динамическая библиотека. Дать один разобранный многофайловый пример и самодостаточное текстовое объяснение без видео.",
+      "human_editor_hours": {
+        "min": 4,
+        "max": 7
+      },
+      "evidence": [
+        {
+          "step_id": 3212951,
+          "snapshot_path": "courses/86957/steps/770592/02_3212951_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/770592/02_3212951_text.step",
+          "effective_file_sha256": "e7e6ccea4068d2b01a5735bcbdfac663347a7adb371c49cc53fba96ca7d235e3",
+          "observation": "Реализация не включает свой заголовок, контракт примера факториала расходится с обновлённой темой функций."
+        },
+        {
+          "step_id": 3215032,
+          "snapshot_path": "courses/86957/steps/770593/03_3215032_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/770593/03_3215032_text.step",
+          "effective_file_sha256": "54892501ea1f86d3f9aace15792236daa2005dc5daba2e095104ea149ff96289",
+          "observation": "Описание статической библиотеки преимущественно состоит из действий в Visual Studio."
+        },
+        {
+          "step_id": 3215045,
+          "snapshot_path": "courses/86957/steps/770593/04_3215045_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/770593/04_3215045_text.step",
+          "effective_file_sha256": "defa029672b5e5abf718586bd10860c9d1a30b996a9b4f0a1146ea7dbb080a17",
+          "observation": "Объяснение создания DLL прямо отсылает к двум видеороликам."
+        }
+      ]
+    },
+    {
+      "module_number": 8,
+      "title": "Тестирование программного обеспечения",
+      "text_step_count": 11,
+      "priority": "P2",
+      "status": "targeted_theory_review",
+      "remaining_theory": "Согласовать контракт, результат, границы и ограничения тестирования; развести ошибку ввода, логическую ошибку, UB, исключение и утечку; уточнить переход к исключениям.",
+      "human_editor_hours": {
+        "min": 1,
+        "max": 2
+      },
+      "evidence": [
+        {
+          "step_id": 3252940,
+          "snapshot_path": "courses/86957/steps/778425/04_3252940_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/778425/04_3252940_text.step",
+          "effective_file_sha256": "a04a8d9ff944018262c85ab914b95c8d10d018b2bb93a8f62ec9187caab7ec5c",
+          "observation": "Дальнейшее объяснение исключений обещано без явного ближайшего перехода."
+        },
+        {
+          "step_id": 3252941,
+          "snapshot_path": "courses/86957/steps/778425/03_3252941_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/778425/03_3252941_text.step",
+          "effective_file_sha256": "2c98b14e1269f6f7b6d52a26d8befdfd41409b0ea762a08f3d36d61a9c751234",
+          "observation": "Ошибки, UB и ресурсные проблемы перечисляются рядом; нужны разные определения."
+        },
+        {
+          "step_id": 3253503,
+          "snapshot_path": "courses/86957/steps/778426/05_3253503_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/778426/05_3253503_text.step",
+          "effective_file_sha256": "86a32c0e77b19fccc3d4129c9114160cee1bea0bcca75e6138a0dd563d5f585d",
+          "observation": "Цельное объяснение общей реализации для приложения и тестов уже есть, повторная разработка не нужна."
+        }
+      ]
+    },
+    {
+      "module_number": 9,
+      "title": "Строки в языке С++",
+      "text_step_count": 8,
+      "priority": "P2",
+      "status": "targeted_theory_review",
+      "remaining_theory": "Согласовать C-строку, std::string, длину в байтах и текст; обозначить контракты преобразований; сократить справочный каталог и уточнить статус фрагментов.",
+      "human_editor_hours": {
+        "min": 1,
+        "max": 2
+      },
+      "evidence": [
+        {
+          "step_id": 3214845,
+          "snapshot_path": "courses/86957/steps/770588/02_3214845_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/770588/02_3214845_text.step",
+          "effective_file_sha256": "a079788d8e45d6fe2e088e76f4a95d3a482c0cdabe87b8d7a518d7a02988e4c2",
+          "observation": "Большой каталог C-функций; atoi/atof описаны кратко, ограничения обработки ошибок недостаточно развёрнуты."
+        },
+        {
+          "step_id": 3214902,
+          "snapshot_path": "courses/86957/steps/770589/04_3214902_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/770589/04_3214902_text.step",
+          "effective_file_sha256": "322a893db27dd7adb33d8796e545b34615bf54ee401a4cfa29fe8161d6ef4def",
+          "observation": "Последовательность присваиваний показана без содержащей функции; требуется маркировка фрагмента."
+        },
+        {
+          "step_id": 3214904,
+          "snapshot_path": "courses/86957/steps/770589/05_3214904_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/770589/05_3214904_text.step",
+          "effective_file_sha256": "8f90353c9e35c08297620278128dbca54b6c0ed374a61267ea147956a009953a",
+          "observation": "Полный современный пример поиска и разбора строки уже присутствует."
+        }
+      ]
+    },
+    {
+      "module_number": 10,
+      "title": "Исследование алгоритмов",
+      "text_step_count": 21,
+      "priority": "P2",
+      "status": "targeted_theory_review",
+      "remaining_theory": "Согласовать оставшиеся восемь текстов с 13 обновлёнными: O и Θ, модель стоимости, инварианты, память, предусловия и контракт результата поиска.",
+      "human_editor_hours": {
+        "min": 2,
+        "max": 3
+      },
+      "evidence": [
+        {
+          "step_id": 3213244,
+          "snapshot_path": "courses/86957/steps/770594/02_3213244_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/770594/02_3213244_text.step",
+          "effective_file_sha256": "04ee9082be82abb4ffafdb4d18fb1458bfe014ccd852b162ca784f6aa0450241",
+          "observation": "Различие O и Θ уже корректно объяснено, требуется единое употребление."
+        },
+        {
+          "step_id": 3215137,
+          "snapshot_path": "courses/86957/steps/770595/03_3215137_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/770595/03_3215137_text.step",
+          "effective_file_sha256": "5e4a097c0c9e92aed1e1d16fb1f51effee25fa878b296065a8c2e4d548ef96c7",
+          "observation": "Сортировка выбором объясняется значительно короче соседних обновлённых сортировок."
+        },
+        {
+          "step_id": 3215191,
+          "snapshot_path": "courses/86957/steps/771129/04_3215191_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/771129/04_3215191_text.step",
+          "effective_file_sha256": "a9e3b781c6c99be2a51a67a594664e4e48a2074c0aff9158f4a212087f8ea863",
+          "observation": "Контракт интерполяционного поиска следует явно отличить от поиска первого вхождения."
+        }
+      ]
+    },
+    {
+      "module_number": 11,
+      "title": "Работа с файлами в языке С++",
+      "text_step_count": 7,
+      "priority": "P2",
+      "status": "targeted_theory_review",
+      "remaining_theory": "Связать уже обновлённую файловую теорию с контрактами, RAII и пользовательскими типами; унифицировать поток, формат, состояние и конец файла.",
+      "human_editor_hours": {
+        "min": 1,
+        "max": 2
+      },
+      "evidence": [
+        {
+          "step_id": 3215199,
+          "snapshot_path": "courses/86957/steps/771131/03_3215199_text.step",
+          "effective_path": "improvements/86957/quality-2026-11-23/steps/771131/03_3215199_text.step",
+          "effective_file_sha256": "b880b901fe024c5883138e467d21dd82f1f6169a2ad51033502263331c820727",
+          "observation": "Подготовленный текст уже объясняет результат чтения и состояние потока."
+        },
+        {
+          "step_id": 3215112,
+          "snapshot_path": "courses/86957/steps/771130/01_3215112_text.step",
+          "effective_path": "improvements/86957/quality-2026-11-23/steps/771130/01_3215112_text.step",
+          "effective_file_sha256": "8a63a3d54c99b8c64ed36950989e3fda92abd4de6e7860cee0dadd82608306d8",
+          "observation": "Подготовленная редакция задаёт основу корректной работы с файлами."
+        },
+        {
+          "step_id": 3215206,
+          "snapshot_path": "courses/86957/steps/771130/03_3215206_text.step",
+          "effective_path": "improvements/86957/quality-2026-11-23/steps/771130/03_3215206_text.step",
+          "effective_file_sha256": "86549916456fc99c39ec66c4d4e787baf20639ab907a1998d2f7d1b460638b1f",
+          "observation": "Готовое объяснение форматов нужно связать с последующими пользовательскими типами."
+        }
+      ]
+    },
+    {
+      "module_number": 12,
+      "title": "Типы данных: Структура и Объединение",
+      "text_step_count": 12,
+      "priority": "P1",
+      "status": "targeted_theory_review",
+      "remaining_theory": "Собрать пользовательский тип, инициализацию и представление; убрать отвлекающие C-строки и ручную память из основного примера; разграничить struct, union и variant, уточнить условность конкретных размеров типов.",
+      "human_editor_hours": {
+        "min": 4,
+        "max": 6
+      },
+      "evidence": [
+        {
+          "step_id": 3215234,
+          "snapshot_path": "courses/86957/steps/770596/03_3215234_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/770596/03_3215234_text.step",
+          "effective_file_sha256": "19050954bcbf3e895573305a2110cddf2f9723c38563d3d634c3dd05e96c7978",
+          "observation": "Массив пользователей иллюстрируется через низкоуровневое хранение."
+        },
+        {
+          "step_id": 3215243,
+          "snapshot_path": "courses/86957/steps/770597/02_3215243_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/770597/02_3215243_text.step",
+          "effective_file_sha256": "a71603f98e6643837d8efa79e29d9d6f20fcb5b583b0219df91a5b84ba2210a5",
+          "observation": "Размеры float/double описываются как конкретные 4/8 байт; нужны гарантии и контекст реализации."
+        },
+        {
+          "step_id": 3215242,
+          "snapshot_path": "courses/86957/steps/770597/04_3215242_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/770597/04_3215242_text.step",
+          "effective_file_sha256": "78531168ad93689b42b07c2396202cc10890839b9506af84343cdde932db3e09",
+          "observation": "Вложенный union требует последовательного объяснения активного члена и времени жизни."
+        }
+      ]
+    },
+    {
+      "module_number": 13,
+      "title": "Классы в языке С++",
+      "text_step_count": 33,
+      "priority": "P1",
+      "status": "targeted_theory_review",
+      "remaining_theory": "Связать класс с инвариантом и контрактами функций; уточнить общую модель struct/class и мотивацию ООП; согласовать Distance, конструкторы, const-методы, операторы, композицию и наследование.",
+      "human_editor_hours": {
+        "min": 6,
+        "max": 10
+      },
+      "evidence": [
+        {
+          "step_id": 3668926,
+          "snapshot_path": "courses/86957/steps/877082/01_3668926_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/877082/01_3668926_text.step",
+          "effective_file_sha256": "23783740226ec1013314fa333d4fc2733c5d9ca153243a072508fa0ff60dbc51",
+          "observation": "Вводная рамка противопоставляет классы структурам в стиле C и может создать неверное впечатление об их языковых возможностях."
+        },
+        {
+          "step_id": 3669114,
+          "snapshot_path": "courses/86957/steps/877082/04_3669114_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/877082/04_3669114_text.step",
+          "effective_file_sha256": "33cce8b5daa87a305043394ca907c89207c64e028b8b88aa05497b9db6c7db67",
+          "observation": "Процедурное программирование связывается с глобальным состоянием; это плохо продолжает тему функций и декомпозиции."
+        },
+        {
+          "step_id": 3760048,
+          "snapshot_path": "courses/86957/steps/897987/09_3760048_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/897987/09_3760048_text.step",
+          "effective_file_sha256": "6a813f021b4f2399a58f28daaa25f972f27bec736f805c654ed29a0e3bed2e15",
+          "observation": "operator+= показывается как void, затем с возвратом копии, без объяснения обычного интерфейса с возвратом ссылки."
+        },
+        {
+          "step_id": 3668999,
+          "snapshot_path": "courses/86957/steps/877081/03_3668999_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/877081/03_3668999_text.step",
+          "effective_file_sha256": "1d182f5f4f8260511e6dfe00c5f758788bf7bb5db5e070f78dc571cf974d68d2",
+          "observation": "Пример конструктора Distance нуждается в явно сформулированном инварианте."
+        }
+      ]
+    },
+    {
+      "module_number": 14,
+      "title": "Продвинутая работа с указателями в С++",
+      "text_step_count": 8,
+      "priority": "P2",
+      "status": "targeted_theory_review",
+      "remaining_theory": "Сократить повторения категорий выражений; связать категорию, привязку ссылки и выбор операции; согласовать название темы с содержанием и явно обозначить шаблонные предпосылки std::forward.",
+      "human_editor_hours": {
+        "min": 2,
+        "max": 3
+      },
+      "evidence": [
+        {
+          "step_id": 3569896,
+          "snapshot_path": "courses/86957/steps/853532/03_3569896_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/853532/03_3569896_text.step",
+          "effective_file_sha256": "e9c2324829b25737c57da2fc8eea74b5c7f0f172872ca4720d3470e3927f465d",
+          "observation": "Определения категорий повторяются в соседних текстах."
+        },
+        {
+          "step_id": 3569323,
+          "snapshot_path": "courses/86957/steps/853534/01_3569323_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/853534/01_3569323_text.step",
+          "effective_file_sha256": "0f47d5055eb6e7f23cab211ac3f3fdc3b7b845f1ecfdf4852de76c35b41e5ce4",
+          "observation": "Повторяющееся объяснение требует единой схемы и терминологии."
+        },
+        {
+          "step_id": 4040986,
+          "snapshot_path": "courses/86957/steps/853535/03_4040986_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/853535/03_4040986_text.step",
+          "effective_file_sha256": "3f93ad92d3812a0f0c555ead5f94a32049fe8e30e95efa9ee340ce426bd75716",
+          "observation": "Современное объяснение move/forward и правила нуля уже есть; требуется встроить его в последовательность."
+        }
+      ]
+    },
+    {
+      "module_number": 15,
+      "title": "Умные указатели",
+      "text_step_count": 6,
+      "priority": "P2",
+      "status": "targeted_theory_review",
+      "remaining_theory": "Уточнить различие совместного доступа и совместного владения; согласовать выбор владельца и невладеющего доступа; сохранить границы применимости учебных реализаций.",
+      "human_editor_hours": {
+        "min": 1,
+        "max": 2
+      },
+      "evidence": [
+        {
+          "step_id": 3569963,
+          "snapshot_path": "courses/86957/steps/853536/03_3569963_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/853536/03_3569963_text.step",
+          "effective_file_sha256": "95159e7873e37435001000bfeb2316261df2b5fb150033344e0446cad1dc46e8",
+          "observation": "Современное объяснение unique_ptr уже опубликовано."
+        },
+        {
+          "step_id": 3569327,
+          "snapshot_path": "courses/86957/steps/853537/01_3569327_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/853537/01_3569327_text.step",
+          "effective_file_sha256": "75918789500d7f487b73a34857414e61bd02ffc08b8adf90a322c0cc4afce731",
+          "observation": "Вступительная фраза о совместном ресурсе требует уточнить именно ответственность за время жизни."
+        },
+        {
+          "step_id": 3570213,
+          "snapshot_path": "courses/86957/steps/853537/02_3570213_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/853537/02_3570213_text.step",
+          "effective_file_sha256": "c8514360a44d06fdea90f0e47b0489621f0abeed5006c8be9fcdb7f36cc57276",
+          "observation": "Большая учебная модель общего и слабого владения должна иметь ясный статус дополнительной иллюстрации."
+        }
+      ]
+    },
+    {
+      "module_number": 16,
+      "title": "Структуры данных и очереди",
+      "text_step_count": 12,
+      "priority": "P1",
+      "status": "targeted_theory_review",
+      "remaining_theory": "Разделить абстрактный тип данных, интерфейс и реализацию; связать FIFO/LIFO с контейнерами; уточнить гарантии vector/deque; логически привязать приведения типов к уже изученным типам и наследованию.",
+      "human_editor_hours": {
+        "min": 3,
+        "max": 5
+      },
+      "evidence": [
+        {
+          "step_id": 4035497,
+          "snapshot_path": "courses/86957/steps/973837/01_4035497_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/973837/01_4035497_text.step",
+          "effective_file_sha256": "4ea9d1c64eff0b082df25d10d090006582e2bc758c4a913a3a3151a078f4d4bc",
+          "observation": "Общие определения структур данных требуют конкретной модели интерфейса и реализации."
+        },
+        {
+          "step_id": 4035517,
+          "snapshot_path": "courses/86957/steps/973837/02_4035517_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/973837/02_4035517_text.step",
+          "effective_file_sha256": "49f4ec686f37f9fa01e52ca051fd9a1e52248f738bdc6ad0b3331c6336f795b7",
+          "observation": "Повторяющиеся общие абзацы можно сократить в пользу связующего объяснения."
+        },
+        {
+          "step_id": 4036909,
+          "snapshot_path": "courses/86957/steps/973842/04_4036909_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/973842/04_4036909_text.step",
+          "effective_file_sha256": "30ec1aeb40eaf3a789475dd3e491d747a97d3b104b1f2c853c88091e09bce15d",
+          "observation": "Смешиваются интерфейс deque, гарантии стандарта и типичное устройство."
+        },
+        {
+          "step_id": 4047627,
+          "snapshot_path": "courses/86957/steps/977027/03_4047627_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/977027/03_4047627_text.step",
+          "effective_file_sha256": "6a864e83562e453d3a467fa4f61a6c8a6c276d3190879fd28c3db9308d86f6dc",
+          "observation": "dynamic_cast следует после очередей; нужен явный переход к типам и наследованию."
+        }
+      ]
+    },
+    {
+      "module_number": 17,
+      "title": "Сбалансированные деревья поиска",
+      "text_step_count": 10,
+      "priority": "P2",
+      "status": "targeted_theory_review",
+      "remaining_theory": "Выстроить BST, высоту, инвариант баланса, поворот и различия AVL/RB; согласовать NIL и служебный конечный узел; объяснить сохраняемый инвариант до длинных фрагментов вставки и удаления.",
+      "human_editor_hours": {
+        "min": 5,
+        "max": 8
+      },
+      "evidence": [
+        {
+          "step_id": 3570281,
+          "snapshot_path": "courses/86957/steps/853540/02_3570281_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/853540/02_3570281_text.step",
+          "effective_file_sha256": "ae7123ac90ea33f13425dbadf7c785143b564f3a262e41861da7217f2f47bd8b",
+          "observation": "Большой AVL-фрагмент нужно включить в единую последовательность обозначений и инвариантов."
+        },
+        {
+          "step_id": 3570304,
+          "snapshot_path": "courses/86957/steps/853541/03_3570304_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/853541/03_3570304_text.step",
+          "effective_file_sha256": "33274523d61bd49a3e9a656689cf677bbc57171fcd9c42fa6315dec407201da0",
+          "observation": "Случаям вставки RB необходима единая мотивация сохраняемого свойства."
+        },
+        {
+          "step_id": 3570333,
+          "snapshot_path": "courses/86957/steps/853541/04_3570333_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/853541/04_3570333_text.step",
+          "effective_file_sha256": "079d3ceb6b10b8b58fc966732879cfcd77c83cbcd3882f43b327fe460ece408c",
+          "observation": "Длинный разбор удаления RB требует ясной структуры и согласованности фрагментов."
+        }
+      ]
+    },
+    {
+      "module_number": 18,
+      "title": "Хеш-таблицы",
+      "text_step_count": 5,
+      "priority": "P1",
+      "status": "targeted_theory_review",
+      "remaining_theory": "Связать хеш-код, корзину, равенство, коллизию и заполнение; развести ожидаемую и худшую стоимость; сделать владение учебной реализации явным либо обозначить псевдокод; выбрать нейтральную предметную область.",
+      "human_editor_hours": {
+        "min": 3,
+        "max": 5
+      },
+      "evidence": [
+        {
+          "step_id": 4035460,
+          "snapshot_path": "courses/86957/steps/973829/03_4035460_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/973829/03_4035460_text.step",
+          "effective_file_sha256": "1a37cd15e3fd730e343f07e5bd7168113bca6f0664004b9d0849ff1057bb1018",
+          "observation": "Объяснение коллизий нужно связать с моделью стоимости и равенством ключей."
+        },
+        {
+          "step_id": 4035443,
+          "snapshot_path": "courses/86957/steps/973831/01_4035443_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/973831/01_4035443_text.step",
+          "effective_file_sha256": "c49348f3781f17f7c4e45e0e9585f8fafbfe9ffaae5f62e329f852578b8ce394",
+          "observation": "HashTable содержит владеющий PasswordList**; правила владения и копирования требуют явного описания."
+        },
+        {
+          "step_id": 4035481,
+          "snapshot_path": "courses/86957/steps/973831/02_4035481_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/973831/02_4035481_text.step",
+          "effective_file_sha256": "bedc13cbbfb575664d3bff1b7371fda566c13d72eb9844ab18a7fb8073adca49",
+          "observation": "Частичная реализация оставляет непрояснённые интерфейсы и границы демонстрации."
+        }
+      ]
+    },
+    {
+      "module_number": 19,
+      "title": "std::set и std::map",
+      "text_step_count": 5,
+      "priority": "P2",
+      "status": "targeted_theory_review",
+      "remaining_theory": "Связать подготовленную теорию set/map с деревьями и хешированием; убрать дублирование стоимости и развести гарантии стандарта и типичную реализацию.",
+      "human_editor_hours": {
+        "min": 1,
+        "max": 2
+      },
+      "evidence": [
+        {
+          "step_id": 4035311,
+          "snapshot_path": "courses/86957/steps/973816/01_4035311_text.step",
+          "effective_path": "improvements/86957/quality-2026-11-23/steps/973816/01_4035311_text.step",
+          "effective_file_sha256": "a7cefaaafaf9e36b2d7ab916bdca175eca0bf82fa92c81749ffc4730305f5a00",
+          "observation": "Подготовленный текст уже объясняет контейнеры и диапазоны."
+        },
+        {
+          "step_id": 4035417,
+          "snapshot_path": "courses/86957/steps/973826/01_4035417_text.step",
+          "effective_path": "improvements/86957/quality-2026-11-23/steps/973826/01_4035417_text.step",
+          "effective_file_sha256": "e2e8973b59e1be0de5c06f39a8266da5dcb4935a1bc494c1945f38a146f5075b",
+          "observation": "Подготовленное объяснение map следует связать с моделью ключа и упорядоченного поиска."
+        },
+        {
+          "step_id": 4035430,
+          "snapshot_path": "courses/86957/steps/973826/02_4035430_text.step",
+          "effective_path": "improvements/86957/quality-2026-11-23/steps/973826/02_4035430_text.step",
+          "effective_file_sha256": "b6a118e59d500a8206a3dd72970999e45dc4d0eef4b28d543e921f620068e557",
+          "observation": "Сравнение map/unordered_map уже подготовлено; остаётся согласовать вывод с предшествующими структурами."
+        }
+      ]
+    },
+    {
+      "module_number": 20,
+      "title": "Задачник",
+      "text_step_count": 0,
+      "priority": "OUT",
+      "status": "outside_scope",
+      "remaining_theory": "В модуле нет текстовых теоретических шагов. Задачник исключён из текущего объёма; добавление итогового проекта не планируется.",
+      "human_editor_hours": {
+        "min": 0,
+        "max": 0
+      },
+      "evidence": [
+        {
+          "step_id": 5850209,
+          "snapshot_path": "courses/86957/steps/1409621/01_5850209_code.step",
+          "effective_path": "courses/86957/steps/1409621/01_5850209_code.step",
+          "effective_file_sha256": "ae61338970b983ee37432eb3c54e6f007621f679a6a4c1d60912e73aeaf16589",
+          "observation": "Существующий шаг имеет тип code; его сложность и проверяющая программа не оцениваются в этой рубрике."
+        }
+      ]
+    }
+  ],
+  "current_execution": {
+    "progress_file": "PROGRESS.md",
+    "manifest": "../theory-continuation-2026-11-23/manifest.json",
+    "review_depth": "Состояния подтверждаются журналами и текущими проверками; исторические оценки ниже сохранены как исходная точка. Полный итоговый балл будет пересмотрен после LINKS.",
+    "blocks": {
+      "T1": "published_verified",
+      "T2": "published_verified",
+      "T3": "published_revalidated",
+      "T4": "published_verified",
+      "T5": "published_verified",
+      "T6": "published_revalidated",
+      "SCOPE": "completed_in_published_theory",
+      "LINKS": "in_progress",
+      "PUB": "completed"
+    }
+  }
+}
