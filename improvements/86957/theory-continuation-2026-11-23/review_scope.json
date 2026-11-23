@@ -12,8 +12,8 @@
     3569963,
     3570166
   ],
-  "status": "completed_in_prepared_theory",
-  "publication_note": "Прежние 37 были опубликованы; эта адаптация 25 ещё не перенесена на Stepik.",
+  "status": "completed_in_published_theory",
+  "publication_note": "Все 37 адаптированных текстов опубликованы. 12 вошли в первый пакет теории и 25 в продолжение.",
   "review_method": "ID и контрольные суммы + содержательная замена заданий в T4; проверка не ограничивается названием заголовка.",
   "steps": [
     {
@@ -25,7 +25,7 @@
       "effective_file_sha256": "8f90ba1174cbe9c1664ff7635214e5891556b4c4d3da8de50385ffb96fa8d996",
       "status": "adapted_now_as_complete_explanation",
       "part": "T4",
-      "publication": "not_published",
+      "publication": "verified_on_stepik",
       "task_heading_flags": [],
       "review_note": "Содержание вопроса/поручения заменено завершённым разбором; полные исходные программы сохранены и перепроверены."
     },
@@ -38,7 +38,7 @@
       "effective_file_sha256": "a5d0e631029b6f488934a5d32844bd6a061a831cdde9260d53db83338182f4d5",
       "status": "adapted_now_as_complete_explanation",
       "part": "T4",
-      "publication": "not_published",
+      "publication": "verified_on_stepik",
       "task_heading_flags": [],
       "review_note": "Содержание вопроса/поручения заменено завершённым разбором; полные исходные программы сохранены и перепроверены."
     },
@@ -51,7 +51,7 @@
       "effective_file_sha256": "7193a8b0647f50b5156460de46a9445f709691cb01a255567b8a412411da77c8",
       "status": "adapted_now_as_complete_explanation",
       "part": "T4",
-      "publication": "not_published",
+      "publication": "verified_on_stepik",
       "task_heading_flags": [],
       "review_note": "Содержание вопроса/поручения заменено завершённым разбором; полные исходные программы сохранены и перепроверены."
     },
@@ -64,7 +64,7 @@
       "effective_file_sha256": "b1bf67e270c5dd61288ed4db7faeb9162ff59f35536ae690e3cab103c2fd1c87",
       "status": "adapted_now_as_complete_explanation",
       "part": "T4",
-      "publication": "not_published",
+      "publication": "verified_on_stepik",
       "task_heading_flags": [],
       "review_note": "Содержание вопроса/поручения заменено завершённым разбором; полные исходные программы сохранены и перепроверены."
     },
@@ -77,7 +77,7 @@
       "effective_file_sha256": "cd6a24f17b77878f18de6719ac72273dd62371f414f6fc4b2f5da34a7a7ce973",
       "status": "adapted_now_as_complete_explanation",
       "part": "T4",
-      "publication": "not_published",
+      "publication": "verified_on_stepik",
       "task_heading_flags": [],
       "review_note": "Содержание вопроса/поручения заменено завершённым разбором; полные исходные программы сохранены и перепроверены."
     },
@@ -90,7 +90,7 @@
       "effective_file_sha256": "d88003edca7fd933c9d236d282190a1daacb34d9f50f9f74f64a3002f4deb235",
       "status": "adapted_now_as_complete_explanation",
       "part": "T4",
-      "publication": "not_published",
+      "publication": "verified_on_stepik",
       "task_heading_flags": [],
       "review_note": "Содержание вопроса/поручения заменено завершённым разбором; полные исходные программы сохранены и перепроверены."
     },
@@ -103,7 +103,7 @@
       "effective_file_sha256": "9e84b093b02e73b0405c189e20489c79880c939fa28c6d283925626a7af422b1",
       "status": "adapted_now_as_complete_explanation",
       "part": "T4",
-      "publication": "not_published",
+      "publication": "verified_on_stepik",
       "task_heading_flags": [],
       "review_note": "Содержание вопроса/поручения заменено завершённым разбором; полные исходные программы сохранены и перепроверены."
     },
@@ -116,7 +116,7 @@
       "effective_file_sha256": "b2a0f699ee1128c292e506781d73bd66626e38eb341d981d5251a9124196cb9c",
       "status": "adapted_now_as_complete_explanation",
       "part": "T4",
-      "publication": "not_published",
+      "publication": "verified_on_stepik",
       "task_heading_flags": [],
       "review_note": "Содержание вопроса/поручения заменено завершённым разбором; полные исходные программы сохранены и перепроверены."
     },
@@ -129,7 +129,7 @@
       "effective_file_sha256": "ed70d5462d68f2f8cca8f1282da9dd104dc85e0c1c93d23df0bb7810164ec504",
       "status": "adapted_now_as_complete_explanation",
       "part": "T4",
-      "publication": "not_published",
+      "publication": "verified_on_stepik",
       "task_heading_flags": [],
       "review_note": "Содержание вопроса/поручения заменено завершённым разбором; полные исходные программы сохранены и перепроверены."
     },
@@ -142,7 +142,7 @@
       "effective_file_sha256": "7dd2e41d64bb5d779f98c21e6ea69d4e9f40a8d62be50d6657c27a839c2cd758",
       "status": "adapted_now_as_complete_explanation",
       "part": "T4",
-      "publication": "not_published",
+      "publication": "verified_on_stepik",
       "task_heading_flags": [],
       "review_note": "Содержание вопроса/поручения заменено завершённым разбором; полные исходные программы сохранены и перепроверены."
     },
@@ -155,7 +155,7 @@
       "effective_file_sha256": "b85125c826bb3359429dbae0d4626cf54f46696f0132a2439c663a6c19e08ca5",
       "status": "adapted_now_as_complete_explanation",
       "part": "T4",
-      "publication": "not_published",
+      "publication": "verified_on_stepik",
       "task_heading_flags": [],
       "review_note": "Содержание вопроса/поручения заменено завершённым разбором; полные исходные программы сохранены и перепроверены."
     },
@@ -168,7 +168,7 @@
       "effective_file_sha256": "f99bf2fe71e2dfe11adfaaa80637279a8eb246caf91f5c02d3b05c61d040e97e",
       "status": "adapted_now_as_complete_explanation",
       "part": "T4",
-      "publication": "not_published",
+      "publication": "verified_on_stepik",
       "task_heading_flags": [],
       "review_note": "Содержание вопроса/поручения заменено завершённым разбором; полные исходные программы сохранены и перепроверены."
     },
@@ -181,7 +181,7 @@
       "effective_file_sha256": "f8bf1c89ba18eaa75acd1c8cd4892ffd01f33cbde2c044526301a25008f2d76e",
       "status": "adapted_now_as_complete_explanation",
       "part": "T4",
-      "publication": "not_published",
+      "publication": "verified_on_stepik",
       "task_heading_flags": [],
       "review_note": "Содержание вопроса/поручения заменено завершённым разбором; полные исходные программы сохранены и перепроверены."
     },
@@ -194,7 +194,7 @@
       "effective_file_sha256": "c8a7952f8795e31a31acd68c2c50eeea079c2d3dfa3961225b5d85607e62e3f3",
       "status": "adapted_now_as_complete_explanation",
       "part": "T4",
-      "publication": "not_published",
+      "publication": "verified_on_stepik",
       "task_heading_flags": [],
       "review_note": "Содержание вопроса/поручения заменено завершённым разбором; полные исходные программы сохранены и перепроверены."
     },
@@ -207,7 +207,7 @@
       "effective_file_sha256": "85b76a48aa76e2d1c22b03d0d1567227578c5ec77f203fdc4c9bc14864a11f1a",
       "status": "adapted_now_as_complete_explanation",
       "part": "T4",
-      "publication": "not_published",
+      "publication": "verified_on_stepik",
       "task_heading_flags": [],
       "review_note": "Содержание вопроса/поручения заменено завершённым разбором; полные исходные программы сохранены и перепроверены."
     },
@@ -220,7 +220,7 @@
       "effective_file_sha256": "b09d3d016b2e2e8f245e78e13f99792f4ea405a0a39ccdc6589699260e4efc66",
       "status": "adapted_now_as_complete_explanation",
       "part": "T4",
-      "publication": "not_published",
+      "publication": "verified_on_stepik",
       "task_heading_flags": [],
       "review_note": "Содержание вопроса/поручения заменено завершённым разбором; полные исходные программы сохранены и перепроверены."
     },
@@ -233,7 +233,7 @@
       "effective_file_sha256": "78f8f587276fac797e3f6e1be6d08b9e46041881a278cb7bb1df17dc8ee35c1d",
       "status": "adapted_now_as_complete_explanation",
       "part": "T4",
-      "publication": "not_published",
+      "publication": "verified_on_stepik",
       "task_heading_flags": [],
       "review_note": "Содержание вопроса/поручения заменено завершённым разбором; полные исходные программы сохранены и перепроверены."
     },
@@ -246,7 +246,7 @@
       "effective_file_sha256": "48f35c98e6949e882bb9b2bbcce414797b5e92d62f9465f52ae0d64289d0682b",
       "status": "adapted_now_as_complete_explanation",
       "part": "T4",
-      "publication": "not_published",
+      "publication": "verified_on_stepik",
       "task_heading_flags": [],
       "review_note": "Содержание вопроса/поручения заменено завершённым разбором; полные исходные программы сохранены и перепроверены."
     },
@@ -259,7 +259,7 @@
       "effective_file_sha256": "8b24d6da2f1112d7c646ebb8472abbf035379fd2cf7a68804d7b1dc36d024e06",
       "status": "adapted_now_as_complete_explanation",
       "part": "T4",
-      "publication": "not_published",
+      "publication": "verified_on_stepik",
       "task_heading_flags": [],
       "review_note": "Содержание вопроса/поручения заменено завершённым разбором; полные исходные программы сохранены и перепроверены."
     },
@@ -272,7 +272,7 @@
       "effective_file_sha256": "5e150af1fb22bf2f0526b24726f4d24ffc598eefcefa2bdcc6b374cb31b0be19",
       "status": "adapted_now_as_complete_explanation",
       "part": "T4",
-      "publication": "not_published",
+      "publication": "verified_on_stepik",
       "task_heading_flags": [],
       "review_note": "Содержание вопроса/поручения заменено завершённым разбором; полные исходные программы сохранены и перепроверены."
     },
@@ -285,7 +285,7 @@
       "effective_file_sha256": "f93e1a3405b540d76728b3818f5c68af67241f0002bad1ba1546c6779a511283",
       "status": "adapted_now_as_complete_explanation",
       "part": "T4",
-      "publication": "not_published",
+      "publication": "verified_on_stepik",
       "task_heading_flags": [],
       "review_note": "Содержание вопроса/поручения заменено завершённым разбором; полные исходные программы сохранены и перепроверены."
     },
@@ -298,7 +298,7 @@
       "effective_file_sha256": "02982534e4bfdfb482d42ec33f1b44a1ffd21adfab3b3e81ceefa7d766a5e4fe",
       "status": "adapted_now_as_complete_explanation",
       "part": "T4",
-      "publication": "not_published",
+      "publication": "verified_on_stepik",
       "task_heading_flags": [],
       "review_note": "Содержание вопроса/поручения заменено завершённым разбором; полные исходные программы сохранены и перепроверены."
     },
@@ -311,7 +311,7 @@
       "effective_file_sha256": "03d287c65fa95006ceb34539e12a9c5b7d0f61d47c98448e9d3da0de09c32b29",
       "status": "adapted_now_as_complete_explanation",
       "part": "T4",
-      "publication": "not_published",
+      "publication": "verified_on_stepik",
       "task_heading_flags": [],
       "review_note": "Содержание вопроса/поручения заменено завершённым разбором; полные исходные программы сохранены и перепроверены."
     },
@@ -324,7 +324,7 @@
       "effective_file_sha256": "3a1ec3111a22e702c7a7523d36c3aaa443054239e5b93bdf6014c071be9bdb67",
       "status": "adapted_now_as_complete_explanation",
       "part": "T4",
-      "publication": "not_published",
+      "publication": "verified_on_stepik",
       "task_heading_flags": [],
       "review_note": "Содержание вопроса/поручения заменено завершённым разбором; полные исходные программы сохранены и перепроверены."
     },
@@ -337,7 +337,7 @@
       "effective_file_sha256": "bb9c1a3b8cbae4752f2e42ee8ac2a2acf1db8378db3bfeac2e116928a7e4884e",
       "status": "adapted_now_as_complete_explanation",
       "part": "T4",
-      "publication": "not_published",
+      "publication": "verified_on_stepik",
       "task_heading_flags": [],
       "review_note": "Содержание вопроса/поручения заменено завершённым разбором; полные исходные программы сохранены и перепроверены."
     },
@@ -511,5 +511,6 @@
   "additional_t1b_questions_not_counted": [
     3201235,
     3201234
-  ]
+  ],
+  "verification_receipt": "courses/86957/publication-verification-theory-continuation-2026-11-23.json"
 }

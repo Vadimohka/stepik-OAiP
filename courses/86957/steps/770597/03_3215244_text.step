@@ -1,7 +1,7 @@
 {
   "block": {
     "name": "text",
-    "text": "<h3>Указатели и union</h3>\n\n<p>Работа объединений с указателями точно такая же, как и работа структур с указателями.</p>\n\n<p>В нижеследующем примере объявляется неуправляемый указатель на объединение типа Ints:</p>\n\n<pre><code class=\"language-cpp\">union Ints {\n    unsigned short int a;\n    unsigned int b;\n    unsigned long int c;\n};\n\n// указатель на объединение\nInts *p;\n\n// выделить память для объединения\np = new Ints;\n\n// доступ к полям с помощью указателя\np-&gt;a = 200;\np-&gt;b = 3400;\n\n// После использования освободить объект\ndelete p;</code></pre>",
+    "text": "<h3>Указатель на union не выбирает активный член</h3>\n\n<p>Для доступа через указатель к объединению применяется знакомая стрелка. Сам тип указателя сообщает тип объединения, но не сообщает, какой его член сейчас активен.</p><p>Полная программа, C++17 и C++20:</p><pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n\nunion Number {\n    int integer;\n    double real;\n};\n\nint main() {\n    Number number{4};\n    Number* pointer = &amp;number;\n    std::cout &lt;&lt; pointer-&gt;integer &lt;&lt; '\\n';\n    pointer-&gt;real = 1.25;\n    std::cout &lt;&lt; number.real &lt;&lt; '\\n';\n    return 0;\n}</code></pre><p>Результат:</p><pre><code class=\"language-no-highlight\">4\n1.25</code></pre><p>Указатель обозначает существующий локальный объект; здесь не требуется динамическая память. После второй записи активен <code>real</code>, независимо от того, обращаемся мы через <code>pointer-&gt;real</code> или через <code>number.real</code>. Доступ к <code>integer</code> после переключения не становится допустимым от использования указателя.</p><p>Указатель не владеет объектом и не продлевает его время жизни. <code>delete pointer</code> в этом примере был бы ошибкой: объект не создан операцией <code>new</code>. Для <code>nullptr</code> и для указателя после уничтожения объекта недопустимо разыменование. Правила адреса и времени жизни те же, что у структуры; к ним добавляется правило активного члена объединения.</p>\n",
     "video": null,
     "options": {},
     "subtitle_files": [],
@@ -13,5 +13,5 @@
     "feedback_wrong": ""
   },
   "id": "3215244",
-  "time": "2026-11-23T06:34:36Z"
+  "time": "2026-11-23T11:05:27Z"
 }

@@ -371,8 +371,8 @@
       "unique_text_steps": 37,
       "already_adapted": 12,
       "adapted_in_continuation": 25,
-      "status": "completed_in_prepared_theory",
-      "publication_of_continuation": "not_published"
+      "status": "completed_in_published_theory",
+      "publication_of_continuation": "verified_on_stepik"
     }
   },
   "source_inventory_path": "improvements/86957/course-review-2026-11-23/inventory.json",
@@ -388,10 +388,13 @@
   },
   "current_continuation": {
     "manifest_path": "improvements/86957/theory-continuation-2026-11-23/manifest.json",
-    "publication_status": "not_published",
+    "publication_status": "verified_on_stepik",
     "changed_steps": 191,
     "overlap_with_published_theory": 7,
     "additional_unique_steps": 184,
-    "scope_text_only": true
+    "scope_text_only": true,
+    "verified_at": "2026-11-23T11:06:59Z",
+    "verified_course_steps": 485,
+    "verification_receipt": "courses/86957/publication-verification-theory-continuation-2026-11-23.json"
   }
 }

@@ -112,7 +112,7 @@
         {
           "step_id": 3215257,
           "snapshot_path": "courses/86957/steps/771155/03_3215257_text.step",
-          "effective_path": "courses/86957/steps/771155/03_3215257_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/771155/03_3215257_text.step",
           "effective_file_sha256": "5d25d5d0e1c9ad45e1bb4c9a945cad543966d120c47f7cfd22df74b7fa74f78a",
           "observation": "Корректное объяснение округления уже есть; его следует связать с последующим double."
         }
@@ -168,14 +168,14 @@
         {
           "step_id": 3177291,
           "snapshot_path": "courses/86957/steps/763639/01_3177291_text.step",
-          "effective_path": "courses/86957/steps/763639/01_3177291_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/763639/01_3177291_text.step",
           "effective_file_sha256": "26406cab1a4ecb7327db03b7456a10532199fb0adc8ce2062b19c430d81fbcdd",
           "observation": "Карта операторов дана кратким списком без связной модели выражений."
         },
         {
           "step_id": 3177474,
           "snapshot_path": "courses/86957/steps/763639/02_3177474_text.step",
-          "effective_path": "courses/86957/steps/763639/02_3177474_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/763639/02_3177474_text.step",
           "effective_file_sha256": "828448c6e8fc57fc6095c4fa11eae1aefff7a26fbbef18cf0763e73e6c408a0d",
           "observation": "Объяснение преобразования начинается с C-style записи (double)m."
         },
@@ -203,14 +203,14 @@
         {
           "step_id": 3212926,
           "snapshot_path": "courses/86957/steps/763644/07_3212926_text.step",
-          "effective_path": "courses/86957/steps/763644/07_3212926_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/763644/07_3212926_text.step",
           "effective_file_sha256": "cfb3a1caa933293c1c4af911b3cc9c371acd7f3f622536d86e4724254125f4d1",
           "observation": "Объяснение массива ссылок использует константные указатели до модуля указателей."
         },
         {
           "step_id": 3212937,
           "snapshot_path": "courses/86957/steps/763646/05_3212937_text.step",
-          "effective_path": "courses/86957/steps/763646/05_3212937_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/763646/05_3212937_text.step",
           "effective_file_sha256": "275f0db870b6852cd1429bd3aeb8ed09da97f8470ba054ee632dd0defcfa172a",
           "observation": "new[] и delete[] появляются до систематической темы динамической памяти."
         },
@@ -238,21 +238,21 @@
         {
           "step_id": 3212968,
           "snapshot_path": "courses/86957/steps/770585/02_3212968_text.step",
-          "effective_path": "courses/86957/steps/770585/02_3212968_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/770585/02_3212968_text.step",
           "effective_file_sha256": "a0f03a96b4dc04861fc935fa2c0fa6c837cc1c830a4660bf5306501748c15abf",
           "observation": "Введение через физический адрес нуждается в согласовании с абстрактной моделью объектов."
         },
         {
           "step_id": 3212970,
           "snapshot_path": "courses/86957/steps/770585/04_3212970_text.step",
-          "effective_path": "courses/86957/steps/770585/04_3212970_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/770585/04_3212970_text.step",
           "effective_file_sha256": "280c5a6bbdce7226d1adbfd209b197fc6fbdb749da24cbd7f75e9ec29aa79d94",
           "observation": "Большой набор операций с указателями следует упорядочить по предпосылкам, сохранив уже исправленные ограничения."
         },
         {
           "step_id": 3213208,
           "snapshot_path": "courses/86957/steps/770587/03_3213208_text.step",
-          "effective_path": "courses/86957/steps/770587/03_3213208_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/770587/03_3213208_text.step",
           "effective_file_sha256": "bc2938e0f6320417df9f01c7474bf812aa3b464ccdd149dd293e4a2fa69b2ad8",
           "observation": "После C-примера изложение переходит к аллокатору и освобождению памяти процессом; уровни описания нужно разграничить."
         }
@@ -343,21 +343,21 @@
         {
           "step_id": 3214845,
           "snapshot_path": "courses/86957/steps/770588/02_3214845_text.step",
-          "effective_path": "courses/86957/steps/770588/02_3214845_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/770588/02_3214845_text.step",
           "effective_file_sha256": "a079788d8e45d6fe2e088e76f4a95d3a482c0cdabe87b8d7a518d7a02988e4c2",
           "observation": "Большой каталог C-функций; atoi/atof описаны кратко, ограничения обработки ошибок недостаточно развёрнуты."
         },
         {
           "step_id": 3214902,
           "snapshot_path": "courses/86957/steps/770589/04_3214902_text.step",
-          "effective_path": "courses/86957/steps/770589/04_3214902_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/770589/04_3214902_text.step",
           "effective_file_sha256": "322a893db27dd7adb33d8796e545b34615bf54ee401a4cfa29fe8161d6ef4def",
           "observation": "Последовательность присваиваний показана без содержащей функции; требуется маркировка фрагмента."
         },
         {
           "step_id": 3214904,
           "snapshot_path": "courses/86957/steps/770589/05_3214904_text.step",
-          "effective_path": "courses/86957/steps/770589/05_3214904_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/770589/05_3214904_text.step",
           "effective_file_sha256": "8f90353c9e35c08297620278128dbca54b6c0ed374a61267ea147956a009953a",
           "observation": "Полный современный пример поиска и разбора строки уже присутствует."
         }
@@ -378,21 +378,21 @@
         {
           "step_id": 3213244,
           "snapshot_path": "courses/86957/steps/770594/02_3213244_text.step",
-          "effective_path": "courses/86957/steps/770594/02_3213244_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/770594/02_3213244_text.step",
           "effective_file_sha256": "04ee9082be82abb4ffafdb4d18fb1458bfe014ccd852b162ca784f6aa0450241",
           "observation": "Различие O и Θ уже корректно объяснено, требуется единое употребление."
         },
         {
           "step_id": 3215137,
           "snapshot_path": "courses/86957/steps/770595/03_3215137_text.step",
-          "effective_path": "courses/86957/steps/770595/03_3215137_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/770595/03_3215137_text.step",
           "effective_file_sha256": "5e4a097c0c9e92aed1e1d16fb1f51effee25fa878b296065a8c2e4d548ef96c7",
           "observation": "Сортировка выбором объясняется значительно короче соседних обновлённых сортировок."
         },
         {
           "step_id": 3215191,
           "snapshot_path": "courses/86957/steps/771129/04_3215191_text.step",
-          "effective_path": "courses/86957/steps/771129/04_3215191_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/771129/04_3215191_text.step",
           "effective_file_sha256": "a9e3b781c6c99be2a51a67a594664e4e48a2074c0aff9158f4a212087f8ea863",
           "observation": "Контракт интерполяционного поиска следует явно отличить от поиска первого вхождения."
         }
@@ -448,21 +448,21 @@
         {
           "step_id": 3215234,
           "snapshot_path": "courses/86957/steps/770596/03_3215234_text.step",
-          "effective_path": "courses/86957/steps/770596/03_3215234_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/770596/03_3215234_text.step",
           "effective_file_sha256": "19050954bcbf3e895573305a2110cddf2f9723c38563d3d634c3dd05e96c7978",
           "observation": "Массив пользователей иллюстрируется через низкоуровневое хранение."
         },
         {
           "step_id": 3215243,
           "snapshot_path": "courses/86957/steps/770597/02_3215243_text.step",
-          "effective_path": "courses/86957/steps/770597/02_3215243_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/770597/02_3215243_text.step",
           "effective_file_sha256": "a71603f98e6643837d8efa79e29d9d6f20fcb5b583b0219df91a5b84ba2210a5",
           "observation": "Размеры float/double описываются как конкретные 4/8 байт; нужны гарантии и контекст реализации."
         },
         {
           "step_id": 3215242,
           "snapshot_path": "courses/86957/steps/770597/04_3215242_text.step",
-          "effective_path": "courses/86957/steps/770597/04_3215242_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/770597/04_3215242_text.step",
           "effective_file_sha256": "78531168ad93689b42b07c2396202cc10890839b9506af84343cdde932db3e09",
           "observation": "Вложенный union требует последовательного объяснения активного члена и времени жизни."
         }
@@ -483,28 +483,28 @@
         {
           "step_id": 3668926,
           "snapshot_path": "courses/86957/steps/877082/01_3668926_text.step",
-          "effective_path": "courses/86957/steps/877082/01_3668926_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/877082/01_3668926_text.step",
           "effective_file_sha256": "23783740226ec1013314fa333d4fc2733c5d9ca153243a072508fa0ff60dbc51",
           "observation": "Вводная рамка противопоставляет классы структурам в стиле C и может создать неверное впечатление об их языковых возможностях."
         },
         {
           "step_id": 3669114,
           "snapshot_path": "courses/86957/steps/877082/04_3669114_text.step",
-          "effective_path": "courses/86957/steps/877082/04_3669114_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/877082/04_3669114_text.step",
           "effective_file_sha256": "33cce8b5daa87a305043394ca907c89207c64e028b8b88aa05497b9db6c7db67",
           "observation": "Процедурное программирование связывается с глобальным состоянием; это плохо продолжает тему функций и декомпозиции."
         },
         {
           "step_id": 3760048,
           "snapshot_path": "courses/86957/steps/897987/09_3760048_text.step",
-          "effective_path": "courses/86957/steps/897987/09_3760048_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/897987/09_3760048_text.step",
           "effective_file_sha256": "6a813f021b4f2399a58f28daaa25f972f27bec736f805c654ed29a0e3bed2e15",
           "observation": "operator+= показывается как void, затем с возвратом копии, без объяснения обычного интерфейса с возвратом ссылки."
         },
         {
           "step_id": 3668999,
           "snapshot_path": "courses/86957/steps/877081/03_3668999_text.step",
-          "effective_path": "courses/86957/steps/877081/03_3668999_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/877081/03_3668999_text.step",
           "effective_file_sha256": "1d182f5f4f8260511e6dfe00c5f758788bf7bb5db5e070f78dc571cf974d68d2",
           "observation": "Пример конструктора Distance нуждается в явно сформулированном инварианте."
         }
@@ -525,21 +525,21 @@
         {
           "step_id": 3569896,
           "snapshot_path": "courses/86957/steps/853532/03_3569896_text.step",
-          "effective_path": "courses/86957/steps/853532/03_3569896_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/853532/03_3569896_text.step",
           "effective_file_sha256": "e9c2324829b25737c57da2fc8eea74b5c7f0f172872ca4720d3470e3927f465d",
           "observation": "Определения категорий повторяются в соседних текстах."
         },
         {
           "step_id": 3569323,
           "snapshot_path": "courses/86957/steps/853534/01_3569323_text.step",
-          "effective_path": "courses/86957/steps/853534/01_3569323_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/853534/01_3569323_text.step",
           "effective_file_sha256": "0f47d5055eb6e7f23cab211ac3f3fdc3b7b845f1ecfdf4852de76c35b41e5ce4",
           "observation": "Повторяющееся объяснение требует единой схемы и терминологии."
         },
         {
           "step_id": 4040986,
           "snapshot_path": "courses/86957/steps/853535/03_4040986_text.step",
-          "effective_path": "courses/86957/steps/853535/03_4040986_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/853535/03_4040986_text.step",
           "effective_file_sha256": "3f93ad92d3812a0f0c555ead5f94a32049fe8e30e95efa9ee340ce426bd75716",
           "observation": "Современное объяснение move/forward и правила нуля уже есть; требуется встроить его в последовательность."
         }
@@ -560,21 +560,21 @@
         {
           "step_id": 3569963,
           "snapshot_path": "courses/86957/steps/853536/03_3569963_text.step",
-          "effective_path": "courses/86957/steps/853536/03_3569963_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/853536/03_3569963_text.step",
           "effective_file_sha256": "95159e7873e37435001000bfeb2316261df2b5fb150033344e0446cad1dc46e8",
           "observation": "Современное объяснение unique_ptr уже опубликовано."
         },
         {
           "step_id": 3569327,
           "snapshot_path": "courses/86957/steps/853537/01_3569327_text.step",
-          "effective_path": "courses/86957/steps/853537/01_3569327_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/853537/01_3569327_text.step",
           "effective_file_sha256": "75918789500d7f487b73a34857414e61bd02ffc08b8adf90a322c0cc4afce731",
           "observation": "Вступительная фраза о совместном ресурсе требует уточнить именно ответственность за время жизни."
         },
         {
           "step_id": 3570213,
           "snapshot_path": "courses/86957/steps/853537/02_3570213_text.step",
-          "effective_path": "courses/86957/steps/853537/02_3570213_text.step",
+          "effective_path": "improvements/86957/theory-continuation-2026-11-23/baseline/steps/853537/02_3570213_text.step",
           "effective_file_sha256": "c8514360a44d06fdea90f0e47b0489621f0abeed5006c8be9fcdb7f36cc57276",
           "observation": "Большая учебная модель общего и слабого владения должна иметь ясный статус дополнительной иллюстрации."
         }
@@ -754,15 +754,15 @@
     "manifest": "../theory-continuation-2026-11-23/manifest.json",
     "review_depth": "Состояния подтверждаются журналами и текущими проверками; исторические оценки ниже сохранены как исходная точка. Полный итоговый балл будет пересмотрен после LINKS.",
     "blocks": {
-      "T1": "prepared_verified",
-      "T2": "prepared_verified",
+      "T1": "published_verified",
+      "T2": "published_verified",
       "T3": "published_revalidated",
-      "T4": "prepared_verified",
-      "T5": "prepared_verified",
+      "T4": "published_verified",
+      "T5": "published_verified",
       "T6": "published_revalidated",
-      "SCOPE": "completed_in_prepared_theory",
+      "SCOPE": "completed_in_published_theory",
       "LINKS": "in_progress",
-      "PUB": "blocked_missing_authorized_stepik_api"
+      "PUB": "completed"
     }
   }
 }

@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "text",
-    "text": "<h3><strong>O(1)</strong></h3>\n\n<p>Оценка O(1) означает, что количество операций ограничено константой, не зависящей от размера входа. Фактическое время отдельных запусков не обязано быть одинаковым. Получение размера встроенного массива не требует обхода его элементов.</p>\n\n<p><strong>Пример:</strong></p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;iterator&gt; // std::size, начиная с C++17\nusing namespace std;\n\nint main() {\n    int a[] {1,2,3,4,5};\n    cout &lt;&lt; size(a);\n    return 0;\n}</code></pre>",
+    "text": "<h3><strong>O(1)</strong></h3>\n\n<p>Оценка O(1) означает, что количество операций ограничено константой, не зависящей от размера входа. Фактическое время отдельных запусков не обязано быть одинаковым. Получение размера встроенного массива не требует обхода его элементов.</p>\n\n<p><strong>Полная программа C++17/20:</strong></p>\n\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;iterator&gt; // std::size, начиная с C++17\nusing namespace std;\n\nint main() {\n    int a[] {1,2,3,4,5};\n    cout &lt;&lt; size(a);\n    return 0;\n}</code></pre>\n<p>Для встроенного массива размер известен из его типа; <code>std::size(a)</code> не обходит элементы. Пример фиксирует массив из пяти элементов и выводит <code>5</code> без перевода строки. Для любого допустимого размера такого массива операция получения числа элементов имеет стоимость <code>O(1)</code>. Печать числа — отдельная операция ввода-вывода; оценка здесь относится к получению размера.</p>",
     "video": null,
     "options": {},
     "subtitle_files": [],
@@ -50,7 +50,7 @@
   "user_step_vote": null,
   "step_issue": 3192333,
   "create_date": "2022-08-17T18:37:39Z",
-  "update_date": "2026-11-22T21:05:38Z",
+  "update_date": "2026-11-23T11:03:06Z",
   "discussions_count": 0,
   "discussion_proxy": "77-3213241-1",
   "discussion_threads": [

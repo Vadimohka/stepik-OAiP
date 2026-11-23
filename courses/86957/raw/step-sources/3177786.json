@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "text",
-    "text": "<p><strong>Цикл do-while</strong></p>\n\n<p>В С++ существует вариация цикла while, которая называется do-while. В отличие от обычного while в do-while условие проверяется не до, а <em>после</em> итерации. Т.е. такой цикл всегда имеет хотя бы одну итерацию.</p>\n\n<p>Давайте сравним обычный while:</p>\n\n<pre><code>int i = 10;\nint mult = 1;\nwhile (i &lt; 10) {\n    mult *= i;\n}\n// mult = 1</code></pre>\n\n<p>И <strong>do-while</strong>: </p>\n\n<pre><code>int i = 10;\nint mult = 1;\ndo {\n    mult *= i;\n} while (i &lt; 10);\n// mult = 10</code></pre>\n\n<p>Как видите, в случае с do-while мы умножили на 10 переменную mult, а в обычном while — нет.</p>",
+    "text": "<h2>do-while: сначала тело, затем условие</h2>\n<p>У <code>do-while</code> проверка стоит после тела. Если управление дошло до самого цикла, тело начинает выполняться хотя бы один раз; досрочный выход из тела, например через <code>break</code>, может пропустить проверку. После <code>while (условие)</code> нужна точка с запятой.</p>\n<p><strong>Полная программа C++17/C++20.</strong></p>\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\nint main() {\n    int before{};\n    while (before &lt; 0) {\n        ++before;\n    }\n    int after{};\n    do {\n        ++after;\n    } while (after &lt; 0);\n    std::cout &lt;&lt; before &lt;&lt; ' ' &lt;&lt; after &lt;&lt; '\\n';\n}\n</code></pre>\n<p>Вывод <code>0 1</code>. У первого цикла условие <code>0 &lt; 0</code> сразу ложно. У второго сначала выполняется <code>++after</code>, поэтому проверяется уже <code>1 &lt; 0</code>. Затем второй цикл завершается.</p>\n<p>Форма полезна, когда первое действие требуется независимо от предварительного условия. Она не гарантирует успешность ввода или вычисления: результаты операций в теле всё равно нужно проверять. Выбор между <code>while</code> и <code>do-while</code> определяется тем, допускает ли алгоритм ноль проходов.</p>\n",
     "video": null,
     "options": {},
     "subtitle_files": [],
@@ -50,7 +50,7 @@
   "user_step_vote": null,
   "step_issue": 3156878,
   "create_date": "2022-08-01T20:28:22Z",
-  "update_date": "2023-05-19T14:40:06Z",
+  "update_date": "2026-11-23T11:02:09Z",
   "discussions_count": 0,
   "discussion_proxy": "77-3177786-1",
   "discussion_threads": [

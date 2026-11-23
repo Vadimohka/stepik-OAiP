@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "text",
-    "text": "<h2>Операторы переходов</h2>\n\n<p>В языке C++ определены четыре обычных оператора перехода: return, goto, break и continue. return завершает текущую функцию, а goto передаёт управление к метке в той же функции; для них действуют ограничения языка, которые рассмотрим далее. break и continue применяются внутри циклов. Как указывалось ранее, break также применяется в switch.</p>",
+    "text": "<h2>Операторы перехода</h2>\n<p>Обычно инструкции блока выполняются по порядку. Оператор перехода меняет место продолжения. Чтобы прочитать код, нужно понимать не только условие перехода, но и его точную цель.</p>\n<table><thead><tr><th>Запись</th><th>Куда переходит управление</th></tr></thead><tbody><tr><td><code>return</code></td><td>Завершает текущий вызов функции; у функции с результатом передаёт его вызывающему коду.</td></tr><tr><td><code>break</code></td><td>Завершает ближайший охватывающий цикл или <code>switch</code>.</td></tr><tr><td><code>continue</code></td><td>Пропускает оставшуюся часть текущего прохода ближайшего цикла.</td></tr><tr><td><code>goto label;</code></td><td>Переходит к именованной метке в той же функции; переход ограничен правилами инициализации.</td></tr></tbody></table>\n<p>Цикл повторяет тело, а один проход называется итерацией. В примерах следующих шагов <code>for (int i = 0; i &lt; 3; ++i)</code> перебирает 0, 1 и 2. Подробная последовательность проверки условия и изменения счётчика приведена в <a href=\"https://stepik.org/lesson/763719/step/4\" rel=\"noopener noreferrer nofollow\">уроке о for</a>.</p>\n<p>Следующие четыре шага разбирают <a href=\"https://stepik.org/lesson/763642/step/2\" rel=\"noopener noreferrer nofollow\">return</a>, <a href=\"https://stepik.org/lesson/763642/step/3\" rel=\"noopener noreferrer nofollow\">goto</a>, <a href=\"https://stepik.org/lesson/763642/step/4\" rel=\"noopener noreferrer nofollow\">break</a> и <a href=\"https://stepik.org/lesson/763642/step/5\" rel=\"noopener noreferrer nofollow\">continue</a>. При обычном выходе из области локальные автоматические объекты уничтожаются, в том числе при таких переходах. Позже это станет основой автоматического освобождения ресурсов.</p>\n",
     "video": null,
     "options": {},
     "subtitle_files": [],
@@ -45,7 +45,7 @@
   "user_step_vote": null,
   "step_issue": 3156386,
   "create_date": "2022-08-01T15:17:11Z",
-  "update_date": "2026-11-22T21:04:35Z",
+  "update_date": "2026-11-23T11:02:02Z",
   "discussions_count": 0,
   "discussion_proxy": "77-3177294-1",
   "discussion_threads": [

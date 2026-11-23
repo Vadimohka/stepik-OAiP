@@ -7,8 +7,8 @@
   "author_sources_unavailable": false,
   "author_sources_status": "complete",
   "assets_status": "complete",
-  "started_at": "2026-11-23T09:29:44Z",
-  "finished_at": "2026-11-23T09:31:17Z",
+  "started_at": "2026-11-23T11:05:27Z",
+  "finished_at": "2026-11-23T11:07:11Z",
   "source": {
     "course_url": "https://stepik.org/course/86957",
     "api_base": "https://stepik.org/api/",
@@ -9299,7 +9299,7 @@
   },
   "assets_manifest": "assets/manifest.json",
   "asset_counts": {
-    "downloaded": 119,
+    "downloaded": 80,
     "variant_omitted": 6
   },
   "notes": [
