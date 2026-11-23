@@ -41,7 +41,7 @@
         "improvements/86957/practice-2026-11-23/verify.py"
       ],
       "returncode": 0,
-      "stdout": "PASS: 4 assessed steps; 45 generated cases; 180 C++17/20 reference runs; 11 incorrect solutions rejected.\nReport: /workspace/scratch/386ccea3d007/stepik-OAiP/improvements/86957/practice-2026-11-23/validation.json\n",
+      "stdout": "PASS: 4 assessed steps; 45 generated cases; 180 C++17/20 reference runs; 11 incorrect solutions rejected.\nReport: /Users/vadimohka/WORK/stepik-OAiP/improvements/86957/practice-2026-11-23/validation.json\n",
       "stderr": ""
     },
     {
@@ -57,7 +57,7 @@
   "children": {
     "functions": {
       "report": "improvements/86957/functions-2026-11-23/validation.json",
-      "sha256": "a25db614257495013ac7c9d51b53f4fe16594f18a861325758977242263ae033",
+      "sha256": "0e636490ca0eca1918c2b3de3b09a3ec742c5d6f4c496d3aca236891eb2bb252",
       "status": "passed",
       "counts": {
         "steps": 12,
@@ -68,7 +68,7 @@
     },
     "algorithm_assessments": {
       "report": "improvements/86957/practice-2026-11-23/validation.json",
-      "sha256": "18250a31adf8f01a13db6ac7a17aef78e0605fe7a7d497daee789d57fdfbfaba",
+      "sha256": "ba4c0adb48d453e1e08b1fd5aaf4b05b9096a3810dcc639113775e2b7276d9f6",
       "status": "passed",
       "counts": {
         "compilations": 19,
@@ -81,7 +81,7 @@
     },
     "cpp_entry": {
       "report": "improvements/86957/practice-2026-11-23/validation_entry.json",
-      "sha256": "29e123c4db0c64fc314f157cc13123f5563cf63d6816bd8e805201b42b078463",
+      "sha256": "85a0d1937bcf75306aed0e332a2219fef6693c7285af12d97e0810c9a48946f7",
       "status": "passed",
       "counts": {
         "compilations": 5,
@@ -93,7 +93,7 @@
   "scope": "New functions and assessed practice packages; local validation only.",
   "live_stepik_verified": false,
   "input_sha256": {
-    "courses/86957/manifest.json": "8293bc465fe5380daf6f034b4bb420017f9cb2343da001548dbbe16828705367",
+    "courses/86957/manifest.json": "4236263d619625434252d5b0416cde6164808d7dab09947a154c9d02ad6c7d73",
     "courses/86957/steps/763630/09_4643238_code.step": "a9b080ea9fd921388bce0cd844e33f7d1f63daabb2944873bf0a0f9957133f77",
     "courses/86957/steps/770590/01_3212949_text.step": "0bdf7c0da08038b378794cdd63207c9b8b06cc424a3133e27d5343063b0fb8dc",
     "courses/86957/steps/770590/02_3214909_text.step": "d3175f9e5250ad351fc38179f69ba430097547f1bcd4b776ecd565c488c722ad",
@@ -183,7 +183,7 @@
     "improvements/86957/practice-2026-11-23/steps/771129/07_3496826_code.step": "f156844ebd4a0b723b1211b6d5ba4daf78a300ca61c5aded8bdc89e1491b5094",
     "improvements/86957/practice-2026-11-23/verify.py": "5ef050a74904419f94cfd2df23d70147d4af54fb5d75ab909045b31d95f90144",
     "improvements/86957/practice-2026-11-23/verify_entry.py": "eda8a4923d1a14394a81041e5d3830bbf161c003a704a8003d42508f84eb99be",
-    "improvements/86957/quality-2026-11-23/manifest.json": "99589ce0a4da9f5bda64380bf2c63405938610861be71aa6ecdcaf612c697002",
+    "improvements/86957/quality-2026-11-23/manifest.json": "8b5908eaa4196b5806801e1575f81f450b47315e34a24dbcaa866c08f72babe4",
     "improvements/86957/quality-2026-11-23/steps/770594/01_3212953_text.step": "8d5bd2bc571b703575161e5c4ba8fb41cfa581518e8c104916060c12bea64ae5",
     "improvements/86957/quality-2026-11-23/steps/770594/06_3213247_text.step": "3a89d7298cfaf1339228824f5d989802ca32f8bcc314d6d747e5718153ae10a6",
     "improvements/86957/quality-2026-11-23/steps/770594/08_3213256_text.step": "f09b9a5150645d6cbe6b76f3c43af18d85e6242d2c07b63ef8d6af1494c26a6f",

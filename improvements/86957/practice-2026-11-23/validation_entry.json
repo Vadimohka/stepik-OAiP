@@ -11,7 +11,7 @@
     "improvements/86957/practice-2026-11-23/examples/expression_identity.cpp": "bd6503610e7c50acaa5e1f4512e45b49eefd8db7428e7fe70be3bcb0da64c410",
     "improvements/86957/practice-2026-11-23/verify_entry.py": "eda8a4923d1a14394a81041e5d3830bbf161c003a704a8003d42508f84eb99be"
   },
-  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.34.2)",
   "compilations": 5,
   "runtime_cases": 18,
   "original_test_cases": 9,

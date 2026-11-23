@@ -3,13 +3,17 @@
   "course_id": 86957,
   "date": "2026-11-23",
   "base_commit": "498e5468863becfdf72f5c73ca52bd2ebfeaf229",
-  "status": "prepared",
+  "status": "published",
   "changed_steps": 5,
   "changed_lessons": 3,
   "publication": {
-    "status": "not_published",
-    "applied": false,
-    "note": "Подготовлено в GitHub; в Stepik в этой итерации не применялось."
+    "status": "verified_on_stepik",
+    "applied": true,
+    "verified_at": "2026-11-23T07:53:35Z",
+    "verified_changed_steps": 5,
+    "verified_course_steps": 485,
+    "normalized_html_step_ids": [],
+    "verification_scope": "Post-publication full author-source read of all 485 course steps; learner representation and placement readback for each changed step; no graded submissions."
   },
   "dependencies": [
     "improvements/86957/quality-2026-11-23/manifest.json"

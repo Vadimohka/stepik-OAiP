@@ -5,7 +5,7 @@
   "scope": "Local schema, generated tests, checkers, C++ references and mutation checks for four module-10 steps",
   "live_stepik_verified": false,
   "limits_note": "Local wall-clock safeguards only; Stepik compiler, grading, time and memory containers were not reproduced.",
-  "started_at": "2026-11-23T07:37:13.138066+00:00",
+  "started_at": "2026-11-23T07:47:57.567954+00:00",
   "metadata": [
     {
       "step_id": "4734985",
@@ -125,7 +125,7 @@
       ],
       "cases_passed": 23,
       "status": "passed",
-      "max_local_wall_seconds": 0.023988
+      "max_local_wall_seconds": 0.167322
     },
     {
       "source": "examples/stable_records.cpp",
@@ -140,7 +140,7 @@
       ],
       "cases_passed": 23,
       "status": "passed",
-      "max_local_wall_seconds": 0.026302
+      "max_local_wall_seconds": 0.177861
     },
     {
       "source": "examples/stable_records_index.cpp",
@@ -155,7 +155,7 @@
       ],
       "cases_passed": 23,
       "status": "passed",
-      "max_local_wall_seconds": 0.028132
+      "max_local_wall_seconds": 0.186333
     },
     {
       "source": "examples/stable_records_index.cpp",
@@ -170,7 +170,7 @@
       ],
       "cases_passed": 23,
       "status": "passed",
-      "max_local_wall_seconds": 0.025999
+      "max_local_wall_seconds": 0.176116
     },
     {
       "source": "examples/first_index.cpp",
@@ -185,7 +185,7 @@
       ],
       "cases_passed": 22,
       "status": "passed",
-      "max_local_wall_seconds": 0.027228
+      "max_local_wall_seconds": 0.183327
     },
     {
       "source": "examples/first_index.cpp",
@@ -200,7 +200,7 @@
       ],
       "cases_passed": 22,
       "status": "passed",
-      "max_local_wall_seconds": 0.023677
+      "max_local_wall_seconds": 0.174448
     },
     {
       "source": "examples/first_index_manual.cpp",
@@ -215,7 +215,7 @@
       ],
       "cases_passed": 22,
       "status": "passed",
-      "max_local_wall_seconds": 0.023346
+      "max_local_wall_seconds": 0.162014
     },
     {
       "source": "examples/first_index_manual.cpp",
@@ -230,7 +230,7 @@
       ],
       "cases_passed": 22,
       "status": "passed",
-      "max_local_wall_seconds": 0.024026
+      "max_local_wall_seconds": 0.174426
     }
   ],
   "mutations": [
@@ -386,10 +386,10 @@
     "steps/771129/05_3408864_choice.step": "abbcd3f85f5aaaac80670e75eac3f619c0700e79c36df530729ee4134bc1025c",
     "steps/771129/07_3496826_code.step": "f156844ebd4a0b723b1211b6d5ba4daf78a300ca61c5aded8bdc89e1491b5094",
     "verify.py": "5ef050a74904419f94cfd2df23d70147d4af54fb5d75ab909045b31d95f90144",
-    "/workspace/scratch/386ccea3d007/stepik-OAiP/improvements/86957/practice-2026-11-23/baseline/steps/770595/11_4734985_code.step": "d894624a6f694b08b7607d4bd198b1b85400f2bfff8afd543630155293696fb1",
-    "/workspace/scratch/386ccea3d007/stepik-OAiP/improvements/86957/practice-2026-11-23/baseline/steps/771129/07_3496826_code.step": "24151a48240036ac85efd9262ea398abc4ea2834b62431bd9da9ab49abb7de48",
-    "/workspace/scratch/386ccea3d007/stepik-OAiP/improvements/86957/practice-2026-11-23/baseline/steps/770595/09_3408767_choice.step": "e4541255eb8aec04b747ea89fd6e66ead51f94c9d9c776ad8ccc6257afd0ba60",
-    "/workspace/scratch/386ccea3d007/stepik-OAiP/improvements/86957/practice-2026-11-23/baseline/steps/771129/05_3408864_choice.step": "f7f043aab4c3cdaf28f43b9ef1cf89f6a979b54300f2564c7528cf7ef927f8fe"
+    "/Users/vadimohka/WORK/stepik-OAiP/improvements/86957/practice-2026-11-23/baseline/steps/770595/11_4734985_code.step": "d894624a6f694b08b7607d4bd198b1b85400f2bfff8afd543630155293696fb1",
+    "/Users/vadimohka/WORK/stepik-OAiP/improvements/86957/practice-2026-11-23/baseline/steps/771129/07_3496826_code.step": "24151a48240036ac85efd9262ea398abc4ea2834b62431bd9da9ab49abb7de48",
+    "/Users/vadimohka/WORK/stepik-OAiP/improvements/86957/practice-2026-11-23/baseline/steps/770595/09_3408767_choice.step": "e4541255eb8aec04b747ea89fd6e66ead51f94c9d9c776ad8ccc6257afd0ba60",
+    "/Users/vadimohka/WORK/stepik-OAiP/improvements/86957/practice-2026-11-23/baseline/steps/771129/05_3408864_choice.step": "f7f043aab4c3cdaf28f43b9ef1cf89f6a979b54300f2564c7528cf7ef927f8fe"
   },
   "input_hash_paths": "Relative paths are relative to this package; baseline paths are absolute.",
   "counts": {
@@ -401,9 +401,9 @@
     "checker_probes": 306
   },
   "environment": {
-    "python": "3.12.14",
-    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
-    "compiler": "g++ (Debian 14.2.0-19) 14.2.0"
+    "python": "3.14.10",
+    "platform": "macOS-27.2.1-arm64-arm-64bit-Mach-O",
+    "compiler": "Apple clang version 21.0.0 (clang-2100.3.34.2)"
   },
   "testdata": {
     "schema_version": 1,
@@ -1147,5 +1147,5 @@
     "retained_directory": null
   },
   "inputs_unchanged_after_run": true,
-  "completed_at": "2026-11-23T07:37:28.712697+00:00"
+  "completed_at": "2026-11-23T07:48:14.673016+00:00"
 }

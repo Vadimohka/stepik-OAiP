@@ -5,7 +5,7 @@
   "source": {
     "navigation": "courses/86957/raw/{courses,sections,units,lessons}",
     "content": "courses/86957/steps/**/*.step",
-    "snapshot_digest_sha256": "18b4059c02f701ba62f957c81ea9d8bc026fa4e218ac9318cc1e354ef939ccc3",
+    "snapshot_digest_sha256": "0279576c0c4a09d332c3e1f0211437e50bcb9876f71ddd1190620518ada3947f",
     "remote_main_at_review_start": "498e5468863becfdf72f5c73ca52bd2ebfeaf229",
     "live_claim_limit": "Локальный авторский снимок, ранее полученный из Stepik; этот скрипт не проверяет текущий сервер или интерфейс Stepik."
   },
@@ -53,58 +53,9 @@
       973816,
       973825
     ],
-    "choice_steps_with_all_options_correct": [
-      3408864
-    ],
-    "prepared_unique_step_count": 46,
-    "prepared_unique_step_ids": [
-      3212949,
-      3212950,
-      3212953,
-      3212954,
-      3213247,
-      3213255,
-      3213256,
-      3214909,
-      3214910,
-      3214911,
-      3214971,
-      3214972,
-      3214973,
-      3214974,
-      3214978,
-      3214992,
-      3215024,
-      3215109,
-      3215112,
-      3215113,
-      3215136,
-      3215175,
-      3215176,
-      3215178,
-      3215179,
-      3215183,
-      3215192,
-      3215199,
-      3215200,
-      3215203,
-      3215206,
-      3408767,
-      3408864,
-      3424087,
-      3437886,
-      3437952,
-      3496826,
-      3580923,
-      4035311,
-      4035416,
-      4035417,
-      4035427,
-      4035430,
-      4643238,
-      4718246,
-      4734985
-    ]
+    "choice_steps_with_all_options_correct": [],
+    "prepared_unique_step_count": 0,
+    "prepared_unique_step_ids": []
   },
   "packages": [
     {
@@ -120,225 +71,225 @@
           "step_id": 3177296,
           "lesson_id": 763644,
           "target_path": "modernization/86957/steps/763644/02_3177296_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "a7a8858894129569d8a707b483753f931c2ebf05567b4cb03ef9d561c67476b1"
         },
         {
           "step_id": 3212907,
           "lesson_id": 763644,
           "target_path": "modernization/86957/steps/763644/03_3212907_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "a3abe8f3fb9a7b047fe7e6f29a3b2b6c9ad735be261eeff9b034447d3b38cefc"
         },
         {
           "step_id": 3212908,
           "lesson_id": 763644,
           "target_path": "modernization/86957/steps/763644/04_3212908_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "56c4a096cabbfeea99c7c6024a06dcae06acbbd90aae141799c4a042b0e6149c"
         },
         {
           "step_id": 3212920,
           "lesson_id": 763644,
           "target_path": "modernization/86957/steps/763644/06_3212920_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "be3beb1a339b427c39cc308176f08cf3370b881feab9aeb4ed2bbd4ea8568a2d"
         },
         {
           "step_id": 3201132,
           "lesson_id": 768140,
           "target_path": "modernization/86957/steps/768140/01_3201132_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "4e011e4fbf321f7df2cd61a99baaa200acdb8a42c0e10ffba39222b3aaa55fff"
         },
         {
           "step_id": 3201141,
           "lesson_id": 768140,
           "target_path": "modernization/86957/steps/768140/02_3201141_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "e99465bebf0574a56479b7ff7a538fda858937da55222b4955a81ee77c01fa34"
         },
         {
           "step_id": 3201168,
           "lesson_id": 768140,
           "target_path": "modernization/86957/steps/768140/08_3201168_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "926996d543c79e0e3f3c17d773da2ffa726e3522e650ceca003cde5a15cd0c8f"
         },
         {
           "step_id": 3201179,
           "lesson_id": 768143,
           "target_path": "modernization/86957/steps/768143/01_3201179_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "8811f1a8372e7a661b02569c1afbbbb08896d9746fc6f92d4075037709d9f095"
         },
         {
           "step_id": 3201189,
           "lesson_id": 768143,
           "target_path": "modernization/86957/steps/768143/02_3201189_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "b72f03fdfa230f2e63a0d325273ac37c4a7016a6e6b5ea29aa9233b340eae7c2"
         },
         {
           "step_id": 3201234,
           "lesson_id": 768146,
           "target_path": "modernization/86957/steps/768146/04_3201234_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "905bcc75f958cb9c6df4e8548da35bb5169fd6ce789e1aa5ee8cd219577b5f5d"
         },
         {
           "step_id": 3212946,
           "lesson_id": 770587,
           "target_path": "modernization/86957/steps/770587/01_3212946_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "160379e6aa0e8a5c14b1281e992ed0578f3aa0e4deb9a80ac6786281db6e9a7f"
         },
         {
           "step_id": 3213209,
           "lesson_id": 770587,
           "target_path": "modernization/86957/steps/770587/02_3213209_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "dea4f09737d4b213416779cffa6d76e735e7b4ed6472638dd54e509fed52254b"
         },
         {
           "step_id": 3307684,
           "lesson_id": 770587,
           "target_path": "modernization/86957/steps/770587/06_3307684_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "c1c424a8374f3823cf775c7e8aa87675cfb4f855d1bb23740f6dfd637d3d42bd"
         },
         {
           "step_id": 3212948,
           "lesson_id": 770589,
           "target_path": "modernization/86957/steps/770589/01_3212948_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "1c29e0a25fdcafcb343153aba6e85e16d5313b9830869e3c876b19a7bbc99edf"
         },
         {
           "step_id": 3214903,
           "lesson_id": 770589,
           "target_path": "modernization/86957/steps/770589/03_3214903_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "6dc92495568123b5d504b5a7d9042b9808a8e4799033d1dd5082ce4969fcffdf"
         },
         {
           "step_id": 3214904,
           "lesson_id": 770589,
           "target_path": "modernization/86957/steps/770589/05_3214904_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "86027969657691eaac45d557f4b866b789470be4aeb066cf74761f4ca09f5200"
         },
         {
           "step_id": 3214764,
           "lesson_id": 771009,
           "target_path": "modernization/86957/steps/771009/01_3214764_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "548be62073e46c327e284200822ef39cbe36be6d74f04bd0a9d183681ecbc03e"
         },
         {
           "step_id": 3214833,
           "lesson_id": 771009,
           "target_path": "modernization/86957/steps/771009/05_3214833_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "09c3291d976b74c4727a1688b6a695575216f7c62f6b2990dda2cce4a70304c5"
         },
         {
           "step_id": 3231317,
           "lesson_id": 774618,
           "target_path": "modernization/86957/steps/774618/03_3231317_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "f5b7fe1e373d4ce206e9c1455ca1c8d1775c2f5f3b6d4e507cb5b78d0a8daa32"
         },
         {
           "step_id": 3231228,
           "lesson_id": 774618,
           "target_path": "modernization/86957/steps/774618/04_3231228_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "80192bdefdbfd19ce0ee49b0dbcd4431132cab89f581081fbff02e2c4ff2ca59"
         },
         {
           "step_id": 3231226,
           "lesson_id": 774618,
           "target_path": "modernization/86957/steps/774618/05_3231226_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "7d883da8a5885f86e65faa185ba25130df4f3fda9090184dfe33090a93412576"
         },
         {
           "step_id": 3251322,
           "lesson_id": 778426,
           "target_path": "modernization/86957/steps/778426/01_3251322_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "442842629f31b8f37e0bd005f476c6b6f0d16afbc51a020ca60db8fc59e9e911"
         },
         {
           "step_id": 3253429,
           "lesson_id": 778426,
           "target_path": "modernization/86957/steps/778426/04_3253429_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "266ca189bfbc58437f5680d08351b1326816f5915c5a30517110b42442a84cd9"
         },
         {
           "step_id": 3253503,
           "lesson_id": 778426,
           "target_path": "modernization/86957/steps/778426/05_3253503_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "6bedeee3338a351e0af430440d774216c304f8445494de9d5f6a92dec31f0fd0"
         },
         {
           "step_id": 3253548,
           "lesson_id": 778426,
           "target_path": "modernization/86957/steps/778426/06_3253548_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "153b182d22abc1399e11917b2574c97d828fa9e9130d32f80818b87bf5d88eaa"
         },
         {
           "step_id": 3253553,
           "lesson_id": 778426,
           "target_path": "modernization/86957/steps/778426/07_3253553_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "582ee96852c3bcdc73f821dff7f51eb845db922a7c1366e8a6d3703c1787d021"
         },
         {
           "step_id": 3253557,
           "lesson_id": 778426,
           "target_path": "modernization/86957/steps/778426/09_3253557_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "2e50ec78a81bac16ccf84965be923586eac020fbc78bd8ae259ae06ee37578b4"
         },
         {
           "step_id": 4040986,
           "lesson_id": 853535,
           "target_path": "modernization/86957/steps/853535/03_4040986_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "eba3d094e536f54fdf82478acb80a62b90a37114b2c85892a2a7d61b70d05bd1"
         },
         {
           "step_id": 3569325,
           "lesson_id": 853536,
           "target_path": "modernization/86957/steps/853536/01_3569325_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "da7d9b182178d5974cd64d62eb2e7087139cea369f5af6454ee54a70a10e94df"
         },
         {
           "step_id": 3569964,
           "lesson_id": 853536,
           "target_path": "modernization/86957/steps/853536/02_3569964_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "0fb8ebf1ee1b5e0221bd89b35c7596646e0ec6c778e68da042a666b0c878fdcb"
         },
         {
           "step_id": 3569963,
           "lesson_id": 853536,
           "target_path": "modernization/86957/steps/853536/03_3569963_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "4f575f329f9bd89f88aa13db9db52f0855580067e0c5e7908f88481cfa6a242d"
         },
         {
           "step_id": 3570166,
           "lesson_id": 853536,
           "target_path": "modernization/86957/steps/853536/04_3570166_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "6e0ba32fb87ae15c3429389c0753eb5a65082c53b28b1c5c8a7f7134ba7550f0"
         }
       ]
     },
@@ -355,179 +306,179 @@
           "step_id": 5850209,
           "lesson_id": 1409621,
           "target_path": "corrections/86957/steps/1409621/01_5850209_code.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "071b2ce8e6e6601c8ae44f9ad4a27204ee87942c274b04acbfbfe2adacdffbf0"
         },
         {
           "step_id": 3177504,
           "lesson_id": 763639,
           "target_path": "corrections/86957/steps/763639/03_3177504_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "0cdae19766542c7347a738be406cad264234026bce5ebd458c06bfa694546c9e"
         },
         {
           "step_id": 3215105,
           "lesson_id": 763640,
           "target_path": "corrections/86957/steps/763640/02_3215105_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "93dc726116f86df46f4045dc6449e7b1297f03c2cb0bf1ac497d973c583ec41d"
         },
         {
           "step_id": 3177565,
           "lesson_id": 763719,
           "target_path": "corrections/86957/steps/763719/02_3177565_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "7ba5d9e15b9b62f3d42c98bdadc112f60b5e46530beb60bb0b5ecf8fe64a6bac"
         },
         {
           "step_id": 3177651,
           "lesson_id": 763719,
           "target_path": "corrections/86957/steps/763719/04_3177651_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "41751b2602b2fdf1e2c705afc992792ff8fe8f28a4a078a83d6664ad4a8dd320"
         },
         {
           "step_id": 3267786,
           "lesson_id": 768143,
           "target_path": "corrections/86957/steps/768143/07_3267786_string.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "7d68a726f476b1d578c965b7d47aa480ed27a4480b0b3ff32f9f19262b5b1555"
         },
         {
           "step_id": 3438841,
           "lesson_id": 770586,
           "target_path": "corrections/86957/steps/770586/06_3438841_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "4d3571a89566e8c13c2074cb845c4b4e2a2096c1b5a44e2011c584687735e3c3"
         },
         {
           "step_id": 4700496,
           "lesson_id": 770586,
           "target_path": "corrections/86957/steps/770586/12_4700496_code.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "9e5541c166955fa8da350f0adfda21b49049a28e4556a413ee9950d67b8e2385"
         },
         {
           "step_id": 3213207,
           "lesson_id": 770587,
           "target_path": "corrections/86957/steps/770587/04_3213207_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "ce2b4daa986eaab6331a9782c56289de7a293cd82925f05c71d5f96fcda545c0"
         },
         {
           "step_id": 3213210,
           "lesson_id": 770587,
           "target_path": "corrections/86957/steps/770587/05_3213210_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "1ec551a979bcecbf4c074a9fe914a9e3e1ca4d847128bb2600a272ba2fe19776"
         },
         {
           "step_id": 4949336,
           "lesson_id": 770589,
           "target_path": "corrections/86957/steps/770589/15_4949336_code.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "8032bd3e1a095d0858f8cf17fbdb21c6acdeed620a47a87ca5e175a2b34e7aaf"
         },
         {
           "step_id": 3214910,
           "lesson_id": 770590,
           "target_path": "corrections/86957/steps/770590/03_3214910_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "8c703b59d407f67756e6fe8d3c5d7a37514dcd070db870fb0a8753de5eb5cee1"
         },
         {
           "step_id": 3215234,
           "lesson_id": 770596,
           "target_path": "corrections/86957/steps/770596/03_3215234_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "dbb298751b198a6a6e9b448f8b843d3a53ff2e971813c0e0bfde4f5fa0089426"
         },
         {
           "step_id": 3215235,
           "lesson_id": 770596,
           "target_path": "corrections/86957/steps/770596/06_3215235_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "18aec793f52eab7e5599ff18fa84d21635ee8b7241bc5e82329dede45b8b3147"
         },
         {
           "step_id": 3215236,
           "lesson_id": 770596,
           "target_path": "corrections/86957/steps/770596/07_3215236_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "03f33f718a39bf3749bd38538ad9026b4cf4ab3ce809c5059bf119c73a67fd4f"
         },
         {
           "step_id": 3212956,
           "lesson_id": 770597,
           "target_path": "corrections/86957/steps/770597/01_3212956_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "15ac209f600191d137b12d89d53cbe5d68c1372d49109aa94e25a9a2ad7fab6d"
         },
         {
           "step_id": 3215244,
           "lesson_id": 770597,
           "target_path": "corrections/86957/steps/770597/03_3215244_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "f7efacaa8d4110683df5fffe6363aa3d6a5875caa5e280553ec788e9d1da9eeb"
         },
         {
           "step_id": 3215206,
           "lesson_id": 771130,
           "target_path": "corrections/86957/steps/771130/03_3215206_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "ac452dc4cf49e4a84be9fa4baba094bb3eb3fd759d986ba3bd189786f50828b6"
         },
         {
           "step_id": 3570303,
           "lesson_id": 853541,
           "target_path": "corrections/86957/steps/853541/02_3570303_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "6761db73c11d2888bac4ddad9452626453f453197e8064946e575accf549117f"
         },
         {
           "step_id": 3669142,
           "lesson_id": 877083,
           "target_path": "corrections/86957/steps/877083/03_3669142_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "6423ca08e19011a15827eae2d20df05fbe6858615c7c8c925ad0d42b6becee9c"
         },
         {
           "step_id": 3669172,
           "lesson_id": 877083,
           "target_path": "corrections/86957/steps/877083/06_3669172_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "e5693231e2b364cd5631fcd8785bd4518c0ead1542a5c448ec785b5d65461740"
         },
         {
           "step_id": 3759850,
           "lesson_id": 877084,
           "target_path": "corrections/86957/steps/877084/03_3759850_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "86eee1dd395d745ff2cf2f23f1fde1d280e00119a746a4523b3ebf9baa385f53"
         },
         {
           "step_id": 3759914,
           "lesson_id": 877084,
           "target_path": "corrections/86957/steps/877084/05_3759914_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "af8e376d3c136b197ac0470df14459fef8e9ab31214f2c12a0246e705fbea437"
         },
         {
           "step_id": 4035481,
           "lesson_id": 973831,
           "target_path": "corrections/86957/steps/973831/02_4035481_text.step",
-          "target_exists": false,
-          "target_sha256": null
+          "target_exists": true,
+          "target_sha256": "d1b4b71d9fbdc5b1c018301885823f131ce43ac03b0edf9e97020abc9c8b1d89"
         }
       ]
     },
     {
       "manifest_path": "improvements/86957/assessment-2026-11-23/manifest.json",
-      "manifest_sha256": "6918edc92b525c2574f3e1c7ab30148ad09fd9e4fb3aad22d3a0f6efe5243926",
-      "status": "prepared",
-      "publication_status": "not_published",
-      "publication_applied": false,
-      "verified_at": null,
+      "manifest_sha256": "39e0ba140a056d9f4b704c1709dc54537ed9fe940768dafa3f6b0ac99bbbbc98",
+      "status": "published",
+      "publication_status": "verified_on_stepik",
+      "publication_applied": true,
+      "verified_at": "2026-11-23T07:53:35Z",
       "declared_changed_steps": 4,
       "indexed_steps": [
         {
@@ -562,11 +513,11 @@
     },
     {
       "manifest_path": "improvements/86957/functions-2026-11-23/manifest.json",
-      "manifest_sha256": "06b5fc1f11c4785fc60dc54bb6a72fccb4a7471461e474e406a3bf119f6b3035",
-      "status": "prepared",
-      "publication_status": "not_published",
-      "publication_applied": false,
-      "verified_at": null,
+      "manifest_sha256": "14dcf997e4afc48368820a1530c2c87b04f130cb9f285f42641f8f3f01c3564c",
+      "status": "published",
+      "publication_status": "verified_on_stepik",
+      "publication_applied": true,
+      "verified_at": "2026-11-23T07:53:35Z",
       "declared_changed_steps": 12,
       "indexed_steps": [
         {
@@ -657,11 +608,11 @@
     },
     {
       "manifest_path": "improvements/86957/practice-2026-11-23/manifest.json",
-      "manifest_sha256": "c7b9dc698499a46861f990ee969bb3d9e779c7ae36fb1c23b4a7066df2e7269a",
-      "status": "prepared",
-      "publication_status": "not_published",
-      "publication_applied": false,
-      "verified_at": null,
+      "manifest_sha256": "f7818d626d8acabcacc78e7eef583eebad3efa88445eaf655d91a4e8ec61c172",
+      "status": "published",
+      "publication_status": "verified_on_stepik",
+      "publication_applied": true,
+      "verified_at": "2026-11-23T07:53:35Z",
       "declared_changed_steps": 5,
       "indexed_steps": [
         {
@@ -703,11 +654,11 @@
     },
     {
       "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-      "manifest_sha256": "99589ce0a4da9f5bda64380bf2c63405938610861be71aa6ecdcaf612c697002",
-      "status": "prepared",
-      "publication_status": "not_published",
-      "publication_applied": false,
-      "verified_at": null,
+      "manifest_sha256": "182a00d85668fbf62c2b6820a493f29c5bf485ba55e30a59b790770c508d067b",
+      "status": "published",
+      "publication_status": "verified_on_stepik",
+      "publication_applied": true,
+      "verified_at": "2026-11-23T07:53:35Z",
       "declared_changed_steps": 25,
       "indexed_steps": [
         {
@@ -2464,8 +2415,8 @@
                   "step_id": 3201132,
                   "lesson_id": 768140,
                   "target_path": "modernization/86957/steps/768140/01_3201132_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "4e011e4fbf321f7df2cd61a99baaa200acdb8a42c0e10ffba39222b3aaa55fff"
                 }
               ],
               "prepared_revisions": [],
@@ -2493,8 +2444,8 @@
                   "step_id": 3201141,
                   "lesson_id": 768140,
                   "target_path": "modernization/86957/steps/768140/02_3201141_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "e99465bebf0574a56479b7ff7a538fda858937da55222b4955a81ee77c01fa34"
                 }
               ],
               "prepared_revisions": [],
@@ -2612,8 +2563,8 @@
                   "step_id": 3201168,
                   "lesson_id": 768140,
                   "target_path": "modernization/86957/steps/768140/08_3201168_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "926996d543c79e0e3f3c17d773da2ffa726e3522e650ceca003cde5a15cd0c8f"
                 }
               ],
               "prepared_revisions": [],
@@ -2714,8 +2665,8 @@
                   "step_id": 3201234,
                   "lesson_id": 768146,
                   "target_path": "modernization/86957/steps/768146/04_3201234_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "905bcc75f958cb9c6df4e8548da35bb5169fd6ce789e1aa5ee8cd219577b5f5d"
                 }
               ],
               "prepared_revisions": [],
@@ -2859,8 +2810,8 @@
                   "step_id": 3201179,
                   "lesson_id": 768143,
                   "target_path": "modernization/86957/steps/768143/01_3201179_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "8811f1a8372e7a661b02569c1afbbbb08896d9746fc6f92d4075037709d9f095"
                 }
               ],
               "prepared_revisions": [],
@@ -2888,8 +2839,8 @@
                   "step_id": 3201189,
                   "lesson_id": 768143,
                   "target_path": "modernization/86957/steps/768143/02_3201189_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "b72f03fdfa230f2e63a0d325273ac37c4a7016a6e6b5ea29aa9233b340eae7c2"
                 }
               ],
               "prepared_revisions": [],
@@ -2996,8 +2947,8 @@
                   "step_id": 3267786,
                   "lesson_id": 768143,
                   "target_path": "corrections/86957/steps/768143/07_3267786_string.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "7d68a726f476b1d578c965b7d47aa480ed27a4480b0b3ff32f9f19262b5b1555"
                 }
               ],
               "prepared_revisions": [],
@@ -3290,8 +3241,8 @@
                   "step_id": 3214764,
                   "lesson_id": 771009,
                   "target_path": "modernization/86957/steps/771009/01_3214764_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "548be62073e46c327e284200822ef39cbe36be6d74f04bd0a9d183681ecbc03e"
                 }
               ],
               "prepared_revisions": [],
@@ -3373,8 +3324,8 @@
                   "step_id": 3214833,
                   "lesson_id": 771009,
                   "target_path": "modernization/86957/steps/771009/05_3214833_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "09c3291d976b74c4727a1688b6a695575216f7c62f6b2990dda2cce4a70304c5"
                 }
               ],
               "prepared_revisions": [],
@@ -3463,8 +3414,8 @@
                   "step_id": 3231317,
                   "lesson_id": 774618,
                   "target_path": "modernization/86957/steps/774618/03_3231317_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "f5b7fe1e373d4ce206e9c1455ca1c8d1775c2f5f3b6d4e507cb5b78d0a8daa32"
                 }
               ],
               "prepared_revisions": [],
@@ -3492,8 +3443,8 @@
                   "step_id": 3231228,
                   "lesson_id": 774618,
                   "target_path": "modernization/86957/steps/774618/04_3231228_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "80192bdefdbfd19ce0ee49b0dbcd4431132cab89f581081fbff02e2c4ff2ca59"
                 }
               ],
               "prepared_revisions": [],
@@ -3521,8 +3472,8 @@
                   "step_id": 3231226,
                   "lesson_id": 774618,
                   "target_path": "modernization/86957/steps/774618/05_3231226_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "7d883da8a5885f86e65faa185ba25130df4f3fda9090184dfe33090a93412576"
                 }
               ],
               "prepared_revisions": [],
@@ -3759,10 +3710,10 @@
               "position": 9,
               "type": "code",
               "path": "courses/86957/steps/763630/09_4643238_code.step",
-              "sha256": "a9b080ea9fd921388bce0cd844e33f7d1f63daabb2944873bf0a0f9957133f77",
+              "sha256": "36626e051306c64a71e0fa731765ad42dd6f3833eb65ee3d90f8f05275dfb0c3",
               "step_url": "https://stepik.org/lesson/763630/step/9",
               "features": {
-                "text_character_count": 680,
+                "text_character_count": 991,
                 "image_tag_count": 0,
                 "pre_tag_count": 0,
                 "outcome_marker": false,
@@ -3771,8 +3722,8 @@
               "packages": [
                 {
                   "manifest_path": "improvements/86957/practice-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 4643238,
                   "lesson_id": 763630,
                   "target_path": "improvements/86957/practice-2026-11-23/steps/763630/09_4643238_code.step",
@@ -3797,26 +3748,13 @@
                   "test_cases"
                 ],
                 "template_language_tags": [
-                  "c"
+                  "c",
+                  "c++"
                 ],
                 "embedded_test_case_count": 9,
                 "has_checker_or_generator_source": true
               },
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/practice-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/practice-2026-11-23/steps/763630/09_4643238_code.step",
-                  "type": "code",
-                  "features": {
-                    "text_character_count": 991,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 0,
-                    "outcome_marker": false,
-                    "practice_marker": false
-                  },
-                  "sha256": "04457e6bf16b8ec3123789dd9a54a45204ff58e63f8a8432eed3b50c7a9a2cd7"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             },
             {
@@ -4100,8 +4038,8 @@
                   "step_id": 3177504,
                   "lesson_id": 763639,
                   "target_path": "corrections/86957/steps/763639/03_3177504_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "0cdae19766542c7347a738be406cad264234026bce5ebd458c06bfa694546c9e"
                 }
               ],
               "prepared_revisions": [],
@@ -4500,8 +4438,8 @@
                   "step_id": 3215105,
                   "lesson_id": 763640,
                   "target_path": "corrections/86957/steps/763640/02_3215105_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "93dc726116f86df46f4045dc6449e7b1297f03c2cb0bf1ac497d973c583ec41d"
                 }
               ],
               "prepared_revisions": [],
@@ -5120,8 +5058,8 @@
                   "step_id": 3177565,
                   "lesson_id": 763719,
                   "target_path": "corrections/86957/steps/763719/02_3177565_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "7ba5d9e15b9b62f3d42c98bdadc112f60b5e46530beb60bb0b5ecf8fe64a6bac"
                 }
               ],
               "prepared_revisions": [],
@@ -5188,8 +5126,8 @@
                   "step_id": 3177651,
                   "lesson_id": 763719,
                   "target_path": "corrections/86957/steps/763719/04_3177651_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "41751b2602b2fdf1e2c705afc992792ff8fe8f28a4a078a83d6664ad4a8dd320"
                 }
               ],
               "prepared_revisions": [],
@@ -5481,8 +5419,8 @@
                   "step_id": 3177296,
                   "lesson_id": 763644,
                   "target_path": "modernization/86957/steps/763644/02_3177296_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "a7a8858894129569d8a707b483753f931c2ebf05567b4cb03ef9d561c67476b1"
                 }
               ],
               "prepared_revisions": [],
@@ -5510,8 +5448,8 @@
                   "step_id": 3212907,
                   "lesson_id": 763644,
                   "target_path": "modernization/86957/steps/763644/03_3212907_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "a3abe8f3fb9a7b047fe7e6f29a3b2b6c9ad735be261eeff9b034447d3b38cefc"
                 }
               ],
               "prepared_revisions": [],
@@ -5539,8 +5477,8 @@
                   "step_id": 3212908,
                   "lesson_id": 763644,
                   "target_path": "modernization/86957/steps/763644/04_3212908_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "56c4a096cabbfeea99c7c6024a06dcae06acbbd90aae141799c4a042b0e6149c"
                 }
               ],
               "prepared_revisions": [],
@@ -5586,8 +5524,8 @@
                   "step_id": 3212920,
                   "lesson_id": 763644,
                   "target_path": "modernization/86957/steps/763644/06_3212920_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "be3beb1a339b427c39cc308176f08cf3370b881feab9aeb4ed2bbd4ea8568a2d"
                 }
               ],
               "prepared_revisions": [],
@@ -6612,8 +6550,8 @@
                   "step_id": 3438841,
                   "lesson_id": 770586,
                   "target_path": "corrections/86957/steps/770586/06_3438841_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "4d3571a89566e8c13c2074cb845c4b4e2a2096c1b5a44e2011c584687735e3c3"
                 }
               ],
               "prepared_revisions": [],
@@ -6766,8 +6704,8 @@
                   "step_id": 4700496,
                   "lesson_id": 770586,
                   "target_path": "corrections/86957/steps/770586/12_4700496_code.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "9e5541c166955fa8da350f0adfda21b49049a28e4556a413ee9950d67b8e2385"
                 }
               ],
               "code_structure": {
@@ -6935,8 +6873,8 @@
                   "step_id": 3212946,
                   "lesson_id": 770587,
                   "target_path": "modernization/86957/steps/770587/01_3212946_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "160379e6aa0e8a5c14b1281e992ed0578f3aa0e4deb9a80ac6786281db6e9a7f"
                 }
               ],
               "prepared_revisions": [],
@@ -6964,8 +6902,8 @@
                   "step_id": 3213209,
                   "lesson_id": 770587,
                   "target_path": "modernization/86957/steps/770587/02_3213209_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "dea4f09737d4b213416779cffa6d76e735e7b4ed6472638dd54e509fed52254b"
                 }
               ],
               "prepared_revisions": [],
@@ -7011,8 +6949,8 @@
                   "step_id": 3213207,
                   "lesson_id": 770587,
                   "target_path": "corrections/86957/steps/770587/04_3213207_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "ce2b4daa986eaab6331a9782c56289de7a293cd82925f05c71d5f96fcda545c0"
                 }
               ],
               "prepared_revisions": [],
@@ -7040,8 +6978,8 @@
                   "step_id": 3213210,
                   "lesson_id": 770587,
                   "target_path": "corrections/86957/steps/770587/05_3213210_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "1ec551a979bcecbf4c074a9fe914a9e3e1ca4d847128bb2600a272ba2fe19776"
                 }
               ],
               "prepared_revisions": [],
@@ -7069,8 +7007,8 @@
                   "step_id": 3307684,
                   "lesson_id": 770587,
                   "target_path": "modernization/86957/steps/770587/06_3307684_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "c1c424a8374f3823cf775c7e8aa87675cfb4f855d1bb23740f6dfd637d3d42bd"
                 }
               ],
               "prepared_revisions": [],
@@ -7349,28 +7287,38 @@
           },
           "automatically_assessed_step_count": 5,
           "has_code_task": true,
-          "steps_with_outcome_marker": [],
-          "text_steps_with_practice_marker": [],
+          "steps_with_outcome_marker": [
+            3212949,
+            3214909,
+            3214910,
+            3214911
+          ],
+          "text_steps_with_practice_marker": [
+            3212949,
+            3214909,
+            3214910,
+            3214911
+          ],
           "steps": [
             {
               "step_id": 3212949,
               "position": 1,
               "type": "text",
               "path": "courses/86957/steps/770590/01_3212949_text.step",
-              "sha256": "0bdf7c0da08038b378794cdd63207c9b8b06cc424a3133e27d5343063b0fb8dc",
+              "sha256": "3e4a357895caaa6d62ec4cd492a2c9297931de474c4d06bf9d4c4d3662bd38a6",
               "step_url": "https://stepik.org/lesson/770590/step/1",
               "features": {
-                "text_character_count": 1477,
+                "text_character_count": 2361,
                 "image_tag_count": 0,
-                "pre_tag_count": 2,
-                "outcome_marker": false,
-                "practice_marker": false
+                "pre_tag_count": 1,
+                "outcome_marker": true,
+                "practice_marker": true
               },
               "packages": [
                 {
                   "manifest_path": "improvements/86957/functions-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 3212949,
                   "lesson_id": 770590,
                   "target_path": "improvements/86957/functions-2026-11-23/steps/770590/01_3212949_text.step",
@@ -7378,21 +7326,7 @@
                   "target_sha256": "ab1b007bf8b51b1e3b4f4fc340dfc984f9bf50b006a914f5491b02b2d13d4ca3"
                 }
               ],
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/functions-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/functions-2026-11-23/steps/770590/01_3212949_text.step",
-                  "type": "text",
-                  "features": {
-                    "text_character_count": 2361,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 1,
-                    "outcome_marker": true,
-                    "practice_marker": true
-                  },
-                  "sha256": "ab1b007bf8b51b1e3b4f4fc340dfc984f9bf50b006a914f5491b02b2d13d4ca3"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             },
             {
@@ -7400,20 +7334,20 @@
               "position": 2,
               "type": "text",
               "path": "courses/86957/steps/770590/02_3214909_text.step",
-              "sha256": "d3175f9e5250ad351fc38179f69ba430097547f1bcd4b776ecd565c488c722ad",
+              "sha256": "15089263a70b3d3a37fa38d4b97c4f6146b5e52c631510aacd0e6e6bd62ec7b4",
               "step_url": "https://stepik.org/lesson/770590/step/2",
               "features": {
-                "text_character_count": 1957,
-                "image_tag_count": 1,
-                "pre_tag_count": 2,
-                "outcome_marker": false,
-                "practice_marker": false
+                "text_character_count": 2920,
+                "image_tag_count": 0,
+                "pre_tag_count": 1,
+                "outcome_marker": true,
+                "practice_marker": true
               },
               "packages": [
                 {
                   "manifest_path": "improvements/86957/functions-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 3214909,
                   "lesson_id": 770590,
                   "target_path": "improvements/86957/functions-2026-11-23/steps/770590/02_3214909_text.step",
@@ -7421,21 +7355,7 @@
                   "target_sha256": "3f67144c1751a20a48a328c4b53ee69d55f31e22e55ab4bbc91ed5a86cb7ee23"
                 }
               ],
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/functions-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/functions-2026-11-23/steps/770590/02_3214909_text.step",
-                  "type": "text",
-                  "features": {
-                    "text_character_count": 2920,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 1,
-                    "outcome_marker": true,
-                    "practice_marker": true
-                  },
-                  "sha256": "3f67144c1751a20a48a328c4b53ee69d55f31e22e55ab4bbc91ed5a86cb7ee23"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             },
             {
@@ -7443,14 +7363,14 @@
               "position": 3,
               "type": "text",
               "path": "courses/86957/steps/770590/03_3214910_text.step",
-              "sha256": "23c441645e1458bce2e6246c5f90fc13bb8c874d94e0246394e2b6f8149b8c8b",
+              "sha256": "0c197893a91f1c699cceda799ee70b4b69c0d3ce46ce7385fabd0e9cf33ef237",
               "step_url": "https://stepik.org/lesson/770590/step/3",
               "features": {
-                "text_character_count": 2503,
+                "text_character_count": 3087,
                 "image_tag_count": 0,
-                "pre_tag_count": 5,
-                "outcome_marker": false,
-                "practice_marker": false
+                "pre_tag_count": 1,
+                "outcome_marker": true,
+                "practice_marker": true
               },
               "packages": [
                 {
@@ -7460,13 +7380,13 @@
                   "step_id": 3214910,
                   "lesson_id": 770590,
                   "target_path": "corrections/86957/steps/770590/03_3214910_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "8c703b59d407f67756e6fe8d3c5d7a37514dcd070db870fb0a8753de5eb5cee1"
                 },
                 {
                   "manifest_path": "improvements/86957/functions-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 3214910,
                   "lesson_id": 770590,
                   "target_path": "improvements/86957/functions-2026-11-23/steps/770590/03_3214910_text.step",
@@ -7474,21 +7394,7 @@
                   "target_sha256": "bef7275f0271da956de32176e7a560ad897193174af3799f2a739bc08c46a91e"
                 }
               ],
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/functions-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/functions-2026-11-23/steps/770590/03_3214910_text.step",
-                  "type": "text",
-                  "features": {
-                    "text_character_count": 3087,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 1,
-                    "outcome_marker": true,
-                    "practice_marker": true
-                  },
-                  "sha256": "bef7275f0271da956de32176e7a560ad897193174af3799f2a739bc08c46a91e"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             },
             {
@@ -7496,20 +7402,20 @@
               "position": 4,
               "type": "text",
               "path": "courses/86957/steps/770590/04_3214911_text.step",
-              "sha256": "6019db50b36a2fe5a4208c7cb528ff9ae97a3056df5b93c9efc803064afe3530",
+              "sha256": "3581809a08d930b5b2ff7506d181477dad7f2394ac812509d6009e170b7fb2e0",
               "step_url": "https://stepik.org/lesson/770590/step/4",
               "features": {
-                "text_character_count": 802,
+                "text_character_count": 2980,
                 "image_tag_count": 0,
-                "pre_tag_count": 2,
-                "outcome_marker": false,
-                "practice_marker": false
+                "pre_tag_count": 1,
+                "outcome_marker": true,
+                "practice_marker": true
               },
               "packages": [
                 {
                   "manifest_path": "improvements/86957/functions-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 3214911,
                   "lesson_id": 770590,
                   "target_path": "improvements/86957/functions-2026-11-23/steps/770590/04_3214911_text.step",
@@ -7517,21 +7423,7 @@
                   "target_sha256": "4871fea08b35648202e31dae5388b99a1d44a9159ac97c0ec8c43e72618b7bd5"
                 }
               ],
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/functions-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/functions-2026-11-23/steps/770590/04_3214911_text.step",
-                  "type": "text",
-                  "features": {
-                    "text_character_count": 2980,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 1,
-                    "outcome_marker": true,
-                    "practice_marker": true
-                  },
-                  "sha256": "4871fea08b35648202e31dae5388b99a1d44a9159ac97c0ec8c43e72618b7bd5"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             },
             {
@@ -7688,28 +7580,44 @@
           },
           "automatically_assessed_step_count": 6,
           "has_code_task": true,
-          "steps_with_outcome_marker": [],
-          "text_steps_with_practice_marker": [],
+          "steps_with_outcome_marker": [
+            3212950,
+            3214973,
+            3214972,
+            3214971,
+            3214974,
+            3215024,
+            3214978
+          ],
+          "text_steps_with_practice_marker": [
+            3212950,
+            3214973,
+            3214972,
+            3214971,
+            3214974,
+            3215024,
+            3214978
+          ],
           "steps": [
             {
               "step_id": 3212950,
               "position": 1,
               "type": "text",
               "path": "courses/86957/steps/770591/01_3212950_text.step",
-              "sha256": "66922042825c391bdc4f99710ee0a2d82c46d696447e7226f4648420773bda7e",
+              "sha256": "a12d6c7c94e6fbb88fcd625bd335b50f0a9d76889c5a8b629023f055830fc167",
               "step_url": "https://stepik.org/lesson/770591/step/1",
               "features": {
-                "text_character_count": 1266,
+                "text_character_count": 2485,
                 "image_tag_count": 0,
                 "pre_tag_count": 1,
-                "outcome_marker": false,
-                "practice_marker": false
+                "outcome_marker": true,
+                "practice_marker": true
               },
               "packages": [
                 {
                   "manifest_path": "improvements/86957/functions-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 3212950,
                   "lesson_id": 770591,
                   "target_path": "improvements/86957/functions-2026-11-23/steps/770591/01_3212950_text.step",
@@ -7717,21 +7625,7 @@
                   "target_sha256": "7f8061f9d87bb27d1a38a3bd04ce82175742908940d344c94d5d8e3a630e438b"
                 }
               ],
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/functions-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/functions-2026-11-23/steps/770591/01_3212950_text.step",
-                  "type": "text",
-                  "features": {
-                    "text_character_count": 2485,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 1,
-                    "outcome_marker": true,
-                    "practice_marker": true
-                  },
-                  "sha256": "7f8061f9d87bb27d1a38a3bd04ce82175742908940d344c94d5d8e3a630e438b"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             },
             {
@@ -7739,20 +7633,20 @@
               "position": 2,
               "type": "text",
               "path": "courses/86957/steps/770591/02_3214973_text.step",
-              "sha256": "5711a52ba139a72ef3bd8fc2a3a8644745c4282c8e7f00121156b1b940521cf2",
+              "sha256": "1b3c261a6bf67614171a95a582140647276d5e9bbe1a5467bb0ca6f512a0811b",
               "step_url": "https://stepik.org/lesson/770591/step/2",
               "features": {
-                "text_character_count": 1503,
+                "text_character_count": 2660,
                 "image_tag_count": 0,
-                "pre_tag_count": 2,
-                "outcome_marker": false,
-                "practice_marker": false
+                "pre_tag_count": 1,
+                "outcome_marker": true,
+                "practice_marker": true
               },
               "packages": [
                 {
                   "manifest_path": "improvements/86957/functions-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 3214973,
                   "lesson_id": 770591,
                   "target_path": "improvements/86957/functions-2026-11-23/steps/770591/02_3214973_text.step",
@@ -7760,21 +7654,7 @@
                   "target_sha256": "3c434e280fa01cc5434c59bf5389befbc815c625b722b780bb0ab770c5a077ea"
                 }
               ],
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/functions-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/functions-2026-11-23/steps/770591/02_3214973_text.step",
-                  "type": "text",
-                  "features": {
-                    "text_character_count": 2660,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 1,
-                    "outcome_marker": true,
-                    "practice_marker": true
-                  },
-                  "sha256": "3c434e280fa01cc5434c59bf5389befbc815c625b722b780bb0ab770c5a077ea"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             },
             {
@@ -7782,20 +7662,20 @@
               "position": 3,
               "type": "text",
               "path": "courses/86957/steps/770591/03_3214972_text.step",
-              "sha256": "25bd9d5a35a91ce48c521079e569a5f244d118c3d2554acc6b38783f1e67083e",
+              "sha256": "950243605ba795c622b3e97d82a343b3e21e9a5b2f12455414848397ae6f5775",
               "step_url": "https://stepik.org/lesson/770591/step/3",
               "features": {
-                "text_character_count": 1893,
+                "text_character_count": 2457,
                 "image_tag_count": 0,
-                "pre_tag_count": 3,
-                "outcome_marker": false,
-                "practice_marker": false
+                "pre_tag_count": 1,
+                "outcome_marker": true,
+                "practice_marker": true
               },
               "packages": [
                 {
                   "manifest_path": "improvements/86957/functions-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 3214972,
                   "lesson_id": 770591,
                   "target_path": "improvements/86957/functions-2026-11-23/steps/770591/03_3214972_text.step",
@@ -7803,21 +7683,7 @@
                   "target_sha256": "531132413c159676c6b2cdfe5505007b50df793e64b5a5015b817c83ecd523f5"
                 }
               ],
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/functions-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/functions-2026-11-23/steps/770591/03_3214972_text.step",
-                  "type": "text",
-                  "features": {
-                    "text_character_count": 2457,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 1,
-                    "outcome_marker": true,
-                    "practice_marker": true
-                  },
-                  "sha256": "531132413c159676c6b2cdfe5505007b50df793e64b5a5015b817c83ecd523f5"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             },
             {
@@ -7825,20 +7691,20 @@
               "position": 4,
               "type": "text",
               "path": "courses/86957/steps/770591/04_3214971_text.step",
-              "sha256": "ae8fc4863b0660b9e4c207b00a6f339c348377de27c82aaf70a2d6aeccce8f03",
+              "sha256": "93a39f160de34243d7c1b051c250f55ab080e3458de35ba0cc34f6a43f0f588e",
               "step_url": "https://stepik.org/lesson/770591/step/4",
               "features": {
-                "text_character_count": 4859,
+                "text_character_count": 2476,
                 "image_tag_count": 0,
-                "pre_tag_count": 5,
-                "outcome_marker": false,
-                "practice_marker": false
+                "pre_tag_count": 2,
+                "outcome_marker": true,
+                "practice_marker": true
               },
               "packages": [
                 {
                   "manifest_path": "improvements/86957/functions-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 3214971,
                   "lesson_id": 770591,
                   "target_path": "improvements/86957/functions-2026-11-23/steps/770591/04_3214971_text.step",
@@ -7846,21 +7712,7 @@
                   "target_sha256": "092782ef081f10a39c9d20a01623391dfa0c1282b49172b7c9117e20c42b2fe4"
                 }
               ],
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/functions-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/functions-2026-11-23/steps/770591/04_3214971_text.step",
-                  "type": "text",
-                  "features": {
-                    "text_character_count": 2476,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 2,
-                    "outcome_marker": true,
-                    "practice_marker": true
-                  },
-                  "sha256": "092782ef081f10a39c9d20a01623391dfa0c1282b49172b7c9117e20c42b2fe4"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             },
             {
@@ -7868,20 +7720,20 @@
               "position": 5,
               "type": "text",
               "path": "courses/86957/steps/770591/05_3214974_text.step",
-              "sha256": "d0cab9288c756adaed93a237ec5cd016c3c24451ea84d23950a32854d3fadd5d",
+              "sha256": "5c637ee068f04f12daa4f147cb139df05fda1591bee338d8386088f870c34310",
               "step_url": "https://stepik.org/lesson/770591/step/5",
               "features": {
-                "text_character_count": 1817,
+                "text_character_count": 2690,
                 "image_tag_count": 0,
-                "pre_tag_count": 4,
-                "outcome_marker": false,
-                "practice_marker": false
+                "pre_tag_count": 1,
+                "outcome_marker": true,
+                "practice_marker": true
               },
               "packages": [
                 {
                   "manifest_path": "improvements/86957/functions-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 3214974,
                   "lesson_id": 770591,
                   "target_path": "improvements/86957/functions-2026-11-23/steps/770591/05_3214974_text.step",
@@ -7889,21 +7741,7 @@
                   "target_sha256": "c6ab9de421bd9af0bfb74150a093918373dde02d5148eb53d4a44abfa1820660"
                 }
               ],
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/functions-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/functions-2026-11-23/steps/770591/05_3214974_text.step",
-                  "type": "text",
-                  "features": {
-                    "text_character_count": 2690,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 1,
-                    "outcome_marker": true,
-                    "practice_marker": true
-                  },
-                  "sha256": "c6ab9de421bd9af0bfb74150a093918373dde02d5148eb53d4a44abfa1820660"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             },
             {
@@ -7911,20 +7749,20 @@
               "position": 6,
               "type": "text",
               "path": "courses/86957/steps/770591/06_3215024_text.step",
-              "sha256": "08514056857ca596ef1543d21c3eebbd03da514cb5a1cc660bd95b33c9295e5f",
+              "sha256": "6bd76b51f42bbfa708ccb77422a5a47d8125e2381e04f63357777ccad4d6a9e1",
               "step_url": "https://stepik.org/lesson/770591/step/6",
               "features": {
-                "text_character_count": 5391,
+                "text_character_count": 4609,
                 "image_tag_count": 0,
-                "pre_tag_count": 9,
-                "outcome_marker": false,
-                "practice_marker": false
+                "pre_tag_count": 2,
+                "outcome_marker": true,
+                "practice_marker": true
               },
               "packages": [
                 {
                   "manifest_path": "improvements/86957/functions-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 3215024,
                   "lesson_id": 770591,
                   "target_path": "improvements/86957/functions-2026-11-23/steps/770591/06_3215024_text.step",
@@ -7932,21 +7770,7 @@
                   "target_sha256": "9626344252eb3b341259ee64142ad8082cbaaa9e9da4b60e67049efeaf128b3b"
                 }
               ],
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/functions-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/functions-2026-11-23/steps/770591/06_3215024_text.step",
-                  "type": "text",
-                  "features": {
-                    "text_character_count": 4609,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 2,
-                    "outcome_marker": true,
-                    "practice_marker": true
-                  },
-                  "sha256": "9626344252eb3b341259ee64142ad8082cbaaa9e9da4b60e67049efeaf128b3b"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             },
             {
@@ -7954,20 +7778,20 @@
               "position": 7,
               "type": "text",
               "path": "courses/86957/steps/770591/07_3214978_text.step",
-              "sha256": "1dcda267fe8af941ccc69d1e138a7d560894a97af9fee60d26d11bde065aa1d9",
+              "sha256": "bd0a4aea0cbc0c7011955e6b56368349dee2abcc0bad16d3cf7d58eca7acbd06",
               "step_url": "https://stepik.org/lesson/770591/step/7",
               "features": {
-                "text_character_count": 1487,
-                "image_tag_count": 1,
+                "text_character_count": 2856,
+                "image_tag_count": 0,
                 "pre_tag_count": 1,
-                "outcome_marker": false,
-                "practice_marker": false
+                "outcome_marker": true,
+                "practice_marker": true
               },
               "packages": [
                 {
                   "manifest_path": "improvements/86957/functions-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 3214978,
                   "lesson_id": 770591,
                   "target_path": "improvements/86957/functions-2026-11-23/steps/770591/07_3214978_text.step",
@@ -7975,21 +7799,7 @@
                   "target_sha256": "0ddbd5999601fd524f84ba57c59a2b28c799442fa2b2d8b21c27804420a4bcba"
                 }
               ],
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/functions-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/functions-2026-11-23/steps/770591/07_3214978_text.step",
-                  "type": "text",
-                  "features": {
-                    "text_character_count": 2856,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 1,
-                    "outcome_marker": true,
-                    "practice_marker": true
-                  },
-                  "sha256": "0ddbd5999601fd524f84ba57c59a2b28c799442fa2b2d8b21c27804420a4bcba"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             },
             {
@@ -8212,28 +8022,32 @@
           },
           "automatically_assessed_step_count": 3,
           "has_code_task": false,
-          "steps_with_outcome_marker": [],
-          "text_steps_with_practice_marker": [],
+          "steps_with_outcome_marker": [
+            3214992
+          ],
+          "text_steps_with_practice_marker": [
+            3214992
+          ],
           "steps": [
             {
               "step_id": 3214992,
               "position": 1,
               "type": "text",
               "path": "courses/86957/steps/770592/01_3214992_text.step",
-              "sha256": "0df86a3eec021f3fb5557e406bdeb5aa951c85c7e74558ff498c98c30f97a051",
+              "sha256": "992745da853d1ea474468cca613a96ddfb6e00796b9550f1f630967ddfae4b61",
               "step_url": "https://stepik.org/lesson/770592/step/1",
               "features": {
-                "text_character_count": 3951,
+                "text_character_count": 3596,
                 "image_tag_count": 0,
-                "pre_tag_count": 4,
-                "outcome_marker": false,
-                "practice_marker": false
+                "pre_tag_count": 2,
+                "outcome_marker": true,
+                "practice_marker": true
               },
               "packages": [
                 {
                   "manifest_path": "improvements/86957/functions-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 3214992,
                   "lesson_id": 770592,
                   "target_path": "improvements/86957/functions-2026-11-23/steps/770592/01_3214992_text.step",
@@ -8241,21 +8055,7 @@
                   "target_sha256": "2019a0ce012411e74894844ada93ba3d58c52d94689bb99bc334134c5a41f2c1"
                 }
               ],
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/functions-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/functions-2026-11-23/steps/770592/01_3214992_text.step",
-                  "type": "text",
-                  "features": {
-                    "text_character_count": 3596,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 2,
-                    "outcome_marker": true,
-                    "practice_marker": true
-                  },
-                  "sha256": "2019a0ce012411e74894844ada93ba3d58c52d94689bb99bc334134c5a41f2c1"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             },
             {
@@ -8907,8 +8707,8 @@
                   "step_id": 3251322,
                   "lesson_id": 778426,
                   "target_path": "modernization/86957/steps/778426/01_3251322_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "442842629f31b8f37e0bd005f476c6b6f0d16afbc51a020ca60db8fc59e9e911"
                 }
               ],
               "prepared_revisions": [],
@@ -8993,8 +8793,8 @@
                   "step_id": 3253429,
                   "lesson_id": 778426,
                   "target_path": "modernization/86957/steps/778426/04_3253429_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "266ca189bfbc58437f5680d08351b1326816f5915c5a30517110b42442a84cd9"
                 }
               ],
               "prepared_revisions": [],
@@ -9022,8 +8822,8 @@
                   "step_id": 3253503,
                   "lesson_id": 778426,
                   "target_path": "modernization/86957/steps/778426/05_3253503_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "6bedeee3338a351e0af430440d774216c304f8445494de9d5f6a92dec31f0fd0"
                 }
               ],
               "prepared_revisions": [],
@@ -9051,8 +8851,8 @@
                   "step_id": 3253548,
                   "lesson_id": 778426,
                   "target_path": "modernization/86957/steps/778426/06_3253548_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "153b182d22abc1399e11917b2574c97d828fa9e9130d32f80818b87bf5d88eaa"
                 }
               ],
               "prepared_revisions": [],
@@ -9080,8 +8880,8 @@
                   "step_id": 3253553,
                   "lesson_id": 778426,
                   "target_path": "modernization/86957/steps/778426/07_3253553_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "582ee96852c3bcdc73f821dff7f51eb845db922a7c1366e8a6d3703c1787d021"
                 }
               ],
               "prepared_revisions": [],
@@ -9134,8 +8934,8 @@
                   "step_id": 3253557,
                   "lesson_id": 778426,
                   "target_path": "modernization/86957/steps/778426/09_3253557_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "2e50ec78a81bac16ccf84965be923586eac020fbc78bd8ae259ae06ee37578b4"
                 }
               ],
               "prepared_revisions": [],
@@ -9424,8 +9224,8 @@
                   "step_id": 3212948,
                   "lesson_id": 770589,
                   "target_path": "modernization/86957/steps/770589/01_3212948_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "1c29e0a25fdcafcb343153aba6e85e16d5313b9830869e3c876b19a7bbc99edf"
                 }
               ],
               "prepared_revisions": [],
@@ -9471,8 +9271,8 @@
                   "step_id": 3214903,
                   "lesson_id": 770589,
                   "target_path": "modernization/86957/steps/770589/03_3214903_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "6dc92495568123b5d504b5a7d9042b9808a8e4799033d1dd5082ce4969fcffdf"
                 }
               ],
               "prepared_revisions": [],
@@ -9518,8 +9318,8 @@
                   "step_id": 3214904,
                   "lesson_id": 770589,
                   "target_path": "modernization/86957/steps/770589/05_3214904_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "86027969657691eaac45d557f4b866b789470be4aeb066cf74761f4ca09f5200"
                 }
               ],
               "prepared_revisions": [],
@@ -9830,8 +9630,8 @@
                   "step_id": 4949336,
                   "lesson_id": 770589,
                   "target_path": "corrections/86957/steps/770589/15_4949336_code.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "8032bd3e1a095d0858f8cf17fbdb21c6acdeed620a47a87ca5e175a2b34e7aaf"
                 }
               ],
               "code_structure": {
@@ -9889,28 +9689,34 @@
           },
           "automatically_assessed_step_count": 7,
           "has_code_task": true,
-          "steps_with_outcome_marker": [],
-          "text_steps_with_practice_marker": [],
+          "steps_with_outcome_marker": [
+            3212953
+          ],
+          "text_steps_with_practice_marker": [
+            3213247,
+            3213256,
+            3213255
+          ],
           "steps": [
             {
               "step_id": 3212953,
               "position": 1,
               "type": "text",
               "path": "courses/86957/steps/770594/01_3212953_text.step",
-              "sha256": "578ba010a546436fce532ea2330de7e6f6d29227cc9e4289808cfba26b28b840",
+              "sha256": "7fc86fa411574182217140f077fb0fff6d2cf07adb01d92b2d722e49c9d1fa0b",
               "step_url": "https://stepik.org/lesson/770594/step/1",
               "features": {
-                "text_character_count": 1522,
+                "text_character_count": 2294,
                 "image_tag_count": 0,
                 "pre_tag_count": 0,
-                "outcome_marker": false,
+                "outcome_marker": true,
                 "practice_marker": false
               },
               "packages": [
                 {
                   "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 3212953,
                   "lesson_id": 770594,
                   "target_path": "improvements/86957/quality-2026-11-23/steps/770594/01_3212953_text.step",
@@ -9918,21 +9724,7 @@
                   "target_sha256": "8d5bd2bc571b703575161e5c4ba8fb41cfa581518e8c104916060c12bea64ae5"
                 }
               ],
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/quality-2026-11-23/steps/770594/01_3212953_text.step",
-                  "type": "text",
-                  "features": {
-                    "text_character_count": 2294,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 0,
-                    "outcome_marker": true,
-                    "practice_marker": false
-                  },
-                  "sha256": "8d5bd2bc571b703575161e5c4ba8fb41cfa581518e8c104916060c12bea64ae5"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             },
             {
@@ -10012,20 +9804,20 @@
               "position": 6,
               "type": "text",
               "path": "courses/86957/steps/770594/06_3213247_text.step",
-              "sha256": "13cc478d35485980ae69db24ae17bb7aa393ee74d8c1849f6572266b3d8ea3cf",
+              "sha256": "747aa4ad550e69cd589ab569da954489abf408641c3389c3788d957dd53b1bc1",
               "step_url": "https://stepik.org/lesson/770594/step/6",
               "features": {
-                "text_character_count": 2993,
+                "text_character_count": 1810,
                 "image_tag_count": 0,
                 "pre_tag_count": 1,
                 "outcome_marker": false,
-                "practice_marker": false
+                "practice_marker": true
               },
               "packages": [
                 {
                   "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 3213247,
                   "lesson_id": 770594,
                   "target_path": "improvements/86957/quality-2026-11-23/steps/770594/06_3213247_text.step",
@@ -10033,21 +9825,7 @@
                   "target_sha256": "3a89d7298cfaf1339228824f5d989802ca32f8bcc314d6d747e5718153ae10a6"
                 }
               ],
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/quality-2026-11-23/steps/770594/06_3213247_text.step",
-                  "type": "text",
-                  "features": {
-                    "text_character_count": 1810,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 1,
-                    "outcome_marker": false,
-                    "practice_marker": true
-                  },
-                  "sha256": "3a89d7298cfaf1339228824f5d989802ca32f8bcc314d6d747e5718153ae10a6"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             },
             {
@@ -10073,20 +9851,20 @@
               "position": 8,
               "type": "text",
               "path": "courses/86957/steps/770594/08_3213256_text.step",
-              "sha256": "3b1d461bb35c67d22d610e7cc9b5895486453f0daf3cef42c0228abde55125b7",
+              "sha256": "72be0fe27803831ecd3aeb2743563a58f8166598fa20b37fd5fdf5d4f7f0ec55",
               "step_url": "https://stepik.org/lesson/770594/step/8",
               "features": {
-                "text_character_count": 1684,
+                "text_character_count": 2316,
                 "image_tag_count": 0,
-                "pre_tag_count": 0,
+                "pre_tag_count": 1,
                 "outcome_marker": false,
-                "practice_marker": false
+                "practice_marker": true
               },
               "packages": [
                 {
                   "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 3213256,
                   "lesson_id": 770594,
                   "target_path": "improvements/86957/quality-2026-11-23/steps/770594/08_3213256_text.step",
@@ -10094,21 +9872,7 @@
                   "target_sha256": "f09b9a5150645d6cbe6b76f3c43af18d85e6242d2c07b63ef8d6af1494c26a6f"
                 }
               ],
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/quality-2026-11-23/steps/770594/08_3213256_text.step",
-                  "type": "text",
-                  "features": {
-                    "text_character_count": 2316,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 1,
-                    "outcome_marker": false,
-                    "practice_marker": true
-                  },
-                  "sha256": "f09b9a5150645d6cbe6b76f3c43af18d85e6242d2c07b63ef8d6af1494c26a6f"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             },
             {
@@ -10116,20 +9880,20 @@
               "position": 9,
               "type": "text",
               "path": "courses/86957/steps/770594/09_3213255_text.step",
-              "sha256": "4267c41f092a92b51a755ff0941d404a324a0a140409de2dea283a7939709ae7",
+              "sha256": "53511ad1974d6dfd786ec5acbd57ec270307c2f0cb1d1db3152bb431c9d91d75",
               "step_url": "https://stepik.org/lesson/770594/step/9",
               "features": {
-                "text_character_count": 799,
+                "text_character_count": 2345,
                 "image_tag_count": 0,
                 "pre_tag_count": 0,
                 "outcome_marker": false,
-                "practice_marker": false
+                "practice_marker": true
               },
               "packages": [
                 {
                   "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 3213255,
                   "lesson_id": 770594,
                   "target_path": "improvements/86957/quality-2026-11-23/steps/770594/09_3213255_text.step",
@@ -10137,21 +9901,7 @@
                   "target_sha256": "26bc06526dde8f71c5b1442e0a55b85900d24d79075ced5cbd3ad600b3768162"
                 }
               ],
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/quality-2026-11-23/steps/770594/09_3213255_text.step",
-                  "type": "text",
-                  "features": {
-                    "text_character_count": 2345,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 0,
-                    "outcome_marker": false,
-                    "practice_marker": true
-                  },
-                  "sha256": "26bc06526dde8f71c5b1442e0a55b85900d24d79075ced5cbd3ad600b3768162"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             },
             {
@@ -10389,8 +10139,14 @@
           },
           "automatically_assessed_step_count": 3,
           "has_code_task": true,
-          "steps_with_outcome_marker": [],
+          "steps_with_outcome_marker": [
+            3212954
+          ],
           "text_steps_with_practice_marker": [
+            3215136,
+            3215176,
+            3215175,
+            3215178,
             3215179
           ],
           "steps": [
@@ -10399,20 +10155,20 @@
               "position": 1,
               "type": "text",
               "path": "courses/86957/steps/770595/01_3212954_text.step",
-              "sha256": "fc7d5bb14ee928ea8aaaf244996296d6e0a5d1b96a31650d32fd3b4d05a91f55",
+              "sha256": "aa6f8bd37bf40146d217fab256773a54ea0414ee669ceef4ebf850647c91dd57",
               "step_url": "https://stepik.org/lesson/770595/step/1",
               "features": {
-                "text_character_count": 668,
+                "text_character_count": 3242,
                 "image_tag_count": 0,
-                "pre_tag_count": 0,
-                "outcome_marker": false,
+                "pre_tag_count": 1,
+                "outcome_marker": true,
                 "practice_marker": false
               },
               "packages": [
                 {
                   "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 3212954,
                   "lesson_id": 770595,
                   "target_path": "improvements/86957/quality-2026-11-23/steps/770595/01_3212954_text.step",
@@ -10420,21 +10176,7 @@
                   "target_sha256": "978d4298b07b10e2def4678ad80bb57b6a04e0c1ac35eac8b9fc9393705ff733"
                 }
               ],
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/quality-2026-11-23/steps/770595/01_3212954_text.step",
-                  "type": "text",
-                  "features": {
-                    "text_character_count": 3242,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 1,
-                    "outcome_marker": true,
-                    "practice_marker": false
-                  },
-                  "sha256": "978d4298b07b10e2def4678ad80bb57b6a04e0c1ac35eac8b9fc9393705ff733"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             },
             {
@@ -10442,20 +10184,20 @@
               "position": 2,
               "type": "text",
               "path": "courses/86957/steps/770595/02_3215136_text.step",
-              "sha256": "13054af1d50c2c827647c1744c32a018905dfd256361dcfa54f7d91e7e1e501f",
+              "sha256": "6a9b2c2b5de4c0e044bfd15c1b5035c5decd6c1d91280416a48d2a993af65cfd",
               "step_url": "https://stepik.org/lesson/770595/step/2",
               "features": {
-                "text_character_count": 648,
-                "image_tag_count": 1,
-                "pre_tag_count": 0,
+                "text_character_count": 2394,
+                "image_tag_count": 0,
+                "pre_tag_count": 1,
                 "outcome_marker": false,
-                "practice_marker": false
+                "practice_marker": true
               },
               "packages": [
                 {
                   "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 3215136,
                   "lesson_id": 770595,
                   "target_path": "improvements/86957/quality-2026-11-23/steps/770595/02_3215136_text.step",
@@ -10463,21 +10205,7 @@
                   "target_sha256": "358a49787ff731405ce8bf34a8b5fd404bd65ac893d8fd018a1800145b1077bf"
                 }
               ],
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/quality-2026-11-23/steps/770595/02_3215136_text.step",
-                  "type": "text",
-                  "features": {
-                    "text_character_count": 2394,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 1,
-                    "outcome_marker": false,
-                    "practice_marker": true
-                  },
-                  "sha256": "358a49787ff731405ce8bf34a8b5fd404bd65ac893d8fd018a1800145b1077bf"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             },
             {
@@ -10503,20 +10231,20 @@
               "position": 4,
               "type": "text",
               "path": "courses/86957/steps/770595/04_3215176_text.step",
-              "sha256": "77ed2c0ffab834cd02b5f1c00fdc99f2ed38e69a3373e4346ce07e4a4646eeed",
+              "sha256": "6c60d302b2a80bd6e60d4e4c83d908779cc26b13ce6b415c23768b13e8218b00",
               "step_url": "https://stepik.org/lesson/770595/step/4",
               "features": {
-                "text_character_count": 271,
-                "image_tag_count": 1,
-                "pre_tag_count": 0,
+                "text_character_count": 2311,
+                "image_tag_count": 0,
+                "pre_tag_count": 1,
                 "outcome_marker": false,
-                "practice_marker": false
+                "practice_marker": true
               },
               "packages": [
                 {
                   "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 3215176,
                   "lesson_id": 770595,
                   "target_path": "improvements/86957/quality-2026-11-23/steps/770595/04_3215176_text.step",
@@ -10524,21 +10252,7 @@
                   "target_sha256": "1d6657dace67dafa30898d87b87ba4ea456413a2c96ecac2b893c477a4811c12"
                 }
               ],
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/quality-2026-11-23/steps/770595/04_3215176_text.step",
-                  "type": "text",
-                  "features": {
-                    "text_character_count": 2311,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 1,
-                    "outcome_marker": false,
-                    "practice_marker": true
-                  },
-                  "sha256": "1d6657dace67dafa30898d87b87ba4ea456413a2c96ecac2b893c477a4811c12"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             },
             {
@@ -10546,20 +10260,20 @@
               "position": 5,
               "type": "text",
               "path": "courses/86957/steps/770595/05_3215175_text.step",
-              "sha256": "83fcaa8498aaa858cbb484b5e1af74e4dba316bbc5dfee51463a04edfbbfa926",
+              "sha256": "0d75b5fd5e9d9a01dbc8ba4e463377fab005df4fd3e2d1cf92c9ab06bc41f8d2",
               "step_url": "https://stepik.org/lesson/770595/step/5",
               "features": {
-                "text_character_count": 700,
-                "image_tag_count": 1,
+                "text_character_count": 2379,
+                "image_tag_count": 0,
                 "pre_tag_count": 0,
                 "outcome_marker": false,
-                "practice_marker": false
+                "practice_marker": true
               },
               "packages": [
                 {
                   "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 3215175,
                   "lesson_id": 770595,
                   "target_path": "improvements/86957/quality-2026-11-23/steps/770595/05_3215175_text.step",
@@ -10567,21 +10281,7 @@
                   "target_sha256": "684e91d3ff49dd45e6db5490245cccdcb0df23c9d24c609c5e7e6374fb825350"
                 }
               ],
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/quality-2026-11-23/steps/770595/05_3215175_text.step",
-                  "type": "text",
-                  "features": {
-                    "text_character_count": 2379,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 0,
-                    "outcome_marker": false,
-                    "practice_marker": true
-                  },
-                  "sha256": "684e91d3ff49dd45e6db5490245cccdcb0df23c9d24c609c5e7e6374fb825350"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             },
             {
@@ -10589,20 +10289,20 @@
               "position": 6,
               "type": "text",
               "path": "courses/86957/steps/770595/06_3215178_text.step",
-              "sha256": "c502a3e1e29da8e77963329307e8840f7975dafebb93ae11483c9811e3f6af7e",
+              "sha256": "4465eff1b0180f50bbd7f991b8ff057a12e5f273be617d066640c61281c95747",
               "step_url": "https://stepik.org/lesson/770595/step/6",
               "features": {
-                "text_character_count": 1112,
-                "image_tag_count": 1,
-                "pre_tag_count": 0,
+                "text_character_count": 3402,
+                "image_tag_count": 0,
+                "pre_tag_count": 1,
                 "outcome_marker": false,
-                "practice_marker": false
+                "practice_marker": true
               },
               "packages": [
                 {
                   "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 3215178,
                   "lesson_id": 770595,
                   "target_path": "improvements/86957/quality-2026-11-23/steps/770595/06_3215178_text.step",
@@ -10610,21 +10310,7 @@
                   "target_sha256": "96866ca65718e31d5211887a3025b05b723c4845813b216cb8adf46d6c10d7a2"
                 }
               ],
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/quality-2026-11-23/steps/770595/06_3215178_text.step",
-                  "type": "text",
-                  "features": {
-                    "text_character_count": 3402,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 1,
-                    "outcome_marker": false,
-                    "practice_marker": true
-                  },
-                  "sha256": "96866ca65718e31d5211887a3025b05b723c4845813b216cb8adf46d6c10d7a2"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             },
             {
@@ -10650,10 +10336,10 @@
               "position": 8,
               "type": "text",
               "path": "courses/86957/steps/770595/08_3215179_text.step",
-              "sha256": "9e0049fff4522fff69a8ff8890de05a655aaf4eb0e2f79925eac9be8beaf908a",
+              "sha256": "793baa3dfd5883b85ddb548c339aa2b5ae9d60a5288784bcd3d4f89fe9b50f43",
               "step_url": "https://stepik.org/lesson/770595/step/8",
               "features": {
-                "text_character_count": 2331,
+                "text_character_count": 3354,
                 "image_tag_count": 0,
                 "pre_tag_count": 1,
                 "outcome_marker": false,
@@ -10662,8 +10348,8 @@
               "packages": [
                 {
                   "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 3215179,
                   "lesson_id": 770595,
                   "target_path": "improvements/86957/quality-2026-11-23/steps/770595/08_3215179_text.step",
@@ -10671,21 +10357,7 @@
                   "target_sha256": "3524a7ef5c7999a900eeff2976fcb3db125678d566d6f4ca8756fc679de03dac"
                 }
               ],
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/quality-2026-11-23/steps/770595/08_3215179_text.step",
-                  "type": "text",
-                  "features": {
-                    "text_character_count": 3354,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 1,
-                    "outcome_marker": false,
-                    "practice_marker": true
-                  },
-                  "sha256": "3524a7ef5c7999a900eeff2976fcb3db125678d566d6f4ca8756fc679de03dac"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             },
             {
@@ -10693,20 +10365,20 @@
               "position": 9,
               "type": "choice",
               "path": "courses/86957/steps/770595/09_3408767_choice.step",
-              "sha256": "e4541255eb8aec04b747ea89fd6e66ead51f94c9d9c776ad8ccc6257afd0ba60",
+              "sha256": "9781739c016da8b736da7f7f62491f9a438f1731bf995890b7d7be67efae797f",
               "step_url": "https://stepik.org/lesson/770595/step/9",
               "features": {
-                "text_character_count": 694,
+                "text_character_count": 390,
                 "image_tag_count": 0,
                 "pre_tag_count": 0,
                 "outcome_marker": false,
-                "practice_marker": true
+                "practice_marker": false
               },
               "packages": [
                 {
                   "manifest_path": "improvements/86957/practice-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 3408767,
                   "lesson_id": 770595,
                   "target_path": "improvements/86957/practice-2026-11-23/steps/770595/09_3408767_choice.step",
@@ -10718,24 +10390,10 @@
                 "option_count": 10,
                 "correct_option_count": 5,
                 "options_with_feedback": 10,
-                "has_general_feedback": false,
+                "has_general_feedback": true,
                 "all_options_correct": false
               },
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/practice-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/practice-2026-11-23/steps/770595/09_3408767_choice.step",
-                  "type": "choice",
-                  "features": {
-                    "text_character_count": 390,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 0,
-                    "outcome_marker": false,
-                    "practice_marker": false
-                  },
-                  "sha256": "53c6568a6a7b1ab1820930cb630547d3b97bc4a6c39777309a0429c42e88b039"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             },
             {
@@ -10768,20 +10426,20 @@
               "position": 11,
               "type": "code",
               "path": "courses/86957/steps/770595/11_4734985_code.step",
-              "sha256": "d894624a6f694b08b7607d4bd198b1b85400f2bfff8afd543630155293696fb1",
+              "sha256": "52ae6a448ee88267a9c2c7a26ed1319a291d3b545c0a2e3d058eed5e17b6e252",
               "step_url": "https://stepik.org/lesson/770595/step/11",
               "features": {
-                "text_character_count": 659,
+                "text_character_count": 1981,
                 "image_tag_count": 0,
-                "pre_tag_count": 0,
+                "pre_tag_count": 1,
                 "outcome_marker": false,
                 "practice_marker": false
               },
               "packages": [
                 {
                   "manifest_path": "improvements/86957/practice-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 4734985,
                   "lesson_id": 770595,
                   "target_path": "improvements/86957/practice-2026-11-23/steps/770595/11_4734985_code.step",
@@ -10807,24 +10465,10 @@
                 "template_language_tags": [
                   "c++"
                 ],
-                "embedded_test_case_count": 4,
+                "embedded_test_case_count": 0,
                 "has_checker_or_generator_source": true
               },
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/practice-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/practice-2026-11-23/steps/770595/11_4734985_code.step",
-                  "type": "code",
-                  "features": {
-                    "text_character_count": 1981,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 1,
-                    "outcome_marker": false,
-                    "practice_marker": false
-                  },
-                  "sha256": "d19a602bc116c9e622314820d937339bacbec433f0ed6e08d78565c1671310fa"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             }
           ]
@@ -10844,6 +10488,8 @@
           "has_code_task": true,
           "steps_with_outcome_marker": [],
           "text_steps_with_practice_marker": [
+            3215183,
+            3215192,
             3215191
           ],
           "steps": [
@@ -10852,10 +10498,10 @@
               "position": 1,
               "type": "text",
               "path": "courses/86957/steps/771129/01_3215109_text.step",
-              "sha256": "7a76ce8fe8a71ce330a5c4d37e6e707a4973df597279e7e25b72efc0e7c0e5e1",
+              "sha256": "fa0ebaa5b6efb928241090cce724897aead788f0d5d5e18129ce1d3521e9a3b1",
               "step_url": "https://stepik.org/lesson/771129/step/1",
               "features": {
-                "text_character_count": 1235,
+                "text_character_count": 2651,
                 "image_tag_count": 0,
                 "pre_tag_count": 0,
                 "outcome_marker": false,
@@ -10864,8 +10510,8 @@
               "packages": [
                 {
                   "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 3215109,
                   "lesson_id": 771129,
                   "target_path": "improvements/86957/quality-2026-11-23/steps/771129/01_3215109_text.step",
@@ -10873,21 +10519,7 @@
                   "target_sha256": "e44bc6f777a87d86cf4dc97e618375979f956cd00dfbb382cf8bebf056713e59"
                 }
               ],
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/quality-2026-11-23/steps/771129/01_3215109_text.step",
-                  "type": "text",
-                  "features": {
-                    "text_character_count": 2651,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 0,
-                    "outcome_marker": false,
-                    "practice_marker": false
-                  },
-                  "sha256": "e44bc6f777a87d86cf4dc97e618375979f956cd00dfbb382cf8bebf056713e59"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             },
             {
@@ -10895,20 +10527,20 @@
               "position": 2,
               "type": "text",
               "path": "courses/86957/steps/771129/02_3215183_text.step",
-              "sha256": "7850409176a428aba417b876b747f976eb000b0067da73d969022ee502781e7a",
+              "sha256": "b5288427f72084da9125da7ead46593066dcffb8cf8563deac3f5a88ad4aa1dd",
               "step_url": "https://stepik.org/lesson/771129/step/2",
               "features": {
-                "text_character_count": 863,
+                "text_character_count": 2405,
                 "image_tag_count": 0,
                 "pre_tag_count": 1,
                 "outcome_marker": false,
-                "practice_marker": false
+                "practice_marker": true
               },
               "packages": [
                 {
                   "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 3215183,
                   "lesson_id": 771129,
                   "target_path": "improvements/86957/quality-2026-11-23/steps/771129/02_3215183_text.step",
@@ -10916,21 +10548,7 @@
                   "target_sha256": "32db2bccb767e6bfd069458702d65fe571c14364175ee0e91cceb909db74aa74"
                 }
               ],
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/quality-2026-11-23/steps/771129/02_3215183_text.step",
-                  "type": "text",
-                  "features": {
-                    "text_character_count": 2405,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 1,
-                    "outcome_marker": false,
-                    "practice_marker": true
-                  },
-                  "sha256": "32db2bccb767e6bfd069458702d65fe571c14364175ee0e91cceb909db74aa74"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             },
             {
@@ -10938,20 +10556,20 @@
               "position": 3,
               "type": "text",
               "path": "courses/86957/steps/771129/03_3215192_text.step",
-              "sha256": "e6b456c3fb718bc8a3e31f6b2c8562744cb552c91827118e925a3650dfa5c7fc",
+              "sha256": "441b481ca6566c3f39f7cd73174f260bb9bcddc5a8baa0abd1ed34af74c88b5e",
               "step_url": "https://stepik.org/lesson/771129/step/3",
               "features": {
-                "text_character_count": 1573,
+                "text_character_count": 3040,
                 "image_tag_count": 0,
                 "pre_tag_count": 1,
                 "outcome_marker": false,
-                "practice_marker": false
+                "practice_marker": true
               },
               "packages": [
                 {
                   "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 3215192,
                   "lesson_id": 771129,
                   "target_path": "improvements/86957/quality-2026-11-23/steps/771129/03_3215192_text.step",
@@ -10959,21 +10577,7 @@
                   "target_sha256": "f7cd6de0c2ec7d4e20da763c15782724f9e0c834f706ba928ab50a297606a256"
                 }
               ],
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/quality-2026-11-23/steps/771129/03_3215192_text.step",
-                  "type": "text",
-                  "features": {
-                    "text_character_count": 3040,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 1,
-                    "outcome_marker": false,
-                    "practice_marker": true
-                  },
-                  "sha256": "f7cd6de0c2ec7d4e20da763c15782724f9e0c834f706ba928ab50a297606a256"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             },
             {
@@ -10999,10 +10603,10 @@
               "position": 5,
               "type": "choice",
               "path": "courses/86957/steps/771129/05_3408864_choice.step",
-              "sha256": "f7f043aab4c3cdaf28f43b9ef1cf89f6a979b54300f2564c7528cf7ef927f8fe",
+              "sha256": "2fb164074c2fe900ff4775d5e918bf647853472efcc37d818cad419fc3e3fa95",
               "step_url": "https://stepik.org/lesson/771129/step/5",
               "features": {
-                "text_character_count": 323,
+                "text_character_count": 364,
                 "image_tag_count": 0,
                 "pre_tag_count": 0,
                 "outcome_marker": false,
@@ -11011,8 +10615,8 @@
               "packages": [
                 {
                   "manifest_path": "improvements/86957/practice-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 3408864,
                   "lesson_id": 771129,
                   "target_path": "improvements/86957/practice-2026-11-23/steps/771129/05_3408864_choice.step",
@@ -11022,26 +10626,12 @@
               ],
               "choice_structure": {
                 "option_count": 10,
-                "correct_option_count": 10,
+                "correct_option_count": 5,
                 "options_with_feedback": 10,
-                "has_general_feedback": false,
-                "all_options_correct": true
+                "has_general_feedback": true,
+                "all_options_correct": false
               },
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/practice-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/practice-2026-11-23/steps/771129/05_3408864_choice.step",
-                  "type": "choice",
-                  "features": {
-                    "text_character_count": 364,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 0,
-                    "outcome_marker": false,
-                    "practice_marker": false
-                  },
-                  "sha256": "abbcd3f85f5aaaac80670e75eac3f619c0700e79c36df530729ee4134bc1025c"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             },
             {
@@ -11074,10 +10664,10 @@
               "position": 7,
               "type": "code",
               "path": "courses/86957/steps/771129/07_3496826_code.step",
-              "sha256": "24151a48240036ac85efd9262ea398abc4ea2834b62431bd9da9ab49abb7de48",
+              "sha256": "9bcd3d75e407a1574dd3d662e48762ff912d1a51bf94aa504262988ac8d030dd",
               "step_url": "https://stepik.org/lesson/771129/step/7",
               "features": {
-                "text_character_count": 873,
+                "text_character_count": 1725,
                 "image_tag_count": 0,
                 "pre_tag_count": 0,
                 "outcome_marker": false,
@@ -11086,8 +10676,8 @@
               "packages": [
                 {
                   "manifest_path": "improvements/86957/practice-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 3496826,
                   "lesson_id": 771129,
                   "target_path": "improvements/86957/practice-2026-11-23/steps/771129/07_3496826_code.step",
@@ -11113,24 +10703,10 @@
                 "template_language_tags": [
                   "c++"
                 ],
-                "embedded_test_case_count": 11,
+                "embedded_test_case_count": 0,
                 "has_checker_or_generator_source": true
               },
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/practice-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/practice-2026-11-23/steps/771129/07_3496826_code.step",
-                  "type": "code",
-                  "features": {
-                    "text_character_count": 1725,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 0,
-                    "outcome_marker": false,
-                    "practice_marker": false
-                  },
-                  "sha256": "f156844ebd4a0b723b1211b6d5ba4daf78a300ca61c5aded8bdc89e1491b5094"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             }
           ]
@@ -11160,28 +10736,38 @@
           },
           "automatically_assessed_step_count": 2,
           "has_code_task": false,
-          "steps_with_outcome_marker": [],
-          "text_steps_with_practice_marker": [],
+          "steps_with_outcome_marker": [
+            3215113,
+            3215200,
+            3215199,
+            3580923
+          ],
+          "text_steps_with_practice_marker": [
+            3215113,
+            3215200,
+            3215199,
+            3580923
+          ],
           "steps": [
             {
               "step_id": 3215113,
               "position": 1,
               "type": "text",
               "path": "courses/86957/steps/771131/01_3215113_text.step",
-              "sha256": "92b7826e42473ea79d65aab09510debac0643c7180016ce39e9648bbf2ffc79e",
+              "sha256": "66e23e3d5ffb832c86a576a935921d897a0596483f4373f11af6bb65670ef65c",
               "step_url": "https://stepik.org/lesson/771131/step/1",
               "features": {
-                "text_character_count": 733,
+                "text_character_count": 3378,
                 "image_tag_count": 0,
-                "pre_tag_count": 0,
-                "outcome_marker": false,
-                "practice_marker": false
+                "pre_tag_count": 3,
+                "outcome_marker": true,
+                "practice_marker": true
               },
               "packages": [
                 {
                   "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 3215113,
                   "lesson_id": 771131,
                   "target_path": "improvements/86957/quality-2026-11-23/steps/771131/01_3215113_text.step",
@@ -11189,21 +10775,7 @@
                   "target_sha256": "2102d27daf8d4bd964a1dec9b3d918a9fd5785af9548bf357ba7293dd9cf238f"
                 }
               ],
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/quality-2026-11-23/steps/771131/01_3215113_text.step",
-                  "type": "text",
-                  "features": {
-                    "text_character_count": 3378,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 3,
-                    "outcome_marker": true,
-                    "practice_marker": true
-                  },
-                  "sha256": "2102d27daf8d4bd964a1dec9b3d918a9fd5785af9548bf357ba7293dd9cf238f"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             },
             {
@@ -11211,20 +10783,20 @@
               "position": 2,
               "type": "text",
               "path": "courses/86957/steps/771131/02_3215200_text.step",
-              "sha256": "99558dbfe5317e8580c893b261dfa2111b8acf06e92b38cdc27c8fae34e9403e",
+              "sha256": "ea0dc7fbb39ff8b7dc6ac73dc7327b94698284f7d63aeebc479dadef4a2f9327",
               "step_url": "https://stepik.org/lesson/771131/step/2",
               "features": {
-                "text_character_count": 3485,
+                "text_character_count": 3503,
                 "image_tag_count": 0,
-                "pre_tag_count": 4,
-                "outcome_marker": false,
-                "practice_marker": false
+                "pre_tag_count": 1,
+                "outcome_marker": true,
+                "practice_marker": true
               },
               "packages": [
                 {
                   "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 3215200,
                   "lesson_id": 771131,
                   "target_path": "improvements/86957/quality-2026-11-23/steps/771131/02_3215200_text.step",
@@ -11232,21 +10804,7 @@
                   "target_sha256": "38faa83d23a5144cc67f922ad09d244922fc8f3477432f8f8be566a03f19e4fc"
                 }
               ],
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/quality-2026-11-23/steps/771131/02_3215200_text.step",
-                  "type": "text",
-                  "features": {
-                    "text_character_count": 3503,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 1,
-                    "outcome_marker": true,
-                    "practice_marker": true
-                  },
-                  "sha256": "38faa83d23a5144cc67f922ad09d244922fc8f3477432f8f8be566a03f19e4fc"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             },
             {
@@ -11254,20 +10812,20 @@
               "position": 3,
               "type": "text",
               "path": "courses/86957/steps/771131/03_3215199_text.step",
-              "sha256": "8e1838935e071afbe313ce10a3ff50702726113a44c35423553f27a8b3a89929",
+              "sha256": "a4e600adbba10466b15b70ea9744b0fb462ed3e5ffb4034273b345d326a5dd83",
               "step_url": "https://stepik.org/lesson/771131/step/3",
               "features": {
-                "text_character_count": 2038,
+                "text_character_count": 2918,
                 "image_tag_count": 0,
-                "pre_tag_count": 3,
-                "outcome_marker": false,
-                "practice_marker": false
+                "pre_tag_count": 1,
+                "outcome_marker": true,
+                "practice_marker": true
               },
               "packages": [
                 {
                   "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 3215199,
                   "lesson_id": 771131,
                   "target_path": "improvements/86957/quality-2026-11-23/steps/771131/03_3215199_text.step",
@@ -11275,21 +10833,7 @@
                   "target_sha256": "b880b901fe024c5883138e467d21dd82f1f6169a2ad51033502263331c820727"
                 }
               ],
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/quality-2026-11-23/steps/771131/03_3215199_text.step",
-                  "type": "text",
-                  "features": {
-                    "text_character_count": 2918,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 1,
-                    "outcome_marker": true,
-                    "practice_marker": true
-                  },
-                  "sha256": "b880b901fe024c5883138e467d21dd82f1f6169a2ad51033502263331c820727"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             },
             {
@@ -11297,20 +10841,20 @@
               "position": 4,
               "type": "text",
               "path": "courses/86957/steps/771131/04_3580923_text.step",
-              "sha256": "5b8eef1ae70b7d04a4b8ea92bdbbb8b31bebf3a2c41a8084e43f3b93e571d647",
+              "sha256": "39f9c079b20683f33f32fc6fdb0b0932a4d18a289d2628e530a4b68e8d4fbcc7",
               "step_url": "https://stepik.org/lesson/771131/step/4",
               "features": {
-                "text_character_count": 1292,
+                "text_character_count": 3029,
                 "image_tag_count": 0,
-                "pre_tag_count": 1,
-                "outcome_marker": false,
-                "practice_marker": false
+                "pre_tag_count": 2,
+                "outcome_marker": true,
+                "practice_marker": true
               },
               "packages": [
                 {
                   "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 3580923,
                   "lesson_id": 771131,
                   "target_path": "improvements/86957/quality-2026-11-23/steps/771131/04_3580923_text.step",
@@ -11318,21 +10862,7 @@
                   "target_sha256": "7b9bfa244c8269fbf1319d6d3b0262b4878db645be07b7d9ae505c89a658b5bf"
                 }
               ],
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/quality-2026-11-23/steps/771131/04_3580923_text.step",
-                  "type": "text",
-                  "features": {
-                    "text_character_count": 3029,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 2,
-                    "outcome_marker": true,
-                    "practice_marker": true
-                  },
-                  "sha256": "7b9bfa244c8269fbf1319d6d3b0262b4878db645be07b7d9ae505c89a658b5bf"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             },
             {
@@ -11365,10 +10895,10 @@
               "position": 6,
               "type": "choice",
               "path": "courses/86957/steps/771131/06_3437886_choice.step",
-              "sha256": "6d8de4a0d17fc3379872095978c758d21ec16ec228062abfaeafe4ef96297a63",
+              "sha256": "d0ccd8f0cfa79d331419dedc0e86071153d5b6922b9b610c57c5247009b2052e",
               "step_url": "https://stepik.org/lesson/771131/step/6",
               "features": {
-                "text_character_count": 28,
+                "text_character_count": 303,
                 "image_tag_count": 0,
                 "pre_tag_count": 0,
                 "outcome_marker": false,
@@ -11377,8 +10907,8 @@
               "packages": [
                 {
                   "manifest_path": "improvements/86957/assessment-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 3437886,
                   "lesson_id": 771131,
                   "target_path": "improvements/86957/assessment-2026-11-23/steps/771131/06_3437886_choice.step",
@@ -11389,25 +10919,11 @@
               "choice_structure": {
                 "option_count": 10,
                 "correct_option_count": 5,
-                "options_with_feedback": 0,
-                "has_general_feedback": false,
+                "options_with_feedback": 10,
+                "has_general_feedback": true,
                 "all_options_correct": false
               },
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/assessment-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/assessment-2026-11-23/steps/771131/06_3437886_choice.step",
-                  "type": "choice",
-                  "features": {
-                    "text_character_count": 303,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 0,
-                    "outcome_marker": false,
-                    "practice_marker": false
-                  },
-                  "sha256": "9175ff45b0d0347e2d80b8beed806e2afd9107094056656cf9ff46d8a5160e2c"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             }
           ]
@@ -11424,9 +10940,15 @@
           },
           "automatically_assessed_step_count": 3,
           "has_code_task": false,
-          "steps_with_outcome_marker": [],
+          "steps_with_outcome_marker": [
+            3215112,
+            3215203,
+            3215206
+          ],
           "text_steps_with_practice_marker": [
-            3215203
+            3215112,
+            3215203,
+            3215206
           ],
           "steps": [
             {
@@ -11434,20 +10956,20 @@
               "position": 1,
               "type": "text",
               "path": "courses/86957/steps/771130/01_3215112_text.step",
-              "sha256": "773e180b9c36c1bb0efb302c35a369fca7ad828686d67b45db2ed2d519422dde",
+              "sha256": "d02dd17ebffd87cd7c5b2ce014818918bcba1b76c1de8e176f92b8efe60410a5",
               "step_url": "https://stepik.org/lesson/771130/step/1",
               "features": {
-                "text_character_count": 803,
-                "image_tag_count": 1,
-                "pre_tag_count": 0,
-                "outcome_marker": false,
-                "practice_marker": false
+                "text_character_count": 3381,
+                "image_tag_count": 0,
+                "pre_tag_count": 1,
+                "outcome_marker": true,
+                "practice_marker": true
               },
               "packages": [
                 {
                   "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 3215112,
                   "lesson_id": 771130,
                   "target_path": "improvements/86957/quality-2026-11-23/steps/771130/01_3215112_text.step",
@@ -11455,21 +10977,7 @@
                   "target_sha256": "8a63a3d54c99b8c64ed36950989e3fda92abd4de6e7860cee0dadd82608306d8"
                 }
               ],
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/quality-2026-11-23/steps/771130/01_3215112_text.step",
-                  "type": "text",
-                  "features": {
-                    "text_character_count": 3381,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 1,
-                    "outcome_marker": true,
-                    "practice_marker": true
-                  },
-                  "sha256": "8a63a3d54c99b8c64ed36950989e3fda92abd4de6e7860cee0dadd82608306d8"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             },
             {
@@ -11477,20 +10985,20 @@
               "position": 2,
               "type": "text",
               "path": "courses/86957/steps/771130/02_3215203_text.step",
-              "sha256": "d30c43043bac99f2d2623f029b972fdb175890485ac407543d2b9ff107b58785",
+              "sha256": "8d90023379ca9cb9a416594e0625badd1259fcb0eacb3279383da9877d897323",
               "step_url": "https://stepik.org/lesson/771130/step/2",
               "features": {
-                "text_character_count": 10365,
+                "text_character_count": 3298,
                 "image_tag_count": 0,
-                "pre_tag_count": 4,
-                "outcome_marker": false,
+                "pre_tag_count": 1,
+                "outcome_marker": true,
                 "practice_marker": true
               },
               "packages": [
                 {
                   "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 3215203,
                   "lesson_id": 771130,
                   "target_path": "improvements/86957/quality-2026-11-23/steps/771130/02_3215203_text.step",
@@ -11498,21 +11006,7 @@
                   "target_sha256": "2ddd565bd8fa7dd2ca0fb19821cf73f248cd38f15f99526e4250a189a3513a81"
                 }
               ],
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/quality-2026-11-23/steps/771130/02_3215203_text.step",
-                  "type": "text",
-                  "features": {
-                    "text_character_count": 3298,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 1,
-                    "outcome_marker": true,
-                    "practice_marker": true
-                  },
-                  "sha256": "2ddd565bd8fa7dd2ca0fb19821cf73f248cd38f15f99526e4250a189a3513a81"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             },
             {
@@ -11520,14 +11014,14 @@
               "position": 3,
               "type": "text",
               "path": "courses/86957/steps/771130/03_3215206_text.step",
-              "sha256": "9ff814d3825e451e02783a557181dc74daf1db5fdad34c27a40306541a493d77",
+              "sha256": "0be917e3ac8145ed6c493a64229f94740e664aff72eff4af0cadb48ee87fb2b1",
               "step_url": "https://stepik.org/lesson/771130/step/3",
               "features": {
-                "text_character_count": 2584,
+                "text_character_count": 3755,
                 "image_tag_count": 0,
-                "pre_tag_count": 4,
-                "outcome_marker": false,
-                "practice_marker": false
+                "pre_tag_count": 1,
+                "outcome_marker": true,
+                "practice_marker": true
               },
               "packages": [
                 {
@@ -11537,13 +11031,13 @@
                   "step_id": 3215206,
                   "lesson_id": 771130,
                   "target_path": "corrections/86957/steps/771130/03_3215206_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "ac452dc4cf49e4a84be9fa4baba094bb3eb3fd759d986ba3bd189786f50828b6"
                 },
                 {
                   "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 3215206,
                   "lesson_id": 771130,
                   "target_path": "improvements/86957/quality-2026-11-23/steps/771130/03_3215206_text.step",
@@ -11551,21 +11045,7 @@
                   "target_sha256": "86549916456fc99c39ec66c4d4e787baf20639ab907a1998d2f7d1b460638b1f"
                 }
               ],
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/quality-2026-11-23/steps/771130/03_3215206_text.step",
-                  "type": "text",
-                  "features": {
-                    "text_character_count": 3755,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 1,
-                    "outcome_marker": true,
-                    "practice_marker": true
-                  },
-                  "sha256": "86549916456fc99c39ec66c4d4e787baf20639ab907a1998d2f7d1b460638b1f"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             },
             {
@@ -11573,10 +11053,10 @@
               "position": 4,
               "type": "choice",
               "path": "courses/86957/steps/771130/04_3424087_choice.step",
-              "sha256": "72e7b15122899b13be555f399e0a5fda81c4d2af06aace62ee62ae0025cce8aa",
+              "sha256": "9a9a75f9eff6b92e360138eaf7292be5c2ade73d01504caf4e61b7ee5e3fc796",
               "step_url": "https://stepik.org/lesson/771130/step/4",
               "features": {
-                "text_character_count": 28,
+                "text_character_count": 333,
                 "image_tag_count": 0,
                 "pre_tag_count": 0,
                 "outcome_marker": false,
@@ -11585,8 +11065,8 @@
               "packages": [
                 {
                   "manifest_path": "improvements/86957/assessment-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 3424087,
                   "lesson_id": 771130,
                   "target_path": "improvements/86957/assessment-2026-11-23/steps/771130/04_3424087_choice.step",
@@ -11596,26 +11076,12 @@
               ],
               "choice_structure": {
                 "option_count": 10,
-                "correct_option_count": 6,
+                "correct_option_count": 4,
                 "options_with_feedback": 10,
-                "has_general_feedback": false,
+                "has_general_feedback": true,
                 "all_options_correct": false
               },
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/assessment-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/assessment-2026-11-23/steps/771130/04_3424087_choice.step",
-                  "type": "choice",
-                  "features": {
-                    "text_character_count": 333,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 0,
-                    "outcome_marker": false,
-                    "practice_marker": false
-                  },
-                  "sha256": "d8e88ca695b81bd92af9c2d49a0f31591fa8d5bc7d3a582f0a4537b9301d089c"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             },
             {
@@ -11623,10 +11089,10 @@
               "position": 5,
               "type": "choice",
               "path": "courses/86957/steps/771130/05_3437952_choice.step",
-              "sha256": "c8503f20a20a793ca90688ca09e1175330d0f67c138250e2d1293987e5971871",
+              "sha256": "ee5923b9e57eac4d7551f2ba24e22d7addf75a2a369c841ad68b3d49e995eee3",
               "step_url": "https://stepik.org/lesson/771130/step/5",
               "features": {
-                "text_character_count": 28,
+                "text_character_count": 304,
                 "image_tag_count": 0,
                 "pre_tag_count": 0,
                 "outcome_marker": false,
@@ -11635,8 +11101,8 @@
               "packages": [
                 {
                   "manifest_path": "improvements/86957/assessment-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 3437952,
                   "lesson_id": 771130,
                   "target_path": "improvements/86957/assessment-2026-11-23/steps/771130/05_3437952_choice.step",
@@ -11646,26 +11112,12 @@
               ],
               "choice_structure": {
                 "option_count": 10,
-                "correct_option_count": 6,
-                "options_with_feedback": 0,
-                "has_general_feedback": false,
+                "correct_option_count": 5,
+                "options_with_feedback": 10,
+                "has_general_feedback": true,
                 "all_options_correct": false
               },
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/assessment-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/assessment-2026-11-23/steps/771130/05_3437952_choice.step",
-                  "type": "choice",
-                  "features": {
-                    "text_character_count": 304,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 0,
-                    "outcome_marker": false,
-                    "practice_marker": false
-                  },
-                  "sha256": "101d2d8b179a5df62aa53ac77693930e39109199eda242e4c94ea782dc70311d"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             },
             {
@@ -11785,8 +11237,8 @@
                   "step_id": 3215234,
                   "lesson_id": 770596,
                   "target_path": "corrections/86957/steps/770596/03_3215234_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "dbb298751b198a6a6e9b448f8b843d3a53ff2e971813c0e0bfde4f5fa0089426"
                 }
               ],
               "prepared_revisions": [],
@@ -11850,8 +11302,8 @@
                   "step_id": 3215235,
                   "lesson_id": 770596,
                   "target_path": "corrections/86957/steps/770596/06_3215235_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "18aec793f52eab7e5599ff18fa84d21635ee8b7241bc5e82329dede45b8b3147"
                 }
               ],
               "prepared_revisions": [],
@@ -11879,8 +11331,8 @@
                   "step_id": 3215236,
                   "lesson_id": 770596,
                   "target_path": "corrections/86957/steps/770596/07_3215236_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "03f33f718a39bf3749bd38538ad9026b4cf4ab3ce809c5059bf119c73a67fd4f"
                 }
               ],
               "prepared_revisions": [],
@@ -12011,8 +11463,8 @@
                   "step_id": 3212956,
                   "lesson_id": 770597,
                   "target_path": "corrections/86957/steps/770597/01_3212956_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "15ac209f600191d137b12d89d53cbe5d68c1372d49109aa94e25a9a2ad7fab6d"
                 }
               ],
               "prepared_revisions": [],
@@ -12058,8 +11510,8 @@
                   "step_id": 3215244,
                   "lesson_id": 770597,
                   "target_path": "corrections/86957/steps/770597/03_3215244_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "f7efacaa8d4110683df5fffe6363aa3d6a5875caa5e280553ec788e9d1da9eeb"
                 }
               ],
               "prepared_revisions": [],
@@ -12578,8 +12030,8 @@
                   "step_id": 3669142,
                   "lesson_id": 877083,
                   "target_path": "corrections/86957/steps/877083/03_3669142_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "6423ca08e19011a15827eae2d20df05fbe6858615c7c8c925ad0d42b6becee9c"
                 }
               ],
               "prepared_revisions": [],
@@ -12643,8 +12095,8 @@
                   "step_id": 3669172,
                   "lesson_id": 877083,
                   "target_path": "corrections/86957/steps/877083/06_3669172_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "e5693231e2b364cd5631fcd8785bd4518c0ead1542a5c448ec785b5d65461740"
                 }
               ],
               "prepared_revisions": [],
@@ -12972,8 +12424,8 @@
                   "step_id": 3759850,
                   "lesson_id": 877084,
                   "target_path": "corrections/86957/steps/877084/03_3759850_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "86eee1dd395d745ff2cf2f23f1fde1d280e00119a746a4523b3ebf9baa385f53"
                 }
               ],
               "prepared_revisions": [],
@@ -13019,8 +12471,8 @@
                   "step_id": 3759914,
                   "lesson_id": 877084,
                   "target_path": "corrections/86957/steps/877084/05_3759914_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "af8e376d3c136b197ac0470df14459fef8e9ab31214f2c12a0246e705fbea437"
                 }
               ],
               "prepared_revisions": [],
@@ -13432,8 +12884,8 @@
                   "step_id": 4040986,
                   "lesson_id": 853535,
                   "target_path": "modernization/86957/steps/853535/03_4040986_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "eba3d094e536f54fdf82478acb80a62b90a37114b2c85892a2a7d61b70d05bd1"
                 }
               ],
               "prepared_revisions": [],
@@ -13444,20 +12896,20 @@
               "position": 4,
               "type": "choice",
               "path": "courses/86957/steps/853535/04_4718246_choice.step",
-              "sha256": "1f4c31b0108c191ae8bc2242bc01e0ddbe2e15b0bbe2c5870b8522f02f315c48",
+              "sha256": "85ab0ba272486378696c0c2b131b2283b7575546480f347c488c05356bfbe049",
               "step_url": "https://stepik.org/lesson/853535/step/4",
               "features": {
-                "text_character_count": 60,
+                "text_character_count": 389,
                 "image_tag_count": 0,
-                "pre_tag_count": 0,
+                "pre_tag_count": 1,
                 "outcome_marker": false,
                 "practice_marker": false
               },
               "packages": [
                 {
                   "manifest_path": "improvements/86957/assessment-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 4718246,
                   "lesson_id": 853535,
                   "target_path": "improvements/86957/assessment-2026-11-23/steps/853535/04_4718246_choice.step",
@@ -13468,25 +12920,11 @@
               "choice_structure": {
                 "option_count": 4,
                 "correct_option_count": 1,
-                "options_with_feedback": 0,
-                "has_general_feedback": false,
+                "options_with_feedback": 4,
+                "has_general_feedback": true,
                 "all_options_correct": false
               },
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/assessment-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/assessment-2026-11-23/steps/853535/04_4718246_choice.step",
-                  "type": "choice",
-                  "features": {
-                    "text_character_count": 389,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 1,
-                    "outcome_marker": false,
-                    "practice_marker": false
-                  },
-                  "sha256": "bf4ad69b63dbf39fe315292ede9d06beab36380d4395b553ecf1a4861f5891ce"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             }
           ]
@@ -13550,8 +12988,8 @@
                   "step_id": 3569325,
                   "lesson_id": 853536,
                   "target_path": "modernization/86957/steps/853536/01_3569325_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "da7d9b182178d5974cd64d62eb2e7087139cea369f5af6454ee54a70a10e94df"
                 }
               ],
               "prepared_revisions": [],
@@ -13579,8 +13017,8 @@
                   "step_id": 3569964,
                   "lesson_id": 853536,
                   "target_path": "modernization/86957/steps/853536/02_3569964_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "0fb8ebf1ee1b5e0221bd89b35c7596646e0ec6c778e68da042a666b0c878fdcb"
                 }
               ],
               "prepared_revisions": [],
@@ -13608,8 +13046,8 @@
                   "step_id": 3569963,
                   "lesson_id": 853536,
                   "target_path": "modernization/86957/steps/853536/03_3569963_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "4f575f329f9bd89f88aa13db9db52f0855580067e0c5e7908f88481cfa6a242d"
                 }
               ],
               "prepared_revisions": [],
@@ -13637,8 +13075,8 @@
                   "step_id": 3570166,
                   "lesson_id": 853536,
                   "target_path": "modernization/86957/steps/853536/04_3570166_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "6e0ba32fb87ae15c3429389c0753eb5a65082c53b28b1c5c8a7f7134ba7550f0"
                 }
               ],
               "prepared_revisions": [],
@@ -14273,8 +13711,8 @@
                   "step_id": 3570303,
                   "lesson_id": 853541,
                   "target_path": "corrections/86957/steps/853541/02_3570303_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "6761db73c11d2888bac4ddad9452626453f453197e8064946e575accf549117f"
                 }
               ],
               "prepared_revisions": [],
@@ -14472,8 +13910,8 @@
                   "step_id": 4035481,
                   "lesson_id": 973831,
                   "target_path": "corrections/86957/steps/973831/02_4035481_text.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "d1b4b71d9fbdc5b1c018301885823f131ce43ac03b0edf9e97020abc9c8b1d89"
                 }
               ],
               "prepared_revisions": [],
@@ -14505,28 +13943,32 @@
           },
           "automatically_assessed_step_count": 0,
           "has_code_task": false,
-          "steps_with_outcome_marker": [],
-          "text_steps_with_practice_marker": [],
+          "steps_with_outcome_marker": [
+            4035311
+          ],
+          "text_steps_with_practice_marker": [
+            4035311
+          ],
           "steps": [
             {
               "step_id": 4035311,
               "position": 1,
               "type": "text",
               "path": "courses/86957/steps/973816/01_4035311_text.step",
-              "sha256": "b8accd9fad43dee8ee8ce8ef889548a088cbfa90c2c5f209f419ce4dbd6666dd",
+              "sha256": "677455c2d2aef87c424cc7b9238d0ef1a906e8db6a689f293bf48d275b751a23",
               "step_url": "https://stepik.org/lesson/973816/step/1",
               "features": {
-                "text_character_count": 1625,
-                "image_tag_count": 1,
-                "pre_tag_count": 0,
-                "outcome_marker": false,
-                "practice_marker": false
+                "text_character_count": 3275,
+                "image_tag_count": 0,
+                "pre_tag_count": 3,
+                "outcome_marker": true,
+                "practice_marker": true
               },
               "packages": [
                 {
                   "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 4035311,
                   "lesson_id": 973816,
                   "target_path": "improvements/86957/quality-2026-11-23/steps/973816/01_4035311_text.step",
@@ -14534,21 +13976,7 @@
                   "target_sha256": "a7cefaaafaf9e36b2d7ab916bdca175eca0bf82fa92c81749ffc4730305f5a00"
                 }
               ],
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/quality-2026-11-23/steps/973816/01_4035311_text.step",
-                  "type": "text",
-                  "features": {
-                    "text_character_count": 3275,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 3,
-                    "outcome_marker": true,
-                    "practice_marker": true
-                  },
-                  "sha256": "a7cefaaafaf9e36b2d7ab916bdca175eca0bf82fa92c81749ffc4730305f5a00"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             }
           ]
@@ -14564,8 +13992,12 @@
           },
           "automatically_assessed_step_count": 0,
           "has_code_task": false,
-          "steps_with_outcome_marker": [],
+          "steps_with_outcome_marker": [
+            4035416,
+            4035427
+          ],
           "text_steps_with_practice_marker": [
+            4035416,
             4035427
           ],
           "steps": [
@@ -14574,20 +14006,20 @@
               "position": 1,
               "type": "text",
               "path": "courses/86957/steps/973825/01_4035416_text.step",
-              "sha256": "e3aa34ebb76f68250b0c5eb5ae190c748803638948859d55a80c9a0b1ea3bdd5",
+              "sha256": "e79a6de53c13d3b9e952d6a6cbd1f1473420a836f38f5824234a7518e021ba81",
               "step_url": "https://stepik.org/lesson/973825/step/1",
               "features": {
-                "text_character_count": 1644,
+                "text_character_count": 3326,
                 "image_tag_count": 0,
-                "pre_tag_count": 0,
-                "outcome_marker": false,
-                "practice_marker": false
+                "pre_tag_count": 3,
+                "outcome_marker": true,
+                "practice_marker": true
               },
               "packages": [
                 {
                   "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 4035416,
                   "lesson_id": 973825,
                   "target_path": "improvements/86957/quality-2026-11-23/steps/973825/01_4035416_text.step",
@@ -14595,21 +14027,7 @@
                   "target_sha256": "01d2b147e1cbc1fc5ccc3328fb99fe2321bbfa885fd1b0bdf4d2ba8593b99259"
                 }
               ],
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/quality-2026-11-23/steps/973825/01_4035416_text.step",
-                  "type": "text",
-                  "features": {
-                    "text_character_count": 3326,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 3,
-                    "outcome_marker": true,
-                    "practice_marker": true
-                  },
-                  "sha256": "01d2b147e1cbc1fc5ccc3328fb99fe2321bbfa885fd1b0bdf4d2ba8593b99259"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             },
             {
@@ -14617,20 +14035,20 @@
               "position": 2,
               "type": "text",
               "path": "courses/86957/steps/973825/02_4035427_text.step",
-              "sha256": "c5257e961e3af6ead1e9aac9f8c58f27bd87c21c9f3d0dd3319c5ceb74f9e9fe",
+              "sha256": "ca9e87e369379325b315fec213de890397b4eebc1b41eb9f310e741a9609b92a",
               "step_url": "https://stepik.org/lesson/973825/step/2",
               "features": {
-                "text_character_count": 1853,
+                "text_character_count": 3610,
                 "image_tag_count": 0,
-                "pre_tag_count": 0,
-                "outcome_marker": false,
+                "pre_tag_count": 3,
+                "outcome_marker": true,
                 "practice_marker": true
               },
               "packages": [
                 {
                   "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 4035427,
                   "lesson_id": 973825,
                   "target_path": "improvements/86957/quality-2026-11-23/steps/973825/02_4035427_text.step",
@@ -14638,21 +14056,7 @@
                   "target_sha256": "d9b46eb814adf91785e92067ba6e9674b61d72f0cd2a1cdddbc20db59004ee58"
                 }
               ],
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/quality-2026-11-23/steps/973825/02_4035427_text.step",
-                  "type": "text",
-                  "features": {
-                    "text_character_count": 3610,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 3,
-                    "outcome_marker": true,
-                    "practice_marker": true
-                  },
-                  "sha256": "d9b46eb814adf91785e92067ba6e9674b61d72f0cd2a1cdddbc20db59004ee58"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             }
           ]
@@ -14669,28 +14073,34 @@
           },
           "automatically_assessed_step_count": 1,
           "has_code_task": true,
-          "steps_with_outcome_marker": [],
-          "text_steps_with_practice_marker": [],
+          "steps_with_outcome_marker": [
+            4035417,
+            4035430
+          ],
+          "text_steps_with_practice_marker": [
+            4035417,
+            4035430
+          ],
           "steps": [
             {
               "step_id": 4035417,
               "position": 1,
               "type": "text",
               "path": "courses/86957/steps/973826/01_4035417_text.step",
-              "sha256": "9dbe8a0cbda3294fa8c6ecb0077311fe433aca7f9aa366cc02e2d4fa8ca6eb4b",
+              "sha256": "3c6faaef6ba2301d6f9af9e81cdf2c91a1385c0c1e7e01a52b20736f948645e5",
               "step_url": "https://stepik.org/lesson/973826/step/1",
               "features": {
-                "text_character_count": 1448,
+                "text_character_count": 3371,
                 "image_tag_count": 0,
                 "pre_tag_count": 0,
-                "outcome_marker": false,
-                "practice_marker": false
+                "outcome_marker": true,
+                "practice_marker": true
               },
               "packages": [
                 {
                   "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 4035417,
                   "lesson_id": 973826,
                   "target_path": "improvements/86957/quality-2026-11-23/steps/973826/01_4035417_text.step",
@@ -14698,21 +14108,7 @@
                   "target_sha256": "e2e8973b59e1be0de5c06f39a8266da5dcb4935a1bc494c1945f38a146f5075b"
                 }
               ],
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/quality-2026-11-23/steps/973826/01_4035417_text.step",
-                  "type": "text",
-                  "features": {
-                    "text_character_count": 3371,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 0,
-                    "outcome_marker": true,
-                    "practice_marker": true
-                  },
-                  "sha256": "e2e8973b59e1be0de5c06f39a8266da5dcb4935a1bc494c1945f38a146f5075b"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             },
             {
@@ -14720,20 +14116,20 @@
               "position": 2,
               "type": "text",
               "path": "courses/86957/steps/973826/02_4035430_text.step",
-              "sha256": "85b5f606c389dbd7726d7b818d6242ed8c25ee808113bb5e943b1a7583ba070b",
+              "sha256": "7f54d2f620e2fbbe1a08e58e17cd4e1ddc703a60a3e2b600f7a3bbd9cff81044",
               "step_url": "https://stepik.org/lesson/973826/step/2",
               "features": {
-                "text_character_count": 1586,
+                "text_character_count": 4815,
                 "image_tag_count": 0,
-                "pre_tag_count": 0,
-                "outcome_marker": false,
-                "practice_marker": false
+                "pre_tag_count": 3,
+                "outcome_marker": true,
+                "practice_marker": true
               },
               "packages": [
                 {
                   "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "publication_status": "not_published",
-                  "publication_applied": false,
+                  "publication_status": "verified_on_stepik",
+                  "publication_applied": true,
                   "step_id": 4035430,
                   "lesson_id": 973826,
                   "target_path": "improvements/86957/quality-2026-11-23/steps/973826/02_4035430_text.step",
@@ -14741,21 +14137,7 @@
                   "target_sha256": "b6a118e59d500a8206a3dd72970999e45dc4d0eef4b28d543e921f620068e557"
                 }
               ],
-              "prepared_revisions": [
-                {
-                  "manifest_path": "improvements/86957/quality-2026-11-23/manifest.json",
-                  "target_path": "improvements/86957/quality-2026-11-23/steps/973826/02_4035430_text.step",
-                  "type": "text",
-                  "features": {
-                    "text_character_count": 4815,
-                    "image_tag_count": 0,
-                    "pre_tag_count": 3,
-                    "outcome_marker": true,
-                    "practice_marker": true
-                  },
-                  "sha256": "b6a118e59d500a8206a3dd72970999e45dc4d0eef4b28d543e921f620068e557"
-                }
-              ],
+              "prepared_revisions": [],
               "multiple_prepared_revisions": false
             },
             {
@@ -14849,8 +14231,8 @@
                   "step_id": 5850209,
                   "lesson_id": 1409621,
                   "target_path": "corrections/86957/steps/1409621/01_5850209_code.step",
-                  "target_exists": false,
-                  "target_sha256": null
+                  "target_exists": true,
+                  "target_sha256": "071b2ce8e6e6601c8ae44f9ad4a27204ee87942c274b04acbfbfe2adacdffbf0"
                 }
               ],
               "code_structure": {
