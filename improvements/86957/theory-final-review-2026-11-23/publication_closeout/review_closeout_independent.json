@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "reviewer": "publication_docs_audit",
+  "reviewed_at": "2026-11-23T20:26:12.519679+00:00",
+  "course_id": 86957,
+  "publication_commit": "cd85f40b17f4cfd4992e94e5def8d6ff0374b7b7",
+  "accepted_preparation_commit": "5b3946ed7864ff22231bdbd16a4485ced71e6592",
+  "scope": "Independent review of repository closeout documents, the new published-snapshot checker, its saved report and the separate snapshot review. Local files and pinned Git evidence only; no Stepik read/write or browser access.",
+  "independent_execution": {
+    "command": [
+      "python3",
+      "tools/verify_theory_published.py",
+      "--check"
+    ],
+    "exit_code": 0,
+    "stdout": {
+      "status": "passed",
+      "publication_commit": "cd85f40b17f4cfd4992e94e5def8d6ff0374b7b7",
+      "published_text_steps": 55,
+      "accepted_theory_steps": 283,
+      "source_and_learner_projections": 485,
+      "preparation_gates": 5,
+      "new_compilations": 0,
+      "live_stepik_access": false
+    },
+    "checker_read_in_full": true,
+    "current_repository_checks": 2,
+    "historical_preparation_checks_rerun_unchanged": 5,
+    "historical_source_and_report_files_pinned": 1338,
+    "new_compiler_runs": 0,
+    "new_program_test_runs": 0,
+    "report_rewritten_by_this_reviewer": false
+  },
+  "checks": [
+    {
+      "id": "publication_evidence_attribution",
+      "status": "passed",
+      "finding": "Current documents distinguish the other agent publication and saved API readback from this local GitHub closeout. No fresh live API, visual UI, graded-checker, Windows/MSVC, macOS or C++ compilation check is claimed."
+    },
+    {
+      "id": "current_completion_and_history",
+      "status": "passed",
+      "finding": "Active README, PROGRESS, backlog, scope, module review and the new handoff consistently close T1-T6, T1B, SCOPE, LINKS, VERIFY and PUB with 0 pending steps and 0 remaining hours. Old pending55/blockedPUB/1-3h fields remain in explicitly historical preparation records, not the current handoff."
+    },
+    {
+      "id": "original_scope",
+      "status": "passed",
+      "finding": "The current closeout adds only tools, reports and documentation. Published payloads remain existing text steps in modules1-19. The prepared step edits are restricted to block.text; exported snapshot time/API metadata is reported separately. No new learner practice or video, changes to grading/checker settings or module20 work are introduced."
+    },
+    {
+      "id": "checker_strictness",
+      "status": "passed",
+      "finding": "The new checker pins all1756 tracked snapshot files to the publication commit, accepted content to the preparation commit, and old tools/reports to their original bytes. It runs the five unchanged preparation gates in its own disposable detached worktree and checks the current builder and tree separately. It neither relaxes old assertions nor rewrites their evidence."
+    },
+    {
+      "id": "exact_html_and_metadata_contract",
+      "status": "passed",
+      "finding": "48 of55 published texts match accepted HTML exactly. The other7 permit only15 exact missing-anchor rel additions. All other block fields, all340 accepted pre elements, placement and saved author/learner projections remain verified. The3215109 num_grades[2] counter and55 export/raw timestamps are explicitly separate metadata; no cause for the counter change is inferred."
+    },
+    {
+      "id": "snapshot_review_cross_check",
+      "status": "passed",
+      "finding": "The snapshot review and current handoff have identical verified counts. Independently recomputed all283 effective text SHA and the full effective-text index match the new verifier. All direct input SHA in the verifier, snapshot review and the14-input current handoff match current files. The snapshot review has no unresolved defects."
+    },
+    {
+      "id": "snapshot_index_scope",
+      "status": "passed",
+      "finding": "The independent snapshot review hashes1605 API/step/structural/control files with compact sorted JSON. The checker hashes all1756 tracked snapshot files with sorted default JSON. Both indexes were separately reproduced; their different hashes describe different inputs and serialization, not conflicting publication evidence."
+    },
+    {
+      "id": "quality_and_runtime_claims",
+      "status": "passed",
+      "finding": "Quality8.5-9/10, central8.83, is retained from the accepted editorial review. The14 suites,356 compile actions and1890 recorded executions remain historical preparation results. Publication alone creates no new quality increase or compiler evidence."
+    }
+  ],
+  "verified_counts": {
+    "all_course_steps": 485,
+    "published_text_steps": 55,
+    "published_lessons": 32,
+    "published_modules": 15,
+    "published_texts_exact": 48,
+    "published_texts_only_declared_rel_normalization": 7,
+    "added_anchor_rel_attributes": 15,
+    "effective_theory_texts": 283,
+    "effective_texts_exact": 276,
+    "effective_texts_only_rel_normalization": 7,
+    "other_step_files_byte_identical_to_parent": 430,
+    "author_raw_equals_bundle": 485,
+    "learner_raw_equals_bundle": 485,
+    "export_block_equals_author_block": 485,
+    "shared_author_learner_projection_equal": 485,
+    "placement_verified": 485,
+    "internal_link_occurrences_in_published_texts": 103,
+    "asset_references_in_unchanged_asset_manifest": 86
+  },
+  "snapshot_indexes": {
+    "independent_review": {
+      "files": 1605,
+      "sha256": "8f7aec9d793afa061c98abc235843e20a44f86b5a3eb3a1d46c03825518aaae4",
+      "scope": "485 export/author/learner triples; raw course, sections, units, lessons; manifest, bundle, final receipt, TREE, assets manifest",
+      "serialization": "json.dumps(index, sort_keys=True, separators=(comma, colon)), UTF-8; default ensure_ascii"
+    },
+    "published_checker": {
+      "files": 1756,
+      "sha256": "5d22f107fad934fc1202a2fa73cf5e76b6e8f406abedfac2dff7005b518e13b5",
+      "scope": "All tracked courses/86957 files at publication_commit",
+      "serialization": "json.dumps(index, sort_keys=True), UTF-8; default ensure_ascii"
+    },
+    "effective_theory": {
+      "texts": 283,
+      "sha256": "c41e862708c910079eabc8a7eb2cff155f2d0a404cb27e938391527e15cd3225"
+    }
+  },
+  "documents_reviewed_without_hash_binding": [
+    "README.md",
+    "EXPORT_STATUS.md",
+    "improvements/86957/README.md",
+    "improvements/86957/theory-review-2026-11-23/README.md",
+    "improvements/86957/theory-review-2026-11-23/PROGRESS.md",
+    "improvements/86957/theory-review-2026-11-23/backlog.json",
+    "improvements/86957/theory-review-2026-11-23/scope.json",
+    "improvements/86957/theory-review-2026-11-23/module_review.json",
+    "improvements/86957/theory-final-review-2026-11-23/README.md",
+    "improvements/86957/theory-final-review-2026-11-23/handoff.json",
+    "improvements/86957/theory-final-review-2026-11-23/quality_assessment.json",
+    "improvements/86957/theory-final-review-2026-11-23/publication_closeout/README.md"
+  ],
+  "input_sha256": {
+    "AGENTS.md": "4bae69fda1b0e37a4fcb14625518c7741cc3839bd7fb14985f5a0e190a21fbe3",
+    "tools/verify_theory_published.py": "029bbfe696bf4b0273028447d8c3a398836fa43a5bdd2ba20b8da223d309388a",
+    "improvements/86957/theory-final-review-2026-11-23/publication_closeout/verification.json": "4414447a3c8b80c47d4fcacbdad8e48dd366610bf2d4e991e4d98a61861f3afa",
+    "improvements/86957/theory-final-review-2026-11-23/publication_closeout/review_snapshot.json": "c9b92ceaa50f2892e730215ea05054b3847b1dcd9c3cd2ec5245e991afe2a821",
+    "improvements/86957/theory-final-review-2026-11-23/publication_closeout/handoff.json": "3d703bfa2746affc616ff42271d86dcb27c25d0bfdfd4ebfea8113191b3d726d",
+    "improvements/86957/theory-final-review-2026-11-23/manifest.json": "a3feeba6c89f8c534110ff8ee0d40da346d12ff3e119e12318027d89ef114cb4",
+    "courses/86957/publication-verification-theory-final-review-2026-11-23.json": "7915fc588b1bd08210c9f73ebb2b3c5eecf24be22439d91b47b2539d43aafada"
+  },
+  "live_stepik_access": false,
+  "stepik_updates_performed": false,
+  "remaining_plan_work": [],
+  "remaining_human_editor_hours": {
+    "min": 0,
+    "max": 0
+  },
+  "unresolved_defects": [],
+  "limitations": [
+    "This is independent repository closeout acceptance, not a new full semantic rereading of all C++ lessons. The accepted editorial and runtime evidence remains historical and pinned.",
+    "The saved publisher receipt and API projections support the recorded publication; this reviewer did not repeat live Stepik API readback or visual learner-interface inspection.",
+    "The publisher receipt is a summary without per-response network hashes. The closeout binds accepted texts and saved snapshot bytes to Git commits.",
+    "No new compiler/program, Windows/MSVC, macOS or graded-checker test run occurred. Python3.10 timestamp compatibility was inspected in code, not executed on a separate Python3.10 runtime.",
+    "No README/PROGRESS file or this report itself is included in input_sha256. The current handoff refers to this review only by path, avoiding circular hash dependencies."
+  ]
+}

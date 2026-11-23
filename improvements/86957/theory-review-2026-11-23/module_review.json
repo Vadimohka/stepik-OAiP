@@ -1003,5 +1003,16 @@
       "cumulative_pending_steps": 0,
       "cumulative_published_steps": 0
     }
-  ]
+  ],
+  "post_publication_closeout": {
+    "status": "verified_from_repository_snapshot",
+    "publication_commit": "cd85f40b17f4cfd4992e94e5def8d6ff0374b7b7",
+    "accepted_preparation_commit": "5b3946ed7864ff22231bdbd16a4485ced71e6592",
+    "verification": "../theory-final-review-2026-11-23/publication_closeout/verification.json",
+    "independent_review": "../theory-final-review-2026-11-23/publication_closeout/review_snapshot.json",
+    "current_handoff": "../theory-final-review-2026-11-23/publication_closeout/handoff.json",
+    "live_stepik_access": false,
+    "compiler_suites_rerun": false,
+    "note": "Публикация и API-readback выполнены ранее другим агентом. Нынешнее закрытие проверяет сохранённые данные GitHub и воспроизводит исторические контрольные команды без ослабления проверок."
+  }
 }

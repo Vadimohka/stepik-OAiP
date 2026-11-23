@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "course_id": 86957,
+  "prepared_commit": "5b3946ed7864ff22231bdbd16a4485ced71e6592",
+  "publication_commit": "cd85f40b17f4cfd4992e94e5def8d6ff0374b7b7",
+  "evidence_mode": "Local comparison with saved publication receipt and pinned Git snapshots; no new live Stepik read.",
+  "snapshot": {
+    "step_count": 485,
+    "source_and_learner_projections_verified": 485,
+    "bindings_unchanged": true,
+    "unrelated_step_files_byte_identical": 430,
+    "published_text_steps": 55,
+    "byte_identical_accepted_html": 48,
+    "exact_rel_normalizations": [
+      {
+        "step_id": 3215253,
+        "added_rel_attributes": 1,
+        "accepted_text_sha256": "86165b684a30db85963fe53f731cd036c3b41c747e5156c42f943773a11da8b1",
+        "snapshot_text_sha256": "fc18c073bc34d9f0688dfb2ea86b50c4e73edcbb955360bba562613aac4dd93d"
+      },
+      {
+        "step_id": 3201141,
+        "added_rel_attributes": 2,
+        "accepted_text_sha256": "4def618a2949bdd685ebf43cfe09ae5853f4b2b4a79f5a253db4e3ce694c14a1",
+        "snapshot_text_sha256": "b54e07d87725bca6b3656fa9d93ad059b1dd861380f054b8ab509965c3154667"
+      },
+      {
+        "step_id": 3201168,
+        "added_rel_attributes": 2,
+        "accepted_text_sha256": "ac803aaf761d08295f77e13de5ded2489621881aa4f317a589661167323047d9",
+        "snapshot_text_sha256": "0293810b1d072cbaf8667e6f923f6385c9c0605c3b3845afbf4bab83c2423f93"
+      },
+      {
+        "step_id": 3237989,
+        "added_rel_attributes": 2,
+        "accepted_text_sha256": "b6af599a33fb0ac1ef3b8d8f19d94414a37d1a2e4b15eb8c5cbe744844206cd0",
+        "snapshot_text_sha256": "095e248cc5f0f3f7ff8e66e31ada3afe3db560e5ad5929b213533cfe70fd9d72"
+      },
+      {
+        "step_id": 3238004,
+        "added_rel_attributes": 1,
+        "accepted_text_sha256": "35f97dce5e448c5e470a3ac8fdc5ec08c5d414ee1629e512913cf9a980e8dedd",
+        "snapshot_text_sha256": "203f3161f5418dcc661fc1796e1cdc33eda2279733bfeda0402c05140ea24299"
+      },
+      {
+        "step_id": 3231226,
+        "added_rel_attributes": 4,
+        "accepted_text_sha256": "0ff5b1d29a7667bdaf2399ff6e1a15fdb692735b0cc57c6660f2604270bd7e4f",
+        "snapshot_text_sha256": "2ef44d2274025cd9424c14c784eac189132ffcd2f2e986a82d1035371092007d"
+      },
+      {
+        "step_id": 3177298,
+        "added_rel_attributes": 3,
+        "accepted_text_sha256": "c84792025d5d59850a94993b676f0d558e6cc1f78ccee95c53f5c823e8c40ea6",
+        "snapshot_text_sha256": "c3694a908c39e0ba08abd1a523436f2ae319fbaa84ebd63da7e043e4c178e29c"
+      }
+    ],
+    "accepted_theory_steps": 283,
+    "unchanged_theory_pre_blocks": 340,
+    "internal_link_occurrences": 323,
+    "package_internal_link_occurrences": 103,
+    "all_snapshot_files_match_publication_commit": true,
+    "snapshot_files_checked": 1756
+  },
+  "metadata_changes": {
+    "exported_step_time_fields": 55,
+    "export_times": [
+      "2026-11-23T19:29:21Z"
+    ],
+    "raw_source_update_dates": 55,
+    "raw_learner_update_dates": 55,
+    "course_update_date": 1,
+    "sections.update_date": 10,
+    "units.update_date": 27,
+    "lessons.update_date": 31,
+    "external_api_counter_changes": [
+      {
+        "step_id": 3215109,
+        "field": "num_grades[2]",
+        "before": 0,
+        "after": 1
+      }
+    ],
+    "note": "Export time and API update/statistical metadata are separate from lesson content and grading/checker settings."
+  },
+  "historical_preparation": {
+    "checks_rerun_unchanged_at_commit": "5b3946ed7864ff22231bdbd16a4485ced71e6592",
+    "checks": [
+      {
+        "command": [
+          "python3",
+          "tools/build_theory_upgrade.py",
+          "--check"
+        ],
+        "exit_code": 0,
+        "stdout": "{\"package\": \"theory-2026-11-23\", \"status\": \"checked\", \"steps\": 88, \"lessons\": 23, \"parts\": [\"t1\", \"t3\", \"t6\"], \"written\": 0}\n{\"package\": \"theory-continuation-2026-11-23\", \"status\": \"checked\", \"steps\": 191, \"lessons\": 47, \"parts\": [\"t1\", \"t1b\", \"t2\", \"t4\", \"t5\", \"t5b\", \"t6\"], \"written\": 0}\n{\"package\": \"theory-links-2026-11-23\", \"status\": \"checked\", \"steps\": 50, \"lessons\": 31, \"parts\": [\"algorithms\", \"foundations\", \"ownership\", \"types\"], \"written\": 0}\n{\"package\": \"theory-final-review-2026-11-23\", \"status\": \"checked\", \"steps\": 55, \"lessons\": 32, \"parts\": [\"advanced\", \"carried\", \"core\", \"foundations\"], \"written\": 0}"
+      },
+      {
+        "command": [
+          "python3",
+          "tools/verify_theory_final.py",
+          "--check"
+        ],
+        "exit_code": 0,
+        "stdout": "{\"status\": \"passed\", \"reviewed_theory_text_steps\": 283, \"new_corrections\": 6, \"carried_forward\": 49, \"cumulative_pending_text_steps\": 55, \"checked_internal_link_occurrences\": 323}"
+      },
+      {
+        "command": [
+          "python3",
+          "improvements/86957/theory-final-review-2026-11-23/verify_code_coverage.py",
+          "--check"
+        ],
+        "exit_code": 0,
+        "stdout": "{\"status\": \"checked\", \"counts\": {\"text_steps\": 283, \"pre_blocks\": 340, \"by_kind\": {\"build_configuration\": 4, \"expected_failure\": 5, \"fragment\": 81, \"full_program\": 148, \"mathematical_notation\": 2, \"multi_file_component\": 11, \"output\": 66, \"pseudocode\": 4, \"shell_commands\": 18, \"syntax_template\": 1}, \"manifest_overrides\": 55, \"carried_links_byte_identical\": 49, \"new_prose_only_corrections\": 6, \"positive_full_listing_occurrences\": 148, \"assembled_positive_programs\": 1, \"positive_program_units_including_assembly\": 149, \"cpp17_cpp20_full_listing_occurrences\": 146, \"cpp17_cpp20_assembled_programs\": 1, \"c11_c17_full_listing_occurrences\": 2, \"multi_file_pre_components\": 11, \"assembled_headers_from_fragments\": 1, \"expected_failure_pre_blocks\": 5, \"newly_closed_full_listing_coverage_gaps\": 7, \"full_sources_with_expected_failure\": 2, \"blocks_without_individual_execution_binding\": 146, \"unbound_by_kind\": {\"build_configuration\": 1, \"fragment\": 54, \"mathematical_notation\": 2, \"output\": 66, \"pseudocode\": 4, \"shell_commands\": 18, \"syntax_template\": 1}, \"current_suites_used\": 11, \"report_input_hashes_checked_including_repeated_inputs\": 534, \"unique_report_input_files_checked\": 530}}"
+      },
+      {
+        "command": [
+          "python3",
+          "improvements/86957/theory-final-review-2026-11-23/verify_preserved_whitespace.py",
+          "--check"
+        ],
+        "exit_code": 0,
+        "stdout": "{\"status\": \"passed_with_exact_historical_source_exception\", \"approved_files\": 5, \"approved_lines\": 9, \"source_copies_equal_pinned_decoded_pre\": true}"
+      },
+      {
+        "command": [
+          "python3",
+          "tools/render_course_tree.py",
+          "--check"
+        ],
+        "exit_code": 0,
+        "stdout": ""
+      }
+    ],
+    "preserved_files_checked": 1338,
+    "preserved_files_index_sha256": "fcb4532ceb1aa3392c9f24b6188c998da66d887f55af04d1d67a8a4f194fcaf7",
+    "new_compiler_or_program_execution_count": 0
+  },
+  "current_repository_checks": [
+    {
+      "command": [
+        "python3",
+        "tools/build_theory_upgrade.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"package\": \"theory-2026-11-23\", \"status\": \"checked\", \"steps\": 88, \"lessons\": 23, \"parts\": [\"t1\", \"t3\", \"t6\"], \"written\": 0}\n{\"package\": \"theory-continuation-2026-11-23\", \"status\": \"checked\", \"steps\": 191, \"lessons\": 47, \"parts\": [\"t1\", \"t1b\", \"t2\", \"t4\", \"t5\", \"t5b\", \"t6\"], \"written\": 0}\n{\"package\": \"theory-links-2026-11-23\", \"status\": \"checked\", \"steps\": 50, \"lessons\": 31, \"parts\": [\"algorithms\", \"foundations\", \"ownership\", \"types\"], \"written\": 0}\n{\"package\": \"theory-final-review-2026-11-23\", \"status\": \"checked\", \"steps\": 55, \"lessons\": 32, \"parts\": [\"advanced\", \"carried\", \"core\", \"foundations\"], \"written\": 0}"
+    },
+    {
+      "command": [
+        "python3",
+        "tools/render_course_tree.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": ""
+    }
+  ],
+  "input_sha256": {
+    "improvements/86957/theory-final-review-2026-11-23/manifest.json": "a3feeba6c89f8c534110ff8ee0d40da346d12ff3e119e12318027d89ef114cb4",
+    "courses/86957/publication-verification-theory-final-review-2026-11-23.json": "7915fc588b1bd08210c9f73ebb2b3c5eecf24be22439d91b47b2539d43aafada",
+    "courses/86957/manifest.json": "a5113bb1c5b328ddbab77727cced28c4a73d5017a387a3dcebe5d9e3369b0428",
+    "courses/86957/course.json": "98f176acb220d28433a2a2b2868511e446b8b01df279732e5f87f110bab819a3",
+    "courses/86957/TREE.md": "a602fa674b8d320f40cc0bec063677e01eb6daa44a52e7bbd7787e8e4a65694b",
+    "improvements/86957/theory-final-review-2026-11-23/review_completion.json": "b259e1f9a0b638c6dae6ae4f01ef43edc8e74d057044dd83f00c11cb8f6db365",
+    "improvements/86957/theory-final-review-2026-11-23/code_coverage.json": "4340993a80518d13a18e745af2b1a5d6d032a3a555a0231c34aa4c078e0e22e3",
+    "improvements/86957/theory-final-review-2026-11-23/runtime_summary.json": "151fd096799e1390cb1b1e5fd6f2584b88268ea2f20618ac7275e99b70eb4494",
+    "tools/verify_theory_published.py": "029bbfe696bf4b0273028447d8c3a398836fa43a5bdd2ba20b8da223d309388a"
+  },
+  "snapshot_files_index_sha256": "5d22f107fad934fc1202a2fa73cf5e76b6e8f406abedfac2dff7005b518e13b5",
+  "effective_theory_text_index_sha256": "c41e862708c910079eabc8a7eb2cff155f2d0a404cb27e938391527e15cd3225",
+  "live_stepik_access": false,
+  "stepik_updates_performed": false,
+  "limitations": [
+    "The API readback itself is the publisher's saved evidence, not a new live verification by this tool.",
+    "No live HTML rendering, Windows/MSVC, macOS, graded checker or compiler test rerun is claimed.",
+    "The old preparation gates remain tied to their original commit; current snapshot checks do not rewrite their reports."
+  ]
+}

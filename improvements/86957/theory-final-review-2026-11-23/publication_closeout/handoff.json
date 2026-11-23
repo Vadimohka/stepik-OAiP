@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "course_id": 86957,
+  "status": "completed_and_published_with_repository_closeout",
+  "ready_for_user_agents": true,
+  "prepared_at": "2026-11-23T20:23:49.760942+00:00",
+  "publication_commit": "cd85f40b17f4cfd4992e94e5def8d6ff0374b7b7",
+  "accepted_preparation_commit": "5b3946ed7864ff22231bdbd16a4485ced71e6592",
+  "evidence_mode": "Local comparison with saved publication receipt and pinned Git snapshots; no new live Stepik read.",
+  "current_session_scope": "GitHub only: read/verify saved publication evidence and finish repository checks/documentation. No Stepik reads or writes.",
+  "completion": {
+    "T1": "completed",
+    "T1B": "completed",
+    "T2": "completed",
+    "T3": "completed",
+    "T4": "completed",
+    "T5": "completed",
+    "T6": "completed",
+    "SCOPE": "completed",
+    "LINKS": "completed",
+    "VERIFY": "completed",
+    "PUB": "completed_by_publisher_and_verified_from_saved_api_evidence",
+    "post_publication_repository_checks": "passed",
+    "remaining_work": [],
+    "remaining_human_editor_hours": {
+      "min": 0,
+      "max": 0
+    }
+  },
+  "publication": {
+    "status": "verified_on_stepik",
+    "applied": true,
+    "verified_at": "2026-11-23T19:30:40Z",
+    "verification_receipt": "courses/86957/publication-verification-theory-final-review-2026-11-23.json",
+    "published_text_steps": 55,
+    "lessons": 32,
+    "modules": 15,
+    "unpublished_pending_steps": 0,
+    "repeat_publication_required": false
+  },
+  "material": {
+    "current_snapshot": "courses/86957/",
+    "current_course_manifest": "courses/86957/manifest.json",
+    "current_theory_text_index": {
+      "path": "improvements/86957/theory-final-review-2026-11-23/publication_closeout/review_snapshot.json",
+      "field": "effective_texts",
+      "snapshot_path_key": "snapshot_path",
+      "text_hash_key": "snapshot_text_sha256",
+      "count": 283
+    },
+    "published_package_manifest": "improvements/86957/theory-final-review-2026-11-23/manifest.json",
+    "prepared_payloads_note": "Prepared package files remain accepted author originals. Current snapshot has the same content, with only the seven exact platform rel additions. Read the current snapshot for published text.",
+    "historical_handoff": "improvements/86957/theory-final-review-2026-11-23/handoff.json",
+    "historical_handoff_commit": "5b3946ed7864ff22231bdbd16a4485ced71e6592",
+    "historical_handoff_note": "Preserved preparation receipt; its pending55/blockedPUB/1–3h fields and input SHA belong to the pinned preparation, not current main."
+  },
+  "verified_counts": {
+    "all_course_steps": 485,
+    "published_text_steps": 55,
+    "published_lessons": 32,
+    "published_modules": 15,
+    "published_texts_exact": 48,
+    "published_texts_only_declared_rel_normalization": 7,
+    "added_anchor_rel_attributes": 15,
+    "effective_theory_texts": 283,
+    "effective_texts_exact": 276,
+    "effective_texts_only_rel_normalization": 7,
+    "other_step_files_byte_identical_to_parent": 430,
+    "author_raw_equals_bundle": 485,
+    "learner_raw_equals_bundle": 485,
+    "export_block_equals_author_block": 485,
+    "shared_author_learner_projection_equal": 485,
+    "placement_verified": 485,
+    "internal_link_occurrences_in_published_texts": 103,
+    "asset_references_in_unchanged_asset_manifest": 86
+  },
+  "validation": {
+    "current_command": "python3 tools/verify_theory_published.py --check",
+    "current_report": "improvements/86957/theory-final-review-2026-11-23/publication_closeout/verification.json",
+    "independent_snapshot_review": "improvements/86957/theory-final-review-2026-11-23/publication_closeout/review_snapshot.json",
+    "independent_closeout_review": "improvements/86957/theory-final-review-2026-11-23/publication_closeout/review_closeout_independent.json",
+    "historical_checks_reexecuted_unchanged": 5,
+    "historical_checks_commit": "5b3946ed7864ff22231bdbd16a4485ced71e6592",
+    "new_compiler_runs": 0,
+    "new_program_runs": 0,
+    "runtime_evidence": "improvements/86957/theory-final-review-2026-11-23/runtime_summary.json",
+    "requirements": [
+      "Python3.10+",
+      "Git with the pinned commit history",
+      "Writable workspace for a disposable detached worktree beside the repository"
+    ],
+    "network_required_by_checker": false
+  },
+  "acceptance_inputs_sha256": {
+    "improvements/86957/theory-final-review-2026-11-23/manifest.json": "a3feeba6c89f8c534110ff8ee0d40da346d12ff3e119e12318027d89ef114cb4",
+    "courses/86957/publication-verification-theory-final-review-2026-11-23.json": "7915fc588b1bd08210c9f73ebb2b3c5eecf24be22439d91b47b2539d43aafada",
+    "courses/86957/manifest.json": "a5113bb1c5b328ddbab77727cced28c4a73d5017a387a3dcebe5d9e3369b0428",
+    "courses/86957/course.json": "98f176acb220d28433a2a2b2868511e446b8b01df279732e5f87f110bab819a3",
+    "courses/86957/TREE.md": "a602fa674b8d320f40cc0bec063677e01eb6daa44a52e7bbd7787e8e4a65694b",
+    "improvements/86957/theory-final-review-2026-11-23/review_completion.json": "b259e1f9a0b638c6dae6ae4f01ef43edc8e74d057044dd83f00c11cb8f6db365",
+    "improvements/86957/theory-final-review-2026-11-23/code_coverage.json": "4340993a80518d13a18e745af2b1a5d6d032a3a555a0231c34aa4c078e0e22e3",
+    "improvements/86957/theory-final-review-2026-11-23/runtime_summary.json": "151fd096799e1390cb1b1e5fd6f2584b88268ea2f20618ac7275e99b70eb4494",
+    "tools/verify_theory_published.py": "029bbfe696bf4b0273028447d8c3a398836fa43a5bdd2ba20b8da223d309388a",
+    "improvements/86957/theory-final-review-2026-11-23/publication_closeout/verification.json": "4414447a3c8b80c47d4fcacbdad8e48dd366610bf2d4e991e4d98a61861f3afa",
+    "improvements/86957/theory-final-review-2026-11-23/publication_closeout/review_snapshot.json": "c9b92ceaa50f2892e730215ea05054b3847b1dcd9c3cd2ec5245e991afe2a821",
+    "improvements/86957/theory-review-2026-11-23/backlog.json": "90725471aeb8231037684d765f538a80dac157c437d87e9c5e44eedd8b4993b2",
+    "improvements/86957/theory-review-2026-11-23/scope.json": "a336b830a972ffea389a08fbbc8523bda928c4a2f3a65cb339f809acab54fdf9",
+    "improvements/86957/theory-review-2026-11-23/module_review.json": "b3ae042e4917d83d1b572d50e7e46d15b328edb591d1a63877bf7742640e6585"
+  },
+  "quality": {
+    "reported_range": [
+      8.5,
+      9.0
+    ],
+    "weighted_central_score": 8.83,
+    "basis": "improvements/86957/theory-final-review-2026-11-23/quality_assessment.json",
+    "note": "Quality score is retained from the accepted editorial review, not increased merely because publication occurred. The old PUB1–3h in that historical assessment is superseded by current zero remainder."
+  },
+  "current_stepik_access": false,
+  "current_stepik_updates": false,
+  "agent_start_sequence": [
+    "Read AGENTS.md and applicable nested instructions; fetch current main without discarding concurrent work.",
+    "Use courses/86957 for published content and review_snapshot.effective_texts for all283 verified text mappings.",
+    "Verify the listed SHA and run the current_command. It validates the published snapshot and replays old checks in an isolated prepared worktree without changing the current branch.",
+    "Do not rerun the old preparation verifier directly on the published snapshot or rewrite historical reports to force it to pass.",
+    "Start only new work requested by the owner or address a concrete newly found defect; no remaining editorial/publication work from this accepted plan is assigned here. Do not republish the55 package or old46/88/191/50 packages automatically."
+  ],
+  "limitations": [
+    "The API readback itself is the publisher's saved evidence, not a new live verification by this tool.",
+    "No live HTML rendering, Windows/MSVC, macOS, graded checker or compiler test rerun is claimed.",
+    "The old preparation gates remain tied to their original commit; current snapshot checks do not rewrite their reports.",
+    "The observed export time/update_date and external num_grades counter are documented separately from lesson content.",
+    "The publisher receipt is a summary; new closeout binds saved snapshots and accepted content to pinned Git commits, without claiming independent live UI or network-response hashes."
+  ]
+}
