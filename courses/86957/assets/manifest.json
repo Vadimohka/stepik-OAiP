@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "course_id": 86957,
-  "generated_at": "2026-11-22T21:49:14Z",
+  "generated_at": "2026-11-23T06:35:05Z",
   "status": "complete",
   "maximum_file_size": 99614720,
   "selection": "Highest-quality video variant; all original variants remain in raw JSON.",
   "summary": {
-    "downloaded": 155,
+    "downloaded": 154,
     "variant_omitted": 6
   },
   "assets": [
@@ -2634,38 +2634,6 @@
       "size": 4839,
       "mime": "image/png",
       "final_url": "https://ucarecdn.stepik.net/835fe43d-e57e-4201-b7b3-3d0607cd8326/",
-      "cache_hit": false
-    },
-    {
-      "url": "https://ucarecdn.stepik.net/9b533a7d-1f9f-402f-b3fb-a4bec4dde1a3/",
-      "url_sha256": "211de3ba9778d7693c041e63e6d9236e54c07f3724898c5c57c60cb921ca556b",
-      "original_urls": [
-        "https://ucarecdn.stepik.net/9b533a7d-1f9f-402f-b3fb-a4bec4dde1a3/"
-      ],
-      "kinds": [
-        "image"
-      ],
-      "origins": [
-        {
-          "resource": "steps",
-          "id": 4700496,
-          "raw_path": "raw/steps/4700496.json",
-          "field": "block.text"
-        },
-        {
-          "resource": "step-sources",
-          "id": 4700496,
-          "raw_path": "raw/step-sources/4700496.json",
-          "field": "block.text"
-        }
-      ],
-      "selected": true,
-      "status": "downloaded",
-      "local_path": "assets/211de3ba9778d7693c041e63e6d9236e54c07f3724898c5c57c60cb921ca556b.png",
-      "sha256": "ca76e782be9e48f82df2e51fb99616109444763d6834c29da4ace1135431e412",
-      "size": 4688,
-      "mime": "image/png",
-      "final_url": "https://ucarecdn.stepik.net/9b533a7d-1f9f-402f-b3fb-a4bec4dde1a3/",
       "cache_hit": false
     },
     {

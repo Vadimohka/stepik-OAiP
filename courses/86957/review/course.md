@@ -4700,7 +4700,7 @@ int main() {
     "pattern": "Hello, World!\n7d3.6234e+01",
     "use_re": false,
     "match_substring": false,
-    "case_sensitive": false,
+    "case_sensitive": true,
     "code": "# def check(reply):\n#     \"\"\"Evaluate the learner's reply.\n#\n#     It should return 1 or True for the correct reply and 0 or False\n#     for the incorrect one.\n#\n#     A partial solution may be scored using a float number from the\n#     interval (0, 1). In such a case the learner total score for the\n#     problem will be 'step cost' * 'score'.\n#\n#     :param reply: a string that is the learner's reply to the problem\n#     :return: a score number (int or float) in range [0, 1]\n#\n#     \"\"\"\n#     return reply == \"Hello\"\n\n# def solve():\n#     \"\"\"Return a correct reply. This function is *optional*.\n#\n#     It is used to test the correctness of the 'check' function.\n#\n#     :return: a string that is a correct reply to the problem\n#\n#     \"\"\"\n#     return \"Hello\"",
     "is_text_disabled": false,
     "is_file_disabled": true
@@ -7710,9 +7710,9 @@ double x = (double)m / 2 + (double)7 / 3;</code></pre>
 
 <p>Применение операций</p>
 
-<pre><code class="language-cpp">int a = 2 &lt;&lt; 2;           // 10  на два разряда влево = 1000 - 8
+<pre><code class="language-cpp">int a = 2 &lt;&lt; 2;           // 10  на два разряда влево = 1000 - 8
 
-int b = 16 &gt;&gt; 3;          // 10000 на три разряда вправо = 10 - 2</code></pre>
+int b = 16 &gt;&gt; 3;          // 10000 на три разряда вправо = 10 - 2</code></pre>
 
 <p> </p>
 
@@ -7743,13 +7743,13 @@ int b = 16 &gt;&gt; 3;          // 10000 на три разряда в�
 
 <p>Следующие примеры рассматриваются в C++20, где знаковые целые используют дополнительный код. В частности, ~9 равно -10:</p>
 
-<pre><code class="language-cpp">int a = 5 | 2;          // 101 | 010 = 111  - 7
+<pre><code class="language-cpp">int a = 5 | 2;          // 101 | 010 = 111  - 7
 
-int b = 6 &amp; 2;          // 110 &amp; 010 = 10  - 2
+int b = 6 &amp; 2;          // 110 &amp; 010 = 10  - 2
 
-int c = 5 ^ 2;          // 101 ^ 010 = 111 - 7
+int c = 5 ^ 2;          // 101 ^ 010 = 111 - 7
 
-int d = ~9;             // -10</code></pre>
+int d = ~9;             // -10</code></pre>
 
 <p> </p>
 
@@ -8835,9 +8835,9 @@ int main() {
 <p>Другую форму организации ветвления программ представляет конструкция switch...case. Она имеет следующую форму:</p>
 
 <pre><code class="language-cpp">switch (выражение) {
-    case константа_1: инструкции_1;
-    case константа_2: инструкции_2;
-    default: инструкции;
+    case константа_1: инструкции_1;
+    case константа_2: инструкции_2;
+    default: инструкции;
 }</code></pre>
 
 <p>Реализация может ограничивать количество меток case. В справочном приложении к стандарту C++ среди рекомендуемых ориентиров приведено 16 384 метки в одном switch; это не требование написать столько ветвей.</p>
@@ -8849,29 +8849,29 @@ int main() {
 <pre><code class="language-cpp">#include &lt;iostream&gt;
 
 int main() {
-    int x = 2;
-    switch(x) {
-        case 1:
-            std::cout &lt;&lt; "x = 1" &lt;&lt; "\n";
-            break;
-        case 2:
-            std::cout &lt;&lt; "x = 2" &lt;&lt; "\n";
-            break;
-        case 3:
-            std::cout &lt;&lt; "x = 3" &lt;&lt; "\n";
-            break;
-        default:
-            std::cout &lt;&lt; "x is undefined" &lt;&lt; "\n";
-            break;
-    }
-    return 0;
+    int x = 2;
+    switch(x) {
+        case 1:
+            std::cout &lt;&lt; "x = 1" &lt;&lt; "\n";
+            break;
+        case 2:
+            std::cout &lt;&lt; "x = 2" &lt;&lt; "\n";
+            break;
+        case 3:
+            std::cout &lt;&lt; "x = 3" &lt;&lt; "\n";
+            break;
+        default:
+            std::cout &lt;&lt; "x is undefined" &lt;&lt; "\n";
+            break;
+    }
+    return 0;
 }</code></pre>
 
 <p>Чтобы избежать выполнения последующих блоков case/default, в конце каждого блока ставится оператор break. То есть в данном случае будет выполняться оператор</p>
 
 <pre><code class="language-cpp">case 2:
-    std::cout &lt;&lt; "x = 2" &lt;&lt; "\n";
-    break;</code></pre>
+    std::cout &lt;&lt; "x = 2" &lt;&lt; "\n";
+    break;</code></pre>
 
 <p>После выполнения оператора break произойдет выход из конструкции switch..case, и остальные операторы case будут проигнорированы. Поэтому на консоль будет выведена следующая строка</p>
 
@@ -8882,18 +8882,18 @@ int main() {
 <pre><code class="language-cpp">#include &lt;iostream&gt;
 
 int main() {
-    int x = 2;
-    switch(x) {
-        case 1:
-            std::cout &lt;&lt; "x = 1" &lt;&lt; "\n";
-        case 2:
-            std::cout &lt;&lt; "x = 2" &lt;&lt; "\n";
-        case 3:
-            std::cout &lt;&lt; "x = 3" &lt;&lt; "\n";
-        default:
-            std::cout &lt;&lt; "x is undefined" &lt;&lt; "\n";
-    }
-    return 0;
+    int x = 2;
+    switch(x) {
+        case 1:
+            std::cout &lt;&lt; "x = 1" &lt;&lt; "\n";
+        case 2:
+            std::cout &lt;&lt; "x = 2" &lt;&lt; "\n";
+        case 3:
+            std::cout &lt;&lt; "x = 3" &lt;&lt; "\n";
+        default:
+            std::cout &lt;&lt; "x is undefined" &lt;&lt; "\n";
+    }
+    return 0;
 }</code></pre>
 
 <p>В этом случае опять же будет выполняться оператор <code>case 2:</code>, так как переменная x=2. Однако так как этот блок case не завершается оператором break, то после его завершения будет выполняться набор инструкций после <code>case 3:</code> даже несмотря на то, что переменная x по-прежнему равна 2. В итоге мы получим следующий консольный вывод:</p>
@@ -10535,7 +10535,7 @@ void code() {
 <p>Цикл <code>while</code> выполняет некоторый код, пока его условие истинно, то есть возвращает true. Он имеет следующее формальное определение:</p>
 
 <pre><code>while (условие) {
-    // выполняемые действия
+    // выполняемые действия
 }</code></pre>
 
 <p>После ключевого слова while в скобках записывается условие, значение которого приводится к bool. Затем следует тело цикла. Перед каждой итерацией условие проверяется снова: при true выполняется тело, при false цикл завершается.</p>
@@ -10544,13 +10544,13 @@ void code() {
 
 <pre><code class="language-cpp">#include &lt;iostream&gt;
 
-int main() {  
-    int i = 1;
-    while (i &lt; 10) {
-        std::cout &lt;&lt; i &lt;&lt; " * " &lt;&lt; i &lt;&lt; " = " &lt;&lt; i * i &lt;&lt; std::endl;
-        i++;
-    }
-    return 0;
+int main() {  
+    int i = 1;
+    while (i &lt; 10) {
+        std::cout &lt;&lt; i &lt;&lt; " * " &lt;&lt; i &lt;&lt; " = " &lt;&lt; i * i &lt;&lt; std::endl;
+        i++;
+    }
+    return 0;
 }</code></pre>
 
 <p> </p>
@@ -10701,7 +10701,7 @@ int main() {
 <p>Цикл for имеет следующее формальное определение:</p>
 
 <pre><code class="language-cpp">for (инициализация; условие; выражение_приращения) {
-    // тело цикла
+    // тело цикла
 }</code></pre>
 
 <p> </p>
@@ -10718,11 +10718,11 @@ int main() {
 
 <pre><code class="language-cpp">#include &lt;iostream&gt;
 
-int main() {  
-    for (int i = 1; i &lt; 10; i++) {
-        std::cout &lt;&lt; i &lt;&lt; " * " &lt;&lt; i &lt;&lt; " = " &lt;&lt; i * i &lt;&lt; std::endl;
-    }
-    return 0;
+int main() {  
+    for (int i = 1; i &lt; 10; i++) {
+        std::cout &lt;&lt; i &lt;&lt; " * " &lt;&lt; i &lt;&lt; " = " &lt;&lt; i * i &lt;&lt; std::endl;
+    }
+    return 0;
 }</code></pre>
 
 <p> </p>
@@ -10741,8 +10741,8 @@ int main() {  
 
 <pre><code class="language-cpp">int i = 1;
 for (; i &lt; 10;) {
-    std::cout &lt;&lt; i &lt;&lt; " * " &lt;&lt; i &lt;&lt; " = " &lt;&lt; i * i &lt;&lt; std::endl;
-    i++;
+    std::cout &lt;&lt; i &lt;&lt; " * " &lt;&lt; i &lt;&lt; " = " &lt;&lt; i * i &lt;&lt; std::endl;
+    i++;
 }</code></pre>
 
 <p> </p>
@@ -14735,7 +14735,7 @@ std::cout &lt;&lt; &amp;z &lt;&lt; std::endl;</code></pre>
 
 <p><img alt="" height="429" name="Frame 19.png" src="https://ucarecdn.stepik.net/b4596ab6-c42e-49ed-9723-710e815721cf/-/crop/5436x3608/0,366/-/preview/" width="646"></p>
 
-<p>В ячейках под соответствующими адресами лежат значения переменных <code>x</code>, <code>y</code> и <code>z</code>. Также стоит упомянуть, что в стеке всегда поддерживается указатель (<strong>SP - Stack Pointer</strong>), который указывает на вершину стека, то есть то место, в которое можно дальше записывать данные. Однако нам существование этого указателя погоды не делает, т.к. компилятор работает с ним самостоятельно.</p>
+<p>В ячейках под соответствующими адресами лежат значения переменных <code>x</code>, <code>y</code> и <code>z</code>. В типичной реализации процессор хранит указатель стека (<strong>SP — Stack Pointer</strong>; на x86-64 — <code>RSP</code>). Его точный смысл зависит от архитектуры. Например, на x86 инструкция <code>PUSH</code> сначала уменьшает указатель, а затем записывает значение по новому адресу. Поэтому текущую вершину нельзя считать свободной ячейкой для следующей записи. При выполнении обычного кода C++ необходимые операции со стеком формирует компилятор.</p>
 
 <details>
 <summary>Ответы, тесты, медиа и настройки блока</summary>
@@ -15126,7 +15126,7 @@ std::cout &lt;&lt; "a: " &lt;&lt; a &lt;&lt; std::endl;</code></pre>
 
 <p>Определите, какое из произведений больше: <img alt="" height="41" name="image.png" src="https://ucarecdn.stepik.net/835fe43d-e57e-4201-b7b3-3d0607cd8326/" width="251"></p>
 
-<p>Гарантируется, что ​​​​​​​<img alt="" height="37" name="image.png" src="https://ucarecdn.stepik.net/9b533a7d-1f9f-402f-b3fb-a4bec4dde1a3/" width="251"></p>
+<p>Обозначим произведения <code>P = a<sub>1</sub> · ... · a<sub>n</sub></code> и <code>Q = b<sub>1</sub> · ... · b<sub>n</sub></code>. Гарантируется, что либо <code>P = Q</code>, либо <code>max(P, Q) / min(P, Q) &gt; 1 + 10<sup>−7</sup></code>. Эта гарантия относится к двум произведениям, а не к каждой паре входных элементов.</p>
 
 <p><strong>Формат входных данных:</strong></p>
 
@@ -15869,7 +15869,10 @@ free(zeroed);</code></pre>
 <p><br>
 Пример, в котором удобно использовать функцию <code>realloc</code> – пользователь вводит слова. Для начала выделяем под слова массив размером 10. Если пользователь ввёл больше слов, то изменяем его размер при помощи функции <code>realloc</code>, чтобы хватило места. Когда пользователь вводит слово end, прекращаем ввод и выводим на печать все слова.</p>
 
-<pre><code class="language-c">#include &lt;stdint.h&gt;
+<p>В этом примере длина одного слова ограничена 127 байтами без завершающего нулевого символа. Ограничение <code>%127s</code> защищает буфер, но оставляет продолжение слишком длинного слова во входном потоке. Поэтому после чтения проверяем следующий байт: это должен быть пробельный символ или конец ввода. Более длинное слово вызывает сообщение об ошибке и освобождение уже выделенной памяти; его части не становятся отдельными словами или командой <code>end</code>.</p>
+
+<pre><code class="language-c">#include &lt;ctype.h&gt;
+#include &lt;stdint.h&gt;
 #include &lt;stdio.h&gt;
 #include &lt;stdlib.h&gt;
 #include &lt;string.h&gt;
@@ -15883,7 +15886,15 @@ int main(void) {
     if (words == NULL) {
         return 1;
     }
-    while (scanf("%127s", buffer) == 1 &amp;&amp; strcmp(buffer, "end") != 0) {
+    while (scanf("%127s", buffer) == 1) {
+        int next = getchar();
+        if (next != EOF &amp;&amp; !isspace((unsigned char)next)) {
+            failed = 2;
+            break;
+        }
+        if (strcmp(buffer, "end") == 0) {
+            break;
+        }
         if (count == capacity) {
             if (capacity &gt; SIZE_MAX / sizeof *words - 10) {
                 failed = 1;
@@ -15912,7 +15923,7 @@ int main(void) {
     }
     free(words);
     if (failed) {
-        fputs("Cannot allocate memory\n", stderr);
+        fputs(failed == 2 ? "Word is too long\n" : "Cannot allocate memory\n", stderr);
         return 1;
     }
     return 0;
@@ -15954,7 +15965,10 @@ int main(void) {
 
 <p>Следующий пример читает слова до <code>end</code> или конца ввода, расширяет таблицу указателей и освобождает все успешно выделенные блоки, в том числе при ошибке:</p>
 
-<pre><code class="language-c">#include &lt;stdint.h&gt;
+<p>В этом примере длина одного слова ограничена 127 байтами без завершающего нулевого символа. Ограничение <code>%127s</code> защищает буфер, но оставляет продолжение слишком длинного слова во входном потоке. Поэтому после чтения проверяем следующий байт: это должен быть пробельный символ или конец ввода. Более длинное слово вызывает сообщение об ошибке и освобождение уже выделенной памяти; его части не становятся отдельными словами или командой <code>end</code>.</p>
+
+<pre><code class="language-c">#include &lt;ctype.h&gt;
+#include &lt;stdint.h&gt;
 #include &lt;stdio.h&gt;
 #include &lt;stdlib.h&gt;
 #include &lt;string.h&gt;
@@ -15968,7 +15982,15 @@ int main(void) {
     if (words == NULL) {
         return 1;
     }
-    while (scanf("%127s", buffer) == 1 &amp;&amp; strcmp(buffer, "end") != 0) {
+    while (scanf("%127s", buffer) == 1) {
+        int next = getchar();
+        if (next != EOF &amp;&amp; !isspace((unsigned char)next)) {
+            failed = 2;
+            break;
+        }
+        if (strcmp(buffer, "end") == 0) {
+            break;
+        }
         if (count == capacity) {
             if (capacity &gt; SIZE_MAX / sizeof *words - 10) {
                 failed = 1;
@@ -15997,7 +16019,7 @@ int main(void) {
     }
     free(words);
     if (failed) {
-        fputs("Cannot allocate memory\n", stderr);
+        fputs(failed == 2 ? "Word is too long\n" : "Cannot allocate memory\n", stderr);
         return 1;
     }
     return 0;
@@ -16967,6 +16989,8 @@ int main() {
 <pre><code class="language-cpp">constexpr float exp(float x, int n) {
     if (n == 0)
         return 1;
+    if (n == 1)
+        return x;
     if (n % 2 == 0)
         return exp(x * x, n / 2);
     return exp(x * x, (n - 1) / 2) * x;
@@ -23100,7 +23124,7 @@ int main() {
   "subtitle_files": [],
   "is_deprecated": false,
   "source": {
-    "code": "def generate():\n    return []\n\ndef check(reply, clue):\n    return reply.strip() == clue.strip()\n\n\n\n",
+    "code": "def generate():\n    return []\n\ndef check(reply, clue):\n    return reply.rstrip(\"\\r\\n\") == clue.rstrip(\"\\r\\n\")\n\n\n\n",
     "execution_time_limit": 1,
     "execution_memory_limit": 64,
     "samples_count": 4,
@@ -23211,6 +23235,18 @@ int main() {
       [
         "oodeedyoudeedudeededoo looleeliloolyoulyou youeeaeemooeeloogyou moomyousfooeeaoo aeeaooeeyou",
         "udidudidudidedu lulililululu uiaimuilugu mumusfuiau aiauiu"
+      ],
+      [
+        " x ",
+        " ks "
+      ],
+      [
+        "   ",
+        "   "
+      ],
+      [
+        " QW ",
+        "  "
       ]
     ],
     "are_all_tests_run": true,
@@ -26217,9 +26253,9 @@ int main() {
 
 <pre><code class="language-cpp">std::ofstream out("D:\\hello.txt", std::ios::app);
 if (out.is_open()) {
-    out &lt;&lt; "Welcome to CPP" &lt;&lt; std::endl;
+    out &lt;&lt; "Welcome to CPP" &lt;&lt; std::endl;
 }
-out.close();        </code></pre>
+out.close();        </code></pre>
 
 <h4>Чтение из файла</h4>
 
@@ -26743,16 +26779,35 @@ int main() {
  
     size = size &lt;= MAX_SIZE? size: MAX_SIZE;
     users = (User*) malloc(size * sizeof(User));
+    if (size != 0 &amp;&amp; users == NULL) return 1;
+    for (i = 0; i &lt; size; i++) {
+        users[i].login = NULL;
+        users[i].password = NULL;
+    }
  
     for (i = 0; i &lt; size; i++) {
         printf("user #%u\nname: ", i);
-        scanf("%127s", buffer);
+        if (scanf("%127s", buffer) != 1) {
+            freeUsersArray(&amp;users, size);
+            return 1;
+        }
         users[i].id = i;
         users[i].login = (char*) malloc(strlen(buffer) + 1);
+        if (users[i].login == NULL) {
+            freeUsersArray(&amp;users, size);
+            return 1;
+        }
         strcpy(users[i].login, buffer);
         printf("password: ");
-        scanf("%127s", buffer);
+        if (scanf("%127s", buffer) != 1) {
+            freeUsersArray(&amp;users, size);
+            return 1;
+        }
         users[i].password = (char*) malloc(strlen(buffer) + 1);
+        if (users[i].password == NULL) {
+            freeUsersArray(&amp;users, size);
+            return 1;
+        }
         strcpy(users[i].password, buffer);
     }
  
@@ -26764,7 +26819,7 @@ int main() {
 
 }</code></pre>
 
-<p>Обратите внимание на освобождение памяти: free(users) освобождает только сам массив. Память, на которую указывают поля login и password, автоматически не освобождается. Поэтому в этом примере сначала освобождаем строки каждого пользователя, затем сам массив.<br>При вызове jsonUser передаём указатель на экземпляр структуры, поэтому внутри функции доступ к полям осуществляется с помощью оператора -&gt;.</p>
+<p>Обратите внимание на освобождение памяти: free(users) освобождает только сам массив. Память, на которую указывают поля login и password, автоматически не освобождается. Поэтому в этом примере сначала освобождаем строки каждого пользователя, затем сам массив. Перед вводом все указатели на строки получают NULL: так общая функция очистки безопасна и при частично заполненном массиве. Результаты scanf и malloc проверяются; при конце ввода или отказе выделения памяти программа освобождает уже полученную память и завершается с кодом 1.<br>При вызове jsonUser передаём указатель на экземпляр структуры, поэтому внутри функции доступ к полям осуществляется с помощью оператора -&gt;.</p>
 
 <details>
 <summary>Ответы, тесты, медиа и настройки блока</summary>
@@ -26953,7 +27008,7 @@ typedef struct Model {
  
 char* mallocByString(const char *str) { // функция, которая инициализирует поля типа char*
     char* p = (char*) malloc(strlen(str) + 1);
-    strcpy(p, str);
+    if (p != NULL) strcpy(p, str);
     return p;
 }
  
@@ -26973,6 +27028,10 @@ int main() {
     cl.make.id = 1;
     cl.make.name = mallocByString("Acura");
     cl.name = mallocByString("CL");
+    if (cl.make.name == NULL || cl.name == NULL) {
+        freeModel(&amp;cl);
+        return 1;
+    }
     cl.year = (2003 - YEAR_OFFSET);
  
     xmlModel(&amp;cl);
@@ -27000,6 +27059,7 @@ int main() {
     printf("Make name = %s\n", m.make.name);
 
 }</code></pre>
+<p>mallocByString возвращает NULL при отказе выделения памяти и не вызывает strcpy с нулевым указателем. После получения обеих строк main проверяет результат. При ошибке freeModel освобождает успешно выделенные строки; free(NULL) допустим.</p>
 
 <details>
 <summary>Ответы, тесты, медиа и настройки блока</summary>
@@ -27051,7 +27111,7 @@ typedef struct Model {
  
 char* mallocByString(const char *str) { // функция, которая инициализирует поля типа char*
     char* p = (char*) malloc(strlen(str) + 1);
-    strcpy(p, str);
+    if (p != NULL) strcpy(p, str);
     return p;
 }
   
@@ -27069,6 +27129,10 @@ int main() {
     cl.make.id = 1;
     cl.make.name = mallocByString("Acura");
     cl.name = mallocByString("CL");
+    if (cl.make.name == NULL || cl.name == NULL) {
+        freeModel(&amp;cl);
+        return 1;
+    }
     cl.year = (2003 - YEAR_OFFSET);
  
     //Получаем указатель на вложенную структуру
@@ -27083,6 +27147,7 @@ int main() {
 }</code></pre>
 
 <p>В примере имя Make позволяет явно записать тип указателя на поле make. Одинаковый набор полей сам по себе не делает две отдельно объявленные структуры одним типом. В C++ указатель на объект безымянного типа можно получить и без имени типа, например auto* make = &amp;cl.make; поэтому именование вложенной структуры удобно, но не является обязательным условием взятия адреса.</p>
+<p>mallocByString возвращает NULL при отказе выделения памяти и не вызывает strcpy с нулевым указателем. После получения обеих строк main проверяет результат. При ошибке freeModel освобождает успешно выделенные строки; free(NULL) допустим.</p>
 
 <details>
 <summary>Ответы, тесты, медиа и настройки блока</summary>
@@ -27548,7 +27613,7 @@ struct T {
 
 <p><em>Длина объединения</em> – это размер памяти в байтах, которая выделяется для одной переменной этого типа объединения.</p>
 
-<p>Размер объединения не меньше размера любого его нестатического поля. Он может превышать максимум размеров полей из-за требований выравнивания и конечного заполнения. Точный размер даёт sizeof. В каждый момент обычно активен только один член union; запись в другой член меняет активный член. Чтение неактивного члена в общем случае имеет неопределённое поведение в ISO C++17/20.</p>
+<p>Размер объединения не меньше размера любого его нестатического поля. Он может превышать максимум размеров полей из-за требований выравнивания и конечного заполнения. Точный размер даёт sizeof. В каждый момент активен не более чем один член union. Для простых членов, как int или double в следующих примерах, встроенное присваивание может начать время жизни нового члена и закончить время жизни прежнего. Это не общее правило для любого класса: например, присваивание неактивному полю std::string не создаёт строку. Для нетривиальных членов нужно отдельно управлять конструированием и уничтожением; union не вызывает деструктор прежнего члена автоматически. Чтение неактивного члена в общем случае имеет неопределённое поведение в ISO C++17/20.</p>
 
 <details>
 <summary>Ответы, тесты, медиа и настройки блока</summary>
@@ -27655,7 +27720,13 @@ d = sizeof(Fl); // d = 8</code></pre>
 
 <p>В нижеследующем примере объявляется неуправляемый указатель на объединение типа Ints:</p>
 
-<pre><code class="language-cpp">// указатель на объединение
+<pre><code class="language-cpp">union Ints {
+    unsigned short int a;
+    unsigned int b;
+    unsigned long int c;
+};
+
+// указатель на объединение
 Ints *p;
 
 // выделить память для объединения
@@ -29521,7 +29592,12 @@ public:
     // Сделаем функцию-член Display::displayItem другом класса Storage
     friend void Display::displayItem(const Storage&amp; storage); 
     // Ошибка: Storage не увидел полное определение класса Display
- 
+};
+
+class Display {
+private:
+    bool m_displayIntFirst;
+
 public:
     Display(bool displayIntFirst) {
         m_displayIntFirst = displayIntFirst;
@@ -29894,6 +29970,7 @@ private:
 <pre><code class="language-cpp">// cardobj.cpp
 // игральные карты в качестве объектов
 #include &lt;iostream&gt;
+#include &lt;clocale&gt;
 
 enum Suit {
     clubs, diamonds, hearts, spades
@@ -29911,7 +29988,7 @@ private:
 
 public:
     // конструктор без аргументов
-    card() {}
+    card() : number(2), suit(clubs) {}
 
     // конструктор с двумя аргументами
     card(int n, Suit s) {
@@ -29996,7 +30073,10 @@ int main() {
     std::cout &lt;&lt; "\nНа какой позиции (1, 2 или 3) теперь ";
     prize.display(); // угадываемая карта
     std::cout &lt;&lt; "? ";
-    std::cin &gt;&gt; position; // ввод позиции игроком
+    if (!(std::cin &gt;&gt; position) || position &lt; 1 || position &gt; 3) {
+        std::cout &lt;&lt; "Ошибка: введите номер позиции от 1 до 3.\n";
+        return 1;
+    }
     // chosen - карта на позиции,
     switch (position) { 
     case 1:
@@ -30021,16 +30101,16 @@ int main() {
     return 0;
 }</code></pre>
 
-<p>Класс card содержит два конструктора. Первый из них не имеет аргументов и используется функцией main() для создания объектов temp, chosen и prize, которые не инициализируются при создании. Другой конструктор имеет два аргумента, и с его помощью создаются объекты card1, card2 и card3, инициализируемые определенными значениями. Кроме конструкторов, класс card содержит два метода, оба из которых определены вне класса.</p>
+<p>Класс card содержит два конструктора. Первый из них не имеет аргументов и используется функцией main() для создания объектов temp, chosen и prize, которые при создании получают значение «двойка треф». До сравнения выбранной карты main проверяет успешность ввода и диапазон позиции 1–3; неверный ввод завершает программу до сравнения. Другой конструктор имеет два аргумента, и с его помощью создаются объекты card1, card2 и card3, инициализируемые определенными значениями. Кроме конструкторов, класс card содержит два метода, оба из которых определены вне класса.</p>
 
-<p>Функция display() не имеет аргументов; ее задача заключается в отображении на экране параметров той карты, к которой она применяется. Так, оператор chosen.display(); отображает карту, которую ввел пользователь. Функция isEqual() проверяет, совпадает ли карта, введенная пользователем, с той, которая передается функции в качестве аргумента. Для сравнения используется условная операция. Функция могла бы быть реализована с помощью ветвления if...else:</p>
+<p>Функция display() не имеет аргументов; ее задача заключается в отображении на экране параметров той карты, к которой она применяется. Так, оператор chosen.display(); отображает карту, которую ввел пользователь. Функция isEqual() проверяет, совпадает ли карта, введенная пользователем, с той, которая передается функции в качестве аргумента. Для сравнения используется логическое выражение с операциями == и &amp;&amp;. Функция могла бы быть реализована с помощью ветвления if...else:</p>
 
 <pre><code class="language-cpp">if(number == c2.number &amp;&amp; suit == c2.suit)
     return true;
 else
     return false;</code></pre>
 
-<p>однако условная операция обеспечивает более краткую форму записи. Название c2 аргумента функции isEqual() указывает на то, что сравниваются две карты: первая из карт представлена объектом, методом которой является функция isEqual(). Выражение <code>if(chosen.isEqual(prize))</code> в функции main() сравнивает карту chosen с картой prize. Если игрок не угадал карту, то результат работы программы будет приблизительно таким:</p>
+<p>однако прямой возврат логического выражения обеспечивает более краткую форму записи. Название c2 аргумента функции isEqual() указывает на то, что сравниваются две карты: первая из карт представлена объектом, методом которой является функция isEqual(). Выражение <code>if(chosen.isEqual(prize))</code> в функции main() сравнивает карту chosen с картой prize. Если игрок не угадал карту, то результат работы программы будет приблизительно таким:</p>
 
 <p><img alt="" height="163" name="image.png" src="https://ucarecdn.stepik.net/2e6f72e8-39a4-4a9e-bbcd-7e1d644ef8cb/" width="422"></p>
 
@@ -31383,7 +31463,7 @@ class D_12: public D_1, public D_2 {
 
 <p>Образуем производный класс unit_box – товар в упаковке (наименование, стоимость), где стоимость отражает общую цену, а ее разделение на составляющие не требуется по условию задачи. Объявление класса price виртуальным для классов unit и box позволит объединить его экземпляры в классе unit_box. Пример программы представления сведений о товарах:</p>
 
-<pre><code class="language-cpp">#include &lt;cstring&gt;
+<pre><code class="language-cpp">#include &lt;string&gt;
 #include &lt;cstdio&gt;
 
 struct price { // описание стоимости
@@ -31395,41 +31475,41 @@ struct price { // описание стоимости
 };
 
 struct unit : virtual public price { // описание устройства
-    char name[20]; // наименование
+    std::string name; // наименование
     unit(const char *x, int vx = 0, char v = ' ') : price(vx, v) {
-        strcpy(name, x);
+        name = x;
     }
 
     void print() {
-        printf("\nUnit %s %d %c", name, val, type);
+        printf("\nUnit %s %d %c", name.c_str(), val, type);
     }
 };
 
 struct box : virtual public price { // описание упаковки
-    char name[20]; // наименование
+    std::string name; // наименование
     box(const char *x, int vx = 0, char v = ' ') : price(vx, v) {
-        strcpy(name, x);
+        name = x;
     }
 
     void print() {
-        printf("\nBox %s %d %c", name, val, type);
+        printf("\nBox %s %d %c", name.c_str(), val, type);
     }
 };
 
 // Описание устройства в упаковке с полной стоимостью
 struct unit_box : public unit, public box {
-    char name[40]; // наименование товара в упаковке
+    std::string name; // наименование товара в упаковке
     unit_box(const char *x, int vx, // наименование и цена товара
              const char *y, int vy, // наименование и цена упаковки
              const char *z, // общее наименование товара в упаковке
              char v) : // единица измерения цены
              unit(x), box(y), price(vx + vy, v) {
-        strcpy(name, z);
+        name = z;
     }
 
     void print() {
-        printf("\nUNIT_BOX %s,", name);
-        printf("\nBOX %s,\nUNIT %s,", box::name, unit::name);
+        printf("\nUNIT_BOX %s,", name.c_str());
+        printf("\nBOX %s,\nUNIT %s,", box::name.c_str(), unit::name.c_str());
         printf("\nPRICE %d %d %d %c", box::val, unit::val, val, type);
     }
 };
@@ -31453,6 +31533,7 @@ Box b-111 111 $
 Unit u-222 222 Y</code></pre>
 
 <p>Если список конструктора производного класса не содержит операций вызова конструкторов некоторых базовых классов, то автоматически будут вызываться конструкторы таких классов по умолчанию (без параметров).</p>
+<p>Имена хранятся в std::string, поэтому более длинное название не переполняет фиксированный массив символов. При выводе через printf("%s", ...) используется c_str(); аргументы конструкторов должны указывать на существующие нуль-терминированные строки.</p>
 
 <details>
 <summary>Ответы, тесты, медиа и настройки блока</summary>
@@ -31598,7 +31679,7 @@ int main() {
 
 <p><code>virtual тип_результата имя_функции(список_параметров)=0;</code></p>
 
-<p>Производный класс может оставить эту функцию чисто виртуальной и тоже остаться абстрактным. Чтобы создавать объекты конкретного производного класса, для каждой чисто виртуальной функции должно быть переопределение без = 0 — объявленное в этом классе или унаследованное от промежуточной базы. Тело такого переопределения может быть пустым. Класс является абстрактным, если у него остаётся хотя бы одна чисто виртуальная функция, в том числе унаследованная. Определение объектов абстрактного класса невозможно. Абстрактный класс можно использовать только в качестве базового для наследования невиртуальных элементов в производных классах. Однако указатель или ссылка на абстрактный класс может определяться в списках параметров или возвращаемых значений функции для адресации объектов производного класса. Иллюстрация использования абстрактного класса:</p>
+<p>Производный класс может оставить эту функцию чисто виртуальной и тоже остаться абстрактным. Чтобы создавать объекты конкретного производного класса, для каждой чисто виртуальной функции должно быть переопределение без = 0 — объявленное в этом классе или унаследованное от промежуточной базы. Тело такого переопределения может быть пустым. Класс является абстрактным, если у него остаётся хотя бы одна чисто виртуальная функция, в том числе унаследованная. Определение объектов абстрактного класса невозможно. Объект абстрактного класса может существовать как базовый подобъект производного класса. Производный класс наследует как обычные члены, так и виртуальные функции; конкретные виртуальные функции могут сохранять реализацию базы, а для создания объекта все чисто виртуальные функции должны получить конкретное окончательное переопределение. Однако указатель или ссылка на абстрактный класс может определяться в списках параметров или возвращаемых значений функции для адресации объектов производного класса. Иллюстрация использования абстрактного класса:</p>
 
 <pre><code class="language-cpp">#include &lt;cstdio&gt;
 class base { // абстрактный класс
@@ -34907,6 +34988,8 @@ class RBT {
 public:
     RBT() = default;
     ~RBT() = default;
+    RBT(const RBT&amp;) = delete;
+    RBT&amp; operator=(const RBT&amp;) = delete;
     void add(T key, T1 value);
     void remove(T key);
     T1 findValueWithKey(T key) {
@@ -34976,6 +35059,7 @@ protected:
     shared_ptr&lt;Node&gt; root;
 };
 </code></pre>
+<p>В этом учебном варианте дерево нельзя копировать или перемещать. Неявная копия shared_ptr-корня дала бы двум объектам общее изменяемое дерево, но отдельные указатели root: поворот при вставке в одну копию мог бы оставить другой объект с прежним корнем и потерянной частью ключей. Для поддержки копирования потребовалась бы отдельная реализация независимой копии всех узлов. После явного запрета копирования и пользовательского объявления деструктора неявные операции перемещения также не создаются.</p>
 
 <details>
 <summary>Ответы, тесты, медиа и настройки блока</summary>
@@ -35937,10 +36021,18 @@ public:
     this-&gt;tableSize = tableSize;
     this-&gt;tableCount = 0;
 
-    items = new PasswordList*[tableSize];
+    items = new PasswordList*[tableSize]{};
 
-    for (int i = 0; i &lt; tableSize; i++) {
-        items[i] = new PasswordList;
+    try {
+        for (int i = 0; i &lt; tableSize; i++) {
+            items[i] = new PasswordList;
+        }
+    } catch (...) {
+        for (int i = 0; i &lt; tableSize; i++) {
+            delete items[i]; // ещё не заполненные позиции равны nullptr
+        }
+        delete[] items;
+        throw;
     }
 }</code></pre>
 
@@ -35962,17 +36054,19 @@ public:
         existingPassword-&gt;SetDescription(descriptionToAdd);
         existingPassword-&gt;SetPassword(passwordToAdd);
     } else {
-        if (passwordList-&gt;GetCount() == 0) {
-            this-&gt;tableCount++;
-        }
+        const bool wasEmpty = passwordList-&gt;GetCount() == 0;
         std::shared_ptr&lt;Password&gt; newPassword(new Password(IDToAdd, descriptionToAdd, passwordToAdd));
         passwordList-&gt;AddElement(newPassword);
+        if (wasEmpty) {
+            this-&gt;tableCount++;
+        }
     }
 }</code></pre>
 
 <p> </p>
 
 <p>Функция InsertElement вычисляет индекс по ID входящего элемента и выбирает соответствующий список. Если в нём уже есть запись с таким же ID, функция обновляет её поля. Иначе новый элемент добавляется в список. Совпадение одного индекса ещё не означает дубликат ключа: разные ID могут попасть в одну цепочку.</p>
+<p>Если создание одного из списков выбросит исключение, конструктор освобождает уже созданные списки и массив указателей, затем передаёт исключение дальше. Деструктор самого HashTable при неудачном конструировании не вызывается. В InsertElement счётчик непустых списков меняется после успешного добавления: отказ при создании нового Password не должен увеличивать tableCount.</p>
 
 <details>
 <summary>Ответы, тесты, медиа и настройки блока</summary>
@@ -36621,7 +36715,7 @@ $$ 1 \le m \le 100 $$</p>
 
 <h2>Выходные данные</h2>
 
-<p>Для каждого набора входных данных выведите соответствующий INI-файл. После вывода каждого INI-файла выводите одну пустую строку. Обратите внимание, ваш ответ будет проверен с точностью до каждого пробела и переноса строки. Гарантируется, что размер корректных выходных данных не превосходит 1 мегабайт.<br>
+<p>Для каждого набора входных данных выведите соответствующий INI-файл. После вывода каждого INI-файла выводите одну пустую строку. Пробелы внутри строк, пробелы в начале и конце строк, а также пустые строки между группами и между INI-файлами проверяются строго. Переводы строк LF и CRLF считаются одинаковыми; переводы строк только в самом конце всего ответа не учитываются. Поэтому завершающую пустую строку рекомендуется вывести, но её отсутствие после последнего INI-файла не является ошибкой. Гарантируется, что размер корректных выходных данных не превосходит 1 мегабайт.<br>
 Подробнее об <a href="https://en.wikipedia.org/wiki/INI_file" rel="noopener noreferrer nofollow">INI-файле</a> и <a href="https://en.wikipedia.org/wiki/YAML" rel="noopener noreferrer nofollow">YAML−файле</a>.</p>
 
 <details>
@@ -36661,7 +36755,7 @@ $$ 1 \le m \le 100 $$</p>
   "subtitle_files": [],
   "is_deprecated": false,
   "source": {
-    "code": "# This is a sample Code Challenge\n# Learn more: https://stepik.org/lesson/9172\n# Ask your questions via help@stepik.org\n\ndef generate():\n    return []\n\ndef check(reply, clue):\n    return reply.strip() == clue.strip()\n\n# def solve(dataset):\n#     a, b = dataset.split()\n#     return str(int(a) + int(b))",
+    "code": "def generate():\n    return []\n\n\ndef check(reply, clue):\n    # Пробелы значимы. Допускаем LF/CRLF и любое число переводов\n    # строк только в самом конце ответа, но не внутри документа.\n    actual = reply.replace(\"\\r\\n\", \"\\n\").rstrip(\"\\n\")\n    expected = clue.replace(\"\\r\\n\", \"\\n\").rstrip(\"\\n\")\n    return actual == expected\n",
     "execution_time_limit": 1,
     "execution_memory_limit": 256,
     "samples_count": 1,

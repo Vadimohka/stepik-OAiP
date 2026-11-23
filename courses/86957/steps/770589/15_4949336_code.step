@@ -45,7 +45,7 @@
     "subtitle_files": [],
     "is_deprecated": false,
     "source": {
-      "code": "def generate():\n    return []\n\ndef check(reply, clue):\n    return reply.strip() == clue.strip()\n\n\n\n",
+      "code": "def generate():\n    return []\n\ndef check(reply, clue):\n    return reply.rstrip(\"\\r\\n\") == clue.rstrip(\"\\r\\n\")\n\n\n\n",
       "execution_time_limit": 1,
       "execution_memory_limit": 64,
       "samples_count": 4,
@@ -156,6 +156,18 @@
         [
           "oodeedyoudeedudeededoo looleeliloolyoulyou youeeaeemooeeloogyou moomyousfooeeaoo aeeaooeeyou",
           "udidudidudidedu lulililululu uiaimuilugu mumusfuiau aiauiu"
+        ],
+        [
+          " x ",
+          " ks "
+        ],
+        [
+          "   ",
+          "   "
+        ],
+        [
+          " QW ",
+          "  "
         ]
       ],
       "are_all_tests_run": true,
@@ -167,5 +179,5 @@
     "feedback_wrong": ""
   },
   "id": "4949336",
-  "time": "2026-11-22T18:35:40Z"
+  "time": "2026-11-23T06:34:36Z"
 }

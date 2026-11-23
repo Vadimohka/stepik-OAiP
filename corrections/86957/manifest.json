@@ -3,7 +3,7 @@
   "course_id": 86957,
   "date": "2026-11-23",
   "base_commit": "d936c0ee8d9f720ba26fec1b109a1153ae3b5930",
-  "status": "prepared",
+  "status": "published",
   "changed_steps": 24,
   "confirmed_findings": 25,
   "changed_lessons": 16,
@@ -14,9 +14,14 @@
     "block.text"
   ],
   "publication": {
-    "status": "not_applied",
-    "applied": false,
-    "note": "Package prepared and checked locally; no Stepik mutation or live grading verification."
+    "status": "verified_on_stepik",
+    "applied": true,
+    "verified_at": "2026-11-23T06:34:36Z",
+    "source_commit": "28618d2d4a0256316a72043ba01f8edda5d81088",
+    "verified_changed_steps": 24,
+    "verified_course_steps": 485,
+    "normalized_html_step_ids": [],
+    "verification_scope": "Post-publication API read of author blocks and learner representations; no graded submissions."
   },
   "steps": [
     {
