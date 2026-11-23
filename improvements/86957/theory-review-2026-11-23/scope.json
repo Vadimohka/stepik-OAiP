@@ -369,5 +369,13 @@
   },
   "source_inventory_path": "improvements/86957/course-review-2026-11-23/inventory.json",
   "source_snapshot_digest_sha256": "18b4059c02f701ba62f957c81ea9d8bc026fa4e218ac9318cc1e354ef939ccc3",
-  "historical_review_superseded": "improvements/86957/course-review-2026-11-23/README.md"
+  "historical_review_superseded": "improvements/86957/course-review-2026-11-23/README.md",
+  "current_theory_publication": {
+    "manifest_path": "improvements/86957/theory-2026-11-23/manifest.json",
+    "publication_status": "verified_on_stepik",
+    "verified_changed_steps": 88,
+    "verified_course_steps": 485,
+    "verification_receipt": "courses/86957/publication-verification-theory-2026-11-23.json",
+    "note": "Первый блок теоретического плана опубликован; новые упражнения и видео не добавлялись."
+  }
 }

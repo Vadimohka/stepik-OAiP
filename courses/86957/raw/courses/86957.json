@@ -131,7 +131,8 @@
     "30-78-86957"
   ],
   "announcements": [
-    22773
+    22773,
+    39160
   ],
   "is_contest": false,
   "is_self_paced": true,
@@ -252,7 +253,7 @@
   "grading_policy_source": "no_deadlines",
   "is_active": true,
   "create_date": "2020-11-09T17:02:36Z",
-  "update_date": "2026-11-23T07:27:27Z",
+  "update_date": "2026-11-23T07:49:53Z",
   "learners_group": 2870189,
   "testers_group": 2870190,
   "moderators_group": 2870191,

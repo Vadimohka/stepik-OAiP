@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "text",
-    "text": "<h3>Qt Creator</h3>\n\n<p>Qt Creator — интегрированная среда разработки C++, доступная на Windows, Linux и macOS. Существует открытая версия Qt Creator под лицензией GPL и коммерческая поставка. Открытая версия не ограничена месячным пробным сроком. Условия самой IDE и используемых библиотек Qt нужно различать; актуальная информация приведена в <a href=\"https://doc.qt.io/qtcreator/creator-acknowledgements.html\" rel=\"noopener noreferrer nofollow\">документации Qt Creator</a>.</p>\n\n<p><a href=\"https://media.tproger.ru/uploads/2015/11/qt.jpg\" rel=\"noopener noreferrer nofollow\" target=\"_blank\"><img alt=\"Qt Creator для C++\" height=\"580\" src=\"https://media.tproger.ru/uploads/2015/11/qt.jpg\" width=\"1000\"></a></p>\n\n<p><strong>Достоинства</strong>:</p>\n\n<ul>\n\t<li>Поддерживает отладку, профилирование, автозавершение кода и рефакторинг.</li>\n\t<li>Возможность компиляции проектов для разных ОС.</li>\n</ul>\n\n<p><strong>Недостатки</strong>:</p>\n\n<ul>\n\t<li>Не всегда работает автозавершение кода.</li>\n\t<li>Дорогая платная версия.</li>\n\t<li>Для Qt Online Installer нужна учётная запись Qt; Qt Creator также доступен как отдельный инструмент.</li>\n</ul>\n\n<p>Скачать можно по ссылке: <a href=\"https://www.qt.io/download\" rel=\"noopener noreferrer nofollow\">https://www.qt.io/download</a></p>",
+    "text": "<h2>Qt Creator: набор инструментов — kit</h2><p>Qt Creator группирует настройки среды выполнения и сборки в наборы — kits. Набор связывает целевое устройство, компилятор, отладчик и другие необходимые параметры. Для проекта с Qt в него входит и выбранная версия Qt.</p><p>Смена kit меняет окружение сборки, а не исходный смысл программы. Обычный консольный пример стандартного C++ не требует использования классов Qt. Условия лицензии IDE и библиотек Qt относятся к разным продуктам; текущие сведения и доступные установщики приведены в официальной документации.</p><p>Справка: <a href=\"https://doc.qt.io/qtcreator/creator-targets.html\" rel=\"noopener noreferrer nofollow\">официальная документация</a>. Для дальнейших уроков достаточно одной настроенной среды; знать особенности всех перечисленных IDE не требуется.</p>\n",
     "video": null,
     "options": {},
     "subtitle_files": [],
@@ -45,7 +45,7 @@
   "user_step_vote": null,
   "step_issue": 3180243,
   "create_date": "2022-08-11T18:26:29Z",
-  "update_date": "2026-11-22T21:06:00Z",
+  "update_date": "2026-11-23T09:25:58Z",
   "discussions_count": 0,
   "discussion_proxy": "77-3201151-1",
   "discussion_threads": [

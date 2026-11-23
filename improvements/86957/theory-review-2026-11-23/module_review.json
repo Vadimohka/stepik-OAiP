@@ -70,14 +70,14 @@
         {
           "step_id": 3201303,
           "snapshot_path": "courses/86957/steps/768145/03_3201303_text.step",
-          "effective_path": "courses/86957/steps/768145/03_3201303_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/768145/03_3201303_text.step",
           "effective_file_sha256": "a46a2b3e1d55680bdec083ed77196e8a2935d5554635b6e8a7e9267369f6c9bd",
           "observation": "Текст предполагает предшествующее знакомство всех учащихся с HTML/CSS."
         },
         {
           "step_id": 3173935,
           "snapshot_path": "courses/86957/steps/763040/03_3173935_text.step",
-          "effective_path": "courses/86957/steps/763040/03_3173935_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/763040/03_3173935_text.step",
           "effective_file_sha256": "bc5ec70c20ae623ba5c9e965dc7e3b7854a65bb9c8d2778f3a8e9cf7ebf627a0",
           "observation": "Формы записи алгоритма перечислены, переход к будущему C++ остаётся общим."
         }
@@ -98,14 +98,14 @@
         {
           "step_id": 3215252,
           "snapshot_path": "courses/86957/steps/771154/04_3215252_text.step",
-          "effective_path": "courses/86957/steps/771154/04_3215252_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/771154/04_3215252_text.step",
           "effective_file_sha256": "840c38e314606823c19e88c5cddb1382fe5cdbbe7c6c8d1ff87b5383ac7e686c",
           "observation": "Ранняя подробная модель CS:IP, адресации и команд требует контекста и предварительных знаний."
         },
         {
           "step_id": 3215267,
           "snapshot_path": "courses/86957/steps/771156/03_3215267_text.step",
-          "effective_path": "courses/86957/steps/771156/03_3215267_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/771156/03_3215267_text.step",
           "effective_file_sha256": "219ed4c2fc71bd3664148cc97bd66d5ff3f9866895dd34343fe9848f56afc80b",
           "observation": "Форматы базовых типов нужно связать с гарантиями языка и реализацией."
         },
@@ -133,21 +133,21 @@
         {
           "step_id": 3201141,
           "snapshot_path": "courses/86957/steps/768140/02_3201141_text.step",
-          "effective_path": "courses/86957/steps/768140/02_3201141_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/768140/02_3201141_text.step",
           "effective_file_sha256": "95d3cfa8561a4c3fa1c904abed13281f7cade21646d89a401f91ea5abbb30935",
           "observation": "Современное разграничение IDE, компилятора, C++20 и среды Stepik уже подготовлено в опубликованной основе."
         },
         {
           "step_id": 3214778,
           "snapshot_path": "courses/86957/steps/771009/03_3214778_text.step",
-          "effective_path": "courses/86957/steps/771009/03_3214778_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/771009/03_3214778_text.step",
           "effective_file_sha256": "d078f740d3d4683e800daff88d12d4cbab199ca97ed5d12020d5f1de30eaaff4",
           "observation": "Большой текст о популярности Git и продуктах Atlassian отвлекает от понятийной модели."
         },
         {
           "step_id": 3237946,
           "snapshot_path": "courses/86957/steps/776128/01_3237946_text.step",
-          "effective_path": "courses/86957/steps/776128/01_3237946_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/776128/01_3237946_text.step",
           "effective_file_sha256": "f73eb6c6b49ca200726204458967c12119a54329614abcc5140b6baca5ae71ec",
           "observation": "Углублённая тема _start помечена, но нужный маршрут предварительных знаний недостаточно явен."
         }
@@ -273,21 +273,21 @@
         {
           "step_id": 3212951,
           "snapshot_path": "courses/86957/steps/770592/02_3212951_text.step",
-          "effective_path": "courses/86957/steps/770592/02_3212951_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/770592/02_3212951_text.step",
           "effective_file_sha256": "e7e6ccea4068d2b01a5735bcbdfac663347a7adb371c49cc53fba96ca7d235e3",
           "observation": "Реализация не включает свой заголовок, контракт примера факториала расходится с обновлённой темой функций."
         },
         {
           "step_id": 3215032,
           "snapshot_path": "courses/86957/steps/770593/03_3215032_text.step",
-          "effective_path": "courses/86957/steps/770593/03_3215032_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/770593/03_3215032_text.step",
           "effective_file_sha256": "54892501ea1f86d3f9aace15792236daa2005dc5daba2e095104ea149ff96289",
           "observation": "Описание статической библиотеки преимущественно состоит из действий в Visual Studio."
         },
         {
           "step_id": 3215045,
           "snapshot_path": "courses/86957/steps/770593/04_3215045_text.step",
-          "effective_path": "courses/86957/steps/770593/04_3215045_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/770593/04_3215045_text.step",
           "effective_file_sha256": "defa029672b5e5abf718586bd10860c9d1a30b996a9b4f0a1146ea7dbb080a17",
           "observation": "Объяснение создания DLL прямо отсылает к двум видеороликам."
         }
@@ -308,21 +308,21 @@
         {
           "step_id": 3252940,
           "snapshot_path": "courses/86957/steps/778425/04_3252940_text.step",
-          "effective_path": "courses/86957/steps/778425/04_3252940_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/778425/04_3252940_text.step",
           "effective_file_sha256": "a04a8d9ff944018262c85ab914b95c8d10d018b2bb93a8f62ec9187caab7ec5c",
           "observation": "Дальнейшее объяснение исключений обещано без явного ближайшего перехода."
         },
         {
           "step_id": 3252941,
           "snapshot_path": "courses/86957/steps/778425/03_3252941_text.step",
-          "effective_path": "courses/86957/steps/778425/03_3252941_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/778425/03_3252941_text.step",
           "effective_file_sha256": "2c98b14e1269f6f7b6d52a26d8befdfd41409b0ea762a08f3d36d61a9c751234",
           "observation": "Ошибки, UB и ресурсные проблемы перечисляются рядом; нужны разные определения."
         },
         {
           "step_id": 3253503,
           "snapshot_path": "courses/86957/steps/778426/05_3253503_text.step",
-          "effective_path": "courses/86957/steps/778426/05_3253503_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/778426/05_3253503_text.step",
           "effective_file_sha256": "86a32c0e77b19fccc3d4129c9114160cee1bea0bcca75e6138a0dd563d5f585d",
           "observation": "Цельное объяснение общей реализации для приложения и тестов уже есть, повторная разработка не нужна."
         }
@@ -595,28 +595,28 @@
         {
           "step_id": 4035497,
           "snapshot_path": "courses/86957/steps/973837/01_4035497_text.step",
-          "effective_path": "courses/86957/steps/973837/01_4035497_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/973837/01_4035497_text.step",
           "effective_file_sha256": "4ea9d1c64eff0b082df25d10d090006582e2bc758c4a913a3a3151a078f4d4bc",
           "observation": "Общие определения структур данных требуют конкретной модели интерфейса и реализации."
         },
         {
           "step_id": 4035517,
           "snapshot_path": "courses/86957/steps/973837/02_4035517_text.step",
-          "effective_path": "courses/86957/steps/973837/02_4035517_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/973837/02_4035517_text.step",
           "effective_file_sha256": "49f4ec686f37f9fa01e52ca051fd9a1e52248f738bdc6ad0b3331c6336f795b7",
           "observation": "Повторяющиеся общие абзацы можно сократить в пользу связующего объяснения."
         },
         {
           "step_id": 4036909,
           "snapshot_path": "courses/86957/steps/973842/04_4036909_text.step",
-          "effective_path": "courses/86957/steps/973842/04_4036909_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/973842/04_4036909_text.step",
           "effective_file_sha256": "30ec1aeb40eaf3a789475dd3e491d747a97d3b104b1f2c853c88091e09bce15d",
           "observation": "Смешиваются интерфейс deque, гарантии стандарта и типичное устройство."
         },
         {
           "step_id": 4047627,
           "snapshot_path": "courses/86957/steps/977027/03_4047627_text.step",
-          "effective_path": "courses/86957/steps/977027/03_4047627_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/977027/03_4047627_text.step",
           "effective_file_sha256": "6a864e83562e453d3a467fa4f61a6c8a6c276d3190879fd28c3db9308d86f6dc",
           "observation": "dynamic_cast следует после очередей; нужен явный переход к типам и наследованию."
         }
@@ -637,21 +637,21 @@
         {
           "step_id": 3570281,
           "snapshot_path": "courses/86957/steps/853540/02_3570281_text.step",
-          "effective_path": "courses/86957/steps/853540/02_3570281_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/853540/02_3570281_text.step",
           "effective_file_sha256": "ae7123ac90ea33f13425dbadf7c785143b564f3a262e41861da7217f2f47bd8b",
           "observation": "Большой AVL-фрагмент нужно включить в единую последовательность обозначений и инвариантов."
         },
         {
           "step_id": 3570304,
           "snapshot_path": "courses/86957/steps/853541/03_3570304_text.step",
-          "effective_path": "courses/86957/steps/853541/03_3570304_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/853541/03_3570304_text.step",
           "effective_file_sha256": "33274523d61bd49a3e9a656689cf677bbc57171fcd9c42fa6315dec407201da0",
           "observation": "Случаям вставки RB необходима единая мотивация сохраняемого свойства."
         },
         {
           "step_id": 3570333,
           "snapshot_path": "courses/86957/steps/853541/04_3570333_text.step",
-          "effective_path": "courses/86957/steps/853541/04_3570333_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/853541/04_3570333_text.step",
           "effective_file_sha256": "079d3ceb6b10b8b58fc966732879cfcd77c83cbcd3882f43b327fe460ece408c",
           "observation": "Длинный разбор удаления RB требует ясной структуры и согласованности фрагментов."
         }
@@ -672,21 +672,21 @@
         {
           "step_id": 4035460,
           "snapshot_path": "courses/86957/steps/973829/03_4035460_text.step",
-          "effective_path": "courses/86957/steps/973829/03_4035460_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/973829/03_4035460_text.step",
           "effective_file_sha256": "1a37cd15e3fd730e343f07e5bd7168113bca6f0664004b9d0849ff1057bb1018",
           "observation": "Объяснение коллизий нужно связать с моделью стоимости и равенством ключей."
         },
         {
           "step_id": 4035443,
           "snapshot_path": "courses/86957/steps/973831/01_4035443_text.step",
-          "effective_path": "courses/86957/steps/973831/01_4035443_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/973831/01_4035443_text.step",
           "effective_file_sha256": "c49348f3781f17f7c4e45e0e9585f8fafbfe9ffaae5f62e329f852578b8ce394",
           "observation": "HashTable содержит владеющий PasswordList**; правила владения и копирования требуют явного описания."
         },
         {
           "step_id": 4035481,
           "snapshot_path": "courses/86957/steps/973831/02_4035481_text.step",
-          "effective_path": "courses/86957/steps/973831/02_4035481_text.step",
+          "effective_path": "improvements/86957/theory-2026-11-23/baseline/steps/973831/02_4035481_text.step",
           "effective_file_sha256": "bedc13cbbfb575664d3bff1b7371fda566c13d72eb9844ab18a7fb8073adca49",
           "observation": "Частичная реализация оставляет непрояснённые интерфейсы и границы демонстрации."
         }

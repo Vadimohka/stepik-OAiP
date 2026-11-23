@@ -142,7 +142,8 @@ def main():
                     for bad in ['-1\n','21\n','abc\n','']:
                         run(binary,bad,(1,'','input error\n'))
                     artifacts=list(build.glob('libcourse_math.*'))
-                    assert any(p.suffix==('.so' if shared=='ON' else '.a') for p in artifacts), artifacts
+                    expected_suffixes={'.a'} if shared=='OFF' else {'.so','.dylib','.dll'}
+                    assert any(p.suffix in expected_suffixes for p in artifacts), artifacts
                     report['checks'].append(f'factorial {std} shared={shared}: boundaries 0..20 and rejected input')
             # Run the exact CTest project printed in the lesson, including its release configuration.
             build=temp/'interesting-cmake'

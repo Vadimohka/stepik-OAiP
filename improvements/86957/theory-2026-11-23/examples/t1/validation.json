@@ -44,8 +44,8 @@
     "steps/776128/01_3237946_text.step": "0088668358210217105f3c50fa2e25cfd19c0e2d1e42819bd7a4668fb1d112ae",
     "steps/776128/03_3237989_text.step": "98e8bec459e622b21fae476b57a6404fbf84b51e338880f7fa92aa42c4d0274f"
   },
-  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.34.2)",
   "limitations": [
-    "Windows/MSVC and macOS were not executed."
+    "Windows/MSVC was not executed."
   ]
 }

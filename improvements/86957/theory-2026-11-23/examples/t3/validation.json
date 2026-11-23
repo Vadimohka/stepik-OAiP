@@ -2,9 +2,9 @@
   "schema_version": 1,
   "status": "passed",
   "all_passed": true,
-  "started_at": "2026-11-23T08:33:25.087530+00:00",
+  "started_at": "2026-11-23T09:20:16.166938+00:00",
   "scope": "Author verification of explanatory code; no student exercises or Stepik submissions.",
-  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.34.2)",
   "standards": [
     "c++17",
     "c++20"
@@ -52,7 +52,7 @@
     "examples/t3/objects/objects.cpp": "1e42040337241c96aa0fe964d61caf0574251cfda3596896d23bf5f7e66b6f92",
     "examples/t3/objects/objects.hpp": "6ce89baa3601b4d979adfda0383a6bd907195f3fa7ee7e3aa126f5a8873376e4",
     "examples/t3/out_of_range.cpp": "281cef2c9d11cf6427d38ad32867f8db3e2601ff7f61d3a8017adbfeb3d79ab9",
-    "examples/t3/verify.py": "216b98fcd98483e979bfd9cd90d3ab9b5ab8afe2582ff5541983867f6f1273ba",
+    "examples/t3/verify.py": "afbb75431af4d674acb4a62caf3e64cc40d30fe5b86f4866a07739154bbf057a",
     "review_t3.json": "f564efa57ece9a201fc5a277b95dbefbcc813cd0b8f982e62b5f8b2543106dac",
     "steps/770590/01_3212949_text.step": "1951323a045c76458517e47c75d275defb8f0713c9d82e8db6084b0fb5abcf55",
     "steps/770590/02_3214909_text.step": "1eff45ea55b980940abbd734a55ab94c36953d533ad6976bb3dd51c2e29b8559",
@@ -103,8 +103,8 @@
     "GoogleTest pinned version, C++20: both test cases passed"
   ],
   "limitations": [
-    "Windows/MSVC and macOS binaries were not executed."
+    "Windows/MSVC was not executed."
   ],
-  "cmake": "cmake version 4.4.5",
-  "finished_at": "2026-11-23T08:34:14.513511+00:00"
+  "cmake": "cmake version 4.5.1",
+  "finished_at": "2026-11-23T09:23:34.650054+00:00"
 }
