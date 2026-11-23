@@ -1,7 +1,7 @@
 {
   "block": {
     "name": "choice",
-    "text": "<p>Какой оператор работает только с целочисленными переменными?</p>",
+    "text": "<h2>std::move и константный источник</h2>\n<p>Что выведет программа? Рассматриваем C++17 или новее; создание векторов завершается успешно.</p>\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;utility&gt;\n#include &lt;vector&gt;\n\nint main() {\n    const std::vector&lt;int&gt; source{4, 5};\n    std::vector&lt;int&gt; destination = std::move(source);\n    destination[0] = 1;\n    std::cout &lt;&lt; source[0] &lt;&lt; ' ' &lt;&lt; destination[0] &lt;&lt; '\\n';\n}\n</code></pre>\n<p>Выберите один верный ответ.</p>",
     "video": null,
     "options": {
       "is_multiple_choice": false
@@ -14,35 +14,35 @@
       "sample_size": 4,
       "preserve_order": false,
       "is_html_enabled": true,
-      "is_options_feedback": false,
+      "is_options_feedback": true,
       "options": [
         {
-          "is_correct": false,
-          "text": "декремент",
-          "feedback": ""
-        },
-        {
-          "is_correct": false,
-          "text": "Все перечисленное",
-          "feedback": ""
-        },
-        {
-          "is_correct": false,
-          "text": "инкремент",
-          "feedback": ""
-        },
-        {
           "is_correct": true,
-          "text": "Ничего из перечисленного",
-          "feedback": ""
+          "text": "<code>4 1</code>: <code>destination</code> получает независимую копию элементов <code>source</code>.",
+          "feedback": "<code>std::move(source)</code> сохраняет <code>const</code>. Перемещающий конструктор вектора не принимает такой источник, но конструктор копирования принимает его по <code>const&amp;</code>. Изменение копии не меняет исходный вектор."
+        },
+        {
+          "is_correct": false,
+          "text": "<code>1 1</code>: оба вектора после <code>std::move</code> используют одни и те же элементы.",
+          "feedback": "Копирование <code>std::vector&lt;int&gt;</code> создаёт независимые элементы. Присваивание <code>destination[0] = 1</code> не изменяет <code>source[0]</code>."
+        },
+        {
+          "is_correct": false,
+          "text": "Программа не компилируется: <code>std::move</code> запрещено применять к константному объекту.",
+          "feedback": "<code>std::move</code> можно применять к константному объекту; <code>const</code> при этом сохраняется. Здесь доступен конструктор копирования вектора, поэтому программа корректна."
+        },
+        {
+          "is_correct": false,
+          "text": "Результат чтения <code>source[0]</code> нельзя предсказать: любой вызов <code>std::move</code> опустошает источник.",
+          "feedback": "<code>std::move</code> сам не меняет объект. В этой программе выбирается копирование, поэтому <code>source</code> сохраняет оба элемента. Неуточнённое состояние после реально выполненного перемещения к этому случаю не относится."
         }
       ]
     },
     "subtitles": {},
     "tests_archive": null,
-    "feedback_correct": "",
-    "feedback_wrong": ""
+    "feedback_correct": "Верно: std::move сохраняет const, поэтому здесь создаётся независимая копия вектора.",
+    "feedback_wrong": "Разделите приведение категории выражения и вызов конструктора: std::move сам не переносит элементы и не снимает const."
   },
   "id": "4718246",
-  "time": "2026-11-22T18:35:40Z"
+  "time": "2026-11-23T07:34:28Z"
 }

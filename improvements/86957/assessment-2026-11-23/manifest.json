@@ -3,13 +3,19 @@
   "course_id": 86957,
   "date": "2026-11-23",
   "base_commit": "7a7db0a3061f9316cc6ae19c1b6c1d7f28888ee4",
-  "status": "prepared",
+  "status": "published",
   "changed_steps": 4,
   "changed_lessons": 3,
   "publication": {
-    "status": "not_published",
-    "applied": false,
-    "note": "Подготовлено в GitHub; в Stepik в этой итерации не применялось."
+    "status": "verified_on_stepik",
+    "applied": true,
+    "verified_at": "2026-11-23T07:34:28Z",
+    "verified_changed_steps": 4,
+    "verified_course_steps": 485,
+    "normalized_html_step_ids": [
+      4718246
+    ],
+    "verification_scope": "Post-publication full author-source read of all 485 course steps; learner representation and placement readback for each changed step; no graded submissions."
   },
   "steps": [
     {

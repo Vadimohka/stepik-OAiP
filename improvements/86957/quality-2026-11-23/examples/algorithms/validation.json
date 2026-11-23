@@ -129,7 +129,7 @@
       "passed": true
     }
   ],
-  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.34.2)",
   "flags": [
     "-Wall",
     "-Wextra",

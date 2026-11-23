@@ -73,7 +73,7 @@
   "local_truth_table_subsets": 3088,
   "permuted_truth_table_subsets": 6176,
   "context_evidence_checks": 34,
-  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.34.2)",
   "cpp_example": [
     {
       "standard": "c++17",

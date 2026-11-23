@@ -5,7 +5,7 @@
   "status": "ready",
   "block": {
     "name": "choice",
-    "text": "<p>Какой оператор работает только с целочисленными переменными?</p>",
+    "text": "<h2>std::move и константный источник</h2>\n<p>Что выведет программа? Рассматриваем C++17 или новее; создание векторов завершается успешно.</p>\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;utility&gt;\n#include &lt;vector&gt;\n\nint main() {\n    const std::vector&lt;int&gt; source{4, 5};\n    std::vector&lt;int&gt; destination = std::move(source);\n    destination[0] = 1;\n    std::cout &lt;&lt; source[0] &lt;&lt; ' ' &lt;&lt; destination[0] &lt;&lt; '\\n';\n}\n</code></pre>\n<p>Выберите один верный ответ.</p>",
     "video": null,
     "options": {
       "is_multiple_choice": false
@@ -49,7 +49,7 @@
   "user_step_vote": null,
   "step_issue": 4697343,
   "create_date": "2023-11-13T19:08:33Z",
-  "update_date": "2026-01-30T17:56:48Z",
+  "update_date": "2026-11-23T07:27:27Z",
   "discussions_count": 4,
   "discussion_proxy": "77-4718246-1",
   "discussion_threads": [

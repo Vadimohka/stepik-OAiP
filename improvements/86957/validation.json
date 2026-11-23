@@ -488,7 +488,7 @@
     "tools/build_quality_packages.py": "b0e127ea29f8c74576d4a48cb6e787a8baa338f2ad0aa2f7dff4deabe12b21ca",
     "tools/verify_quality_packages.py": "4a62abed5bd5e929922890ff0876c45feed578e6ffb5977d07451305862a526c"
   },
-  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.34.2)",
   "compilations": 44,
   "runtime_cases": 990,
   "subset_checks": 9264,
