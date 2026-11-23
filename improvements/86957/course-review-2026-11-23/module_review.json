@@ -1210,5 +1210,8 @@
         "verified_publication": "Новый итоговый маршрут ещё не подготовлен"
       }
     }
-  ]
+  ],
+  "assessment_status": "historical_scope_superseded",
+  "superseded_by": "improvements/86957/theory-review-2026-11-23/README.md",
+  "supersession_reason": "Уточнение пользователя: видеоуроков не будет, практику не добавлять; обновлять только теорию и связанность. Прежние критерии и часы сохранены как история."
 }
