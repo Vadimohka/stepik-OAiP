@@ -1,0 +1,46 @@
+{
+  "changes": [
+    {
+      "step_id": 4035311,
+      "summary": "Контейнеры, диапазон [begin, end), проверка результата поиска и требования алгоритмов",
+      "sources": [
+        "https://eel.is/c++draft/iterator.requirements.general",
+        "https://eel.is/c++draft/alg.find",
+        "https://eel.is/c++draft/sort"
+      ]
+    },
+    {
+      "step_id": 4035416,
+      "summary": "Выбор контейнера, ключи и повторения; проверяемый пример std::set",
+      "sources": [
+        "https://eel.is/c++draft/associative.reqmts",
+        "https://eel.is/c++draft/set"
+      ]
+    },
+    {
+      "step_id": 4035427,
+      "summary": "Счётчик слов на std::map, find/at/[] и предотвращение случайной вставки",
+      "sources": [
+        "https://eel.is/c++draft/map.access",
+        "https://eel.is/c++draft/map.modifiers"
+      ]
+    },
+    {
+      "step_id": 4035417,
+      "summary": "Модель стоимости, сравнение длинных ключей, отдельный запрос и серия; средняя и амортизированная оценки",
+      "sources": [
+        "https://eel.is/c++draft/associative.reqmts",
+        "https://eel.is/c++draft/unord.req",
+        "https://eel.is/c++draft/vector.modifiers"
+      ]
+    },
+    {
+      "step_id": 4035430,
+      "summary": "Практический выбор map/unordered_map, коллизии, reserve, итераторы и детерминированный вывод",
+      "sources": [
+        "https://eel.is/c++draft/associative.reqmts",
+        "https://eel.is/c++draft/unord.req"
+      ]
+    }
+  ]
+}

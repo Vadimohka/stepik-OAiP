@@ -1,0 +1,66 @@
+{
+  "changes": [
+    {
+      "step_id": 3215113,
+      "summary": "RAII файлового потока, чтение строк по успешности операции, пустые строки и последний перевод строки.",
+      "sources": [
+        "https://eel.is/c++draft/string.io",
+        "https://eel.is/c++draft/iostate.flags",
+        "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rr-raii"
+      ]
+    },
+    {
+      "step_id": 3215200,
+      "summary": "Относительные пути, режимы открытия, раздельные проверки открытия и завершения записи; границы гарантий flush.",
+      "sources": [
+        "https://eel.is/c++draft/filebuf.members",
+        "https://eel.is/c++draft/ofstream.members",
+        "https://eel.is/c++draft/ostream.unformatted"
+      ]
+    },
+    {
+      "step_id": 3215199,
+      "summary": "Осмысленное сопоставление FILE* и потоков C++, проверка fwrite/fclose и ручного владения.",
+      "sources": [
+        "https://eel.is/c++draft/c.files",
+        "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rr-raii"
+      ]
+    },
+    {
+      "step_id": 3580923,
+      "summary": "Режимы app/ate/trunc на исполняемых примерах дописывания и перезаписи без усечения.",
+      "sources": [
+        "https://eel.is/c++draft/filebuf.members",
+        "https://eel.is/c++draft/ifstream.members",
+        "https://eel.is/c++draft/ofstream.members"
+      ]
+    },
+    {
+      "step_id": 3215112,
+      "summary": "Формат данных, кодировка и binary как разные решения; ограничения сохранения памяти объектов.",
+      "sources": [
+        "https://eel.is/c++draft/filebuf.members",
+        "https://eel.is/c++draft/basic.types",
+        "https://eel.is/c++draft/ostream.inserters.arithmetic"
+      ]
+    },
+    {
+      "step_id": 3215203,
+      "summary": "Позиции чтения/записи, проверка seekg и ограничения байтовой модели; отказ от FNULL как учебной цели.",
+      "sources": [
+        "https://eel.is/c++draft/istream.unformatted",
+        "https://eel.is/c++draft/ostream.seeks",
+        "https://eel.is/c++draft/c.files"
+      ]
+    },
+    {
+      "step_id": 3215206,
+      "summary": "Полная проверка числового файла, EOF и ошибка формата, защита суммы ограничениями и граничные тесты.",
+      "sources": [
+        "https://eel.is/c++draft/string.io",
+        "https://eel.is/c++draft/istream.formatted.arithmetic",
+        "https://eel.is/c++draft/iostate.flags"
+      ]
+    }
+  ]
+}

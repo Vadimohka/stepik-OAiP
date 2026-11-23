@@ -1,0 +1,79 @@
+{
+  "examples": [
+    {
+      "source": "read_lines.cpp",
+      "step_id": 3215113,
+      "cases": [
+        {"name": "names_with_spaces", "stdin": "", "stdout": "1: Ada Lovelace\n2: Alan Turing\n", "stderr": "", "returncode": 0, "files": {"names.txt": "Ada Lovelace\nAlan Turing\n"}},
+        {"name": "blank_line_and_missing_final_newline", "stdin": "", "stdout": "1: Ada\n2: \n3: Alan\n", "stderr": "", "returncode": 0, "files": {"names.txt": "Ada\n\nAlan"}},
+        {"name": "empty_file", "stdin": "", "stdout": "", "stderr": "", "returncode": 0, "files": {"names.txt": ""}},
+        {"name": "one_empty_line", "stdin": "", "stdout": "1: \n", "stderr": "", "returncode": 0, "files": {"names.txt": "\n"}},
+        {"name": "missing_file", "stdin": "", "stdout": "", "stderr": "Cannot open names.txt\n", "returncode": 1, "files": {}}
+      ]
+    },
+    {
+      "source": "write_report.cpp",
+      "step_id": 3215200,
+      "cases": [
+        {"name": "create_report", "stdin": "", "stdout": "saved\n", "stderr": "", "returncode": 0, "files": {}, "expected_files": {"report.txt": "count 3\nsum 42\n"}},
+        {"name": "truncate_old_report", "stdin": "", "stdout": "saved\n", "stderr": "", "returncode": 0, "files": {"report.txt": "old long report\n12345678901234567890\n"}, "expected_files": {"report.txt": "count 3\nsum 42\n"}}
+      ]
+    },
+    {
+      "source": "c_write.cpp",
+      "step_id": 3215199,
+      "cases": [
+        {"name": "write_bytes_without_nul", "stdin": "", "stdout": "", "stderr": "", "returncode": 0, "files": {}, "expected_files": {"message.txt": "Hello, files!\n"}},
+        {"name": "truncate_existing", "stdin": "", "stdout": "", "stderr": "", "returncode": 0, "files": {"message.txt": "old message that is longer than the new one"}, "expected_files": {"message.txt": "Hello, files!\n"}}
+      ]
+    },
+    {
+      "source": "append_line.cpp",
+      "step_id": 3580923,
+      "cases": [
+        {"name": "create_journal", "stdin": "", "stdout": "", "stderr": "", "returncode": 0, "files": {}, "expected_files": {"journal.txt": "7\n"}},
+        {"name": "keep_previous_lines", "stdin": "", "stdout": "", "stderr": "", "returncode": 0, "files": {"journal.txt": "5\n"}, "expected_files": {"journal.txt": "5\n7\n"}},
+        {"name": "no_implicit_separator", "stdin": "", "stdout": "", "stderr": "", "returncode": 0, "files": {"journal.txt": "5"}, "expected_files": {"journal.txt": "57\n"}}
+      ]
+    },
+    {
+      "source": "overwrite_prefix.cpp",
+      "step_id": 3580923,
+      "cases": [
+        {"name": "no_truncation", "stdin": "", "stdout": "", "stderr": "", "returncode": 0, "files": {"text.txt": "ABOBA"}, "expected_files": {"text.txt": "LUCIA"}},
+        {"name": "empty_existing_file", "stdin": "", "stdout": "", "stderr": "", "returncode": 0, "files": {"text.txt": ""}, "expected_files": {"text.txt": "LUCI"}},
+        {"name": "missing_file_is_not_created", "stdin": "", "stdout": "", "stderr": "Cannot open text.txt\n", "returncode": 1, "files": {}, "expected_absent": ["text.txt"]}
+      ]
+    },
+    {
+      "source": "last_byte.cpp",
+      "step_id": 3215203,
+      "cases": [
+        {"name": "five_bytes", "stdin": "", "stdout": "E\n", "stderr": "", "returncode": 0, "files": {"letters.bin": "ABCDE"}},
+        {"name": "one_byte", "stdin": "", "stdout": "Z\n", "stderr": "", "returncode": 0, "files": {"letters.bin": "Z"}},
+        {"name": "newline_is_also_a_byte", "stdin": "", "stdout": "\n\n", "stderr": "", "returncode": 0, "files": {"letters.bin": "ABCDE\n"}},
+        {"name": "empty_file_has_no_last_byte", "stdin": "", "stdout": "", "stderr": "Cannot seek letters.bin\n", "returncode": 2, "files": {"letters.bin": ""}},
+        {"name": "missing_file", "stdin": "", "stdout": "", "stderr": "Cannot open letters.bin\n", "returncode": 1, "files": {}}
+      ]
+    },
+    {
+      "source": "sum_numbers.cpp",
+      "step_id": 3215206,
+      "cases": [
+        {"name": "example", "stdin": "", "stdout": "3 12\n", "stderr": "", "returncode": 0, "files": {"numbers.txt": "10 -3 5\n"}},
+        {"name": "empty_file", "stdin": "", "stdout": "0 0\n", "stderr": "", "returncode": 0, "files": {"numbers.txt": ""}},
+        {"name": "whitespace_only", "stdin": "", "stdout": "0 0\n", "stderr": "", "returncode": 0, "files": {"numbers.txt": " \t\n \n"}},
+        {"name": "zero_without_final_newline", "stdin": "", "stdout": "1 0\n", "stderr": "", "returncode": 0, "files": {"numbers.txt": "0"}},
+        {"name": "value_boundaries", "stdin": "", "stdout": "2 0\n", "stderr": "", "returncode": 0, "files": {"numbers.txt": "-1000000 1000000"}},
+        {"name": "signs_leading_zeroes_and_whitespace", "stdin": "", "stdout": "3 2\n", "stderr": "", "returncode": 0, "files": {"numbers.txt": "+03\t-1\n-0"}},
+        {"name": "trailing_letters", "stdin": "", "stdout": "", "stderr": "Invalid integer\n", "returncode": 2, "files": {"numbers.txt": "2 12abc 4"}},
+        {"name": "out_of_contract_range", "stdin": "", "stdout": "", "stderr": "Invalid integer\n", "returncode": 2, "files": {"numbers.txt": "1000001"}},
+        {"name": "negative_out_of_range", "stdin": "", "stdout": "", "stderr": "Invalid integer\n", "returncode": 2, "files": {"numbers.txt": "-1000001"}},
+        {"name": "overflow_at_eof", "stdin": "", "stdout": "", "stderr": "Invalid integer\n", "returncode": 2, "files": {"numbers.txt": "9999999999999999999999999999999999999999"}},
+        {"name": "sign_without_digits", "stdin": "", "stdout": "", "stderr": "Invalid integer\n", "returncode": 2, "files": {"numbers.txt": "+"}},
+        {"name": "fraction_is_not_integer", "stdin": "", "stdout": "", "stderr": "Invalid integer\n", "returncode": 2, "files": {"numbers.txt": "1.5"}},
+        {"name": "missing_file", "stdin": "", "stdout": "", "stderr": "Cannot open numbers.txt\n", "returncode": 1, "files": {}}
+      ]
+    }
+  ]
+}

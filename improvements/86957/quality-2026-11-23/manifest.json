@@ -1,0 +1,553 @@
+{
+  "schema_version": 1,
+  "course_id": 86957,
+  "date": "2026-11-23",
+  "base_commit": "7a7db0a3061f9316cc6ae19c1b6c1d7f28888ee4",
+  "status": "prepared",
+  "changed_steps": 25,
+  "changed_lessons": 8,
+  "publication": {
+    "status": "not_published",
+    "applied": false,
+    "note": "Подготовлено в GitHub; в Stepik в этой итерации не применялось."
+  },
+  "steps": [
+    {
+      "step_id": 3212953,
+      "lesson_id": 770594,
+      "position": 1,
+      "source_path": "courses/86957/steps/770594/01_3212953_text.step",
+      "target_path": "improvements/86957/quality-2026-11-23/steps/770594/01_3212953_text.step",
+      "baseline_path": "improvements/86957/quality-2026-11-23/baseline/770594/01_3212953_text.step",
+      "before_file_sha256": "578ba010a546436fce532ea2330de7e6f6d29227cc9e4289808cfba26b28b840",
+      "after_file_sha256": "8d5bd2bc571b703575161e5c4ba8fb41cfa581518e8c104916060c12bea64ae5",
+      "before_block_sha256": "abd0c2a3cf2e96dff687a85fff94fccc13ef6cfc3c0b40790571ffdc36c4844b",
+      "after_block_sha256": "9d037a2c78c13169b95f17fd7eedca5107aca1f1a1037974add1716554fb20a3",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Явные учебные цели, модель стоимости, лучший/худший/средний случаи и выбор памяти на примере максимума.",
+      "sources": [
+        "https://algs4.cs.princeton.edu/14analysis/",
+        "https://algs4.cs.princeton.edu/cheatsheet/"
+      ],
+      "step_url": "https://stepik.org/lesson/770594/step/1"
+    },
+    {
+      "step_id": 3213247,
+      "lesson_id": 770594,
+      "position": 6,
+      "source_path": "courses/86957/steps/770594/06_3213247_text.step",
+      "target_path": "improvements/86957/quality-2026-11-23/steps/770594/06_3213247_text.step",
+      "baseline_path": "improvements/86957/quality-2026-11-23/baseline/770594/06_3213247_text.step",
+      "before_file_sha256": "13cc478d35485980ae69db24ae17bb7aa393ee74d8c1849f6572266b3d8ea3cf",
+      "after_file_sha256": "3a89d7298cfaf1339228824f5d989802ca32f8bcc314d6d747e5718153ae10a6",
+      "before_block_sha256": "635269faf819804f9a0c74d2235bb7f7713c2b3845e42d65b9533e1898d8449b",
+      "after_block_sha256": "11ffbde8152f2f706f088e21dd6d58ac906db5cb8a9a38bea48fe47723fbcff8",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Логарифмический рост через короткий исполняемый пример; отделены стоимость поиска и предварительная сортировка.",
+      "sources": [
+        "https://algs4.cs.princeton.edu/14analysis/",
+        "https://eel.is/c++draft/lower.bound",
+        "https://eel.is/c++draft/sort"
+      ],
+      "step_url": "https://stepik.org/lesson/770594/step/6"
+    },
+    {
+      "step_id": 3213256,
+      "lesson_id": 770594,
+      "position": 8,
+      "source_path": "courses/86957/steps/770594/08_3213256_text.step",
+      "target_path": "improvements/86957/quality-2026-11-23/steps/770594/08_3213256_text.step",
+      "baseline_path": "improvements/86957/quality-2026-11-23/baseline/770594/08_3213256_text.step",
+      "before_file_sha256": "3b1d461bb35c67d22d610e7cc9b5895486453f0daf3cef42c0228abde55125b7",
+      "after_file_sha256": "f09b9a5150645d6cbe6b76f3c43af18d85e6242d2c07b63ef8d6af1494c26a6f",
+      "before_block_sha256": "1e336a3e6918cc8bf76a80bc8b91763fbb20a4af0be8827e4fab7d9231eb453f",
+      "after_block_sha256": "37e8193001ca877c871869c0ea2cf6b86044a1756d1d16faa580331008a5c1a2",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Подсчёт работы последовательных, треугольных и прямоугольных циклов; два параметра входа и исполняемый эксперимент.",
+      "sources": [
+        "https://algs4.cs.princeton.edu/14analysis/"
+      ],
+      "step_url": "https://stepik.org/lesson/770594/step/8"
+    },
+    {
+      "step_id": 3213255,
+      "lesson_id": 770594,
+      "position": 9,
+      "source_path": "courses/86957/steps/770594/09_3213255_text.step",
+      "target_path": "improvements/86957/quality-2026-11-23/steps/770594/09_3213255_text.step",
+      "baseline_path": "improvements/86957/quality-2026-11-23/baseline/770594/09_3213255_text.step",
+      "before_file_sha256": "4267c41f092a92b51a755ff0941d404a324a0a140409de2dea283a7939709ae7",
+      "after_file_sha256": "26bc06526dde8f71c5b1442e0a55b85900d24d79075ced5cbd3ad600b3768162",
+      "before_block_sha256": "869118a84034416fd8741e87e2377ec79cf2dfbbfe2bfd57cb712256e32f109d",
+      "after_block_sha256": "086a34e6b9ffaabb61ccebc5872dc1c482c135dcbdda530bf5c835f14f77b9d0",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Практикум корректного сравнения алгоритмов, отделение доказательства сложности от измерений и проверка результата до оптимизации.",
+      "sources": [
+        "https://algs4.cs.princeton.edu/14analysis/",
+        "https://eel.is/c++draft/time.clock.steady"
+      ],
+      "step_url": "https://stepik.org/lesson/770594/step/9"
+    },
+    {
+      "step_id": 3212954,
+      "lesson_id": 770595,
+      "position": 1,
+      "source_path": "courses/86957/steps/770595/01_3212954_text.step",
+      "target_path": "improvements/86957/quality-2026-11-23/steps/770595/01_3212954_text.step",
+      "baseline_path": "improvements/86957/quality-2026-11-23/baseline/770595/01_3212954_text.step",
+      "before_file_sha256": "fc7d5bb14ee928ea8aaaf244996296d6e0a5d1b96a31650d32fd3b4d05a91f55",
+      "after_file_sha256": "978d4298b07b10e2def4678ad80bb57b6a04e0c1ac35eac8b9fc9393705ff733",
+      "before_block_sha256": "4802452f0f6176143c4227cd7f886bf0b419716f5a20d80cb20127452821a4a6",
+      "after_block_sha256": "3f45779d72c63249b4f65d9363f76a609046ed2f077c20ec5fc60e28f0fb22d0",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Прикладной std::sort, контракт сортировки, устойчивость, сравнительная таблица конкретных реализаций и задача на выбор алгоритма.",
+      "sources": [
+        "https://eel.is/c++draft/sort",
+        "https://eel.is/c++draft/stable.sort",
+        "https://algs4.cs.princeton.edu/cheatsheet/"
+      ],
+      "step_url": "https://stepik.org/lesson/770595/step/1"
+    },
+    {
+      "step_id": 3215136,
+      "lesson_id": 770595,
+      "position": 2,
+      "source_path": "courses/86957/steps/770595/02_3215136_text.step",
+      "target_path": "improvements/86957/quality-2026-11-23/steps/770595/02_3215136_text.step",
+      "baseline_path": "improvements/86957/quality-2026-11-23/baseline/770595/02_3215136_text.step",
+      "before_file_sha256": "13054af1d50c2c827647c1744c32a018905dfd256361dcfa54f7d91e7e1e501f",
+      "after_file_sha256": "358a49787ff731405ce8bf34a8b5fd404bd65ac893d8fd018a1800145b1077bf",
+      "before_block_sha256": "ec352f0774a939d2b85b6e049bee7a70b896cf7accb239a3b38c7be491b98e15",
+      "after_block_sha256": "5b898789184a923d0c065da07a3086fe49e318d58c3fac50c10bbc7a5022c8b6",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Полная сортировка пузырьком с ранней остановкой, инвариантом, устойчивостью и безопасной обработкой пустого массива.",
+      "sources": [
+        "https://algs4.cs.princeton.edu/cheatsheet/"
+      ],
+      "step_url": "https://stepik.org/lesson/770595/step/2"
+    },
+    {
+      "step_id": 3215176,
+      "lesson_id": 770595,
+      "position": 4,
+      "source_path": "courses/86957/steps/770595/04_3215176_text.step",
+      "target_path": "improvements/86957/quality-2026-11-23/steps/770595/04_3215176_text.step",
+      "baseline_path": "improvements/86957/quality-2026-11-23/baseline/770595/04_3215176_text.step",
+      "before_file_sha256": "77ed2c0ffab834cd02b5f1c00fdc99f2ed38e69a3373e4346ce07e4a4646eeed",
+      "after_file_sha256": "1d6657dace67dafa30898d87b87ba4ea456413a2c96ecac2b893c477a4811c12",
+      "before_block_sha256": "5f2d5ee5bbf8b635f821dbc00b3f4ea7723cf271bed881ead829fc96ceaf189f",
+      "after_block_sha256": "c0c8435562a71fd65ad9a641c678444a12e55eac5035f6d3d27df0f8bb667238",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Исполняемая сортировка вставками: инвариант префикса, сдвиги, короткое замыкание, устойчивость и пограничные входы.",
+      "sources": [
+        "https://algs4.cs.princeton.edu/cheatsheet/"
+      ],
+      "step_url": "https://stepik.org/lesson/770595/step/4"
+    },
+    {
+      "step_id": 3215175,
+      "lesson_id": 770595,
+      "position": 5,
+      "source_path": "courses/86957/steps/770595/05_3215175_text.step",
+      "target_path": "improvements/86957/quality-2026-11-23/steps/770595/05_3215175_text.step",
+      "baseline_path": "improvements/86957/quality-2026-11-23/baseline/770595/05_3215175_text.step",
+      "before_file_sha256": "83fcaa8498aaa858cbb484b5e1af74e4dba316bbc5dfee51463a04edfbbfa926",
+      "after_file_sha256": "684e91d3ff49dd45e6db5490245cccdcb0df23c9d24c609c5e7e6374fb825350",
+      "before_block_sha256": "b42e6badf86751c108d260fbac5a8c000c62a4200f16ba70e44487d70a675c01",
+      "after_block_sha256": "dc808dd5a43ca0a8917ffffaab7910df338f2431a782a7b18386b5ddee99a601",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Разбиение quicksort, обработка равных ключей, модель ожидаемой сложности, худший случай и учёт рекурсивного стека.",
+      "sources": [
+        "https://algs4.cs.princeton.edu/cheatsheet/",
+        "https://eel.is/c++draft/sort",
+        "https://algs4.cs.princeton.edu/23quicksort/"
+      ],
+      "step_url": "https://stepik.org/lesson/770595/step/5"
+    },
+    {
+      "step_id": 3215178,
+      "lesson_id": 770595,
+      "position": 6,
+      "source_path": "courses/86957/steps/770595/06_3215178_text.step",
+      "target_path": "improvements/86957/quality-2026-11-23/steps/770595/06_3215178_text.step",
+      "baseline_path": "improvements/86957/quality-2026-11-23/baseline/770595/06_3215178_text.step",
+      "before_file_sha256": "c502a3e1e29da8e77963329307e8840f7975dafebb93ae11483c9811e3f6af7e",
+      "after_file_sha256": "96866ca65718e31d5211887a3025b05b723c4845813b216cb8adf46d6c10d7a2",
+      "before_block_sha256": "c19ac50168fc90913d4a01a1a380dc7b88164f9360109750e63a95b5c7928a0d",
+      "after_block_sha256": "bda350b555a6c24d2185b8ef03334ed2813d66f1992d0c2f85c407963fb05039",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Полная устойчивая merge sort с одним буфером, полуинтервалами, инвариантом слияния и раздельным анализом буфера и стека.",
+      "sources": [
+        "https://algs4.cs.princeton.edu/cheatsheet/",
+        "https://algs4.cs.princeton.edu/22mergesort/",
+        "https://hjemmesider.diku.dk/~jyrki/Myris/GKP2000J.html"
+      ],
+      "step_url": "https://stepik.org/lesson/770595/step/6"
+    },
+    {
+      "step_id": 3215179,
+      "lesson_id": 770595,
+      "position": 8,
+      "source_path": "courses/86957/steps/770595/08_3215179_text.step",
+      "target_path": "improvements/86957/quality-2026-11-23/steps/770595/08_3215179_text.step",
+      "baseline_path": "improvements/86957/quality-2026-11-23/baseline/770595/08_3215179_text.step",
+      "before_file_sha256": "9e0049fff4522fff69a8ff8890de05a655aaf4eb0e2f79925eac9be8beaf908a",
+      "after_file_sha256": "3524a7ef5c7999a900eeff2976fcb3db125678d566d6f4ca8756fc679de03dac",
+      "before_block_sha256": "fd0365cc57702ec784093bd2e5936d784f3a25558b92ceee95460b187dd6cf99",
+      "after_block_sha256": "9d2a57a0aefdb71fa3e2ac143ccac3ed07e79743630ec990a8da18fe0912307c",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Итеративная heapsort без ручной памяти: безопасные индексы, инварианты, линейное построение кучи и разграничение операций поиска.",
+      "sources": [
+        "https://algs4.cs.princeton.edu/cheatsheet/",
+        "https://algs4.cs.princeton.edu/24pq/"
+      ],
+      "step_url": "https://stepik.org/lesson/770595/step/8"
+    },
+    {
+      "step_id": 3215109,
+      "lesson_id": 771129,
+      "position": 1,
+      "source_path": "courses/86957/steps/771129/01_3215109_text.step",
+      "target_path": "improvements/86957/quality-2026-11-23/steps/771129/01_3215109_text.step",
+      "baseline_path": "improvements/86957/quality-2026-11-23/baseline/771129/01_3215109_text.step",
+      "before_file_sha256": "7a76ce8fe8a71ce330a5c4d37e6e707a4973df597279e7e25b72efc0e7c0e5e1",
+      "after_file_sha256": "e44bc6f777a87d86cf4dc97e618375979f956cd00dfbb382cf8bebf056713e59",
+      "before_block_sha256": "436854743d122004ad8e42cc679cdb8b4428f93ffdf71de2f2a6e920a7b997a3",
+      "after_block_sha256": "7518d0b31832bb16c1dd77e858653a6283bddef3090ffac5822ed9cdc5c0e9ef",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Контракты поиска, возвращаемая позиция, повторы, стандартные алгоритмы и полная стоимость серии запросов.",
+      "sources": [
+        "https://eel.is/c++draft/alg.find",
+        "https://eel.is/c++draft/lower.bound",
+        "https://eel.is/c++draft/alg.binary.search",
+        "https://eel.is/c++draft/alg.search"
+      ],
+      "step_url": "https://stepik.org/lesson/771129/step/1"
+    },
+    {
+      "step_id": 3215183,
+      "lesson_id": 771129,
+      "position": 2,
+      "source_path": "courses/86957/steps/771129/02_3215183_text.step",
+      "target_path": "improvements/86957/quality-2026-11-23/steps/771129/02_3215183_text.step",
+      "baseline_path": "improvements/86957/quality-2026-11-23/baseline/771129/02_3215183_text.step",
+      "before_file_sha256": "7850409176a428aba417b876b747f976eb000b0067da73d969022ee502781e7a",
+      "after_file_sha256": "32db2bccb767e6bfd069458702d65fe571c14364175ee0e91cceb909db74aa74",
+      "before_block_sha256": "d89786780ed38031bbff01b7476f2d7ff39bec693a3f6a6110aef5fec08f5e12",
+      "after_block_sha256": "f049c67f8607cf47bff82c34c90e3fef9b541cd2a7a64683a3b62c4adb7a8042",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Полный линейный поиск первого вхождения с контрактом отсутствия, инвариантом, тестами пустого входа и практикой последнего вхождения.",
+      "sources": [
+        "https://eel.is/c++draft/alg.find",
+        "https://algs4.cs.princeton.edu/14analysis/"
+      ],
+      "step_url": "https://stepik.org/lesson/771129/step/2"
+    },
+    {
+      "step_id": 3215192,
+      "lesson_id": 771129,
+      "position": 3,
+      "source_path": "courses/86957/steps/771129/03_3215192_text.step",
+      "target_path": "improvements/86957/quality-2026-11-23/steps/771129/03_3215192_text.step",
+      "baseline_path": "improvements/86957/quality-2026-11-23/baseline/771129/03_3215192_text.step",
+      "before_file_sha256": "e6b456c3fb718bc8a3e31f6b2c8562744cb552c91827118e925a3650dfa5c7fc",
+      "after_file_sha256": "f7cd6de0c2ec7d4e20da763c15782724f9e0c834f706ba928ab50a297606a256",
+      "before_block_sha256": "edcf62bed9f8c8628c56abf15c2c7429e9a4da1f573bf9c84d7236c39341090e",
+      "after_block_sha256": "a19450801dcd69700f1fd8b66e5ccb3bebc82e0455bea48c44de668c1881c2b3",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Бинарный поиск первого вхождения через lower_bound: полуинтервал, доказуемое уменьшение диапазона, повторы, отсутствие и стоимость проверки предусловия.",
+      "sources": [
+        "https://eel.is/c++draft/lower.bound",
+        "https://eel.is/c++draft/alg.binary.search",
+        "https://eel.is/c++draft/is.sorted"
+      ],
+      "step_url": "https://stepik.org/lesson/771129/step/3"
+    },
+    {
+      "step_id": 3215113,
+      "lesson_id": 771131,
+      "position": 1,
+      "source_path": "courses/86957/steps/771131/01_3215113_text.step",
+      "target_path": "improvements/86957/quality-2026-11-23/steps/771131/01_3215113_text.step",
+      "baseline_path": "improvements/86957/quality-2026-11-23/baseline/771131/01_3215113_text.step",
+      "before_file_sha256": "92b7826e42473ea79d65aab09510debac0643c7180016ce39e9648bbf2ffc79e",
+      "after_file_sha256": "2102d27daf8d4bd964a1dec9b3d918a9fd5785af9548bf357ba7293dd9cf238f",
+      "before_block_sha256": "18008c62cd74ee5410ae7f40f3907ee70a49009bfb0bbb5b7a22555eb6bf9781",
+      "after_block_sha256": "069483aa82bdce956e72b2c7718da423b154cf74ebbf0ad9233fc7cd5a54446a",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "RAII файлового потока, чтение строк по успешности операции, пустые строки и последний перевод строки.",
+      "sources": [
+        "https://eel.is/c++draft/string.io",
+        "https://eel.is/c++draft/iostate.flags",
+        "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rr-raii"
+      ],
+      "step_url": "https://stepik.org/lesson/771131/step/1"
+    },
+    {
+      "step_id": 3215200,
+      "lesson_id": 771131,
+      "position": 2,
+      "source_path": "courses/86957/steps/771131/02_3215200_text.step",
+      "target_path": "improvements/86957/quality-2026-11-23/steps/771131/02_3215200_text.step",
+      "baseline_path": "improvements/86957/quality-2026-11-23/baseline/771131/02_3215200_text.step",
+      "before_file_sha256": "99558dbfe5317e8580c893b261dfa2111b8acf06e92b38cdc27c8fae34e9403e",
+      "after_file_sha256": "38faa83d23a5144cc67f922ad09d244922fc8f3477432f8f8be566a03f19e4fc",
+      "before_block_sha256": "67a68bee0ef75d79b60d670968aeb953e9fdaac1838cd6b22f7660784bedf9e6",
+      "after_block_sha256": "31886b8bd7ea9b6a7ed97d907fcce6641be4dd49202462d1d6789546024fc7a4",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Относительные пути, режимы открытия, раздельные проверки открытия и завершения записи; границы гарантий flush.",
+      "sources": [
+        "https://eel.is/c++draft/filebuf.members",
+        "https://eel.is/c++draft/ofstream.members",
+        "https://eel.is/c++draft/ostream.unformatted"
+      ],
+      "step_url": "https://stepik.org/lesson/771131/step/2"
+    },
+    {
+      "step_id": 3215199,
+      "lesson_id": 771131,
+      "position": 3,
+      "source_path": "courses/86957/steps/771131/03_3215199_text.step",
+      "target_path": "improvements/86957/quality-2026-11-23/steps/771131/03_3215199_text.step",
+      "baseline_path": "improvements/86957/quality-2026-11-23/baseline/771131/03_3215199_text.step",
+      "before_file_sha256": "8e1838935e071afbe313ce10a3ff50702726113a44c35423553f27a8b3a89929",
+      "after_file_sha256": "b880b901fe024c5883138e467d21dd82f1f6169a2ad51033502263331c820727",
+      "before_block_sha256": "1986796a5af47d51c64c9ecce6e44b50d49a151a85fba6cd0c03991e9d8873d3",
+      "after_block_sha256": "7d7995a4447bfccdcd8c1854244b9346a43941f12fbed977b9469fb7e9e8a0e7",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Осмысленное сопоставление FILE* и потоков C++, проверка fwrite/fclose и ручного владения.",
+      "sources": [
+        "https://eel.is/c++draft/c.files",
+        "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rr-raii"
+      ],
+      "step_url": "https://stepik.org/lesson/771131/step/3"
+    },
+    {
+      "step_id": 3580923,
+      "lesson_id": 771131,
+      "position": 4,
+      "source_path": "courses/86957/steps/771131/04_3580923_text.step",
+      "target_path": "improvements/86957/quality-2026-11-23/steps/771131/04_3580923_text.step",
+      "baseline_path": "improvements/86957/quality-2026-11-23/baseline/771131/04_3580923_text.step",
+      "before_file_sha256": "5b8eef1ae70b7d04a4b8ea92bdbbb8b31bebf3a2c41a8084e43f3b93e571d647",
+      "after_file_sha256": "7b9bfa244c8269fbf1319d6d3b0262b4878db645be07b7d9ae505c89a658b5bf",
+      "before_block_sha256": "829a0baf323402dca747b595e4e03e6336b78e564acbb2e237ef1649237b024c",
+      "after_block_sha256": "ffef7d1894dfe96db212a4686726e7b451331aea4d80a52a026d6d05670e7a1a",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Режимы app/ate/trunc на исполняемых примерах дописывания и перезаписи без усечения.",
+      "sources": [
+        "https://eel.is/c++draft/filebuf.members",
+        "https://eel.is/c++draft/ifstream.members",
+        "https://eel.is/c++draft/ofstream.members"
+      ],
+      "step_url": "https://stepik.org/lesson/771131/step/4"
+    },
+    {
+      "step_id": 3215112,
+      "lesson_id": 771130,
+      "position": 1,
+      "source_path": "courses/86957/steps/771130/01_3215112_text.step",
+      "target_path": "improvements/86957/quality-2026-11-23/steps/771130/01_3215112_text.step",
+      "baseline_path": "improvements/86957/quality-2026-11-23/baseline/771130/01_3215112_text.step",
+      "before_file_sha256": "773e180b9c36c1bb0efb302c35a369fca7ad828686d67b45db2ed2d519422dde",
+      "after_file_sha256": "8a63a3d54c99b8c64ed36950989e3fda92abd4de6e7860cee0dadd82608306d8",
+      "before_block_sha256": "d7b0cf45477099354cb5638947b17862d82f74f355a7457feb83c148cd415e3e",
+      "after_block_sha256": "197ccd8f436ee2044190d42acf1bef6aef146e2e71638c87109cb2bd118551f6",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Формат данных, кодировка и binary как разные решения; ограничения сохранения памяти объектов.",
+      "sources": [
+        "https://eel.is/c++draft/filebuf.members",
+        "https://eel.is/c++draft/basic.types",
+        "https://eel.is/c++draft/ostream.inserters.arithmetic"
+      ],
+      "step_url": "https://stepik.org/lesson/771130/step/1"
+    },
+    {
+      "step_id": 3215203,
+      "lesson_id": 771130,
+      "position": 2,
+      "source_path": "courses/86957/steps/771130/02_3215203_text.step",
+      "target_path": "improvements/86957/quality-2026-11-23/steps/771130/02_3215203_text.step",
+      "baseline_path": "improvements/86957/quality-2026-11-23/baseline/771130/02_3215203_text.step",
+      "before_file_sha256": "d30c43043bac99f2d2623f029b972fdb175890485ac407543d2b9ff107b58785",
+      "after_file_sha256": "2ddd565bd8fa7dd2ca0fb19821cf73f248cd38f15f99526e4250a189a3513a81",
+      "before_block_sha256": "d2223c9859b539dad6606eea82a5d8b5d3e3aa37cf15d4141e1ca78d83394c3b",
+      "after_block_sha256": "f2ea54d1b344f956ec061a5eec425b867303411f956dcffdd204adad9a82616a",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Позиции чтения/записи, проверка seekg и ограничения байтовой модели; отказ от FNULL как учебной цели.",
+      "sources": [
+        "https://eel.is/c++draft/istream.unformatted",
+        "https://eel.is/c++draft/ostream.seeks",
+        "https://eel.is/c++draft/c.files"
+      ],
+      "step_url": "https://stepik.org/lesson/771130/step/2"
+    },
+    {
+      "step_id": 3215206,
+      "lesson_id": 771130,
+      "position": 3,
+      "source_path": "courses/86957/steps/771130/03_3215206_text.step",
+      "target_path": "improvements/86957/quality-2026-11-23/steps/771130/03_3215206_text.step",
+      "baseline_path": "improvements/86957/quality-2026-11-23/baseline/771130/03_3215206_text.step",
+      "before_file_sha256": "9ff814d3825e451e02783a557181dc74daf1db5fdad34c27a40306541a493d77",
+      "after_file_sha256": "86549916456fc99c39ec66c4d4e787baf20639ab907a1998d2f7d1b460638b1f",
+      "before_block_sha256": "15dea9e0295e720f685c8f98080e239d92127d1084b381b79c7dd765e66f51df",
+      "after_block_sha256": "4067489c4ec2bd8cb06ae65c4c6782496bb96489f35b2a4117bb4b886f447784",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Полная проверка числового файла, EOF и ошибка формата, защита суммы ограничениями и граничные тесты.",
+      "sources": [
+        "https://eel.is/c++draft/string.io",
+        "https://eel.is/c++draft/istream.formatted.arithmetic",
+        "https://eel.is/c++draft/iostate.flags"
+      ],
+      "step_url": "https://stepik.org/lesson/771130/step/3"
+    },
+    {
+      "step_id": 4035311,
+      "lesson_id": 973816,
+      "position": 1,
+      "source_path": "courses/86957/steps/973816/01_4035311_text.step",
+      "target_path": "improvements/86957/quality-2026-11-23/steps/973816/01_4035311_text.step",
+      "baseline_path": "improvements/86957/quality-2026-11-23/baseline/973816/01_4035311_text.step",
+      "before_file_sha256": "b8accd9fad43dee8ee8ce8ef889548a088cbfa90c2c5f209f419ce4dbd6666dd",
+      "after_file_sha256": "a7cefaaafaf9e36b2d7ab916bdca175eca0bf82fa92c81749ffc4730305f5a00",
+      "before_block_sha256": "e12f6579658a35f0652dea9279f2c7e5ca193c9b3cc7fe89aae91674153841ce",
+      "after_block_sha256": "ec83337033de6462149d59780e687ee63d8a2cfbcaa4ad26adf420dcfa1a421a",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Контейнеры, диапазон [begin, end), проверка результата поиска и требования алгоритмов",
+      "sources": [
+        "https://eel.is/c++draft/iterator.requirements.general",
+        "https://eel.is/c++draft/alg.find",
+        "https://eel.is/c++draft/sort"
+      ],
+      "step_url": "https://stepik.org/lesson/973816/step/1"
+    },
+    {
+      "step_id": 4035416,
+      "lesson_id": 973825,
+      "position": 1,
+      "source_path": "courses/86957/steps/973825/01_4035416_text.step",
+      "target_path": "improvements/86957/quality-2026-11-23/steps/973825/01_4035416_text.step",
+      "baseline_path": "improvements/86957/quality-2026-11-23/baseline/973825/01_4035416_text.step",
+      "before_file_sha256": "e3aa34ebb76f68250b0c5eb5ae190c748803638948859d55a80c9a0b1ea3bdd5",
+      "after_file_sha256": "01d2b147e1cbc1fc5ccc3328fb99fe2321bbfa885fd1b0bdf4d2ba8593b99259",
+      "before_block_sha256": "d64b6f7f0f64303969cf2df0f6942829e292e581a5d7efa32689946280ae4f73",
+      "after_block_sha256": "06b938cc39ae9f24769dec652b146b0a7d33a0e0b1b1a16f47ff5badd60a3008",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Выбор контейнера, ключи и повторения; проверяемый пример std::set",
+      "sources": [
+        "https://eel.is/c++draft/associative.reqmts",
+        "https://eel.is/c++draft/set"
+      ],
+      "step_url": "https://stepik.org/lesson/973825/step/1"
+    },
+    {
+      "step_id": 4035427,
+      "lesson_id": 973825,
+      "position": 2,
+      "source_path": "courses/86957/steps/973825/02_4035427_text.step",
+      "target_path": "improvements/86957/quality-2026-11-23/steps/973825/02_4035427_text.step",
+      "baseline_path": "improvements/86957/quality-2026-11-23/baseline/973825/02_4035427_text.step",
+      "before_file_sha256": "c5257e961e3af6ead1e9aac9f8c58f27bd87c21c9f3d0dd3319c5ceb74f9e9fe",
+      "after_file_sha256": "d9b46eb814adf91785e92067ba6e9674b61d72f0cd2a1cdddbc20db59004ee58",
+      "before_block_sha256": "f2a9851a2d5c46a1fb250c1739536b3d89b8b238df9d565b8d49e7141a0e7a75",
+      "after_block_sha256": "0dc06fdce7770a864948a36ff8274253bb141da256fbdc71e47adf364abe0d1b",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Счётчик слов на std::map, find/at/[] и предотвращение случайной вставки",
+      "sources": [
+        "https://eel.is/c++draft/map.access",
+        "https://eel.is/c++draft/map.modifiers"
+      ],
+      "step_url": "https://stepik.org/lesson/973825/step/2"
+    },
+    {
+      "step_id": 4035417,
+      "lesson_id": 973826,
+      "position": 1,
+      "source_path": "courses/86957/steps/973826/01_4035417_text.step",
+      "target_path": "improvements/86957/quality-2026-11-23/steps/973826/01_4035417_text.step",
+      "baseline_path": "improvements/86957/quality-2026-11-23/baseline/973826/01_4035417_text.step",
+      "before_file_sha256": "9dbe8a0cbda3294fa8c6ecb0077311fe433aca7f9aa366cc02e2d4fa8ca6eb4b",
+      "after_file_sha256": "e2e8973b59e1be0de5c06f39a8266da5dcb4935a1bc494c1945f38a146f5075b",
+      "before_block_sha256": "dbda155808373025c2ad353afeb01e8d71cb23d0bb7eda84ab18af0038b74d6f",
+      "after_block_sha256": "3928a11be6064e48ccfdd661ad7db2cc79d75e2bb8c271357b28cccdb6a4e7e5",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Модель стоимости, сравнение длинных ключей, отдельный запрос и серия; средняя и амортизированная оценки",
+      "sources": [
+        "https://eel.is/c++draft/associative.reqmts",
+        "https://eel.is/c++draft/unord.req",
+        "https://eel.is/c++draft/vector.modifiers"
+      ],
+      "step_url": "https://stepik.org/lesson/973826/step/1"
+    },
+    {
+      "step_id": 4035430,
+      "lesson_id": 973826,
+      "position": 2,
+      "source_path": "courses/86957/steps/973826/02_4035430_text.step",
+      "target_path": "improvements/86957/quality-2026-11-23/steps/973826/02_4035430_text.step",
+      "baseline_path": "improvements/86957/quality-2026-11-23/baseline/973826/02_4035430_text.step",
+      "before_file_sha256": "85b5f606c389dbd7726d7b818d6242ed8c25ee808113bb5e943b1a7583ba070b",
+      "after_file_sha256": "b6a118e59d500a8206a3dd72970999e45dc4d0eef4b28d543e921f620068e557",
+      "before_block_sha256": "add80b6c4f32cf1e118dd11a9de8adff14e22a26a6896f1cba79c791878007a7",
+      "after_block_sha256": "b1362f2c7a9a8fd4edcc0ae24b11ad4c76dac0bb402b98f8e0c4f362ab05ac44",
+      "changed_fields": [
+        "block.text"
+      ],
+      "summary": "Практический выбор map/unordered_map, коллизии, reserve, итераторы и детерминированный вывод",
+      "sources": [
+        "https://eel.is/c++draft/associative.reqmts",
+        "https://eel.is/c++draft/unord.req"
+      ],
+      "step_url": "https://stepik.org/lesson/973826/step/2"
+    }
+  ]
+}

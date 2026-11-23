@@ -1,0 +1,91 @@
+{
+  "status": "passed",
+  "all_passed": true,
+  "input_sha256": {
+    "courses/86957/steps/853535/03_4040986_text.step": "3f93ad92d3812a0f0c555ead5f94a32049fe8e30e95efa9ee340ce426bd75716",
+    "improvements/86957/assessment-2026-11-23/baseline/771130/04_3424087_choice.step": "72e7b15122899b13be555f399e0a5fda81c4d2af06aace62ee62ae0025cce8aa",
+    "improvements/86957/assessment-2026-11-23/baseline/771130/05_3437952_choice.step": "c8503f20a20a793ca90688ca09e1175330d0f67c138250e2d1293987e5971871",
+    "improvements/86957/assessment-2026-11-23/baseline/771131/06_3437886_choice.step": "6d8de4a0d17fc3379872095978c758d21ec16ec228062abfaeafe4ef96297a63",
+    "improvements/86957/assessment-2026-11-23/baseline/853535/04_4718246_choice.step": "1f4c31b0108c191ae8bc2242bc01e0ddbe2e15b0bbe2c5870b8522f02f315c48",
+    "improvements/86957/assessment-2026-11-23/changes_assessment.json": "b1bb34c4b6f355a5683a47601c58ff0bdbf877f2b832e49d4149b567de4ff2b5",
+    "improvements/86957/assessment-2026-11-23/examples/move_const_vector.cpp": "eeac9245b087b1da65d846b685c3592ad458958f7eb511c1b05d589b4b56b4e7",
+    "improvements/86957/assessment-2026-11-23/steps/771130/04_3424087_choice.step": "d8e88ca695b81bd92af9c2d49a0f31591fa8d5bc7d3a582f0a4537b9301d089c",
+    "improvements/86957/assessment-2026-11-23/steps/771130/05_3437952_choice.step": "101d2d8b179a5df62aa53ac77693930e39109199eda242e4c94ea782dc70311d",
+    "improvements/86957/assessment-2026-11-23/steps/771131/06_3437886_choice.step": "9175ff45b0d0347e2d80b8beed806e2afd9107094056656cf9ff46d8a5160e2c",
+    "improvements/86957/assessment-2026-11-23/steps/853535/04_4718246_choice.step": "bf4ad69b63dbf39fe315292ede9d06beab36380d4395b553ecf1a4861f5891ce",
+    "improvements/86957/assessment-2026-11-23/verify.py": "e2aaf5f44892e902dd0599d5eab2c721622b5c9a082266ff241f452a350ce491",
+    "improvements/86957/quality-2026-11-23/steps/771130/01_3215112_text.step": "8a63a3d54c99b8c64ed36950989e3fda92abd4de6e7860cee0dadd82608306d8",
+    "improvements/86957/quality-2026-11-23/steps/771130/03_3215206_text.step": "86549916456fc99c39ec66c4d4e787baf20639ab907a1998d2f7d1b460638b1f",
+    "improvements/86957/quality-2026-11-23/steps/771131/01_3215113_text.step": "2102d27daf8d4bd964a1dec9b3d918a9fd5785af9548bf357ba7293dd9cf238f",
+    "improvements/86957/quality-2026-11-23/steps/771131/02_3215200_text.step": "38faa83d23a5144cc67f922ad09d244922fc8f3477432f8f8be566a03f19e4fc",
+    "improvements/86957/quality-2026-11-23/steps/771131/04_3580923_text.step": "7b9bfa244c8269fbf1319d6d3b0262b4878db645be07b7d9ae505c89a658b5bf"
+  },
+  "scope": "local author-block validation only; not Stepik grading or publication",
+  "assessments": [
+    {
+      "step_id": 4718246,
+      "options": 4,
+      "correct_options": [
+        1
+      ],
+      "protected_fields": "preserved",
+      "local_subsets": 16
+    },
+    {
+      "step_id": 3437886,
+      "options": 10,
+      "correct_options": [
+        1,
+        2,
+        4,
+        6,
+        7
+      ],
+      "protected_fields": "preserved",
+      "local_subsets": 1024
+    },
+    {
+      "step_id": 3424087,
+      "options": 10,
+      "correct_options": [
+        1,
+        4,
+        6,
+        9
+      ],
+      "protected_fields": "preserved",
+      "local_subsets": 1024
+    },
+    {
+      "step_id": 3437952,
+      "options": 10,
+      "correct_options": [
+        1,
+        3,
+        7,
+        8,
+        10
+      ],
+      "protected_fields": "preserved",
+      "local_subsets": 1024
+    }
+  ],
+  "local_truth_table_subsets": 3088,
+  "permuted_truth_table_subsets": 6176,
+  "context_evidence_checks": 34,
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "cpp_example": [
+    {
+      "standard": "c++17",
+      "warnings_as_errors": true,
+      "stdout": "4 1\n",
+      "exit_code": 0
+    },
+    {
+      "standard": "c++20",
+      "warnings_as_errors": true,
+      "stdout": "4 1\n",
+      "exit_code": 0
+    }
+  ]
+}

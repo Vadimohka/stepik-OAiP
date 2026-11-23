@@ -1,0 +1,112 @@
+{
+  "changes": [
+    {
+      "step_id": 3212953,
+      "summary": "Явные учебные цели, модель стоимости, лучший/худший/средний случаи и выбор памяти на примере максимума.",
+      "sources": [
+        "https://algs4.cs.princeton.edu/14analysis/",
+        "https://algs4.cs.princeton.edu/cheatsheet/"
+      ]
+    },
+    {
+      "step_id": 3213247,
+      "summary": "Логарифмический рост через короткий исполняемый пример; отделены стоимость поиска и предварительная сортировка.",
+      "sources": [
+        "https://algs4.cs.princeton.edu/14analysis/",
+        "https://eel.is/c++draft/lower.bound",
+        "https://eel.is/c++draft/sort"
+      ]
+    },
+    {
+      "step_id": 3213256,
+      "summary": "Подсчёт работы последовательных, треугольных и прямоугольных циклов; два параметра входа и исполняемый эксперимент.",
+      "sources": [
+        "https://algs4.cs.princeton.edu/14analysis/"
+      ]
+    },
+    {
+      "step_id": 3213255,
+      "summary": "Практикум корректного сравнения алгоритмов, отделение доказательства сложности от измерений и проверка результата до оптимизации.",
+      "sources": [
+        "https://algs4.cs.princeton.edu/14analysis/",
+        "https://eel.is/c++draft/time.clock.steady"
+      ]
+    },
+    {
+      "step_id": 3212954,
+      "summary": "Прикладной std::sort, контракт сортировки, устойчивость, сравнительная таблица конкретных реализаций и задача на выбор алгоритма.",
+      "sources": [
+        "https://eel.is/c++draft/sort",
+        "https://eel.is/c++draft/stable.sort",
+        "https://algs4.cs.princeton.edu/cheatsheet/"
+      ]
+    },
+    {
+      "step_id": 3215136,
+      "summary": "Полная сортировка пузырьком с ранней остановкой, инвариантом, устойчивостью и безопасной обработкой пустого массива.",
+      "sources": [
+        "https://algs4.cs.princeton.edu/cheatsheet/"
+      ]
+    },
+    {
+      "step_id": 3215176,
+      "summary": "Исполняемая сортировка вставками: инвариант префикса, сдвиги, короткое замыкание, устойчивость и пограничные входы.",
+      "sources": [
+        "https://algs4.cs.princeton.edu/cheatsheet/"
+      ]
+    },
+    {
+      "step_id": 3215175,
+      "summary": "Разбиение quicksort, обработка равных ключей, модель ожидаемой сложности, худший случай и учёт рекурсивного стека.",
+      "sources": [
+        "https://algs4.cs.princeton.edu/cheatsheet/",
+        "https://eel.is/c++draft/sort",
+        "https://algs4.cs.princeton.edu/23quicksort/"
+      ]
+    },
+    {
+      "step_id": 3215178,
+      "summary": "Полная устойчивая merge sort с одним буфером, полуинтервалами, инвариантом слияния и раздельным анализом буфера и стека.",
+      "sources": [
+        "https://algs4.cs.princeton.edu/cheatsheet/",
+        "https://algs4.cs.princeton.edu/22mergesort/",
+        "https://hjemmesider.diku.dk/~jyrki/Myris/GKP2000J.html"
+      ]
+    },
+    {
+      "step_id": 3215179,
+      "summary": "Итеративная heapsort без ручной памяти: безопасные индексы, инварианты, линейное построение кучи и разграничение операций поиска.",
+      "sources": [
+        "https://algs4.cs.princeton.edu/cheatsheet/",
+        "https://algs4.cs.princeton.edu/24pq/"
+      ]
+    },
+    {
+      "step_id": 3215109,
+      "summary": "Контракты поиска, возвращаемая позиция, повторы, стандартные алгоритмы и полная стоимость серии запросов.",
+      "sources": [
+        "https://eel.is/c++draft/alg.find",
+        "https://eel.is/c++draft/lower.bound",
+        "https://eel.is/c++draft/alg.binary.search",
+        "https://eel.is/c++draft/alg.search"
+      ]
+    },
+    {
+      "step_id": 3215183,
+      "summary": "Полный линейный поиск первого вхождения с контрактом отсутствия, инвариантом, тестами пустого входа и практикой последнего вхождения.",
+      "sources": [
+        "https://eel.is/c++draft/alg.find",
+        "https://algs4.cs.princeton.edu/14analysis/"
+      ]
+    },
+    {
+      "step_id": 3215192,
+      "summary": "Бинарный поиск первого вхождения через lower_bound: полуинтервал, доказуемое уменьшение диапазона, повторы, отсутствие и стоимость проверки предусловия.",
+      "sources": [
+        "https://eel.is/c++draft/lower.bound",
+        "https://eel.is/c++draft/alg.binary.search",
+        "https://eel.is/c++draft/is.sorted"
+      ]
+    }
+  ]
+}

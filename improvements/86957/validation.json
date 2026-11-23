@@ -1,0 +1,498 @@
+{
+  "schema_version": 1,
+  "course_id": 86957,
+  "date": "2026-11-23",
+  "status": "passed",
+  "all_passed": true,
+  "standards": [
+    "c++17",
+    "c++20"
+  ],
+  "stages": [
+    {
+      "name": "package_artifacts",
+      "status": "passed"
+    },
+    {
+      "name": "algorithms",
+      "status": "passed",
+      "compilations": 18,
+      "runtime_cases": 864,
+      "subset_checks": 0
+    },
+    {
+      "name": "files",
+      "status": "passed",
+      "compilations": 16,
+      "runtime_cases": 80,
+      "subset_checks": 0
+    },
+    {
+      "name": "assessments",
+      "status": "passed",
+      "compilations": 2,
+      "runtime_cases": 2,
+      "subset_checks": 9264,
+      "context_evidence_checks": 34
+    },
+    {
+      "name": "containers",
+      "status": "passed",
+      "compilations": 8,
+      "runtime_cases": 44,
+      "subset_checks": 0,
+      "flags": [
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Wconversion",
+        "-Wsign-conversion",
+        "-Werror"
+      ],
+      "builds": [
+        {
+          "source": "stl_range.cpp",
+          "standard": "c++17"
+        },
+        {
+          "source": "set_unique.cpp",
+          "standard": "c++17"
+        },
+        {
+          "source": "map_frequency.cpp",
+          "standard": "c++17"
+        },
+        {
+          "source": "unordered_frequency.cpp",
+          "standard": "c++17"
+        },
+        {
+          "source": "stl_range.cpp",
+          "standard": "c++20"
+        },
+        {
+          "source": "set_unique.cpp",
+          "standard": "c++20"
+        },
+        {
+          "source": "map_frequency.cpp",
+          "standard": "c++20"
+        },
+        {
+          "source": "unordered_frequency.cpp",
+          "standard": "c++20"
+        }
+      ],
+      "checks": [
+        {
+          "source": "stl_range.cpp",
+          "standard": "c++17",
+          "case": "sample",
+          "passed": true
+        },
+        {
+          "source": "stl_range.cpp",
+          "standard": "c++17",
+          "case": "empty",
+          "passed": true
+        },
+        {
+          "source": "stl_range.cpp",
+          "standard": "c++17",
+          "case": "absent",
+          "passed": true
+        },
+        {
+          "source": "stl_range.cpp",
+          "standard": "c++17",
+          "case": "one",
+          "passed": true
+        },
+        {
+          "source": "stl_range.cpp",
+          "standard": "c++17",
+          "case": "negative_count",
+          "passed": true
+        },
+        {
+          "source": "stl_range.cpp",
+          "standard": "c++17",
+          "case": "missing_key",
+          "passed": true
+        },
+        {
+          "source": "set_unique.cpp",
+          "standard": "c++17",
+          "case": "sample",
+          "passed": true
+        },
+        {
+          "source": "set_unique.cpp",
+          "standard": "c++17",
+          "case": "empty",
+          "passed": true
+        },
+        {
+          "source": "set_unique.cpp",
+          "standard": "c++17",
+          "case": "duplicates",
+          "passed": true
+        },
+        {
+          "source": "set_unique.cpp",
+          "standard": "c++17",
+          "case": "boundaries",
+          "passed": true
+        },
+        {
+          "source": "set_unique.cpp",
+          "standard": "c++17",
+          "case": "missing_value",
+          "passed": true
+        },
+        {
+          "source": "map_frequency.cpp",
+          "standard": "c++17",
+          "case": "sample_missing_no_insert",
+          "passed": true
+        },
+        {
+          "source": "map_frequency.cpp",
+          "standard": "c++17",
+          "case": "empty_no_insert",
+          "passed": true
+        },
+        {
+          "source": "map_frequency.cpp",
+          "standard": "c++17",
+          "case": "present",
+          "passed": true
+        },
+        {
+          "source": "map_frequency.cpp",
+          "standard": "c++17",
+          "case": "all_equal",
+          "passed": true
+        },
+        {
+          "source": "map_frequency.cpp",
+          "standard": "c++17",
+          "case": "missing_query",
+          "passed": true
+        },
+        {
+          "source": "unordered_frequency.cpp",
+          "standard": "c++17",
+          "case": "sample",
+          "passed": true
+        },
+        {
+          "source": "unordered_frequency.cpp",
+          "standard": "c++17",
+          "case": "empty",
+          "passed": true
+        },
+        {
+          "source": "unordered_frequency.cpp",
+          "standard": "c++17",
+          "case": "missing_no_insert",
+          "passed": true
+        },
+        {
+          "source": "unordered_frequency.cpp",
+          "standard": "c++17",
+          "case": "all_equal",
+          "passed": true
+        },
+        {
+          "source": "unordered_frequency.cpp",
+          "standard": "c++17",
+          "case": "negative_count",
+          "passed": true
+        },
+        {
+          "source": "unordered_frequency.cpp",
+          "standard": "c++17",
+          "case": "maximum_count",
+          "passed": true
+        },
+        {
+          "source": "stl_range.cpp",
+          "standard": "c++20",
+          "case": "sample",
+          "passed": true
+        },
+        {
+          "source": "stl_range.cpp",
+          "standard": "c++20",
+          "case": "empty",
+          "passed": true
+        },
+        {
+          "source": "stl_range.cpp",
+          "standard": "c++20",
+          "case": "absent",
+          "passed": true
+        },
+        {
+          "source": "stl_range.cpp",
+          "standard": "c++20",
+          "case": "one",
+          "passed": true
+        },
+        {
+          "source": "stl_range.cpp",
+          "standard": "c++20",
+          "case": "negative_count",
+          "passed": true
+        },
+        {
+          "source": "stl_range.cpp",
+          "standard": "c++20",
+          "case": "missing_key",
+          "passed": true
+        },
+        {
+          "source": "set_unique.cpp",
+          "standard": "c++20",
+          "case": "sample",
+          "passed": true
+        },
+        {
+          "source": "set_unique.cpp",
+          "standard": "c++20",
+          "case": "empty",
+          "passed": true
+        },
+        {
+          "source": "set_unique.cpp",
+          "standard": "c++20",
+          "case": "duplicates",
+          "passed": true
+        },
+        {
+          "source": "set_unique.cpp",
+          "standard": "c++20",
+          "case": "boundaries",
+          "passed": true
+        },
+        {
+          "source": "set_unique.cpp",
+          "standard": "c++20",
+          "case": "missing_value",
+          "passed": true
+        },
+        {
+          "source": "map_frequency.cpp",
+          "standard": "c++20",
+          "case": "sample_missing_no_insert",
+          "passed": true
+        },
+        {
+          "source": "map_frequency.cpp",
+          "standard": "c++20",
+          "case": "empty_no_insert",
+          "passed": true
+        },
+        {
+          "source": "map_frequency.cpp",
+          "standard": "c++20",
+          "case": "present",
+          "passed": true
+        },
+        {
+          "source": "map_frequency.cpp",
+          "standard": "c++20",
+          "case": "all_equal",
+          "passed": true
+        },
+        {
+          "source": "map_frequency.cpp",
+          "standard": "c++20",
+          "case": "missing_query",
+          "passed": true
+        },
+        {
+          "source": "unordered_frequency.cpp",
+          "standard": "c++20",
+          "case": "sample",
+          "passed": true
+        },
+        {
+          "source": "unordered_frequency.cpp",
+          "standard": "c++20",
+          "case": "empty",
+          "passed": true
+        },
+        {
+          "source": "unordered_frequency.cpp",
+          "standard": "c++20",
+          "case": "missing_no_insert",
+          "passed": true
+        },
+        {
+          "source": "unordered_frequency.cpp",
+          "standard": "c++20",
+          "case": "all_equal",
+          "passed": true
+        },
+        {
+          "source": "unordered_frequency.cpp",
+          "standard": "c++20",
+          "case": "negative_count",
+          "passed": true
+        },
+        {
+          "source": "unordered_frequency.cpp",
+          "standard": "c++20",
+          "case": "maximum_count",
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Validated on Linux; Windows/MSVC was not run.",
+    "No Stepik publication, live rendering or platform grading was performed.",
+    "The assessment subset checks verify stored author keys, not Stepik scoring.",
+    "Hardware failures and a full disk were not injected."
+  ],
+  "input_sha256": {
+    "courses/86957/manifest.json": "8293bc465fe5380daf6f034b4bb420017f9cb2343da001548dbbe16828705367",
+    "courses/86957/steps/770594/01_3212953_text.step": "578ba010a546436fce532ea2330de7e6f6d29227cc9e4289808cfba26b28b840",
+    "courses/86957/steps/770594/06_3213247_text.step": "13cc478d35485980ae69db24ae17bb7aa393ee74d8c1849f6572266b3d8ea3cf",
+    "courses/86957/steps/770594/08_3213256_text.step": "3b1d461bb35c67d22d610e7cc9b5895486453f0daf3cef42c0228abde55125b7",
+    "courses/86957/steps/770594/09_3213255_text.step": "4267c41f092a92b51a755ff0941d404a324a0a140409de2dea283a7939709ae7",
+    "courses/86957/steps/770595/01_3212954_text.step": "fc7d5bb14ee928ea8aaaf244996296d6e0a5d1b96a31650d32fd3b4d05a91f55",
+    "courses/86957/steps/770595/02_3215136_text.step": "13054af1d50c2c827647c1744c32a018905dfd256361dcfa54f7d91e7e1e501f",
+    "courses/86957/steps/770595/04_3215176_text.step": "77ed2c0ffab834cd02b5f1c00fdc99f2ed38e69a3373e4346ce07e4a4646eeed",
+    "courses/86957/steps/770595/05_3215175_text.step": "83fcaa8498aaa858cbb484b5e1af74e4dba316bbc5dfee51463a04edfbbfa926",
+    "courses/86957/steps/770595/06_3215178_text.step": "c502a3e1e29da8e77963329307e8840f7975dafebb93ae11483c9811e3f6af7e",
+    "courses/86957/steps/770595/08_3215179_text.step": "9e0049fff4522fff69a8ff8890de05a655aaf4eb0e2f79925eac9be8beaf908a",
+    "courses/86957/steps/771129/01_3215109_text.step": "7a76ce8fe8a71ce330a5c4d37e6e707a4973df597279e7e25b72efc0e7c0e5e1",
+    "courses/86957/steps/771129/02_3215183_text.step": "7850409176a428aba417b876b747f976eb000b0067da73d969022ee502781e7a",
+    "courses/86957/steps/771129/03_3215192_text.step": "e6b456c3fb718bc8a3e31f6b2c8562744cb552c91827118e925a3650dfa5c7fc",
+    "courses/86957/steps/771130/01_3215112_text.step": "773e180b9c36c1bb0efb302c35a369fca7ad828686d67b45db2ed2d519422dde",
+    "courses/86957/steps/771130/02_3215203_text.step": "d30c43043bac99f2d2623f029b972fdb175890485ac407543d2b9ff107b58785",
+    "courses/86957/steps/771130/03_3215206_text.step": "9ff814d3825e451e02783a557181dc74daf1db5fdad34c27a40306541a493d77",
+    "courses/86957/steps/771130/04_3424087_choice.step": "72e7b15122899b13be555f399e0a5fda81c4d2af06aace62ee62ae0025cce8aa",
+    "courses/86957/steps/771130/05_3437952_choice.step": "c8503f20a20a793ca90688ca09e1175330d0f67c138250e2d1293987e5971871",
+    "courses/86957/steps/771131/01_3215113_text.step": "92b7826e42473ea79d65aab09510debac0643c7180016ce39e9648bbf2ffc79e",
+    "courses/86957/steps/771131/02_3215200_text.step": "99558dbfe5317e8580c893b261dfa2111b8acf06e92b38cdc27c8fae34e9403e",
+    "courses/86957/steps/771131/03_3215199_text.step": "8e1838935e071afbe313ce10a3ff50702726113a44c35423553f27a8b3a89929",
+    "courses/86957/steps/771131/04_3580923_text.step": "5b8eef1ae70b7d04a4b8ea92bdbbb8b31bebf3a2c41a8084e43f3b93e571d647",
+    "courses/86957/steps/771131/06_3437886_choice.step": "6d8de4a0d17fc3379872095978c758d21ec16ec228062abfaeafe4ef96297a63",
+    "courses/86957/steps/853535/03_4040986_text.step": "3f93ad92d3812a0f0c555ead5f94a32049fe8e30e95efa9ee340ce426bd75716",
+    "courses/86957/steps/853535/04_4718246_choice.step": "1f4c31b0108c191ae8bc2242bc01e0ddbe2e15b0bbe2c5870b8522f02f315c48",
+    "courses/86957/steps/973816/01_4035311_text.step": "b8accd9fad43dee8ee8ce8ef889548a088cbfa90c2c5f209f419ce4dbd6666dd",
+    "courses/86957/steps/973825/01_4035416_text.step": "e3aa34ebb76f68250b0c5eb5ae190c748803638948859d55a80c9a0b1ea3bdd5",
+    "courses/86957/steps/973825/02_4035427_text.step": "c5257e961e3af6ead1e9aac9f8c58f27bd87c21c9f3d0dd3319c5ceb74f9e9fe",
+    "courses/86957/steps/973826/01_4035417_text.step": "9dbe8a0cbda3294fa8c6ecb0077311fe433aca7f9aa366cc02e2d4fa8ca6eb4b",
+    "courses/86957/steps/973826/02_4035430_text.step": "85b5f606c389dbd7726d7b818d6242ed8c25ee808113bb5e943b1a7583ba070b",
+    "improvements/86957/assessment-2026-11-23/CHANGES.md": "da196767779df8cc6c600ee18d7a6626af74387333838d2db5e6f62dabea371b",
+    "improvements/86957/assessment-2026-11-23/baseline/771130/04_3424087_choice.step": "72e7b15122899b13be555f399e0a5fda81c4d2af06aace62ee62ae0025cce8aa",
+    "improvements/86957/assessment-2026-11-23/baseline/771130/05_3437952_choice.step": "c8503f20a20a793ca90688ca09e1175330d0f67c138250e2d1293987e5971871",
+    "improvements/86957/assessment-2026-11-23/baseline/771131/06_3437886_choice.step": "6d8de4a0d17fc3379872095978c758d21ec16ec228062abfaeafe4ef96297a63",
+    "improvements/86957/assessment-2026-11-23/baseline/853535/04_4718246_choice.step": "1f4c31b0108c191ae8bc2242bc01e0ddbe2e15b0bbe2c5870b8522f02f315c48",
+    "improvements/86957/assessment-2026-11-23/changes_assessment.json": "b1bb34c4b6f355a5683a47601c58ff0bdbf877f2b832e49d4149b567de4ff2b5",
+    "improvements/86957/assessment-2026-11-23/examples/move_const_vector.cpp": "eeac9245b087b1da65d846b685c3592ad458958f7eb511c1b05d589b4b56b4e7",
+    "improvements/86957/assessment-2026-11-23/manifest.json": "6918edc92b525c2574f3e1c7ab30148ad09fd9e4fb3aad22d3a0f6efe5243926",
+    "improvements/86957/assessment-2026-11-23/preview.html": "0db228679f30cede067938bdbc5c8292c4bf2350f8ab9ed17d90230b59fca6c3",
+    "improvements/86957/assessment-2026-11-23/steps/771130/04_3424087_choice.step": "d8e88ca695b81bd92af9c2d49a0f31591fa8d5bc7d3a582f0a4537b9301d089c",
+    "improvements/86957/assessment-2026-11-23/steps/771130/05_3437952_choice.step": "101d2d8b179a5df62aa53ac77693930e39109199eda242e4c94ea782dc70311d",
+    "improvements/86957/assessment-2026-11-23/steps/771131/06_3437886_choice.step": "9175ff45b0d0347e2d80b8beed806e2afd9107094056656cf9ff46d8a5160e2c",
+    "improvements/86957/assessment-2026-11-23/steps/853535/04_4718246_choice.step": "bf4ad69b63dbf39fe315292ede9d06beab36380d4395b553ecf1a4861f5891ce",
+    "improvements/86957/assessment-2026-11-23/verify.py": "e2aaf5f44892e902dd0599d5eab2c721622b5c9a082266ff241f452a350ce491",
+    "improvements/86957/quality-2026-11-23/CHANGES.md": "12289fc4ab7eb697c3f2dc213ae59251761dcfae6377673618df7b4246c484a2",
+    "improvements/86957/quality-2026-11-23/baseline/770594/01_3212953_text.step": "578ba010a546436fce532ea2330de7e6f6d29227cc9e4289808cfba26b28b840",
+    "improvements/86957/quality-2026-11-23/baseline/770594/06_3213247_text.step": "13cc478d35485980ae69db24ae17bb7aa393ee74d8c1849f6572266b3d8ea3cf",
+    "improvements/86957/quality-2026-11-23/baseline/770594/08_3213256_text.step": "3b1d461bb35c67d22d610e7cc9b5895486453f0daf3cef42c0228abde55125b7",
+    "improvements/86957/quality-2026-11-23/baseline/770594/09_3213255_text.step": "4267c41f092a92b51a755ff0941d404a324a0a140409de2dea283a7939709ae7",
+    "improvements/86957/quality-2026-11-23/baseline/770595/01_3212954_text.step": "fc7d5bb14ee928ea8aaaf244996296d6e0a5d1b96a31650d32fd3b4d05a91f55",
+    "improvements/86957/quality-2026-11-23/baseline/770595/02_3215136_text.step": "13054af1d50c2c827647c1744c32a018905dfd256361dcfa54f7d91e7e1e501f",
+    "improvements/86957/quality-2026-11-23/baseline/770595/04_3215176_text.step": "77ed2c0ffab834cd02b5f1c00fdc99f2ed38e69a3373e4346ce07e4a4646eeed",
+    "improvements/86957/quality-2026-11-23/baseline/770595/05_3215175_text.step": "83fcaa8498aaa858cbb484b5e1af74e4dba316bbc5dfee51463a04edfbbfa926",
+    "improvements/86957/quality-2026-11-23/baseline/770595/06_3215178_text.step": "c502a3e1e29da8e77963329307e8840f7975dafebb93ae11483c9811e3f6af7e",
+    "improvements/86957/quality-2026-11-23/baseline/770595/08_3215179_text.step": "9e0049fff4522fff69a8ff8890de05a655aaf4eb0e2f79925eac9be8beaf908a",
+    "improvements/86957/quality-2026-11-23/baseline/771129/01_3215109_text.step": "7a76ce8fe8a71ce330a5c4d37e6e707a4973df597279e7e25b72efc0e7c0e5e1",
+    "improvements/86957/quality-2026-11-23/baseline/771129/02_3215183_text.step": "7850409176a428aba417b876b747f976eb000b0067da73d969022ee502781e7a",
+    "improvements/86957/quality-2026-11-23/baseline/771129/03_3215192_text.step": "e6b456c3fb718bc8a3e31f6b2c8562744cb552c91827118e925a3650dfa5c7fc",
+    "improvements/86957/quality-2026-11-23/baseline/771130/01_3215112_text.step": "773e180b9c36c1bb0efb302c35a369fca7ad828686d67b45db2ed2d519422dde",
+    "improvements/86957/quality-2026-11-23/baseline/771130/02_3215203_text.step": "d30c43043bac99f2d2623f029b972fdb175890485ac407543d2b9ff107b58785",
+    "improvements/86957/quality-2026-11-23/baseline/771130/03_3215206_text.step": "9ff814d3825e451e02783a557181dc74daf1db5fdad34c27a40306541a493d77",
+    "improvements/86957/quality-2026-11-23/baseline/771131/01_3215113_text.step": "92b7826e42473ea79d65aab09510debac0643c7180016ce39e9648bbf2ffc79e",
+    "improvements/86957/quality-2026-11-23/baseline/771131/02_3215200_text.step": "99558dbfe5317e8580c893b261dfa2111b8acf06e92b38cdc27c8fae34e9403e",
+    "improvements/86957/quality-2026-11-23/baseline/771131/03_3215199_text.step": "8e1838935e071afbe313ce10a3ff50702726113a44c35423553f27a8b3a89929",
+    "improvements/86957/quality-2026-11-23/baseline/771131/04_3580923_text.step": "5b8eef1ae70b7d04a4b8ea92bdbbb8b31bebf3a2c41a8084e43f3b93e571d647",
+    "improvements/86957/quality-2026-11-23/baseline/973816/01_4035311_text.step": "b8accd9fad43dee8ee8ce8ef889548a088cbfa90c2c5f209f419ce4dbd6666dd",
+    "improvements/86957/quality-2026-11-23/baseline/973825/01_4035416_text.step": "e3aa34ebb76f68250b0c5eb5ae190c748803638948859d55a80c9a0b1ea3bdd5",
+    "improvements/86957/quality-2026-11-23/baseline/973825/02_4035427_text.step": "c5257e961e3af6ead1e9aac9f8c58f27bd87c21c9f3d0dd3319c5ceb74f9e9fe",
+    "improvements/86957/quality-2026-11-23/baseline/973826/01_4035417_text.step": "9dbe8a0cbda3294fa8c6ecb0077311fe433aca7f9aa366cc02e2d4fa8ca6eb4b",
+    "improvements/86957/quality-2026-11-23/baseline/973826/02_4035430_text.step": "85b5f606c389dbd7726d7b818d6242ed8c25ee808113bb5e943b1a7583ba070b",
+    "improvements/86957/quality-2026-11-23/changes_algorithms.json": "7455bd932839de106bbed251c608de82aa30c7c988884270a2adc0fc0ba21790",
+    "improvements/86957/quality-2026-11-23/changes_containers.json": "3bec7612ff769ab6ad972f05a16bcb8d792b0a234a2502fafec7acd0f00cf5ff",
+    "improvements/86957/quality-2026-11-23/changes_files.json": "bfab68c2a6cc30f9250c6cf5799f0d5d61222cb418e07f03b4eac2a19e627031",
+    "improvements/86957/quality-2026-11-23/examples/algorithms/binary_search.cpp": "6e2afab2e2730c47d502947d2ea6d4bd87a3fcf38ddd410255bf3ce3f6df769d",
+    "improvements/86957/quality-2026-11-23/examples/algorithms/bubble_sort.cpp": "814030ced972f9e39fe5b4e6c31313e152d1ee057f5e948acbb98ad28a4a4572",
+    "improvements/86957/quality-2026-11-23/examples/algorithms/cases.json": "6d5eb25d5fe671958cf6d1c2b479bf4c4cbdbd8281bebb2016952dded453a6c1",
+    "improvements/86957/quality-2026-11-23/examples/algorithms/halving.cpp": "12730472e46fd11d40e290000d7bc34e4af1fd9e07c8feeb0e7e1f1da44de384",
+    "improvements/86957/quality-2026-11-23/examples/algorithms/heap_sort.cpp": "235735c7dfcc55b9b97bb75ea89d3fe18addaa66db3344746db5bb9479766e70",
+    "improvements/86957/quality-2026-11-23/examples/algorithms/insertion_sort.cpp": "557d06d68fbc3e95060e3a0d5a562c209910f591869c29d9bb6c23081a4d576a",
+    "improvements/86957/quality-2026-11-23/examples/algorithms/linear_search.cpp": "c7005700901751f57b9a4cbbdf80973a4ac75ad31a94737f7f21d1d12e8c8946",
+    "improvements/86957/quality-2026-11-23/examples/algorithms/merge_sort.cpp": "74ded6d82d9ac0b5e73b6c8a49e8937e9b025b97963387ce6f5e9a1b19e1f6df",
+    "improvements/86957/quality-2026-11-23/examples/algorithms/operation_counts.cpp": "4d7eaefd35c175cf1a137eb6f1855e5d605c6763254e95fbece78e6fcbe83a97",
+    "improvements/86957/quality-2026-11-23/examples/algorithms/standard_sort.cpp": "4b6cfdf0e331b9c8699652d00aa65f150c78d50f42e03f05f691d774b994ffe5",
+    "improvements/86957/quality-2026-11-23/examples/algorithms/verify.py": "756e4a392929185e29b334b39075a9cf2b680a17764efc58d21318c5194400b4",
+    "improvements/86957/quality-2026-11-23/examples/containers/cases.json": "3e5c77dc324bf27e0fbe88a761b8fe80f98a7142dadc869fb274806a5fd06497",
+    "improvements/86957/quality-2026-11-23/examples/containers/map_frequency.cpp": "cc7c61e7ec213ece7c4d31738d322d6211e3cef971d63bcaeeb8471d671bfe9a",
+    "improvements/86957/quality-2026-11-23/examples/containers/set_unique.cpp": "6f76d3d5f8a093d3ec3bbd19dff7807885e186f4b8c87c61c5820dc31b281b9f",
+    "improvements/86957/quality-2026-11-23/examples/containers/stl_range.cpp": "ddef767c92b22dafe8ead9b9700fbb2e956c5f413a438b41652a3888de7f6d3c",
+    "improvements/86957/quality-2026-11-23/examples/containers/unordered_frequency.cpp": "5ffa624167e9fa24f128e87a5b34e1f503aab9fd2a31ec3a0d055bb905948c90",
+    "improvements/86957/quality-2026-11-23/examples/files/append_line.cpp": "bc810f410fcfe77a0955bfc7d775cc4643a55272eb8221fca8f90d783b162eef",
+    "improvements/86957/quality-2026-11-23/examples/files/c_write.cpp": "2892758974a2a18ca161e47f36c43436236abd2e5f90042a73cdfa763fc87ae8",
+    "improvements/86957/quality-2026-11-23/examples/files/cases.json": "f057a1dd9eed7eda053c5a80de5822d30503ea761c40c6281be64bac156cc5bc",
+    "improvements/86957/quality-2026-11-23/examples/files/last_byte.cpp": "fcbea23b42d5577b1a11226f62744123a7ac7c9a0693100bc7871c7767d0e0de",
+    "improvements/86957/quality-2026-11-23/examples/files/overwrite_prefix.cpp": "9bcb4688f3cc4f145e767008abebf6cd4427f4f5df90078719b2745cda34185e",
+    "improvements/86957/quality-2026-11-23/examples/files/read_lines.cpp": "444d8c0016866b3ec3937f6ba6dacfbcccf34fb136112708c79e9e934616e757",
+    "improvements/86957/quality-2026-11-23/examples/files/sum_numbers.cpp": "cc449b3b3ae04a79813198b2397795ec6365dd1016c706864db275283e74255d",
+    "improvements/86957/quality-2026-11-23/examples/files/verify.py": "2767446e1289b20f34746ec44e500101e57295d6780b851d98adf7ecfef364b4",
+    "improvements/86957/quality-2026-11-23/examples/files/write_report.cpp": "d0653d27ed3772070b5849d8c78df4dae8d29acb2b5a64c219e9c88774619782",
+    "improvements/86957/quality-2026-11-23/manifest.json": "99589ce0a4da9f5bda64380bf2c63405938610861be71aa6ecdcaf612c697002",
+    "improvements/86957/quality-2026-11-23/preview.html": "78cbda5ce2142c7ced17280f3555ac4c1059275a3aaf851432b92f486bad6616",
+    "improvements/86957/quality-2026-11-23/steps/770594/01_3212953_text.step": "8d5bd2bc571b703575161e5c4ba8fb41cfa581518e8c104916060c12bea64ae5",
+    "improvements/86957/quality-2026-11-23/steps/770594/06_3213247_text.step": "3a89d7298cfaf1339228824f5d989802ca32f8bcc314d6d747e5718153ae10a6",
+    "improvements/86957/quality-2026-11-23/steps/770594/08_3213256_text.step": "f09b9a5150645d6cbe6b76f3c43af18d85e6242d2c07b63ef8d6af1494c26a6f",
+    "improvements/86957/quality-2026-11-23/steps/770594/09_3213255_text.step": "26bc06526dde8f71c5b1442e0a55b85900d24d79075ced5cbd3ad600b3768162",
+    "improvements/86957/quality-2026-11-23/steps/770595/01_3212954_text.step": "978d4298b07b10e2def4678ad80bb57b6a04e0c1ac35eac8b9fc9393705ff733",
+    "improvements/86957/quality-2026-11-23/steps/770595/02_3215136_text.step": "358a49787ff731405ce8bf34a8b5fd404bd65ac893d8fd018a1800145b1077bf",
+    "improvements/86957/quality-2026-11-23/steps/770595/04_3215176_text.step": "1d6657dace67dafa30898d87b87ba4ea456413a2c96ecac2b893c477a4811c12",
+    "improvements/86957/quality-2026-11-23/steps/770595/05_3215175_text.step": "684e91d3ff49dd45e6db5490245cccdcb0df23c9d24c609c5e7e6374fb825350",
+    "improvements/86957/quality-2026-11-23/steps/770595/06_3215178_text.step": "96866ca65718e31d5211887a3025b05b723c4845813b216cb8adf46d6c10d7a2",
+    "improvements/86957/quality-2026-11-23/steps/770595/08_3215179_text.step": "3524a7ef5c7999a900eeff2976fcb3db125678d566d6f4ca8756fc679de03dac",
+    "improvements/86957/quality-2026-11-23/steps/771129/01_3215109_text.step": "e44bc6f777a87d86cf4dc97e618375979f956cd00dfbb382cf8bebf056713e59",
+    "improvements/86957/quality-2026-11-23/steps/771129/02_3215183_text.step": "32db2bccb767e6bfd069458702d65fe571c14364175ee0e91cceb909db74aa74",
+    "improvements/86957/quality-2026-11-23/steps/771129/03_3215192_text.step": "f7cd6de0c2ec7d4e20da763c15782724f9e0c834f706ba928ab50a297606a256",
+    "improvements/86957/quality-2026-11-23/steps/771130/01_3215112_text.step": "8a63a3d54c99b8c64ed36950989e3fda92abd4de6e7860cee0dadd82608306d8",
+    "improvements/86957/quality-2026-11-23/steps/771130/02_3215203_text.step": "2ddd565bd8fa7dd2ca0fb19821cf73f248cd38f15f99526e4250a189a3513a81",
+    "improvements/86957/quality-2026-11-23/steps/771130/03_3215206_text.step": "86549916456fc99c39ec66c4d4e787baf20639ab907a1998d2f7d1b460638b1f",
+    "improvements/86957/quality-2026-11-23/steps/771131/01_3215113_text.step": "2102d27daf8d4bd964a1dec9b3d918a9fd5785af9548bf357ba7293dd9cf238f",
+    "improvements/86957/quality-2026-11-23/steps/771131/02_3215200_text.step": "38faa83d23a5144cc67f922ad09d244922fc8f3477432f8f8be566a03f19e4fc",
+    "improvements/86957/quality-2026-11-23/steps/771131/03_3215199_text.step": "b880b901fe024c5883138e467d21dd82f1f6169a2ad51033502263331c820727",
+    "improvements/86957/quality-2026-11-23/steps/771131/04_3580923_text.step": "7b9bfa244c8269fbf1319d6d3b0262b4878db645be07b7d9ae505c89a658b5bf",
+    "improvements/86957/quality-2026-11-23/steps/973816/01_4035311_text.step": "a7cefaaafaf9e36b2d7ab916bdca175eca0bf82fa92c81749ffc4730305f5a00",
+    "improvements/86957/quality-2026-11-23/steps/973825/01_4035416_text.step": "01d2b147e1cbc1fc5ccc3328fb99fe2321bbfa885fd1b0bdf4d2ba8593b99259",
+    "improvements/86957/quality-2026-11-23/steps/973825/02_4035427_text.step": "d9b46eb814adf91785e92067ba6e9674b61d72f0cd2a1cdddbc20db59004ee58",
+    "improvements/86957/quality-2026-11-23/steps/973826/01_4035417_text.step": "e2e8973b59e1be0de5c06f39a8266da5dcb4935a1bc494c1945f38a146f5075b",
+    "improvements/86957/quality-2026-11-23/steps/973826/02_4035430_text.step": "b6a118e59d500a8206a3dd72970999e45dc4d0eef4b28d543e921f620068e557",
+    "tools/build_quality_packages.py": "b0e127ea29f8c74576d4a48cb6e787a8baa338f2ad0aa2f7dff4deabe12b21ca",
+    "tools/verify_quality_packages.py": "4a62abed5bd5e929922890ff0876c45feed578e6ffb5977d07451305862a526c"
+  },
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "compilations": 44,
+  "runtime_cases": 990,
+  "subset_checks": 9264,
+  "context_evidence_checks": 34,
+  "quality_steps": 25,
+  "assessment_steps": 4
+}

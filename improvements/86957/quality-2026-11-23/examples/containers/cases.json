@@ -1,0 +1,182 @@
+{
+  "examples": [
+    {
+      "source": "stl_range.cpp",
+      "step_id": 4035311,
+      "cases": [
+        {
+          "name": "sample",
+          "stdin": "5\n5 2 5 1 4\n5\n",
+          "stdout": "1 2 4 5 5\nfound\n",
+          "stderr": "",
+          "returncode": 0
+        },
+        {
+          "name": "empty",
+          "stdin": "0 7\n",
+          "stdout": "\nmissing\n",
+          "stderr": "",
+          "returncode": 0
+        },
+        {
+          "name": "absent",
+          "stdin": "3 1 4 9 5\n",
+          "stdout": "1 4 9\nmissing\n",
+          "stderr": "",
+          "returncode": 0
+        },
+        {
+          "name": "one",
+          "stdin": "1 -2 -2\n",
+          "stdout": "-2\nfound\n",
+          "stderr": "",
+          "returncode": 0
+        },
+        {
+          "name": "negative_count",
+          "stdin": "-1\n",
+          "stdout": "",
+          "stderr": "",
+          "returncode": 1
+        },
+        {
+          "name": "missing_key",
+          "stdin": "1 8\n",
+          "stdout": "",
+          "stderr": "",
+          "returncode": 1
+        }
+      ]
+    },
+    {
+      "source": "set_unique.cpp",
+      "step_id": 4035416,
+      "cases": [
+        {
+          "name": "sample",
+          "stdin": "6\n4 1 4 2 1 4\n",
+          "stdout": "3\n1 2 4\n",
+          "stderr": "",
+          "returncode": 0
+        },
+        {
+          "name": "empty",
+          "stdin": "0\n",
+          "stdout": "0\n\n",
+          "stderr": "",
+          "returncode": 0
+        },
+        {
+          "name": "duplicates",
+          "stdin": "5 8 8 8 8 8\n",
+          "stdout": "1\n8\n",
+          "stderr": "",
+          "returncode": 0
+        },
+        {
+          "name": "boundaries",
+          "stdin": "4 -1000000 1000000 0 -1000000\n",
+          "stdout": "3\n-1000000 0 1000000\n",
+          "stderr": "",
+          "returncode": 0
+        },
+        {
+          "name": "missing_value",
+          "stdin": "2 1\n",
+          "stdout": "",
+          "stderr": "",
+          "returncode": 1
+        }
+      ]
+    },
+    {
+      "source": "map_frequency.cpp",
+      "step_id": 4035427,
+      "cases": [
+        {
+          "name": "sample_missing_no_insert",
+          "stdin": "5\npear apple pear plum apple\npeach\n",
+          "stdout": "apple 2\npear 2\nplum 1\nnot found\nkeys 3\n",
+          "stderr": "",
+          "returncode": 0
+        },
+        {
+          "name": "empty_no_insert",
+          "stdin": "0 apple\n",
+          "stdout": "not found\nkeys 0\n",
+          "stderr": "",
+          "returncode": 0
+        },
+        {
+          "name": "present",
+          "stdin": "3 apple pear apple apple\n",
+          "stdout": "apple 2\npear 1\ncount 2\nkeys 2\n",
+          "stderr": "",
+          "returncode": 0
+        },
+        {
+          "name": "all_equal",
+          "stdin": "4 z z z z z\n",
+          "stdout": "z 4\ncount 4\nkeys 1\n",
+          "stderr": "",
+          "returncode": 0
+        },
+        {
+          "name": "missing_query",
+          "stdin": "1 apple\n",
+          "stdout": "",
+          "stderr": "",
+          "returncode": 1
+        }
+      ]
+    },
+    {
+      "source": "unordered_frequency.cpp",
+      "step_id": 4035430,
+      "cases": [
+        {
+          "name": "sample",
+          "stdin": "5\npear apple pear plum apple\npear\n",
+          "stdout": "count 2\nkeys 3\n",
+          "stderr": "",
+          "returncode": 0
+        },
+        {
+          "name": "empty",
+          "stdin": "0 apple\n",
+          "stdout": "not found\nkeys 0\n",
+          "stderr": "",
+          "returncode": 0
+        },
+        {
+          "name": "missing_no_insert",
+          "stdin": "2 apple pear plum\n",
+          "stdout": "not found\nkeys 2\n",
+          "stderr": "",
+          "returncode": 0
+        },
+        {
+          "name": "all_equal",
+          "stdin": "4 z z z z z\n",
+          "stdout": "count 4\nkeys 1\n",
+          "stderr": "",
+          "returncode": 0
+        },
+        {
+          "name": "negative_count",
+          "stdin": "-1\n",
+          "stdout": "",
+          "stderr": "",
+          "returncode": 1
+        },
+        {
+          "name": "maximum_count",
+          "stdin": "1000\napple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple \napple\n",
+          "stdout": "count 1000\nkeys 1\n",
+          "stderr": "",
+          "returncode": 0
+        }
+      ]
+    }
+  ]
+}

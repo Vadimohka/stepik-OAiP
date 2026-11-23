@@ -1,0 +1,516 @@
+{
+  "status": "passed",
+  "all_passed": true,
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "standards": [
+    "c++17",
+    "c++20"
+  ],
+  "examples": 7,
+  "fragments": 1,
+  "cases": 80,
+  "checks": [
+    {
+      "source": "step:3215112/fragment",
+      "standard": "c++17",
+      "case": "binary_mode_still_formats_text",
+      "passed": true
+    },
+    {
+      "source": "read_lines.cpp",
+      "standard": "c++17",
+      "case": "names_with_spaces",
+      "passed": true
+    },
+    {
+      "source": "read_lines.cpp",
+      "standard": "c++17",
+      "case": "blank_line_and_missing_final_newline",
+      "passed": true
+    },
+    {
+      "source": "read_lines.cpp",
+      "standard": "c++17",
+      "case": "empty_file",
+      "passed": true
+    },
+    {
+      "source": "read_lines.cpp",
+      "standard": "c++17",
+      "case": "one_empty_line",
+      "passed": true
+    },
+    {
+      "source": "read_lines.cpp",
+      "standard": "c++17",
+      "case": "missing_file",
+      "passed": true
+    },
+    {
+      "source": "write_report.cpp",
+      "standard": "c++17",
+      "case": "create_report",
+      "passed": true
+    },
+    {
+      "source": "write_report.cpp",
+      "standard": "c++17",
+      "case": "truncate_old_report",
+      "passed": true
+    },
+    {
+      "source": "write_report.cpp",
+      "standard": "c++17",
+      "case": "output_path_is_directory",
+      "passed": true
+    },
+    {
+      "source": "c_write.cpp",
+      "standard": "c++17",
+      "case": "write_bytes_without_nul",
+      "passed": true
+    },
+    {
+      "source": "c_write.cpp",
+      "standard": "c++17",
+      "case": "truncate_existing",
+      "passed": true
+    },
+    {
+      "source": "c_write.cpp",
+      "standard": "c++17",
+      "case": "output_path_is_directory",
+      "passed": true
+    },
+    {
+      "source": "append_line.cpp",
+      "standard": "c++17",
+      "case": "create_journal",
+      "passed": true
+    },
+    {
+      "source": "append_line.cpp",
+      "standard": "c++17",
+      "case": "keep_previous_lines",
+      "passed": true
+    },
+    {
+      "source": "append_line.cpp",
+      "standard": "c++17",
+      "case": "no_implicit_separator",
+      "passed": true
+    },
+    {
+      "source": "append_line.cpp",
+      "standard": "c++17",
+      "case": "output_path_is_directory",
+      "passed": true
+    },
+    {
+      "source": "overwrite_prefix.cpp",
+      "standard": "c++17",
+      "case": "no_truncation",
+      "passed": true
+    },
+    {
+      "source": "overwrite_prefix.cpp",
+      "standard": "c++17",
+      "case": "empty_existing_file",
+      "passed": true
+    },
+    {
+      "source": "overwrite_prefix.cpp",
+      "standard": "c++17",
+      "case": "missing_file_is_not_created",
+      "passed": true
+    },
+    {
+      "source": "last_byte.cpp",
+      "standard": "c++17",
+      "case": "five_bytes",
+      "passed": true
+    },
+    {
+      "source": "last_byte.cpp",
+      "standard": "c++17",
+      "case": "one_byte",
+      "passed": true
+    },
+    {
+      "source": "last_byte.cpp",
+      "standard": "c++17",
+      "case": "newline_is_also_a_byte",
+      "passed": true
+    },
+    {
+      "source": "last_byte.cpp",
+      "standard": "c++17",
+      "case": "empty_file_has_no_last_byte",
+      "passed": true
+    },
+    {
+      "source": "last_byte.cpp",
+      "standard": "c++17",
+      "case": "missing_file",
+      "passed": true
+    },
+    {
+      "source": "sum_numbers.cpp",
+      "standard": "c++17",
+      "case": "example",
+      "passed": true
+    },
+    {
+      "source": "sum_numbers.cpp",
+      "standard": "c++17",
+      "case": "empty_file",
+      "passed": true
+    },
+    {
+      "source": "sum_numbers.cpp",
+      "standard": "c++17",
+      "case": "whitespace_only",
+      "passed": true
+    },
+    {
+      "source": "sum_numbers.cpp",
+      "standard": "c++17",
+      "case": "zero_without_final_newline",
+      "passed": true
+    },
+    {
+      "source": "sum_numbers.cpp",
+      "standard": "c++17",
+      "case": "value_boundaries",
+      "passed": true
+    },
+    {
+      "source": "sum_numbers.cpp",
+      "standard": "c++17",
+      "case": "signs_leading_zeroes_and_whitespace",
+      "passed": true
+    },
+    {
+      "source": "sum_numbers.cpp",
+      "standard": "c++17",
+      "case": "trailing_letters",
+      "passed": true
+    },
+    {
+      "source": "sum_numbers.cpp",
+      "standard": "c++17",
+      "case": "out_of_contract_range",
+      "passed": true
+    },
+    {
+      "source": "sum_numbers.cpp",
+      "standard": "c++17",
+      "case": "negative_out_of_range",
+      "passed": true
+    },
+    {
+      "source": "sum_numbers.cpp",
+      "standard": "c++17",
+      "case": "overflow_at_eof",
+      "passed": true
+    },
+    {
+      "source": "sum_numbers.cpp",
+      "standard": "c++17",
+      "case": "sign_without_digits",
+      "passed": true
+    },
+    {
+      "source": "sum_numbers.cpp",
+      "standard": "c++17",
+      "case": "fraction_is_not_integer",
+      "passed": true
+    },
+    {
+      "source": "sum_numbers.cpp",
+      "standard": "c++17",
+      "case": "missing_file",
+      "passed": true
+    },
+    {
+      "source": "sum_numbers.cpp",
+      "standard": "c++17",
+      "case": "maximum_count_1000000",
+      "passed": true
+    },
+    {
+      "source": "sum_numbers.cpp",
+      "standard": "c++17",
+      "case": "maximum_count_-1000000",
+      "passed": true
+    },
+    {
+      "source": "sum_numbers.cpp",
+      "standard": "c++17",
+      "case": "too_many_integers",
+      "passed": true
+    },
+    {
+      "source": "step:3215112/fragment",
+      "standard": "c++20",
+      "case": "binary_mode_still_formats_text",
+      "passed": true
+    },
+    {
+      "source": "read_lines.cpp",
+      "standard": "c++20",
+      "case": "names_with_spaces",
+      "passed": true
+    },
+    {
+      "source": "read_lines.cpp",
+      "standard": "c++20",
+      "case": "blank_line_and_missing_final_newline",
+      "passed": true
+    },
+    {
+      "source": "read_lines.cpp",
+      "standard": "c++20",
+      "case": "empty_file",
+      "passed": true
+    },
+    {
+      "source": "read_lines.cpp",
+      "standard": "c++20",
+      "case": "one_empty_line",
+      "passed": true
+    },
+    {
+      "source": "read_lines.cpp",
+      "standard": "c++20",
+      "case": "missing_file",
+      "passed": true
+    },
+    {
+      "source": "write_report.cpp",
+      "standard": "c++20",
+      "case": "create_report",
+      "passed": true
+    },
+    {
+      "source": "write_report.cpp",
+      "standard": "c++20",
+      "case": "truncate_old_report",
+      "passed": true
+    },
+    {
+      "source": "write_report.cpp",
+      "standard": "c++20",
+      "case": "output_path_is_directory",
+      "passed": true
+    },
+    {
+      "source": "c_write.cpp",
+      "standard": "c++20",
+      "case": "write_bytes_without_nul",
+      "passed": true
+    },
+    {
+      "source": "c_write.cpp",
+      "standard": "c++20",
+      "case": "truncate_existing",
+      "passed": true
+    },
+    {
+      "source": "c_write.cpp",
+      "standard": "c++20",
+      "case": "output_path_is_directory",
+      "passed": true
+    },
+    {
+      "source": "append_line.cpp",
+      "standard": "c++20",
+      "case": "create_journal",
+      "passed": true
+    },
+    {
+      "source": "append_line.cpp",
+      "standard": "c++20",
+      "case": "keep_previous_lines",
+      "passed": true
+    },
+    {
+      "source": "append_line.cpp",
+      "standard": "c++20",
+      "case": "no_implicit_separator",
+      "passed": true
+    },
+    {
+      "source": "append_line.cpp",
+      "standard": "c++20",
+      "case": "output_path_is_directory",
+      "passed": true
+    },
+    {
+      "source": "overwrite_prefix.cpp",
+      "standard": "c++20",
+      "case": "no_truncation",
+      "passed": true
+    },
+    {
+      "source": "overwrite_prefix.cpp",
+      "standard": "c++20",
+      "case": "empty_existing_file",
+      "passed": true
+    },
+    {
+      "source": "overwrite_prefix.cpp",
+      "standard": "c++20",
+      "case": "missing_file_is_not_created",
+      "passed": true
+    },
+    {
+      "source": "last_byte.cpp",
+      "standard": "c++20",
+      "case": "five_bytes",
+      "passed": true
+    },
+    {
+      "source": "last_byte.cpp",
+      "standard": "c++20",
+      "case": "one_byte",
+      "passed": true
+    },
+    {
+      "source": "last_byte.cpp",
+      "standard": "c++20",
+      "case": "newline_is_also_a_byte",
+      "passed": true
+    },
+    {
+      "source": "last_byte.cpp",
+      "standard": "c++20",
+      "case": "empty_file_has_no_last_byte",
+      "passed": true
+    },
+    {
+      "source": "last_byte.cpp",
+      "standard": "c++20",
+      "case": "missing_file",
+      "passed": true
+    },
+    {
+      "source": "sum_numbers.cpp",
+      "standard": "c++20",
+      "case": "example",
+      "passed": true
+    },
+    {
+      "source": "sum_numbers.cpp",
+      "standard": "c++20",
+      "case": "empty_file",
+      "passed": true
+    },
+    {
+      "source": "sum_numbers.cpp",
+      "standard": "c++20",
+      "case": "whitespace_only",
+      "passed": true
+    },
+    {
+      "source": "sum_numbers.cpp",
+      "standard": "c++20",
+      "case": "zero_without_final_newline",
+      "passed": true
+    },
+    {
+      "source": "sum_numbers.cpp",
+      "standard": "c++20",
+      "case": "value_boundaries",
+      "passed": true
+    },
+    {
+      "source": "sum_numbers.cpp",
+      "standard": "c++20",
+      "case": "signs_leading_zeroes_and_whitespace",
+      "passed": true
+    },
+    {
+      "source": "sum_numbers.cpp",
+      "standard": "c++20",
+      "case": "trailing_letters",
+      "passed": true
+    },
+    {
+      "source": "sum_numbers.cpp",
+      "standard": "c++20",
+      "case": "out_of_contract_range",
+      "passed": true
+    },
+    {
+      "source": "sum_numbers.cpp",
+      "standard": "c++20",
+      "case": "negative_out_of_range",
+      "passed": true
+    },
+    {
+      "source": "sum_numbers.cpp",
+      "standard": "c++20",
+      "case": "overflow_at_eof",
+      "passed": true
+    },
+    {
+      "source": "sum_numbers.cpp",
+      "standard": "c++20",
+      "case": "sign_without_digits",
+      "passed": true
+    },
+    {
+      "source": "sum_numbers.cpp",
+      "standard": "c++20",
+      "case": "fraction_is_not_integer",
+      "passed": true
+    },
+    {
+      "source": "sum_numbers.cpp",
+      "standard": "c++20",
+      "case": "missing_file",
+      "passed": true
+    },
+    {
+      "source": "sum_numbers.cpp",
+      "standard": "c++20",
+      "case": "maximum_count_1000000",
+      "passed": true
+    },
+    {
+      "source": "sum_numbers.cpp",
+      "standard": "c++20",
+      "case": "maximum_count_-1000000",
+      "passed": true
+    },
+    {
+      "source": "sum_numbers.cpp",
+      "standard": "c++20",
+      "case": "too_many_integers",
+      "passed": true
+    }
+  ],
+  "input_sha256": {
+    "examples/files/read_lines.cpp": "444d8c0016866b3ec3937f6ba6dacfbcccf34fb136112708c79e9e934616e757",
+    "steps/771131/01_3215113_text.step": "2102d27daf8d4bd964a1dec9b3d918a9fd5785af9548bf357ba7293dd9cf238f",
+    "examples/files/write_report.cpp": "d0653d27ed3772070b5849d8c78df4dae8d29acb2b5a64c219e9c88774619782",
+    "steps/771131/02_3215200_text.step": "38faa83d23a5144cc67f922ad09d244922fc8f3477432f8f8be566a03f19e4fc",
+    "examples/files/c_write.cpp": "2892758974a2a18ca161e47f36c43436236abd2e5f90042a73cdfa763fc87ae8",
+    "steps/771131/03_3215199_text.step": "b880b901fe024c5883138e467d21dd82f1f6169a2ad51033502263331c820727",
+    "examples/files/append_line.cpp": "bc810f410fcfe77a0955bfc7d775cc4643a55272eb8221fca8f90d783b162eef",
+    "steps/771131/04_3580923_text.step": "7b9bfa244c8269fbf1319d6d3b0262b4878db645be07b7d9ae505c89a658b5bf",
+    "examples/files/overwrite_prefix.cpp": "9bcb4688f3cc4f145e767008abebf6cd4427f4f5df90078719b2745cda34185e",
+    "examples/files/last_byte.cpp": "fcbea23b42d5577b1a11226f62744123a7ac7c9a0693100bc7871c7767d0e0de",
+    "steps/771130/02_3215203_text.step": "2ddd565bd8fa7dd2ca0fb19821cf73f248cd38f15f99526e4250a189a3513a81",
+    "examples/files/sum_numbers.cpp": "cc449b3b3ae04a79813198b2397795ec6365dd1016c706864db275283e74255d",
+    "steps/771130/03_3215206_text.step": "86549916456fc99c39ec66c4d4e787baf20639ab907a1998d2f7d1b460638b1f",
+    "steps/771130/01_3215112_text.step": "8a63a3d54c99b8c64ed36950989e3fda92abd4de6e7860cee0dadd82608306d8",
+    "examples/files/cases.json": "f057a1dd9eed7eda053c5a80de5822d30503ea761c40c6281be64bac156cc5bc",
+    "examples/files/verify.py": "2767446e1289b20f34746ec44e500101e57295d6780b851d98adf7ecfef364b4"
+  },
+  "limitations": [
+    "Observed on Linux; exact file bytes and error behavior were not run on Windows.",
+    "Disk-full and hardware I/O failures are not injected by this check."
+  ]
+}

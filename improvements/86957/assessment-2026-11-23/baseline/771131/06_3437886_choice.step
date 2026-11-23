@@ -1,0 +1,78 @@
+{
+  "block": {
+    "name": "choice",
+    "text": "<p>Выберите верные утверждения.</p>",
+    "video": null,
+    "options": {
+      "is_multiple_choice": true
+    },
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {
+      "is_multiple_choice": true,
+      "is_always_correct": false,
+      "sample_size": 10,
+      "preserve_order": false,
+      "is_html_enabled": true,
+      "is_options_feedback": false,
+      "options": [
+        {
+          "is_correct": true,
+          "text": "С помощью ofstream можно совершать форматированный вывод, как и в консоль при помощи std::cout.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "В закрытии файлов нет необходимости.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "При помощи функции ofstream::seekp можно указать позицию, куда будет писаться следующий символ.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Объект ofstream пишет сразу в файл",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "ofstream пишет сначала в буфер.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Синхронизировать состояние буфера и состояние файла невозможно вручную.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Один файл может быть открыт только с одним флагом.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "std::cin и std::ifstream имеют общие функции.",
+          "feedback": ""
+        },
+        {
+          "is_correct": true,
+          "text": "Выражение <code>out &lt;&lt; 42</code>, где out имеет тип std::ofstream, возвращает ссылку <code>std::ostream&amp;</code> на тот же поток.",
+          "feedback": ""
+        },
+        {
+          "is_correct": false,
+          "text": "Из-за того, что ofstream пишет в буфер, он может не синхронизироваться с файлом, если блок кода, в котором определен ofstream будет завершен в результате исключения.",
+          "feedback": ""
+        }
+      ]
+    },
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3437886",
+  "time": "2026-11-22T18:35:40Z"
+}

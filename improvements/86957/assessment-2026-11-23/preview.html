@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Обновление проверочных вопросов — курс 86957</title><style>
+:root{color-scheme:light;--ink:#182e3c;--accent:#135f69;--line:#cbd7de}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f5f7f8;color:var(--ink);font:17px/1.65 system-ui,sans-serif}
+header{padding:2rem max(1rem,calc((100vw - 1420px)/2));background:#143646;color:white}header a{color:#d9f3f5}h1,h2,h3,h4{line-height:1.25}
+.layout{max-width:1420px;margin:auto;display:grid;grid-template-columns:300px minmax(0,1fr);gap:2rem;padding:1.5rem}
+nav{position:sticky;top:1rem;align-self:start;max-height:90vh;overflow:auto;font-size:.9rem}nav ol{padding-left:1.4rem}nav li{margin:.65rem 0}
+a{color:var(--accent);text-underline-offset:.15em}article{background:white;padding:1.5rem 2rem;margin-bottom:2rem;border:1px solid var(--line);border-radius:12px;scroll-margin-top:1rem}
+.notice{border-left:5px solid #e3ae39;background:#fff0c9;padding:.8rem 1rem;color:#473b1b}.meta{font-size:.9rem;color:#47616f}.article-heading{border-bottom:1px solid var(--line);padding-bottom:1rem;margin-bottom:1.5rem}
+pre{overflow:auto;background:#edf2f5;padding:1rem;border-radius:8px;font-size:14px;line-height:1.5}code{font-size:.91em}table{border-collapse:collapse;width:100%;display:block;overflow:auto}
+th,td{border:1px solid var(--line);padding:.6rem;text-align:left;vertical-align:top}th{background:#edf2f5}details{margin:1rem 0;border:1px solid var(--line);border-radius:7px;padding:.8rem 1rem}summary{cursor:pointer;font-weight:650}.choices li{padding:.4rem 0}.teacher{background:#eef6f3}.teacher li{margin:1rem 0}.feedback{margin:.3rem 0}.sources{font-size:.9rem;border-top:1px solid var(--line);padding-top:1rem;overflow-wrap:anywhere}img{max-width:100%;height:auto}
+@media(max-width:900px){.layout{display:block;padding:1rem}nav{position:static;max-height:none}article{padding:1rem}header{padding:1.5rem 1rem}}
+@media print{nav{display:none}.layout{display:block}article{border:0;break-before:page}header{color:var(--ink);background:white}pre{white-space:pre-wrap}}
+</style></head><body>
+<header id="top"><h1>Обновление проверочных вопросов</h1><p>Курс 86957 · подготовлено 2026-11-23 · 4 шагов в 3 уроках</p>
+<p class="notice">Готовый пакет изменений. Ещё не опубликован на Stepik; здесь показана подготовленная редакция.</p>
+<p><a href="manifest.json">Манифест</a> · <a href="CHANGES.md">Журнал изменений</a></p></header>
+<div class="layout"><nav aria-label="Шаги пакета"><h2>Навигация</h2><ol>
+<li><a href="#step-3437886">Файловый поток: операции, состояние и время жизни</a><br><span class="meta">ID 3437886 · 771131/6</span></li>
+<li><a href="#step-3424087">Проверяем чтение, а не угадываем конец файла</a><br><span class="meta">ID 3424087 · 771130/4</span></li>
+<li><a href="#step-3437952">Режим открытия и формат данных</a><br><span class="meta">ID 3437952 · 771130/5</span></li>
+<li><a href="#step-4718246">std::move и константный источник</a><br><span class="meta">ID 4718246 · 853535/4</span></li>
+</ol></nav><main>
+<article id="step-3437886"><div class="article-heading"><p class="meta">ID 3437886 · урок 771131 · позиция 6</p>
+<p>Уточнены гарантии RAII, close, flush, is_open, тип результата вывода и семантика app; устранены абсолютные утверждения о буферизации.</p><p><a href="https://stepik.org/lesson/771131/step/6">Существующий шаг на Stepik</a> · <a href="steps/771131/06_3437886_choice.step">Новый .step</a> · <a href="baseline/771131/06_3437886_choice.step">Исходный .step</a></p></div>
+<h2>Файловый поток: операции, состояние и время жизни</h2>
+<p>Выберите все верные утверждения о <code>std::ifstream</code>, <code>std::ofstream</code> и <code>std::fstream</code>. Имена <code>in</code> и <code>out</code> обозначают соответствующие потоки. Если не сказано иное, используется обычный файл и стандартная настройка потока: исключения через <code>exceptions()</code> не включены.</p>
+<p class="meta">Ниже авторский порядок вариантов. Настройка перемешивания на Stepik сохранена.</p><ol class="choices">
+<li><code>std::ofstream</code> поддерживает форматированный вывод через <code>&lt;&lt;</code>, как <code>std::cout</code>.</li>
+<li>При обычном выходе из области видимости и при раскрутке стека деструктор локального <code>std::ofstream</code> вызывает закрытие связанного файла.</li>
+<li>Если <code>out.is_open()</code> вернул <code>true</code>, любая следующая запись в этот файл обязательно будет успешной.</li>
+<li>Чтобы проверить завершение записи, можно вызвать <code>out.close()</code>, а затем проверить состояние <code>out</code>.</li>
+<li>Успешный <code>out.flush()</code> гарантирует сохранность данных при внезапном отключении питания.</li>
+<li>Выражение <code>out &lt;&lt; 42</code> возвращает ссылку <code>std::ostream&amp;</code> на тот же поток, поэтому операции вывода можно объединять в цепочку.</li>
+<li>Режимы <code>std::ios::in</code> и <code>std::ios::out</code> можно объединить оператором <code>|</code> для чтения и записи через <code>std::fstream</code>.</li>
+<li>В режиме <code>std::ios::app</code> вызов <code>out.seekp(0)</code> позволяет следующей записью заменить начало файла.</li>
+<li>Оператор <code>return</code> внутри функции пропускает деструкторы её локальных файловых потоков.</li>
+<li>Каждая операция <code>out &lt;&lt; значение</code> гарантирует физическую запись данных на накопитель до возврата из оператора.</li>
+</ol>
+<details class="teacher"><summary>Для преподавателя: ключ и обратная связь</summary>
+<p><strong>Верные варианты: 1, 2, 4, 6, 7.</strong> Это ключ авторского блока; фактическое оценивание платформы здесь не воспроизводится.</p><ol>
+<li><strong>Верно.</strong> <code>std::ofstream</code> поддерживает форматированный вывод через <code>&lt;&lt;</code>, как <code>std::cout</code>.<div class="feedback">Файловый поток вывода использует интерфейс <code>std::ostream</code>. Например, <code>out &lt;&lt; 42</code> форматирует число; место назначения — файл.</div></li>
+<li><strong>Верно.</strong> При обычном выходе из области видимости и при раскрутке стека деструктор локального <code>std::ofstream</code> вызывает закрытие связанного файла.<div class="feedback">Это применение RAII: уничтожение объекта освобождает ресурс. Однако деструктор не даёт вызывающему коду удобного способа проверить успешность сохранения; для этого выполняют явное закрытие и проверку состояния.</div></li>
+<li><strong>Неверно.</strong> Если <code>out.is_open()</code> вернул <code>true</code>, любая следующая запись в этот файл обязательно будет успешной.<div class="feedback"><code>is_open()</code> сообщает о связи с открытым файлом. Запись позже может завершиться ошибкой; проверять нужно состояние после операции, а при завершении — после закрытия.</div></li>
+<li><strong>Верно.</strong> Чтобы проверить завершение записи, можно вызвать <code>out.close()</code>, а затем проверить состояние <code>out</code>.<div class="feedback">При ошибке закрытия файловый поток устанавливает состояние ошибки. При стандартной настройке исключений проверка <code>if (!out)</code> после <code>close()</code> позволяет её обнаружить. Она также выявит ранее установленную ошибку записи.</div></li>
+<li><strong>Неверно.</strong> Успешный <code>out.flush()</code> гарантирует сохранность данных при внезапном отключении питания.<div class="feedback"><code>flush()</code> запрашивает синхронизацию буфера потока. Стандартный интерфейс C++ не обещает этим вызовом сохранность данных при отключении питания: ниже могут оставаться буферы ОС и устройства.</div></li>
+<li><strong>Верно.</strong> Выражение <code>out &lt;&lt; 42</code> возвращает ссылку <code>std::ostream&amp;</code> на тот же поток, поэтому операции вывода можно объединять в цепочку.<div class="feedback">Арифметический <code>operator&lt;&lt;</code> возвращает поток по ссылке. Поэтому допустимо <code>out &lt;&lt; 42 &lt;&lt; '\n'</code>; успех вывода всё равно нужно проверять по состоянию потока.</div></li>
+<li><strong>Верно.</strong> Режимы <code>std::ios::in</code> и <code>std::ios::out</code> можно объединить оператором <code>|</code> для чтения и записи через <code>std::fstream</code>.<div class="feedback">Режим открытия — набор битовых флагов. Комбинация <code>in | out</code> позволяет читать и писать без усечения; обычное открытие с ней требует уже существующего файла.</div></li>
+<li><strong>Неверно.</strong> В режиме <code>std::ios::app</code> вызов <code>out.seekp(0)</code> позволяет следующей записью заменить начало файла.<div class="feedback">Режим <code>app</code> требует перехода в конец перед каждой записью. Для перезаписи участка нужен подходящий режим открытия без <code>app</code> и проверка позиционирования.</div></li>
+<li><strong>Неверно.</strong> Оператор <code>return</code> внутри функции пропускает деструкторы её локальных файловых потоков.<div class="feedback">При обычном выходе через <code>return</code> локальные объекты уничтожаются. Это отличается, например, от аварийного завершения процесса, при котором на обычное освобождение ресурсов полагаться нельзя.</div></li>
+<li><strong>Неверно.</strong> Каждая операция <code>out &lt;&lt; значение</code> гарантирует физическую запись данных на накопитель до возврата из оператора.<div class="feedback">Поток может буферизовать вывод; детали передачи данных зависят от реализации и среды. Ни отдельная операция <code>&lt;&lt;</code>, ни стандартный <code>flush()</code> не являются гарантией физической сохранности на накопителе.</div></li>
+</ol>
+<p><strong>Обратная связь при верном ответе:</strong> Верно: выбран полный набор утверждений, согласующихся с разобранными примерами.</p>
+<p><strong>Обратная связь при ошибке:</strong> Проверьте каждый вариант отдельно. Обратите внимание на условия операции и на слова «всегда» и «гарантирует»; разбор приведён в обратной связи к вариантам.</p>
+</details>
+<div class="sources"><strong>Справочные источники</strong><ul>
+<li><a href="https://eel.is/c++draft/ostream.inserters.arithmetic">https://eel.is/c++draft/ostream.inserters.arithmetic</a></li>
+<li><a href="https://eel.is/c++draft/ostream.unformatted">https://eel.is/c++draft/ostream.unformatted</a></li>
+<li><a href="https://eel.is/c++draft/fstream.members">https://eel.is/c++draft/fstream.members</a></li>
+<li><a href="https://eel.is/c++draft/ios.openmode">https://eel.is/c++draft/ios.openmode</a></li>
+<li><a href="https://eel.is/c++draft/filebuf.cons">https://eel.is/c++draft/filebuf.cons</a></li>
+</ul><p><a href="#top">К началу пакета</a></p></div></article>
+<article id="step-3424087"><div class="article-heading"><p class="meta">ID 3424087 · урок 771130 · позиция 4</p>
+<p>FNULL, спорная файловая модель и опережающие вопросы заменены проверкой результатов чтения, пустых строк, последней строки и ошибок на EOF.</p><p><a href="https://stepik.org/lesson/771130/step/4">Существующий шаг на Stepik</a> · <a href="steps/771130/04_3424087_choice.step">Новый .step</a> · <a href="baseline/771130/04_3424087_choice.step">Исходный .step</a></p></div>
+<h2>Проверяем чтение, а не угадываем конец файла</h2>
+<p>Выберите все верные утверждения. Поток <code>in</code> успешно открыт на чтение и начинает работу в исправном состоянии; исключения через <code>exceptions()</code> не включены. <code>line</code> имеет тип <code>std::string</code>, <code>value</code> — <code>int</code>. В примерах со строками используется обычный вызов <code>std::getline(in, line)</code> с разделителем <code>'\n'</code>.</p>
+<p class="meta">Ниже авторский порядок вариантов. Настройка перемешивания на Stepik сохранена.</p><ol class="choices">
+<li>В цикле <code>while (std::getline(in, line))</code> тело выполняется после успешного чтения очередной строки.</li>
+<li>Условие <code>while (!in.eof())</code> само по себе гарантирует, что чтение внутри тела цикла даст очередное корректное значение.</li>
+<li>Для пустого файла первый вызов <code>std::getline(in, line)</code> считается успешным и даёт одну пустую строку.</li>
+<li>Если содержимое файла — один символ перевода строки <code>'\n'</code>, первый успешный вызов <code>std::getline</code> даст пустую строку.</li>
+<li>Непустая последняя строка без завершающего <code>'\n'</code> всегда теряется при чтении через <code>std::getline</code>.</li>
+<li>В условии <code>if (in &gt;&gt; value)</code> тело <code>if</code> выполняется только после успешного чтения числа в <code>value</code>.</li>
+<li>Если файл открыт, проверять результат <code>in &gt;&gt; value</code> не нужно: неверный числовой текст превращается в корректное значение автоматически.</li>
+<li>Если после неудачного чтения числа <code>in.eof()</code> равно <code>true</code>, это всегда означает нормальное окончание ввода без ошибки данных.</li>
+<li>Установленный <code>badbit</code> после чтения указывает на серьёзную ошибку потока, которую нельзя считать обычным окончанием данных.</li>
+<li>Обычный вызов <code>std::getline(in, line)</code> сохраняет разделитель <code>'\n'</code> последним символом <code>line</code>.</li>
+</ol>
+<details class="teacher"><summary>Для преподавателя: ключ и обратная связь</summary>
+<p><strong>Верные варианты: 1, 4, 6, 9.</strong> Это ключ авторского блока; фактическое оценивание платформы здесь не воспроизводится.</p><ol>
+<li><strong>Верно.</strong> В цикле <code>while (std::getline(in, line))</code> тело выполняется после успешного чтения очередной строки.<div class="feedback">Сначала вызывается <code>std::getline</code>, затем проверяется состояние возвращённого потока. Это связывает обработку данных с результатом конкретной операции чтения.</div></li>
+<li><strong>Неверно.</strong> Условие <code>while (!in.eof())</code> само по себе гарантирует, что чтение внутри тела цикла даст очередное корректное значение.<div class="feedback"><code>eof()</code> отражает уже обнаруженный конец ввода. Предыдущая проверка не предсказывает успех следующего чтения; возможны как конец файла, так и ошибка формата.</div></li>
+<li><strong>Неверно.</strong> Для пустого файла первый вызов <code>std::getline(in, line)</code> считается успешным и даёт одну пустую строку.<div class="feedback">В пустом файле не извлекается ни символа, ни разделителя. Чтение завершается неуспешно, и тело цикла <code>while (std::getline(...))</code> не выполняется.</div></li>
+<li><strong>Верно.</strong> Если содержимое файла — один символ перевода строки <code>'\n'</code>, первый успешный вызов <code>std::getline</code> даст пустую строку.<div class="feedback">Разделитель извлекается из потока, но не добавляется в <code>line</code>. Поэтому пустая строка в файле отличается от полного отсутствия данных.</div></li>
+<li><strong>Неверно.</strong> Непустая последняя строка без завершающего <code>'\n'</code> всегда теряется при чтении через <code>std::getline</code>.<div class="feedback">Если перед концом файла прочитаны символы строки, <code>std::getline</code> возвращает её. Может быть установлен <code>eofbit</code>, но он сам по себе не означает неуспех операции.</div></li>
+<li><strong>Верно.</strong> В условии <code>if (in &gt;&gt; value)</code> тело <code>if</code> выполняется только после успешного чтения числа в <code>value</code>.<div class="feedback">Оператор извлечения возвращает поток. Его проверка в условии учитывает <code>failbit</code> и <code>badbit</code>, поэтому обработка числа связана с успешным результатом чтения.</div></li>
+<li><strong>Неверно.</strong> Если файл открыт, проверять результат <code>in &gt;&gt; value</code> не нужно: неверный числовой текст превращается в корректное значение автоматически.<div class="feedback">Открытие файла не проверяет его содержимое. Неподходящий токен или число вне диапазона <code>int</code> вызывает ошибку извлечения; полученное значение нельзя считать успешно прочитанными данными.</div></li>
+<li><strong>Неверно.</strong> Если после неудачного чтения числа <code>in.eof()</code> равно <code>true</code>, это всегда означает нормальное окончание ввода без ошибки данных.<div class="feedback">Ошибка преобразования может произойти одновременно с достижением конца файла. Например, последний числовой токен может выходить за диапазон <code>int</code>. Одной проверки <code>eof()</code> недостаточно для подтверждения корректности данных.</div></li>
+<li><strong>Верно.</strong> Установленный <code>badbit</code> после чтения указывает на серьёзную ошибку потока, которую нельзя считать обычным окончанием данных.<div class="feedback">Флаг <code>badbit</code> проверяется методом <code>bad()</code>. В учебном цикле после завершения чтения нужно отличать ошибку потока от ожидаемого конца файла и от ошибки формата.</div></li>
+<li><strong>Неверно.</strong> Обычный вызов <code>std::getline(in, line)</code> сохраняет разделитель <code>'\n'</code> последним символом <code>line</code>.<div class="feedback"><code>std::getline</code> извлекает найденный разделитель из потока, но не сохраняет его в строке. Если при выводе нужен перевод строки, его добавляют явно.</div></li>
+</ol>
+<p><strong>Обратная связь при верном ответе:</strong> Верно: выбран полный набор утверждений, согласующихся с разобранными примерами.</p>
+<p><strong>Обратная связь при ошибке:</strong> Проверьте каждый вариант отдельно. Обратите внимание на условия операции и на слова «всегда» и «гарантирует»; разбор приведён в обратной связи к вариантам.</p>
+</details>
+<div class="sources"><strong>Справочные источники</strong><ul>
+<li><a href="https://eel.is/c++draft/string.io">https://eel.is/c++draft/string.io</a></li>
+<li><a href="https://eel.is/c++draft/iostate.flags">https://eel.is/c++draft/iostate.flags</a></li>
+<li><a href="https://eel.is/c++draft/istream.formatted.arithmetic">https://eel.is/c++draft/istream.formatted.arithmetic</a></li>
+<li><a href="https://eel.is/c++draft/facet.num.get.virtuals">https://eel.is/c++draft/facet.num.get.virtuals</a></li>
+</ul><p><a href="#top">К началу пакета</a></p></div></article>
+<article id="step-3437952"><div class="article-heading"><p class="meta">ID 3437952 · урок 771130 · позиция 5</p>
+<p>Убраны неверное обобщение о заголовках ОС и вопросы о строковых флагах fopen; проверяется различие режима binary, кодировки и переносимого формата данных.</p><p><a href="https://stepik.org/lesson/771130/step/5">Существующий шаг на Stepik</a> · <a href="steps/771130/05_3437952_choice.step">Новый .step</a> · <a href="baseline/771130/05_3437952_choice.step">Исходный .step</a></p></div>
+<h2>Режим открытия и формат данных</h2>
+<p>Выберите все верные утверждения. Рассматриваем стандартные файловые потоки C++ и формат файла, который должен быть понятен программе чтения. Под переносимостью понимаем возможность обмена между реализациями, у которых могут различаться размеры типов и представление данных.</p>
+<p class="meta">Ниже авторский порядок вариантов. Настройка перемешивания на Stepik сохранена.</p><ol class="choices">
+<li>Даже если <code>std::ofstream out</code> открыт с <code>std::ios::binary</code>, выражение <code>out &lt;&lt; 42</code> по-прежнему выполняет форматированный вывод числа.</li>
+<li>Флаг <code>std::ios::binary</code> автоматически переводит все записываемые строки в UTF-8.</li>
+<li>Для корректного обмена текстом записывающая и читающая программы должны согласовать кодировку.</li>
+<li>Расширение имени <code>.txt</code> само заставляет <code>std::ifstream</code> игнорировать указанный режим <code>std::ios::binary</code>.</li>
+<li>Запись <code>sizeof(T)</code> байтов объекта структурного типа <code>T</code> всегда создаёт переносимый формат, если файл открыт в двоичном режиме.</li>
+<li>Побайтовая запись самого объекта <code>std::string</code> гарантированно сохраняет его текст так, что другой процесс сможет восстановить строку тем же дампом.</li>
+<li>При разработке собственного двоичного формата нужно описать порядок полей, границы записей и представление чисел.</li>
+<li>Текстовый формат тоже требует правил: например, разделителей полей и способа записи чисел.</li>
+<li>Если записать числовое значение указателя в файл, другой процесс сможет использовать его для доступа к тому же объекту.</li>
+<li>Версия собственного формата помогает читателю определить, какую схему записей нужно использовать; её тоже следует проверять.</li>
+</ol>
+<details class="teacher"><summary>Для преподавателя: ключ и обратная связь</summary>
+<p><strong>Верные варианты: 1, 3, 7, 8, 10.</strong> Это ключ авторского блока; фактическое оценивание платформы здесь не воспроизводится.</p><ol>
+<li><strong>Верно.</strong> Даже если <code>std::ofstream out</code> открыт с <code>std::ios::binary</code>, выражение <code>out &lt;&lt; 42</code> по-прежнему выполняет форматированный вывод числа.<div class="feedback"><code>binary</code> относится к режиму файла. Он не заменяет форматирующий <code>operator&lt;&lt;</code> записью внутреннего представления <code>int</code>.</div></li>
+<li><strong>Неверно.</strong> Флаг <code>std::ios::binary</code> автоматически переводит все записываемые строки в UTF-8.<div class="feedback">Двоичный режим не выбирает кодировку и не выполняет автоматическое преобразование в UTF-8. Записывающая и читающая программы должны согласовать представление текста отдельно.</div></li>
+<li><strong>Верно.</strong> Для корректного обмена текстом записывающая и читающая программы должны согласовать кодировку.<div class="feedback">Одна и та же последовательность байтов может интерпретироваться по-разному. Формат текста должен указывать ожидаемую кодировку; выбор <code>char</code> или <code>wchar_t</code> сам по себе этой договорённости не заменяет.</div></li>
+<li><strong>Неверно.</strong> Расширение имени <code>.txt</code> само заставляет <code>std::ifstream</code> игнорировать указанный режим <code>std::ios::binary</code>.<div class="feedback">Режим стандартного файлового потока задаётся при открытии. Расширение имени не отменяет явно переданные флаги и не определяет способ разбора содержимого.</div></li>
+<li><strong>Неверно.</strong> Запись <code>sizeof(T)</code> байтов объекта структурного типа <code>T</code> всегда создаёт переносимый формат, если файл открыт в двоичном режиме.<div class="feedback">Размеры полей, порядок байтов и выравнивание могут различаться; у объекта может быть внутреннее состояние, которое нельзя сохранить таким способом. Двоичный режим сам по себе не задаёт переносимый формат.</div></li>
+<li><strong>Неверно.</strong> Побайтовая запись самого объекта <code>std::string</code> гарантированно сохраняет его текст так, что другой процесс сможет восстановить строку тем же дампом.<div class="feedback">Нужно сохранять содержимое строки по правилам формата, например длину и байты текста. Внутреннее устройство <code>std::string</code> не является форматом обмена и может содержать адреса и служебные данные.</div></li>
+<li><strong>Верно.</strong> При разработке собственного двоичного формата нужно описать порядок полей, границы записей и представление чисел.<div class="feedback">Читающая программа должна понимать, где начинается и заканчивается каждое значение и как его интерпретировать. Эти правила задаёт формат, а не флаг <code>binary</code>.</div></li>
+<li><strong>Верно.</strong> Текстовый формат тоже требует правил: например, разделителей полей и способа записи чисел.<div class="feedback">Текстовое представление само по себе не устраняет неоднозначность. Если программы по-разному понимают разделители или числовую запись, обмен будет некорректным.</div></li>
+<li><strong>Неверно.</strong> Если записать числовое значение указателя в файл, другой процесс сможет использовать его для доступа к тому же объекту.<div class="feedback">Адрес относится к памяти конкретного процесса и времени жизни объекта. Для восстановления связей сохраняют данные и согласованные идентификаторы, а не рассчитывают на прежние адреса.</div></li>
+<li><strong>Верно.</strong> Версия собственного формата помогает читателю определить, какую схему записей нужно использовать; её тоже следует проверять.<div class="feedback">При развитии формата структура записей может измениться. Версия позволяет выбрать поддерживаемую схему или сообщить, что файл имеет неподдерживаемый формат.</div></li>
+</ol>
+<p><strong>Обратная связь при верном ответе:</strong> Верно: выбран полный набор утверждений, согласующихся с разобранными примерами.</p>
+<p><strong>Обратная связь при ошибке:</strong> Проверьте каждый вариант отдельно. Обратите внимание на условия операции и на слова «всегда» и «гарантирует»; разбор приведён в обратной связи к вариантам.</p>
+</details>
+<div class="sources"><strong>Справочные источники</strong><ul>
+<li><a href="https://eel.is/c++draft/ios.openmode">https://eel.is/c++draft/ios.openmode</a></li>
+<li><a href="https://eel.is/c++draft/ostream.inserters.arithmetic">https://eel.is/c++draft/ostream.inserters.arithmetic</a></li>
+<li><a href="https://eel.is/c++draft/basic.types.general">https://eel.is/c++draft/basic.types.general</a></li>
+<li><a href="https://eel.is/c++draft/basic.string.general">https://eel.is/c++draft/basic.string.general</a></li>
+</ul><p><a href="#top">К началу пакета</a></p></div></article>
+<article id="step-4718246"><div class="article-heading"><p class="meta">ID 4718246 · урок 853535 · позиция 4</p>
+<p>Вместо несвязанного с уроком вопроса об инкременте — проверка std::move, const и независимого копирования; полный пример и разбор каждого ответа.</p><p><a href="https://stepik.org/lesson/853535/step/4">Существующий шаг на Stepik</a> · <a href="steps/853535/04_4718246_choice.step">Новый .step</a> · <a href="baseline/853535/04_4718246_choice.step">Исходный .step</a></p></div>
+<h2>std::move и константный источник</h2>
+<p>Что выведет программа? Рассматриваем C++17 или новее; создание векторов завершается успешно.</p>
+<pre><code class="language-cpp">#include &lt;iostream&gt;
+#include &lt;utility&gt;
+#include &lt;vector&gt;
+
+int main() {
+    const std::vector&lt;int&gt; source{4, 5};
+    std::vector&lt;int&gt; destination = std::move(source);
+    destination[0] = 1;
+    std::cout &lt;&lt; source[0] &lt;&lt; &#x27; &#x27; &lt;&lt; destination[0] &lt;&lt; &#x27;\n&#x27;;
+}
+</code></pre>
+<p>Выберите один верный ответ.</p>
+<p class="meta">Ниже авторский порядок вариантов. Настройка перемешивания на Stepik сохранена.</p><ol class="choices">
+<li><code>4 1</code>: <code>destination</code> получает независимую копию элементов <code>source</code>.</li>
+<li><code>1 1</code>: оба вектора после <code>std::move</code> используют одни и те же элементы.</li>
+<li>Программа не компилируется: <code>std::move</code> запрещено применять к константному объекту.</li>
+<li>Результат чтения <code>source[0]</code> нельзя предсказать: любой вызов <code>std::move</code> опустошает источник.</li>
+</ol>
+<details class="teacher"><summary>Для преподавателя: ключ и обратная связь</summary>
+<p><strong>Верные варианты: 1.</strong> Это ключ авторского блока; фактическое оценивание платформы здесь не воспроизводится.</p><ol>
+<li><strong>Верно.</strong> <code>4 1</code>: <code>destination</code> получает независимую копию элементов <code>source</code>.<div class="feedback"><code>std::move(source)</code> сохраняет <code>const</code>. Перемещающий конструктор вектора не принимает такой источник, но конструктор копирования принимает его по <code>const&amp;</code>. Изменение копии не меняет исходный вектор.</div></li>
+<li><strong>Неверно.</strong> <code>1 1</code>: оба вектора после <code>std::move</code> используют одни и те же элементы.<div class="feedback">Копирование <code>std::vector&lt;int&gt;</code> создаёт независимые элементы. Присваивание <code>destination[0] = 1</code> не изменяет <code>source[0]</code>.</div></li>
+<li><strong>Неверно.</strong> Программа не компилируется: <code>std::move</code> запрещено применять к константному объекту.<div class="feedback"><code>std::move</code> можно применять к константному объекту; <code>const</code> при этом сохраняется. Здесь доступен конструктор копирования вектора, поэтому программа корректна.</div></li>
+<li><strong>Неверно.</strong> Результат чтения <code>source[0]</code> нельзя предсказать: любой вызов <code>std::move</code> опустошает источник.<div class="feedback"><code>std::move</code> сам не меняет объект. В этой программе выбирается копирование, поэтому <code>source</code> сохраняет оба элемента. Неуточнённое состояние после реально выполненного перемещения к этому случаю не относится.</div></li>
+</ol>
+<p><strong>Обратная связь при верном ответе:</strong> Верно: std::move сохраняет const, поэтому здесь создаётся независимая копия вектора.</p>
+<p><strong>Обратная связь при ошибке:</strong> Разделите приведение категории выражения и вызов конструктора: std::move сам не переносит элементы и не снимает const.</p>
+</details>
+<div class="sources"><strong>Справочные источники</strong><ul>
+<li><a href="https://eel.is/c++draft/forward">https://eel.is/c++draft/forward</a></li>
+<li><a href="https://eel.is/c++draft/vector.overview">https://eel.is/c++draft/vector.overview</a></li>
+</ul><p><a href="#top">К началу пакета</a></p></div></article>
+</main></div></body></html>
