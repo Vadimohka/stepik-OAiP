@@ -1,0 +1,655 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "prepared_at": "2026-11-23T14:53:31.688778+00:00",
+  "base_commit": "26bbfeb5065ef3475f9ea612a3a8785f934b7c49",
+  "scope": "Нормализация фактических свежих результатов 11 изолированно повторённых наборов и 3 новых наборов. Это счёт действий проверки, а не число уникальных программ или всех процессов операционной системы.",
+  "totals": {
+    "successful_direct_compilation_calls": 356,
+    "author_program_process_executions": 1890,
+    "expected_compilation_failures": 50,
+    "expected_link_failures": 2,
+    "cmake_configurations": 9,
+    "python_mathematical_checks": 15
+  },
+  "definitions": {
+    "successful_direct_compilation_calls": "Успешные явно вызванные verifier-ом действия компиляции: compile-only либо compile+link одним запуском gcc/g++. Вызов с несколькими translation units считается одним действием. Отдельные link-only вызовы, --version и внутренние вызовы CMake сюда не входят.",
+    "author_program_process_executions": "Запуски объясняющей программы или авторской проверочной оболочки, которые проверочные скрипты учитывают как runtime_cases/executions. Один процесс с множеством assert/входных пар остаётся одним запуском. Ожидаемый ненулевой код ошибки ввода либо отрицательного контроля считается успешно проверенным запуском.",
+    "expected_compilation_failures": "Явно ожидаемые отказы на стадии компиляции/проверки синтаксиса. Они считаются отдельно от успешных действий компиляции и не являются неуспешными проверками пакета.",
+    "expected_link_failures": "Два ожидаемых отказа отдельной линковки после успешного создания объектного файла без определения twice в T1B.",
+    "cmake_configurations": "Успешные отдельные CMake configure для названных проектов/режимов/стандартов. Они не превращаются в фиктивное количество внутренних компиляций.",
+    "python_mathematical_checks": "Пятнадцать явно именованных maths(label, condition) в T1B, исполняемых внутри процесса Python. Внутренние арифметические assert C++-оболочек сюда повторно не добавляются."
+  },
+  "not_unique_program_counts": {
+    "distinct_source_programs_not_computed_here": true,
+    "reason": "Один исходник пересобирается для разных стандартов, наборов и вариантов; некоторые действия используют многофайловые программы или оболочки фрагментов. Число уникальных программ устанавливается отдельным инвентарём, не делением этих сумм на два."
+  },
+  "per_suite": [
+    {
+      "suite": "t1",
+      "status": "passed",
+      "report_path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t1.json",
+      "report_sha256": "033fa36966ca7908f21ffce3de8da90186d00c240d68190cf950f99ca875a0dc",
+      "verifier_path": "improvements/86957/theory-2026-11-23/examples/t1/verify.py",
+      "verifier_sha256": "9fc095bc9fdefaaf685edca3bc0729eb70e2f34a99cb5ddac8b3a240501fe2b7",
+      "normalized_counts": {
+        "successful_direct_compilation_calls": 6,
+        "author_program_process_executions": 7,
+        "expected_compilation_failures": 2,
+        "expected_link_failures": 0,
+        "cmake_configurations": 1,
+        "python_mathematical_checks": 0
+      },
+      "normalization_rules": {
+        "successful_direct_compilation_calls": "counts.compilations; three exact examples in two standards = 6. CMake internal compilation is excluded.",
+        "author_program_process_executions": "counts.runtime_cases; six direct-built examples plus the CMake-built hello process = 7.",
+        "expected_compilation_failures": "counts.expected_compile_failures; explained missing cout qualification in two standards = 2.",
+        "cmake_configurations": "counts.cmake_configurations = 1; the associated build is successful."
+      },
+      "independent_consistency_checks": [
+        "Read the loops and counter increments in t1/verify.py; no hidden additions to these counters."
+      ]
+    },
+    {
+      "suite": "t1b",
+      "status": "passed",
+      "report_path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t1b.json",
+      "report_sha256": "485dae2c47cf4fc462506f725a18458b58704f10569a22d2c17853355dcf3e74",
+      "verifier_path": "improvements/86957/theory-continuation-2026-11-23/examples/t1b/verify.py",
+      "verifier_sha256": "3f1d814a0f44856604a4b427da144f518bc9af080287ad4261704ed1f600ac46",
+      "normalized_counts": {
+        "successful_direct_compilation_calls": 22,
+        "author_program_process_executions": 49,
+        "expected_compilation_failures": 4,
+        "expected_link_failures": 2,
+        "cmake_configurations": 1,
+        "python_mathematical_checks": 15
+      },
+      "normalization_rules": {
+        "successful_direct_compilation_calls": "counts.compilations = 22: per standard seven complete programs, the missing-definition source compiled to object, the staged hello object, and two fragment wrappers. The two subsequent successful link-only calls are separate and excluded.",
+        "author_program_process_executions": "counts.runtime_cases = len(runtime_cases) = 49: 24 per standard, including printf via stdbuf and scanf wrappers, plus one CMake-built hello.",
+        "expected_compilation_failures": "counts.expected_compile_failures = 4: missing semicolon and ambiguous name, each in two standards.",
+        "expected_link_failures": "counts.expected_link_failures = 2: missing twice definition after successful object compilation.",
+        "cmake_configurations": "counts.cmake_configurations = 1; counts.cmake_builds = 1, not added to compilation calls.",
+        "python_mathematical_checks": "counts.mathematical_checks = 15 successful maths(label, condition) calls executed inside the Python verifier, not subprocess runs."
+      },
+      "independent_consistency_checks": [
+        "Read the staged compile/link sequence: successful link-only calls are deliberately not counted by counts.compilations.",
+        "Read all 15 maths calls and all 49 runtime labels; mathematical conditions are counted once per call, not once per operand or table cell."
+      ]
+    },
+    {
+      "suite": "t2",
+      "status": "passed",
+      "report_path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t2.json",
+      "report_sha256": "2101f5a35287a87ad690eee0f13affa83b240e2fb64a2c997c90788053b4a4c0",
+      "verifier_path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/verify.py",
+      "verifier_sha256": "c8e9a4fc8aa67df6a8a54be69854e8d0f0a8cbd4f460da07105d4a50171781ba",
+      "normalized_counts": {
+        "successful_direct_compilation_calls": 84,
+        "author_program_process_executions": 214,
+        "expected_compilation_failures": 8,
+        "expected_link_failures": 0,
+        "cmake_configurations": 0,
+        "python_mathematical_checks": 0
+      },
+      "normalization_rules": {
+        "successful_direct_compilation_calls": "len(programs) 74 + len(allocation_failures) 6 + passed contract_checks 4 = 84. Each allocation-failure job and each passed contract entry compiles its own wrapper/program once.",
+        "author_program_process_executions": "sum(programs[].cases) 204 + allocation_failure_runs 6 + passed contract_checks 4 = 214.",
+        "expected_compilation_failures": "Eight contract_checks entries marked correctly_rejected = 8. They are not successful compilations or runtime executions.",
+        "contract_checks_detail": "The four successful contract entries are contracts.cpp in C++17/C++20 and the no-terminator char array program in C11/C17. All twelve contract entries must not be added as twelve runs."
+      },
+      "independent_consistency_checks": [
+        "Verified both contract loops in t2/verify.py: each of the four passed entries has one successful compile and one execution.",
+        "The six allocator substitutions each compile and execute once; they are additional to the 74 main-program builds and 204 main-program runs."
+      ]
+    },
+    {
+      "suite": "t3",
+      "status": "passed",
+      "report_path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t3.json",
+      "report_sha256": "589a4bc578a86f73b94aa9d2877ae8182b7b20670eca1180e81bdd56a958196b",
+      "verifier_path": "improvements/86957/theory-2026-11-23/examples/t3/verify.py",
+      "verifier_sha256": "afbb75431af4d674acb4a62caf3e64cc40d30fe5b86f4866a07739154bbf057a",
+      "normalized_counts": {
+        "successful_direct_compilation_calls": 38,
+        "author_program_process_executions": 342,
+        "expected_compilation_failures": 0,
+        "expected_link_failures": 0,
+        "cmake_configurations": 7,
+        "python_mathematical_checks": 0
+      },
+      "normalization_rules": {
+        "successful_direct_compilation_calls": "counts.direct_compilations = 38: per standard 13 function programs plus objects, exception, handwritten tests, enumeration harness, interesting app, and negative-control test executable. CMake compilation is excluded.",
+        "author_program_process_executions": "counts.runtime_cases = 342: 2 × (105 function cases + 1 objects + 1 exception + 1 handwritten-test process + 1 enumeration process + 11 app cases + 1 intentional runtime test failure) + 4 × 25 CMake-built factorial cases. CTest child tests do not increment this counter.",
+        "expected_compilation_failures": "0. The deliberately wrong expected test value is a successfully compiled runtime negative control already included in the 342 executions.",
+        "cmake_configurations": "counts.cmake_configurations = 7: factorial static/shared × C++17/C++20 = 4; one InterestingNumbers/CTest configuration; GoogleTest C++17/C++20 = 2."
+      },
+      "independent_consistency_checks": [
+        "Source loops reproduce 38 and 342 independently from fixture counts.",
+        "Both GoogleTest standards have explicit success records and no dependency-build limitation; seven configurations completed.",
+        "Three successful CTest commands and their five declared test executions are reported separately, not silently added to 342."
+      ]
+    },
+    {
+      "suite": "t4",
+      "status": "passed",
+      "report_path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t4.json",
+      "report_sha256": "0fc22f68be5043a4341f367a042e2f29b518435598332d356e0c4411c3c08f5f",
+      "verifier_path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/verify.py",
+      "verifier_sha256": "cb5ba82bd6b63e42a878036a2b1c8d76c326af8164e8ebced43a4b28bc3aa323",
+      "normalized_counts": {
+        "successful_direct_compilation_calls": 48,
+        "author_program_process_executions": 1002,
+        "expected_compilation_failures": 0,
+        "expected_link_failures": 0,
+        "cmake_configurations": 0,
+        "python_mathematical_checks": 0
+      },
+      "normalization_rules": {
+        "successful_direct_compilation_calls": "compilations = len(results) = 48: 23 complete programs plus one binary-format fragment wrapper, each in two standards.",
+        "author_program_process_executions": "executions = sum(results[].cases) = 1002, including generated algorithm inputs and isolated file cases; each case calls one executable process."
+      },
+      "independent_consistency_checks": [
+        "Read t4/verify.py: each result corresponds to one successful compiler call and its cases loop.",
+        "The checks inside one running program are not expanded into additional process counts."
+      ]
+    },
+    {
+      "suite": "t5",
+      "status": "passed",
+      "report_path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t5.json",
+      "report_sha256": "a30f0c23ba48d98b808e849faa8969f03b134d33cbe9533a5838d506d00f179a",
+      "verifier_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/verify.py",
+      "verifier_sha256": "23743c7adbe3996fe50834a665498657db1a7babeab9dc5d40ba172c43f969dd",
+      "normalized_counts": {
+        "successful_direct_compilation_calls": 76,
+        "author_program_process_executions": 90,
+        "expected_compilation_failures": 10,
+        "expected_link_failures": 0,
+        "cmake_configurations": 0,
+        "python_mathematical_checks": 0
+      },
+      "normalization_rules": {
+        "successful_direct_compilation_calls": "counts.compilations = 76: 37 complete programs plus checks.cpp, each in two standards.",
+        "author_program_process_executions": "counts.runtime_cases = 90 = 88 recorded program runs + two checks.cpp runs. counts.boundary_harness_runs is a subset already included in the total; do not add it again.",
+        "expected_compilation_failures": "counts.expected_compile_failures = 10: five negative cases in two standards."
+      },
+      "independent_consistency_checks": [
+        "Source increments runtime_cases and boundary_harness_runs for the same checks.cpp process.",
+        "Per-check arrays reproduce all 76 successful compiler calls, 90 executions and ten expected compile errors."
+      ]
+    },
+    {
+      "suite": "t5b",
+      "status": "passed",
+      "report_path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t5b.json",
+      "report_sha256": "78f2e428cfe32a62dc177f2cdde9e942bf975a4b4bc8bb7b82dea68fc4b14e97",
+      "verifier_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5b/verify.py",
+      "verifier_sha256": "c9d8cfce9d71985c086c66a51ea1e0fa60b0cee4b1de3a6e674b0854405d1214",
+      "normalized_counts": {
+        "successful_direct_compilation_calls": 24,
+        "author_program_process_executions": 32,
+        "expected_compilation_failures": 8,
+        "expected_link_failures": 0,
+        "cmake_configurations": 0,
+        "python_mathematical_checks": 0
+      },
+      "normalization_rules": {
+        "successful_direct_compilation_calls": "counts.compilations = 24: eleven lesson executables plus the ownership-contract wrapper, each in two standards.",
+        "author_program_process_executions": "counts.runtime_cases = 32 = number of non-negative entries in checks; multiple RAII inputs reuse a built binary but are separate processes.",
+        "expected_compilation_failures": "counts.expected_compile_failures = 8 = four rejected constructions in two standards."
+      },
+      "independent_consistency_checks": [
+        "Distinct (source, standard) runtime records equal 24 builds; 32 runtime records and eight negative records are disjoint."
+      ]
+    },
+    {
+      "suite": "t6",
+      "status": "passed",
+      "report_path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t6.json",
+      "report_sha256": "1a25711de0084d0c358773d0f220e47a4e3e4478c1e446f5c225dad776d94ccf",
+      "verifier_path": "improvements/86957/theory-2026-11-23/examples/t6/verify.py",
+      "verifier_sha256": "d31fad3d8a37042aacbdd63d7e43f6a2d27e0d087757eb7bdb7cb00e83c76029",
+      "normalized_counts": {
+        "successful_direct_compilation_calls": 24,
+        "author_program_process_executions": 24,
+        "expected_compilation_failures": 0,
+        "expected_link_failures": 0,
+        "cmake_configurations": 0,
+        "python_mathematical_checks": 0
+      },
+      "normalization_rules": {
+        "successful_direct_compilation_calls": "compilation_count = 24: twelve sources in two standards, one compiler call each.",
+        "author_program_process_executions": "execution_count = 24: one execution per compiled source/standard; internal invariant operations are not counted as separate processes."
+      },
+      "independent_consistency_checks": [
+        "checks contains one structural binding record plus 24 runtime records."
+      ]
+    },
+    {
+      "suite": "links_types",
+      "status": "passed",
+      "report_path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/links_types.json",
+      "report_sha256": "f576a9284720f3cc04c53ee74dd0a078eba3502db5ce734174cc0e029bcb465d",
+      "verifier_path": "improvements/86957/theory-links-2026-11-23/examples/types/verify.py",
+      "verifier_sha256": "5a89871b99375757f14671b9c4ab6e08d5d6cf13c74dcedab4b58fe830c31db6",
+      "normalized_counts": {
+        "successful_direct_compilation_calls": 4,
+        "author_program_process_executions": 30,
+        "expected_compilation_failures": 4,
+        "expected_link_failures": 0,
+        "cmake_configurations": 0,
+        "python_mathematical_checks": 0
+      },
+      "normalization_rules": {
+        "successful_direct_compilation_calls": "counts.successful_compilations = 4 = compile records.",
+        "author_program_process_executions": "counts.executions = 30 = run records; failed-input exit codes are expected successful checks.",
+        "expected_compilation_failures": "counts.expected_compile_rejections = 4 = expected_compile_rejection records."
+      },
+      "independent_consistency_checks": [
+        "The three record kinds reproduce every counter without overlap."
+      ]
+    },
+    {
+      "suite": "links_ownership",
+      "status": "passed",
+      "report_path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/links_ownership.json",
+      "report_sha256": "824e0354941f0087c682666231f128aa5b6a7da0a7458624554ac49f8601cfdb",
+      "verifier_path": "improvements/86957/theory-links-2026-11-23/examples/ownership/verify.py",
+      "verifier_sha256": "ba4b41b6308145265fe5078b0c86917b55740123a1e008fe96786fe199c163e5",
+      "normalized_counts": {
+        "successful_direct_compilation_calls": 2,
+        "author_program_process_executions": 10,
+        "expected_compilation_failures": 0,
+        "expected_link_failures": 0,
+        "cmake_configurations": 0,
+        "python_mathematical_checks": 0
+      },
+      "normalization_rules": {
+        "successful_direct_compilation_calls": "counts.compilations = 2: one harness in two standards.",
+        "author_program_process_executions": "counts.runtime_cases = len(runs) = 10: four ownership modes and the rejected unknown mode, each in two standards."
+      },
+      "independent_consistency_checks": [
+        "The unknown mode intentionally exits 2; it is a successful runtime expectation, not a compiler error."
+      ]
+    },
+    {
+      "suite": "links_algorithms",
+      "status": "passed",
+      "report_path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/links_algorithms.json",
+      "report_sha256": "441de61106f91b048fe70304860a9f41e42398ced1030ca75452b091e675a06c",
+      "verifier_path": "improvements/86957/theory-links-2026-11-23/examples/algorithms/verify.py",
+      "verifier_sha256": "b5170f0f603b189b03c7bf0e4375d937b71419edc6ad9dc7038513c0e6db694b",
+      "normalized_counts": {
+        "successful_direct_compilation_calls": 4,
+        "author_program_process_executions": 4,
+        "expected_compilation_failures": 0,
+        "expected_link_failures": 0,
+        "cmake_configurations": 0,
+        "python_mathematical_checks": 0
+      },
+      "normalization_rules": {
+        "successful_direct_compilation_calls": "compilation_count = 4: contracts.cpp and stream_switching.cpp, each in two standards.",
+        "author_program_process_executions": "execution_count = 4: one process per source/standard; the internal file/dictionary assertions do not increase this count."
+      },
+      "independent_consistency_checks": [
+        "Two structural binding records plus four runtime records in checks."
+      ]
+    },
+    {
+      "suite": "new_foundations",
+      "status": "passed",
+      "report_path": "improvements/86957/theory-final-review-2026-11-23/validation/new_foundations.json",
+      "report_sha256": "8938e5b3de0ccde309143a0488deeeb1796d2c1cdc5831aa6be25151bc811e90",
+      "verifier_path": "improvements/86957/theory-final-review-2026-11-23/examples/foundations/verify.py",
+      "verifier_sha256": "18b4e3b1b8d76a3abb20334c8714cbd598e7e6171054398d33c3c9ffa606b87f",
+      "normalized_counts": {
+        "successful_direct_compilation_calls": 12,
+        "author_program_process_executions": 70,
+        "expected_compilation_failures": 8,
+        "expected_link_failures": 0,
+        "cmake_configurations": 0,
+        "python_mathematical_checks": 0
+      },
+      "normalization_rules": {
+        "successful_direct_compilation_calls": "counts.successful_compilations = 12: five unchanged exact examples and one numerical-contract harness, each in two standards.",
+        "author_program_process_executions": "counts.runtime_cases = len(runtime_cases) = 70. The numerical harness checks 40,200 valid pairs inside each of its two processes; these pairs are not additional process launches.",
+        "expected_compilation_failures": "counts.expected_compile_failures = len(expected_compile_failures) = 8: four rejected constant expressions in two standards."
+      },
+      "independent_consistency_checks": [
+        "Verifier loops and complete runtime/negative-case arrays reproduce all three values.",
+        "The two numerical harness executions are already included in 70; they are not added to the separate fifteen Python mathematical checks."
+      ]
+    },
+    {
+      "suite": "new_core",
+      "status": "passed",
+      "report_path": "improvements/86957/theory-final-review-2026-11-23/validation/new_core.json",
+      "report_sha256": "24bcc69d5fceb5e17eab05c077890795b56705285dad2f7a09a9b693ec4ffae5",
+      "verifier_path": "improvements/86957/theory-final-review-2026-11-23/examples/core/verify.py",
+      "verifier_sha256": "a2f552e35356488d22f5e0bfe36d92946fb56534fac4e162718f164fbd6621f0",
+      "normalized_counts": {
+        "successful_direct_compilation_calls": 10,
+        "author_program_process_executions": 10,
+        "expected_compilation_failures": 6,
+        "expected_link_failures": 0,
+        "cmake_configurations": 0,
+        "python_mathematical_checks": 0
+      },
+      "normalization_rules": {
+        "successful_direct_compilation_calls": "successful_compilations = 10 = compilation records: four exact preserved pointer programs plus one array wrapper, each in two standards.",
+        "author_program_process_executions": "executions = 10 = execution records; all have documented fixed behavior.",
+        "expected_compilation_failures": "expected_compilation_rejections = 6 = three forbidden constructions in two standards."
+      },
+      "independent_consistency_checks": [
+        "The retained const_pointer.cpp warning is captured for each standard and does not turn a successful compiler call into failure."
+      ]
+    },
+    {
+      "suite": "new_advanced",
+      "status": "passed",
+      "report_path": "improvements/86957/theory-final-review-2026-11-23/validation/new_advanced.json",
+      "report_sha256": "ec98c24c55283efb930e4425683141a4c4339d89012eb84f7e9efddd6d48305f",
+      "verifier_path": "improvements/86957/theory-final-review-2026-11-23/examples/advanced/verify.py",
+      "verifier_sha256": "f9dac426669c6251b401364574353c43bdf4fc638837f3e056f3b06c21a93805",
+      "normalized_counts": {
+        "successful_direct_compilation_calls": 2,
+        "author_program_process_executions": 6,
+        "expected_compilation_failures": 0,
+        "expected_link_failures": 0,
+        "cmake_configurations": 0,
+        "python_mathematical_checks": 0
+      },
+      "normalization_rules": {
+        "successful_direct_compilation_calls": "compilations = 2: one instrumented read-only trace harness per standard.",
+        "author_program_process_executions": "executions = len(checks) = 6: insertion, deletion-left, deletion-right in each standard. Each process performs several observations and invariant checks."
+      },
+      "independent_consistency_checks": [
+        "Three trace modes use the same compiled binary per standard; six observations in the temporary header are not six programs."
+      ]
+    }
+  ],
+  "additional_activity_excluded_from_primary_totals": {
+    "successful_standalone_link_only_driver_calls": {
+      "count": 2,
+      "suite": "t1b",
+      "evidence": "Successful g++ object.o -o staged-* calls in both standards; no counts.compilations increment at those lines."
+    },
+    "cmake_build_commands": {
+      "count": 9,
+      "evidence": "One in T1, one in T1B, seven in T3; all followed by successful outcomes. Internal compiler/linker subprocess counts are not reconstructed."
+    },
+    "ctest_commands": {
+      "count": 3,
+      "suite": "t3",
+      "evidence": "One InterestingNumbers CTest command plus GoogleTest CTest commands in C++17 and C++20."
+    },
+    "ctest_declared_test_executions": {
+      "count": 5,
+      "suite": "t3",
+      "evidence": "One InterestingNumbers test plus two GoogleTest tests per standard. Confirmed from CMake registrations, verify.py and explicit successful report records; not included in runtime_cases=342."
+    },
+    "all_operating_system_processes": null,
+    "not_enumerated": [
+      "Compiler version queries",
+      "CMake internal compiler detection/build/link processes",
+      "GoogleTest test-discovery process invocations",
+      "Git/FetchContent dependency processes",
+      "Python authoring/check and outer runner processes"
+    ],
+    "reason": "Не существует полного журнала создания всех процессов. Сумма 1890 корректна только для явно обозначенных запусков программ/оболочек, а не для всей инфраструктуры."
+  },
+  "google_test": {
+    "status": "passed",
+    "standards": [
+      "c++17",
+      "c++20"
+    ],
+    "pinned_commit": "52eb8108c5bdec04579160ae17225d66034bd723",
+    "test_cases_per_standard": 2,
+    "report_path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t3.json",
+    "report_evidence": [
+      "GoogleTest pinned version, C++17: both test cases passed",
+      "GoogleTest pinned version, C++20: both test cases passed"
+    ]
+  },
+  "environment": {
+    "os": "Linux",
+    "machine": "x86_64",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "python": "3.12.14",
+    "g++": "g++ (Debian 14.2.0-19) 14.2.0",
+    "gcc": "gcc (Debian 14.2.0-19) 14.2.0",
+    "cmake": "cmake version 3.22.6",
+    "language_standards": [
+      "C11",
+      "C17",
+      "C++17",
+      "C++20"
+    ],
+    "evidence": [
+      "validation/recheck/summary.json",
+      "validation/recheck/t2.json",
+      "validation/new_core.json"
+    ]
+  },
+  "warnings_preserved": [
+    {
+      "suite": "new_core",
+      "source": "const_pointer.cpp",
+      "standard": "c++17",
+      "compiler_output": "/workspace/scratch/b48445057238/stepik-OAiP/improvements/86957/theory-final-review-2026-11-23/examples/core/const_pointer.cpp: In function ‘int main()’:\n/workspace/scratch/b48445057238/stepik-OAiP/improvements/86957/theory-final-review-2026-11-23/examples/core/const_pointer.cpp:10:9: warning: unused variable ‘b’ [-Wunused-variable]\n   10 |     int b = 45;\n      |         ^\n"
+    },
+    {
+      "suite": "new_core",
+      "source": "const_pointer.cpp",
+      "standard": "c++20",
+      "compiler_output": "/workspace/scratch/b48445057238/stepik-OAiP/improvements/86957/theory-final-review-2026-11-23/examples/core/const_pointer.cpp: In function ‘int main()’:\n/workspace/scratch/b48445057238/stepik-OAiP/improvements/86957/theory-final-review-2026-11-23/examples/core/const_pointer.cpp:10:9: warning: unused variable ‘b’ [-Wunused-variable]\n   10 |     int b = 45;\n      |         ^\n"
+    }
+  ],
+  "source_reports": [
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/links_algorithms.json",
+      "sha256": "441de61106f91b048fe70304860a9f41e42398ced1030ca75452b091e675a06c",
+      "role": "numeric_source",
+      "counted_as_an_additional_suite": true
+    },
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/links_algorithms_execution.json",
+      "sha256": "a8cba96e26723543e867080eef73206f2a10bf668d5819f3aaeab1711a042d0e",
+      "role": "suite_execution_receipt",
+      "counted_as_an_additional_suite": false
+    },
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/links_ownership.json",
+      "sha256": "824e0354941f0087c682666231f128aa5b6a7da0a7458624554ac49f8601cfdb",
+      "role": "numeric_source",
+      "counted_as_an_additional_suite": true
+    },
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/links_ownership_execution.json",
+      "sha256": "bca2ef96f23e3b137020d727d8005999cc57e0cd6c768a7c037dbc267a84b45b",
+      "role": "suite_execution_receipt",
+      "counted_as_an_additional_suite": false
+    },
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/links_types.json",
+      "sha256": "f576a9284720f3cc04c53ee74dd0a078eba3502db5ce734174cc0e029bcb465d",
+      "role": "numeric_source",
+      "counted_as_an_additional_suite": true
+    },
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/links_types_execution.json",
+      "sha256": "b4af91589128244c99d967a3733ee2b46cb38deb1d107df3969eba02b31b076b",
+      "role": "suite_execution_receipt",
+      "counted_as_an_additional_suite": false
+    },
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/summary.json",
+      "sha256": "2c75f4de98e5ca177cf8a9e1e33480be4a34f79e508be2e2e2bba6f662a1f057",
+      "role": "isolated_recheck_provenance",
+      "counted_as_an_additional_suite": false
+    },
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t1.json",
+      "sha256": "033fa36966ca7908f21ffce3de8da90186d00c240d68190cf950f99ca875a0dc",
+      "role": "numeric_source",
+      "counted_as_an_additional_suite": true
+    },
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t1_execution.json",
+      "sha256": "e67d980ca61174ddcd10b2ddeec34177ecf966f2c74250b42541657b5c692ed4",
+      "role": "suite_execution_receipt",
+      "counted_as_an_additional_suite": false
+    },
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t1b.json",
+      "sha256": "485dae2c47cf4fc462506f725a18458b58704f10569a22d2c17853355dcf3e74",
+      "role": "numeric_source",
+      "counted_as_an_additional_suite": true
+    },
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t1b_execution.json",
+      "sha256": "562c07d2023cde06c5ec665950bef2725349a9e453926ace57289dad8537e6a2",
+      "role": "suite_execution_receipt",
+      "counted_as_an_additional_suite": false
+    },
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t2.json",
+      "sha256": "2101f5a35287a87ad690eee0f13affa83b240e2fb64a2c997c90788053b4a4c0",
+      "role": "numeric_source",
+      "counted_as_an_additional_suite": true
+    },
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t2_execution.json",
+      "sha256": "12465254fe230286531ac104e10054599209247a81f2ee2cc6b62c28156b7ebf",
+      "role": "suite_execution_receipt",
+      "counted_as_an_additional_suite": false
+    },
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t3.json",
+      "sha256": "589a4bc578a86f73b94aa9d2877ae8182b7b20670eca1180e81bdd56a958196b",
+      "role": "numeric_source",
+      "counted_as_an_additional_suite": true
+    },
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t3_execution.json",
+      "sha256": "42288a46f473b84ac3b01f4ec7de6fd8017e6639e8f272b9cecf7f9414b7ae23",
+      "role": "suite_execution_receipt",
+      "counted_as_an_additional_suite": false
+    },
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t4.json",
+      "sha256": "0fc22f68be5043a4341f367a042e2f29b518435598332d356e0c4411c3c08f5f",
+      "role": "numeric_source",
+      "counted_as_an_additional_suite": true
+    },
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t4_execution.json",
+      "sha256": "6f19ea53c6d68736a429f29222e619f042e9fd909f4c7a718d9eee0d2b3c3c30",
+      "role": "suite_execution_receipt",
+      "counted_as_an_additional_suite": false
+    },
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t5.json",
+      "sha256": "a30f0c23ba48d98b808e849faa8969f03b134d33cbe9533a5838d506d00f179a",
+      "role": "numeric_source",
+      "counted_as_an_additional_suite": true
+    },
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t5_execution.json",
+      "sha256": "cdfd12b730a65d0d2025786ec996722a3a8b769035c12411081e1e63fe7c0859",
+      "role": "suite_execution_receipt",
+      "counted_as_an_additional_suite": false
+    },
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t5b.json",
+      "sha256": "78f2e428cfe32a62dc177f2cdde9e942bf975a4b4bc8bb7b82dea68fc4b14e97",
+      "role": "numeric_source",
+      "counted_as_an_additional_suite": true
+    },
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t5b_execution.json",
+      "sha256": "18be4885ac3ee3a9f00ad8f6c1a5cb87a16d65e8acfeca5d13ecdbfa0ddc2db6",
+      "role": "suite_execution_receipt",
+      "counted_as_an_additional_suite": false
+    },
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t6.json",
+      "sha256": "1a25711de0084d0c358773d0f220e47a4e3e4478c1e446f5c225dad776d94ccf",
+      "role": "numeric_source",
+      "counted_as_an_additional_suite": true
+    },
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t6_execution.json",
+      "sha256": "4dbd8770bc4c3552022973bac1569c2db0bdbc0b73a638ae28b2ed114bf9b01c",
+      "role": "suite_execution_receipt",
+      "counted_as_an_additional_suite": false
+    },
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/validation/new_foundations.json",
+      "sha256": "8938e5b3de0ccde309143a0488deeeb1796d2c1cdc5831aa6be25151bc811e90",
+      "role": "numeric_source",
+      "counted_as_an_additional_suite": true
+    },
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/validation/new_core.json",
+      "sha256": "24bcc69d5fceb5e17eab05c077890795b56705285dad2f7a09a9b693ec4ffae5",
+      "role": "numeric_source",
+      "counted_as_an_additional_suite": true
+    },
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/validation/new_advanced.json",
+      "sha256": "ec98c24c55283efb930e4425683141a4c4339d89012eb84f7e9efddd6d48305f",
+      "role": "numeric_source",
+      "counted_as_an_additional_suite": true
+    }
+  ],
+  "consistency": {
+    "numeric_suite_count": 14,
+    "fresh_report_files_hashed": 26,
+    "recheck_execution_receipts_verified": 11,
+    "historical_reports_unchanged_as_recorded": true,
+    "summary_and_execution_receipt_report_hashes_match": true,
+    "verifier_sha256_matches_recorded_runs": true,
+    "new_test_or_recheck_run_performed_for_this_summary": false,
+    "only_runtime_summary_written": true
+  },
+  "limitations": [
+    "Итоги складывают фактические действия нескольких наборов с пересечениями; это не процент готовности, не количество уникальных программ и не число всех проверенных утверждений теории.",
+    "Число 1890 не включает пять CTest-тестов и не является числом всех инфраструктурных процессов. CTest и CMake указаны отдельно.",
+    "Не каждый HTML-фрагмент или напечатанная команда компилировались/исполнялись. Границы соответствия исходникам находятся в отдельных code_inventory*.json.",
+    "Только записанные Linux/GCC и C/C++-режимы. Windows/MSVC и macOS этим свежим циклом не проверены.",
+    "Не весь набор использует UBSan или -Werror: флаги указаны в исходных протоколах. В core сохранён диагностированный unused-variable warning для b в двух стандартах.",
+    "Конечные проверки не доказывают корректность для всех входов, типов и платформ. Реальное исчерпание памяти, отказ диска и потеря питания полностью не моделируются.",
+    "Ожидаемые ошибки компиляции, линковки и ввода не означают провал проверок: каждая сверена со своим контрактом.",
+    "Stepik не читался и не изменялся; программы оценивания, решения учащихся и модуль 20 не включены."
+  ],
+  "language_coverage": {
+    "complete_C_examples": {
+      "count": 2,
+      "sources": [
+        "c_malloc.c",
+        "c_realloc.c"
+      ],
+      "suite": "t2",
+      "standards": [
+        "C11",
+        "C17"
+      ],
+      "note": "Две полные программы явно помечены в теории как примеры языка C; они входят в общий агрегат и не выдаются за программы C++."
+    },
+    "additional_C_checks": [
+      "Три авторские подстановки отказа malloc/calloc/realloc в C11 и C17: шесть успешных компиляций/исполнений.",
+      "Массив char без места для нулевого терминатора: две успешные C11/C17-компиляции/исполнения."
+    ],
+    "successful_direct_C_compilation_calls": 12,
+    "successful_direct_Cpp_compilation_calls": 344,
+    "Cpp_standards": [
+      "C++17",
+      "C++20"
+    ],
+    "headline_rule": "356 успешных прямых действий компиляции GCC в C++17/C++20 и C11/C17; формулировка «356 компиляций C++17/C++20» неверна."
+  }
+}

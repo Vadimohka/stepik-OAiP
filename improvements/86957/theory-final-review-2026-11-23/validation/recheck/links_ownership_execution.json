@@ -1,0 +1,19 @@
+{
+  "name": "links_ownership",
+  "started_at": "2026-11-23T14:40:46.842085+00:00",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "/workspace/scratch/b48445057238/verification-links/improvements/86957/theory-links-2026-11-23/examples/ownership/verify.py"
+  ],
+  "verifier_path": "improvements/86957/theory-links-2026-11-23/examples/ownership/verify.py",
+  "verifier_sha256": "ba4b41b6308145265fe5078b0c86917b55740123a1e008fe96786fe199c163e5",
+  "source_package": "improvements/86957/theory-links-2026-11-23",
+  "output_report": "/workspace/scratch/b48445057238/stepik-OAiP/improvements/86957/theory-final-review-2026-11-23/validation/recheck/links_ownership.json",
+  "exit_code": 0,
+  "stdout": "{\"status\": \"passed\", \"counts\": {\"reviewed_inputs\": 59, \"related_reviewed_inputs\": 8, \"changed_steps\": 7, \"unchanged_pre_blocks\": 16, \"course_links\": 69, \"compilations\": 2, \"runtime_cases\": 10}, \"report\": \"/workspace/scratch/b48445057238/verification-links/improvements/86957/theory-links-2026-11-23/validation/ownership.json\"}\n",
+  "stderr": "",
+  "reported_status": "passed",
+  "report_sha256": "824e0354941f0087c682666231f128aa5b6a7da0a7458624554ac49f8601cfdb",
+  "status": "passed",
+  "finished_at": "2026-11-23T14:40:48.547067+00:00"
+}

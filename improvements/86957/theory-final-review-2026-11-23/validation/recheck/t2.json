@@ -1,0 +1,693 @@
+{
+  "schema_version": 1,
+  "package": "T2",
+  "base_commit": "d96e5b9cffa65010c53894a9b65b1a497cb6b58a",
+  "started_at": "2026-11-23T14:39:56.864712+00:00",
+  "status": "passed",
+  "historical_reports_replaced": false,
+  "limits": [
+    "Linux/GCC only for this run; no Windows/MSVC or macOS execution.",
+    "37 exact full programs in 52 changed T2 steps; not all 283 course texts/programs.",
+    "Fragments without main were reviewed; only four explicit negative examples and the contract harness are compiled separately.",
+    "Real OS exhaustion is not forced; allocator-failure branches are checked by deterministic author-only substitution.",
+    "Decimal limits in parse_integer fixtures correspond to the recorded 63 value bits of long long."
+  ],
+  "compilers": {
+    "g++": "g++ (Debian 14.2.0-19) 14.2.0",
+    "gcc": "gcc (Debian 14.2.0-19) 14.2.0"
+  },
+  "environment": {
+    "platform": "linux",
+    "python": "3.12.14",
+    "flags": [
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Werror",
+      "-O2"
+    ]
+  },
+  "assets": {
+    "changed_steps": 52,
+    "reviewed_steps": 63,
+    "preserved_steps": 11,
+    "full_programs": 37,
+    "exact_source_matches": 37,
+    "internal_step_links": 61
+  },
+  "platform_types": {
+    "char_bit": 8,
+    "sizeof_int": 4,
+    "long_long_digits": 63,
+    "pointer_bytes": 8
+  },
+  "contract_checks": [
+    {
+      "check": "defined_boundary_contracts",
+      "standard": "c++17",
+      "status": "passed"
+    },
+    {
+      "check": "defined_boundary_contracts",
+      "standard": "c++20",
+      "status": "passed"
+    },
+    {
+      "check": "narrowing",
+      "standard": "c++17",
+      "status": "correctly_rejected"
+    },
+    {
+      "check": "narrowing",
+      "standard": "c++20",
+      "status": "correctly_rejected"
+    },
+    {
+      "check": "variable_length_array",
+      "standard": "c++17",
+      "status": "correctly_rejected"
+    },
+    {
+      "check": "variable_length_array",
+      "standard": "c++20",
+      "status": "correctly_rejected"
+    },
+    {
+      "check": "literal_without_room_for_zero",
+      "standard": "c++17",
+      "status": "correctly_rejected"
+    },
+    {
+      "check": "literal_without_room_for_zero",
+      "standard": "c++20",
+      "status": "correctly_rejected"
+    },
+    {
+      "check": "addition_of_two_literals",
+      "standard": "c++17",
+      "status": "correctly_rejected"
+    },
+    {
+      "check": "addition_of_two_literals",
+      "standard": "c++20",
+      "status": "correctly_rejected"
+    },
+    {
+      "check": "C_character_array_without_terminator",
+      "standard": "c11",
+      "status": "passed"
+    },
+    {
+      "check": "C_character_array_without_terminator",
+      "standard": "c17",
+      "status": "passed"
+    }
+  ],
+  "programs": [
+    {
+      "file": "objects.cpp",
+      "standard": "c++17",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "objects.cpp",
+      "standard": "c++20",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "division.cpp",
+      "standard": "c++17",
+      "cases": 9,
+      "status": "passed"
+    },
+    {
+      "file": "division.cpp",
+      "standard": "c++20",
+      "cases": 9,
+      "status": "passed"
+    },
+    {
+      "file": "checked_conversion.cpp",
+      "standard": "c++17",
+      "cases": 7,
+      "status": "passed"
+    },
+    {
+      "file": "checked_conversion.cpp",
+      "standard": "c++20",
+      "cases": 7,
+      "status": "passed"
+    },
+    {
+      "file": "sign.cpp",
+      "standard": "c++17",
+      "cases": 5,
+      "status": "passed"
+    },
+    {
+      "file": "sign.cpp",
+      "standard": "c++20",
+      "cases": 5,
+      "status": "passed"
+    },
+    {
+      "file": "switch_command.cpp",
+      "standard": "c++17",
+      "cases": 6,
+      "status": "passed"
+    },
+    {
+      "file": "switch_command.cpp",
+      "standard": "c++20",
+      "cases": 6,
+      "status": "passed"
+    },
+    {
+      "file": "minimum.cpp",
+      "standard": "c++17",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "minimum.cpp",
+      "standard": "c++20",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "break.cpp",
+      "standard": "c++17",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "break.cpp",
+      "standard": "c++20",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "continue.cpp",
+      "standard": "c++17",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "continue.cpp",
+      "standard": "c++20",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "while_squares.cpp",
+      "standard": "c++17",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "while_squares.cpp",
+      "standard": "c++20",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "for_squares.cpp",
+      "standard": "c++17",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "for_squares.cpp",
+      "standard": "c++20",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "do_while.cpp",
+      "standard": "c++17",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "do_while.cpp",
+      "standard": "c++20",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "filtered_sum.cpp",
+      "standard": "c++17",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "filtered_sum.cpp",
+      "standard": "c++20",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "preserved_3177296_1.cpp",
+      "standard": "c++17",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "preserved_3177296_1.cpp",
+      "standard": "c++20",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "preserved_3212908_1.cpp",
+      "standard": "c++17",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "preserved_3212908_1.cpp",
+      "standard": "c++20",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "preserved_3212920_1.cpp",
+      "standard": "c++17",
+      "cases": 6,
+      "status": "passed"
+    },
+    {
+      "file": "preserved_3212920_1.cpp",
+      "standard": "c++20",
+      "cases": 6,
+      "status": "passed"
+    },
+    {
+      "file": "matrix_iteration.cpp",
+      "standard": "c++17",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "matrix_iteration.cpp",
+      "standard": "c++20",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "pointer_basics.cpp",
+      "standard": "c++17",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "pointer_basics.cpp",
+      "standard": "c++20",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "pointer_aliases.cpp",
+      "standard": "c++17",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "pointer_aliases.cpp",
+      "standard": "c++20",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "pointer_comparison.cpp",
+      "standard": "c++17",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "pointer_comparison.cpp",
+      "standard": "c++20",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "pointer_to_pointer.cpp",
+      "standard": "c++17",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "pointer_to_pointer.cpp",
+      "standard": "c++20",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "array_decay.cpp",
+      "standard": "c++17",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "array_decay.cpp",
+      "standard": "c++20",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "row_pointer.cpp",
+      "standard": "c++17",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "row_pointer.cpp",
+      "standard": "c++20",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "pointer_contract.cpp",
+      "standard": "c++17",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "pointer_contract.cpp",
+      "standard": "c++20",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "character_pointer.cpp",
+      "standard": "c++17",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "character_pointer.cpp",
+      "standard": "c++20",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "storage_scope.cpp",
+      "standard": "c++17",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "storage_scope.cpp",
+      "standard": "c++20",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "preserved_3212946_1.cpp",
+      "standard": "c++17",
+      "cases": 9,
+      "status": "passed"
+    },
+    {
+      "file": "preserved_3212946_1.cpp",
+      "standard": "c++20",
+      "cases": 9,
+      "status": "passed"
+    },
+    {
+      "file": "preserved_3213209_1.cpp",
+      "standard": "c++17",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "preserved_3213209_1.cpp",
+      "standard": "c++20",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "c_malloc.c",
+      "standard": "c11",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "c_malloc.c",
+      "standard": "c17",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "c_realloc.c",
+      "standard": "c11",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "c_realloc.c",
+      "standard": "c17",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "preserved_3307684_1.cpp",
+      "standard": "c++17",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "preserved_3307684_1.cpp",
+      "standard": "c++20",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "cstring_bounds.cpp",
+      "standard": "c++17",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "cstring_bounds.cpp",
+      "standard": "c++20",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "preserved_3212948_1.cpp",
+      "standard": "c++17",
+      "cases": 5,
+      "status": "passed"
+    },
+    {
+      "file": "preserved_3212948_1.cpp",
+      "standard": "c++20",
+      "cases": 5,
+      "status": "passed"
+    },
+    {
+      "file": "preserved_3212948_2.cpp",
+      "standard": "c++17",
+      "cases": 5,
+      "status": "passed"
+    },
+    {
+      "file": "preserved_3212948_2.cpp",
+      "standard": "c++20",
+      "cases": 5,
+      "status": "passed"
+    },
+    {
+      "file": "preserved_3214903_1.cpp",
+      "standard": "c++17",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "preserved_3214903_1.cpp",
+      "standard": "c++20",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "string_operators.cpp",
+      "standard": "c++17",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "string_operators.cpp",
+      "standard": "c++20",
+      "cases": 1,
+      "status": "passed"
+    },
+    {
+      "file": "preserved_3214904_1.cpp",
+      "standard": "c++17",
+      "cases": 7,
+      "status": "passed"
+    },
+    {
+      "file": "preserved_3214904_1.cpp",
+      "standard": "c++20",
+      "cases": 7,
+      "status": "passed"
+    },
+    {
+      "file": "parse_integer.cpp",
+      "standard": "c++17",
+      "cases": 16,
+      "status": "passed"
+    },
+    {
+      "file": "parse_integer.cpp",
+      "standard": "c++20",
+      "cases": 16,
+      "status": "passed"
+    }
+  ],
+  "allocation_failures": [
+    {
+      "check": "malloc_failure",
+      "standard": "c11",
+      "status": "passed"
+    },
+    {
+      "check": "malloc_failure",
+      "standard": "c17",
+      "status": "passed"
+    },
+    {
+      "check": "calloc_failure",
+      "standard": "c11",
+      "status": "passed"
+    },
+    {
+      "check": "calloc_failure",
+      "standard": "c17",
+      "status": "passed"
+    },
+    {
+      "check": "realloc_failure_keeps_and_frees_old_block",
+      "standard": "c11",
+      "status": "passed"
+    },
+    {
+      "check": "realloc_failure_keeps_and_frees_old_block",
+      "standard": "c17",
+      "status": "passed"
+    }
+  ],
+  "summary": {
+    "exact_programs": 37,
+    "cpp_programs": 35,
+    "c_programs": 2,
+    "successful_program_compilations": 74,
+    "program_runs": 204,
+    "allocation_failure_runs": 6,
+    "contract_checks": 12,
+    "expected_compilation_rejections": 8
+  },
+  "input_sha256": {
+    "authoring/t2.py": "af6de1ae19afdda04b8a1de83bfcef74437dc90e00ed704e06a4c9ad0d4dff94",
+    "changes_t2.json": "7f526bb1e411d50fa3627de4fc1cf058ea6bb62107d2a47443ece97f39bac37e",
+    "examples/t2/README.md": "b2ed9bc1e24038b3b5aa86cd44b4fc2f9403e5adf7b9a3d499c0d1c4cd0c4177",
+    "examples/t2/array_decay.cpp": "b42fcef1f8d46d7a4198a7c8c9fb621adda6ca75643def2521405521273d4d68",
+    "examples/t2/break.cpp": "4252b27e2e3ae235778091cd7def13c375bff8280a69440e8ccd1ee841bff088",
+    "examples/t2/c_malloc.c": "d4ab1e7a7e8f7e1cb953f6d1bca01ef3b4bdfc682b243c81dc13dfa51c4e0b17",
+    "examples/t2/c_realloc.c": "c2543835685468592dc25a5db030040e9ccc524b0db7e0c72529c7a19a9d8492",
+    "examples/t2/character_pointer.cpp": "6b20fbd6dcff4afcee3d682831deb5e7c51bd3448d7172b09c3dae41ba4273ee",
+    "examples/t2/checked_conversion.cpp": "20a0fe4285e8e9e4572d99a4b226d81b74802d15abcd4567ca7294d5d93fb19a",
+    "examples/t2/checks/contracts.cpp": "fd910b080a4d1b27bf57ebe3a055c424ebdec493de87dfcc082a695ed53aad06",
+    "examples/t2/continue.cpp": "73dcffcaabffc138eabc2b56679a574eea1f8d7891f49be00630fe040bd8fefc",
+    "examples/t2/cstring_bounds.cpp": "eaa74cd0b488b72847a7ff30d936ff495831003607e8a7600b02d11b708b4cd1",
+    "examples/t2/division.cpp": "1df946e0fe58d87ae523af8331331ca5179003feb377c4d2f9e75a47d05060a4",
+    "examples/t2/do_while.cpp": "14e66fcf5d59696df480b78d25d263663ae37f64e7c325fec61d0c2819749f9d",
+    "examples/t2/filtered_sum.cpp": "974252b36bf60d2092b5b834c20d96c4e5d8ecb00fc10e4911a5d11f80054792",
+    "examples/t2/fixtures.json": "816b90e0619de4ffec7b655bf192dce7786e84087d9e24da335aa5738a7f618d",
+    "examples/t2/for_squares.cpp": "9cf78786efc70ac60ce53c605fd15e03d250db615fe1845841adbb95efe79cb5",
+    "examples/t2/matrix_iteration.cpp": "f0250de8109a436b0e5c1787470ff17cf9af661388d11e94df4f54621e3bcf24",
+    "examples/t2/minimum.cpp": "c7fe819ae3e4c14aff44ada959d580864304171d5bdfef846a1c0cf9218d03e9",
+    "examples/t2/objects.cpp": "40fc5971d1b702e0384762d599a3b93af3b04594b3c274c7a144c8367a9e7136",
+    "examples/t2/parse_integer.cpp": "39ffa9146e3b4f97374a253bca515cc9928853d2494650dc611b95cd69cc929e",
+    "examples/t2/pointer_aliases.cpp": "872d2c8545c60bc5a132f474acb0e4fae00145b57dc8e8d3476e7c4b2d637388",
+    "examples/t2/pointer_basics.cpp": "1f15bf7a147aa9d767b301bfd994f962700cfcdd19eb03815f47a36610383fda",
+    "examples/t2/pointer_comparison.cpp": "8a182c404a664d4bcf1614e1d95b41ca5bca848f5ed289b7c1e9bc7a38ad17f1",
+    "examples/t2/pointer_contract.cpp": "b36c728a920ec243830f5a79a55080a7c762be4dd8746c1354e3dcf66cd2a90a",
+    "examples/t2/pointer_to_pointer.cpp": "3c256e5ebfbca783482c4eea3665c5d9cdc691786d6776b37212499cf6011c51",
+    "examples/t2/preserved_3177296_1.cpp": "74835940761a56e877aeb6db62baede0b82e7fec80a76cae682600c9f660e3f2",
+    "examples/t2/preserved_3212908_1.cpp": "2969020d04f1f6be503dcd71547e1827da51cbe71228194cfa547f8736b851bb",
+    "examples/t2/preserved_3212920_1.cpp": "8e4a96a543c40106b05b833dd527888e54d2f711d377627126bdb67ad8c356d5",
+    "examples/t2/preserved_3212946_1.cpp": "103fbea7fcf39aad9cd0778e1d6e25f723961d9ca17ee43da42b857bc564dac3",
+    "examples/t2/preserved_3212948_1.cpp": "b9f6033604eeddc5e18cfdfcd5e55bdf97d39062d3844151acb9a4bf2cc8f505",
+    "examples/t2/preserved_3212948_2.cpp": "43f4e4c6e59bd41965ad3a765bfcbc08f1c209f24691956f7d2a464c3f7b5e61",
+    "examples/t2/preserved_3213209_1.cpp": "98b4a8a7c4c1b5a50fe595e07900e26e6aba8e270a66faa3bc9fdf76af9b7220",
+    "examples/t2/preserved_3214903_1.cpp": "e2a5861de05253a3bb68cb47a5c5f3b9d7fd1a8e761d4d3083c56e3017fffa26",
+    "examples/t2/preserved_3214904_1.cpp": "ee46d8f7f069af5c4743cecdba462c8ac7ef361b13e034df7d9cee1b2124d78c",
+    "examples/t2/preserved_3307684_1.cpp": "1413117f4f8ca60ab7b2b7c663051418c462f0556712b1dc07e69ee390bab4fd",
+    "examples/t2/row_pointer.cpp": "3cc9e3505c36b59ffb3e7ca29ff6d3c0883299f2792fac17aca3d67a44b42359",
+    "examples/t2/sign.cpp": "f8726f028b848845c462244f9c3050f0e8c318edbf13a08baaabeea96a7aa7ce",
+    "examples/t2/storage_scope.cpp": "e5b16eddf53a0793cd47d7e4c4549d7e5f8173eda0b9c979ec92a0fe8ee13201",
+    "examples/t2/string_operators.cpp": "92999fcff29b8d13aa5fff91415043e85f9158f4759d03ca49e1849a8c10a636",
+    "examples/t2/switch_command.cpp": "ad00a7b75691e8ff39f3acca94c9649a0f339c357b2d95954e338c6a9ed66a4a",
+    "examples/t2/verify.py": "c8e9a4fc8aa67df6a8a54be69854e8d0f0a8cbd4f460da07105d4a50171781ba",
+    "examples/t2/while_squares.cpp": "7345df68ca8f70c736d7d7557026cf4c48808c9f939a129ddf49144c52057750",
+    "review_t2.json": "8f1cd1ab401f281155eddc68353d49bb64d8d7e65e3fa8c1e969e7733020001d",
+    "steps/763630/02_3262706_text.step": "9ec9684b7c2dc987e0e46647286562523f92bc9caff4b580a910f57a3c0bf14a",
+    "steps/763630/03_3177280_text.step": "0717a26b569eefb551f4565d6161b9711266d3ae211de4d4e7e90de4dbe0497c",
+    "steps/763630/04_3177282_text.step": "40f3a8203dae67207b6f567d4bd912d4418ff46bfe3428175a6510d7f9ada4fb",
+    "steps/763630/08_3177279_text.step": "9ce3ee09ff1e73ef54de9e6e095cfb96246ac2fb59950a092e2528210cc543eb",
+    "steps/763639/01_3177291_text.step": "d788be80f38d4436d912768a3056a3ff06e6d780ecda3ee2e3fdc23aef50b6ce",
+    "steps/763639/02_3177474_text.step": "4c123c940a79b92f13dec74c42bcc70782be4e9399f99f9e2c0259bd3a1ab5d1",
+    "steps/763640/01_3177292_text.step": "9720cb6feaadd8f62385315719d7fd735ea3465e2be066873c66aaff26bc1238",
+    "steps/763640/02_3215105_text.step": "30c39c2f257d48336eddae73c7cbb146a05bee76cd16e3b6a027f1b69493819f",
+    "steps/763642/01_3177294_text.step": "d3600f6a01ae70ce4ff699b7fac5477e9852dd202ca26351a979c77f15e4a70f",
+    "steps/763642/02_3177541_text.step": "afd6ca4e0385d584fa0cd0fc3eafef8e455cb01c6ca807765ab48d070a4e606c",
+    "steps/763642/03_3177540_text.step": "590e1541c95cd9844474d7ff2e85e3ed68951db25307e4b0748fff0846cac493",
+    "steps/763642/04_3177546_text.step": "c3c2dc0d22686e852c8422d9695acf6256dff4534a468a018786ede47ecd7674",
+    "steps/763642/05_3177547_text.step": "52f7ed1fcf1f82f0492c58502b7a9210854f1f4eb47724de0b23b10ab0dfbba6",
+    "steps/763644/02_3177296_text.step": "1355bc3cac2b8a1e637cb5f3c1dd04efb234fa253fd48782550cd1c6f5e75703",
+    "steps/763644/03_3212907_text.step": "371545ad730fa40d8e232fbd10277862200959f400620dd743fb51a195fcfbc1",
+    "steps/763644/04_3212908_text.step": "9aeeff83f417cf49a7b79b4a85822ddf54e4a1de2509ff2be973d170461e2962",
+    "steps/763644/05_3212935_text.step": "a52d47ffa2b62363bd5a004d17914617260b1f3c756d837a0d519962f74b5360",
+    "steps/763644/06_3212920_text.step": "f828b4e93f7773b9da7ac85a06becd5936f74f9781d9517370f2b5362043e6c9",
+    "steps/763644/07_3212926_text.step": "a5c0ffa369d4711873616dd51bb1bffe6c2d5dbee53834a37259b8939277327c",
+    "steps/763646/01_3212924_text.step": "0aa428a1984c308b3a8aec2ab411272e2cb6eb711a64953ed55a2da9cb2f0ccc",
+    "steps/763646/03_3212939_text.step": "c61a1df160b047309d75be6db3d042cda771219940c1949fedaa25ce2de118c2",
+    "steps/763646/05_3212937_text.step": "6bc33d75d5478f330c95cc1e5896b2b15fd6847633f9b758679d73a2f94fe4a7",
+    "steps/763719/01_3177562_text.step": "64b30956a8e6bcba68ce300d7fd22684155d669141e3707106942e56da5b8b3b",
+    "steps/763719/02_3177565_text.step": "efd07d4e2230d3326ca3eec658a7d8f9e488a7b1a8f9d74b29d0e3acfc4e7fd8",
+    "steps/763719/04_3177651_text.step": "2ea3a831602f0381bb662d39e2e26fdd2c84f4af3529b8c203fa90b9fe7b90e9",
+    "steps/763719/06_3177786_text.step": "8eeac907efd7ba5d0e2e921ff906fd3e3314db6aae4988190e7d57ae508666ba",
+    "steps/763719/07_3177789_text.step": "740db6adbd50e93933f4118e59329102d1345ce779901105190cafd99405b65e",
+    "steps/770585/01_3212944_text.step": "5a5a59793d5bf8c1bd767a81b9b41dc9d67ea4645dd2a17d8a9fd83553008cbd",
+    "steps/770585/02_3212968_text.step": "ac250f80af994897da005e1806be93168f4ac7addf2fbbb53d29455a03e3c686",
+    "steps/770585/03_3212969_text.step": "78004bdfcc4e3703b97d82c3f3d7642064f8312aea2cdc0134768fe4df78085e",
+    "steps/770585/04_3212970_text.step": "cede5997c2e79198e49718645784b13cafbcc7a180e43574d73ea26f84f50419",
+    "steps/770585/07_3212991_text.step": "a0e3435d688dded771792e2dbda619bf30fb677133037fa9db54391f438e3d9c",
+    "steps/770586/01_3212945_text.step": "3b4b08b864b48e5191d6d5471eb6a72c4e4e9bce8c8fe7a4717c7e327abdfb51",
+    "steps/770586/02_3212995_text.step": "22e9840bf256c1d99fed3e51410e380a6a36004009477a720a2f35c8ed46cfb6",
+    "steps/770586/03_3213003_text.step": "7a959c7b33c697d774f436e54229e62db5f08e47505aa74f9bf9b6bdb99cc5ed",
+    "steps/770586/04_3213004_text.step": "d4d1446a17f379490a9cc902ed5db2656b8a0aea29384dceb0a45825057079d1",
+    "steps/770586/05_3438842_text.step": "308508c777d20dda4fcaabcb538b7a235acb4288ffe30b9637ba66f6226bb116",
+    "steps/770586/06_3438841_text.step": "560c959544b814e5542b616110624c0946ceab7825d074bcfbcd0768186340c2",
+    "steps/770587/01_3212946_text.step": "f205478b74e77fa66b07cd2084ffe662723cd380b023f7ac760e9db3031da7af",
+    "steps/770587/02_3213209_text.step": "9b8666faf10404a4914568500a21459bf4babf8c10734f7f057368dc1813fd75",
+    "steps/770587/03_3213208_text.step": "82983ff29069ff1920a5f69b113329051643e65752e7f8847929705398995418",
+    "steps/770587/04_3213207_text.step": "fecc8af86880fa2534ee9db1dfcf8dbbadf863d90ef6844144e56a8d3d93a284",
+    "steps/770587/05_3213210_text.step": "aa6dc97057316300fce83fdf30ff089c14394273d5b9674b5cd523554c9cf9f5",
+    "steps/770587/06_3307684_text.step": "2c1516436791461365e87bec0d2a65534c6379082b6264d6cce611561cab7e67",
+    "steps/770587/07_3213206_text.step": "29db2474b405567d3207f37c7526dc42e1a1371ff8938bee74e6bddae78b75b9",
+    "steps/770588/01_3212947_text.step": "6dcaa9dbdf47190a7d0521eba43c8c281a50c732c5b450035b693da288bb2fbc",
+    "steps/770588/02_3214845_text.step": "e98e44c0eb6e88aac5e06794c18b8c47955089729e647ce685a0605cedfbbfcc",
+    "steps/770589/01_3212948_text.step": "1cd66f56b6503230dd92871f7c17eaed0c02aab9fcf134efe09033fe5d63e78e",
+    "steps/770589/02_3214901_text.step": "1f3e6f74b24f7c218f65c48f9fdfd3df8094017b61b4a5761c1d15ceff905da5",
+    "steps/770589/03_3214903_text.step": "18efbadeb3d8417c3126f31fda55c1a2dd7c9b4e4378b1485515311e225a9ec9",
+    "steps/770589/04_3214902_text.step": "235b6ce6498844f1641073880badf807d359ef52fdd37102877fbf37179358dc",
+    "steps/770589/05_3214904_text.step": "64dd9e99ce16096d60ff1a8bb9e9eaad1638ef47046b82dc4f8273e68f36bc20"
+  },
+  "finished_at": "2026-11-23T14:40:05.433909+00:00"
+}

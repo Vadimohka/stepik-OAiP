@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "reviewer": "verify_foundations",
+  "author_reviewed": "verify_core",
+  "completed_at": "2026-11-23T14:49:05.454620+00:00",
+  "base_commit": "26bbfeb5065ef3475f9ea612a3a8785f934b7c49",
+  "scope": "Independent cross-review of the one changed core text, its two preserved fragments and explanatory wrapper, four newly covered full pointer programs, and the exact new verifier/report. This is not an additional independent read of all 96 core texts.",
+  "reviewed_changed_step_ids": [
+    3177298
+  ],
+  "target_inputs": [
+    {
+      "step_id": 3177298,
+      "path": "improvements/86957/theory-final-review-2026-11-23/steps/763646/02_3177298_text.step",
+      "file_sha256": "de36b7355887dd18f6dae0d4073d3b81dad8a15c3bba97afe091eaef1b34961a",
+      "text_sha256": "c84792025d5d59850a94993b676f0d558e6cc1f78ccee95c53f5c823e8c40ea6",
+      "previous_effective_path": "courses/86957/steps/763646/02_3177298_text.step",
+      "previous_effective_sha256": "2f20683530db12b29ee0eecb979773d0633c237de89988fcb121ecc08260a517"
+    }
+  ],
+  "test_inputs_sha256": {
+    "courses/86957/steps/763646/02_3177298_text.step": "2f20683530db12b29ee0eecb979773d0633c237de89988fcb121ecc08260a517",
+    "courses/86957/steps/770585/05_3212990_text.step": "37bf6ba467280ca7ebae231b13ac9dd5091040c037c5eafe341572649450eece",
+    "courses/86957/steps/770585/06_3212989_text.step": "3dc4cdca3b367b34d2b682be42489e99777b08ca4c8a11b6bbdd206b3741537f",
+    "improvements/86957/theory-final-review-2026-11-23/changes_core.json": "0a65a891523556a1f4915d85c977473fb6d385773c74fb64b4e667c59f02bec5",
+    "improvements/86957/theory-final-review-2026-11-23/code_inventory_core.json": "4a1d24ab3e96f9f08108b3cbaa833684148d0a70d7cf804eb42034ae0a8c5d0e",
+    "improvements/86957/theory-final-review-2026-11-23/examples/core/README.md": "17128c13924ba6a97e63a1239dd7fad29ed51529fce341d30a8c5cd14a8c48a3",
+    "improvements/86957/theory-final-review-2026-11-23/examples/core/array_variants.cpp": "b9a8d2b23e05df6e67425581bee3f609582f3768d2beadb638bf95edb6742910",
+    "improvements/86957/theory-final-review-2026-11-23/examples/core/const_pointer.cpp": "aa3e20166508ce414a31a8cfa299cd128828a37b0ff8beff4046231bb3f46038",
+    "improvements/86957/theory-final-review-2026-11-23/examples/core/const_view.cpp": "40926906ecc88c69774c6b121c5387326024d061f47a30b6e434d2fc75b1afd0",
+    "improvements/86957/theory-final-review-2026-11-23/examples/core/pointer_arithmetic.cpp": "0e9f7fd11972ac15a9351a9c004cbe73824c44a59dd8d647f996f0e0c9f19da2",
+    "improvements/86957/theory-final-review-2026-11-23/examples/core/pointer_to_const.cpp": "9eead12f5f60e35756bbdf29b49e70f85848d677dac6603a67af8a9b36824dba",
+    "improvements/86957/theory-final-review-2026-11-23/examples/core/verify.py": "a2f552e35356488d22f5e0bfe36d92946fb56534fac4e162718f164fbd6621f0",
+    "improvements/86957/theory-final-review-2026-11-23/review_inputs.json": "53d72e8a181cf26ff99fd906b12a9808c329bf6323578b1b5182869172ebb2e2",
+    "improvements/86957/theory-final-review-2026-11-23/steps/763646/02_3177298_text.step": "de36b7355887dd18f6dae0d4073d3b81dad8a15c3bba97afe091eaef1b34961a",
+    "improvements/86957/theory-final-review-2026-11-23/validation/new_core.json": "24bcc69d5fceb5e17eab05c077890795b56705285dad2f7a09a9b693ec4ffae5",
+    "improvements/86957/theory-links-2026-11-23/steps/770588/03_3214873_text.step": "cf934cdbe5a2305bfcbef726d379693af6d8925829cbaaa5b533949769ea6d30"
+  },
+  "exact_program_bindings": [
+    {
+      "step_id": 3212990,
+      "pre_index": 1,
+      "pre_index_base": 1,
+      "zero_based_pre_index": 0,
+      "source_path": "improvements/86957/theory-final-review-2026-11-23/examples/core/pointer_arithmetic.cpp",
+      "source_sha256": "0e9f7fd11972ac15a9351a9c004cbe73824c44a59dd8d647f996f0e0c9f19da2",
+      "effective_step_path": "courses/86957/steps/770585/05_3212990_text.step",
+      "effective_step_sha256": "37bf6ba467280ca7ebae231b13ac9dd5091040c037c5eafe341572649450eece",
+      "exact_decoded_pre_match": true
+    },
+    {
+      "step_id": 3212989,
+      "pre_index": 1,
+      "pre_index_base": 1,
+      "zero_based_pre_index": 0,
+      "source_path": "improvements/86957/theory-final-review-2026-11-23/examples/core/pointer_to_const.cpp",
+      "source_sha256": "9eead12f5f60e35756bbdf29b49e70f85848d677dac6603a67af8a9b36824dba",
+      "effective_step_path": "courses/86957/steps/770585/06_3212989_text.step",
+      "effective_step_sha256": "3dc4cdca3b367b34d2b682be42489e99777b08ca4c8a11b6bbdd206b3741537f",
+      "exact_decoded_pre_match": true
+    },
+    {
+      "step_id": 3212989,
+      "pre_index": 3,
+      "pre_index_base": 1,
+      "zero_based_pre_index": 2,
+      "source_path": "improvements/86957/theory-final-review-2026-11-23/examples/core/const_view.cpp",
+      "source_sha256": "40926906ecc88c69774c6b121c5387326024d061f47a30b6e434d2fc75b1afd0",
+      "effective_step_path": "courses/86957/steps/770585/06_3212989_text.step",
+      "effective_step_sha256": "3dc4cdca3b367b34d2b682be42489e99777b08ca4c8a11b6bbdd206b3741537f",
+      "exact_decoded_pre_match": true
+    },
+    {
+      "step_id": 3212989,
+      "pre_index": 5,
+      "pre_index_base": 1,
+      "zero_based_pre_index": 4,
+      "source_path": "improvements/86957/theory-final-review-2026-11-23/examples/core/const_pointer.cpp",
+      "source_sha256": "aa3e20166508ce414a31a8cfa299cd128828a37b0ff8beff4046231bb3f46038",
+      "effective_step_path": "courses/86957/steps/770585/06_3212989_text.step",
+      "effective_step_sha256": "3dc4cdca3b367b34d2b682be42489e99777b08ca4c8a11b6bbdd206b3741537f",
+      "exact_decoded_pre_match": true
+    }
+  ],
+  "observations": [
+    {
+      "check": "prose and language rules",
+      "result": "Both listings are explicitly alternative function-body fragments, not sequential definitions. Automatic int elements in the first variant must receive values before reading. The = initializer is correctly distinguished from assignment. Partial aggregate initialization supplies zeros for omitted int elements."
+    },
+    {
+      "check": "scope preservation",
+      "result": "Only block.text differs; both decoded pre blocks are byte-identical to the effective source. No new graded or independent learner task appears."
+    },
+    {
+      "check": "array wrapper",
+      "result": "Separate blocks prevent redeclaration. All 15 values are assigned before reading the first array. Manual sums 74,30,3,19,0 total126 and the two partially initialized rows agree with the assertions in the author report."
+    },
+    {
+      "check": "full pointer listings",
+      "result": "All four saved cpp files match the declared pre blocks exactly. Pointer increment/decrement stays within values[3]. Const-view and const-pointer results 10 then22 match permitted mutation routes."
+    },
+    {
+      "check": "implementation-dependent output",
+      "result": "The pointer-address check requires a nonempty address field and exact value10; it does not freeze a numeric address or claim one portable pointer format."
+    },
+    {
+      "check": "meaningful negative checks",
+      "result": "Both standards reject the joined array definitions, writing through pointer-to-const, and assigning a string literal to an existing char array. Each saved source hash matches its source and each diagnostic refers to the intended constraint."
+    },
+    {
+      "check": "warnings and coverage",
+      "result": "The unused b in the historical const-pointer program is retained and reported, rather than removed from the exact listing or silently represented as warning-free. Ten successful compilations/runs and six expected failures match the report records; this new suite does not claim all other fragments executed."
+    },
+    {
+      "check": "inventory indices",
+      "result": "Core pre_index_base is explicitly1; declarations and verify.py consistently subtract1 for Python indexing. Foundations has a separate zero-based convention; integrator was notified to normalize by the declared base."
+    },
+    {
+      "check": "validation provenance",
+      "result": "Every recorded input_sha256 in new_core.json still matches the current file. All inspected inventory/source/report bindings for the one correction and four full listings are consistent."
+    }
+  ],
+  "sources": [
+    "https://timsong-cpp.github.io/cppwp/n4659/dcl.init",
+    "https://timsong-cpp.github.io/cppwp/n4659/dcl.init.aggr",
+    "https://timsong-cpp.github.io/cppwp/n4659/basic.def.odr",
+    "https://timsong-cpp.github.io/cppwp/n4861/dcl.init",
+    "https://timsong-cpp.github.io/cppwp/n4861/dcl.init.aggr",
+    "https://timsong-cpp.github.io/cppwp/n4861/basic.def.odr"
+  ],
+  "findings": [],
+  "unresolved_defects": [],
+  "validation_review": {
+    "report_path": "improvements/86957/theory-final-review-2026-11-23/validation/new_core.json",
+    "report_sha256": "24bcc69d5fceb5e17eab05c077890795b56705285dad2f7a09a9b693ec4ffae5",
+    "status": "passed",
+    "reported_successful_compilations": 10,
+    "reported_executions": 10,
+    "reported_expected_compilation_rejections": 6,
+    "reviewer_recompiled": false,
+    "independent_hash_and_exact_source_checks": "passed"
+  },
+  "limits": [
+    "Compilation was not rerun by this reviewer; the current successful author report, exact inputs and test logic were independently checked.",
+    "Linux/GCC execution evidence does not establish Windows/MSVC or macOS results.",
+    "Review scope is the changed core material and newly added coverage, not a claim of a third full read of all core modules.",
+    "No Stepik operation, commit or modification to the reviewed author files was performed."
+  ]
+}

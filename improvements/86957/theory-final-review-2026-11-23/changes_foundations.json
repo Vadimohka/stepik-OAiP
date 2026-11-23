@@ -1,0 +1,51 @@
+[
+  {
+    "step_id": 3177282,
+    "path": "steps/763630/04_3177282_text.step",
+    "summary": "Привязано правило беззнакового переполнения к типу операции; различены 0U - 1U и арифметика unsigned char после целочисленного повышения.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.fundamental",
+      "https://timsong-cpp.github.io/cppwp/n4659/conv.prom",
+      "https://timsong-cpp.github.io/cppwp/n4861/basic.fundamental",
+      "https://timsong-cpp.github.io/cppwp/n4861/conv.prom"
+    ],
+    "plan": [
+      "VERIFY",
+      "T2"
+    ],
+    "previous_effective_path": "courses/86957/steps/763630/04_3177282_text.step",
+    "previous_effective_sha256": "bc3afa24a00a3001dcb2af03e559964834a3949c46fa29a304d6f3efa2b3223e"
+  },
+  {
+    "step_id": 3177291,
+    "path": "steps/763639/01_3177291_text.step",
+    "summary": "Явно распространены ограничения ненулевого делителя и представимости частного на обе операции / и %, включая минимум % -1 при дополнительном коде.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.mul",
+      "https://timsong-cpp.github.io/cppwp/n4861/expr.mul"
+    ],
+    "plan": [
+      "VERIFY",
+      "T2"
+    ],
+    "previous_effective_path": "courses/86957/steps/763639/01_3177291_text.step",
+    "previous_effective_sha256": "a93edba1c7428bc3474fb394dfaba80995107ae1b59646664b85e0095a8fe4c9"
+  },
+  {
+    "step_id": 3177292,
+    "path": "steps/763640/01_3177292_text.step",
+    "summary": "Уточнён контракт operator>>: отказ первого чтения целого отделён от принятия числового префикса 12x и игнорирования хвоста.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/istream.formatted.arithmetic",
+      "https://timsong-cpp.github.io/cppwp/n4659/facet.num.get.virtuals",
+      "https://timsong-cpp.github.io/cppwp/n4861/istream.formatted.arithmetic",
+      "https://timsong-cpp.github.io/cppwp/n4861/facet.num.get.virtuals"
+    ],
+    "plan": [
+      "VERIFY",
+      "T2"
+    ],
+    "previous_effective_path": "courses/86957/steps/763640/01_3177292_text.step",
+    "previous_effective_sha256": "5056977579546417e8e0f78ccf3e617244fb55f8f3a0b3d3119187828df07379"
+  }
+]

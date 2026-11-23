@@ -1,0 +1,19 @@
+{
+  "name": "t5",
+  "started_at": "2026-11-23T14:40:25.263756+00:00",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "/workspace/scratch/b48445057238/verification-legacy/improvements/86957/theory-continuation-2026-11-23/examples/t5/verify.py"
+  ],
+  "verifier_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/verify.py",
+  "verifier_sha256": "23743c7adbe3996fe50834a665498657db1a7babeab9dc5d40ba172c43f969dd",
+  "source_package": "improvements/86957/theory-continuation-2026-11-23",
+  "output_report": "/workspace/scratch/b48445057238/stepik-OAiP/improvements/86957/theory-final-review-2026-11-23/validation/recheck/t5.json",
+  "exit_code": 0,
+  "stdout": "{\"status\": \"passed\", \"counts\": {\"text_steps\": 45, \"complete_programs\": 37, \"compilations\": 76, \"runtime_cases\": 90, \"expected_compile_failures\": 10, \"boundary_harness_runs\": 2}}\n",
+  "stderr": "",
+  "reported_status": "passed",
+  "report_sha256": "a30f0c23ba48d98b808e849faa8969f03b134d33cbe9533a5838d506d00f179a",
+  "status": "passed",
+  "finished_at": "2026-11-23T14:40:57.678452+00:00"
+}

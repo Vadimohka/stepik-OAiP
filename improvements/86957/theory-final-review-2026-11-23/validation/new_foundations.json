@@ -1,0 +1,558 @@
+{
+  "schema_version": 1,
+  "part": "VERIFY_FOUNDATIONS",
+  "started_at": "2026-11-23T14:44:51.534857+00:00",
+  "status": "passed",
+  "standards": [
+    "c++17",
+    "c++20"
+  ],
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "python": "3.12.14",
+  "flags": [
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-Werror",
+    "-O2",
+    "-fsanitize=undefined",
+    "-fno-sanitize-recover=all"
+  ],
+  "historical_reports_replaced": false,
+  "scope": "Three prose-only corrections; five unchanged exact lesson programs (including three previously uncovered full listings), one author-only numerical-contract harness, and rejected constant expressions.",
+  "counts": {
+    "source_inputs_verified": 96,
+    "changed_steps_verified": 3,
+    "unchanged_pre_blocks": 6,
+    "exact_program_bindings": 5,
+    "successful_compilations": 12,
+    "runtime_cases": 70,
+    "expected_compile_failures": 8
+  },
+  "runtime_cases": [
+    {
+      "standard": "c++17",
+      "program": "numeric_contracts.cpp",
+      "case": "numeric-types-and-40200-valid-pairs",
+      "status": "passed"
+    },
+    {
+      "standard": "c++17",
+      "program": "wide_characters.cpp",
+      "case": "documented-output-on-recorded-platform",
+      "status": "passed"
+    },
+    {
+      "standard": "c++17",
+      "program": "narrow_casts.cpp",
+      "case": "documented-output-on-recorded-platform",
+      "status": "passed"
+    },
+    {
+      "standard": "c++17",
+      "program": "type_sizes.cpp",
+      "case": "documented-output-on-recorded-platform",
+      "status": "passed"
+    },
+    {
+      "standard": "c++17",
+      "program": "if_input.cpp",
+      "case": "negative",
+      "status": "passed"
+    },
+    {
+      "standard": "c++17",
+      "program": "if_input.cpp",
+      "case": "zero",
+      "status": "passed"
+    },
+    {
+      "standard": "c++17",
+      "program": "if_input.cpp",
+      "case": "positive",
+      "status": "passed"
+    },
+    {
+      "standard": "c++17",
+      "program": "if_input.cpp",
+      "case": "numeric-prefix",
+      "status": "passed"
+    },
+    {
+      "standard": "c++17",
+      "program": "if_input.cpp",
+      "case": "negative-prefix",
+      "status": "passed"
+    },
+    {
+      "standard": "c++17",
+      "program": "if_input.cpp",
+      "case": "unused-second-number",
+      "status": "passed"
+    },
+    {
+      "standard": "c++17",
+      "program": "if_input.cpp",
+      "case": "end-without-newline",
+      "status": "passed"
+    },
+    {
+      "standard": "c++17",
+      "program": "if_input.cpp",
+      "case": "empty",
+      "status": "passed"
+    },
+    {
+      "standard": "c++17",
+      "program": "if_input.cpp",
+      "case": "whitespace-only",
+      "status": "passed"
+    },
+    {
+      "standard": "c++17",
+      "program": "if_input.cpp",
+      "case": "invalid-first-character",
+      "status": "passed"
+    },
+    {
+      "standard": "c++17",
+      "program": "if_input.cpp",
+      "case": "sign-without-digits",
+      "status": "passed"
+    },
+    {
+      "standard": "c++17",
+      "program": "if_input.cpp",
+      "case": "int-min",
+      "status": "passed"
+    },
+    {
+      "standard": "c++17",
+      "program": "if_input.cpp",
+      "case": "int-max",
+      "status": "passed"
+    },
+    {
+      "standard": "c++17",
+      "program": "if_input.cpp",
+      "case": "below-int-min",
+      "status": "passed"
+    },
+    {
+      "standard": "c++17",
+      "program": "if_input.cpp",
+      "case": "above-int-max",
+      "status": "passed"
+    },
+    {
+      "standard": "c++17",
+      "program": "integer_division.cpp",
+      "case": "negative-dividend",
+      "status": "passed"
+    },
+    {
+      "standard": "c++17",
+      "program": "integer_division.cpp",
+      "case": "negative-divisor",
+      "status": "passed"
+    },
+    {
+      "standard": "c++17",
+      "program": "integer_division.cpp",
+      "case": "both-negative",
+      "status": "passed"
+    },
+    {
+      "standard": "c++17",
+      "program": "integer_division.cpp",
+      "case": "zero-dividend",
+      "status": "passed"
+    },
+    {
+      "standard": "c++17",
+      "program": "integer_division.cpp",
+      "case": "lower-bound-and-negative-unit",
+      "status": "passed"
+    },
+    {
+      "standard": "c++17",
+      "program": "integer_division.cpp",
+      "case": "upper-bound-and-positive-unit",
+      "status": "passed"
+    },
+    {
+      "standard": "c++17",
+      "program": "integer_division.cpp",
+      "case": "extreme-opposite-signs",
+      "status": "passed"
+    },
+    {
+      "standard": "c++17",
+      "program": "integer_division.cpp",
+      "case": "zero-divisor",
+      "status": "passed"
+    },
+    {
+      "standard": "c++17",
+      "program": "integer_division.cpp",
+      "case": "dividend-below-range",
+      "status": "passed"
+    },
+    {
+      "standard": "c++17",
+      "program": "integer_division.cpp",
+      "case": "dividend-above-range",
+      "status": "passed"
+    },
+    {
+      "standard": "c++17",
+      "program": "integer_division.cpp",
+      "case": "divisor-below-range",
+      "status": "passed"
+    },
+    {
+      "standard": "c++17",
+      "program": "integer_division.cpp",
+      "case": "divisor-above-range",
+      "status": "passed"
+    },
+    {
+      "standard": "c++17",
+      "program": "integer_division.cpp",
+      "case": "missing-divisor",
+      "status": "passed"
+    },
+    {
+      "standard": "c++17",
+      "program": "integer_division.cpp",
+      "case": "invalid-divisor",
+      "status": "passed"
+    },
+    {
+      "standard": "c++17",
+      "program": "integer_division.cpp",
+      "case": "empty",
+      "status": "passed"
+    },
+    {
+      "standard": "c++17",
+      "program": "integer_division.cpp",
+      "case": "unused-tail",
+      "status": "passed"
+    },
+    {
+      "standard": "c++20",
+      "program": "numeric_contracts.cpp",
+      "case": "numeric-types-and-40200-valid-pairs",
+      "status": "passed"
+    },
+    {
+      "standard": "c++20",
+      "program": "wide_characters.cpp",
+      "case": "documented-output-on-recorded-platform",
+      "status": "passed"
+    },
+    {
+      "standard": "c++20",
+      "program": "narrow_casts.cpp",
+      "case": "documented-output-on-recorded-platform",
+      "status": "passed"
+    },
+    {
+      "standard": "c++20",
+      "program": "type_sizes.cpp",
+      "case": "documented-output-on-recorded-platform",
+      "status": "passed"
+    },
+    {
+      "standard": "c++20",
+      "program": "if_input.cpp",
+      "case": "negative",
+      "status": "passed"
+    },
+    {
+      "standard": "c++20",
+      "program": "if_input.cpp",
+      "case": "zero",
+      "status": "passed"
+    },
+    {
+      "standard": "c++20",
+      "program": "if_input.cpp",
+      "case": "positive",
+      "status": "passed"
+    },
+    {
+      "standard": "c++20",
+      "program": "if_input.cpp",
+      "case": "numeric-prefix",
+      "status": "passed"
+    },
+    {
+      "standard": "c++20",
+      "program": "if_input.cpp",
+      "case": "negative-prefix",
+      "status": "passed"
+    },
+    {
+      "standard": "c++20",
+      "program": "if_input.cpp",
+      "case": "unused-second-number",
+      "status": "passed"
+    },
+    {
+      "standard": "c++20",
+      "program": "if_input.cpp",
+      "case": "end-without-newline",
+      "status": "passed"
+    },
+    {
+      "standard": "c++20",
+      "program": "if_input.cpp",
+      "case": "empty",
+      "status": "passed"
+    },
+    {
+      "standard": "c++20",
+      "program": "if_input.cpp",
+      "case": "whitespace-only",
+      "status": "passed"
+    },
+    {
+      "standard": "c++20",
+      "program": "if_input.cpp",
+      "case": "invalid-first-character",
+      "status": "passed"
+    },
+    {
+      "standard": "c++20",
+      "program": "if_input.cpp",
+      "case": "sign-without-digits",
+      "status": "passed"
+    },
+    {
+      "standard": "c++20",
+      "program": "if_input.cpp",
+      "case": "int-min",
+      "status": "passed"
+    },
+    {
+      "standard": "c++20",
+      "program": "if_input.cpp",
+      "case": "int-max",
+      "status": "passed"
+    },
+    {
+      "standard": "c++20",
+      "program": "if_input.cpp",
+      "case": "below-int-min",
+      "status": "passed"
+    },
+    {
+      "standard": "c++20",
+      "program": "if_input.cpp",
+      "case": "above-int-max",
+      "status": "passed"
+    },
+    {
+      "standard": "c++20",
+      "program": "integer_division.cpp",
+      "case": "negative-dividend",
+      "status": "passed"
+    },
+    {
+      "standard": "c++20",
+      "program": "integer_division.cpp",
+      "case": "negative-divisor",
+      "status": "passed"
+    },
+    {
+      "standard": "c++20",
+      "program": "integer_division.cpp",
+      "case": "both-negative",
+      "status": "passed"
+    },
+    {
+      "standard": "c++20",
+      "program": "integer_division.cpp",
+      "case": "zero-dividend",
+      "status": "passed"
+    },
+    {
+      "standard": "c++20",
+      "program": "integer_division.cpp",
+      "case": "lower-bound-and-negative-unit",
+      "status": "passed"
+    },
+    {
+      "standard": "c++20",
+      "program": "integer_division.cpp",
+      "case": "upper-bound-and-positive-unit",
+      "status": "passed"
+    },
+    {
+      "standard": "c++20",
+      "program": "integer_division.cpp",
+      "case": "extreme-opposite-signs",
+      "status": "passed"
+    },
+    {
+      "standard": "c++20",
+      "program": "integer_division.cpp",
+      "case": "zero-divisor",
+      "status": "passed"
+    },
+    {
+      "standard": "c++20",
+      "program": "integer_division.cpp",
+      "case": "dividend-below-range",
+      "status": "passed"
+    },
+    {
+      "standard": "c++20",
+      "program": "integer_division.cpp",
+      "case": "dividend-above-range",
+      "status": "passed"
+    },
+    {
+      "standard": "c++20",
+      "program": "integer_division.cpp",
+      "case": "divisor-below-range",
+      "status": "passed"
+    },
+    {
+      "standard": "c++20",
+      "program": "integer_division.cpp",
+      "case": "divisor-above-range",
+      "status": "passed"
+    },
+    {
+      "standard": "c++20",
+      "program": "integer_division.cpp",
+      "case": "missing-divisor",
+      "status": "passed"
+    },
+    {
+      "standard": "c++20",
+      "program": "integer_division.cpp",
+      "case": "invalid-divisor",
+      "status": "passed"
+    },
+    {
+      "standard": "c++20",
+      "program": "integer_division.cpp",
+      "case": "empty",
+      "status": "passed"
+    },
+    {
+      "standard": "c++20",
+      "program": "integer_division.cpp",
+      "case": "unused-tail",
+      "status": "passed"
+    }
+  ],
+  "expected_compile_failures": [
+    {
+      "standard": "c++17",
+      "case": "minimum-divide-minus-one",
+      "expression": "std::numeric_limits<int>::min() / -1",
+      "source_sha256": "dc02c713caf7b80675e23866ad7b35bfc8b853462c9f56ecc80d8152b13ad11a",
+      "status": "correctly_rejected"
+    },
+    {
+      "standard": "c++17",
+      "case": "minimum-remainder-minus-one",
+      "expression": "std::numeric_limits<int>::min() % -1",
+      "source_sha256": "53051088f28e7af4d12a5a30c12a61e1558624582c08bcb20a0bb3bdd8e73dc6",
+      "status": "correctly_rejected"
+    },
+    {
+      "standard": "c++17",
+      "case": "division-by-zero",
+      "expression": "7 / 0",
+      "source_sha256": "53d5e4b70aa8d0e7ce2dceec86f2f198517bc8731861ae9d2a28d9e28460de77",
+      "status": "correctly_rejected"
+    },
+    {
+      "standard": "c++17",
+      "case": "remainder-by-zero",
+      "expression": "7 % 0",
+      "source_sha256": "1a04da45ad96bc6dc9d298e84d58f7e4c9c93247c925e6da13375b933300b654",
+      "status": "correctly_rejected"
+    },
+    {
+      "standard": "c++20",
+      "case": "minimum-divide-minus-one",
+      "expression": "std::numeric_limits<int>::min() / -1",
+      "source_sha256": "dc02c713caf7b80675e23866ad7b35bfc8b853462c9f56ecc80d8152b13ad11a",
+      "status": "correctly_rejected"
+    },
+    {
+      "standard": "c++20",
+      "case": "minimum-remainder-minus-one",
+      "expression": "std::numeric_limits<int>::min() % -1",
+      "source_sha256": "53051088f28e7af4d12a5a30c12a61e1558624582c08bcb20a0bb3bdd8e73dc6",
+      "status": "correctly_rejected"
+    },
+    {
+      "standard": "c++20",
+      "case": "division-by-zero",
+      "expression": "7 / 0",
+      "source_sha256": "53d5e4b70aa8d0e7ce2dceec86f2f198517bc8731861ae9d2a28d9e28460de77",
+      "status": "correctly_rejected"
+    },
+    {
+      "standard": "c++20",
+      "case": "remainder-by-zero",
+      "expression": "7 % 0",
+      "source_sha256": "1a04da45ad96bc6dc9d298e84d58f7e4c9c93247c925e6da13375b933300b654",
+      "status": "correctly_rejected"
+    }
+  ],
+  "limitations": [
+    "This targeted run does not compile every program or fragment in all 96 reviewed texts.",
+    "All five bound course programs are unchanged; two have corrected surrounding explanations, three supply missing author-run coverage.",
+    "Executed on the recorded Linux/GCC platform and C locale; Windows/MSVC and macOS were not executed.",
+    "The minimum / -1 and minimum % -1 rejection fixtures require the recorded two-complement int range; the harness verifies that assumption.",
+    "Undefined arithmetic is never executed; invalid expressions are tested only as rejected constant expressions.",
+    "No Stepik operation or modification of courses, grading, video, or historical validation files."
+  ],
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "input_sha256": {
+    "improvements/86957/theory-final-review-2026-11-23/review_inputs.json": "53d72e8a181cf26ff99fd906b12a9808c329bf6323578b1b5182869172ebb2e2",
+    "improvements/86957/theory-final-review-2026-11-23/changes_foundations.json": "91f9616c04d63e2c3dc5251ddcf949c9203562bc5f82ba9167a59c0e53e32203",
+    "improvements/86957/theory-final-review-2026-11-23/authoring/foundations.py": "42ceda914149bbfe70a3d7218b5a9e6ec15281cafc6653cbbd82506889fc5b7a",
+    "improvements/86957/theory-final-review-2026-11-23/examples/foundations/verify.py": "18b4e3b1b8d76a3abb20334c8714cbd598e7e6171054398d33c3c9ffa606b87f",
+    "improvements/86957/theory-final-review-2026-11-23/examples/foundations/README.md": "afc9d5706e9d58760f4611a8a5e45d544cc534a633cdbc1051cbd1a61e4c274e",
+    "improvements/86957/theory-final-review-2026-11-23/examples/foundations/numeric_contracts.cpp": "21c18aa1b06376cd876c4fb56636f1a27c02346242f9d5df2d5d7853de1d0d42",
+    "improvements/86957/theory-final-review-2026-11-23/examples/foundations/integer_division.cpp": "1df946e0fe58d87ae523af8331331ca5179003feb377c4d2f9e75a47d05060a4",
+    "improvements/86957/theory-final-review-2026-11-23/examples/foundations/if_input.cpp": "f8726f028b848845c462244f9c3050f0e8c318edbf13a08baaabeea96a7aa7ce",
+    "improvements/86957/theory-final-review-2026-11-23/examples/foundations/wide_characters.cpp": "ed1d70c097e9b62804524d4c93515a925bce8a683f397927825b377f438c4627",
+    "improvements/86957/theory-final-review-2026-11-23/examples/foundations/narrow_casts.cpp": "396a89abde87f263953e803d5fd67cd8058d3538c6ea0e72afa3944c86a1ab09",
+    "improvements/86957/theory-final-review-2026-11-23/examples/foundations/type_sizes.cpp": "4712a190e1122b212667244972e51c62cef7d966a84bf6354483ed90ee85abd7",
+    "improvements/86957/theory-final-review-2026-11-23/steps/763630/04_3177282_text.step": "8b23b0cd3907a58d23e3eb9e86842f86d9d50faa60f104e19034473fff57b579",
+    "improvements/86957/theory-final-review-2026-11-23/steps/763639/01_3177291_text.step": "074e7fa853f9c8434c57ed9b36dd0d1995768775167a4596988ecc44b76cfbd3",
+    "improvements/86957/theory-final-review-2026-11-23/steps/763640/01_3177292_text.step": "1e3ea1e61047097c2b68f0d5a9889a7a63b3c4d0ff7a3b1931d1692d3ceb6e2f",
+    "courses/86957/steps/763630/05_3177281_text.step": "1a2cfb63a564b3b3eb3940a06fbf791d97c9a5390e6e3fde3de634d06ca6ed61",
+    "improvements/86957/theory-links-2026-11-23/steps/763630/07_3177283_text.step": "535764f7fe3fb4f2b18e0c6fd65cb70f1d92d18bfd3b236e779ff036fbe3ed63"
+  },
+  "platform_contracts": {
+    "c++17": {
+      "int_min": -2147483648,
+      "int_max": 2147483647,
+      "char_bit": 8,
+      "long_double_bytes": 16,
+      "uchar_promotes_to_int": true,
+      "valid_division_pairs": 40200
+    },
+    "c++20": {
+      "int_min": -2147483648,
+      "int_max": 2147483647,
+      "char_bit": 8,
+      "long_double_bytes": 16,
+      "uchar_promotes_to_int": true,
+      "valid_division_pairs": 40200
+    }
+  },
+  "finished_at": "2026-11-23T14:44:57.037924+00:00"
+}

@@ -3,7 +3,7 @@
   "course_id": 86957,
   "date": "2026-11-23",
   "base_commit": "5885876d1ddbc744bf0c21e2fef32a0bb92a7c43",
-  "status": "theory_ready_in_github_publication_pending_by_owner_instruction",
+  "status": "theory_independently_rechecked_ready_in_github_publication_pending_by_owner_instruction",
   "scope_file": "scope.json",
   "unit": "Часы одного человеческого преподавателя-редактора; оценка объёма, не календарный срок и не время ответа ассистента.",
   "assumptions": [
@@ -43,7 +43,11 @@
       "min": 0,
       "max": 0
     },
-    "note": "T1–T6, SCOPE и LINKS завершены в эффективной теории GitHub. Исторические88+191 опубликованы по сохранённым протоколам. Новый пакет50 шагов подготовлен и проверен; его публикация запрещена текущим указанием владельца. Остаток1–3 человеческих часа относится только к PUB после отдельного разрешения, при отсутствии дрейфа исходников. Новая практика и видео:0."
+    "note": "T1–T6, SCOPE, LINKS и повторный VERIFY завершены в эффективной теории GitHub. Прочитаны все 283 текста; 6 исправлены и независимо приняты. Новый единый пакет 55 шагов (49 прежних без изменений + 6 новых редакций) заменяет отдельное будущее применение LINKS. Все 14 наборов выполнены сейчас. Публикация запрещена текущим указанием владельца; остаток 1–3 человеческих часа относится только к PUB после изменения этого ограничения, при отсутствии дрейфа. Новая практика и видео: 0.",
+    "remaining_independent_review_and_runtime_checks": {
+      "min": 0,
+      "max": 0
+    }
   },
   "recommended_order": [
     "PUB"
@@ -78,7 +82,11 @@
         "progress_file": "PROGRESS.md",
         "semantic_links_review": "completed_in_github",
         "links_refinement_manifest": "../theory-links-2026-11-23/manifest.json",
-        "publication_note": "Этот статус относится к сохранённому опубликованному базовому пакету; адресные поправки LINKS пока не опубликованы."
+        "publication_note": "Статус published относится к прежнему базовому пакету и сохранённым receipts. Текущая накопительная редакция 55 шагов подготовлена только в GitHub; Stepik в новом проходе не читался и не менялся.",
+        "content_status": "completed_and_independently_rechecked",
+        "independent_review_file": "../theory-final-review-2026-11-23/review_completion.json",
+        "current_prepared_manifest": "../theory-final-review-2026-11-23/manifest.json",
+        "current_runtime_summary": "../theory-final-review-2026-11-23/runtime_summary.json"
       }
     },
     {
@@ -107,11 +115,15 @@
           "min": 0,
           "max": 0
         },
-        "evidence_note": "52 обновлённых текста опубликованы. Ещё 11 текстов просмотрены и сохранены в прежнем виде.",
+        "evidence_note": "52 базовых текста опубликованы ранее, другие сохранены. T2 заново выполнен; во втором полном чтении исправлены четыре текста модулей 4–5, закрыты семь пробелов запуска сохранённых полных программ о типах и указателях.",
         "progress_file": "PROGRESS.md",
         "semantic_links_review": "completed_in_github",
         "links_refinement_manifest": "../theory-links-2026-11-23/manifest.json",
-        "publication_note": "Этот статус относится к сохранённому опубликованному базовому пакету; адресные поправки LINKS пока не опубликованы."
+        "publication_note": "Статус published относится к прежнему базовому пакету и сохранённым receipts. Текущая накопительная редакция 55 шагов подготовлена только в GitHub; Stepik в новом проходе не читался и не менялся.",
+        "content_status": "completed_and_independently_rechecked",
+        "independent_review_file": "../theory-final-review-2026-11-23/review_completion.json",
+        "current_prepared_manifest": "../theory-final-review-2026-11-23/manifest.json",
+        "current_runtime_summary": "../theory-final-review-2026-11-23/runtime_summary.json"
       }
     },
     {
@@ -138,11 +150,15 @@
           "min": 0,
           "max": 0
         },
-        "evidence_note": "29 текстов опубликованы по сохранённому receipt. Исторический повтор T3, включая GoogleTest C++17/20, сохранён; в этой сессии не повторялся. Сквозная вычитка и адресные уточнения завершены в LINKS.",
+        "evidence_note": "29 базовых текстов опубликованы по сохранённому receipt. Все тексты повторно прочитаны; T3 заново выполнен с CMake и закреплённым GoogleTest в C++17/C++20. Сильные тексты сохранены, прежние LINKS-уточнения включены в итоговый пакет без переписывания.",
         "progress_file": "PROGRESS.md",
         "semantic_links_review": "completed_in_github",
         "links_refinement_manifest": "../theory-links-2026-11-23/manifest.json",
-        "publication_note": "Этот статус относится к сохранённому опубликованному базовому пакету; адресные поправки LINKS пока не опубликованы."
+        "publication_note": "Статус published относится к прежнему базовому пакету и сохранённым receipts. Текущая накопительная редакция 55 шагов подготовлена только в GitHub; Stepik в новом проходе не читался и не менялся.",
+        "content_status": "completed_and_independently_rechecked",
+        "independent_review_file": "../theory-final-review-2026-11-23/review_completion.json",
+        "current_prepared_manifest": "../theory-final-review-2026-11-23/manifest.json",
+        "current_runtime_summary": "../theory-final-review-2026-11-23/runtime_summary.json"
       }
     },
     {
@@ -174,7 +190,11 @@
         "progress_file": "PROGRESS.md",
         "semantic_links_review": "completed_in_github",
         "links_refinement_manifest": "../theory-links-2026-11-23/manifest.json",
-        "publication_note": "Этот статус относится к сохранённому опубликованному базовому пакету; адресные поправки LINKS пока не опубликованы."
+        "publication_note": "Статус published относится к прежнему базовому пакету и сохранённым receipts. Текущая накопительная редакция 55 шагов подготовлена только в GitHub; Stepik в новом проходе не читался и не менялся.",
+        "content_status": "completed_and_independently_rechecked",
+        "independent_review_file": "../theory-final-review-2026-11-23/review_completion.json",
+        "current_prepared_manifest": "../theory-final-review-2026-11-23/manifest.json",
+        "current_runtime_summary": "../theory-final-review-2026-11-23/runtime_summary.json"
       }
     },
     {
@@ -207,7 +227,11 @@
         "progress_file": "PROGRESS.md",
         "semantic_links_review": "completed_in_github",
         "links_refinement_manifest": "../theory-links-2026-11-23/manifest.json",
-        "publication_note": "Этот статус относится к сохранённому опубликованному базовому пакету; адресные поправки LINKS пока не опубликованы."
+        "publication_note": "Статус published относится к прежнему базовому пакету и сохранённым receipts. Текущая накопительная редакция 55 шагов подготовлена только в GitHub; Stepik в новом проходе не читался и не менялся.",
+        "content_status": "completed_and_independently_rechecked",
+        "independent_review_file": "../theory-final-review-2026-11-23/review_completion.json",
+        "current_prepared_manifest": "../theory-final-review-2026-11-23/manifest.json",
+        "current_runtime_summary": "../theory-final-review-2026-11-23/runtime_summary.json"
       }
     },
     {
@@ -235,11 +259,15 @@
           "min": 0,
           "max": 0
         },
-        "evidence_note": "27 текстов опубликованы по сохранённому receipt; исторический повтор сохранён. В LINKS уточнены пять текстов о структурах; новые договоры проверены адресно C++17/20, весь старый T6 повторно не запускался.",
+        "evidence_note": "27 базовых текстов опубликованы по сохранённому receipt. T6 заново выполнен в C++17/C++20. В повторной вычитке адресно исправлены два доказательства RB, добавлены авторские трассировки текущей реализации; исходные листинги не изменены.",
         "progress_file": "PROGRESS.md",
         "semantic_links_review": "completed_in_github",
         "links_refinement_manifest": "../theory-links-2026-11-23/manifest.json",
-        "publication_note": "Этот статус относится к сохранённому опубликованному базовому пакету; адресные поправки LINKS пока не опубликованы."
+        "publication_note": "Статус published относится к прежнему базовому пакету и сохранённым receipts. Текущая накопительная редакция 55 шагов подготовлена только в GitHub; Stepik в новом проходе не читался и не менялся.",
+        "content_status": "completed_and_independently_rechecked",
+        "independent_review_file": "../theory-final-review-2026-11-23/review_completion.json",
+        "current_prepared_manifest": "../theory-final-review-2026-11-23/manifest.json",
+        "current_runtime_summary": "../theory-final-review-2026-11-23/runtime_summary.json"
       }
     },
     {
@@ -259,9 +287,9 @@
           "min": 0,
           "max": 0
         },
-        "evidence_note": "Все37 исходных quality/functions ID подтверждены текущим смысловым чтением;12+25 адаптаций сделаны ранее. Новых адаптаций в этой сессии0;9 из37 получили только адресные LINKS-уточнения.",
+        "evidence_note": "Все 37 исходных quality/functions ID повторно приняты во втором полном чтении. Их эффективные тексты совпадают с прежним принятием; 12+25 адаптаций выполнены ранее, новых адаптаций сейчас 0.",
         "progress_file": "PROGRESS.md",
-        "review_file": "../theory-links-2026-11-23/review_scope.json"
+        "review_file": "../theory-final-review-2026-11-23/review_completion.json"
       }
     },
     {
@@ -301,10 +329,58 @@
           "min": 0,
           "max": 0
         },
-        "evidence_note": "Содержательно прочитаны283 text-шага модулей1–19; принято шесть сквозных цепей.50 шагов/31 урок/15 модулей исправлены и независимо перечитаны.323 внутренних вхождения ссылок разрешены. Полная перепроверка всех программ не заявляется.",
+        "evidence_note": "Прежние шесть сквозных цепей и все 283 текста приняты после второго полного чтения. Из прежних 50 подготовленных LINKS-шагов 49 перенесены побайтно, 3570333 уточнён дополнительно. Текущий единый пакет содержит 55 шагов; старый LINKS отдельно повторно не публикуется.",
         "progress_file": "PROGRESS.md",
-        "review_file": "../theory-links-2026-11-23/review_links.json",
-        "validation_file": "../theory-links-2026-11-23/validation/integrity.json"
+        "review_file": "../theory-final-review-2026-11-23/review_completion.json",
+        "validation_file": "../theory-final-review-2026-11-23/validation/integrity.json",
+        "current_manifest": "../theory-final-review-2026-11-23/manifest.json"
+      }
+    },
+    {
+      "id": "VERIFY",
+      "title": "Повторная независимая вычитка и полный текущий запуск авторских наборов",
+      "modules": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "kind": "independent_editorial_and_example_verification",
+      "deliverable": "Повторное чтение всех 283 text-шагов, встречное принятие новых исправлений, полный инвентарь pre и привязка положительных полных программ к свежим проверкам.",
+      "acceptance": [
+        "96/96/91 текст полностью прочитан тремя отдельными агентами; SHA исходников и результата сохранены.",
+        "Все шесть новых редакций приняты другим агентом; нерешённых выявленных дефектов нет.",
+        "Все 340 pre классифицированы; 148 положительных самостоятельных листингов и одна составная программа имеют текущие проверки в заявленном языке.",
+        "Все 11 прежних и 3 новых набора прошли заново; исторические validation.json сохранены.",
+        "Изменяется только block.text; новые задания, видео и изменения Stepik отсутствуют."
+      ],
+      "execution": {
+        "status": "completed_and_independently_verified",
+        "remaining_human_editor_hours": {
+          "min": 0,
+          "max": 0
+        },
+        "evidence_note": "6 новых текстовых редакций в модулях 4, 5, 17; 7 закрытых пробелов запуска полных программ. 14 наборов, 356 прямых успешных компиляций, 1890 учтённых запусков, 50 ожидаемых compile-fail, 2 link-fail, 9 CMake-конфигураций. Это действия проверки, не число уникальных программ.",
+        "progress_file": "PROGRESS.md",
+        "manifest": "../theory-final-review-2026-11-23/manifest.json",
+        "review_file": "../theory-final-review-2026-11-23/review_completion.json",
+        "runtime_summary": "../theory-final-review-2026-11-23/runtime_summary.json",
+        "code_coverage": "../theory-final-review-2026-11-23/code_coverage.json"
       }
     },
     {
@@ -339,17 +415,19 @@
       "deliverable": "Перед переносом сверить исходные версии; публиковать только согласованную теорию, проверить HTML/код/формулы и перечитать блоки. Затем обновить снимок и статусы. Девять прежних оценочных/code изменений сюда не входят.",
       "double_count_note": "Проверка текста на платформе считается здесь, редактура и локальная компиляция объясняющих примеров — в T1–T6. Оценка использует уже существующую инфраструктуру пакетов и синхронизации.",
       "execution": {
-        "status": "pending_links_publication_blocked_by_owner_instruction",
+        "status": "pending_cumulative_publication_blocked_by_owner_instruction",
         "remaining_human_editor_hours": {
           "min": 1,
           "max": 3
         },
-        "evidence_note": "Исторические88 и191 шаг опубликованы и сверены по repository receipts. Новый пакет50 text-шагов подготовлен, publication=not_published,applied=false. Stepik в текущей сессии не читался и не менялся.",
+        "evidence_note": "Исторические 88 и 191 редакция опубликованы по repository receipts. Новый cumulative пакет 55 text-шагов подготовлен, publication=not_published, applied=false; он заменяет отдельное применение прежних 50 LINKS. Stepik в текущем проходе не читался и не менялся.",
         "progress_file": "PROGRESS.md",
         "verification_receipt": "courses/86957/publication-verification-theory-continuation-2026-11-23.json",
         "blocker": "Прямое указание владельца работать только с GitHub. Это ограничение объёма текущей сессии, не установленная техническая недоступность API.",
-        "next_action_if_authorized": "Сверить50 исходных версий/размещение; при отсутствии дрейфа перенести только block.text, перечитать и сравнить; проверить отображение; затем обновить снимок, статусы и дерево в согласованном коммите.",
-        "historical_publication_status": "verified_in_saved_receipts_not_rechecked_live"
+        "next_action_if_authorized": "Только после изменения ограничения владельцем: свежая сверка 55 live-текстов и размещения с baseline, перенос block.text, обратное чтение и визуальная проверка, затем обновление снимка/статусов/дерева и отдельное сохранение.",
+        "historical_publication_status": "verified_in_saved_receipts_not_rechecked_live",
+        "manifest": "../theory-final-review-2026-11-23/manifest.json",
+        "next_action": "Только после изменения ограничения владельцем: свежая сверка 55 live-текстов и размещения с baseline, перенос block.text, обратное чтение и визуальная проверка, затем обновление снимка/статусов/дерева и отдельное сохранение."
       }
     }
   ],
@@ -403,7 +481,7 @@
     "LINKS",
     "PUB"
   ],
-  "execution_base_commit": "352c2796717a55f4f0db8395b7d6093d8d67c35e",
-  "current_manifest": "../theory-links-2026-11-23/manifest.json",
+  "execution_base_commit": "26bbfeb5065ef3475f9ea612a3a8785f934b7c49",
+  "current_manifest": "../theory-final-review-2026-11-23/manifest.json",
   "current_authorization": "Только GitHub. Прямые изменения Stepik запрещены владельцем в текущем запросе; оставшийся PUB сейчас не выполняется."
 }

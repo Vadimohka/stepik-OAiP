@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "reviewer": "verify_advanced",
+  "reviewed_at": "2026-11-23T15:01:08.507312+00:00",
+  "base_commit": "26bbfeb5065ef3475f9ea612a3a8785f934b7c49",
+  "scope": "Независимая итоговая рецензия границ накопительного пакета, отчётных чисел, активного плана и кода общего gate. Это интеграционное принятие поверх трёх полных предметных рецензий и встречных проверок шести правок; оно не выдаётся за ещё одно полное чтение всех 283 текстов одним агентом.",
+  "reviewed_changed_step_ids": [
+    3177282,
+    3177291,
+    3177292,
+    3177298,
+    3570304,
+    3570333
+  ],
+  "target_inputs": [
+    {
+      "step_id": 3177282,
+      "path": "improvements/86957/theory-final-review-2026-11-23/steps/763630/04_3177282_text.step",
+      "file_sha256": "8b23b0cd3907a58d23e3eb9e86842f86d9d50faa60f104e19034473fff57b579",
+      "text_sha256": "59802b744b02d269268e0ade8b025a9e62947795fb7c06fa4aae8fdefbfbe300"
+    },
+    {
+      "step_id": 3177291,
+      "path": "improvements/86957/theory-final-review-2026-11-23/steps/763639/01_3177291_text.step",
+      "file_sha256": "074e7fa853f9c8434c57ed9b36dd0d1995768775167a4596988ecc44b76cfbd3",
+      "text_sha256": "c52f4851ba5e793cb5444023ed738a570ccf042438fb1a9409ead92a6a893f63"
+    },
+    {
+      "step_id": 3177292,
+      "path": "improvements/86957/theory-final-review-2026-11-23/steps/763640/01_3177292_text.step",
+      "file_sha256": "1e3ea1e61047097c2b68f0d5a9889a7a63b3c4d0ff7a3b1931d1692d3ceb6e2f",
+      "text_sha256": "50640a2905b6d7ec922c1c106876f0a1bc0e34b7885be79aafa9cb0d796cee75"
+    },
+    {
+      "step_id": 3177298,
+      "path": "improvements/86957/theory-final-review-2026-11-23/steps/763646/02_3177298_text.step",
+      "file_sha256": "de36b7355887dd18f6dae0d4073d3b81dad8a15c3bba97afe091eaef1b34961a",
+      "text_sha256": "c84792025d5d59850a94993b676f0d558e6cc1f78ccee95c53f5c823e8c40ea6"
+    },
+    {
+      "step_id": 3570304,
+      "path": "improvements/86957/theory-final-review-2026-11-23/steps/853541/03_3570304_text.step",
+      "file_sha256": "b4d28058e8508e0db1e4fbf96026fc00f935e58c4fc8e9f5f04d5e29d2d2ffca",
+      "text_sha256": "689d8656ecad45d010af543eb4ce85e3e575a37a398471b6b430ccc345358a66"
+    },
+    {
+      "step_id": 3570333,
+      "path": "improvements/86957/theory-final-review-2026-11-23/steps/853541/04_3570333_text.step",
+      "file_sha256": "2ac65e5fe9fabf8eef40fb907ac70da8dc16376b58de677e52f785a11c3e78fb",
+      "text_sha256": "47f96e029ca6ede23c2d33c5ffb82cf7096fc416aa28afa902385ad005df74e7"
+    }
+  ],
+  "checks": [
+    {
+      "name": "cumulative_membership_and_nonduplication",
+      "status": "passed",
+      "details": "55 = 49 побайтно сохранённых LINKS + 6 новых редакций; пересечение старых50 с новыми6 только3570333. Прежний LINKS сохранён, новый пакет заменяет его отдельное будущее применение.",
+      "counts": {
+        "cumulative_steps": 55,
+        "cumulative_lessons": 32,
+        "cumulative_modules": 15,
+        "carried_byte_identical": 49,
+        "new_corrections": 6,
+        "new_lessons": 5,
+        "new_modules": [
+          4,
+          5,
+          17
+        ]
+      }
+    },
+    {
+      "name": "published_and_prepared_union",
+      "status": "passed",
+      "details": "88 и191 пересекаются по7 ID, дают272; объединение с итоговыми55 даёт277. Все283 текста перечислены в принятии; 277 не названо процентом готовности."
+    },
+    {
+      "name": "scope_and_allowed_fields",
+      "status": "passed",
+      "details": "Независимо подтверждены24 неизменных raw pre в6 новых редакциях и изменение только block.text. Старый снимок, опубликованные пакеты и прежний LINKS не имеют diff относительно базы. Новых упражнений/видео/оценочных изменений в новых редакциях нет."
+    },
+    {
+      "name": "full_reading_and_independent_acceptance",
+      "status": "passed",
+      "details": "Поимённые рецензии охватывают96/96/91 текст без пересечения. Новые6 редакций имеют независимые target SHA; review_completion фиксирует283 финальных входа. Это проверка доказательной цепочки, не автоматический вывод качества из количества."
+    },
+    {
+      "name": "scope_and_links_backlog_retention",
+      "status": "passed",
+      "details": "Все37 прежних SCOPE-ID повторно приняты без новых адаптаций; шесть сквозных цепей и известные замечания к graded сохранены. T1–T6/SCOPE/LINKS/VERIFY завершены только в подготовленной редакции. PUB остаётся отдельной заблокированной работой."
+    },
+    {
+      "name": "current_runtime_aggregate",
+      "status": "passed",
+      "details": "Суммирование14 наборов независимо повторено:356 успешных прямых действий компиляции,1890 учтённых запусков,50 ожидаемых compile-fail,2 link-fail,9 CMake configure и15 Python-проверок. Пересекающиеся программы, внутренние assert и CTest не выдаются за уникальные программы или новые процессы.",
+      "language_split": {
+        "cpp17_cpp20": 344,
+        "c11_c17": 12
+      },
+      "c_count_basis": "Четыре сборки двух C-программ + шесть allocator-failure оболочек + две C-проверки массива без терминатора."
+    },
+    {
+      "name": "complete_listing_evidence",
+      "status": "passed",
+      "details": "Прочитан verify_code_coverage.py целиком и выполнен --check. Все340 pre учтены с исходной базой индексов каждого инвентаря.148 положительных полных листингов + одна составная TeachingShared,11 многофайловых компонентов и заголовок RB имеют раздельную классификацию. Для2 C-листингов подтверждены C11/C17, для остальных полных примеров C++17/20. Агрегированные логи T1/T3 подкреплены закреплёнными правилами извлечения/сборки; индивидуальные логи не выдуманы."
+    },
+    {
+      "name": "gate_implementation_review",
+      "status": "passed",
+      "details": "Прочитан tools/verify_theory_final.py целиком и перечитаны итоговые дополнения. Проверяются закреплённые источники, допустимые пути/поля, старые пакеты, исходные/финальные SHA рецензий, встречное принятие, SCOPE, внутренние ссылки, свежие runtime-входы и воспроизводимый coverage. Входные SHA настоящей рецензии теперь обязательны."
+    },
+    {
+      "name": "build_tree_patch_checks",
+      "status": "passed",
+      "commands": [
+        {
+          "command": "python3 tools/build_theory_upgrade.py --check",
+          "exit_code": 0,
+          "observed": "88/191/50/55 steps; four packages checked; written=0"
+        },
+        {
+          "command": "python3 tools/render_course_tree.py --check",
+          "exit_code": 0
+        },
+        {
+          "command": "git diff --check",
+          "exit_code": 0
+        },
+        {
+          "command": "python3 improvements/86957/theory-final-review-2026-11-23/verify_code_coverage.py --check",
+          "exit_code": 0,
+          "observed": "340 pre;148 full +1 assembled;7 previously uncovered listings bound"
+        }
+      ]
+    },
+    {
+      "name": "quality_hours_and_publication_claims",
+      "status": "passed",
+      "details": "Веса30/25/20/15/10 дают8,83; диапазон8,5–9 указан как экспертная оценка подготовленной теории. Остаток0 относится к разрешённой содержательной части;1–3 часа оставлены PUB при отсутствии дрейфа и после изменения ограничения владельца. GitHub preparation и Stepik publication различены; README/PROGRESS до checkpoint не заявляют успешную загрузку, которой ещё нет."
+    },
+    {
+      "name": "final_gate_function_execution",
+      "status": "passed",
+      "execution": "verify_theory_final.verify() called directly after saving acceptance; no integrity.json write",
+      "observed": {
+        "reviewed_theory_text_steps": 283,
+        "new_corrections": 6,
+        "carried_forward": 49,
+        "cumulative_pending_text_steps": 55,
+        "preserved_pre_in_six_corrected_texts": 24,
+        "checked_internal_link_occurrences": 323
+      }
+    }
+  ],
+  "findings": [
+    {
+      "id": "INTEGRATION-PUB-STALE-COUNT",
+      "severity": "medium",
+      "location": "backlog.json packages[PUB].execution.next_action_if_authorized",
+      "finding": "Активное поле сохраняло50 исходников, тогда как новый пакет содержит55.",
+      "resolution": "Автор исправил поле; оно теперь совпадает с next_action про55. Исправление независимо перечитано; gate проверяет согласованность двух полей.",
+      "status": "resolved"
+    },
+    {
+      "id": "INTEGRATION-STALE-REVIEW-GATE",
+      "severity": "medium",
+      "location": "tools/verify_theory_final.py integration acceptance",
+      "finding": "Первый вариант проверял status интеграционной рецензии, но не её входные SHA; будущий дрейф принятых материалов мог не сделать рецензию недействительной.",
+      "resolution": "Автор добавил require_hashes(integration[\"input_sha256\"]); итоговый код независимо перечитан. Входы этой рецензии закреплены ниже, исключая изменяемые checkpoint-документы и integrity.",
+      "status": "resolved"
+    }
+  ],
+  "unresolved_defects": [],
+  "input_sha256": {
+    "improvements/86957/theory-2026-11-23/manifest.json": "97e2ba2e5219186e67176e61d782a26a6050c6f2ec9092d21196ac5b27c69478",
+    "improvements/86957/theory-continuation-2026-11-23/manifest.json": "a9fb56a13d3056532427cab1f769d0e3daa7cddb0b2120a88e7df884d8d01427",
+    "improvements/86957/theory-final-review-2026-11-23/code_coverage.json": "4340993a80518d13a18e745af2b1a5d6d032a3a555a0231c34aa4c078e0e22e3",
+    "improvements/86957/theory-final-review-2026-11-23/manifest.json": "0c45c2924ef7441090a07ed072e2a9076356a6a6ca874336d95c8cda25746306",
+    "improvements/86957/theory-final-review-2026-11-23/quality_assessment.json": "3221ed598c0ec16a55781122fa7bfc8b3964eedd0d66c9c1dc9635ddc5219ba7",
+    "improvements/86957/theory-final-review-2026-11-23/review_advanced.json": "2faa31ebb3fd4bead3018620ab8fe1e6eca2cef5f2a4547098e9c740c69cf37f",
+    "improvements/86957/theory-final-review-2026-11-23/review_advanced_independent.json": "15c16ca61198b0ba2d9d34839035452abf486280689d12efd3b52765f6da5ce8",
+    "improvements/86957/theory-final-review-2026-11-23/review_completion.json": "b259e1f9a0b638c6dae6ae4f01ef43edc8e74d057044dd83f00c11cb8f6db365",
+    "improvements/86957/theory-final-review-2026-11-23/review_core.json": "4b1b77199e51e803ccdb9ad1d97af8f9f49da4a5394befc874bd3a30c7895409",
+    "improvements/86957/theory-final-review-2026-11-23/review_core_independent.json": "bf2dea3a85b12878314ff31c05741e4210996ea1192e72c1d77155a5ab187fb0",
+    "improvements/86957/theory-final-review-2026-11-23/review_foundations.json": "fe3e0ff556d98e293bd53ad499a353e96f2c78634e7a50dfbce1b3c1b11a0485",
+    "improvements/86957/theory-final-review-2026-11-23/review_foundations_independent.json": "b2fbe440ad20f36fa54da087dfd04ca674d34e5daacc705029358f31700b26d5",
+    "improvements/86957/theory-final-review-2026-11-23/review_inputs.json": "53d72e8a181cf26ff99fd906b12a9808c329bf6323578b1b5182869172ebb2e2",
+    "improvements/86957/theory-final-review-2026-11-23/runtime_summary.json": "151fd096799e1390cb1b1e5fd6f2584b88268ea2f20618ac7275e99b70eb4494",
+    "improvements/86957/theory-final-review-2026-11-23/steps/763630/04_3177282_text.step": "8b23b0cd3907a58d23e3eb9e86842f86d9d50faa60f104e19034473fff57b579",
+    "improvements/86957/theory-final-review-2026-11-23/steps/763639/01_3177291_text.step": "074e7fa853f9c8434c57ed9b36dd0d1995768775167a4596988ecc44b76cfbd3",
+    "improvements/86957/theory-final-review-2026-11-23/steps/763640/01_3177292_text.step": "1e3ea1e61047097c2b68f0d5a9889a7a63b3c4d0ff7a3b1931d1692d3ceb6e2f",
+    "improvements/86957/theory-final-review-2026-11-23/steps/763646/02_3177298_text.step": "de36b7355887dd18f6dae0d4073d3b81dad8a15c3bba97afe091eaef1b34961a",
+    "improvements/86957/theory-final-review-2026-11-23/steps/853541/03_3570304_text.step": "b4d28058e8508e0db1e4fbf96026fc00f935e58c4fc8e9f5f04d5e29d2d2ffca",
+    "improvements/86957/theory-final-review-2026-11-23/steps/853541/04_3570333_text.step": "2ac65e5fe9fabf8eef40fb907ac70da8dc16376b58de677e52f785a11c3e78fb",
+    "improvements/86957/theory-final-review-2026-11-23/validation/new_advanced.json": "ec98c24c55283efb930e4425683141a4c4339d89012eb84f7e9efddd6d48305f",
+    "improvements/86957/theory-final-review-2026-11-23/validation/new_core.json": "24bcc69d5fceb5e17eab05c077890795b56705285dad2f7a09a9b693ec4ffae5",
+    "improvements/86957/theory-final-review-2026-11-23/validation/new_foundations.json": "8938e5b3de0ccde309143a0488deeeb1796d2c1cdc5831aa6be25151bc811e90",
+    "improvements/86957/theory-final-review-2026-11-23/validation/recheck/links_algorithms.json": "441de61106f91b048fe70304860a9f41e42398ced1030ca75452b091e675a06c",
+    "improvements/86957/theory-final-review-2026-11-23/validation/recheck/links_algorithms_execution.json": "a8cba96e26723543e867080eef73206f2a10bf668d5819f3aaeab1711a042d0e",
+    "improvements/86957/theory-final-review-2026-11-23/validation/recheck/links_ownership.json": "824e0354941f0087c682666231f128aa5b6a7da0a7458624554ac49f8601cfdb",
+    "improvements/86957/theory-final-review-2026-11-23/validation/recheck/links_ownership_execution.json": "bca2ef96f23e3b137020d727d8005999cc57e0cd6c768a7c037dbc267a84b45b",
+    "improvements/86957/theory-final-review-2026-11-23/validation/recheck/links_types.json": "f576a9284720f3cc04c53ee74dd0a078eba3502db5ce734174cc0e029bcb465d",
+    "improvements/86957/theory-final-review-2026-11-23/validation/recheck/links_types_execution.json": "b4af91589128244c99d967a3733ee2b46cb38deb1d107df3969eba02b31b076b",
+    "improvements/86957/theory-final-review-2026-11-23/validation/recheck/summary.json": "2c75f4de98e5ca177cf8a9e1e33480be4a34f79e508be2e2e2bba6f662a1f057",
+    "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t1.json": "033fa36966ca7908f21ffce3de8da90186d00c240d68190cf950f99ca875a0dc",
+    "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t1_execution.json": "e67d980ca61174ddcd10b2ddeec34177ecf966f2c74250b42541657b5c692ed4",
+    "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t1b.json": "485dae2c47cf4fc462506f725a18458b58704f10569a22d2c17853355dcf3e74",
+    "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t1b_execution.json": "562c07d2023cde06c5ec665950bef2725349a9e453926ace57289dad8537e6a2",
+    "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t2.json": "2101f5a35287a87ad690eee0f13affa83b240e2fb64a2c997c90788053b4a4c0",
+    "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t2_execution.json": "12465254fe230286531ac104e10054599209247a81f2ee2cc6b62c28156b7ebf",
+    "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t3.json": "589a4bc578a86f73b94aa9d2877ae8182b7b20670eca1180e81bdd56a958196b",
+    "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t3_execution.json": "42288a46f473b84ac3b01f4ec7de6fd8017e6639e8f272b9cecf7f9414b7ae23",
+    "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t4.json": "0fc22f68be5043a4341f367a042e2f29b518435598332d356e0c4411c3c08f5f",
+    "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t4_execution.json": "6f19ea53c6d68736a429f29222e619f042e9fd909f4c7a718d9eee0d2b3c3c30",
+    "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t5.json": "a30f0c23ba48d98b808e849faa8969f03b134d33cbe9533a5838d506d00f179a",
+    "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t5_execution.json": "cdfd12b730a65d0d2025786ec996722a3a8b769035c12411081e1e63fe7c0859",
+    "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t5b.json": "78f2e428cfe32a62dc177f2cdde9e942bf975a4b4bc8bb7b82dea68fc4b14e97",
+    "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t5b_execution.json": "18be4885ac3ee3a9f00ad8f6c1a5cb87a16d65e8acfeca5d13ecdbfa0ddc2db6",
+    "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t6.json": "1a25711de0084d0c358773d0f220e47a4e3e4478c1e446f5c225dad776d94ccf",
+    "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t6_execution.json": "4dbd8770bc4c3552022973bac1569c2db0bdbc0b73a638ae28b2ed114bf9b01c",
+    "improvements/86957/theory-final-review-2026-11-23/verify_code_coverage.py": "3ddc705c0e0cb14767f74942fb201941172449edca257173db1e679bf9955fbd",
+    "improvements/86957/theory-links-2026-11-23/manifest.json": "f0374ad4445eb80c3735d16ca2aa229355d2622a32a02f9314be9ea8b993fe61",
+    "tools/build_theory_upgrade.py": "d14f3558e12f87a622367e6311d007166054d9918d2ed21daa59239e14c867c6",
+    "tools/render_course_tree.py": "4960f1019608e92fd3356110822c09ba277133efeb65261d1d08b821ac2c1998",
+    "tools/verify_theory_final.py": "0c68dbac1d0c81eab63c59758d3d2c71cb3fc30e715702e1cc2cb8bdff94481a"
+  },
+  "unhashed_checkpoint_documents_read": [
+    "improvements/86957/theory-final-review-2026-11-23/README.md",
+    "improvements/86957/theory-review-2026-11-23/README.md",
+    "improvements/86957/theory-review-2026-11-23/PROGRESS.md",
+    "improvements/86957/theory-review-2026-11-23/backlog.json",
+    "improvements/86957/theory-review-2026-11-23/scope.json",
+    "improvements/86957/theory-review-2026-11-23/module_review.json"
+  ],
+  "limits": [
+    "Рецензент не повторял компиляции и не заявляет независимый запуск1890 процессов: заново проверены их сохранённые свидетельства и правила суммирования.",
+    "Здесь принят состав и доказательная цепочка148+1 положительных программ;54 не привязанных к индивидуальному запуску фрагмента и другие команды/данные не объявляются исполненными.",
+    "Не проверялись новое отображение HTML на Stepik, текущий live-контент, Windows/MSVC, macOS, все grader-контракты и все мыслимые состояния программ.",
+    "Интеграционное принятие не означает загрузку на GitHub. Сохранение main/ref и поздняя checkpoint-запись подтверждаются отдельным протоколом после загрузки.",
+    "README/PROGRESS и активные документы прочитаны, но их SHA намеренно не закреплены здесь: будущая запись подтверждённого commit SHA не должна создавать циклическую пересборку рецензии."
+  ]
+}

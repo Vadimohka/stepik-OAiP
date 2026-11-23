@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "status": "passed_with_exact_historical_source_exception",
+  "base_commit": "26bbfeb5065ef3475f9ea612a3a8785f934b7c49",
+  "approved_files": 5,
+  "approved_lines": 9,
+  "source_copies_equal_pinned_decoded_pre": true,
+  "all_other_whitespace_findings": [],
+  "git_configuration_modified": false,
+  "checks": [
+    {
+      "command": [
+        "git",
+        "diff",
+        "--no-color",
+        "--no-ext-diff",
+        "--check",
+        "26bbfeb5065ef3475f9ea612a3a8785f934b7c49",
+        "--"
+      ],
+      "raw_exit_code": 2,
+      "diagnostics_match_exact_approved_list": true,
+      "diagnostics_sha256": "7d971b786b45ce2e8078a39ea133d2c3af52d3d3a3ce4203e61eb82baf0a1349"
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--no-color",
+        "--no-ext-diff",
+        "--cached",
+        "--check",
+        "26bbfeb5065ef3475f9ea612a3a8785f934b7c49",
+        "--"
+      ],
+      "raw_exit_code": 2,
+      "diagnostics_match_exact_approved_list": true,
+      "diagnostics_sha256": "7d971b786b45ce2e8078a39ea133d2c3af52d3d3a3ce4203e61eb82baf0a1349"
+    }
+  ],
+  "input_sha256": {
+    "improvements/86957/theory-final-review-2026-11-23/whitespace_exceptions.json": "c5f6f8122f72abc942b7fabf77ff3e4c0aae261fc97f1ebac3a69c879210a76c",
+    "improvements/86957/theory-final-review-2026-11-23/verify_preserved_whitespace.py": "b9c2cfc862526c957d26c9909ddbe2651a682fc4ea614e99e2ce53ea067838e5",
+    "improvements/86957/theory-final-review-2026-11-23/examples/core/const_pointer.cpp": "aa3e20166508ce414a31a8cfa299cd128828a37b0ff8beff4046231bb3f46038",
+    "improvements/86957/theory-final-review-2026-11-23/examples/core/const_view.cpp": "40926906ecc88c69774c6b121c5387326024d061f47a30b6e434d2fc75b1afd0",
+    "improvements/86957/theory-final-review-2026-11-23/examples/core/pointer_to_const.cpp": "9eead12f5f60e35756bbdf29b49e70f85848d677dac6603a67af8a9b36824dba",
+    "improvements/86957/theory-final-review-2026-11-23/examples/foundations/narrow_casts.cpp": "396a89abde87f263953e803d5fd67cd8058d3538c6ea0e72afa3944c86a1ab09",
+    "improvements/86957/theory-final-review-2026-11-23/examples/foundations/wide_characters.cpp": "ed1d70c097e9b62804524d4c93515a925bce8a683f397927825b377f438c4627"
+  },
+  "limits": [
+    "This is a format-only exception for five immutable, exact code copies; no compiler or theory check is waived."
+  ]
+}

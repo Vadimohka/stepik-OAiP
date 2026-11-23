@@ -1,0 +1,20 @@
+{
+  "name": "t3",
+  "started_at": "2026-11-23T14:39:26.268629+00:00",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "/workspace/scratch/b48445057238/verification-legacy/improvements/86957/theory-2026-11-23/examples/t3/verify.py"
+  ],
+  "verifier_path": "improvements/86957/theory-2026-11-23/examples/t3/verify.py",
+  "verifier_sha256": "afbb75431af4d674acb4a62caf3e64cc40d30fe5b86f4866a07739154bbf057a",
+  "source_package": "improvements/86957/theory-2026-11-23",
+  "output_report": "/workspace/scratch/b48445057238/stepik-OAiP/improvements/86957/theory-final-review-2026-11-23/validation/recheck/t3.json",
+  "exit_code": 0,
+  "stdout": "{\"status\": \"passed\", \"counts\": {\"text_steps\": 29, \"direct_compilations\": 38, \"runtime_cases\": 342, \"cmake_configurations\": 7}, \"limitations\": [\"Windows/MSVC and macOS binaries were not executed.\"]}\n",
+  "stderr": "",
+  "reported_status": "passed",
+  "report_sha256": "589a4bc578a86f73b94aa9d2877ae8182b7b20670eca1180e81bdd56a958196b",
+  "status": "passed",
+  "google_test_standards_verified": 2,
+  "finished_at": "2026-11-23T14:40:25.262964+00:00"
+}

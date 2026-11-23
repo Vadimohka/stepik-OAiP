@@ -1,0 +1,1360 @@
+{
+  "schema_version": 1,
+  "base_commit": "26bbfeb5065ef3475f9ea612a3a8785f934b7c49",
+  "review_input_path": "improvements/86957/theory-final-review-2026-11-23/review_inputs.json",
+  "review_input_sha256": "53d72e8a181cf26ff99fd906b12a9808c329bf6323578b1b5182869172ebb2e2",
+  "scope": "Every pre block in all 96 effective texts of modules 1–4; pre_index is zero-based.",
+  "counts": {
+    "reviewed_text_steps": 96,
+    "pre_blocks": 66,
+    "build_configuration": 1,
+    "expected_failure": 3,
+    "fragment": 15,
+    "full_program": 25,
+    "mathematical_notation": 2,
+    "output": 6,
+    "pseudocode": 4,
+    "shell_commands": 9,
+    "syntax_template": 1,
+    "standalone_positive_programs": 25,
+    "full_sources_with_expected_failure": 2,
+    "fragments_with_expected_failure": 1,
+    "newly_closed_full_program_coverage_gaps": 3
+  },
+  "coverage": "All 25 positive full listings map to current successful C++17/C++20 runs. Three separate expected failures are not counted as positive programs. Fragments and commands without a mapping are not claimed executed.",
+  "blocks": [
+    {
+      "step_id": 3173935,
+      "module_number": 1,
+      "pre_index": 0,
+      "kind": "pseudocode",
+      "language_attribute": "text",
+      "code_sha256": "ac6467a1531f19af1380472bfb01cbca3ab1b2524b18fcde40465ce79f6f04ee",
+      "effective_path": "courses/86957/steps/763040/03_3173935_text.step",
+      "effective_file_sha256": "e1d1c1457c14ee5a71e0af7aa00f257dfde0569819d642d437a4ca1bd5750b59",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [],
+      "execution_claim": "No individual execution claim: read as a fragment, command, notation, output or configuration."
+    },
+    {
+      "step_id": 3173955,
+      "module_number": 1,
+      "pre_index": 0,
+      "kind": "pseudocode",
+      "language_attribute": "text",
+      "code_sha256": "008f84cf447c51f13b0ac722d9fa10bbdf39c31054857cf585c24282e92f9e81",
+      "effective_path": "courses/86957/steps/763040/04_3173955_text.step",
+      "effective_file_sha256": "cda3ae9759eff492e20c68f7f3e9429c2ac32fc6f5cc8f8e863de557a7a61096",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [],
+      "execution_claim": "No individual execution claim: read as a fragment, command, notation, output or configuration."
+    },
+    {
+      "step_id": 3173970,
+      "module_number": 1,
+      "pre_index": 0,
+      "kind": "pseudocode",
+      "language_attribute": "text",
+      "code_sha256": "8e85dd9e5c92fd3bde25755ce2dd646baa92e0ce6a2795c51f344ba7dccb51f8",
+      "effective_path": "courses/86957/steps/763041/03_3173970_text.step",
+      "effective_file_sha256": "954045e1c9c19b4ee22e488a8a8cf38eb9ef953bd1ebdec21c67a2c737fc4dd1",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [],
+      "execution_claim": "No individual execution claim: read as a fragment, command, notation, output or configuration."
+    },
+    {
+      "step_id": 3201305,
+      "module_number": 1,
+      "pre_index": 0,
+      "kind": "full_program",
+      "language_attribute": "cpp",
+      "code_sha256": "e864ec3a1fb882b8f5d107e01ae9ccce72a7743015e698822bb4e01978d52a96",
+      "effective_path": "courses/86957/steps/768145/04_3201305_text.step",
+      "effective_file_sha256": "6af9df8500e5060d713ea423355e9c168f8489c08f5a769aa63b4da1dea87044",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [
+        {
+          "suite": "t1",
+          "verification_mode": "compile_and_run",
+          "verifier_path": "improvements/86957/theory-2026-11-23/examples/t1/verify.py",
+          "current_report_path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t1.json",
+          "current_report_status": "passed",
+          "current_run_owner": "root",
+          "dynamic_extraction": {
+            "source_step_path": "improvements/86957/theory-2026-11-23/steps/768145/04_3201305_text.step",
+            "step_id": 3201305,
+            "pre_index": 0,
+            "function": "blocks(step_id)",
+            "exact_source_match": true
+          }
+        }
+      ],
+      "program_form": "standalone"
+    },
+    {
+      "step_id": 3173778,
+      "module_number": 2,
+      "pre_index": 0,
+      "kind": "full_program",
+      "language_attribute": "cpp",
+      "code_sha256": "61659d9bbad0f2c6ed91339c60cc41b9728104f6da129b90b803f74792444bcd",
+      "effective_path": "courses/86957/steps/763037/01_3173778_text.step",
+      "effective_file_sha256": "fe7b82728f0d03d89e81551e7e1f88e9bd1147a3301bc8afb7870a223b875d4a",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [
+        {
+          "suite": "t1b",
+          "verification_mode": "compile_and_run",
+          "verifier_path": "improvements/86957/theory-continuation-2026-11-23/examples/t1b/verify.py",
+          "current_report_path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t1b.json",
+          "current_report_status": "passed",
+          "current_run_owner": "root",
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t1b/hello.cpp",
+          "source_sha256": "61659d9bbad0f2c6ed91339c60cc41b9728104f6da129b90b803f74792444bcd",
+          "exact_source_match": true
+        }
+      ],
+      "program_form": "standalone"
+    },
+    {
+      "step_id": 3173778,
+      "module_number": 2,
+      "pre_index": 1,
+      "kind": "output",
+      "language_attribute": "text",
+      "code_sha256": "3abe76deb7486d5fe2761b70d4be5d0c6e1977255f279e622c4fc9d48de9578d",
+      "effective_path": "courses/86957/steps/763037/01_3173778_text.step",
+      "effective_file_sha256": "fe7b82728f0d03d89e81551e7e1f88e9bd1147a3301bc8afb7870a223b875d4a",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [],
+      "execution_claim": "No individual execution claim: read as a fragment, command, notation, output or configuration."
+    },
+    {
+      "step_id": 3173871,
+      "module_number": 2,
+      "pre_index": 0,
+      "kind": "shell_commands",
+      "language_attribute": "bash",
+      "code_sha256": "09773c8e8cb2c3635ad3fe159bcf11a074c604b13b7ef1411dea7ae1ee673577",
+      "effective_path": "courses/86957/steps/763038/04_3173871_text.step",
+      "effective_file_sha256": "9129f11c0e04b588b69ed659bf3a0e466463845a22c5144e3dd80d6e989a5e27",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [],
+      "execution_claim": "No individual execution claim: read as a fragment, command, notation, output or configuration."
+    },
+    {
+      "step_id": 3173871,
+      "module_number": 2,
+      "pre_index": 1,
+      "kind": "output",
+      "language_attribute": "text",
+      "code_sha256": "3abe76deb7486d5fe2761b70d4be5d0c6e1977255f279e622c4fc9d48de9578d",
+      "effective_path": "courses/86957/steps/763038/04_3173871_text.step",
+      "effective_file_sha256": "9129f11c0e04b588b69ed659bf3a0e466463845a22c5144e3dd80d6e989a5e27",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [],
+      "execution_claim": "No individual execution claim: read as a fragment, command, notation, output or configuration."
+    },
+    {
+      "step_id": 3177248,
+      "module_number": 2,
+      "pre_index": 0,
+      "kind": "fragment",
+      "language_attribute": "cpp",
+      "code_sha256": "b610400959b985bd398a443f3c14c227e13d97eca25273e7c4ddb518ed52c200",
+      "effective_path": "courses/86957/steps/763038/05_3177248_text.step",
+      "effective_file_sha256": "e7bbd688479fb024e109f4b9a84451058e216f3eb1f1895a41b2e56d4e010c32",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [
+        {
+          "suite": "t1b",
+          "verification_mode": "compile_and_run_with_explicit_wrapper",
+          "verifier_path": "improvements/86957/theory-continuation-2026-11-23/examples/t1b/verify.py",
+          "dynamic_extraction": {
+            "step_id": 3177248,
+            "pre_index": 0,
+            "wrapper": "include header plus int main"
+          },
+          "current_report_path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t1b.json",
+          "current_report_status": "passed",
+          "current_run_owner": "root"
+        }
+      ]
+    },
+    {
+      "step_id": 3177250,
+      "module_number": 2,
+      "pre_index": 0,
+      "kind": "expected_failure",
+      "language_attribute": "cpp",
+      "code_sha256": "35b420a0258520fb41c9b5344b52cc24059b01584eb3ee89f4a80dae8cbd63d6",
+      "effective_path": "courses/86957/steps/763038/07_3177250_text.step",
+      "effective_file_sha256": "0139b51b086b2c90428f45c0c1448517d9faf0e3865c226a06010582dbd88970",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [
+        {
+          "suite": "t1b",
+          "verification_mode": "compile_object_then_expected_link_failure",
+          "verifier_path": "improvements/86957/theory-continuation-2026-11-23/examples/t1b/verify.py",
+          "current_report_path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t1b.json",
+          "current_report_status": "passed",
+          "current_run_owner": "root",
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t1b/missing_definition.cpp",
+          "source_sha256": "35b420a0258520fb41c9b5344b52cc24059b01584eb3ee89f4a80dae8cbd63d6",
+          "exact_source_match": true
+        }
+      ],
+      "program_form": "intentionally_missing_definition",
+      "expected_outcome": "object_compilation_succeeds_then_link_fails_for_twice"
+    },
+    {
+      "step_id": 3177250,
+      "module_number": 2,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language_attribute": "cpp",
+      "code_sha256": "d091bde6d01dfc9696af623e2ea99fc1e72294819eeabf4b64ba8cdc36ba5baa",
+      "effective_path": "courses/86957/steps/763038/07_3177250_text.step",
+      "effective_file_sha256": "0139b51b086b2c90428f45c0c1448517d9faf0e3865c226a06010582dbd88970",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [
+        {
+          "suite": "t1b",
+          "verification_mode": "compile_and_run",
+          "verifier_path": "improvements/86957/theory-continuation-2026-11-23/examples/t1b/verify.py",
+          "current_report_path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t1b.json",
+          "current_report_status": "passed",
+          "current_run_owner": "root",
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t1b/linked_definition.cpp",
+          "source_sha256": "d091bde6d01dfc9696af623e2ea99fc1e72294819eeabf4b64ba8cdc36ba5baa",
+          "exact_source_match": true
+        }
+      ],
+      "program_form": "standalone"
+    },
+    {
+      "step_id": 3215255,
+      "module_number": 2,
+      "pre_index": 0,
+      "kind": "mathematical_notation",
+      "language_attribute": "text",
+      "code_sha256": "64fc5c1e8e2ee024d83dfed81b6f701b093db48e791514bd46e147f9eef307c6",
+      "effective_path": "courses/86957/steps/771155/01_3215255_text.step",
+      "effective_file_sha256": "6551b1bc627980798d84ad85475bb361750ec8d7e8f936a9dcfb9d8ec0f2113a",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [],
+      "execution_claim": "No individual execution claim: read as a fragment, command, notation, output or configuration."
+    },
+    {
+      "step_id": 3201179,
+      "module_number": 3,
+      "pre_index": 0,
+      "kind": "full_program",
+      "language_attribute": "cpp",
+      "code_sha256": "b0edcd28a92e9a015d81be33c07c986682866a47875ab3a5daac969510f49125",
+      "effective_path": "courses/86957/steps/768143/01_3201179_text.step",
+      "effective_file_sha256": "b2844c6892ac0c5eff54e044a0de2917174510bd936849f7fcb74bab5b75f65b",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [
+        {
+          "suite": "t1",
+          "verification_mode": "compile_and_run",
+          "verifier_path": "improvements/86957/theory-2026-11-23/examples/t1/verify.py",
+          "current_report_path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t1.json",
+          "current_report_status": "passed",
+          "current_run_owner": "root",
+          "dynamic_extraction": {
+            "source_step_path": "improvements/86957/theory-2026-11-23/steps/768143/01_3201179_text.step",
+            "step_id": 3201179,
+            "pre_index": 0,
+            "function": "blocks(step_id)",
+            "exact_source_match": true
+          }
+        }
+      ],
+      "program_form": "standalone"
+    },
+    {
+      "step_id": 3201179,
+      "module_number": 3,
+      "pre_index": 1,
+      "kind": "shell_commands",
+      "language_attribute": "bash",
+      "code_sha256": "ccd89a323a5ffb11a811f0e6509d80145067e76d8bc2dd3553bb90be678c13bd",
+      "effective_path": "courses/86957/steps/768143/01_3201179_text.step",
+      "effective_file_sha256": "b2844c6892ac0c5eff54e044a0de2917174510bd936849f7fcb74bab5b75f65b",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [],
+      "execution_claim": "No individual execution claim: read as a fragment, command, notation, output or configuration."
+    },
+    {
+      "step_id": 3201179,
+      "module_number": 3,
+      "pre_index": 2,
+      "kind": "shell_commands",
+      "language_attribute": "powershell",
+      "code_sha256": "8dfe53783e12e27559a3ea8a1bfe9e50c1e2e9a352926d2ef193280a66e8f18d",
+      "effective_path": "courses/86957/steps/768143/01_3201179_text.step",
+      "effective_file_sha256": "b2844c6892ac0c5eff54e044a0de2917174510bd936849f7fcb74bab5b75f65b",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [],
+      "execution_claim": "No individual execution claim: read as a fragment, command, notation, output or configuration."
+    },
+    {
+      "step_id": 3201179,
+      "module_number": 3,
+      "pre_index": 3,
+      "kind": "output",
+      "language_attribute": "text",
+      "code_sha256": "adbb357dceeae3edb682c07195bd0b02bb4b9a1ce3431fcd526d537534f8c1e8",
+      "effective_path": "courses/86957/steps/768143/01_3201179_text.step",
+      "effective_file_sha256": "b2844c6892ac0c5eff54e044a0de2917174510bd936849f7fcb74bab5b75f65b",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [],
+      "execution_claim": "No individual execution claim: read as a fragment, command, notation, output or configuration."
+    },
+    {
+      "step_id": 3201189,
+      "module_number": 3,
+      "pre_index": 0,
+      "kind": "expected_failure",
+      "language_attribute": "cpp",
+      "code_sha256": "c6ca57a58e684e53a6d891d285a268e27ef4690861faf1f0eea8ae5dd06f3adb",
+      "effective_path": "courses/86957/steps/768143/02_3201189_text.step",
+      "effective_file_sha256": "3e84e0a2b5561ab5f3905de506720502bf6c6383f03eb74c6647db3e30bc0f28",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [
+        {
+          "suite": "t1",
+          "verification_mode": "expected_compile_failure",
+          "verifier_path": "improvements/86957/theory-2026-11-23/examples/t1/verify.py",
+          "current_report_path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t1.json",
+          "current_report_status": "passed",
+          "current_run_owner": "root",
+          "dynamic_extraction": {
+            "source_step_path": "improvements/86957/theory-2026-11-23/steps/768143/02_3201189_text.step",
+            "step_id": 3201189,
+            "pre_index": 0,
+            "function": "blocks(step_id)",
+            "exact_source_match": true
+          }
+        }
+      ],
+      "program_form": "standalone_intentionally_ill_formed",
+      "expected_outcome": "compile_failure_unqualified_cout"
+    },
+    {
+      "step_id": 3215075,
+      "module_number": 3,
+      "pre_index": 0,
+      "kind": "full_program",
+      "language_attribute": "cpp",
+      "code_sha256": "2ed49239ffed634fbc7fdbe53c76da8db8794373b50861616b80b5cec4fbb3f7",
+      "effective_path": "courses/86957/steps/768143/03_3215075_text.step",
+      "effective_file_sha256": "875a76c5893271c0738cf458171dc7cce9c579d29044df5edcc958bd2ca2c0cf",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [
+        {
+          "suite": "t1b",
+          "verification_mode": "compile_and_run",
+          "verifier_path": "improvements/86957/theory-continuation-2026-11-23/examples/t1b/verify.py",
+          "current_report_path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t1b.json",
+          "current_report_status": "passed",
+          "current_run_owner": "root",
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t1b/checked_input.cpp",
+          "source_sha256": "2ed49239ffed634fbc7fdbe53c76da8db8794373b50861616b80b5cec4fbb3f7",
+          "exact_source_match": true
+        }
+      ],
+      "program_form": "standalone"
+    },
+    {
+      "step_id": 3215081,
+      "module_number": 3,
+      "pre_index": 0,
+      "kind": "full_program",
+      "language_attribute": "cpp",
+      "code_sha256": "efe294fc52ee31689845b686a34ccbeec2de1b951e2c26d919a3a3eda81671d5",
+      "effective_path": "courses/86957/steps/768143/04_3215081_text.step",
+      "effective_file_sha256": "4a34f89a46fd744c491512a0246e413898f0029d505df1201f4c6fc25a292f42",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [
+        {
+          "suite": "t1b",
+          "verification_mode": "compile_and_run",
+          "verifier_path": "improvements/86957/theory-continuation-2026-11-23/examples/t1b/verify.py",
+          "current_report_path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t1b.json",
+          "current_report_status": "passed",
+          "current_run_owner": "root",
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t1b/formatting.cpp",
+          "source_sha256": "efe294fc52ee31689845b686a34ccbeec2de1b951e2c26d919a3a3eda81671d5",
+          "exact_source_match": true
+        }
+      ],
+      "program_form": "standalone"
+    },
+    {
+      "step_id": 3215081,
+      "module_number": 3,
+      "pre_index": 1,
+      "kind": "output",
+      "language_attribute": "text",
+      "code_sha256": "987c9badeb1730098a8ce26087190d617bc2ab22c036d19ebe5583435178ab0d",
+      "effective_path": "courses/86957/steps/768143/04_3215081_text.step",
+      "effective_file_sha256": "4a34f89a46fd744c491512a0246e413898f0029d505df1201f4c6fc25a292f42",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [],
+      "execution_claim": "No individual execution claim: read as a fragment, command, notation, output or configuration."
+    },
+    {
+      "step_id": 3215092,
+      "module_number": 3,
+      "pre_index": 0,
+      "kind": "full_program",
+      "language_attribute": "cpp",
+      "code_sha256": "bb74cbebe5dbc53800ff9ce97bedfabc451e9296116063be976fddd10afbe008",
+      "effective_path": "courses/86957/steps/768143/05_3215092_text.step",
+      "effective_file_sha256": "b16e2f15e3c98c606a22077c16b5ba6554bbfe1b53839435959ea8e265b75daa",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [
+        {
+          "suite": "t1b",
+          "verification_mode": "compile_and_run",
+          "verifier_path": "improvements/86957/theory-continuation-2026-11-23/examples/t1b/verify.py",
+          "current_report_path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t1b.json",
+          "current_report_status": "passed",
+          "current_run_owner": "root",
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t1b/printf_example.cpp",
+          "source_sha256": "bb74cbebe5dbc53800ff9ce97bedfabc451e9296116063be976fddd10afbe008",
+          "exact_source_match": true
+        }
+      ],
+      "program_form": "standalone"
+    },
+    {
+      "step_id": 3215092,
+      "module_number": 3,
+      "pre_index": 1,
+      "kind": "fragment",
+      "language_attribute": "cpp",
+      "code_sha256": "7785f2e719b3950f7581290d4196c28807c3c9c746ff1c698c82379eb9678d46",
+      "effective_path": "courses/86957/steps/768143/05_3215092_text.step",
+      "effective_file_sha256": "b16e2f15e3c98c606a22077c16b5ba6554bbfe1b53839435959ea8e265b75daa",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [
+        {
+          "suite": "t1b",
+          "verification_mode": "compile_and_run_with_explicit_wrapper",
+          "verifier_path": "improvements/86957/theory-continuation-2026-11-23/examples/t1b/verify.py",
+          "dynamic_extraction": {
+            "step_id": 3215092,
+            "pre_index": 1,
+            "wrapper": "include header plus int main"
+          },
+          "current_report_path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t1b.json",
+          "current_report_status": "passed",
+          "current_run_owner": "root"
+        }
+      ]
+    },
+    {
+      "step_id": 3201236,
+      "module_number": 3,
+      "pre_index": 0,
+      "kind": "full_program",
+      "language_attribute": "cpp",
+      "code_sha256": "ce210c3053c6dc32f226668d194bd98e9220d48a0d6e584d2d999040092660d4",
+      "effective_path": "courses/86957/steps/768146/02_3201236_text.step",
+      "effective_file_sha256": "e792008fcb680f6c3035638866a1af436b5ac2d49e553dda60df4c8d2b13a30f",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [
+        {
+          "suite": "t1b",
+          "verification_mode": "compile_and_run",
+          "verifier_path": "improvements/86957/theory-continuation-2026-11-23/examples/t1b/verify.py",
+          "current_report_path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t1b.json",
+          "current_report_status": "passed",
+          "current_run_owner": "root",
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t1b/namespaces.cpp",
+          "source_sha256": "ce210c3053c6dc32f226668d194bd98e9220d48a0d6e584d2d999040092660d4",
+          "exact_source_match": true
+        }
+      ],
+      "program_form": "standalone"
+    },
+    {
+      "step_id": 3201236,
+      "module_number": 3,
+      "pre_index": 1,
+      "kind": "output",
+      "language_attribute": "text",
+      "code_sha256": "8b3a3ad9552da324931fb27537e3151951d3641d00b8fb322de4a2b0580d353d",
+      "effective_path": "courses/86957/steps/768146/02_3201236_text.step",
+      "effective_file_sha256": "e792008fcb680f6c3035638866a1af436b5ac2d49e553dda60df4c8d2b13a30f",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [],
+      "execution_claim": "No individual execution claim: read as a fragment, command, notation, output or configuration."
+    },
+    {
+      "step_id": 3201235,
+      "module_number": 3,
+      "pre_index": 0,
+      "kind": "full_program",
+      "language_attribute": "cpp",
+      "code_sha256": "3838fadf000011a1c1dad0fd70ef0c9c311bbd0a2c85385e8599c98570347fa7",
+      "effective_path": "courses/86957/steps/768146/03_3201235_text.step",
+      "effective_file_sha256": "464d97df887cb3f1869b8192140909b467487981596cd162af181d06e489bd86",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [
+        {
+          "suite": "t1b",
+          "verification_mode": "compile_and_run",
+          "verifier_path": "improvements/86957/theory-continuation-2026-11-23/examples/t1b/verify.py",
+          "current_report_path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t1b.json",
+          "current_report_status": "passed",
+          "current_run_owner": "root",
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t1b/c_library.cpp",
+          "source_sha256": "3838fadf000011a1c1dad0fd70ef0c9c311bbd0a2c85385e8599c98570347fa7",
+          "exact_source_match": true
+        }
+      ],
+      "program_form": "standalone"
+    },
+    {
+      "step_id": 3201267,
+      "module_number": 3,
+      "pre_index": 0,
+      "kind": "expected_failure",
+      "language_attribute": "cpp",
+      "code_sha256": "3dffa3380384c2d072fee598f033f15f25a5191e9587598c53605dc279f49c89",
+      "effective_path": "courses/86957/steps/768146/05_3201267_text.step",
+      "effective_file_sha256": "3839097df0d1c1d78d5eb8b501c7e64169037e0b4dfeca0bec4a9e0b71d57e9d",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [
+        {
+          "suite": "t1b",
+          "verification_mode": "expected_compile_failure_with_wrapper",
+          "verifier_path": "improvements/86957/theory-continuation-2026-11-23/examples/t1b/verify.py",
+          "dynamic_extraction": {
+            "step_id": 3201267,
+            "pre_index": 0,
+            "wrapper": "namespace declarations plus int main"
+          },
+          "current_report_path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t1b.json",
+          "current_report_status": "passed",
+          "current_run_owner": "root"
+        }
+      ],
+      "program_form": "fragment_with_explicit_wrapper",
+      "expected_outcome": "compile_failure_ambiguous_value"
+    },
+    {
+      "step_id": 3214833,
+      "module_number": 3,
+      "pre_index": 0,
+      "kind": "shell_commands",
+      "language_attribute": "bash",
+      "code_sha256": "25c59bec8b417322c3cf673be3e623cb006a7d0567a04b6b094cf5a7549cc510",
+      "effective_path": "courses/86957/steps/771009/05_3214833_text.step",
+      "effective_file_sha256": "0898986a2c2bd5d2b6f643cde897a96811cf83fdd6aba4f38ba96197ef88476f",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [],
+      "execution_claim": "No individual execution claim: read as a fragment, command, notation, output or configuration."
+    },
+    {
+      "step_id": 3214833,
+      "module_number": 3,
+      "pre_index": 1,
+      "kind": "shell_commands",
+      "language_attribute": "bash",
+      "code_sha256": "39e5085e0645aaff9876b5de4d6db1592dabb1c9fbb35f72e1256e48ea8b12da",
+      "effective_path": "courses/86957/steps/771009/05_3214833_text.step",
+      "effective_file_sha256": "0898986a2c2bd5d2b6f643cde897a96811cf83fdd6aba4f38ba96197ef88476f",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [],
+      "execution_claim": "No individual execution claim: read as a fragment, command, notation, output or configuration."
+    },
+    {
+      "step_id": 3231227,
+      "module_number": 3,
+      "pre_index": 0,
+      "kind": "shell_commands",
+      "language_attribute": "bash",
+      "code_sha256": "aa42a8153cc19cec390f268e8ad4f7643a1185d831f80fc88ceae0c51289e277",
+      "effective_path": "courses/86957/steps/774618/02_3231227_text.step",
+      "effective_file_sha256": "cf537e9cae0b8dd40ecfb5c9566a9e7cbb647e5371b78e13e793d7882ce5494a",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [],
+      "execution_claim": "No individual execution claim: read as a fragment, command, notation, output or configuration."
+    },
+    {
+      "step_id": 3231317,
+      "module_number": 3,
+      "pre_index": 0,
+      "kind": "full_program",
+      "language_attribute": "cpp",
+      "code_sha256": "61659d9bbad0f2c6ed91339c60cc41b9728104f6da129b90b803f74792444bcd",
+      "effective_path": "courses/86957/steps/774618/03_3231317_text.step",
+      "effective_file_sha256": "f88005a130b0a79298dfdbacbb67be0171d58f3e7a8afd8062b42d4174787612",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [
+        {
+          "suite": "t1",
+          "verification_mode": "compile_and_run",
+          "verifier_path": "improvements/86957/theory-2026-11-23/examples/t1/verify.py",
+          "current_report_path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t1.json",
+          "current_report_status": "passed",
+          "current_run_owner": "root",
+          "dynamic_extraction": {
+            "source_step_path": "improvements/86957/theory-2026-11-23/steps/774618/03_3231317_text.step",
+            "step_id": 3231317,
+            "pre_index": 0,
+            "function": "blocks(step_id)",
+            "exact_source_match": true
+          }
+        }
+      ],
+      "program_form": "standalone"
+    },
+    {
+      "step_id": 3231317,
+      "module_number": 3,
+      "pre_index": 1,
+      "kind": "build_configuration",
+      "language_attribute": "cmake",
+      "code_sha256": "3d19c7864c0e7b719fb41d4e5455a5d9136c13a5f2f1275dccf0e2c65311e68e",
+      "effective_path": "courses/86957/steps/774618/03_3231317_text.step",
+      "effective_file_sha256": "f88005a130b0a79298dfdbacbb67be0171d58f3e7a8afd8062b42d4174787612",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [],
+      "execution_claim": "No individual execution claim: read as a fragment, command, notation, output or configuration."
+    },
+    {
+      "step_id": 3231317,
+      "module_number": 3,
+      "pre_index": 2,
+      "kind": "shell_commands",
+      "language_attribute": "bash",
+      "code_sha256": "e0e85442b7da93863fa32a91420db0c0c54a878c7ac76b5219d2a2fc446f2bdf",
+      "effective_path": "courses/86957/steps/774618/03_3231317_text.step",
+      "effective_file_sha256": "f88005a130b0a79298dfdbacbb67be0171d58f3e7a8afd8062b42d4174787612",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [],
+      "execution_claim": "No individual execution claim: read as a fragment, command, notation, output or configuration."
+    },
+    {
+      "step_id": 3231317,
+      "module_number": 3,
+      "pre_index": 3,
+      "kind": "shell_commands",
+      "language_attribute": "text",
+      "code_sha256": "7309db546187378027992cf9b39b6b166c51ebd4475b1a1d1b0e421f92b6bb06",
+      "effective_path": "courses/86957/steps/774618/03_3231317_text.step",
+      "effective_file_sha256": "f88005a130b0a79298dfdbacbb67be0171d58f3e7a8afd8062b42d4174787612",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [],
+      "execution_claim": "No individual execution claim: read as a fragment, command, notation, output or configuration."
+    },
+    {
+      "step_id": 3231317,
+      "module_number": 3,
+      "pre_index": 4,
+      "kind": "output",
+      "language_attribute": "text",
+      "code_sha256": "3abe76deb7486d5fe2761b70d4be5d0c6e1977255f279e622c4fc9d48de9578d",
+      "effective_path": "courses/86957/steps/774618/03_3231317_text.step",
+      "effective_file_sha256": "f88005a130b0a79298dfdbacbb67be0171d58f3e7a8afd8062b42d4174787612",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [],
+      "execution_claim": "No individual execution claim: read as a fragment, command, notation, output or configuration."
+    },
+    {
+      "step_id": 3231228,
+      "module_number": 3,
+      "pre_index": 0,
+      "kind": "shell_commands",
+      "language_attribute": "text",
+      "code_sha256": "160fe93e130133076e790d7e36bded64895b6188ccaa836c32387f4b9572b017",
+      "effective_path": "courses/86957/steps/774618/04_3231228_text.step",
+      "effective_file_sha256": "8547815672c15c01aeaf983ac3c74a3430f8b98f2c5e666375d826b502faf24f",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [],
+      "execution_claim": "No individual execution claim: read as a fragment, command, notation, output or configuration."
+    },
+    {
+      "step_id": 3237955,
+      "module_number": 3,
+      "pre_index": 0,
+      "kind": "pseudocode",
+      "language_attribute": "text",
+      "code_sha256": "d4ee6b6a7753f3d50bdec18f3a93462d9a670eb0b118b0f653cbe6fb418d5175",
+      "effective_path": "courses/86957/steps/776128/02_3237955_text.step",
+      "effective_file_sha256": "2d6e67c2bfbd61f760827b463a8fabcd981bee30d8e33d1585ea5506d108a3e3",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [],
+      "execution_claim": "No individual execution claim: read as a fragment, command, notation, output or configuration."
+    },
+    {
+      "step_id": 3177280,
+      "module_number": 4,
+      "pre_index": 0,
+      "kind": "fragment",
+      "language_attribute": "cpp",
+      "code_sha256": "fd9c658f6f0f7cd4c53cededc78a847aa33549503401619ffb03aa9845ed00ed",
+      "effective_path": "improvements/86957/theory-links-2026-11-23/steps/763630/03_3177280_text.step",
+      "effective_file_sha256": "f351093a8c97bc36f4810b3255ff92a252f95234b108a02d3d9fc8238e4f6050",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [],
+      "execution_claim": "No individual execution claim: read as a fragment, command, notation, output or configuration."
+    },
+    {
+      "step_id": 3177280,
+      "module_number": 4,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language_attribute": "cpp",
+      "code_sha256": "40fc5971d1b702e0384762d599a3b93af3b04594b3c274c7a144c8367a9e7136",
+      "effective_path": "improvements/86957/theory-links-2026-11-23/steps/763630/03_3177280_text.step",
+      "effective_file_sha256": "f351093a8c97bc36f4810b3255ff92a252f95234b108a02d3d9fc8238e4f6050",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [
+        {
+          "suite": "t2",
+          "verification_mode": "compile_and_run",
+          "verifier_path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/verify.py",
+          "current_report_path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t2.json",
+          "current_report_status": "passed",
+          "current_run_owner": "root",
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/objects.cpp",
+          "source_sha256": "40fc5971d1b702e0384762d599a3b93af3b04594b3c274c7a144c8367a9e7136",
+          "exact_source_match": true
+        }
+      ],
+      "program_form": "standalone"
+    },
+    {
+      "step_id": 3177282,
+      "module_number": 4,
+      "pre_index": 0,
+      "kind": "fragment",
+      "language_attribute": "cpp",
+      "code_sha256": "0c00eec25b63b28e5f091400725075dc9935b8b89aecabbfcc7e2c34eb650dfd",
+      "effective_path": "improvements/86957/theory-final-review-2026-11-23/steps/763630/04_3177282_text.step",
+      "effective_file_sha256": "8b23b0cd3907a58d23e3eb9e86842f86d9d50faa60f104e19034473fff57b579",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [],
+      "execution_claim": "No individual execution claim: read as a fragment, command, notation, output or configuration."
+    },
+    {
+      "step_id": 3177281,
+      "module_number": 4,
+      "pre_index": 0,
+      "kind": "fragment",
+      "language_attribute": "",
+      "code_sha256": "9deb65957bcde1f4d36d1c6f2ac849fe2d5234c972b9113a4c56e51979007cfa",
+      "effective_path": "courses/86957/steps/763630/05_3177281_text.step",
+      "effective_file_sha256": "1a2cfb63a564b3b3eb3940a06fbf791d97c9a5390e6e3fde3de634d06ca6ed61",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [],
+      "execution_claim": "No individual execution claim: read as a fragment, command, notation, output or configuration."
+    },
+    {
+      "step_id": 3177281,
+      "module_number": 4,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language_attribute": "",
+      "code_sha256": "ed1d70c097e9b62804524d4c93515a925bce8a683f397927825b377f438c4627",
+      "effective_path": "courses/86957/steps/763630/05_3177281_text.step",
+      "effective_file_sha256": "1a2cfb63a564b3b3eb3940a06fbf791d97c9a5390e6e3fde3de634d06ca6ed61",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [
+        {
+          "suite": "foundations",
+          "verification_mode": "compile_and_run",
+          "verifier_path": "improvements/86957/theory-final-review-2026-11-23/examples/foundations/verify.py",
+          "current_report_path": "improvements/86957/theory-final-review-2026-11-23/validation/new_foundations.json",
+          "current_report_status": "passed",
+          "current_run_owner": "verify_foundations",
+          "source_path": "improvements/86957/theory-final-review-2026-11-23/examples/foundations/wide_characters.cpp",
+          "source_sha256": "ed1d70c097e9b62804524d4c93515a925bce8a683f397927825b377f438c4627",
+          "exact_source_match": true
+        }
+      ],
+      "program_form": "standalone",
+      "platform_limit": "Observed output is for recorded Linux/GCC and C locale; sizeof/encoding observations are not portable language guarantees."
+    },
+    {
+      "step_id": 3177281,
+      "module_number": 4,
+      "pre_index": 2,
+      "kind": "full_program",
+      "language_attribute": "cpp",
+      "code_sha256": "396a89abde87f263953e803d5fd67cd8058d3538c6ea0e72afa3944c86a1ab09",
+      "effective_path": "courses/86957/steps/763630/05_3177281_text.step",
+      "effective_file_sha256": "1a2cfb63a564b3b3eb3940a06fbf791d97c9a5390e6e3fde3de634d06ca6ed61",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [
+        {
+          "suite": "foundations",
+          "verification_mode": "compile_and_run",
+          "verifier_path": "improvements/86957/theory-final-review-2026-11-23/examples/foundations/verify.py",
+          "current_report_path": "improvements/86957/theory-final-review-2026-11-23/validation/new_foundations.json",
+          "current_report_status": "passed",
+          "current_run_owner": "verify_foundations",
+          "source_path": "improvements/86957/theory-final-review-2026-11-23/examples/foundations/narrow_casts.cpp",
+          "source_sha256": "396a89abde87f263953e803d5fd67cd8058d3538c6ea0e72afa3944c86a1ab09",
+          "exact_source_match": true
+        }
+      ],
+      "program_form": "standalone",
+      "platform_limit": "Observed output is for recorded Linux/GCC and C locale; sizeof/encoding observations are not portable language guarantees."
+    },
+    {
+      "step_id": 3177283,
+      "module_number": 4,
+      "pre_index": 0,
+      "kind": "mathematical_notation",
+      "language_attribute": "",
+      "code_sha256": "05dd9f32f279401b7ccce67525e1143436e55fb464315f6d2a3b15c6ce1116e8",
+      "effective_path": "improvements/86957/theory-links-2026-11-23/steps/763630/07_3177283_text.step",
+      "effective_file_sha256": "535764f7fe3fb4f2b18e0c6fd65cb70f1d92d18bfd3b236e779ff036fbe3ed63",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [],
+      "execution_claim": "No individual execution claim: read as a fragment, command, notation, output or configuration."
+    },
+    {
+      "step_id": 3177283,
+      "module_number": 4,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language_attribute": "cpp",
+      "code_sha256": "4712a190e1122b212667244972e51c62cef7d966a84bf6354483ed90ee85abd7",
+      "effective_path": "improvements/86957/theory-links-2026-11-23/steps/763630/07_3177283_text.step",
+      "effective_file_sha256": "535764f7fe3fb4f2b18e0c6fd65cb70f1d92d18bfd3b236e779ff036fbe3ed63",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [
+        {
+          "suite": "foundations",
+          "verification_mode": "compile_and_run",
+          "verifier_path": "improvements/86957/theory-final-review-2026-11-23/examples/foundations/verify.py",
+          "current_report_path": "improvements/86957/theory-final-review-2026-11-23/validation/new_foundations.json",
+          "current_report_status": "passed",
+          "current_run_owner": "verify_foundations",
+          "source_path": "improvements/86957/theory-final-review-2026-11-23/examples/foundations/type_sizes.cpp",
+          "source_sha256": "4712a190e1122b212667244972e51c62cef7d966a84bf6354483ed90ee85abd7",
+          "exact_source_match": true
+        }
+      ],
+      "program_form": "standalone",
+      "platform_limit": "Observed output is for recorded Linux/GCC and C locale; sizeof/encoding observations are not portable language guarantees."
+    },
+    {
+      "step_id": 3177283,
+      "module_number": 4,
+      "pre_index": 2,
+      "kind": "fragment",
+      "language_attribute": "cpp",
+      "code_sha256": "8391af7267c098920d493e684ab259d558926e5ea075170982fd1a8c3f7667ed",
+      "effective_path": "improvements/86957/theory-links-2026-11-23/steps/763630/07_3177283_text.step",
+      "effective_file_sha256": "535764f7fe3fb4f2b18e0c6fd65cb70f1d92d18bfd3b236e779ff036fbe3ed63",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [],
+      "execution_claim": "No individual execution claim: read as a fragment, command, notation, output or configuration."
+    },
+    {
+      "step_id": 3177279,
+      "module_number": 4,
+      "pre_index": 0,
+      "kind": "fragment",
+      "language_attribute": "cpp",
+      "code_sha256": "ed16d341808634b09706a40e3d980c8eef70cec21a8389acd020a8dc9a7681fd",
+      "effective_path": "improvements/86957/theory-links-2026-11-23/steps/763630/08_3177279_text.step",
+      "effective_file_sha256": "85fe7cae15bffab37e9ec95e2752dac27d1b1a766d556f1978836453e1003156",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [],
+      "execution_claim": "No individual execution claim: read as a fragment, command, notation, output or configuration."
+    },
+    {
+      "step_id": 3177291,
+      "module_number": 4,
+      "pre_index": 0,
+      "kind": "fragment",
+      "language_attribute": "cpp",
+      "code_sha256": "9bc0db5441b42acece91362c36bbeaa8e11c46fa844f9f348af9e729fbcdc451",
+      "effective_path": "improvements/86957/theory-final-review-2026-11-23/steps/763639/01_3177291_text.step",
+      "effective_file_sha256": "074e7fa853f9c8434c57ed9b36dd0d1995768775167a4596988ecc44b76cfbd3",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [],
+      "execution_claim": "No individual execution claim: read as a fragment, command, notation, output or configuration."
+    },
+    {
+      "step_id": 3177291,
+      "module_number": 4,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language_attribute": "cpp",
+      "code_sha256": "1df946e0fe58d87ae523af8331331ca5179003feb377c4d2f9e75a47d05060a4",
+      "effective_path": "improvements/86957/theory-final-review-2026-11-23/steps/763639/01_3177291_text.step",
+      "effective_file_sha256": "074e7fa853f9c8434c57ed9b36dd0d1995768775167a4596988ecc44b76cfbd3",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [
+        {
+          "suite": "t2",
+          "verification_mode": "compile_and_run",
+          "verifier_path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/verify.py",
+          "current_report_path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t2.json",
+          "current_report_status": "passed",
+          "current_run_owner": "root",
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/division.cpp",
+          "source_sha256": "1df946e0fe58d87ae523af8331331ca5179003feb377c4d2f9e75a47d05060a4",
+          "exact_source_match": true
+        },
+        {
+          "suite": "foundations",
+          "verification_mode": "compile_and_run",
+          "verifier_path": "improvements/86957/theory-final-review-2026-11-23/examples/foundations/verify.py",
+          "current_report_path": "improvements/86957/theory-final-review-2026-11-23/validation/new_foundations.json",
+          "current_report_status": "passed",
+          "current_run_owner": "verify_foundations",
+          "source_path": "improvements/86957/theory-final-review-2026-11-23/examples/foundations/integer_division.cpp",
+          "source_sha256": "1df946e0fe58d87ae523af8331331ca5179003feb377c4d2f9e75a47d05060a4",
+          "exact_source_match": true
+        }
+      ],
+      "program_form": "standalone"
+    },
+    {
+      "step_id": 3177291,
+      "module_number": 4,
+      "pre_index": 2,
+      "kind": "fragment",
+      "language_attribute": "cpp",
+      "code_sha256": "961f8eba9220b75a1ea936ecb698e2b15db56a8dcd9cf5d548040806327f8f59",
+      "effective_path": "improvements/86957/theory-final-review-2026-11-23/steps/763639/01_3177291_text.step",
+      "effective_file_sha256": "074e7fa853f9c8434c57ed9b36dd0d1995768775167a4596988ecc44b76cfbd3",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [],
+      "execution_claim": "No individual execution claim: read as a fragment, command, notation, output or configuration."
+    },
+    {
+      "step_id": 3177474,
+      "module_number": 4,
+      "pre_index": 0,
+      "kind": "full_program",
+      "language_attribute": "cpp",
+      "code_sha256": "20a0fe4285e8e9e4572d99a4b226d81b74802d15abcd4567ca7294d5d93fb19a",
+      "effective_path": "courses/86957/steps/763639/02_3177474_text.step",
+      "effective_file_sha256": "07373e771022774dcaa08b4e46db5f0f8415b6e2f005d76061338bad1060876b",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [
+        {
+          "suite": "t2",
+          "verification_mode": "compile_and_run",
+          "verifier_path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/verify.py",
+          "current_report_path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t2.json",
+          "current_report_status": "passed",
+          "current_run_owner": "root",
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/checked_conversion.cpp",
+          "source_sha256": "20a0fe4285e8e9e4572d99a4b226d81b74802d15abcd4567ca7294d5d93fb19a",
+          "exact_source_match": true
+        }
+      ],
+      "program_form": "standalone"
+    },
+    {
+      "step_id": 3177504,
+      "module_number": 4,
+      "pre_index": 0,
+      "kind": "fragment",
+      "language_attribute": "cpp",
+      "code_sha256": "de3b443ea4bbf94c9ff613917e678e621644179c17d38396954546b3bf977ce4",
+      "effective_path": "improvements/86957/theory-links-2026-11-23/steps/763639/03_3177504_text.step",
+      "effective_file_sha256": "af27639e5efd5fb4974b550f11660d9ce82d5a2b2745d81f733167381dfc783a",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [],
+      "execution_claim": "No individual execution claim: read as a fragment, command, notation, output or configuration."
+    },
+    {
+      "step_id": 3177504,
+      "module_number": 4,
+      "pre_index": 1,
+      "kind": "fragment",
+      "language_attribute": "cpp",
+      "code_sha256": "a10124ce8e84a098d458897ba4080debd5e5ddb02a22592a9dd343ace1eca0af",
+      "effective_path": "improvements/86957/theory-links-2026-11-23/steps/763639/03_3177504_text.step",
+      "effective_file_sha256": "af27639e5efd5fb4974b550f11660d9ce82d5a2b2745d81f733167381dfc783a",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [],
+      "execution_claim": "No individual execution claim: read as a fragment, command, notation, output or configuration.",
+      "version_limit": "The signed bitwise-not explanation is explicitly limited to C++20 in its surrounding text."
+    },
+    {
+      "step_id": 3177292,
+      "module_number": 4,
+      "pre_index": 0,
+      "kind": "syntax_template",
+      "language_attribute": "text",
+      "code_sha256": "82f5a367deecc4fdc227a6d503bf15811026f7d869fb9edd3bc300aa784a55e1",
+      "effective_path": "improvements/86957/theory-final-review-2026-11-23/steps/763640/01_3177292_text.step",
+      "effective_file_sha256": "1e3ea1e61047097c2b68f0d5a9889a7a63b3c4d0ff7a3b1931d1692d3ceb6e2f",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [],
+      "execution_claim": "No individual execution claim: read as a fragment, command, notation, output or configuration."
+    },
+    {
+      "step_id": 3177292,
+      "module_number": 4,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language_attribute": "cpp",
+      "code_sha256": "f8726f028b848845c462244f9c3050f0e8c318edbf13a08baaabeea96a7aa7ce",
+      "effective_path": "improvements/86957/theory-final-review-2026-11-23/steps/763640/01_3177292_text.step",
+      "effective_file_sha256": "1e3ea1e61047097c2b68f0d5a9889a7a63b3c4d0ff7a3b1931d1692d3ceb6e2f",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [
+        {
+          "suite": "t2",
+          "verification_mode": "compile_and_run",
+          "verifier_path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/verify.py",
+          "current_report_path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t2.json",
+          "current_report_status": "passed",
+          "current_run_owner": "root",
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/sign.cpp",
+          "source_sha256": "f8726f028b848845c462244f9c3050f0e8c318edbf13a08baaabeea96a7aa7ce",
+          "exact_source_match": true
+        },
+        {
+          "suite": "foundations",
+          "verification_mode": "compile_and_run",
+          "verifier_path": "improvements/86957/theory-final-review-2026-11-23/examples/foundations/verify.py",
+          "current_report_path": "improvements/86957/theory-final-review-2026-11-23/validation/new_foundations.json",
+          "current_report_status": "passed",
+          "current_run_owner": "verify_foundations",
+          "source_path": "improvements/86957/theory-final-review-2026-11-23/examples/foundations/if_input.cpp",
+          "source_sha256": "f8726f028b848845c462244f9c3050f0e8c318edbf13a08baaabeea96a7aa7ce",
+          "exact_source_match": true
+        }
+      ],
+      "program_form": "standalone"
+    },
+    {
+      "step_id": 3215105,
+      "module_number": 4,
+      "pre_index": 0,
+      "kind": "full_program",
+      "language_attribute": "cpp",
+      "code_sha256": "ad00a7b75691e8ff39f3acca94c9649a0f339c357b2d95954e338c6a9ed66a4a",
+      "effective_path": "courses/86957/steps/763640/02_3215105_text.step",
+      "effective_file_sha256": "b1bb4ff747bc603d34afdc0acf0fd3183bdbf53692a87f56f109242571ae4c4c",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [
+        {
+          "suite": "t2",
+          "verification_mode": "compile_and_run",
+          "verifier_path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/verify.py",
+          "current_report_path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t2.json",
+          "current_report_status": "passed",
+          "current_run_owner": "root",
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/switch_command.cpp",
+          "source_sha256": "ad00a7b75691e8ff39f3acca94c9649a0f339c357b2d95954e338c6a9ed66a4a",
+          "exact_source_match": true
+        }
+      ],
+      "program_form": "standalone"
+    },
+    {
+      "step_id": 3215105,
+      "module_number": 4,
+      "pre_index": 1,
+      "kind": "fragment",
+      "language_attribute": "cpp",
+      "code_sha256": "44d1a32d972035a454ab409f75bef9345a4af12c4926e746faadb735a9ccac67",
+      "effective_path": "courses/86957/steps/763640/02_3215105_text.step",
+      "effective_file_sha256": "b1bb4ff747bc603d34afdc0acf0fd3183bdbf53692a87f56f109242571ae4c4c",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [],
+      "execution_claim": "No individual execution claim: read as a fragment, command, notation, output or configuration."
+    },
+    {
+      "step_id": 3177541,
+      "module_number": 4,
+      "pre_index": 0,
+      "kind": "full_program",
+      "language_attribute": "cpp",
+      "code_sha256": "c7fe819ae3e4c14aff44ada959d580864304171d5bdfef846a1c0cf9218d03e9",
+      "effective_path": "courses/86957/steps/763642/02_3177541_text.step",
+      "effective_file_sha256": "a9eb3e26e24d10fe8d621c69eadfd3e6e5b510305e7b81b4410a6463c4d486b9",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [
+        {
+          "suite": "t2",
+          "verification_mode": "compile_and_run",
+          "verifier_path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/verify.py",
+          "current_report_path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t2.json",
+          "current_report_status": "passed",
+          "current_run_owner": "root",
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/minimum.cpp",
+          "source_sha256": "c7fe819ae3e4c14aff44ada959d580864304171d5bdfef846a1c0cf9218d03e9",
+          "exact_source_match": true
+        }
+      ],
+      "program_form": "standalone"
+    },
+    {
+      "step_id": 3177540,
+      "module_number": 4,
+      "pre_index": 0,
+      "kind": "fragment",
+      "language_attribute": "cpp",
+      "code_sha256": "ccaf816f2b82da54a00fc042d4f3ca9fb8c2f97846d098f887eb69f78e24970a",
+      "effective_path": "courses/86957/steps/763642/03_3177540_text.step",
+      "effective_file_sha256": "58681b6145e3b1f6ad388d6d89858a2a6793d4a6aaf27b17314e61e76ca93149",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [],
+      "execution_claim": "No individual execution claim: read as a fragment, command, notation, output or configuration."
+    },
+    {
+      "step_id": 3177540,
+      "module_number": 4,
+      "pre_index": 1,
+      "kind": "fragment",
+      "language_attribute": "cpp",
+      "code_sha256": "ca908952d93d7ca214145470a481b0ba89e9f55a4e0fa958be54f88847dd008d",
+      "effective_path": "courses/86957/steps/763642/03_3177540_text.step",
+      "effective_file_sha256": "58681b6145e3b1f6ad388d6d89858a2a6793d4a6aaf27b17314e61e76ca93149",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [],
+      "execution_claim": "No individual execution claim: read as a fragment, command, notation, output or configuration."
+    },
+    {
+      "step_id": 3177546,
+      "module_number": 4,
+      "pre_index": 0,
+      "kind": "full_program",
+      "language_attribute": "cpp",
+      "code_sha256": "4252b27e2e3ae235778091cd7def13c375bff8280a69440e8ccd1ee841bff088",
+      "effective_path": "courses/86957/steps/763642/04_3177546_text.step",
+      "effective_file_sha256": "a94c7031e24e63097e810e5b8161699f7a776bcaadcb778343ddda654db79525",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [
+        {
+          "suite": "t2",
+          "verification_mode": "compile_and_run",
+          "verifier_path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/verify.py",
+          "current_report_path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t2.json",
+          "current_report_status": "passed",
+          "current_run_owner": "root",
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/break.cpp",
+          "source_sha256": "4252b27e2e3ae235778091cd7def13c375bff8280a69440e8ccd1ee841bff088",
+          "exact_source_match": true
+        }
+      ],
+      "program_form": "standalone"
+    },
+    {
+      "step_id": 3177547,
+      "module_number": 4,
+      "pre_index": 0,
+      "kind": "full_program",
+      "language_attribute": "cpp",
+      "code_sha256": "73dcffcaabffc138eabc2b56679a574eea1f8d7891f49be00630fe040bd8fefc",
+      "effective_path": "courses/86957/steps/763642/05_3177547_text.step",
+      "effective_file_sha256": "8f09442b312075bcf86d3340d9c21056aa00983eaecba7542346c824f7f1d820",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [
+        {
+          "suite": "t2",
+          "verification_mode": "compile_and_run",
+          "verifier_path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/verify.py",
+          "current_report_path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t2.json",
+          "current_report_status": "passed",
+          "current_run_owner": "root",
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/continue.cpp",
+          "source_sha256": "73dcffcaabffc138eabc2b56679a574eea1f8d7891f49be00630fe040bd8fefc",
+          "exact_source_match": true
+        }
+      ],
+      "program_form": "standalone"
+    },
+    {
+      "step_id": 3177565,
+      "module_number": 4,
+      "pre_index": 0,
+      "kind": "full_program",
+      "language_attribute": "cpp",
+      "code_sha256": "7345df68ca8f70c736d7d7557026cf4c48808c9f939a129ddf49144c52057750",
+      "effective_path": "courses/86957/steps/763719/02_3177565_text.step",
+      "effective_file_sha256": "168aa8b27d54ed8fc4bd5c5ac1ff6656361bec6f1865af80cab62e98522c3c15",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [
+        {
+          "suite": "t2",
+          "verification_mode": "compile_and_run",
+          "verifier_path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/verify.py",
+          "current_report_path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t2.json",
+          "current_report_status": "passed",
+          "current_run_owner": "root",
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/while_squares.cpp",
+          "source_sha256": "7345df68ca8f70c736d7d7557026cf4c48808c9f939a129ddf49144c52057750",
+          "exact_source_match": true
+        }
+      ],
+      "program_form": "standalone"
+    },
+    {
+      "step_id": 3177651,
+      "module_number": 4,
+      "pre_index": 0,
+      "kind": "full_program",
+      "language_attribute": "cpp",
+      "code_sha256": "9cf78786efc70ac60ce53c605fd15e03d250db615fe1845841adbb95efe79cb5",
+      "effective_path": "courses/86957/steps/763719/04_3177651_text.step",
+      "effective_file_sha256": "3a519636e4851170132db62b2b68ab7a8bf67551da4902a91860284302d705d9",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [
+        {
+          "suite": "t2",
+          "verification_mode": "compile_and_run",
+          "verifier_path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/verify.py",
+          "current_report_path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t2.json",
+          "current_report_status": "passed",
+          "current_run_owner": "root",
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/for_squares.cpp",
+          "source_sha256": "9cf78786efc70ac60ce53c605fd15e03d250db615fe1845841adbb95efe79cb5",
+          "exact_source_match": true
+        }
+      ],
+      "program_form": "standalone"
+    },
+    {
+      "step_id": 3177651,
+      "module_number": 4,
+      "pre_index": 1,
+      "kind": "fragment",
+      "language_attribute": "cpp",
+      "code_sha256": "724c7fed082dfc1dbc55dc808e0b707b64cebf100ff2e5d1716c5fbe8d096ae5",
+      "effective_path": "courses/86957/steps/763719/04_3177651_text.step",
+      "effective_file_sha256": "3a519636e4851170132db62b2b68ab7a8bf67551da4902a91860284302d705d9",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [],
+      "execution_claim": "No individual execution claim: read as a fragment, command, notation, output or configuration."
+    },
+    {
+      "step_id": 3177786,
+      "module_number": 4,
+      "pre_index": 0,
+      "kind": "full_program",
+      "language_attribute": "cpp",
+      "code_sha256": "14e66fcf5d59696df480b78d25d263663ae37f64e7c325fec61d0c2819749f9d",
+      "effective_path": "courses/86957/steps/763719/06_3177786_text.step",
+      "effective_file_sha256": "e363f08218f17fa0a7f211c60a36ee9ca1e9483f7e67bb293d5a20131a8b1382",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [
+        {
+          "suite": "t2",
+          "verification_mode": "compile_and_run",
+          "verifier_path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/verify.py",
+          "current_report_path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t2.json",
+          "current_report_status": "passed",
+          "current_run_owner": "root",
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/do_while.cpp",
+          "source_sha256": "14e66fcf5d59696df480b78d25d263663ae37f64e7c325fec61d0c2819749f9d",
+          "exact_source_match": true
+        }
+      ],
+      "program_form": "standalone"
+    },
+    {
+      "step_id": 3177789,
+      "module_number": 4,
+      "pre_index": 0,
+      "kind": "full_program",
+      "language_attribute": "cpp",
+      "code_sha256": "974252b36bf60d2092b5b834c20d96c4e5d8ecb00fc10e4911a5d11f80054792",
+      "effective_path": "courses/86957/steps/763719/07_3177789_text.step",
+      "effective_file_sha256": "fdbb443f0ac7b7f3f53224b62e6b2d3e37a8f47bab8f26d1a0d402e4fdf10c2d",
+      "content_changed": false,
+      "review": "read_and_classified",
+      "test_mapping": [
+        {
+          "suite": "t2",
+          "verification_mode": "compile_and_run",
+          "verifier_path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/verify.py",
+          "current_report_path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t2.json",
+          "current_report_status": "passed",
+          "current_run_owner": "root",
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/filtered_sum.cpp",
+          "source_sha256": "974252b36bf60d2092b5b834c20d96c4e5d8ecb00fc10e4911a5d11f80054792",
+          "exact_source_match": true
+        }
+      ],
+      "program_form": "standalone"
+    }
+  ]
+}

@@ -1,0 +1,3981 @@
+{
+  "schema_version": 1,
+  "scope": "All 91 text steps in modules 12–19, effective snapshot + LINKS + current advanced corrections.",
+  "pre_index_base": 1,
+  "hash_convention": "decoded_sha256 hashes UTF-8 of the HTML-decoded pre content after removing markup, without whitespace normalization; raw_pre_sha256 includes the complete pre element.",
+  "classification_note": "output includes expected output and labelled sample input. A complete main with a preceding lesson header is a full_program translation unit with its dependency recorded; two TeachingShared parts form one program.",
+  "counts": {
+    "text_steps": 91,
+    "pre_blocks": 149,
+    "full_program": 61,
+    "output": 52,
+    "fragment": 36,
+    "assembled_full_programs_from_fragment_blocks": 1,
+    "full_program_units_with_current_test_binding": 62,
+    "fragments_without_exact_compilation_binding": 15
+  },
+  "suites": {
+    "t5": {
+      "verifier_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/verify.py",
+      "verifier_sha256": "23743c7adbe3996fe50834a665498657db1a7babeab9dc5d40ba172c43f969dd",
+      "current_report_path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t5.json",
+      "current_report_sha256": "a30f0c23ba48d98b808e849faa8969f03b134d33cbe9533a5838d506d00f179a",
+      "status": "passed",
+      "standards": [
+        "c++17",
+        "c++20"
+      ]
+    },
+    "t5b": {
+      "verifier_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5b/verify.py",
+      "verifier_sha256": "c9d8cfce9d71985c086c66a51ea1e0fa60b0cee4b1de3a6e674b0854405d1214",
+      "current_report_path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t5b.json",
+      "current_report_sha256": "78f2e428cfe32a62dc177f2cdde9e942bf975a4b4bc8bb7b82dea68fc4b14e97",
+      "status": "passed",
+      "standards": [
+        "c++17",
+        "c++20"
+      ]
+    },
+    "t6": {
+      "verifier_path": "improvements/86957/theory-2026-11-23/examples/t6/verify.py",
+      "verifier_sha256": "d31fad3d8a37042aacbdd63d7e43f6a2d27e0d087757eb7bdb7cb00e83c76029",
+      "current_report_path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t6.json",
+      "current_report_sha256": "1a25711de0084d0c358773d0f220e47a4e3e4478c1e446f5c225dad776d94ccf",
+      "status": "passed",
+      "standards": [
+        "c++17",
+        "c++20"
+      ]
+    },
+    "t4": {
+      "verifier_path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/verify.py",
+      "verifier_sha256": "cb5ba82bd6b63e42a878036a2b1c8d76c326af8164e8ebced43a4b28bc3aa323",
+      "current_report_path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t4.json",
+      "current_report_sha256": "0fc22f68be5043a4341f367a042e2f29b518435598332d356e0c4411c3c08f5f",
+      "status": "passed",
+      "standards": [
+        "c++17",
+        "c++20"
+      ]
+    }
+  },
+  "assemblies": [
+    {
+      "id": "teaching_shared",
+      "kind": "full_program",
+      "parts": [
+        {
+          "step_id": 3570213,
+          "pre_index": 1
+        },
+        {
+          "step_id": 3570213,
+          "pre_index": 2
+        }
+      ],
+      "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5b/teaching_shared.cpp",
+      "source_sha256": "65fa8671c3442af6f368fb27f777d211ed023f7cd5d09d88b15ee40a20eb1931",
+      "recipe": "strip each decoded pre, join with two LF, append LF; exact file equality asserted"
+    },
+    {
+      "id": "rbt_header",
+      "kind": "header",
+      "parts": [
+        {
+          "step_id": 3570303,
+          "pre_indices": [
+            2
+          ]
+        },
+        {
+          "step_id": 3570304,
+          "pre_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "step_id": 3570333,
+          "pre_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "source_path": "improvements/86957/theory-2026-11-23/examples/t6/rbt.hpp",
+      "source_sha256": "168cd5b1d2606264d03b9127ef24c2ff912d22fc9b8e5870d094b4ad4fa43277",
+      "recipe": "#pragma once + LF, stripped decoded parts joined by two LF, append LF; exact file equality asserted"
+    }
+  ],
+  "fragments_without_exact_compilation_binding": [
+    {
+      "step_id": 3215231,
+      "pre_index": 3
+    },
+    {
+      "step_id": 3215231,
+      "pre_index": 4
+    },
+    {
+      "step_id": 3215242,
+      "pre_index": 1
+    },
+    {
+      "step_id": 3668925,
+      "pre_index": 1
+    },
+    {
+      "step_id": 3668953,
+      "pre_index": 1
+    },
+    {
+      "step_id": 3668953,
+      "pre_index": 2
+    },
+    {
+      "step_id": 3669114,
+      "pre_index": 1
+    },
+    {
+      "step_id": 3669121,
+      "pre_index": 1
+    },
+    {
+      "step_id": 3669173,
+      "pre_index": 1
+    },
+    {
+      "step_id": 3759977,
+      "pre_index": 1
+    },
+    {
+      "step_id": 3760023,
+      "pre_index": 1
+    },
+    {
+      "step_id": 3569891,
+      "pre_index": 1
+    },
+    {
+      "step_id": 3569325,
+      "pre_index": 2
+    },
+    {
+      "step_id": 3569964,
+      "pre_index": 1
+    },
+    {
+      "step_id": 3570303,
+      "pre_index": 1
+    }
+  ],
+  "limitations": [
+    "Semantic reading of all steps is recorded separately; source hashing does not establish teaching clarity.",
+    "Only exact source bindings and actual passed current suite checks support current runtime coverage.",
+    "Unbound fragments were read in context; no claim that every fragment was separately compiled.",
+    "Expected failures in historical/current test harnesses are not automatically extra lesson pre blocks.",
+    "No Stepik access, learner submissions or graded-step changes."
+  ],
+  "steps": [
+    {
+      "step_id": 3212955,
+      "module_number": 12,
+      "effective_path": "courses/86957/steps/770596/01_3212955_text.step",
+      "effective_file_sha256": "475822d5019d3a5f87c0ee4cc413bd16b7e8dd9a01d246a076d04edec604b589",
+      "text_sha256": "52f2ab427dcec98c8e30de9b3a08fa20ba67b4faae9bdaf2a14c7fb77039b65b",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3215231,
+      "module_number": 12,
+      "effective_path": "courses/86957/steps/770596/02_3215231_text.step",
+      "effective_file_sha256": "de40c07958a6d14c365630e9b740897fc27da8ec906fd1cf4afdf2ba92d389b0",
+      "text_sha256": "fd40c1536363b0d283a6c4d8ed4054010de7a560824828a2280e794ea663117e",
+      "pre_count": 4
+    },
+    {
+      "step_id": 3215234,
+      "module_number": 12,
+      "effective_path": "courses/86957/steps/770596/03_3215234_text.step",
+      "effective_file_sha256": "27013c82cae853fc7cd95d196c141ac8294e6590614f22c07d9fcb0645a73b59",
+      "text_sha256": "f2a2f49c93e8eaf808322eb4e1c41c9aee4c003303e06aff78ebfd52b89127b6",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3215232,
+      "module_number": 12,
+      "effective_path": "courses/86957/steps/770596/04_3215232_text.step",
+      "effective_file_sha256": "b550c17c0bed73fe561884d998703861d56220790290d101a48461fce8b9dc01",
+      "text_sha256": "38aae7c3bc0b073a8558a9aefacf63e467bd4c62c75c0f7d47d38d1549cb7a3c",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3215233,
+      "module_number": 12,
+      "effective_path": "courses/86957/steps/770596/05_3215233_text.step",
+      "effective_file_sha256": "f5cfc4f4206245afc26982885425b733b9b8802e1635f647bac50f770ea375ef",
+      "text_sha256": "a20a1004805bbcab642eb2ae049bfd482cf6671e3e06df4d59370dfaec6b2431",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3215235,
+      "module_number": 12,
+      "effective_path": "courses/86957/steps/770596/06_3215235_text.step",
+      "effective_file_sha256": "62becbf2076dd1c5957b8cb9766f8989b2a1b816376846d6ccd896a43f372bb3",
+      "text_sha256": "cf4262e78cd6151c79cf7a825fe1bbbac17384469884dfd94477ec53338a1b7f",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3215236,
+      "module_number": 12,
+      "effective_path": "courses/86957/steps/770596/07_3215236_text.step",
+      "effective_file_sha256": "340dd6a78c8e2d0959ede9cc5f7b509a77492c44ad5ae10ae2a7b2e64f6f75de",
+      "text_sha256": "5baa6453fdca48199920b72518c16952ada77dd3cf42ea1a497d62f3aa080306",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3216509,
+      "module_number": 12,
+      "effective_path": "courses/86957/steps/770596/08_3216509_text.step",
+      "effective_file_sha256": "62c4751f8a7eb19ed65496a9b23b20bca189541a13070064225f2df4ee66d62a",
+      "text_sha256": "1819dd5543876a0c924bd9b6cb576f9b988fb98b7dc60cfbb12691fbee14f75b",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3212956,
+      "module_number": 12,
+      "effective_path": "courses/86957/steps/770597/01_3212956_text.step",
+      "effective_file_sha256": "8e068b643cdd91e047aaada6b1d645e6e7458e5ce6749b20bd798c5a807d63a5",
+      "text_sha256": "5c0a5c708da0bc45e714cb78a1e8b7dc21a3d4c1314db4f9bc77f72f1152e47e",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3215243,
+      "module_number": 12,
+      "effective_path": "courses/86957/steps/770597/02_3215243_text.step",
+      "effective_file_sha256": "3befc18070db74cb05d477958ebdac664b015b5f22c769cc86b78633fac6eb90",
+      "text_sha256": "a4e58cf8b0d1b70faeb86426b832a2d4f6ff9cdea3bf10d5b9c5fc9ed8fb6e3d",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3215244,
+      "module_number": 12,
+      "effective_path": "courses/86957/steps/770597/03_3215244_text.step",
+      "effective_file_sha256": "8336219cd4668d01625cd6be3be9dd8dd4033d8c61408ce7331d9efb5aa96f69",
+      "text_sha256": "d6a94afa16e300e638ef42d72facb8177f05cbbe9b66b741800cea449987fae4",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3215242,
+      "module_number": 12,
+      "effective_path": "courses/86957/steps/770597/04_3215242_text.step",
+      "effective_file_sha256": "8428de2de5451c4dcff4ff72af54ec41f5df8ef3dc57ffd80aec854cfa6ade60",
+      "text_sha256": "93a342f6d43e856bcc9a064eded16afeb86947b316e17161bbe7f15f07ada7d9",
+      "pre_count": 3
+    },
+    {
+      "step_id": 3668925,
+      "module_number": 13,
+      "effective_path": "courses/86957/steps/877081/01_3668925_text.step",
+      "effective_file_sha256": "92e08d9eb5555617e2758f1afa130673fe9e2b9d9fe034484f7378c95e82d86a",
+      "text_sha256": "49917fc861295bf38cbc3aab38d0dd79870367793b2a5489c5c80104a82ca4bf",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3669000,
+      "module_number": 13,
+      "effective_path": "courses/86957/steps/877081/02_3669000_text.step",
+      "effective_file_sha256": "505380d7833ce126744a18c18326794bb7d188410b87025db7233adbe99b4396",
+      "text_sha256": "cfd7432c14716c17b71acb0bb6be15f1d5f35675ba1fd85acf915212ff224949",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3668999,
+      "module_number": 13,
+      "effective_path": "courses/86957/steps/877081/03_3668999_text.step",
+      "effective_file_sha256": "5bc286208dc99abf902b062c413afe7c9d62e97a4e7a58f5cdad403c373a2204",
+      "text_sha256": "9bd343b6e5a2efd3fc389f9097c38c1dc87bc1263176a75ae5cc51abf6854ba5",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3669075,
+      "module_number": 13,
+      "effective_path": "improvements/86957/theory-links-2026-11-23/steps/877081/04_3669075_text.step",
+      "effective_file_sha256": "462af2d166951f4a26d62df50cfcf38872c0e4820d703df7027c74e504d6c770",
+      "text_sha256": "08df11e0a70bfa35ddf7884417ccfe55e8bdca157c113bfb8d3716e9f3af5d43",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3669089,
+      "module_number": 13,
+      "effective_path": "courses/86957/steps/877081/05_3669089_text.step",
+      "effective_file_sha256": "720d2143b02b86a63fd2949898b2cbfe942346c34dfe5f1e537e376f15924080",
+      "text_sha256": "60427d9ff99d6f44708eeec5f015c55c3f6deab5bee3b342761e07d300193d9b",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3669093,
+      "module_number": 13,
+      "effective_path": "courses/86957/steps/877081/06_3669093_text.step",
+      "effective_file_sha256": "17a87f5abb6558267fcf39c250b796ed3aa5d6d3c2507ff2e7b4128b52d00ae8",
+      "text_sha256": "5a3f2ea25eabfaf4f21c684eaeaadca26149b198ab0967b7e067a37a0419e16c",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3668926,
+      "module_number": 13,
+      "effective_path": "courses/86957/steps/877082/01_3668926_text.step",
+      "effective_file_sha256": "89a5b0dbe2fbffe2526efd1d2bafb713ea0eea994c3c2d41d16c6fd16a2c13b3",
+      "text_sha256": "13420a8a823a6e4ef056a611c3d9695581a3b82a190a8f14aff706a2139522f6",
+      "pre_count": 0
+    },
+    {
+      "step_id": 3668952,
+      "module_number": 13,
+      "effective_path": "courses/86957/steps/877082/02_3668952_text.step",
+      "effective_file_sha256": "ffc7df5523204c738f64d9c7913d46068fe1740dfc08760bb3b8da997ace4513",
+      "text_sha256": "ca5c745e8c4c98d5d50d95adf9ef1ac5dabc884bd8f0d14b494c0054fcf1981e",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3668953,
+      "module_number": 13,
+      "effective_path": "courses/86957/steps/877082/03_3668953_text.step",
+      "effective_file_sha256": "2eaa262a9bf03d54f136a6851dfe29e8628995267dd568a35e59fc3b118cb5f1",
+      "text_sha256": "13ef501fae38d4f95b002f0a35a55a86cec97ed1a5a5f0d73aed9c290343b497",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3669114,
+      "module_number": 13,
+      "effective_path": "courses/86957/steps/877082/04_3669114_text.step",
+      "effective_file_sha256": "7a917346c02283f0efb60c9c63f8d732aa099864f39b35376dc78733fd57ad3c",
+      "text_sha256": "ab23aaaa2da69abd639a0da91b40ff3b9af524cd98e03038f757d5ab14dd839e",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3668977,
+      "module_number": 13,
+      "effective_path": "courses/86957/steps/877082/05_3668977_text.step",
+      "effective_file_sha256": "08c6a81352f1bf5a0529d087f56544a7cb4037bc5889c95ec7007fbda0c641fc",
+      "text_sha256": "b1573b4f5fbce0e2265fa5bac57b28d663b48c4e1b973387c067473b85f73273",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3669121,
+      "module_number": 13,
+      "effective_path": "courses/86957/steps/877082/06_3669121_text.step",
+      "effective_file_sha256": "d2e01f14bf92f6a64d3e435ba1a23c06430c62df6dc00da7d83ff101bba6010c",
+      "text_sha256": "533d19ac55e331deb38dc0e65b7349a10e4defc525794f3c78084b40300f7b43",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3668927,
+      "module_number": 13,
+      "effective_path": "courses/86957/steps/877083/01_3668927_text.step",
+      "effective_file_sha256": "5d902ebc8b76ac2d493b3ceb1401a73fd02dd624cb5a4ff8ec78db271d18b5a5",
+      "text_sha256": "c969270e18165e1607e6a8c0694c55b212b1c37f9850d8438502b5aae425c99b",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3669140,
+      "module_number": 13,
+      "effective_path": "courses/86957/steps/877083/02_3669140_text.step",
+      "effective_file_sha256": "119c24bfc3a71ac1ff3bed2d3abfcc5e00f837db8d4c448a77dd0cb44852de3d",
+      "text_sha256": "c647ca8a2f4dbc7cb5181cc9ca1635259e79c5dfef0d0025868cca1f6a3031e6",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3669142,
+      "module_number": 13,
+      "effective_path": "courses/86957/steps/877083/03_3669142_text.step",
+      "effective_file_sha256": "8a3d0c0de314aeb48c95a3b614693a2bae974a69525e557326808f608070b9fd",
+      "text_sha256": "818b77521099e403409885341b4830bd94c3cf06a76c4f9cb1ec4165a5aa0fd9",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3669156,
+      "module_number": 13,
+      "effective_path": "courses/86957/steps/877083/04_3669156_text.step",
+      "effective_file_sha256": "f37c7a3d6dbc47e0b5e971dfc14fb613e2344eda6817fd74c45436da1776904f",
+      "text_sha256": "3db398db80462c5fd9e5855d45e1371b7831d8e2887ca61b0bd734173936990c",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3669173,
+      "module_number": 13,
+      "effective_path": "courses/86957/steps/877083/05_3669173_text.step",
+      "effective_file_sha256": "3dc361e41fff31e7f5d820c88181f4bc77a31c7d96cf2127fa89aad488333a50",
+      "text_sha256": "5d25871f4cb02e2c31a09cc9a9a558800aa546ec4089d044aef016199b21b9d2",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3669172,
+      "module_number": 13,
+      "effective_path": "courses/86957/steps/877083/06_3669172_text.step",
+      "effective_file_sha256": "07a21212133114ab37dec78a5bb229dc2ecc4246a348b8e91397eba2d0ee15e6",
+      "text_sha256": "525e4f9369cd8b20d86c43a0b841db549322a4823cf83f72052b86b56daa1d6f",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3668928,
+      "module_number": 13,
+      "effective_path": "courses/86957/steps/877084/01_3668928_text.step",
+      "effective_file_sha256": "a04e694b0b950aefcb910d805aa055a27fcfe530ef0ceaaee6bfa46d9c3d13a6",
+      "text_sha256": "0bfc455419129664fa860c670b3eb1732986055290265bd690869b508e47fdf1",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3759849,
+      "module_number": 13,
+      "effective_path": "courses/86957/steps/877084/02_3759849_text.step",
+      "effective_file_sha256": "80818f5b179c5c389dc283eba3d2cc124f25735ef35c0d45694f45588fa47d65",
+      "text_sha256": "c64da8ab9be69930db23389d532491d2542d978bc2e65f3f420169217d0126e2",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3759850,
+      "module_number": 13,
+      "effective_path": "courses/86957/steps/877084/03_3759850_text.step",
+      "effective_file_sha256": "2b6c26d3c037f5339c2cc0a71e87864c1d7d39f0c672b278101e78303090b1f4",
+      "text_sha256": "b7d8effdb522289145bb8bdd920ec316f1612d317edc78f012342f278deece39",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3759851,
+      "module_number": 13,
+      "effective_path": "courses/86957/steps/877084/04_3759851_text.step",
+      "effective_file_sha256": "d56745276f640b67e4a3751b704db50b6e83d68c43e4caaa9ab2060021c34ec9",
+      "text_sha256": "10e15e16bc61ec22f86391979b5734c4e9313498893495881ea730e4eb21b77b",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3759914,
+      "module_number": 13,
+      "effective_path": "improvements/86957/theory-links-2026-11-23/steps/877084/05_3759914_text.step",
+      "effective_file_sha256": "05cc779762d34d04bc6f868aef4fa4e99ce34ef9527a414ee2ed8e72d2422583",
+      "text_sha256": "7a267abdeaa87a4f56d044863e13fcd571d637e56817e8ec12a33d5e8b80285d",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3759977,
+      "module_number": 13,
+      "effective_path": "courses/86957/steps/897987/01_3759977_text.step",
+      "effective_file_sha256": "a3d81ac01166fb3a5a9240add1e73b87b8b3dbf01c44312632cc97aa61c7b9fd",
+      "text_sha256": "1aeea84af3749a506321acd7ecdd0b9459369dd38649f4d452cdbf115b7947f8",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3760028,
+      "module_number": 13,
+      "effective_path": "courses/86957/steps/897987/02_3760028_text.step",
+      "effective_file_sha256": "90a9a0bd9435bdbdf7fd458d38e90d75b4166944b50170e2bc0d5b104909f0e7",
+      "text_sha256": "45dea563af4cfb5e867f55a5740385909e229ce8ef576216ab430dbb1b1fa242",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3760023,
+      "module_number": 13,
+      "effective_path": "courses/86957/steps/897987/03_3760023_text.step",
+      "effective_file_sha256": "0d7471afd4218826275be96dbf0ffeb20a0388beb26889a9518e58294cad8730",
+      "text_sha256": "0c2af19a919fdf007fd07a478d11a3e5de7d109c74cad300eb488d267bea57d3",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3760024,
+      "module_number": 13,
+      "effective_path": "courses/86957/steps/897987/04_3760024_text.step",
+      "effective_file_sha256": "495e8d56921323bef1f6df9418dcb74496bf9a5cbd1f69c56f34dcb0c4eabb1a",
+      "text_sha256": "f39672f4f20ace244d68c799630338d5190e4785d4c4db53d36a5db31898bebd",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3760025,
+      "module_number": 13,
+      "effective_path": "courses/86957/steps/897987/05_3760025_text.step",
+      "effective_file_sha256": "23691729031ea7771e08fe0b58b15259330540214dfbfad57d8cd63816b025e8",
+      "text_sha256": "d5f7694865174050306bdf10fc5d6ee0a453ceb5d2c4c20e2d37e3a6aebb1af5",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3760026,
+      "module_number": 13,
+      "effective_path": "courses/86957/steps/897987/06_3760026_text.step",
+      "effective_file_sha256": "811c69cdec727cfdb25ddcbe8c1de203ae216fdf868acea449a3227e45935de9",
+      "text_sha256": "1a649f18ca973199066c6039bf8d10cc2ea06c027571085cefd7cf1860d0869c",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3760027,
+      "module_number": 13,
+      "effective_path": "courses/86957/steps/897987/07_3760027_text.step",
+      "effective_file_sha256": "bb917b3b8153eb2d295900214f9ffe9d0928a836fc4029cefa5db55244a869bc",
+      "text_sha256": "3a89d909ced48f0429568b31163b974b60d14e57c6396662012a1b380bac7a0f",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3760029,
+      "module_number": 13,
+      "effective_path": "improvements/86957/theory-links-2026-11-23/steps/897987/08_3760029_text.step",
+      "effective_file_sha256": "7ac74567756953026b092f03d9aca2e4627b2701351b52549d2215a4927fd697",
+      "text_sha256": "bd7a38e85d7231e4263eef405a3a2144fa29eb32550fe39a6572580cd3f38659",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3760048,
+      "module_number": 13,
+      "effective_path": "courses/86957/steps/897987/09_3760048_text.step",
+      "effective_file_sha256": "01eec04d93b019983ceb85f8cba4afc51e993273fd557a4bbedf859b5efef1bc",
+      "text_sha256": "431d9b8f9fe3fe09b250cd5f7b3d2975cc8f79198ab0be2e86000aff591af223",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3760047,
+      "module_number": 13,
+      "effective_path": "courses/86957/steps/897987/10_3760047_text.step",
+      "effective_file_sha256": "4e95a7e240f9602fdcd436ecc0adf49173f75220ed164f0e77894109367c3b5f",
+      "text_sha256": "267071f050071688b7dfee827112428f47477532b8c8faa002d8753fe54dfe0f",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3569321,
+      "module_number": 14,
+      "effective_path": "courses/86957/steps/853532/01_3569321_text.step",
+      "effective_file_sha256": "98923c556808144d42bf8e081dca6b66c3e1319970f77b13c14c64fdd69666ce",
+      "text_sha256": "6ac41a60b86de51c7517caada30c641bc5bfe76ef99424fb350ac7759f06fe4c",
+      "pre_count": 0
+    },
+    {
+      "step_id": 3569891,
+      "module_number": 14,
+      "effective_path": "courses/86957/steps/853532/02_3569891_text.step",
+      "effective_file_sha256": "c704539b24feb11a56626195f6ef72db2fc87e0e3810c53693020bdfbd50ddb0",
+      "text_sha256": "c9f091d24bce8b5501a6879a130f90636353e30b1ae0b49d40c65f1f7371161a",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3569896,
+      "module_number": 14,
+      "effective_path": "courses/86957/steps/853532/03_3569896_text.step",
+      "effective_file_sha256": "871f7ac9a98aa9d9352ca0538a18a7b1feb1d5f4bf75b59c2df283de568d940d",
+      "text_sha256": "a775601104562aa695357bfaf8e6d81fdcac65c5d93f924e1e8fc270591b9e4c",
+      "pre_count": 0
+    },
+    {
+      "step_id": 3569323,
+      "module_number": 14,
+      "effective_path": "courses/86957/steps/853534/01_3569323_text.step",
+      "effective_file_sha256": "c382c403ac2cca7257ee8ce8a1d020038e58b6bb6e6a4944647df2cdb46c57e3",
+      "text_sha256": "77b7fc866683d2723fc70b189c07acafc96926eec77abc247414d8f18cc4898c",
+      "pre_count": 0
+    },
+    {
+      "step_id": 3569919,
+      "module_number": 14,
+      "effective_path": "courses/86957/steps/853534/02_3569919_text.step",
+      "effective_file_sha256": "6be4ca714d04379a97d0e55a61ef2b1cf4614c311ab774e7aee3621fa1256424",
+      "text_sha256": "d548cf2b5fe9ced807ccb8a9512b50c260e519cd65bc5be68c80d288f6ba02de",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3569324,
+      "module_number": 14,
+      "effective_path": "courses/86957/steps/853535/01_3569324_text.step",
+      "effective_file_sha256": "b58349aaae6f3ec0482513e89ca4067e1e62290ead9fe56d8bc5107817394928",
+      "text_sha256": "d7875e17a7b2fca2855669c61581f9ccaadf3da1b6aef4061e20b325829bb3c0",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3569932,
+      "module_number": 14,
+      "effective_path": "courses/86957/steps/853535/02_3569932_text.step",
+      "effective_file_sha256": "87dd63c0b5d80d66995bbfc73b856ba754a4e898d53c8188cd949d7f2fc31097",
+      "text_sha256": "f8ea16728ca47910874e97a3dc3cec7b3e06273a2a3c3f7fbff6ce8f279c5679",
+      "pre_count": 1
+    },
+    {
+      "step_id": 4040986,
+      "module_number": 14,
+      "effective_path": "courses/86957/steps/853535/03_4040986_text.step",
+      "effective_file_sha256": "b6fb699b465f217771c8f2e4ee7d91a268c01af5738385e6d82a419d591ec54b",
+      "text_sha256": "7aea8e9b8e6ed1909449cfea3bdf77d399604c073a4a357086a46d508da913fb",
+      "pre_count": 4
+    },
+    {
+      "step_id": 3569325,
+      "module_number": 15,
+      "effective_path": "improvements/86957/theory-links-2026-11-23/steps/853536/01_3569325_text.step",
+      "effective_file_sha256": "3a351e9d6dfc2ddadd651f2a947e06280d2e0dca796c311a92df236784cd4b11",
+      "text_sha256": "8ec5f0a9372b209ce2efc4057a044f1c2be0bfe067c91a1ebea034fb37a4159e",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3569964,
+      "module_number": 15,
+      "effective_path": "improvements/86957/theory-links-2026-11-23/steps/853536/02_3569964_text.step",
+      "effective_file_sha256": "6c4b3c10641846477e34cfcaf8814e293baa9014df8598a1ea372ead646c1e18",
+      "text_sha256": "22c5d38f1187e312bea2c43a5e8641323b47a4806bfd399185defb34874c1a0b",
+      "pre_count": 4
+    },
+    {
+      "step_id": 3569963,
+      "module_number": 15,
+      "effective_path": "improvements/86957/theory-links-2026-11-23/steps/853536/03_3569963_text.step",
+      "effective_file_sha256": "13e62d53a3ef3b2b372bb07ecd8bf7223f175e12e2b03d8c3e8bef22cbc5705f",
+      "text_sha256": "25a7dda65284ef20d317ded6c8c2abc5217a4d9e7b1540360bbcea9b31cfddc1",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3570166,
+      "module_number": 15,
+      "effective_path": "courses/86957/steps/853536/04_3570166_text.step",
+      "effective_file_sha256": "aaa684cf2b62fe5ba06b5866c3c377596cc3783be0f6c26a63638fa8de1b41ac",
+      "text_sha256": "44418fe6eca10b8b0857e9793c5c0595452f461c1fbff12fa60795a9d35505ea",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3569327,
+      "module_number": 15,
+      "effective_path": "improvements/86957/theory-links-2026-11-23/steps/853537/01_3569327_text.step",
+      "effective_file_sha256": "e4d605309c08d5576a4a5691ad387cec6d2b0873bdf7f52ec8556b2345fac1cd",
+      "text_sha256": "1c08514e0700c512a8094e7ba611534722a949f82ca53b10f5ca04655fd94551",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3570213,
+      "module_number": 15,
+      "effective_path": "courses/86957/steps/853537/02_3570213_text.step",
+      "effective_file_sha256": "cd6e981da24259ba5c0a34a3e06e9cf60aa44391338a5d9aff1794251b6e5a21",
+      "text_sha256": "288795d59a314abc145c9a8bde586f21c297259f127f6f9d725eec1f4a1006a5",
+      "pre_count": 3
+    },
+    {
+      "step_id": 4035497,
+      "module_number": 16,
+      "effective_path": "courses/86957/steps/973837/01_4035497_text.step",
+      "effective_file_sha256": "a5c2882c515bff4189f409ce9794709dc0ffe95227ec09fe32658c0cdd8d0a64",
+      "text_sha256": "112c220daf29bc964e1e9bcc70ec6c52e98dfac4600de9150a738bf5489d61d5",
+      "pre_count": 0
+    },
+    {
+      "step_id": 4035517,
+      "module_number": 16,
+      "effective_path": "improvements/86957/theory-links-2026-11-23/steps/973837/02_4035517_text.step",
+      "effective_file_sha256": "296bcb84d4821e7fb886735cf3dbcbaff929d30382159cd076437fcfae35a202",
+      "text_sha256": "4b4429783e53f3be1d8dc829726d17f5f294743dcc09208ae26df5e46604af0b",
+      "pre_count": 0
+    },
+    {
+      "step_id": 4035524,
+      "module_number": 16,
+      "effective_path": "courses/86957/steps/973842/01_4035524_text.step",
+      "effective_file_sha256": "9b72e7cea71a6bb2cabfbb4730dab6c180d2b81f46012b09925d7c99f916b48a",
+      "text_sha256": "570fdb64c37cb36cccf5a1b9b13e53b4ba53d254f719255a7c11c6a1c66b621a",
+      "pre_count": 0
+    },
+    {
+      "step_id": 4035562,
+      "module_number": 16,
+      "effective_path": "courses/86957/steps/973842/02_4035562_text.step",
+      "effective_file_sha256": "d1612fba0f54c774e04d17667ea6f4fe7fba7aa2abb93840ffe5f141c4fd0e16",
+      "text_sha256": "db08a310a7b5eec2f79671560c6a99afdd1a541b860d7ac8aee8436e2e3ea3c0",
+      "pre_count": 0
+    },
+    {
+      "step_id": 4035563,
+      "module_number": 16,
+      "effective_path": "courses/86957/steps/973842/03_4035563_text.step",
+      "effective_file_sha256": "2e1287a29ca290ff4f76225255a387d458784edaed171334e3185572f6cba954",
+      "text_sha256": "9dcb419f992d89b5237c4869e8a3a5c4dbe2a7bbe128bd42372ee5da16f3219f",
+      "pre_count": 1
+    },
+    {
+      "step_id": 4036909,
+      "module_number": 16,
+      "effective_path": "courses/86957/steps/973842/04_4036909_text.step",
+      "effective_file_sha256": "8795821bb101ab67a5c9724db98c1dd40f57a8bf51af24fd1d1d0931864b4106",
+      "text_sha256": "00a08b06a81b0f532fb1eb845e10b2fd91c52b3f6a8ba52fb8a665da2978e023",
+      "pre_count": 1
+    },
+    {
+      "step_id": 4047594,
+      "module_number": 16,
+      "effective_path": "courses/86957/steps/977027/01_4047594_text.step",
+      "effective_file_sha256": "db2ecdbe3fbbc053e5c00686de6a49581212f20de52233d0867cb3902e4c862d",
+      "text_sha256": "a9eb2e7e694700a99ada5dd3e8910976f957db1ba347b49ca7f0441818ba8120",
+      "pre_count": 0
+    },
+    {
+      "step_id": 4047616,
+      "module_number": 16,
+      "effective_path": "courses/86957/steps/977027/02_4047616_text.step",
+      "effective_file_sha256": "bac30c41f8de32fbb471068c6a01944a5562c44a9fd22bd896988b2f1e288ac0",
+      "text_sha256": "bcf9013e5fde0d145296d2c9800ba486abbaa7290b10af3dcd13af42bef3972b",
+      "pre_count": 1
+    },
+    {
+      "step_id": 4047627,
+      "module_number": 16,
+      "effective_path": "courses/86957/steps/977027/03_4047627_text.step",
+      "effective_file_sha256": "1a134149b3adbcbf8852b7c54f8abbdf7bd207166a5a39b9670dcc6ac2a33757",
+      "text_sha256": "370120a1edadd16db63448d77e16ed70d7477d3d714bc406de587644165e403e",
+      "pre_count": 1
+    },
+    {
+      "step_id": 4047680,
+      "module_number": 16,
+      "effective_path": "courses/86957/steps/977027/04_4047680_text.step",
+      "effective_file_sha256": "64022678e42fbd38ca7ff774bde0d0f2fe3d5682b2564a66142878b2121afad0",
+      "text_sha256": "3bf23b88a16fc17189838e266eeb7de443cf854e9d415009745b1f1df974aa42",
+      "pre_count": 1
+    },
+    {
+      "step_id": 4047681,
+      "module_number": 16,
+      "effective_path": "courses/86957/steps/977027/05_4047681_text.step",
+      "effective_file_sha256": "5a3f9da517e99a356ed045e8c109824714a7dd84bba458d80637cc9aca14ee43",
+      "text_sha256": "ea55dfd4f9ffb7ababc8dc9104ef2cbbafb7ab6a89ebe435ce7501ffa8e633ec",
+      "pre_count": 1
+    },
+    {
+      "step_id": 4047682,
+      "module_number": 16,
+      "effective_path": "courses/86957/steps/977027/06_4047682_text.step",
+      "effective_file_sha256": "78a18c508a60c3188fe0ab8a2dd5f4c128303aa3869d696c5f8d4dde6dc5b89f",
+      "text_sha256": "52db315387979522581def3fd5c78f00858422bac5ec6413f537dc3230c17e46",
+      "pre_count": 0
+    },
+    {
+      "step_id": 3569329,
+      "module_number": 17,
+      "effective_path": "courses/86957/steps/853539/01_3569329_text.step",
+      "effective_file_sha256": "4a1670263d9429f6643c06254ac79547f0b99296946cf7efcfed5f6326ba2487",
+      "text_sha256": "ccb2178e45e34a0807332695268b17b2a66973781164d5b2420f132039b2735d",
+      "pre_count": 0
+    },
+    {
+      "step_id": 3570230,
+      "module_number": 17,
+      "effective_path": "improvements/86957/theory-links-2026-11-23/steps/853539/02_3570230_text.step",
+      "effective_file_sha256": "dbec07a03f0f6cc55cb15cb55f33b485cb47cd91371f29d12923c447dd316ba9",
+      "text_sha256": "9a4b6a39e146e285c8af8b8754ccbefae79f9ee05931e92b42204d4a719a5aec",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3570231,
+      "module_number": 17,
+      "effective_path": "courses/86957/steps/853539/03_3570231_text.step",
+      "effective_file_sha256": "426dfbe8af113277cae5def43177d45f3a2a332b62a19e2ba9d24bf93290a839",
+      "text_sha256": "e5a11d1954fc53735c49ff2516f195573feee711c24884a44a663ad3dbb86fda",
+      "pre_count": 0
+    },
+    {
+      "step_id": 3569330,
+      "module_number": 17,
+      "effective_path": "courses/86957/steps/853540/01_3569330_text.step",
+      "effective_file_sha256": "d883f54230d59e49eb10671bf98cd7a7bbd0ccda4fe6d99e6c7c5a6202d0763d",
+      "text_sha256": "91c32017f2b7a6ddd875af01e4d8942fc4373c2ac4409882f8fffb0eb0fbce91",
+      "pre_count": 0
+    },
+    {
+      "step_id": 3570281,
+      "module_number": 17,
+      "effective_path": "courses/86957/steps/853540/02_3570281_text.step",
+      "effective_file_sha256": "d418f4fc4f0c5a05eacb720b96bd03d7285f4aa775b76c122f7112308fe5e1e1",
+      "text_sha256": "7b3f9fe4b5a104534d8902d217313bdbe802d91c4ac2a119569605e095e1e0c7",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3569332,
+      "module_number": 17,
+      "effective_path": "improvements/86957/theory-links-2026-11-23/steps/853541/01_3569332_text.step",
+      "effective_file_sha256": "b48beb3e4d998abf79a0bcf2b4ddb1bd79ef8cecfbd6ce8ed594426180facc61",
+      "text_sha256": "cec752d49e175877488646f61ca1018f41b888fdf8605b4d539eb6311294757f",
+      "pre_count": 0
+    },
+    {
+      "step_id": 3570303,
+      "module_number": 17,
+      "effective_path": "courses/86957/steps/853541/02_3570303_text.step",
+      "effective_file_sha256": "826d3b2d16a2cf0119f7f9381f8e5acca45920d8ab6f7af9cbb61ed75c2f44ec",
+      "text_sha256": "0c6b3327f49b7ecc00b37a5d3923b2d76b1b0a252248631f750d3cce33f4c108",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3570304,
+      "module_number": 17,
+      "effective_path": "improvements/86957/theory-final-review-2026-11-23/steps/853541/03_3570304_text.step",
+      "effective_file_sha256": "b4d28058e8508e0db1e4fbf96026fc00f935e58c4fc8e9f5f04d5e29d2d2ffca",
+      "text_sha256": "689d8656ecad45d010af543eb4ce85e3e575a37a398471b6b430ccc345358a66",
+      "pre_count": 8
+    },
+    {
+      "step_id": 3570333,
+      "module_number": 17,
+      "effective_path": "improvements/86957/theory-final-review-2026-11-23/steps/853541/04_3570333_text.step",
+      "effective_file_sha256": "2ac65e5fe9fabf8eef40fb907ac70da8dc16376b58de677e52f785a11c3e78fb",
+      "text_sha256": "47f96e029ca6ede23c2d33c5ffb82cf7096fc416aa28afa902385ad005df74e7",
+      "pre_count": 8
+    },
+    {
+      "step_id": 3570332,
+      "module_number": 17,
+      "effective_path": "courses/86957/steps/853541/05_3570332_text.step",
+      "effective_file_sha256": "ef3cea5463fb96efe28b61138b6479736eafa82b2d600e0e14bc20ab93f14b11",
+      "text_sha256": "24fe2b474069039d96021130749969eec0895f5fe80afbcc382e12f66e24fc70",
+      "pre_count": 1
+    },
+    {
+      "step_id": 4035439,
+      "module_number": 18,
+      "effective_path": "courses/86957/steps/973829/01_4035439_text.step",
+      "effective_file_sha256": "33a1e4b48001a5124a04aa1413c28f9cd6d0ca0e7c833c628b34793b86e6bee5",
+      "text_sha256": "9cd5dd7f4afb732e4f7d2a794d008396d96be3da6f5ec07b3f687bb80b1abf9b",
+      "pre_count": 0
+    },
+    {
+      "step_id": 4035461,
+      "module_number": 18,
+      "effective_path": "courses/86957/steps/973829/02_4035461_text.step",
+      "effective_file_sha256": "f6af7fb0d796a3db526886998853f2f6890da862c684c5e67c59dbab58aa2298",
+      "text_sha256": "a41293c205c7e89f4d7a09c02c76d273b4ac183ef5eaade72ce95ce5335f89a2",
+      "pre_count": 0
+    },
+    {
+      "step_id": 4035460,
+      "module_number": 18,
+      "effective_path": "courses/86957/steps/973829/03_4035460_text.step",
+      "effective_file_sha256": "a76e66aaabd4f1448217aefe78efa84a88e2e4526c3f22b37fe2c6a253dcbe21",
+      "text_sha256": "a6351f7fae974b945011c1e29f759a0a610e2246e74fb702278272911ed2c0c8",
+      "pre_count": 0
+    },
+    {
+      "step_id": 4035443,
+      "module_number": 18,
+      "effective_path": "courses/86957/steps/973831/01_4035443_text.step",
+      "effective_file_sha256": "01c2f4dc8eb44a14672ab25f051fd5f3e12f84223d239693a93747553cdb8dc4",
+      "text_sha256": "c10b6b600898e01d1e3e73fa03cfe5ba61bf54e024519a0e0123283a60cb2b2b",
+      "pre_count": 0
+    },
+    {
+      "step_id": 4035481,
+      "module_number": 18,
+      "effective_path": "improvements/86957/theory-links-2026-11-23/steps/973831/02_4035481_text.step",
+      "effective_file_sha256": "5d152e77161947c74113870beaa8484e90e02360d76004b48d476c82d851f927",
+      "text_sha256": "fbe0f8b1b7d16438fe62b51ac495f1c23f8f0ca0c374bb20cdf5f73b454b0a75",
+      "pre_count": 2
+    },
+    {
+      "step_id": 4035311,
+      "module_number": 19,
+      "effective_path": "courses/86957/steps/973816/01_4035311_text.step",
+      "effective_file_sha256": "9d89a98be479b27e8acdace7c632345859b2b1eeb8af9be46cc3de164707ef9c",
+      "text_sha256": "5b863f97b84a4f033525933a8722444f03a497c73fd7d17e433765ed230e3b07",
+      "pre_count": 3
+    },
+    {
+      "step_id": 4035416,
+      "module_number": 19,
+      "effective_path": "courses/86957/steps/973825/01_4035416_text.step",
+      "effective_file_sha256": "c68c7356dbcdc9e6d09fe2f3d63a60c32495c3c73f0f39c1ac5cf74fe4800a68",
+      "text_sha256": "ba7c1969bc91c483499cf6dcfa6154798df5178b476b012a997ac0138e57f70c",
+      "pre_count": 3
+    },
+    {
+      "step_id": 4035427,
+      "module_number": 19,
+      "effective_path": "courses/86957/steps/973825/02_4035427_text.step",
+      "effective_file_sha256": "f984e803072df98393c63ecc415ea1131d4807613b4c8d2f1aac3484621f4849",
+      "text_sha256": "bd487c17c863cd762d69d0df370b0dc199ddd086bc7b3d52fb2b0de17f3ebb12",
+      "pre_count": 3
+    },
+    {
+      "step_id": 4035417,
+      "module_number": 19,
+      "effective_path": "courses/86957/steps/973826/01_4035417_text.step",
+      "effective_file_sha256": "7d12e9af4ac44a8d633e6e22ab3d7e6aebe05e17281df171cc8b1d8cefbee644",
+      "text_sha256": "bece7ec958e4cf6999937aa83f14e2bb72252b68fe5c514b804904bd1b0f680f",
+      "pre_count": 0
+    },
+    {
+      "step_id": 4035430,
+      "module_number": 19,
+      "effective_path": "courses/86957/steps/973826/02_4035430_text.step",
+      "effective_file_sha256": "996f244e5a2046105f54298d953a6c31474925176f39851da58f9d9a7ceeab8c",
+      "text_sha256": "0bd2d33f5ea6cd4eaa189edc90867e6c341b45d3c59c4871f3987d246bb88cc0",
+      "pre_count": 3
+    }
+  ],
+  "blocks": [
+    {
+      "step_id": 3212955,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "f2c4155e66a7bb82f6c30fb0ff261b11348e88caa4df7f8237d589fb33295221",
+      "raw_pre_sha256": "3517f108b7efa2ca0373e3bed067328db3c6f474619589a347dace9520d150bb",
+      "line_count": 15,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/person.cpp",
+          "source_sha256": "e37d3dd7fe2951459dc8ef7f2918a2df584c403467b907758cce426173225e45",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "person.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3212955,
+      "pre_index": 2,
+      "kind": "output",
+      "decoded_sha256": "83c5d5ec29a7f13144711effa5f95849fbda16c7c68d677d7f19cb3c785b589f",
+      "raw_pre_sha256": "cc01b118a62ac52010f4295e37a801e6dc4fc3ac5a971bc451268a2cd2cc4a62",
+      "line_count": 2,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/person.cpp",
+          "source_sha256": "e37d3dd7fe2951459dc8ef7f2918a2df584c403467b907758cce426173225e45",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "person.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 3215231,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "2b6ee1e3efcae1ba357d6c45d64e2f3c90a3e5088fab328eaa63aa3505e45b5f",
+      "raw_pre_sha256": "2ae6479efe04f6c837ec47a05f8a82d929fffd7e9761d28b8ed79b90ad11ea9c",
+      "line_count": 15,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/aliases.cpp",
+          "source_sha256": "ef49c10254cd1655d2a27b952795c38c3d5f6b2adb68b65c55b02c2c0c50641a",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "aliases.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3215231,
+      "pre_index": 2,
+      "kind": "output",
+      "decoded_sha256": "97fe16fdfc31b10d72d92286c65239e3c15a94dfe8a7cb4c3e5b27911f9cf621",
+      "raw_pre_sha256": "676c4118bfd3be69725cac4c5dd9c980aff348b34a54829731b3111a55188edc",
+      "line_count": 1,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/aliases.cpp",
+          "source_sha256": "ef49c10254cd1655d2a27b952795c38c3d5f6b2adb68b65c55b02c2c0c50641a",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "aliases.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 3215231,
+      "pre_index": 3,
+      "kind": "fragment",
+      "decoded_sha256": "a4bbf37377b74e3712c1a01e513fdf2ac250f9519f3554569cf45ebbf3ff25ae",
+      "raw_pre_sha256": "b0fac8dd15696cb0f91d4ebff4c8da1e029072e05af3c887d54df556bf420ed4",
+      "line_count": 1,
+      "source_test_mapping": [],
+      "verification": "editorial_read_without_exact_compilation_binding"
+    },
+    {
+      "step_id": 3215231,
+      "pre_index": 4,
+      "kind": "fragment",
+      "decoded_sha256": "8173eb71fcb2d2a62c6846a557552a9b9f966afb1c0e8da602e4c3ebf0bb3a1a",
+      "raw_pre_sha256": "95358cc488fe3dc187a4949edc89db39bbf71dee62544c90bc641ab191aee585",
+      "line_count": 4,
+      "source_test_mapping": [],
+      "verification": "editorial_read_without_exact_compilation_binding"
+    },
+    {
+      "step_id": 3215234,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "d152f678cf4c49fe0fd7ae6c70636a318af1a2dfd6998e2fa5f0f674a3486212",
+      "raw_pre_sha256": "13c8a9f655e154299cb17013271607acaad5a88601a19544aeebd9aadf9265ea",
+      "line_count": 18,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/struct_pointer.cpp",
+          "source_sha256": "03f8fc55584ea8bb745d76712156fe2f524cbf8781679966cdd6b84f8953c4f4",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "struct_pointer.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3215234,
+      "pre_index": 2,
+      "kind": "output",
+      "decoded_sha256": "040b67846edbd15c189b930c837403fd7860405726eda47fc8d641766a05ed4c",
+      "raw_pre_sha256": "188e617027c960e1c319f28599268933f3c3eda099e496b6fed6df9fda1284e8",
+      "line_count": 2,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/struct_pointer.cpp",
+          "source_sha256": "03f8fc55584ea8bb745d76712156fe2f524cbf8781679966cdd6b84f8953c4f4",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "struct_pointer.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 3215232,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "b5ccca887dce806baaae3e3d6611a15c1d5d1051b0fe7b44edd4ceb77cd3f905",
+      "raw_pre_sha256": "885beacc3817dbbb680f3b58073a15fdeeebc5767a9ac04dbcb098a082786205",
+      "line_count": 16,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/layout.cpp",
+          "source_sha256": "bd12f3ba608e0189e476226cfc21c4b4a495abdce9cd69459b17536ef9553e76",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "layout.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3215233,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "de9c356c77c233468f3e8e9a772e3d149e221312f320ca11221b6075f466f6e9",
+      "raw_pre_sha256": "8213adc8b9e54386df791c84b888729d4679741fa600682747b9528da21401ac",
+      "line_count": 11,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/struct_convert.cpp",
+          "source_sha256": "dfa14a3f5a3a83f42e82b51df16f00d689c63819f509511f8c5fe6104e261cdd",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "struct_convert.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3215233,
+      "pre_index": 2,
+      "kind": "output",
+      "decoded_sha256": "3de6ef1be5dfb491e7d1f9d82ceabeb831b85815b47051ee0f93caf31d21c2cd",
+      "raw_pre_sha256": "cf29fbd82982c3dd215cc0fc399d08dbf347b432a0d2dee79850cb9fa1cb4153",
+      "line_count": 1,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/struct_convert.cpp",
+          "source_sha256": "dfa14a3f5a3a83f42e82b51df16f00d689c63819f509511f8c5fe6104e261cdd",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "struct_convert.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 3215235,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "f5c9570473779e66ebb8fb0de7eea0e979e3c41334a1caa685b9115e01010630",
+      "raw_pre_sha256": "30faf193c2d1f5a4f137d2e25190b12c18eaa2ff738b5042a8bc2e4c2ef1578b",
+      "line_count": 23,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/composition.cpp",
+          "source_sha256": "9bbfdb3362105eb0c7c9025a8d4889cedd1b3f715abc4f25cd731bed18d6e580",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "composition.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3215235,
+      "pre_index": 2,
+      "kind": "output",
+      "decoded_sha256": "0a73509a2296bf09fde1df8ffc862b4deff54bd119d8ed095d39baf050bf4365",
+      "raw_pre_sha256": "58d1f12e92ea707323a61737d87f47cd18c55c18fba93cd4c4cd444a9d58712e",
+      "line_count": 2,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/composition.cpp",
+          "source_sha256": "9bbfdb3362105eb0c7c9025a8d4889cedd1b3f715abc4f25cd731bed18d6e580",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "composition.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 3215236,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "e79c7ef09d50f0c44f11dd16963e91b595f3bf8abc05134c87b9b1b421145317",
+      "raw_pre_sha256": "ac47360214e25b6a27a158cb068a4cfe91015a25276230dc304c3451cbe8b9bf",
+      "line_count": 25,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/member_pointer.cpp",
+          "source_sha256": "edc7d72fb55ef2efacbc99ed28445cbc5976d0479f5acc00f554cab6a32776c8",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "member_pointer.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3215236,
+      "pre_index": 2,
+      "kind": "output",
+      "decoded_sha256": "16ca08ce551409e44ec4b3ade958bf10df6a5fe5fbb768ce52b8294bf0a1162b",
+      "raw_pre_sha256": "03c76cd4f59174ea7877f880f0a940a50e87289c0efb961f542f4aded3c7f9d6",
+      "line_count": 2,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/member_pointer.cpp",
+          "source_sha256": "edc7d72fb55ef2efacbc99ed28445cbc5976d0479f5acc00f554cab6a32776c8",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "member_pointer.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 3216509,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "50d525b774eace6cc0ee101334480ba42721153dfb0793fce800fd1825a351fa",
+      "raw_pre_sha256": "f92f22aa45ac70ee80423ba1cca6046942f90d218e659a4c116b2a830c4788d5",
+      "line_count": 15,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/bit_fields.cpp",
+          "source_sha256": "07ccf9f3a49d8f5ef4edcfe6b290271e7f82c5d2a1d58b8910bee9c2d882b87a",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "bit_fields.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3216509,
+      "pre_index": 2,
+      "kind": "output",
+      "decoded_sha256": "c931498d5b10cdb4634ba3608e574765aee7ac674375a91c5f63e59151d1143e",
+      "raw_pre_sha256": "912a2473e00fa4fd667d79d0313a69019b1694e52ff06001fc8e95cd6211f518",
+      "line_count": 2,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/bit_fields.cpp",
+          "source_sha256": "07ccf9f3a49d8f5ef4edcfe6b290271e7f82c5d2a1d58b8910bee9c2d882b87a",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "bit_fields.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 3212956,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "5fd2be8a476177446e70a4f3132c3f367a7c68a008ca18183255f0c3fa8d02b6",
+      "raw_pre_sha256": "0e9ceab1110c61131f0731b8b05bce33af8bf03d424844435eee36ddc2ec1489",
+      "line_count": 14,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/union_active.cpp",
+          "source_sha256": "e70b0ffbcbc5b42af4797b10188a444866a8281378259d77ac44623d88edea9d",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "union_active.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3212956,
+      "pre_index": 2,
+      "kind": "output",
+      "decoded_sha256": "c0b46d7ea05eca993cd32f2a732c734302bf139d57b8496d702cd4089e56846e",
+      "raw_pre_sha256": "f88293c4c4f046b4ea1ada8f173521dbbe9dabb67c4a549d06793de204a51211",
+      "line_count": 2,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/union_active.cpp",
+          "source_sha256": "e70b0ffbcbc5b42af4797b10188a444866a8281378259d77ac44623d88edea9d",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "union_active.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 3215243,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "a6cd292a17c951b0e7e51c884fa1f2494034e2666ceb2e23cfcac03f21244fe4",
+      "raw_pre_sha256": "a19ca433eca8cdabb23549929e2329124a5817626f0f373a8e96f8306a526ccb",
+      "line_count": 14,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/union_size.cpp",
+          "source_sha256": "aea8513118f501d4806ab1dda3bdb9872de8b44bc8a6a4eca687647f3f846789",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "union_size.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3215244,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "09be591021776372ad051a2473e619656a4f229bbf3a674ede2d99dd126d6c21",
+      "raw_pre_sha256": "3cf253aabb9ffe0dc02f709fda1346e8ca0acb4088bb8b1a56c6dc61a854cd34",
+      "line_count": 15,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/union_pointer.cpp",
+          "source_sha256": "0d2d59fe4b7e031c89a387f692947912bf2bbc754f1cf3dd601c137d6de54f96",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "union_pointer.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3215244,
+      "pre_index": 2,
+      "kind": "output",
+      "decoded_sha256": "74d1099a5accf05b3506e3a37d4a0429fbfd011b8e06f339ef110e3c66bbeb73",
+      "raw_pre_sha256": "c3fe803f79ccf49458a34d3ade6401433ec92c4867a5a5e3755d54cb5bc47ac1",
+      "line_count": 2,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/union_pointer.cpp",
+          "source_sha256": "0d2d59fe4b7e031c89a387f692947912bf2bbc754f1cf3dd601c137d6de54f96",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "union_pointer.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 3215242,
+      "pre_index": 1,
+      "kind": "fragment",
+      "decoded_sha256": "8240ec23c7ef1416e0c752153c9496478e9c6d307dee693a393ad6c10ff29167",
+      "raw_pre_sha256": "65f6a9bec5c47c662e8db67863df90795b1871a159bff271d294c8dfad2e8045",
+      "line_count": 8,
+      "source_test_mapping": [],
+      "verification": "editorial_read_without_exact_compilation_binding"
+    },
+    {
+      "step_id": 3215242,
+      "pre_index": 2,
+      "kind": "full_program",
+      "decoded_sha256": "212d7bbefce2d67ccd13f78ba626dd1136f430483e6a661ecc513cd4ddf46948",
+      "raw_pre_sha256": "f687ea0bb303572cb1d2289867e00d87a107814486659262cc6f203ebdc6b790",
+      "line_count": 19,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/variant.cpp",
+          "source_sha256": "32508218b61500fd82f9faff6e2a5af357ee32c44b3c9af4eedaff8bb9b1e821",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "variant.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3215242,
+      "pre_index": 3,
+      "kind": "output",
+      "decoded_sha256": "5d66e9c2d6b236a5e2f1f176e1575c4c11afa89254f3d5f6b92027f3da20e1ab",
+      "raw_pre_sha256": "5874af88e6213d68e2804a14078d70405398ce2eaf2d72bb687fc38ca3c30378",
+      "line_count": 4,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/variant.cpp",
+          "source_sha256": "32508218b61500fd82f9faff6e2a5af357ee32c44b3c9af4eedaff8bb9b1e821",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "variant.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 3668925,
+      "pre_index": 1,
+      "kind": "fragment",
+      "decoded_sha256": "86e0b8667c1eae805723bb1b15421f0a7f4ad4a132ca48b3ef4e9bae2d27a2ad",
+      "raw_pre_sha256": "f38758dbe9d6acf2b5d3cf3fd09efd1cea856724b204eaa95f80cdeecefd10ec",
+      "line_count": 7,
+      "source_test_mapping": [],
+      "verification": "editorial_read_without_exact_compilation_binding"
+    },
+    {
+      "step_id": 3669000,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "f21134bd85ac90ecd55a0ceaa2700c2c0e08b3f7f3e74339e10b3328940a3e3c",
+      "raw_pre_sha256": "412d7a9393f7fd01616a7b23b399491ddb809eb73bd099b37f35b691d351cc1c",
+      "line_count": 32,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/distance_input.cpp",
+          "source_sha256": "a5d36507027977d274046f71580d59abcd2690a933ee1fd4fa7bf6895ec551c4",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "distance_input.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3668999,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "bdd19eab60b666654f237875138cb4ff014c5a74fa6172f084efeb4d15df5efd",
+      "raw_pre_sha256": "5abbbd6077ad33156f8afacbacc4727fea02352117d86d5c78aff3316e78d2f9",
+      "line_count": 35,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/distance_constructor.cpp",
+          "source_sha256": "999fd6757fa5b78c6454807f98970551ba6ab805ae4a115203224ecc660e7190",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "distance_constructor.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3668999,
+      "pre_index": 2,
+      "kind": "output",
+      "decoded_sha256": "f4fbf8dec6a8cd32f75dcd70944b3672dca35bc08a4a1eced8a2cd638b8b7086",
+      "raw_pre_sha256": "cddec6d03ea2ede458909ffa65b4dd50672456c35e5b671c12bef7d80d62dc87",
+      "line_count": 3,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/distance_constructor.cpp",
+          "source_sha256": "999fd6757fa5b78c6454807f98970551ba6ab805ae4a115203224ecc660e7190",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "distance_constructor.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 3669075,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "bbefefad1b2330f5d9c667d15eb89d03450e1710320ddcf54a333727fdbb38d1",
+      "raw_pre_sha256": "1c3ae54a59ec34011412eab5a40fc9d958452376c97352b30e8196cba0b196e4",
+      "line_count": 25,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/lifetime.cpp",
+          "source_sha256": "cae0a25ae2e7c73647837b2e757fe3f54564f7655d2722f73d7b44b8a6dd4f74",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "lifetime.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3669075,
+      "pre_index": 2,
+      "kind": "output",
+      "decoded_sha256": "619e7ca21d13c6a5eb6caaea5ee3918eba8c1f2da7ab4de1c776d2c2a5e70cfc",
+      "raw_pre_sha256": "a0cef9fccf42c08891be1050054cd4c6c533e5e2df719842391d30aae3c70b69",
+      "line_count": 5,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/lifetime.cpp",
+          "source_sha256": "cae0a25ae2e7c73647837b2e757fe3f54564f7655d2722f73d7b44b8a6dd4f74",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "lifetime.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 3669089,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "18a16c4d48fd4f126c47305fd3342dbc5584599c5b29fc897daed0056b7bbc0f",
+      "raw_pre_sha256": "063583166371af7cc4895ed38bc0bfd947d58201660643ae90e415acb50dba05",
+      "line_count": 39,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/distance_external.cpp",
+          "source_sha256": "b294e9cee2d176e6b3715007cac5e80a57a1e8f0e06f6f999e3725fc8f37f353",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "distance_external.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3669089,
+      "pre_index": 2,
+      "kind": "output",
+      "decoded_sha256": "21c127226f44aeb60c374c1a36276c20c1d5fe792f0c40f41f77b34f4b86fc12",
+      "raw_pre_sha256": "79cca146a74b091fc43b486a5014c232d248d8f57a68a2a8b4f6c9617de351c4",
+      "line_count": 2,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/distance_external.cpp",
+          "source_sha256": "b294e9cee2d176e6b3715007cac5e80a57a1e8f0e06f6f999e3725fc8f37f353",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "distance_external.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 3669093,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "e7c3cb5c29ed2486fc9174898e370c5b81fe22ef00424a637eb551c37cd8e628",
+      "raw_pre_sha256": "ea668de0dffb2098c097a7b97b4aaab8c99d4f9677cd7129b645fcc11130ed49",
+      "line_count": 19,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/friend.cpp",
+          "source_sha256": "4399a51072594d9faa4f795f09b86126bbd058872078ec31105a363f5a6cc692",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "friend.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3669093,
+      "pre_index": 2,
+      "kind": "output",
+      "decoded_sha256": "a43f70bbdd267f9361cefb9635c6f291ca52d7f60d29ba1a6536ac2914f876bb",
+      "raw_pre_sha256": "a22dfe38e6bb7a6068369b89094b277ff759c9755030c6968c20cf3836a99c76",
+      "line_count": 1,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/friend.cpp",
+          "source_sha256": "4399a51072594d9faa4f795f09b86126bbd058872078ec31105a363f5a6cc692",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "friend.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 3668952,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "be27b38d0a1f7c253c937787a794fcbeab004712b52acf6a32bb9b707e25475b",
+      "raw_pre_sha256": "a8a3e325f9e41fa3788f0c1961270d346c287055f09498ecf5de6c193f1caaa4",
+      "line_count": 20,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/level.cpp",
+          "source_sha256": "6e8e08053987f1098b2fe119dfda218c70302b108a4b450699e0747ac3a9ff29",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "level.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3668952,
+      "pre_index": 2,
+      "kind": "output",
+      "decoded_sha256": "9ee26f36da55c60f03601f0d4bf020005184547b3a498a2f28fb967b1a8b12b9",
+      "raw_pre_sha256": "caacfad2a5398a114b5c77712ee3db023c9f422ed7c90c6ed9efac7fc1fb6a54",
+      "line_count": 3,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/level.cpp",
+          "source_sha256": "6e8e08053987f1098b2fe119dfda218c70302b108a4b450699e0747ac3a9ff29",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "level.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 3668953,
+      "pre_index": 1,
+      "kind": "fragment",
+      "decoded_sha256": "c34f594de4f5eb35899e0c517c686362f8e313713db88a17f6e815ee651b7611",
+      "raw_pre_sha256": "3792c5996bb67ee5018041ac686934be4379ed82c13f015a21f64820bd52c5a8",
+      "line_count": 3,
+      "source_test_mapping": [],
+      "verification": "editorial_read_without_exact_compilation_binding"
+    },
+    {
+      "step_id": 3668953,
+      "pre_index": 2,
+      "kind": "fragment",
+      "decoded_sha256": "b386b965c7ffc9c1b345b7fbe166c4d8a61d576d06c58bcc34ef2865906beec4",
+      "raw_pre_sha256": "44edf2139b7720a9261848b48be1ef10963c0f4ab2f8fb6bd05abeb1c74d885b",
+      "line_count": 5,
+      "source_test_mapping": [],
+      "verification": "editorial_read_without_exact_compilation_binding"
+    },
+    {
+      "step_id": 3669114,
+      "pre_index": 1,
+      "kind": "fragment",
+      "decoded_sha256": "f49c4bca3d38a61f2339010dd793e046485a4f39f33c6e325ea445e754d3c419",
+      "raw_pre_sha256": "084214e76f7fc3d12665235b2e4241b2b8174396b05b8d7f9f7253dbabdec5e9",
+      "line_count": 5,
+      "source_test_mapping": [],
+      "verification": "editorial_read_without_exact_compilation_binding"
+    },
+    {
+      "step_id": 3668977,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "31e0b01f55dbf13e895749f5b9805ffc8283068d1b76a623e32cc74059d5a910",
+      "raw_pre_sha256": "bc99548eb230a022b1536faf3033e2951da84a89130dda1df980fc5a71f94860",
+      "line_count": 17,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/objects.cpp",
+          "source_sha256": "942c6a13f3c408f59777dec85dc23e7f960c9a0f95ff8a3fa6a1760341a2f482",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "objects.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3668977,
+      "pre_index": 2,
+      "kind": "output",
+      "decoded_sha256": "572103606a8d8863ba8326ccb388c7ee0804d8b5ed2ef55030a64f3a8c6f8979",
+      "raw_pre_sha256": "879a8238308696e131334b3925faa4888ae3e79eee06b994216dafc217055da0",
+      "line_count": 2,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/objects.cpp",
+          "source_sha256": "942c6a13f3c408f59777dec85dc23e7f960c9a0f95ff8a3fa6a1760341a2f482",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "objects.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 3669121,
+      "pre_index": 1,
+      "kind": "fragment",
+      "decoded_sha256": "5551030ab16e8fc60c4605dd0bdcaec977fa5f3cf1e20cc40a7d095efb0af478",
+      "raw_pre_sha256": "917c12848cdb301d439e7ae8fec2476b514e596052d2f92199b35a85c660c1e3",
+      "line_count": 5,
+      "source_test_mapping": [],
+      "verification": "editorial_read_without_exact_compilation_binding"
+    },
+    {
+      "step_id": 3668927,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "4302f29981cf65b079a0c3e452e3dd972ec288eb2099190b63a19c3b494aa567",
+      "raw_pre_sha256": "54e1d0c2552796a7c5d493eca1a2833161a6554a5bf3c24922592c5b5ee687e5",
+      "line_count": 19,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/static_data.cpp",
+          "source_sha256": "b4a7376ae371ce5256bfdffb4b34b7502da37d1ac510f17c17235144cc3deaea",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "static_data.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3668927,
+      "pre_index": 2,
+      "kind": "output",
+      "decoded_sha256": "0ea033a4204937597a91c6ac368e2c210cffe4a9dad22b152479f40afe281c4d",
+      "raw_pre_sha256": "65fdb4a90d773c3578ef38210f6664e6e6f409ead6c8bc62d9d4d5371aafeeff",
+      "line_count": 3,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/static_data.cpp",
+          "source_sha256": "b4a7376ae371ce5256bfdffb4b34b7502da37d1ac510f17c17235144cc3deaea",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "static_data.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 3669140,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "8cd9b3bbec52b3c149557190c34327d6c67040e322dde6f0895b3fd8dd737875",
+      "raw_pre_sha256": "185c84aeba75062f72985c08295f24732134e8e58bfc43beceab9a9e4184294d",
+      "line_count": 37,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/const_methods.cpp",
+          "source_sha256": "755aadf51c4fa4fb0dd8fce551a3aa2454f889f6389783df77fe0ffd8e32b407",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "const_methods.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3669140,
+      "pre_index": 2,
+      "kind": "output",
+      "decoded_sha256": "e270843c73cae3e9b25850c13d641d68a4e676f6ec80a5a9d21eebe40fe354a3",
+      "raw_pre_sha256": "4e4c1349fe5db718118fe47567cebd9d44b9887d675a30a98449d3e2fa32f03b",
+      "line_count": 2,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/const_methods.cpp",
+          "source_sha256": "755aadf51c4fa4fb0dd8fce551a3aa2454f889f6389783df77fe0ffd8e32b407",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "const_methods.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 3669142,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "4b918e4b3a857ed0fe33cc2f0057bed9e867bfe38a1751f759df08059d9aefbd",
+      "raw_pre_sha256": "d77675bfd6c6b8205f883b4f079b3cb66b6211d23989a419386b559f7ae59903",
+      "line_count": 27,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/friend_member.cpp",
+          "source_sha256": "7a90109cdc34489f01f336e9a375055e8e1bbe5c40fc02ec57eb8e4073121b26",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "friend_member.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3669142,
+      "pre_index": 2,
+      "kind": "output",
+      "decoded_sha256": "3b2dc1a9da443526cb854f57179ecf3bcfca1a614a43b8d8673172c385802268",
+      "raw_pre_sha256": "bbc964b583ce1ed6331fb318098c11558975deda86cfb8a19ad3bc07e0b2fbbd",
+      "line_count": 1,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/friend_member.cpp",
+          "source_sha256": "7a90109cdc34489f01f336e9a375055e8e1bbe5c40fc02ec57eb8e4073121b26",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "friend_member.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 3669156,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "24be9661c68d9a8de0ccc26bd3a7265092708d52a7596843d09e6d6d1b8a9668",
+      "raw_pre_sha256": "c58c151fd257ef03d1c950fed85bb0e8a8c7c9dfa6332907e71cfece26dc8286",
+      "line_count": 32,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/distance_copy.cpp",
+          "source_sha256": "1c90363ad90fe549f51758e1e31991bb8ee9a5615c07ff0b2d899001fc8a503b",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "distance_copy.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3669156,
+      "pre_index": 2,
+      "kind": "output",
+      "decoded_sha256": "5ab456d3eb7828d950e9dadd60314f9a4548b49223099229ececed527417c217",
+      "raw_pre_sha256": "927c1bedd69e38bbf8d99771009c54be43a380c1e236f7ef09431ab087f1d9fa",
+      "line_count": 1,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/distance_copy.cpp",
+          "source_sha256": "1c90363ad90fe549f51758e1e31991bb8ee9a5615c07ff0b2d899001fc8a503b",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "distance_copy.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 3669173,
+      "pre_index": 1,
+      "kind": "fragment",
+      "decoded_sha256": "69dd38e000e699bfc75520a97e0165455e5f32cbc8392f39c6297e535f7962a5",
+      "raw_pre_sha256": "2fe255fdf5fbbde9d22e3d366d05a952a3cfa1991cfebd8791748fcde4dc6d22",
+      "line_count": 12,
+      "source_test_mapping": [],
+      "verification": "editorial_read_without_exact_compilation_binding"
+    },
+    {
+      "step_id": 3669172,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "26f902329a25d2cefad8937fcf4b0ee4674a622b76397fb85915da0bfdb40408",
+      "raw_pre_sha256": "05670bdbffe0eccb7319fb27cf310460447290c5a2be0c49c8f92086609aa041",
+      "line_count": 44,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/cards.cpp",
+          "source_sha256": "566108819c1dd5e13a1423d09b7b5ff934313266ea8dd3a972155f183e1049b4",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "cards.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3669172,
+      "pre_index": 2,
+      "kind": "output",
+      "decoded_sha256": "d378ed77b7df2744eb32b74e62cb9152bbee2c0d9de97cd178cfa70f9be98208",
+      "raw_pre_sha256": "138d11567498cb2cee8d1234c68b01637c09213a61416c8c75e863f9ffc26b21",
+      "line_count": 4,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/cards.cpp",
+          "source_sha256": "566108819c1dd5e13a1423d09b7b5ff934313266ea8dd3a972155f183e1049b4",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "cards.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 3668928,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "799ac9e9db655caeacb933e9d567a7bcd3fc17f7c2a4b981c8512a9ff28f59b9",
+      "raw_pre_sha256": "fc5c0aa8bf0e630c03fb7d01af7841b514673eddad8ba865bd68321a0ea653e2",
+      "line_count": 28,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/inheritance.cpp",
+          "source_sha256": "65be22aaf32db58c3088d29784b87750069fd0c09b57f2488fc8e2139dd4a1f6",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "inheritance.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3668928,
+      "pre_index": 2,
+      "kind": "output",
+      "decoded_sha256": "fa6b6b63216d395c318473cecad3ebcc0f14db764b8928ef0ef3963828007a84",
+      "raw_pre_sha256": "5dd6bd6788621f440b4f3b5723d64869b5f743a677c6ae443b01fb7281d22c55",
+      "line_count": 2,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/inheritance.cpp",
+          "source_sha256": "65be22aaf32db58c3088d29784b87750069fd0c09b57f2488fc8e2139dd4a1f6",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "inheritance.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 3759849,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "9843aab5ae3cf4b87e014e62d0ed66fdb20eff5c46d2399fd6b9f9733f931298",
+      "raw_pre_sha256": "ac74846af3bf1e21129845815ab11e1d59d85c7195436eec6079bb25b6e17800",
+      "line_count": 31,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/virtual_base.cpp",
+          "source_sha256": "55ca0cc1a3deb71dd08579c790f7749bce2bb124619681d22211cc0e4a13c3db",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "virtual_base.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3759849,
+      "pre_index": 2,
+      "kind": "output",
+      "decoded_sha256": "27d4671391fdf2a174080908836256f64a5f7e0c689af1f3e19f73c1a7313f9e",
+      "raw_pre_sha256": "5506142a1515530c573b67daa29542ac2a7ac3617636da58e4b212c2abdb0419",
+      "line_count": 3,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/virtual_base.cpp",
+          "source_sha256": "55ca0cc1a3deb71dd08579c790f7749bce2bb124619681d22211cc0e4a13c3db",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "virtual_base.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 3759850,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "b1b3682f537049ad9697db35988b5c8ae109e49163eeb0d37700e8386c195c4e",
+      "raw_pre_sha256": "02b28906263e4a7754d6400cb203c0b54d8d8ac5896742625010effbfe1ec964",
+      "line_count": 38,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/construction_order.cpp",
+          "source_sha256": "48dc8df28f064b7c7104d5a9320a26705edb57396e8ef5a9be07064531e34a1e",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "construction_order.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3759850,
+      "pre_index": 2,
+      "kind": "output",
+      "decoded_sha256": "5bcf07b6a83ee756d5639629d94275ca3d97e5239cc00eb30ac3e6dba43d1eec",
+      "raw_pre_sha256": "6e31308c0df1ec6a9247f3a597e43be1226f3b04d8b59f05b0c2981d729b994a",
+      "line_count": 17,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/construction_order.cpp",
+          "source_sha256": "48dc8df28f064b7c7104d5a9320a26705edb57396e8ef5a9be07064531e34a1e",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "construction_order.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 3759851,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "59b5f4ea2891c6cc8b6dcd957e5ed60444defdb44dc7ae6161dc49b89b330864",
+      "raw_pre_sha256": "028c9f6982265dcd87f25f8780a315ef7167fee1f455635443ccb6ebfe2dc134",
+      "line_count": 25,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/base_view.cpp",
+          "source_sha256": "684129b5a1a4558c0a228472cac3401323dff131ea98406f2b55ae51f7babb11",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "base_view.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3759851,
+      "pre_index": 2,
+      "kind": "output",
+      "decoded_sha256": "64739ca1a95a7f17d69606b4c68a1a6f7f9f3327ae303f78f4caba8367806f95",
+      "raw_pre_sha256": "65c9fcc4acb3f01639e94a4dfdf8f787c3a824a649eff69151746223c8add8c1",
+      "line_count": 3,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/base_view.cpp",
+          "source_sha256": "684129b5a1a4558c0a228472cac3401323dff131ea98406f2b55ae51f7babb11",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "base_view.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 3759914,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "ec3ad3a01012c0b2979bf507afe7cdbb7e469f962f472e91b82e98fb35c72935",
+      "raw_pre_sha256": "9ad414940cfdb3cd076871295052d1f0229e639621023b389711f65106135205",
+      "line_count": 36,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/abstract.cpp",
+          "source_sha256": "f68c453160803d3e13cc50d919f0c6fd0438773eba9a2407405828c891fec0c9",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "abstract.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3759914,
+      "pre_index": 2,
+      "kind": "output",
+      "decoded_sha256": "9d46cb70ed521327697753e42e0d9597afd9162fef9158a85a465fd3b29929d3",
+      "raw_pre_sha256": "fd7bb688db526bf12598e9324a96dbf75845a2f566e902776a0cb785dad36b35",
+      "line_count": 2,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/abstract.cpp",
+          "source_sha256": "f68c453160803d3e13cc50d919f0c6fd0438773eba9a2407405828c891fec0c9",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "abstract.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 3759977,
+      "pre_index": 1,
+      "kind": "fragment",
+      "decoded_sha256": "b788f4663a414340a705d55b8460bc354162cddf922a67c387b89ad48752c07b",
+      "raw_pre_sha256": "7436ff1db20ce66c6dc086adbd27f2980060a580bda6a7f7d7d7b03d318fb7b5",
+      "line_count": 3,
+      "source_test_mapping": [],
+      "verification": "editorial_read_without_exact_compilation_binding"
+    },
+    {
+      "step_id": 3760028,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "052cc0b57578008bba8804d6eeb812e215ec3f41154fae91095e71ca0d6a6a3f",
+      "raw_pre_sha256": "0058d57b5432531216e4f314c874453a166087417a6b0fa83b5beb71857ffc52",
+      "line_count": 28,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/counter_prefix.cpp",
+          "source_sha256": "66a6ab6f0b6188dee053adcf4660f44d738119e097175bf73dba79a00adbd83b",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "counter_prefix.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3760028,
+      "pre_index": 2,
+      "kind": "output",
+      "decoded_sha256": "f71998fe363b9c29116c80b5eecf33a2fedca3b6159724384485804b71651029",
+      "raw_pre_sha256": "b31c965d2c3d9b2021941aa5d8d6b02f91eefeab6170320c234810e39e2d88fc",
+      "line_count": 1,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/counter_prefix.cpp",
+          "source_sha256": "66a6ab6f0b6188dee053adcf4660f44d738119e097175bf73dba79a00adbd83b",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "counter_prefix.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 3760023,
+      "pre_index": 1,
+      "kind": "fragment",
+      "decoded_sha256": "f5bb5d89828f53825554f94bd5b48887061f7c73e0ee640e1fc12bda774399be",
+      "raw_pre_sha256": "ae20d5b550332bf311a4e83bc34c31a71f97250bca025c29ca1ff2eff6d1cb13",
+      "line_count": 3,
+      "source_test_mapping": [],
+      "verification": "editorial_read_without_exact_compilation_binding"
+    },
+    {
+      "step_id": 3760024,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "cd883c5f47827a07404a1f8024d8123d1e0b79823857798e4e428e5dbc25f49f",
+      "raw_pre_sha256": "c096b2901349cb7741d63a3034fb081c72f207f0f865d4f09d64d36efd2a6f6f",
+      "line_count": 29,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/counter_reference.cpp",
+          "source_sha256": "79787348a8ab0612cb750df7580519a8b0dbb1dc51f8e1109427bd792c490059",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "counter_reference.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3760024,
+      "pre_index": 2,
+      "kind": "output",
+      "decoded_sha256": "acab0793be3dd17f9f8b18f59173e58b806ddae4e35267ed7aa377f0f889e5d6",
+      "raw_pre_sha256": "293bd1e2c9b40edd36d01dc7b0b63a037defb61fd033cb2d7854eaf676b4892d",
+      "line_count": 2,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/counter_reference.cpp",
+          "source_sha256": "79787348a8ab0612cb750df7580519a8b0dbb1dc51f8e1109427bd792c490059",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "counter_reference.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 3760025,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "60b5c55e85e21db8acf0be9c9cb12670ddc80601ed321dc59e03fcfc9de1ab11",
+      "raw_pre_sha256": "6f9d4ccd464f103d27d010c3a62660517c443af470eb51321deb9a70c52c9101",
+      "line_count": 19,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/temporary.cpp",
+          "source_sha256": "63e9ba569d289e13d68f46ffda7a018be2bcb6d8da05a96b26c301c54545cc3c",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "temporary.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3760025,
+      "pre_index": 2,
+      "kind": "output",
+      "decoded_sha256": "202a2574485b24b97441634b6810c456fdb76614f02bbb1317f000a0fd248467",
+      "raw_pre_sha256": "e0c862a2e5aa9f4360e35fe03a756ed696f1fbc5f4dfb62b1fb29241fa238484",
+      "line_count": 1,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/temporary.cpp",
+          "source_sha256": "63e9ba569d289e13d68f46ffda7a018be2bcb6d8da05a96b26c301c54545cc3c",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "temporary.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 3760026,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "4b98f7c39a23c99243dffa6e103a94940ea917c0b4911dffdc0d19db68bb917f",
+      "raw_pre_sha256": "cc7489501ae99e60abe7ff4e342a95bc1e2e657ca3df992b3c6a914564954456",
+      "line_count": 33,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/counter_postfix.cpp",
+          "source_sha256": "3a2b29b92060b9aaea2cf4d5962fc6fd4785c28bdfae7395f28eeb2f41696d4b",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "counter_postfix.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3760026,
+      "pre_index": 2,
+      "kind": "output",
+      "decoded_sha256": "be417fad9f739c95814e8070079741ddef383326d830301c9287397217929dde",
+      "raw_pre_sha256": "b42ec4c8a34d91b39ed01e0e1e678433ef4d367d90cd1bc29ec4b67ecaa0cb48",
+      "line_count": 1,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/counter_postfix.cpp",
+          "source_sha256": "3a2b29b92060b9aaea2cf4d5962fc6fd4785c28bdfae7395f28eeb2f41696d4b",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "counter_postfix.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 3760027,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "090cad61b43fc4878152ed37c8f2e11a76446da0f7938c8527da468a3e1171c5",
+      "raw_pre_sha256": "512e60e30e7ac084f0d77ceebc79909ea036fd67f063d3dfc42eca933f155113",
+      "line_count": 43,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/distance_plus.cpp",
+          "source_sha256": "db03f2603a77f01120a8932fdc1678d26c1887511f35894099d1a131d7aa0b6f",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "distance_plus.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3760027,
+      "pre_index": 2,
+      "kind": "output",
+      "decoded_sha256": "419bfc83977a79b9c069565c4ca9f9781c1c7730196a1109203d15035a2a7ca4",
+      "raw_pre_sha256": "4d9ef5b64ca398a81ec1363bac91d3f435c6879c45effde84f7c993365656e0f",
+      "line_count": 3,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/distance_plus.cpp",
+          "source_sha256": "db03f2603a77f01120a8932fdc1678d26c1887511f35894099d1a131d7aa0b6f",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "distance_plus.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 3760029,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "0efb662157180f3a7acb1c0bb25de29db3cbb03f7ef3d2edb163e86e662132a0",
+      "raw_pre_sha256": "4c5bdfdbeddc621a80b8099e3b2c4d15aff2e4e3fd873abee94e28a0d8e80bdf",
+      "line_count": 41,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/distance_compare.cpp",
+          "source_sha256": "1e1108a10df8c0af07c963d34eb057d05e74654b8b4517850742cf28d532298e",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "distance_compare.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3760029,
+      "pre_index": 2,
+      "kind": "output",
+      "decoded_sha256": "b09e390144bdb987057ea1e032bd40ba7d9242ccf8b7818e31cabb72239c64af",
+      "raw_pre_sha256": "da3ac673b5f2a568158f6da01f9c6b77c115915066e668313d4805b036d068f8",
+      "line_count": 2,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/distance_compare.cpp",
+          "source_sha256": "1e1108a10df8c0af07c963d34eb057d05e74654b8b4517850742cf28d532298e",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "distance_compare.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 3760048,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "9c8dc8d6126dd98053fea4dcfa25aab7379235b3930d951c4e49ce0a4c1c9e48",
+      "raw_pre_sha256": "39c24662cd2a092882a3c4142043b69185497f53598cf63b841df450194132f3",
+      "line_count": 63,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/distance_assign.cpp",
+          "source_sha256": "c437f14b407b78d4be8cfd54b690eac4fb6739e605843c34e3cd4d5571c9436c",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "distance_assign.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3760048,
+      "pre_index": 2,
+      "kind": "output",
+      "decoded_sha256": "b6046cf3293dbb2e57a2f41b0d06b7652c80ac34ff3c7e52d04f215bd76a0848",
+      "raw_pre_sha256": "fb89110c1bbf513df470bbe45cd44938c10066db403848185801ec63605cd5d0",
+      "line_count": 4,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/distance_assign.cpp",
+          "source_sha256": "c437f14b407b78d4be8cfd54b690eac4fb6739e605843c34e3cd4d5571c9436c",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "distance_assign.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 3760047,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "e666d2fc22fc7fe31e288aa676d74399de0d8052f2202f78b70b5e1f8119df07",
+      "raw_pre_sha256": "78607bf7466395a1d5e994fa0e751bbce546fccd576627f86f7abbcf42369f77",
+      "line_count": 30,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/checked_array.cpp",
+          "source_sha256": "aaf9b70931fe5d4e9e11a6d12c47ed7381b33804f113d271da1fecf322b3e1aa",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "checked_array.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3760047,
+      "pre_index": 2,
+      "kind": "output",
+      "decoded_sha256": "83665d59f74c427b0dfd3b5aab0e177cbe7d77c605a7c99f7a71d0570526ddd9",
+      "raw_pre_sha256": "a037868a95fb104319de3e14fe2ca4a430d35967aa785dcdd96faf4c957397fd",
+      "line_count": 3,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/checked_array.cpp",
+          "source_sha256": "aaf9b70931fe5d4e9e11a6d12c47ed7381b33804f113d271da1fecf322b3e1aa",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5",
+          "tested_translation_units": [
+            "checked_array.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 3569891,
+      "pre_index": 1,
+      "kind": "fragment",
+      "decoded_sha256": "2bca2ae829c7f43d0f8d86ab133de73638aabac9d263728b0e75197fbdc2d323",
+      "raw_pre_sha256": "049a1618a35d61c33ebc83345b74ef2bf233de3e06e84adc31beeff32565f5c0",
+      "line_count": 5,
+      "source_test_mapping": [],
+      "verification": "editorial_read_without_exact_compilation_binding"
+    },
+    {
+      "step_id": 3569919,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "e16354389ddfce2d0bae6d8a86dad00a75808e3bb0ea40a9d6a0741ed064ed82",
+      "raw_pre_sha256": "1c8b1eda925322b17b0631edccd1e4a5ac09c4905d266be984b326e5cd8a58c9",
+      "line_count": 22,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5b/reference_overloads.cpp",
+          "source_sha256": "e16354389ddfce2d0bae6d8a86dad00a75808e3bb0ea40a9d6a0741ed064ed82",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5b",
+          "tested_translation_units": [
+            "reference_overloads.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3569919,
+      "pre_index": 2,
+      "kind": "output",
+      "decoded_sha256": "663252566799f77b91b99890a6684cbb63bcbc95c8d1f631866b4b523b0984ac",
+      "raw_pre_sha256": "1986742021fc90725c684d8e7dc8aa7010bf4d68d592a903de0c94ba6cc06e6c",
+      "line_count": 6,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5b/reference_overloads.cpp",
+          "source_sha256": "e16354389ddfce2d0bae6d8a86dad00a75808e3bb0ea40a9d6a0741ed064ed82",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5b",
+          "tested_translation_units": [
+            "reference_overloads.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 3569324,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "1b9109d25a4e94124fb14826cede56911204fc18657bf7561af14ee115329b16",
+      "raw_pre_sha256": "50564d78f18d8352c9c218e89318884a00ef39356540dc334e4442113df39512",
+      "line_count": 19,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5b/copy_value.cpp",
+          "source_sha256": "1b9109d25a4e94124fb14826cede56911204fc18657bf7561af14ee115329b16",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5b",
+          "tested_translation_units": [
+            "copy_value.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3569324,
+      "pre_index": 2,
+      "kind": "output",
+      "decoded_sha256": "a10087a52e7d0ed1143d22655150c11d1dbe299474cf015ce29bbc2217f3808a",
+      "raw_pre_sha256": "8f34f32128a360505b70c5bf3af8f4d0686785bc7df7e7f5a491c7c795ed9dc1",
+      "line_count": 2,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5b/copy_value.cpp",
+          "source_sha256": "1b9109d25a4e94124fb14826cede56911204fc18657bf7561af14ee115329b16",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5b",
+          "tested_translation_units": [
+            "copy_value.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 3569932,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "3a66bae83d42343d5c5d5dd071bddb0a99e39f645b6f0b62717987a576a7ab47",
+      "raw_pre_sha256": "e80010ae9122ef37bcad7ea600aa5ec00a0aeb983b7fb1dc9a7f87ae95e0a583",
+      "line_count": 17,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5b/guaranteed_elision.cpp",
+          "source_sha256": "3a66bae83d42343d5c5d5dd071bddb0a99e39f645b6f0b62717987a576a7ab47",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5b",
+          "tested_translation_units": [
+            "guaranteed_elision.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 4040986,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "49a2c54f0cf1bc78220ca9c52e8aa09d502ffd895577faf3dafd29b83e784fc0",
+      "raw_pre_sha256": "495f84db6fe248d4f3abdaea10dc20cabcce55d5288dc85b5f18d369a4c0f0b0",
+      "line_count": 22,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5b/rule_zero.cpp",
+          "source_sha256": "49a2c54f0cf1bc78220ca9c52e8aa09d502ffd895577faf3dafd29b83e784fc0",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5b",
+          "tested_translation_units": [
+            "rule_zero.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 4040986,
+      "pre_index": 2,
+      "kind": "output",
+      "decoded_sha256": "9fa269fe003d01b26c0d27976b30d3909caf472b14d5456604f9115b84bf2551",
+      "raw_pre_sha256": "1342cb75453a28e7c8d43fbdd5adf6fe2ca504fb465deeca08265afab45ea8c6",
+      "line_count": 3,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5b/rule_zero.cpp",
+          "source_sha256": "49a2c54f0cf1bc78220ca9c52e8aa09d502ffd895577faf3dafd29b83e784fc0",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5b",
+          "tested_translation_units": [
+            "rule_zero.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 4040986,
+      "pre_index": 3,
+      "kind": "full_program",
+      "decoded_sha256": "05508916a4813d7128a02757ae11c7a1f57e0eb7bc3d303b4f5d2be563356eeb",
+      "raw_pre_sha256": "ae62fd1d755f00d8ce85f337fa8811cd4c4d3e98174e957fec6e01191a4758da",
+      "line_count": 24,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5b/forwarding.cpp",
+          "source_sha256": "05508916a4813d7128a02757ae11c7a1f57e0eb7bc3d303b4f5d2be563356eeb",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5b",
+          "tested_translation_units": [
+            "forwarding.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 4040986,
+      "pre_index": 4,
+      "kind": "output",
+      "decoded_sha256": "bc9701572806834abf9b8c1321c81d4ef4e93842b336a882ceb1e097c16e3d53",
+      "raw_pre_sha256": "3b4ee1cb3581a7c50d87d802e37fcb4987cf8c0d18b94ff80b0fe32a2fdac32f",
+      "line_count": 4,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5b/forwarding.cpp",
+          "source_sha256": "05508916a4813d7128a02757ae11c7a1f57e0eb7bc3d303b4f5d2be563356eeb",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5b",
+          "tested_translation_units": [
+            "forwarding.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 3569325,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "9fe6c046b4d32c3975664e3fb844c32867eee37a25a4dd421f29b0d0c1d3eda0",
+      "raw_pre_sha256": "9b704273563b88b2140ff057f3a083f841713f5cb997b547b0b2166d92a864d3",
+      "line_count": 12,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5b/storage_duration.cpp",
+          "source_sha256": "9fe6c046b4d32c3975664e3fb844c32867eee37a25a4dd421f29b0d0c1d3eda0",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5b",
+          "tested_translation_units": [
+            "storage_duration.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3569325,
+      "pre_index": 2,
+      "kind": "fragment",
+      "decoded_sha256": "452afa6b82875813f1e025a6dcfe2a67594db236f6d4efc5cd1bd372ae24cae7",
+      "raw_pre_sha256": "c469615f08a40c7f7c47984810b65a7f6e3fcf6dbb06a9a51212440cab62df23",
+      "line_count": 8,
+      "source_test_mapping": [],
+      "verification": "editorial_read_without_exact_compilation_binding"
+    },
+    {
+      "step_id": 3569964,
+      "pre_index": 1,
+      "kind": "fragment",
+      "decoded_sha256": "8536cba33fca0b78e61378e10fbbd1b5692b113637736b468d4444c84102eac0",
+      "raw_pre_sha256": "222e1bdd95530f47150583f2d7c17800ecc56b4698f70899d5f5aaa57ec0c014",
+      "line_count": 6,
+      "source_test_mapping": [],
+      "verification": "editorial_read_without_exact_compilation_binding",
+      "execution_policy": "Do not execute the deliberately leaking raw-pointer fragment."
+    },
+    {
+      "step_id": 3569964,
+      "pre_index": 2,
+      "kind": "full_program",
+      "decoded_sha256": "12837994e3bc8021c1aa454769da640b3b0e81aceb1609db11cc43f9870f22a1",
+      "raw_pre_sha256": "70bcbbad4422b8e17c9b95533864cb5f30dffd887be44139086fac1064442a02",
+      "line_count": 48,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5b/raii.cpp",
+          "source_sha256": "12837994e3bc8021c1aa454769da640b3b0e81aceb1609db11cc43f9870f22a1",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5b",
+          "tested_translation_units": [
+            "raii.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3569964,
+      "pre_index": 3,
+      "kind": "output",
+      "decoded_sha256": "5aa7ffe31d0b773949bb6aeea88c6df150ceb97505b20a8d2ea40c411d0e1e0f",
+      "raw_pre_sha256": "7b552564395e69cba0a305c70de8066ffd7d2b0edd7beed9bf7c10314b412783",
+      "line_count": 6,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5b/raii.cpp",
+          "source_sha256": "12837994e3bc8021c1aa454769da640b3b0e81aceb1609db11cc43f9870f22a1",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5b",
+          "tested_translation_units": [
+            "raii.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 3569964,
+      "pre_index": 4,
+      "kind": "output",
+      "decoded_sha256": "03b941fb21a989954fcca3123548489d3204397dd8112b95de6ee4f8cc125752",
+      "raw_pre_sha256": "6a6a805a80d341f76cfd249f27133e3d1610a0a672328807ab32062961444ea1",
+      "line_count": 6,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5b/raii.cpp",
+          "source_sha256": "12837994e3bc8021c1aa454769da640b3b0e81aceb1609db11cc43f9870f22a1",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5b",
+          "tested_translation_units": [
+            "raii.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 3569963,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "3fb66091fd4ea4d53cf341a35b423611839d63d3017cda68873e10c3eab043dd",
+      "raw_pre_sha256": "b8345a4e7226f69c8c5b075b58747a28f9c67463025dba6251da5f2f82d37080",
+      "line_count": 30,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5b/unique_access.cpp",
+          "source_sha256": "3fb66091fd4ea4d53cf341a35b423611839d63d3017cda68873e10c3eab043dd",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5b",
+          "tested_translation_units": [
+            "unique_access.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3569963,
+      "pre_index": 2,
+      "kind": "output",
+      "decoded_sha256": "fff71efbe56e9edc6822112ca71b9f7286dafeee451f1815c8af3928898f3565",
+      "raw_pre_sha256": "52aa3604adcf19c60f05f80bfbace24287621cf7bcd740ab96d2762f5a10e0e5",
+      "line_count": 5,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5b/unique_access.cpp",
+          "source_sha256": "3fb66091fd4ea4d53cf341a35b423611839d63d3017cda68873e10c3eab043dd",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5b",
+          "tested_translation_units": [
+            "unique_access.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 3570166,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "71e0179ea7104c1a25a4b2ad6807e4a4b809b0dd6b8c1d08df3a8140bd2a1fe2",
+      "raw_pre_sha256": "c18d7b95ed73a79379885210da95c2c96594a2d3f31497a52aa2afdec33ff90c",
+      "line_count": 91,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5b/learning_owner.cpp",
+          "source_sha256": "71e0179ea7104c1a25a4b2ad6807e4a4b809b0dd6b8c1d08df3a8140bd2a1fe2",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5b",
+          "tested_translation_units": [
+            "learning_owner.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3570166,
+      "pre_index": 2,
+      "kind": "output",
+      "decoded_sha256": "0bb4945bb9d5accb4db60283f854224cc24f65aec440ea19160120ddda40f959",
+      "raw_pre_sha256": "c8e16677775be6869188301c585dc3d22f826a9905237620494e4ce2e29af9d6",
+      "line_count": 4,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5b/learning_owner.cpp",
+          "source_sha256": "71e0179ea7104c1a25a4b2ad6807e4a4b809b0dd6b8c1d08df3a8140bd2a1fe2",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5b",
+          "tested_translation_units": [
+            "learning_owner.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 3569327,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "ed27939a43867b84784df3509bcb763a570006936ed05d90be93da4d4aab5607",
+      "raw_pre_sha256": "c993fd1581f82a4696a24a9ae1a05337012f2f56ec381216f23cc4ed759a5d66",
+      "line_count": 24,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5b/shared_lifetime.cpp",
+          "source_sha256": "ed27939a43867b84784df3509bcb763a570006936ed05d90be93da4d4aab5607",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5b",
+          "tested_translation_units": [
+            "shared_lifetime.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3569327,
+      "pre_index": 2,
+      "kind": "output",
+      "decoded_sha256": "f2196ed6c9e556e421b87960b5dbadea7a50e3b3f08b559838aa90e0de99d62a",
+      "raw_pre_sha256": "4b8c20392db747fa49e7400dbd7da0ae0d42b62b89d20e50355340a8cd379d85",
+      "line_count": 5,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5b/shared_lifetime.cpp",
+          "source_sha256": "ed27939a43867b84784df3509bcb763a570006936ed05d90be93da4d4aab5607",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t5b",
+          "tested_translation_units": [
+            "shared_lifetime.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 3570213,
+      "pre_index": 1,
+      "kind": "fragment",
+      "decoded_sha256": "ee56df07056bf324b3aa52b19956fc21da294d0881de8ce15816e5deb4073a33",
+      "raw_pre_sha256": "6ef7f333c974bbeb30c3f23b64b2d8d262900610e1da011878c305c90f0f5fe6",
+      "line_count": 107,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5b/teaching_shared.cpp",
+          "source_sha256": "65fa8671c3442af6f368fb27f777d211ed023f7cd5d09d88b15ee40a20eb1931",
+          "relation": "ordered_part_of_combined_program",
+          "suite_id": "t5b",
+          "tested_translation_units": [
+            "teaching_shared.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck",
+      "assembly_group": "teaching_shared"
+    },
+    {
+      "step_id": 3570213,
+      "pre_index": 2,
+      "kind": "fragment",
+      "decoded_sha256": "d966d96bee7d950e23f652f8cb1948ba10296fdebefc44a6551c74c20dbe0a20",
+      "raw_pre_sha256": "4172853e3ae8bc1aeafda326dc7b71cbc844dcf3b80da07c212d7af04ae5f501",
+      "line_count": 14,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5b/teaching_shared.cpp",
+          "source_sha256": "65fa8671c3442af6f368fb27f777d211ed023f7cd5d09d88b15ee40a20eb1931",
+          "relation": "ordered_part_of_combined_program",
+          "suite_id": "t5b",
+          "tested_translation_units": [
+            "teaching_shared.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck",
+      "assembly_group": "teaching_shared"
+    },
+    {
+      "step_id": 3570213,
+      "pre_index": 3,
+      "kind": "output",
+      "decoded_sha256": "92b0b5e279b114b1e29dc1b7809f7c489338998a093fa6feec09c4eef101c33a",
+      "raw_pre_sha256": "1694cf10955ba739f637c422fe323432ae36c1affc3a567b7423a622b503fb36",
+      "line_count": 3,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5b/teaching_shared.cpp",
+          "source_sha256": "65fa8671c3442af6f368fb27f777d211ed023f7cd5d09d88b15ee40a20eb1931",
+          "relation": "ordered_part_of_combined_program",
+          "suite_id": "t5b",
+          "tested_translation_units": [
+            "teaching_shared.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 4035563,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "162064a2d986db253f4b0a714bb0a070ab687e78455a644a01d7a531b23dbdee",
+      "raw_pre_sha256": "e7050b504ea8358be58527e4f326f514e80a73730657112a293ee3e591e6399b",
+      "line_count": 14,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-2026-11-23/examples/t6/queue.cpp",
+          "source_sha256": "c9a992aa42f238bef763668d8220e68510e63672200d937a9890813b4401b3aa",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t6",
+          "tested_translation_units": [
+            "queue.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 4036909,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "156203320c702482b01818ad3b82c361bb12e664657e24f4d11958c386b64c98",
+      "raw_pre_sha256": "5302d74d35e4d2002bf877f6e36d1a4e1b05a0bc9c3a1c606c58f034624d21ee",
+      "line_count": 15,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-2026-11-23/examples/t6/deque.cpp",
+          "source_sha256": "55d64c3c6733a3df82459e40b9a744c4f025c551b152fc9155aa107c1185d7bc",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t6",
+          "tested_translation_units": [
+            "deque.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 4047616,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "c49cc533cf946e9dff5c972355230efae963ab4e504cce7ec1b1188043c25a3a",
+      "raw_pre_sha256": "f8f4518309ef10466cec0423e3fe741de05d87fdb2bd2e6815d60dfcccf00bd6",
+      "line_count": 11,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-2026-11-23/examples/t6/static_cast.cpp",
+          "source_sha256": "89e8cde4938ad4f7a7e200cb1e4097cf6756b374efcaa1d0538451a1e3c0ada6",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t6",
+          "tested_translation_units": [
+            "static_cast.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 4047627,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "003e9e81b40d7cacb60bf07adcce57218cd28ddeb2c20885cc6509d813d33296",
+      "raw_pre_sha256": "7d6be21f1ead902c2051ff7cff2d7361c8dd535f20667223043f8337667a9fc7",
+      "line_count": 27,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-2026-11-23/examples/t6/dynamic_cast.cpp",
+          "source_sha256": "1012588fb193cdf5446c7b9d542992103cce77aebee933ed2c3b52b994135bec",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t6",
+          "tested_translation_units": [
+            "dynamic_cast.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 4047680,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "5d20eaa5dfd317fe1f2e261f349e0f47ec8299820af4189747f35fcf309f954f",
+      "raw_pre_sha256": "8c9f213460a3bb0d25792a393a4e79905b8efe316d1c6ccde38bdd0043f63c13",
+      "line_count": 13,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-2026-11-23/examples/t6/const_cast.cpp",
+          "source_sha256": "0d533209f97f88f14bcd28b8765ca0b26679b2d69ed440f53739fc794fd9d2ab",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t6",
+          "tested_translation_units": [
+            "const_cast.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 4047681,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "c80ae405864758c977bf995b2d1c0e133680037a49e9d3c0bfe6e2ef860546ff",
+      "raw_pre_sha256": "a8c1cb4ba18bfd2ec8e97ff60d8608d2bcffed5123be47179aa5f2b2151b0309",
+      "line_count": 14,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-2026-11-23/examples/t6/representation.cpp",
+          "source_sha256": "a1cad8003620e6387f637ac91b62e675ed0230518f7380f4098e420da901b007",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t6",
+          "tested_translation_units": [
+            "representation.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3570230,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "bd4ab385f7e7ef0d268cb528774788a332f81cc4782817ba1bd7c670f5eb00b3",
+      "raw_pre_sha256": "81b4d3f03361ccf1218d420f2d0d59347fd2e4db7da30e70963aeb0e212d6119",
+      "line_count": 31,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-2026-11-23/examples/t6/bst.cpp",
+          "source_sha256": "a1fbf27c5b3f19cfce5854b2752a2b81398122f08d605d0c36bf8d24b25198b6",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t6",
+          "tested_translation_units": [
+            "bst.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3570281,
+      "pre_index": 1,
+      "kind": "fragment",
+      "decoded_sha256": "a3902e7ed10eea630bcf1459e1f57b33c220409262c9457e275d59de2cfd2309",
+      "raw_pre_sha256": "1fb5f72d73b4162ebecd0f93c23b8e76c71cb727f7574824514e0f6e056e266d",
+      "line_count": 109,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-2026-11-23/examples/t6/avl.hpp",
+          "source_sha256": "c06abed31a07704a5af014e5fb8503c0820b6d96e1662db12acb410c7c85bd46",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t6",
+          "tested_translation_units": [
+            "avl_demo.cpp",
+            "invariants.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 3570281,
+      "pre_index": 2,
+      "kind": "full_program",
+      "decoded_sha256": "f449f0b189267e49a1655d8357b6b80cd86776d93fbf43f7c53d709bac02c726",
+      "raw_pre_sha256": "89b843d0bd96f9621009db2e9b7d6d6456e08f7af0ad4086a6e2e99f2190eb49",
+      "line_count": 18,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-2026-11-23/examples/t6/avl_demo.cpp",
+          "source_sha256": "b1eb3976c6ce16c0383446fae064878e1e3248fd84fce50bb65993ab1281ee98",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t6",
+          "tested_translation_units": [
+            "avl_demo.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck",
+      "requires_lesson_header": "pre_index 1: avl.hpp"
+    },
+    {
+      "step_id": 3570303,
+      "pre_index": 1,
+      "kind": "fragment",
+      "decoded_sha256": "58f61444dc293aae026fcec15f10265fca64855a0298bafd0c6b2ff9ae6fef00",
+      "raw_pre_sha256": "11dfac6c4edc18788d350378faeefdb0b6391dfd7ba785b64217e37d8ec0e6b3",
+      "line_count": 9,
+      "source_test_mapping": [],
+      "verification": "editorial_read_without_exact_compilation_binding"
+    },
+    {
+      "step_id": 3570303,
+      "pre_index": 2,
+      "kind": "fragment",
+      "decoded_sha256": "57365d22797721e0401975ab30903e0c250d1977c7339d0a245fbf08fed83e18",
+      "raw_pre_sha256": "670cd0143007291d607bf262794799342471e4e779081e8db9a1441d701b008f",
+      "line_count": 81,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-2026-11-23/examples/t6/rbt.hpp",
+          "source_sha256": "168cd5b1d2606264d03b9127ef24c2ff912d22fc9b8e5870d094b4ad4fa43277",
+          "relation": "ordered_part_of_assembled_header",
+          "suite_id": "t6",
+          "tested_translation_units": [
+            "rbt_demo.cpp",
+            "invariants.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck",
+      "assembly_group": "rbt_header"
+    },
+    {
+      "step_id": 3570304,
+      "pre_index": 1,
+      "kind": "fragment",
+      "decoded_sha256": "78b1818a455efea6dc64b51e2fb85e28595e1d135f298cfe57de62ee5224ecad",
+      "raw_pre_sha256": "e2ba4131b5961d606c850c2091b26393fe2253cae14402ceaebc72f5587a66b9",
+      "line_count": 24,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-2026-11-23/examples/t6/rbt.hpp",
+          "source_sha256": "168cd5b1d2606264d03b9127ef24c2ff912d22fc9b8e5870d094b4ad4fa43277",
+          "relation": "ordered_part_of_assembled_header",
+          "suite_id": "t6",
+          "tested_translation_units": [
+            "rbt_demo.cpp",
+            "invariants.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck",
+      "assembly_group": "rbt_header"
+    },
+    {
+      "step_id": 3570304,
+      "pre_index": 2,
+      "kind": "fragment",
+      "decoded_sha256": "1b3a1ebe1ed422e57a0e3c61ba818e2ed72dd37cab1fb2b77254e0a8673aac36",
+      "raw_pre_sha256": "85f2904e66d869eecacc1dbc22fb84b74477524d8ec6b10f00777fa1aba1d398",
+      "line_count": 51,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-2026-11-23/examples/t6/rbt.hpp",
+          "source_sha256": "168cd5b1d2606264d03b9127ef24c2ff912d22fc9b8e5870d094b4ad4fa43277",
+          "relation": "ordered_part_of_assembled_header",
+          "suite_id": "t6",
+          "tested_translation_units": [
+            "rbt_demo.cpp",
+            "invariants.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck",
+      "assembly_group": "rbt_header"
+    },
+    {
+      "step_id": 3570304,
+      "pre_index": 3,
+      "kind": "fragment",
+      "decoded_sha256": "7074f75d0c1ad232ae1cf0c181144fe3e8ec2afccea90da7be8a85357a723127",
+      "raw_pre_sha256": "096c5f069993ba433a80186d96b624c23e5d3f78c1d2262826747c48ca392750",
+      "line_count": 33,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-2026-11-23/examples/t6/rbt.hpp",
+          "source_sha256": "168cd5b1d2606264d03b9127ef24c2ff912d22fc9b8e5870d094b4ad4fa43277",
+          "relation": "ordered_part_of_assembled_header",
+          "suite_id": "t6",
+          "tested_translation_units": [
+            "rbt_demo.cpp",
+            "invariants.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck",
+      "assembly_group": "rbt_header"
+    },
+    {
+      "step_id": 3570304,
+      "pre_index": 4,
+      "kind": "fragment",
+      "decoded_sha256": "21188c4cde101c4919c42236ab39a684ad86471dac71cee357f55539bcb4afc5",
+      "raw_pre_sha256": "cd50dfbf90b7dd7e18d6bef7bd401fc91e1d94c5212b86c5646c64d2ff75f27c",
+      "line_count": 9,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-2026-11-23/examples/t6/rbt.hpp",
+          "source_sha256": "168cd5b1d2606264d03b9127ef24c2ff912d22fc9b8e5870d094b4ad4fa43277",
+          "relation": "ordered_part_of_assembled_header",
+          "suite_id": "t6",
+          "tested_translation_units": [
+            "rbt_demo.cpp",
+            "invariants.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck",
+      "assembly_group": "rbt_header"
+    },
+    {
+      "step_id": 3570304,
+      "pre_index": 5,
+      "kind": "fragment",
+      "decoded_sha256": "dbb5e8548dcdf1d18c77d0db2663dd8c8ab7015b699247720e6ca2fa2ad32cbc",
+      "raw_pre_sha256": "1e45221933e2e85a233bdcbf7685b1b340b445da323793d361dd5ed699e69e7a",
+      "line_count": 8,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-2026-11-23/examples/t6/rbt.hpp",
+          "source_sha256": "168cd5b1d2606264d03b9127ef24c2ff912d22fc9b8e5870d094b4ad4fa43277",
+          "relation": "ordered_part_of_assembled_header",
+          "suite_id": "t6",
+          "tested_translation_units": [
+            "rbt_demo.cpp",
+            "invariants.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck",
+      "assembly_group": "rbt_header"
+    },
+    {
+      "step_id": 3570304,
+      "pre_index": 6,
+      "kind": "fragment",
+      "decoded_sha256": "3e9abac7578b17818c3d7cf01a4605c80eebe4b888373874345aac21299a6c21",
+      "raw_pre_sha256": "40975cc61857f1848c90cce9be0843a4b5d5491fe37ec609432bf32b1ba071b6",
+      "line_count": 14,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-2026-11-23/examples/t6/rbt.hpp",
+          "source_sha256": "168cd5b1d2606264d03b9127ef24c2ff912d22fc9b8e5870d094b4ad4fa43277",
+          "relation": "ordered_part_of_assembled_header",
+          "suite_id": "t6",
+          "tested_translation_units": [
+            "rbt_demo.cpp",
+            "invariants.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck",
+      "assembly_group": "rbt_header"
+    },
+    {
+      "step_id": 3570304,
+      "pre_index": 7,
+      "kind": "fragment",
+      "decoded_sha256": "2103a88a90809a433051c4175d4b1def434e852d561f704c5fafad364248c665",
+      "raw_pre_sha256": "091e119b04cbae4f0a52bea5dd104984cf425b126b63683b950cb02d90f96fa2",
+      "line_count": 14,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-2026-11-23/examples/t6/rbt.hpp",
+          "source_sha256": "168cd5b1d2606264d03b9127ef24c2ff912d22fc9b8e5870d094b4ad4fa43277",
+          "relation": "ordered_part_of_assembled_header",
+          "suite_id": "t6",
+          "tested_translation_units": [
+            "rbt_demo.cpp",
+            "invariants.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck",
+      "assembly_group": "rbt_header"
+    },
+    {
+      "step_id": 3570304,
+      "pre_index": 8,
+      "kind": "fragment",
+      "decoded_sha256": "da7dd70da2d5b5c46c81d0ba1a43a604435f93c186a694db5376d7a2dedecb4f",
+      "raw_pre_sha256": "382482f4356ae3ca95c924c15317edb7cf4972f155ff8efe9be9109eed379ae6",
+      "line_count": 13,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-2026-11-23/examples/t6/rbt.hpp",
+          "source_sha256": "168cd5b1d2606264d03b9127ef24c2ff912d22fc9b8e5870d094b4ad4fa43277",
+          "relation": "ordered_part_of_assembled_header",
+          "suite_id": "t6",
+          "tested_translation_units": [
+            "rbt_demo.cpp",
+            "invariants.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck",
+      "assembly_group": "rbt_header"
+    },
+    {
+      "step_id": 3570333,
+      "pre_index": 1,
+      "kind": "fragment",
+      "decoded_sha256": "fdcd54fd56b31e1307b0cc0e29cc100839a4c2d04fdda0c8c1cd69d773d24dbf",
+      "raw_pre_sha256": "d77de2fb01eb2541f46f875f98f0ca489d008fec1d0d0df3b6ef32c92da675e7",
+      "line_count": 14,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-2026-11-23/examples/t6/rbt.hpp",
+          "source_sha256": "168cd5b1d2606264d03b9127ef24c2ff912d22fc9b8e5870d094b4ad4fa43277",
+          "relation": "ordered_part_of_assembled_header",
+          "suite_id": "t6",
+          "tested_translation_units": [
+            "rbt_demo.cpp",
+            "invariants.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck",
+      "assembly_group": "rbt_header"
+    },
+    {
+      "step_id": 3570333,
+      "pre_index": 2,
+      "kind": "fragment",
+      "decoded_sha256": "55a3a0bf2996f2bd1153b4dedf98298e7794b76a09eb0531eabe45f3744de78e",
+      "raw_pre_sha256": "fc3acd6c18ecdb0d4824f1f91f97ed129c583c007312badb5de6bc6b34515bb6",
+      "line_count": 68,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-2026-11-23/examples/t6/rbt.hpp",
+          "source_sha256": "168cd5b1d2606264d03b9127ef24c2ff912d22fc9b8e5870d094b4ad4fa43277",
+          "relation": "ordered_part_of_assembled_header",
+          "suite_id": "t6",
+          "tested_translation_units": [
+            "rbt_demo.cpp",
+            "invariants.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck",
+      "assembly_group": "rbt_header"
+    },
+    {
+      "step_id": 3570333,
+      "pre_index": 3,
+      "kind": "fragment",
+      "decoded_sha256": "96bc605031b7d362ab81d7dd23eecbde08fa315ba8f4aa50e3b648c48e276875",
+      "raw_pre_sha256": "9937102942e74df03e2d8793ac30c8dbee95a1b22479f91fafddbe090f2fffe6",
+      "line_count": 6,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-2026-11-23/examples/t6/rbt.hpp",
+          "source_sha256": "168cd5b1d2606264d03b9127ef24c2ff912d22fc9b8e5870d094b4ad4fa43277",
+          "relation": "ordered_part_of_assembled_header",
+          "suite_id": "t6",
+          "tested_translation_units": [
+            "rbt_demo.cpp",
+            "invariants.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck",
+      "assembly_group": "rbt_header"
+    },
+    {
+      "step_id": 3570333,
+      "pre_index": 4,
+      "kind": "fragment",
+      "decoded_sha256": "f8d61763197668b1eab3764f5fe87c6533d8cf001479ce5f15e12a20dccd47b7",
+      "raw_pre_sha256": "3ff762f0afb53971d29d8bd798b3085d0b587dd3c88d25e39ddbc9dc70e5115d",
+      "line_count": 19,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-2026-11-23/examples/t6/rbt.hpp",
+          "source_sha256": "168cd5b1d2606264d03b9127ef24c2ff912d22fc9b8e5870d094b4ad4fa43277",
+          "relation": "ordered_part_of_assembled_header",
+          "suite_id": "t6",
+          "tested_translation_units": [
+            "rbt_demo.cpp",
+            "invariants.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck",
+      "assembly_group": "rbt_header"
+    },
+    {
+      "step_id": 3570333,
+      "pre_index": 5,
+      "kind": "fragment",
+      "decoded_sha256": "040f3173349e75a0ff1b8e00bb438575e324ddf684e8a611efc3a45d928540c7",
+      "raw_pre_sha256": "5ea1aa6ef94411ea03641d7d9b4b18da3afb53a74830da14c65bc543de4c91bb",
+      "line_count": 18,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-2026-11-23/examples/t6/rbt.hpp",
+          "source_sha256": "168cd5b1d2606264d03b9127ef24c2ff912d22fc9b8e5870d094b4ad4fa43277",
+          "relation": "ordered_part_of_assembled_header",
+          "suite_id": "t6",
+          "tested_translation_units": [
+            "rbt_demo.cpp",
+            "invariants.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck",
+      "assembly_group": "rbt_header"
+    },
+    {
+      "step_id": 3570333,
+      "pre_index": 6,
+      "kind": "fragment",
+      "decoded_sha256": "de740c70c3fa5b81d309502eb1e408a37b1a07e81c58dc4e8ac38d61f9789158",
+      "raw_pre_sha256": "e6b247fbe4ffc2c1eb99898937e83374abbc282e7303d20fd8101617555bc515",
+      "line_count": 18,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-2026-11-23/examples/t6/rbt.hpp",
+          "source_sha256": "168cd5b1d2606264d03b9127ef24c2ff912d22fc9b8e5870d094b4ad4fa43277",
+          "relation": "ordered_part_of_assembled_header",
+          "suite_id": "t6",
+          "tested_translation_units": [
+            "rbt_demo.cpp",
+            "invariants.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck",
+      "assembly_group": "rbt_header"
+    },
+    {
+      "step_id": 3570333,
+      "pre_index": 7,
+      "kind": "fragment",
+      "decoded_sha256": "847cd12e42b3f7b3e834249d72b50329b67fc2d30340b4e5801057721e93003c",
+      "raw_pre_sha256": "17b4d59e8e23edaf0163df7fc4fc60e3af6ecadb8af00d57f94e03d011611160",
+      "line_count": 22,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-2026-11-23/examples/t6/rbt.hpp",
+          "source_sha256": "168cd5b1d2606264d03b9127ef24c2ff912d22fc9b8e5870d094b4ad4fa43277",
+          "relation": "ordered_part_of_assembled_header",
+          "suite_id": "t6",
+          "tested_translation_units": [
+            "rbt_demo.cpp",
+            "invariants.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck",
+      "assembly_group": "rbt_header"
+    },
+    {
+      "step_id": 3570333,
+      "pre_index": 8,
+      "kind": "fragment",
+      "decoded_sha256": "950c9eea9316af0559bc72be87c790145891007dc382c9ce6fff478ad4223cdf",
+      "raw_pre_sha256": "83500d59028b83b2c28888c6903c79a8ea6c2c1d927c63c3db971038311c49d9",
+      "line_count": 19,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-2026-11-23/examples/t6/rbt.hpp",
+          "source_sha256": "168cd5b1d2606264d03b9127ef24c2ff912d22fc9b8e5870d094b4ad4fa43277",
+          "relation": "ordered_part_of_assembled_header",
+          "suite_id": "t6",
+          "tested_translation_units": [
+            "rbt_demo.cpp",
+            "invariants.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck",
+      "assembly_group": "rbt_header"
+    },
+    {
+      "step_id": 3570332,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "03f706157f1a2042e9a97e30f97cda87c670080f1a62bb87cdcb30a7fa0c0a89",
+      "raw_pre_sha256": "17a2754caccfee6c0fad3d1603b060f46018b4dafa29870faad2d0bbf9590a82",
+      "line_count": 16,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-2026-11-23/examples/t6/ordered_iteration.cpp",
+          "source_sha256": "5cec02b490ba05cb1e811d92b6d3694ac690922961630245d8f5d3d65df4371d",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t6",
+          "tested_translation_units": [
+            "ordered_iteration.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 4035481,
+      "pre_index": 1,
+      "kind": "fragment",
+      "decoded_sha256": "90adff1f13b185d24004870b1b9fd4d9edb6752e56df2acf522f34e8c12da77a",
+      "raw_pre_sha256": "ad1c93ba1139871b1dcf93620a75a1ed31857dd59180ae8f8625f60edf9f33d7",
+      "line_count": 75,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-2026-11-23/examples/t6/hash_table.hpp",
+          "source_sha256": "e3408f3da00170d0e2097fcf11b142b220b178ff572a9079d23a484c3567dca2",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t6",
+          "tested_translation_units": [
+            "hash_demo.cpp",
+            "invariants.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 4035481,
+      "pre_index": 2,
+      "kind": "full_program",
+      "decoded_sha256": "9be0fdfd9134a986f10f532c593732b79a0c5efc3928e97c6fbf9920b585e1bb",
+      "raw_pre_sha256": "18da1c6342d497345339120137fa6f30ef232c1d717bfe4b5fc7250d6a8251a3",
+      "line_count": 16,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-2026-11-23/examples/t6/hash_demo.cpp",
+          "source_sha256": "5a18c6fcc54306a41e21996e38dc8410e693a216bf23a9450f04b3049c3dda6e",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t6",
+          "tested_translation_units": [
+            "hash_demo.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck",
+      "requires_lesson_header": "pre_index 1: hash_table.hpp"
+    },
+    {
+      "step_id": 4035311,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "ddef767c92b22dafe8ead9b9700fbb2e956c5f413a438b41652a3888de7f6d3c",
+      "raw_pre_sha256": "70b0a1ad722aabce8fc1664d9f83fb4113f3c29560cacb089043af5f12beecca",
+      "line_count": 35,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/containers/stl_range.cpp",
+          "source_sha256": "ddef767c92b22dafe8ead9b9700fbb2e956c5f413a438b41652a3888de7f6d3c",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t4",
+          "tested_translation_units": [
+            "stl_range.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 4035311,
+      "pre_index": 2,
+      "kind": "output",
+      "decoded_sha256": "f24eb749f9c8915a11f903ccf606459de579812f1875d344128cb7a2b85d61cb",
+      "raw_pre_sha256": "3508070ca0ae02066da78053e483def30372305839c1aa157ba97181fe644662",
+      "line_count": 3,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/containers/stl_range.cpp",
+          "source_sha256": "ddef767c92b22dafe8ead9b9700fbb2e956c5f413a438b41652a3888de7f6d3c",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t4",
+          "tested_translation_units": [
+            "stl_range.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "sample_input",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 4035311,
+      "pre_index": 3,
+      "kind": "output",
+      "decoded_sha256": "980d33e712c32eec3ac0f097279e1626109629e44439a5a41845715a69a9243b",
+      "raw_pre_sha256": "a4a8e3ce73af0a01bacf4d4152b08e82dd33d0dc033a342844fcb9de5849341e",
+      "line_count": 2,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/containers/stl_range.cpp",
+          "source_sha256": "ddef767c92b22dafe8ead9b9700fbb2e956c5f413a438b41652a3888de7f6d3c",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t4",
+          "tested_translation_units": [
+            "stl_range.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 4035416,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "6f76d3d5f8a093d3ec3bbd19dff7807885e186f4b8c87c61c5820dc31b281b9f",
+      "raw_pre_sha256": "81ad160f4e7575cb04f8e3e46def8f325e9a6c858702607ce89aa1bb07bf0dce",
+      "line_count": 28,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/containers/set_unique.cpp",
+          "source_sha256": "6f76d3d5f8a093d3ec3bbd19dff7807885e186f4b8c87c61c5820dc31b281b9f",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t4",
+          "tested_translation_units": [
+            "set_unique.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 4035416,
+      "pre_index": 2,
+      "kind": "output",
+      "decoded_sha256": "7b60fafcf1a30823edd95588d5200aaaf0e4e68967f0eb797be86324c5c2e082",
+      "raw_pre_sha256": "f830576e865b0cd5b24181bf7bbbb8f89f22d05ba569fbc62657d50420bb8d0d",
+      "line_count": 2,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/containers/set_unique.cpp",
+          "source_sha256": "6f76d3d5f8a093d3ec3bbd19dff7807885e186f4b8c87c61c5820dc31b281b9f",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t4",
+          "tested_translation_units": [
+            "set_unique.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "sample_input",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 4035416,
+      "pre_index": 3,
+      "kind": "output",
+      "decoded_sha256": "6bc483d79494871372efc9ca2c842ec6237034fe8144c9dbe9438e19d8151857",
+      "raw_pre_sha256": "d6ede140431cf067bee1cf4195ba374b8e34321442a98052b491db4730ceec3b",
+      "line_count": 2,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/containers/set_unique.cpp",
+          "source_sha256": "6f76d3d5f8a093d3ec3bbd19dff7807885e186f4b8c87c61c5820dc31b281b9f",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t4",
+          "tested_translation_units": [
+            "set_unique.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 4035427,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "cc7c61e7ec213ece7c4d31738d322d6211e3cef971d63bcaeeb8471d671bfe9a",
+      "raw_pre_sha256": "cbfd1d3faa07487926e6bdf863d9961302e7abec3727cd44b175d7300d850140",
+      "line_count": 33,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/containers/map_frequency.cpp",
+          "source_sha256": "cc7c61e7ec213ece7c4d31738d322d6211e3cef971d63bcaeeb8471d671bfe9a",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t4",
+          "tested_translation_units": [
+            "map_frequency.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 4035427,
+      "pre_index": 2,
+      "kind": "output",
+      "decoded_sha256": "29816c8753018868ab572f420717a8b10cb91ed26ebf62feff6f21b67fe48a36",
+      "raw_pre_sha256": "a93e78ae050b7676c6478b052acbf87de66517bf0614f24e0a0154aee2a470b1",
+      "line_count": 3,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/containers/map_frequency.cpp",
+          "source_sha256": "cc7c61e7ec213ece7c4d31738d322d6211e3cef971d63bcaeeb8471d671bfe9a",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t4",
+          "tested_translation_units": [
+            "map_frequency.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "sample_input",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 4035427,
+      "pre_index": 3,
+      "kind": "output",
+      "decoded_sha256": "94454e82f658f67c37e6cf0d90900a92793ce473104e9efa9d2a138cc81ba9dd",
+      "raw_pre_sha256": "854c35e0b9edc678e5f1e863423993e89012665813c8a5e51a01349e70567e84",
+      "line_count": 5,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/containers/map_frequency.cpp",
+          "source_sha256": "cc7c61e7ec213ece7c4d31738d322d6211e3cef971d63bcaeeb8471d671bfe9a",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t4",
+          "tested_translation_units": [
+            "map_frequency.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 4035430,
+      "pre_index": 1,
+      "kind": "full_program",
+      "decoded_sha256": "5ffa624167e9fa24f128e87a5b34e1f503aab9fd2a31ec3a0d055bb905948c90",
+      "raw_pre_sha256": "752eb58ecd0fa2c03b390d37ed1be7f643658db4f8901cccc7b523770c59923c",
+      "line_count": 32,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/containers/unordered_frequency.cpp",
+          "source_sha256": "5ffa624167e9fa24f128e87a5b34e1f503aab9fd2a31ec3a0d055bb905948c90",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t4",
+          "tested_translation_units": [
+            "unordered_frequency.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "verification": "bound_to_current_recheck"
+    },
+    {
+      "step_id": 4035430,
+      "pre_index": 2,
+      "kind": "output",
+      "decoded_sha256": "e1bda4d1260cd528be943e5d247cb74745818708ac2e1fcd495af4e1b713dd54",
+      "raw_pre_sha256": "e661cfae0917591ecf1c607d3a2ffcd6aab369419b0755d01ae4878c0bbbe274",
+      "line_count": 3,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/containers/unordered_frequency.cpp",
+          "source_sha256": "5ffa624167e9fa24f128e87a5b34e1f503aab9fd2a31ec3a0d055bb905948c90",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t4",
+          "tested_translation_units": [
+            "unordered_frequency.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "sample_input",
+      "verification": "data_for_previous_program"
+    },
+    {
+      "step_id": 4035430,
+      "pre_index": 3,
+      "kind": "output",
+      "decoded_sha256": "e952e7a40be4dae07de5c685215ccdf5849d9d898ded8f909ada7f02241f40cf",
+      "raw_pre_sha256": "4cfb543b4e7b3e75c7e3ebe2a5802e62074a2978a943186208f58823ea74aa80",
+      "line_count": 2,
+      "source_test_mapping": [
+        {
+          "source_path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/containers/unordered_frequency.cpp",
+          "source_sha256": "5ffa624167e9fa24f128e87a5b34e1f503aab9fd2a31ec3a0d055bb905948c90",
+          "relation": "whole_file_ignoring_outer_whitespace",
+          "suite_id": "t4",
+          "tested_translation_units": [
+            "unordered_frequency.cpp"
+          ],
+          "current_report_binding": "exact_source_hash_and_passed_unit_checks"
+        }
+      ],
+      "data_role": "expected_output",
+      "verification": "data_for_previous_program"
+    }
+  ]
+}

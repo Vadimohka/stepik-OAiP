@@ -750,11 +750,11 @@
     }
   ],
   "current_execution": {
-    "as_of": "2026-11-23T12:02:24.921211+00:00",
-    "base_commit": "352c2796717a55f4f0db8395b7d6093d8d67c35e",
+    "as_of": "2026-11-23T14:56:06.348135+00:00",
+    "base_commit": "26bbfeb5065ef3475f9ea612a3a8785f934b7c49",
     "progress_file": "PROGRESS.md",
-    "manifest": "../theory-links-2026-11-23/manifest.json",
-    "review_depth": "Сквозная редакторская проверка предпосылок, терминологии, ссылок, повторений и переходов всех 283 text-шагов модулей 1–19; дополнительная техническая проверка выявленных рисков. Не формальная сертификация каждой старой программы.",
+    "manifest": "../theory-final-review-2026-11-23/manifest.json",
+    "review_depth": "Повторное полное смысловое чтение 283 text-шагов тремя агентами, встречное принятие всех шести новых правок и полный текущий запуск 14 авторских наборов. 340 pre классифицированы; полные положительные программы привязаны к точным исходникам и свежим протоколам. Это не формальное доказательство всех состояний и не проверка каждого фрагмента/команды.",
     "blocks": {
       "T1": "published_verified",
       "T2": "published_verified",
@@ -764,55 +764,223 @@
       "T6": "published_revalidated",
       "SCOPE": "completed_and_rechecked_in_effective_theory",
       "LINKS": "completed_and_verified_in_github",
-      "PUB": "pending_links_publication_blocked_by_owner_instruction"
+      "VERIFY": "completed_and_independently_verified",
+      "PUB": "pending_cumulative_publication_blocked_by_owner_instruction"
     },
     "current_read_unique_texts": 283,
-    "current_changed_steps": 50,
-    "effective_edited_union_steps": 276,
-    "publication_note": "Только GitHub. Прямые изменения Stepik запрещены владельцем в текущем запросе; оставшийся PUB сейчас не выполняется."
+    "current_changed_steps": 6,
+    "effective_edited_union_steps": 277,
+    "publication_note": "Только GitHub. Прямые изменения Stepik запрещены владельцем в текущем запросе; оставшийся PUB сейчас не выполняется.",
+    "current_cumulative_pending_steps": 55,
+    "current_carried_forward_steps": 49,
+    "runtime_summary": "../theory-final-review-2026-11-23/runtime_summary.json",
+    "code_coverage": "../theory-final-review-2026-11-23/code_coverage.json"
   },
   "historical_fields_note": "rubric, overall и исходные карточки modules сохраняют первоначальную переоценку. Текущий результат ниже в current_execution/current_quality_assessment; старые remaining_theory и часы карточек не являются актуальным остатком.",
   "current_quality_assessment": {
-    "source": "../theory-links-2026-11-23/quality_assessment.json",
     "rubric": [
       {
         "dimension": "Техническая корректность",
         "weight_percent": 30,
         "score": 8.8,
-        "reason": "Адресно устранены ошибки хранения/инициализации, версий сдвига, nullptr, файловых потоков, контрактов деревьев и владения; утверждения опираются на версии N4659/N4861 и первичные документы."
+        "reason": "Повторное полное чтение выявило и устранило шесть неточных текстов: продвижения, / и %, префиксный ввод, объявления массивов и два доказательства RB. Все новые редакции приняты независимым рецензентом; языковые утверждения проверены по N4659/N4861."
       },
       {
         "dimension": "Последовательность и связанность",
         "weight_percent": 25,
         "score": 8.8,
-        "reason": "Все 283 текста прочитаны по шести межмодульным цепям; точные переходы заменяют неверные обещания, устранены преждевременные предпосылки."
+        "reason": "Прежние шесть сквозных линий сохранены после второго полного чтения 283 текстов; не добавлены преждевременные предпосылки или новые самостоятельные задания."
       },
       {
         "dimension": "Актуальность C++ и учебного отбора",
         "weight_percent": 20,
         "score": 8.9,
-        "reason": "C++17/20, контейнеры и RAII используются по назначению; C, CRT/GCC и типичные реализации отделены от гарантий языка."
+        "reason": "Сохранена заявленная модель C++17/20; исторические C-примеры обозначены и проверены отдельно в C11/C17. Стандартные гарантии, платформенные наблюдения и учебные модели различены."
       },
       {
         "dimension": "Ясность и самодостаточность",
         "weight_percent": 15,
         "score": 8.6,
-        "reason": "Понятия вводятся по месту использования, задания заменены завершёнными разборами, обязательного видео нет. Удаление RB и расширенный справочник операторов остаются наиболее плотными разделами."
+        "reason": "Шесть локальных утверждений теперь имеют явные условия и законченные объяснения. Сложность расширенных разделов RB и операторов остаётся реальным ограничением для начинающего читателя."
       },
       {
         "dimension": "Проверяемость объясняющих примеров",
         "weight_percent": 10,
-        "score": 8.7,
-        "reason": "Изменённая полная программа и новый фрагмент точно связаны с исходниками проверки; новые рискованные утверждения имеют содержательные проверки C++17/20. Исторические большие наборы сохранены, но не выданы за новый запуск."
+        "score": 9.2,
+        "reason": "Все11 сохранённых наборов выполнены заново, включая CMake и GoogleTest; три новых набора закрыли 7 прежних пробелов запуска и проверили найденные риски. Полная инвентаризация 340 pre связывает 148 положительных самостоятельных листингов и 1 составную программу с текущими исходниками и протоколами; фрагменты учитываются отдельно."
       }
     ],
-    "weighted_central_score": 8.78,
+    "weighted_central_score": 8.83,
     "reported_range": [
       8.5,
       9.0
     ],
-    "confidence": "medium",
-    "object": "Эффективная теория модулей 1–19: сохранённый снимок плюс подготовленный пакет LINKS; не состояние живого Stepik.",
-    "not_completion_percentage": true
-  }
+    "confidence": "medium_to_high_within_declared_review_and_runtime_scope",
+    "object": "Эффективная подготовленная теория модулей 1–19: сохранённый снимок плюс новый cumulative пакет 55; не заявление о живой редакции Stepik.",
+    "not_completion_percentage": true,
+    "source": "../theory-final-review-2026-11-23/quality_assessment.json"
+  },
+  "current_module_execution": [
+    {
+      "module_number": 1,
+      "reviewed_text_steps": 12,
+      "status": "fully_read_and_accepted",
+      "review": "../theory-final-review-2026-11-23/review_foundations.json",
+      "new_correction_step_ids": [],
+      "cumulative_pending_steps": 0
+    },
+    {
+      "module_number": 2,
+      "reviewed_text_steps": 26,
+      "status": "fully_read_and_accepted",
+      "review": "../theory-final-review-2026-11-23/review_foundations.json",
+      "new_correction_step_ids": [],
+      "cumulative_pending_steps": 1
+    },
+    {
+      "module_number": 3,
+      "reviewed_text_steps": 34,
+      "status": "fully_read_and_accepted",
+      "review": "../theory-final-review-2026-11-23/review_foundations.json",
+      "new_correction_step_ids": [],
+      "cumulative_pending_steps": 5
+    },
+    {
+      "module_number": 4,
+      "reviewed_text_steps": 24,
+      "status": "fully_read_and_accepted",
+      "review": "../theory-final-review-2026-11-23/review_foundations.json",
+      "new_correction_step_ids": [
+        3177282,
+        3177291,
+        3177292
+      ],
+      "cumulative_pending_steps": 8
+    },
+    {
+      "module_number": 5,
+      "reviewed_text_steps": 11,
+      "status": "fully_read_and_accepted",
+      "review": "../theory-final-review-2026-11-23/review_core.json",
+      "new_correction_step_ids": [
+        3177298
+      ],
+      "cumulative_pending_steps": 5
+    },
+    {
+      "module_number": 6,
+      "reviewed_text_steps": 20,
+      "status": "fully_read_and_accepted",
+      "review": "../theory-final-review-2026-11-23/review_core.json",
+      "new_correction_step_ids": [],
+      "cumulative_pending_steps": 6
+    },
+    {
+      "module_number": 7,
+      "reviewed_text_steps": 18,
+      "status": "fully_read_and_accepted",
+      "review": "../theory-final-review-2026-11-23/review_core.json",
+      "new_correction_step_ids": [],
+      "cumulative_pending_steps": 8
+    },
+    {
+      "module_number": 8,
+      "reviewed_text_steps": 11,
+      "status": "fully_read_and_accepted",
+      "review": "../theory-final-review-2026-11-23/review_core.json",
+      "new_correction_step_ids": [],
+      "cumulative_pending_steps": 3
+    },
+    {
+      "module_number": 9,
+      "reviewed_text_steps": 8,
+      "status": "fully_read_and_accepted",
+      "review": "../theory-final-review-2026-11-23/review_core.json",
+      "new_correction_step_ids": [],
+      "cumulative_pending_steps": 2
+    },
+    {
+      "module_number": 10,
+      "reviewed_text_steps": 21,
+      "status": "fully_read_and_accepted",
+      "review": "../theory-final-review-2026-11-23/review_core.json",
+      "new_correction_step_ids": [],
+      "cumulative_pending_steps": 2
+    },
+    {
+      "module_number": 11,
+      "reviewed_text_steps": 7,
+      "status": "fully_read_and_accepted",
+      "review": "../theory-final-review-2026-11-23/review_core.json",
+      "new_correction_step_ids": [],
+      "cumulative_pending_steps": 2
+    },
+    {
+      "module_number": 12,
+      "reviewed_text_steps": 12,
+      "status": "fully_read_and_accepted",
+      "review": "../theory-final-review-2026-11-23/review_advanced.json",
+      "new_correction_step_ids": [],
+      "cumulative_pending_steps": 0
+    },
+    {
+      "module_number": 13,
+      "reviewed_text_steps": 33,
+      "status": "fully_read_and_accepted",
+      "review": "../theory-final-review-2026-11-23/review_advanced.json",
+      "new_correction_step_ids": [],
+      "cumulative_pending_steps": 3
+    },
+    {
+      "module_number": 14,
+      "reviewed_text_steps": 8,
+      "status": "fully_read_and_accepted",
+      "review": "../theory-final-review-2026-11-23/review_advanced.json",
+      "new_correction_step_ids": [],
+      "cumulative_pending_steps": 0
+    },
+    {
+      "module_number": 15,
+      "reviewed_text_steps": 6,
+      "status": "fully_read_and_accepted",
+      "review": "../theory-final-review-2026-11-23/review_advanced.json",
+      "new_correction_step_ids": [],
+      "cumulative_pending_steps": 4
+    },
+    {
+      "module_number": 16,
+      "reviewed_text_steps": 12,
+      "status": "fully_read_and_accepted",
+      "review": "../theory-final-review-2026-11-23/review_advanced.json",
+      "new_correction_step_ids": [],
+      "cumulative_pending_steps": 1
+    },
+    {
+      "module_number": 17,
+      "reviewed_text_steps": 10,
+      "status": "fully_read_and_accepted",
+      "review": "../theory-final-review-2026-11-23/review_advanced.json",
+      "new_correction_step_ids": [
+        3570304,
+        3570333
+      ],
+      "cumulative_pending_steps": 4
+    },
+    {
+      "module_number": 18,
+      "reviewed_text_steps": 5,
+      "status": "fully_read_and_accepted",
+      "review": "../theory-final-review-2026-11-23/review_advanced.json",
+      "new_correction_step_ids": [],
+      "cumulative_pending_steps": 1
+    },
+    {
+      "module_number": 19,
+      "reviewed_text_steps": 5,
+      "status": "fully_read_and_accepted",
+      "review": "../theory-final-review-2026-11-23/review_advanced.json",
+      "new_correction_step_ids": [],
+      "cumulative_pending_steps": 0
+    }
+  ]
 }

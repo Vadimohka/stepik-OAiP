@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "cmake": {
+    "version": "cmake version 3.22.6",
+    "sha256": "a5560a96289c53778c9ba0112ce054f693d7d1a6975af3be69316fba31726f83",
+    "install_command": "python3 -m pip install --target /workspace/scratch/b48445057238/verification-tools cmake==3.22.6",
+    "installed_outside_repository": true
+  },
+  "googletest": {
+    "source_repository": "https://github.com/google/googletest.git",
+    "pinned_commit": "52eb8108c5bdec04579160ae17225d66034bd723",
+    "source": "improvements/86957/theory-2026-11-23/examples/t3/gtest/CMakeLists.txt",
+    "configured_and_executed_standards": [
+      "C++17",
+      "C++20"
+    ],
+    "evidence": "validation/recheck/t3.json"
+  },
+  "python": "Python 3.12.14",
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "platform": "Linux",
+  "no_stepik_operations": true
+}

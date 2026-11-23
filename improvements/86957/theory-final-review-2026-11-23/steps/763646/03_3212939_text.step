@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h2>Обход таблицы по строкам</h2>\n<p>Внешний цикл выбирает строку, внутренний перебирает элементы этой строки. Обе границы проверяются отдельно.</p>\n<p><strong>Полная программа C++17/C++20.</strong></p>\n<pre><code class=\"language-cpp\">#include &lt;iostream&gt;\nint main() {\n    constexpr int rows = 3;\n    constexpr int columns = 2;\n    const int numbers[rows][columns]{{1, 2}, {3, 4}, {5, 6}};\n    for (int row = 0; row &lt; rows; ++row) {\n        for (int column = 0; column &lt; columns; ++column) {\n            if (column != 0) {\n                std::cout &lt;&lt; ' ';\n            }\n            std::cout &lt;&lt; numbers[row][column];\n        }\n        std::cout &lt;&lt; '\\n';\n    }\n}\n</code></pre>\n<p>Получаются строки <code>1 2</code>, <code>3 4</code>, <code>5 6</code>. Перевод строки находится после внутреннего цикла: иначе каждое число выводилось бы на новой строке. За весь обход тело с выводом числа выполняется <code>rows * columns</code>, то есть шесть раз.</p>\n<p><strong>Альтернативный фрагмент вместо двух циклов в полной программе; после чисел остаются пробелы.</strong></p>\n<pre><code class=\"language-cpp\">for (const auto&amp; row : numbers) {\n    for (int value : row) {\n        std::cout &lt;&lt; value &lt;&lt; ' ';\n    }\n    std::cout &lt;&lt; '\\n';\n}\n</code></pre>\n<p>Внешний <code>for</code> получает целую строку. Здесь <code>const auto&amp;</code> означает ссылку на существующий подмассив: он не копируется и доступен только для чтения. Благодаря ссылке сохраняется тип строки как массива, поэтому внутренний цикл видит его границы. Подробные правила ссылок будут в <a href=\"https://stepik.org/lesson/770591/step/4\" rel=\"noopener noreferrer nofollow\">модуле 7</a>. Для начального обхода вариант с двумя индексами уже полностью достаточен.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3212939",
+  "time": "2026-11-23T11:05:27Z"
+}

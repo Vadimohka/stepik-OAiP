@@ -1,0 +1,19 @@
+{
+  "name": "t5b",
+  "started_at": "2026-11-23T14:40:31.423051+00:00",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "/workspace/scratch/b48445057238/verification-legacy/improvements/86957/theory-continuation-2026-11-23/examples/t5b/verify.py"
+  ],
+  "verifier_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5b/verify.py",
+  "verifier_sha256": "c9d8cfce9d71985c086c66a51ea1e0fa60b0cee4b1de3a6e674b0854405d1214",
+  "source_package": "improvements/86957/theory-continuation-2026-11-23",
+  "output_report": "/workspace/scratch/b48445057238/stepik-OAiP/improvements/86957/theory-final-review-2026-11-23/validation/recheck/t5b.json",
+  "exit_code": 0,
+  "stdout": "{\"status\": \"passed\", \"passed\": true, \"counts\": {\"compilations\": 24, \"runtime_cases\": 32, \"expected_compile_failures\": 8}}\n",
+  "stderr": "",
+  "reported_status": "passed",
+  "report_sha256": "78f2e428cfe32a62dc177f2cdde9e942bf975a4b4bc8bb7b82dea68fc4b14e97",
+  "status": "passed",
+  "finished_at": "2026-11-23T14:40:44.211700+00:00"
+}

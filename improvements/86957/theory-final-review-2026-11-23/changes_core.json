@@ -1,0 +1,19 @@
+[
+  {
+    "step_id": 3177298,
+    "path": "steps/763646/02_3177298_text.step",
+    "summary": "Два определения двумерного массива явно помечены как независимые фрагменты внутри функции; отделены создание с инициализацией, присваивание и недопустимое повторное определение. Объяснено отсутствие начальных значений int в первом варианте. Оба листинга сохранены побайтно.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.init",
+      "https://timsong-cpp.github.io/cppwp/n4861/dcl.init",
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.def.odr",
+      "https://timsong-cpp.github.io/cppwp/n4861/basic.def.odr"
+    ],
+    "plan": [
+      "VERIFY",
+      "T2"
+    ],
+    "previous_effective_path": "courses/86957/steps/763646/02_3177298_text.step",
+    "previous_effective_sha256": "2f20683530db12b29ee0eecb979773d0633c237de89988fcb121ecc08260a517"
+  }
+]

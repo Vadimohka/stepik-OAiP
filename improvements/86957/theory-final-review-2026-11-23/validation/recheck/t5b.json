@@ -1,0 +1,361 @@
+{
+  "status": "passed",
+  "passed": true,
+  "started_at": "2026-11-23T14:40:31.461454+00:00",
+  "scope": "14 edited text steps; 11 complete lesson programs plus author contract checks",
+  "standards": [
+    "c++17",
+    "c++20"
+  ],
+  "counts": {
+    "compilations": 24,
+    "runtime_cases": 32,
+    "expected_compile_failures": 8
+  },
+  "checks": [
+    {
+      "source": "copy_value.cpp",
+      "standard": "c++17",
+      "stdin": "",
+      "stdout": "4 1\n2 3\n",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "source": "forwarding.cpp",
+      "standard": "c++17",
+      "stdin": "",
+      "stdout": "const lvalue reference: 3\nrvalue reference: 2\nrvalue reference: 3\nstill present: 3\n",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "source": "guaranteed_elision.cpp",
+      "standard": "c++17",
+      "stdin": "",
+      "stdout": "42\n",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "source": "learning_owner.cpp",
+      "standard": "c++17",
+      "stdin": "",
+      "stdout": "42\n0\n2\n0\n",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "source": "raii.cpp",
+      "standard": "c++17",
+      "stdin": "normal\n",
+      "stdout": "create local\ncreate dynamic\nnormal end\ndestroy dynamic\ndestroy local\ndone\n",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "source": "raii.cpp",
+      "standard": "c++17",
+      "stdin": "early\n",
+      "stdout": "create local\ncreate dynamic\nearly return\ndestroy dynamic\ndestroy local\ndone\n",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "source": "raii.cpp",
+      "standard": "c++17",
+      "stdin": "throw\n",
+      "stdout": "create local\ncreate dynamic\ndestroy dynamic\ndestroy local\ncaught stop\ndone\n",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "source": "raii.cpp",
+      "standard": "c++17",
+      "stdin": "unknown\n",
+      "stdout": "",
+      "exit_code": 1,
+      "passed": true
+    },
+    {
+      "source": "raii.cpp",
+      "standard": "c++17",
+      "stdin": "",
+      "stdout": "",
+      "exit_code": 1,
+      "passed": true
+    },
+    {
+      "source": "reference_overloads.cpp",
+      "standard": "c++17",
+      "stdin": "",
+      "stdout": "const lvalue reference: 7\nrvalue reference: 7\nconst lvalue reference: 8\nrvalue reference: 8\nconst lvalue reference: 9\n7 8 9\n",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "source": "rule_zero.cpp",
+      "standard": "c++17",
+      "stdin": "",
+      "stdout": "1 4\nA 2\nB 3\n",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "source": "shared_lifetime.cpp",
+      "standard": "c++17",
+      "stdin": "",
+      "stdout": "2\n1\n42\nfalse true\ntrue false\n",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "source": "storage_duration.cpp",
+      "standard": "c++17",
+      "stdin": "",
+      "stdout": "3 20\n",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "source": "teaching_shared.cpp",
+      "standard": "c++17",
+      "stdin": "",
+      "stdout": "2\ntrue\nfalse\n",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "source": "unique_access.cpp",
+      "standard": "c++17",
+      "stdin": "",
+      "stdout": "10\n42\nfalse true\n42\nfalse\n",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "source": "ownership_contracts.cpp",
+      "standard": "c++17",
+      "stdin": "",
+      "stdout": "ownership and reference contracts passed\n",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "source": "copy_unique",
+      "standard": "c++17",
+      "expected_compile_failure": true,
+      "passed": true
+    },
+    {
+      "source": "rref_from_named",
+      "standard": "c++17",
+      "expected_compile_failure": true,
+      "passed": true
+    },
+    {
+      "source": "rref_from_const",
+      "standard": "c++17",
+      "expected_compile_failure": true,
+      "passed": true
+    },
+    {
+      "source": "named_return_immovable",
+      "standard": "c++17",
+      "expected_compile_failure": true,
+      "passed": true
+    },
+    {
+      "source": "copy_value.cpp",
+      "standard": "c++20",
+      "stdin": "",
+      "stdout": "4 1\n2 3\n",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "source": "forwarding.cpp",
+      "standard": "c++20",
+      "stdin": "",
+      "stdout": "const lvalue reference: 3\nrvalue reference: 2\nrvalue reference: 3\nstill present: 3\n",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "source": "guaranteed_elision.cpp",
+      "standard": "c++20",
+      "stdin": "",
+      "stdout": "42\n",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "source": "learning_owner.cpp",
+      "standard": "c++20",
+      "stdin": "",
+      "stdout": "42\n0\n2\n0\n",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "source": "raii.cpp",
+      "standard": "c++20",
+      "stdin": "normal\n",
+      "stdout": "create local\ncreate dynamic\nnormal end\ndestroy dynamic\ndestroy local\ndone\n",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "source": "raii.cpp",
+      "standard": "c++20",
+      "stdin": "early\n",
+      "stdout": "create local\ncreate dynamic\nearly return\ndestroy dynamic\ndestroy local\ndone\n",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "source": "raii.cpp",
+      "standard": "c++20",
+      "stdin": "throw\n",
+      "stdout": "create local\ncreate dynamic\ndestroy dynamic\ndestroy local\ncaught stop\ndone\n",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "source": "raii.cpp",
+      "standard": "c++20",
+      "stdin": "unknown\n",
+      "stdout": "",
+      "exit_code": 1,
+      "passed": true
+    },
+    {
+      "source": "raii.cpp",
+      "standard": "c++20",
+      "stdin": "",
+      "stdout": "",
+      "exit_code": 1,
+      "passed": true
+    },
+    {
+      "source": "reference_overloads.cpp",
+      "standard": "c++20",
+      "stdin": "",
+      "stdout": "const lvalue reference: 7\nrvalue reference: 7\nconst lvalue reference: 8\nrvalue reference: 8\nconst lvalue reference: 9\n7 8 9\n",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "source": "rule_zero.cpp",
+      "standard": "c++20",
+      "stdin": "",
+      "stdout": "1 4\nA 2\nB 3\n",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "source": "shared_lifetime.cpp",
+      "standard": "c++20",
+      "stdin": "",
+      "stdout": "2\n1\n42\nfalse true\ntrue false\n",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "source": "storage_duration.cpp",
+      "standard": "c++20",
+      "stdin": "",
+      "stdout": "3 20\n",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "source": "teaching_shared.cpp",
+      "standard": "c++20",
+      "stdin": "",
+      "stdout": "2\ntrue\nfalse\n",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "source": "unique_access.cpp",
+      "standard": "c++20",
+      "stdin": "",
+      "stdout": "10\n42\nfalse true\n42\nfalse\n",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "source": "ownership_contracts.cpp",
+      "standard": "c++20",
+      "stdin": "",
+      "stdout": "ownership and reference contracts passed\n",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "source": "copy_unique",
+      "standard": "c++20",
+      "expected_compile_failure": true,
+      "passed": true
+    },
+    {
+      "source": "rref_from_named",
+      "standard": "c++20",
+      "expected_compile_failure": true,
+      "passed": true
+    },
+    {
+      "source": "rref_from_const",
+      "standard": "c++20",
+      "expected_compile_failure": true,
+      "passed": true
+    },
+    {
+      "source": "named_return_immovable",
+      "standard": "c++20",
+      "expected_compile_failure": true,
+      "passed": true
+    }
+  ],
+  "input_sha256": {
+    "improvements/86957/theory-continuation-2026-11-23/changes_t5b.json": "8edfa8c5235507d2e78c48802fc9f4e7b16b7ee10741da5f20ce2ddab75fa18a",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5b/copy_value.cpp": "1b9109d25a4e94124fb14826cede56911204fc18657bf7561af14ee115329b16",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5b/forwarding.cpp": "05508916a4813d7128a02757ae11c7a1f57e0eb7bc3d303b4f5d2be563356eeb",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5b/guaranteed_elision.cpp": "3a66bae83d42343d5c5d5dd071bddb0a99e39f645b6f0b62717987a576a7ab47",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5b/learning_owner.cpp": "71e0179ea7104c1a25a4b2ad6807e4a4b809b0dd6b8c1d08df3a8140bd2a1fe2",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5b/ownership_contracts.inc": "a1fb4df60d32d2af7979ff1744ffaeefefe23c85e9b3cf4a714a23218664e930",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5b/raii.cpp": "12837994e3bc8021c1aa454769da640b3b0e81aceb1609db11cc43f9870f22a1",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5b/reference_overloads.cpp": "e16354389ddfce2d0bae6d8a86dad00a75808e3bb0ea40a9d6a0741ed064ed82",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5b/rule_zero.cpp": "49a2c54f0cf1bc78220ca9c52e8aa09d502ffd895577faf3dafd29b83e784fc0",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5b/shared_lifetime.cpp": "ed27939a43867b84784df3509bcb763a570006936ed05d90be93da4d4aab5607",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5b/storage_duration.cpp": "9fe6c046b4d32c3975664e3fb844c32867eee37a25a4dd421f29b0d0c1d3eda0",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5b/teaching_shared.cpp": "65fa8671c3442af6f368fb27f777d211ed023f7cd5d09d88b15ee40a20eb1931",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5b/unique_access.cpp": "3fb66091fd4ea4d53cf341a35b423611839d63d3017cda68873e10c3eab043dd",
+    "improvements/86957/theory-continuation-2026-11-23/examples/t5b/verify.py": "c9d8cfce9d71985c086c66a51ea1e0fa60b0cee4b1de3a6e674b0854405d1214",
+    "improvements/86957/theory-continuation-2026-11-23/steps/853532/01_3569321_text.step": "e2adb42b8598bd7f07cd9c7ba0579a001dd2e7a54189771f8b46541a112be86d",
+    "improvements/86957/theory-continuation-2026-11-23/steps/853532/02_3569891_text.step": "952243858405b889a303330dc9cb73f5603c387ffcdff8f29a61d8f20ccd2b50",
+    "improvements/86957/theory-continuation-2026-11-23/steps/853532/03_3569896_text.step": "b41a69f2fbb02193695f7a83f10805a95de8dac2f167a8abbc8df0f4eeccbf0a",
+    "improvements/86957/theory-continuation-2026-11-23/steps/853534/01_3569323_text.step": "1c89c58e640d5fbcfcd59c0334aebaa707b62fa62893abdeeca0b0b5e711c81c",
+    "improvements/86957/theory-continuation-2026-11-23/steps/853534/02_3569919_text.step": "f4445d6f4fdc5cc5150cc4eaf592552c57e610ed91d4ee99e4e3c3b8ba5d6dfe",
+    "improvements/86957/theory-continuation-2026-11-23/steps/853535/01_3569324_text.step": "bbfa66db97693a85b9c887dfca5c8e5ea74c706b2a58b73976c7fcca2990660d",
+    "improvements/86957/theory-continuation-2026-11-23/steps/853535/02_3569932_text.step": "a1f7072a8a60ad94a6cebe7eb443c5c0fe6c327f90c7d0bbb2df8a5afd139357",
+    "improvements/86957/theory-continuation-2026-11-23/steps/853535/03_4040986_text.step": "b5e3f96f384c102551205cdd0ff93184713dabf5ac47997dfa09d4598d2e69b8",
+    "improvements/86957/theory-continuation-2026-11-23/steps/853536/01_3569325_text.step": "b1e07452635e83810c6c4b80836d67575d1413ac8606124876820d52a68585fb",
+    "improvements/86957/theory-continuation-2026-11-23/steps/853536/02_3569964_text.step": "d9ccdf3abc2d86339a25fd85ce4ddebe4ba9e868c225a253eba964435214cb4d",
+    "improvements/86957/theory-continuation-2026-11-23/steps/853536/03_3569963_text.step": "e34ba7612099d2cd26a727090e14fdf1c8ebf45f459d84cece5ee7684b67db79",
+    "improvements/86957/theory-continuation-2026-11-23/steps/853536/04_3570166_text.step": "1f5f6246e38a1dff9ce2dfa2e7220fb92f3bfd878ca2e0eabe5bfa4b36401b25",
+    "improvements/86957/theory-continuation-2026-11-23/steps/853537/01_3569327_text.step": "c938606d2beb498a3403a325b9e0c4dfdac1f4abb4444a950f6dcd2024eb2094",
+    "improvements/86957/theory-continuation-2026-11-23/steps/853537/02_3570213_text.step": "f9b2356999e8fe2c517ce1edd63f7a8604d5261be889c96a1a4027ee86ac2b38"
+  },
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "completed_at": "2026-11-23T14:40:44.201540+00:00",
+  "limitations": [
+    "GCC/Linux only; Windows/MSVC and macOS were not run.",
+    "UBSan used; finite checks do not prove all possible states.",
+    "No forced allocation failure or counter overflow; those boundaries are documented.",
+    "Teaching shared/weak is deliberately single-threaded; no concurrency guarantee claimed.",
+    "Existing graded steps were read for compatibility and left unchanged."
+  ]
+}

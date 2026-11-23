@@ -1,0 +1,19 @@
+{
+  "name": "links_types",
+  "started_at": "2026-11-23T14:40:44.212539+00:00",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "/workspace/scratch/b48445057238/verification-links/improvements/86957/theory-links-2026-11-23/examples/types/verify.py"
+  ],
+  "verifier_path": "improvements/86957/theory-links-2026-11-23/examples/types/verify.py",
+  "verifier_sha256": "5a89871b99375757f14671b9c4ab6e08d5d6cf13c74dcedab4b58fe830c31db6",
+  "source_package": "improvements/86957/theory-links-2026-11-23",
+  "output_report": "/workspace/scratch/b48445057238/stepik-OAiP/improvements/86957/theory-final-review-2026-11-23/validation/recheck/links_types.json",
+  "exit_code": 0,
+  "stdout": "{\"status\": \"passed\", \"counts\": {\"changed_steps\": 28, \"steps_with_code_blocks_preserved\": 25, \"successful_compilations\": 4, \"expected_compile_rejections\": 4, \"executions\": 30, \"standards\": [\"C++17\", \"C++20\"]}}\n",
+  "stderr": "",
+  "reported_status": "passed",
+  "report_sha256": "f576a9284720f3cc04c53ee74dd0a078eba3502db5ce734174cc0e029bcb465d",
+  "status": "passed",
+  "finished_at": "2026-11-23T14:40:46.841087+00:00"
+}

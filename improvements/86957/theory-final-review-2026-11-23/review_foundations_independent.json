@@ -1,0 +1,201 @@
+{
+  "schema_version": 1,
+  "reviewer": "verify_advanced",
+  "author_under_review": "verify_foundations",
+  "status": "passed",
+  "reviewed_at": "2026-11-23T14:50:58.585260+00:00",
+  "scope": "Независимая проверка всех трёх итоговых foundations-правок и их тестового обоснования; отдельная проверка точной привязки трёх дополнительных исторических полных листингов. Новых компиляций в этой перекрёстной рецензии не выполнялось.",
+  "reviewed_changed_step_ids": [
+    3177282,
+    3177291,
+    3177292
+  ],
+  "target_inputs": [
+    {
+      "step_id": 3177282,
+      "path": "improvements/86957/theory-final-review-2026-11-23/steps/763630/04_3177282_text.step",
+      "file_sha256": "8b23b0cd3907a58d23e3eb9e86842f86d9d50faa60f104e19034473fff57b579",
+      "text_sha256": "59802b744b02d269268e0ade8b025a9e62947795fb7c06fa4aae8fdefbfbe300"
+    },
+    {
+      "step_id": 3177291,
+      "path": "improvements/86957/theory-final-review-2026-11-23/steps/763639/01_3177291_text.step",
+      "file_sha256": "074e7fa853f9c8434c57ed9b36dd0d1995768775167a4596988ecc44b76cfbd3",
+      "text_sha256": "c52f4851ba5e793cb5444023ed738a570ccf042438fb1a9409ead92a6a893f63"
+    },
+    {
+      "step_id": 3177292,
+      "path": "improvements/86957/theory-final-review-2026-11-23/steps/763640/01_3177292_text.step",
+      "file_sha256": "1e3ea1e61047097c2b68f0d5a9889a7a63b3c4d0ff7a3b1931d1692d3ceb6e2f",
+      "text_sha256": "50640a2905b6d7ec922c1c106876f0a1bc0e34b7885be79aafa9cb0d796cee75"
+    }
+  ],
+  "checks": [
+    {
+      "name": "three_complete_texts_and_diffs",
+      "status": "passed",
+      "details": "Полностью прочитаны итоговые тексты и сравнены с эффективными входами. Уточнения меняют условия и границы утверждений, не подменяют заданиями разобранную теорию."
+    },
+    {
+      "name": "unsigned_promotions",
+      "status": "passed",
+      "details": "Различены unsigned int в 0U-1U и unsigned char, повышаемый до int при представимости всего диапазона. Условие повышения проверено по N4659/N4861 [conv.prom]."
+    },
+    {
+      "name": "division_and_remainder_contract",
+      "status": "passed",
+      "details": "Для обеих операций / и % требуют ненулевой делитель и представимое частное; математический нулевой остаток не делает min%-1 допустимым. Сверено с N4659/N4861 [expr.mul]."
+    },
+    {
+      "name": "formatted_prefix_input",
+      "status": "passed",
+      "details": "Пример принимает 12 из 12x, не проверяя остаток строки; отдельно описаны отказ первого извлечения, EOF без числа и выход за int. Сверено с [facet.num.get.virtuals] обеих версий."
+    },
+    {
+      "name": "only_block_text_and_preserved_pre",
+      "status": "passed",
+      "changed_text_steps": 3,
+      "raw_pre_elements_preserved": 6
+    },
+    {
+      "name": "exact_full_listing_bindings",
+      "status": "passed",
+      "pre_index_base": 0,
+      "bindings": [
+        {
+          "step_id": 3177291,
+          "pre_index": 1,
+          "source_path": "improvements/86957/theory-final-review-2026-11-23/examples/foundations/integer_division.cpp",
+          "source_sha256": "1df946e0fe58d87ae523af8331331ca5179003feb377c4d2f9e75a47d05060a4"
+        },
+        {
+          "step_id": 3177292,
+          "pre_index": 1,
+          "source_path": "improvements/86957/theory-final-review-2026-11-23/examples/foundations/if_input.cpp",
+          "source_sha256": "f8726f028b848845c462244f9c3050f0e8c318edbf13a08baaabeea96a7aa7ce"
+        },
+        {
+          "step_id": 3177281,
+          "pre_index": 1,
+          "source_path": "improvements/86957/theory-final-review-2026-11-23/examples/foundations/wide_characters.cpp",
+          "source_sha256": "ed1d70c097e9b62804524d4c93515a925bce8a683f397927825b377f438c4627"
+        },
+        {
+          "step_id": 3177281,
+          "pre_index": 2,
+          "source_path": "improvements/86957/theory-final-review-2026-11-23/examples/foundations/narrow_casts.cpp",
+          "source_sha256": "396a89abde87f263953e803d5fd67cd8058d3538c6ea0e72afa3944c86a1ab09"
+        },
+        {
+          "step_id": 3177283,
+          "pre_index": 1,
+          "source_path": "improvements/86957/theory-final-review-2026-11-23/examples/foundations/type_sizes.cpp",
+          "source_sha256": "4712a190e1122b212667244972e51c62cef7d966a84bf6354483ed90ee85abd7"
+        }
+      ]
+    },
+    {
+      "name": "author_verifier_and_runtime_cases_read",
+      "status": "passed",
+      "details": "Прочитаны verify.py, authoring/foundations.py, README и все шесть C++-файлов. Проверки включают знаки, ноль, края договорённого диапазона, prefix/tail, EOF и int-границы; неопределённые операции присутствуют только в отвергаемых constexpr-исходниках."
+    },
+    {
+      "name": "current_receipt_integrity",
+      "status": "passed",
+      "input_hashes_verified": 16,
+      "receipt_path": "improvements/86957/theory-final-review-2026-11-23/validation/new_foundations.json",
+      "receipt_sha256": "8938e5b3de0ccde309143a0488deeeb1796d2c1cdc5831aa6be25151bc811e90",
+      "reported_successful_compilations": 12,
+      "reported_runtime_cases": 70,
+      "reported_expected_compile_failures": 8,
+      "compilations_repeated_by_this_reviewer": 0
+    },
+    {
+      "name": "negative_fixture_reproducibility",
+      "status": "passed",
+      "details": "Восстановлены точные четыре constexpr-исходника в обоих стандартах и сверены все восемь SHA; диапазон дополнительного кода подтверждён сохранёнными platform_contracts."
+    }
+  ],
+  "findings": [],
+  "unresolved_defects": [],
+  "reviewed_testinputs": [
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/review_inputs.json",
+      "sha256": "53d72e8a181cf26ff99fd906b12a9808c329bf6323578b1b5182869172ebb2e2"
+    },
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/changes_foundations.json",
+      "sha256": "91f9616c04d63e2c3dc5251ddcf949c9203562bc5f82ba9167a59c0e53e32203"
+    },
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/authoring/foundations.py",
+      "sha256": "42ceda914149bbfe70a3d7218b5a9e6ec15281cafc6653cbbd82506889fc5b7a"
+    },
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/examples/foundations/verify.py",
+      "sha256": "18b4e3b1b8d76a3abb20334c8714cbd598e7e6171054398d33c3c9ffa606b87f"
+    },
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/examples/foundations/README.md",
+      "sha256": "afc9d5706e9d58760f4611a8a5e45d544cc534a633cdbc1051cbd1a61e4c274e"
+    },
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/examples/foundations/numeric_contracts.cpp",
+      "sha256": "21c18aa1b06376cd876c4fb56636f1a27c02346242f9d5df2d5d7853de1d0d42"
+    },
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/examples/foundations/integer_division.cpp",
+      "sha256": "1df946e0fe58d87ae523af8331331ca5179003feb377c4d2f9e75a47d05060a4"
+    },
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/examples/foundations/if_input.cpp",
+      "sha256": "f8726f028b848845c462244f9c3050f0e8c318edbf13a08baaabeea96a7aa7ce"
+    },
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/examples/foundations/wide_characters.cpp",
+      "sha256": "ed1d70c097e9b62804524d4c93515a925bce8a683f397927825b377f438c4627"
+    },
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/examples/foundations/narrow_casts.cpp",
+      "sha256": "396a89abde87f263953e803d5fd67cd8058d3538c6ea0e72afa3944c86a1ab09"
+    },
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/examples/foundations/type_sizes.cpp",
+      "sha256": "4712a190e1122b212667244972e51c62cef7d966a84bf6354483ed90ee85abd7"
+    },
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/steps/763630/04_3177282_text.step",
+      "sha256": "8b23b0cd3907a58d23e3eb9e86842f86d9d50faa60f104e19034473fff57b579"
+    },
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/steps/763639/01_3177291_text.step",
+      "sha256": "074e7fa853f9c8434c57ed9b36dd0d1995768775167a4596988ecc44b76cfbd3"
+    },
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/steps/763640/01_3177292_text.step",
+      "sha256": "1e3ea1e61047097c2b68f0d5a9889a7a63b3c4d0ff7a3b1931d1692d3ceb6e2f"
+    },
+    {
+      "path": "courses/86957/steps/763630/05_3177281_text.step",
+      "sha256": "1a2cfb63a564b3b3eb3940a06fbf791d97c9a5390e6e3fde3de634d06ca6ed61"
+    },
+    {
+      "path": "improvements/86957/theory-links-2026-11-23/steps/763630/07_3177283_text.step",
+      "sha256": "535764f7fe3fb4f2b18e0c6fd65cb70f1d92d18bfd3b236e779ff036fbe3ed63"
+    }
+  ],
+  "primary_sources": [
+    "https://timsong-cpp.github.io/cppwp/n4659/conv.prom",
+    "https://timsong-cpp.github.io/cppwp/n4861/conv.prom",
+    "https://timsong-cpp.github.io/cppwp/n4659/expr.mul",
+    "https://timsong-cpp.github.io/cppwp/n4861/expr.mul",
+    "https://timsong-cpp.github.io/cppwp/n4659/facet.num.get.virtuals",
+    "https://timsong-cpp.github.io/cppwp/n4861/facet.num.get.virtuals"
+  ],
+  "limits": [
+    "Независимая рецензия охватывает три изменённых шага, тестовые исходники и связи пяти полных программ; она не повторяет полную смысловую вычитку остальных foundations-текстов.",
+    "Чтение кода, сверка SHA и протокола не считаются новым запуском компилятора: используются отдельно сохранённые результаты автора.",
+    "Текущий запуск автора ограничен Linux/GCC и локалью C; платформенные размеры и ASCII-пример не выданы за универсальный вывод.",
+    "Существующие оценочные шаги, проверки учащихся и Stepik не затрагивались."
+  ]
+}

@@ -24,6 +24,7 @@ PACKAGES = [
     ('Теоретическая редакция', 'improvements/86957/theory-2026-11-23/manifest.json', 'publication.status'),
     ('Продолжение теоретической редакции', 'improvements/86957/theory-continuation-2026-11-23/manifest.json', 'publication.status'),
     ('Сквозное согласование теории', 'improvements/86957/theory-links-2026-11-23/manifest.json', 'publication.status'),
+    ('Независимая проверка теории', 'improvements/86957/theory-final-review-2026-11-23/manifest.json', 'publication.status'),
 ]
 
 

@@ -1,0 +1,760 @@
+[
+  {
+    "step_id": 3215253,
+    "path": "steps/771154/02_3215253_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Отсылка к полному многофайловому примеру направлена на сам разбор трёх файлов, а не на вводный шаг проекта.",
+    "sources": [
+      "https://cmake.org/cmake/help/v3.22/manual/cmake.1.html",
+      "https://gcc.gnu.org/onlinedocs/gcc/Overall-Options.html"
+    ],
+    "plan": [
+      "LINKS",
+      "T1"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "d415b0cd8bb077c4635acca47ba898775135212bf9c761142c1429e67603db8c"
+  },
+  {
+    "step_id": 3201141,
+    "path": "steps/768140/02_3201141_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Указаны точные продолжения команд сборки и согласовано различие выбранного C++20 и проверяемой совместимости C++17/20.",
+    "sources": [
+      "https://cmake.org/cmake/help/v3.22/manual/cmake.1.html",
+      "https://gcc.gnu.org/onlinedocs/gcc/Overall-Options.html"
+    ],
+    "plan": [
+      "LINKS",
+      "T1"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "58404210c9c5be2158f79f505b2e9bc10899dc11a3bfa8bf2405dab9a9b564b5"
+  },
+  {
+    "step_id": 3201168,
+    "path": "steps/768140/08_3201168_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Исправлен фактический порядок уроков: библиотека и std:: предшествуют первому запуску.",
+    "sources": [
+      "https://cmake.org/cmake/help/v3.22/manual/cmake.1.html",
+      "https://gcc.gnu.org/onlinedocs/gcc/Overall-Options.html"
+    ],
+    "plan": [
+      "LINKS",
+      "T1"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "f7711c5ba0bd6672f259222e82ce100b518b97b67044ba70e7c5327cb4ee329c"
+  },
+  {
+    "step_id": 3237989,
+    "path": "steps/776128/03_3237989_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Разведены инициализация до main и динамическая инициализация локального static; исправлено смешение исходников и готовых объектов CRT.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.start.static",
+      "https://timsong-cpp.github.io/cppwp/n4659/stmt.dcl",
+      "https://timsong-cpp.github.io/cppwp/n4861/stmt.dcl",
+      "https://timsong-cpp.github.io/cppwp/n4861/basic.start.dynamic",
+      "https://gcc.gnu.org/onlinedocs/gcc-14.3.0/gccint/Initialization.html"
+    ],
+    "plan": [
+      "LINKS",
+      "T1"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "752d26e4067138cd7eab264c3b7ff6de7aea968dd598d016c00d65d692b0936f"
+  },
+  {
+    "step_id": 3238004,
+    "path": "steps/776128/05_3238004_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Правило выхода из функции ограничено автоматическими объектами; локальный static связан с отдельным объяснением времени жизни.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.start.main",
+      "https://timsong-cpp.github.io/cppwp/n4861/basic.start.main"
+    ],
+    "plan": [
+      "LINKS",
+      "T1"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "af3b38adcfbc3084dc53afe23f6d4fcfc314db6a819e48552a5490aa75a80b2b"
+  },
+  {
+    "step_id": 3231226,
+    "path": "steps/774618/05_3231226_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Завершена линия CMake → несколько файлов → библиотека → CTest с точными адресами и устойчивыми ролями инструментов.",
+    "sources": [
+      "https://cmake.org/cmake/help/v3.22/manual/cmake.1.html",
+      "https://gcc.gnu.org/onlinedocs/gcc/Overall-Options.html"
+    ],
+    "plan": [
+      "LINKS",
+      "T1"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "d2b63b2f877452c56db09e7c00026b8df7042b0a7f0554611f3a2d422d55d4ca"
+  },
+  {
+    "step_id": 3177280,
+    "path": "steps/763630/03_3177280_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Значение больше не отождествляется только с содержимым именованного объекта; введение ссылки имеет точный адрес продолжения.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/expr",
+      "https://timsong-cpp.github.io/cppwp/n4659/intro.object",
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.ref"
+    ],
+    "plan": [
+      "LINKS",
+      "T2"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "f351093a8c97bc36f4810b3255ff92a252f95234b108a02d3d9fc8238e4f6050"
+  },
+  {
+    "step_id": 3177283,
+    "path": "steps/763630/07_3177283_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Убран буквальный дубль таблицы размеров соседнего шага; оставлена связь значащих битов, представления, sizeof и диапазона.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.fundamental",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.sizeof",
+      "https://timsong-cpp.github.io/cppwp/n4659/numeric.limits"
+    ],
+    "plan": [
+      "LINKS",
+      "T2"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "535764f7fe3fb4f2b18e0c6fd65cb70f1d92d18bfd3b236e779ff036fbe3ed63"
+  },
+  {
+    "step_id": 3177279,
+    "path": "steps/763630/08_3177279_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Обещанный разбор auto/const/ссылок направлен к добавленному законченному объяснению, отдельно от разбора позиции строки.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.type.auto.deduct"
+    ],
+    "plan": [
+      "LINKS",
+      "T2"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "85fe7cae15bffab37e9ec95e2752dac27d1b1a766d556f1978836453e1003156"
+  },
+  {
+    "step_id": 3177504,
+    "path": "steps/763639/03_3177504_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Сдвиги связаны с продвижениями и ограничениями диапазона; правила отрицательных значений разделены для C++17 и C++20, фрагменты явно обозначены.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.shift",
+      "https://timsong-cpp.github.io/cppwp/n4659/conv.prom",
+      "https://timsong-cpp.github.io/cppwp/n4861/expr.shift"
+    ],
+    "plan": [
+      "LINKS",
+      "T2"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "af27639e5efd5fb4974b550f11660d9ce82d5a2b2745d81f733167381dfc783a"
+  },
+  {
+    "step_id": 3177499,
+    "path": "steps/763639/04_3177499_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Справочник приоритетов отделён от обязательных предварительных знаний; отмечены версии и темы вне курса.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/expr",
+      "https://timsong-cpp.github.io/cppwp/n4861/expr"
+    ],
+    "plan": [
+      "LINKS",
+      "T2"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "a28d7389a36d4f3a681c9465c2fa38e19aaa73459c092011a5f9006292151118"
+  },
+  {
+    "step_id": 3212935,
+    "path": "steps/763644/05_3212935_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Обещание объяснить круглые и фигурные скобки имеет конкретные продолжения для vector и string.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.init.list",
+      "https://timsong-cpp.github.io/cppwp/n4659/vector.cons",
+      "https://timsong-cpp.github.io/cppwp/n4659/string.cons"
+    ],
+    "plan": [
+      "LINKS",
+      "T2"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "139b19365352e131039726a679714c6ba47a5b864e3d0ac30803abd676c7185b"
+  },
+  {
+    "step_id": 3212920,
+    "path": "steps/763644/06_3212920_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Ошибка индекса теперь сообщает код 1, согласованный с контрактами ввода T2/T3; добавлены точные переходы от at к обработке исключения.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/array.overview",
+      "https://timsong-cpp.github.io/cppwp/n4659/support.start.term",
+      "https://timsong-cpp.github.io/cppwp/n4659/except.throw"
+    ],
+    "plan": [
+      "LINKS",
+      "T2"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "b8da69f2092fe153fe4d551c9a9a1d7fba03681e8c90da4ecf06c9a812fc5b9c"
+  },
+  {
+    "step_id": 3212926,
+    "path": "steps/763644/07_3212926_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Предварительная ссылка на ссылки ведёт непосредственно к их объяснению при передаче аргументов, а не к общему введению функций.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.ref"
+    ],
+    "plan": [
+      "LINKS",
+      "T2"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "ba8abe7a6ffe913034bba013806de8601ad258761cdf84828c252c956448e19d"
+  },
+  {
+    "step_id": 3212939,
+    "path": "steps/763646/03_3212939_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Предварительная ссылка на ссылки ведёт непосредственно к их объяснению при передаче аргументов, а не к общему введению функций.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.ref"
+    ],
+    "plan": [
+      "LINKS",
+      "T2"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "67517caef22065ad865b26ba19c314515e392ff881c41fc6f77ce5a9ef6b3849"
+  },
+  {
+    "step_id": 3212968,
+    "path": "steps/770585/02_3212968_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Литерал nullptr, его собственный тип и полученное нулевое значение int* разведены в общей модели литерал/тип/объект.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/lex.nullptr",
+      "https://timsong-cpp.github.io/cppwp/n4659/conv.ptr"
+    ],
+    "plan": [
+      "LINKS",
+      "T2"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "f2f90539b4a47f5bbe5e7a666806be5a661b634c2a19b606f5644f1a8c292fb8"
+  },
+  {
+    "step_id": 3212970,
+    "path": "steps/770585/04_3212970_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Предварительная ссылка на ссылки ведёт непосредственно к их объяснению при передаче аргументов, а не к общему введению функций.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.ref"
+    ],
+    "plan": [
+      "LINKS",
+      "T2"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "e78db463559d3c007da3ec39cb0cff169633731a88474619baa144075b07597f"
+  },
+  {
+    "step_id": 3438841,
+    "path": "steps/770586/06_3438841_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Переход от времени жизни локального контейнера к RAII и unique_ptr закреплён точными адресами.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.life",
+      "https://timsong-cpp.github.io/cppwp/n4659/except.ctor"
+    ],
+    "plan": [
+      "LINKS",
+      "T2"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "170bdcd09d4fc2521171f31b9b5f9250b59374e76ce2c580d16540f490610682"
+  },
+  {
+    "step_id": 3213209,
+    "path": "steps/770587/02_3213209_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Устранено повторное отождествление int** с массивом; чтение связано с инициализацией и обеими границами, различие скобок vector разобрано до конкретных элементов.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/conv.array",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.sub",
+      "https://timsong-cpp.github.io/cppwp/n4659/vector.cons",
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.init.list"
+    ],
+    "plan": [
+      "LINKS",
+      "T2"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "8b34bc727e369621835b37112edd10ca9896cc7b14f27b0f421fcb39253f768b"
+  },
+  {
+    "step_id": 3213210,
+    "path": "steps/770587/05_3213210_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Исправлена ошибочная отсылка к разделу функций: объяснение исключений реально находится в модуле 8.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/except.throw"
+    ],
+    "plan": [
+      "LINKS",
+      "T2"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "6ebd07119215adef7c687c818bdbe478c7eaff2c483799336f1347a6d5225378"
+  },
+  {
+    "step_id": 3213206,
+    "path": "steps/770587/07_3213206_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Итоговая карта указателей завершена конкретными переходами к инварианту и RAII.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.life",
+      "https://timsong-cpp.github.io/cppwp/n4659/except.ctor"
+    ],
+    "plan": [
+      "LINKS",
+      "T2"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "8380fa42ac37dad428b7028b5bd4d990c8cc8760218129cf3770c3d9ffbca59b"
+  },
+  {
+    "step_id": 3212949,
+    "path": "steps/770590/01_3212949_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Устранён круг в предпосылках: вводный шаг функций больше не требует уже знать ещё не введённые ссылки.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.fct",
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.ref"
+    ],
+    "plan": [
+      "LINKS",
+      "T3"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "7b648925b5b91f41e0cc76988ae5e023a45c2562d4d84148718c3b41893f1f43"
+  },
+  {
+    "step_id": 3214910,
+    "path": "steps/770590/03_3214910_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Неопределённое обещание будущих разделов noexcept заменено конкретным маршрутом к исключениям.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/except.spec",
+      "https://timsong-cpp.github.io/cppwp/n4659/except.terminate"
+    ],
+    "plan": [
+      "LINKS",
+      "T3"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "ec0dc14fc8bf746dbcd12b82b2afb0ee214e5fcc9c5ab67b16b9b2918238404c"
+  },
+  {
+    "step_id": 3214911,
+    "path": "steps/770590/04_3214911_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Связь возврата значения с созданием результата и перемещением имеет конкретное продолжение без преждевременного углубления.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/stmt.return",
+      "https://timsong-cpp.github.io/cppwp/n4659/class.copy.elision"
+    ],
+    "plan": [
+      "LINKS",
+      "T3"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "8387349225c5d9c8793a21d36dfa76d6e1e1f03502293fb463bfce825594245d"
+  },
+  {
+    "step_id": 3214973,
+    "path": "steps/770591/02_3214973_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Область видимости связана с точными разборами многофайлового устройства и связывания.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.scope",
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.link"
+    ],
+    "plan": [
+      "LINKS",
+      "T3"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "64927fa835cb7f39526cd831bb9903fdc9c236a311465b8e3b36577f2afa1f7e"
+  },
+  {
+    "step_id": 3214971,
+    "path": "steps/770591/04_3214971_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Передача указателя по значению связана с конкретным разбором невладеющего диапазона.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.fct",
+      "https://timsong-cpp.github.io/cppwp/n4659/conv.array"
+    ],
+    "plan": [
+      "LINKS",
+      "T3"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "a6813aeb8bd034ab4310d3d54beb6edb0507042f63028b8c47d4bc9b0d1fc836"
+  },
+  {
+    "step_id": 3214974,
+    "path": "steps/770591/05_3214974_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Закрыт обещанный в T2 переход auto → копия/ссылка/const; добавлен законченный разбор без требования знаний шаблонов.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.type.auto.deduct",
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.ref",
+      "https://timsong-cpp.github.io/cppwp/n4861/dcl.type.auto.deduct"
+    ],
+    "plan": [
+      "LINKS",
+      "T3"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "14735511583b92b8743378dea8a94a9e422ddb08aa7a12eb53dacb98f80486d4"
+  },
+  {
+    "step_id": 3214991,
+    "path": "steps/770592/03_3214991_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Общее состояние связано с конкретными объяснениями инварианта и владения ресурсом.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.link",
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.life",
+      "https://timsong-cpp.github.io/cppwp/n4659/except.ctor"
+    ],
+    "plan": [
+      "LINKS",
+      "T3"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "9d073900263b2ebc4f86fde9f85f3283e40e185579733ac797a0bbef73e52a6b"
+  },
+  {
+    "step_id": 3215045,
+    "path": "steps/770593/04_3215045_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Время жизни загруженной реализации связано с конкретным объяснением RAII, без приписывания платформенного загрузчика стандарту языка.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/basic.life",
+      "https://timsong-cpp.github.io/cppwp/n4659/except.ctor"
+    ],
+    "plan": [
+      "LINKS",
+      "T3"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "81e4ff413bf5cbf08e651e9495352cc927c81e52a1fa23df7f421f234dc09a2e"
+  },
+  {
+    "step_id": 3252939,
+    "path": "steps/778425/02_3252939_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Классификация проверок ведёт к точному общему исходнику приложения и проверяющей программы.",
+    "sources": [
+      "https://cmake.org/cmake/help/latest/command/add_test.html"
+    ],
+    "plan": [
+      "LINKS",
+      "T3"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "ff05f508224353ff78be83b504174c3bc3fd29350f78c5b2f98510556c0fe750"
+  },
+  {
+    "step_id": 3253129,
+    "path": "steps/778426/02_3253129_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Преждевременное обозначение O(n log n) снабжено объяснением двух множителей и адресом определения сложности.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/structure.specifications"
+    ],
+    "plan": [
+      "LINKS",
+      "T3"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "65e0159a56eb02f89177e160e2efdb4874733612b6705396c412025fa59a859c"
+  },
+  {
+    "step_id": 3253553,
+    "path": "steps/778426/07_3253553_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: GoogleTest-пример получил минимально необходимые предпосылки std::string до модуля 9 и связь с уже введённой C-строкой.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/string.require",
+      "https://google.github.io/googletest/reference/assertions.html"
+    ],
+    "plan": [
+      "LINKS",
+      "T3"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "2abe1c1ee3afcb6412cfa9f3dec7fe29cc6894994f5eee71983c1489b5546a79"
+  },
+  {
+    "step_id": 3214873,
+    "path": "steps/770588/03_3214873_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Независимые фрагменты и ожидаемая ошибка компиляции обозначены явно; переход к владеющей строке имеет точный адрес.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/lex.string",
+      "https://timsong-cpp.github.io/cppwp/n4659/conv.array",
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.array"
+    ],
+    "plan": [
+      "LINKS",
+      "T2"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "cf934cdbe5a2305bfcbef726d379693af6d8925829cbaaa5b533949769ea6d30"
+  },
+  {
+    "step_id": 3214903,
+    "path": "steps/770589/03_3214903_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Введение конструкторов string не предполагает ещё не изученного устройства классов; назначение операции объяснено на месте.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/string.cons",
+      "https://timsong-cpp.github.io/cppwp/n4659/class.ctor"
+    ],
+    "plan": [
+      "LINKS",
+      "T2"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "d8b4f6df076d3206dca87ff59661cc87b76b84bc6afa169db38b49b0f3023d7a"
+  },
+  {
+    "step_id": 3213242,
+    "path": "steps/770594/05_3213242_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Неопределённое обещание будущего контейнера заменено возвратом к уже введённому vector; размер хранения отделён от числа посещений.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.array",
+      "https://timsong-cpp.github.io/cppwp/n4659/vector.overview"
+    ],
+    "plan": [
+      "LINKS",
+      "T4"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "3eee1eae1afb594a52d555ee7f12347d163cefc58b461dd3f850e92d611d34ea"
+  },
+  {
+    "step_id": 3215109,
+    "path": "steps/771129/01_3215109_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Согласованы индекс, итератор и разыменование; собственная lower_bound_index отделена от стандартной lower_bound.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/alg.binary.search",
+      "https://timsong-cpp.github.io/cppwp/n4861/expr.sub"
+    ],
+    "plan": [
+      "LINKS",
+      "T4"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "a202f2322fab10ffa8e22e336fe786f6094c756a09ef49db2a552625df7ba778"
+  },
+  {
+    "step_id": 3215113,
+    "path": "steps/771131/01_3215113_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Мост от файлового потока к RAII получил точное продолжение; гарантия уничтожения при исключении ограничена раскруткой до обработчика.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/filebuf.cons",
+      "https://timsong-cpp.github.io/cppwp/n4861/filebuf.cons",
+      "https://timsong-cpp.github.io/cppwp/n4861/except.terminate"
+    ],
+    "plan": [
+      "LINKS",
+      "T4"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "d20a78e26c6f3799883565accf379d61061904a12ab1c06bb3721755612b5b43"
+  },
+  {
+    "step_id": 3580923,
+    "path": "steps/771131/04_3580923_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Вместо ссылки на неназванные правила объяснены общая файловая позиция, смена направлений fstream и состояние после EOF.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/filebuf",
+      "https://timsong-cpp.github.io/cppwp/n4861/filebuf",
+      "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf",
+      "https://timsong-cpp.github.io/cppwp/n4861/istream.unformatted",
+      "https://timsong-cpp.github.io/cppwp/n4659/iostate.flags",
+      "https://timsong-cpp.github.io/cppwp/n4861/iostate.flags"
+    ],
+    "plan": [
+      "LINKS",
+      "T4"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "844732654f70ebfd7acd27c0397029fadf0985a179cb60c2a498c9ef78234c82"
+  },
+  {
+    "step_id": 3669075,
+    "path": "steps/877081/04_3669075_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Переход от деструктора и правила нуля направлен на фактический разбор правила нуля и затем на RAII вместо страницы о продолжительности хранения.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/class.dtor",
+      "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rc-zero"
+    ],
+    "plan": [
+      "LINKS",
+      "T5"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "462af2d166951f4a26d62df50cfcf38872c0e4820d703df7027c74e504d6c770"
+  },
+  {
+    "step_id": 3760029,
+    "path": "steps/897987/08_3760029_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Сравнение Distance связано с точным требованием строгого слабого порядка и эквивалентностью ключей set/map; код и результат сохранены.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/associative.reqmts",
+      "https://timsong-cpp.github.io/cppwp/n4861/associative.reqmts",
+      "https://timsong-cpp.github.io/cppwp/n4659/alg.sorting",
+      "https://timsong-cpp.github.io/cppwp/n4861/alg.sorting"
+    ],
+    "plan": [
+      "LINKS",
+      "T5"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "7ac74567756953026b092f03d9aca2e4627b2701351b52549d2215a4927fd697"
+  },
+  {
+    "step_id": 3759914,
+    "path": "steps/877084/05_3759914_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Переход от виртуального деструктора уточнён для unique_ptr со стандартным удалителем и направлен на конкретный шаг, без обобщения на любой умный указатель.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.delete",
+      "https://timsong-cpp.github.io/cppwp/n4861/expr.delete",
+      "https://timsong-cpp.github.io/cppwp/n4659/unique.ptr.dltr.dflt",
+      "https://timsong-cpp.github.io/cppwp/n4861/unique.ptr.dltr.dflt"
+    ],
+    "plan": [
+      "LINKS",
+      "T5"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "05cc779762d34d04bc6f868aef4fa4e99ce34ef9527a414ee2ed8e72d2422583"
+  },
+  {
+    "step_id": 3569325,
+    "path": "steps/853536/01_3569325_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Гарантия сохранения элементов после возврата ограничена показанным владеющим vector; произвольный возврат по значению не объявляется передачей владения. Код сохранён.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/stmt.return",
+      "https://timsong-cpp.github.io/cppwp/n4861/stmt.return",
+      "https://timsong-cpp.github.io/cppwp/n4659/vector",
+      "https://timsong-cpp.github.io/cppwp/n4861/vector"
+    ],
+    "plan": [
+      "LINKS",
+      "T5"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "3a351e9d6dfc2ddadd651f2a947e06280d2e0dca796c311a92df236784cd4b11"
+  },
+  {
+    "step_id": 3569964,
+    "path": "steps/853536/02_3569964_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Обещание перехода RAII → unique_ptr согласовано с фактическим кодом: функция получает ссылку, а владение передаётся между локальными владельцами.",
+    "sources": [
+      "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rr-smartptrparam",
+      "https://timsong-cpp.github.io/cppwp/n4659/unique.ptr"
+    ],
+    "plan": [
+      "LINKS",
+      "T5"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "6c4b3c10641846477e34cfcaf8814e293baa9014df8598a1ea372ead646c1e18"
+  },
+  {
+    "step_id": 3569963,
+    "path": "steps/853536/03_3569963_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Исключительное владение связано с ранее введённым Shape: автоматическое удаление через базовый тип сохраняет требование к виртуальному деструктору.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/unique.ptr.dltr.dflt",
+      "https://timsong-cpp.github.io/cppwp/n4861/unique.ptr.dltr.dflt",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.delete",
+      "https://timsong-cpp.github.io/cppwp/n4861/expr.delete"
+    ],
+    "plan": [
+      "LINKS",
+      "T5"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "13e62d53a3ef3b2b372bb07ecd8bf7223f175e12e2b03d8c3e8bef22cbc5705f"
+  },
+  {
+    "step_id": 3569327,
+    "path": "steps/853537/01_3569327_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Совместное владение связано с наследованием: сохранённое уничтожение Derived при преобразовании владельца отделено от создания новой группы из Base*.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/util.smartptr.shared.const",
+      "https://timsong-cpp.github.io/cppwp/n4861/util.smartptr.shared.const",
+      "https://timsong-cpp.github.io/cppwp/n4659/expr.delete",
+      "https://timsong-cpp.github.io/cppwp/n4861/expr.delete",
+      "https://timsong-cpp.github.io/cppwp/n4659/util.smartptr.shared.create",
+      "https://timsong-cpp.github.io/cppwp/n4861/util.smartptr.shared.create"
+    ],
+    "plan": [
+      "LINKS",
+      "T5"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "e4d605309c08d5576a4a5691ad387cec6d2b0873bdf7f52ec8556b2345fac1cd"
+  },
+  {
+    "step_id": 4035517,
+    "path": "steps/973837/02_4035517_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Сводная таблица больше не приписывает логарифмическую высоту произвольному дереву поиска; согласована с разбором вырождения.",
+    "sources": [
+      "https://sedgewick.io/wp-content/themes/sedgewick/papers/2008LLRB.pdf"
+    ],
+    "plan": [
+      "LINKS",
+      "T6"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "296bcb84d4821e7fb886735cf3dbcbaff929d30382159cd076437fcfae35a202"
+  },
+  {
+    "step_id": 3570230,
+    "path": "steps/853539/02_3570230_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Исправлено ложное обещание одинакового результата false у BST/AVL/RB: RBT::add возвращает void, хотя все три сохраняют значение дубликата.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/dcl.fct",
+      "https://github.com/Vadimohka/stepik-OAiP/blob/352c2796717a55f4f0db8395b7d6093d8d67c35e/courses/86957/steps/853541/02_3570303_text.step"
+    ],
+    "plan": [
+      "LINKS",
+      "T6"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "dbec07a03f0f6cc55cb15cb55f33b485cb47cd91371f29d12923c447dd316ba9"
+  },
+  {
+    "step_id": 3569332,
+    "path": "steps/853541/01_3569332_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Убрано смешение общего красно-чёрного дерева с 2–3-деревом; переход к 2–3–4 и конкретному следующему шагу сохранён.",
+    "sources": [
+      "https://sedgewick.io/wp-content/themes/sedgewick/papers/2008LLRB.pdf"
+    ],
+    "plan": [
+      "LINKS",
+      "T6"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "b48beb3e4d998abf79a0bcf2b4ddb1bd79ef8cecfbd6ce8ed594426180facc61"
+  },
+  {
+    "step_id": 4035481,
+    "path": "steps/973831/02_4035481_text.step",
+    "summary": "Перенесено без новой редактуры из принятого LINKS: Успешный ItemTable::find больше не выглядит константным по длине значения: сравнения ID отделены от копии строки и связаны с контрактом результата map::find.",
+    "sources": [
+      "https://timsong-cpp.github.io/cppwp/n4659/container.requirements.general",
+      "https://timsong-cpp.github.io/cppwp/n4861/container.requirements.general",
+      "https://timsong-cpp.github.io/cppwp/n4861/string.cons",
+      "https://timsong-cpp.github.io/cppwp/n4861/associative.reqmts"
+    ],
+    "plan": [
+      "LINKS",
+      "T6"
+    ],
+    "origin_manifest": "improvements/86957/theory-links-2026-11-23/manifest.json",
+    "origin_after_file_sha256": "5d152e77161947c74113870beaa8484e90e02360d76004b48d476c82d851f927"
+  }
+]

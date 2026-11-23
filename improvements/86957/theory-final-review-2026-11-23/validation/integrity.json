@@ -1,0 +1,203 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "base_commit": "26bbfeb5065ef3475f9ea612a3a8785f934b7c49",
+  "scope": "Complete declared text review and exact evidence integrity; not formal program verification.",
+  "reviewed_theory_text_steps": 283,
+  "modules": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "review_parts": {
+    "foundations": {
+      "fully_read_texts": 96,
+      "independently_accepted_corrections": 3
+    },
+    "core": {
+      "fully_read_texts": 96,
+      "independently_accepted_corrections": 1
+    },
+    "advanced": {
+      "fully_read_texts": 91,
+      "independently_accepted_corrections": 2
+    }
+  },
+  "new_corrections": 6,
+  "carried_forward": 49,
+  "cumulative_pending_text_steps": 55,
+  "cumulative_lessons": 32,
+  "new_correction_step_ids": [
+    3177282,
+    3177291,
+    3177292,
+    3177298,
+    3570304,
+    3570333
+  ],
+  "all_step_changes_only_block_text": true,
+  "new_lesson_pre_edits": 0,
+  "preserved_pre_in_six_corrected_texts": 24,
+  "scope_original_text_ids": [
+    3212949,
+    3212950,
+    3212953,
+    3212954,
+    3213247,
+    3213255,
+    3213256,
+    3214909,
+    3214910,
+    3214911,
+    3214971,
+    3214972,
+    3214973,
+    3214974,
+    3214978,
+    3214992,
+    3215024,
+    3215109,
+    3215112,
+    3215113,
+    3215136,
+    3215175,
+    3215176,
+    3215178,
+    3215179,
+    3215183,
+    3215192,
+    3215199,
+    3215200,
+    3215203,
+    3215206,
+    3580923,
+    4035311,
+    4035416,
+    4035417,
+    4035427,
+    4035430
+  ],
+  "new_scope_adaptations": 0,
+  "checked_internal_link_occurrences": 323,
+  "published_snapshot_and_historical_packages_unchanged": true,
+  "runtime_reports": {
+    "links_algorithms": {
+      "report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/links_algorithms.json",
+      "sha256": "441de61106f91b048fe70304860a9f41e42398ced1030ca75452b091e675a06c",
+      "verified_input_hashes": 30
+    },
+    "links_ownership": {
+      "report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/links_ownership.json",
+      "sha256": "824e0354941f0087c682666231f128aa5b6a7da0a7458624554ac49f8601cfdb",
+      "verified_input_hashes": 78
+    },
+    "links_types": {
+      "report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/links_types.json",
+      "sha256": "f576a9284720f3cc04c53ee74dd0a078eba3502db5ce734174cc0e029bcb465d",
+      "verified_input_hashes": 32
+    },
+    "t1": {
+      "report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t1.json",
+      "sha256": "033fa36966ca7908f21ffce3de8da90186d00c240d68190cf950f99ca875a0dc",
+      "verified_input_hashes": 34
+    },
+    "t1b": {
+      "report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t1b.json",
+      "sha256": "485dae2c47cf4fc462506f725a18458b58704f10569a22d2c17853355dcf3e74",
+      "verified_input_hashes": 53
+    },
+    "t2": {
+      "report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t2.json",
+      "sha256": "2101f5a35287a87ad690eee0f13affa83b240e2fb64a2c997c90788053b4a4c0",
+      "verified_input_hashes": 96
+    },
+    "t3": {
+      "report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t3.json",
+      "sha256": "589a4bc578a86f73b94aa9d2877ae8182b7b20670eca1180e81bdd56a958196b",
+      "verified_input_hashes": 65
+    },
+    "t4": {
+      "report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t4.json",
+      "sha256": "0fc22f68be5043a4341f367a042e2f29b518435598332d356e0c4411c3c08f5f",
+      "verified_input_hashes": 64
+    },
+    "t5": {
+      "report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t5.json",
+      "sha256": "a30f0c23ba48d98b808e849faa8969f03b134d33cbe9533a5838d506d00f179a",
+      "verified_input_hashes": 88
+    },
+    "t5b": {
+      "report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t5b.json",
+      "sha256": "78f2e428cfe32a62dc177f2cdde9e942bf975a4b4bc8bb7b82dea68fc4b14e97",
+      "verified_input_hashes": 28
+    },
+    "t6": {
+      "report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t6.json",
+      "sha256": "1a25711de0084d0c358773d0f220e47a4e3e4478c1e446f5c225dad776d94ccf",
+      "verified_input_hashes": 44
+    },
+    "new_foundations": {
+      "report": "improvements/86957/theory-final-review-2026-11-23/validation/new_foundations.json",
+      "sha256": "8938e5b3de0ccde309143a0488deeeb1796d2c1cdc5831aa6be25151bc811e90",
+      "verified_input_hashes": 16
+    },
+    "new_core": {
+      "report": "improvements/86957/theory-final-review-2026-11-23/validation/new_core.json",
+      "sha256": "24bcc69d5fceb5e17eab05c077890795b56705285dad2f7a09a9b693ec4ffae5",
+      "verified_input_hashes": 14
+    },
+    "new_advanced": {
+      "report": "improvements/86957/theory-final-review-2026-11-23/validation/new_advanced.json",
+      "sha256": "ec98c24c55283efb930e4425683141a4c4339d89012eb84f7e9efddd6d48305f",
+      "verified_input_hashes": 98
+    }
+  },
+  "input_sha256": {
+    "improvements/86957/theory-final-review-2026-11-23/review_foundations.json": "fe3e0ff556d98e293bd53ad499a353e96f2c78634e7a50dfbce1b3c1b11a0485",
+    "improvements/86957/theory-final-review-2026-11-23/review_foundations_independent.json": "b2fbe440ad20f36fa54da087dfd04ca674d34e5daacc705029358f31700b26d5",
+    "improvements/86957/theory-final-review-2026-11-23/review_core.json": "4b1b77199e51e803ccdb9ad1d97af8f9f49da4a5394befc874bd3a30c7895409",
+    "improvements/86957/theory-final-review-2026-11-23/review_core_independent.json": "bf2dea3a85b12878314ff31c05741e4210996ea1192e72c1d77155a5ab187fb0",
+    "improvements/86957/theory-final-review-2026-11-23/review_advanced.json": "2faa31ebb3fd4bead3018620ab8fe1e6eca2cef5f2a4547098e9c740c69cf37f",
+    "improvements/86957/theory-final-review-2026-11-23/review_advanced_independent.json": "15c16ca61198b0ba2d9d34839035452abf486280689d12efd3b52765f6da5ce8",
+    "improvements/86957/theory-final-review-2026-11-23/review_integration_independent.json": "23ee9fe8881f5929ab6d4c24c8f1ac0e0edfea8a70c103a0bca0905a978329ba",
+    "improvements/86957/theory-final-review-2026-11-23/review_inputs.json": "53d72e8a181cf26ff99fd906b12a9808c329bf6323578b1b5182869172ebb2e2",
+    "improvements/86957/theory-final-review-2026-11-23/review_completion.json": "b259e1f9a0b638c6dae6ae4f01ef43edc8e74d057044dd83f00c11cb8f6db365",
+    "improvements/86957/theory-final-review-2026-11-23/manifest.json": "0c45c2924ef7441090a07ed072e2a9076356a6a6ca874336d95c8cda25746306",
+    "improvements/86957/theory-final-review-2026-11-23/runtime_summary.json": "151fd096799e1390cb1b1e5fd6f2584b88268ea2f20618ac7275e99b70eb4494",
+    "improvements/86957/theory-final-review-2026-11-23/code_coverage.json": "4340993a80518d13a18e745af2b1a5d6d032a3a555a0231c34aa4c078e0e22e3",
+    "improvements/86957/theory-final-review-2026-11-23/verify_code_coverage.py": "3ddc705c0e0cb14767f74942fb201941172449edca257173db1e679bf9955fbd",
+    "tools/verify_theory_final.py": "0c68dbac1d0c81eab63c59758d3d2c71cb3fc30e715702e1cc2cb8bdff94481a",
+    "tools/build_theory_upgrade.py": "d14f3558e12f87a622367e6311d007166054d9918d2ed21daa59239e14c867c6",
+    "tools/render_course_tree.py": "4960f1019608e92fd3356110822c09ba277133efeb65261d1d08b821ac2c1998"
+  },
+  "new_practice": false,
+  "new_video": false,
+  "live_stepik_access": false,
+  "publication": {
+    "status": "not_published",
+    "applied": false,
+    "note": "Только GitHub по прямому указанию владельца от 23 ноября 2026 года; изменения на Stepik в этой сессии не разрешены."
+  },
+  "limitations": [
+    "All standalone positive listings are bound to current source checks; snippets and commands are separately classified.",
+    "Finite examples and traces do not prove all inputs, allocation failures or template instantiations.",
+    "Current execution is Linux/GCC C++17/C++20; no new Windows/MSVC, macOS or graded checker run.",
+    "No live Stepik content, placement or HTML rendering was inspected."
+  ]
+}

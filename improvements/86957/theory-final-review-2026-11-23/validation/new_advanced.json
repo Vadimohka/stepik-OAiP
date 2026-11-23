@@ -1,0 +1,221 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "passed": true,
+  "started_at": "2026-11-23T14:45:48.666570+00:00",
+  "scope": "Three concrete author traces of the saved RB cases; no learner tasks.",
+  "standards": [
+    "c++17",
+    "c++20"
+  ],
+  "flags": [
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-Werror",
+    "-O1",
+    "-g",
+    "-fsanitize=undefined",
+    "-fno-sanitize-recover=all"
+  ],
+  "compilations": 2,
+  "executions": 6,
+  "checks": [
+    {
+      "standard": "c++17",
+      "case": "insertion",
+      "stdout": "insert_case2(0,parent=1:red)\ninsert_case3_up(5,children=1:black,7:black)\ninsert_case2(5,parent=10:black)\nroot-to-NIL black counts: before=3, recolor=3, after=3\n",
+      "passed": true
+    },
+    {
+      "standard": "c++17",
+      "case": "deletion-left",
+      "stdout": "delete-left: 5\nbefore deletion: branch counts=2/2\ncase5 before/after: branch counts=1/2 -> 1/2\ncase6: conceptual root-to-NIL counts=3\ncase6: attached-placeholder counts=3,4\nafter detach: root-to-NIL counts=3\n",
+      "passed": true
+    },
+    {
+      "standard": "c++17",
+      "case": "deletion-right",
+      "stdout": "delete-right: 20\nbefore deletion: branch counts=2/2\ncase5 before/after: branch counts=2/1 -> 2/1\ncase6: conceptual root-to-NIL counts=3\ncase6: attached-placeholder counts=3,4\nafter detach: root-to-NIL counts=3\n",
+      "passed": true
+    },
+    {
+      "standard": "c++20",
+      "case": "insertion",
+      "stdout": "insert_case2(0,parent=1:red)\ninsert_case3_up(5,children=1:black,7:black)\ninsert_case2(5,parent=10:black)\nroot-to-NIL black counts: before=3, recolor=3, after=3\n",
+      "passed": true
+    },
+    {
+      "standard": "c++20",
+      "case": "deletion-left",
+      "stdout": "delete-left: 5\nbefore deletion: branch counts=2/2\ncase5 before/after: branch counts=1/2 -> 1/2\ncase6: conceptual root-to-NIL counts=3\ncase6: attached-placeholder counts=3,4\nafter detach: root-to-NIL counts=3\n",
+      "passed": true
+    },
+    {
+      "standard": "c++20",
+      "case": "deletion-right",
+      "stdout": "delete-right: 20\nbefore deletion: branch counts=2/2\ncase5 before/after: branch counts=2/1 -> 2/1\ncase6: conceptual root-to-NIL counts=3\ncase6: attached-placeholder counts=3,4\nafter detach: root-to-NIL counts=3\n",
+      "passed": true
+    }
+  ],
+  "binding": {
+    "rbt_header_path": "improvements/86957/theory-2026-11-23/examples/t6/rbt.hpp",
+    "rbt_header_sha256": "168cd5b1d2606264d03b9127ef24c2ff912d22fc9b8e5870d094b4ad4fa43277",
+    "lesson_parts": [
+      {
+        "step_id": 3570303,
+        "pre_indices": [
+          2
+        ]
+      },
+      {
+        "step_id": 3570304,
+        "pre_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "step_id": 3570333,
+        "pre_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    ],
+    "pre_index_base": 1,
+    "instrumentation": "Six read-only observations in a temporary header; removal restores exact source.",
+    "added_observer_lines": [
+      "    advanced_trace::observe(\"insert_case2\", node, root);\n",
+      "        advanced_trace::observe(\"insert_case3_up\", g, root);\n",
+      "    advanced_trace::observe(\"delete_case5_before\", node, root);\n",
+      "    advanced_trace::observe(\"delete_case5_after\", node, root);\n",
+      "    advanced_trace::observe(\"delete_case6_before\", node, root);\n",
+      "    advanced_trace::observe(\"delete_case6_after\", node, root);\n"
+    ],
+    "unchanged_lesson_pre_count": 16
+  },
+  "input_sha256": {
+    "courses/86957/steps/770596/01_3212955_text.step": "475822d5019d3a5f87c0ee4cc413bd16b7e8dd9a01d246a076d04edec604b589",
+    "courses/86957/steps/770596/02_3215231_text.step": "de40c07958a6d14c365630e9b740897fc27da8ec906fd1cf4afdf2ba92d389b0",
+    "courses/86957/steps/770596/03_3215234_text.step": "27013c82cae853fc7cd95d196c141ac8294e6590614f22c07d9fcb0645a73b59",
+    "courses/86957/steps/770596/04_3215232_text.step": "b550c17c0bed73fe561884d998703861d56220790290d101a48461fce8b9dc01",
+    "courses/86957/steps/770596/05_3215233_text.step": "f5cfc4f4206245afc26982885425b733b9b8802e1635f647bac50f770ea375ef",
+    "courses/86957/steps/770596/06_3215235_text.step": "62becbf2076dd1c5957b8cb9766f8989b2a1b816376846d6ccd896a43f372bb3",
+    "courses/86957/steps/770596/07_3215236_text.step": "340dd6a78c8e2d0959ede9cc5f7b509a77492c44ad5ae10ae2a7b2e64f6f75de",
+    "courses/86957/steps/770596/08_3216509_text.step": "62c4751f8a7eb19ed65496a9b23b20bca189541a13070064225f2df4ee66d62a",
+    "courses/86957/steps/770597/01_3212956_text.step": "8e068b643cdd91e047aaada6b1d645e6e7458e5ce6749b20bd798c5a807d63a5",
+    "courses/86957/steps/770597/02_3215243_text.step": "3befc18070db74cb05d477958ebdac664b015b5f22c769cc86b78633fac6eb90",
+    "courses/86957/steps/770597/03_3215244_text.step": "8336219cd4668d01625cd6be3be9dd8dd4033d8c61408ce7331d9efb5aa96f69",
+    "courses/86957/steps/770597/04_3215242_text.step": "8428de2de5451c4dcff4ff72af54ec41f5df8ef3dc57ffd80aec854cfa6ade60",
+    "courses/86957/steps/853532/01_3569321_text.step": "98923c556808144d42bf8e081dca6b66c3e1319970f77b13c14c64fdd69666ce",
+    "courses/86957/steps/853532/02_3569891_text.step": "c704539b24feb11a56626195f6ef72db2fc87e0e3810c53693020bdfbd50ddb0",
+    "courses/86957/steps/853532/03_3569896_text.step": "871f7ac9a98aa9d9352ca0538a18a7b1feb1d5f4bf75b59c2df283de568d940d",
+    "courses/86957/steps/853534/01_3569323_text.step": "c382c403ac2cca7257ee8ce8a1d020038e58b6bb6e6a4944647df2cdb46c57e3",
+    "courses/86957/steps/853534/02_3569919_text.step": "6be4ca714d04379a97d0e55a61ef2b1cf4614c311ab774e7aee3621fa1256424",
+    "courses/86957/steps/853535/01_3569324_text.step": "b58349aaae6f3ec0482513e89ca4067e1e62290ead9fe56d8bc5107817394928",
+    "courses/86957/steps/853535/02_3569932_text.step": "87dd63c0b5d80d66995bbfc73b856ba754a4e898d53c8188cd949d7f2fc31097",
+    "courses/86957/steps/853535/03_4040986_text.step": "b6fb699b465f217771c8f2e4ee7d91a268c01af5738385e6d82a419d591ec54b",
+    "courses/86957/steps/853536/04_3570166_text.step": "aaa684cf2b62fe5ba06b5866c3c377596cc3783be0f6c26a63638fa8de1b41ac",
+    "courses/86957/steps/853537/02_3570213_text.step": "cd6e981da24259ba5c0a34a3e06e9cf60aa44391338a5d9aff1794251b6e5a21",
+    "courses/86957/steps/853539/01_3569329_text.step": "4a1670263d9429f6643c06254ac79547f0b99296946cf7efcfed5f6326ba2487",
+    "courses/86957/steps/853539/03_3570231_text.step": "426dfbe8af113277cae5def43177d45f3a2a332b62a19e2ba9d24bf93290a839",
+    "courses/86957/steps/853540/01_3569330_text.step": "d883f54230d59e49eb10671bf98cd7a7bbd0ccda4fe6d99e6c7c5a6202d0763d",
+    "courses/86957/steps/853540/02_3570281_text.step": "d418f4fc4f0c5a05eacb720b96bd03d7285f4aa775b76c122f7112308fe5e1e1",
+    "courses/86957/steps/853541/02_3570303_text.step": "826d3b2d16a2cf0119f7f9381f8e5acca45920d8ab6f7af9cbb61ed75c2f44ec",
+    "courses/86957/steps/853541/03_3570304_text.step": "dfda4a17131fbe0e637a6dfe126ea837d85f757aaca90e2dc1b3be71eccb3e87",
+    "courses/86957/steps/853541/05_3570332_text.step": "ef3cea5463fb96efe28b61138b6479736eafa82b2d600e0e14bc20ab93f14b11",
+    "courses/86957/steps/877081/01_3668925_text.step": "92e08d9eb5555617e2758f1afa130673fe9e2b9d9fe034484f7378c95e82d86a",
+    "courses/86957/steps/877081/02_3669000_text.step": "505380d7833ce126744a18c18326794bb7d188410b87025db7233adbe99b4396",
+    "courses/86957/steps/877081/03_3668999_text.step": "5bc286208dc99abf902b062c413afe7c9d62e97a4e7a58f5cdad403c373a2204",
+    "courses/86957/steps/877081/05_3669089_text.step": "720d2143b02b86a63fd2949898b2cbfe942346c34dfe5f1e537e376f15924080",
+    "courses/86957/steps/877081/06_3669093_text.step": "17a87f5abb6558267fcf39c250b796ed3aa5d6d3c2507ff2e7b4128b52d00ae8",
+    "courses/86957/steps/877082/01_3668926_text.step": "89a5b0dbe2fbffe2526efd1d2bafb713ea0eea994c3c2d41d16c6fd16a2c13b3",
+    "courses/86957/steps/877082/02_3668952_text.step": "ffc7df5523204c738f64d9c7913d46068fe1740dfc08760bb3b8da997ace4513",
+    "courses/86957/steps/877082/03_3668953_text.step": "2eaa262a9bf03d54f136a6851dfe29e8628995267dd568a35e59fc3b118cb5f1",
+    "courses/86957/steps/877082/04_3669114_text.step": "7a917346c02283f0efb60c9c63f8d732aa099864f39b35376dc78733fd57ad3c",
+    "courses/86957/steps/877082/05_3668977_text.step": "08c6a81352f1bf5a0529d087f56544a7cb4037bc5889c95ec7007fbda0c641fc",
+    "courses/86957/steps/877082/06_3669121_text.step": "d2e01f14bf92f6a64d3e435ba1a23c06430c62df6dc00da7d83ff101bba6010c",
+    "courses/86957/steps/877083/01_3668927_text.step": "5d902ebc8b76ac2d493b3ceb1401a73fd02dd624cb5a4ff8ec78db271d18b5a5",
+    "courses/86957/steps/877083/02_3669140_text.step": "119c24bfc3a71ac1ff3bed2d3abfcc5e00f837db8d4c448a77dd0cb44852de3d",
+    "courses/86957/steps/877083/03_3669142_text.step": "8a3d0c0de314aeb48c95a3b614693a2bae974a69525e557326808f608070b9fd",
+    "courses/86957/steps/877083/04_3669156_text.step": "f37c7a3d6dbc47e0b5e971dfc14fb613e2344eda6817fd74c45436da1776904f",
+    "courses/86957/steps/877083/05_3669173_text.step": "3dc361e41fff31e7f5d820c88181f4bc77a31c7d96cf2127fa89aad488333a50",
+    "courses/86957/steps/877083/06_3669172_text.step": "07a21212133114ab37dec78a5bb229dc2ecc4246a348b8e91397eba2d0ee15e6",
+    "courses/86957/steps/877084/01_3668928_text.step": "a04e694b0b950aefcb910d805aa055a27fcfe530ef0ceaaee6bfa46d9c3d13a6",
+    "courses/86957/steps/877084/02_3759849_text.step": "80818f5b179c5c389dc283eba3d2cc124f25735ef35c0d45694f45588fa47d65",
+    "courses/86957/steps/877084/03_3759850_text.step": "2b6c26d3c037f5339c2cc0a71e87864c1d7d39f0c672b278101e78303090b1f4",
+    "courses/86957/steps/877084/04_3759851_text.step": "d56745276f640b67e4a3751b704db50b6e83d68c43e4caaa9ab2060021c34ec9",
+    "courses/86957/steps/897987/01_3759977_text.step": "a3d81ac01166fb3a5a9240add1e73b87b8b3dbf01c44312632cc97aa61c7b9fd",
+    "courses/86957/steps/897987/02_3760028_text.step": "90a9a0bd9435bdbdf7fd458d38e90d75b4166944b50170e2bc0d5b104909f0e7",
+    "courses/86957/steps/897987/03_3760023_text.step": "0d7471afd4218826275be96dbf0ffeb20a0388beb26889a9518e58294cad8730",
+    "courses/86957/steps/897987/04_3760024_text.step": "495e8d56921323bef1f6df9418dcb74496bf9a5cbd1f69c56f34dcb0c4eabb1a",
+    "courses/86957/steps/897987/05_3760025_text.step": "23691729031ea7771e08fe0b58b15259330540214dfbfad57d8cd63816b025e8",
+    "courses/86957/steps/897987/06_3760026_text.step": "811c69cdec727cfdb25ddcbe8c1de203ae216fdf868acea449a3227e45935de9",
+    "courses/86957/steps/897987/07_3760027_text.step": "bb917b3b8153eb2d295900214f9ffe9d0928a836fc4029cefa5db55244a869bc",
+    "courses/86957/steps/897987/09_3760048_text.step": "01eec04d93b019983ceb85f8cba4afc51e993273fd557a4bbedf859b5efef1bc",
+    "courses/86957/steps/897987/10_3760047_text.step": "4e95a7e240f9602fdcd436ecc0adf49173f75220ed164f0e77894109367c3b5f",
+    "courses/86957/steps/973816/01_4035311_text.step": "9d89a98be479b27e8acdace7c632345859b2b1eeb8af9be46cc3de164707ef9c",
+    "courses/86957/steps/973825/01_4035416_text.step": "c68c7356dbcdc9e6d09fe2f3d63a60c32495c3c73f0f39c1ac5cf74fe4800a68",
+    "courses/86957/steps/973825/02_4035427_text.step": "f984e803072df98393c63ecc415ea1131d4807613b4c8d2f1aac3484621f4849",
+    "courses/86957/steps/973826/01_4035417_text.step": "7d12e9af4ac44a8d633e6e22ab3d7e6aebe05e17281df171cc8b1d8cefbee644",
+    "courses/86957/steps/973826/02_4035430_text.step": "996f244e5a2046105f54298d953a6c31474925176f39851da58f9d9a7ceeab8c",
+    "courses/86957/steps/973829/01_4035439_text.step": "33a1e4b48001a5124a04aa1413c28f9cd6d0ca0e7c833c628b34793b86e6bee5",
+    "courses/86957/steps/973829/02_4035461_text.step": "f6af7fb0d796a3db526886998853f2f6890da862c684c5e67c59dbab58aa2298",
+    "courses/86957/steps/973829/03_4035460_text.step": "a76e66aaabd4f1448217aefe78efa84a88e2e4526c3f22b37fe2c6a253dcbe21",
+    "courses/86957/steps/973831/01_4035443_text.step": "01c2f4dc8eb44a14672ab25f051fd5f3e12f84223d239693a93747553cdb8dc4",
+    "courses/86957/steps/973837/01_4035497_text.step": "a5c2882c515bff4189f409ce9794709dc0ffe95227ec09fe32658c0cdd8d0a64",
+    "courses/86957/steps/973842/01_4035524_text.step": "9b72e7cea71a6bb2cabfbb4730dab6c180d2b81f46012b09925d7c99f916b48a",
+    "courses/86957/steps/973842/02_4035562_text.step": "d1612fba0f54c774e04d17667ea6f4fe7fba7aa2abb93840ffe5f141c4fd0e16",
+    "courses/86957/steps/973842/03_4035563_text.step": "2e1287a29ca290ff4f76225255a387d458784edaed171334e3185572f6cba954",
+    "courses/86957/steps/973842/04_4036909_text.step": "8795821bb101ab67a5c9724db98c1dd40f57a8bf51af24fd1d1d0931864b4106",
+    "courses/86957/steps/977027/01_4047594_text.step": "db2ecdbe3fbbc053e5c00686de6a49581212f20de52233d0867cb3902e4c862d",
+    "courses/86957/steps/977027/02_4047616_text.step": "bac30c41f8de32fbb471068c6a01944a5562c44a9fd22bd896988b2f1e288ac0",
+    "courses/86957/steps/977027/03_4047627_text.step": "1a134149b3adbcbf8852b7c54f8abbdf7bd207166a5a39b9670dcc6ac2a33757",
+    "courses/86957/steps/977027/04_4047680_text.step": "64022678e42fbd38ca7ff774bde0d0f2fe3d5682b2564a66142878b2121afad0",
+    "courses/86957/steps/977027/05_4047681_text.step": "5a3f9da517e99a356ed045e8c109824714a7dd84bba458d80637cc9aca14ee43",
+    "courses/86957/steps/977027/06_4047682_text.step": "78a18c508a60c3188fe0ab8a2dd5f4c128303aa3869d696c5f8d4dde6dc5b89f",
+    "improvements/86957/theory-2026-11-23/examples/t6/rbt.hpp": "168cd5b1d2606264d03b9127ef24c2ff912d22fc9b8e5870d094b4ad4fa43277",
+    "improvements/86957/theory-final-review-2026-11-23/changes_advanced.json": "c3eed9c85d4d4007be9ea2b27de59e5be526aeeef8e59002168f274d7f5e20ec",
+    "improvements/86957/theory-final-review-2026-11-23/examples/advanced/trace_rb.cpp": "90736ec7fa5d951caa9bd50d679b6ece34e91863aeb04af546fc4ab8a57488ca",
+    "improvements/86957/theory-final-review-2026-11-23/examples/advanced/verify.py": "f9dac426669c6251b401364574353c43bdf4fc638837f3e056f3b06c21a93805",
+    "improvements/86957/theory-final-review-2026-11-23/review_inputs.json": "53d72e8a181cf26ff99fd906b12a9808c329bf6323578b1b5182869172ebb2e2",
+    "improvements/86957/theory-final-review-2026-11-23/steps/853541/03_3570304_text.step": "b4d28058e8508e0db1e4fbf96026fc00f935e58c4fc8e9f5f04d5e29d2d2ffca",
+    "improvements/86957/theory-final-review-2026-11-23/steps/853541/04_3570333_text.step": "2ac65e5fe9fabf8eef40fb907ac70da8dc16376b58de677e52f785a11c3e78fb",
+    "improvements/86957/theory-links-2026-11-23/steps/853536/01_3569325_text.step": "3a351e9d6dfc2ddadd651f2a947e06280d2e0dca796c311a92df236784cd4b11",
+    "improvements/86957/theory-links-2026-11-23/steps/853536/02_3569964_text.step": "6c4b3c10641846477e34cfcaf8814e293baa9014df8598a1ea372ead646c1e18",
+    "improvements/86957/theory-links-2026-11-23/steps/853536/03_3569963_text.step": "13e62d53a3ef3b2b372bb07ecd8bf7223f175e12e2b03d8c3e8bef22cbc5705f",
+    "improvements/86957/theory-links-2026-11-23/steps/853537/01_3569327_text.step": "e4d605309c08d5576a4a5691ad387cec6d2b0873bdf7f52ec8556b2345fac1cd",
+    "improvements/86957/theory-links-2026-11-23/steps/853539/02_3570230_text.step": "dbec07a03f0f6cc55cb15cb55f33b485cb47cd91371f29d12923c447dd316ba9",
+    "improvements/86957/theory-links-2026-11-23/steps/853541/01_3569332_text.step": "b48beb3e4d998abf79a0bcf2b4ddb1bd79ef8cecfbd6ce8ed594426180facc61",
+    "improvements/86957/theory-links-2026-11-23/steps/853541/04_3570333_text.step": "2d03dadf0feba385b34de2d8603e210fb766b2e605ac6ec33b31cb03acd46daf",
+    "improvements/86957/theory-links-2026-11-23/steps/877081/04_3669075_text.step": "462af2d166951f4a26d62df50cfcf38872c0e4820d703df7027c74e504d6c770",
+    "improvements/86957/theory-links-2026-11-23/steps/877084/05_3759914_text.step": "05cc779762d34d04bc6f868aef4fa4e99ce34ef9527a414ee2ed8e72d2422583",
+    "improvements/86957/theory-links-2026-11-23/steps/897987/08_3760029_text.step": "7ac74567756953026b092f03d9aca2e4627b2701351b52549d2215a4927fd697",
+    "improvements/86957/theory-links-2026-11-23/steps/973831/02_4035481_text.step": "5d152e77161947c74113870beaa8484e90e02360d76004b48d476c82d851f927",
+    "improvements/86957/theory-links-2026-11-23/steps/973837/02_4035517_text.step": "296bcb84d4821e7fb886735cf3dbcbaff929d30382159cd076437fcfae35a202"
+  },
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "limitations": [
+    "Three explicit traces, not a proof of all red-black update paths or all template types.",
+    "Read-only instrumentation is test-only and is never added to lesson code.",
+    "Physical retained leaf and conceptual NIL counts differ intentionally until unlinking.",
+    "Linux/GCC C++17 and C++20 with UBSan; Windows/MSVC and macOS not run.",
+    "Historical validation.json files are neither replaced nor treated as this run.",
+    "No Stepik request or graded-step change."
+  ],
+  "finished_at": "2026-11-23T14:45:53.636079+00:00"
+}

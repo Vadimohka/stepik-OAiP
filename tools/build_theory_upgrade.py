@@ -32,6 +32,9 @@ PACKAGE_CONFIGS = {
     'theory-links-2026-11-23': (
         '352c2796717a55f4f0db8395b7d6093d8d67c35e',
         'Сквозное согласование теории C++: предпосылки, термины и переходы'),
+    'theory-final-review-2026-11-23': (
+        '26bbfeb5065ef3475f9ea612a3a8785f934b7c49',
+        'Независимая проверка всей теории C++ и итоговая подготовленная редакция'),
 }
 
 
@@ -124,8 +127,11 @@ def build(parts=None, package='theory-2026-11-23'):
     require(bool(selected) and len(selected) == len(set(selected)), 'Empty/duplicate parts')
     changes = {}
     for part in selected:
-        valid_part = (part in {'foundations', 'types', 'ownership', 'algorithms'}
-                      if package == 'theory-links-2026-11-23'
+        named_parts = {
+            'theory-links-2026-11-23': {'foundations', 'types', 'ownership', 'algorithms'},
+            'theory-final-review-2026-11-23': {'carried', 'foundations', 'core', 'advanced'},
+        }
+        valid_part = (part in named_parts[package] if package in named_parts
                       else re.fullmatch(r't[1-6]b?', part))
         require(valid_part, 'Invalid editorial part')
         path = PKG/f'changes_{part}.json'
@@ -179,6 +185,19 @@ def build(parts=None, package='theory-2026-11-23'):
                       before_block_sha256=block_digest(before['block']),after_block_sha256=block_digest(after['block']),
                       changed_fields=fields,summary=row['summary'],sources=row['sources'],
                       plan=row.get('plan',[row['part'].upper(),'LINKS']),part=row['part'],step_url=binding['step_url'])
+        if package == 'theory-final-review-2026-11-23':
+            effective_index = json.loads((PKG/'review_inputs.json').read_bytes())
+            require(effective_index['base_commit'] == BASE_COMMIT, 'Wrong effective baseline')
+            entry = next(x for x in effective_index['steps'] if x['step_id'] == sid)
+            effective_bytes = subprocess.check_output(
+                ['git', 'show', BASE_COMMIT + ':' + entry['effective_path']], cwd=ROOT)
+            require(digest(effective_bytes) == entry['file_sha256'], 'Effective baseline hash mismatch')
+            effective_before = json.loads(effective_bytes)
+            amended = effective_before['block']['text'] != after['block']['text']
+            require((row['part'] == 'carried') != amended, 'Incorrect carry/correction classification')
+            record.update(previous_effective_path=entry['effective_path'],
+                          previous_effective_file_sha256=entry['file_sha256'],
+                          revision_role='new_correction' if amended else 'carried_forward')
         if sid in old:
             require(old[sid]['before_file_sha256']==record['before_file_sha256'],f'Mutated immutable baseline {sid}')
             if previous['publication'].get('applied'):
@@ -190,13 +209,24 @@ def build(parts=None, package='theory-2026-11-23'):
         'status':'not_published','applied':False,
         'note':('Только GitHub по прямому указанию владельца от 23 ноября 2026 года; '
                 'изменения на Stepik в этой сессии не разрешены.'
-                if package == 'theory-links-2026-11-23' else
+                if package in {'theory-links-2026-11-23', 'theory-final-review-2026-11-23'} else
                 'Новая редакция только теории; публикация проверяется отдельно.')}
     manifest = {'schema_version':1,'course_id':86957,'date':'2026-11-23','base_commit':BASE_COMMIT,
                 'status':'published' if publication.get('status')=='verified_on_stepik' else 'prepared',
                 'parts':selected,'changed_steps':len(steps),'changed_lessons':len({s['lesson_id'] for s in steps}),
                 'publication':publication,'scope':{'allowed_fields':['block.text'],'allowed_step_types':['text'],
                 'new_practice':False,'new_video':False,'existing_assessment_changes':False},'steps':steps}
+    if package == 'theory-final-review-2026-11-23':
+        predecessor = ROOT/'improvements/86957/theory-links-2026-11-23/manifest.json'
+        predecessor_ids = {x['step_id'] for x in json.loads(predecessor.read_bytes())['steps']}
+        require(predecessor_ids <= set(changes), 'Pending LINKS edits lost from cumulative revision')
+        manifest['preparation'] = {
+            'kind': 'cumulative_pending_theory_revision',
+            'supersedes_prepared_manifest': predecessor.relative_to(ROOT).as_posix(),
+            'previous_package_files_preserved': True,
+            'new_correction_step_ids': [s['step_id'] for s in steps if s['revision_role'] == 'new_correction'],
+            'carried_forward_step_ids': [s['step_id'] for s in steps if s['revision_role'] == 'carried_forward'],
+            'note': 'Для будущего PUB используется этот единый пакет; прежний LINKS не переносится отдельно повторно.'}
     staged[PKG/'manifest.json']=json_bytes(manifest)
     staged[PKG/'course_links.json']=json_bytes({'schema_version':1,'links':links,'checked_against':'courses/86957/manifest.json'})
     preview = render_preview(PKG,manifest,TITLE,documents)
@@ -205,7 +235,8 @@ def build(parts=None, package='theory-2026-11-23'):
         preview = ('\n'.join(line.rstrip(' \t') for line in
                              preview.decode('utf-8').split('\n'))).encode('utf-8')
     staged[PKG/'preview.html']=preview
-    grouped_journal = package in {'theory-continuation-2026-11-23', 'theory-links-2026-11-23'}
+    grouped_journal = package in {'theory-continuation-2026-11-23', 'theory-links-2026-11-23',
+                                 'theory-final-review-2026-11-23'}
     lesson_count = manifest['changed_lessons']
     size_line = (f'**Шаги** — {len(steps)} · **Уроки** — {lesson_count}.' if grouped_journal
                  else f'Изменено **{len(steps)} текстовых шагов в {lesson_count} уроках**.')

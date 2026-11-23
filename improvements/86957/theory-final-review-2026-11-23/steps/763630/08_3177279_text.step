@@ -1,0 +1,17 @@
+{
+  "block": {
+    "name": "text",
+    "text": "<h2>auto: компилятор выводит тип</h2>\n<p>В определении <code>auto count = 5;</code> компилятор выводит тип из инициализатора. Здесь это <code>int</code>. Тип определяется при компиляции и затем не меняется в зависимости от новых значений: <code>auto</code> не означает «переменная любого типа».</p>\n<p><strong>Фрагмент внутри функции; это не отдельная программа.</strong></p>\n<pre><code class=\"language-cpp\">auto count = 5;          // int\nauto ratio = 5.0 / 2;    // double, значение 2.5\nauto quotient = 5 / 2;   // int, значение 2\nconst auto limit = 10;   // const int\n</code></pre>\n<p>Выражение <code>5 / 2</code> сначала подчиняется правилам целочисленного деления. <code>auto</code> не добавляет дробную часть и не исправляет ошибочно выбранную операцию. У определения <code>auto count;</code> нет инициализатора, поэтому компилятор не может вывести тип и отвергает его.</p>\n<p>Когда тип важен для смысла вычисления, его стоит задавать явно или управлять типами операндов: <code>double ratio = 5.0 / 2;</code>. Когда функция уже возвращает подходящий тип, <code>auto</code> помогает не сузить его случайно. Например, позже <code>auto position = text.find(':');</code> сохранит тип позиции строки.</p>\n<p>Пока используются обычные значения. После введения ссылок <a href=\"https://stepik.org/lesson/770591/step/5\" rel=\"noopener noreferrer nofollow\">разбор <code>auto</code>, <code>auto&amp;</code> и <code>const auto&amp;</code></a> покажет различие копии и доступа к прежнему объекту. <a href=\"https://stepik.org/lesson/770589/step/5\" rel=\"noopener noreferrer nofollow\">Поиск в строке</a> даст пример сохранения типа позиции без сужения до <code>int</code>.</p>\n",
+    "video": null,
+    "options": {},
+    "subtitle_files": [],
+    "is_deprecated": false,
+    "source": {},
+    "subtitles": {},
+    "tests_archive": null,
+    "feedback_correct": "",
+    "feedback_wrong": ""
+  },
+  "id": "3177279",
+  "time": "2026-11-23T11:05:27Z"
+}

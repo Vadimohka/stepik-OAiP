@@ -1,0 +1,32 @@
+[
+  {
+    "step_id": 3570304,
+    "path": "steps/853541/03_3570304_text.step",
+    "summary": "Уточнён инвариант повторной вставочной балансировки RB: после случая 3 текущий N может быть корнем непустого поддерева; добавлена законченная трассировка case3→case2 с настоящими детьми.",
+    "sources": [
+      "https://www3.cs.stonybrook.edu/~skiena/214/lectures/lect25/lect25.html",
+      "https://www.cs.dartmouth.edu/~thc/cs10/lectures/0519/0519.html"
+    ],
+    "plan": [
+      "VERIFY",
+      "T6"
+    ],
+    "previous_effective_path": "courses/86957/steps/853541/03_3570304_text.step",
+    "previous_effective_sha256": "dfda4a17131fbe0e637a6dfe126ea837d85f757aaca90e2dc1b3be71eccb3e87"
+  },
+  {
+    "step_id": 3570333,
+    "path": "steps/853541/04_3570333_text.step",
+    "summary": "Исправлен подсчёт чёрных узлов до/после удаления RB и сохранение дефицита после случая 5; добавлен законченный разбор перехода case5→case6 с явными количествами и временным представителем NIL в сохранённой реализации.",
+    "sources": [
+      "https://www3.cs.stonybrook.edu/~skiena/214/lectures/lect25/lect25.html",
+      "https://www.cs.dartmouth.edu/~thc/cs10/lectures/0519/0519.html"
+    ],
+    "plan": [
+      "VERIFY",
+      "T6"
+    ],
+    "previous_effective_path": "improvements/86957/theory-links-2026-11-23/steps/853541/04_3570333_text.step",
+    "previous_effective_sha256": "2d03dadf0feba385b34de2d8603e210fb766b2e605ac6ec33b31cb03acd46daf"
+  }
+]

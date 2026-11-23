@@ -1,0 +1,241 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "started_at": "2026-11-23T14:39:26.260607+00:00",
+  "base_commit": "26bbfeb5065ef3475f9ea612a3a8785f934b7c49",
+  "legacy_course_snapshot": "d96e5b9cffa65010c53894a9b65b1a497cb6b58a",
+  "scope": "New isolated execution of all eleven existing theory author suites; not a blanket claim about every HTML fragment.",
+  "python": "3.12.14",
+  "cmake": "cmake version 3.22.6",
+  "legacy_worktree": "/workspace/scratch/b48445057238/verification-legacy",
+  "links_worktree": "/workspace/scratch/b48445057238/verification-links",
+  "runner_sha256": "0450e44f4a126bb4f1bc57338bdad9fea5801d4347b3b898981c7c7cbd29b899",
+  "suites": [
+    {
+      "name": "links_algorithms",
+      "started_at": "2026-11-23T14:40:48.547733+00:00",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/scratch/b48445057238/verification-links/improvements/86957/theory-links-2026-11-23/examples/algorithms/verify.py"
+      ],
+      "verifier_path": "improvements/86957/theory-links-2026-11-23/examples/algorithms/verify.py",
+      "verifier_sha256": "b5170f0f603b189b03c7bf0e4375d937b71419edc6ad9dc7038513c0e6db694b",
+      "source_package": "improvements/86957/theory-links-2026-11-23",
+      "output_report": "/workspace/scratch/b48445057238/stepik-OAiP/improvements/86957/theory-final-review-2026-11-23/validation/recheck/links_algorithms.json",
+      "exit_code": 0,
+      "stdout": "{\"status\": \"passed\", \"compilation_count\": 4, \"execution_count\": 4}\n",
+      "stderr": "",
+      "reported_status": "passed",
+      "report_sha256": "441de61106f91b048fe70304860a9f41e42398ced1030ca75452b091e675a06c",
+      "status": "passed",
+      "finished_at": "2026-11-23T14:40:54.357624+00:00"
+    },
+    {
+      "name": "links_ownership",
+      "started_at": "2026-11-23T14:40:46.842085+00:00",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/scratch/b48445057238/verification-links/improvements/86957/theory-links-2026-11-23/examples/ownership/verify.py"
+      ],
+      "verifier_path": "improvements/86957/theory-links-2026-11-23/examples/ownership/verify.py",
+      "verifier_sha256": "ba4b41b6308145265fe5078b0c86917b55740123a1e008fe96786fe199c163e5",
+      "source_package": "improvements/86957/theory-links-2026-11-23",
+      "output_report": "/workspace/scratch/b48445057238/stepik-OAiP/improvements/86957/theory-final-review-2026-11-23/validation/recheck/links_ownership.json",
+      "exit_code": 0,
+      "stdout": "{\"status\": \"passed\", \"counts\": {\"reviewed_inputs\": 59, \"related_reviewed_inputs\": 8, \"changed_steps\": 7, \"unchanged_pre_blocks\": 16, \"course_links\": 69, \"compilations\": 2, \"runtime_cases\": 10}, \"report\": \"/workspace/scratch/b48445057238/verification-links/improvements/86957/theory-links-2026-11-23/validation/ownership.json\"}\n",
+      "stderr": "",
+      "reported_status": "passed",
+      "report_sha256": "824e0354941f0087c682666231f128aa5b6a7da0a7458624554ac49f8601cfdb",
+      "status": "passed",
+      "finished_at": "2026-11-23T14:40:48.547067+00:00"
+    },
+    {
+      "name": "links_types",
+      "started_at": "2026-11-23T14:40:44.212539+00:00",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/scratch/b48445057238/verification-links/improvements/86957/theory-links-2026-11-23/examples/types/verify.py"
+      ],
+      "verifier_path": "improvements/86957/theory-links-2026-11-23/examples/types/verify.py",
+      "verifier_sha256": "5a89871b99375757f14671b9c4ab6e08d5d6cf13c74dcedab4b58fe830c31db6",
+      "source_package": "improvements/86957/theory-links-2026-11-23",
+      "output_report": "/workspace/scratch/b48445057238/stepik-OAiP/improvements/86957/theory-final-review-2026-11-23/validation/recheck/links_types.json",
+      "exit_code": 0,
+      "stdout": "{\"status\": \"passed\", \"counts\": {\"changed_steps\": 28, \"steps_with_code_blocks_preserved\": 25, \"successful_compilations\": 4, \"expected_compile_rejections\": 4, \"executions\": 30, \"standards\": [\"C++17\", \"C++20\"]}}\n",
+      "stderr": "",
+      "reported_status": "passed",
+      "report_sha256": "f576a9284720f3cc04c53ee74dd0a078eba3502db5ce734174cc0e029bcb465d",
+      "status": "passed",
+      "finished_at": "2026-11-23T14:40:46.841087+00:00"
+    },
+    {
+      "name": "t1",
+      "started_at": "2026-11-23T14:39:26.268249+00:00",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/scratch/b48445057238/verification-legacy/improvements/86957/theory-2026-11-23/examples/t1/verify.py"
+      ],
+      "verifier_path": "improvements/86957/theory-2026-11-23/examples/t1/verify.py",
+      "verifier_sha256": "9fc095bc9fdefaaf685edca3bc0729eb70e2f34a99cb5ddac8b3a240501fe2b7",
+      "source_package": "improvements/86957/theory-2026-11-23",
+      "output_report": "/workspace/scratch/b48445057238/stepik-OAiP/improvements/86957/theory-final-review-2026-11-23/validation/recheck/t1.json",
+      "exit_code": 0,
+      "stdout": "{\"status\": \"passed\", \"counts\": {\"compilations\": 6, \"runtime_cases\": 7, \"expected_compile_failures\": 2, \"cmake_configurations\": 1}}\n",
+      "stderr": "",
+      "reported_status": "passed",
+      "report_sha256": "033fa36966ca7908f21ffce3de8da90186d00c240d68190cf950f99ca875a0dc",
+      "status": "passed",
+      "finished_at": "2026-11-23T14:39:29.545631+00:00"
+    },
+    {
+      "name": "t1b",
+      "started_at": "2026-11-23T14:39:49.605893+00:00",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/scratch/b48445057238/verification-legacy/improvements/86957/theory-continuation-2026-11-23/examples/t1b/verify.py"
+      ],
+      "verifier_path": "improvements/86957/theory-continuation-2026-11-23/examples/t1b/verify.py",
+      "verifier_sha256": "3f1d814a0f44856604a4b427da144f518bc9af080287ad4261704ed1f600ac46",
+      "source_package": "improvements/86957/theory-continuation-2026-11-23",
+      "output_report": "/workspace/scratch/b48445057238/stepik-OAiP/improvements/86957/theory-final-review-2026-11-23/validation/recheck/t1b.json",
+      "exit_code": 0,
+      "stdout": "{\"status\": \"passed\", \"counts\": {\"changed_payloads_checked\": 40, \"source_bindings\": 8, \"compilations\": 22, \"runtime_cases\": 49, \"expected_compile_failures\": 4, \"expected_link_failures\": 2, \"cmake_configurations\": 1, \"cmake_builds\": 1, \"mathematical_checks\": 15}}\n",
+      "stderr": "",
+      "reported_status": "passed",
+      "report_sha256": "485dae2c47cf4fc462506f725a18458b58704f10569a22d2c17853355dcf3e74",
+      "status": "passed",
+      "finished_at": "2026-11-23T14:39:56.818573+00:00"
+    },
+    {
+      "name": "t2",
+      "started_at": "2026-11-23T14:39:56.819090+00:00",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/scratch/b48445057238/verification-legacy/improvements/86957/theory-continuation-2026-11-23/examples/t2/verify.py"
+      ],
+      "verifier_path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/verify.py",
+      "verifier_sha256": "c8e9a4fc8aa67df6a8a54be69854e8d0f0a8cbd4f460da07105d4a50171781ba",
+      "source_package": "improvements/86957/theory-continuation-2026-11-23",
+      "output_report": "/workspace/scratch/b48445057238/stepik-OAiP/improvements/86957/theory-final-review-2026-11-23/validation/recheck/t2.json",
+      "exit_code": 0,
+      "stdout": "{\"status\": \"passed\", \"exact_programs\": 37, \"cpp_programs\": 35, \"c_programs\": 2, \"successful_program_compilations\": 74, \"program_runs\": 204, \"allocation_failure_runs\": 6, \"contract_checks\": 12, \"expected_compilation_rejections\": 8}\n",
+      "stderr": "",
+      "reported_status": "passed",
+      "report_sha256": "2101f5a35287a87ad690eee0f13affa83b240e2fb64a2c997c90788053b4a4c0",
+      "status": "passed",
+      "finished_at": "2026-11-23T14:40:05.443091+00:00"
+    },
+    {
+      "name": "t3",
+      "started_at": "2026-11-23T14:39:26.268629+00:00",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/scratch/b48445057238/verification-legacy/improvements/86957/theory-2026-11-23/examples/t3/verify.py"
+      ],
+      "verifier_path": "improvements/86957/theory-2026-11-23/examples/t3/verify.py",
+      "verifier_sha256": "afbb75431af4d674acb4a62caf3e64cc40d30fe5b86f4866a07739154bbf057a",
+      "source_package": "improvements/86957/theory-2026-11-23",
+      "output_report": "/workspace/scratch/b48445057238/stepik-OAiP/improvements/86957/theory-final-review-2026-11-23/validation/recheck/t3.json",
+      "exit_code": 0,
+      "stdout": "{\"status\": \"passed\", \"counts\": {\"text_steps\": 29, \"direct_compilations\": 38, \"runtime_cases\": 342, \"cmake_configurations\": 7}, \"limitations\": [\"Windows/MSVC and macOS binaries were not executed.\"]}\n",
+      "stderr": "",
+      "reported_status": "passed",
+      "report_sha256": "589a4bc578a86f73b94aa9d2877ae8182b7b20670eca1180e81bdd56a958196b",
+      "status": "passed",
+      "google_test_standards_verified": 2,
+      "finished_at": "2026-11-23T14:40:25.262964+00:00"
+    },
+    {
+      "name": "t4",
+      "started_at": "2026-11-23T14:40:05.443754+00:00",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/scratch/b48445057238/verification-legacy/improvements/86957/theory-continuation-2026-11-23/examples/t4/verify.py"
+      ],
+      "verifier_path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/verify.py",
+      "verifier_sha256": "cb5ba82bd6b63e42a878036a2b1c8d76c326af8164e8ebced43a4b28bc3aa323",
+      "source_package": "improvements/86957/theory-continuation-2026-11-23",
+      "output_report": "/workspace/scratch/b48445057238/stepik-OAiP/improvements/86957/theory-final-review-2026-11-23/validation/recheck/t4.json",
+      "exit_code": 0,
+      "stdout": "{\"status\": \"passed\", \"text_steps\": 33, \"compilations\": 48, \"executions\": 1002}\n",
+      "stderr": "",
+      "reported_status": "passed",
+      "report_sha256": "0fc22f68be5043a4341f367a042e2f29b518435598332d356e0c4411c3c08f5f",
+      "status": "passed",
+      "finished_at": "2026-11-23T14:40:31.422587+00:00"
+    },
+    {
+      "name": "t5",
+      "started_at": "2026-11-23T14:40:25.263756+00:00",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/scratch/b48445057238/verification-legacy/improvements/86957/theory-continuation-2026-11-23/examples/t5/verify.py"
+      ],
+      "verifier_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5/verify.py",
+      "verifier_sha256": "23743c7adbe3996fe50834a665498657db1a7babeab9dc5d40ba172c43f969dd",
+      "source_package": "improvements/86957/theory-continuation-2026-11-23",
+      "output_report": "/workspace/scratch/b48445057238/stepik-OAiP/improvements/86957/theory-final-review-2026-11-23/validation/recheck/t5.json",
+      "exit_code": 0,
+      "stdout": "{\"status\": \"passed\", \"counts\": {\"text_steps\": 45, \"complete_programs\": 37, \"compilations\": 76, \"runtime_cases\": 90, \"expected_compile_failures\": 10, \"boundary_harness_runs\": 2}}\n",
+      "stderr": "",
+      "reported_status": "passed",
+      "report_sha256": "a30f0c23ba48d98b808e849faa8969f03b134d33cbe9533a5838d506d00f179a",
+      "status": "passed",
+      "finished_at": "2026-11-23T14:40:57.678452+00:00"
+    },
+    {
+      "name": "t5b",
+      "started_at": "2026-11-23T14:40:31.423051+00:00",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/scratch/b48445057238/verification-legacy/improvements/86957/theory-continuation-2026-11-23/examples/t5b/verify.py"
+      ],
+      "verifier_path": "improvements/86957/theory-continuation-2026-11-23/examples/t5b/verify.py",
+      "verifier_sha256": "c9d8cfce9d71985c086c66a51ea1e0fa60b0cee4b1de3a6e674b0854405d1214",
+      "source_package": "improvements/86957/theory-continuation-2026-11-23",
+      "output_report": "/workspace/scratch/b48445057238/stepik-OAiP/improvements/86957/theory-final-review-2026-11-23/validation/recheck/t5b.json",
+      "exit_code": 0,
+      "stdout": "{\"status\": \"passed\", \"passed\": true, \"counts\": {\"compilations\": 24, \"runtime_cases\": 32, \"expected_compile_failures\": 8}}\n",
+      "stderr": "",
+      "reported_status": "passed",
+      "report_sha256": "78f2e428cfe32a62dc177f2cdde9e942bf975a4b4bc8bb7b82dea68fc4b14e97",
+      "status": "passed",
+      "finished_at": "2026-11-23T14:40:44.211700+00:00"
+    },
+    {
+      "name": "t6",
+      "started_at": "2026-11-23T14:39:29.546120+00:00",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/scratch/b48445057238/verification-legacy/improvements/86957/theory-2026-11-23/examples/t6/verify.py"
+      ],
+      "verifier_path": "improvements/86957/theory-2026-11-23/examples/t6/verify.py",
+      "verifier_sha256": "d31fad3d8a37042aacbdd63d7e43f6a2d27e0d087757eb7bdb7cb00e83c76029",
+      "source_package": "improvements/86957/theory-2026-11-23",
+      "output_report": "/workspace/scratch/b48445057238/stepik-OAiP/improvements/86957/theory-final-review-2026-11-23/validation/recheck/t6.json",
+      "exit_code": 0,
+      "stdout": "{\"status\": \"passed\", \"compilation_count\": 24, \"execution_count\": 24}\n",
+      "stderr": "",
+      "reported_status": "passed",
+      "report_sha256": "1a25711de0084d0c358773d0f220e47a4e3e4478c1e446f5c225dad776d94ccf",
+      "status": "passed",
+      "finished_at": "2026-11-23T14:39:49.605026+00:00"
+    }
+  ],
+  "historical_reports_before_sha256": {
+    "/workspace/scratch/b48445057238/stepik-OAiP/improvements/86957/theory-2026-11-23/examples/t1/validation.json": "1d6c0b5711dc9b862df865654903bc9950e0c5d01d83147e8f52e7e309232aa6",
+    "/workspace/scratch/b48445057238/stepik-OAiP/improvements/86957/theory-2026-11-23/examples/t3/validation.json": "cc7350f659ad0bd05a1f57bf208b8c63065fda8f207cfdc616dd1b3c14a78262",
+    "/workspace/scratch/b48445057238/stepik-OAiP/improvements/86957/theory-2026-11-23/examples/t6/validation.json": "00c5351c0a52f71697e597f488b1017dcf478b13659ba076cbb1517868ec29f7",
+    "/workspace/scratch/b48445057238/stepik-OAiP/improvements/86957/theory-continuation-2026-11-23/examples/t1b/validation.json": "8ab618df55034006a0d0f8611f62a848f3887552badbc2a5ea31d2c5ba9c6a2b",
+    "/workspace/scratch/b48445057238/stepik-OAiP/improvements/86957/theory-continuation-2026-11-23/examples/t2/validation.json": "6f43b6a3e0cf7225d9e30ac064c29023ad3f68d9507e0fb48953a81aaf4ce6dc",
+    "/workspace/scratch/b48445057238/stepik-OAiP/improvements/86957/theory-continuation-2026-11-23/examples/t4/validation.json": "c0dfcded11e24a011dbda236f5e7e4b43f1a33b2ea52b11d35bbe97679933c57",
+    "/workspace/scratch/b48445057238/stepik-OAiP/improvements/86957/theory-continuation-2026-11-23/examples/t5/validation.json": "9dcefbda4708ed27026cdc778e87e7ab5e2c3be88f3b049188004bb0fa9a08f7",
+    "/workspace/scratch/b48445057238/stepik-OAiP/improvements/86957/theory-continuation-2026-11-23/examples/t5b/validation.json": "f60d6bbb734d2289e0603431c7d7f8f755d0c1391d2f8b947b725d470f06e7c7",
+    "/workspace/scratch/b48445057238/stepik-OAiP/improvements/86957/theory-links-2026-11-23/examples/types/validation.json": "4a0c83c6d3b68421ba9df5a2c87f01b6087cffe35fe1a4b6ae73e4d4aee2a971",
+    "/workspace/scratch/b48445057238/stepik-OAiP/improvements/86957/theory-links-2026-11-23/validation/ownership.json": "5178fa52c992bcd16442afc465f82ca56bad1f2e1fa7f4098d3092eb8a9e4ebd",
+    "/workspace/scratch/b48445057238/stepik-OAiP/improvements/86957/theory-links-2026-11-23/validation/algorithms_current.json": "0bee68364714b5aa66cc3670f4d80bc9650abac258720d2ab0a3ad4602f216a0"
+  },
+  "stepik_access": false,
+  "historical_reports_unchanged": true,
+  "finished_at": "2026-11-23T14:40:57.680116+00:00"
+}

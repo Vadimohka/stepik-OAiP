@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "base_commit": "26bbfeb5065ef3475f9ea612a3a8785f934b7c49",
+  "current_request": "Independent second full review, remaining corrections and verified upload to GitHub by agents",
+  "authorization": "GitHub only; original prohibition on direct Stepik updates remains active",
+  "previous_pending_package": "improvements/86957/theory-links-2026-11-23/manifest.json",
+  "previous_pending_steps": 50,
+  "historical_files_preserved": true,
+  "active_state_copies": [
+    {
+      "source_path": "improvements/86957/theory-review-2026-11-23/README.md",
+      "saved_path": "improvements/86957/theory-final-review-2026-11-23/recovery/README.md",
+      "sha256": "4da45d3f675c6dd1dd11e5fc4004dfbc52f8dcf6cad21246ea32e7d8ec472311"
+    },
+    {
+      "source_path": "improvements/86957/theory-review-2026-11-23/PROGRESS.md",
+      "saved_path": "improvements/86957/theory-final-review-2026-11-23/recovery/PROGRESS.md",
+      "sha256": "815f2fa231b257597cfb32970ec5c9edaee4f289f25ab854a5e2a839cbb4ecd3"
+    },
+    {
+      "source_path": "improvements/86957/theory-review-2026-11-23/backlog.json",
+      "saved_path": "improvements/86957/theory-final-review-2026-11-23/recovery/backlog.json",
+      "sha256": "a5011cd5bbfe5557db9acd031bb8e1fcb27d9a5c06ca65b3a772b59a5fb0c18a"
+    },
+    {
+      "source_path": "improvements/86957/theory-review-2026-11-23/scope.json",
+      "saved_path": "improvements/86957/theory-final-review-2026-11-23/recovery/scope.json",
+      "sha256": "def4b7dd20912e2062fa7db4cbd158898d8d103951e8c31dc830212467db2ac4"
+    },
+    {
+      "source_path": "improvements/86957/theory-review-2026-11-23/module_review.json",
+      "saved_path": "improvements/86957/theory-final-review-2026-11-23/recovery/module_review.json",
+      "sha256": "9d59b468e91e064dfc65c11c0b0fd5eb88f2fce248cfd11068dbab979b28c15f"
+    }
+  ]
+}

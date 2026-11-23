@@ -1,0 +1,329 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "started_at": "2026-11-23T14:44:01.249754+00:00",
+  "base_commit": "26bbfeb5065ef3475f9ea612a3a8785f934b7c49",
+  "standards": [
+    "c++17",
+    "c++20"
+  ],
+  "scope": "One explanatory correction and four previously unbound full programs; author checks only.",
+  "successful_compilations": 10,
+  "executions": 10,
+  "expected_compilation_rejections": 6,
+  "checks": [
+    {
+      "kind": "only_block_text_and_exact_preserved_array_fragments",
+      "passed": true
+    },
+    {
+      "kind": "exact_pre_source_binding",
+      "step_id": 3212990,
+      "pre_index": 1,
+      "source": "pointer_arithmetic.cpp",
+      "passed": true
+    },
+    {
+      "kind": "exact_pre_source_binding",
+      "step_id": 3212989,
+      "pre_index": 1,
+      "source": "pointer_to_const.cpp",
+      "passed": true
+    },
+    {
+      "kind": "exact_pre_source_binding",
+      "step_id": 3212989,
+      "pre_index": 3,
+      "source": "const_view.cpp",
+      "passed": true
+    },
+    {
+      "kind": "exact_pre_source_binding",
+      "step_id": 3212989,
+      "pre_index": 5,
+      "source": "const_pointer.cpp",
+      "passed": true
+    },
+    {
+      "kind": "compilation",
+      "source": "pointer_arithmetic.cpp",
+      "standard": "c++17",
+      "warnings": "",
+      "warnings_as_errors": false,
+      "passed": true
+    },
+    {
+      "kind": "execution",
+      "source": "pointer_arithmetic.cpp",
+      "standard": "c++17",
+      "expected": "10\n20\n10\n",
+      "stdout": "10\n20\n10\n",
+      "stderr": "",
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "kind": "compilation",
+      "source": "pointer_to_const.cpp",
+      "standard": "c++17",
+      "warnings": "",
+      "warnings_as_errors": false,
+      "passed": true
+    },
+    {
+      "kind": "execution",
+      "source": "pointer_to_const.cpp",
+      "standard": "c++17",
+      "expected": "Nonempty implementation-dependent address followed by value=10.",
+      "stdout": "address=0x7ffd0267c78c\tvalue=10\n",
+      "stderr": "",
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "kind": "compilation",
+      "source": "const_view.cpp",
+      "standard": "c++17",
+      "warnings": "",
+      "warnings_as_errors": false,
+      "passed": true
+    },
+    {
+      "kind": "execution",
+      "source": "const_view.cpp",
+      "standard": "c++17",
+      "expected": "value=10\nvalue=22\n",
+      "stdout": "value=10\nvalue=22\n",
+      "stderr": "",
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "kind": "compilation",
+      "source": "const_pointer.cpp",
+      "standard": "c++17",
+      "warnings": "/workspace/scratch/b48445057238/stepik-OAiP/improvements/86957/theory-final-review-2026-11-23/examples/core/const_pointer.cpp: In function ‘int main()’:\n/workspace/scratch/b48445057238/stepik-OAiP/improvements/86957/theory-final-review-2026-11-23/examples/core/const_pointer.cpp:10:9: warning: unused variable ‘b’ [-Wunused-variable]\n   10 |     int b = 45;\n      |         ^\n",
+      "warnings_as_errors": false,
+      "passed": true
+    },
+    {
+      "kind": "execution",
+      "source": "const_pointer.cpp",
+      "standard": "c++17",
+      "expected": "value=10\nvalue=22\n",
+      "stdout": "value=10\nvalue=22\n",
+      "stderr": "",
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "kind": "compilation",
+      "source": "array_variants.cpp",
+      "standard": "c++17",
+      "warnings": "",
+      "warnings_as_errors": true,
+      "passed": true
+    },
+    {
+      "kind": "execution",
+      "source": "array_variants.cpp",
+      "standard": "c++17",
+      "expected": "1 15\n74 30 3 19 0 total=126\n1 2 0 \n4 0 0 \n",
+      "stdout": "1 15\n74 30 3 19 0 total=126\n1 2 0 \n4 0 0 \n",
+      "stderr": "",
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "kind": "expected_compilation_rejection",
+      "name": "repeated_array_definition",
+      "standard": "c++17",
+      "source": "int main() {\n// пример объявления двумерного массива:\nint a[5][3];\n// инициализация двумерного массива:\nint a[5][3] = { {9, 66, -1}, {3, -3, 30}, {1, 1, 1}, {4, 7, 8}, {5, -5, 0} };\n}\n",
+      "source_sha256": "d414f2070ccc06238d032a8fb0e5e93ff55122ff53d9f7afa40b5f71041bcfb4",
+      "returncode": 1,
+      "diagnostic": "<temporary>/repeated_array_definition.cpp: In function ‘int main()’:\n<temporary>/repeated_array_definition.cpp:5:5: error: redeclaration of ‘int a [5][3]’\n    5 | int a[5][3] = { {9, 66, -1}, {3, -3, 30}, {1, 1, 1}, {4, 7, 8}, {5, -5, 0} };\n      |     ^\n<temporary>/repeated_array_definition.cpp:3:5: note: ‘int a [5][3]’ previously declared here\n    3 | int a[5][3];\n      |     ^\n",
+      "passed": true
+    },
+    {
+      "kind": "expected_compilation_rejection",
+      "name": "write_through_pointer_to_const",
+      "standard": "c++17",
+      "source": "int main() { const int a = 10; const int* pa = &a;\n*pa = 34;\n}\n",
+      "source_sha256": "064f0416d2065bc331ba7899bfc3a399810fef4d62c21957aa3b37234caf8b98",
+      "returncode": 1,
+      "diagnostic": "<temporary>/write_through_pointer_to_const.cpp: In function ‘int main()’:\n<temporary>/write_through_pointer_to_const.cpp:2:5: error: assignment of read-only location ‘* pa’\n    2 | *pa = 34;\n      | ~~~~^~~~\n",
+      "passed": true
+    },
+    {
+      "kind": "expected_compilation_rejection",
+      "name": "assignment_to_character_array",
+      "standard": "c++17",
+      "source": "int main() {\nchar s[] = \"text\";  /* OK */\ns = \"another text\"; /* Это ошибка. */\n}\n",
+      "source_sha256": "7e230b32db0781fb11f4d62810972802dcb6d455a42aa8a1de37bf7c99755323",
+      "returncode": 1,
+      "diagnostic": "<temporary>/assignment_to_character_array.cpp: In function ‘int main()’:\n<temporary>/assignment_to_character_array.cpp:3:3: error: incompatible types in assignment of ‘const char [13]’ to ‘char [5]’\n    3 | s = \"another text\"; /* Это ошибка. */\n      | ~~^~~~~~~~~~~~~~~~\n",
+      "passed": true
+    },
+    {
+      "kind": "compilation",
+      "source": "pointer_arithmetic.cpp",
+      "standard": "c++20",
+      "warnings": "",
+      "warnings_as_errors": false,
+      "passed": true
+    },
+    {
+      "kind": "execution",
+      "source": "pointer_arithmetic.cpp",
+      "standard": "c++20",
+      "expected": "10\n20\n10\n",
+      "stdout": "10\n20\n10\n",
+      "stderr": "",
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "kind": "compilation",
+      "source": "pointer_to_const.cpp",
+      "standard": "c++20",
+      "warnings": "",
+      "warnings_as_errors": false,
+      "passed": true
+    },
+    {
+      "kind": "execution",
+      "source": "pointer_to_const.cpp",
+      "standard": "c++20",
+      "expected": "Nonempty implementation-dependent address followed by value=10.",
+      "stdout": "address=0x7fff2d83ed7c\tvalue=10\n",
+      "stderr": "",
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "kind": "compilation",
+      "source": "const_view.cpp",
+      "standard": "c++20",
+      "warnings": "",
+      "warnings_as_errors": false,
+      "passed": true
+    },
+    {
+      "kind": "execution",
+      "source": "const_view.cpp",
+      "standard": "c++20",
+      "expected": "value=10\nvalue=22\n",
+      "stdout": "value=10\nvalue=22\n",
+      "stderr": "",
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "kind": "compilation",
+      "source": "const_pointer.cpp",
+      "standard": "c++20",
+      "warnings": "/workspace/scratch/b48445057238/stepik-OAiP/improvements/86957/theory-final-review-2026-11-23/examples/core/const_pointer.cpp: In function ‘int main()’:\n/workspace/scratch/b48445057238/stepik-OAiP/improvements/86957/theory-final-review-2026-11-23/examples/core/const_pointer.cpp:10:9: warning: unused variable ‘b’ [-Wunused-variable]\n   10 |     int b = 45;\n      |         ^\n",
+      "warnings_as_errors": false,
+      "passed": true
+    },
+    {
+      "kind": "execution",
+      "source": "const_pointer.cpp",
+      "standard": "c++20",
+      "expected": "value=10\nvalue=22\n",
+      "stdout": "value=10\nvalue=22\n",
+      "stderr": "",
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "kind": "compilation",
+      "source": "array_variants.cpp",
+      "standard": "c++20",
+      "warnings": "",
+      "warnings_as_errors": true,
+      "passed": true
+    },
+    {
+      "kind": "execution",
+      "source": "array_variants.cpp",
+      "standard": "c++20",
+      "expected": "1 15\n74 30 3 19 0 total=126\n1 2 0 \n4 0 0 \n",
+      "stdout": "1 15\n74 30 3 19 0 total=126\n1 2 0 \n4 0 0 \n",
+      "stderr": "",
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "kind": "expected_compilation_rejection",
+      "name": "repeated_array_definition",
+      "standard": "c++20",
+      "source": "int main() {\n// пример объявления двумерного массива:\nint a[5][3];\n// инициализация двумерного массива:\nint a[5][3] = { {9, 66, -1}, {3, -3, 30}, {1, 1, 1}, {4, 7, 8}, {5, -5, 0} };\n}\n",
+      "source_sha256": "d414f2070ccc06238d032a8fb0e5e93ff55122ff53d9f7afa40b5f71041bcfb4",
+      "returncode": 1,
+      "diagnostic": "<temporary>/repeated_array_definition.cpp: In function ‘int main()’:\n<temporary>/repeated_array_definition.cpp:5:5: error: redeclaration of ‘int a [5][3]’\n    5 | int a[5][3] = { {9, 66, -1}, {3, -3, 30}, {1, 1, 1}, {4, 7, 8}, {5, -5, 0} };\n      |     ^\n<temporary>/repeated_array_definition.cpp:3:5: note: ‘int a [5][3]’ previously declared here\n    3 | int a[5][3];\n      |     ^\n",
+      "passed": true
+    },
+    {
+      "kind": "expected_compilation_rejection",
+      "name": "write_through_pointer_to_const",
+      "standard": "c++20",
+      "source": "int main() { const int a = 10; const int* pa = &a;\n*pa = 34;\n}\n",
+      "source_sha256": "064f0416d2065bc331ba7899bfc3a399810fef4d62c21957aa3b37234caf8b98",
+      "returncode": 1,
+      "diagnostic": "<temporary>/write_through_pointer_to_const.cpp: In function ‘int main()’:\n<temporary>/write_through_pointer_to_const.cpp:2:5: error: assignment of read-only location ‘* pa’\n    2 | *pa = 34;\n      | ~~~~^~~~\n",
+      "passed": true
+    },
+    {
+      "kind": "expected_compilation_rejection",
+      "name": "assignment_to_character_array",
+      "standard": "c++20",
+      "source": "int main() {\nchar s[] = \"text\";  /* OK */\ns = \"another text\"; /* Это ошибка. */\n}\n",
+      "source_sha256": "7e230b32db0781fb11f4d62810972802dcb6d455a42aa8a1de37bf7c99755323",
+      "returncode": 1,
+      "diagnostic": "<temporary>/assignment_to_character_array.cpp: In function ‘int main()’:\n<temporary>/assignment_to_character_array.cpp:3:3: error: incompatible types in assignment of ‘const char [13]’ to ‘char [5]’\n    3 | s = \"another text\"; /* Это ошибка. */\n      | ~~^~~~~~~~~~~~~~~~\n",
+      "passed": true
+    }
+  ],
+  "historical_reports_modified": false,
+  "environment": {
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "python": "3.12.14",
+    "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+    "flags": [
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-O1",
+      "-g",
+      "-fsanitize=undefined",
+      "-fno-sanitize-recover=all"
+    ]
+  },
+  "input_sha256": {
+    "courses/86957/steps/763646/02_3177298_text.step": "2f20683530db12b29ee0eecb979773d0633c237de89988fcb121ecc08260a517",
+    "courses/86957/steps/770585/05_3212990_text.step": "37bf6ba467280ca7ebae231b13ac9dd5091040c037c5eafe341572649450eece",
+    "courses/86957/steps/770585/06_3212989_text.step": "3dc4cdca3b367b34d2b682be42489e99777b08ca4c8a11b6bbdd206b3741537f",
+    "improvements/86957/theory-final-review-2026-11-23/changes_core.json": "0a65a891523556a1f4915d85c977473fb6d385773c74fb64b4e667c59f02bec5",
+    "improvements/86957/theory-final-review-2026-11-23/examples/core/README.md": "17128c13924ba6a97e63a1239dd7fad29ed51529fce341d30a8c5cd14a8c48a3",
+    "improvements/86957/theory-final-review-2026-11-23/examples/core/array_variants.cpp": "b9a8d2b23e05df6e67425581bee3f609582f3768d2beadb638bf95edb6742910",
+    "improvements/86957/theory-final-review-2026-11-23/examples/core/const_pointer.cpp": "aa3e20166508ce414a31a8cfa299cd128828a37b0ff8beff4046231bb3f46038",
+    "improvements/86957/theory-final-review-2026-11-23/examples/core/const_view.cpp": "40926906ecc88c69774c6b121c5387326024d061f47a30b6e434d2fc75b1afd0",
+    "improvements/86957/theory-final-review-2026-11-23/examples/core/pointer_arithmetic.cpp": "0e9f7fd11972ac15a9351a9c004cbe73824c44a59dd8d647f996f0e0c9f19da2",
+    "improvements/86957/theory-final-review-2026-11-23/examples/core/pointer_to_const.cpp": "9eead12f5f60e35756bbdf29b49e70f85848d677dac6603a67af8a9b36824dba",
+    "improvements/86957/theory-final-review-2026-11-23/examples/core/verify.py": "a2f552e35356488d22f5e0bfe36d92946fb56534fac4e162718f164fbd6621f0",
+    "improvements/86957/theory-final-review-2026-11-23/review_inputs.json": "53d72e8a181cf26ff99fd906b12a9808c329bf6323578b1b5182869172ebb2e2",
+    "improvements/86957/theory-final-review-2026-11-23/steps/763646/02_3177298_text.step": "de36b7355887dd18f6dae0d4073d3b81dad8a15c3bba97afe091eaef1b34961a",
+    "improvements/86957/theory-links-2026-11-23/steps/770588/03_3214873_text.step": "cf934cdbe5a2305bfcbef726d379693af6d8925829cbaaa5b533949769ea6d30"
+  },
+  "finished_at": "2026-11-23T14:44:06.483884+00:00",
+  "limits": [
+    "Only these five author programs and three negative constructions were compiled by this script.",
+    "The four preserved programs have fixed input and no external error branches; their explained observable output is checked.",
+    "const_pointer.cpp retains its historical unused-variable warning; valid C++ does not require warning-free compilation.",
+    "No uninitialized int value is read; undefined behavior is not used as a negative runtime test.",
+    "Pointer formatting is implementation-dependent; the expected address is not hard-coded.",
+    "Linux/GCC with UBSan only; Windows/MSVC and macOS are not checked.",
+    "No live Stepik access, assessed steps or learner submissions."
+  ]
+}

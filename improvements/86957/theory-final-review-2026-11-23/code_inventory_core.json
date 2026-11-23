@@ -1,0 +1,3829 @@
+{
+  "schema_version": 1,
+  "scope": "All 96 text steps in modules 5–11; effective snapshot plus prior theory-links overlay and the one new prose correction.",
+  "input_index_sha256": "53d72e8a181cf26ff99fd906b12a9808c329bf6323578b1b5182869172ebb2e2",
+  "sha256_definition": "UTF-8 bytes of HTMLParser-decoded pre content; raw_pre_sha256 includes original pre markup.",
+  "pre_index_base": 1,
+  "counts": {
+    "steps": 96,
+    "pre_blocks": 125,
+    "by_kind": {
+      "build_configuration": 3,
+      "command": 9,
+      "expected_failure": 2,
+      "fragment": 30,
+      "full_program": 62,
+      "multi_file_component": 11,
+      "output": 8
+    },
+    "blocks_with_main": 66,
+    "full_programs_with_verifier_binding": 62
+  },
+  "current_reports": {
+    "t2": {
+      "path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t2.json",
+      "sha256": "2101f5a35287a87ad690eee0f13affa83b240e2fb64a2c997c90788053b4a4c0",
+      "status": "passed"
+    },
+    "t3": {
+      "path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t3.json",
+      "sha256": "589a4bc578a86f73b94aa9d2877ae8182b7b20670eca1180e81bdd56a958196b",
+      "status": "passed"
+    },
+    "t4": {
+      "path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t4.json",
+      "sha256": "0fc22f68be5043a4341f367a042e2f29b518435598332d356e0c4411c3c08f5f",
+      "status": "passed"
+    },
+    "links_types": {
+      "path": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/links_types.json",
+      "sha256": "f576a9284720f3cc04c53ee74dd0a078eba3502db5ce734174cc0e029bcb465d",
+      "status": "passed"
+    },
+    "new_core": {
+      "path": "improvements/86957/theory-final-review-2026-11-23/validation/new_core.json",
+      "sha256": "24bcc69d5fceb5e17eab05c077890795b56705285dad2f7a09a9b693ec4ffae5",
+      "status": "passed"
+    }
+  },
+  "step_inputs": [
+    {
+      "step_id": 3177296,
+      "module_number": 5,
+      "previous_effective_path": "courses/86957/steps/763644/02_3177296_text.step",
+      "previous_file_sha256": "b20562d7d3733825364b680e413b50bdd04a200ccbe2d1be2f6a2e2d812fcb66",
+      "previous_text_sha256": "340072728eff04166772597129c4ae88c091d53eddea8440aedc0d5daff30bdd",
+      "reviewed_final_path": "courses/86957/steps/763644/02_3177296_text.step",
+      "reviewed_final_file_sha256": "b20562d7d3733825364b680e413b50bdd04a200ccbe2d1be2f6a2e2d812fcb66",
+      "reviewed_final_text_sha256": "340072728eff04166772597129c4ae88c091d53eddea8440aedc0d5daff30bdd",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3212907,
+      "module_number": 5,
+      "previous_effective_path": "courses/86957/steps/763644/03_3212907_text.step",
+      "previous_file_sha256": "e3b57e53b7e89318dd2a33cf499aab368cec6270fd28c61b43aae09a06572f65",
+      "previous_text_sha256": "2aa7c61d95cc968911eb533d4856e9b93718bab852b152c82e5d94b395b07a11",
+      "reviewed_final_path": "courses/86957/steps/763644/03_3212907_text.step",
+      "reviewed_final_file_sha256": "e3b57e53b7e89318dd2a33cf499aab368cec6270fd28c61b43aae09a06572f65",
+      "reviewed_final_text_sha256": "2aa7c61d95cc968911eb533d4856e9b93718bab852b152c82e5d94b395b07a11",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3212908,
+      "module_number": 5,
+      "previous_effective_path": "courses/86957/steps/763644/04_3212908_text.step",
+      "previous_file_sha256": "f782f105aea6c4dc1d12cf804cf47c75f1462b47fa52f29c33cf48bdc40906e6",
+      "previous_text_sha256": "7313089cf6ba1dec28c3abc36da340da708cc917a67f6cee8a1899a23552988e",
+      "reviewed_final_path": "courses/86957/steps/763644/04_3212908_text.step",
+      "reviewed_final_file_sha256": "f782f105aea6c4dc1d12cf804cf47c75f1462b47fa52f29c33cf48bdc40906e6",
+      "reviewed_final_text_sha256": "7313089cf6ba1dec28c3abc36da340da708cc917a67f6cee8a1899a23552988e",
+      "pre_count": 3
+    },
+    {
+      "step_id": 3212935,
+      "module_number": 5,
+      "previous_effective_path": "improvements/86957/theory-links-2026-11-23/steps/763644/05_3212935_text.step",
+      "previous_file_sha256": "139b19365352e131039726a679714c6ba47a5b864e3d0ac30803abd676c7185b",
+      "previous_text_sha256": "3a0eaecefe4d62b5da73d8516efd6338810072da51a39ab83c5899ef324a51fa",
+      "reviewed_final_path": "improvements/86957/theory-links-2026-11-23/steps/763644/05_3212935_text.step",
+      "reviewed_final_file_sha256": "139b19365352e131039726a679714c6ba47a5b864e3d0ac30803abd676c7185b",
+      "reviewed_final_text_sha256": "3a0eaecefe4d62b5da73d8516efd6338810072da51a39ab83c5899ef324a51fa",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3212920,
+      "module_number": 5,
+      "previous_effective_path": "improvements/86957/theory-links-2026-11-23/steps/763644/06_3212920_text.step",
+      "previous_file_sha256": "b8da69f2092fe153fe4d551c9a9a1d7fba03681e8c90da4ecf06c9a812fc5b9c",
+      "previous_text_sha256": "76221c8fc16ee4a7a061e52baf2d78683b16f3a0363ad245a8882b3173e22e2c",
+      "reviewed_final_path": "improvements/86957/theory-links-2026-11-23/steps/763644/06_3212920_text.step",
+      "reviewed_final_file_sha256": "b8da69f2092fe153fe4d551c9a9a1d7fba03681e8c90da4ecf06c9a812fc5b9c",
+      "reviewed_final_text_sha256": "76221c8fc16ee4a7a061e52baf2d78683b16f3a0363ad245a8882b3173e22e2c",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3212926,
+      "module_number": 5,
+      "previous_effective_path": "improvements/86957/theory-links-2026-11-23/steps/763644/07_3212926_text.step",
+      "previous_file_sha256": "ba8abe7a6ffe913034bba013806de8601ad258761cdf84828c252c956448e19d",
+      "previous_text_sha256": "2d4533120316f5bdb6f914a0fefcb80c02d77b7a7f8ece41ba323b968de9a4da",
+      "reviewed_final_path": "improvements/86957/theory-links-2026-11-23/steps/763644/07_3212926_text.step",
+      "reviewed_final_file_sha256": "ba8abe7a6ffe913034bba013806de8601ad258761cdf84828c252c956448e19d",
+      "reviewed_final_text_sha256": "2d4533120316f5bdb6f914a0fefcb80c02d77b7a7f8ece41ba323b968de9a4da",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3212924,
+      "module_number": 5,
+      "previous_effective_path": "courses/86957/steps/763646/01_3212924_text.step",
+      "previous_file_sha256": "56da32d824d23a481b3917a3de23fd42243ed2e535ba0ec54f1aca3d24b0acc7",
+      "previous_text_sha256": "90764b7ef47c86f431b139abeabc7598bf9a38d8a6ca7ab6684b5ae2cace9ab8",
+      "reviewed_final_path": "courses/86957/steps/763646/01_3212924_text.step",
+      "reviewed_final_file_sha256": "56da32d824d23a481b3917a3de23fd42243ed2e535ba0ec54f1aca3d24b0acc7",
+      "reviewed_final_text_sha256": "90764b7ef47c86f431b139abeabc7598bf9a38d8a6ca7ab6684b5ae2cace9ab8",
+      "pre_count": 0
+    },
+    {
+      "step_id": 3177298,
+      "module_number": 5,
+      "previous_effective_path": "courses/86957/steps/763646/02_3177298_text.step",
+      "previous_file_sha256": "2f20683530db12b29ee0eecb979773d0633c237de89988fcb121ecc08260a517",
+      "previous_text_sha256": "57d7c627e0c951db5d71b726af78adb458ead859547b6d6990c1424e24c4f00d",
+      "reviewed_final_path": "improvements/86957/theory-final-review-2026-11-23/steps/763646/02_3177298_text.step",
+      "reviewed_final_file_sha256": "de36b7355887dd18f6dae0d4073d3b81dad8a15c3bba97afe091eaef1b34961a",
+      "reviewed_final_text_sha256": "c84792025d5d59850a94993b676f0d558e6cc1f78ccee95c53f5c823e8c40ea6",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3212939,
+      "module_number": 5,
+      "previous_effective_path": "improvements/86957/theory-links-2026-11-23/steps/763646/03_3212939_text.step",
+      "previous_file_sha256": "67517caef22065ad865b26ba19c314515e392ff881c41fc6f77ce5a9ef6b3849",
+      "previous_text_sha256": "830666a0502a4bb073a8361609e25f8849b484fdd955b078ae16cb15c307711c",
+      "reviewed_final_path": "improvements/86957/theory-links-2026-11-23/steps/763646/03_3212939_text.step",
+      "reviewed_final_file_sha256": "67517caef22065ad865b26ba19c314515e392ff881c41fc6f77ce5a9ef6b3849",
+      "reviewed_final_text_sha256": "830666a0502a4bb073a8361609e25f8849b484fdd955b078ae16cb15c307711c",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3212928,
+      "module_number": 5,
+      "previous_effective_path": "courses/86957/steps/763646/04_3212928_text.step",
+      "previous_file_sha256": "5c2d7b8e75e8e27f00b46bf601aa839adcaa6e2aa90ddf945fef3695f40d10f2",
+      "previous_text_sha256": "9ded9475eff7fa0316ae8060a9a912b267e175b8203b6b2ffc088275c55e0543",
+      "reviewed_final_path": "courses/86957/steps/763646/04_3212928_text.step",
+      "reviewed_final_file_sha256": "5c2d7b8e75e8e27f00b46bf601aa839adcaa6e2aa90ddf945fef3695f40d10f2",
+      "reviewed_final_text_sha256": "9ded9475eff7fa0316ae8060a9a912b267e175b8203b6b2ffc088275c55e0543",
+      "pre_count": 0
+    },
+    {
+      "step_id": 3212937,
+      "module_number": 5,
+      "previous_effective_path": "courses/86957/steps/763646/05_3212937_text.step",
+      "previous_file_sha256": "40488e00148964bc9aaa19392819db1ac1537550ba132f5b2ef88cf83ce7e173",
+      "previous_text_sha256": "dc45748b26e9c47f8913546d36e01d04f445dac99e117b176fa3486eb251ede5",
+      "reviewed_final_path": "courses/86957/steps/763646/05_3212937_text.step",
+      "reviewed_final_file_sha256": "40488e00148964bc9aaa19392819db1ac1537550ba132f5b2ef88cf83ce7e173",
+      "reviewed_final_text_sha256": "dc45748b26e9c47f8913546d36e01d04f445dac99e117b176fa3486eb251ede5",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3212944,
+      "module_number": 6,
+      "previous_effective_path": "courses/86957/steps/770585/01_3212944_text.step",
+      "previous_file_sha256": "24870135287588bef317423d0c2d1e7f113b59ebbab34e5fc5794f12fb8ef1c1",
+      "previous_text_sha256": "a128e2d419316c87cbd00a39ac5311919864625b4726d830eddc5fbf3acf98e2",
+      "reviewed_final_path": "courses/86957/steps/770585/01_3212944_text.step",
+      "reviewed_final_file_sha256": "24870135287588bef317423d0c2d1e7f113b59ebbab34e5fc5794f12fb8ef1c1",
+      "reviewed_final_text_sha256": "a128e2d419316c87cbd00a39ac5311919864625b4726d830eddc5fbf3acf98e2",
+      "pre_count": 0
+    },
+    {
+      "step_id": 3212968,
+      "module_number": 6,
+      "previous_effective_path": "improvements/86957/theory-links-2026-11-23/steps/770585/02_3212968_text.step",
+      "previous_file_sha256": "f2f90539b4a47f5bbe5e7a666806be5a661b634c2a19b606f5644f1a8c292fb8",
+      "previous_text_sha256": "8ed004f7827f6f3374053f1e7d92ccbd32b7c136b33758cd5b9afa9aebfb6397",
+      "reviewed_final_path": "improvements/86957/theory-links-2026-11-23/steps/770585/02_3212968_text.step",
+      "reviewed_final_file_sha256": "f2f90539b4a47f5bbe5e7a666806be5a661b634c2a19b606f5644f1a8c292fb8",
+      "reviewed_final_text_sha256": "8ed004f7827f6f3374053f1e7d92ccbd32b7c136b33758cd5b9afa9aebfb6397",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3212969,
+      "module_number": 6,
+      "previous_effective_path": "courses/86957/steps/770585/03_3212969_text.step",
+      "previous_file_sha256": "b7060dc914404a6836ecdb6140994d08af7fbd16a73c713298da6b03f0162642",
+      "previous_text_sha256": "a3f29db0304ff699b200f82aac9e7efeb896b42274384d87882a0ece7fc25bb1",
+      "reviewed_final_path": "courses/86957/steps/770585/03_3212969_text.step",
+      "reviewed_final_file_sha256": "b7060dc914404a6836ecdb6140994d08af7fbd16a73c713298da6b03f0162642",
+      "reviewed_final_text_sha256": "a3f29db0304ff699b200f82aac9e7efeb896b42274384d87882a0ece7fc25bb1",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3212970,
+      "module_number": 6,
+      "previous_effective_path": "improvements/86957/theory-links-2026-11-23/steps/770585/04_3212970_text.step",
+      "previous_file_sha256": "e78db463559d3c007da3ec39cb0cff169633731a88474619baa144075b07597f",
+      "previous_text_sha256": "0aaab9fbf3914b6bf04d04101e93d48f1a322c4519d5f7a7f004eb922779ebdb",
+      "reviewed_final_path": "improvements/86957/theory-links-2026-11-23/steps/770585/04_3212970_text.step",
+      "reviewed_final_file_sha256": "e78db463559d3c007da3ec39cb0cff169633731a88474619baa144075b07597f",
+      "reviewed_final_text_sha256": "0aaab9fbf3914b6bf04d04101e93d48f1a322c4519d5f7a7f004eb922779ebdb",
+      "pre_count": 3
+    },
+    {
+      "step_id": 3212990,
+      "module_number": 6,
+      "previous_effective_path": "courses/86957/steps/770585/05_3212990_text.step",
+      "previous_file_sha256": "37bf6ba467280ca7ebae231b13ac9dd5091040c037c5eafe341572649450eece",
+      "previous_text_sha256": "8a043004748c032902965eb56a168ae102f80d8b1ecc4044db8eca6ce56e9aaa",
+      "reviewed_final_path": "courses/86957/steps/770585/05_3212990_text.step",
+      "reviewed_final_file_sha256": "37bf6ba467280ca7ebae231b13ac9dd5091040c037c5eafe341572649450eece",
+      "reviewed_final_text_sha256": "8a043004748c032902965eb56a168ae102f80d8b1ecc4044db8eca6ce56e9aaa",
+      "pre_count": 4
+    },
+    {
+      "step_id": 3212989,
+      "module_number": 6,
+      "previous_effective_path": "courses/86957/steps/770585/06_3212989_text.step",
+      "previous_file_sha256": "3dc4cdca3b367b34d2b682be42489e99777b08ca4c8a11b6bbdd206b3741537f",
+      "previous_text_sha256": "c05cf8c3b8909c7b5be75fd405cf42e0a88ffb0a7befc70a5ba8f405c6f7b06f",
+      "reviewed_final_path": "courses/86957/steps/770585/06_3212989_text.step",
+      "reviewed_final_file_sha256": "3dc4cdca3b367b34d2b682be42489e99777b08ca4c8a11b6bbdd206b3741537f",
+      "reviewed_final_text_sha256": "c05cf8c3b8909c7b5be75fd405cf42e0a88ffb0a7befc70a5ba8f405c6f7b06f",
+      "pre_count": 6
+    },
+    {
+      "step_id": 3212991,
+      "module_number": 6,
+      "previous_effective_path": "courses/86957/steps/770585/07_3212991_text.step",
+      "previous_file_sha256": "18826b61c82e8a48c1720e92ce18e9e8b216a2c4ea81738125f491d792089509",
+      "previous_text_sha256": "6a1b70feba39aa78188440357c7689719e97de82fc707b3b645da42934208df9",
+      "reviewed_final_path": "courses/86957/steps/770585/07_3212991_text.step",
+      "reviewed_final_file_sha256": "18826b61c82e8a48c1720e92ce18e9e8b216a2c4ea81738125f491d792089509",
+      "reviewed_final_text_sha256": "6a1b70feba39aa78188440357c7689719e97de82fc707b3b645da42934208df9",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3212945,
+      "module_number": 6,
+      "previous_effective_path": "courses/86957/steps/770586/01_3212945_text.step",
+      "previous_file_sha256": "b7c18a94861e5ae1840b0b199c2e7b28397ed4dcf91092547afe618fa1af873d",
+      "previous_text_sha256": "31936acac3755168b8a4d9a3d781e51fa67dfad631cb385cfc0b275f2677b7c2",
+      "reviewed_final_path": "courses/86957/steps/770586/01_3212945_text.step",
+      "reviewed_final_file_sha256": "b7c18a94861e5ae1840b0b199c2e7b28397ed4dcf91092547afe618fa1af873d",
+      "reviewed_final_text_sha256": "31936acac3755168b8a4d9a3d781e51fa67dfad631cb385cfc0b275f2677b7c2",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3212995,
+      "module_number": 6,
+      "previous_effective_path": "courses/86957/steps/770586/02_3212995_text.step",
+      "previous_file_sha256": "81b7b972fb3ff1542674d0bfc4a5c4dfdbc606469257a99ed2aeb3ca1b429244",
+      "previous_text_sha256": "e9b58b7d77ec08298cbaa82795c2840044273ed4ac82db1bf2c482a34ca55609",
+      "reviewed_final_path": "courses/86957/steps/770586/02_3212995_text.step",
+      "reviewed_final_file_sha256": "81b7b972fb3ff1542674d0bfc4a5c4dfdbc606469257a99ed2aeb3ca1b429244",
+      "reviewed_final_text_sha256": "e9b58b7d77ec08298cbaa82795c2840044273ed4ac82db1bf2c482a34ca55609",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3213003,
+      "module_number": 6,
+      "previous_effective_path": "courses/86957/steps/770586/03_3213003_text.step",
+      "previous_file_sha256": "cfb0f3390afbdfe1b6a38d3961de665b57b8dcdb9160b466a6d6e0f398cc2264",
+      "previous_text_sha256": "02245fb567553fe9583e2776d65e9a46ab3bba8ed82dd519b61273c9ed428fdb",
+      "reviewed_final_path": "courses/86957/steps/770586/03_3213003_text.step",
+      "reviewed_final_file_sha256": "cfb0f3390afbdfe1b6a38d3961de665b57b8dcdb9160b466a6d6e0f398cc2264",
+      "reviewed_final_text_sha256": "02245fb567553fe9583e2776d65e9a46ab3bba8ed82dd519b61273c9ed428fdb",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3213004,
+      "module_number": 6,
+      "previous_effective_path": "courses/86957/steps/770586/04_3213004_text.step",
+      "previous_file_sha256": "00c56aa75ef03a58366819f4f3da41d7c5a6f2ad9bd699944840d04dc6604318",
+      "previous_text_sha256": "cd885cebc02c7faab2f0ae1cd385e008bdae3a0c475ad707514176af0c407f60",
+      "reviewed_final_path": "courses/86957/steps/770586/04_3213004_text.step",
+      "reviewed_final_file_sha256": "00c56aa75ef03a58366819f4f3da41d7c5a6f2ad9bd699944840d04dc6604318",
+      "reviewed_final_text_sha256": "cd885cebc02c7faab2f0ae1cd385e008bdae3a0c475ad707514176af0c407f60",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3438842,
+      "module_number": 6,
+      "previous_effective_path": "courses/86957/steps/770586/05_3438842_text.step",
+      "previous_file_sha256": "eba40d21386ad03838485af73c0c9efffd09e871e3d0965894485eb391cab32e",
+      "previous_text_sha256": "a94724015f3a85794e0ec3eba632131436d79a7dee58e112e20b499d29e74d97",
+      "reviewed_final_path": "courses/86957/steps/770586/05_3438842_text.step",
+      "reviewed_final_file_sha256": "eba40d21386ad03838485af73c0c9efffd09e871e3d0965894485eb391cab32e",
+      "reviewed_final_text_sha256": "a94724015f3a85794e0ec3eba632131436d79a7dee58e112e20b499d29e74d97",
+      "pre_count": 0
+    },
+    {
+      "step_id": 3438841,
+      "module_number": 6,
+      "previous_effective_path": "improvements/86957/theory-links-2026-11-23/steps/770586/06_3438841_text.step",
+      "previous_file_sha256": "170bdcd09d4fc2521171f31b9b5f9250b59374e76ce2c580d16540f490610682",
+      "previous_text_sha256": "6fca84f326176a2c7be1e419454b0b6951d55c84ea11d046958e1cbcc79542e1",
+      "reviewed_final_path": "improvements/86957/theory-links-2026-11-23/steps/770586/06_3438841_text.step",
+      "reviewed_final_file_sha256": "170bdcd09d4fc2521171f31b9b5f9250b59374e76ce2c580d16540f490610682",
+      "reviewed_final_text_sha256": "6fca84f326176a2c7be1e419454b0b6951d55c84ea11d046958e1cbcc79542e1",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3212946,
+      "module_number": 6,
+      "previous_effective_path": "courses/86957/steps/770587/01_3212946_text.step",
+      "previous_file_sha256": "65c00d311f49cbe384660ca9476c34b9734d00c280133358a224fc88cc30499e",
+      "previous_text_sha256": "7be07c24b978c3142bc1525ece9036a1ae857d6048106b287efe6282d0af96bd",
+      "reviewed_final_path": "courses/86957/steps/770587/01_3212946_text.step",
+      "reviewed_final_file_sha256": "65c00d311f49cbe384660ca9476c34b9734d00c280133358a224fc88cc30499e",
+      "reviewed_final_text_sha256": "7be07c24b978c3142bc1525ece9036a1ae857d6048106b287efe6282d0af96bd",
+      "pre_count": 3
+    },
+    {
+      "step_id": 3213209,
+      "module_number": 6,
+      "previous_effective_path": "improvements/86957/theory-links-2026-11-23/steps/770587/02_3213209_text.step",
+      "previous_file_sha256": "8b34bc727e369621835b37112edd10ca9896cc7b14f27b0f421fcb39253f768b",
+      "previous_text_sha256": "234d59a7a63fa17dfb6289e90bb88736641f96524921e433021f7183e765fd0e",
+      "reviewed_final_path": "improvements/86957/theory-links-2026-11-23/steps/770587/02_3213209_text.step",
+      "reviewed_final_file_sha256": "8b34bc727e369621835b37112edd10ca9896cc7b14f27b0f421fcb39253f768b",
+      "reviewed_final_text_sha256": "234d59a7a63fa17dfb6289e90bb88736641f96524921e433021f7183e765fd0e",
+      "pre_count": 4
+    },
+    {
+      "step_id": 3213208,
+      "module_number": 6,
+      "previous_effective_path": "courses/86957/steps/770587/03_3213208_text.step",
+      "previous_file_sha256": "9c798b19a41a0f6cb9e58c2d196b639a161ccd30b7708334a693f895d55ad913",
+      "previous_text_sha256": "ce14f79020205b48d5187bdd596f6ecfe474cde7703a1ab9183ab2e81487a86f",
+      "reviewed_final_path": "courses/86957/steps/770587/03_3213208_text.step",
+      "reviewed_final_file_sha256": "9c798b19a41a0f6cb9e58c2d196b639a161ccd30b7708334a693f895d55ad913",
+      "reviewed_final_text_sha256": "ce14f79020205b48d5187bdd596f6ecfe474cde7703a1ab9183ab2e81487a86f",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3213207,
+      "module_number": 6,
+      "previous_effective_path": "courses/86957/steps/770587/04_3213207_text.step",
+      "previous_file_sha256": "d52ce4ef98145896a6e2ac9b4aa81132b052ea7429bd52276cef3bf3894d524d",
+      "previous_text_sha256": "61ff86f3f36c625a272055c32ff56b3ce9e4da01ab27f15848dd61c1a0a2fe6d",
+      "reviewed_final_path": "courses/86957/steps/770587/04_3213207_text.step",
+      "reviewed_final_file_sha256": "d52ce4ef98145896a6e2ac9b4aa81132b052ea7429bd52276cef3bf3894d524d",
+      "reviewed_final_text_sha256": "61ff86f3f36c625a272055c32ff56b3ce9e4da01ab27f15848dd61c1a0a2fe6d",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3213210,
+      "module_number": 6,
+      "previous_effective_path": "improvements/86957/theory-links-2026-11-23/steps/770587/05_3213210_text.step",
+      "previous_file_sha256": "6ebd07119215adef7c687c818bdbe478c7eaff2c483799336f1347a6d5225378",
+      "previous_text_sha256": "57ac5aa748d295c6d5f9f1ef6dbc5f34f2aac15c8831577974e24fbd88a463d1",
+      "reviewed_final_path": "improvements/86957/theory-links-2026-11-23/steps/770587/05_3213210_text.step",
+      "reviewed_final_file_sha256": "6ebd07119215adef7c687c818bdbe478c7eaff2c483799336f1347a6d5225378",
+      "reviewed_final_text_sha256": "57ac5aa748d295c6d5f9f1ef6dbc5f34f2aac15c8831577974e24fbd88a463d1",
+      "pre_count": 0
+    },
+    {
+      "step_id": 3307684,
+      "module_number": 6,
+      "previous_effective_path": "courses/86957/steps/770587/06_3307684_text.step",
+      "previous_file_sha256": "0ab0b102c82cf35829f1507c8f9e8bc4cf20493116f8bbdf27cbff92ba4daea9",
+      "previous_text_sha256": "ee828a85ad23ede3d25f43b5e0734ef45165155a60d2be1214a37cf883624838",
+      "reviewed_final_path": "courses/86957/steps/770587/06_3307684_text.step",
+      "reviewed_final_file_sha256": "0ab0b102c82cf35829f1507c8f9e8bc4cf20493116f8bbdf27cbff92ba4daea9",
+      "reviewed_final_text_sha256": "ee828a85ad23ede3d25f43b5e0734ef45165155a60d2be1214a37cf883624838",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3213206,
+      "module_number": 6,
+      "previous_effective_path": "improvements/86957/theory-links-2026-11-23/steps/770587/07_3213206_text.step",
+      "previous_file_sha256": "8380fa42ac37dad428b7028b5bd4d990c8cc8760218129cf3770c3d9ffbca59b",
+      "previous_text_sha256": "1a75865e315b8242b79df43f6ac9b9131dd2909b5a5c8b7f53bca1c3ee533dbc",
+      "reviewed_final_path": "improvements/86957/theory-links-2026-11-23/steps/770587/07_3213206_text.step",
+      "reviewed_final_file_sha256": "8380fa42ac37dad428b7028b5bd4d990c8cc8760218129cf3770c3d9ffbca59b",
+      "reviewed_final_text_sha256": "1a75865e315b8242b79df43f6ac9b9131dd2909b5a5c8b7f53bca1c3ee533dbc",
+      "pre_count": 0
+    },
+    {
+      "step_id": 3212949,
+      "module_number": 7,
+      "previous_effective_path": "improvements/86957/theory-links-2026-11-23/steps/770590/01_3212949_text.step",
+      "previous_file_sha256": "7b648925b5b91f41e0cc76988ae5e023a45c2562d4d84148718c3b41893f1f43",
+      "previous_text_sha256": "530784d31acf84e8286c801061d0eab1f3577e58d6c5879817fb172d03fadccc",
+      "reviewed_final_path": "improvements/86957/theory-links-2026-11-23/steps/770590/01_3212949_text.step",
+      "reviewed_final_file_sha256": "7b648925b5b91f41e0cc76988ae5e023a45c2562d4d84148718c3b41893f1f43",
+      "reviewed_final_text_sha256": "530784d31acf84e8286c801061d0eab1f3577e58d6c5879817fb172d03fadccc",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3214909,
+      "module_number": 7,
+      "previous_effective_path": "courses/86957/steps/770590/02_3214909_text.step",
+      "previous_file_sha256": "704f75378057593a6a2a53413ce1eeaa1a94d1e6d6d92dba7471575ca9b19091",
+      "previous_text_sha256": "4f0889cbe9dc335f72c12cc91ecebd427d4ae2e6772aafa83a2f593f92fa15fa",
+      "reviewed_final_path": "courses/86957/steps/770590/02_3214909_text.step",
+      "reviewed_final_file_sha256": "704f75378057593a6a2a53413ce1eeaa1a94d1e6d6d92dba7471575ca9b19091",
+      "reviewed_final_text_sha256": "4f0889cbe9dc335f72c12cc91ecebd427d4ae2e6772aafa83a2f593f92fa15fa",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3214910,
+      "module_number": 7,
+      "previous_effective_path": "improvements/86957/theory-links-2026-11-23/steps/770590/03_3214910_text.step",
+      "previous_file_sha256": "ec0dc14fc8bf746dbcd12b82b2afb0ee214e5fcc9c5ab67b16b9b2918238404c",
+      "previous_text_sha256": "d1131399cfc39517f7f4b5285b81b38e5323a0b35ff8c91787996b2c40a5a8a0",
+      "reviewed_final_path": "improvements/86957/theory-links-2026-11-23/steps/770590/03_3214910_text.step",
+      "reviewed_final_file_sha256": "ec0dc14fc8bf746dbcd12b82b2afb0ee214e5fcc9c5ab67b16b9b2918238404c",
+      "reviewed_final_text_sha256": "d1131399cfc39517f7f4b5285b81b38e5323a0b35ff8c91787996b2c40a5a8a0",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3214911,
+      "module_number": 7,
+      "previous_effective_path": "improvements/86957/theory-links-2026-11-23/steps/770590/04_3214911_text.step",
+      "previous_file_sha256": "8387349225c5d9c8793a21d36dfa76d6e1e1f03502293fb463bfce825594245d",
+      "previous_text_sha256": "79c1b219bdea1fce06124007a8932a27391075117f5234510b299076c6329f3d",
+      "reviewed_final_path": "improvements/86957/theory-links-2026-11-23/steps/770590/04_3214911_text.step",
+      "reviewed_final_file_sha256": "8387349225c5d9c8793a21d36dfa76d6e1e1f03502293fb463bfce825594245d",
+      "reviewed_final_text_sha256": "79c1b219bdea1fce06124007a8932a27391075117f5234510b299076c6329f3d",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3212950,
+      "module_number": 7,
+      "previous_effective_path": "courses/86957/steps/770591/01_3212950_text.step",
+      "previous_file_sha256": "0e920b38d3e68c198271e6ccfe2eb9cb8bba51c01f22f65e1c0c963121901bd8",
+      "previous_text_sha256": "c7cf33ff1eedbf7f8bd2f813a12de4cc63b2b5f53273317e82955d7b73d1e783",
+      "reviewed_final_path": "courses/86957/steps/770591/01_3212950_text.step",
+      "reviewed_final_file_sha256": "0e920b38d3e68c198271e6ccfe2eb9cb8bba51c01f22f65e1c0c963121901bd8",
+      "reviewed_final_text_sha256": "c7cf33ff1eedbf7f8bd2f813a12de4cc63b2b5f53273317e82955d7b73d1e783",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3214973,
+      "module_number": 7,
+      "previous_effective_path": "improvements/86957/theory-links-2026-11-23/steps/770591/02_3214973_text.step",
+      "previous_file_sha256": "64927fa835cb7f39526cd831bb9903fdc9c236a311465b8e3b36577f2afa1f7e",
+      "previous_text_sha256": "948400981202119ab0462d7f7b5c089e5d34bce3cbeb44eea363dc104d75680d",
+      "reviewed_final_path": "improvements/86957/theory-links-2026-11-23/steps/770591/02_3214973_text.step",
+      "reviewed_final_file_sha256": "64927fa835cb7f39526cd831bb9903fdc9c236a311465b8e3b36577f2afa1f7e",
+      "reviewed_final_text_sha256": "948400981202119ab0462d7f7b5c089e5d34bce3cbeb44eea363dc104d75680d",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3214972,
+      "module_number": 7,
+      "previous_effective_path": "courses/86957/steps/770591/03_3214972_text.step",
+      "previous_file_sha256": "748665155bdb7ba336f735979d3dd81dce66789b62aff912d08f101ece08b961",
+      "previous_text_sha256": "f425fbcb2840142a51a50ce2a7245d4c9c5fa5f95fdb5014ddf04b4be3a38eca",
+      "reviewed_final_path": "courses/86957/steps/770591/03_3214972_text.step",
+      "reviewed_final_file_sha256": "748665155bdb7ba336f735979d3dd81dce66789b62aff912d08f101ece08b961",
+      "reviewed_final_text_sha256": "f425fbcb2840142a51a50ce2a7245d4c9c5fa5f95fdb5014ddf04b4be3a38eca",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3214971,
+      "module_number": 7,
+      "previous_effective_path": "improvements/86957/theory-links-2026-11-23/steps/770591/04_3214971_text.step",
+      "previous_file_sha256": "a6813aeb8bd034ab4310d3d54beb6edb0507042f63028b8c47d4bc9b0d1fc836",
+      "previous_text_sha256": "7139c76ee5df93a140fa5d8745f9c8ae80d7817ba3b1226d55e142175074b3d8",
+      "reviewed_final_path": "improvements/86957/theory-links-2026-11-23/steps/770591/04_3214971_text.step",
+      "reviewed_final_file_sha256": "a6813aeb8bd034ab4310d3d54beb6edb0507042f63028b8c47d4bc9b0d1fc836",
+      "reviewed_final_text_sha256": "7139c76ee5df93a140fa5d8745f9c8ae80d7817ba3b1226d55e142175074b3d8",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3214974,
+      "module_number": 7,
+      "previous_effective_path": "improvements/86957/theory-links-2026-11-23/steps/770591/05_3214974_text.step",
+      "previous_file_sha256": "14735511583b92b8743378dea8a94a9e422ddb08aa7a12eb53dacb98f80486d4",
+      "previous_text_sha256": "c9cf3370c466d31f9ea316c270113a0ad32a405b69b7d5d16c93e35d95c2d513",
+      "reviewed_final_path": "improvements/86957/theory-links-2026-11-23/steps/770591/05_3214974_text.step",
+      "reviewed_final_file_sha256": "14735511583b92b8743378dea8a94a9e422ddb08aa7a12eb53dacb98f80486d4",
+      "reviewed_final_text_sha256": "c9cf3370c466d31f9ea316c270113a0ad32a405b69b7d5d16c93e35d95c2d513",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3215024,
+      "module_number": 7,
+      "previous_effective_path": "courses/86957/steps/770591/06_3215024_text.step",
+      "previous_file_sha256": "0e10d37e8fafe36ce856859bf7377e2d5c303c4af1481c211cd572d71e06cfbd",
+      "previous_text_sha256": "53e3ff98041d01bac6d7375b5de4b3eb5f57287d13ddb12a812de84bbd34753f",
+      "reviewed_final_path": "courses/86957/steps/770591/06_3215024_text.step",
+      "reviewed_final_file_sha256": "0e10d37e8fafe36ce856859bf7377e2d5c303c4af1481c211cd572d71e06cfbd",
+      "reviewed_final_text_sha256": "53e3ff98041d01bac6d7375b5de4b3eb5f57287d13ddb12a812de84bbd34753f",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3214978,
+      "module_number": 7,
+      "previous_effective_path": "courses/86957/steps/770591/07_3214978_text.step",
+      "previous_file_sha256": "8e9dfb86d047011bff9ff21e9d69fa09189af0a93bf9160aef4574a0faf15f0e",
+      "previous_text_sha256": "fd7ad2acb0dfe1f66566e1822b1c1cfa4d26235a1d272ce92d40c3b85e8fa326",
+      "reviewed_final_path": "courses/86957/steps/770591/07_3214978_text.step",
+      "reviewed_final_file_sha256": "8e9dfb86d047011bff9ff21e9d69fa09189af0a93bf9160aef4574a0faf15f0e",
+      "reviewed_final_text_sha256": "fd7ad2acb0dfe1f66566e1822b1c1cfa4d26235a1d272ce92d40c3b85e8fa326",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3214992,
+      "module_number": 7,
+      "previous_effective_path": "courses/86957/steps/770592/01_3214992_text.step",
+      "previous_file_sha256": "31bb12831a0faeea5ebbc0b8fb3d074d23b3807f431dd78b2a6c3ca500195908",
+      "previous_text_sha256": "4278356e4179f5a1f35aac07184bb1413542257d0b14be56f8a3309502fc6b41",
+      "reviewed_final_path": "courses/86957/steps/770592/01_3214992_text.step",
+      "reviewed_final_file_sha256": "31bb12831a0faeea5ebbc0b8fb3d074d23b3807f431dd78b2a6c3ca500195908",
+      "reviewed_final_text_sha256": "4278356e4179f5a1f35aac07184bb1413542257d0b14be56f8a3309502fc6b41",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3212951,
+      "module_number": 7,
+      "previous_effective_path": "courses/86957/steps/770592/02_3212951_text.step",
+      "previous_file_sha256": "38732e0ed0ad3cefb93d66285a4f25cd3c212ca522c729e74cdbb148e2c71a2e",
+      "previous_text_sha256": "c9c8a58710f60e2a3abc252f5ea76f7240d7a5c7833d4feda9b065e0ad446563",
+      "reviewed_final_path": "courses/86957/steps/770592/02_3212951_text.step",
+      "reviewed_final_file_sha256": "38732e0ed0ad3cefb93d66285a4f25cd3c212ca522c729e74cdbb148e2c71a2e",
+      "reviewed_final_text_sha256": "c9c8a58710f60e2a3abc252f5ea76f7240d7a5c7833d4feda9b065e0ad446563",
+      "pre_count": 4
+    },
+    {
+      "step_id": 3214991,
+      "module_number": 7,
+      "previous_effective_path": "improvements/86957/theory-links-2026-11-23/steps/770592/03_3214991_text.step",
+      "previous_file_sha256": "9d073900263b2ebc4f86fde9f85f3283e40e185579733ac797a0bbef73e52a6b",
+      "previous_text_sha256": "80166409f342149c89d763b8573b686e372841cddbd214a1c5d64bc8d424db37",
+      "reviewed_final_path": "improvements/86957/theory-links-2026-11-23/steps/770592/03_3214991_text.step",
+      "reviewed_final_file_sha256": "9d073900263b2ebc4f86fde9f85f3283e40e185579733ac797a0bbef73e52a6b",
+      "reviewed_final_text_sha256": "80166409f342149c89d763b8573b686e372841cddbd214a1c5d64bc8d424db37",
+      "pre_count": 3
+    },
+    {
+      "step_id": 3212952,
+      "module_number": 7,
+      "previous_effective_path": "courses/86957/steps/770593/01_3212952_text.step",
+      "previous_file_sha256": "9ccfb114b5836457cf2dd1324afdd1ae768abe6fb1dfa4e62d2d97e1816daf94",
+      "previous_text_sha256": "f2b5f11bd5cd42b249137e28785300257fe18726a777412f09b0d11096182e13",
+      "reviewed_final_path": "courses/86957/steps/770593/01_3212952_text.step",
+      "reviewed_final_file_sha256": "9ccfb114b5836457cf2dd1324afdd1ae768abe6fb1dfa4e62d2d97e1816daf94",
+      "reviewed_final_text_sha256": "f2b5f11bd5cd42b249137e28785300257fe18726a777412f09b0d11096182e13",
+      "pre_count": 0
+    },
+    {
+      "step_id": 3215031,
+      "module_number": 7,
+      "previous_effective_path": "courses/86957/steps/770593/02_3215031_text.step",
+      "previous_file_sha256": "c7b746c41364c0ae68b61bf6485e80211e05718e84a21541d74fc294c785c309",
+      "previous_text_sha256": "f264e73ed61e62cff8848244c702b3ea8d6669609a494ff47725009d68795ea3",
+      "reviewed_final_path": "courses/86957/steps/770593/02_3215031_text.step",
+      "reviewed_final_file_sha256": "c7b746c41364c0ae68b61bf6485e80211e05718e84a21541d74fc294c785c309",
+      "reviewed_final_text_sha256": "f264e73ed61e62cff8848244c702b3ea8d6669609a494ff47725009d68795ea3",
+      "pre_count": 0
+    },
+    {
+      "step_id": 3215032,
+      "module_number": 7,
+      "previous_effective_path": "courses/86957/steps/770593/03_3215032_text.step",
+      "previous_file_sha256": "92ffa9f62b3d6d8ab6dfbdf4d7500e3ef4e23945bc3f851cad44d652530d9f72",
+      "previous_text_sha256": "338d4bcc7a1095288f23966290c65e6ffe647f5eb60e45800378b301bcb23c87",
+      "reviewed_final_path": "courses/86957/steps/770593/03_3215032_text.step",
+      "reviewed_final_file_sha256": "92ffa9f62b3d6d8ab6dfbdf4d7500e3ef4e23945bc3f851cad44d652530d9f72",
+      "reviewed_final_text_sha256": "338d4bcc7a1095288f23966290c65e6ffe647f5eb60e45800378b301bcb23c87",
+      "pre_count": 3
+    },
+    {
+      "step_id": 3215045,
+      "module_number": 7,
+      "previous_effective_path": "improvements/86957/theory-links-2026-11-23/steps/770593/04_3215045_text.step",
+      "previous_file_sha256": "81e4ff413bf5cbf08e651e9495352cc927c81e52a1fa23df7f421f234dc09a2e",
+      "previous_text_sha256": "d3794827cf3fbdfd55e313704f47d22531f6b6f2c3f4c2539101c090736ef5b5",
+      "reviewed_final_path": "improvements/86957/theory-links-2026-11-23/steps/770593/04_3215045_text.step",
+      "reviewed_final_file_sha256": "81e4ff413bf5cbf08e651e9495352cc927c81e52a1fa23df7f421f234dc09a2e",
+      "reviewed_final_text_sha256": "d3794827cf3fbdfd55e313704f47d22531f6b6f2c3f4c2539101c090736ef5b5",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3251321,
+      "module_number": 8,
+      "previous_effective_path": "courses/86957/steps/778425/01_3251321_text.step",
+      "previous_file_sha256": "1155d1ac5b8926f2f15ccd3323b23c17c454412f86f6f03cf9ab8bed8637c865",
+      "previous_text_sha256": "acb5a5983fb8e4fd251862b5c7fe3afac4071a20741cf3107bd558e2d52d2b3c",
+      "reviewed_final_path": "courses/86957/steps/778425/01_3251321_text.step",
+      "reviewed_final_file_sha256": "1155d1ac5b8926f2f15ccd3323b23c17c454412f86f6f03cf9ab8bed8637c865",
+      "reviewed_final_text_sha256": "acb5a5983fb8e4fd251862b5c7fe3afac4071a20741cf3107bd558e2d52d2b3c",
+      "pre_count": 0
+    },
+    {
+      "step_id": 3252939,
+      "module_number": 8,
+      "previous_effective_path": "improvements/86957/theory-links-2026-11-23/steps/778425/02_3252939_text.step",
+      "previous_file_sha256": "ff05f508224353ff78be83b504174c3bc3fd29350f78c5b2f98510556c0fe750",
+      "previous_text_sha256": "a479e8fbdabdc0f7c215ad07ce5be483167b29dd8e606f0ac4273d7a7be11392",
+      "reviewed_final_path": "improvements/86957/theory-links-2026-11-23/steps/778425/02_3252939_text.step",
+      "reviewed_final_file_sha256": "ff05f508224353ff78be83b504174c3bc3fd29350f78c5b2f98510556c0fe750",
+      "reviewed_final_text_sha256": "a479e8fbdabdc0f7c215ad07ce5be483167b29dd8e606f0ac4273d7a7be11392",
+      "pre_count": 0
+    },
+    {
+      "step_id": 3252941,
+      "module_number": 8,
+      "previous_effective_path": "courses/86957/steps/778425/03_3252941_text.step",
+      "previous_file_sha256": "765670a3b9e779818df4840d75f41c78642714f07edbae2a5ff38e6c9974d587",
+      "previous_text_sha256": "a7b7f2742b52887086035750e0f678592e6a6173b1babb17e82ffd4c12701654",
+      "reviewed_final_path": "courses/86957/steps/778425/03_3252941_text.step",
+      "reviewed_final_file_sha256": "765670a3b9e779818df4840d75f41c78642714f07edbae2a5ff38e6c9974d587",
+      "reviewed_final_text_sha256": "a7b7f2742b52887086035750e0f678592e6a6173b1babb17e82ffd4c12701654",
+      "pre_count": 0
+    },
+    {
+      "step_id": 3252940,
+      "module_number": 8,
+      "previous_effective_path": "courses/86957/steps/778425/04_3252940_text.step",
+      "previous_file_sha256": "ddd860be50878443881c53a6661918219cfdf64f88f02d3004653c20a2fbebf3",
+      "previous_text_sha256": "0ea38faf83956903f5b152d3a5f235c758b41fd083edc4b4e58775ad75058e11",
+      "reviewed_final_path": "courses/86957/steps/778425/04_3252940_text.step",
+      "reviewed_final_file_sha256": "ddd860be50878443881c53a6661918219cfdf64f88f02d3004653c20a2fbebf3",
+      "reviewed_final_text_sha256": "0ea38faf83956903f5b152d3a5f235c758b41fd083edc4b4e58775ad75058e11",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3251322,
+      "module_number": 8,
+      "previous_effective_path": "courses/86957/steps/778426/01_3251322_text.step",
+      "previous_file_sha256": "789d25e8ff4542db7366414b56d45221a52fe37b3b1a8bb554a57260aa11fc9d",
+      "previous_text_sha256": "f650d02d1218d7255beddd8a7ac22ac6f40adedf0f5023c82dc468c1aa3ebe75",
+      "reviewed_final_path": "courses/86957/steps/778426/01_3251322_text.step",
+      "reviewed_final_file_sha256": "789d25e8ff4542db7366414b56d45221a52fe37b3b1a8bb554a57260aa11fc9d",
+      "reviewed_final_text_sha256": "f650d02d1218d7255beddd8a7ac22ac6f40adedf0f5023c82dc468c1aa3ebe75",
+      "pre_count": 0
+    },
+    {
+      "step_id": 3253129,
+      "module_number": 8,
+      "previous_effective_path": "improvements/86957/theory-links-2026-11-23/steps/778426/02_3253129_text.step",
+      "previous_file_sha256": "65e0159a56eb02f89177e160e2efdb4874733612b6705396c412025fa59a859c",
+      "previous_text_sha256": "f1f67d8ecf3e3889d8a1fa098ba39e1d1307ff44f8869dfc2689d7f6b0ca599f",
+      "reviewed_final_path": "improvements/86957/theory-links-2026-11-23/steps/778426/02_3253129_text.step",
+      "reviewed_final_file_sha256": "65e0159a56eb02f89177e160e2efdb4874733612b6705396c412025fa59a859c",
+      "reviewed_final_text_sha256": "f1f67d8ecf3e3889d8a1fa098ba39e1d1307ff44f8869dfc2689d7f6b0ca599f",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3253429,
+      "module_number": 8,
+      "previous_effective_path": "courses/86957/steps/778426/04_3253429_text.step",
+      "previous_file_sha256": "4f3d8e2dc9cbd840e72413bc3e8963c697f4c9b275289ad0a17ee24d399aec34",
+      "previous_text_sha256": "f2b490d577e461276d0f87a627f8c094e6c9d381649fa7c5152774c3c8fcda56",
+      "reviewed_final_path": "courses/86957/steps/778426/04_3253429_text.step",
+      "reviewed_final_file_sha256": "4f3d8e2dc9cbd840e72413bc3e8963c697f4c9b275289ad0a17ee24d399aec34",
+      "reviewed_final_text_sha256": "f2b490d577e461276d0f87a627f8c094e6c9d381649fa7c5152774c3c8fcda56",
+      "pre_count": 4
+    },
+    {
+      "step_id": 3253503,
+      "module_number": 8,
+      "previous_effective_path": "courses/86957/steps/778426/05_3253503_text.step",
+      "previous_file_sha256": "8dff008ffd0d344a3a830c6d87bd5616fd73046a704c789c42d018f0bf686f55",
+      "previous_text_sha256": "972e3a68d7ad22ad6893d7eda92a9f419c6be806d4c3db561181bf885c4cd706",
+      "reviewed_final_path": "courses/86957/steps/778426/05_3253503_text.step",
+      "reviewed_final_file_sha256": "8dff008ffd0d344a3a830c6d87bd5616fd73046a704c789c42d018f0bf686f55",
+      "reviewed_final_text_sha256": "972e3a68d7ad22ad6893d7eda92a9f419c6be806d4c3db561181bf885c4cd706",
+      "pre_count": 4
+    },
+    {
+      "step_id": 3253548,
+      "module_number": 8,
+      "previous_effective_path": "courses/86957/steps/778426/06_3253548_text.step",
+      "previous_file_sha256": "0286900c5ff6fb22ed7d5d85656c2059de0d0583797c27396ef4320f3d27692e",
+      "previous_text_sha256": "138ffc3eb2d7bcfce9490e2e6934f339af7baee038cd222e08d215b70eda988a",
+      "reviewed_final_path": "courses/86957/steps/778426/06_3253548_text.step",
+      "reviewed_final_file_sha256": "0286900c5ff6fb22ed7d5d85656c2059de0d0583797c27396ef4320f3d27692e",
+      "reviewed_final_text_sha256": "138ffc3eb2d7bcfce9490e2e6934f339af7baee038cd222e08d215b70eda988a",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3253553,
+      "module_number": 8,
+      "previous_effective_path": "improvements/86957/theory-links-2026-11-23/steps/778426/07_3253553_text.step",
+      "previous_file_sha256": "2abe1c1ee3afcb6412cfa9f3dec7fe29cc6894994f5eee71983c1489b5546a79",
+      "previous_text_sha256": "70bab3650f525a21ae12c20b1f3bff45bd0d438f824834f4c98c57d00ecbdcde",
+      "reviewed_final_path": "improvements/86957/theory-links-2026-11-23/steps/778426/07_3253553_text.step",
+      "reviewed_final_file_sha256": "2abe1c1ee3afcb6412cfa9f3dec7fe29cc6894994f5eee71983c1489b5546a79",
+      "reviewed_final_text_sha256": "70bab3650f525a21ae12c20b1f3bff45bd0d438f824834f4c98c57d00ecbdcde",
+      "pre_count": 3
+    },
+    {
+      "step_id": 3253557,
+      "module_number": 8,
+      "previous_effective_path": "courses/86957/steps/778426/09_3253557_text.step",
+      "previous_file_sha256": "fd008a5f567d853ecb7ff0598b4e6d06fe3e205f0f753254e6eaef9f91136281",
+      "previous_text_sha256": "c89f3d78cbc4a14379a65de4a9978a0ad03af49f23cf647353dfcf6fdc361477",
+      "reviewed_final_path": "courses/86957/steps/778426/09_3253557_text.step",
+      "reviewed_final_file_sha256": "fd008a5f567d853ecb7ff0598b4e6d06fe3e205f0f753254e6eaef9f91136281",
+      "reviewed_final_text_sha256": "c89f3d78cbc4a14379a65de4a9978a0ad03af49f23cf647353dfcf6fdc361477",
+      "pre_count": 0
+    },
+    {
+      "step_id": 3212947,
+      "module_number": 9,
+      "previous_effective_path": "courses/86957/steps/770588/01_3212947_text.step",
+      "previous_file_sha256": "84533795da479ea483efd1eb14b1d3ac92bd7d52d031044dbf55e19f8741ccde",
+      "previous_text_sha256": "bde59c50dc574e407f04aae0459a525f9e46824050385e6c8add22689aae38ff",
+      "reviewed_final_path": "courses/86957/steps/770588/01_3212947_text.step",
+      "reviewed_final_file_sha256": "84533795da479ea483efd1eb14b1d3ac92bd7d52d031044dbf55e19f8741ccde",
+      "reviewed_final_text_sha256": "bde59c50dc574e407f04aae0459a525f9e46824050385e6c8add22689aae38ff",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3214845,
+      "module_number": 9,
+      "previous_effective_path": "courses/86957/steps/770588/02_3214845_text.step",
+      "previous_file_sha256": "87703488365f3bb19acc25fa78cb2c29804394d0d78e9c73eac560a4ecf96207",
+      "previous_text_sha256": "b3c0285cf944bd2efc2d43f4358dcb396675d13392c5674860e576df93855c91",
+      "reviewed_final_path": "courses/86957/steps/770588/02_3214845_text.step",
+      "reviewed_final_file_sha256": "87703488365f3bb19acc25fa78cb2c29804394d0d78e9c73eac560a4ecf96207",
+      "reviewed_final_text_sha256": "b3c0285cf944bd2efc2d43f4358dcb396675d13392c5674860e576df93855c91",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3214873,
+      "module_number": 9,
+      "previous_effective_path": "improvements/86957/theory-links-2026-11-23/steps/770588/03_3214873_text.step",
+      "previous_file_sha256": "cf934cdbe5a2305bfcbef726d379693af6d8925829cbaaa5b533949769ea6d30",
+      "previous_text_sha256": "26c073920ae74be4b43a086b2a4088773f12267670248f57842e9f21d5d6477b",
+      "reviewed_final_path": "improvements/86957/theory-links-2026-11-23/steps/770588/03_3214873_text.step",
+      "reviewed_final_file_sha256": "cf934cdbe5a2305bfcbef726d379693af6d8925829cbaaa5b533949769ea6d30",
+      "reviewed_final_text_sha256": "26c073920ae74be4b43a086b2a4088773f12267670248f57842e9f21d5d6477b",
+      "pre_count": 4
+    },
+    {
+      "step_id": 3212948,
+      "module_number": 9,
+      "previous_effective_path": "courses/86957/steps/770589/01_3212948_text.step",
+      "previous_file_sha256": "0af2f9a38f8d7538e6b3caf24c0cf18371648a719f8f22fda35f2e418b7dd178",
+      "previous_text_sha256": "5fc5d31116e51e912608f7c72eed45b6875c21a95a2395ace14ad7335ac051a3",
+      "reviewed_final_path": "courses/86957/steps/770589/01_3212948_text.step",
+      "reviewed_final_file_sha256": "0af2f9a38f8d7538e6b3caf24c0cf18371648a719f8f22fda35f2e418b7dd178",
+      "reviewed_final_text_sha256": "5fc5d31116e51e912608f7c72eed45b6875c21a95a2395ace14ad7335ac051a3",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3214901,
+      "module_number": 9,
+      "previous_effective_path": "courses/86957/steps/770589/02_3214901_text.step",
+      "previous_file_sha256": "c1c64fdda8b9c2969748f01e0a1e4afbfb55edfbf65f90c316581469cb4f1c26",
+      "previous_text_sha256": "57fb97693474eb73e86c8b59bd5896b08af8941dbb4aaf2205d32381e067236e",
+      "reviewed_final_path": "courses/86957/steps/770589/02_3214901_text.step",
+      "reviewed_final_file_sha256": "c1c64fdda8b9c2969748f01e0a1e4afbfb55edfbf65f90c316581469cb4f1c26",
+      "reviewed_final_text_sha256": "57fb97693474eb73e86c8b59bd5896b08af8941dbb4aaf2205d32381e067236e",
+      "pre_count": 0
+    },
+    {
+      "step_id": 3214903,
+      "module_number": 9,
+      "previous_effective_path": "improvements/86957/theory-links-2026-11-23/steps/770589/03_3214903_text.step",
+      "previous_file_sha256": "d8b4f6df076d3206dca87ff59661cc87b76b84bc6afa169db38b49b0f3023d7a",
+      "previous_text_sha256": "0fbac43d25476b08fe6a2f41dd9265dc42569222c174729d6af7fe07aaf4b5fb",
+      "reviewed_final_path": "improvements/86957/theory-links-2026-11-23/steps/770589/03_3214903_text.step",
+      "reviewed_final_file_sha256": "d8b4f6df076d3206dca87ff59661cc87b76b84bc6afa169db38b49b0f3023d7a",
+      "reviewed_final_text_sha256": "0fbac43d25476b08fe6a2f41dd9265dc42569222c174729d6af7fe07aaf4b5fb",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3214902,
+      "module_number": 9,
+      "previous_effective_path": "courses/86957/steps/770589/04_3214902_text.step",
+      "previous_file_sha256": "e087687768ae8f9d9a4b6bb5c475764a752185cd0a790a762ee09c306dc60c67",
+      "previous_text_sha256": "2d3f394715181d3ea845fc3f75eb5e7131caea06cd0015fc5a05fe66e8f5e15c",
+      "reviewed_final_path": "courses/86957/steps/770589/04_3214902_text.step",
+      "reviewed_final_file_sha256": "e087687768ae8f9d9a4b6bb5c475764a752185cd0a790a762ee09c306dc60c67",
+      "reviewed_final_text_sha256": "2d3f394715181d3ea845fc3f75eb5e7131caea06cd0015fc5a05fe66e8f5e15c",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3214904,
+      "module_number": 9,
+      "previous_effective_path": "courses/86957/steps/770589/05_3214904_text.step",
+      "previous_file_sha256": "32172d8a31fe950a7d20aa1107c22b2772a482337c8b79c42874b17b32da78bb",
+      "previous_text_sha256": "66f0692aa51be1599f100bee08ecfb943b76f34b1c703f16b2a2ea58845cae21",
+      "reviewed_final_path": "courses/86957/steps/770589/05_3214904_text.step",
+      "reviewed_final_file_sha256": "32172d8a31fe950a7d20aa1107c22b2772a482337c8b79c42874b17b32da78bb",
+      "reviewed_final_text_sha256": "66f0692aa51be1599f100bee08ecfb943b76f34b1c703f16b2a2ea58845cae21",
+      "pre_count": 2
+    },
+    {
+      "step_id": 3212953,
+      "module_number": 10,
+      "previous_effective_path": "courses/86957/steps/770594/01_3212953_text.step",
+      "previous_file_sha256": "59cbde78acfb703652a42c08ac31d995ced14e5addaf3da191f1d2ae50b644c9",
+      "previous_text_sha256": "7c6347569b701aacb48d0373529234d0b13f8a8f661dbec6d8dbcb5bad7fa987",
+      "reviewed_final_path": "courses/86957/steps/770594/01_3212953_text.step",
+      "reviewed_final_file_sha256": "59cbde78acfb703652a42c08ac31d995ced14e5addaf3da191f1d2ae50b644c9",
+      "reviewed_final_text_sha256": "7c6347569b701aacb48d0373529234d0b13f8a8f661dbec6d8dbcb5bad7fa987",
+      "pre_count": 0
+    },
+    {
+      "step_id": 3213244,
+      "module_number": 10,
+      "previous_effective_path": "courses/86957/steps/770594/02_3213244_text.step",
+      "previous_file_sha256": "5375a70585e2379c2b461106cb248ddff659fc44fc062e7524680e678e37f83d",
+      "previous_text_sha256": "70c4e4bfe4bf8e2b5c450e4479e2423b79c365e7a38b24cc4fec9236a4b11624",
+      "reviewed_final_path": "courses/86957/steps/770594/02_3213244_text.step",
+      "reviewed_final_file_sha256": "5375a70585e2379c2b461106cb248ddff659fc44fc062e7524680e678e37f83d",
+      "reviewed_final_text_sha256": "70c4e4bfe4bf8e2b5c450e4479e2423b79c365e7a38b24cc4fec9236a4b11624",
+      "pre_count": 0
+    },
+    {
+      "step_id": 3213241,
+      "module_number": 10,
+      "previous_effective_path": "courses/86957/steps/770594/03_3213241_text.step",
+      "previous_file_sha256": "84c6522c67086b96811323050b34ac92bf5753dca56ce8b7fa764339cd1233ab",
+      "previous_text_sha256": "e2d025e9aa5d8828bd3d49c3ea1e92e39a51638de9db9f1855d06367fde8cb8a",
+      "reviewed_final_path": "courses/86957/steps/770594/03_3213241_text.step",
+      "reviewed_final_file_sha256": "84c6522c67086b96811323050b34ac92bf5753dca56ce8b7fa764339cd1233ab",
+      "reviewed_final_text_sha256": "e2d025e9aa5d8828bd3d49c3ea1e92e39a51638de9db9f1855d06367fde8cb8a",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3213243,
+      "module_number": 10,
+      "previous_effective_path": "courses/86957/steps/770594/04_3213243_text.step",
+      "previous_file_sha256": "739b344e2fd252aba7e45876d443fbddc07f5f5ce925f670f4389aa54cd4a70a",
+      "previous_text_sha256": "a2b9c1b217f8daee38ec110f59b7b6040283bb9e14da54ebd405dc13a7a9393f",
+      "reviewed_final_path": "courses/86957/steps/770594/04_3213243_text.step",
+      "reviewed_final_file_sha256": "739b344e2fd252aba7e45876d443fbddc07f5f5ce925f670f4389aa54cd4a70a",
+      "reviewed_final_text_sha256": "a2b9c1b217f8daee38ec110f59b7b6040283bb9e14da54ebd405dc13a7a9393f",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3213242,
+      "module_number": 10,
+      "previous_effective_path": "improvements/86957/theory-links-2026-11-23/steps/770594/05_3213242_text.step",
+      "previous_file_sha256": "3eee1eae1afb594a52d555ee7f12347d163cefc58b461dd3f850e92d611d34ea",
+      "previous_text_sha256": "20586085ec2e275aac9e9b165d3a9fefff6cbf61c31ff0c185f9c7d1bef3d701",
+      "reviewed_final_path": "improvements/86957/theory-links-2026-11-23/steps/770594/05_3213242_text.step",
+      "reviewed_final_file_sha256": "3eee1eae1afb594a52d555ee7f12347d163cefc58b461dd3f850e92d611d34ea",
+      "reviewed_final_text_sha256": "20586085ec2e275aac9e9b165d3a9fefff6cbf61c31ff0c185f9c7d1bef3d701",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3213247,
+      "module_number": 10,
+      "previous_effective_path": "courses/86957/steps/770594/06_3213247_text.step",
+      "previous_file_sha256": "e08f6bbc80a9e1e06c7cbc1ce2f5e85d330f0e392c7f5586b06db99fb49e8842",
+      "previous_text_sha256": "f6870cecf354baefeeb5fda79b4b70d561ba2e4a421ba766bb550eba75954522",
+      "reviewed_final_path": "courses/86957/steps/770594/06_3213247_text.step",
+      "reviewed_final_file_sha256": "e08f6bbc80a9e1e06c7cbc1ce2f5e85d330f0e392c7f5586b06db99fb49e8842",
+      "reviewed_final_text_sha256": "f6870cecf354baefeeb5fda79b4b70d561ba2e4a421ba766bb550eba75954522",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3213248,
+      "module_number": 10,
+      "previous_effective_path": "courses/86957/steps/770594/07_3213248_text.step",
+      "previous_file_sha256": "ca803ad249b920633f04a769325bc8d400b16a0c1d7a3760c7d95fc853bf9edc",
+      "previous_text_sha256": "9a712d649530431498c13b4c84ad068908846c88c43bc08fd10c53590a69691c",
+      "reviewed_final_path": "courses/86957/steps/770594/07_3213248_text.step",
+      "reviewed_final_file_sha256": "ca803ad249b920633f04a769325bc8d400b16a0c1d7a3760c7d95fc853bf9edc",
+      "reviewed_final_text_sha256": "9a712d649530431498c13b4c84ad068908846c88c43bc08fd10c53590a69691c",
+      "pre_count": 0
+    },
+    {
+      "step_id": 3213256,
+      "module_number": 10,
+      "previous_effective_path": "courses/86957/steps/770594/08_3213256_text.step",
+      "previous_file_sha256": "a58f374c9d2e9bf1c08f3737f4ff03e4a8e4b027045bd79e13226179fa5f79e4",
+      "previous_text_sha256": "077a0522c47889ffa270d28a8b4ee3719fafaafa48a889a76cbe333968c39873",
+      "reviewed_final_path": "courses/86957/steps/770594/08_3213256_text.step",
+      "reviewed_final_file_sha256": "a58f374c9d2e9bf1c08f3737f4ff03e4a8e4b027045bd79e13226179fa5f79e4",
+      "reviewed_final_text_sha256": "077a0522c47889ffa270d28a8b4ee3719fafaafa48a889a76cbe333968c39873",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3213255,
+      "module_number": 10,
+      "previous_effective_path": "courses/86957/steps/770594/09_3213255_text.step",
+      "previous_file_sha256": "dc888703b7314dd6939da40d738589f5357e68cdf2a3d5949840832bc138f099",
+      "previous_text_sha256": "2a2c889d3f766a20205b35dafef43025c22bea1be909ccf9e59dd7f9b2589829",
+      "reviewed_final_path": "courses/86957/steps/770594/09_3213255_text.step",
+      "reviewed_final_file_sha256": "dc888703b7314dd6939da40d738589f5357e68cdf2a3d5949840832bc138f099",
+      "reviewed_final_text_sha256": "2a2c889d3f766a20205b35dafef43025c22bea1be909ccf9e59dd7f9b2589829",
+      "pre_count": 0
+    },
+    {
+      "step_id": 3212954,
+      "module_number": 10,
+      "previous_effective_path": "courses/86957/steps/770595/01_3212954_text.step",
+      "previous_file_sha256": "51c36b6306778457ebdf19aafbba0a65d6f786980fe36fdcef25bfac2ed2bfae",
+      "previous_text_sha256": "1930e69b10fceaf3112396fb1bc392d64424f74a168dfa18c5f20adc50c6b201",
+      "reviewed_final_path": "courses/86957/steps/770595/01_3212954_text.step",
+      "reviewed_final_file_sha256": "51c36b6306778457ebdf19aafbba0a65d6f786980fe36fdcef25bfac2ed2bfae",
+      "reviewed_final_text_sha256": "1930e69b10fceaf3112396fb1bc392d64424f74a168dfa18c5f20adc50c6b201",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3215136,
+      "module_number": 10,
+      "previous_effective_path": "courses/86957/steps/770595/02_3215136_text.step",
+      "previous_file_sha256": "376753642997df8618f879241500fb3b725df2bd3a91bbcb7552423a1eb6d8e4",
+      "previous_text_sha256": "7423800297a801f24947607349d05f6c1dcfdf91998b635ccc0e946b2d46012e",
+      "reviewed_final_path": "courses/86957/steps/770595/02_3215136_text.step",
+      "reviewed_final_file_sha256": "376753642997df8618f879241500fb3b725df2bd3a91bbcb7552423a1eb6d8e4",
+      "reviewed_final_text_sha256": "7423800297a801f24947607349d05f6c1dcfdf91998b635ccc0e946b2d46012e",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3215137,
+      "module_number": 10,
+      "previous_effective_path": "courses/86957/steps/770595/03_3215137_text.step",
+      "previous_file_sha256": "f48fbafe75ee842c3b0a53af5e0c07577521e67e129d9e54b665f583fbc10041",
+      "previous_text_sha256": "1625872ef8bbe73a9274ea2862f0f0fd4d57dc5686b67c2c42465fc99f908c4f",
+      "reviewed_final_path": "courses/86957/steps/770595/03_3215137_text.step",
+      "reviewed_final_file_sha256": "f48fbafe75ee842c3b0a53af5e0c07577521e67e129d9e54b665f583fbc10041",
+      "reviewed_final_text_sha256": "1625872ef8bbe73a9274ea2862f0f0fd4d57dc5686b67c2c42465fc99f908c4f",
+      "pre_count": 0
+    },
+    {
+      "step_id": 3215176,
+      "module_number": 10,
+      "previous_effective_path": "courses/86957/steps/770595/04_3215176_text.step",
+      "previous_file_sha256": "383c4e1bfb3c6a2177fcbc8f6b97e630a0f271228ebde92cca6623dec03b26b7",
+      "previous_text_sha256": "11831c958306fd1bb321dbe215985f120b8513d3dc55537f367623a5caf07325",
+      "reviewed_final_path": "courses/86957/steps/770595/04_3215176_text.step",
+      "reviewed_final_file_sha256": "383c4e1bfb3c6a2177fcbc8f6b97e630a0f271228ebde92cca6623dec03b26b7",
+      "reviewed_final_text_sha256": "11831c958306fd1bb321dbe215985f120b8513d3dc55537f367623a5caf07325",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3215175,
+      "module_number": 10,
+      "previous_effective_path": "courses/86957/steps/770595/05_3215175_text.step",
+      "previous_file_sha256": "10c07abaf2a2c638c915ee78e2cca5e89d651e1739da9886e54a7dd5a00b531d",
+      "previous_text_sha256": "21616f290447d1b62dc2cc749eed544bc672da3c25b9ed62e8e73d01d973fc3f",
+      "reviewed_final_path": "courses/86957/steps/770595/05_3215175_text.step",
+      "reviewed_final_file_sha256": "10c07abaf2a2c638c915ee78e2cca5e89d651e1739da9886e54a7dd5a00b531d",
+      "reviewed_final_text_sha256": "21616f290447d1b62dc2cc749eed544bc672da3c25b9ed62e8e73d01d973fc3f",
+      "pre_count": 0
+    },
+    {
+      "step_id": 3215178,
+      "module_number": 10,
+      "previous_effective_path": "courses/86957/steps/770595/06_3215178_text.step",
+      "previous_file_sha256": "43b54859da1b1904346c69526d0d602eda6a7537688781b682f6d0d3d15f60ae",
+      "previous_text_sha256": "716e39766e8e4716131f44f6a2afd25e8bb5d1289f84a28b34b0238f763204ce",
+      "reviewed_final_path": "courses/86957/steps/770595/06_3215178_text.step",
+      "reviewed_final_file_sha256": "43b54859da1b1904346c69526d0d602eda6a7537688781b682f6d0d3d15f60ae",
+      "reviewed_final_text_sha256": "716e39766e8e4716131f44f6a2afd25e8bb5d1289f84a28b34b0238f763204ce",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3215177,
+      "module_number": 10,
+      "previous_effective_path": "courses/86957/steps/770595/07_3215177_text.step",
+      "previous_file_sha256": "ef631ddd8b057b4f52afd47c848796080c7cc7686816b5b478848caeefe37f77",
+      "previous_text_sha256": "cfbe37adf23d38cf44dc7495214f8e4d2b593c86209cb6e1ccb525878a8f29a5",
+      "reviewed_final_path": "courses/86957/steps/770595/07_3215177_text.step",
+      "reviewed_final_file_sha256": "ef631ddd8b057b4f52afd47c848796080c7cc7686816b5b478848caeefe37f77",
+      "reviewed_final_text_sha256": "cfbe37adf23d38cf44dc7495214f8e4d2b593c86209cb6e1ccb525878a8f29a5",
+      "pre_count": 0
+    },
+    {
+      "step_id": 3215179,
+      "module_number": 10,
+      "previous_effective_path": "courses/86957/steps/770595/08_3215179_text.step",
+      "previous_file_sha256": "fcc7a6ed314ca062cea0bf804a2d5e35df74e47fbb4da0315e4226ed116dd6f3",
+      "previous_text_sha256": "d1a2439bdd1e5cc8c9bbee0de5595d4aa2c6cbcbd51f823439b34c4b71369adb",
+      "reviewed_final_path": "courses/86957/steps/770595/08_3215179_text.step",
+      "reviewed_final_file_sha256": "fcc7a6ed314ca062cea0bf804a2d5e35df74e47fbb4da0315e4226ed116dd6f3",
+      "reviewed_final_text_sha256": "d1a2439bdd1e5cc8c9bbee0de5595d4aa2c6cbcbd51f823439b34c4b71369adb",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3215109,
+      "module_number": 10,
+      "previous_effective_path": "improvements/86957/theory-links-2026-11-23/steps/771129/01_3215109_text.step",
+      "previous_file_sha256": "a202f2322fab10ffa8e22e336fe786f6094c756a09ef49db2a552625df7ba778",
+      "previous_text_sha256": "1adc88be677b39e898ea6fc5c7c42181ec7d832069101caf2f2e9e167e606795",
+      "reviewed_final_path": "improvements/86957/theory-links-2026-11-23/steps/771129/01_3215109_text.step",
+      "reviewed_final_file_sha256": "a202f2322fab10ffa8e22e336fe786f6094c756a09ef49db2a552625df7ba778",
+      "reviewed_final_text_sha256": "1adc88be677b39e898ea6fc5c7c42181ec7d832069101caf2f2e9e167e606795",
+      "pre_count": 0
+    },
+    {
+      "step_id": 3215183,
+      "module_number": 10,
+      "previous_effective_path": "courses/86957/steps/771129/02_3215183_text.step",
+      "previous_file_sha256": "ab1b70d78bbfdb316badf0ae41baa35e4e0a795aa12e04ba39e349b9f11b1639",
+      "previous_text_sha256": "d8ccd4fab966fef340c9b197cf4485b452b80fac029237d63fbbd3c73bb77854",
+      "reviewed_final_path": "courses/86957/steps/771129/02_3215183_text.step",
+      "reviewed_final_file_sha256": "ab1b70d78bbfdb316badf0ae41baa35e4e0a795aa12e04ba39e349b9f11b1639",
+      "reviewed_final_text_sha256": "d8ccd4fab966fef340c9b197cf4485b452b80fac029237d63fbbd3c73bb77854",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3215192,
+      "module_number": 10,
+      "previous_effective_path": "courses/86957/steps/771129/03_3215192_text.step",
+      "previous_file_sha256": "0eb05ea47aca40c66b4632f1bdd3adfc6a1812f1575a5a57e3e7c69f94285d9d",
+      "previous_text_sha256": "41f207c4131046af423c2a5e7a5904794f74d8374bb383f3415286aa6052ef4d",
+      "reviewed_final_path": "courses/86957/steps/771129/03_3215192_text.step",
+      "reviewed_final_file_sha256": "0eb05ea47aca40c66b4632f1bdd3adfc6a1812f1575a5a57e3e7c69f94285d9d",
+      "reviewed_final_text_sha256": "41f207c4131046af423c2a5e7a5904794f74d8374bb383f3415286aa6052ef4d",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3215191,
+      "module_number": 10,
+      "previous_effective_path": "courses/86957/steps/771129/04_3215191_text.step",
+      "previous_file_sha256": "f66d433d86253eead84a3210e6d1e403729576aec37e012b3164d4c3e2bef508",
+      "previous_text_sha256": "c6fd17a13d71d0d7d2a8117e8e7505a674b7c3c641e0ec8b693f6f4b098d9e89",
+      "reviewed_final_path": "courses/86957/steps/771129/04_3215191_text.step",
+      "reviewed_final_file_sha256": "f66d433d86253eead84a3210e6d1e403729576aec37e012b3164d4c3e2bef508",
+      "reviewed_final_text_sha256": "c6fd17a13d71d0d7d2a8117e8e7505a674b7c3c641e0ec8b693f6f4b098d9e89",
+      "pre_count": 0
+    },
+    {
+      "step_id": 3215112,
+      "module_number": 11,
+      "previous_effective_path": "courses/86957/steps/771130/01_3215112_text.step",
+      "previous_file_sha256": "7352e275877be85d40a90ad8a60f1ccda919008a54379099087aba40cbafd3c4",
+      "previous_text_sha256": "d7c4fe7faf1e4e8a2b43d51ce53bfd91e8151b943923c7cd2d9510fb37c3fcf5",
+      "reviewed_final_path": "courses/86957/steps/771130/01_3215112_text.step",
+      "reviewed_final_file_sha256": "7352e275877be85d40a90ad8a60f1ccda919008a54379099087aba40cbafd3c4",
+      "reviewed_final_text_sha256": "d7c4fe7faf1e4e8a2b43d51ce53bfd91e8151b943923c7cd2d9510fb37c3fcf5",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3215203,
+      "module_number": 11,
+      "previous_effective_path": "courses/86957/steps/771130/02_3215203_text.step",
+      "previous_file_sha256": "f2dd24b146379aa32b40fb94b862f70c343312f9027def1163d2cdf57dcfda75",
+      "previous_text_sha256": "6bd551419c9480657f7a2f2030665c1370d99146ebe9c29d1a23e28b550da800",
+      "reviewed_final_path": "courses/86957/steps/771130/02_3215203_text.step",
+      "reviewed_final_file_sha256": "f2dd24b146379aa32b40fb94b862f70c343312f9027def1163d2cdf57dcfda75",
+      "reviewed_final_text_sha256": "6bd551419c9480657f7a2f2030665c1370d99146ebe9c29d1a23e28b550da800",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3215206,
+      "module_number": 11,
+      "previous_effective_path": "courses/86957/steps/771130/03_3215206_text.step",
+      "previous_file_sha256": "38837de4d0423da2af400a995a1859c7c24e72637a7dc2fcf9df0aa8a6920f49",
+      "previous_text_sha256": "e16e9688ba287dcbaaa3a270f6a43061d83949d2362d74f89ff300fb1cf047d6",
+      "reviewed_final_path": "courses/86957/steps/771130/03_3215206_text.step",
+      "reviewed_final_file_sha256": "38837de4d0423da2af400a995a1859c7c24e72637a7dc2fcf9df0aa8a6920f49",
+      "reviewed_final_text_sha256": "e16e9688ba287dcbaaa3a270f6a43061d83949d2362d74f89ff300fb1cf047d6",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3215113,
+      "module_number": 11,
+      "previous_effective_path": "improvements/86957/theory-links-2026-11-23/steps/771131/01_3215113_text.step",
+      "previous_file_sha256": "d20a78e26c6f3799883565accf379d61061904a12ab1c06bb3721755612b5b43",
+      "previous_text_sha256": "34abed2c50bec5e41dc3c3f753e3bbbb0a1176ef8a7eb9c256698f507ff5bed6",
+      "reviewed_final_path": "improvements/86957/theory-links-2026-11-23/steps/771131/01_3215113_text.step",
+      "reviewed_final_file_sha256": "d20a78e26c6f3799883565accf379d61061904a12ab1c06bb3721755612b5b43",
+      "reviewed_final_text_sha256": "34abed2c50bec5e41dc3c3f753e3bbbb0a1176ef8a7eb9c256698f507ff5bed6",
+      "pre_count": 3
+    },
+    {
+      "step_id": 3215200,
+      "module_number": 11,
+      "previous_effective_path": "courses/86957/steps/771131/02_3215200_text.step",
+      "previous_file_sha256": "1afcc1867ff7023f4e795bd0b619b7f89e0cef35a38a8334959cb5a502c77209",
+      "previous_text_sha256": "2589067d06fcbeaacca19d214d1cc153a03a2cad8a22acbcf725b780bcfc4b12",
+      "reviewed_final_path": "courses/86957/steps/771131/02_3215200_text.step",
+      "reviewed_final_file_sha256": "1afcc1867ff7023f4e795bd0b619b7f89e0cef35a38a8334959cb5a502c77209",
+      "reviewed_final_text_sha256": "2589067d06fcbeaacca19d214d1cc153a03a2cad8a22acbcf725b780bcfc4b12",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3215199,
+      "module_number": 11,
+      "previous_effective_path": "courses/86957/steps/771131/03_3215199_text.step",
+      "previous_file_sha256": "290d6b7b5b60ad511028b9be9a7fd8ab03df4b0344e9158a69621926d7490a67",
+      "previous_text_sha256": "7798bee6f1554ae04c701fa46a2ce65bec352969cfeecce81f82df6ad4e7edf6",
+      "reviewed_final_path": "courses/86957/steps/771131/03_3215199_text.step",
+      "reviewed_final_file_sha256": "290d6b7b5b60ad511028b9be9a7fd8ab03df4b0344e9158a69621926d7490a67",
+      "reviewed_final_text_sha256": "7798bee6f1554ae04c701fa46a2ce65bec352969cfeecce81f82df6ad4e7edf6",
+      "pre_count": 1
+    },
+    {
+      "step_id": 3580923,
+      "module_number": 11,
+      "previous_effective_path": "improvements/86957/theory-links-2026-11-23/steps/771131/04_3580923_text.step",
+      "previous_file_sha256": "844732654f70ebfd7acd27c0397029fadf0985a179cb60c2a498c9ef78234c82",
+      "previous_text_sha256": "cc57016e8f249dcc8897e688eb7d774c7f785675b049b6f6313fbbefa914e0ab",
+      "reviewed_final_path": "improvements/86957/theory-links-2026-11-23/steps/771131/04_3580923_text.step",
+      "reviewed_final_file_sha256": "844732654f70ebfd7acd27c0397029fadf0985a179cb60c2a498c9ef78234c82",
+      "reviewed_final_text_sha256": "cc57016e8f249dcc8897e688eb7d774c7f785675b049b6f6313fbbefa914e0ab",
+      "pre_count": 2
+    }
+  ],
+  "entries": [
+    {
+      "step_id": 3177296,
+      "module_number": 5,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "74835940761a56e877aeb6db62baede0b82e7fec80a76cae682600c9f660e3f2",
+      "raw_pre_sha256": "484d7ea3e1a8a836a851fff6cada4e0f1fc34d377cf71948fcebe4ec70106455",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/preserved_3177296_1.cpp",
+          "sha256": "74835940761a56e877aeb6db62baede0b82e7fec80a76cae682600c9f660e3f2",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t2",
+          "verifier": "improvements/86957/theory-continuation-2026-11-23/examples/t2/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t2.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3212907,
+      "module_number": 5,
+      "pre_index": 1,
+      "kind": "fragment",
+      "language": "cpp",
+      "sha256": "d83b14008d7dcf7d919bbdc4080844aa5b35a1fcaa50a7f842ae586f94bcf5f2",
+      "raw_pre_sha256": "0fa0a73cb40964688ac7fc3b140f066735e98697966610301cfaf783edeec109",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [],
+      "coverage": "Read semantically; no separate compiler/run claim for this fragment."
+    },
+    {
+      "step_id": 3212908,
+      "module_number": 5,
+      "pre_index": 1,
+      "kind": "fragment",
+      "language": "cpp",
+      "sha256": "9ca49f99c862d1a117c2dc6c2a4ca476e3f57427d812fb8cf18c1bf2478180ea",
+      "raw_pre_sha256": "08e1e97e062bf6380e78039043e09487f1e626462e92153b5def81b5f7d48c0f",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [],
+      "coverage": "Read semantically; no separate compiler/run claim for this fragment."
+    },
+    {
+      "step_id": 3212908,
+      "module_number": 5,
+      "pre_index": 2,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "2969020d04f1f6be503dcd71547e1827da51cbe71228194cfa547f8736b851bb",
+      "raw_pre_sha256": "77e6c87dcedb9b4ec8b6d49b4ff23657b065ae97214f3924a212c1abee6987a2",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/preserved_3212908_1.cpp",
+          "sha256": "2969020d04f1f6be503dcd71547e1827da51cbe71228194cfa547f8736b851bb",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t2",
+          "verifier": "improvements/86957/theory-continuation-2026-11-23/examples/t2/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t2.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3212908,
+      "module_number": 5,
+      "pre_index": 3,
+      "kind": "output",
+      "language": null,
+      "sha256": "1e33d9c5aaf4395193af1c8baca03369ea0f25aaf5c768f572fe3c4426324ff9",
+      "raw_pre_sha256": "fcd1bbd069cd2f0b6ccabc69e691e3c6a5bedd415b1cff43b0d5677650bd1287",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [],
+      "coverage": "Expected output, not a compilable program. Relevant program output is covered only by its own binding."
+    },
+    {
+      "step_id": 3212935,
+      "module_number": 5,
+      "pre_index": 1,
+      "kind": "fragment",
+      "language": "cpp",
+      "sha256": "08669f55dc67555a8b3893477d974e872773f52f9ccc26a05df15df6ea1532b0",
+      "raw_pre_sha256": "4112c3e6f67c3dcd175fe6394a30076f10a9f6b3e18910d6e0723c4520967b1a",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [],
+      "coverage": "Read semantically; no separate compiler/run claim for this fragment."
+    },
+    {
+      "step_id": 3212935,
+      "module_number": 5,
+      "pre_index": 2,
+      "kind": "fragment",
+      "language": "cpp",
+      "sha256": "9e01ccacc75f9fc53585bb1beb0e91a0730d9ae284de08cb2ca670a84c2300a1",
+      "raw_pre_sha256": "9d2036f9ad72b681471426fab126c2d686a686898ac6f3be63eb1cf328d41442",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [],
+      "coverage": "Read semantically; no separate compiler/run claim for this fragment."
+    },
+    {
+      "step_id": 3212920,
+      "module_number": 5,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "5461b81d26afff5950f4266a0ffc1fad65455ed77305509c59805d22e370aefd",
+      "raw_pre_sha256": "0119068b60cb445fb0b933eb976a7437a115c348f8f1254846cade0c4b6524bc",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-links-2026-11-23/examples/types/bounds.cpp",
+          "sha256": "5461b81d26afff5950f4266a0ffc1fad65455ed77305509c59805d22e370aefd",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "links_types",
+          "verifier": "improvements/86957/theory-links-2026-11-23/examples/types/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/links_types.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3212920,
+      "module_number": 5,
+      "pre_index": 2,
+      "kind": "fragment",
+      "language": "cpp",
+      "sha256": "68fa2a923fac533a4c8a64ee0ea3c8393c7b17898a408a7c1d17ca5d7fca7653",
+      "raw_pre_sha256": "5406a6403fb94243b24b297dd5c8d91c7b848611da23fbcb264c738bf93c2ad0",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [],
+      "coverage": "Read semantically; no separate compiler/run claim for this fragment."
+    },
+    {
+      "step_id": 3212926,
+      "module_number": 5,
+      "pre_index": 1,
+      "kind": "fragment",
+      "language": "cpp",
+      "sha256": "22d8c50833b0dbc61cd3a91e887a542cfc73776bf17372bdd1aca3aed402f8a6",
+      "raw_pre_sha256": "135f553f62e3a4e4b9762108292a8102938b30518147389e428545f30b851bea",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [],
+      "coverage": "Read semantically; no separate compiler/run claim for this fragment."
+    },
+    {
+      "step_id": 3177298,
+      "module_number": 5,
+      "pre_index": 1,
+      "kind": "fragment",
+      "language": "cpp",
+      "sha256": "6c053f5e1fb32b5c06b13befe02725104da3f4ac089c51ff09ab5573d2b1dd54",
+      "raw_pre_sha256": "66807a8e180d198235279c22c0bc785e2e94d684ab78b0aabe3d73e068550082",
+      "has_main": false,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-final-review-2026-11-23/examples/core/array_variants.cpp",
+          "sha256": "b9a8d2b23e05df6e67425581bee3f609582f3768d2beadb638bf95edb6742910",
+          "match": "exact_fragment_embedded_in_author_wrapper",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "new_core",
+          "verifier": "improvements/86957/theory-final-review-2026-11-23/examples/core/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/new_core.json"
+        }
+      ],
+      "verification_detail": "Compiled in a separate scope; the first array is fully assigned before any read.",
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3177298,
+      "module_number": 5,
+      "pre_index": 2,
+      "kind": "fragment",
+      "language": "cpp",
+      "sha256": "95b4f6b67a3de9470227aa25c5af983fb9e52953f2f7155b06a7f8bd752c353d",
+      "raw_pre_sha256": "f0105aff6a4c72f72010ec98ae4c2525f79a05bf042e9c369dce052652131c0a",
+      "has_main": false,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-final-review-2026-11-23/examples/core/array_variants.cpp",
+          "sha256": "b9a8d2b23e05df6e67425581bee3f609582f3768d2beadb638bf95edb6742910",
+          "match": "exact_fragment_embedded_in_author_wrapper",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "new_core",
+          "verifier": "improvements/86957/theory-final-review-2026-11-23/examples/core/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/new_core.json"
+        }
+      ],
+      "verification_detail": "Compiled in a separate scope; the first array is fully assigned before any read.",
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3212939,
+      "module_number": 5,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "f0250de8109a436b0e5c1787470ff17cf9af661388d11e94df4f54621e3bcf24",
+      "raw_pre_sha256": "d05a991ae9efa5c96e13a419d1566c59a2895bff4c55f78f81a92f1b8d1dc415",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/matrix_iteration.cpp",
+          "sha256": "f0250de8109a436b0e5c1787470ff17cf9af661388d11e94df4f54621e3bcf24",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t2",
+          "verifier": "improvements/86957/theory-continuation-2026-11-23/examples/t2/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t2.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3212939,
+      "module_number": 5,
+      "pre_index": 2,
+      "kind": "fragment",
+      "language": "cpp",
+      "sha256": "9363013b4718e9fa2eabf033f4ddf16e1f7fd4605ac971704e8e96680c4f8655",
+      "raw_pre_sha256": "6794f9e0050c540013ea15dc977454e2233fa9ffd91bfecc87caab91800a9451",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [],
+      "coverage": "Read semantically; no separate compiler/run claim for this fragment."
+    },
+    {
+      "step_id": 3212937,
+      "module_number": 5,
+      "pre_index": 1,
+      "kind": "fragment",
+      "language": "cpp",
+      "sha256": "ffa8940d71c9a64e7a239e055da00525f772e588263a189899b97c2f792c4b91",
+      "raw_pre_sha256": "2e78cc476ca6df94c3223170c84edfe69555dd0bd5e04fd2fa0354f149cdb48a",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [],
+      "coverage": "Read semantically; no separate compiler/run claim for this fragment."
+    },
+    {
+      "step_id": 3212968,
+      "module_number": 6,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "1f15bf7a147aa9d767b301bfd994f962700cfcdd19eb03815f47a36610383fda",
+      "raw_pre_sha256": "68eedf48c70c71f023935a702137b6d4e5a03ca16d8e8f4749bf1b42560139cc",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/pointer_basics.cpp",
+          "sha256": "1f15bf7a147aa9d767b301bfd994f962700cfcdd19eb03815f47a36610383fda",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t2",
+          "verifier": "improvements/86957/theory-continuation-2026-11-23/examples/t2/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t2.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3212969,
+      "module_number": 6,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "872d2c8545c60bc5a132f474acb0e4fae00145b57dc8e8d3476e7c4b2d637388",
+      "raw_pre_sha256": "8984d2d905e87d4a70729abdb5a4e1c2efed404cacaa76ddd2e4c498112a9cdf",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/pointer_aliases.cpp",
+          "sha256": "872d2c8545c60bc5a132f474acb0e4fae00145b57dc8e8d3476e7c4b2d637388",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t2",
+          "verifier": "improvements/86957/theory-continuation-2026-11-23/examples/t2/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t2.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3212970,
+      "module_number": 6,
+      "pre_index": 1,
+      "kind": "fragment",
+      "language": "cpp",
+      "sha256": "8ab174802eae164e72e4f8de54d4adcc7ec3b887e093a231d7119dad0cef95d1",
+      "raw_pre_sha256": "de264d9a43177ddb2e9e95ba33ce984e3ffbe8ae67e965df9cba8dd1ee51fb0b",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [],
+      "coverage": "Read semantically; no separate compiler/run claim for this fragment."
+    },
+    {
+      "step_id": 3212970,
+      "module_number": 6,
+      "pre_index": 2,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "8a182c404a664d4bcf1614e1d95b41ca5bca848f5ed289b7c1e9bc7a38ad17f1",
+      "raw_pre_sha256": "6a6b2428b61336226a90bbf46f98c19f9ac802fd93681d2aaababf944b0c9c00",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/pointer_comparison.cpp",
+          "sha256": "8a182c404a664d4bcf1614e1d95b41ca5bca848f5ed289b7c1e9bc7a38ad17f1",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t2",
+          "verifier": "improvements/86957/theory-continuation-2026-11-23/examples/t2/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t2.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3212970,
+      "module_number": 6,
+      "pre_index": 3,
+      "kind": "fragment",
+      "language": "cpp",
+      "sha256": "050537cb74ca9c160e8f0b3041fd655820d9f69cdf6d6c377f589f6359290fd3",
+      "raw_pre_sha256": "9a7688ab71c970be00c3d91453ef1243dd8bafa908f24959671425b8fc8a9b03",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [],
+      "coverage": "Read semantically; no separate compiler/run claim for this fragment."
+    },
+    {
+      "step_id": 3212990,
+      "module_number": 6,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "0e9f7fd11972ac15a9351a9c004cbe73824c44a59dd8d647f996f0e0c9f19da2",
+      "raw_pre_sha256": "bf737b97044dd4b628893100fe4fa61e5ee1648c29de271acd4c6e4bb3a5a82f",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-final-review-2026-11-23/examples/core/pointer_arithmetic.cpp",
+          "sha256": "0e9f7fd11972ac15a9351a9c004cbe73824c44a59dd8d647f996f0e0c9f19da2",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "new_core",
+          "verifier": "improvements/86957/theory-final-review-2026-11-23/examples/core/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/new_core.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3212990,
+      "module_number": 6,
+      "pre_index": 2,
+      "kind": "fragment",
+      "language": "cpp",
+      "sha256": "5767bb12e57b091d7811c26b66f9fab112ff64bcab95c0b100a8f9484c2fa8e8",
+      "raw_pre_sha256": "55ae6edc259a3511e281dcec3749ea8d99e56638493cd79f0d036a981f7f2036",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [],
+      "coverage": "Read semantically; no separate compiler/run claim for this fragment."
+    },
+    {
+      "step_id": 3212990,
+      "module_number": 6,
+      "pre_index": 3,
+      "kind": "fragment",
+      "language": "cpp",
+      "sha256": "240d3c86e3083fafc10b2d3565de59e1b30248392bd760fe7b268c3dd2a99bbe",
+      "raw_pre_sha256": "0a1c2862b582ab1322dd279698cf280759fb664c9b61ef48ae563ebd184ff455",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [],
+      "coverage": "Read semantically; no separate compiler/run claim for this fragment."
+    },
+    {
+      "step_id": 3212990,
+      "module_number": 6,
+      "pre_index": 4,
+      "kind": "fragment",
+      "language": "cpp",
+      "sha256": "ac81be8e4067a9cb304c51749e52b91bb87631195f8e83956e9d7134e2b9e9dc",
+      "raw_pre_sha256": "d566a96118a16160d5869763db48e67797539ef06af1e561ddf249fc454dff39",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [],
+      "coverage": "Read semantically; no separate compiler/run claim for this fragment."
+    },
+    {
+      "step_id": 3212989,
+      "module_number": 6,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "9eead12f5f60e35756bbdf29b49e70f85848d677dac6603a67af8a9b36824dba",
+      "raw_pre_sha256": "42cf758b17ad52056c63254c27e2c94f91938ceef119fd14fc95944e0dee497b",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-final-review-2026-11-23/examples/core/pointer_to_const.cpp",
+          "sha256": "9eead12f5f60e35756bbdf29b49e70f85848d677dac6603a67af8a9b36824dba",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "new_core",
+          "verifier": "improvements/86957/theory-final-review-2026-11-23/examples/core/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/new_core.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3212989,
+      "module_number": 6,
+      "pre_index": 2,
+      "kind": "expected_failure",
+      "language": "cpp",
+      "sha256": "2fa9ee7a6aad4edd918b0b04d10a8ba9afe23f95434b6d4f060aa2a753582f61",
+      "raw_pre_sha256": "de16a57dab74a192c5872c1468d77db700a0f91dbe6bb02b1d1c54532c7ce202",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [
+        {
+          "suite": "new_core",
+          "verifier": "improvements/86957/theory-final-review-2026-11-23/examples/core/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/new_core.json"
+        }
+      ],
+      "verification_detail": "The exact decoded fragment is inserted in an author wrapper and rejected in C++17 and C++20.",
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3212989,
+      "module_number": 6,
+      "pre_index": 3,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "40926906ecc88c69774c6b121c5387326024d061f47a30b6e434d2fc75b1afd0",
+      "raw_pre_sha256": "ad3efe02df9ab21c707ed43553c6ff1d5402378a3d4318f93724403db800c184",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-final-review-2026-11-23/examples/core/const_view.cpp",
+          "sha256": "40926906ecc88c69774c6b121c5387326024d061f47a30b6e434d2fc75b1afd0",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "new_core",
+          "verifier": "improvements/86957/theory-final-review-2026-11-23/examples/core/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/new_core.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3212989,
+      "module_number": 6,
+      "pre_index": 4,
+      "kind": "fragment",
+      "language": "cpp",
+      "sha256": "10a570dc5853255b87bed05fb353a79569ef87ce348d7c2ca974aeacfc979b99",
+      "raw_pre_sha256": "c728fab47d10ef8c648a8f6e32064eddfcdc4a4d03f944cc8d17858c51055918",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [],
+      "coverage": "Read semantically; no separate compiler/run claim for this fragment."
+    },
+    {
+      "step_id": 3212989,
+      "module_number": 6,
+      "pre_index": 5,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "aa3e20166508ce414a31a8cfa299cd128828a37b0ff8beff4046231bb3f46038",
+      "raw_pre_sha256": "e60b4cac79105cfbed6d1ac07fe6510646ab0fe320b310770764c4a198e03742",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-final-review-2026-11-23/examples/core/const_pointer.cpp",
+          "sha256": "aa3e20166508ce414a31a8cfa299cd128828a37b0ff8beff4046231bb3f46038",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "new_core",
+          "verifier": "improvements/86957/theory-final-review-2026-11-23/examples/core/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/new_core.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3212989,
+      "module_number": 6,
+      "pre_index": 6,
+      "kind": "fragment",
+      "language": "cpp",
+      "sha256": "49de19eb0debe55f77086bc392f6fcc1a28f26ba65a1edb6da5d653028ea6948",
+      "raw_pre_sha256": "af74a31df9c52707b835f9b882bb32bdfad948ddbbcdc5105526cd5ddb108b9a",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [],
+      "coverage": "Read semantically; no separate compiler/run claim for this fragment."
+    },
+    {
+      "step_id": 3212991,
+      "module_number": 6,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "3c256e5ebfbca783482c4eea3665c5d9cdc691786d6776b37212499cf6011c51",
+      "raw_pre_sha256": "ddb18daf7a1efe455fa28e7a3632df962ab57f8ee372bbd4531bd28a4f0b70fc",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/pointer_to_pointer.cpp",
+          "sha256": "3c256e5ebfbca783482c4eea3665c5d9cdc691786d6776b37212499cf6011c51",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t2",
+          "verifier": "improvements/86957/theory-continuation-2026-11-23/examples/t2/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t2.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3212945,
+      "module_number": 6,
+      "pre_index": 1,
+      "kind": "fragment",
+      "language": "cpp",
+      "sha256": "d15ad2ab887b31f8c07295d4fa6ad8fe8b2c3eed4a06c14fa0c5974ca2890a35",
+      "raw_pre_sha256": "78d9c6902b43a5cd2c5070d354aa55e1a4b39375b2aa4d7a8da1516056fa521f",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [],
+      "coverage": "Read semantically; no separate compiler/run claim for this fragment."
+    },
+    {
+      "step_id": 3212995,
+      "module_number": 6,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "b42fcef1f8d46d7a4198a7c8c9fb621adda6ca75643def2521405521273d4d68",
+      "raw_pre_sha256": "bf5a0c8fa009711d26a99d9f972848a9c5dc5a3a616a573a3a6f98b726d0d369",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/array_decay.cpp",
+          "sha256": "b42fcef1f8d46d7a4198a7c8c9fb621adda6ca75643def2521405521273d4d68",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t2",
+          "verifier": "improvements/86957/theory-continuation-2026-11-23/examples/t2/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t2.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3213003,
+      "module_number": 6,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "3cc9e3505c36b59ffb3e7ca29ff6d3c0883299f2792fac17aca3d67a44b42359",
+      "raw_pre_sha256": "09bba012be1fdd826214a93df4409e645606c5ea44de0b1b7edc7fe493c0b547",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/row_pointer.cpp",
+          "sha256": "3cc9e3505c36b59ffb3e7ca29ff6d3c0883299f2792fac17aca3d67a44b42359",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t2",
+          "verifier": "improvements/86957/theory-continuation-2026-11-23/examples/t2/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t2.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3213003,
+      "module_number": 6,
+      "pre_index": 2,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "b36c728a920ec243830f5a79a55080a7c762be4dd8746c1354e3dcf66cd2a90a",
+      "raw_pre_sha256": "1d02f3775a809e5f1dc89ea70fdddb15d419dd493d7e0776667bf36f0623836e",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/pointer_contract.cpp",
+          "sha256": "b36c728a920ec243830f5a79a55080a7c762be4dd8746c1354e3dcf66cd2a90a",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t2",
+          "verifier": "improvements/86957/theory-continuation-2026-11-23/examples/t2/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t2.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3213004,
+      "module_number": 6,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "6b20fbd6dcff4afcee3d682831deb5e7c51bd3448d7172b09c3dae41ba4273ee",
+      "raw_pre_sha256": "ebd201534c83e78ce2df1c9b9f7f4c3a7576474b93b700bb1a73bb198353ab7d",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/character_pointer.cpp",
+          "sha256": "6b20fbd6dcff4afcee3d682831deb5e7c51bd3448d7172b09c3dae41ba4273ee",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t2",
+          "verifier": "improvements/86957/theory-continuation-2026-11-23/examples/t2/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t2.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3438841,
+      "module_number": 6,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "e5b16eddf53a0793cd47d7e4c4549d7e5f8173eda0b9c979ec92a0fe8ee13201",
+      "raw_pre_sha256": "98cfdd6b9a7a7213f435f217a3017761c77ee00a132f1408c0160042796f5401",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/storage_scope.cpp",
+          "sha256": "e5b16eddf53a0793cd47d7e4c4549d7e5f8173eda0b9c979ec92a0fe8ee13201",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t2",
+          "verifier": "improvements/86957/theory-continuation-2026-11-23/examples/t2/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t2.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3212946,
+      "module_number": 6,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "103fbea7fcf39aad9cd0778e1d6e25f723961d9ca17ee43da42b857bc564dac3",
+      "raw_pre_sha256": "e88d1498121b4672da83e11c8a06c02017d4d62f6950ef178718e3ca80be27fc",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/preserved_3212946_1.cpp",
+          "sha256": "103fbea7fcf39aad9cd0778e1d6e25f723961d9ca17ee43da42b857bc564dac3",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t2",
+          "verifier": "improvements/86957/theory-continuation-2026-11-23/examples/t2/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t2.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3212946,
+      "module_number": 6,
+      "pre_index": 2,
+      "kind": "fragment",
+      "language": "cpp",
+      "sha256": "39fb0168fdc4e89f9576064ba0f8a4d6dbc3441da74919525a8b57ba5a05f512",
+      "raw_pre_sha256": "dfe470512322280eabc999e151a5700b25a9ec7bd7375d1b74ab33579254f5d2",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [],
+      "coverage": "Read semantically; no separate compiler/run claim for this fragment."
+    },
+    {
+      "step_id": 3212946,
+      "module_number": 6,
+      "pre_index": 3,
+      "kind": "fragment",
+      "language": "cpp",
+      "sha256": "f11fb87ccbce4e3c1df81eb6496682a81ece0512eb8a19d0a5fb13cdb214b297",
+      "raw_pre_sha256": "efe8ad23f04b12f2cae03bea0c42d393a39237b0319c9920da5f7de9a2fd90c7",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [],
+      "coverage": "Read semantically; no separate compiler/run claim for this fragment."
+    },
+    {
+      "step_id": 3213209,
+      "module_number": 6,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "98b4a8a7c4c1b5a50fe595e07900e26e6aba8e270a66faa3bc9fdf76af9b7220",
+      "raw_pre_sha256": "eba3131fcb4da17cad409f279fdb6c09b559706c4853f8a04aaf9f3b76341ce4",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/preserved_3213209_1.cpp",
+          "sha256": "98b4a8a7c4c1b5a50fe595e07900e26e6aba8e270a66faa3bc9fdf76af9b7220",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t2",
+          "verifier": "improvements/86957/theory-continuation-2026-11-23/examples/t2/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t2.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3213209,
+      "module_number": 6,
+      "pre_index": 2,
+      "kind": "output",
+      "language": null,
+      "sha256": "6883e723061b3b15bf2861a00ff6d53ae5ab723e630435e2cd544ac5563ea02d",
+      "raw_pre_sha256": "6584fbbf60c4ff7ffff92dc51a8c3ccdf4f5186a3c8ebc396d4ca5f8a4740a15",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [],
+      "coverage": "Expected output, not a compilable program. Relevant program output is covered only by its own binding."
+    },
+    {
+      "step_id": 3213209,
+      "module_number": 6,
+      "pre_index": 3,
+      "kind": "fragment",
+      "language": "cpp",
+      "sha256": "efce3eeda0bc759d69771d259690188c36fec640fd628a3612909b9a35a76467",
+      "raw_pre_sha256": "00109ca92841fc4834827ec1759e806583d1c6b6ea5d5621651ae83a1c9559fe",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [],
+      "coverage": "Read semantically; no separate compiler/run claim for this fragment."
+    },
+    {
+      "step_id": 3213209,
+      "module_number": 6,
+      "pre_index": 4,
+      "kind": "fragment",
+      "language": "cpp",
+      "sha256": "66b6fc66971a3185edbbc53a71e8f31a6e9ec91fade99016c397676888a66716",
+      "raw_pre_sha256": "0d462b33def1fa3e168cae467d36f3052ad7bd8de3100fd7da2ea73861cab01b",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [],
+      "coverage": "Read semantically; no separate compiler/run claim for this fragment."
+    },
+    {
+      "step_id": 3213208,
+      "module_number": 6,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "c",
+      "sha256": "d4ab1e7a7e8f7e1cb953f6d1bca01ef3b4bdfc682b243c81dc13dfa51c4e0b17",
+      "raw_pre_sha256": "0d2602fc6ebdfdb11a7d740019a9b6c46c941c8ef932cdd7f43f50683cc1b41d",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/c_malloc.c",
+          "sha256": "d4ab1e7a7e8f7e1cb953f6d1bca01ef3b4bdfc682b243c81dc13dfa51c4e0b17",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t2",
+          "verifier": "improvements/86957/theory-continuation-2026-11-23/examples/t2/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t2.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3213207,
+      "module_number": 6,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "c",
+      "sha256": "c2543835685468592dc25a5db030040e9ccc524b0db7e0c72529c7a19a9d8492",
+      "raw_pre_sha256": "c72458f886c2724ed83f4395081fbf1deea57f1901ba123f667ea3c46ff3109d",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/c_realloc.c",
+          "sha256": "c2543835685468592dc25a5db030040e9ccc524b0db7e0c72529c7a19a9d8492",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t2",
+          "verifier": "improvements/86957/theory-continuation-2026-11-23/examples/t2/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t2.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3307684,
+      "module_number": 6,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "1413117f4f8ca60ab7b2b7c663051418c462f0556712b1dc07e69ee390bab4fd",
+      "raw_pre_sha256": "f46fae0404dfb2cb7c40028dff830b7b6288c5a927ed684bf3f40a893629a14a",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/preserved_3307684_1.cpp",
+          "sha256": "1413117f4f8ca60ab7b2b7c663051418c462f0556712b1dc07e69ee390bab4fd",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t2",
+          "verifier": "improvements/86957/theory-continuation-2026-11-23/examples/t2/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t2.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3307684,
+      "module_number": 6,
+      "pre_index": 2,
+      "kind": "output",
+      "language": null,
+      "sha256": "886fdeb42b5bea3cc35bdd2074225b2c6a7b193f10a3b5d2cf7e6cf371842c39",
+      "raw_pre_sha256": "79d8bbcea311b4db41a3101c98e3e9141a3af8b4836c30f376d10ef5023fb769",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [],
+      "coverage": "Expected output, not a compilable program. Relevant program output is covered only by its own binding."
+    },
+    {
+      "step_id": 3212949,
+      "module_number": 7,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "379963377d5700441027600b3a33a4233d57af245178cc1798fc77d9f3cf38c4",
+      "raw_pre_sha256": "289a5012dc1bc2735c8195f2b5ac46ec4086b396e956264b71fbbe0e7af1925a",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-2026-11-23/examples/t3/functions/sum_contract.cpp",
+          "sha256": "379963377d5700441027600b3a33a4233d57af245178cc1798fc77d9f3cf38c4",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t3",
+          "verifier": "improvements/86957/theory-2026-11-23/examples/t3/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t3.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3214909,
+      "module_number": 7,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "1ff78aaf6d6e627b6cccea3c0b64d0589c9b55b968d4c0ff9c0c32079616e2a8",
+      "raw_pre_sha256": "b0211aa807290bdd7870427c871cdc3169ee9a6914cf02b23be7e017fb4049d2",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-2026-11-23/examples/t3/functions/declaration.cpp",
+          "sha256": "1ff78aaf6d6e627b6cccea3c0b64d0589c9b55b968d4c0ff9c0c32079616e2a8",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t3",
+          "verifier": "improvements/86957/theory-2026-11-23/examples/t3/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t3.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3214910,
+      "module_number": 7,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "56cc01928ab248a82ac4b820b2cf4de3dd162af6f78f1fdd58f34b00d3ac08a8",
+      "raw_pre_sha256": "4dff453e40f0d112313f2822c7938b94509f13b0dc8da309770b31a026eae04e",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-2026-11-23/examples/t3/functions/constexpr_power.cpp",
+          "sha256": "56cc01928ab248a82ac4b820b2cf4de3dd162af6f78f1fdd58f34b00d3ac08a8",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t3",
+          "verifier": "improvements/86957/theory-2026-11-23/examples/t3/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t3.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3214911,
+      "module_number": 7,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "cd857af03a31caf428ad617cee8b1ba72849e39a89fcff9b059f6b2b9d631518",
+      "raw_pre_sha256": "ec6e3dd28a4f2c80c66f3aea5215ae237c073c03d3f76a28304aab8e898365ec",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-2026-11-23/examples/t3/functions/return_value.cpp",
+          "sha256": "cd857af03a31caf428ad617cee8b1ba72849e39a89fcff9b059f6b2b9d631518",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t3",
+          "verifier": "improvements/86957/theory-2026-11-23/examples/t3/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t3.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3212950,
+      "module_number": 7,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "90afa5b3f8bcf6f3b91049093ef2ee27e6f72dfa69add12c088959a6d0337733",
+      "raw_pre_sha256": "db6980a3342e769ff8e67e06e885892c15050435b029afbc6631a42e67918ef7",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-2026-11-23/examples/t3/functions/decomposition.cpp",
+          "sha256": "90afa5b3f8bcf6f3b91049093ef2ee27e6f72dfa69add12c088959a6d0337733",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t3",
+          "verifier": "improvements/86957/theory-2026-11-23/examples/t3/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t3.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3214973,
+      "module_number": 7,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "2fe710fe8910f30747ff1c7ba2a0f3046c298ec333e90389c1a2af87ef4c071c",
+      "raw_pre_sha256": "0ca0b6aec0b98da89cf4867663178e46e1a8732f813cd35744cb4459be313f6f",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-2026-11-23/examples/t3/functions/parameters_scope.cpp",
+          "sha256": "2fe710fe8910f30747ff1c7ba2a0f3046c298ec333e90389c1a2af87ef4c071c",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t3",
+          "verifier": "improvements/86957/theory-2026-11-23/examples/t3/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t3.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3214972,
+      "module_number": 7,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "d544919a779abae6550b8b64efb12d543f02c511e0e16d7763bddf8a35fceb78",
+      "raw_pre_sha256": "3600736844741b738850f36c567f4c46f21f055d83fe4b27af34647df91316cf",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-2026-11-23/examples/t3/functions/default_arguments.cpp",
+          "sha256": "d544919a779abae6550b8b64efb12d543f02c511e0e16d7763bddf8a35fceb78",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t3",
+          "verifier": "improvements/86957/theory-2026-11-23/examples/t3/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t3.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3214971,
+      "module_number": 7,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "946022df606198ae43588bc49b0d55449fc56c8e3cfe1577eeaf0bff2fbfa926",
+      "raw_pre_sha256": "12fad0591de37bfbf3b0dbefbb123d5acbe6d4821bfb2e2e64ea496be499b581",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-2026-11-23/examples/t3/functions/value_reference.cpp",
+          "sha256": "946022df606198ae43588bc49b0d55449fc56c8e3cfe1577eeaf0bff2fbfa926",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t3",
+          "verifier": "improvements/86957/theory-2026-11-23/examples/t3/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t3.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3214971,
+      "module_number": 7,
+      "pre_index": 2,
+      "kind": "output",
+      "language": null,
+      "sha256": "8fb81e643b4b923700d11e6bbbb608887153dee0cb488fe61293ed32cad7aef3",
+      "raw_pre_sha256": "49088315fd64ac8a7a0456047a3eff96bf00df19a682bc125a7a200ec6a53e23",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [],
+      "coverage": "Expected output, not a compilable program. Relevant program output is covered only by its own binding."
+    },
+    {
+      "step_id": 3214974,
+      "module_number": 7,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "43674b39783285700b575a2852402317d4a68dc9fbe2d58f235233ba9ebcebd3",
+      "raw_pre_sha256": "2b9890db66a8c4822699ca70bd732c32c09e7f41270f20d0e65570e5e1676075",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-2026-11-23/examples/t3/functions/const_reference.cpp",
+          "sha256": "43674b39783285700b575a2852402317d4a68dc9fbe2d58f235233ba9ebcebd3",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t3",
+          "verifier": "improvements/86957/theory-2026-11-23/examples/t3/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t3.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3214974,
+      "module_number": 7,
+      "pre_index": 2,
+      "kind": "fragment",
+      "language": "cpp",
+      "sha256": "61f78d406e8ac31dd6a713c59fb9f37f3dc5f8b4cdb151cda1de068c065ac2af",
+      "raw_pre_sha256": "eee62ec1c74ca6015586c672330ee4d8006c7a50e219eb310d1d61bc3dd3631f",
+      "has_main": false,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-links-2026-11-23/examples/types/auto_aliases.inc",
+          "sha256": "61f78d406e8ac31dd6a713c59fb9f37f3dc5f8b4cdb151cda1de068c065ac2af",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "links_types",
+          "verifier": "improvements/86957/theory-links-2026-11-23/examples/types/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/links_types.json"
+        }
+      ],
+      "verification_detail": "Exact auto_aliases.inc is embedded in semantic_checks.cpp and type/value checks; two writes through const references are rejected.",
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3215024,
+      "module_number": 7,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "d56db11e57fcad734af291533b92ef33ca18aef8fed3a33f4e3559034428ceb2",
+      "raw_pre_sha256": "02da908c4c44017e3cf5abd4150cef0feda5df55936d76ebc9e4e3138256a4d2",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-2026-11-23/examples/t3/functions/array_parameter.cpp",
+          "sha256": "d56db11e57fcad734af291533b92ef33ca18aef8fed3a33f4e3559034428ceb2",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t3",
+          "verifier": "improvements/86957/theory-2026-11-23/examples/t3/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t3.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3215024,
+      "module_number": 7,
+      "pre_index": 2,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "e3e71f5b1d8627ec3a4c200caaaeb633ff17147d56f41638223048faa19988d4",
+      "raw_pre_sha256": "0251a5422ea57fa7484ced90eae3df4a4dd74229f6b485a9fbc14b44a7265ba1",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-2026-11-23/examples/t3/functions/matrix_parameter.cpp",
+          "sha256": "e3e71f5b1d8627ec3a4c200caaaeb633ff17147d56f41638223048faa19988d4",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t3",
+          "verifier": "improvements/86957/theory-2026-11-23/examples/t3/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t3.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3214978,
+      "module_number": 7,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "6f0fd48186bd2d2e4ab7ab8c3b77fbdc4f4733e8138a5800df4470581f65d62b",
+      "raw_pre_sha256": "d0a5ef0d132608f7111a176b9929db3c2e9ed5c4dfa1e3bc8ec6cc51355ee9fb",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-2026-11-23/examples/t3/functions/recursion.cpp",
+          "sha256": "6f0fd48186bd2d2e4ab7ab8c3b77fbdc4f4733e8138a5800df4470581f65d62b",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t3",
+          "verifier": "improvements/86957/theory-2026-11-23/examples/t3/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t3.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3214992,
+      "module_number": 7,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "5b1ffce13ecbe06352d250346d80e5ac4d3380a9965510e37934afd662d5215d",
+      "raw_pre_sha256": "2d7a537f46e9ccc26c9fc58585bd2c2e2091e6056f987ae966f4331ce83d6db8",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-2026-11-23/examples/t3/functions/storage_duration.cpp",
+          "sha256": "5b1ffce13ecbe06352d250346d80e5ac4d3380a9965510e37934afd662d5215d",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t3",
+          "verifier": "improvements/86957/theory-2026-11-23/examples/t3/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t3.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3214992,
+      "module_number": 7,
+      "pre_index": 2,
+      "kind": "output",
+      "language": null,
+      "sha256": "3761ae4041a7218262043482b5f43a0029586868eab17a677e4482afca99aa11",
+      "raw_pre_sha256": "ddae82745b35057abeba55f5271ff2be9917e43591886effd266e0853c7bb2a9",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [],
+      "coverage": "Expected output, not a compilable program. Relevant program output is covered only by its own binding."
+    },
+    {
+      "step_id": 3212951,
+      "module_number": 7,
+      "pre_index": 1,
+      "kind": "multi_file_component",
+      "language": "cpp",
+      "sha256": "5536cd4eb85ec09ba265039bce092ee5c927c937c90dc2a48aea048128a9a54e",
+      "raw_pre_sha256": "41034794fe8eb2ee1bbb699d1f35e3bede918895f506196a38ea00042039fc7c",
+      "has_main": false,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-2026-11-23/examples/t3/factorial/factorial.hpp",
+          "sha256": "5536cd4eb85ec09ba265039bce092ee5c927c937c90dc2a48aea048128a9a54e",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t3",
+          "verifier": "improvements/86957/theory-2026-11-23/examples/t3/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t3.json"
+        }
+      ],
+      "component": "factorial/header",
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3212951,
+      "module_number": 7,
+      "pre_index": 2,
+      "kind": "multi_file_component",
+      "language": "cpp",
+      "sha256": "12e6ee7596a8510940b31998a3cfddfd231e7c3b0946fcdb279d3d9f5f851c80",
+      "raw_pre_sha256": "fe6c2cc6c22211e87ab25f80b39907c330cb4053d1fdf7789e378eb2c093eda3",
+      "has_main": false,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-2026-11-23/examples/t3/factorial/factorial.cpp",
+          "sha256": "12e6ee7596a8510940b31998a3cfddfd231e7c3b0946fcdb279d3d9f5f851c80",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t3",
+          "verifier": "improvements/86957/theory-2026-11-23/examples/t3/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t3.json"
+        }
+      ],
+      "component": "factorial/implementation",
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3212951,
+      "module_number": 7,
+      "pre_index": 3,
+      "kind": "multi_file_component",
+      "language": "cpp",
+      "sha256": "28e9c3924a650f0ae9fe546091f8aa4bdef9711b843a4c845e9546b6da0dc9b6",
+      "raw_pre_sha256": "1db8789ea953fc5fea3d1e2b2be8ec7e6b78a3460e5ff2de675131f399d1c218",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-2026-11-23/examples/t3/factorial/main.cpp",
+          "sha256": "28e9c3924a650f0ae9fe546091f8aa4bdef9711b843a4c845e9546b6da0dc9b6",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t3",
+          "verifier": "improvements/86957/theory-2026-11-23/examples/t3/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t3.json"
+        }
+      ],
+      "component": "factorial/application_main",
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3212951,
+      "module_number": 7,
+      "pre_index": 4,
+      "kind": "command",
+      "language": "bash",
+      "sha256": "54035c1f6aad6979f7eca4790dbe6883fcb89bfaed8979d00f2e16e066f6adbe",
+      "raw_pre_sha256": "72dc8d2259bc1ec736793fa07184fd6ec38ca7f76863d23a620ae33213a17fbf",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [],
+      "coverage": "Read for consistency; this command block is not claimed to have been executed literally."
+    },
+    {
+      "step_id": 3214991,
+      "module_number": 7,
+      "pre_index": 1,
+      "kind": "multi_file_component",
+      "language": "cpp",
+      "sha256": "6ce89baa3601b4d979adfda0383a6bd907195f3fa7ee7e3aa126f5a8873376e4",
+      "raw_pre_sha256": "c422f81ab168bb5e3d4226fdace810ce8c62fc79547ded9a9d3457c0c3fe2bfa",
+      "has_main": false,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-2026-11-23/examples/t3/objects/objects.hpp",
+          "sha256": "6ce89baa3601b4d979adfda0383a6bd907195f3fa7ee7e3aa126f5a8873376e4",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t3",
+          "verifier": "improvements/86957/theory-2026-11-23/examples/t3/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t3.json"
+        }
+      ],
+      "component": "objects/header",
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3214991,
+      "module_number": 7,
+      "pre_index": 2,
+      "kind": "multi_file_component",
+      "language": "cpp",
+      "sha256": "1e42040337241c96aa0fe964d61caf0574251cfda3596896d23bf5f7e66b6f92",
+      "raw_pre_sha256": "e34618150f69515a733c2eda4662a22fc1d2965e671a3fb70a11be9b017d7c27",
+      "has_main": false,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-2026-11-23/examples/t3/objects/objects.cpp",
+          "sha256": "1e42040337241c96aa0fe964d61caf0574251cfda3596896d23bf5f7e66b6f92",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t3",
+          "verifier": "improvements/86957/theory-2026-11-23/examples/t3/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t3.json"
+        }
+      ],
+      "component": "objects/definitions",
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3214991,
+      "module_number": 7,
+      "pre_index": 3,
+      "kind": "multi_file_component",
+      "language": "cpp",
+      "sha256": "b333c2bbfe6669627e2874cc2a64ca09dae830e8ace52907613a1244e2b7c34d",
+      "raw_pre_sha256": "2b9a4f9f88cfbdf9b85e92d48f9c5148982eb25c02eb1b7d51bdfa269378b877",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-2026-11-23/examples/t3/objects/main.cpp",
+          "sha256": "b333c2bbfe6669627e2874cc2a64ca09dae830e8ace52907613a1244e2b7c34d",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t3",
+          "verifier": "improvements/86957/theory-2026-11-23/examples/t3/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t3.json"
+        }
+      ],
+      "component": "objects/application_main",
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3215032,
+      "module_number": 7,
+      "pre_index": 1,
+      "kind": "build_configuration",
+      "language": "cmake",
+      "sha256": "9abda4107d2fd39a07ad7082a56c72288d523c24d0ed2c97da39e862a381faf3",
+      "raw_pre_sha256": "cd27810c8bf3cdff2c5ab3a17964e954d29d98a3ffdcdc187b2240cd0ab4ce1b",
+      "has_main": false,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-2026-11-23/examples/t3/factorial/CMakeLists.txt",
+          "sha256": "9abda4107d2fd39a07ad7082a56c72288d523c24d0ed2c97da39e862a381faf3",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t3",
+          "verifier": "improvements/86957/theory-2026-11-23/examples/t3/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t3.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3215032,
+      "module_number": 7,
+      "pre_index": 2,
+      "kind": "command",
+      "language": "text",
+      "sha256": "a49654070fc04a12c27d13b1de5c41da9476b94563ae2235efeba71d466e2e5a",
+      "raw_pre_sha256": "cf1c5bb3e21d72d6259caeff17a3be01f10bd3762502d9d0445f53e3de6584ad",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [],
+      "coverage": "Read for consistency; this command block is not claimed to have been executed literally."
+    },
+    {
+      "step_id": 3215032,
+      "module_number": 7,
+      "pre_index": 3,
+      "kind": "command",
+      "language": "bash",
+      "sha256": "d8a7ce4e88dac2baeb06f145013b260c32622f712eae6e9c8924349b2ed8a528",
+      "raw_pre_sha256": "6b38c560c3d6ab2c29f3daced2d6ad738ac8b2916dc72d37c4bbc2e605332eb5",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [],
+      "coverage": "Read for consistency; this command block is not claimed to have been executed literally."
+    },
+    {
+      "step_id": 3215045,
+      "module_number": 7,
+      "pre_index": 1,
+      "kind": "command",
+      "language": "text",
+      "sha256": "1003bc2666dc0184caa7e2a7ba2b44b67cfcd00e24710fe64b7eaf8cc1905fc9",
+      "raw_pre_sha256": "d19f514c69871dfafcea4250027098454f2cf3d5a7319c31945e1aa0ef2113b0",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [],
+      "coverage": "Read for consistency; this command block is not claimed to have been executed literally."
+    },
+    {
+      "step_id": 3252940,
+      "module_number": 8,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "281cef2c9d11cf6427d38ad32867f8db3e2601ff7f61d3a8017adbfeb3d79ab9",
+      "raw_pre_sha256": "99e47106a265bbb8c9fbd054fa847deb0d0d7c931170ebc36ff5a230434c2c05",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-2026-11-23/examples/t3/out_of_range.cpp",
+          "sha256": "281cef2c9d11cf6427d38ad32867f8db3e2601ff7f61d3a8017adbfeb3d79ab9",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t3",
+          "verifier": "improvements/86957/theory-2026-11-23/examples/t3/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t3.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3253129,
+      "module_number": 8,
+      "pre_index": 1,
+      "kind": "fragment",
+      "language": "cpp",
+      "sha256": "b666a5a2a1964980232295fed513715222826df73d006a5b003da7c7234c080a",
+      "raw_pre_sha256": "df7bc8c7b5c80512897c10aa2101d6395918cec6b52f72f65e54e34467ba0916",
+      "has_main": false,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-2026-11-23/examples/t3/enumeration.cpp",
+          "sha256": "b666a5a2a1964980232295fed513715222826df73d006a5b003da7c7234c080a",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t3",
+          "verifier": "improvements/86957/theory-2026-11-23/examples/t3/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t3.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3253429,
+      "module_number": 8,
+      "pre_index": 1,
+      "kind": "multi_file_component",
+      "language": "cpp",
+      "sha256": "1e9bb2d5ab259b8200c16078809f688747753b758472be1bc062d1ab59bd9ca7",
+      "raw_pre_sha256": "fb95b670d29db34069b4c01f6983ca47367813722a89bde17cd4df4d3cb4784c",
+      "has_main": false,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-2026-11-23/examples/t3/gtest/interesting.hpp",
+          "sha256": "1e9bb2d5ab259b8200c16078809f688747753b758472be1bc062d1ab59bd9ca7",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        },
+        {
+          "path": "improvements/86957/theory-2026-11-23/examples/t3/interesting/interesting.hpp",
+          "sha256": "1e9bb2d5ab259b8200c16078809f688747753b758472be1bc062d1ab59bd9ca7",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t3",
+          "verifier": "improvements/86957/theory-2026-11-23/examples/t3/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t3.json"
+        }
+      ],
+      "component": "interesting/header",
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3253429,
+      "module_number": 8,
+      "pre_index": 2,
+      "kind": "multi_file_component",
+      "language": "cpp",
+      "sha256": "7c25e756afc134ec4d05203f9adf9d0a85260890279634b864b603d1765d79c2",
+      "raw_pre_sha256": "5f19cc7381d8313e6cdeddc7f975628dcaa7c74886a49b27532e018925591168",
+      "has_main": false,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-2026-11-23/examples/t3/gtest/interesting.cpp",
+          "sha256": "7c25e756afc134ec4d05203f9adf9d0a85260890279634b864b603d1765d79c2",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        },
+        {
+          "path": "improvements/86957/theory-2026-11-23/examples/t3/interesting/interesting.cpp",
+          "sha256": "7c25e756afc134ec4d05203f9adf9d0a85260890279634b864b603d1765d79c2",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t3",
+          "verifier": "improvements/86957/theory-2026-11-23/examples/t3/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t3.json"
+        }
+      ],
+      "component": "interesting/implementation",
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3253429,
+      "module_number": 8,
+      "pre_index": 3,
+      "kind": "multi_file_component",
+      "language": "cpp",
+      "sha256": "ae6a70feca906589df046cb808661b4420806ff3cd953c7ea17430e8aa4f1cef",
+      "raw_pre_sha256": "73cffdd5ef8871c934fc4fcea06fb4ed0b4cd617ef20159d96b54562729c6794",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-2026-11-23/examples/t3/interesting/main.cpp",
+          "sha256": "ae6a70feca906589df046cb808661b4420806ff3cd953c7ea17430e8aa4f1cef",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t3",
+          "verifier": "improvements/86957/theory-2026-11-23/examples/t3/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t3.json"
+        }
+      ],
+      "component": "interesting/application_main",
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3253429,
+      "module_number": 8,
+      "pre_index": 4,
+      "kind": "command",
+      "language": "bash",
+      "sha256": "7ebffa0325b04457285649f0527f6c31a10e36fb9d5721bf1523edb52d556af7",
+      "raw_pre_sha256": "c984f81674cba0c15d4bda7f5f0ada05a52cde87021a5a17e5aa9d90e53d0631",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [],
+      "coverage": "Read for consistency; this command block is not claimed to have been executed literally."
+    },
+    {
+      "step_id": 3253503,
+      "module_number": 8,
+      "pre_index": 1,
+      "kind": "multi_file_component",
+      "language": "cpp",
+      "sha256": "9e3f4b1291d2105bddfa2d83e3bd86b59536998549c13894bb72c11c5154ee05",
+      "raw_pre_sha256": "8200faca6c2d0c8565646fc9f503e030ec83a244500d7e3d7d80dc8b4dcd1610",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-2026-11-23/examples/t3/interesting/tests.cpp",
+          "sha256": "9e3f4b1291d2105bddfa2d83e3bd86b59536998549c13894bb72c11c5154ee05",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t3",
+          "verifier": "improvements/86957/theory-2026-11-23/examples/t3/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t3.json"
+        }
+      ],
+      "component": "interesting/test_main",
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3253503,
+      "module_number": 8,
+      "pre_index": 2,
+      "kind": "build_configuration",
+      "language": "cmake",
+      "sha256": "73db348e164d36304c5eceff0a9f1f24c4d3768410e12b8851c12dbb62cc9653",
+      "raw_pre_sha256": "04b3b13c240d12b3ef90db8234996c2c190176a4575060467927aba48e937e58",
+      "has_main": false,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-2026-11-23/examples/t3/interesting/CMakeLists.txt",
+          "sha256": "73db348e164d36304c5eceff0a9f1f24c4d3768410e12b8851c12dbb62cc9653",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t3",
+          "verifier": "improvements/86957/theory-2026-11-23/examples/t3/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t3.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3253503,
+      "module_number": 8,
+      "pre_index": 3,
+      "kind": "command",
+      "language": "bash",
+      "sha256": "2b0816d60e2037d7c5e57232cb1b885dcde2459760b095ddeac0f689019bd789",
+      "raw_pre_sha256": "524a4ddf4f15dc6095a3faac244142caab2f83397734ed9bb7b075cad439f845",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [],
+      "coverage": "Read for consistency; this command block is not claimed to have been executed literally."
+    },
+    {
+      "step_id": 3253503,
+      "module_number": 8,
+      "pre_index": 4,
+      "kind": "command",
+      "language": "text",
+      "sha256": "d505a7a02e0875b43d08f04c53211802f790533604f8e2cdd65d6ab315205f09",
+      "raw_pre_sha256": "96084c1ce183c17c3421ffb7a376d3583cf1024ce4382bcce5a672e81a7bf691",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [],
+      "coverage": "Read for consistency; this command block is not claimed to have been executed literally."
+    },
+    {
+      "step_id": 3253548,
+      "module_number": 8,
+      "pre_index": 1,
+      "kind": "output",
+      "language": "text",
+      "sha256": "a81e6ddc7f12e49e68b8eaf18dde028ee12b90a3b27f1be1b72a747e60c8083a",
+      "raw_pre_sha256": "0d05527c0f69c08c75d907a69e773af14129a0f676387a2520f532e253d8540a",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [],
+      "coverage": "Expected output, not a compilable program. Relevant program output is covered only by its own binding."
+    },
+    {
+      "step_id": 3253553,
+      "module_number": 8,
+      "pre_index": 1,
+      "kind": "multi_file_component",
+      "language": "cpp",
+      "sha256": "20f2dbebadda9d161df1cd764d204a71010a6eb5fa84a02bac777b3b7a1d90c3",
+      "raw_pre_sha256": "2628f0887915efea6cb52f22cef659383b3ace1610c2ab71280676e823ecfa19",
+      "has_main": false,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-2026-11-23/examples/t3/gtest/gtest_assertions.cpp",
+          "sha256": "20f2dbebadda9d161df1cd764d204a71010a6eb5fa84a02bac777b3b7a1d90c3",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t3",
+          "verifier": "improvements/86957/theory-2026-11-23/examples/t3/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t3.json"
+        }
+      ],
+      "component": "gtest/test_component_with_library_main",
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3253553,
+      "module_number": 8,
+      "pre_index": 2,
+      "kind": "build_configuration",
+      "language": "cmake",
+      "sha256": "d6845127b3c06f5133560cb8bc844fdf28dd16be98fb8e5b35db180582a696a6",
+      "raw_pre_sha256": "0df2856ca4e7db0275f0ec9df6673a87e95f94efd3aa62cf5aef32a1d393b973",
+      "has_main": false,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-2026-11-23/examples/t3/gtest/CMakeLists.txt",
+          "sha256": "d6845127b3c06f5133560cb8bc844fdf28dd16be98fb8e5b35db180582a696a6",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t3",
+          "verifier": "improvements/86957/theory-2026-11-23/examples/t3/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t3.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3253553,
+      "module_number": 8,
+      "pre_index": 3,
+      "kind": "command",
+      "language": "text",
+      "sha256": "ab4334d5d32f3242fd95f36003189629583dc44676acd1ea5dec7c2628c00f6d",
+      "raw_pre_sha256": "401c97b363004bebd7cc3038659e2ab47ee9824d1a795414ad36e687bc20570f",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [],
+      "coverage": "Read for consistency; this command block is not claimed to have been executed literally."
+    },
+    {
+      "step_id": 3212947,
+      "module_number": 9,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "eaa74cd0b488b72847a7ff30d936ff495831003607e8a7600b02d11b708b4cd1",
+      "raw_pre_sha256": "c4bb974e693c974509954179135c95e96314561465d1d921f87e270df2a706e9",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/cstring_bounds.cpp",
+          "sha256": "eaa74cd0b488b72847a7ff30d936ff495831003607e8a7600b02d11b708b4cd1",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t2",
+          "verifier": "improvements/86957/theory-continuation-2026-11-23/examples/t2/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t2.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3214845,
+      "module_number": 9,
+      "pre_index": 1,
+      "kind": "fragment",
+      "language": "cpp",
+      "sha256": "8435fb6af6c0be3537bbfb48060afc1b9bc13c24de7cb5b6052a34f49422f1c3",
+      "raw_pre_sha256": "f698ca292eb83a00eb0884cc8e36838a04906afe4880ec6fe5859e65db199b74",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [],
+      "coverage": "Read semantically; no separate compiler/run claim for this fragment."
+    },
+    {
+      "step_id": 3214845,
+      "module_number": 9,
+      "pre_index": 2,
+      "kind": "fragment",
+      "language": "cpp",
+      "sha256": "b04e662c1385eeddf3ce46988065eb697b9ec17d8873e65bb21c2f3ddf080470",
+      "raw_pre_sha256": "3c5a3bb34db4c65289c6f6f81511213c3e7d3d83210f66e4f7adc79d944ce665",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [],
+      "coverage": "Read semantically; no separate compiler/run claim for this fragment."
+    },
+    {
+      "step_id": 3214873,
+      "module_number": 9,
+      "pre_index": 1,
+      "kind": "fragment",
+      "language": "cpp",
+      "sha256": "09d7e7e93cc9a39208af26b80aa5a617097308e4ea04db4a3702dc4f57318dd7",
+      "raw_pre_sha256": "f911f33444207f98bf143d458040ad6508ac85099323ee78635907f703754a76",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [],
+      "coverage": "Read semantically; no separate compiler/run claim for this fragment."
+    },
+    {
+      "step_id": 3214873,
+      "module_number": 9,
+      "pre_index": 2,
+      "kind": "expected_failure",
+      "language": "cpp",
+      "sha256": "f6222ff0cb2334f6f2ac8e192d14c7ef978a4ffdf3d2ea42ae32b6ee153a5cbd",
+      "raw_pre_sha256": "2f2dc1b9381670dd9da8ed96cb15c7ee300611e99bb07f0db2dfe94b9277f556",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [
+        {
+          "suite": "new_core",
+          "verifier": "improvements/86957/theory-final-review-2026-11-23/examples/core/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/new_core.json"
+        }
+      ],
+      "verification_detail": "The exact decoded fragment is inserted in an author wrapper and rejected in C++17 and C++20.",
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3214873,
+      "module_number": 9,
+      "pre_index": 3,
+      "kind": "fragment",
+      "language": "cpp",
+      "sha256": "e092de1987205800c20bf0a6d4b673bf870b25b0913d93e4cb2e9d2dac4f0aff",
+      "raw_pre_sha256": "8c305c6df0bab0c709c6ca2418a41557cea3f8ddf7a81418cb7b6679e4fab196",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [],
+      "coverage": "Read semantically; no separate compiler/run claim for this fragment."
+    },
+    {
+      "step_id": 3214873,
+      "module_number": 9,
+      "pre_index": 4,
+      "kind": "fragment",
+      "language": "cpp",
+      "sha256": "143524008953ea7741b3041ff185e9f24205da73165f6bf8fb35f7fd18f65a34",
+      "raw_pre_sha256": "eb85a218532c6b388e477d9194e182a6958b0fdbc5311a949b012faa4893b9b8",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [],
+      "coverage": "Read semantically; no separate compiler/run claim for this fragment."
+    },
+    {
+      "step_id": 3212948,
+      "module_number": 9,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "b9f6033604eeddc5e18cfdfcd5e55bdf97d39062d3844151acb9a4bf2cc8f505",
+      "raw_pre_sha256": "0f3f992c534c0a9ad2dc4b73f9861494bf54943925466461689f59d914d3ac22",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/preserved_3212948_1.cpp",
+          "sha256": "b9f6033604eeddc5e18cfdfcd5e55bdf97d39062d3844151acb9a4bf2cc8f505",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t2",
+          "verifier": "improvements/86957/theory-continuation-2026-11-23/examples/t2/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t2.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3212948,
+      "module_number": 9,
+      "pre_index": 2,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "43f4e4c6e59bd41965ad3a765bfcbc08f1c209f24691956f7d2a464c3f7b5e61",
+      "raw_pre_sha256": "12507b43cffbfa46044f350e474cf87be4188222ac288730b623bd60b14fe47b",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/preserved_3212948_2.cpp",
+          "sha256": "43f4e4c6e59bd41965ad3a765bfcbc08f1c209f24691956f7d2a464c3f7b5e61",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t2",
+          "verifier": "improvements/86957/theory-continuation-2026-11-23/examples/t2/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t2.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3214903,
+      "module_number": 9,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "e2a5861de05253a3bb68cb47a5c5f3b9d7fd1a8e761d4d3083c56e3017fffa26",
+      "raw_pre_sha256": "b54b82786e5a46c289c2b3c693579d4fdfd25fd29506a39723857171fdd11551",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/preserved_3214903_1.cpp",
+          "sha256": "e2a5861de05253a3bb68cb47a5c5f3b9d7fd1a8e761d4d3083c56e3017fffa26",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t2",
+          "verifier": "improvements/86957/theory-continuation-2026-11-23/examples/t2/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t2.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3214903,
+      "module_number": 9,
+      "pre_index": 2,
+      "kind": "output",
+      "language": null,
+      "sha256": "be9501eddcc9798a9fb13f584b6b13c501a999b5af3ead700b1c14409ade674d",
+      "raw_pre_sha256": "cf47fdee426f4b1e95468e649a887357a6a3f359b12ac94557fff698a27debe0",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [],
+      "coverage": "Expected output, not a compilable program. Relevant program output is covered only by its own binding."
+    },
+    {
+      "step_id": 3214902,
+      "module_number": 9,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "92999fcff29b8d13aa5fff91415043e85f9158f4759d03ca49e1849a8c10a636",
+      "raw_pre_sha256": "bbddb5e3c582bcc718a5ab200f77f6bf0c47105dd234b8107c3b4a6b450dedab",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/string_operators.cpp",
+          "sha256": "92999fcff29b8d13aa5fff91415043e85f9158f4759d03ca49e1849a8c10a636",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t2",
+          "verifier": "improvements/86957/theory-continuation-2026-11-23/examples/t2/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t2.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3214904,
+      "module_number": 9,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "ee46d8f7f069af5c4743cecdba462c8ac7ef361b13e034df7d9cee1b2124d78c",
+      "raw_pre_sha256": "62b3da9be92f89f69d62ee9a0b3c4a980563f5edc374ecc594e563e2babe2bd7",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/preserved_3214904_1.cpp",
+          "sha256": "ee46d8f7f069af5c4743cecdba462c8ac7ef361b13e034df7d9cee1b2124d78c",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t2",
+          "verifier": "improvements/86957/theory-continuation-2026-11-23/examples/t2/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t2.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3214904,
+      "module_number": 9,
+      "pre_index": 2,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "39ffa9146e3b4f97374a253bca515cc9928853d2494650dc611b95cd69cc929e",
+      "raw_pre_sha256": "7688f9c50500f10b7b10477873458e8ef50b3f2022e719ea596bda4281760538",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-continuation-2026-11-23/examples/t2/parse_integer.cpp",
+          "sha256": "39ffa9146e3b4f97374a253bca515cc9928853d2494650dc611b95cd69cc929e",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t2",
+          "verifier": "improvements/86957/theory-continuation-2026-11-23/examples/t2/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t2.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3213241,
+      "module_number": 10,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "fae0a4c9ac8b60af3658efcef3d5ee05db79e9629604f8ff88a6d5a54aa73849",
+      "raw_pre_sha256": "9165818d98c61def0b109ed8094b16db01228ad384f85d9f285b9e13ee44ea95",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/3213241.cpp",
+          "sha256": "fae0a4c9ac8b60af3658efcef3d5ee05db79e9629604f8ff88a6d5a54aa73849",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t4",
+          "verifier": "improvements/86957/theory-continuation-2026-11-23/examples/t4/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t4.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3213243,
+      "module_number": 10,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "626d9d2a57060297fa8b244eac5e5f8ff7a67e921350ebd5587a56299c59475d",
+      "raw_pre_sha256": "282fd4af88d79159fb521d54a8867ee55288175be254a49c49281aa59500ba64",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/3213243.cpp",
+          "sha256": "626d9d2a57060297fa8b244eac5e5f8ff7a67e921350ebd5587a56299c59475d",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t4",
+          "verifier": "improvements/86957/theory-continuation-2026-11-23/examples/t4/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t4.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3213242,
+      "module_number": 10,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "6211ffad762bd0db903a71c5053e67262acfe386f8f34304df4f18fb4135766c",
+      "raw_pre_sha256": "2951ffdd9d8a038fc2b4e7c365ff987cced849cb3656474fdba205a6e6a96608",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/3213242.cpp",
+          "sha256": "6211ffad762bd0db903a71c5053e67262acfe386f8f34304df4f18fb4135766c",
+          "match": "exact_decoded_bytes",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t4",
+          "verifier": "improvements/86957/theory-continuation-2026-11-23/examples/t4/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t4.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3213247,
+      "module_number": 10,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "d540a5957fe3a7e58ff58f74887d48b1740df48692bfe11ba87fa392fe025e62",
+      "raw_pre_sha256": "caf76c2ed6ad67b725dc49e0d83683551e1108abb86977fbe86f428d43b56790",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/algorithms/halving.cpp",
+          "sha256": "12730472e46fd11d40e290000d7bc34e4af1fd9e07c8feeb0e7e1f1da44de384",
+          "match": "equal_after_trimming_outer_whitespace",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t4",
+          "verifier": "improvements/86957/theory-continuation-2026-11-23/examples/t4/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t4.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3213256,
+      "module_number": 10,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "42b4c5640f9d7852687098a5b618ac400096912f66660d4163a3e2156e662002",
+      "raw_pre_sha256": "25a915dad2a90d4d4268809fe0540c7fe0b69ca56fd67ddc79611cccf8d0c86a",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/algorithms/operation_counts.cpp",
+          "sha256": "4d7eaefd35c175cf1a137eb6f1855e5d605c6763254e95fbece78e6fcbe83a97",
+          "match": "equal_after_trimming_outer_whitespace",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t4",
+          "verifier": "improvements/86957/theory-continuation-2026-11-23/examples/t4/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t4.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3212954,
+      "module_number": 10,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "e7eb21847a384e8beab099919c5ba572772ca799cc847cc9f4703401d098dfa7",
+      "raw_pre_sha256": "8558bb2ef70335438d54ce9480684e5ee07cdf9786c8cd15036106e1bbfc2a03",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/algorithms/standard_sort.cpp",
+          "sha256": "4b6cfdf0e331b9c8699652d00aa65f150c78d50f42e03f05f691d774b994ffe5",
+          "match": "equal_after_trimming_outer_whitespace",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t4",
+          "verifier": "improvements/86957/theory-continuation-2026-11-23/examples/t4/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t4.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3215136,
+      "module_number": 10,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "6c9ac6ecb36a03950a96475f11b32dd388339cef600017e3856e26bee0c7ea2f",
+      "raw_pre_sha256": "b73cf3fb27841c2d71c7793a5f912c409f7777ddc52b8f803d9d50696b789fdf",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/algorithms/bubble_sort.cpp",
+          "sha256": "814030ced972f9e39fe5b4e6c31313e152d1ee057f5e948acbb98ad28a4a4572",
+          "match": "equal_after_trimming_outer_whitespace",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t4",
+          "verifier": "improvements/86957/theory-continuation-2026-11-23/examples/t4/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t4.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3215176,
+      "module_number": 10,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "4ddb74c386e4c448bda064a23fe5b34505cba1b331ba8fe15e680d32f9a42a7b",
+      "raw_pre_sha256": "478216f3e92512b4fc180e153b624b0c4e974bf3c59a959740ed21785fdc9b66",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/algorithms/insertion_sort.cpp",
+          "sha256": "557d06d68fbc3e95060e3a0d5a562c209910f591869c29d9bb6c23081a4d576a",
+          "match": "equal_after_trimming_outer_whitespace",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t4",
+          "verifier": "improvements/86957/theory-continuation-2026-11-23/examples/t4/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t4.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3215178,
+      "module_number": 10,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "5d258db41b45b73c5ee894af5b2efc274db1f8b1e57c3719eb2d15e99e287360",
+      "raw_pre_sha256": "2afad1d679edfbc4eae66c4020cd97fa24bbfca693a19ee97a81f6579840db56",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/algorithms/merge_sort.cpp",
+          "sha256": "74ded6d82d9ac0b5e73b6c8a49e8937e9b025b97963387ce6f5e9a1b19e1f6df",
+          "match": "equal_after_trimming_outer_whitespace",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t4",
+          "verifier": "improvements/86957/theory-continuation-2026-11-23/examples/t4/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t4.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3215179,
+      "module_number": 10,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "64f6410a380133a3601dad7cab216f1737eedb890030565d24e2f4cf82f8ccb0",
+      "raw_pre_sha256": "790bf20fbb1704a569d090e35fa0f856fbfcfff0d55da7bb65b7dcc18839d52a",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/algorithms/heap_sort.cpp",
+          "sha256": "235735c7dfcc55b9b97bb75ea89d3fe18addaa66db3344746db5bb9479766e70",
+          "match": "equal_after_trimming_outer_whitespace",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t4",
+          "verifier": "improvements/86957/theory-continuation-2026-11-23/examples/t4/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t4.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3215183,
+      "module_number": 10,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "90c029947631ba3cb4356369b8e55d65d32b15c2d209a756106107ba0a67b7c1",
+      "raw_pre_sha256": "d4e3a740472a6b894ce07d852efeb854a9ba22c6153df3a26a35de8961169acd",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/algorithms/linear_search.cpp",
+          "sha256": "c7005700901751f57b9a4cbbdf80973a4ac75ad31a94737f7f21d1d12e8c8946",
+          "match": "equal_after_trimming_outer_whitespace",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t4",
+          "verifier": "improvements/86957/theory-continuation-2026-11-23/examples/t4/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t4.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3215192,
+      "module_number": 10,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "491f7156091c7529d53c2651840e00bd24ab46c34417047cf465c692801d6904",
+      "raw_pre_sha256": "6d28c813bd6fcf1697dc6b2114f8774f21ec527c8261e3f63e16f33bcb8d8da6",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/algorithms/binary_search.cpp",
+          "sha256": "6e2afab2e2730c47d502947d2ea6d4bd87a3fcf38ddd410255bf3ce3f6df769d",
+          "match": "equal_after_trimming_outer_whitespace",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t4",
+          "verifier": "improvements/86957/theory-continuation-2026-11-23/examples/t4/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t4.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3215112,
+      "module_number": 11,
+      "pre_index": 1,
+      "kind": "fragment",
+      "language": "cpp",
+      "sha256": "698e84734d80a5268ad24e5dc30368696e9203fa4f0ce1521383c4ad405e09f9",
+      "raw_pre_sha256": "a64040c11fcffd3430eac019abf5eea081475a743dd4a7b8e52392b2ae1065d7",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [
+        {
+          "suite": "t4",
+          "verifier": "improvements/86957/theory-continuation-2026-11-23/examples/t4/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t4.json"
+        }
+      ],
+      "verification_detail": "T4 extracts this exact fragment into a function wrapper and checks answer.dat bytes.",
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3215203,
+      "module_number": 11,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "019bd85189b08b305d7830d56e9b84f734819814edf9472253ed1095c021b341",
+      "raw_pre_sha256": "86019a91835f694ab5734c2b930ed7edf8798ee6fdc8989f631e0afb567a9997",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/files/last_byte.cpp",
+          "sha256": "fcbea23b42d5577b1a11226f62744123a7ac7c9a0693100bc7871c7767d0e0de",
+          "match": "equal_after_trimming_outer_whitespace",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t4",
+          "verifier": "improvements/86957/theory-continuation-2026-11-23/examples/t4/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t4.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3215206,
+      "module_number": 11,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "1c1de341c0d374a18a0e2cb960fcf41163221610da373e72061742012c359622",
+      "raw_pre_sha256": "da1968637561f2bb7cf2f29af02d3de967a15f556e282a007fcbd67466b0f69f",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/files/sum_numbers.cpp",
+          "sha256": "cc449b3b3ae04a79813198b2397795ec6365dd1016c706864db275283e74255d",
+          "match": "equal_after_trimming_outer_whitespace",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t4",
+          "verifier": "improvements/86957/theory-continuation-2026-11-23/examples/t4/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t4.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3215113,
+      "module_number": 11,
+      "pre_index": 1,
+      "kind": "output",
+      "language": null,
+      "sha256": "4f6586b5b4710529d1a672ca91b805fc5dbed106582810c17b0a516085acabc3",
+      "raw_pre_sha256": "be67bca89d3997e32888e3f055a7a5a1766df231a693b0dd48dc6d24f8b36c08",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [],
+      "coverage": "Expected output, not a compilable program. Relevant program output is covered only by its own binding."
+    },
+    {
+      "step_id": 3215113,
+      "module_number": 11,
+      "pre_index": 2,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "c6cbb8cdcbbd90b583bf81e643dc4feea5b9b898c49cd40ab228dd0852232171",
+      "raw_pre_sha256": "c75dd988ad6dc32062d298f82aca156cc10dac027638e6274ff2dcef070daf4b",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/files/read_lines.cpp",
+          "sha256": "444d8c0016866b3ec3937f6ba6dacfbcccf34fb136112708c79e9e934616e757",
+          "match": "equal_after_trimming_outer_whitespace",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t4",
+          "verifier": "improvements/86957/theory-continuation-2026-11-23/examples/t4/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t4.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3215113,
+      "module_number": 11,
+      "pre_index": 3,
+      "kind": "command",
+      "language": null,
+      "sha256": "35e43a528e39f35b1ca2a39f1c3b9a7bf514b45f89b2dad6d8945d21b1a33d46",
+      "raw_pre_sha256": "521866a4917472f346e3a208e812866b6b3be0b1ec5efc6564a15a58774c247d",
+      "has_main": false,
+      "source_bindings": [],
+      "verification_bindings": [],
+      "coverage": "Read for consistency; this command block is not claimed to have been executed literally."
+    },
+    {
+      "step_id": 3215200,
+      "module_number": 11,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "59e426097c8f506055c2111c678d77ebc727b9423e0de55c7eabc5ff8ad58a80",
+      "raw_pre_sha256": "fa3cacd0c61f67b8945eefc48e0f32c4387c0c9ece635101dc8f4970f04fa03f",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/files/write_report.cpp",
+          "sha256": "d0653d27ed3772070b5849d8c78df4dae8d29acb2b5a64c219e9c88774619782",
+          "match": "equal_after_trimming_outer_whitespace",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t4",
+          "verifier": "improvements/86957/theory-continuation-2026-11-23/examples/t4/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t4.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3215199,
+      "module_number": 11,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "45abb954da96df06b471736b2a6ca74d6209bd3033ee22d458b75ae59728f1e9",
+      "raw_pre_sha256": "c79842fcc917938d27badd87b93ee592dabfb0fd57b465ac280a9f2108d88843",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/files/c_write.cpp",
+          "sha256": "2892758974a2a18ca161e47f36c43436236abd2e5f90042a73cdfa763fc87ae8",
+          "match": "equal_after_trimming_outer_whitespace",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t4",
+          "verifier": "improvements/86957/theory-continuation-2026-11-23/examples/t4/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t4.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3580923,
+      "module_number": 11,
+      "pre_index": 1,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "ad43a59eba956b592718ecb471186403ba0199a4ac2fa5c8efa3517b57e987d0",
+      "raw_pre_sha256": "f4dc9890a771543bc2a80799b91b0f9fb46f65a60cb585da769e736f164cfaa0",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/files/append_line.cpp",
+          "sha256": "bc810f410fcfe77a0955bfc7d775cc4643a55272eb8221fca8f90d783b162eef",
+          "match": "equal_after_trimming_outer_whitespace",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t4",
+          "verifier": "improvements/86957/theory-continuation-2026-11-23/examples/t4/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t4.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    },
+    {
+      "step_id": 3580923,
+      "module_number": 11,
+      "pre_index": 2,
+      "kind": "full_program",
+      "language": "cpp",
+      "sha256": "c37d78a01ea40fc9aec8867043d55fd8c78eb69ac71fac80a23ab39c3add9fa8",
+      "raw_pre_sha256": "fbfb79d22a974c0ec054883a5ab0ae5404bc43a098b50fc8ef857f657b6486a0",
+      "has_main": true,
+      "source_bindings": [
+        {
+          "path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/files/overwrite_prefix.cpp",
+          "sha256": "9bcb4688f3cc4f145e767008abebf6cd4427f4f5df90078719b2745cda34185e",
+          "match": "equal_after_trimming_outer_whitespace",
+          "source_sha256_matches_current_report": true
+        }
+      ],
+      "verification_bindings": [
+        {
+          "suite": "t4",
+          "verifier": "improvements/86957/theory-continuation-2026-11-23/examples/t4/verify.py",
+          "current_report": "improvements/86957/theory-final-review-2026-11-23/validation/recheck/t4.json"
+        }
+      ],
+      "coverage": "Mapped to the named verifier and current report; the inventory itself does not execute code."
+    }
+  ],
+  "limits": [
+    "Semantic reading covers all 96 texts, including inline examples; the code inventory enumerates pre blocks only.",
+    "A multi-file main is a component, not a standalone executable; components require their named companion sources.",
+    "Matching an existing file is not by itself proof of execution: the specific verifier and new report are given separately.",
+    "Historical suites were rerun by the integrator in isolation; this inventory does not rerun them or change historical reports.",
+    "No claim that every fragment or command was compiled or executed; unbound fragments and literal command blocks are explicitly marked.",
+    "This is not a review of module 20, assessed tasks, video steps, or live Stepik."
+  ]
+}

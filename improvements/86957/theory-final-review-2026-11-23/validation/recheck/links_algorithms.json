@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "run_started_utc": "2026-11-23T14:40:48.577335+00:00",
+  "base_commit": "352c2796717a55f4f0db8395b7d6093d8d67c35e",
+  "scope": "LINKS algorithms: unchanged code binding, duplicate-return contracts, independent find result and file-direction transitions",
+  "compilation_count": 4,
+  "execution_count": 4,
+  "checks": [
+    {
+      "kind": "only_block_text_and_unchanged_listings",
+      "steps": 9,
+      "passed": true
+    },
+    {
+      "kind": "current_html_bound_to_preserved_t6_sources",
+      "headers": [
+        "avl.hpp",
+        "hash_table.hpp",
+        "rbt.hpp"
+      ],
+      "bst_prefix_extracted": true,
+      "passed": true
+    },
+    {
+      "source": "contracts.cpp",
+      "standard": "c++17",
+      "output": "BST: bool; duplicates preserve values\nAVL: bool; duplicate and reinsert contracts\nRB: void; duplicate and reinsert contracts\nItemTable: returned copy survives update, rehash and erase\n",
+      "files": {},
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "source": "stream_switching.cpp",
+      "standard": "c++17",
+      "output": "output -> flush -> input: B\ninput -> position -> output; EOF recovery: AXC!\nsuccessful extraction with eofbit -> clear -> output: 17!\nempty file -> EOF recovery -> output: Q\nmissing file: opening failure\n",
+      "files": {
+        "empty.bin": "Q",
+        "flush.bin": "XBC",
+        "number.bin": "17!",
+        "position.bin": "AXC!"
+      },
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "source": "contracts.cpp",
+      "standard": "c++20",
+      "output": "BST: bool; duplicates preserve values\nAVL: bool; duplicate and reinsert contracts\nRB: void; duplicate and reinsert contracts\nItemTable: returned copy survives update, rehash and erase\n",
+      "files": {},
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "source": "stream_switching.cpp",
+      "standard": "c++20",
+      "output": "output -> flush -> input: B\ninput -> position -> output; EOF recovery: AXC!\nsuccessful extraction with eofbit -> clear -> output: 17!\nempty file -> EOF recovery -> output: Q\nmissing file: opening failure\n",
+      "files": {
+        "empty.bin": "Q",
+        "flush.bin": "XBC",
+        "number.bin": "17!",
+        "position.bin": "AXC!"
+      },
+      "exit_code": 0,
+      "passed": true
+    }
+  ],
+  "standards": [
+    "c++17",
+    "c++20"
+  ],
+  "historical_reports_modified": false,
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "input_sha256": {
+    "courses/86957/steps/770594/05_3213242_text.step": "06455ceaaeacdc7cd444b1c9fce32beaa513223992c24845b5efed18ce3b2e06",
+    "courses/86957/steps/771129/01_3215109_text.step": "e60f54ef1c61c247f9d743261fa7bbdb4346f0073f8717062f036f91c7729aa4",
+    "courses/86957/steps/771131/01_3215113_text.step": "84da624b21c910db7ecc92ed81daefb6d27680198f3d5613485422932977c037",
+    "courses/86957/steps/771131/04_3580923_text.step": "1855a608f7db45b06b029a435c234672b5c618c51d83319131576f1103336614",
+    "courses/86957/steps/853539/02_3570230_text.step": "5800f9c936e6bda5ddd8e448de3bfc772884001e5b78e5dc873ff80093346098",
+    "courses/86957/steps/853540/02_3570281_text.step": "d418f4fc4f0c5a05eacb720b96bd03d7285f4aa775b76c122f7112308fe5e1e1",
+    "courses/86957/steps/853541/01_3569332_text.step": "01b0ac148651b6f01422c668166342c0e4063ff65146e9f3de5e77d760485a12",
+    "courses/86957/steps/853541/02_3570303_text.step": "826d3b2d16a2cf0119f7f9381f8e5acca45920d8ab6f7af9cbb61ed75c2f44ec",
+    "courses/86957/steps/853541/03_3570304_text.step": "dfda4a17131fbe0e637a6dfe126ea837d85f757aaca90e2dc1b3be71eccb3e87",
+    "courses/86957/steps/853541/04_3570333_text.step": "50690b905505b9410e4c955f7c1448de3b673acb03cb9e0177087d07df08db47",
+    "courses/86957/steps/973831/02_4035481_text.step": "8e84a1e8ff47ba0788a61fa7986a0a35563f3e7b6c02991ffcbef0a25d1ec697",
+    "courses/86957/steps/973837/02_4035517_text.step": "3915f2c0668fca9a8f8fe59aba521e26918db7206ac928c8ad7bedb42e69bfc8",
+    "improvements/86957/theory-2026-11-23/examples/t6/avl.hpp": "c06abed31a07704a5af014e5fb8503c0820b6d96e1662db12acb410c7c85bd46",
+    "improvements/86957/theory-2026-11-23/examples/t6/bst.cpp": "a1fbf27c5b3f19cfce5854b2752a2b81398122f08d605d0c36bf8d24b25198b6",
+    "improvements/86957/theory-2026-11-23/examples/t6/hash_table.hpp": "e3408f3da00170d0e2097fcf11b142b220b178ff572a9079d23a484c3567dca2",
+    "improvements/86957/theory-2026-11-23/examples/t6/rbt.hpp": "168cd5b1d2606264d03b9127ef24c2ff912d22fc9b8e5870d094b4ad4fa43277",
+    "improvements/86957/theory-links-2026-11-23/changes_algorithms.json": "00179b609ca05cfb288c006add89b2dd8cc92c4828ba4ca30032b45016082abf",
+    "improvements/86957/theory-links-2026-11-23/examples/algorithms/README.md": "c4a906764878825b4f88c90864ea8ea96a7917ca23320424d2d230e315556f30",
+    "improvements/86957/theory-links-2026-11-23/examples/algorithms/contracts.cpp": "e29ef31ecc88d2442ba303d5f7b56a0fa4951038ed12f93c246a004fc443f311",
+    "improvements/86957/theory-links-2026-11-23/examples/algorithms/stream_switching.cpp": "76374a475e1bab0f4f0861f5f10dcf1d7718dc77cbad405ae1fd5d4494220ca7",
+    "improvements/86957/theory-links-2026-11-23/examples/algorithms/verify.py": "b5170f0f603b189b03c7bf0e4375d937b71419edc6ad9dc7038513c0e6db694b",
+    "improvements/86957/theory-links-2026-11-23/steps/770594/05_3213242_text.step": "3eee1eae1afb594a52d555ee7f12347d163cefc58b461dd3f850e92d611d34ea",
+    "improvements/86957/theory-links-2026-11-23/steps/771129/01_3215109_text.step": "a202f2322fab10ffa8e22e336fe786f6094c756a09ef49db2a552625df7ba778",
+    "improvements/86957/theory-links-2026-11-23/steps/771131/01_3215113_text.step": "d20a78e26c6f3799883565accf379d61061904a12ab1c06bb3721755612b5b43",
+    "improvements/86957/theory-links-2026-11-23/steps/771131/04_3580923_text.step": "844732654f70ebfd7acd27c0397029fadf0985a179cb60c2a498c9ef78234c82",
+    "improvements/86957/theory-links-2026-11-23/steps/853539/02_3570230_text.step": "dbec07a03f0f6cc55cb15cb55f33b485cb47cd91371f29d12923c447dd316ba9",
+    "improvements/86957/theory-links-2026-11-23/steps/853541/01_3569332_text.step": "b48beb3e4d998abf79a0bcf2b4ddb1bd79ef8cecfbd6ce8ed594426180facc61",
+    "improvements/86957/theory-links-2026-11-23/steps/853541/04_3570333_text.step": "2d03dadf0feba385b34de2d8603e210fb766b2e605ac6ec33b31cb03acd46daf",
+    "improvements/86957/theory-links-2026-11-23/steps/973831/02_4035481_text.step": "5d152e77161947c74113870beaa8484e90e02360d76004b48d476c82d851f927",
+    "improvements/86957/theory-links-2026-11-23/steps/973837/02_4035517_text.step": "296bcb84d4821e7fb886735cf3dbcbaff929d30382159cd076437fcfae35a202"
+  },
+  "run_finished_utc": "2026-11-23T14:40:54.345245+00:00",
+  "limits": [
+    "Linux/GCC and UBSan only; no new Windows/MSVC or macOS run.",
+    "These finite checks confirm the named result contracts, not all AVL/RB states or all C++ implementations.",
+    "The file checks use ordinary seekable binary files and do not model disk failure or power loss.",
+    "Asymptotic costs are reasoned from code and versioned requirements, not inferred from timing.",
+    "No live Stepik API reads or writes; no assessed steps or checking programs are exercised."
+  ]
+}

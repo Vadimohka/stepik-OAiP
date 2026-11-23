@@ -1,0 +1,19 @@
+{
+  "name": "t4",
+  "started_at": "2026-11-23T14:40:05.443754+00:00",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "/workspace/scratch/b48445057238/verification-legacy/improvements/86957/theory-continuation-2026-11-23/examples/t4/verify.py"
+  ],
+  "verifier_path": "improvements/86957/theory-continuation-2026-11-23/examples/t4/verify.py",
+  "verifier_sha256": "cb5ba82bd6b63e42a878036a2b1c8d76c326af8164e8ebced43a4b28bc3aa323",
+  "source_package": "improvements/86957/theory-continuation-2026-11-23",
+  "output_report": "/workspace/scratch/b48445057238/stepik-OAiP/improvements/86957/theory-final-review-2026-11-23/validation/recheck/t4.json",
+  "exit_code": 0,
+  "stdout": "{\"status\": \"passed\", \"text_steps\": 33, \"compilations\": 48, \"executions\": 1002}\n",
+  "stderr": "",
+  "reported_status": "passed",
+  "report_sha256": "0fc22f68be5043a4341f367a042e2f29b518435598332d356e0c4411c3c08f5f",
+  "status": "passed",
+  "finished_at": "2026-11-23T14:40:31.422587+00:00"
+}

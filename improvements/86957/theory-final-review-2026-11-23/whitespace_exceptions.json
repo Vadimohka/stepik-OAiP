@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "base_commit": "26bbfeb5065ef3475f9ea612a3a8785f934b7c49",
+  "status": "approved_preservation_of_exact_historical_source_bytes",
+  "decision_by": "root, after the independent uploader reported the staged whitespace findings",
+  "reason": "Девять строк с концевыми пробелами уже находятся в пяти полных учебных листингах закреплённого исходного снимка. Новые авторские .cpp являются точными копиями этих pre; сохраняем их побайтно для проверяемой связи с учебным кодом. Нормализация не требуется для корректности примеров. Исключение относится только к перечисленным SHA и строкам; любые другие замечания git diff --check блокируют сохранение.",
+  "no_checker_configuration_changed": true,
+  "source_code_and_runtime_reports_unchanged": true,
+  "approved_diagnostic": "trailing whitespace",
+  "files": [
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/examples/core/const_pointer.cpp",
+      "sha256": "aa3e20166508ce414a31a8cfa299cd128828a37b0ff8beff4046231bb3f46038",
+      "lines": [
+        2,
+        9,
+        12
+      ],
+      "step_id": 3212989,
+      "pre_index": 4,
+      "pre_index_base": 0,
+      "source_step_path": "courses/86957/steps/770585/06_3212989_text.step",
+      "source_step_sha256": "3dc4cdca3b367b34d2b682be42489e99777b08ca4c8a11b6bbdd206b3741537f",
+      "decoded_pre_sha256": "aa3e20166508ce414a31a8cfa299cd128828a37b0ff8beff4046231bb3f46038"
+    },
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/examples/core/const_view.cpp",
+      "sha256": "40926906ecc88c69774c6b121c5387326024d061f47a30b6e434d2fc75b1afd0",
+      "lines": [
+        2,
+        10
+      ],
+      "step_id": 3212989,
+      "pre_index": 2,
+      "pre_index_base": 0,
+      "source_step_path": "courses/86957/steps/770585/06_3212989_text.step",
+      "source_step_sha256": "3dc4cdca3b367b34d2b682be42489e99777b08ca4c8a11b6bbdd206b3741537f",
+      "decoded_pre_sha256": "40926906ecc88c69774c6b121c5387326024d061f47a30b6e434d2fc75b1afd0"
+    },
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/examples/core/pointer_to_const.cpp",
+      "sha256": "9eead12f5f60e35756bbdf29b49e70f85848d677dac6603a67af8a9b36824dba",
+      "lines": [
+        2,
+        7
+      ],
+      "step_id": 3212989,
+      "pre_index": 0,
+      "pre_index_base": 0,
+      "source_step_path": "courses/86957/steps/770585/06_3212989_text.step",
+      "source_step_sha256": "3dc4cdca3b367b34d2b682be42489e99777b08ca4c8a11b6bbdd206b3741537f",
+      "decoded_pre_sha256": "9eead12f5f60e35756bbdf29b49e70f85848d677dac6603a67af8a9b36824dba"
+    },
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/examples/foundations/narrow_casts.cpp",
+      "sha256": "396a89abde87f263953e803d5fd67cd8058d3538c6ea0e72afa3944c86a1ab09",
+      "lines": [
+        2
+      ],
+      "step_id": 3177281,
+      "pre_index": 2,
+      "pre_index_base": 0,
+      "source_step_path": "courses/86957/steps/763630/05_3177281_text.step",
+      "source_step_sha256": "1a2cfb63a564b3b3eb3940a06fbf791d97c9a5390e6e3fde3de634d06ca6ed61",
+      "decoded_pre_sha256": "396a89abde87f263953e803d5fd67cd8058d3538c6ea0e72afa3944c86a1ab09"
+    },
+    {
+      "path": "improvements/86957/theory-final-review-2026-11-23/examples/foundations/wide_characters.cpp",
+      "sha256": "ed1d70c097e9b62804524d4c93515a925bce8a683f397927825b377f438c4627",
+      "lines": [
+        2
+      ],
+      "step_id": 3177281,
+      "pre_index": 1,
+      "pre_index_base": 0,
+      "source_step_path": "courses/86957/steps/763630/05_3177281_text.step",
+      "source_step_sha256": "1a2cfb63a564b3b3eb3940a06fbf791d97c9a5390e6e3fde3de634d06ca6ed61",
+      "decoded_pre_sha256": "ed1d70c097e9b62804524d4c93515a925bce8a683f397927825b377f438c4627"
+    }
+  ]
+}

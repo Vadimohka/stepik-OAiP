@@ -1,0 +1,19 @@
+{
+  "name": "t1b",
+  "started_at": "2026-11-23T14:39:49.605893+00:00",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "/workspace/scratch/b48445057238/verification-legacy/improvements/86957/theory-continuation-2026-11-23/examples/t1b/verify.py"
+  ],
+  "verifier_path": "improvements/86957/theory-continuation-2026-11-23/examples/t1b/verify.py",
+  "verifier_sha256": "3f1d814a0f44856604a4b427da144f518bc9af080287ad4261704ed1f600ac46",
+  "source_package": "improvements/86957/theory-continuation-2026-11-23",
+  "output_report": "/workspace/scratch/b48445057238/stepik-OAiP/improvements/86957/theory-final-review-2026-11-23/validation/recheck/t1b.json",
+  "exit_code": 0,
+  "stdout": "{\"status\": \"passed\", \"counts\": {\"changed_payloads_checked\": 40, \"source_bindings\": 8, \"compilations\": 22, \"runtime_cases\": 49, \"expected_compile_failures\": 4, \"expected_link_failures\": 2, \"cmake_configurations\": 1, \"cmake_builds\": 1, \"mathematical_checks\": 15}}\n",
+  "stderr": "",
+  "reported_status": "passed",
+  "report_sha256": "485dae2c47cf4fc462506f725a18458b58704f10569a22d2c17853355dcf3e74",
+  "status": "passed",
+  "finished_at": "2026-11-23T14:39:56.818573+00:00"
+}
